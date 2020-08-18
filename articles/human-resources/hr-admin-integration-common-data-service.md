@@ -3,7 +3,7 @@ title: Настройка интеграции с Common Data Service
 description: Можно включать и выключать интеграцию между Common Data Service и Dynamics 365 Human Resources. Можно также просмотреть сведения о синхронизации, удалить данные отслеживания и повторно синхронизировать объект, чтобы помочь в устранении ошибок данных в этих средах.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431322"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621312"
 ---
 # <a name="configure-common-data-service-integration"></a>Настройка интеграции с Common Data Service
 
@@ -66,6 +66,9 @@ ms.locfileid: "3431322"
 - Чтобы отключить интеграцию, установите для параметра значение **Нет**.
 
 [![Включение или отключение интеграции Common Data Service](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Настоятельно рекомендуется отключить интеграцию Common Data Service при выполнении задач переноса данных. Большие объемы передачи данных могут значительно повлиять на производительность системы. Например, отправка 2000 работников может занять несколько часов, если интеграция включена, и менее одного часа при отключении. Представленные в этом примере номера предназначены только для демонстрационных целей. Точное количество времени, необходимое для импорта записей, может сильно различаться в зависимости от многих факторов.
 
 ## <a name="view-data-integration-details"></a>Просмотр сведений об интеграции данных
 

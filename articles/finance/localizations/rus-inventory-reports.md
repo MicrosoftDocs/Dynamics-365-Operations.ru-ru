@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42f38ec16ea59007583e26b68c6891da65c46429
-ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
+ms.openlocfilehash: a8f169172d2fe2a1cb4f7e189a5dc37eba140ae2
+ms.sourcegitcommit: 06fb4b68b2d94020ef639239ed395b7f63aa807f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339867"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645236"
 ---
 # <a name="inventory-reports"></a>Отчеты о запасах
 [!include [banner](../includes/banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "3339867"
 
 ### <a name="inventory-balance-turnover-inquiry"></a>Запрос оборотной ведомости по складу
 
-1. Перейдите к пункту **Управление запасами** \> **Запросы и отчеты** \> **Проводки** \> **Оборотная ведомость по складу**.
+1. Перейдите к пункту **Управление запасами** \> **Запросы и отчеты** \> **Отчеты о проводках (Россия)** \> **Оборотная ведомость по складу**.
 
     ![Страница Оборотная ведомость по складу](media/3_Inventory_balance_turnover.png)
 

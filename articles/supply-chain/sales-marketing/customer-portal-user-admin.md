@@ -3,7 +3,7 @@ title: Создание пользователей клиентского пор
 description: В этой теме объясняется, как создавать учетные записи пользователей клиентского портала и задавать для них разрешения.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414003"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645321"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
@@ -30,11 +30,16 @@ ms.locfileid: "3414003"
 
 При самостоятельной регистрации пользователей для них автоматически создаются записи контактов. Поэтому нельзя гарантировать, что пользователь выбрал правильный счет клиента и юридическое лицо. С другой стороны, процесс приглашения позволяет администратору назначить для записи контакта правильный счет клиента и юридическое лицо перед отправкой приглашения. Если вы думаете о настройке решения, чтобы пользователи могли самостоятельно регистрироваться, примите во внимание возможные последствия.
 
+## <a name="video"></a>Видео
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+Видео [Приглашение клиентов для регистрации и использование портала клиента](https://youtu.be/drGUYHX9QIQ) (см. выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный в YouTube.
+
 ## <a name="prerequisite-setup"></a>Необходимые условия настройки
 
 Контакты на порталах Power Apps хранятся в виде записей в объекте **Контакты** в Common Data Service. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
 
-![![Диаграмма системы для контактов клиентского портала](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Диаграмма системы для контактов клиентского портала](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
 
 Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление объекта **Контакт** в двойной записи.
 

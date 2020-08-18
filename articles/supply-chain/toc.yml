@@ -70,15 +70,15 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (октябрь 2020 г.)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (август 2020 г.)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (май 2020 г.)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Удаленные или устаревшие функции
                   items:
-                    - name: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
+                    - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Удаленные или устаревшие функции в предыдущих выпусках
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -109,23 +109,23 @@
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Лица, принимающие решения'
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Бизнес-пользователи
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Менеджеры проекта реализации
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Администраторы
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Разработчики
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Продажи и маркетинг партнера
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Функциональные консультанты
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Архитекторы решений
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Знакомство с пользовательским интерфейсом
               items:
                 - name: Элементы пользовательского интерфейса
@@ -1257,6 +1257,8 @@
               items:
                 - name: Журналы запасов
                   href: inventory/inventory-journals.md
+                - name: Рабочие процессы утверждения журнала запасов
+                  href: inventory/inventory-journal-workflow.md
                 - name: Места хранения
                   href: inventory/inventory-locations.md
                 - name: Статусы запасов
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Проверка доступности запасов
                   href: inventory/tasks/check-availability-stock.md
+                - name: Список запасов в наличии
+                  href: inventory/inventory-on-hand-list.md
                 - name: Инициализация уровней запасов на складе
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Перемещение физических запасов в пределах склада
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Маршруты и операции
                       href: production-control/routes-operations.md
-                    - name: Политики работы склада
+                    - name: Политики работы
                       href: warehousing/warehouse-work-policies.md
                     - name: Создание свойств графика рабочего времени
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Смешивание аналитик продуктов в местонахождении
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Проверка качества
+                  href: warehousing/quality-check.md
             - name: Исходящие складские операции
               items:
                 - name: Резервирование в модуле "Управление складом"
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Пополнение порога зоны
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Пополнение сверх объема местонахождения
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Формирование загрузок и отгрузок
                   items:
-                    - name: Подтверждение и перенос
+                    - name: Подтверждение и перемещение
                       href: warehousing/confirm-and-transfer.md
+                    - name: Подтвердить исходящие отгрузки из пакетных заданий
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Расширенное формирование загрузок во время волны
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Правило выпуска на склад
@@ -2679,10 +2689,8 @@
               items:
                 - name: Политики работы склада
                   items:
-                    - name: Обзор политик работы склада
+                    - name: Политики работы
                       href: warehousing/warehouse-work-policies.md
-                    - name: Настройка политик работы склада
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Перемещение запасов со связанной работой в модуле "Управление складом"
                       href: warehousing/move-inventory-associated-work.md
                     - name: Создание класса работ
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Задание очистки записей в наличии для управления складом
                       href: warehousing/onhand-cleanup.md
-                    - name: Журнал запасов
+                    - name: Журналы запасов
                       href: inventory/inventory-journals.md
                     - name: Место хранения
                       href: inventory/inventory-locations.md

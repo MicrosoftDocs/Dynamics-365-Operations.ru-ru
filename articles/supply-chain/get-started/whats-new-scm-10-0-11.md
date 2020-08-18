@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530290"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.11 (июль 2020 г.)
 
@@ -39,11 +39,11 @@ ms.locfileid: "3530290"
 Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 - [Хранилище отчетов о запасах в наличии](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Улучшения получения грузомест для приложения склада для мобильных устройств](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) — для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение склада](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Улучшения резервирования строки для формы резервирования номеров партий](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) — дополнительные сведения см. в разделе [Резервирование одной и той же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Улучшения получения грузомест для приложения склада для мобильных устройств](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение склада](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Улучшения резервирования строки для формы резервирования номеров партий](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Для получения дополнительных сведений см. раздел [Резервирование такой же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md).
 - [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Получение избыточных количеств по загрузке](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) — дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
-- [Приемка по номерам партий с устройства карты задания](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) — для получения дополнительных сведений см. раздел [Приемка с устройства карты задания](../production-control/report-finished-job-device.md)
+- [Получение сверх количества загрузки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
+- [Приемка по номерам партий с устройства карты задания](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Для получения дополнительных сведений см. [Приемка с устройства карты задания](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

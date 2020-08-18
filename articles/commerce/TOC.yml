@@ -90,6 +90,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (октябрь 2020 г.)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (август 2020 г.)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (июль 2020 г.)
@@ -127,23 +129,23 @@
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: 'Лица, принимающие решения'
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Бизнес-пользователи
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Менеджеры проекта реализации
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Администраторы
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Разработчики
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Продажи и маркетинг партнера
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Функциональные консультанты
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Архитекторы решений
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Знакомство с пользовательским интерфейсом
               items:
                 - name: Элементы пользовательского интерфейса
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Расчет налогового освобождения
+                          href: tax-exempt-price-inclusive.md
                     - name: Настройка профиля уведомлений по электронной почте
                       href: email-notification-profiles.md
                     - name: Номерные серии
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Проверка работоспособности для периферийных устройств и служб POS-терминалов
                           href: pos-healthcheck.md
+                        - name: Поддержка сетевых периферийных устройств
+                          href: dev-itpro/network-peripherals.md
                     - name: Макеты экрана
                       items:
                         - name: Макеты экрана демонстрационных данных в MPOS/CPOS
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Модуль вкладок
                       href: add-tab.md
+                    - name: Модуль iFrame
+                      href: iframe-module.md
                 - name: Модули маркетинга
                   items:
                     - name: Модуль рекламного баннера
@@ -968,6 +976,8 @@
                   items:
                     - name: Модуль поля покупки
                       href: add-buy-box.md
+                    - name: Модуль коллекции мультимедиа
+                      href: media-gallery-module.md
                     - name: Модули оценок и отзывов
                       href: ratings-reviews-modules.md
                 - name: Модули покупок
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Модуль сведений о заказе
                       href: order-confirmation-module.md
-                    - name: Модуль выбора магазина
-                      href: store-selector.md
                     - name: Модуль подарочных сертификатов
                       href: add-giftcard.md
+                - name: Модули поиска магазинов
+                  items:
+                    - name: Модуль карты
+                      href: map-module.md
+                    - name: Модуль выбора магазина
+                      href: store-selector.md
                 - name: Модули управления учетной записью
                   items:
                     - name: Страницы и модули управления учетной записью
@@ -1938,9 +1952,9 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Модули предварительного просмотра и отладки
                       href: e-commerce-extensibility/test-module.md
-                    - name: Тестирование модулей с использованием макетов
+                    - name: Тестирование модулей с имитациями модулей
                       href: e-commerce-extensibility/test-module-mock.md
-                    - name: Тестирование модулей с использованием макетов страницы
+                    - name: Тестирование модулей с имитациями страниц
                       href: e-commerce-extensibility/test-page-mock.md
                     - name: Модули контейнера
                       href: e-commerce-extensibility/container-modules.md
