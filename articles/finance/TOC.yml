@@ -922,7 +922,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Массовое закрытие финансовых периодов
                   href: general-ledger/tasks/mass-financial-period-close.md
-            - name: Налог
+            - name: Налог (НСП)
               items:
                 - name: Обзор налога
                   href: general-ledger/indirect-taxes-overview.md
@@ -1156,7 +1156,7 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Финансовая отчетность
           items:
-            - name: Обзор финансовой отчетности
+            - name: Начало работы с финансовой отчетностью
               href: general-ledger/financial-reporting-getting-started.md
             - name: Обзор финансовой отчетности
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,11 +2600,17 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Отчетность по РБП
                       href: localizations/rus-reporting-deferrals.md
+                - name: Налоговый учет
+                  items:
+                    - name: Коды расходов и доходов
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Регистры налога на активы
+                      href: localizations/rus-assets-tax-registers.md
             - name: Саудовская Аравия
               items:
                 - name: Обзор по Саудовской Аравии
                   href: localizations/saudi-arabia.md
-                - name: Налог
+                - name: Налог (НСП)
                   href: localizations/apac-sau-sales-tax.md
                 - name: Отчетность Zakat для Саудовской Аравии
                   href: localizations/emea-sau-zakat-reporting.md
@@ -2746,7 +2752,7 @@
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Вопросы и ответы по действиям с персоналом
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Использование workflow-процессов для управления сведениями о сотрудниках
+                - name: Использование бизнес-правил для управления сведениями о сотрудниках
                   href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Изменение отношений подотчетности для должности
                   href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
@@ -3100,7 +3106,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Список
+                    - name: List
                       items:
                         - name: Функции для работы со списками
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,7 +3421,9 @@
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Создание нового решения электронной отчетности для печати пользовательского отчета
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Учебники
               items:
                 - name: Использование источников данных

@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 6 августа 2020 г.
+          href: hr-whats-new-2020-08-06.md
         - name: 23 июля 2020 г.
           href: hr-whats-new-2020-07-23.md
         - name: 8 июля 2020 г.
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 апреля 2020 г.
           href: hr-whats-new-2020-04-03.md
-        - name: 24 марта 2020 г.
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 марта 2020 г.
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 марта 2020 г.
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 марта 2020 г.
-          href: hr-whats-new-2020-03-03.md
         - name: Архивы «Что нового» за 2020 г.
           items:
+            - name: 24 марта 2020 г.
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 марта 2020 г.
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 марта 2020 г.
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 марта 2020 г.
+              href: hr-whats-new-2020-03-03.md
             - name: 25 февраля 2020 г.
               href: hr-whats-new-2020-02-25.md
             - name: 18 февраля 2020 г.
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: Настройка общих параметров Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Настройка workflow-процессов управления персоналом
-              href: hr-setup-workflows.md
             - name: Сведения о полях даты и времени
               href: hr-setup-date-time-fields.md
         - name: Настройка параметров организации
@@ -381,8 +381,10 @@
               href: hr-personnel-create-working-time-calendar.md
             - name: Вопросы и ответы по действиям с персоналом
               href: hr-personnel-actions-faq.md
-            - name: Использование workflow-процессов для управления сведениями о сотрудниках
+            - name: Использование бизнес-правил для управления сведениями о сотрудниках
               href: hr-workflow-manage-employee-information.md
+            - name: Просмотр изменений адресов и управление ими
+              href: hr-personnel-view-address-changes.md
             - name: Изменение отношений подотчетности для должности
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Ввод сведений о работнике
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: Разработка плана преемственности
               href: hr-personnel-develop-succession-plan.md
-            - name: Ввод табелей учета рабочего времени проекта
-              href: hr-personnel-enter-project-timesheets.md
             - name: Проекты по массовому набору сотрудников
               href: hr-personnel-mass-hire-projects.md
             - name: Создание проекта по массовому набору сотрудников

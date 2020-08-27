@@ -805,7 +805,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Список
+                    - name: List
                       items:
                         - name: Функции для работы со списками
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: Управление работой с помощью шаблонов работ и директив местонахождения
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Создание директив местонахождения
+                      href: warehousing/create-location-directive.md
                     - name: Коды шагов волны
                       href: warehousing/wave-step-codes.md
                     - name: Настройка обработки волн
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Создание нового механизма управления транспортировкой
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Расширение информационных объектов запасов в наличии
+              href: inventory/extend-on-hand-entities.md
     - name: Разработка и администрирование приложений Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
