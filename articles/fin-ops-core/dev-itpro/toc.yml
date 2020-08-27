@@ -156,6 +156,8 @@
                           items:
                             - name: Настройка сопоставления объектов и полей
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Работа с несколькими сопоставлениями объектов
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Изменение юридического лица после настройки двойной записи
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Управление ошибками и уведомления оповещения

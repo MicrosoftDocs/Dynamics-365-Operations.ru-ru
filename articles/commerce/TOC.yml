@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Образы клиента в POS
                           href: pos-image.md
-                    - name: Клиентские заказы
-                      items:
-                        - name: Клиентские заказы в MPOS
-                          href: customer-orders-overview.md
-                        - name: Гибридные клиентские заказы
-                          href: hybrid-customer-orders.md
                     - name: Продавцы-консультанты
                       items:
                         - name: Отслеживание комиссий в POS с помощью групп продаж
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Отказ от персонализированных рекомендаций
                       href: personalization-gdpr.md
+                - name: Включение рекомендаций «Выбрать похожие по виду»
+                  href: shop-similar-looks.md
                 - name: Опыт использования POS
                   items:
                     - name: Добавление рекомендаций по продуктам в POS
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Управление заказами
           items:
+            - name: Клиентские заказы
+              items:
+                - name: Клиентские заказы в MPOS
+                  href: customer-orders-overview.md
+                - name: Гибридные клиентские заказы
+                  href: hybrid-customer-orders.md
             - name: Заказы на продажу
               items:
                 - name: Создание заказа в центре обработки вызовов
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Модуль оформления заказа
                       href: add-checkout-module.md
+                    - name: Модуль платежа
+                      href: payment-module.md
+                    - name: Модуль адреса доставки
+                      href: ship-address-module.md
+                    - name: Модуль параметров доставки
+                      href: delivery-options-module.md
                     - name: Модуль сведений о заказе
                       href: order-confirmation-module.md
                     - name: Модуль подарочных сертификатов
@@ -1290,7 +1298,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
-                    - name: Список
+                    - name: List
                       items:
                         - name: Функции для работы со списками
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Обзор API cookie-файлов
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Обзор интерактивных компонентов
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: Глобализация модулей с помощью класса CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Разработка действий с данными
@@ -2026,6 +2036,10 @@
                   items:
                     - name: Средства введения сценариев
                       href: e-commerce-extensibility/script-injector.md
+                - name: Соединители
+                  items:
+                    - name: Настройка и включение соединителей
+                      href: e-commerce-extensibility/connectors.md
                 - name: Телеметрия и аналитики
                   items:
                     - name: Средство ведения журнала телеметрии
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Предстоящие изменения в Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: Важные изменения в разработке и ALM между версиями 10.0.10 и 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Объединение систем сборки для Commerce и Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Перенос Retail SDK из Visual Studio 2015 в Visual Studio 2017
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Расширяемость Retail Server
               items:
-                - name: Расширение контроллера Commerce Scale Unit OData
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: API клиентов и потребителей Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Расширение контроллера метаданных Commerce Scale Unit по умолчанию
-                  href: dev-itpro/extend-metadata.md
-                - name: Вызов службы CRT в автономном режиме
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Создание нового расширения Retail Server
+                - name: Создание нового API расширения Retail Server (Retail SDK версии 10.0.11 и более поздние версии)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Создание нового API расширения Retail Server (Retail SDK версии 10.0.11 и более ранние версии)
                   href: dev-itpro/retail-server-extension.md
                 - name: Прокси Typescript и C# в Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: Расширяемость CRT и Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Добавление данных о предпочтениях клиентов в базы данных канала
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Управление секретами для каналов розничной торговли
                   href: dev-itpro/manage-secrets.md
                 - name: Расширяемость и триггеры CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Блокировка проводок с помощью триггеров
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Реализация политики возврата с помощью триггеров
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Расширение программы лояльности
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Точки расширения для отборочных накладных
