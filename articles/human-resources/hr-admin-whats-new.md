@@ -3,7 +3,7 @@ title: Что нового и что изменилось в Human Resources
 description: Каждую неделю мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В статьях, перечисленных здесь, подробно описываются изменения, сделанные за каждую неделю.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/22/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: 3bab048a58da7aa981cb807ccb0757ecb237c1ee
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614320"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666342"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Что нового и что изменилось в Human Resources
 
@@ -41,6 +41,7 @@ ms.locfileid: "3614320"
 
 Чтобы просмотреть новые или измененные функции в каждом двухнедельном выпуске Human Resources, см. следующие статьи:
 
+[6 августа 2020 г.](hr-whats-new-2020-08-06.md)</br>
 [23 июля 2020 г.](hr-whats-new-2020-07-23.md)</br>
 [8 июля 2020 г.](hr-whats-new-2020-07-08.md)</br>
 [23 июня 2020 г.](hr-whats-new-2020-06-23.md)</br>

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6771eb86186c773d879e1ac0de47d6a91a61a200
-ms.sourcegitcommit: 15813d0c0ff694941d386f4da316cd29767a3816
+ms.openlocfilehash: 60817239f8237f0b10c2b9bb15d336e6333fb901
+ms.sourcegitcommit: 5dd8f2822bfb5222ed875f11ec324bb7a1f48989
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3539817"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668263"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -153,6 +153,10 @@ ms.locfileid: "3539817"
 - [Выбытие РБП](rus-dispose-deferrals.md)
 - [Инвентаризация РБП](rus-counting-deferrals.md)
 - [Отчетность по РБП](rus-reporting-deferrals.md)
+
+## <a name="tax-accounting"></a>Налоговый учет
+- [Коды расходов и доходов](rus-expense-and-income-codes.md)
+- [Налоговые реестры активов](rus-assets-tax-registers.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

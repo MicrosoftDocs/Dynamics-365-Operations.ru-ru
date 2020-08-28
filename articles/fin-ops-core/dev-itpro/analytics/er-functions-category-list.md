@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201051"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687966"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Список функций ER в категории списка
 
@@ -46,6 +46,7 @@ ms.locfileid: "3201051"
 | [Индекс](er-functions-list-index.md)                       | Эта функция возвращает значение *Контейнер (запись)*, выбранное с помощью указанного числового индекса в указанном списке. Если индекс выходит за пределы диапазона записей в указанном списке, функция выдает исключение. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Эта функция возвращает *логическое* значение **TRUE**, если указанный список не содержит записей. В противном случае возвращает *логическое* значение **FALSE**. |
 | [Список](er-functions-list-list.md)                         | Эта функция возвращает значение *Список записей*, состоящее из нового списка, созданного из указанных аргументов.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | Эта функция вычисляет указанное выражение в качестве селектора для каждой записи указанного списка. Оно возвращает новое значение *списка записей*, содержащее одну запись для каждого уникального значения селектора.|
 | [ListJoin](er-functions-list-listjoin.md)                 | Эта функция возвращает значение *Список записей*, которое представляет новый объединенный список, созданный из указанных аргументов.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Эта функция возвращает значение *Список записей*, созданное на основе структуры указанного аргумента типа *Перечисление* или *Контейнер (запись)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Эта функция возвращает значение *Список записей*, состоящее только из первой записи указанного списка.|

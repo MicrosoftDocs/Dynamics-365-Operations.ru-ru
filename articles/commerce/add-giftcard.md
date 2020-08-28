@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411120"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661250"
 ---
 # <a name="gift-card-module"></a>Модуль подарочного сертификата
 
@@ -63,8 +63,18 @@ ms.locfileid: "3411120"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Модуль корзины](add-cart-module.md)
+
+[Модуль значка корзины](cart-icon-module.md)
 
 [Модуль оформления заказа](add-checkout-module.md)
+
+[Модуль платежа](payment-module.md)
+
+[Модуль адреса доставки](ship-address-module.md)
+
+[Модуль параметров доставки](delivery-options-module.md)
+
+[Модуль сведений о заказе](order-confirmation-module.md)
 
 [Поддержка внешних подарочных карт](./dev-itpro/gift-card.md)

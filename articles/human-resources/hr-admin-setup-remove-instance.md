@@ -3,7 +3,7 @@ title: Удаление экземпляра
 description: В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621388"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668333"
 ---
 # <a name="remove-an-instance"></a>Удаление экземпляра
 
@@ -70,7 +70,7 @@ ms.locfileid: "3621388"
 4. Выполните вход в LCS с помощью учетной записи, используемой для подписки на Human Resources. 
 5. Выберите проект Human Resources, который содержит среду. 
 6. В проекте LCS выберите плитку **Управление приложением Human Resources**. 
-7. Выберите экземпляр, который вы хотите удалить, которой должен быть помечен статусом развертывания **Сбой**.
+7. Выберите экземпляр, который вы хотите удалить, которой должен быть помечен статусом развертывания **Удалено**.
 8. Выберите **Удалить экземпляр** и подтвердите этот выбор. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Восстановление среды с мягким удалением
