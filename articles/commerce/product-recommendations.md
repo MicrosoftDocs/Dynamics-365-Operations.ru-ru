@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404356"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664890"
 ---
 # <a name="product-recommendations-overview"></a>Обзор рекомендаций по продуктам
 
@@ -75,9 +75,11 @@ Microsoft Dynamics 365 Commerce может использоваться для �
 
 [Отказ от персонализированных рекомендаций](personalization-gdpr.md)
 
+[Включение рекомендаций "покупать похожие образы"](shop-similar-looks.md)
+
 [Добавление рекомендаций по продуктам в POS](product.md)
 
-[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+[Добавление рекомендаций на экран проводок](add-recommendations-control-pos-screen.md)
 
 [Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
 

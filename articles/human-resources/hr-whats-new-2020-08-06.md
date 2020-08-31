@@ -1,0 +1,175 @@
+---
+title: Что нового и что изменилось в Dynamics 365 Human Resources (06 августа 2020 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources.
+author: darinkramer
+manager: AnnBe
+ms.date: 8/06/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2020-08-06
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
+ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698586"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (06 августа 2020 г.)
+
+В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3444. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
+
+## <a name="platform-update-1001236-is-now-available"></a>Доступно обновление платформы 10.0.12(36)
+
+Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.12 приложений Finance and Operations (август 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+
+## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Объекты платформы управления данными (ДМФ) для управления льготами
+ 
+Объекты управления льготами выпускаются. Объекты DMF позволяют импортировать и экспортировать данные для упрощения настройки управления льготами. Будет доступен шаблон управления льготами для перемещения данных. Шаблон экспортирует и импортирует данные последовательно для учета зависимостей данных. Дополнительные сведения см.
+
+- [Поддержка сущностей DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) в плане выпуска Dynamics 365 волны 1 за 2020 год
+- [Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+
+
+## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Клер создает workflow-процесс для покупки и продажи запросов на отпуск (446557)
+
+Дополнительные сведения см.
+
+- [Разрешите сотрудникам покупать и продавать отпуск](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Управление политиками покупки и продажи отпусков](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Покупка и продажа отпуска](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+
+
+## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Почтовые адреса работника V2 имеют доступ через юридические лица с ограниченным доступом (459126)
+
+При таком изменении сущность **Почтовые адреса работника V2** будет ограничиваться в соответствии с юридическим лицом, предоставленным пользователю.
+
+## <a name="workflow-email-hyperlink-fails-to-open-relevant-reviews-437398"></a>Гиперссылке workflow-процесса по электронной почте не удается открыть соответствующие обзоры (437398)
+
+При использовании заполнителя для открытия обзора производительности в workflow-процессе обзора гиперссылка, созданная в сообщении электронной почты, теперь открывает выбранную запись.
+
+## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Новые сущности для покупки и продажи отпуска (473180)
+
+Сущности платформы управления данными стали доступны для покупки и продажи отпуска. Дополнительные сведения см. в разделе [Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+
+## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>При просмотре информации о записи и использовании расширенных фильтров пользователь может получить доступ к записям других сотрудников (472490)
+
+С этим изменением пользователи самообслуживания сотрудников смогут получить доступ к собственным записям только при использовании самообслуживания сотрудников. Просмотр информации о записи при изменении параметра фильтрации больше не предоставляет дополнительных данных.
+
+## <a name="personnel-management-analytics-include-exited-worker-records-382893"></a>Аналитика управления персоналом включает записи уволенных работников (382893)
+
+В этом выпуске аналитика управления персоналом в данный момент включает только активных работников. 
+ 
+## <a name="unable-to-process-a-merit-increase-for-an-employee-473125"></a>Не удается обработать надбавку за успешную работу для сотрудника (473125)
+
+Это изменение позволяет ввести надбавки за успешную работу при изменении даты вступления в силу для новой надбавки за успешную работу.
+
+## <a name="review-workflow-can-be-started-more-than-once-467541"></a>Workflow-процесс обзора может быть начат несколько раз (467541)
+
+При таком изменении можно запустить workflow-процесс обзора производительности только один раз. Статус для руководителя больше не отображает параметр для запуска обзора.
+
+## <a name="leave-request-work-flow-ends-in-error-when-canceling-an-approved-leave-request-472063"></a>Workflow-процесс запроса на отпуск завершается ошибкой при отмене утвержденного запроса на отпуск (472063)
+
+В данном выпуске, при отмене утвержденного запроса отпуска, статус запроса больше не сохраняет утверждение, и workflow-процесс будет продолжен.
+
+## <a name="system-suggests-exited-workers-when-creating-a-new-review-form-the-template-460624"></a>Система предлагает уволенных работников при создании новой формы обзора из шаблона (460624)
+
+С этим изменением при создании новых обзоров из шаблона уволенные работники становятся более доступными. Невозможно создать обзоры для сотрудников, находящихся за пределами дат их занятости.
+
+## <a name="position-hierarchy-circular-reference-detection-415879"></a>Определение циклической ссылки для иерархии должностей (415879)
+
+С этим изменением определение циклической ссылки для иерархии должностей ограничено одной точкой на определенный момент времени. Можно выполнить определение циклической ссылки для других дат, чтобы убедиться, что в структуре отчетности нет циклических ссылок.
+
+## <a name="buy-and-sell-leave"></a>Покупка и продажа отпуска 
+
+Некоторые организации предоставляют льготу, позволяющую сотрудникам покупать или продавать отпуск. Этот процесс часто управляется вручную. Эта функция автоматизирует управление политиками и запросами для отдела кадров. Она упрощает процесс управления отпусками и помогает исключить ошибки. Дополнительные сведения см.
+
+- [Разрешите сотрудникам покупать и продавать отпуск](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Управление политиками покупки и продажи отпусков](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
+- [Покупка и продажа отпуска](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+
+## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Начисление отпуска для одной компании или одного плана
+
+Клиенты могут обрабатывать начисления для одной компании или для одного плана отпусков и отсутствия. Эта возможность обеспечивает ясность для процесса начисления для клиентов с различными политиками лет отпусков или начисления отпусков. Дополнительные сведения см. в разделе [Начисление отпуска по компаниям или по плану отпуска](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+
+## <a name="add-attachments-to-time-off-requests"></a>Добавление вложений в запросы на отгулы
+
+Возможность добавлять вложения к утвержденным запросам отпусков является критической в текущей среде COVID-19. Сотрудники теперь смогут добавлять эти вложения. Они также имеют более глубокое представление о том, как выполняются запросы на отпуск. Дополнительные сведения см. в разделе [Добавление вложений к существующему запросу](hr-employee-self-service-request-time-off.md#add-an-attachment-to-an-existing-request).
+
+## <a name="add-reason-code-to-accrual-suspensions"></a>Добавление кода основания к приостановке начисления 
+
+Коды основания были добавлены в приостановку начисления.
+
+## <a name="carry-forward-rules"></a>Правила переноса 
+
+Можно указать тип переноса отпуска для переноса сальдо, где переносятся корректировки переноса. Например, если сотрудник переносит на 10 дней вперед, можно выбрать другой тип отпуска для этих 10 дней. Дополнительные сведения см. в разделе [Настройка типов отпусков и отгулов](hr-leave-and-absence-types.md).
+
+## <a name="suspend-leave-accrual-for-specified-leave-types"></a>Приостановка начисления отпуска для указанных типов отпусков
+
+Вы можете создать правило приостановки начисления для сотрудников с запросами на отпуск, которые выбрали неоплачиваемый отпуск. Тип "Неоплачиваемый отпуск" возможен, но это не обязательно. Можно приостановить любой отпуск на основе другого типа отпуска.
+
+## <a name="in-preview"></a>В режиме предварительного просмотра
+
+### <a name="mandatory-fields"></a>Обязательные поля
+
+Можно сделать поля обязательными, используя возможности персонализации в Human Resources. Для этой функции требуются **сохраненные представления**. Дополнительные сведения о сохраненных представлениях см. в:
+
+- [Сохраненные представления — общая доступность](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Создание форм, использующих сохраненные представления](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+
+### <a name="human-resources-application-in-teams"></a>Приложение Human Resources в Teams
+
+Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см.
+
+- [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 1 за 2020 год
+- [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+
+### <a name="dmf-entity-available-for-accrual-suspensions"></a>Объект DMF доступен для приостановки начисления
+
+Объект DMF теперь доступен для приостановки начисления.
+
+## <a name="coming-soon"></a>Скоро
+
+## <a name="checklist-entities-included-in-common-data-service"></a>Сущности контрольного списка, включенные в Common Data Service
+
+Сущности контрольного списка для адаптации, увольнения, переходов и бизнес-процессов в скором времени будут доступны в Common Data Service.
+
+## <a name="known-issues"></a>Известные проблемы
+
+В рабочей области **управления функциями** могут отображаться функции, которые отключены в качестве предварительных функций предварительного просмотра, когда они обычно доступны. Далее приведен список общедоступных функций, которые показывают неправильный статус. 
+
+1.  Управление льготами
+2.  Управление обращениями
+3.  Ведение журнала базы данных (аудит)
+4.  Начисление отпуска для одной компании или одного плана
+5.  Приостановка начисления отпусков и отсутствия
+6.  Код основания корректировки сальдо и комментарий
+7.  Покупка и продажа отпуска
+8.  Календарь отпусков и отсутствия
+9.  Правила переноса отпуска
+10. Аудит начисления отпуска
+11. Удаление начисления отпуска
+12. Округление начислений отпусков
+13. Настройка нескольких типов отпусков в одном плане отпусков
+14. Улучшения обновления отгулов
+15. Использовать FTE сотрудника для начислений
+16. Представление межфирменной компенсации
+17. Печать оценок производительности
+18. Корректировки праздников при начислении отпуска
+
+## <a name="see-also"></a>См. также
+
+[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Процесс обновления](hr-admin-setup-update-process.md)</br>
+[Управление функциями](hr-admin-manage-features.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411097"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661155"
 ---
 # <a name="cart-icon-module"></a>Модуль значка корзины
 
@@ -42,22 +42,22 @@ ms.locfileid: "3411097"
 
 - **Показать мини- корзину** — если задано значение true, это свойство позволяет отображать сводку корзины (мини-корзину), когда указатель наводится на значок корзины. Эта функциональная возможность поддерживается только для портов просмотра рабочего стола.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Добавление модуля значка корзины на страницу
 
 Чтобы добавить модуль значка корзины, см. раздел [Модуль заголовка](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Дополнительные ресурсы
-
-[Модуль поля покупки](add-buy-box.md)
 
 [Модуль корзины](add-cart-module.md)
 
 [Модуль оформления заказа](add-checkout-module.md)
 
-[Модуль подтверждения заказа](order-confirmation-module.md)
+[Модуль платежа](payment-module.md)
 
-[Модуль заголовка](author-header-module.md)
+[Модуль адреса доставки](ship-address-module.md)
 
-[Модуль нижнего колонтитула](author-footer-module.md)
+[Модуль параметров доставки](delivery-options-module.md)
+
+[Модуль сведений о заказе](order-confirmation-module.md)
+
+[Модуль подарочных сертификатов](add-giftcard.md)

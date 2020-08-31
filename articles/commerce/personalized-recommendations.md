@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404148"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664866"
 ---
 # <a name="enable-personalized-recommendations"></a>Включение персонализированных рекомендаций
 
@@ -113,6 +113,8 @@ ms.locfileid: "3404148"
 [Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
+
+[Включение рекомендаций "покупать похожие образы"](shop-similar-looks.md)
 
 [Отказ от персонализированных рекомендаций](personalization-gdpr.md)
 

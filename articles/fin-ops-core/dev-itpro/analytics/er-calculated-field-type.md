@@ -3,7 +3,7 @@ title: Поддержка параметризованных вызовов ис
 description: В этом разделе приводятся сведения об использовании типов вычисляемых полей для источников данных электронной отчетности.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771337"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665618"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Поддержка параметризованных вызовов источников данных электронной отчетности для типа вычисляемого поля
 
@@ -39,20 +39,20 @@ ms.locfileid: "2771337"
     - Консультант по функциональным возможностям электронной отчетности
     - Системный администратор
 
-- Доступ к службам Regulatory Configuration Service (RCS), которые были настроены для того же клиента, что и Finance and Operations, для одной из следующих ролей:
+- Доступ к службам Regulatory Configuration Services (RCS), которые были настроены для того же клиента, что и Finance and Operations, для одной из следующих ролей:
 
     - Разработчик электронной отчетности
     - Консультант по функциональным возможностям электронной отчетности
     - Системный администратор
 
-С помощью [центра загрузки Microsoft](https://go.microsoft.com/fwlink/?linkid=874684) загрузите сжатый файл (ZIP) **Поддержка параметризованных вызовов источников данных электронной отчетности для типа вычисляемого поля**. Он содержит следующие конфигурации ER, которые необходимо извлечь и сохранить локально.
+Кроме того, необходимо загрузить следующие файлы и сохранить их локально.
 
 | **Содержание**                           | **Имя файла**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Пример конфигурации модели данных электронной отчетности    | Model to learn parameterized calls.version.1.xml     |
-| Пример конфигурации метаданных электронной отчетности      | Metadata to learn parameterized calls.version.1.xml  |
-| Пример конфигурации сопоставления модели электронной отчетности | Mapping to learn parameterized calls.version.1.1.xml |
-| Пример конфигурации формата электронной отчетности        | Format to learn parameterized calls.version.1.1.xml  |
+| Пример конфигурации модели данных электронной отчетности    | [Model to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Пример конфигурации метаданных электронной отчетности      | [Metadata to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Пример конфигурации сопоставления модели электронной отчетности | [Mapping to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Пример конфигурации формата электронной отчетности        | [Format to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Вход в экземпляр RCS
 В этой примере вам предстоит создать конфигурацию для демонстрационной компании Litware, Inc. Сначала в RCS необходимо выполнить шаги в процедуре [Создание поставщиков конфигураций и пометка их как активных](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -180,7 +180,7 @@ ms.locfileid: "2771337"
 3. Выберите **Добавить источник данных**.
 4. В поле **Формула** завершите выражение следующим образом:  
 
-    **WHERE(\@.Summary2, \@.Summary2.grouped.Level = 'Уровень налогообложения'**
+    **WHERE(\@.Summary2, \@.Summary2.grouped.Level = 'Уровень налогообложения')**
 
 5. Нажмите **Сохранить**.
 

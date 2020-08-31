@@ -3,7 +3,7 @@ title: Обзор главной книги и финансовой отчетн
 description: Используйте главную книгу для определения финансовых записей юридического лица и управления ими.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771807"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696672"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>Обзор главной книги и финансовой отчетности
+# <a name="general-ledger-home-page"></a>Домашняя страница главной книги
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,10 @@ ms.locfileid: "2771807"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите к [Планы выпуска Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+
+#### <a name="financial-reporting"></a>Финансовая отчетность
+Переход к разделу [Обзор Financial reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) для получения сведений о финансовых отчетах.
 
 #### <a name="blogs"></a>Блоги
 
