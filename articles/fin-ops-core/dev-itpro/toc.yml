@@ -130,6 +130,8 @@
                       items:
                         - name: Домашняя страница двойной записи
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Что нового и что изменилось в двойной записи
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Обзор двойной записи
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Настройка двойной записи
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Создание политики безопасности
                   href: sysadmin/create-simple-security-policy.md
+            - name: Обеспечение соответствия требованиям лицензионного соглашения пользователя
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Автоматизация процессов
               href: sysadmin/process-automation.md
             - name: Пакетная обработка
