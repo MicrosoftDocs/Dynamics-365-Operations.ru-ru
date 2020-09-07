@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Внедрение приложений PowerApps
+                - name: Встраивание Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Поиск сведений с использованием поиска
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -2076,6 +2076,8 @@
                   href: localizations/emea-ita-exil-protest-boe.md
                 - name: Налоговый потолок
                   href: localizations/emea-ita-exil-tax-plafond.md
+                - name: Электронные накладные клиентов
+                  href: localizations/emea-ita-e-invoices.md
             - name: Япония
               items:
                 - name: Обзор по Японии
@@ -2890,13 +2892,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Доступ к данным и отчетность
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Параметры персонализации с PowerBI.com
+            - name: Параметры персонализации с Power BI
               items:
-                - name: 'Функции, доступные через интеграцию PowerBI.com'
+                - name: 'Функции, доступные через интеграцию Power BI'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
-                - name: Закрепление содержимого PowerBI.com
+                - name: Закрепление содержимого Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
-                - name: Выбор аналитических рабочих областей из PowerBI.com
+                - name: Выбор аналитических рабочих областей из Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/finance/toc.json
             - name: Содержимое Power BI
               items:
@@ -2992,7 +2994,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/finance/toc.json
                 - name: Устранение проблем после обслуживания хранилища объектов
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Настройка интеграции PowerBI.com
+                - name: Настройка интеграции с Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/finance/toc.json
                 - name: Использование своей собственной базы данных
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/finance/toc.json
@@ -3170,6 +3172,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
+                        - name: ValueInLarge
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/finance/toc.json
                     - name: Математические
                       items:
                         - name: Математические функции

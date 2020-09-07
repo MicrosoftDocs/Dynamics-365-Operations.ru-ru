@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Руководство по внедрению Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Приложения Finance and Operations во Франции
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Внедрение приложений PowerApps
+                - name: Встраивание Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Поиск сведений с использованием поиска
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Выбор топологии в магазине
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange и взаимодействие по каналам коммерческой деятельности
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Рекомендации по Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange и взаимодействие по каналам коммерческой деятельности
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Устранение неполадок Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: Архитектура Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Архитектура публикации в интернет-магазинах
@@ -514,8 +522,10 @@
                       href: payinvoice.md
                     - name: Предотвращение дублирования платежей
                       href: duplicate-payment-protection.md
-                    - name: Обзор омниканальных платежей
+                    - name: Обзор многоканальных платежей
                       href: omni-channel-payments.md
+                    - name: Платежи по заказам коммерции многоканального взаимодействия
+                      href: dev-itpro/commerce-payments.md
                     - name: Вопросы и ответы по платежам
                       href: dev-itpro/payments-retail.md
                 - name: Управление картами Bing для вашей организации
@@ -536,7 +546,7 @@
                       href: create-product-hierarchy.md
                     - name: Управление продуктами и категориями продуктов
                       href: category-management-product-creation.md
-                    - name: Изменение порядка сортировки для объектов мерчандайзинга
+                    - name: Изменение порядка сортировки для сбытовых объектов
                       href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: Аналитики продуктов
                   items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Редактирование и аудит проводок розничного магазина
               href: edit-audit-retail-transactions.md
-            - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Поточное создание заказов по проводкам розничного магазина
               href: trickle-feed.md
             - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Доступ к данным и отчетность
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Параметры персонализации с PowerBI.com
+            - name: Параметры персонализации с Power BI
               items:
-                - name: 'Функции, доступные через интеграцию PowerBI.com'
+                - name: 'Функции, доступные через интеграцию Power BI'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Закрепление содержимого PowerBI.com
+                - name: Закрепление содержимого Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Выбор аналитических рабочих областей из PowerBI.com
+                - name: Выбор аналитических рабочих областей из Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Содержимое Power BI
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Устранение проблем после обслуживания хранилища объектов
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Настройка интеграции PowerBI.com
+                - name: Настройка интеграции с Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Использование своей собственной базы данных
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: Конфигурации пакетов и их развертывание в интернет-среде
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Обновления SDK и основной библиотеки
+                    - name: Обновления пакета SDK и стартового комплекта магазина
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Развертывание соединителей платежей
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Инкрементный сбор данных для выставления счетов в бэк-офис
+                  href: dev-itpro/incremental-capture.md
                 - name: Создание пользовательских локализованных сообщений об ошибках для расширений терминалов платежей
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Создание установщиков Windows для соединителей платежей
