@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (06 августа 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources.
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 6 августа 2020 года.
 author: darinkramer
 manager: AnnBe
 ms.date: 8/06/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
-ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698586"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711850"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (06 августа 2020 г.)
 
@@ -100,7 +100,7 @@ ms.locfileid: "3698586"
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Начисление отпуска для одной компании или одного плана
 
-Клиенты могут обрабатывать начисления для одной компании или для одного плана отпусков и отсутствия. Эта возможность обеспечивает ясность для процесса начисления для клиентов с различными политиками лет отпусков или начисления отпусков. Дополнительные сведения см. в разделе [Начисление отпуска по компаниям или по плану отпуска](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Клиенты могут обрабатывать начисления для одной компании или для одного плана отпусков и отсутствия. Эта возможность обеспечивает ясность для процесса начисления для клиентов с различными политиками лет отпусков или начисления отпусков. Дополнительные сведения см. в разделе [Начисление отпуска по компаниям или по плану отпуска](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Добавление вложений в запросы на отгулы
 

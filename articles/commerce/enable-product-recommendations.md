@@ -3,7 +3,7 @@ title: Включить рекомендации по продуктам
 description: В этой теме объясняется, как создать рекомендации продуктов, которые основаны на искусственном интеллекте и машинном обучении (AI-ML), доступном клиентам Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665034"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700850"
 ---
 # <a name="enable-product-recommendations"></a>Включить рекомендации по продуктам
 
@@ -65,11 +65,13 @@ ms.locfileid: "3665034"
 
 Чтобы включить рекомендации продуктов, сделайте следующее.
 
-1. Выберите **Retail и Commerce &gt; Рекомендации продуктов &gt; Параметры рекомендаций**.
-1. В списке общих параметров выберите **Списки рекомендаций**.
-1. Для параметра **Включить рекомендации** выберите значение **Да**.
+1. В Commerce Headquarters найдите **Управления функциями**.
+1. Для просмотра списка доступных функций выберите **Все**. 
+1. В поле поиска введите **Рекомендации**.
+1. Выберите функцию **Рекомендации по продукту**.
+1. В области свойств **Рекомендации продуктов** выберите **Включить**.
 
-![Включение рекомендаций](./media/enablepersonalization.png)
+![Включение рекомендаций](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Эта процедура запускает процесс создания списков рекомендаций продуктов. До того, как списки можно будет просматривать на POS-терминале или в Dynamics 365 Commerce, может потребоваться несколько часов.

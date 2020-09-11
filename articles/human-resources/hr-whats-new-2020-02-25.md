@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (25 февраля 2020 г.)
-description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources.
+description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 25 февраля 2020 года.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/25/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5bc232bef257e757086d37d56b0f68b80114749
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: d3ce007ad7e7acb4c8dca22388f72ca94110f08c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555083"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712552"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (25 февраля 2020 г.)
 

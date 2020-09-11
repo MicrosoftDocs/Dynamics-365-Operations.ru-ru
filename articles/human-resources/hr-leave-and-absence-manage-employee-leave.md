@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb54bfddde3f1075676d51a25a2653129578732b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428998"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712141"
 ---
 # <a name="manage-employee-leave"></a>Управление отпусками сотрудников
-
-[!include [banner](includes/preview-feature.md)]
 
 Вы можете управлять отпусками сотрудников, используя типы отпусков. Сюда входят истечение срока действия отпусков и корректировка сальдо по типу отпуска. 
 
