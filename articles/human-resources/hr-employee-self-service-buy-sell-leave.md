@@ -1,9 +1,9 @@
 ---
 title: Покупка и продажа отпуска
-description: Можно отправлять запросы на покупку и продажу отпуска.
+description: В Dynamics 365 Human Resources можно отправлять запросы на покупку и продажу отпуска, используя политики покупки и продажи отпуска, настроенные вашей компанией.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429689"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711826"
 ---
 # <a name="buy-and-sell-leave"></a>Покупка и продажа отпуска
 
-[!include [banner](includes/preview-feature.md)]
-
-Можно отправлять запросы на покупку отпуска.  
+В Dynamics 365 Human Resources можно отправлять запросы на покупку и продажу отпуска, используя политики покупки и продажи отпуска, настроенные вашей компанией.  
 
 ## <a name="request-to-buy-leave"></a>Запрос на покупку отпуска
 
@@ -39,9 +37,19 @@ ms.locfileid: "3429689"
 
 3. Выберите **Отправить**, когда будете готовы отправить запрос. 
 
-После отправки запроса балансы будут автоматически обновлены с учетом суммы отпуска, запрошенной для покупки. 
+Ваши балансы будут автоматически обновляться или проходить через процесс утверждения перед обновлением. Это зависит от настройки политики покупки.
+
+## <a name="request-to-sell-leave"></a>Запрос на продажу отпуска
+
+1. В рабочей области **Самообслуживания сотрудников** выберите **Запрос на продажу отпуска** на плитке **Время отсутствия**. 
+
+2. Добавьте **Тип отпуска** и введите **Сумма** для суммы отпуска, которую вы хотите продать. 
+
+3. Выберите **Отправить**, когда будете готовы отправить запрос.
+
+Ваши балансы будут автоматически обновляться или проходить через процесс утверждения перед обновлением. Это зависит от настройки политики покупки.
 
 ## <a name="see-also"></a>См. также
 
 [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)</br>
-[Управление политиками покупки и продажи отпуска](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Управление политиками покупки и продажи отпусков](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)

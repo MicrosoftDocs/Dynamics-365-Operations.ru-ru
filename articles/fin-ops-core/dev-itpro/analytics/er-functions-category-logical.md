@@ -3,7 +3,7 @@ title: Список функций ER в логической категории
 description: В этой теме содержится информация о логических функциях, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916645"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705103"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Список функций ER в логической категории
 
@@ -41,6 +41,8 @@ ms.locfileid: "2916645"
 | [Не](er-functions-logical-not.md)                       | Эта функция возвращает обратное логическое значение указанного условия в качестве *логического* значения. |
 | [Или](er-functions-logical-or.md)                         | Эта функция возвращает *логическое* значение **FALSE**, если все указанные условия — false. Если какое-либо указанное условие — true, эта функция возвращает *логическое* значение **TRUE**. |
 | [ValueIn](er-functions-logical-valuein.md)               | Эта функция определяет, соответствует ли заданный ввод какому-либо значению указанного элемента в указанном списке. Она возвращает *логическое* значение **TRUE**, если указанный ввод совпадает с результатом выполнения указанного выражения по крайней мере для одной записи указанного списка. В противном случае возвращает *логическое* значение **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Эта функция определяет, соответствует ли заданный ввод типа *Int64* или *Integer* какому-либо значению указанного элемента в указанном списке. Она возвращает *логическое* значение **TRUE**, если указанный ввод совпадает с результатом выполнения указанного выражения по крайней мере для одной записи указанного списка. В противном случае возвращает *логическое* значение **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

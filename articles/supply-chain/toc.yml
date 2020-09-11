@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Внедрение приложений PowerApps
+                - name: Встраивание Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Поиск сведений с использованием поиска
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Доступ к данным и отчетность
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Параметры персонализации с PowerBI.com
+            - name: Параметры персонализации с Power BI
               items:
-                - name: 'Функции, доступные через интеграцию PowerBI.com'
+                - name: 'Функции, доступные через интеграцию Power BI'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Закрепление содержимого PowerBI.com
+                - name: Закрепление содержимого Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Выбор аналитических рабочих областей из PowerBI.com
+                - name: Выбор аналитических рабочих областей из Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Содержимое Power BI
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Исключение продуктов из сводного планирования
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Товары двойного назначения
-                  href: pim/dual-use.md
-                - name: Страна происхождения
-                  href: pim/country-of-origin.md
                 - name: Создание штрих-кода для продукта
                   href: pim/tasks/create-bar-code-product.md
                 - name: Ввод кода GTIN для продукта
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Добавление изображение к продукту
                   href: pim/tasks/add-image-product.md
+                - name: Страна происхождения
+                  href: pim/country-of-origin.md
+                - name: Товары двойного назначения
+                  href: pim/dual-use.md
+                - name: Опасные материалы
+                  items:
+                    - name: Обзор опасных материалов
+                      href: pim/hazmat-overview.md
+                    - name: Настройка опасных материалов
+                      href: pim/hazmat-setup.md
+                    - name: 'Опасные материалы в продуктах, заказах, отгрузках и загрузках'
+                      href: pim/hazmat-items.md
+                    - name: Запросы и отчеты по опасным материалам
+                      href: pim/hazmat-reports.md
                 - name: Вопросы и ответы по переводу сведений о продукте
                   href: pim/translations-product-related-information.md
                 - name: Поиск продукта во время ввода заказа

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249043"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740671"
 ---
 # <a name=""></a><a name="LISTJOIN">Функция STRINGJOIN электронной отчетности</a>
 
@@ -69,8 +69,18 @@ LIST (list 1 [, list 2, …, list N])
 - **Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.
 - **IsValid**: это поле содержит выражение, возвращающее значение типа `Boolean`.
 
-В этом случае выражение `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` возвращает новый список, содержащий две записи. Структура этого списка состоит из одного поля **Сумма** типа `Real`, потому что это поле является единственным полем, которое представлено в каждом аргументе вызываемой функции.
+![Страница конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image1.gif)
+
+В этом случае выражение `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` возвращает новый список, содержащий две записи.
+
+![Страница конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image2.gif)
+
+Структура этого списка состоит из одного поля **Сумма** типа `Real`, потому что это поле является единственным полем, которое представлено в каждом аргументе вызываемой функции.
+
+![Страница конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции для работы со списками](er-functions-category-list.md)
+
+[Отладка источников данных для выполняемого формата электронной отчетности для анализа потока и преобразования данных](er-debug-data-sources.md)
