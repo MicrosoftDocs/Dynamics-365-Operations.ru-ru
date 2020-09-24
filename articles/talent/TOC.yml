@@ -8,6 +8,8 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 1 сентября 2020 г.
+              href: whats-new-talent-september-01-2020.md
             - name: 21 января 2020 г.
               href: whats-new-talent-january-21-2020.md
             - name: 14 января 2020 г.

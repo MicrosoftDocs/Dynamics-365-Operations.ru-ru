@@ -14,12 +14,12 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для 10.0.14 (ноябрь 2020 г.)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Обновления платформы для 10.0.13 (октябрь 2020 г.)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Обновления платформы для 10.0.12 (август 2020 г.)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Обновления платформы для 10.0.11 (июль 2020 г.)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции платформы
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Управление версиями моделей X++ в Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Загрузка активов с помощью Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Отправка активов с помощью Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Развертывание активов с помощью Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Создание подключения к Lifecycle Services (LCS) в Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Пример приложения для управления автопарком
               items:
                 - name: Сквозной сценарий для примера приложения для управления автопарком

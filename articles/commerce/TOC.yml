@@ -92,9 +92,11 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.13 (октябрь 2020 г.)
+                    - name: "Commerce 10.0.14 (ноябрь 2020\_г.)"
+                      href: get-started/whats-new-commerce-10-0-14.md
+                    - name: "Commerce 10.0.13 (октябрь 2020\_г.)"
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (август 2020 г.)
+                    - name: "Commerce 10.0.12 (август 2020\_г.)"
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-commerce-10-0-11.md
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Массовое развертывание компонентов самообслуживания
                   href: dev-itpro/retail-mass-deployment.md
-                - name: События компонентов Retail для диагностики и устранения неполадок
+                - name: События компонентов Commerce для диагностики и устранения неполадок
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Применение готового к развертыванию пакета
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -522,10 +524,12 @@
                       href: payinvoice.md
                     - name: Предотвращение дублирования платежей
                       href: duplicate-payment-protection.md
-                    - name: Обзор многоканальных платежей
+                    - name: Обзор платежей многоканального взаимодействия
                       href: omni-channel-payments.md
-                    - name: Платежи по заказам коммерции многоканального взаимодействия
+                    - name: Платежи по заказам Commerce многоканального взаимодействия
                       href: dev-itpro/commerce-payments.md
+                    - name: Обработка кредитных карт без Hardware Station
+                      href: dev-itpro/cnp-pos.md
                     - name: Вопросы и ответы по платежам
                       href: dev-itpro/payments-retail.md
                 - name: Управление картами Bing для вашей организации
@@ -700,7 +704,7 @@
           items:
             - name: Клиентские заказы
               items:
-                - name: Клиентские заказы в MPOS
+                - name: Заказы клиентов в POS-терминале
                   href: customer-orders-overview.md
                 - name: Гибридные клиентские заказы
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: Настройка нескольких клиентов B2C в среде Commerce
                   href: configure-multi-B2C-tenants.md
+                - name: Домены в Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: Добавление поддержки сети доставки содержимого (CDN)
                   href: add-cdn-support.md
                 - name: Включение обнаружения магазинов на основе местонахождения
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Модули оценок и отзывов
                       href: ratings-reviews-modules.md
+                    - name: Модуль Social Share
+                      href: social-share-module.md
                 - name: Модули покупок
                   items:
                     - name: Модуль корзины
@@ -1024,8 +1032,14 @@
                       href: product-collection-module-overview.md
                 - name: Модули навигации
                   items:
-                    - name: Модули навигации
+                    - name: Модуль иерархической навигации
                       href: add-breadcrumb.md
+                    - name: Модуль меню навигации
+                      href: nav-menu-module.md
+                - name: Модули соответствия
+                  items:
+                    - name: Модуль согласия на получение файлов cookie
+                      href: cookie-consent-module.md
             - name: Поиск
               items:
                 - name: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
@@ -1646,15 +1660,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка форматов ER для использования параметров, указанных для юридического лица'
+                - name: 'Настройка форматов электронной отчетности для использования параметров, указанных для юридического лица'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка параметров формата ER для юридического лица
+                - name: Настройка параметров формата электронной отчетности для юридического лица
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: Отложенное выполнение элементов формата электронной отчетности
                   items:
-                    - name: Отложенное выполнение элемента последовательности
+                    - name: Отложенное выполнение элементов последовательности в форматах электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: Отложенное выполнение XML-элемента
+                    - name: Отложенное выполнение элементов XML в форматах электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Использование решений для электронной отчетности в Finance and Operations
               items:
