@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (ноябрь 2020 г.)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (октябрь 2020 г.)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (август 2020 г.)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (июль 2020 г.)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
@@ -333,15 +333,15 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Контрольные списки обслуживания
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Простой из-за обслуживания
+                - name: Простой из-за обслуживания для заказов на работу
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Добавление ошибки в заказ на работу
                   href: asset-management/work-orders/add-fault-to-work-order.md
                 - name: Отчет по заказу на работу
                   href: asset-management/work-orders/work-order-report.md
-                - name: Пулы заказа на работу
+                - name: Пулы заказов на работу
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Активные задания обслуживания для заказа на работу
+                - name: Активные задания обслуживания заказа на работу
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Заказы на работу и основные средства
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -365,15 +365,15 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
                 - name: Стоимость для графика обслуживания
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
-                - name: Создать заказы на работу
+                - name: Создание заказов на работу
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Простой из-за обслуживания
+                - name: Мероприятия по простою из-за обслуживания
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
-            - name: Планирование мощности
+            - name: Планирование загрузки
               items:
                 - name: Расчет максимальной мощности
                   href: asset-management/capacity-planning/calculate-capacity-load.md
-                - name: Рассчитать прогноз номенклатуры
+                - name: Расчет прогноза номенклатуры
                   href: asset-management/capacity-planning/calculate-item-forecast.md
             - name: Планирование заказа на работу
               items:
@@ -1145,9 +1145,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Настройка форматов ER для использования параметров, указанных для юридического лица'
+                - name: 'Настройка форматов электронной отчетности для использования параметров, указанных для юридического лица'
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка параметров формата ER для юридического лица
+                - name: Настройка параметров формата электронной отчетности для юридического лица
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Отложенное выполнение элементов формата электронной отчетности
                   items:
@@ -1345,26 +1345,30 @@
               items:
                 - name: Обзор оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Планирование с отрицательными количествами в наличии
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Начало работы с оптимизацией планирования
                   href: master-planning/planning-optimization/get-started.md
                 - name: Анализ соответствия оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Сводное планирование с торговыми соглашениями о покупке
+                - name: Сводное планирование с торговыми договорами о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Просмотр истории плана и журналов планирования
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Резервное время
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Утвердить спланированные заказы
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Автоматическое подтверждение при оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Планирование с отрицательными количествами в наличии
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Просмотр истории плана и журналов планирования
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Отмена задания планирования
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Расширяемость оптимизации планирования
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Устранение неполадок оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Расширяемость оптимизации планирования
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Сводные планы
               items:
                 - name: Обзор сводных планов
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Настройка комплектации кластера
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Позиция кластера заполнена
+                      href: warehousing/cluster-position-full.md
                     - name: 'Комплектация кластера, управляемая системой'
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Настройка контейнеризации
