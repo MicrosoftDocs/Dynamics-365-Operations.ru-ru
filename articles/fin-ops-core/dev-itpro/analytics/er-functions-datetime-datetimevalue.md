@@ -18,65 +18,65 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d81599563dec2827fa8a82c86b74cb9e34eea2
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 65eb16c5846b5d194361940667da14b594d7a63c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070698"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744895"
 ---
-# <span data-ttu-id="d5a9b-103"><a name="DATETIMEVALUE">Функция ER DATETIMEVALUE</a></span><span class="sxs-lookup"><span data-stu-id="d5a9b-103"><a name="DATETIMEVALUE">DATETIMEVALUE ER function</a></span></span>
+# <a name="datetimevalue-er-function"></a><span data-ttu-id="09a39-103">Функция ER DATETIMEVALUE</span><span class="sxs-lookup"><span data-stu-id="09a39-103">DATETIMEVALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d5a9b-104">Функция `DATETIMEVALUE` возвращает значение *DateTime*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной [культуре](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) в значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-104">The `DATETIMEVALUE` function returns a *DateTime* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date/time value.</span></span> <span data-ttu-id="d5a9b-105">Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="d5a9b-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="09a39-104">Функция `DATETIMEVALUE` возвращает значение *DateTime*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной [культуре](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) в значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="09a39-104">The `DATETIMEVALUE` function returns a *DateTime* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date/time value.</span></span> <span data-ttu-id="09a39-105">Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="09a39-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="d5a9b-106">Синтаксис 1</span><span class="sxs-lookup"><span data-stu-id="d5a9b-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="09a39-106">Синтаксис 1</span><span class="sxs-lookup"><span data-stu-id="09a39-106">Syntax 1</span></span>
 
 ```vb
 DATETIMEVALUE (text, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="d5a9b-107">Синтаксис 2</span><span class="sxs-lookup"><span data-stu-id="d5a9b-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="09a39-107">Синтаксис 2</span><span class="sxs-lookup"><span data-stu-id="09a39-107">Syntax 2</span></span>
 
 ```vb
 DATETIMEVALUE (text, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d5a9b-108">Аргументы</span><span class="sxs-lookup"><span data-stu-id="d5a9b-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="09a39-108">Аргументы</span><span class="sxs-lookup"><span data-stu-id="09a39-108">Arguments</span></span>
 
-<span data-ttu-id="d5a9b-109">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="d5a9b-109">`text`: *String*</span></span>
+<span data-ttu-id="09a39-109">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="09a39-109">`text`: *String*</span></span>
 
-<span data-ttu-id="d5a9b-110">Текст, представляющий значение для формата.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-110">Text that represents the value to format.</span></span>
+<span data-ttu-id="09a39-110">Текст, представляющий значение для формата.</span><span class="sxs-lookup"><span data-stu-id="09a39-110">Text that represents the value to format.</span></span>
 
-<span data-ttu-id="d5a9b-111">`format`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="d5a9b-111">`format`: *String*</span></span>
+<span data-ttu-id="09a39-111">`format`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="09a39-111">`format`: *String*</span></span>
 
-<span data-ttu-id="d5a9b-112">Формат указанного текста.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-112">The format of the given text.</span></span>
+<span data-ttu-id="09a39-112">Формат указанного текста.</span><span class="sxs-lookup"><span data-stu-id="09a39-112">The format of the given text.</span></span>
 
-<span data-ttu-id="d5a9b-113">`culture`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="d5a9b-113">`culture`: *String*</span></span>
+<span data-ttu-id="09a39-113">`culture`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="09a39-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="d5a9b-114">Культура, используемая для форматирования указанного текста.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-114">The culture that is used for formatting of the given text.</span></span>
+<span data-ttu-id="09a39-114">Культура, используемая для форматирования указанного текста.</span><span class="sxs-lookup"><span data-stu-id="09a39-114">The culture that is used for formatting of the given text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d5a9b-115">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="d5a9b-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="09a39-115">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="09a39-115">Return values</span></span>
 
-<span data-ttu-id="d5a9b-116">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="d5a9b-116">*DateTime*</span></span>
+<span data-ttu-id="09a39-116">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="09a39-116">*DateTime*</span></span>
 
-<span data-ttu-id="d5a9b-117">Результирующее значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-117">The resulting date/time value.</span></span>
+<span data-ttu-id="09a39-117">Результирующее значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="09a39-117">The resulting date/time value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="d5a9b-118">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="d5a9b-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="09a39-118">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="09a39-118">Usage notes</span></span>
 
-<span data-ttu-id="d5a9b-119">Когда культура не определена как аргумент вызываемой функции, значение `culture` определяется контекстом вызова.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="d5a9b-120">Например, если функция `DATETIMEVALUE` вызывается с помощью синтаксиса 1 в формате электронной отчетности (ER) для элемента **FILE**, настроенного на использование немецкой культуры, преобразование будет осуществляться с помощью немецкой культуры.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-120">For example, if the `DATETIMEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="d5a9b-121">Значение шаблона `culture` по умолчанию — **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-121">The default `culture` value is **EN-US**.</span></span>
+<span data-ttu-id="09a39-119">Когда культура не определена как аргумент вызываемой функции, значение `culture` определяется контекстом вызова.</span><span class="sxs-lookup"><span data-stu-id="09a39-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="09a39-120">Например, если функция `DATETIMEVALUE` вызывается с помощью синтаксиса 1 в формате электронной отчетности (ER) для элемента **FILE**, настроенного на использование немецкой культуры, преобразование будет осуществляться с помощью немецкой культуры.</span><span class="sxs-lookup"><span data-stu-id="09a39-120">For example, if the `DATETIMEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="09a39-121">Значение шаблона `culture` по умолчанию — **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="09a39-121">The default `culture` value is **EN-US**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="d5a9b-122">Пример 1</span><span class="sxs-lookup"><span data-stu-id="d5a9b-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="09a39-122">Пример 1</span><span class="sxs-lookup"><span data-stu-id="09a39-122">Example 1</span></span>
 
-<span data-ttu-id="d5a9b-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` возвращает **2:55:00 21 декабря 2016** на основе указанного пользовательского формата и культуры приложения по умолчанию **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
+<span data-ttu-id="09a39-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` возвращает **2:55:00 21 декабря 2016** на основе указанного пользовательского формата и культуры приложения по умолчанию **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="09a39-123">`DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="d5a9b-124">Пример 2</span><span class="sxs-lookup"><span data-stu-id="d5a9b-124">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="09a39-124">Пример 2</span><span class="sxs-lookup"><span data-stu-id="09a39-124">Example 2</span></span>
 
-<span data-ttu-id="d5a9b-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` возвращает **2:55:00 21 декабря 2016** на основе указанного пользовательского формата и культуры.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and culture.</span></span>
+<span data-ttu-id="09a39-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` возвращает **2:55:00 21 декабря 2016** на основе указанного пользовательского формата и культуры.</span><span class="sxs-lookup"><span data-stu-id="09a39-125">`DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")` returns **2:55:00 AM on December 21, 2016**, based on the specified custom format and culture.</span></span>
 
-<span data-ttu-id="d5a9b-126">Однако вызов `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` вызывает исключение, информирующее пользователя, что указанная строка не распознана как допустимое значение даты/времени для указанной культуры.</span><span class="sxs-lookup"><span data-stu-id="d5a9b-126">However, `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date/time value for the specified culture.</span></span>
+<span data-ttu-id="09a39-126">Однако вызов `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` вызывает исключение, информирующее пользователя, что указанная строка не распознана как допустимое значение даты/времени для указанной культуры.</span><span class="sxs-lookup"><span data-stu-id="09a39-126">However, `DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date/time value for the specified culture.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d5a9b-127">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d5a9b-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="09a39-127">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="09a39-127">Additional resources</span></span>
 
-[<span data-ttu-id="d5a9b-128">Функции даты и времени</span><span class="sxs-lookup"><span data-stu-id="d5a9b-128">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="09a39-128">Функции даты и времени</span><span class="sxs-lookup"><span data-stu-id="09a39-128">Date and time functions</span></span>](er-functions-category-datetime.md)

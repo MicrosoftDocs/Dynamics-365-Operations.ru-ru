@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6784384bac31d8c7cdc9c6f71b7dbab79c15a934
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 12577e571c8e87db79395895e2a22e66ee7df32c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041109"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745689"
 ---
-# <span data-ttu-id="dd593-103"><a name="LOWER">Функция ER LOWER</a></span><span class="sxs-lookup"><span data-stu-id="dd593-103"><a name="LOWER">LOWER ER function</a></span></span>
+# <a name="lower-er-function"></a><span data-ttu-id="5d972-103">Функция ER LOWER</span><span class="sxs-lookup"><span data-stu-id="5d972-103">LOWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dd593-104">Функция `LOWER` возвращает указанную строку текста в качестве *строкового* значения после того, как она была преобразована в буквы нижнего регистра.</span><span class="sxs-lookup"><span data-stu-id="dd593-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
+<span data-ttu-id="5d972-104">Функция `LOWER` возвращает указанную строку текста в качестве *строкового* значения после того, как она была преобразована в буквы нижнего регистра.</span><span class="sxs-lookup"><span data-stu-id="5d972-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dd593-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dd593-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5d972-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5d972-105">Syntax</span></span>
 
 ```vb
 LOWER (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="dd593-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="dd593-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5d972-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="5d972-106">Arguments</span></span>
 
-<span data-ttu-id="dd593-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="dd593-107">`text`: *String*</span></span>
+<span data-ttu-id="5d972-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="5d972-107">`text`: *String*</span></span>
 
-<span data-ttu-id="dd593-108">*Строковое* значение, задающее текст.</span><span class="sxs-lookup"><span data-stu-id="dd593-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="5d972-108">*Строковое* значение, задающее текст.</span><span class="sxs-lookup"><span data-stu-id="5d972-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="dd593-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="dd593-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5d972-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="5d972-109">Return values</span></span>
 
-<span data-ttu-id="dd593-110">*Строка*</span><span class="sxs-lookup"><span data-stu-id="dd593-110">*String*</span></span>
+<span data-ttu-id="5d972-110">*Строка*</span><span class="sxs-lookup"><span data-stu-id="5d972-110">*String*</span></span>
 
-<span data-ttu-id="dd593-111">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="dd593-111">The resulting text value.</span></span>
+<span data-ttu-id="5d972-111">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="5d972-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="dd593-112">Пример</span><span class="sxs-lookup"><span data-stu-id="dd593-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5d972-112">Пример</span><span class="sxs-lookup"><span data-stu-id="5d972-112">Example</span></span>
 
-<span data-ttu-id="dd593-113">`LOWER ("Sample")` возвращает **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="dd593-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
+<span data-ttu-id="5d972-113">`LOWER ("Sample")` возвращает **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="5d972-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="dd593-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="dd593-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5d972-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="5d972-114">Additional resources</span></span>
 
-[<span data-ttu-id="dd593-115">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="dd593-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="5d972-115">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="5d972-115">Text functions</span></span>](er-functions-category-text.md)

@@ -18,67 +18,67 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: c9e64bd8e039b4eeca829c3c37299f002ba03592
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201074"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743744"
 ---
-# <a name=""></a><span data-ttu-id="83f14-103"><a name="REPLACE">Функция ER REPLACE</a></span><span class="sxs-lookup"><span data-stu-id="83f14-103"><a name="REPLACE">REPLACE ER function</a></span></span>
+# <a name="replace-er-function"></a><span data-ttu-id="f6c35-103">Функция ER REPLACE</span><span class="sxs-lookup"><span data-stu-id="f6c35-103">REPLACE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="83f14-104">Функция `REPLACE` возвращает указанную строку текста в качестве значения *Строка* после того, как все или ее часть была заменена другой строкой.</span><span class="sxs-lookup"><span data-stu-id="83f14-104">The `REPLACE` function returns the specified text string as a *String* value after all or part of it has been replaced with another string.</span></span>
+<span data-ttu-id="f6c35-104">Функция `REPLACE` возвращает указанную строку текста в качестве значения *Строка* после того, как все или ее часть была заменена другой строкой.</span><span class="sxs-lookup"><span data-stu-id="f6c35-104">The `REPLACE` function returns the specified text string as a *String* value after all or part of it has been replaced with another string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="83f14-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="83f14-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f6c35-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f6c35-105">Syntax</span></span>
 
 ```vb
 REPLACE (text, pattern, replacement, regular expression flag)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="83f14-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="83f14-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="f6c35-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="f6c35-106">Arguments</span></span>
 
-<span data-ttu-id="83f14-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="83f14-107">`text`: *String*</span></span>
+<span data-ttu-id="f6c35-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="f6c35-107">`text`: *String*</span></span>
 
-<span data-ttu-id="83f14-108">Действительный путь источника данных типа *Строка*.</span><span class="sxs-lookup"><span data-stu-id="83f14-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="f6c35-108">Действительный путь источника данных типа *Строка*.</span><span class="sxs-lookup"><span data-stu-id="f6c35-108">The valid path of a data source of the *String* type.</span></span>
 
-<span data-ttu-id="83f14-109">`pattern`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="83f14-109">`pattern`: *String*</span></span>
+<span data-ttu-id="f6c35-109">`pattern`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="f6c35-109">`pattern`: *String*</span></span>
 
-<span data-ttu-id="83f14-110">Если аргумент `regular expression flag` — **FALSE**, этот аргумент содержит текст, который должен быть заменен.</span><span class="sxs-lookup"><span data-stu-id="83f14-110">If the `regular expression flag` argument is **FALSE**, this argument contains the text that must be replaced.</span></span>
+<span data-ttu-id="f6c35-110">Если аргумент `regular expression flag` — **FALSE**, этот аргумент содержит текст, который должен быть заменен.</span><span class="sxs-lookup"><span data-stu-id="f6c35-110">If the `regular expression flag` argument is **FALSE**, this argument contains the text that must be replaced.</span></span>
 
-<span data-ttu-id="83f14-111">Если аргумент `regular expression flag` — **TRUE**, этот аргумент содержит регулярное выражение, которое определяет как шаблон поиска, так и текст замены.</span><span class="sxs-lookup"><span data-stu-id="83f14-111">If the `regular expression flag` argument is **TRUE**, this argument contains a regular expression that defines both a search pattern and the replacement text.</span></span>
+<span data-ttu-id="f6c35-111">Если аргумент `regular expression flag` — **TRUE**, этот аргумент содержит регулярное выражение, которое определяет как шаблон поиска, так и текст замены.</span><span class="sxs-lookup"><span data-stu-id="f6c35-111">If the `regular expression flag` argument is **TRUE**, this argument contains a regular expression that defines both a search pattern and the replacement text.</span></span>
 
-<span data-ttu-id="83f14-112">`replacement`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="83f14-112">`replacement`: *String*</span></span>
+<span data-ttu-id="f6c35-112">`replacement`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="f6c35-112">`replacement`: *String*</span></span>
 
-<span data-ttu-id="83f14-113">Если аргумент `regular expression flag` — **FALSE**, этот аргумент содержит текст, который используется в качестве замены.</span><span class="sxs-lookup"><span data-stu-id="83f14-113">If the `regular expression flag` argument is **FALSE**, this argument contains the text to use as a replacement.</span></span>
+<span data-ttu-id="f6c35-113">Если аргумент `regular expression flag` — **FALSE**, этот аргумент содержит текст, который используется в качестве замены.</span><span class="sxs-lookup"><span data-stu-id="f6c35-113">If the `regular expression flag` argument is **FALSE**, this argument contains the text to use as a replacement.</span></span>
 
-<span data-ttu-id="83f14-114">Если аргумент `regular expression flag` — **TRUE**, этот аргумент не используется.</span><span class="sxs-lookup"><span data-stu-id="83f14-114">If the `regular expression flag` argument is **TRUE**, this argument isn't used.</span></span>
+<span data-ttu-id="f6c35-114">Если аргумент `regular expression flag` — **TRUE**, этот аргумент не используется.</span><span class="sxs-lookup"><span data-stu-id="f6c35-114">If the `regular expression flag` argument is **TRUE**, this argument isn't used.</span></span>
 
-<span data-ttu-id="83f14-115">`regular expression flag`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="83f14-115">`regular expression flag`: *Boolean*</span></span>
+<span data-ttu-id="f6c35-115">`regular expression flag`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="f6c35-115">`regular expression flag`: *Boolean*</span></span>
 
-<span data-ttu-id="83f14-116">*Логическое* значение, которое указывает, используется ли регулярное выражение для замены.</span><span class="sxs-lookup"><span data-stu-id="83f14-116">A *Boolean* value that indicates whether a regular expression is used to do the replacement.</span></span>
+<span data-ttu-id="f6c35-116">*Логическое* значение, которое указывает, используется ли регулярное выражение для замены.</span><span class="sxs-lookup"><span data-stu-id="f6c35-116">A *Boolean* value that indicates whether a regular expression is used to do the replacement.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="83f14-117">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="83f14-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f6c35-117">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f6c35-117">Return values</span></span>
 
-<span data-ttu-id="83f14-118">*Строка*</span><span class="sxs-lookup"><span data-stu-id="83f14-118">*String*</span></span>
+<span data-ttu-id="f6c35-118">*Строка*</span><span class="sxs-lookup"><span data-stu-id="f6c35-118">*String*</span></span>
 
-<span data-ttu-id="83f14-119">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="83f14-119">The resulting text value.</span></span>
+<span data-ttu-id="f6c35-119">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="f6c35-119">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="83f14-120">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="83f14-120">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="f6c35-120">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="f6c35-120">Usage notes</span></span>
 
-<span data-ttu-id="83f14-121">Если аргумент `regular expression flag` — **TRUE**, эта функция возвращает указанную строку после того, как она была изменена в результате использования регулярного выражения, заданного аргументом `pattern`.</span><span class="sxs-lookup"><span data-stu-id="83f14-121">If the `regular expression flag` argument is **TRUE**, this function returns the specified string after it has been changed by applying the regular expression that is specified by the `pattern` argument.</span></span> <span data-ttu-id="83f14-122">Регулярное выражение используется для обнаружения символов, которые необходимо заменить.</span><span class="sxs-lookup"><span data-stu-id="83f14-122">The regular expression is used to find the characters that must be replaced.</span></span>
+<span data-ttu-id="f6c35-121">Если аргумент `regular expression flag` — **TRUE**, эта функция возвращает указанную строку после того, как она была изменена в результате использования регулярного выражения, заданного аргументом `pattern`.</span><span class="sxs-lookup"><span data-stu-id="f6c35-121">If the `regular expression flag` argument is **TRUE**, this function returns the specified string after it has been changed by applying the regular expression that is specified by the `pattern` argument.</span></span> <span data-ttu-id="f6c35-122">Регулярное выражение используется для обнаружения символов, которые необходимо заменить.</span><span class="sxs-lookup"><span data-stu-id="f6c35-122">The regular expression is used to find the characters that must be replaced.</span></span>
 
-<span data-ttu-id="83f14-123">Если аргумент `regular expression flag` имеет значение **FALSE**, эта функция возвращает указанную строку после того, как набор символов, определенных в аргументе `pattern`, был заменен символами из аргумента `replacement`.</span><span class="sxs-lookup"><span data-stu-id="83f14-123">If the `regular expression flag` argument is **FALSE**, this function returns the specified string after the set of characters that are defined in the `pattern` argument have been replaced by characters of the `replacement` argument.</span></span> 
+<span data-ttu-id="f6c35-123">Если аргумент `regular expression flag` имеет значение **FALSE**, эта функция возвращает указанную строку после того, как набор символов, определенных в аргументе `pattern`, был заменен символами из аргумента `replacement`.</span><span class="sxs-lookup"><span data-stu-id="f6c35-123">If the `regular expression flag` argument is **FALSE**, this function returns the specified string after the set of characters that are defined in the `pattern` argument have been replaced by characters of the `replacement` argument.</span></span> 
 
-## <a name="example-1"></a><span data-ttu-id="83f14-124">Пример 1</span><span class="sxs-lookup"><span data-stu-id="83f14-124">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="f6c35-124">Пример 1</span><span class="sxs-lookup"><span data-stu-id="f6c35-124">Example 1</span></span>
 
-<span data-ttu-id="83f14-125">`REPLACE ("+1 923 456 4971", "[^0-9]", "", true)` применяет регулярное выражение, которое удаляет все нечисловые символы и возвращает **"19234564971"**.</span><span class="sxs-lookup"><span data-stu-id="83f14-125">`REPLACE ("+1 923 456 4971", "[^0-9]", "", true)` applies a regular expression that removes all non-numeric symbols, and it returns **"19234564971"**.</span></span> 
+<span data-ttu-id="f6c35-125">`REPLACE ("+1 923 456 4971", "[^0-9]", "", true)` применяет регулярное выражение, которое удаляет все нечисловые символы и возвращает **"19234564971"**.</span><span class="sxs-lookup"><span data-stu-id="f6c35-125">`REPLACE ("+1 923 456 4971", "[^0-9]", "", true)` applies a regular expression that removes all non-numeric symbols, and it returns **"19234564971"**.</span></span> 
 
-## <a name="example-2"></a><span data-ttu-id="83f14-126">Пример 2</span><span class="sxs-lookup"><span data-stu-id="83f14-126">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="f6c35-126">Пример 2</span><span class="sxs-lookup"><span data-stu-id="f6c35-126">Example 2</span></span>
 
-<span data-ttu-id="83f14-127">`REPLACE ("abcdef", "cd", "GH", false)` заменяет шаблон **"cd"** строкой **"GH"** и возвращает **"abGHef"**.</span><span class="sxs-lookup"><span data-stu-id="83f14-127">`REPLACE ("abcdef", "cd", "GH", false)` replaces the pattern **"cd"** with the string **"GH"** and returns **"abGHef"**.</span></span>
+<span data-ttu-id="f6c35-127">`REPLACE ("abcdef", "cd", "GH", false)` заменяет шаблон **"cd"** строкой **"GH"** и возвращает **"abGHef"**.</span><span class="sxs-lookup"><span data-stu-id="f6c35-127">`REPLACE ("abcdef", "cd", "GH", false)` replaces the pattern **"cd"** with the string **"GH"** and returns **"abGHef"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="83f14-128">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="83f14-128">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f6c35-128">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f6c35-128">Additional resources</span></span>
 
-[<span data-ttu-id="83f14-129">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="83f14-129">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="f6c35-129">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="f6c35-129">Text functions</span></span>](er-functions-category-text.md)
