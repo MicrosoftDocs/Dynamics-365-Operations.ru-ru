@@ -1,14 +1,14 @@
 ---
-title: Электронная отчетность — Импорт конфигурации из Lifecycle Services
-description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может импортировать новую конфигурацию электронной отчетности из Microsoft Lifecycle Services (LCS).
+title: Импорт конфигурации из Lifecycle Services
+description: В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может импортировать новую версию конфигурации электронной отчетности (ER) из Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142394"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810651"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="49bc8-103">Электронная отчетность — Импорт конфигурации из Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="49bc8-103">ER Import a configuration from Lifecycle Services</span></span>
+# <a name="import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="3d67d-103">Импорт конфигурации из Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3d67d-103">Import a configuration from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="49bc8-104">В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может импортировать новую конфигурацию электронной отчетности из Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="49bc8-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="3d67d-104">В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может импортировать новую версию [конфигурации электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) из [библиотеки ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="3d67d-104">This topic explains how a user in the System administrator or Electronic reporting developer role can import a new version of an [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) from the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="49bc8-105">В этом примере вам предстоит выбрать желаемую версию конфигурации электронной отчетности для демонстрационной компании Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности являются общими для всех компаний.</span><span class="sxs-lookup"><span data-stu-id="49bc8-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="49bc8-106">Для выполнения этих шагов необходимо сначала выполнить шаги в процедуре "Отправка конфигурации электронной отчетности в Lifecycle Services".</span><span class="sxs-lookup"><span data-stu-id="49bc8-106">To complete these steps, you must first complete the steps in the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="49bc8-107">Доступ к LCS также является обязательным условием для выполнения следующих шагов.</span><span class="sxs-lookup"><span data-stu-id="49bc8-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="3d67d-105">В этом примере вам предстоит выбрать желаемую версию конфигурации электронной отчетности и импортировать ее для демонстрационной компании с названием Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности являются общими для всех компаний.</span><span class="sxs-lookup"><span data-stu-id="3d67d-105">In this example, you will select the desired version of the ER configuration and import it for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="3d67d-106">Для выполнения этих шагов необходимо сначала выполнить шаги в процедуре [Отправка конфигурации в Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span><span class="sxs-lookup"><span data-stu-id="3d67d-106">To complete these steps, you must first complete the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="3d67d-107">Также требуется доступ к LCS.</span><span class="sxs-lookup"><span data-stu-id="3d67d-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="49bc8-108">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="49bc8-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="49bc8-109">Щелкните "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="49bc8-109">Click Configurations.</span></span>
+1. <span data-ttu-id="3d67d-108">Войдите в приложение с помощью одной из следующих ролей:</span><span class="sxs-lookup"><span data-stu-id="3d67d-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="49bc8-110">Удаление общей версии конфигурации модели данных</span><span class="sxs-lookup"><span data-stu-id="49bc8-110">Delete a shared version of data model configuration</span></span>
-1. <span data-ttu-id="49bc8-111">В дереве выберите "Пример конфигурации модели".</span><span class="sxs-lookup"><span data-stu-id="49bc8-111">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="49bc8-112">Первая версия конфигурации примера модели данных создана и опубликована в LCS во время выполнения процедуры "Отправка конфигурации электронной отчетности в Lifecycle Services".</span><span class="sxs-lookup"><span data-stu-id="49bc8-112">The first version of a sample data model configuration has been created and published to LCS during the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="49bc8-113">В этой процедуре мы удалим эту версию конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="49bc8-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="49bc8-114">Эта версия примера конфигурации модели данных будет позднее импортирована из LCS.</span><span class="sxs-lookup"><span data-stu-id="49bc8-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
-2. <span data-ttu-id="49bc8-115">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="49bc8-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="49bc8-116">Выберите версию этой конфигурации со статусом "Общие".</span><span class="sxs-lookup"><span data-stu-id="49bc8-116">Select the version of this configuration that is in the 'Shared' status.</span></span> <span data-ttu-id="49bc8-117">Этот статус указывает, что конфигурация была опубликована в LCS.</span><span class="sxs-lookup"><span data-stu-id="49bc8-117">This status indicates that the configuration has been published to LCS.</span></span>  
-3. <span data-ttu-id="49bc8-118">Щелкните "Изменить статус".</span><span class="sxs-lookup"><span data-stu-id="49bc8-118">Click Change status.</span></span>
-4. <span data-ttu-id="49bc8-119">Щелкните "Отменить".</span><span class="sxs-lookup"><span data-stu-id="49bc8-119">Click Discontinue.</span></span>
-    * <span data-ttu-id="49bc8-120">Измените статус выбранной версии с "Общее" на "Отменено", чтобы сделать ее доступной для удаления.</span><span class="sxs-lookup"><span data-stu-id="49bc8-120">Change the status of the selected version from 'Shared' to 'Discontinued' to make it available for deletion.</span></span>  
-5. <span data-ttu-id="49bc8-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="49bc8-121">Click OK.</span></span>
-6. <span data-ttu-id="49bc8-122">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="49bc8-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="49bc8-123">Выберите версию этой конфигурации со статусом "Отменено".</span><span class="sxs-lookup"><span data-stu-id="49bc8-123">Select the version of this configuration that has a status of 'Discontinued'.</span></span>  
-7. <span data-ttu-id="49bc8-124">Нажмите кнопку Удалить.</span><span class="sxs-lookup"><span data-stu-id="49bc8-124">Click Delete.</span></span>
-8. <span data-ttu-id="49bc8-125">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="49bc8-125">Click Yes.</span></span>
-    * <span data-ttu-id="49bc8-126">Обратите внимание, что доступна только черновая версия 2 выбранной конфигурации модели данных.</span><span class="sxs-lookup"><span data-stu-id="49bc8-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
-9. <span data-ttu-id="49bc8-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="49bc8-127">Close the page.</span></span>
+    - <span data-ttu-id="3d67d-109">Разработчик электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="3d67d-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="3d67d-110">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="3d67d-110">System administrator</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="49bc8-128">Импорт общей версии конфигурации модели данных из LCS</span><span class="sxs-lookup"><span data-stu-id="49bc8-128">Import a shared version of data model configuration from LCS</span></span>
-1. <span data-ttu-id="49bc8-129">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="49bc8-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="49bc8-130">Откройте список репозиториев для Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="49bc8-130">Open the list of repositories for the 'Litware, Inc.'</span></span> <span data-ttu-id="49bc8-131">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="49bc8-131">configuration provider.</span></span>  
-2. <span data-ttu-id="49bc8-132">Щелкните "Репозитории".</span><span class="sxs-lookup"><span data-stu-id="49bc8-132">Click Repositories.</span></span>
-3. <span data-ttu-id="49bc8-133">Щелкните Открыть.</span><span class="sxs-lookup"><span data-stu-id="49bc8-133">Click Open.</span></span>
-    * <span data-ttu-id="49bc8-134">Выберите репозиторий LCS и откройте его.</span><span class="sxs-lookup"><span data-stu-id="49bc8-134">Select the LCS repository and open it.</span></span>  
-4. <span data-ttu-id="49bc8-135">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="49bc8-135">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="49bc8-136">Выберите первую версию примере конфигурации модели в списке версий.</span><span class="sxs-lookup"><span data-stu-id="49bc8-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
-5. <span data-ttu-id="49bc8-137">Нажмите кнопку Импорт.</span><span class="sxs-lookup"><span data-stu-id="49bc8-137">Click Import.</span></span>
-6. <span data-ttu-id="49bc8-138">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="49bc8-138">Click Yes.</span></span>
-    * <span data-ttu-id="49bc8-139">Подтвердите импорт выбранной версии из LCS.</span><span class="sxs-lookup"><span data-stu-id="49bc8-139">Confirm the import of the selected version from LCS .</span></span>  
-    * <span data-ttu-id="49bc8-140">Обратите внимание, что информационное сообщение (над формой) подтверждает успешное завершение импорта выбранной версии.</span><span class="sxs-lookup"><span data-stu-id="49bc8-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
-7. <span data-ttu-id="49bc8-141">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="49bc8-141">Close the page.</span></span>
-8. <span data-ttu-id="49bc8-142">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="49bc8-142">Close the page.</span></span>
-9. <span data-ttu-id="49bc8-143">Щелкните "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="49bc8-143">Click Configurations.</span></span>
-10. <span data-ttu-id="49bc8-144">В дереве выберите "Пример конфигурации модели".</span><span class="sxs-lookup"><span data-stu-id="49bc8-144">In the tree, select 'Sample model configuration'.</span></span>
-11. <span data-ttu-id="49bc8-145">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="49bc8-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="49bc8-146">Выберите версию этой конфигурации со статусом "Общее".</span><span class="sxs-lookup"><span data-stu-id="49bc8-146">Select the version of this configuration that has a status of 'Shared'.</span></span>  
-    * <span data-ttu-id="49bc8-147">Обратите внимание, что общая версия 1 выбранной конфигурации модели данных теперь также доступна.</span><span class="sxs-lookup"><span data-stu-id="49bc8-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
+2. <span data-ttu-id="3d67d-111">Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="3d67d-112">Выберите **Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-112">Select **Configurations**.</span></span>
 
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="3d67d-113">Убедитесь, что текущий пользователь Dynamics 365 Finance является членом проекта LCS, который содержит библиотеку активов, к которой пользователь хочет получить [доступ](../../lifecycle-services/asset-library.md#asset-library-support), чтобы импортировать конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="3d67d-113">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the Asset library that the user wants to [access](../../lifecycle-services/asset-library.md#asset-library-support) to import ER configurations.</span></span>
+>
+> <span data-ttu-id="3d67d-114">Невозможно получить доступ к проекту LCS из репозитория электронной отчетности, который представляет другой домен, отличный от домена, используемого в Finance.</span><span class="sxs-lookup"><span data-stu-id="3d67d-114">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="3d67d-115">При попытке будет отображен пустой список проектов LCS, и вы не сможете импортировать конфигурации электронной отчетности из библиотеки активов уровня проекта в LCS.</span><span class="sxs-lookup"><span data-stu-id="3d67d-115">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="3d67d-116">Чтобы получить доступ к библиотекам активов уровня проекта из репозитория электронной отчетности, который используется для импорта конфигураций электронной отчетности, выполните вход в Finance, используя учетные данные пользователя, принадлежащего к клиенту (домену), для которого была выполнена подготовка текущего экземпляра Finance.</span><span class="sxs-lookup"><span data-stu-id="3d67d-116">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a><span data-ttu-id="3d67d-117">Удаление общей версии конфигурации модели данных</span><span class="sxs-lookup"><span data-stu-id="3d67d-117">Delete a shared version of a data model configuration</span></span>
+
+1. <span data-ttu-id="3d67d-118">На странице **Конфигурации** в дереве конфигураций выберите пункт **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-118">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="3d67d-119">Вы создали первую версию конфигурации примера модели данных и опубликовали ее в LCS, когда завершили шаги в разделе [Отправка конфигурации в Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span><span class="sxs-lookup"><span data-stu-id="3d67d-119">You created the first version of a sample data model configuration and published it to LCS when you completed the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="3d67d-120">В этой процедуре мы удалим эту версию конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="3d67d-120">In this procedure, you will delete that version of the ER configuration.</span></span> <span data-ttu-id="3d67d-121">Затем эту версию можно будет импортировать из LCS позже в этой теме.</span><span class="sxs-lookup"><span data-stu-id="3d67d-121">You will then import that version from LCS later in this topic.</span></span>
+
+2. <span data-ttu-id="3d67d-122">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="3d67d-122">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="3d67d-123">Для этого примера выберите версию этой конфигурации со статусом **Общие**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-123">For this example, select the version of the configuration that has a status of **Shared**.</span></span> <span data-ttu-id="3d67d-124">Этот статус указывает, что конфигурация была опубликована в LCS.</span><span class="sxs-lookup"><span data-stu-id="3d67d-124">This status indicates that the configuration has been published to LCS.</span></span>
+
+3. <span data-ttu-id="3d67d-125">Выберите **Изменить статус**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-125">Select **Change status**.</span></span>
+4. <span data-ttu-id="3d67d-126">Выберите **Отменить**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-126">Select **Discontinue**.</span></span>
+
+    <span data-ttu-id="3d67d-127">Изменив статус выбранной версии с **Общее** на **Отменено**, можно сделать эту версию доступной для удаления.</span><span class="sxs-lookup"><span data-stu-id="3d67d-127">By changing the status of the selected version from **Shared** to **Discontinued**, you make the version available for deletion.</span></span>
+
+5. <span data-ttu-id="3d67d-128">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-128">Select **OK**.</span></span>
+6. <span data-ttu-id="3d67d-129">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="3d67d-129">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="3d67d-130">Для этого примера выберите версию этой конфигурации со статусом **Отменено**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-130">For this example, select the version of the configuration that has a status of **Discontinued**.</span></span>
+
+7. <span data-ttu-id="3d67d-131">Выберите **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-131">Select **Delete**.</span></span>
+8. <span data-ttu-id="3d67d-132">Выберите **Да**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-132">Select **Yes**.</span></span>
+
+    <span data-ttu-id="3d67d-133">Обратите внимание, что теперь доступна только черновая версия 2 выбранной конфигурации модели данных.</span><span class="sxs-lookup"><span data-stu-id="3d67d-133">Notice that the only draft version 2 of the selected data model configuration is now available.</span></span>
+
+9. <span data-ttu-id="3d67d-134">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3d67d-134">Close the page.</span></span>
+
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a><span data-ttu-id="3d67d-135">Импорт общей версии конфигурации модели данных из LCS</span><span class="sxs-lookup"><span data-stu-id="3d67d-135">Import a shared version of a data model configuration from LCS</span></span>
+
+1. <span data-ttu-id="3d67d-136">Перейдите в раздел **Управление организацией \> Рабочие области \> Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-136">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="3d67d-137">В разделе **Поставщики конфигурации** выберите плитку **Litware, Inc.**</span><span class="sxs-lookup"><span data-stu-id="3d67d-137">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="3d67d-138">На плитке **Litware, Inc.** выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-138">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="3d67d-139">Теперь можно открыть список репозиториев для поставщика конфигурации Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="3d67d-139">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="3d67d-140">Выберите **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-140">Select **Open**.</span></span>
+
+    <span data-ttu-id="3d67d-141">В данном примере выберите репозиторий **LCS** и откройте его.</span><span class="sxs-lookup"><span data-stu-id="3d67d-141">For this example, select the **LCS** repository, and open it.</span></span> <span data-ttu-id="3d67d-142">Необходимо иметь [доступ](#accessconditions) к проекту LCS и к библиотеке активов, доступ к которой осуществляется выбранным репозиторием электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="3d67d-142">You must have [access](#accessconditions) to the LCS project and to the Asset library that is accessed by the selected ER repository.</span></span>
+
+5. <span data-ttu-id="3d67d-143">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="3d67d-143">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="3d67d-144">Для этого примера выберите первую версию **примера конфигурации модели** в списке версий.</span><span class="sxs-lookup"><span data-stu-id="3d67d-144">For this example, select the first version of **Sample model configuration** in the version list.</span></span>
+
+6. <span data-ttu-id="3d67d-145">Выберите **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-145">Select **Import**.</span></span>
+7. <span data-ttu-id="3d67d-146">Выберите **Да**, чтобы подтвердить импорт выбранной версии из LCS.</span><span class="sxs-lookup"><span data-stu-id="3d67d-146">Select **Yes** to confirm the import of the selected version from LCS.</span></span>
+
+    <span data-ttu-id="3d67d-147">Информационное сообщение подтверждает, что выбранная версия была успешно импортирована.</span><span class="sxs-lookup"><span data-stu-id="3d67d-147">An informational message confirms that the selected version was successfully imported.</span></span>
+
+8. <span data-ttu-id="3d67d-148">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3d67d-148">Close the page.</span></span>
+9. <span data-ttu-id="3d67d-149">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3d67d-149">Close the page.</span></span>
+10. <span data-ttu-id="3d67d-150">Выберите **Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-150">Select **Configurations**.</span></span>
+11. <span data-ttu-id="3d67d-151">В дереве выберите **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-151">In the tree, select **Sample model configuration**.</span></span>
+12. <span data-ttu-id="3d67d-152">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="3d67d-152">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="3d67d-153">Для этого примера выберите версию этой конфигурации со статусом **Общие**.</span><span class="sxs-lookup"><span data-stu-id="3d67d-153">For this example, select the version of the configuration that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="3d67d-154">Обратите внимание, что общая версия 1 выбранной конфигурации модели данных теперь также доступна.</span><span class="sxs-lookup"><span data-stu-id="3d67d-154">Notice that shared version 1 of the selected data model configuration is also available now.</span></span>

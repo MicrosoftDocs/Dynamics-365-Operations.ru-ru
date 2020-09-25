@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
@@ -15,46 +16,46 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46d77a632b0d2939d9a9f561e7c761845169629
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 11e1edc435cac100bfef15299251c1863103b568
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144481"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759216"
 ---
-# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="97fdb-103">Настройка параметров рабочей области управления затратами</span><span class="sxs-lookup"><span data-stu-id="97fdb-103">Configure cost control workspace parameters</span></span>
+# <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="4b005-103">Настройка параметров рабочей области управления затратами</span><span class="sxs-lookup"><span data-stu-id="4b005-103">Configure cost control workspace parameters</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="97fdb-104">Эта процедура используется для настройки рабочей области "Управление затратами" таким образом, чтобы менеджеры на различных уровнях организации могли получать представление о своих объектах затрат, например центрах затрат и группах продуктов.</span><span class="sxs-lookup"><span data-stu-id="97fdb-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="97fdb-105">Для создания этой записи использовалась демонстрационная компания USP2.</span><span class="sxs-lookup"><span data-stu-id="97fdb-105">The USP2 demo company was used to create this recording.</span></span>
+<span data-ttu-id="4b005-104">Эта процедура используется для настройки рабочей области "Управление затратами" таким образом, чтобы менеджеры на различных уровнях организации могли получать представление о своих объектах затрат, например центрах затрат и группах продуктов.</span><span class="sxs-lookup"><span data-stu-id="4b005-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="4b005-105">Для создания этой записи использовалась демонстрационная компания USP2.</span><span class="sxs-lookup"><span data-stu-id="4b005-105">The USP2 demo company was used to create this recording.</span></span>
 
-1. <span data-ttu-id="97fdb-106">Перейдите в раздел "Учет затрат" > "Настройка" > "Конфигурация рабочей области управления затратами".</span><span class="sxs-lookup"><span data-stu-id="97fdb-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-2. <span data-ttu-id="97fdb-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97fdb-107">Click New.</span></span>
-3. <span data-ttu-id="97fdb-108">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-108">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="97fdb-109">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="97fdb-110">Выберите значение "Да" в поле "Опубликовано".</span><span class="sxs-lookup"><span data-stu-id="97fdb-110">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="97fdb-111">При выборе варианта «Да» просматривать отчет в рабочей области "Управление затратами" могут пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="97fdb-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="97fdb-112">При выборе варианта «Нет» просматривать отчет в рабочей области "Управление затратами" могут только пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="97fdb-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
-6. <span data-ttu-id="97fdb-113">Разверните раздел "Фильтрация данных".</span><span class="sxs-lookup"><span data-stu-id="97fdb-113">Expand the Data filtering section.</span></span>
-7. <span data-ttu-id="97fdb-114">В поле "Единица управления затратами" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-114">In the Cost control unit field, enter or select a value.</span></span>
-8. <span data-ttu-id="97fdb-115">В поле "Исходная версия бюджета" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-115">In the Budget original version field, enter or select a value.</span></span>
-9. <span data-ttu-id="97fdb-116">В поле "Иерархия аналитик элементов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-10. <span data-ttu-id="97fdb-117">В поле "Иерархия аналитик объектов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-11. <span data-ttu-id="97fdb-118">Разверните раздел "Назначить записи расчета".</span><span class="sxs-lookup"><span data-stu-id="97fdb-118">Expand the Assign calculation records section.</span></span>
-12. <span data-ttu-id="97fdb-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97fdb-119">Click New.</span></span>
-13. <span data-ttu-id="97fdb-120">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="97fdb-120">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="97fdb-121">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-121">In the Fiscal calendar period field, enter or select a value.</span></span>
-15. <span data-ttu-id="97fdb-122">В поле "Фактическая версия" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-122">In the Actual version field, enter or select a value.</span></span>
-16. <span data-ttu-id="97fdb-123">Разверните раздел "Финансовые периоды по столбцам".</span><span class="sxs-lookup"><span data-stu-id="97fdb-123">Expand the Fiscal periods per column section.</span></span>
-17. <span data-ttu-id="97fdb-124">Выберите "Да" в поле "Текущий период".</span><span class="sxs-lookup"><span data-stu-id="97fdb-124">Select Yes in the Current period field.</span></span>
-18. <span data-ttu-id="97fdb-125">Разверните раздел "Столбцы для отображения затрат".</span><span class="sxs-lookup"><span data-stu-id="97fdb-125">Expand the Columns to display for costs section.</span></span>
-19. <span data-ttu-id="97fdb-126">Выберите "Да" в поле "Постоянные затраты".</span><span class="sxs-lookup"><span data-stu-id="97fdb-126">Select Yes in the Fixed cost field.</span></span>
-20. <span data-ttu-id="97fdb-127">Выберите "Да" в поле "Переменные затраты".</span><span class="sxs-lookup"><span data-stu-id="97fdb-127">Select Yes in the Variable cost field.</span></span>
-21. <span data-ttu-id="97fdb-128">Выберите "Да" в поле "Общие затраты".</span><span class="sxs-lookup"><span data-stu-id="97fdb-128">Select Yes in the Total cost field.</span></span>
-22. <span data-ttu-id="97fdb-129">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="97fdb-129">Click Save.</span></span>
-23. <span data-ttu-id="97fdb-130">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="97fdb-130">Close the page.</span></span>
-24. <span data-ttu-id="97fdb-131">Перейдите в раздел "Учет затрат" > "Рабочие области" > "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="97fdb-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
-25. <span data-ttu-id="97fdb-132">Выберите отчет для просмотра постоянных, переменных, общих и неклассифицированных затрат для выбранных финансовых периодов.</span><span class="sxs-lookup"><span data-stu-id="97fdb-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
-26. <span data-ttu-id="97fdb-133">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-133">In the Fiscal calendar period field, enter or select a value.</span></span>
-27. <span data-ttu-id="97fdb-134">В поле "Узел иерархии аналитик объектов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="97fdb-135">Выбрав иерархию аналитик объектов затрат, разверните иерархию аналитик элементов затрат для просмотра желаемых значений затрат.</span><span class="sxs-lookup"><span data-stu-id="97fdb-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="97fdb-136">Например, можно развернуть иерархию до производственных накладных расходов, чтобы увидеть значение.</span><span class="sxs-lookup"><span data-stu-id="97fdb-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
+1. <span data-ttu-id="4b005-106">Перейдите в раздел "Учет затрат" > "Настройка" > "Конфигурация рабочей области управления затратами".</span><span class="sxs-lookup"><span data-stu-id="4b005-106">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+2. <span data-ttu-id="4b005-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="4b005-107">Click New.</span></span>
+3. <span data-ttu-id="4b005-108">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-108">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="4b005-109">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="4b005-110">Выберите значение "Да" в поле "Опубликовано".</span><span class="sxs-lookup"><span data-stu-id="4b005-110">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="4b005-111">При выборе варианта «Да» просматривать отчет в рабочей области "Управление затратами" могут пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="4b005-111">If you set this option to Yes, users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, or cost object controller.</span></span> <span data-ttu-id="4b005-112">При выборе варианта «Нет» просматривать отчет в рабочей области "Управление затратами" могут только пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="4b005-112">If you set this option to No, only users who are assigned one of these roles can see the report in the Cost control workspace: cost accounting manager, cost accountant, or cost accountant clerk.</span></span>  
+6. <span data-ttu-id="4b005-113">Разверните раздел "Фильтрация данных".</span><span class="sxs-lookup"><span data-stu-id="4b005-113">Expand the Data filtering section.</span></span>
+7. <span data-ttu-id="4b005-114">В поле "Единица управления затратами" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-114">In the Cost control unit field, enter or select a value.</span></span>
+8. <span data-ttu-id="4b005-115">В поле "Исходная версия бюджета" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-115">In the Budget original version field, enter or select a value.</span></span>
+9. <span data-ttu-id="4b005-116">В поле "Иерархия аналитик элементов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-116">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+10. <span data-ttu-id="4b005-117">В поле "Иерархия аналитик объектов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-117">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+11. <span data-ttu-id="4b005-118">Разверните раздел "Назначить записи расчета".</span><span class="sxs-lookup"><span data-stu-id="4b005-118">Expand the Assign calculation records section.</span></span>
+12. <span data-ttu-id="4b005-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="4b005-119">Click New.</span></span>
+13. <span data-ttu-id="4b005-120">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="4b005-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="4b005-121">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-121">In the Fiscal calendar period field, enter or select a value.</span></span>
+15. <span data-ttu-id="4b005-122">В поле "Фактическая версия" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-122">In the Actual version field, enter or select a value.</span></span>
+16. <span data-ttu-id="4b005-123">Разверните раздел "Финансовые периоды по столбцам".</span><span class="sxs-lookup"><span data-stu-id="4b005-123">Expand the Fiscal periods per column section.</span></span>
+17. <span data-ttu-id="4b005-124">Выберите "Да" в поле "Текущий период".</span><span class="sxs-lookup"><span data-stu-id="4b005-124">Select Yes in the Current period field.</span></span>
+18. <span data-ttu-id="4b005-125">Разверните раздел "Столбцы для отображения затрат".</span><span class="sxs-lookup"><span data-stu-id="4b005-125">Expand the Columns to display for costs section.</span></span>
+19. <span data-ttu-id="4b005-126">Выберите "Да" в поле "Постоянные затраты".</span><span class="sxs-lookup"><span data-stu-id="4b005-126">Select Yes in the Fixed cost field.</span></span>
+20. <span data-ttu-id="4b005-127">Выберите "Да" в поле "Переменные затраты".</span><span class="sxs-lookup"><span data-stu-id="4b005-127">Select Yes in the Variable cost field.</span></span>
+21. <span data-ttu-id="4b005-128">Выберите "Да" в поле "Общие затраты".</span><span class="sxs-lookup"><span data-stu-id="4b005-128">Select Yes in the Total cost field.</span></span>
+22. <span data-ttu-id="4b005-129">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="4b005-129">Click Save.</span></span>
+23. <span data-ttu-id="4b005-130">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="4b005-130">Close the page.</span></span>
+24. <span data-ttu-id="4b005-131">Перейдите в раздел "Учет затрат" > "Рабочие области" > "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="4b005-131">Go to Cost accounting > Workspaces > Cost control.</span></span>
+25. <span data-ttu-id="4b005-132">Выберите отчет для просмотра постоянных, переменных, общих и неклассифицированных затрат для выбранных финансовых периодов.</span><span class="sxs-lookup"><span data-stu-id="4b005-132">Select a statement to see fixed, variable, total, and unclassified costs for the selected fiscal periods.</span></span>
+26. <span data-ttu-id="4b005-133">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-133">In the Fiscal calendar period field, enter or select a value.</span></span>
+27. <span data-ttu-id="4b005-134">В поле "Узел иерархии аналитик объектов затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-134">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="4b005-135">Выбрав иерархию аналитик объектов затрат, разверните иерархию аналитик элементов затрат для просмотра желаемых значений затрат.</span><span class="sxs-lookup"><span data-stu-id="4b005-135">After you've selected a Cost object dimension hierarchy, expand the Cost element dimension hierarchy to see the desired cost values.</span></span> <span data-ttu-id="4b005-136">Например, можно развернуть иерархию до производственных накладных расходов, чтобы увидеть значение.</span><span class="sxs-lookup"><span data-stu-id="4b005-136">For example, you can expand the hierarchy to Manufacturing overhead to see the value.</span></span>  
 

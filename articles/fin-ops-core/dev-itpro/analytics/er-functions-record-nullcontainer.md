@@ -18,46 +18,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea71bfc4b30164fd32e804bf83a46c49cd18d155
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dac6283ec35d3d03f586ca157048bd3ecc4bfa8a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041477"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743935"
 ---
-# <span data-ttu-id="f2b8b-103"><a name="NULLCONTAINER">Функция ER NULLCONTAINER</a></span><span class="sxs-lookup"><span data-stu-id="f2b8b-103"><a name="NULLCONTAINER">NULLCONTAINER ER function</a></span></span>
+# <a name="nullcontainer-er-function"></a><span data-ttu-id="aa2f6-103">Функция ER NULLCONTAINER</span><span class="sxs-lookup"><span data-stu-id="aa2f6-103">NULLCONTAINER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f2b8b-104">Функция `NULLCONTAINER` возвращает нулевое значение *Контейнер (запись)*, у которого такая же структура, что и у указанного списка записей или записи.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-104">The `NULLCONTAINER` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
+<span data-ttu-id="aa2f6-104">Функция `NULLCONTAINER` возвращает нулевое значение *Контейнер (запись)*, у которого такая же структура, что и у указанного списка записей или записи.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-104">The `NULLCONTAINER` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f2b8b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f2b8b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aa2f6-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="aa2f6-105">Syntax</span></span>
 
 ```vb
 NULLCONTAINER (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f2b8b-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="f2b8b-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="aa2f6-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="aa2f6-106">Arguments</span></span>
 
-<span data-ttu-id="f2b8b-107">`list`: *Список записей* или *Контейнер (запись)*</span><span class="sxs-lookup"><span data-stu-id="f2b8b-107">`list`: *Record list* or *Container (record)*</span></span>
+<span data-ttu-id="aa2f6-107">`list`: *Список записей* или *Контейнер (запись)*</span><span class="sxs-lookup"><span data-stu-id="aa2f6-107">`list`: *Record list* or *Container (record)*</span></span>
 
-<span data-ttu-id="f2b8b-108">Действительный путь источника данных типа *Список записей* или *Контейнер (запись)*.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
+<span data-ttu-id="aa2f6-108">Действительный путь источника данных типа *Список записей* или *Контейнер (запись)*.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f2b8b-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f2b8b-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="aa2f6-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="aa2f6-109">Return values</span></span>
 
-<span data-ttu-id="f2b8b-110">*Контейнер (запись)*</span><span class="sxs-lookup"><span data-stu-id="f2b8b-110">*Container (record)*</span></span>
+<span data-ttu-id="aa2f6-110">*Контейнер (запись)*</span><span class="sxs-lookup"><span data-stu-id="aa2f6-110">*Container (record)*</span></span>
 
-<span data-ttu-id="f2b8b-111">Результирующее значение записи.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-111">The resulting record value.</span></span>
+<span data-ttu-id="aa2f6-111">Результирующее значение записи.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-111">The resulting record value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f2b8b-112">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="f2b8b-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="aa2f6-112">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="aa2f6-112">Usage notes</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="f2b8b-113">Эта функция является устаревшей.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-113">This function is obsolete.</span></span> <span data-ttu-id="f2b8b-114">Вместо этого используйте функцию `EMPTYRECORD`.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-114">Use the `EMPTYRECORD` function instead.</span></span> <span data-ttu-id="f2b8b-115">Дополнительные сведения см. в разделе [EMPTYRECORD](er-functions-record-emptyrecord.md).</span><span class="sxs-lookup"><span data-stu-id="f2b8b-115">For more information, see [EMPTYRECORD](er-functions-record-emptyrecord.md).</span></span>
+> <span data-ttu-id="aa2f6-113">Эта функция является устаревшей.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-113">This function is obsolete.</span></span> <span data-ttu-id="aa2f6-114">Вместо этого используйте функцию `EMPTYRECORD`.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-114">Use the `EMPTYRECORD` function instead.</span></span> <span data-ttu-id="aa2f6-115">Дополнительные сведения см. в разделе [EMPTYRECORD](er-functions-record-emptyrecord.md).</span><span class="sxs-lookup"><span data-stu-id="aa2f6-115">For more information, see [EMPTYRECORD](er-functions-record-emptyrecord.md).</span></span>
 
-## <a name="example"></a><span data-ttu-id="f2b8b-116">Пример</span><span class="sxs-lookup"><span data-stu-id="f2b8b-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="aa2f6-116">Пример</span><span class="sxs-lookup"><span data-stu-id="aa2f6-116">Example</span></span>
 
-<span data-ttu-id="f2b8b-117">`NULLCONTAINER (SPLIT ("abc", 1))` возвращает новую пустую запись, которая имеет такую же структуру, как список, который возвращен функцией `SPLIT`.</span><span class="sxs-lookup"><span data-stu-id="f2b8b-117">`NULLCONTAINER (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="f2b8b-118">Дополнительные сведения см. в разделе [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="f2b8b-118">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
+<span data-ttu-id="aa2f6-117">`NULLCONTAINER (SPLIT ("abc", 1))` возвращает новую пустую запись, которая имеет такую же структуру, как список, который возвращен функцией `SPLIT`.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-117">`NULLCONTAINER (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="aa2f6-118">Дополнительные сведения см. в разделе [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="aa2f6-118">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f2b8b-119">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f2b8b-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="aa2f6-119">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="aa2f6-119">Additional resources</span></span>
 
-[<span data-ttu-id="f2b8b-120">Функции для работы с записями</span><span class="sxs-lookup"><span data-stu-id="f2b8b-120">Record functions</span></span>](er-functions-category-record.md)
+[<span data-ttu-id="aa2f6-120">Функции для работы с записями</span><span class="sxs-lookup"><span data-stu-id="aa2f6-120">Record functions</span></span>](er-functions-category-record.md)

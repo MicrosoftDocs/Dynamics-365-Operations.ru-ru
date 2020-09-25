@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77854d645ba5b65a2819437af510fcd67be6d99d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 672abf4938df7d96c0190bfd5325689b381e2764
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040948"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744343"
 ---
-# <span data-ttu-id="8e670-103"><a name="UPPER">Функция ER UPPER</a></span><span class="sxs-lookup"><span data-stu-id="8e670-103"><a name="UPPER">UPPER ER function</a></span></span>
+# <a name="upper-er-function"></a><span data-ttu-id="94cf2-103">Функция ER UPPER</span><span class="sxs-lookup"><span data-stu-id="94cf2-103">UPPER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8e670-104">Функция `UPPER` возвращает указанную строку текста в качестве *строкового* значения после того, как она была преобразована в буквы верхнего регистра.</span><span class="sxs-lookup"><span data-stu-id="8e670-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
+<span data-ttu-id="94cf2-104">Функция `UPPER` возвращает указанную строку текста в качестве *строкового* значения после того, как она была преобразована в буквы верхнего регистра.</span><span class="sxs-lookup"><span data-stu-id="94cf2-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8e670-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8e670-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94cf2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="94cf2-105">Syntax</span></span>
 
 ```vb
 UPPER (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8e670-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="8e670-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="94cf2-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="94cf2-106">Arguments</span></span>
 
-<span data-ttu-id="8e670-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="8e670-107">`text`: *String*</span></span>
+<span data-ttu-id="94cf2-107">`text`: *Строка*</span><span class="sxs-lookup"><span data-stu-id="94cf2-107">`text`: *String*</span></span>
 
-<span data-ttu-id="8e670-108">Действительный путь источника данных типа *Строка*.</span><span class="sxs-lookup"><span data-stu-id="8e670-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="94cf2-108">Действительный путь источника данных типа *Строка*.</span><span class="sxs-lookup"><span data-stu-id="94cf2-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8e670-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="8e670-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="94cf2-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="94cf2-109">Return values</span></span>
 
-<span data-ttu-id="8e670-110">*Строка*</span><span class="sxs-lookup"><span data-stu-id="8e670-110">*String*</span></span>
+<span data-ttu-id="94cf2-110">*Строка*</span><span class="sxs-lookup"><span data-stu-id="94cf2-110">*String*</span></span>
 
-<span data-ttu-id="8e670-111">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="8e670-111">The resulting text value.</span></span>
+<span data-ttu-id="94cf2-111">Результирующее текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="94cf2-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8e670-112">Пример</span><span class="sxs-lookup"><span data-stu-id="8e670-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="94cf2-112">Пример</span><span class="sxs-lookup"><span data-stu-id="94cf2-112">Example</span></span>
 
-<span data-ttu-id="8e670-113">`UPPER ("Sample")` возвращает **"SAMPLE"**.</span><span class="sxs-lookup"><span data-stu-id="8e670-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
+<span data-ttu-id="94cf2-113">`UPPER ("Sample")` возвращает **"SAMPLE"**.</span><span class="sxs-lookup"><span data-stu-id="94cf2-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8e670-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="8e670-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="94cf2-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="94cf2-114">Additional resources</span></span>
 
-[<span data-ttu-id="8e670-115">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="8e670-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="94cf2-115">Текстовые функции</span><span class="sxs-lookup"><span data-stu-id="94cf2-115">Text functions</span></span>](er-functions-category-text.md)

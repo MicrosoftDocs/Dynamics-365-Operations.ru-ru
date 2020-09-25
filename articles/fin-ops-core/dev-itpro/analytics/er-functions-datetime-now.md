@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb5b2fa1b8c466582b15d60a56260f0f7111ebd9
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e8c411e1ce9656ffa35986f1ceef712c9def1e6b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042351"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743527"
 ---
-# <span data-ttu-id="2e927-103"><a name="NOW">Функция ER NOW</a></span><span class="sxs-lookup"><span data-stu-id="2e927-103"><a name="NOW">NOW ER function</a></span></span>
+# <a name="now-er-function"></a><span data-ttu-id="fd720-103">Функция ER NOW</span><span class="sxs-lookup"><span data-stu-id="fd720-103">NOW ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2e927-104">Функция `NOW` возвращает значение *DateTime*, которое представляет текущую дату и время сервера приложения.</span><span class="sxs-lookup"><span data-stu-id="2e927-104">The `NOW` function returns a *DateTime* value that represents the current application server date and time.</span></span>
+<span data-ttu-id="fd720-104">Функция `NOW` возвращает значение *DateTime*, которое представляет текущую дату и время сервера приложения.</span><span class="sxs-lookup"><span data-stu-id="fd720-104">The `NOW` function returns a *DateTime* value that represents the current application server date and time.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2e927-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2e927-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fd720-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="fd720-105">Syntax</span></span>
 
 ```vb
 NOW ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="2e927-106">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="2e927-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="fd720-106">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="fd720-106">Return values</span></span>
 
-<span data-ttu-id="2e927-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="2e927-107">*DateTime*</span></span>
+<span data-ttu-id="fd720-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="fd720-107">*DateTime*</span></span>
 
-<span data-ttu-id="2e927-108">Результирующее значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="2e927-108">The resulting date/time value.</span></span>
+<span data-ttu-id="fd720-108">Результирующее значение даты/времени.</span><span class="sxs-lookup"><span data-stu-id="fd720-108">The resulting date/time value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2e927-109">Пример</span><span class="sxs-lookup"><span data-stu-id="2e927-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fd720-109">Пример</span><span class="sxs-lookup"><span data-stu-id="fd720-109">Example</span></span>
 
-<span data-ttu-id="2e927-110">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` возвращает текущую дату/время сервера приложений, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата.</span><span class="sxs-lookup"><span data-stu-id="2e927-110">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` returns the current application server date/time value, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span>
+<span data-ttu-id="fd720-110">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` возвращает текущую дату/время сервера приложений, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата.</span><span class="sxs-lookup"><span data-stu-id="fd720-110">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` returns the current application server date/time value, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2e927-111">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="2e927-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="fd720-111">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="fd720-111">Additional resources</span></span>
 
-[<span data-ttu-id="2e927-112">Функции даты и времени</span><span class="sxs-lookup"><span data-stu-id="2e927-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="fd720-112">Функции даты и времени</span><span class="sxs-lookup"><span data-stu-id="fd720-112">Date and time functions</span></span>](er-functions-category-datetime.md)
