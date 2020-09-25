@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699653"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802757"
 ---
 # <a name="hazardous-materials-overview"></a>Обзор опасных материалов
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Для поддержания соответствия требованиям к отгрузке и транспортировке организации, которые отгружают материалы, классифицированные как опасные товары, должны включить в их отгрузку дополнительные бумажные документы. Функция опасных материалов позволяет клиентам хранить сведения, имеющие отношение к выпущенным номенклатурам. Эти сведения могут быть затем использованы для подготовки документации по отгрузке. Организация, которая отправляет опасные товары, должна иметь собственные процессы и процедуры для управления процессом отгрузки. Microsoft Dynamics 365 Supply Chain Management — это просто инструмент, который может помочь в создании необходимых документов.
 

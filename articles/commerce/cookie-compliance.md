@@ -3,7 +3,7 @@ title: Соответствие cookie
 description: В этой теме описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446921"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761329"
 ---
 # <a name="cookie-compliance"></a>Соответствие cookie
 
@@ -56,6 +56,10 @@ ms.locfileid: "3446921"
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Используется для ведения сеанса SSO.                        |
 | x-ms-cpim-trans                             | Используется для отслеживания проводок (число открытых вкладок проверка подлинности для сайта "бизнес-клиент" (B2C)), включая текущую проводку. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Согласие пользователя сайта на использование файлов cookie на сайте электронной коммерции 
+
+Если функция или модуль сайта электронной коммерции использует необязательные файлы cookie, перед отслеживанием этого файла cookie необходимо получить согласие пользователя сайта. Чтобы разрешить пользователям сайтов предоставлять согласие на файлы cookie на сайте электронной коммерции, автор сайта должен добавить и настроить модуль разрешения файлов cookie в модуле заголовка страницы, чтобы обеспечить, что разрешение было запрошено и получено. Согласие пользователя сайта должно быть предоставлено, прежде чем функция или модуль, использующие необязательный файл cookie, смогут отображаться на странице сайта.
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Специальные возможности](accessibility.md)
@@ -65,3 +69,7 @@ ms.locfileid: "3446921"
 [Добавление страницы политики конфиденциальности](add-privacy-page.md)
 
 [Замена идентификаторов пользователей, связанных с отслеживаемыми изменениями содержимого](replace-IDs-tracked-changes.md)
+
+[Модуль согласия на файлы cookie](cookie-consent-module.md) 
+ 
+[Модуль верхнего колонтитула](author-header-module.md)
