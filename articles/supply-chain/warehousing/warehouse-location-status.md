@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597514"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775182"
 ---
 # <a name="warehouse-location-status"></a>Статус места хранения на складе
 
@@ -76,6 +76,9 @@ Microsoft Dynamics 365 Supply Chain Management включает нескольк
     Эти параметры определяют, являются ли поля ссылки в месте хранения активными.
 
 1. Повторите шаги с 3 по 4 для профиля **ПОДБОР-06**.
+
+> [!NOTE]
+> Когда параметры в профиле местоположения (**Включить номенклатуру в местоположении**, **Включить действие местоположения**, **Включить статус местоположения**) имеют значение *Да*, система немедленно обновляет соответствующие местоположения путем выполнения задания *Проверка согласованности статуса мест хранения на складе*.
 
 ### <a name="scenario"></a>Сценарий
 

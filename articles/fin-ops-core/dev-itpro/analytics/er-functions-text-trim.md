@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95663f1aacaf93c1c4bfc8d36d9515f495bf61e
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a1f7999ccbcd167280cca1abc48377c36d2bc15f
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040833"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744223"
 ---
-# <a name="TRIM">Функция ER TRIM</a>
+# <a name="trim-er-function"></a>Функция ER TRIM
 
 [!include [banner](../includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Platform
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в обновлениях платформы приложений Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 08/10/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678230"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803147"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Удаленные или устаревшие функции Platform
 
@@ -37,8 +37,6 @@ ms.locfileid: "3678230"
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.13 приложений Finance and Operations
 
-> [!NOTE]
-> Версия 10.0.13 — это предварительная версия. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Пользовательский код, определенный в свойствах отчета SSRS 
 

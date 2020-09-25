@@ -1,9 +1,9 @@
 ---
 title: Что нового и что изменилось в Human Resources
-description: Каждую неделю мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В статьях, перечисленных здесь, подробно описываются изменения, сделанные за каждую неделю.
+description: Каждую неделю мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В темах, перечисленных здесь, подробно описываются изменения, сделанные за каждую неделю.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712189"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760309"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Что нового и что изменилось в Human Resources
 
-Каждые две недели мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В статьях этого раздела подробно описываются изменения, сделанные в каждом выпуске.
+Каждые две недели мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В темах, перечисленных здесь, подробно описываются изменения, сделанные в каждом выпуске.
 
-Дополнительные сведения о предстоящих функциях или о процессе обновления для Управление персоналом см. в следующих статьях:
+>[!NOTE]
+>Для учета праздников график выпуска для ноября и декабря 2020 выглядит следующим образом:
+>
+>- Ноябрьский выпуск: 2 ноября –13 ноября
+>- Декабрьский выпуск: 30 ноября –11 декабря
+> 
+>Ритмичность в две недели будет возобновлена в обычном порядке 11 января 2021 года.
+
+Дополнительные сведения о предстоящих функциях или о процессе обновления для Управление персоналом см. в следующих статьях: 
 
 - [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -39,8 +47,9 @@ ms.locfileid: "3712189"
 
 ## <a name="human-resources-weekly-releases"></a>Еженедельные выпуски Управление персоналом
 
-Чтобы просмотреть новые или измененные функции в каждом двухнедельном выпуске Human Resources, см. следующие статьи:
+Чтобы выяснить новые или измененные функции в каждом двухнедельном выпуске Human Resources, см. следующие статьи:
 
+[3 сентября 2020 г.](hr-whats-new-2020-09-03.md)</br>
 [20 августа 2020 г.](hr-whats-new-2020-08-20.md)</br>
 [6 августа 2020 г.](hr-whats-new-2020-08-06.md)</br>
 [23 июля 2020 г.](hr-whats-new-2020-07-23.md)</br>

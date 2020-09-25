@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209222"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813842"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -55,7 +55,7 @@ ms.locfileid: "3209222"
 -   [Сотрудничество поставщика с клиентами](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Управление пользователями совместной работы с поставщиками](manage-vendor-collaboration-users.md)
 -   [Настройка и ведение совместной работы с поставщиками](set-up-maintain-vendor-collaboration.md)
--   [Демонстрационный сценарий входящих консигнационных запасов для Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(технический документ)
+-   [Демонстрационный сценарий входящих консигнационных запасов для Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(технический документ)
 -   [Мониторинг консигнационных запасов в рамках совместной работы с поставщиком](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md) (только версии Dynamics AX от февраля 2016 и мая 2016 г.)
 -   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от 2016 и мая 2016 гг.)
@@ -98,7 +98,7 @@ ms.locfileid: "3209222"
 -   [Workflow-процессы модуля "Закупки и источники"](procurement-sourcing-workflows.md)
 -   [Регистрация поступления товаров по заказу на покупку](tasks/record-receipt-goods-purchase-order.md)
 -   [Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
--   [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (технический документ)
+-   [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://www.microsoft.com/download/details.aspx?id=101821) (технический документ)
 -   [Обзор политик закупок](purchase-policies.md)
 -   [Создание политик закупок](tasks/create-purchasing-policies.md)
 
