@@ -3,7 +3,7 @@ title: Загрузка конфигураций электронной отче
 description: В этом разделе описывается, как загрузить конфигурации электронной отчетности из Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,59 +18,62 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 8a18427114bddb7c72024a8d96d33f3fbf8dbe17
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934662"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810627"
 ---
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a><span data-ttu-id="c7860-103">Загрузка конфигураций электронной отчетности из Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="c7860-103">Download Electronic reporting configurations from Lifecycle Services</span></span>
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a><span data-ttu-id="ae708-103">Загрузка конфигураций электронной отчетности из Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="ae708-103">Download Electronic reporting configurations from Lifecycle Services</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c7860-104">В этом разделе описывается, как загрузить конфигурации электронной отчетности из Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="c7860-104">This topic explains how to download Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="ae708-104">В этой теме объясняется, как загрузить новейшую версию [конфигураций электронной отчетности (ER)](general-electronic-reporting.md#Configuration) из [библиотеки общих ресурсов](../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="ae708-104">This topic explains how to download the newest version of [Electronic reporting (ER) configurations](general-electronic-reporting.md#Configuration) from the [Shared asset library](../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="c7860-105">В этом учебнике описывается процесс загрузки последней версии конфигураций электронной отчетности из Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="c7860-105">This tutorial guides you through the process of downloading the newest version of Electronic reporting (ER) configurations from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+1. <span data-ttu-id="ae708-105">Войдите в приложение с помощью одной из следующих ролей:</span><span class="sxs-lookup"><span data-stu-id="ae708-105">Sign in to the application by using one of the following roles:</span></span>
 
-1. <span data-ttu-id="c7860-106">Войдите в приложение с помощью одной из следующих ролей:</span><span class="sxs-lookup"><span data-stu-id="c7860-106">Sign in to the application by using one of the following roles:</span></span>
+    - <span data-ttu-id="ae708-106">Разработчик электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="ae708-106">Electronic reporting developer</span></span>
+    - <span data-ttu-id="ae708-107">Консультант по функциональным возможностям электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="ae708-107">Electronic reporting functional consultant</span></span>
+    - <span data-ttu-id="ae708-108">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="ae708-108">System administrator</span></span>
 
-    - <span data-ttu-id="c7860-107">Разработчик электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="c7860-107">Electronic reporting developer</span></span>
-    - <span data-ttu-id="c7860-108">Консультант по функциональным возможностям электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="c7860-108">Electronic reporting functional consultant</span></span>
-    - <span data-ttu-id="c7860-109">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="c7860-109">System administrator</span></span>
+2. <span data-ttu-id="ae708-109">Перейдите в раздел **Управление организацией** &gt; **Рабочие области** &gt; **Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="ae708-109">Go to **Organization administration** &gt; **Workspaces** &gt; **Electronic reporting**.</span></span>
+3. <span data-ttu-id="ae708-110">В разделе **Поставщики конфигурации** выберите плитку **Майкрософт**.</span><span class="sxs-lookup"><span data-stu-id="ae708-110">In the **Configuration providers** section, select the **Microsoft** tile.</span></span>
+4. <span data-ttu-id="ae708-111">На плитке **Майкрософт** выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="ae708-111">On the **Microsoft** tile, select **Repositories**.</span></span>
 
-2. <span data-ttu-id="c7860-110">Перейдите в раздел **Управление организацией** &gt; **Рабочие области** &gt; **Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="c7860-110">Go to **Organization administration** &gt; **Workspaces** &gt; **Electronic reporting**.</span></span>
-3. <span data-ttu-id="c7860-111">В разделе **Поставщики конфигурации** выберите плитку **Майкрософт**.</span><span class="sxs-lookup"><span data-stu-id="c7860-111">In the **Configuration providers** section, select the **Microsoft** tile.</span></span>
-4. <span data-ttu-id="c7860-112">На плитке **Майкрософт** щелкните **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="c7860-112">On the **Microsoft** tile, click **Repositories**.</span></span>
+    <span data-ttu-id="ae708-112">[![Плитка Майкрософт на странице конфигураций локализации](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span><span class="sxs-lookup"><span data-stu-id="ae708-112">[![Microsoft tile on the Localization configurations page](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span></span>
 
-    <span data-ttu-id="c7860-113">[![обновление-er-из-lcs-для-ms-открытие-списка-репозиториев-ms](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span><span class="sxs-lookup"><span data-stu-id="c7860-113">[![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)</span></span>
+5. <span data-ttu-id="ae708-113">На странице **Репозиторий конфигураций** в сетке выберите существующий репозиторий типа **LCS**.</span><span class="sxs-lookup"><span data-stu-id="ae708-113">On the **Configuration repositories** page, in the grid, select the existing repository of the **LCS** type.</span></span> <span data-ttu-id="ae708-114">Если этот репозиторий не отображается в сетке, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="ae708-114">If this repository doesn't appear in the grid, follow these steps:</span></span>
 
-5. <span data-ttu-id="c7860-114">На странице **Репозиторий конфигураций** в сетке выберите существующий репозиторий типа **LCS**.</span><span class="sxs-lookup"><span data-stu-id="c7860-114">On the **Configuration repositories** page, in the grid, select the existing repository of the **LCS** type.</span></span> <span data-ttu-id="c7860-115">Если этот репозиторий не отображается в сетке, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="c7860-115">If this repository doesn't appear in the grid, follow these steps:</span></span>
+    1. <span data-ttu-id="ae708-115">Выберите **Добавить**, чтобы добавить репозиторий.</span><span class="sxs-lookup"><span data-stu-id="ae708-115">Select **Add** to add a repository.</span></span>
+    2. <span data-ttu-id="ae708-116">Выберите **LCS** как тип репозитория.</span><span class="sxs-lookup"><span data-stu-id="ae708-116">Select **LCS** as the repository type.</span></span>
+    3. <span data-ttu-id="ae708-117">Выберите **Создать репозиторий**.</span><span class="sxs-lookup"><span data-stu-id="ae708-117">Select **Create repository**.</span></span>
+    4. <span data-ttu-id="ae708-118">При появлении запроса об авторизации выполните инструкции на экране.</span><span class="sxs-lookup"><span data-stu-id="ae708-118">If you're prompted about authorization, follow the on-screen instructions.</span></span>
+    5. <span data-ttu-id="ae708-119">Введите имя и описание репозитория.</span><span class="sxs-lookup"><span data-stu-id="ae708-119">Enter a name and description for the repository.</span></span>
+    6. <span data-ttu-id="ae708-120">Выберите **ОК**, чтобы подтвердить новую запись репозитория.</span><span class="sxs-lookup"><span data-stu-id="ae708-120">Select **OK** to confirm the new repository entry.</span></span>
+    7. <span data-ttu-id="ae708-121">В сетке выберите новый репозиторий типа **LCS**.</span><span class="sxs-lookup"><span data-stu-id="ae708-121">In the grid, select the new repository of the **LCS** type.</span></span>
 
-    1. <span data-ttu-id="c7860-116">Нажмите кнопку **Добавить**, чтобы добавить новый репозиторий.</span><span class="sxs-lookup"><span data-stu-id="c7860-116">Click **Add** to add a new repository.</span></span>
-    2. <span data-ttu-id="c7860-117">Выберите **LCS** как тип репозитория.</span><span class="sxs-lookup"><span data-stu-id="c7860-117">Select **LCS** as the repository type.</span></span>
-    3. <span data-ttu-id="c7860-118">Щелкните **Создать репозиторий**.</span><span class="sxs-lookup"><span data-stu-id="c7860-118">Click **Create repository**.</span></span>
-    4. <span data-ttu-id="c7860-119">Если будет предложено, следуйте инструкциям по авторизации.</span><span class="sxs-lookup"><span data-stu-id="c7860-119">If prompted, follow the authorization instructions.</span></span>
-    5. <span data-ttu-id="c7860-120">Введите имя и описание репозитория.</span><span class="sxs-lookup"><span data-stu-id="c7860-120">Enter a name and description for the repository.</span></span>
-    6. <span data-ttu-id="c7860-121">Нажмите кнопку **ОК**, чтобы подтвердить новую запись репозитория.</span><span class="sxs-lookup"><span data-stu-id="c7860-121">Click **OK** to confirm the new repository entry.</span></span>
-    7. <span data-ttu-id="c7860-122">В сетке выберите новый репозиторий типа **LCS**.</span><span class="sxs-lookup"><span data-stu-id="c7860-122">In the grid, select the new repository of the **LCS** type.</span></span>
+6. <span data-ttu-id="ae708-122">Выберите **Открыть** для просмотра списка конфигураций электронной отчетности для выбранного репозитория.</span><span class="sxs-lookup"><span data-stu-id="ae708-122">Select **Open** to view the list of ER configurations for the selected repository.</span></span>
 
-6. <span data-ttu-id="c7860-123">Нажмите кнопку **Открыть** для просмотра списка конфигураций электронной отчетности для выбранного репозитория.</span><span class="sxs-lookup"><span data-stu-id="c7860-123">Click **Open** to view the list of ER configurations for the selected repository.</span></span>
+    <span data-ttu-id="ae708-123">[![Страница репозиториев конфигураций](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span><span class="sxs-lookup"><span data-stu-id="ae708-123">[![Configuration repositories page](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span></span>
 
-    <span data-ttu-id="c7860-124">[![обновление-er-из-lcs-для-ms-создание-репозитория-lcs](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span><span class="sxs-lookup"><span data-stu-id="c7860-124">[![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)</span></span>
+    > [!TIP]
+    > <span data-ttu-id="ae708-124">При возникновении проблем с доступом к репозиторию LCS для загрузки конфигураций из библиотеки общих активов в LCS можно загрузить конфигурации из [глобального репозитория](er-download-configurations-global-repo.md).</span><span class="sxs-lookup"><span data-stu-id="ae708-124">If you have trouble accessing the LCS repository to download configurations from the Shared asset library in LCS, you can download configurations from the [Global repository](er-download-configurations-global-repo.md) instead.</span></span>
 
-7. <span data-ttu-id="c7860-125">В дереве конфигураций в левой области выберите требуемую конфигурацию электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="c7860-125">In the configurations tree in the left pane, select the ER configuration that you require.</span></span>
-8. <span data-ttu-id="c7860-126">На экспресс-вкладке **Версии** выберите требуемую версию выбранной конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="c7860-126">On the **Versions** FastTab, select the required version of the selected ER configuration.</span></span>
-9. <span data-ttu-id="c7860-127">Нажмите кнопку **Импорт** для загрузки выбранной версии из LCS в текущий экземпляр.</span><span class="sxs-lookup"><span data-stu-id="c7860-127">Click **Import** to download the selected version from LCS to the current instance.</span></span>
+7. <span data-ttu-id="ae708-125">В дереве конфигураций в левой области выберите требуемую конфигурацию электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="ae708-125">In the configurations tree in the left pane, select the required ER configuration.</span></span>
+8. <span data-ttu-id="ae708-126">На экспресс-вкладке **Версии** выберите требуемую версию выбранной конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="ae708-126">On the **Versions** FastTab, select the required version of the selected ER configuration.</span></span>
+9. <span data-ttu-id="ae708-127">Выберите **Импорт** для загрузки выбранной версии из LCS в текущий экземпляр.</span><span class="sxs-lookup"><span data-stu-id="ae708-127">Select **Import** to download the selected version from LCS to the current instance.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="c7860-128">Кнопка **Импорт** недоступна для версий конфигурации электронной отчетности, которые уже установлены в текущем экземпляре.</span><span class="sxs-lookup"><span data-stu-id="c7860-128">The **Import** button is unavailable for ER configuration versions that are already present in the current instance.</span></span>
+    > <span data-ttu-id="ae708-128">Кнопка **Импорт** недоступна для версий конфигурации электронной отчетности, которые уже установлены в текущем экземпляре.</span><span class="sxs-lookup"><span data-stu-id="ae708-128">The **Import** button is unavailable for ER configuration versions that are already present in the current instance.</span></span>
 
-    <span data-ttu-id="c7860-129">[![обновление-er-из-lcs-для-ms-загрузка-конфигурации](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span><span class="sxs-lookup"><span data-stu-id="c7860-129">[![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span></span>
+    <span data-ttu-id="ae708-129">[![Страница репозитория конфигурации](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span><span class="sxs-lookup"><span data-stu-id="ae708-129">[![Configuration repository page](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c7860-130">В зависимости от параметров электронной отчетности конфигурации проверяются после импорта.</span><span class="sxs-lookup"><span data-stu-id="c7860-130">Depending on the ER settings, configurations are validated after they are imported.</span></span> <span data-ttu-id="c7860-131">Возможно, вы получите уведомление об обнаруженных проблемах несоответствия.</span><span class="sxs-lookup"><span data-stu-id="c7860-131">You might be notified about any inconsistency issues that are discovered.</span></span> <span data-ttu-id="c7860-132">Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации.</span><span class="sxs-lookup"><span data-stu-id="c7860-132">You must resolve those issues before you can use the imported configuration version.</span></span> <span data-ttu-id="c7860-133">Дополнительные сведения см. в списке связанных статей для этого раздела.</span><span class="sxs-lookup"><span data-stu-id="c7860-133">For more information, see the list of related articles for this topic.</span></span>
+> <span data-ttu-id="ae708-130">В зависимости от параметров электронной отчетности конфигурации проверяются после импорта.</span><span class="sxs-lookup"><span data-stu-id="ae708-130">Depending on the ER settings, configurations are validated after they are imported.</span></span> <span data-ttu-id="ae708-131">Возможно, вы получите уведомление об обнаруженных проблемах несоответствия.</span><span class="sxs-lookup"><span data-stu-id="ae708-131">You might be notified about any inconsistency issues that are discovered.</span></span> <span data-ttu-id="ae708-132">Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации.</span><span class="sxs-lookup"><span data-stu-id="ae708-132">You must resolve those issues before you can use the imported configuration version.</span></span> <span data-ttu-id="ae708-133">Дополнительные сведения см. в списке связанных тем для этой темы.</span><span class="sxs-lookup"><span data-stu-id="ae708-133">For more information, see the list of related topics for this topic.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c7860-134">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c7860-134">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ae708-134">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ae708-134">Additional resources</span></span>
 
-[<span data-ttu-id="c7860-135">Обзор электронной отчетности (ER)</span><span class="sxs-lookup"><span data-stu-id="c7860-135">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+[<span data-ttu-id="ae708-135">Обзор электронной отчетности (ER)</span><span class="sxs-lookup"><span data-stu-id="ae708-135">Electronic reporting (ER) overview</span></span>](general-electronic-reporting.md)
+
+[<span data-ttu-id="ae708-136">Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service</span><span class="sxs-lookup"><span data-stu-id="ae708-136">Download ER configurations from the Global repository of Configuration service</span></span>](er-download-configurations-global-repo.md)
