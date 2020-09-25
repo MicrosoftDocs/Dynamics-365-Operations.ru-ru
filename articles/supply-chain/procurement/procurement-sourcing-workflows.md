@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a20be4730189f1f81a08b5dda21e97aaedd7d3b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c757779d60147748e305d85fbc2b0bf6b0eedaf3
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209245"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813920"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
 
@@ -70,7 +70,7 @@ ms.locfileid: "3209245"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://www.microsoft.com/download/details.aspx?id=101821)
 
 - [Бизнес-правило для заявок на покупку](purchase-requisitions-workflow.md)
 
