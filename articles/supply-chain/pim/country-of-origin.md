@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596270"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802805"
 ---
 # <a name="country-of-origin"></a>Страна происхождения
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Многие организации выдают сертификаты своим поставщикам, чтобы гарантировать соответствие продуктов конкретным стандартам сертификации. Эти сертификаты часто зависят от страны происхождения. Функция страны происхождения позволяет связать продукт с его страной происхождения и отслеживать сертификаты продуктов.
+
+## <a name="turn-on-the-country-of-origin-feature"></a>Включение функции страны происхождения
+
+Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+
+- **Модуль:** *Управление сведениями о продукте*
+- **Название функции:** *Функция управления страной происхождения*
 
 ## <a name="configure-source-and-destination-countries"></a>Настройка исходных и конечных стран
 

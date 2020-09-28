@@ -1,6 +1,6 @@
 ---
 title: Сочетания клавиш
-description: Следующие сочетания клавиш могут помочь быстро и эффективно вводить данные.
+description: В этом разделе представлен обзор сочетаний клавиш, которые можно использовать при работе с приложениями Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811563"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761629"
 ---
 # <a name="keyboard-shortcuts"></a>Сочетания клавиш
 
 [!include [banner](../includes/banner.md)]
 
-Следующие сочетания клавиш могут помочь быстро и эффективно вводить данные.
+Следующие сочетания клавиш могут помочь быстро и эффективно вводить данные в приложения Finance and Operations.
 
 > [!NOTE]
 > Сочетания клавиш, описанные здесь, относятся к раскладке клавиатуры для США. Клавиши в других раскладках могут не соответствовать в точности раскладке для США.
@@ -236,6 +236,7 @@ ms.locfileid: "2811563"
 | Перейти на строку вверх или вниз в поиске                                                                                        | СТРЕЛКА ВВЕРХ / СТРЕЛКА ВНИЗ            |
 | Перейти на страницу вверх или вниз в поиске                                                                                       | СТРЕЛКА ВВЕРХ / СТРЕЛКА ВНИЗ              |
 | Перейти в начало или в конец поиска                                                                                    | Home / End                       |
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Сочетания клавиш анализа отсутствующих счетов](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

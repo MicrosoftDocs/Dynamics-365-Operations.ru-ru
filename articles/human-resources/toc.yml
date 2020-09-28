@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 3 сентября 2020 г.
+          href: hr-whats-new-2020-09-03.md
         - name: 20 августа 2020 г.
           href: hr-whats-new-2020-08-20.md
         - name: 6 августа 2020 г.
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 1 мая 2020 г.
           href: hr-whats-new-2020-05-01.md
-        - name: 13 апреля 2020 г.
-          href: hr-whats-new-2020-04-13.md
-        - name: 3 апреля 2020 г.
-          href: hr-whats-new-2020-04-03.md
         - name: Архивы «Что нового» за 2020 г.
           items:
+            - name: 13 апреля 2020 г.
+              href: hr-whats-new-2020-04-13.md
+            - name: 3 апреля 2020 г.
+              href: hr-whats-new-2020-04-03.md
             - name: 24 марта 2020 г.
               href: hr-whats-new-2020-03-24.md
             - name: 19 марта 2020 г.

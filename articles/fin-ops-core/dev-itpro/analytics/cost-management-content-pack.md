@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771525"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759264"
 ---
 # <a name="cost-management-power-bi-content"></a>Пакет содержимого Power BI для управления затратами
 
@@ -176,7 +176,7 @@ ms.locfileid: "2771525"
 
 Ключевые агрегированные измерения следующих объектов используются в качестве основы для содержимого Power BI.
 
-| Объект                          | Ключевые сводные измерения | Источником данных является Finance and Operations | Поле               |
+| Объект                          | Ключевые сводные измерения | Источник данных для Finance and Operations | Поле               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Сумма, руб.                     | CostObjectStatementCache               | Сумма, руб.              |
 | CostObjectStatementCacheMonthly | Количество                   | CostObjectStatementCache               | Кл                 |
@@ -193,10 +193,10 @@ ms.locfileid: "2771525"
 | Кол-во конечного сальдо                | Кол-во конечного сальдо = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Чистое изменение                         | Чистое изменение = SUM(\[AMOUNT\]) |
 | Кол-во чистого изменения                    | Кол-во чистого изменения = SUM(\[QTY\]) |
-| Коэффициент оборачиваемости запасов по сумме | Коэффициент оборачиваемости запасов по сумме = if(OR(\[Среднее сальдо запасов\] \<= 0, \[Проданные или израсходованные запасы\] \>= 0), 0, ABS(\[Проданные или израсходованные запасы\])/\[Среднее сальдо запасов\]) |
+| Коэффициент оборачиваемости запасов по сумме | Коэффициент оборачиваемости запасов по сумме = if(OR(\[Среднее сальдо запасов\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Проданные или израсходованные запасы\])/\[Среднее сальдо запасов\]) |
 | Среднее сальдо запасов          | Среднее сальдо запасов = ((\[Конечное сальдо\] + \[Начальное сальдо\]) / 2) |
 | Количество дней по запасам в наличии             | Количество дней по запасам в наличии = 365 / CostObjectStatementEntries\[Коэффициент оборачиваемости запасов по сумме\] |
-| Точность запасов                 | Точность запасов по сумме = IF(\[Конечное сальдо\] \<= 0, IF(OR(\[Подсчитанная сумма запасов\] \<\> 0, \[Конечное сальдо\] \< 0), 0, 1), MAX(0, (\[Конечный баланс\] - ABS(\[Подсчитанная сумма запасов\]))/\[Конечное сальдо\])) |
+| Точность запасов                 | Точность запасов по сумме = IF(\[Конечное сальдо\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Конечное сальдо\] \< 0), 0, 1), MAX(0, (\[Конечное сальдо\] - ABS(\[Сумма инвентаризации запасов\]))/\[Конечное сальдо\])) |
 
 Следующие ключевые аналитики используются в качестве фильтров для разделения агрегированных измерений, чтобы можно было достичь большей детализации и получить более глубокое аналитическое представление.
 

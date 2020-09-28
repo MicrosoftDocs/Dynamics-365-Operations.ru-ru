@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 086114d6a8d425ca01521d9607e4a70ec5aa766b
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 72f67ad915ba2acc90ecb52bdb97e42504450a03
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019966"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745569"
 ---
-# <a name="EmailDestinationType">Место назначения электронной почты</a>
+# <a name="email-destination"></a>Место назначения электронной почты
 
 [!include [banner](../includes/banner.md)]
 
@@ -60,7 +60,7 @@ ms.locfileid: "3019966"
 
 [![Страница конструктора формул ER](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)
 
-[![Настройка учетной записи источника электронной почты](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)
+[![Настройка учетной записи атрибутов источника электронной почты](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)
 
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651965"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801466"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.8 (февраль 2020 г.)
 
@@ -41,10 +41,10 @@ ms.locfileid: "3651965"
 - [Дополнительная зона местонахождения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [Управление активами](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Дополнительные сведения см. в разделе [Обзор управления активами](../asset-management/index.md).
 - [Отменить работу](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Дополнительные сведения см. в разделе [Отмена работы склада для обработки исключений](../warehousing/cancel-warehouse-work.md).
-- [Изменить пул работ в работе](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [Позиция кластера заполнена](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [Подтвердить и перенести](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [Распределение по срокам комплектации запасов директивы местонахождения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [Изменить пул работ в работе](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Дополнительные сведения см. в разделе [Изменение рабочего пула на работе](../warehousing/change-work-pool-on-work.md).
+- [Позиция кластера заполнена](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) — Дополнительные сведения см. в разделе [Позиция кластера заполнена](../warehousing/cluster-position-full.md).
+- [Подтвердить и перенести](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Дополнительные сведения см. в разделе [Подтверждение и перемещение](../warehousing/confirm-and-transfer.md).
+- [Распределение по срокам комплектации запасов директивы местонахождения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Дополнительные сведения см. в разделе [Распределение по срокам комплектации запасов директивы местонахождения](../warehousing/location-directive-inventory-picking-aging.md).
 - [Статус места хранения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Группировка строк комплектации](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Для получения дополнительных сведений см. раздел [Группировка строк комплектации](../warehousing/pick-line-grouping.md).
 - [Автоматические обновления отгрузок](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Дополнительные сведения см. в разделе [Автоматические обновления отгрузок](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ ms.locfileid: "3651965"
 - [Проверка задачи приложения склада с помощью RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Правило выпуска на склад](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Визуализация состояния волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Группировка шаблонов волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Сведения строки работы](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Дополнительные сведения см. в видеозаписи [Сведения о строке работы](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
-- [Пополнение порога зоны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [Группировка шаблонов волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Дополнительные сведения см. в разделе [Группировка шаблонов волны](../warehousing/wave-template-grouping.md).
+- [Сведения строки работы](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Дополнительные сведения см. в разделе [Сведения строки работы](../warehousing/work-line-details.md) и в видео [Сведения строки работы](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [Пополнение порога зоны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Дополнительные сведения см. в разделе [Пополнение порога зоны](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
