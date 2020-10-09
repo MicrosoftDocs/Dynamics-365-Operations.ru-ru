@@ -18,129 +18,129 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b663f63552f9de4dbafc0cb71b4381db6d8dc99a
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772245"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888164"
 ---
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="8bdfd-103">Домашняя страница расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="8bdfd-103">Accounts payable home page</span></span>
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="e02eb-103">Домашняя страница расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e02eb-103">Accounts payable home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8bdfd-104">В этом разделе представлен обзор расчетов с поставщиками.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-104">This topic provides an overview of Accounts payable.</span></span> 
+<span data-ttu-id="e02eb-104">В этом разделе представлен обзор расчетов с поставщиками.</span><span class="sxs-lookup"><span data-stu-id="e02eb-104">This topic provides an overview of Accounts payable.</span></span> 
 
-<span data-ttu-id="8bdfd-105">Накладные поставщиков можно вводить вручную или получать в электронном виде с использованием информационных объектов.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="8bdfd-106">После ввода или получения накладных поставщиков вы можете просматривать и утверждать их с помощью журнала утверждения накладных или страницы **Накладная поставщика**.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="8bdfd-107">Вы также можете автоматизировать процесс проверки с помощью функций сопоставления накладных, политик накладных поставщика и бизнес-правил, чтобы удовлетворяющие определенным критериям накладные утверждались автоматически. При этом остальные накладные будут помечаться для проверки уполномоченным пользователем.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+<span data-ttu-id="e02eb-105">Накладные поставщиков можно вводить вручную или получать в электронном виде с использованием информационных объектов.</span><span class="sxs-lookup"><span data-stu-id="e02eb-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="e02eb-106">После ввода или получения накладных поставщиков вы можете просматривать и утверждать их с помощью журнала утверждения накладных или страницы **Накладная поставщика**.</span><span class="sxs-lookup"><span data-stu-id="e02eb-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="e02eb-107">Вы также можете автоматизировать процесс проверки с помощью функций сопоставления накладных, политик накладных поставщика и бизнес-правил, чтобы удовлетворяющие определенным критериям накладные утверждались автоматически. При этом остальные накладные будут помечаться для проверки уполномоченным пользователем.</span><span class="sxs-lookup"><span data-stu-id="e02eb-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
 
-<span data-ttu-id="8bdfd-108">**Бизнес-процессы**</span><span class="sxs-lookup"><span data-stu-id="8bdfd-108">**Business processes**</span></span>
+<span data-ttu-id="e02eb-108">**Бизнес-процессы**</span><span class="sxs-lookup"><span data-stu-id="e02eb-108">**Business processes**</span></span>
 
-<span data-ttu-id="8bdfd-109">[![Диаграмма бизнес-процессов](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="8bdfd-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+<span data-ttu-id="e02eb-109">[![Диаграмма бизнес-процессов](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="e02eb-109">[![Diagram of business processes](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
 
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="8bdfd-110">Настройка модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="8bdfd-110">Set up Accounts payable</span></span>
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="e02eb-110">Настройка модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="e02eb-110">Set up Accounts payable</span></span>
 
-<span data-ttu-id="8bdfd-111">Модуль "Расчеты с поставщиками" позволяет настроить группы поставщиков, поставщиков, профили разноски, параметры оплаты, а также параметры, связанные с поставщиками, накладными расходами, поставками и местами назначения, простыми векселями и другие сведения.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+<span data-ttu-id="e02eb-111">Модуль "Расчеты с поставщиками" позволяет настроить группы поставщиков, поставщиков, профили разноски, параметры оплаты, а также параметры, связанные с поставщиками, накладными расходами, поставками и местами назначения, простыми векселями и другие сведения.</span><span class="sxs-lookup"><span data-stu-id="e02eb-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
 
-[<span data-ttu-id="8bdfd-112">Обзор настройки модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="8bdfd-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
+[<span data-ttu-id="e02eb-112">Обзор настройки модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="e02eb-112">Configure Accounts payable overview</span></span>](accounts-payable-overview.md)
 
-[<span data-ttu-id="8bdfd-113">Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[<span data-ttu-id="e02eb-113">Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
-[<span data-ttu-id="8bdfd-114">Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="8bdfd-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+[<span data-ttu-id="e02eb-114">Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="e02eb-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="8bdfd-115">Настройка накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-115">Configure vendor invoices</span></span>
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="e02eb-115">Настройка накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-115">Configure vendor invoices</span></span>
 
-<span data-ttu-id="8bdfd-116">Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящие расходы на поставщиков.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+<span data-ttu-id="e02eb-116">Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящие расходы на поставщиков.</span><span class="sxs-lookup"><span data-stu-id="e02eb-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
 
-[<span data-ttu-id="8bdfd-117">Обзор сопоставления накладных по расчетам с поставщиками</span><span class="sxs-lookup"><span data-stu-id="8bdfd-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
+[<span data-ttu-id="e02eb-117">Обзор сопоставления накладных по расчетам с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e02eb-117">Accounts payable invoice matching overview</span></span>](accounts-payable-invoice-matching.md)
 
-[<span data-ttu-id="8bdfd-118">Профили разноски поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+[<span data-ttu-id="e02eb-118">Профили разноски поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
 
-[<span data-ttu-id="8bdfd-119">Настройка проверки сопоставления накладных в модуле расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="8bdfd-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+[<span data-ttu-id="e02eb-119">Настройка проверки сопоставления накладных в модуле расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e02eb-119">Set up Accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[<span data-ttu-id="8bdfd-120">Политики трехсторонней проверки соответствия</span><span class="sxs-lookup"><span data-stu-id="8bdfd-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+[<span data-ttu-id="e02eb-120">Политики трехсторонней проверки соответствия</span><span class="sxs-lookup"><span data-stu-id="e02eb-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
 
-[<span data-ttu-id="8bdfd-121">Сопоставление накладных и внутрихолдинговые заказы на покупку</span><span class="sxs-lookup"><span data-stu-id="8bdfd-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+[<span data-ttu-id="e02eb-121">Сопоставление накладных и внутрихолдинговые заказы на покупку</span><span class="sxs-lookup"><span data-stu-id="e02eb-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
 
-[<span data-ttu-id="8bdfd-122">Обзор устранения несоответствий во время сопоставления итогов по накладным</span><span class="sxs-lookup"><span data-stu-id="8bdfd-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[<span data-ttu-id="e02eb-122">Обзор устранения несоответствий во время сопоставления итогов по накладным</span><span class="sxs-lookup"><span data-stu-id="e02eb-122">Resolve discrepancies during invoice totals matching overview</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[<span data-ttu-id="8bdfd-123">Корреспондирующие счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных</span><span class="sxs-lookup"><span data-stu-id="8bdfd-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+[<span data-ttu-id="e02eb-123">Корреспондирующие счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных</span><span class="sxs-lookup"><span data-stu-id="e02eb-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
 
-[<span data-ttu-id="8bdfd-124">Утверждения накладных на мобильном устройстве</span><span class="sxs-lookup"><span data-stu-id="8bdfd-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+[<span data-ttu-id="e02eb-124">Утверждения накладных на мобильном устройстве</span><span class="sxs-lookup"><span data-stu-id="e02eb-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
 
-[<span data-ttu-id="8bdfd-125">Рабочая область выставления накладных по совместной работе с поставщиками</span><span class="sxs-lookup"><span data-stu-id="8bdfd-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+[<span data-ttu-id="e02eb-125">Рабочая область выставления накладных по совместной работе с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e02eb-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
 
-[<span data-ttu-id="8bdfd-126">Автоматизация накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+[<span data-ttu-id="e02eb-126">Автоматизация накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
 
-## <a name="configure-vendor-payments"></a><span data-ttu-id="8bdfd-127">Настройка платежей поставщикам</span><span class="sxs-lookup"><span data-stu-id="8bdfd-127">Configure vendor payments</span></span> 
+## <a name="configure-vendor-payments"></a><span data-ttu-id="e02eb-127">Настройка платежей поставщикам</span><span class="sxs-lookup"><span data-stu-id="e02eb-127">Configure vendor payments</span></span> 
 
-<span data-ttu-id="8bdfd-128">Вы можете назначить определенный в системе тип платежей, например "Чек", "Электронный платеж" или "Простой вексель", любому пользовательскому способу оплаты.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="8bdfd-129">Указывать типы платежей необязательно, но они могут быть полезны при проверке электронных платежей, когда нужно быстро определить тип конкретного платежа.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+<span data-ttu-id="e02eb-128">Вы можете назначить определенный в системе тип платежей, например "Чек", "Электронный платеж" или "Простой вексель", любому пользовательскому способу оплаты.</span><span class="sxs-lookup"><span data-stu-id="e02eb-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="e02eb-129">Указывать типы платежей необязательно, но они могут быть полезны при проверке электронных платежей, когда нужно быстро определить тип конкретного платежа.</span><span class="sxs-lookup"><span data-stu-id="e02eb-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
 
-[<span data-ttu-id="8bdfd-130">Рабочая область платежей поставщику</span><span class="sxs-lookup"><span data-stu-id="8bdfd-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+[<span data-ttu-id="e02eb-130">Рабочая область платежей поставщику</span><span class="sxs-lookup"><span data-stu-id="e02eb-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
 
-[<span data-ttu-id="8bdfd-131">Определение сборов по платежам поставщикам</span><span class="sxs-lookup"><span data-stu-id="8bdfd-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+[<span data-ttu-id="e02eb-131">Определение сборов по платежам поставщикам</span><span class="sxs-lookup"><span data-stu-id="e02eb-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
 
-[<span data-ttu-id="8bdfd-132">Определение условий оплаты для поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+[<span data-ttu-id="e02eb-132">Определение условий оплаты для поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
 
-[<span data-ttu-id="8bdfd-133">Обзор положительного платежа</span><span class="sxs-lookup"><span data-stu-id="8bdfd-133">Positive pay overview</span></span>](positive-pay-overview.md)
+[<span data-ttu-id="e02eb-133">Обзор положительного платежа</span><span class="sxs-lookup"><span data-stu-id="e02eb-133">Positive pay overview</span></span>](positive-pay-overview.md)
 
-[<span data-ttu-id="8bdfd-134">Настройка и создание файлов положительных платежей</span><span class="sxs-lookup"><span data-stu-id="8bdfd-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+[<span data-ttu-id="e02eb-134">Настройка и создание файлов положительных платежей</span><span class="sxs-lookup"><span data-stu-id="e02eb-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
 
-[<span data-ttu-id="8bdfd-135">Создание платежей поставщику с помощью предложения по оплате</span><span class="sxs-lookup"><span data-stu-id="8bdfd-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+[<span data-ttu-id="e02eb-135">Создание платежей поставщику с помощью предложения по оплате</span><span class="sxs-lookup"><span data-stu-id="e02eb-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
 
-[<span data-ttu-id="8bdfd-136">Платежи поставщику на частичную сумму</span><span class="sxs-lookup"><span data-stu-id="8bdfd-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+[<span data-ttu-id="e02eb-136">Платежи поставщику на частичную сумму</span><span class="sxs-lookup"><span data-stu-id="e02eb-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
 
-[<span data-ttu-id="8bdfd-137">Использование скидки, превышающей рассчитанную скидку для платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="8bdfd-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+[<span data-ttu-id="e02eb-137">Использование скидки, превышающей рассчитанную скидку для платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="e02eb-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
 
-[<span data-ttu-id="8bdfd-138">Использование скидки по оплате вне периода скидки по оплате</span><span class="sxs-lookup"><span data-stu-id="8bdfd-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+[<span data-ttu-id="e02eb-138">Использование скидки по оплате вне периода скидки по оплате</span><span class="sxs-lookup"><span data-stu-id="e02eb-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[<span data-ttu-id="8bdfd-139">Пример электронной отчетности для чеков поставщиков</span><span class="sxs-lookup"><span data-stu-id="8bdfd-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+[<span data-ttu-id="e02eb-139">Пример электронной отчетности для чеков поставщиков</span><span class="sxs-lookup"><span data-stu-id="e02eb-139">Electronic reporting sample vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
 
-[<span data-ttu-id="8bdfd-140">Реверсирование платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="8bdfd-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+[<span data-ttu-id="e02eb-140">Реверсирование платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="e02eb-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
 
-[<span data-ttu-id="8bdfd-141">Счета по предоплате и предоплата</span><span class="sxs-lookup"><span data-stu-id="8bdfd-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
+[<span data-ttu-id="e02eb-141">Счета по предоплате и предоплата</span><span class="sxs-lookup"><span data-stu-id="e02eb-141">Prepayment invoices vs. prepayments</span></span>](prepayments-invoices-vs-prepayments.md)
 
-[<span data-ttu-id="8bdfd-142">Централизованные платежи для расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="8bdfd-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+[<span data-ttu-id="e02eb-142">Централизованные платежи для расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e02eb-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
 
-## <a name="settlements"></a><span data-ttu-id="8bdfd-143">Сопоставления</span><span class="sxs-lookup"><span data-stu-id="8bdfd-143">Settlements</span></span>
+## <a name="settlements"></a><span data-ttu-id="e02eb-143">Сопоставления</span><span class="sxs-lookup"><span data-stu-id="e02eb-143">Settlements</span></span>
 
-<span data-ttu-id="8bdfd-144">Следующие темы содержат информацию о сопоставлениях.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="8bdfd-145">Сопоставление — это процесс сопоставления платежей со счетами-фактурами.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-145">Settlement is the process of settling payments with invoices.</span></span> 
+<span data-ttu-id="e02eb-144">Следующие темы содержат информацию о сопоставлениях.</span><span class="sxs-lookup"><span data-stu-id="e02eb-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="e02eb-145">Сопоставление — это процесс сопоставления платежей со счетами-фактурами.</span><span class="sxs-lookup"><span data-stu-id="e02eb-145">Settlement is the process of settling payments with invoices.</span></span> 
 
-[<span data-ttu-id="8bdfd-146">Настройка сопоставления</span><span class="sxs-lookup"><span data-stu-id="8bdfd-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+[<span data-ttu-id="e02eb-146">Настройка сопоставления</span><span class="sxs-lookup"><span data-stu-id="e02eb-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
 
-[<span data-ttu-id="8bdfd-147">Сопоставление частичного платежа поставщику до даты скидки с окончательным платежом после даты скидки</span><span class="sxs-lookup"><span data-stu-id="8bdfd-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[<span data-ttu-id="e02eb-147">Сопоставление частичного платежа поставщику до даты скидки с окончательным платежом после даты скидки</span><span class="sxs-lookup"><span data-stu-id="e02eb-147">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
-[<span data-ttu-id="8bdfd-148">Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика</span><span class="sxs-lookup"><span data-stu-id="8bdfd-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+[<span data-ttu-id="e02eb-148">Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика</span><span class="sxs-lookup"><span data-stu-id="e02eb-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
-[<span data-ttu-id="8bdfd-149">Сопоставление частичного платежа поставщику с несколькими периодами скидок</span><span class="sxs-lookup"><span data-stu-id="8bdfd-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+[<span data-ttu-id="e02eb-149">Сопоставление частичного платежа поставщику с несколькими периодами скидок</span><span class="sxs-lookup"><span data-stu-id="e02eb-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[<span data-ttu-id="8bdfd-150">Сопоставление частичного платежа поставщику и окончательного платежа в полном объеме до даты скидки</span><span class="sxs-lookup"><span data-stu-id="8bdfd-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[<span data-ttu-id="e02eb-150">Сопоставление частичного платежа поставщику и окончательного платежа в полном объеме до даты скидки</span><span class="sxs-lookup"><span data-stu-id="e02eb-150">Settle a partial vendor payment and the final payment in full before the discount date</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[<span data-ttu-id="8bdfd-151">Один ваучер с несколькими записями клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="8bdfd-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+[<span data-ttu-id="e02eb-151">Один ваучер с несколькими записями клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="e02eb-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="8bdfd-152">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="8bdfd-152">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="e02eb-152">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e02eb-152">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="8bdfd-153">Новые возможности и текущие разработки</span><span class="sxs-lookup"><span data-stu-id="8bdfd-153">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="e02eb-153">Новые возможности и текущие разработки</span><span class="sxs-lookup"><span data-stu-id="e02eb-153">What's new and in development</span></span>
 
-<span data-ttu-id="8bdfd-154">Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-154">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+<span data-ttu-id="e02eb-154">Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях.</span><span class="sxs-lookup"><span data-stu-id="e02eb-154">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="8bdfd-155">Блоги</span><span class="sxs-lookup"><span data-stu-id="8bdfd-155">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="e02eb-155">Блоги</span><span class="sxs-lookup"><span data-stu-id="e02eb-155">Blogs</span></span>
 
-<span data-ttu-id="8bdfd-156">Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="8bdfd-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="e02eb-156">Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="e02eb-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="8bdfd-157">[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+<span data-ttu-id="e02eb-157">[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) — это единый источник информации о новых возможностях и тенденциях в Dynamics 365, ориентированный на партнеров Microsoft Dynamics.</span><span class="sxs-lookup"><span data-stu-id="e02eb-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
 
-#### <a name="community-blogs"></a><span data-ttu-id="8bdfd-158">Блоги сообщества</span><span class="sxs-lookup"><span data-stu-id="8bdfd-158">Community blogs</span></span>
+#### <a name="community-blogs"></a><span data-ttu-id="e02eb-158">Блоги сообщества</span><span class="sxs-lookup"><span data-stu-id="e02eb-158">Community blogs</span></span>
 
-[<span data-ttu-id="8bdfd-159">Управление расчетами с поставщиками в Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="8bdfd-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+[<span data-ttu-id="e02eb-159">Управление расчетами с поставщиками в Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="e02eb-159">How to manage payables in Dynamics 365 Finance</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
-#### <a name="task-guides"></a><span data-ttu-id="8bdfd-160">Проводники по задачам</span><span class="sxs-lookup"><span data-stu-id="8bdfd-160">Task guides</span></span>
-<span data-ttu-id="8bdfd-161">Проводники по задачам в приложении — это еще один источник справочной информации.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="8bdfd-162">Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.</span><span class="sxs-lookup"><span data-stu-id="8bdfd-162">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="e02eb-160">Проводники по задачам</span><span class="sxs-lookup"><span data-stu-id="e02eb-160">Task guides</span></span>
+<span data-ttu-id="e02eb-161">Проводники по задачам в приложении — это еще один источник справочной информации.</span><span class="sxs-lookup"><span data-stu-id="e02eb-161">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="e02eb-162">Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.</span><span class="sxs-lookup"><span data-stu-id="e02eb-162">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="8bdfd-163">Видео</span><span class="sxs-lookup"><span data-stu-id="8bdfd-163">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="e02eb-163">Видео</span><span class="sxs-lookup"><span data-stu-id="e02eb-163">Videos</span></span>
 
-<span data-ttu-id="8bdfd-164">Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="8bdfd-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="e02eb-164">Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="e02eb-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
