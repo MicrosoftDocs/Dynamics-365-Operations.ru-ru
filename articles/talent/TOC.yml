@@ -142,15 +142,15 @@
           href: talent-versions-update-policy.md
         - name: Обновления Talent
           href: talent-updates.md
-        - name: Обеспечение Talent
+        - name: Подготовка Talent к работе
           href: provisioning-talent.md
         - name: Управление функциями
           href: access-preview-feature.md
-        - name: Обеспечение Onboard
+        - name: Подготовка Onboard к работе
           href: modular-app-tech-faq.md
         - name: Экспорт данных из Attract и Onboard
           href: attract-onboard-export-data.md
-        - name: Встраивание Microsoft Power Apps
+        - name: Внедрение приложений на основе холста из Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Получение поддержки по Talent
           href: talent-support.md
@@ -248,7 +248,9 @@
       items:
         - name: Устранение неполадок при публикации вакансий в LinkedIn
           href: attract-troubleshoot-linkedin.md
-        - name: 'Пользователю доступно Human Resources, но недоступно приложение Onboard или Attract'
+        - name: 'У пользователя есть доступ к Human Resources, но не к приложению Onboard или Attract'
           href: user-access-core-hr.md
-        - name: Пользователи Azure Active Directory отсутствуют в средстве выбора пользователей
+        - name: Пользователи Azure Active Directory отсутствуют в элементе управления "Выбор людей"
           href: people-picker-user-not-found.md
+        - name: Пользователи Attract не могут подавать заявления на вакансии на портале вакансий
+          href: attract-troubleshoot-career-portal.md

@@ -46,7 +46,7 @@
               href: business-events/business-events-flow.md
             - name: Документация для разработчиков бизнес-событий
               href: business-events/business-events-dev-doc.md
-            - name: Диагностика бизнес-событий
+            - name: Устранение неполадок с бизнес-событиями
               href: business-events/troubleshooting.md
             - name: Варианты использования для бизнес-событий
               href: business-events/potential-use-cases.md
@@ -82,11 +82,13 @@
               href: dev-tools/version-models-build.md
         - name: Интеграция данных
           items:
-            - name: Выбор стратегии интеграции данных (импорт/экспорт)
+            - name: Выбор стратегии интеграции данных (импорта/экспорта)
               href: data-entities/integration-overview.md
             - name: Регулирование на основе приоритетов
               hreF: data-entities/priority-based-throttling.md
-            - name: API интеграции данных
+            - name: Вопросы и ответы по регулированию на основе приоритетов
+              href: data-entities/throttling-faq.md
+            - name: API-интерфейсы интеграции данных
               items:
                 - name: REST API пакета управления данными
                   href: data-entities/data-management-api.md
@@ -154,9 +156,11 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Миграция типа данных валюты для двойной записи
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Настройка сопоставления для полей статуса заказа на продажу
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Управление двойной записью
                           items:
-                            - name: Настройка сопоставления объектов и полей
+                            - name: Настройка сопоставлений объектов и полей
                               href: data-entities/dual-write/customizing-mappings.md
                             - name: Работа с несколькими сопоставлениями объектов
                               href: data-entities/dual-write/multiple-entity-maps.md
@@ -518,13 +522,13 @@
                       href: deployment/redeploy-on-prem.md
                     - name: Удаление и повторная установка или добавление узла AOS
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Повторное использование одного экземпляра службы AD FS для нескольких сред
+                    - name: Использование одного и того же экземпляра AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
                 - name: Локальный агент
                   items:
-                    - name: Совместимость AD FS Office 365
+                    - name: Совместимость AD FS с Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
-                    - name: 'Сценарии, выполняемые перед развертыванием локального агента и после его развертывания'
+                    - name: 'Сценарии, выполняемые перед развертыванием и после развертывания локального агента'
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Обновление локального агента
                       href: lifecycle-services/update-local-agent.md
@@ -627,9 +631,7 @@
                 - name: Учебник по средствам разработки
                   href: dev-tools/introduction-visual-studio.md
                 - name: Средство проверки приложений
-                  items:
-                    - name: Установка BaseX для средства проверки приложений
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: Обозреватель приложений
                   href: dev-tools/application-explorer.md
                 - name: Сборка и отладка проектов
@@ -1216,7 +1218,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Модуль управления
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: Модуль контейнера
+                    - name: Контейнерный модуль
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Модуль поля
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
@@ -1360,14 +1362,32 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
                     - name: Тип PartMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-                    - name: Тип Row
+                    - name: Тип строки
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-                    - name: Тип Value
+                    - name: Тип значения
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
                     - name: Тип ValueDesign
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: Тип ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Инфраструктура автоматизации процессов
+          items:
+            - name: Разработка на базе инфраструктуры автоматизации процессов
+              href: process-automation/process-automation-framework.md
+            - name: Регистрация типа
+              href: process-automation/type-registration.md
+            - name: Регистрация ряда
+              href: process-automation/series-registration.md
+            - name: Параметры процесса
+              href: process-automation/process-parameters.md
+            - name: Настраиваемые пользователем запросы
+              href: process-automation/user-queries.md
+            - name: Запуск процесса
+              href: process-automation/run-process.md
+            - name: Ведение журнала результатов и сообщений
+              href: process-automation/log-results.md
+            - name: Настройка пользовательского интерфейса
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Обзор Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: Разработка и выпуск
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Промежуточное размещение и публикации
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Добавление методологий
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Настройка библиотек средства моделирования бизнес-процессов
@@ -1410,7 +1430,7 @@
               href: lcs-solutions/database-backup-lcs-solutions.md
             - name: Локализация и нормативные компоненты
               items:
-                - name: Ресурсы глобализации
+                - name: Ресурсы по глобализации
                   href: lcs-solutions/country-region.md
                 - name: Классификация функций локализации
                   href: lcs-solutions/classify-localization-features.md

@@ -158,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Встраивание Microsoft Power Apps
+                - name: Внедрение приложений на основе холста из Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Поиск сведений с использованием поиска
+                - name: Поиск сведений с использованием подстановки
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Изменение даты для сеанса
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
@@ -198,7 +198,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Глобализация
           items:
-            - name: Ресурсы глобализации
+            - name: Ресурсы по глобализации
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Нормативные обновления
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
@@ -1653,8 +1653,10 @@
           items:
             - name: Обзор закупок и источников
               href: procurement/procurement-sourcing-overview.md
-            - name: Бизнес-правило модуля "Закупки и источники"
+            - name: Workflow-процесс закупок и источников
               href: procurement/procurement-sourcing-workflows.md
+            - name: Устранение неполадок в workflow-процессах закупок и источников
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Каталоги закупаемой продукции
               items:
                 - name: Обзор каталогов закупаемой продукции
@@ -1695,9 +1697,11 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Регистрация поступления товаров по заказу на покупку
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Устранение неполадок с заказами на покупку
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Создание заказа на покупку
               items:
-                - name: Создавать заказы на покупку вручную
+                - name: Создание заказов на покупку вручную
                   href: procurement/purchase-order-creation.md
                 - name: Создание заказа на покупку
                   href: procurement/tasks/create-purchase-order.md
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Ретробонусы поставщика
                   href: procurement/vendor-rebates.md
+                - name: 'Устранение неполадок с ценами, договорами и ретробонусами'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Политики закупок
               items:
                 - name: Обзор политик закупок
@@ -1737,11 +1743,13 @@
               items:
                 - name: Поступление продуктов по заказам на покупку
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: Обзор накладных поставщика
+                - name: Обзор счетов поставщиков
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Устранение неполадок с поступлением продуктов и выставлением счетов
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Управление поставщиками и совместная работа с ними
               items:
-                - name: Настройка и ведение сотрудничества с поставщиками
+                - name: Настройка и ведение совместной работы с поставщиками
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: Ведение пользователей совместной работы с поставщиками
                   href: procurement/manage-vendor-collaboration-users.md
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: Настройка внешнего каталога для PunchOut eProcurement
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: Усовершенствования в cXML закупок
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Использование внешних каталогов для PunchOut eProcurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Мобильная рабочая область совместной работы с поставщиками
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Подтверждение заказов на продажу
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Устранение неполадок с заказами на продажу
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Договоры продажи
               items:
                 - name: Обзор договоров продажи
@@ -2275,23 +2287,25 @@
                   href: sales-marketing/tasks/process-rebates-payment.md
                 - name: Поиск применимых цен и скидок
                   href: sales-marketing/tasks/look-up-applicable-prices-discounts.md
-            - name: Предложения по продажам
+            - name: Предложения по продаже
               items:
                 - name: Моделирование цены
                   href: sales-marketing/price-simulation.md
-                - name: Массовое создание предложений по продажам
+                - name: Массовое создание предложений по продаже
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Создание и изменение предложений по продаже
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Устранение неполадок с предложениями по продаже
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Возвраты
               items:
                 - name: Возвраты продаж
                   href: warehousing/sales-returns.md
             - name: Комиссия
               items:
-                - name: Регистрация комиссий продаж
+                - name: Регистрация комиссий за продажи
                   href: sales-marketing/tasks/register-sales-commissions.md
-                - name: Настройка правил комиссий продаж
+                - name: Настройка правил комиссий за продажи
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
             - name: Клиентский портал для Dynamics 365 Supply Chain Management
               items:
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Установка и подключение приложения склада
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Сканирование штрих-кодов с помощью камеры в приложении склада
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Настройка имен полей в приложении склада
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Настройка мобильных устройств для работы склада
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Сканирование штрих-кодов с помощью камеры в приложении склада
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Получение грузомест с помощью приложения склада
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Настройка пункта меню мобильного устройства для предоставления обзора строк комплектации
+                      href: warehousing/pick-line-overview.md
                     - name: Создание пункта меню мобильного устройства для консолидации грузомест
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве

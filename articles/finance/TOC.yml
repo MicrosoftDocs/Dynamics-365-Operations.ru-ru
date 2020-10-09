@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: "Finance 10.0.12 (август 2020\_г.)"
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: "Finance 10.0.11 (июль 2020\_г.)"
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции в Dynamics 365 Finance
@@ -160,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Встраивание Microsoft Power Apps
+                - name: Внедрение приложений на основе холста из Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
-                - name: Поиск сведений с использованием поиска
+                - name: Поиск сведений с использованием подстановки
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Изменение даты для сеанса
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
@@ -1224,10 +1222,26 @@
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Глобализация
           items:
-            - name: Ресурсы глобализации
+            - name: Ресурсы по глобализации
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
+            - name: Надстройка "Электронное выставление счетов"
+              items:
+                - name: Обзор надстройки "Электронное выставление счетов"
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Создание учетной записи хранения Azure и хранилища ключей
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Начало работы с надстройкой "Электронное выставление счетов"
+                  href: localizations/e-invoicing-get-started.md
+                - name: Начало работы с надстройкой "Электронное выставление счетов" для Бразилии
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Начало работы с надстройкой "Электронное выставление счетов" для Италии
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Начало работы с надстройкой "Электронное выставление счетов" для Мексики
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Настройка надстройки "Электронное выставление счетов"
+                  href: localizations/e-invoicing-setup.md
             - name: Австралия
               items:
                 - name: Обзор по Австралии
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Создание и перенос проводок в BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Экспорт проводок ГК
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: Налоговая декларация INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Отчеты по выверке
@@ -1450,7 +1466,7 @@
                       href: localizations/latam-bra-tax-attributes.md
                     - name: Налоговые платежи
                       href: localizations/latam-bra-tax-payments.md
-                    - name: Налог в предложениях по продажам
+                    - name: Налог в предложениях по продаже
                       href: localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
                     - name: Подоходные налоги
                       href: localizations/tasks/br-00009-brazilian-withholding-taxes.md
@@ -1964,7 +1980,7 @@
                           href: localizations/apac-ind-GST-purchase-return-order.md
                         - name: Авансовые платежи поставщика с удержанием с покупателя
                           href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Проводка по продажам
+                    - name: Проводка по продаже
                       items:
                         - name: Продажи налогооблагаемых товаров потребителям
                           href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
@@ -2034,25 +2050,27 @@
                       href: localizations/apac-ind-GST-tax-settlement.md
                     - name: Создание журнала налогов
                       href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Создание данных отчета GSTR для возвратов налога
+                    - name: Создание данных отчета GSTR для налоговой отчетности
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Включение многопакетной обработки для отчетов GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Запрос налога
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Механизм начисления налогов
                   items:
-                    - name: Обзор механизма начисления налога
+                    - name: Обзор механизма начисления налогов
                       href: general-ledger/tax-engine.md
                     - name: Импорт конфигурации
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Расширенный конструктор формул
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Применимость механизма начисления налога
+                    - name: Применимость механизма начисления налогов
                       href: general-ledger/tax-engine-applicability.md
                     - name: Создание компонентов налога
                       href: localizations/tax-engine-create-tax-component.md
-                    - name: Интеграция механизма начисления налога
+                    - name: Интеграция механизма начисления налогов
                       href: general-ledger/tax-engine-integration.md
-                    - name: Расширение механизма начисления налога
+                    - name: Расширение механизма начисления налогов
                       href: general-ledger/extend-tax-engine-configurations.md
                     - name: Устранение неполадок GTE
                       href: localizations/tax-engine-trouble-shooting.md
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Разработка многоязычных отчетов
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Сжатие больших исходящих документов
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Относительный путь в привязке данных
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Использование решений для электронной отчетности в Finance and Operations
