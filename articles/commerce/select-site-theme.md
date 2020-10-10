@@ -3,7 +3,7 @@ title: Выбор темы сайта
 description: В этом разделе описывается, как задать или изменить тему сайта в Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002759"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817714"
 ---
 # <a name="select-a-site-theme"></a>Выбор темы сайта
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.locfileid: "3002759"
 
 Макет и стиль сайта (например, шрифты, размеры и цвета) определяются темой, которая выбрана и применена для сайта. Тема создается и развертывается разработчиком в компании. Обзор тем см. в разделе [Обзор тем](http://). Дополнительные сведения о создании и развертывание тем см. в разделе [Создание новой темы](http://).
 
-По умолчанию при первом создании сайта используется тема, которая называется **Fabrikam**. Эта тема по умолчанию предоставляется в составе начального набора. После развертывания дополнительных тем для сайта можно настроить сайт так, чтобы он использовал одну из них.
+По умолчанию при первом создании сайта используется тема, которая называется **Fabrikam**. Эта тема по умолчанию предоставляется в составе библиотеки модулей Commerce. После развертывания дополнительных тем для сайта можно настроить сайт так, чтобы он использовал одну из них.
 
 ## <a name="select-the-site-theme"></a>Выбор темы сайта
 

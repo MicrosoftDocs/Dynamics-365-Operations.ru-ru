@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216100"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893169"
 ---
 # <a name="set-up-vendor-accounts"></a>Настройка счетов поставщиков
 
@@ -66,7 +66,7 @@ ms.locfileid: "3216100"
 
 Невозможно удалить запись контактного лица, на контакт имеется ссылка в документе. Вместо этого контакт можно отключить.  
 
-Можно добавить контакты поставщика в личные контакты в Microsoft Office 365. Однако сначала необходимо настроить синхронизацию между Supply Chain Management и Office 365 и в синхронизации Microsoft Exchange Server, и в мастере установки Microsoft Outlook.
+Можно добавить контакты поставщика в личные контакты в Microsoft 365. Однако сначала необходимо настроить синхронизацию между Supply Chain Management и Microsoft 365 и в синхронизации Microsoft Exchange Server, и в мастере установки Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Поставщики в разных юридических лицах
 Если поставщик зарегистрирован только для одного юридического лица в организации и другие юридические лица должны регистрировать того же поставщика, можно использовать страницу **Добавить поставщика в другое юридическое лицо**, чтобы настроить поставщика для работы с другим юридическим лицом. Необходимо выбрать группу поставщиков, валюту и статус блокировки для поставщика в выбранном юридическом лице.  

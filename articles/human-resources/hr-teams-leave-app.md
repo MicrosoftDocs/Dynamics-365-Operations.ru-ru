@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766768"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828952"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Управление запросами на отпуск в Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет быстро запросить отпуск и просмотреть сведения о балансе времени прямо в Microsoft Teams. Можно взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более детальная информация.
+Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет быстро запросить отпуск и просмотреть сведения о балансе времени прямо в Microsoft Teams. Можно взаимодействовать с ботом для запроса информации и запуска запроса на отгул. Вкладка **Отгул** содержит более детальная информация. Кроме того, можно отправлять пользователям сведения о предстоящих отгулах в рабочих группа и чатах вне приложения Human Resources.
 
 ## <a name="install-the-app"></a>Установка приложения
 
@@ -56,8 +56,8 @@ ms.locfileid: "3766768"
 
 Если имеется доступ к нескольким экземплярам "Human Resources", можно выбрать среду, к которой необходимо подключиться, на вкладке **Параметры**.
 
-> [!WARNING]
-> Приложение в настоящее время не поддерживает роль "системный администратор" и выводит сообщение об ошибке, если вход осуществляется с учетной записью системного администратора. Чтобы войти с использованием других учетных записей, на вкладке **Параметры** нажмите кнопку **переключателя счетов**, а затем выполните вход с учетной записью пользователя, не обладающей правами администратора системы.
+> [!NOTE]
+> Приложение теперь поддерживает роль безопасности системного администратора.
  
 ## <a name="use-the-bot"></a>Использование бота
 
@@ -130,13 +130,33 @@ ms.locfileid: "3766768"
 
    ![Изменить черновик для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Уведомления Teams
+### <a name="respond-to-teams-notifications"></a>Реагирование на уведомления Teams
 
 Если вы или сотрудник, для которого вы являетесь утверждающим, отправляете запрос на отпуск, вы получите уведомление в приложении Human Resources в Teams. Можно выбрать уведомление для его просмотра. Уведомления также появляются в области **Чат**.
 
 Если вы являетесь утверждающим, вы можете выбрать **Утвердить** или **Отклонить** в уведомлении. Кроме того, можно указать необязательное сообщение.
 
 ![Уведомление о запросе отпуска в приложении Human Resources в Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Отправка сведений о предстоящих отгулах вашим коллегам
+
+После установки приложения Human Resources для Teams можно легко отправлять сведения о предстоящем времени отгулов вашим коллегам в группах или чатах.
+
+1. В рабочей группе или чате в Teams выберите кнопку Human Resources под окном чата.
+
+   ![Кнопка Human Resources под окном чата](./media/hr-teams-leave-app-chat-button.png)
+
+2. Выберите запрос отпуска, которым необходимо поделиться. Если требуется поделиться черновиком запроса отпуска, сначала выберите **Черновики**.
+
+   ![Выбор предстоящего запроса отпуска для общего доступа](./media/hr-teams-leave-app-chat-search.png)
+
+Ваш запрос отпуска будет отображен в чате.
+
+![Карточка запроса отпуска в Human Resources](./media/hr-teams-leave-app-chat-card.png)
+
+Если поделиться черновиком запроса отпуска, он будет выведен в качестве черновика:
+
+![Карточка черновика запроса отпуска в Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Просмотр календаря отпусков рабочей группы
 
@@ -164,9 +184,15 @@ ms.locfileid: "3766768"
 
 Чтобы настроить параметры администрирования для приложений в Microsoft Teams, перейдите в [центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Сетка событий Microsoft Azure и Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, сетка событий Azure и Azure Cosmos DB
 
-При использовании функции уведомлений для приложения Dynamics 365 Human Resources в Teams некоторые клиентские данные будут выходить из географического региона, в котором развернута служба Human Resources вашего клиента. Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в течение 24 часов и обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания.
+При использовании функции уведомлений для приложения Dynamics 365 Human Resources в Microsoft Teams некоторые клиентские данные могут выходить из географического региона, в котором развернута служба Human Resources вашего клиента.
+
+Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в сетке событий Microsoft Azure в течение 24 часов и будут обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+При взаимодействии с чат-ботом в приложении Human Resources содержимое беседы может храниться в Azure Cosmos DB и передаваться в Microsoft Teams. Эти данные могут храниться в Azure Cosmos DB течение 24 часов и могут быть обработаны вне географического региона, в котором развернута служба Human Resources для клиента, шифруются при передачи и хранении, и не используется корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Для ограничения доступа к приложению Human Resources в Microsoft Teams для вашей организации или пользователей в организации см. раздел [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>См. также
 
