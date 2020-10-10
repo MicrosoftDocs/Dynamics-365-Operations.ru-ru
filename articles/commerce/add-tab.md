@@ -3,7 +3,7 @@ title: Модуль вкладок
 description: В этом разделе описываются модули вкладок, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4187dfd704c78d506d7840b04c986687fe807a3
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621021"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817042"
 ---
 # <a name="tab-module"></a>Модуль вкладок
 
@@ -77,10 +77,10 @@ ms.locfileid: "3621021"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль контейнера](add-container-module.md)
 
-[Модуль "гармошка"](add-accordion.md)
+[Модуль гармошек](add-accordion.md)
 
 [Модуль текстового блока](add-content-rich-block.md)

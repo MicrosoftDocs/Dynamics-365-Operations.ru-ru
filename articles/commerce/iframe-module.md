@@ -3,7 +3,7 @@ title: Модуль iFrame
 description: В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3647031"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818206"
 ---
 # <a name="iframe-module"></a>Модуль iFrame
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 
@@ -37,6 +36,9 @@ ms.locfileid: "3647031"
 Модуль iFrame предоставляет iFrame (встраиваемый кадр), который содержит внешнее содержимое на сайте. Например, его можно использовать для размещения видео YouTube или средства просмотра PDF-файлов на любой странице сайта. 
 
 Для модуля iFrame требуется целевой URL-адрес. Затем содержимое целевой страницы размещается в HTML-элементе **iFrame**. Внешние URL-адреса должны быть включены в список разрешенных (называемый также "разрешенным списком") в соответствии с директивами политики безопасности содержимого (CSP) сайта. Для содержимого iFrame URL-адреса должны быть разрешены с помощью директивы **frame-ancestor**. Дополнительные сведения см. в разделе [Управление политикой безопасности содержимого (CSP)](manage-csp.md).
+
+> [!NOTE]
+> Модуль iFrame доступен в выпуске Dynamics 365 Commerce 10.0.13.
 
 На следующем изображении показаны примеры модулей iFrame, демонстрирующих отображение внешних видеозаписей на страницах сайта.
 
@@ -72,6 +74,6 @@ ms.locfileid: "3647031"
  
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Управление политикой безопасности содержимого (CSP)](manage-csp.md)

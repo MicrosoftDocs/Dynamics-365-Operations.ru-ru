@@ -3,7 +3,7 @@ title: Модуль карты
 description: В этом разделе описываются модули карты, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811192"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817214"
 ---
 # <a name="map-module"></a>Модуль карты
 
@@ -38,7 +38,8 @@ ms.locfileid: "3811192"
 
 Модуль карты взаимодействует с модулем выбора магазина, чтобы определить географическое местоположение магазинов, которые должны быть визуализированы на карте. Модули выбора магазина и карты взаимодействуют, когда пользователь выбирает магазин в одном из этих модулей на странице сайта. Модули карты могут быть расширены для других сценариев, помимо взаимодействия с модулями выбора магазина. Однако необходимо выполнить настройку модуля.
 
-Модуль карты был введен в Commerce версии 10.0.13.
+> [!NOTE]
+> Модуль карты доступен в выпуске Dynamics 365 Commerce 10.0.13.
 
 На следующем рисунке показан пример модуля карты, используемый на странице местоположений магазинов.
 
@@ -70,7 +71,7 @@ ms.locfileid: "3811192"
  
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль поля покупки](add-buy-box.md)
 

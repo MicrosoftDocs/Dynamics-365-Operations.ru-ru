@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
+ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c77129abc5c93d7b11445bdaa2c4851d73bb0b62
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: debfce7eb5e6dcf64830475db53f719cf56525c9
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383604"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830606"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Создание и обработка ретробонусов клиента
 
 [!include [banner](../../includes/banner.md)]
 
-В этой процедуре демонстрируется обработка ретробонусов клиентам от момента формирования требования до передачи их в виде начислений в модуль "Расчеты с клиентами". В ней рассматривается конкретный пример и поясняется, как различные условия в строках ретробонусов влияют на окончательные суммы, которые будут возвращены клиенту. Необходимо использовать компанию демонстрационных данных USMF и выполнить следующие задачи, прежде чем приступать к выполнению руководства: 1) перейти на страницу "Параметры модуля расчетов с клиентами", развернуть вкладку "Цены", затем вкладку "Сведения о цене" и проверить, что параметр "Включить сведения о ценах" установлен в значение "Да". 2) Перейти на страницу "Соглашения о бонусе" и выбрать соглашение с клиентом о ретробонусе: USMF-000001. Если в поле "Статус утверждения документооборота" не установлен статус "Утверждено", необходимо щелкнуть "Проверка" на панели операций, чтобы утвердить его.
+В этой процедуре демонстрируется обработка ретробонусов клиентам от момента формирования требования до передачи их в виде начислений в модуль "Расчеты с клиентами". В ней рассматривается конкретный пример и поясняется, как различные условия в строках ретробонусов влияют на окончательные суммы, которые будут возвращены клиенту. Необходимо использовать компанию демонстрационных данных USMF и выполнить следующие задачи, прежде чем приступать к выполнению руководства: (1) перейти на страницу "Параметры модуля расчетов с клиентами", развернуть вкладку "Цены", затем вкладку "Сведения о цене" и проверить, что параметр "Включить сведения о ценах" установлен в значение "Да". (2) Перейти на страницу "Соглашения о бонусе" и выбрать соглашение с клиентом о ретробонусе: USMF-000001. Если в поле "Статус утверждения документооборота" не установлен статус "Утверждено", необходимо щелкнуть "Проверка" на панели операций, чтобы утвердить его.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Рассмотрение соглашения о ретробонусах с клиентом

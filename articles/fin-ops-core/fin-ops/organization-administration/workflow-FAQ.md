@@ -3,7 +3,7 @@ title: Вопросы и ответы по workflow-процессу
 description: В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076094"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826198"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -58,3 +58,5 @@ ms.locfileid: "3076094"
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Почему я получаю взаимоблокировку SQL при обработке workflow-процесса? 
 Значение поля по умолчанию для **Число элементов workflow-процесса в пакетной задаче** на странице **Параметры** равно 0. Значение "0" приводит к изменению значения по умолчанию на 20 номенклатур на партию. Будьте внимательны при изменении этого значения, так как большее число номенклатур на партию (> 40) может вызвать взаимоблокировки SQL.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Что такое функция улучшенной обработки ошибок рабочего процесса?
+Функция улучшенной обработки ошибок рабочего процесса в версии 10.0.13 добавляет коды ошибок для различения различных классов ошибок рабочих процессов. Отображаемые сообщения об ошибках будут в основном похожи с небольшими различиями, чтобы сделать их более понятными.

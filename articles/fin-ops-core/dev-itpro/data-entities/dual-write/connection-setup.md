@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706260"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818604"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Поддерживаемые сценарии для настройки двойной записи
 
@@ -42,7 +42,7 @@ ms.locfileid: "3706260"
 
 Механизм настройки различается в зависимости от подписки и среды.
 
-+ Для новых экземпляров приложений Finance and Operations настройка подключения с двойной записью начинается с Microsoft Dynamics Lifecycle Services (LCS). Если у вас есть лицензия на Microsoft Power Platform, вы получите новую среду Common Data Service, если у клиента ее нет.
++ Для новых экземпляров приложений Finance and Operations настройка подключения с двойной записью начинается с Microsoft Dynamics Lifecycle Services (LCS). Если у вас есть лицензия на Power Platform, вы получите новую среду Common Data Service, если у клиента ее нет.
 + Для существующих экземпляров приложений Finance and Operations настройка подключения двойной записи начинается со среды Finance and Operations.
 
 Поддерживаются следующие сценарии настройки:
