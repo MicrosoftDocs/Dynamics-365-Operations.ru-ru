@@ -19,17 +19,16 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2e57965a1073982a7b6c34b79dbf6e5b90d7ee30
-ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3666316"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818382"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Включение рекомендаций "покупать похожие образы"
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этом разделе описывается, как включить рекомендации по продуктам «покупать похожие образы» в Microsoft Dynamics 365 Commerce.
 
