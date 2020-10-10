@@ -1,7 +1,7 @@
 ---
 title: Аккредитивы
 description: Аккредитивы являются банковскими документами, которые обычно используются для покупки и продажи товаров через международные границы.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,41 +15,41 @@ ms.search.scope: Core, Operations
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5a9be6ad2ff90dffdf8548d7594f922a7cf9b404
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772613"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899429"
 ---
-# <a name="letters-of-credit"></a><span data-ttu-id="b3f34-103">Аккредитивы</span><span class="sxs-lookup"><span data-stu-id="b3f34-103">Letters of credit</span></span>
+# <a name="letters-of-credit"></a><span data-ttu-id="ba5c2-103">Аккредитивы</span><span class="sxs-lookup"><span data-stu-id="ba5c2-103">Letters of credit</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b3f34-104">Аккредитивы являются банковскими документами, которые обычно используются для покупки и продажи товаров через международные границы.</span><span class="sxs-lookup"><span data-stu-id="b3f34-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
+<span data-ttu-id="ba5c2-104">Аккредитивы являются банковскими документами, которые обычно используются для покупки и продажи товаров через международные границы.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
 
-<span data-ttu-id="b3f34-105">Аккредитивы используются для международных транзакций, чтобы гарантировать, что платежи будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="b3f34-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="b3f34-106">Аккредитив — это соглашение, выданное банком, в котором банк соглашается обеспечить платеж от имени покупателя, если будут выполнены условия соглашения между покупателем и продавцом.</span><span class="sxs-lookup"><span data-stu-id="b3f34-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="b3f34-107">Обратите внимание, что аккредитивом также называется документарный аккредитив.</span><span class="sxs-lookup"><span data-stu-id="b3f34-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
+<span data-ttu-id="ba5c2-105">Аккредитивы используются для международных транзакций, чтобы гарантировать, что платежи будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="ba5c2-106">Аккредитив — это соглашение, выданное банком, в котором банк соглашается обеспечить платеж от имени покупателя, если будут выполнены условия соглашения между покупателем и продавцом.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="ba5c2-107">Обратите внимание, что аккредитивом также называется документарный аккредитив.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
 
-<span data-ttu-id="b3f34-108">Для кредитного письма импорта юридическое лицо является покупателем или заявителем кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="b3f34-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="b3f34-109">Для кредитного письма экспорта юридическое лицо является продавцом или бенефициаром кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="b3f34-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="b3f34-110">Следующие субъекты являются участниками кредитного письма:</span><span class="sxs-lookup"><span data-stu-id="b3f34-110">The following parties are involved with a letter of credit:</span></span> 
+<span data-ttu-id="ba5c2-108">Для кредитного письма импорта юридическое лицо является покупателем или заявителем кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="ba5c2-109">Для кредитного письма экспорта юридическое лицо является продавцом или бенефициаром кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="ba5c2-110">Следующие субъекты являются участниками кредитного письма:</span><span class="sxs-lookup"><span data-stu-id="ba5c2-110">The following parties are involved with a letter of credit:</span></span> 
 
- - <span data-ttu-id="b3f34-111">Заявитель (покупатель), который намеревается оплатить товары</span><span class="sxs-lookup"><span data-stu-id="b3f34-111">The applicant (buyer) who intends to pay for the goods</span></span> 
- - <span data-ttu-id="b3f34-112">Бенефициар (продавец), который получает платеж</span><span class="sxs-lookup"><span data-stu-id="b3f34-112">The beneficiary (seller) who will receive the payment</span></span>
- - <span data-ttu-id="b3f34-113">Выставляющий банк, выдающий аккредитив</span><span class="sxs-lookup"><span data-stu-id="b3f34-113">The issuing bank that issues the letter of credit</span></span>
- - <span data-ttu-id="b3f34-114">Авизующий банк, который выполняет проводку от имени заявителя</span><span class="sxs-lookup"><span data-stu-id="b3f34-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
+ - <span data-ttu-id="ba5c2-111">Заявитель (покупатель), который намеревается оплатить товары</span><span class="sxs-lookup"><span data-stu-id="ba5c2-111">The applicant (buyer) who intends to pay for the goods</span></span> 
+ - <span data-ttu-id="ba5c2-112">Бенефициар (продавец), который получает платеж</span><span class="sxs-lookup"><span data-stu-id="ba5c2-112">The beneficiary (seller) who will receive the payment</span></span>
+ - <span data-ttu-id="ba5c2-113">Выставляющий банк, выдающий аккредитив</span><span class="sxs-lookup"><span data-stu-id="ba5c2-113">The issuing bank that issues the letter of credit</span></span>
+ - <span data-ttu-id="ba5c2-114">Авизующий банк, который выполняет проводку от имени заявителя</span><span class="sxs-lookup"><span data-stu-id="ba5c2-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-<span data-ttu-id="b3f34-115">Аккредитив включает описание товаров, все необходимые документы, дату отгрузки и дату окончания действия, после которой платеж не будет совершаться.</span><span class="sxs-lookup"><span data-stu-id="b3f34-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="b3f34-116">Выставляющий банк собирает маржу для аккредитива.</span><span class="sxs-lookup"><span data-stu-id="b3f34-116">The issuing bank collects a margin for the letter of credit.</span></span> 
+<span data-ttu-id="ba5c2-115">Аккредитив включает описание товаров, все необходимые документы, дату отгрузки и дату окончания действия, после которой платеж не будет совершаться.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="ba5c2-116">Выставляющий банк собирает маржу для аккредитива.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-116">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-<span data-ttu-id="b3f34-117">Аккредитив может быть отзывной или безотзывный.</span><span class="sxs-lookup"><span data-stu-id="b3f34-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="b3f34-118">Аккредитив может быть передаваемым, непередаваемым или возобновляемым.</span><span class="sxs-lookup"><span data-stu-id="b3f34-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="b3f34-119">Обычно аккредитив является безотзывным и подтвержденным соглашением о том, что платеж будет выполнен конкретному бенефициару после оформления полной и точной документации по отгрузке.</span><span class="sxs-lookup"><span data-stu-id="b3f34-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
+<span data-ttu-id="ba5c2-117">Аккредитив может быть отзывной или безотзывный.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="ba5c2-118">Аккредитив может быть передаваемым, непередаваемым или возобновляемым.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="ba5c2-119">Обычно аккредитив является безотзывным и подтвержденным соглашением о том, что платеж будет выполнен конкретному бенефициару после оформления полной и точной документации по отгрузке.</span><span class="sxs-lookup"><span data-stu-id="ba5c2-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-<span data-ttu-id="b3f34-120">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="b3f34-120">For more information, see the following topics:</span></span>
+<span data-ttu-id="ba5c2-120">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="ba5c2-120">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="b3f34-121">Импортный аккредитив</span><span class="sxs-lookup"><span data-stu-id="b3f34-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
+[<span data-ttu-id="ba5c2-121">Импортный аккредитив</span><span class="sxs-lookup"><span data-stu-id="ba5c2-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
 
-[<span data-ttu-id="b3f34-122">Экспортный аккредитив</span><span class="sxs-lookup"><span data-stu-id="b3f34-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
+[<span data-ttu-id="ba5c2-122">Экспортный аккредитив</span><span class="sxs-lookup"><span data-stu-id="ba5c2-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
 
-[<span data-ttu-id="b3f34-123">Создание договора о банковских услугах для аккредитива</span><span class="sxs-lookup"><span data-stu-id="b3f34-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
+[<span data-ttu-id="ba5c2-123">Создание договора о банковских услугах для аккредитива</span><span class="sxs-lookup"><span data-stu-id="ba5c2-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
