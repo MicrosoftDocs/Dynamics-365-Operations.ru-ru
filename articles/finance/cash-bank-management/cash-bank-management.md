@@ -1,7 +1,7 @@
 ---
 title: Домашняя страница модуля "Управление банком и кассовыми операциями"
 description: Модуль "Управление банком и кассовыми операциями" можно использовать для ведения банковских счетов юридического лица и финансовых инструментов, связанных с этими банковскими счетами.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: shylaw
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026299"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899626"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Домашняя страница модуля "Управление банком и кассовыми операциями"
 
@@ -92,10 +92,10 @@ ms.locfileid: "3026299"
 
 Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
+[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) — это единый источник информации о новых возможностях и тенденциях в Dynamics 365, ориентированный на партнеров Microsoft Dynamics.
 
 #### <a name="task-guides"></a>Проводники по задачам
-Проводники по задачам в Finance — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
+Проводники по задачам в Finance — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
 
 #### <a name="videos"></a>Видео
 

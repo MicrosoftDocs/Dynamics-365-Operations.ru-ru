@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210165"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887248"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Диаграмма Ганта для планирования заданий
 
@@ -38,7 +38,7 @@ ms.locfileid: "3210165"
 -   Задания из спланированных производственных заказов.
 -   Действия по проекту типа "Часовой прогноз", запланированных как задания.
 
-Можно открыть диаграмму Ганта в двух различных представлениях, **Представление заказов** и **Представление ресурсов**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). В **Представлении заказов** действия группируются в производственных заказах. Это удобно, например, если вам хотелось бы видеть всех задания, принадлежащие к одним и тем же заказам. В **представлении ресурсов** все задания группируются внутри отдельных ресурсов. Этим представлением удобно пользоваться при оптимизации плана на уровне ресурсов, например станка или группы станков. На диаграммах Ганта на рисунках ниже показаны **представление заказов** и **представление ресурсов** с этими ключевыми элементами:
+Можно открыть диаграмму Ганта в двух различных представлениях, **Представление заказов** и **Представление ресурсов**. В **Представлении заказов** действия группируются в производственных заказах. Это удобно, например, если вам хотелось бы видеть всех задания, принадлежащие к одним и тем же заказам. В **представлении ресурсов** все задания группируются внутри отдельных ресурсов. Этим представлением удобно пользоваться при оптимизации плана на уровне ресурсов, например станка или группы станков. На диаграммах Ганта на рисунках ниже показаны **представление заказов** и **представление ресурсов** с этими ключевыми элементами:
 
 1.  Действие на диаграмме Ганта
 2.  Значок нехватки материала

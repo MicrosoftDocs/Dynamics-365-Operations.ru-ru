@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772566"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893287"
 ---
 # <a name="document-printing-overview"></a>Обзор печати документов
 
@@ -52,7 +52,7 @@ ms.locfileid: "2772566"
 Поскольку решения разные в зависимости от сценария, приложения содержат встроенные службы и инструменты, чтобы помочь пользователям достигать своих целей:
 
 - **Сценарий 1** поддерживается при отображении HTML5-клиента в браузере.
-- **Сценарий 2** использует клиентских приложений и службы Microsoft Office 365.
+- **Сценарий 2** использует клиентских приложений и службы Microsoft 365.
 - **Сценарий 3** требует поддержки от клиентских приложений и служб, размещенных в Microsoft Azure.
 
 В дополнение к платформе, которая развертывается в подписке Azure, приложения Finance and Operations обеспечивают клиентам интегрированное приложение Azure первой стороны, которое помогает клиентам легче контролировать использование устройств, размещенных в домене, для печати документов.

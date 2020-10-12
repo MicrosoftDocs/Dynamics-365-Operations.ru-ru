@@ -3,7 +3,7 @@ title: Модуль выбора магазина
 description: В этом разделе описываются модуль выбора магазина, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646143"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818258"
 ---
 # <a name="store-selector-module"></a>Модуль выбора магазина
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этом разделе описываются модуль выбора магазина, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ ms.locfileid: "3646143"
 
 На следующем рисунке показан пример модуля выбора магазина, используемого на странице сведений о продукте.
 
-![Пример модуля выбора магазина](./media/BOPIS.PNG)
+![Пример модуля выбора магазина, используемого на странице сведений о продукте](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Режим поиска магазинов
 
@@ -73,7 +72,7 @@ ms.locfileid: "3646143"
 
 На следующем рисунке показан пример модуля выбора магазина, который используется вместе с модулем карты на странице местоположения магазинов.
 
-![Пример модуля выбора магазина](./media/ecommerce-Storelocator.PNG)
+![Пример модуля выбора магазина и модуля карты на странице местоположения магазина](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Отображение карты
 
@@ -127,7 +126,7 @@ ms.locfileid: "3646143"
  
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль поля покупки](add-buy-box.md)
 

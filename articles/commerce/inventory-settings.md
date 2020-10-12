@@ -3,7 +3,7 @@ title: Применение настроек запасов
 description: В этой теме описываются настройки запасов и описывается порядок их применения в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621229"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817617"
 ---
 # <a name="apply-inventory-settings"></a>Применение настроек запасов
 
@@ -38,6 +38,9 @@ ms.locfileid: "3621229"
 Dynamics 365 Commerce предоставляет оценки доступности продуктов в наличии. Сведения о том, как рассчитываются оценки доступности в наличии, см. в разделе [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md).
 
 В построителе сайтов Commerce пороговые значения и диапазоны запасов могут быть определены для продукта или категории. Они определяют, могут ли запасы классифицироваться как "в наличии", "осталось мало" или "нет на складе". Подробности см. в разделе [Настройка буферов запасов и уровней запасов](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Поддержка пороговых значений и диапазонов запасов доступна в выпуске Dynamics 365 Commerce 10.0.12.
 
 ## <a name="inventory-settings"></a>Параметры запасов
 
@@ -55,6 +58,9 @@ Dynamics 365 Commerce предоставляет оценки доступнос
     - Если выбрано значение **Нет на складе**, будет отображаться только сообщение "Нет на складе".
 
 - **Пороговое значение "нет на складе"** — этот старый числовой параметр вступит в силу только в том случае, если значение **Пороговое значение "нет на складе"** выбрано для параметр **На основе уровня запасов**.
+
+> [!IMPORTANT] 
+> Эти параметры доступны в выпуске Dynamics 365 Commerce 10.0.12. Если выполняется обновление из более ранней версии Dynamics 365 Commerce, необходимо вручную обновить файл appsettings.json. Инструкции по обновлению файла appsettings.json см. в разделе [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Модули, в которых используются параметры запасов
 
@@ -74,7 +80,7 @@ Dynamics 365 Commerce предоставляет оценки доступнос
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Настройка буферов запасов и уровней запасов](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ Dynamics 365 Commerce предоставляет оценки доступнос
 [Страницы и модули управления учетной записью](account-management.md)
 
 [Модуль выбора магазина](store-selector.md)
+
+[Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)

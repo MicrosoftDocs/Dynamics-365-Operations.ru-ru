@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
-ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
+ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3776316"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828922"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более детальная информация.
+Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более подробную информацию. Кроме того, они могут отправлять пользователям сведения о предстоящем отгуле в группах и чатах вне приложения Human Resources.
 
 ![Бот для приложения отпусков Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
 
 ![Вкладка Отгул для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+
+![Карточка запроса отпуска в Human Resources](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Установка и настройка
 
@@ -85,7 +87,6 @@ ms.locfileid: "3776316"
 | Расход | Состояние |
 | --- | --- |
 | Горизонтальная прокрутка не работает для телефонов с Android | Горизонтальная прокрутка не является проблемой на устройствах с iOS или на настольном компьютере. Мы работаем над исправлением для Android. |
-| Ошибка: обнаружена проблема при поиске среды для подключения. | Эта ошибка может появиться даже в том случае, если известно, что пользователь может получить доступ к одной или нескольким средам Human Resources. Кроме того, могут не отображаться все ожидаемые среды. До тех пор, пока проблема не исправлена, удалите пользователя и повторите импорт для решения проблемы. |
 | Неверное сальдо при подаче запроса на отпуск для будущей даты. | Прогнозирование пока недоступно. Сальдо отображается для текущей даты. |
 | Не удается отменить запрос **На рассмотрении**. | Эта функциональная возможность в настоящее время не поддерживается и будет добавлена в будущем выпуске. |
 | Сведения о сальдо рассчитываются на сегодняшний день. | В настоящее время в системе не отображается сальдо на период начисления, даже если оно настроено в параметрах отпусков и отсутствия. |
@@ -102,9 +103,15 @@ ms.locfileid: "3776316"
 
 Чтобы настроить параметры администрирования для приложений в Microsoft Teams, перейдите в [центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Сетка событий Microsoft Azure и Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, сетка событий Azure и Azure Cosmos DB
 
-При использовании функции уведомлений для приложения Dynamics 365 Human Resources в Teams некоторые клиентские данные будут выходить из географического региона, в котором развернута служба Human Resources вашего клиента. Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в течение 24 часов и обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания.
+При использовании функции уведомлений для приложения Dynamics 365 Human Resources в Microsoft Teams некоторые клиентские данные могут выходить из географического региона, в котором развернута служба Human Resources вашего клиента.
+
+Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в сетке событий Microsoft Azure в течение 24 часов и будут обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+При взаимодействии с чат-ботом в приложении Human Resources содержимое беседы может храниться в Azure Cosmos DB и передаваться в Microsoft Teams. Эти данные могут храниться в Azure Cosmos DB течение 24 часов и могут быть обработаны вне географического региона, в котором развернута служба Human Resources для клиента, шифруются при передачи и хранении, и не используется корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Для ограничения доступа к приложению Human Resources в Microsoft Teams для вашей организации или пользователей в организации см. раздел [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>См. также 
 

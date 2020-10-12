@@ -3,7 +3,7 @@ title: Обзор финансовой отчетности
 description: В этом разделе описывается доступ к финансовой отчетности в Microsoft Dynamics 365 Finance и использование возможностей финансовой отчетности.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696696"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835118"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с Financial reporting 
 
@@ -148,9 +148,7 @@ ms.locfileid: "3696696"
 * В Internet Explorer выберите **Параметры**, затем выберите **Свойства браузера**. Перейдите на вкладку **Безопасность**. Выберите "Надежные сайты", затем выберите **Сайты**. В поле **Добавить в зону следующий узел** введите "\*\.dynamics.com" (без кавычек), затем выберите **Добавить**. 
 * В Internet Explorer выберите **Параметры**, затем выберите **Свойства браузера**. Перейдите на вкладку **Безопасность**. Выберите "Надежные сайты". В области с меткой "Уровень безопасности для этой зоны" измените значение параметра на **Ниже среднего**.
 * Отключите блокировку всплывающих окон в браузере.
-* На рабочие станции необходимо установить Visual Studio .NET 4.6.2 или более поздней версии.
-
-Эту версию платформы Microsoft .NET Framework можно загрузить и установить из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53345).
+* На рабочие станции необходимо установить Microsoft .NET Framework 4.6.2 или более поздней версии. Эту версию платформы Microsoft .NET Framework можно загрузить и установить из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53345).
 * При использовании браузера Chrome необходимо установить расширение ClickOnce, чтобы можно было загрузить клиент конструктора отчетов. При работе в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито. Если не удается войти в систему с использованием Chrome, попробуйте выполнить шаги настройки, описанные в подразделе "Проблема 1", используя Internet Explorer или Microsoft Edge. 
 
 Проблема 2. Пользователю не были назначены необходимые разрешения для использования Financial Reporting. 

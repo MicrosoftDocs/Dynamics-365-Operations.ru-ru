@@ -3,12 +3,12 @@ title: Параметры заказа по умолчанию для анали
 description: Параметры заказа по умолчанию определяет сайт и склад, с которого будут забираться или на которых будут складироваться продукты, минимальное, максимальное, кратное и стандартное количества, который будут использоваться для торговли или управление запасами, значения времени упреждения, флаг остановки и метод обещанного заказа.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657348"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895604"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Параметры заказа по умолчанию для аналитик и вариантов продуктов
 
@@ -51,8 +51,11 @@ ms.locfileid: "3657348"
 - Строки договора покупки
 - Строки запроса предложения
 - Строки заявки на покупку
-- Строки пополнения коносамента
+- Строки пополнения консигнации (частично поддерживаемые, см. примечание)
 - Спланированные заказы на покупку
+
+> [!NOTE]
+> Для строк заказа на пополнение консигнации на экспресс-вкладке **Заказ на покупку** страницы **Параметры заказов по умолчанию** можно использовать только поле **Сайт по умолчанию**, поле **Склад по умолчанию** и флажок **Остановлено**.
 
 Параметры заказа по умолчанию для продаж используются при создании:
 

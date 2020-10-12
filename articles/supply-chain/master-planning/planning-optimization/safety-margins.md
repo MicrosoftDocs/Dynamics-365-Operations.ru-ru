@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05ac817081689f27cdf55cb86a3235d7707a737b
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803429"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814908"
 ---
 # <a name="safety-margins"></a>Резервное время
 
@@ -162,13 +162,13 @@ ms.locfileid: "3803429"
 
 #### <a name="calendar-setup-overview-matrix"></a>Матрица обзора настройки календаря
 
-На следующем рисунке представлена матрица, в которой приведены общие сведения о том, какие календари применяются при расчете значений резервного времени. Для указания места, где указывается каждый тип календаря, используются следующие аббревиатуры и цвета:
+На следующем рисунке представлена матрица, в которой приведены общие сведения о том, какие календари применяются при расчете значений резервного времени. (Выберите изображение, чтобы открыть его версию с высоким разрешением.) Для указания места, где указывается каждый тип календаря, используются следующие аббревиатуры и цвета:
 
 - **Группа покрытия (CG):** зеленый
 - **Склад (WH):** желтый
 - **Поставщик (V):** синий
 
-![Матрица обзора настройки календаря](media/safety-margins-calendar-matrix.png)
+[![Матрица обзора настройки календаря](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Расчет задержек
 

@@ -3,7 +3,7 @@ title: Модуль согласия на файлы cookie
 description: В этом разделе описываются модули согласия на получение файлов cookie, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 842096c6e3045e434aced9642c86690e2ff7483a
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761420"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817290"
 ---
 # <a name="cookie-consent-module"></a>Модуль согласия на файлы cookie
 
@@ -57,7 +57,7 @@ ms.locfileid: "3761420"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор начального набора](starter-kit-overview.md)
+[Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль верхнего колонтитула](author-header-module.md) 
 

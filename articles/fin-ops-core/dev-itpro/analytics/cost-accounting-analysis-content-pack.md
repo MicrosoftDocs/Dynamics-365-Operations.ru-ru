@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b0929b449f20e7340c3607d842b7c4f779cbb8fe
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771595"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893313"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI анализа учета затрат
 
@@ -44,8 +44,6 @@ ms.locfileid: "2771595"
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
-
-<!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
 Обязательно загрузите содержимое **Анализ учета затрат**, которое применяется к версии Microsoft Dynamics 365, которую вы используете.
 

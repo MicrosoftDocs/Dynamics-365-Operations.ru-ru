@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 16 сентября 2020 г.
+          href: hr-whats-new-2020-09-16.md
         - name: 3 сентября 2020 г.
           href: hr-whats-new-2020-09-03.md
         - name: 20 августа 2020 г.
@@ -57,7 +59,7 @@
           href: hr-admin-system-requirements.md
         - name: Настройка экземпляров и управление ими
           items:
-            - name: Обеспечение Human Resources
+            - name: Подготовка Human Resources к работе
               href: hr-admin-setup-provision.md
             - name: Копирование экземпляра
               href: hr-admin-setup-copy-instance.md
@@ -201,9 +203,9 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Создание настраиваемых полей и работа с ними
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Внедрение приложений PowerApps
+            - name: Внедрение приложений на основе холста из Power Apps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
-            - name: Поиск сведений с использованием поиска
+            - name: Поиск сведений с использованием подстановки
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
             - name: Изменение даты для сеанса
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json

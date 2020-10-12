@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Platform
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в обновлениях платформы приложений Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803147"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819897"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Удаленные или устаревшие функции Platform
 
@@ -34,6 +34,22 @@ ms.locfileid: "3803147"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.14 приложений Finance and Operations
+
+> [!NOTE]
+> Версия 10.0.14 — это предварительная версия. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Страница активных пользователей 
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Это устаревшая страница, которая была создана для предыдущей архитектуры клиент/сервер. Сведения на этой странице не всегда точны, что может привести к путанице и неправильным выводам. |
+| **Заменена другой функцией?**   | Будет предоставлена новая страница в будущем обновлении.|
+| **Затрагиваемые области продукта**         | Администрирование системы |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | К октябрю 2021 года эта форма будет удалена.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.13 приложений Finance and Operations
 
