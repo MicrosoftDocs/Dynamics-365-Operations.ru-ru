@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Приложения Finance and Operations во Франции
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Получение поддержки для Dynamics 365 Commerce
-              href: retail-support.md
+            - name: Получение поддержки
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Обновление и поддержка N-1
               items:
                 - name: Обновление и поддержка N-1 для Commerce
@@ -92,6 +92,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.15 (январь 2021\_г.)"
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: "Commerce 10.0.14 (ноябрь 2020\_г.)"
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: "Commerce 10.0.13 (октябрь 2020\_г.)"
@@ -272,8 +274,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
                 - name: Перемещение лицензий между соглашениями различных типов
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: Перемещение проектов реализации LCS в другие клиенты Azure AD
+                - name: Перемещение проектов реализации LCS в другие арендаторы Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Перемещение проектов внедрения LCS из локального развертывания в облако
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Реализация проектов Finance and Operations Commerce
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: Гибридные клиентские заказы
                   href: hybrid-customer-orders.md
+                - name: Операция отзыва заказа в POS-терминале
+                  href: enhancedorderrecall.md
             - name: Заказы на продажу
               items:
                 - name: Создание заказа в центре обработки вызовов
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Улучшенная обработка номенклатур с отслеженными партиями
               href: batch.md
-            - name: 'Настройка параметров Commerce, влияющих на журналы операций'
-              href: tasks/parameter-configurations-retail-statements.md
             - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
               href: tasks/payment-configurations-retail-statements.md
             - name: Настройка и выполнение задания для расчета журналов операций
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Работа с группами публикаций
                   href: publish-groups.md
+                - name: Включение и использование общего доступа в нескольких каналах
+                  href: cross-channel-sharing.md
                 - name: Фирменная настройка сайта и добавление сведений о магазине
                   items:
                     - name: Добавление логотипа
@@ -1048,6 +1054,24 @@
               items:
                 - name: Создание отчетов канала продаж через интернет
                   href: generate-reports.md
+            - name: Эксперименты
+              items:
+                - name: Эксперименты в Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Формулировка гипотезы и определение метрик для эксперимента
+                  href: experimentation-identify.md
+                - name: Настройка эксперимента
+                  href: experimentation-setup.md
+                - name: Подключение и изменение эксперимента
+                  href: experimentation-connect-edit.md
+                - name: Предварительный просмотр и публикация эксперимента
+                  href: experimentation-preview-publish.md
+                - name: Запуск эксперимента и контроль за ним
+                  href: experimentation-run-monitor.md
+                - name: Повышение уровня вариации и выполнение эксперимента
+                  href: experimentation-review-complete.md
+                - name: Проверка статуса эксперимента
+                  href: experimentation-status.md
             - name: Обработка ошибок
               items:
                 - name: Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Настройка финансовой интеграции для канала Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Определенные пользователем профили сертификатов для розничных магазинов
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
                   href: localizations/emea-aut-fi-sample.md
+            - name: Бразилия
+              items:
+                - name: Локализация Commerce для Бразилии
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Восточная Европа
               items:
                 - name: Общие сведения
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Расширение темы из базовой темы
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Добавление пользовательских ресурсов в код настройки
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Введение сценария
                   items:
                     - name: Средства введения сценариев
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Прокси Typescript и C# в Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Использование интерфейсов API Retail Server во внешних приложениях
+                  href: dev-itpro/consume-retail-server-api
             - name: Расширяемость Commerce Runtime (CRT)
               items:
                 - name: Архитектура и конфигурация CRT
