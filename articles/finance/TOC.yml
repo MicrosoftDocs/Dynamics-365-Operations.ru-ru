@@ -70,6 +70,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.15 (январь 2021\_г.)"
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: "Finance 10.0.14 (ноябрь 2020\_г.)"
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: "Finance 10.0.13 (октябрь 2020\_г.)"
@@ -192,8 +194,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/finance/toc.json
                 - name: Перемещение лицензий между соглашениями различных типов
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
-                - name: Перемещение проектов реализации LCS в другие клиенты Azure AD
+                - name: Перемещение проектов реализации LCS в другие арендаторы Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: Перемещение проектов внедрения LCS из локального развертывания в облако
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Расчеты с поставщиками
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Настройка проверки сопоставления накладных по расчетам с поставщиками
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Автоматизация накладных поставщиков
+              items:
+                - name: Обзор автоматизированных процессов выставления накладных поставщиков
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Параметры настройки для автоматизации накладных поставщиков
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Отправка накладных в систему рабочего процесса и сопоставление строк поступления продуктов
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Просмотр результатов автоматизации обработки накладных поставщиков
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Сопоставление накладных и внутрихолдинговые заказы на покупку
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Рабочая область выставления накладных по совместной работе с поставщиками
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Автоматизация накладных поставщиков
+            - name: Автоматизация накладных для отсканированных документов
               href: accounts-payable/vendor-invoice-automation.md
             - name: Управление контрактом брокера
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Отчет по срокам оплаты по клиентам
+              href: accounts-receivable/customer-aging.md
             - name: Создание журнала списания для клиента
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Управление произвольными примечаниями
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Линейная амортизация в течение срока службы
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Аренда активов
+          items:
+            - name: Начало работы с арендой активов
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Главная книга
           items:
             - name: Обзор главной книги
@@ -1884,7 +1904,7 @@
                   items:
                     - name: Обзор GST Индии
                       href: localizations/apac-ind-gst.md
-                    - name: Что нового и что изменилось для локализации GST Индии в Азиатско-Тихоокеанском регионе
+                    - name: Что нового и что изменилось для локализации GST Индии
                       items:
                         - name: Что нового и что изменилось в версии 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Что нового и что изменилось в версии 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Что нового и что изменилось в версии 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Эталонные группы GST Индии
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Интеграция GST для контрольно-кассовых машин
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Проводка по запасам
                       items:
+                        - name: Заказы на перемещение запасов
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: 'Заказы на перемещение запасов, включающие налог в трансферной цене'
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Проводка по оплате клиентом
@@ -2076,8 +2100,6 @@
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Вопросы и ответы по налоговым порогам
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Перемещения запасов
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Италия
               items:
                 - name: Обзор по Италии

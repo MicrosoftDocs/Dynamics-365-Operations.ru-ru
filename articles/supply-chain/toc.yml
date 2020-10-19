@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.14 (ноябрь 2020 г.)
+                    - name: "Supply Chain Management 10.0.15 (декабрь 2020\_г.)"
+                      href: get-started/whats-new-scm-10-0-15.md
+                    - name: "Supply Chain Management 10.0.14 (ноябрь 2020\_г.)"
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13 (октябрь 2020 г.)
+                    - name: "Supply Chain Management 10.0.13 (октябрь 2020\_г.)"
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (август 2020 г.)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
@@ -192,8 +192,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Перемещение лицензий между соглашениями различных типов
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Перемещение проектов реализации LCS в другие клиенты Azure AD
+                - name: Перемещение проектов реализации LCS в другие арендаторы Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Перемещение проектов внедрения LCS из локального развертывания в облако
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Глобализация
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Нормативные обновления
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Индия
+              items:
+                - name: Заказы на перемещение запасов
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Россия
               items:
                 - name: Обзор по России
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Повышение производительности сводного планирования
                   href: master-planning/master-planning-performance.md
+                - name: Повышение производительности подсистемы планирования
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Сводные планы и функциональность Мультисайт
                   items:
                     - name: Обзор сводного планирования и функции работы с несколькими узлами
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Ведение маршрута для модели продукта
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Цены продажи на основе атрибутов для конфигурации продукта на основе ограничений
+                      href: pim/attribute-based-product-configurator.md
                     - name: Утверждение модели конфигурации продукта
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Передача данных для моделей продукта
@@ -2031,10 +2041,12 @@
                       href: production-control/release-production-orders.md
                     - name: Приемка производственных заказов
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Настроить карту заданий для устройств
+                    - name: Настройка карты заданий для устройств
                       href: production-control/config-job-card-device.md
                     - name: Приемка с устройства карты задания
                       href: production-control/report-finished-job-device.md
+                    - name: Предоставление руководств с использованием смешанной реальности для работников на производстве
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Реверсирование статуса производственного заказа
                       href: production-control/reverse-production-order-status.md
                     - name: Видимость материальных исключений
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Включение печати меток грузомест
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Создание заказов на перемещение из приложения склада
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Обработка событий приложения склада
+                      href: warehousing/warehouse-app-events.md
                     - name: Поштучное подтверждение комплектации
                       href: warehousing/piece-picking-confirmation.md
                     - name: Упаковочные материалы и сборы
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Структура руководства по процессу
                       href: warehousing/process-guide-framework.md
+                    - name: Устранение неполадок при подключении приложения склада
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Обновление и миграция
                   items:
                     - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
