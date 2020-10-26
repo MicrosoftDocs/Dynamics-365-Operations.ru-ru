@@ -15,44 +15,44 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbb43bc4f696935bba9fca6435eb73fc9a2e5149
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6e8205db277715f4f4f9c1ee589f264c0ded6617
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202108"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983827"
 ---
-# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="27d8a-103">Передача возврата на проверку</span><span class="sxs-lookup"><span data-stu-id="27d8a-103">Pass returned items on to inspection</span></span> 
+# <a name="pass-returned-items-on-to-inspection"></a><span data-ttu-id="5840d-103">Передача возврата на проверку</span><span class="sxs-lookup"><span data-stu-id="5840d-103">Pass returned items on to inspection</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="27d8a-104">При регистрации возврата имеется возможность определить, что номенклатуру следует отправить для инвентаризации перед возвращением на склад или списать ее другим способом.</span><span class="sxs-lookup"><span data-stu-id="27d8a-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
+<span data-ttu-id="5840d-104">При регистрации возврата имеется возможность определить, что номенклатуру следует отправить для инвентаризации перед возвращением на склад или списать ее другим способом.</span><span class="sxs-lookup"><span data-stu-id="5840d-104">When registering a returned item, you may determine that an item should be sent for inspection before it is returned to inventory or disposed of in some other way.</span></span>
 
-1.  <span data-ttu-id="27d8a-105">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Прибытие номенклатуры**.</span><span class="sxs-lookup"><span data-stu-id="27d8a-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
+1.  <span data-ttu-id="5840d-105">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Прибытие номенклатуры**.</span><span class="sxs-lookup"><span data-stu-id="5840d-105">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
     
-    <span data-ttu-id="27d8a-106">\-или-</span><span class="sxs-lookup"><span data-stu-id="27d8a-106">\-or-</span></span>
+    <span data-ttu-id="5840d-106">\-или-</span><span class="sxs-lookup"><span data-stu-id="5840d-106">\-or-</span></span>
     
-    <span data-ttu-id="27d8a-107">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Получение из производства**.</span><span class="sxs-lookup"><span data-stu-id="27d8a-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
+    <span data-ttu-id="5840d-107">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Получение из производства**.</span><span class="sxs-lookup"><span data-stu-id="5840d-107">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Production input**.</span></span>
 
-2.  <span data-ttu-id="27d8a-108">Регистрация прихода номенклатуры выполняется обычным способом в форме **Журнал местоположений**.</span><span class="sxs-lookup"><span data-stu-id="27d8a-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
+2.  <span data-ttu-id="5840d-108">Регистрация прихода номенклатуры выполняется обычным способом в форме **Журнал местоположений**.</span><span class="sxs-lookup"><span data-stu-id="5840d-108">On the **Location journal** form, register the receipt of an item as usual.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="27d8a-109">Для получения дополнительных сведений о регистрации прихода возврата см. раздел <A href="register-the-receipt-of-returned-items.md">Регистрация прихода возврата</A>.</span><span class="sxs-lookup"><span data-stu-id="27d8a-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
+    > <P><span data-ttu-id="5840d-109">Для получения дополнительных сведений о регистрации прихода возврата см. раздел <A href="register-the-receipt-of-returned-items.md">Регистрация прихода возврата</A>.</span><span class="sxs-lookup"><span data-stu-id="5840d-109">For information about registering the receipt of returned items, see <A href="register-the-receipt-of-returned-items.md">Register the receipt of returned items</A></span></span></P>
 
 
 
-3.  <span data-ttu-id="27d8a-110">На вкладке **Значения по умолчанию**, в области **Режим обработки** выберите поле **Управление карантином**.</span><span class="sxs-lookup"><span data-stu-id="27d8a-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
+3.  <span data-ttu-id="5840d-110">На вкладке **Значения по умолчанию**, в области **Режим обработки** выберите поле **Управление карантином**.</span><span class="sxs-lookup"><span data-stu-id="5840d-110">On the **Default values** tab, in the **Mode of handling** area, select the **Quarantine management** box.</span></span>
 
-<span data-ttu-id="27d8a-111">Это приведет к созданию в системе карантинного заказа, и человек или подразделение, выполняющие инвентаризации, ответит на этот заказ с помощью формы **Карантинный заказ**.</span><span class="sxs-lookup"><span data-stu-id="27d8a-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
+<span data-ttu-id="5840d-111">Это приведет к созданию в системе карантинного заказа, и человек или подразделение, выполняющие инвентаризации, ответит на этот заказ с помощью формы **Карантинный заказ**.</span><span class="sxs-lookup"><span data-stu-id="5840d-111">This will prompt the system to create a quarantine order, and the person or department that performs inspections will respond to this order using the **Quarantine order** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="27d8a-112">См. также</span><span class="sxs-lookup"><span data-stu-id="27d8a-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5840d-112">См. также</span><span class="sxs-lookup"><span data-stu-id="5840d-112">See also</span></span>
 
-[<span data-ttu-id="27d8a-113">Прохождение возвратом процедуры проверки</span><span class="sxs-lookup"><span data-stu-id="27d8a-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="5840d-113">Прохождение возвратом процедуры проверки</span><span class="sxs-lookup"><span data-stu-id="5840d-113">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
-[<span data-ttu-id="27d8a-114">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="27d8a-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
+[<span data-ttu-id="5840d-114">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="5840d-114">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
 

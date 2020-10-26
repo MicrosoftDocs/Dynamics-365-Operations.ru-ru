@@ -13,28 +13,28 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4926c8a157ae0f1838e1c4d545b3e31e60d6abf
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8b640d63776debbe12367439186a72b231d8ada
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213316"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986079"
 ---
-# <a name="create-product-model-components"></a><span data-ttu-id="45a5a-103">Создайте компонентов модели продукта</span><span class="sxs-lookup"><span data-stu-id="45a5a-103">Create product model components</span></span>
+# <a name="create-product-model-components"></a><span data-ttu-id="10b2f-103">Создайте компонентов модели продукта</span><span class="sxs-lookup"><span data-stu-id="10b2f-103">Create product model components</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="45a5a-104">В моделях конфигурации на основе ограничений используются компоненты в качестве строительных блоков, чтобы настроить структуру модели продукта.</span><span class="sxs-lookup"><span data-stu-id="45a5a-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="45a5a-105">Перед созданием модели продукта необходимо создать компоненты.</span><span class="sxs-lookup"><span data-stu-id="45a5a-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="45a5a-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="45a5a-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="10b2f-104">В моделях конфигурации на основе ограничений используются компоненты в качестве строительных блоков, чтобы настроить структуру модели продукта.</span><span class="sxs-lookup"><span data-stu-id="10b2f-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="10b2f-105">Перед созданием модели продукта необходимо создать компоненты.</span><span class="sxs-lookup"><span data-stu-id="10b2f-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="10b2f-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="10b2f-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="45a5a-107">Щелкните "Определение модели вариантов продукта".</span><span class="sxs-lookup"><span data-stu-id="45a5a-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="45a5a-108">Щелкните "Модели конфигурации продукта".</span><span class="sxs-lookup"><span data-stu-id="45a5a-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="45a5a-109">В области действий щелкните "Модель".</span><span class="sxs-lookup"><span data-stu-id="45a5a-109">On the Action Pane, click Model.</span></span>
-4. <span data-ttu-id="45a5a-110">Щелкните "Компоненты".</span><span class="sxs-lookup"><span data-stu-id="45a5a-110">Click Components.</span></span>
-5. <span data-ttu-id="45a5a-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="45a5a-111">Click New.</span></span>
-6. <span data-ttu-id="45a5a-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="45a5a-112">In the Name field, type a value.</span></span>
-7. <span data-ttu-id="45a5a-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="45a5a-113">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="45a5a-114">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="45a5a-114">Close the page.</span></span>
+1. <span data-ttu-id="10b2f-107">Щелкните "Определение модели вариантов продукта".</span><span class="sxs-lookup"><span data-stu-id="10b2f-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="10b2f-108">Щелкните "Модели конфигурации продукта".</span><span class="sxs-lookup"><span data-stu-id="10b2f-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="10b2f-109">В области действий щелкните "Модель".</span><span class="sxs-lookup"><span data-stu-id="10b2f-109">On the Action Pane, click Model.</span></span>
+4. <span data-ttu-id="10b2f-110">Щелкните "Компоненты".</span><span class="sxs-lookup"><span data-stu-id="10b2f-110">Click Components.</span></span>
+5. <span data-ttu-id="10b2f-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="10b2f-111">Click New.</span></span>
+6. <span data-ttu-id="10b2f-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="10b2f-112">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="10b2f-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="10b2f-113">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="10b2f-114">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="10b2f-114">Close the page.</span></span>
 

@@ -13,40 +13,40 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 126e1de2d59d33fd7a5df1e011aa8c1aff63dfc6
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: 24210129f7595c6544234c20915f4003bf0e1eb8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454680"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984705"
 ---
-# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="c2bed-103">Настройка налоговых групп и налоговых групп номенклатур</span><span class="sxs-lookup"><span data-stu-id="c2bed-103">Set up sales tax groups and item sales tax groups</span></span>
+# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="097b9-103">Настройка налоговых групп и налоговых групп номенклатур</span><span class="sxs-lookup"><span data-stu-id="097b9-103">Set up sales tax groups and item sales tax groups</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c2bed-104">В этой записи задачи представлен процесс настройки налога и налоговых групп.</span><span class="sxs-lookup"><span data-stu-id="c2bed-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="c2bed-105">Налоговые группы — группы налоговых кодов, присоединенные к клиентам и поставщикам.</span><span class="sxs-lookup"><span data-stu-id="c2bed-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="c2bed-106">Они также присоединены к счетам ГК для проводок, которые не разнесены для конкретного поставщика или клиента.</span><span class="sxs-lookup"><span data-stu-id="c2bed-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="c2bed-107">Налоговые группы номенклатур — это группы налоговых кодов, присоединенные к ресурсам, таким как продукты.</span><span class="sxs-lookup"><span data-stu-id="c2bed-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="c2bed-108">Налоги, применяемые к конкретной проводке, определяются налоговыми кодами, включенными в налоговую группу и в налоговую группу номенклатур проводки.</span><span class="sxs-lookup"><span data-stu-id="c2bed-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="c2bed-109">Налог можно рассчитать, только если налоговая группа и налоговая группа номенклатур были выбраны для каждой проводки, для которой должен быть рассчитан или записан налог.</span><span class="sxs-lookup"><span data-stu-id="c2bed-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
+<span data-ttu-id="097b9-104">В этой записи задачи представлен процесс настройки налога и налоговых групп.</span><span class="sxs-lookup"><span data-stu-id="097b9-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="097b9-105">Налоговые группы — группы налоговых кодов, присоединенные к клиентам и поставщикам.</span><span class="sxs-lookup"><span data-stu-id="097b9-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="097b9-106">Они также присоединены к счетам ГК для проводок, которые не разнесены для конкретного поставщика или клиента.</span><span class="sxs-lookup"><span data-stu-id="097b9-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="097b9-107">Налоговые группы номенклатур — это группы налоговых кодов, присоединенные к ресурсам, таким как продукты.</span><span class="sxs-lookup"><span data-stu-id="097b9-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="097b9-108">Налоги, применяемые к конкретной проводке, определяются налоговыми кодами, включенными в налоговую группу и в налоговую группу номенклатур проводки.</span><span class="sxs-lookup"><span data-stu-id="097b9-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="097b9-109">Налог можно рассчитать, только если налоговая группа и налоговая группа номенклатур были выбраны для каждой проводки, для которой должен быть рассчитан или записан налог.</span><span class="sxs-lookup"><span data-stu-id="097b9-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
 
-1. <span data-ttu-id="c2bed-110">Перейдите к **Область переходов > Модули > Налог > Косвенные налоги > Налог > Налоговые группы**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
-2. <span data-ttu-id="c2bed-111">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-111">Click **New**.</span></span>
-3. <span data-ttu-id="c2bed-112">В поле **Налоговая группа** введите значение.</span><span class="sxs-lookup"><span data-stu-id="c2bed-112">In the **Sales tax group** field, type a value.</span></span>
-4. <span data-ttu-id="c2bed-113">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="c2bed-113">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="c2bed-114">Переключите развертывание раздела **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-114">Toggle the expansion of the **Setup** section.</span></span>
-6. <span data-ttu-id="c2bed-115">Нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-115">Click **Add**.</span></span>
-7. <span data-ttu-id="c2bed-116">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="c2bed-116">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="c2bed-117">В поле **Налоговый код** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c2bed-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="c2bed-118">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c2bed-118">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="c2bed-119">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-119">Click **Save**.</span></span>
-11. <span data-ttu-id="c2bed-120">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="c2bed-120">Close the page.</span></span>
-12. <span data-ttu-id="c2bed-121">Перейдите в раздел **Налог > Косвенные налоги > Налог > Налоговые группы номенклатур**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
-13. <span data-ttu-id="c2bed-122">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-122">Click **New**.</span></span>
-14. <span data-ttu-id="c2bed-123">В поле **Налоговая группа номенклатур** введите значение.</span><span class="sxs-lookup"><span data-stu-id="c2bed-123">In the **Item sales tax group** field, type a value.</span></span>
-15. <span data-ttu-id="c2bed-124">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="c2bed-124">In the **Description** field, type a value.</span></span>
-16. <span data-ttu-id="c2bed-125">Нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-125">Click **Add**.</span></span>
-17. <span data-ttu-id="c2bed-126">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="c2bed-126">In the list, mark the selected row.</span></span>
-18. <span data-ttu-id="c2bed-127">В поле **Налоговый код** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c2bed-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="c2bed-128">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c2bed-128">In the list, click the link in the selected row.</span></span>
-20. <span data-ttu-id="c2bed-129">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c2bed-129">Click **Save**.</span></span>
+1. <span data-ttu-id="097b9-110">Перейдите к **Область переходов > Модули > Налог > Косвенные налоги > Налог > Налоговые группы**.</span><span class="sxs-lookup"><span data-stu-id="097b9-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
+2. <span data-ttu-id="097b9-111">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="097b9-111">Click **New**.</span></span>
+3. <span data-ttu-id="097b9-112">В поле **Налоговая группа** введите значение.</span><span class="sxs-lookup"><span data-stu-id="097b9-112">In the **Sales tax group** field, type a value.</span></span>
+4. <span data-ttu-id="097b9-113">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="097b9-113">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="097b9-114">Переключите развертывание раздела **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="097b9-114">Toggle the expansion of the **Setup** section.</span></span>
+6. <span data-ttu-id="097b9-115">Нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="097b9-115">Click **Add**.</span></span>
+7. <span data-ttu-id="097b9-116">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="097b9-116">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="097b9-117">В поле **Налоговый код** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="097b9-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="097b9-118">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="097b9-118">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="097b9-119">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="097b9-119">Click **Save**.</span></span>
+11. <span data-ttu-id="097b9-120">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="097b9-120">Close the page.</span></span>
+12. <span data-ttu-id="097b9-121">Перейдите в раздел **Налог > Косвенные налоги > Налог > Налоговые группы номенклатур**.</span><span class="sxs-lookup"><span data-stu-id="097b9-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
+13. <span data-ttu-id="097b9-122">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="097b9-122">Click **New**.</span></span>
+14. <span data-ttu-id="097b9-123">В поле **Налоговая группа номенклатур** введите значение.</span><span class="sxs-lookup"><span data-stu-id="097b9-123">In the **Item sales tax group** field, type a value.</span></span>
+15. <span data-ttu-id="097b9-124">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="097b9-124">In the **Description** field, type a value.</span></span>
+16. <span data-ttu-id="097b9-125">Нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="097b9-125">Click **Add**.</span></span>
+17. <span data-ttu-id="097b9-126">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="097b9-126">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="097b9-127">В поле **Налоговый код** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="097b9-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="097b9-128">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="097b9-128">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="097b9-129">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="097b9-129">Click **Save**.</span></span>
 
