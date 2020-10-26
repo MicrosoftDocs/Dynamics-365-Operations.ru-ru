@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d390910eceff4039f2a29c79d3632a3b6071863a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 769bc9cb2b59d60a99e55cdd3674a6156de513ea
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183917"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976078"
 ---
 # <a name="fixed-asset-counting-russia"></a>Инвентаризация ОС (Россия)
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: adea366b1348c17f51e184750b208134b3e4861d
-ms.sourcegitcommit: fc82dfcf6b5eb7c5b393b81304735f42f676d7d7
+ms.openlocfilehash: e4b82fb15eac34cf1749e49b17e4827429f99639
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3266846"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981470"
 ---
 # <a name="turnover-balance-statement-reports"></a>Отчеты по оборотно-сальдовой ведомости
 [!include [banner](../includes/banner.md)]
