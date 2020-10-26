@@ -15,40 +15,40 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f03a50c565d689f55e297016411435513f2175
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 744f78f2dd088e50c91e1f7ef0e6f68b176f9618
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202476"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984138"
 ---
-# <a name="delete-a-service-bom"></a><span data-ttu-id="64822-103">Удаление спецификации обслуживания</span><span class="sxs-lookup"><span data-stu-id="64822-103">Delete a service BOM</span></span> 
+# <a name="delete-a-service-bom"></a><span data-ttu-id="b67fe-103">Удаление спецификации обслуживания</span><span class="sxs-lookup"><span data-stu-id="b67fe-103">Delete a service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="64822-104">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="64822-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="64822-105">Выберите соглашение о сервисном обслуживании, из которого необходимо удалить спецификацию сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="64822-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
+1.  <span data-ttu-id="b67fe-104">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="b67fe-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="b67fe-105">Выберите соглашение о сервисном обслуживании, из которого необходимо удалить спецификацию сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="b67fe-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
 
-2.  <span data-ttu-id="64822-106">В разделе **Панель операций** щелкните **Объекты сервисного обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="64822-106">On the **Action Pane**, click **Service objects**.</span></span>
+2.  <span data-ttu-id="b67fe-106">В разделе **Панель операций** щелкните **Объекты сервисного обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="b67fe-106">On the **Action Pane**, click **Service objects**.</span></span>
 
-3.  <span data-ttu-id="64822-107">В форме **Объекты сервисного обслуживания** выберите связь объекта сервисного обслуживания, из которого необходимо удалить спецификацию сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="64822-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="64822-108">Щелкните **Функции** и выберите **Удалить спецификацию обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="64822-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
+3.  <span data-ttu-id="b67fe-107">В форме **Объекты сервисного обслуживания** выберите связь объекта сервисного обслуживания, из которого необходимо удалить спецификацию сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="b67fe-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="b67fe-108">Щелкните **Функции** и выберите **Удалить спецификацию обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="b67fe-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
 
-4.  <span data-ttu-id="64822-109">Нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="64822-109">Click **Yes**.</span></span>
+4.  <span data-ttu-id="b67fe-109">Нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="b67fe-109">Click **Yes**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="64822-110">Пока не применен шаблон спецификации, спецификация сервисного обслуживания не может быть удалена из формы <STRONG>Шаблоны спецификаций</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="64822-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="64822-111">После применения шаблона спецификации спецификация сервисного обслуживания не может быть удалена с помощью этого метода.</span><span class="sxs-lookup"><span data-stu-id="64822-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
+> <P><span data-ttu-id="b67fe-110">Пока не применен шаблон спецификации, спецификация сервисного обслуживания не может быть удалена из формы <STRONG>Шаблоны спецификаций</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b67fe-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="b67fe-111">После применения шаблона спецификации спецификация сервисного обслуживания не может быть удалена с помощью этого метода.</span><span class="sxs-lookup"><span data-stu-id="b67fe-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="64822-112">См. также</span><span class="sxs-lookup"><span data-stu-id="64822-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b67fe-112">См. также</span><span class="sxs-lookup"><span data-stu-id="b67fe-112">See also</span></span>
 
-[<span data-ttu-id="64822-113">Шаблоны спецификаций</span><span class="sxs-lookup"><span data-stu-id="64822-113">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="b67fe-113">Шаблоны спецификаций</span><span class="sxs-lookup"><span data-stu-id="b67fe-113">Template BOMs</span></span>](template-boms.md)
 
-[<span data-ttu-id="64822-114">Управление шаблонами спецификаций для связей объектов</span><span class="sxs-lookup"><span data-stu-id="64822-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
+[<span data-ttu-id="b67fe-114">Управление шаблонами спецификаций для связей объектов</span><span class="sxs-lookup"><span data-stu-id="b67fe-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
 
   
 

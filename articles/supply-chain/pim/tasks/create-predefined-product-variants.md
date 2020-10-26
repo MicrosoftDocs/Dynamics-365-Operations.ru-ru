@@ -13,62 +13,62 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6009f6de76155ea7c2982b28fe4505232447c9c8
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 6fa9c6d4862a49bbf0b5ecbb8c0c3d573e0f49e6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895313"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986151"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="b3252-103">Создание заранее определенных вариантов продукта</span><span class="sxs-lookup"><span data-stu-id="b3252-103">Create predefined product variants</span></span>
+# <a name="create-predefined-product-variants"></a><span data-ttu-id="1ddc4-103">Создание заранее определенных вариантов продукта</span><span class="sxs-lookup"><span data-stu-id="1ddc4-103">Create predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b3252-104">В этой процедуре показано, как создать варианты продукта для шаблона продукта с использованием комбинаций аналитик продукта.</span><span class="sxs-lookup"><span data-stu-id="b3252-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="b3252-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="b3252-105">The demo company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="1ddc4-104">В этой процедуре показано, как создать варианты продукта для шаблона продукта с использованием комбинаций аналитик продукта.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="1ddc4-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-105">The demo company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-master"></a><span data-ttu-id="b3252-106">Создание шаблона продукта</span><span class="sxs-lookup"><span data-stu-id="b3252-106">Create a product master</span></span>
-1. <span data-ttu-id="b3252-107">Перейдите в раздел "Управление сведениями о продукте" > "Продукты" > "Шаблоны продукта".</span><span class="sxs-lookup"><span data-stu-id="b3252-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="b3252-108">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b3252-108">Click New.</span></span>
-3. <span data-ttu-id="b3252-109">В поле "Номер продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="b3252-110">Вводить номер продукта вручную обязательно, только если для поля "Номер продукта" не настроена номерная серия.</span><span class="sxs-lookup"><span data-stu-id="b3252-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="b3252-111">Другими словами, пропустите этот шаг, если для поля настроена номерная серия.</span><span class="sxs-lookup"><span data-stu-id="b3252-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="b3252-112">В поле "Имя продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="b3252-113">В поле "Группа аналитик продуктов" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="b3252-114">Выберите группу аналитик продуктов SizeCol (размер и цвет).</span><span class="sxs-lookup"><span data-stu-id="b3252-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="b3252-115">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="b3252-115">Click OK.</span></span>
+## <a name="create-a-product-master"></a><span data-ttu-id="1ddc4-106">Создание шаблона продукта</span><span class="sxs-lookup"><span data-stu-id="1ddc4-106">Create a product master</span></span>
+1. <span data-ttu-id="1ddc4-107">Перейдите в раздел "Управление сведениями о продукте" > "Продукты" > "Шаблоны продукта".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="1ddc4-108">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-108">Click New.</span></span>
+3. <span data-ttu-id="1ddc4-109">В поле "Номер продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="1ddc4-110">Вводить номер продукта вручную обязательно, только если для поля "Номер продукта" не настроена номерная серия.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="1ddc4-111">Другими словами, пропустите этот шаг, если для поля настроена номерная серия.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
+4. <span data-ttu-id="1ddc4-112">В поле "Имя продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-112">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="1ddc4-113">В поле "Группа аналитик продуктов" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-113">In the Product dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="1ddc4-114">Выберите группу аналитик продуктов SizeCol (размер и цвет).</span><span class="sxs-lookup"><span data-stu-id="1ddc4-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
+6. <span data-ttu-id="1ddc4-115">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-115">Click OK.</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="b3252-116">Добавление аналитик продукта</span><span class="sxs-lookup"><span data-stu-id="b3252-116">Add product dimensions</span></span>
-1. <span data-ttu-id="b3252-117">Щелкните "Аналитики продуктов".</span><span class="sxs-lookup"><span data-stu-id="b3252-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="b3252-118">В этом примере показано, как ввести аналитики продукта вручную.</span><span class="sxs-lookup"><span data-stu-id="b3252-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="b3252-119">Можно также выбрать размер, цвет или группу стилей, включающую значения аналитик продукта, которые необходимо использовать.</span><span class="sxs-lookup"><span data-stu-id="b3252-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="b3252-120">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b3252-120">Click New.</span></span>
-3. <span data-ttu-id="b3252-121">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="b3252-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="b3252-122">В поле "Размер" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="b3252-123">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="b3252-124">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="b3252-124">Click New.</span></span>
-7. <span data-ttu-id="b3252-125">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="b3252-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="b3252-126">В поле "Размер" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="b3252-127">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="b3252-128">Перейдите на вкладку "Цвета".</span><span class="sxs-lookup"><span data-stu-id="b3252-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="b3252-129">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b3252-129">Click New.</span></span>
-12. <span data-ttu-id="b3252-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="b3252-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="b3252-131">В поле "Цвет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="b3252-132">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="b3252-133">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="b3252-133">Click New.</span></span>
-16. <span data-ttu-id="b3252-134">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="b3252-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="b3252-135">В поле "Цвет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="b3252-136">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b3252-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="b3252-137">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b3252-137">Click Save.</span></span>
-20. <span data-ttu-id="b3252-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b3252-138">Close the page.</span></span>
+## <a name="add-product-dimensions"></a><span data-ttu-id="1ddc4-116">Добавление аналитик продукта</span><span class="sxs-lookup"><span data-stu-id="1ddc4-116">Add product dimensions</span></span>
+1. <span data-ttu-id="1ddc4-117">Щелкните "Аналитики продуктов".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-117">Click Product dimensions.</span></span>
+    * <span data-ttu-id="1ddc4-118">В этом примере показано, как ввести аналитики продукта вручную.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="1ddc4-119">Можно также выбрать размер, цвет или группу стилей, включающую значения аналитик продукта, которые необходимо использовать.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
+2. <span data-ttu-id="1ddc4-120">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-120">Click New.</span></span>
+3. <span data-ttu-id="1ddc4-121">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1ddc4-122">В поле "Размер" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-122">In the Size field, enter or select a value.</span></span>
+5. <span data-ttu-id="1ddc4-123">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-123">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="1ddc4-124">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-124">Click New.</span></span>
+7. <span data-ttu-id="1ddc4-125">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-125">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="1ddc4-126">В поле "Размер" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-126">In the Size field, enter or select a value.</span></span>
+9. <span data-ttu-id="1ddc4-127">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-127">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="1ddc4-128">Перейдите на вкладку "Цвета".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-128">Click the Colors tab.</span></span>
+11. <span data-ttu-id="1ddc4-129">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-129">Click New.</span></span>
+12. <span data-ttu-id="1ddc4-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-130">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="1ddc4-131">В поле "Цвет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-131">In the Color field, enter or select a value.</span></span>
+14. <span data-ttu-id="1ddc4-132">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-132">In the Name field, type a value.</span></span>
+15. <span data-ttu-id="1ddc4-133">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-133">Click New.</span></span>
+16. <span data-ttu-id="1ddc4-134">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-134">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="1ddc4-135">В поле "Цвет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-135">In the Color field, enter or select a value.</span></span>
+18. <span data-ttu-id="1ddc4-136">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-136">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="1ddc4-137">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-137">Click Save.</span></span>
+20. <span data-ttu-id="1ddc4-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-138">Close the page.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="b3252-139">Создание вариантов продукта</span><span class="sxs-lookup"><span data-stu-id="b3252-139">Generate product variants</span></span>
-1. <span data-ttu-id="b3252-140">Щелкните "Варианты продуктов".</span><span class="sxs-lookup"><span data-stu-id="b3252-140">Click Product variants.</span></span>
-2. <span data-ttu-id="b3252-141">Щелкните "Предложения вариантов".</span><span class="sxs-lookup"><span data-stu-id="b3252-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="b3252-142">Щелкните "Выбрать все".</span><span class="sxs-lookup"><span data-stu-id="b3252-142">Click Select all.</span></span>
-    * <span data-ttu-id="b3252-143">В этом примере выбраны все возможные варианты.</span><span class="sxs-lookup"><span data-stu-id="b3252-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="b3252-144">Если для создания вариантов будет использоваться только подмножество возможных комбинаций аналитик продукта, можно выбрать отдельные записи.</span><span class="sxs-lookup"><span data-stu-id="b3252-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="b3252-145">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b3252-145">Click Create.</span></span>
-    * <span data-ttu-id="b3252-146">Можно создавать описания для всех имеющихся вариантов на основе комбинаций значений аналитик продукта.</span><span class="sxs-lookup"><span data-stu-id="b3252-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="b3252-147">Описания являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="b3252-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="b3252-148">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b3252-148">Click Save.</span></span>
+## <a name="generate-product-variants"></a><span data-ttu-id="1ddc4-139">Создание вариантов продукта</span><span class="sxs-lookup"><span data-stu-id="1ddc4-139">Generate product variants</span></span>
+1. <span data-ttu-id="1ddc4-140">Щелкните "Варианты продуктов".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-140">Click Product variants.</span></span>
+2. <span data-ttu-id="1ddc4-141">Щелкните "Предложения вариантов".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-141">Click Variant suggestions.</span></span>
+3. <span data-ttu-id="1ddc4-142">Щелкните "Выбрать все".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-142">Click Select all.</span></span>
+    * <span data-ttu-id="1ddc4-143">В этом примере выбраны все возможные варианты.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="1ddc4-144">Если для создания вариантов будет использоваться только подмножество возможных комбинаций аналитик продукта, можно выбрать отдельные записи.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
+4. <span data-ttu-id="1ddc4-145">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-145">Click Create.</span></span>
+    * <span data-ttu-id="1ddc4-146">Можно создавать описания для всех имеющихся вариантов на основе комбинаций значений аналитик продукта.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="1ddc4-147">Описания являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="1ddc4-147">The descriptions are optional.</span></span>  
+5. <span data-ttu-id="1ddc4-148">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="1ddc4-148">Click Save.</span></span>
 

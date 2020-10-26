@@ -12,36 +12,36 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142302"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977559"
 ---
-# <a name="process-and-trace-source-data"></a><span data-ttu-id="009a9-103">Обработка и трассировка исходных данных</span><span class="sxs-lookup"><span data-stu-id="009a9-103">Process and trace source data</span></span>
+# <a name="process-and-trace-source-data"></a><span data-ttu-id="19f1b-103">Обработка и трассировка исходных данных</span><span class="sxs-lookup"><span data-stu-id="19f1b-103">Process and trace source data</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="009a9-104">Вся обработка данных выполняется посредством заданий.</span><span class="sxs-lookup"><span data-stu-id="009a9-104">All data processing is run by jobs.</span></span> <span data-ttu-id="009a9-105">Для каждого задания и поставщика данных создается журнал для документирования того, что процесс был выполнен, и что были обработаны записи в текущем задании.</span><span class="sxs-lookup"><span data-stu-id="009a9-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="009a9-106">Эта процедура используется для настройки источника данных с последующим отслеживанием основания конкретной записи затрат.</span><span class="sxs-lookup"><span data-stu-id="009a9-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="009a9-107">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="009a9-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="009a9-108">Перед выполнением этой задачи не забудьте воспроизвести следующие проводники по задачам: "Создание книги учета затрат", "Определение единиц управления затратами" и "Управление источником данных для книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="009a9-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
+<span data-ttu-id="19f1b-104">Вся обработка данных выполняется посредством заданий.</span><span class="sxs-lookup"><span data-stu-id="19f1b-104">All data processing is run by jobs.</span></span> <span data-ttu-id="19f1b-105">Для каждого задания и поставщика данных создается журнал для документирования того, что процесс был выполнен, и что были обработаны записи в текущем задании.</span><span class="sxs-lookup"><span data-stu-id="19f1b-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="19f1b-106">Эта процедура используется для настройки источника данных с последующим отслеживанием основания конкретной записи затрат.</span><span class="sxs-lookup"><span data-stu-id="19f1b-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="19f1b-107">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="19f1b-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="19f1b-108">Перед выполнением этой задачи не забудьте воспроизвести следующие проводники по задачам: "Создание книги учета затрат", "Определение единиц управления затратами" и "Управление источником данных для книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="19f1b-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 
-1. <span data-ttu-id="009a9-109">Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="009a9-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="009a9-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="009a9-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="009a9-111">Выберите ранее созданную книгу учета затрат.</span><span class="sxs-lookup"><span data-stu-id="009a9-111">Select the cost accounting ledger that you created earlier.</span></span>  
-3. <span data-ttu-id="009a9-112">Щелкните "Фактические версии".</span><span class="sxs-lookup"><span data-stu-id="009a9-112">Click Actual versions.</span></span>
-4. <span data-ttu-id="009a9-113">На панели операций щелкните "Обработка исходный данных".</span><span class="sxs-lookup"><span data-stu-id="009a9-113">On the Action Pane, click Source data processing.</span></span>
-5. <span data-ttu-id="009a9-114">Щелкните "Журналы переноса записей главной книги".</span><span class="sxs-lookup"><span data-stu-id="009a9-114">Click General ledger entry transfer journals.</span></span>
-6. <span data-ttu-id="009a9-115">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="009a9-115">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="009a9-116">Щелкните "Записи журнала".</span><span class="sxs-lookup"><span data-stu-id="009a9-116">Click Journal entries.</span></span>
-8. <span data-ttu-id="009a9-117">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="009a9-117">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="009a9-118">Щелкните "Записи затрат".</span><span class="sxs-lookup"><span data-stu-id="009a9-118">Click Cost entries.</span></span>
-10. <span data-ttu-id="009a9-119">Щелкните "Исходная запись".</span><span class="sxs-lookup"><span data-stu-id="009a9-119">Click Source entry.</span></span>
-11. <span data-ttu-id="009a9-120">На панели операций щелкните "Обработка исходный данных".</span><span class="sxs-lookup"><span data-stu-id="009a9-120">On the Action Pane, click Source data processing.</span></span>
-12. <span data-ttu-id="009a9-121">Щелкните "Главная книга".</span><span class="sxs-lookup"><span data-stu-id="009a9-121">Click General ledger.</span></span>
-13. <span data-ttu-id="009a9-122">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="009a9-122">In the Fiscal calendar period field, enter or select a value.</span></span>
-    * <span data-ttu-id="009a9-123">В этом примере выберите "Fiscal 2017 Period 9".</span><span class="sxs-lookup"><span data-stu-id="009a9-123">For this example, select Fiscal 2017 Period 9.</span></span>  
-14. <span data-ttu-id="009a9-124">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="009a9-124">Click OK.</span></span>
+1. <span data-ttu-id="19f1b-109">Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="19f1b-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="19f1b-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="19f1b-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="19f1b-111">Выберите ранее созданную книгу учета затрат.</span><span class="sxs-lookup"><span data-stu-id="19f1b-111">Select the cost accounting ledger that you created earlier.</span></span>  
+3. <span data-ttu-id="19f1b-112">Щелкните "Фактические версии".</span><span class="sxs-lookup"><span data-stu-id="19f1b-112">Click Actual versions.</span></span>
+4. <span data-ttu-id="19f1b-113">На панели операций щелкните "Обработка исходный данных".</span><span class="sxs-lookup"><span data-stu-id="19f1b-113">On the Action Pane, click Source data processing.</span></span>
+5. <span data-ttu-id="19f1b-114">Щелкните "Журналы переноса записей главной книги".</span><span class="sxs-lookup"><span data-stu-id="19f1b-114">Click General ledger entry transfer journals.</span></span>
+6. <span data-ttu-id="19f1b-115">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="19f1b-115">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="19f1b-116">Щелкните "Записи журнала".</span><span class="sxs-lookup"><span data-stu-id="19f1b-116">Click Journal entries.</span></span>
+8. <span data-ttu-id="19f1b-117">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="19f1b-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="19f1b-118">Щелкните "Записи затрат".</span><span class="sxs-lookup"><span data-stu-id="19f1b-118">Click Cost entries.</span></span>
+10. <span data-ttu-id="19f1b-119">Щелкните "Исходная запись".</span><span class="sxs-lookup"><span data-stu-id="19f1b-119">Click Source entry.</span></span>
+11. <span data-ttu-id="19f1b-120">На панели операций щелкните "Обработка исходный данных".</span><span class="sxs-lookup"><span data-stu-id="19f1b-120">On the Action Pane, click Source data processing.</span></span>
+12. <span data-ttu-id="19f1b-121">Щелкните "Главная книга".</span><span class="sxs-lookup"><span data-stu-id="19f1b-121">Click General ledger.</span></span>
+13. <span data-ttu-id="19f1b-122">В поле "Период финансового календаря" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="19f1b-122">In the Fiscal calendar period field, enter or select a value.</span></span>
+    * <span data-ttu-id="19f1b-123">В этом примере выберите "Fiscal 2017 Period 9".</span><span class="sxs-lookup"><span data-stu-id="19f1b-123">For this example, select Fiscal 2017 Period 9.</span></span>  
+14. <span data-ttu-id="19f1b-124">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="19f1b-124">Click OK.</span></span>
 
