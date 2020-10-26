@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 880458a06bda43bcfa581ea6eaba4aaf03bf6ca5
-ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
+ms.openlocfilehash: 105263afede1d8d5a05b5c7412f52c0d81486f29
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3059390"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978193"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 

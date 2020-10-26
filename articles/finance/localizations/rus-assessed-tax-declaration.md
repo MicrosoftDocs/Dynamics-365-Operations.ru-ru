@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2fabbe0654ff4da3e433d1aced424cc6f79be67a
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: de50d3320ada278fbf43dbb313fdaed38b57ee9e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3013200"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978258"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

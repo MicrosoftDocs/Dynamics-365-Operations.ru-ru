@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Platform
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в обновлениях платформы приложений Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819897"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971453"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Удаленные или устаревшие функции Platform
 
@@ -34,6 +34,22 @@ ms.locfileid: "3819897"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.15 приложений Finance and Operations
+
+> [!NOTE]
+> Версия 10.0.15 — это предварительная версия. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Надстройка Visual Studio для применения исправлений метаданных
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Исправления метаданных больше не поддерживаются с обновлениями службы [Одна версия](../../fin-ops/get-started/one-version.md), которые были введены в июле 2018 с версией 8.1. |
+| **Заменена другой функцией?**   | Отдельные исправления метаданных недоступны для поддерживаемых версий. Вместо этого применяются накопительные обновления качества. |
+| **Затрагиваемые области продукта**         | Надстройки Visual Studio |
+| **Вариант развертывания**              | Виртуальные машины разработки |
+| **Состояние**                         | С версией 10.0.15 надстройка больше не включается в состав инструментов Visual Studio. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.14 приложений Finance and Operations
 
@@ -50,6 +66,7 @@ ms.locfileid: "3819897"
 | **Затрагиваемые области продукта**         | Администрирование системы |
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | К октябрю 2021 года эта форма будет удалена.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.13 приложений Finance and Operations
 

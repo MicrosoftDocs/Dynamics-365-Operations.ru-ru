@@ -3,7 +3,7 @@ title: Управление запросами на отпуск в Teams
 description: В этом разделе показано, как запросить отпуск в приложении Dynamics 365 Human Resources в Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828952"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930001"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Управление запросами на отпуск в Teams
 
@@ -171,6 +171,22 @@ ms.locfileid: "3828952"
 В календаре отображаются утвержденные и ожидающие утверждения отгулы ваших непосредственных подчиненных.
 
 ![Календарь отгулов в приложении Human Resources в Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>Устранение неполадок
+
+Если вы не можете войти в систему или использовать приложение Human Resources Teams, попробуйте выполнить следующие инструкции по устранению неполадок. Если после устранения неполадок все еще возникают проблемы, обратитесь в службу поддержки. Для получения дополнительных см. [Получение поддержки](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Невозможно выполнить вход в приложение Human Resources в Teams
+
+Если вы не можете войти в приложение, возможно, что учетная запись, используемая для входа в Microsoft Teams, не связана с записью сотрудника в Dynamics 365 Human Resources. Обратитесь к системному администратору, чтобы убедиться, что запись сотрудника правильно связана.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Ошибка при утверждении запросов отпуска в приложении Human Resources в Teams
+
+При получении сообщения об ошибке при попытке утверждения запросов на отпуск в приложении Teams выполните следующие действия по устранению неполадок:
+
+1. Убедитесь, что учетная запись, в которую вы входите в Microsoft Teams, совпадает с используемой для доступа в Dynamics 365 Human Resources.
+
+2. Проверьте, что вы действительно являетесь утверждающим для этого запроса, проверив параметры рабочего процесса для утверждения отпуска. Дополнительные сведения о рабочих процессах запроса отпуска см. в разделе [Создание рабочего процесса запроса отпуска](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 

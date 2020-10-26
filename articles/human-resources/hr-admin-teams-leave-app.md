@@ -3,7 +3,7 @@ title: Приложение Human Resources в Teams
 description: Эта тема знакомит с приложением Microsoft Dynamics 365 Human Resources в Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930025"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более подробную информацию. Кроме того, они могут отправлять пользователям сведения о предстоящем отгуле в группах и чатах вне приложения Human Resources.
+Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более детальная информация. Кроме того, они могут отправлять пользователям сведения о предстоящих отгулах в рабочих группа и чатах вне приложения Human Resources.
 
 ![Бот для приложения отпусков Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -90,6 +90,22 @@ ms.locfileid: "3828922"
 | Неверное сальдо при подаче запроса на отпуск для будущей даты. | Прогнозирование пока недоступно. Сальдо отображается для текущей даты. |
 | Не удается отменить запрос **На рассмотрении**. | Эта функциональная возможность в настоящее время не поддерживается и будет добавлена в будущем выпуске. |
 | Сведения о сальдо рассчитываются на сегодняшний день. | В настоящее время в системе не отображается сальдо на период начисления, даже если оно настроено в параметрах отпусков и отсутствия. |
+
+## <a name="troubleshooting"></a>Устранение неполадок
+
+Если пользователь не может войти в систему или использовать приложение Human Resources Teams, попробуйте выполнить следующие инструкции по устранению неполадок. Если после устранения неполадок все еще возникают проблемы, обратитесь в службу поддержки. Для получения дополнительных см. [Получение поддержки](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Невозможно выполнить вход в приложение Human Resources в Teams
+
+Если пользователь обращается к вам из-за того, что он не может войти в приложение, убедитесь, что у пользователя имеется соответствующая запись сотрудника в модуле Human Resources.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Ошибка при утверждении запросов отпуска в приложении Human Resources в Teams
+
+Если пользователь получает ошибку при попытке утверждения запросов на отпуск в приложении Teams выполните следующие действия по устранению неполадок:
+
+1. Убедитесь, что их учетная запись Teams совпадает с той, которая используется для доступа к модулю Human Resources.
+
+2. Проверьте, что они действительно являются утверждающим для этого запроса, проверив параметры рабочего процесса для утверждения отпуска. Дополнительные сведения о рабочих процессах запроса отпуска см. в разделе [Создание рабочего процесса запроса отпуска](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 
