@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35c7237bd84aeb13f6c24626a6aaa722f8ad5756
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206711"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981801"
 ---
-# <a name="set-up-template-to-represent-objects-at-customer-site"></a><span data-ttu-id="9c0b5-103">Настройка шаблона для представления объектов у клиента</span><span class="sxs-lookup"><span data-stu-id="9c0b5-103">Set up template to represent objects at customer site</span></span> 
+# <a name="set-up-template-to-represent-objects-at-customer-site"></a><span data-ttu-id="8dab7-103">Настройка шаблона для представления объектов у клиента</span><span class="sxs-lookup"><span data-stu-id="8dab7-103">Set up template to represent objects at customer site</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="9c0b5-104">Выполните эту процедуру для настройки шаблона, представляющего объекты на сайте клиента.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-104">Use this procedure to set up a template that represents objects at a customer site.</span></span>
+<span data-ttu-id="8dab7-104">Выполните эту процедуру для настройки шаблона, представляющего объекты на сайте клиента.</span><span class="sxs-lookup"><span data-stu-id="8dab7-104">Use this procedure to set up a template that represents objects at a customer site.</span></span>
 
-1.  <span data-ttu-id="9c0b5-105">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-105">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="8dab7-105">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="8dab7-105">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="9c0b5-106">Дважды щелкните соглашение о сервисном обслуживание или нажмите **Соглашение о сервисном обслуживании**, чтобы создать новое соглашение о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-106">Double-click a service agreement, or click **Service agreement** to create a new service agreement.</span></span>
+2.  <span data-ttu-id="8dab7-106">Дважды щелкните соглашение о сервисном обслуживание или нажмите **Соглашение о сервисном обслуживании**, чтобы создать новое соглашение о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="8dab7-106">Double-click a service agreement, or click **Service agreement** to create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="9c0b5-107">Перейдите на вкладку **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-107">Click the **Setup** tab.</span></span>
+3.  <span data-ttu-id="8dab7-107">Перейдите на вкладку **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="8dab7-107">Click the **Setup** tab.</span></span>
 
-4.  <span data-ttu-id="9c0b5-108">Щелкните **Объекты сервисного обслуживания**, чтобы прикрепить шаблон спецификации к соглашению о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-108">Click **Service objects** to attach a template bill of materials (BOM) to the service agreement.</span></span>
+4.  <span data-ttu-id="8dab7-108">Щелкните **Объекты сервисного обслуживания**, чтобы прикрепить шаблон спецификации к соглашению о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="8dab7-108">Click **Service objects** to attach a template bill of materials (BOM) to the service agreement.</span></span>
 
-5.  <span data-ttu-id="9c0b5-109">В форме **Объекты сервисного обслуживания** выберите объект сервисного обслуживания и щелкните **Функции** \> **Присоединение шаблона спецификации**.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-109">In the **Service objects** form, select a service object, and then click **Functions** \> **Attach template BOM**.</span></span>
+5.  <span data-ttu-id="8dab7-109">В форме **Объекты сервисного обслуживания** выберите объект сервисного обслуживания и щелкните **Функции** \> **Присоединение шаблона спецификации**.</span><span class="sxs-lookup"><span data-stu-id="8dab7-109">In the **Service objects** form, select a service object, and then click **Functions** \> **Attach template BOM**.</span></span>
 
-6.  <span data-ttu-id="9c0b5-110">В форме **Выбор шаблона спецификации** выберите шаблон спецификации в поле **Шаблон спецификации** и нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-110">In the **Select template BOM** form, select a template BOM in the **Template BOM** field, and then click **OK**.</span></span>
+6.  <span data-ttu-id="8dab7-110">В форме **Выбор шаблона спецификации** выберите шаблон спецификации в поле **Шаблон спецификации** и нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="8dab7-110">In the **Select template BOM** form, select a template BOM in the **Template BOM** field, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="9c0b5-111">В форме **Объекты сервисного обслуживания** щелкните **Конструктор**, чтобы изменить шаблон спецификации так, чтобы в спецификации были представлены нужные объекты.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-111">In the **Service objects** form, click **Designer** to modify the template BOM so that the BOM represents the objects that you want.</span></span>
+7.  <span data-ttu-id="8dab7-111">В форме **Объекты сервисного обслуживания** щелкните **Конструктор**, чтобы изменить шаблон спецификации так, чтобы в спецификации были представлены нужные объекты.</span><span class="sxs-lookup"><span data-stu-id="8dab7-111">In the **Service objects** form, click **Designer** to modify the template BOM so that the BOM represents the objects that you want.</span></span>
 
-8.  <span data-ttu-id="9c0b5-112">Закройте формы, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="9c0b5-112">Close the forms to save your changes.</span></span>
+8.  <span data-ttu-id="8dab7-112">Закройте формы, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="8dab7-112">Close the forms to save your changes.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9c0b5-113">См. также</span><span class="sxs-lookup"><span data-stu-id="9c0b5-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8dab7-113">См. также</span><span class="sxs-lookup"><span data-stu-id="8dab7-113">See also</span></span>
 
-[<span data-ttu-id="9c0b5-114">Управление шаблонами спецификаций для связей объектов</span><span class="sxs-lookup"><span data-stu-id="9c0b5-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
+[<span data-ttu-id="8dab7-114">Управление шаблонами спецификаций для связей объектов</span><span class="sxs-lookup"><span data-stu-id="8dab7-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
 
   
 
