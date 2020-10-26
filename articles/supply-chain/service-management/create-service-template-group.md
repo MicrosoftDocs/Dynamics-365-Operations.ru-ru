@@ -15,27 +15,27 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 736eaba0c62b7347ed7db0abfb5a77f68f989400
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 58af71c56d1db3f5856a0104da9ac1435dd8e7ae
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202648"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978685"
 ---
-# <a name="create-a-service-template-group"></a><span data-ttu-id="2c19f-103">Создание группы шаблонов обслуживания</span><span class="sxs-lookup"><span data-stu-id="2c19f-103">Create a service template group</span></span>  
+# <a name="create-a-service-template-group"></a><span data-ttu-id="edded-103">Создание группы шаблонов обслуживания</span><span class="sxs-lookup"><span data-stu-id="edded-103">Create a service template group</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2c19f-104">Группы шаблонов сервисного обслуживания можно использовать для сортировки и фильтрации этих шаблонов.</span><span class="sxs-lookup"><span data-stu-id="2c19f-104">You can use service template groups to sort and filter service templates.</span></span>
+<span data-ttu-id="edded-104">Группы шаблонов сервисного обслуживания можно использовать для сортировки и фильтрации этих шаблонов.</span><span class="sxs-lookup"><span data-stu-id="edded-104">You can use service template groups to sort and filter service templates.</span></span>
 
-1. <span data-ttu-id="2c19f-105">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Соглашения на обслуживание** \> **Группа шаблона сервисного обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="2c19f-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service template groups**.</span></span>
-2. <span data-ttu-id="2c19f-106">Создайте новую группу шаблонов сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="2c19f-106">Create a new service template group.</span></span>
-3. <span data-ttu-id="2c19f-107">Введите код группы, ее описание и родительскую группу шаблонов сервисного обслуживания (если имеется).</span><span class="sxs-lookup"><span data-stu-id="2c19f-107">Enter the group ID, a description, and a parent service template group, if there is one.</span></span>
-4. <span data-ttu-id="2c19f-108">Сохраните группу шаблонов сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="2c19f-108">Save the service template group.</span></span>
-5. <span data-ttu-id="2c19f-109">Установите ползунок **Иерархия** в положение **Да** ,чтобы открыть представление дерева и просмотреть группы шаблонов сервисного обслуживания либо в виде иерархии в представлении дерева, либо в виде обзора.</span><span class="sxs-lookup"><span data-stu-id="2c19f-109">Set the **Tree control** slider to **Yes** to open the tree view and view the service template groups either as a hierarchy in a tree view or as an overview.</span></span>
+1. <span data-ttu-id="edded-105">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Соглашения на обслуживание** \> **Группа шаблона сервисного обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="edded-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service template groups**.</span></span>
+2. <span data-ttu-id="edded-106">Создайте новую группу шаблонов сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="edded-106">Create a new service template group.</span></span>
+3. <span data-ttu-id="edded-107">Введите код группы, ее описание и родительскую группу шаблонов сервисного обслуживания (если имеется).</span><span class="sxs-lookup"><span data-stu-id="edded-107">Enter the group ID, a description, and a parent service template group, if there is one.</span></span>
+4. <span data-ttu-id="edded-108">Сохраните группу шаблонов сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="edded-108">Save the service template group.</span></span>
+5. <span data-ttu-id="edded-109">Установите ползунок **Иерархия** в положение **Да** ,чтобы открыть представление дерева и просмотреть группы шаблонов сервисного обслуживания либо в виде иерархии в представлении дерева, либо в виде обзора.</span><span class="sxs-lookup"><span data-stu-id="edded-109">Set the **Tree control** slider to **Yes** to open the tree view and view the service template groups either as a hierarchy in a tree view or as an overview.</span></span>
 
 
 

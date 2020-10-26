@@ -15,36 +15,36 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47f02bcea231ce357f298db1c9353eadd406a3a1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5d7e9b081d3b6453595e2f40af17c012da33ce02
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206343"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976048"
 ---
-# <a name="work-with-customer-service-overview"></a><span data-ttu-id="3422b-103">Обзор работы с сервисным обслуживанием клиентов</span><span class="sxs-lookup"><span data-stu-id="3422b-103">Work with customer service overview</span></span>
+# <a name="work-with-customer-service-overview"></a><span data-ttu-id="74c4a-103">Обзор работы с сервисным обслуживанием клиентов</span><span class="sxs-lookup"><span data-stu-id="74c4a-103">Work with customer service overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="3422b-104">Клиентская служба поддерживает профессиональные сервисные компании и организации, предоставляющие производственные услуги.</span><span class="sxs-lookup"><span data-stu-id="3422b-104">Customer service supports professional, service-based companies and manufacturing service organizations.</span></span>
+<span data-ttu-id="74c4a-104">Клиентская служба поддерживает профессиональные сервисные компании и организации, предоставляющие производственные услуги.</span><span class="sxs-lookup"><span data-stu-id="74c4a-104">Customer service supports professional, service-based companies and manufacturing service organizations.</span></span>
 
-<span data-ttu-id="3422b-105">Клиентская служба включает в себя следующие функции:</span><span class="sxs-lookup"><span data-stu-id="3422b-105">Customer service includes the following functionality:</span></span>
+<span data-ttu-id="74c4a-105">Клиентская служба включает в себя следующие функции:</span><span class="sxs-lookup"><span data-stu-id="74c4a-105">Customer service includes the following functionality:</span></span>
 
-  - <span data-ttu-id="3422b-106">Ключевые процессы управления услугами, такие как соглашения по обслуживанию, заказы по обслуживанию и управление возвратами.</span><span class="sxs-lookup"><span data-stu-id="3422b-106">Key processes for service management, such as service agreements, service orders, and return management</span></span>
+  - <span data-ttu-id="74c4a-106">Ключевые процессы управления услугами, такие как соглашения по обслуживанию, заказы по обслуживанию и управление возвратами.</span><span class="sxs-lookup"><span data-stu-id="74c4a-106">Key processes for service management, such as service agreements, service orders, and return management</span></span>
 
-  - <span data-ttu-id="3422b-107">Расширенная настройка управления ремонтом, которая включает отслеживание ремонта и использование версий спецификаций материалов.</span><span class="sxs-lookup"><span data-stu-id="3422b-107">An advanced setup for repair management that includes tracking of repairs and versioning for bills of materials (BOMs)</span></span>
+  - <span data-ttu-id="74c4a-107">Расширенная настройка управления ремонтом, которая включает отслеживание ремонта и использование версий спецификаций материалов.</span><span class="sxs-lookup"><span data-stu-id="74c4a-107">An advanced setup for repair management that includes tracking of repairs and versioning for bills of materials (BOMs)</span></span>
 
-  - <span data-ttu-id="3422b-108">Поддержка ролей сотрудников, таких как менеджер по обслуживанию, диспетчер, сервисный специалист или сервисный консультант.</span><span class="sxs-lookup"><span data-stu-id="3422b-108">Support for employee roles, such as service manager, dispatcher, and service technician or service consultant</span></span>
+  - <span data-ttu-id="74c4a-108">Поддержка ролей сотрудников, таких как менеджер по обслуживанию, диспетчер, сервисный специалист или сервисный консультант.</span><span class="sxs-lookup"><span data-stu-id="74c4a-108">Support for employee roles, such as service manager, dispatcher, and service technician or service consultant</span></span>
 
-  - <span data-ttu-id="3422b-109">Подписки на обслуживание, которые могут создавать периодические потоки выручки, не зависящие от частоты услуги</span><span class="sxs-lookup"><span data-stu-id="3422b-109">Service subscriptions, which can generate periodic streams of revenue that are independent of the frequency of service</span></span>
+  - <span data-ttu-id="74c4a-109">Подписки на обслуживание, которые могут создавать периодические потоки выручки, не зависящие от частоты услуги</span><span class="sxs-lookup"><span data-stu-id="74c4a-109">Service subscriptions, which can generate periodic streams of revenue that are independent of the frequency of service</span></span>
 
-  - <span data-ttu-id="3422b-110">Соглашения уровня обслуживания, которые поддерживают неоднородную клиентскую базу</span><span class="sxs-lookup"><span data-stu-id="3422b-110">Service-level agreements that support a differentiated customer base</span></span>
+  - <span data-ttu-id="74c4a-110">Соглашения уровня обслуживания, которые поддерживают неоднородную клиентскую базу</span><span class="sxs-lookup"><span data-stu-id="74c4a-110">Service-level agreements that support a differentiated customer base</span></span>
 
-<span data-ttu-id="3422b-111">В разделах этой главы приводится обзор бизнес-процесса обслуживания клиентов и каждого компонента бизнес-процесса.</span><span class="sxs-lookup"><span data-stu-id="3422b-111">The topics in this section provide an overview of the Customer service business process and each business process component.</span></span> <span data-ttu-id="3422b-112">Также тут перечислены формы, связанные с каждым компонентом бизнес-процесса, и обсуждаются задачи, связанные с каждым компонентом бизнес-процесса.</span><span class="sxs-lookup"><span data-stu-id="3422b-112">They also list the forms that are associated with each business process component, and they discuss the tasks that are associated with each business process component.</span></span>
+<span data-ttu-id="74c4a-111">В разделах этой главы приводится обзор бизнес-процесса обслуживания клиентов и каждого компонента бизнес-процесса.</span><span class="sxs-lookup"><span data-stu-id="74c4a-111">The topics in this section provide an overview of the Customer service business process and each business process component.</span></span> <span data-ttu-id="74c4a-112">Также тут перечислены формы, связанные с каждым компонентом бизнес-процесса, и обсуждаются задачи, связанные с каждым компонентом бизнес-процесса.</span><span class="sxs-lookup"><span data-stu-id="74c4a-112">They also list the forms that are associated with each business process component, and they discuss the tasks that are associated with each business process component.</span></span>
 
 
 
