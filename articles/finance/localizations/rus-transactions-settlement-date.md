@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 98ff20ecc4eb4ec1e7e47cd5049b47e115797506
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bcd72f6d8d1ac78d397583d72cdfec7cfc40b6e3
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183902"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984981"
 ---
 # <a name="set-up-dimension-control-for-settlements-russia"></a>Настройка контроля аналитик для сопоставлений (Россия)
 [!include [banner](../includes/banner.md)]

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cda8b6049fc776c61a48762137cbfcb85e64d5c3
-ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
+ms.openlocfilehash: 7ff5bcf06a6df61b2262a8ebb89316394f3d33bd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "3151285"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985571"
 ---
 # <a name="customs-declaration-numbers"></a>Номера таможенных деклараций
 [!include [banner](../includes/banner.md)]

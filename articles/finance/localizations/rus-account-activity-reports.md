@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7bc95dcc2dc54084f5049f3a67c1dec8169a364a
-ms.sourcegitcommit: 7826df6c1d3d350c80cb6bca882b26828e8b854a
+ms.openlocfilehash: 2b866aa50f5f2447f1885ba1dde8a95e14d2160b
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3032547"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985931"
 ---
 # <a name="account-activity-reports"></a>Отчеты по обороту по счету
 [!include [banner](../includes/banner.md)]
