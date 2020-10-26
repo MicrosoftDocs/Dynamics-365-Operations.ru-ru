@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: bbcd729ac862003eedbb14079f925cda2e57fbbc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 2d4e219100bb415bc756b19a4d160c2b1a606c31
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552341"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983999"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 

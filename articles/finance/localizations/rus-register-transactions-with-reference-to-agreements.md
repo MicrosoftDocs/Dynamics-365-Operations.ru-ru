@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1fbe48a05b009194bb58bf1c44985ed6417d61ff
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 9c413c0d609506568ef7dfe819b3b6ed09866d53
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029527"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982910"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]
@@ -88,7 +88,7 @@ ms.locfileid: "3029527"
 
 Дополнительные сведения об управлении аналитиками для сопоставлений см. в разделе [Настройка контроля аналитик для сопоставлений (Россия)](rus-transactions-settlement-date.md).
 
-### <a name="settle-factures-customer-agreements"></a>Сопоставьте фактуры для клиента в контексте договоров
+### <a name="settle-factures-on-a-customer-in-the-context-of-agreements"></a><a name="settle-factures-customer-agreements"></a>Сопоставьте фактуры для клиента в контексте договоров
 
 1. Перейдите в раздел **Расчеты с клиентами \> Клиенты \> Все клиенты**.
 2. На вкладке **Сбор** в разделе **Сопоставление** выберите **Сопоставление фактур с оплатами**.
