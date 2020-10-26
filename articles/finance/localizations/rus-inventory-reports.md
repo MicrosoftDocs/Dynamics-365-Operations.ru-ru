@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a8f169172d2fe2a1cb4f7e189a5dc37eba140ae2
-ms.sourcegitcommit: 06fb4b68b2d94020ef639239ed395b7f63aa807f
+ms.openlocfilehash: fb0e0859655700b3f3ba8a2966ba410a70048135
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645236"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979626"
 ---
 # <a name="inventory-reports"></a>Отчеты о запасах
 [!include [banner](../includes/banner.md)]

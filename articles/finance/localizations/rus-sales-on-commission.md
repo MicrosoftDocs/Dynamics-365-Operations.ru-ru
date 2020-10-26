@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 16e4aaae6505efcbe4bc50e322bcabd732dc6dba
-ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
+ms.openlocfilehash: c933d52007e39a8fd07aa7da97899123eaded980
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "3151310"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983996"
 ---
 # <a name="sales-on-commission"></a>Продажи по комиссии
 [!include [banner](../includes/banner.md)]

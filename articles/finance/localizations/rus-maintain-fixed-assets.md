@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1d901adf9f32c12327e08687dd1d1b6fbec5cba1
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 622f8cb5bc886becb10948945d820a620a1593df
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552340"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982915"
 ---
 # <a name="maintain-fixed-assets"></a>Ведение основных средств
 [!include [banner](../includes/banner.md)]

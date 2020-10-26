@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1614c627769ae943bee01527ba8b142e9d60b86
-ms.sourcegitcommit: 5dd8f2822bfb5222ed875f11ec324bb7a1f48989
+ms.openlocfilehash: 45cb4e0a45dcca2e96a11ab30f75cc452b794b75
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3668312"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978257"
 ---
 # <a name="fixed-assets-and-intangible-assets-registers"></a>Регистры основных средств и нематериальных активов
 [!include [banner](../includes/banner.md)]

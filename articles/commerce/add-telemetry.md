@@ -3,7 +3,7 @@ title: Добавление кода скрипта на страницы сай
 description: В этом разделе описывается добавление клиентского кода скрипта на страницы сайта для поддержки сбора телеметрии на стороне клиента.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761257"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901504"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Добавление кода скрипта на страницы сайта для поддержки телеметрии
 
@@ -64,6 +64,9 @@ ms.locfileid: "3761257"
 1. На панели свойств в правой части в области **Источник сценария** добавьте внешний или относительный URL-адрес для источника внешнего сценария. Затем настройте другие параметры нужным образом.
 1. Выберите **Сохранить**, затем выберите **Завершить правку**.
 1. Выберите **Опубликовать**.
+
+> [!NOTE]
+> Если для сайта активирована политика безопасности содержимого (CSP), убедитесь, что все внешние URL-адреса добавлены в директиву CSP **script-src** в конструкторе сайтов Commerce. Дополнительные сведения см. в разделе [Управление политикой безопасности содержимого (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Добавление фрагмента, включающего код сценария, в шаблон
 

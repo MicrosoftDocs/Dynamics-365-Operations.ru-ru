@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428647"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958851"
 ---
 # <a name="develop-succession-plan"></a>Разработка плана преемственности
 
@@ -37,7 +37,7 @@ ms.locfileid: "3428647"
 6. Щелкните "Выбор профиля".
 7. Щелкните "Человек".
 8. В поле "Человек" введите имя или откройте раскрывающийся список.  Пример: "Cassie Hicks".
-9. Нажмите кнопку OK.
+9. Нажмите кнопку "OК".
 10. Разверните экспресс-вкладку "Сертификаты", чтобы просмотреть или изменить сертификаты, включенные в подбор персонала.
 11. Разверните экспресс-вкладку "Навыки", чтобы просмотреть или изменить навыки, которые требуется включить.
 12. В списке пометьте первую строку.  Пример: "Учет".

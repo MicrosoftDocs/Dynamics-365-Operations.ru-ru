@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 60817239f8237f0b10c2b9bb15d336e6333fb901
-ms.sourcegitcommit: 5dd8f2822bfb5222ed875f11ec324bb7a1f48989
+ms.openlocfilehash: a93c05db40be2c23fd43f2e5a30e428d3ac808c1
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3668263"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981466"
 ---
 # <a name="russia-overview"></a>Обзор по России
 

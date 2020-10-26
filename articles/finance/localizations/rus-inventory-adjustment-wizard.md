@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d06f7b6177e6a25b7554b0fa19345d0f8343c2c
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 692e468c99aa7a796c2f58f13c11601a64107c26
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092119"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979627"
 ---
 # <a name="inventory-adjustment-wizard"></a>Мастер корректировки запасов
 
