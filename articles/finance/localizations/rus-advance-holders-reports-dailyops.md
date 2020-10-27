@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 952196ba60d660e8c2111a32d73eb9cb59ddbd03
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ede6df7778945d64e7e011ae5ae88b517f820f5a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183930"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985932"
 ---
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 20489d4c77d67d20d1d3e68d58b1ad1498666234
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 88558db666581e1f05f427230f52e1116caf84c3
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029524"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985928"
 ---
 # <a name="agreements"></a>Договоры
 [!include [banner](../includes/banner.md)]

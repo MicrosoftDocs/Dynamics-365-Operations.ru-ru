@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ccdbb90dec78bca29f1b403e6b59d9dd180643ff
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f759d5076859e1cce9546cba5554139b035ad4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183921"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987327"
 ---
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 91db7fde4633f2e728a13d7f8e2e6bd01d7beddd
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: a10fe09d0dda892d3679aee71f2bab40205f385d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3028041"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984661"
 ---
 # <a name="inventory-cost-structure"></a>Структура стоимости запасов
 [!include [banner](../includes/banner.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "3028041"
 
 Существующие коды накладных расходов можно указать при корректировке себестоимости номенклатур на страницах **Наличие**, **Корректировать проводки** и **Мастер коррекции себестоимости складских проводок или всех запасов в наличии**.
 
-### <a name="close-inventory"></a>Закрыть запасы
+### <a name="close-inventory"></a><a name="close-inventory"></a>Закрыть запасы
 
 Перед корректировкой запасов в наличии необходимо закрыть запасы. Дополнительные сведения о закрытии склада см. в разделе [Закрытие запасов](../../supply-chain/cost-management/inventory-close.md).
 
@@ -79,7 +79,7 @@ ms.locfileid: "3028041"
 
 5. Нажмите **ОК**.
 
-### <a name="cancel-inventory-closing"></a>Отмена закрытия запасов
+### <a name="cancel-inventory-closing"></a><a name="cancel-inventory-closing"></a>Отмена закрытия запасов
 
 Прежде чем можно будет корректировать проводки, необходимо убедиться, что запасы не закрыты.
 
@@ -87,7 +87,7 @@ ms.locfileid: "3028041"
 2.  Выберите операцию закрытия запасов, а затем в области действий выберите **Отмена**.
 3.  В диалоговом окне **Отмена - Начать** выберите **ОК**.
 
-### <a name="adjust-on-hand-inventory"></a>Корректировка запасов в наличии
+### <a name="adjust-on-hand-inventory"></a><a name="adjust-on-hand-inventory"></a>Корректировка запасов в наличии
 
 Дополнительные сведения о корректировке запасов в наличии см. в разделе [Корректировка себестоимости запасов в наличии](../../supply-chain/cost-management/adjust-hand-inventory-cost-values.md).
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8fee9e5704d233bd2d4f99e4e0f9cbbed817676c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4e5da90d87653580fb8d3898a608535dd7e2500
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183908"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982912"
 ---
 # <a name="set-up-and-process-payment-orders-for-russia"></a>Настройка и обработка платежных поручений для России
 

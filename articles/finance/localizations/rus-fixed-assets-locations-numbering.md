@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5e16a8928f7625e8d7184b6b7ffd2d932391a17d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7e5be1540c0b76ee95bc2f445ca5ba017010435
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183918"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980545"
 ---
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bb3ec90eb4032d395374227c57bd2b06ebc25f85
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1941efb5f6da9a94e8829e1d8071d2a9843170c2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249078"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983995"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]
@@ -123,7 +123,7 @@ ms.locfileid: "3249078"
 ## <a name="create-and-print-a-report-for-a-principal-and-reissue-the-sellers-factures-to-the-principal"></a>Создание и печать отчета для доверителя и повторный выпуск счетов-фактур продавца для доверителя
 
 1. Перейдите к пункту **Главная книга** \> **Периодические задачи** \> **Комиссионная торговля** \> **Отчет для доверителя**.
-2. Выберите **Создать**, чтобы открыть диалоговое окно **Создание отчета для доверителя****.**
+2. Выберите **Создать**, чтобы открыть диалоговое окно **Создание отчета для доверителя.**
 3. В полях **Дата начала** и **Дата окончания** укажите период для отчета.
 
    > [!NOTE]

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7235a11c61f18cf594bd92f5b50708015ae35ba1
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 9fae33e2b229dfd54f00b7cd2faaa94c9910789d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117350"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986902"
 ---
 # <a name="third-party-miscellaneous-charges"></a>Сторонние накладные расходы
 

@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 36a5a851f7df54b646dc72544312fc0b4a88b411
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f66e4aefe7d3481f98da97a388fa983d05a47a6c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773485"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982913"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]

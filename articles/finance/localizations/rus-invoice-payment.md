@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e8ead0285f37144e55cc2a417183b7bdf0b7bfa9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 35d1a11277b579370d89f6251414d01eedf2621c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773486"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979625"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]

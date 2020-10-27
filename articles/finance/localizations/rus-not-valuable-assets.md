@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 06cbbf4c327342ec4c7be1f5efe675499fbfde9a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e32c60f3b5087e936ab59d2d701d434d216895d0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183912"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982945"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 

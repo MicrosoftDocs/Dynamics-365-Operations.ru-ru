@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: eb17c80b23f69708567ff8618486026712345489
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e5a5e12ee2c56b866a16717069ad9e750f19612d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183907"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982911"
 ---
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 

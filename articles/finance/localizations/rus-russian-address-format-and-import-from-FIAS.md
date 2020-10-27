@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c6b31571e2385ba28f39732f8f0ba739978949a9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: bd588d80b4179db93d041b6c6d807c37a10f93ca
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774077"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983997"
 ---
 # <a name="russian-address-formats"></a>Российские форматы адреса
 [!include [banner](../includes/banner.md)]

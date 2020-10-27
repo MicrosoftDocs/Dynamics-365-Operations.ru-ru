@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d1131d49d0651ee55e838fc30b1393d644003eab
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 23ab6ad5cf9ed36662993b306d3227b34558c926
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029525"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987294"
 ---
 # <a name="inquiries-and-reports-with-agreements"></a>Запросы и отчеты с договорами
 [!include [banner](../includes/banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "3029525"
 
 ## <a name="viewing-agreement-amounts"></a>Просмотр сумм договоров
 
-### <a name="sales-agreement-amounts"></a>Просмотр сумм договоров продажи
+### <a name="view-sales-agreement-amounts"></a><a name="sales-agreement-amounts"></a>Просмотр сумм договоров продажи
 
 1. На странице **Договоры продажи** выберите договор, а затем на вкладке **Договор продажи** в разделе **Связанные сведения** выберите **Сумма договора**, чтобы открыть страницу **Проводки клиента**.
 
@@ -94,7 +94,7 @@ ms.locfileid: "3029525"
    - Сведения об авансах или возврате (несопоставленные платежи за текущий период).
    - Сведения об авансах или возврате за прошлые периоды (несопоставленные платежи за прошлые периоды).
 
-### <a name="generate-act-adjustment-customer"></a>Создание акта сверки взаимных расчетов с клиентом
+### <a name="generate-an-act-of-adjustment-for-a-customer"></a><a name="generate-act-adjustment-customer"></a>Создание акта сверки взаимных расчетов с клиентом
 
 1.  Перейдите в раздел **Расчеты с клиентами** \> **Запросы и отчеты** \> **Акт сверки взаимных расчетов**.
 

@@ -1,7 +1,7 @@
 ---
 title: Создание шаблонов сообщений электронной почты для событий проводок
 description: В этом разделе описывается создание, отправка и настройка шаблонов сообщений электронной почты для событий проводок в Microsoft Dynamics 365 Commerce.
-author: stuharg
+author: bicyclingfool
 manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
-ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
+ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3416587"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983165"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Создание шаблонов сообщений электронной почты для событий проводок
 

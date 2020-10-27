@@ -1,5 +1,5 @@
 ---
-title: Автоматизация накладных поставщиков
+title: Автоматизация накладных для отсканированных документов
 description: В этой теме описаны возможности, предусмотренные для сквозной автоматизации обработки накладных поставщиков, даже накладных, которые включают вложения.
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
-ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
+ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
+ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "3396017"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "3904963"
 ---
-# <a name="vendor-invoice-automation"></a>Автоматизация накладных поставщиков
+# <a name="invoice-automation-for-scanned-documents"></a>Автоматизация накладных для отсканированных документов
 
 [!include [banner](../includes/banner.md)]
 

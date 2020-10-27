@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 16b6e271084139618b7836d4e30b5b2b80fbb75a
-ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
+ms.openlocfilehash: 950c08ae34dbc483f4fa9830600553c5c31574a8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "2994059"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987319"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]

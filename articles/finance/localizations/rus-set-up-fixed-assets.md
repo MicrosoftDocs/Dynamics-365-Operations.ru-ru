@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b5b48cbfcf4c987d9f2ad2c1785abea9f52fd4c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3100f9bf4b6c070f3970e3fd545772ac694ca438
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183905"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986904"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 

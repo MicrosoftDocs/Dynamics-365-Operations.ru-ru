@@ -3,7 +3,7 @@ title: Обзор управления функциями
 description: В этой теме описывается функция управления функциями и способы ее использования.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499627"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967342"
 ---
 # <a name="feature-management-overview"></a>Обзор управления компонентами
 
@@ -179,3 +179,24 @@ ms.locfileid: "3499627"
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Может ли фокус-тестирование функции включаться без извещения клиента? 
 Да, если функция влияет на работоспособность среды без функционального воздействия, она может быть включена по умолчанию.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Как можно проверить включение функции в коде?
+Используйте метод **isFeatureEnabled** класса **FeatureStateProvider**, передав ему экземпляр класса функции. Пример: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Как можно проверить включение функции в метаданных?
+Свойство **FeatureClass** может использоваться, чтобы указать, что некоторые метаданные связаны с функцией. Следует использовать имя класса, используемое для данной функции, например **BatchContentionPreventionFeature**. Эти метаданные видимы только в этой функции. Свойство **FeatureClass** доступно в меню, элементах меню, перечисляемых значениях и полях таблиц/представлений.
+
+### <a name="what-is-a-feature-class"></a>Что такое класс функций?
+Функции в управлении функциями определяются как *классы функций*. Класс функции **реализует IFeatureMetadata** и использует атрибут класса функции для идентификации себя в рабочей области управления функциями. Существует множество примеров доступных классов функций, которые могут быть проверены для включения в код с использованием API-интерфейса **FeatureStateProvider** и в метаданных с помощью свойства **FeatureClass**. Пример: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Что такое IFeatureLifecycle, реализуемый некоторыми классами функций?
+IFeatureLifecycle является внутренним механизмом Microsoft, указывающим на стадию жизненного цикла функции. Функции могут быть:
+- PrivatePreview — требуется предоставление доступа, чтобы была видна.
+- PublicPreview — показывается по умолчанию, но с предупреждением о том, что эта функция является предварительной версией.
+- Released — полностью выпущена.
+

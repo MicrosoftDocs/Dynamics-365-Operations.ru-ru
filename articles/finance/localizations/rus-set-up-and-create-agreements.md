@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e394fc1461ffaf97734a6ef6c03ed2cb7a96b241
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 700628ec3f7f8bbd8dbb50260471e48357081548
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029526"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981469"
 ---
 # <a name="set-up-and-create-agreements"></a>Настройка и создание договоров
 [!include [banner](../includes/banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "3029526"
 
 ![Страница классификаций договоров покупки](media/2_Purchase_agreement_classifications.png)
 
-## <a name="create-sales-agreement"></a>Создание договора продажи
+## <a name="create-a-sales-agreement"></a><a name="create-sales-agreement"></a>Создание договора продажи
 
 Дополнительные сведения о создании договоров продажи см. в разделе [Ввод договоров продажи](../../supply-chain/sales-marketing/tasks/enter-sales-agreements.md).
 

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 701c79caa33c999c5689bbb4e8ed2c2694c99b60
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: 959182ed41cc96415be71519dcbe3653d78a00ad
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2565159"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983998"
 ---
 # <a name="prepayments-management"></a>Управление Предоплатами
 [!include [banner](../includes/banner.md)]

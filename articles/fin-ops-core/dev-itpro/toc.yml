@@ -14,9 +14,11 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для 10.0.14 (ноябрь 2020 г.)
+                - name: "Обновления платформы для 10.0.15 (январь 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-15.md
+                - name: "Обновления платформы для 10.0.14 (ноябрь 2020\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Обновления платформы для 10.0.13 (октябрь 2020 г.)
+                - name: "Обновления платформы для 10.0.13 (октябрь 2020\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Обновления платформы для 10.0.12 (август 2020 г.)
                   href: get-started/whats-new-platform-update-10-0-12.md
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Общие рекомендации по устранению неполадок
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Вопросы и ответы во двойной записи
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Интеграция с Power Platform
                       items:
                         - name: Настройка сценария продажи перспективному клиенту
@@ -382,13 +386,15 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Предоставление хранилища объектов как Data Lake
               href: data-entities/entity-store-data-lake.md
-        - name: Операций перемещения баз данных
+        - name: Операции перемещения баз данных
           items:
             - name: Обзор
               href: database/dbmovement-operations.md
+            - name: Набор средств перемещения базы данных
+              href: database/database-movement-toolkit.md
             - name: Краткие руководства по началу работы
               items:
-                - name: Обновление баз данных
+                - name: Обновление базы данных
                   href: database/database-refresh.md
                 - name: Экспорт базы данных
                   href: database/export-database.md
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Обновление AX 2012 — контрольный список перед обновлением для обновления данных
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: Обновление AX 2012 — обновление данных в средах "песочниц" с использованием процесса DACPAC
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Обновление AX 2012 — обновление данных в средах "песочницы"
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Обновление AX 2012 — локальные среды
