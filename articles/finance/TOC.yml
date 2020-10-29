@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Просмотр результатов автоматизации обработки накладных поставщиков
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Рабочая область записей накладных поставщиков
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Сопоставление накладных и внутрихолдинговые заказы на покупку
@@ -922,7 +924,9 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Просмотр записей в журнале и проводок
                   href: general-ledger/view-journal-entries-transactions.md
-                - name: Учет учтенных записей в журнале в субкниге
+                - name: Пробный баланс с подробным отчетом по проводкам
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
+                - name: Учет разнесенных записей в журнале в субкниге
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Переоценка валюты в консолидированной компании
                   href: general-ledger/currency-revaluation-consolidation-company.md
@@ -1166,12 +1170,10 @@
               items:
                 - name: Обзор главной книги в государственном секторе
                   href: public-sector/general-ledger-public-sector.md
-                - name: Расширенные записи книги учета в государственном секторе
+                - name: Расширенные операции ГК в государственном секторе
                   href: public-sector/advanced-ledger-entries-public-sector.md
-                - name: Создание расширенной записи книги учета в государственном секторе
+                - name: Создание расширенной записи ГК в государственном секторе
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Пробный баланс с подробным отчетом по проводкам
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Использование лимитов управления кассой
                   href: public-sector/cash-control.md
                 - name: Обработка на конец года в государственном секторе
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: Сертификаты NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Проверка пользовательского сертификата NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Настройка, импорт и проверка XML-документов NF-e и DANFE'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Настройка параметров федерального NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Запрос налога
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Очистка таблицы TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Механизм начисления налогов
                   items:
                     - name: Обзор механизма начисления налогов
@@ -2651,7 +2657,7 @@
                         - name: Обзор профиля учета
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Настройка профиля учета
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Использование профиля учета в документах и запросах
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Отчетность
