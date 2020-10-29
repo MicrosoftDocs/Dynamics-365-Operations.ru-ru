@@ -142,8 +142,10 @@
                           items:
                             - name: Требования к системе для двойной записи
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Поддерживаемые сценарии для настройки двойной записи
+                            - name: Руководство по настройке двойной записи
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Рекомендации по первоначальной синхронизации
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Настройка двойной записи из Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Включение двойной записи для существующих приложений Finance and Operations
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Восстановление производственной базы данных на определенный момент времени в среде "песочницы"
                   href: database/database-pitr-prod-sandbox.md
+                - name: Включение доступа к базе данных по мере необходимости
+                  href: database/database-just-in-time-jit-access.md
             - name: Учебники
               items:
                 - name: Обновление для целей обучения
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Инициализация Commerce Scale Unit (облако)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Миграция каналов на другое Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Место расположения данных Retail
                   href: deployment/retail-data-residency.md
             - name: Локальное развертывание
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Поддержка Finance and Operations на базе 21Vianet в Китае
               href: lifecycle-services/21vianet-support.md
-            - name: Настройка технической поддержки для Finance and Operations
+            - name: Настройка технической поддержки для приложений Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Управление поддержкой Finance and Operations
+            - name: Управление поддержкой для приложений Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Администрирование системы
           items:

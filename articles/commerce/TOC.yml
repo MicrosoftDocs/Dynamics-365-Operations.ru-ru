@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: "Commerce 10.0.13 (октябрь 2020\_г.)"
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: "Commerce 10.0.12 (август 2020\_г.)"
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Finance and Operations
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Модуль меню навигации
                       href: nav-menu-module.md
+                    - name: Модуль выбора сайта
+                      href: site-selector.md
                 - name: Модули соответствия
                   items:
                     - name: Модуль согласия на получение файлов cookie
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Составляющие кода модуля
                   items:
+                    - name: Обзор модулей
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Файл определений модуля
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Файл компонентов React модуля
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Обзор интерактивных компонентов
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Имитация состояния выполненного входа в ходе локальной разработки
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Глобализация модулей с помощью класса CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Настройка Azure Key Vault для безопасного управления ключами
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Разработка действий с данными
                   items:
                     - name: Обзор действий с данными
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Параметры кэша действий с данными
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Проверка действий с данными с помощью макетов
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Действия с данными загрузки страниц
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Расширение темы для добавления расширений модулей
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Переопределение компонента библиотеки модулей в теме
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Расширение темы из базовой темы
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Добавление пользовательских ресурсов в код настройки
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: Обновления SDK и библиотеки модулей
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Рекомендации
+                  items:
+                    - name: Рекомендации по разработке Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: Архитектура Retail SDK
@@ -2197,7 +2211,7 @@
                 - name: Прокси Typescript и C# в Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Использование интерфейсов API Retail Server во внешних приложениях
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Расширяемость Commerce Runtime (CRT)
               items:
                 - name: Архитектура и конфигурация CRT
