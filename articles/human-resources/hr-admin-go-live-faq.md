@@ -1,0 +1,99 @@
+---
+title: Вопросы и ответы по вводу в эксплуатацию
+description: В этой теме перечислены часто задаваемые вопросы о том, как ввести в эксплуатацию проект реализации Dynamics 365 Human Resources.
+author: rachel-profitt
+manager: tfehr
+ms.date: 10/13/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: raprofit
+ms.search.validFrom: 2020-10-13
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
+ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4011436"
+---
+# <a name="go-live-faq"></a><span data-ttu-id="bc972-103">Вопросы и ответы по вводу в эксплуатацию</span><span class="sxs-lookup"><span data-stu-id="bc972-103">Go-live FAQ</span></span> 
+
+<span data-ttu-id="bc972-104">В этой теме перечислены часто задаваемые вопросы о том, как ввести в эксплуатацию проект реализации Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="bc972-104">This topic lists frequently asked questions about how to go live with a Dynamics 365 Human Resources implementation project.</span></span> 
+
+## <a name="when-can-i-configure-and-request-my-production-environment"></a><span data-ttu-id="bc972-105">Когда можно настроить и запросить производственную среду?</span><span class="sxs-lookup"><span data-stu-id="bc972-105">When can I configure and request my production environment?</span></span> 
+
+<span data-ttu-id="bc972-106">Обычно производственная среда разворачивается после того, как удовлетворяются следующие критерии:</span><span class="sxs-lookup"><span data-stu-id="bc972-106">Typically, a production environment is deployed after meeting the following criteria:</span></span>
+
+- <span data-ttu-id="bc972-107">Код всех настроек завершен.</span><span class="sxs-lookup"><span data-stu-id="bc972-107">All customizations are code-complete.</span></span>
+- <span data-ttu-id="bc972-108">Приемочное тестирование пользователем (UAT) завершено.</span><span class="sxs-lookup"><span data-stu-id="bc972-108">User acceptance testing (UAT) is complete.</span></span>
+- <span data-ttu-id="bc972-109">Клиент утвердил решение.</span><span class="sxs-lookup"><span data-stu-id="bc972-109">The customer has signed off on the solution.</span></span>
+- <span data-ttu-id="bc972-110">Нет блокирующих проблем для ввода в эксплуатацию.</span><span class="sxs-lookup"><span data-stu-id="bc972-110">There are no blocking issues for go-live.</span></span> 
+
+<span data-ttu-id="bc972-111">Если на данном этапе имеются квалифицированные клиенты, группа Microsoft FastTrack будет работать с группой проекта, чтобы выполнить оценку ввода в эксплуатацию.</span><span class="sxs-lookup"><span data-stu-id="bc972-111">When qualified customers are at this stage, the Microsoft FastTrack team will work with the project team to do a go-live assessment.</span></span> 
+
+## <a name="what-are-the-prerequisites-to-deploying-a-production-environment"></a><span data-ttu-id="bc972-112">Какие необходимые условия для развертывания производственной среды?</span><span class="sxs-lookup"><span data-stu-id="bc972-112">What are the prerequisites to deploying a production environment?</span></span> 
+
+<span data-ttu-id="bc972-113">Список необходимых требований см. в разделе  [Подготовка к вводу в эксплуатацию](hr-admin-go-live-prepare.md).</span><span class="sxs-lookup"><span data-stu-id="bc972-113">For a list of the prerequisites, see [Prepare for go-live](hr-admin-go-live-prepare.md).</span></span> 
+
+## <a name="what-is-a-go-live-assessment"></a><span data-ttu-id="bc972-114">Что такое оценка ввода в эксплуатацию?</span><span class="sxs-lookup"><span data-stu-id="bc972-114">What is a go-live assessment?</span></span>  
+
+<span data-ttu-id="bc972-115">Оценка ввода в эксплуатацию является частью  [программы Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview).</span><span class="sxs-lookup"><span data-stu-id="bc972-115">The go-live assessment is part of the [Microsoft FastTrack program](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview).</span></span> <span data-ttu-id="bc972-116">Во время этого рассмотрения архитектор решений оценивает, готов ли проект реализации к успешному переключению и вводу в эксплуатацию.</span><span class="sxs-lookup"><span data-stu-id="bc972-116">During this review, a solution architect assesses whether an implementation project is ready for a successful cutover and go-live.</span></span> <span data-ttu-id="bc972-117">Эта проверка является обязательной для каждого проекта реализации до того, как вы сможете запросить ввод в эксплуатацию в производственной среде.</span><span class="sxs-lookup"><span data-stu-id="bc972-117">This review is mandatory for every implementation project before you can request to go live in a production environment.</span></span> 
+
+## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a><span data-ttu-id="bc972-118">Наши среды в песочнице развернуты в центре обработки данных в центральной части США.</span><span class="sxs-lookup"><span data-stu-id="bc972-118">Our Sandbox environments are deployed in the Central US datacenter.</span></span> <span data-ttu-id="bc972-119">Мы хотим, чтобы наши производственные среды были развернуты в центре обработки данных в западной части США.</span><span class="sxs-lookup"><span data-stu-id="bc972-119">We want our Production environments to be deployed in the West US datacenter.</span></span> <span data-ttu-id="bc972-120">Можно ли выбрать западную часть США в качестве центра обработки данных в моей производственной конфигурации?</span><span class="sxs-lookup"><span data-stu-id="bc972-120">Can I select West US as the datacenter in my Production configuration?</span></span> 
+
+<span data-ttu-id="bc972-121">LCS не ограничивает выбор других центров обработки данных при развертывании среды Human Resources, но настоятельно не рекомендуется выбирать другой центр обработки данных.</span><span class="sxs-lookup"><span data-stu-id="bc972-121">LCS doesn't restrict you from selecting a different data center when you deploy a Human Resources environment, but we strongly recommend not selecting a different data center.</span></span>  
+
+<span data-ttu-id="bc972-122">Если требуется, чтобы производственная среда была в центре обработки данных в западной части США, необходимо сначала заново развернуть среды в песочнице в центре обработки данных в западной части США, проверить их и утвердить.</span><span class="sxs-lookup"><span data-stu-id="bc972-122">If you want your Production environment to be in the West US datacenter, you should first redeploy your Sandbox environments to the West US datacenter, test them, and sign off.</span></span> 
+
+<span data-ttu-id="bc972-123">Сведения о выборе правильного центра обработки данных см. в разделе [Требования к сети](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements).</span><span class="sxs-lookup"><span data-stu-id="bc972-123">For information about selecting the correct datacenter, see [Network requirements](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements).</span></span> 
+
+## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a><span data-ttu-id="bc972-124">Какой уровень доступа требуется для ресурсов Azure в моих средах Human Resources?</span><span class="sxs-lookup"><span data-stu-id="bc972-124">What level of access do I have to the Azure resources for my Human Resources environments?</span></span>  
+
+<span data-ttu-id="bc972-125">Доступ к средам Human Resources ограничивается.</span><span class="sxs-lookup"><span data-stu-id="bc972-125">Access to the Human Resources environments is limited.</span></span> <span data-ttu-id="bc972-126">У вас нет доступа к виртуальной машине (VM) или Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="bc972-126">You can't access the virtual machine (VM) or Microsoft Internet Information Services (IIS).</span></span> <span data-ttu-id="bc972-127">Доступ к базе данных также невозможен через Microsoft SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="bc972-127">You also can't access the database through Microsoft SQL Server Management Studio.</span></span> 
+
+<span data-ttu-id="bc972-128">Хотя непосредственное обращение к вашим ресурсам Azure или среде Dynamics 365 Human Resources, можно использовать дополнительные функции для доступа к данным:</span><span class="sxs-lookup"><span data-stu-id="bc972-128">Although you can't access your Azure resources or Dynamics 365 Human Resources environment directly, there are additional features you can use to access your data:</span></span>
+
+- <span data-ttu-id="bc972-129">Можно развернуть базу данных SQL Azure в своем собственном клиенте Azure и использовать функцию "назначить собственную базу данных" (BYOD) для синхронизации данных.</span><span class="sxs-lookup"><span data-stu-id="bc972-129">You can deploy an Azure SQL database in your own Azure tenant and use the Bring Your Own Database (BYOD) feature to synchronize data.</span></span> <span data-ttu-id="bc972-130">Дополнительные сведения см. в разделе [Использование собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).</span><span class="sxs-lookup"><span data-stu-id="bc972-130">For more information, see [Bring your own database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).</span></span>
+
+- <span data-ttu-id="bc972-131">Можно использовать интеграцию Common Data Service для синхронизации выбранных сущностей в базе данных Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="bc972-131">You can use Common Data Service integration to synchronize select entities into the Common Data Service database.</span></span> <span data-ttu-id="bc972-132">Дополнительные сведения см. в разделе [Сущности Common Data Service](hr-developer-entities.md).</span><span class="sxs-lookup"><span data-stu-id="bc972-132">For more information, see [Common Data Service entities](hr-developer-entities.md).</span></span> 
+
+## <a name="how-often-is-my-production-database-backed-up"></a><span data-ttu-id="bc972-133">Как часто архивируется моя производственная база данных?</span><span class="sxs-lookup"><span data-stu-id="bc972-133">How often is my production database backed up?</span></span> 
+
+<span data-ttu-id="bc972-134">Базы данных защищаются автоматическим созданием резервных копий при следующих частотах:</span><span class="sxs-lookup"><span data-stu-id="bc972-134">Databases are protected by automatic backups at the following frequencies:</span></span>
+
+| <span data-ttu-id="bc972-135">Тип резервного копирования</span><span class="sxs-lookup"><span data-stu-id="bc972-135">Type of backup</span></span> | <span data-ttu-id="bc972-136">Частота</span><span class="sxs-lookup"><span data-stu-id="bc972-136">Frequency</span></span> |
+| --- | --- |
+| <span data-ttu-id="bc972-137">Полная резервная копия баз данных</span><span class="sxs-lookup"><span data-stu-id="bc972-137">Full database backup</span></span> | <span data-ttu-id="bc972-138">Еженедельно</span><span class="sxs-lookup"><span data-stu-id="bc972-138">Weekly</span></span> |
+| <span data-ttu-id="bc972-139">Разностная резервная копия баз данных</span><span class="sxs-lookup"><span data-stu-id="bc972-139">Differential database backup</span></span> | <span data-ttu-id="bc972-140">Каждые 12–24 часа</span><span class="sxs-lookup"><span data-stu-id="bc972-140">Every 12-24 hours</span></span> |
+| <span data-ttu-id="bc972-141">Резервное копирование журнала транзакций</span><span class="sxs-lookup"><span data-stu-id="bc972-141">Transaction log backup</span></span> | <span data-ttu-id="bc972-142">Каждые 5–10 минут</span><span class="sxs-lookup"><span data-stu-id="bc972-142">Every 5 to 10 minutes</span></span> |
+
+<span data-ttu-id="bc972-143">Корпорация Майкрософт сохраняет необходимые резервные копии, чтобы иметь возможность восстановления до точки во времени (PITR) в течение последних семи дней.</span><span class="sxs-lookup"><span data-stu-id="bc972-143">Microsoft retains sufficient backups to allow for Point in Time Restore (PITR) within the last seven days.</span></span> 
+
+<span data-ttu-id="bc972-144">Дополнительные сведения см. в разделе  [Подробнее об автоматически создаваемых резервных копиях в базе данных SQL](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database).</span><span class="sxs-lookup"><span data-stu-id="bc972-144">For more information, see [Learn about automatic SQL Database backups](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database).</span></span> 
+
+## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a><span data-ttu-id="bc972-145">Можно ли запросить копию резервной копии производственной базы данных?</span><span class="sxs-lookup"><span data-stu-id="bc972-145">Can I request a copy of the backup of my production database?</span></span> 
+
+<span data-ttu-id="bc972-146">№ п/п</span><span class="sxs-lookup"><span data-stu-id="bc972-146">No.</span></span> <span data-ttu-id="bc972-147">Однако можно отправить запрос на обслуживание обновления базы данных, чтобы скопировать свою производственную среду в среду "песочницы".</span><span class="sxs-lookup"><span data-stu-id="bc972-147">You can submit a database refresh service request to copy your Production environment to your Sandbox environment, however.</span></span> <span data-ttu-id="bc972-148">Можно развернуть базу данных SQL Azure в своем собственном клиенте Azure и использовать функцию BYOD для синхронизации данных из производственной среды.</span><span class="sxs-lookup"><span data-stu-id="bc972-148">You can deploy an Azure SQL database in your own Azure tenant and use the BYOD feature to synchronize data from your Production environment.</span></span> <span data-ttu-id="bc972-149">Дополнительные сведения см. в разделе [Использование собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).</span><span class="sxs-lookup"><span data-stu-id="bc972-149">For more information, see [Bring your own database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).</span></span> 
+
+## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a><span data-ttu-id="bc972-150">Как переместить среду "песочницы" в производство для ввода в эксплуатацию?</span><span class="sxs-lookup"><span data-stu-id="bc972-150">How do I move my Sandbox environment to Production for go-live?</span></span> 
+
+<span data-ttu-id="bc972-151">Поскольку функция копирования недоступна для переноса среды из среды песочницы в производственную среду, необходимо использовать пакеты данных для переноса данных в производственную среду.</span><span class="sxs-lookup"><span data-stu-id="bc972-151">Because a copy feature isn't available to move your environment from a Sandbox to a Production environment, you must use data packages to move data into your Production environment.</span></span>  
+
+<span data-ttu-id="bc972-152">Рекомендуется поддерживать четкий список сущностей, настроенных в вашей среде песочницы в течение всего проекта.</span><span class="sxs-lookup"><span data-stu-id="bc972-152">We recommend maintaining a clear list of entities configured in your Sandbox throughout the project.</span></span> <span data-ttu-id="bc972-153">Затем проверьте процесс переключения и миграцию каких-либо пакетов данных, необходимых для ввода в эксплуатацию.</span><span class="sxs-lookup"><span data-stu-id="bc972-153">Then test the process of cutover and migration of any data packages needed for your go-live.</span></span> <span data-ttu-id="bc972-154">Необходимо вручную переместить любые пакеты данных в производственную среду, когда будете готовы к вводу в эксплуатацию.</span><span class="sxs-lookup"><span data-stu-id="bc972-154">You must manually move any data packages into the Production environment when you are ready to go live.</span></span> 
+
+## <a name="what-should-i-do-if-my-production-environment-is-down"></a><span data-ttu-id="bc972-155">Что делать, если производственная среда не работает?</span><span class="sxs-lookup"><span data-stu-id="bc972-155">What should I do if my Production environment is down?</span></span> 
+
+<span data-ttu-id="bc972-156">Чтобы сообщить об отключении производственной среды, следуйте процедуре, описанной в разделе  [Отчет об отключении производства](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage).</span><span class="sxs-lookup"><span data-stu-id="bc972-156">To report a Production outage, follow the process described in [Report a production outage](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage).</span></span> 
+
+ ## <a name="see-also"></a><span data-ttu-id="bc972-157">См. также</span><span class="sxs-lookup"><span data-stu-id="bc972-157">See also</span></span>
+
+ [<span data-ttu-id="bc972-158">Подготовка к вводу в эксплуатацию</span><span class="sxs-lookup"><span data-stu-id="bc972-158">Prepare for go-live</span></span>](hr-admin-go-live-prepare.md)
