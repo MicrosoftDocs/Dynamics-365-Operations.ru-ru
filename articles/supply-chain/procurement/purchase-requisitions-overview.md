@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
+ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018683"
 ---
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
@@ -174,7 +174,7 @@ ms.locfileid: "3826908"
 После добавления строк заявки в возможность консолидации и внесения требуемых изменений можно создать заказ на покупку для консолидированных строк заявки на покупку.  
 
 > [!NOTE]
-> Изменения, внесенные в строку заявки на покупку на странице **Консолидация заявок на покупку**, отражаются в созданном заказе на покупку. Однако в заявке на покупку строка остается без изменений, поэтому ее история сохраняется.  
+> Изменения, внесенные в строку заявки на покупку на странице **Консолидация заявок на покупку** , отражаются в созданном заказе на покупку. Однако в заявке на покупку строка остается без изменений, поэтому ее история сохраняется.  
 
 Чтобы создать заказ на покупку для строк заявки на покупку, которые не подходят для консолидации спроса или которые не выбраны для возможности консолидации, необходимо обработать эти строки вручную.
 

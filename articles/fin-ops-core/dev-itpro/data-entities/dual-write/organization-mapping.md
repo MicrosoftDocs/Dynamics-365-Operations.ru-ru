@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173162"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000742"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Организационная иерархия в Common Data Service
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Поскольку Dynamics 365 Finance — это финансовая система, *организация* является основной концепцией, а настройка системы начинается с конфигурации организационной иерархии. Финансы бизнеса затем могут отслеживаться на уровне организации, а также на любом уровне в иерархии организации.
 
@@ -41,8 +38,6 @@ ms.locfileid: "3173162"
 Бизнес-экосистема, состоящая из приложений Finance and Operations и Common Data Service, будет по-прежнему иметь организационную иерархию. Эта организационная иерархия построена на приложениях Finance and Operations, но она доступна в Common Data Service для целей информации и расширения. На следующей иллюстрации показана информация об иерархии организации, которая доступна в Common Data Service в качестве одностороннего потока данных из приложений Finance and Operations в Common Data Service.
 
 ![Изображение архитектуры](media/dual-write-data-flow.png)
-
-## <a name="templates"></a>Шаблоны
 
 Сопоставления сущности организационной иерархии доступны для односторонней синхронизации данных из приложений Finance and Operations в Common Data Service.
 
@@ -55,10 +50,9 @@ ms.locfileid: "3173162"
 Цели организационной иерархии | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта цели организационной иерархии.
 Тип организационной иерархии | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта типа организационной иерархии.
 Организационная иерархия — опубликованная | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию объекта опубликованной организационной иерархии.
-Операционная единица | msdyn_internalorganizations | 
-Юридические лица | msdyn_internalorganizations | 
+Операционная единица | msdyn_internalorganizations |
+Юридические лица | msdyn_internalorganizations |
 Юридические лица | cdm_companies | Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании).
-
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
@@ -77,4 +71,3 @@ ms.locfileid: "3173162"
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests, CatExternalCatalogBasketWizard, CatExternalCatalogPunchoutDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: cccd3517f31a82e502052f100e44322ac4cb344f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826812"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018499"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Использование внешних каталогов для электронных закупок с внешними заказами
 
@@ -37,7 +37,7 @@ ms.locfileid: "3826812"
 
 Сотрудник, который создает заявку, называется составителем заявки. Будучи составителем, можно выполнять следующие задачи.
 
-Использовать действие строки **Внешние каталоги**, чтобы открыть страницу, которая включает в себя все внешние каталоги, доступные для указанного инициатора запроса, юридического лица-покупателя и операционной единицы-получателя.
+Использовать действие строки **Внешние каталоги** , чтобы открыть страницу, которая включает в себя все внешние каталоги, доступные для указанного инициатора запроса, юридического лица-покупателя и операционной единицы-получателя.
 
 В зависимости от ваших разрешений изменить инициатора запроса, юридическое лицо-покупателя и операционную единицу-получателя. Изменения в этих значениях могут привести к изменению списка внешних каталогов, доступных инициатору. Доступные внешние каталоги зависят от текущих активных политик закупок для юридического лица-покупателя или операционной единицы-получателя. Эти политики могут разрешать или запрещать доступ к определенным категориям закупаемой продукции. Соответственно, можно влиять на список внешних каталогов, сопоставленных этим категориям закупаемой продукции.
 

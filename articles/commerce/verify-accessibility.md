@@ -1,7 +1,7 @@
 ---
 title: Проверка доступности контента страницы
 description: В этой теме описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
-author: arotkin
+author: josaw1
 manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: arotkin
+ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8e35b0f71ff41bade266fb177e4500c7d124ed1f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015111"
 ---
 # <a name="verify-page-content-accessibility"></a>Проверка доступности контента страницы
 
@@ -54,7 +54,7 @@ ms.locfileid: "3002667"
 Чтобы включить интеграцию [Microsoft Accessibility Insights](https://accessibilityinsights.io/) для одного сайта Commerce, выполните следующие действия.
 
 1. В области **Сайты** выберите **Fabrikam** (или имя вашего сайта).
-1. На левом панели навигации выберите **Настройки сайта**, чтобы развернуть.
+1. На левом панели навигации выберите **Настройки сайта** , чтобы развернуть.
 1. В **Настройки сайта** выберите **Функции**.
 1. Установите параметр **Проверка специальных возможностей** как **Вкл**.
 
@@ -78,7 +78,7 @@ ms.locfileid: "3002667"
 
 [Выбор макета страницы](select-page-layouts.md)
 
-[Управление метаданными для поисковой оптимизации](manage-seo-metadata.md)
+[Управление метаданными SEO](manage-seo-metadata.md)
 
 [Сохранение, предварительный просмотр и публикация страницы](save-preview-publish-page.md)
 

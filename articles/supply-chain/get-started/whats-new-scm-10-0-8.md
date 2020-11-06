@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801466"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012329"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.8 (февраль 2020 г.)
 
@@ -30,19 +30,20 @@ ms.locfileid: "3801466"
 
 В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.8. Эта версия имеет номер сборки 10.0.319 и доступна следующим образом:
 
-- **Предварительная версия**: декабрь 2019
+- **Предварительная версия** : декабрь 2019
 - **Общая доступность (самостоятельное обновление):** январь 2020
 - **Автоматическое обновление:** февраль 2020
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Некоторые из этих функций могут быть также включены в предыдущий инкрементный выпуск, но они не были объявлены в предыдущем разделе *Что нового*, поэтому они добавляются здесь. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
+Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Некоторые из этих функций могут быть также включены в предыдущий инкрементный выпуск, но они не были объявлены в предыдущем разделе *Что нового* , поэтому они добавляются здесь. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 - [Дополнительная зона местонахождения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [Управление активами](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Дополнительные сведения см. в разделе [Обзор управления активами](../asset-management/index.md).
 - [Отменить работу](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Дополнительные сведения см. в разделе [Отмена работы склада для обработки исключений](../warehousing/cancel-warehouse-work.md).
 - [Изменить пул работ в работе](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Дополнительные сведения см. в разделе [Изменение рабочего пула на работе](../warehousing/change-work-pool-on-work.md).
-- [Позиция кластера заполнена](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) — Дополнительные сведения см. в разделе [Позиция кластера заполнена](../warehousing/cluster-position-full.md).
+- [Позиция кластера заполнена](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Для получения дополнительных сведений см. раздел [Позиция кластера заполнена](../warehousing/cluster-position-full.md).
 - [Подтвердить и перенести](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Дополнительные сведения см. в разделе [Подтверждение и перемещение](../warehousing/confirm-and-transfer.md).
 - [Распределение по срокам комплектации запасов директивы местонахождения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Дополнительные сведения см. в разделе [Распределение по срокам комплектации запасов директивы местонахождения](../warehousing/location-directive-inventory-picking-aging.md).
 - [Статус места хранения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997382"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Устранение неполадок в работе модуля двойной записи в приложениях Finance and Operations
 
@@ -37,7 +36,7 @@ ms.locfileid: "3275541"
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Вы не можете загрузить модуль двойной записи в приложение Finance and Operations
 
-Если не удается открыть страницу **Двойная запись** путем выбора плитки **Двойная запись** в рабочей области **Управление данными**, возможно, служба интеграции данных не работает. Создайте запрос в службу поддержки для запроса перезапуска службы интеграции данных.
+Если не удается открыть страницу **Двойная запись** путем выбора плитки **Двойная запись** в рабочей области **Управление данными** , возможно, служба интеграции данных не работает. Создайте запрос в службу поддержки для запроса перезапуска службы интеграции данных.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Ошибка при попытке создания нового сопоставления объекта
 
@@ -62,7 +61,7 @@ ms.locfileid: "3275541"
 
 При связывании или создании карт может возникнуть следующая ошибка:
 
-*Код состояния отклика не указывает на успешное выполнение: 403 (tokenexchange).<br> Код сеанса: \<код вашего сеанса\><br> Код корневой операции: \<код вашей корневой операции\>*
+*Код состояния отклика не указывает на успешное выполнение: 403 (tokenexchange).<br> Код сеанса: \<your session id\><br> Код корневой операции: \<your root activity id\>*
 
 Эта ошибка может возникнуть, если у вас нет достаточных прав для связывания двойной записи для создания карт. Эта ошибка может также возникать, если среда Common Data Service была сброшена без отключения двойной записи. Любого пользователь с ролью системного администратора как в приложениях Finance and Operations, так и в Common Data Service, может связать эти среды. Новые сопоставления объектов может добавлять только пользователь, который настроил подключение с двойной записью. После настройки любой пользователь с ролью системного администратора может отслеживать статус и изменять сопоставления.
 

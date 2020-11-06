@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275425"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997310"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Устранение проблем с синхронизацией в режиме реального времени
 
@@ -86,7 +85,7 @@ ms.locfileid: "3275425"
 
     ![Рабочая группа сопоставленного подразделения](media/setting_security_page.png)
 
-3. Откройте страницу этой рабочей группы для редактирования, затем выберите **Управление ролями**, чтобы открыть диалоговое окно **Управление ролями группы**.
+3. Откройте страницу этой рабочей группы для редактирования, затем выберите **Управление ролями** , чтобы открыть диалоговое окно **Управление ролями группы**.
 
     ![Кнопка "Управление ролями"](media/manage_team_roles.png)
 
@@ -98,7 +97,7 @@ ms.locfileid: "3275425"
 
 При создании данных в приложении Finance and Operations может появиться следующее сообщение об ошибке:
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Не удается создать полезную нагрузку для объекта CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Сбой создания полезной нагрузки с ошибкой Недопустимый URI: URI пуст."}\],"isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **Не удается создать полезную нагрузку для объекта CustCustomerV3Entity** ","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Сбой создания полезной нагрузки с ошибкой Недопустимый URI: URI пуст."}\],"isErrorCountUpdated":true}*
 
 Вот как выглядит эта ошибка в приложении на основе модели в Dynamics 365:
 

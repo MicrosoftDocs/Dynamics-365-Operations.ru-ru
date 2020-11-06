@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014943"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Установка надстройки аналитики Интернета вещей в LCS
 
@@ -52,7 +52,7 @@ ms.locfileid: "3803099"
 
 ## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Удаление надстройки
 
-1. В Supply Chain Management [отключите сценарии](iot-scenario-setup.md#how-to-disable-a-scenario).
+1. В Supply Chain Management [отключите сценарии](iot-scenario-setup.md#disable-a-scenario).
 2. В LCS, перейдите к сведениям о вашей среде Supply Chain Management.
 3. Перейдите в раздел **Надстройки среды**.
 4. Выберите **Удаление** для надстройки аналитики Интернета вещей.

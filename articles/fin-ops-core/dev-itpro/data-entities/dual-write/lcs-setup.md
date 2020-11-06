@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173000"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998116"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
@@ -56,7 +55,7 @@ ms.locfileid: "3173000"
 
         1. Установите для параметра **Настроить Common Data Service** значение **Да**.
         2. В поле **Доступные среды** выберите среду, которую необходимо интегрировать с данными Finance and Operations. Список включает в себя все среды, для которых у вас имеются привилегии администратора.
-        3. Установите флажок **Принимаю**, чтобы указать, что вы принимаете условия.
+        3. Установите флажок **Принимаю** , чтобы указать, что вы принимаете условия.
 
         ![Вкладка Common Data Service, когда среда Common Data Service уже подготовлена для клиента](../dual-write/media/lcs_setup_1.png)
 
@@ -70,16 +69,16 @@ ms.locfileid: "3173000"
             > [!NOTE]
             > Изменить язык и валюту позже нельзя.
 
-        5. Установите флажок **Принимаю**, чтобы указать, что вы принимаете условия.
+        5. Установите флажок **Принимаю** , чтобы указать, что вы принимаете условия.
 
         ![Вкладка Common Data Service, если у клиента еще нет среды Common Data Service](../dual-write/media/lcs_setup_2.png)
 
 7. Выполните оставшиеся шаги в мастере **Параметры развертывания**.
-8. После того как среда имеет статус **Развернуто**, откройте страницу сведений о среде. В разделе **Сведения о среде Common Data Service** показаны имена среды Finance and Operations и среды Common Data Service, которые связаны.
+8. После того как среда имеет статус **Развернуто** , откройте страницу сведений о среде. В разделе **Сведения о среде Common Data Service** показаны имена среды Finance and Operations и среды Common Data Service, которые связаны.
 
     ![Раздел сведений о среде Common Data Service](../dual-write/media/lcs_setup_3.png)
 
-9. Администратор среды Finance and Operations должен войти в систему LCS и выбрать пункт **Связать с CDS для приложений**, чтобы завершить связь. На странице сведений о среде отображаются контактные данные администратора.
+9. Администратор среды Finance and Operations должен войти в систему LCS и выбрать пункт **Связать с CDS для приложений** , чтобы завершить связь. На странице сведений о среде отображаются контактные данные администратора.
 
     После завершения установления связи статус обновляется до **Связывание среды успешно выполнено**.
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b818553b7763ad03e2e23b869b364bb21c8afd57
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515819"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013212"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Проверка работоспособности для периферийных устройств и услуг POS-терминалов
 
@@ -82,4 +82,4 @@ Microsoft Dynamics 365 Commerce версии 10.0.10 и более поздни�
 
 ## <a name="related-articles"></a>Связанные статьи
 
-[Триггеры и вывод на печать в Modern POS (MPOS)](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/pos-trigger-printing)
+[Триггеры и вывод на печать в Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)

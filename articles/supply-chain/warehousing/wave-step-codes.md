@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017813"
 ---
 # <a name="wave-step-codes"></a>Коды шагов волны
 
@@ -59,11 +59,11 @@ ms.locfileid: "3323585"
 
 После разрешения всех конфликтов, выявленных во время проверок, можно повторно включить функцию.
 
-После включения функции страница **Коды шагов волны** (**Управление складом \> Настройка \> Волны \> Коды шагов волны**) становится доступной. На этой странице перечислены коды шагов волны, которые были обновлены, когда была включена функция кодов шагов волны организации.
+После включения функции страница **Коды шагов волны** ( **Управление складом \> Настройка \> Волны \> Коды шагов волны** ) становится доступной. На этой странице перечислены коды шагов волны, которые были обновлены, когда была включена функция кодов шагов волны организации.
 
 ### <a name="create-new-wave-step-codes"></a>Создание новых кодов шагов волны
 
-Можно использовать страницу **Коды шагов волны**, чтобы создавать и удалять коды шагов волны.
+Можно использовать страницу **Коды шагов волны** , чтобы создавать и удалять коды шагов волны.
 
 Каждый новый код шага волны и связанный с ним идентификатор должны быть уникальными для всех типов шагов волны, и они должны быть определены для конкретного типа шага волны.
 
