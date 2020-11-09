@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214052"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018361"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Создание заказа пополнения консигнационных запасов
 
@@ -33,7 +33,7 @@ ms.locfileid: "3214052"
 ## <a name="create-a-consignment-replenishment-order"></a>Создание заказа пополнения консигнационных запасов
 1. В области перехода перейдите к **Модули > Закупки и источники > Коносамент > Заказы пополнения коносамента**.
 2. Выберите **Создать**.
-3. В поле **Счет поставщика** выберите поставщика **US-104** (необходимо выбрать поставщика, который зарегистрирован в качестве владельца на странице **владельцы запасов**). 
+3. В поле **Счет поставщика** выберите поставщика **US-104** (необходимо выбрать поставщика, который зарегистрирован в качестве владельца на странице **владельцы запасов** ). 
 4. Нажмите **ОК**.
 5. Выберите **Добавить строку**.
 6. В поле **Код номенклатуры** введите `M9211CI` (необходимо выбрать номенклатуру, настроенную для запасов коносамента).
@@ -42,7 +42,7 @@ ms.locfileid: "3214052"
 9. В поле **Подтвержденная дата доставки** введите дату.
 10. Разверните раздел **Сведения о строке**.
 11. Выберите вкладку **Складские аналитики**.
-12. Чтобы отобразить владельца в поле **Владелец складских аналитик**, обновите страницу. Поставщик US-104 теперь указан в качестве владельца.  
+12. Чтобы отобразить владельца в поле **Владелец складских аналитик** , обновите страницу. Поставщик US-104 теперь указан в качестве владельца.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Проверка статуса складской проводки
 1. Выберите **Запасы**.

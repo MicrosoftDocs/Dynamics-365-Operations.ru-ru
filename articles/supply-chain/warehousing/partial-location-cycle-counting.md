@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
+ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760015"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017606"
 ---
 # <a name="partial-location-cycle-counting"></a>Частичный подсчет циклов местонахождений
 
@@ -39,7 +39,7 @@ ms.locfileid: "3760015"
 
 Можно связать **шаблон работы** с план подсчета циклов, чтобы определить способ создания работы подсчета циклов. На шаблон работы для операций подсчета напрямую ссылается план подсчета циклов. 
 
-При определении сведений шаблона работы можно использовать параметр **Разрывы строки работы**, чтобы указать, следует ли группировать строки работы подсчета по номеру номенклатуры или номеру варианта продукта. Эта настройка необходима, если следует выполнить подсчет запасов в наличии только для определенных продуктов в местонахождении. Создаваемые строки работы подсчета циклов будут иметь уровень информации, определенный здесь, и операция подсчета обрабатывается на основе этого уровня. 
+При определении сведений шаблона работы можно использовать параметр **Разрывы строки работы** , чтобы указать, следует ли группировать строки работы подсчета по номеру номенклатуры или номеру варианта продукта. Эта настройка необходима, если следует выполнить подсчет запасов в наличии только для определенных продуктов в местонахождении. Создаваемые строки работы подсчета циклов будут иметь уровень информации, определенный здесь, и операция подсчета обрабатывается на основе этого уровня. 
 
 Если связать планы подсчета циклов с шаблонами работ с помощью параметра **Разрывы строки работы** поле **Частичный подсчет циклов** выбирается для создаваемой работы подсчета циклов и несколько строк работы подсчета циклов создается на основе определения шаблона работы. 
 

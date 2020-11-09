@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017491"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Настройка складов для заказов на перемещение 
 
@@ -50,5 +51,5 @@ ms.locfileid: "3216722"
 Также необходимо настроить время упреждения для транспортировки между складами на странице **Время транспортировки в днях**. 
 1. Выберите **Управление запасами > Настройка > Распределение > Время транспортировки в днях**.
 2. В поле **Пункт приемки** выберите **склад**.
-3. Выберите **Склад отгрузки**, **Склад приемки** и **Время транспортировки в днях**. 
+3. Выберите **Склад отгрузки** , **Склад приемки** и **Время транспортировки в днях**. 
 4. (Необязательно) Можно также задать время транспортировки, в зависимости от способа поставки, на вкладке **Время транспортировки в днях по способу поставки**.

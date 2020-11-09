@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
+ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e94fb630afbe12a7fe3e791f59dca0bd38a0fc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 370893e415a79091404f1c4eb0404ba8fd5b9ff2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017536"
 ---
 # <a name="batch-attributes"></a>Атрибуты партии
 
@@ -46,7 +46,7 @@ ms.locfileid: "3985641"
 -   Действия, выполняемые при превышении допуска, для атрибута типа **Целое число** или **Дробь**. Если значение атрибута выходит за пределы минимального и максимального диапазонов, действие может быть или предупреждением, или сообщением об ошибке.
 -   Целевое значение для атрибута. Данное значение является оптимальным значением атрибута и применяется к атрибутам всех типов.
 
-Доступ к страницам для продуктов, выбираемых на странице **Запущенные в производство продукты**, предоставляется в разделе "Управление сведениями о продуктах". После того как продукту назначены атрибуты партии, можно затем добавить отдельные значения атрибутам на странице **Атрибуты партии складских запасов**.
+Доступ к страницам для продуктов, выбираемых на странице **Запущенные в производство продукты** , предоставляется в разделе "Управление сведениями о продуктах". После того как продукту назначены атрибуты партии, можно затем добавить отдельные значения атрибутам на странице **Атрибуты партии складских запасов**.
 
 ## <a name="reserve-batches"></a>Резервирование партий
 Вы можете искать по атрибутам партии, когда вы резервируете партию для заказа на продажу, чтобы выполнить заказ клиента, или когда вы комплектуете и резервируете партии для производственного заказа. Поиск помогает найти партию складских запасов, в которой содержится продукт с требуемыми атрибутами партии. После того как партия или партии найдены, можно затем зарезервировать продукт для создаваемой строки складской проводки.

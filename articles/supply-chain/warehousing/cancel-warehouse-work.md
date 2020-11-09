@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSTroubIeshootingSeIfService
+ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984042"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016249"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Отмена работы склада для обработки исключений
 
@@ -40,7 +40,7 @@ ms.locfileid: "3984042"
 > [!NOTE]
 > Для работы, которая должна быть отменена в операционную причину, пользователи склада должны продолжать использовать функцию обычной отмены на странице работ.
 
-С помощью функции отмены можно отменить только работы типа **Продажи**, **Выдача на перемещение**, **Комплектация сырья**, **Пополнение**. Логика отмены не будет выполняться для заблокированных работ по комплектации сырья или работ, которые могут быть отменены с помощью обычной функции отмены (см. предыдущую заметку).
+С помощью функции отмены можно отменить только работы типа **Продажи** , **Выдача на перемещение** , **Комплектация сырья** , **Пополнение**. Логика отмены не будет выполняться для заблокированных работ по комплектации сырья или работ, которые могут быть отменены с помощью обычной функции отмены (см. предыдущую заметку).
 
 Чтобы разблокировать работу, система отменяет все оставшиеся строки работ и исправляет данные склада, связанные с кодом работ, указанным пользователем. Любые обычные операции обработки склада, включающие затронутое количество номенклатуры, могут быть возобновлены.
 

@@ -3,7 +3,7 @@ title: Модуль значка корзины
 description: В этом разделе описывается модуль значка корзины, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661155"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055768"
 ---
 # <a name="cart-icon-module"></a>Модуль значка корзины
 
@@ -33,6 +33,9 @@ ms.locfileid: "3661155"
 ## <a name="overview"></a>Обзор
 
 Модуль значка корзины представляет корзину в модуле заголовка страницы и отображает количество номенклатур в корзине. В модуле значка корзины также отображается сводка по корзине (также называется мини-корзиной), когда на значок корзины наводится указатель. Мини-корзина предоставляет пользователю сводку номенклатур в корзине без перехода на страницу корзины. Кроме того, она позволяет пользователю непосредственно перейти на страницу оформления заказа, если его устраивает сводка. Это позволяет сократить число переходов между страницами и ускорить оформление. 
+
+> [!NOTE]
+> Поддержка использования модуля значка корзины в выпуске Dynamics 365 Commerce 10.0.11.
 
 На следующем рисунке показан пример модуля значка корзины, в котором отображается мини-корзина в заголовке Fabrikam.
 

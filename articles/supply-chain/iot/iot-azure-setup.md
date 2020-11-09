@@ -1,7 +1,7 @@
 ---
 title: Настройка ресурсов Azure для аналитики Интернета вещей
 description: В этом разделе объясняется, как создать и настроить ресурсы Microsoft Azure, необходимые для работы с аналитики Интернета вещей.
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982902"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014920"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Настройка ресурсов Azure для аналитики Интернета вещей
 
@@ -48,9 +48,9 @@ ms.locfileid: "3982902"
     Если приложение отсутствует в списке, его необходимо добавить в клиент:
 
     1. На портале Azure на панели инструментов нажмите кнопку, чтобы открыть Azure Cloud Shell.
-    2. Выполните команду **Install-Module AzureAD**. Введите **Y**, чтобы установить модуль.
-    3. Выполните команду **Get-InstalledModule -Name "AzureAD"**, чтобы убедиться, что модуль установлен.
-    4. Выполните команду **Connect-AzureAD -Confirm**, чтобы выполнить проверку подлинности.
+    2. Выполните команду **Install-Module AzureAD**. Введите **Y** , чтобы установить модуль.
+    3. Выполните команду **Get-InstalledModule -Name "AzureAD"** , чтобы убедиться, что модуль установлен.
+    4. Выполните команду **Connect-AzureAD -Confirm** , чтобы выполнить проверку подлинности.
     5. Выполните команду **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
     Теперь можно повторить шаги с 1 по 6 для проверки того, что код приложения находится в вашем клиенте.

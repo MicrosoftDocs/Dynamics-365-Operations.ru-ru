@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763463"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017721"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Макет маршрутизации документов для наклеек грузомест
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Вот объяснение этого формата:
 
-- `FieldName` — это имя поля данных (например, **Кол-во**).
+- `FieldName` — это имя поля данных (например, **Кол-во** ).
 - `FormatString` определяет, как должны печататься данные.
 
-В следующих примерах показано, как можно настроить поле количества работы (**Кол-во**):
+В следующих примерах показано, как можно настроить поле количества работы ( **Кол-во** ):
 
 - Чтобы всегда показывать четыре цифры (с использованием нулей в качестве заполнителей), используйте `$Qty:0000$`. Например, если количество равно 10, метка отобразит "0010".
 - Чтобы всегда отображалось два знака после запятой, используйте `$Qty:0.00$`. Например, если количество равно 10, метка отобразит "10,00".

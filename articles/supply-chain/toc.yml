@@ -1735,9 +1735,11 @@
                   href: procurement/purchase-agreements.md
                 - name: Создание договора покупки
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Автоматическое распределение накладных расходов
+                  href: procurement/automatic-charges-allocation.md
                 - name: Ретробонусы поставщика
                   href: procurement/vendor-rebates.md
-                - name: 'Устранение неполадок с ценами, договорами и ретробонусами'
+                - name: 'Устранение неполадок с ценами, скидками, договорами и ретробонусами'
                   href: procurement/troubleshooting-pricediscountagreements.md
             - name: Политики закупок
               items:
@@ -2041,7 +2043,15 @@
                       href: production-control/release-production-orders.md
                     - name: Приемка производственных заказов
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Настройка карты заданий для устройств
+                    - name: Настройка и использование интерфейса выполнения производственного цеха
+                      items:
+                        - name: Настройка интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Как работники используют интерфейс выполнения производственного цеха
+                          href: production-control/production-floor-execution-use.md
+                    - name: Настройка карты задания для устройств
                       href: production-control/config-job-card-device.md
                     - name: Приемка с устройства карты задания
                       href: production-control/report-finished-job-device.md
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Отгрузка заказов на продажу без складирования
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Автоматическое распределение накладных расходов
+                  href: procurement/automatic-charges-allocation.md
                 - name: Создание заказа на покупку из заказа на продажу
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Создание заказов на продажу
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Создание заказов на перемещение из приложения склада
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Обработка событий приложения склада
-                      href: warehousing/warehouse-app-events.md
                     - name: Поштучное подтверждение комплектации
                       href: warehousing/piece-picking-confirmation.md
                     - name: Упаковочные материалы и сборы
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Настройка мобильных устройств для работы склада
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Обработка событий приложения склада
+                      href: warehousing/warehouse-app-events.md
                     - name: Получение грузомест с помощью приложения склада
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку

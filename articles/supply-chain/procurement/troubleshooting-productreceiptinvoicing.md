@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d86fa3df1de13cc0e0fb94449207a326069da25b
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834418"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018637"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Устранение неполадок поступления продуктов и выставления накладных
 
@@ -38,7 +38,7 @@ ms.locfileid: "3834418"
 
 Эта проблема может возникнуть из-за несогласованности в распределениях заказов на покупку.
 
-Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик*, перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик* , перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Невозможно консолидировать несколько поступлений продуктов в один заказ на покупку.
 
@@ -74,7 +74,7 @@ ms.locfileid: "3834418"
 
 Если для параметра **Начисление задолженности при поступлении продуктов** задано значение *Нет* для группы моделей номенклатуры, разноска в главную книгу производиться не будет. Однако для учета в субкниге регистрируется физическое событие, а для этого события требуется код операции. Этот код операции является кодом операции, на который имеются ссылки в складских проводках.
 
-Рекомендуется установить для параметра **Начисление задолженности при поступлении продуктов** значение *Да*, как описано в следующей записи блога: [Разноска накладных расходов во время получения продукта](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Рекомендуется установить для параметра **Начисление задолженности при поступлении продуктов** значение *Да* , как описано в следующей записи блога: [Разноска накладных расходов во время получения продукта](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>Параметр "Выполнить разноску на счет накл. расходов в ГК" не включен.
 

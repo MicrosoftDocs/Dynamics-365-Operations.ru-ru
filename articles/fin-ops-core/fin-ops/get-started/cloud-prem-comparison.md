@@ -3,7 +3,7 @@ title: Сравнение характеристик облачной и лок�
 description: В этой теме показано, какие функции поддерживаются в облачной и локальной версиях.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100290"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040107"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Сравнение характеристик облачной и локальной версий
 
@@ -87,6 +87,7 @@ ms.locfileid: "3100290"
 
 | **Область**                | **Функция**             | **Облачное хранилище** | **Локально** |
 |-------------------------|-------------------|-----------|-----------------|
+| Управление активами                     |                                                                                           | Да       | Нет |
 | Соответствие и сертификация        |                                                                                           | Да       | Да             |
 |                                      | Сертификация SOC 1, тип 1                                                                | Да       | Нет              |
 | Учет затрат                      |                                                                                           | Да       | Да             |

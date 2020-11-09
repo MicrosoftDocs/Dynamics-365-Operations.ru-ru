@@ -3,7 +3,7 @@ title: Обработка накладных
 description: В этой теме приведена информация об обработке накладных для Восточной Европы.
 author: v-kikozl
 manager: AnnBe
-ms.date: 07/21/2017
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,16 +12,16 @@ ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia, Italy
 ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 945b082528109f6f8c9292d2388749bebd4cfba4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 87a06e1b17e9c0bdb4147f49b2dacb74236360fa
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175232"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039811"
 ---
 # <a name="invoice-processing"></a>Обработка накладных
 
@@ -68,9 +68,10 @@ ms.locfileid: "2175232"
 </tr>
 <tr>
 <td>Дата документа для валютных курсов</td>
-<td>Польша, Венгрия, Чешская Республика</td>
+<td>Польша, Венгрия, Чешская Республика, Италия</td>
 <td>
 <p>Законодательство предусматривает различные правила для выбора действительных валютных курсов для бизнес-транзакций. В поле <strong>Дата валютного курса</strong> на страницах <strong>Параметры модуля расчетов с клиентами</strong> и <strong>Параметры модуля расчетов с поставщиками</strong> можно выбрать дату, которая должна использоваться для сумм в расчете валюты учета в документах покупки и продажи. При вводе данных система извлекает валютный курс для проводки на основании этого параметра.</p>
+<blockquote>[!NOTE]<br>Для Италии эта функция применима только в модуле "Расчеты с поставщиками". В параметрах расчетов с поставщиками пользователь может выбрать <strong>Дату разноски</strong> или <strong>Дату документа</strong> в поле <strong>Дата валютного курса</strong>.   </blockquote>
 <blockquote>[!NOTE]<br>При выборе в поле <strong>Дата валютного курса</strong> значения <strong>Дата документа (только для торговли ЕС)</strong> система использует налоговую группу. Для налоговой группы существует параметр <strong>Торговля ЕС</strong> на вкладке <strong>Общие</strong>. Если параметр <strong>Торговля ЕС</strong> для налоговой группы имеет значение <strong>Да</strong> и если налоговая группа присутствует в заголовке документа, система извлекает валютный курс на основании даты документа. Если параметр <strong>Торговля ЕС</strong> для этой налоговой группы имеет значение <strong>Нет</strong>, система извлекает валютный курс на основании даты разноски документа.</blockquote>
 </td>
 </tr>

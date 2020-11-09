@@ -1,5 +1,5 @@
 ---
-title: Функции предварительной версии в Dynamics 365 Supply Chain Management версии 10.0.14 (октябрь 2020 г.)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.14 (октябрь 2020 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
 manager: tfehr
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763581"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038117"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Предварительные версии функций в Dynamics 365 Supply Chain Management 10.0.14 (ноябрь 2020 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.14 (ноябрь 2020 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.14, предварительная версия. Эта версия имеет номер сборки 10.0.605 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.14. Эта версия имеет номер сборки 10.0.605 и доступна следующим образом:
 
-- **Предварительная версия**: сентябрь 2020
+- **Предварительная версия** : сентябрь 2020
 - **Общая доступность (самостоятельное обновление):** октябрь 2020
 - **Автоматическое обновление:** ноябрь 2020
 

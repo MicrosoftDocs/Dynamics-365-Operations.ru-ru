@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997334"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Устранение неполадок при начальной синхронизации
 
@@ -37,7 +36,7 @@ ms.locfileid: "3443857"
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Проверка наличия ошибок исходной синхронизации в приложении Finance and Operations
 
-После включения шаблонов сопоставления статус сопоставлений должно быть **Выполняется**. Если статус **Не выполняется**, при первоначальной синхронизации произошли ошибки. Для просмотра ошибок выберите вкладку **Сведения о начальной синхронизации** на странице **Двойная запись**.
+После включения шаблонов сопоставления статус сопоставлений должно быть **Выполняется**. Если статус **Не выполняется** , при первоначальной синхронизации произошли ошибки. Для просмотра ошибок выберите вкладку **Сведения о начальной синхронизации** на странице **Двойная запись**.
 
 ![Ошибка на вкладке сведений о начальной синхронизации](media/initial_sync_status.png)
 
@@ -97,7 +96,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Устранение ошибок в сопоставлении сущностей "Поставщики V2" с msdyn_vendors
 
-Возможны ошибки первоначальной синхронизации для составления **Поставщики V2** с **msdyn\_vendors**, если у этих объектов есть существующие записи, где есть значения в полях **PrimaryContactPersonId** и **InvoiceVendorAccountNumber**. Эти ошибки возникают в связи с тем, что **InvoiceVendorAccountNumber** — это поле ссылки на себя, а **PrimaryContactPersonId** — это циклическая ссылка в сопоставлении поставщиков.
+Возможны ошибки первоначальной синхронизации для составления **Поставщики V2** с **msdyn\_vendors** , если у этих объектов есть существующие записи, где есть значения в полях **PrimaryContactPersonId** и **InvoiceVendorAccountNumber**. Эти ошибки возникают в связи с тем, что **InvoiceVendorAccountNumber** — это поле ссылки на себя, а **PrimaryContactPersonId** — это циклическая ссылка в сопоставлении поставщиков.
 
 Полученные сообщения об ошибках будет иметь следующую форму.
 
@@ -108,13 +107,13 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *Не удалось разрешить GUID для поля: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Поиск не найден: 000056. Попробуйте использовать этот URL-адрес для проверки существования ссылочных данных: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Не удалось разрешить GUID для поля: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Поиск не найден: V24-1. Попробуйте использовать этот URL-адрес для проверки существования ссылочных данных: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Если какие-то записи в сущности поставщика имеют значения в полях **PrimaryContactPersonId** и **InvoiceVendorAccountNumber**, выполните следующие шаги, чтобы завершить начальную синхронизацию.
+Если какие-то записи в сущности поставщика имеют значения в полях **PrimaryContactPersonId** и **InvoiceVendorAccountNumber** , выполните следующие шаги, чтобы завершить начальную синхронизацию.
 
 1. В приложении Finance and Operations удалите поля **PrimaryContactPersonId** и **InvoiceVendorAccountNumber** из сопоставления, затем сохраните сопоставление.
 
     1. На странице сопоставление двойной записи для **Поставщики V2 (msdyn\_vendors)** на вкладке **Сопоставления объектов** в левом фильтре выберите **Приложения Finance and Operations.Поставщики V2**. В правом фильтре выберите **Sales.Vendor**.
-    2. Выполните поиск **primarycontactperson**, чтобы найти поле источника **PrimaryContactPersonId**.
-    3. Выберите **Действия**, затем выберите **Удалить**.
+    2. Выполните поиск **primarycontactperson** , чтобы найти поле источника **PrimaryContactPersonId**.
+    3. Выберите **Действия** , затем выберите **Удалить**.
 
         ![Удаление поля PrimaryContactPersonId](media/vend_selfref3.png)
 
@@ -128,7 +127,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     1. В рабочей области **Управление данными** выберите плитку **Объекты данных**.
     2. Выберите объект **Vendors V2**.
-    3. На панели операций выберите **Параметры**, затем выберите **Отслеживание изменений**.
+    3. На панели операций выберите **Параметры** , затем выберите **Отслеживание изменений**.
 
         ![Выбор параметра отслеживания изменений](media/selfref_options.png)
 
@@ -138,13 +137,13 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 3. Выполните начальную синхронизацию для сопоставления **Поставщики V2 (msdyn\_vendors)**. Начальная синхронизация должна успешно работать без ошибок.
 4. Выполните начальную синхронизацию для составления **Контакты CDS V2 (контакты)**. Необходимо синхронизировать это сопоставление, если следует синхронизировать основное поле контакта в объекте "поставщики", так как начальная синхронизация также должна быть выполнена для записей контактов.
-5. Добавьте поля **PrimaryContactPersonId** и **InvoiceVendorAccountNumber** обратно в сопоставление **Поставщики V2 (msdyn\_vendors)**, затем сохраните сопоставление.
+5. Добавьте поля **PrimaryContactPersonId** и **InvoiceVendorAccountNumber** обратно в сопоставление **Поставщики V2 (msdyn\_vendors)** , затем сохраните сопоставление.
 6. Выполните начальную синхронизацию еще раз для сопоставления **Поставщики V2 (msdyn\_vendors)**. Так как отслеживание изменений отключено, все записи будут синхронизированы.
 7. Снова включите отслеживание изменений для объекта **Поставщики V2**.
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Устранение ошибок в сопоставлениях объектов "Клиенты V3" с "Организации"
 
-Возможны ошибки первоначальной синхронизации для составления **Клиенты V3** с **Организации**, если у этих объектов есть существующие записи, где есть значения в полях **ContactPersonID** и **InvoiceAccount**. Эти ошибки возникают, так как что **InvoiceAccount** — это поле ссылки на себя, а **ContactPersonID** — это циклическая ссылка в сопоставлении поставщиков.
+Возможны ошибки первоначальной синхронизации для составления **Клиенты V3** с **Организации** , если у этих объектов есть существующие записи, где есть значения в полях **ContactPersonID** и **InvoiceAccount**. Эти ошибки возникают, так как что **InvoiceAccount** — это поле ссылки на себя, а **ContactPersonID** — это циклическая ссылка в сопоставлении поставщиков.
 
 Полученные сообщения об ошибках будет иметь следующую форму.
 
@@ -155,13 +154,13 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *Не удалось разрешить GUID для поля: primarycontactid.msdyn\_contactpersonid. Поиск не найден: 000056. Попробуйте использовать этот URL-адрес для проверки существования ссылочных данных: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Не удалось разрешить GUID для поля: msdyn\_billingaccount.accountnumber. Поиск не найден: 1206-1. Попробуйте использовать этот URL-адрес для проверки существования ссылочных данных: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Если какие-то записи в сущности клиента имеют значения в полях **ContactPersonID** и **InvoiceAccount**, выполните следующие шаги, чтобы завершить начальную синхронизацию. Этот подход можно использовать для всех готовых элементов, таких как **Организации** и **Контакты**.
+Если какие-то записи в сущности клиента имеют значения в полях **ContactPersonID** и **InvoiceAccount** , выполните следующие шаги, чтобы завершить начальную синхронизацию. Этот подход можно использовать для всех готовых элементов, таких как **Организации** и **Контакты**.
 
-1. В приложении Finance and Operations удалите поля **ContactPersonID** и **InvoiceAccount** из сопоставления **Клиенты V3 (организации)**, затем сохраните сопоставление.
+1. В приложении Finance and Operations удалите поля **ContactPersonID** и **InvoiceAccount** из сопоставления **Клиенты V3 (организации)** , затем сохраните сопоставление.
 
     1. Перейдите на страницу сопоставление двойной записи для **Клиенты V3 (организации)** и перейдите на вкладку **Сопоставления объектов**. В левом фильтре выберите приложения **Приложение Finance and Operations.Клиенты V3**. В правом фильтре выберите **Common Data Service.Account**.
-    2. Выполните поиск **contactperson**, чтобы найти поле источника **ContactPersonID**.
-    3. Выберите **Действия**, затем выберите **Удалить**.
+    2. Выполните поиск **contactperson** , чтобы найти поле источника **ContactPersonID**.
+    3. Выберите **Действия** , затем выберите **Удалить**.
 
         ![Удаление поля ContactPersonID](media/cust_selfref3.png)
 
@@ -175,7 +174,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     1. В рабочей области **Управление данными** выберите плитку **Объекты данных**.
     2. Выберите объект **Customers V3**.
-    3. На панели операций выберите **Параметры**, затем выберите **Отслеживание изменений**.
+    3. На панели операций выберите **Параметры** , затем выберите **Отслеживание изменений**.
 
         ![Выбор параметра отслеживания изменений](media/selfref_options.png)
 
@@ -187,9 +186,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 4. Выполните начальную синхронизацию для составления **Контакты CDS V2 (контакты)**.
 
     > [!NOTE]
-    > Существуют два сопоставления с одинаковым именем. Обязательно выберите сопоставление со следующим описанием на вкладке **Сведения**: **Шаблон двойной записи для синхронизации между FO.CDS Vendor Contacts V2 для CDS.Contacts. Требуется новый пакет \[Dynamics365SupplyChainExtended\].**
+    > Существуют два сопоставления с одинаковым именем. Обязательно выберите сопоставление со следующим описанием на вкладке **Сведения** : **Шаблон двойной записи для синхронизации между FO.CDS Vendor Contacts V2 для CDS.Contacts. Требуется новый пакет \[Dynamics365SupplyChainExtended\].**
 
-5. Добавьте поля **InvoiceAccount** и **ContactPersonId** обратно в сопоставление **Клиенты V3 (Организации)**, затем сохраните сопоставление. Оба поля **InvoiceAccount** и **ContactPersonId** теперь будут снова учитываться в режиме синхронизации в реальном времени. На следующем шаге вы выполните начальную синхронизацию для этих полей.
+5. Добавьте поля **InvoiceAccount** и **ContactPersonId** обратно в сопоставление **Клиенты V3 (Организации)** , затем сохраните сопоставление. Оба поля **InvoiceAccount** и **ContactPersonId** теперь будут снова учитываться в режиме синхронизации в реальном времени. На следующем шаге вы выполните начальную синхронизацию для этих полей.
 6. Снова выполните начальную синхронизацию для составления **Клиенты V3 (Организации)**. Поскольку отслеживание изменений отключено, данные для **InvoiceAccount** и **ContactPersonId** будут синхронизированы из приложения Finance and Operations в Common Data Service.
 7. Для синхронизации данных для **InvoiceAccount** и **ContactPersonId** из Common Data Service в приложение Finance and Operations необходимо использовать проект интеграции данных.
 
@@ -203,7 +202,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         > [ПРИМЕЧАНИЕ] Если кнопка фильтра отсутствует, создайте запрос на поддержку, чтобы попросить у группы интеграции данных включить функцию фильтра в вашем клиенте.
 
-        Если не ввести запрос фильтра для **\_msdyn\_company\_value**, то все записи будут синхронизированы.
+        Если не ввести запрос фильтра для **\_msdyn\_company\_value** , то все записи будут синхронизированы.
 
         ![Добавление запроса фильтра](media/cust_selfref7.png)
 
