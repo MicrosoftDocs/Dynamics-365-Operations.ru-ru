@@ -5,7 +5,9 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
-        - name: 22 октября 2002 г.
+        - name: 2 декабря 2020 г.
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 октября 2020 г.
           href: hr-whats-new-2020-10-22.md
         - name: 6 октября 2020 г.
           href: hr-whats-new-2020-10-06.md
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: Создание календаря рабочего времени
               href: hr-personnel-create-working-time-calendar.md
+            - name: Найм кандидатов на должность
+              href: hr-personnel-recruit.md
             - name: Вопросы и ответы по действиям с персоналом
               href: hr-personnel-actions-faq.md
             - name: Использование бизнес-правил для управления сведениями о сотрудниках
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: Настройка управления льготами
                   items:
-                    - name: Настройка параметров управления льготами
+                    - name: Настройка параметров управления льготами для компании
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Настройка параметров управления льготами и самообслуживания сотрудников для всех компаний
                       href: hr-benefits-setup-parameters.md
                     - name: Настройка правил и параметров приемлемости
                       href: hr-benefits-setup-eligibility-rules.md

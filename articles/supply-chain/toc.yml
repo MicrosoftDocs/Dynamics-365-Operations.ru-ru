@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Вопросы и ответы по обновлениям службы с одной версией
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Управление обновлениями и жизненным циклом пользовательского кода, включая Dynamics 365 Commerce'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Политика жизненного цикла программного обеспечения: облачное развертывание'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Политика жизненного цикла программного обеспечения: локальное развертывание'
@@ -70,12 +72,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management 10.0.15 (декабрь 2020\_г.)"
+                    - name: Supply Chain Management 10.0.16 (февраль 2021 г.)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (январь 2021 г.)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: "Supply Chain Management 10.0.14 (ноябрь 2020\_г.)"
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: "Supply Chain Management 10.0.13 (октябрь 2020\_г.)"
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Функции AX 2012, реализация которых была отложена'
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Функции, не реализованные в локальных развертываниях'
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ресурсы документации
@@ -216,6 +216,14 @@
                   items:
                     - name: Товары в пути от поставщика
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Облако и граница
+          items:
+            - name: Облачные и пограничные единицы масштабирования для производственных рабочих нагрузок и рабочих нагрузок управления складом
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: Рабочие нагрузки управления складом для облачных и пограничных единиц масштабирования
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Управление активами
           items:
             - name: Обзор управления активами
@@ -230,9 +238,9 @@
                 - name: Состояния жизненного цикла функциональных местоположений
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Типы атрибутов обслуживания
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Типы функциональных местоположений
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: Типы функциональных местоположений
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: Функциональные местоположения
               items:
                 - name: Введение в функциональные местоположения
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Пакет содержимого Power BI по управлению затратами
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Устранение неполадок при управлении затратами
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Отчетность и интеграция Power BI
           items:
             - name: Отчетность и аналитика с Power BI
@@ -1327,6 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Отслеживание скользящей средней себестоимости на складскую аналитику
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Надстройка видимости запасов
+              href: inventory/inventory-visibility.md
         - name: Бизнес-аналитика IoT
           items:
             - name: Домашняя страница бизнес-аналитики IoT
@@ -1347,6 +1359,8 @@
           items:
             - name: Домашняя страница сводного планирования
               href: master-planning/master-planning-home-page.md
+            - name: Миграция на оптимизацию планирования для сводного планирования
+              href: master-planning/new-master-planning-engine.md
             - name: Оптимизация планирования
               items:
                 - name: Обзор оптимизации планирования
@@ -1357,11 +1371,19 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Сводное планирование с прогнозом спроса
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Сводное планирование с торговыми договорами о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Утвердить спланированные заказы
+                - name: Маркировка запасов с оптимизацией планирования
+                  href: master-planning/planning-optimization/marking.md
+                - name: Внутрихолдинговое планирование
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Исключение продуктов с определенными состояниями жизненного цикла продукта
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Утверждение спланированных заказов
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Автоматическое подтверждение при оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Изменение прогноза спроса вручную
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Устранение неполадок со сводным планированием
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Мобильное приложение
           items:
             - name: Домашняя страница мобильного приложения
@@ -1615,7 +1639,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Создание класса SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Связывание класса документов workflow-процесса с типом бизнес-правил
+                    - name: Связывание класса документов бизнес-правил с типом бизнес-правил
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Отчет о типах бизнес-правил
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Расчет спецификаций
                   href: cost-management/bom-calculations.md
+                - name: Устранение неполадок с информацией о продукте
+                  href: pim/troubleshooting-productinformation.md
             - name: Конфигурация продукта
               items:
                 - name: Обзор конфигурации продукта
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Передача данных для моделей продукта
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Устранение неполадок с конфигуратором продукции
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Управление изменениями разработки
+          items:
+            - name: Обзор управления изменениями разработки
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Пошаговое руководство по функции управления изменениями разработки
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Параметры управления изменениями разработки
+              href: engineering-change-management/engineering-parameters.md
+            - name: Определение общих значений для управления изменениями разработки
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Проектные организации и правила владения данными
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Владелец продукта
+              href: engineering-change-management/product-owner.md
+            - name: Атрибуты разработки и поиск атрибутов разработки
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Версии разработки и категории продуктов разработки
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Состояние жизненного цикла продукта и проводки
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Управление изменениями в продуктах разработки
+              href: engineering-change-management/engineering-change-management.md
+            - name: Готовность продукта
+              href: engineering-change-management/product-readiness.md
+            - name: Структура выпуска продукта
+              href: engineering-change-management/release-product-structure.md
         - name: Управление производством
           items:
             - name: Обзор производственного процесса
@@ -2047,6 +2101,8 @@
                       items:
                         - name: Настройка интерфейса выполнения производственного цеха
                           href: production-control/production-floor-execution-configure.md
+                        - name: Разработка интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-tabs.md
                         - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
                           href: production-control/production-floor-execution-setup.md
                         - name: Как работники используют интерфейс выполнения производственного цеха
@@ -2105,6 +2161,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Группы гибкого графика работы
                       href: production-control/time-attendance-flex-groups.md
+                - name: Устранение неполадок дискретного производства
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Бережливое производство
               items:
                 - name: Обзор бережливого производства
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Разноски по производству
                       href: cost-management/production-posting.md
+                - name: Устранение неполадок непрерывного производства
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Продажи и маркетинг
           items:
             - name: Обзор продаж и маркетинга
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Связывание индекса топлива с перевозчиком как дополнительного расхода
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: Сертификация происхождения USMCA
+              href: transportation/usmca-certification-of-origin.md
             - name: Создание транспортной накладной
               href: transportation/create-bill-of-lading.md
             - name: Планирование маршрутов транспортировки
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Регистрация отметки прибытия и отъезда водителя для назначения
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: Скидки
+              href: transportation/transportation-management-discount.md
+            - name: Накладные расходы
+              href: transportation/transportation-management-misc-charge.md
+            - name: Режимы и методы
+              href: transportation/transportation-management-modes-methods.md
+            - name: Номерные серии
+              href: transportation/transportation-management-number-sequence.md
+            - name: Состояние
+              href: transportation/transportation-management-status.md
+            - name: Шаблон зоны
+              href: transportation/transportation-management-zone-master.md
+            - name: Группы перевозчиков
+              href: transportation/tasks/carrier-groups.md
+            - name: Рабочее место формирования загрузки
+              href: transportation/tasks/load-building-workbench.md
+            - name: Шаблоны загрузок
+              href: transportation/tasks/load-template.md
+            - name: Профили оценки
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: Настройка индекса топлива перевозчика
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Настройка способа доставки транспортировки
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Смешивание аналитик продуктов в местонахождении
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Кластеры размещения
+                  href: warehousing/putaway-clusters.md
                 - name: Проверка качества
                   href: warehousing/quality-check.md
+                - name: Устранение неполадок со входящими складскими операциями
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Исходящие складские операции
               items:
                 - name: Резервирование в модуле "Управление складом"
                   items:
                     - name: Гибкая политика резервирования аналитик на уровне склада
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Устранение неполадок резервирований в модуле "Управление складом"
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Частичный отпуск и частичная отгрузка
                   items:
                     - name: Частичная отгрузка загрузки транспорта
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Пакетный выпуск частично зарезервированных заказов на перемещение
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Устранение неполадок с частичным отпуском и частичной отгрузкой
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Комплектация и упаковка
                   items:
                     - name: Настройка комплектации кластера
@@ -2697,6 +2787,10 @@
                       href: warehousing/outbound-sorting.md
                     - name: Поместить на стену — поместить в магазин
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Визуализация исходящей рабочей нагрузки
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Устранение неполадок комплектации и упаковки
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Пополнение
                   items:
                     - name: Обзор пополнения
@@ -2709,13 +2803,17 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Пополнение порога зоны
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Стратегии пополнения
+                      href: warehousing/replenishment-strategies.md
                     - name: Пополнение сверх объема местонахождения
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Устранение неполадок с пополнением склада
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Формирование загрузок и отгрузок
                   items:
                     - name: Подтверждение и перемещение
                       href: warehousing/confirm-and-transfer.md
-                    - name: Подтвердить исходящие отгрузки из пакетных заданий
+                    - name: Подтверждение исходящих отгрузок из пакетных заданий
                       href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Расширенное формирование загрузок во время волны
                       href: warehousing/advanced-load-building-during-wave.md
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Повторная печать и аннулирование этикеток волны
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Устранение неполадок с формированием загрузок и отгрузками
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Политики консолидации отгрузок
                   items:
                     - name: Политики консолидации отгрузок
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 'Случай 5: отгрузки консолидируются вручную на странице консолидации отгрузок'
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Устранение неполадок с исходящими складскими операциями
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Между складскими операциями
               items:
                 - name: Политики работы склада
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Консолидации номенклатур — использование местонахождения
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Устранение неполадок с работой склада
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: Разделение работ
+                      href: warehousing/work-split.md
             - name: Настройка склада
               items:
                 - name: Конфигурация склада
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: Управление работой с помощью шаблонов работ и директив местонахождения
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Создание директив местонахождения
+                    - name: Работа с директивами местонахождения
                       href: warehousing/create-location-directive.md
+                    - name: Лимиты хранения местонахождения
+                      href: warehousing/location-stocking-limits.md
                     - name: Коды шагов волны
                       href: warehousing/wave-step-codes.md
                     - name: Настройка обработки волн
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Настройка склада для заказов на перемещение
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Устранение неполадок конфигурации склада
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Установка и настройка приложения склада
                   items:
                     - name: Установка и подключение приложения склада
@@ -2879,6 +2989,10 @@
                   items:
                     - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Устранение неполадок обновления и миграция на расширенное управление складом
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Устранение неполадок при настройке склада
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Разработка модуля Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта

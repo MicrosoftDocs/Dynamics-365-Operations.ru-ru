@@ -14,14 +14,12 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: "Обновления платформы для 10.0.16 (февраль 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: "Обновления платформы для 10.0.15 (январь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: "Обновления платформы для 10.0.14 (ноябрь 2020\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: "Обновления платформы для 10.0.13 (октябрь 2020\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Обновления платформы для 10.0.12 (август 2020 г.)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции платформы
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: 'Функции AX 2012, реализация которых была отложена'
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: 'Функции, не реализованные в локальных развертываниях'
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Бизнес-события
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Настройка сопоставления для полей статуса заказа на продажу
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Управление двойной записью
                           items:
                             - name: Настройка сопоставлений объектов и полей
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Интегрированный налоговый справочник
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Продажа перспективному клиенту в случае двойной записи
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Внутренние активы для обслуживания
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Интегрированный работник, задание и должность'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Требования к определению параметров оборудования
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Проверка подлинности в Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: Настройка и развертывание локальных сред
                   items:
                     - name: Настройка локальных проектов в LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Создание подключения к Lifecycle Services (LCS) в Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Обновление устаревшего процесса продаж в Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Пример приложения для управления автопарком
               items:
                 - name: Сквозной сценарий для примера приложения для управления автопарком
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Работа с данными через API SysDa
                           href: dev-ref/sysda.md
+                        - name: Устранение атаки внедрения SQL
+                          href: dev-ref/query-with-parameters.md
                     - name: Макросы в X++
                       href: dev-ref/xpp-macros.md
                     - name: Классы атрибутов в X++
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Шифрование в приложениях Finance and Operations
                   href: sysadmin/encryption.md
-                - name: Настройка времени ожидания сеанса
+                - name: Настройка времени ожидания неактивности сеанса
                   href: sysadmin/session-idle-timeout.md
                 - name: Готовые отчеты безопасности
                   href: sysadmin/security-reports.md
                 - name: Создание новых пользователей
                   href: sysadmin/tasks/create-new-users.md
+                - name: Управление сеансами пользователей
+                  href: sysadmin/user-session-management.md
                 - name: Импорт пользователей в пакетном режиме
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Настройка разделения обязанностей
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Настройка клиента Azure Key Vault
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Процедуры очистки
+              href: sysadmin/cleanuproutines.md
         - name: 'Модификации, обновления и исправления'
           items:
             - name: 'Ресурсы модификаций, обновлений и исправлений'
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Создание навигации
                   href: user-interface/build-navigation.md
-                - name: Создание рабочих областей
+                - name: Изменение рабочей области
                   href: user-interface/build-workspace.md
             - name: Формы
               items:

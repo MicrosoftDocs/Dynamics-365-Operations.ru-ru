@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005548"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694394"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Документация по приложениям Finance and Operations
 
@@ -83,7 +82,7 @@ ms.locfileid: "3005548"
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Государственный сектор</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Региональные нормативные компоненты</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Управление персоналом</a></h3>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Льготы</a></p>
 <p><a href="../../human-resources/hr-develop-performance-management-overview.md">Развитие и обучение сотрудников</a></p>
 <p><a href="../../human-resources/hr-learning-questionnaires.md">Анкеты</a></p>
@@ -92,7 +91,7 @@ ms.locfileid: "3005548"
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Управление цепочками поставок</a></h3>
+<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Управление затратами</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Управление запасами</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Сводное планирование</a></p>

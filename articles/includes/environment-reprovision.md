@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459780"
+---
 Чтобы при копировании базы данных между средами скопированная база данных стала полностью функциональной, вам понадобится запустить средство повторной подготовки среды для обеспечения актуальности всех компонентов Commerce.
 
 > [!IMPORTANT]
