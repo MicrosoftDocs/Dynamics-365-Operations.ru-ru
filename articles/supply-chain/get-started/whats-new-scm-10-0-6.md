@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 9ee25036488d2f7f24c1691d36239f3f34caf0cb
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802927"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436087"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.6 (ноябрь 2019 г.)
 

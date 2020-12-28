@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981801"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435710"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Настройка шаблона для представления объектов у клиента 
 

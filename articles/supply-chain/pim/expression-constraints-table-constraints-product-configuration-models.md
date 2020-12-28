@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979836"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436236"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ограничения выражений и ограничения таблиц в моделях конфигурации продукта
 
@@ -110,7 +110,7 @@ ms.locfileid: "3979836"
 <tr class="odd">
 <td>Implies</td>
 <td>Выражение истинно, если первое условие ложно, второе условие истинно или выполняются оба условия.</td>
-<td>Implies[a, b], infix: a -: b</td>
+<td>Implies[a, b], инфиксная нотация: a -: b</td>
 <td><ul>
 <li><strong>Оператор:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Инфиксная нотация:</strong> x != 0 -: y &gt;= 0</li>
@@ -119,7 +119,7 @@ ms.locfileid: "3979836"
 <tr class="even">
 <td>И</td>
 <td>Выражение истинно, только если условия истинны. Если число условий равно 0, результатом будет <strong>True</strong>.</td>
-<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], инфиксная нотация: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>Оператор:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Инфиксная нотация:</strong> x == 2 &amp; y &lt;= 2</li>
@@ -128,7 +128,7 @@ ms.locfileid: "3979836"
 <tr class="odd">
 <td>Или</td>
 <td>Выражение истинно, если любое из условий истинно. Если число условий равно 0, результатом будет <strong>False</strong>.</td>
-<td>Or[args], infix: a | b | ... | z</td>
+<td>Or[args], инфиксная нотация: a | b | ... | z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Инфиксная нотация:</strong> x == 2 | y &lt;= 2</li>
@@ -137,7 +137,7 @@ ms.locfileid: "3979836"
 <tr class="even">
 <td>Плюс</td>
 <td>Выражение суммирует его условия. Если число условий равно 0, результатом будет <strong>0</strong>.</td>
-<td>Plus[args], infix: a + b + ... + z</td>
+<td>Plus[args], инфиксная нотация: a + b + ... + z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Инфиксная нотация:</strong> x + y + 2 == z</li>
@@ -146,7 +146,7 @@ ms.locfileid: "3979836"
 <tr class="odd">
 <td>Минус</td>
 <td>Инвертирует свой аргумент. У этого выражения должно быть ровно одно условие.</td>
-<td>Minus[expr], infix: -expr</td>
+<td>Minus[expr], инфиксная нотация: -expr</td>
 <td><ul>
 <li><strong>Оператор:</strong> Minus[x] == y</li>
 <li><strong>Инфиксная нотация:</strong> -x == y</li>
@@ -161,16 +161,16 @@ ms.locfileid: "3979836"
 <tr class="odd">
 <td>Время</td>
 <td>Выражение получает произведение условий. Если число условий равно 0, результатом будет <strong>1</strong>.</td>
-<td>Times[args], infix: a * b * ... * z</td>
+<td>Times[args], инфиксная нотация: a * b * ... * z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Times[x, y, 2] == z</li>
 <li><strong>Инфиксная нотация:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Степень</td>
-<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (То есть, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
-<td>Power[args], infix: a ^ b ^ ... ^ z</td>
+<td>Мощность</td>
+<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (Другими словами, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
+<td>Power[args], инфиксная нотация: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Power[x, 2] == y</li>
 <li><strong>Инфиксная нотация:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ ms.locfileid: "3979836"
 <tr class="odd">
 <td>Не</td>
 <td>Выражение получает логическую инверсию условия. У этого выражения должно быть ровно одно условие.</td>
-<td>Not[expr], infix: !expr</td>
+<td>Not[expr], инфиксная нотация: !expr</td>
 <td><ul>
 <li><strong>Оператор:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Инфиксная нотация:</strong> !x!(y == 3)</li>

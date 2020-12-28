@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015972"
+ms.locfileid: "4436393"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Настройка перераспределения номенклатур для недоукомплектованности
 

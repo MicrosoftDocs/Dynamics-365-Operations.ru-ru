@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ad6e051694bb96018ac81769fb5320c5bf511cb9
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793061"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435873"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Каталог учебных материалов по продажам и маркетингу партнеров Майкрософт для Dynamics 365 Supply Chain Management
 

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018545"
+ms.locfileid: "4436464"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Устранение неполадок рабочих процессов закупок и источников
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Эта проблема может возникнуть из-за несогласованности в распределениях заказов на покупку.
 
-Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик* , перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик*, перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 Эта проблема будет исправлена в [этой статье базы знаний (KB) Майкрософт](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ SysWorkflowQueue-resume
 
 Эта проблема может возникнуть из-за несогласованности в распределениях заказов на покупку.
 
-Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик* , перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Чтобы разблокировать эту проблему и сбросить заказ на покупку в состояние *Черновик*, перейдите в раздел **Закупки и источники \> Периодические задачи \> Очистка \> Сброс распределения заказов на покупку**. Дополнительные сведения см. в следующей записи блога: [Устранение ошибок распределения заказов на покупку в Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Если остаток поставки отменен в заказе на покупку, где включено управление изменениями, заказ на покупку переходит в подтвержденное состояние.
 
@@ -74,7 +74,7 @@ SysWorkflowQueue-resume
 
 ### <a name="issue-description"></a>Описание проблемы
 
-После отмены заказов на покупку, которые были в состоянии *Подтверждено* , отмененные заказы на покупку все равно появляются в списке черновиков заказов на покупку в рабочей области **Подготовка заказов на покупку**.
+После отмены заказов на покупку, которые были в состоянии *Подтверждено*, отмененные заказы на покупку все равно появляются в списке черновиков заказов на покупку в рабочей области **Подготовка заказов на покупку**.
 
 ### <a name="issue-resolution"></a>Устранение проблемы
 
