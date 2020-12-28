@@ -1,9 +1,9 @@
 ---
 title: Управление отпусками сотрудников
-description: Определение параметров управления персоналом для отпусков и отсутствия в Dynamics 365 Human Resources.
+description: Управление отпусками сотрудников в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712141"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420330"
 ---
 # <a name="manage-employee-leave"></a>Управление отпусками сотрудников
 
@@ -44,6 +44,13 @@ ms.locfileid: "3712141"
 6. При необходимости можно выбрать **Дату**. 
 
 При корректировке сальдо отпусков для сотрудника можно включить код основания и комментарий. 
+
+>[!IMPORTANT]
+>Просмотр дополнительной информации о сальдо отпусков возможен в предварительной версии. Необходимо включить ее в среде **Песочница**. Дополнительные сведения о включении функций предварительной версии см. в разделе [Управление функциями](hr-admin-manage-features.md).<br>
+>При наведении указателя на любой сальдо отпуска теперь можно увидеть:<br>
+>- **Доступно** : итог этого года — взять в этом году
+>- **Итог в этом году**: все начисления, корректировки и переносы для этого года
+>- **Взято в этом году**: все утвержденные отгулы
 
 ## <a name="see-also"></a>См. также
 

@@ -18,11 +18,11 @@ ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599776"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415136"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce
 

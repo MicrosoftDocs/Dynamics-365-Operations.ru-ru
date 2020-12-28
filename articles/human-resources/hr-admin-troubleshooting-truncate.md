@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420248"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Исключение усечения текста по иерархии должностей и экспорт в Visio
 
@@ -54,7 +54,7 @@ ms.locfileid: "3430949"
 
     ![Диалоговое окно экспорта в Excel](media/export-excel.png)
 
-4. В Visio выберите **Visio — создать новый**и выберите категорию шаблонов **Бизнес**.
+4. В Visio выберите **Visio — создать новый** и выберите категорию шаблонов **Бизнес**.
 
     ![Создать диаграмму](media/new.png)
 

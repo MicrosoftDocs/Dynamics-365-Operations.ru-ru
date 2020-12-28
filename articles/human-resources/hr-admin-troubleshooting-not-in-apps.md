@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431092"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420220"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources отсутствует в списке приложений Microsoft Dynamics 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "3431092"
 
 1. Пользователь-администратор, имеющий лицензию Power Apps Plan 2, должен открыть [портал администратора Power Apps](https://preview.admin.powerapps.com/).
 
-2. Выберите **Среды**и выберите правильную среду для Human Resources.
+2. Выберите **Среды** и выберите правильную среду для Human Resources.
 
 3. На вкладке **Безопасность** на вкладке **Роли среды** выберите **Создатель среды**.
 
