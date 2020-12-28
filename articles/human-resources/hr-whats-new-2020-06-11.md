@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0720b2024a865fcd42cd80fd905586d626388f8f
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711802"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420286"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (11 июня 2020 г.)
 

@@ -2,8 +2,8 @@
 title: Создание календаря группы
 description: Просмотр и создание календарей групп в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969006"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420329"
 ---
 # <a name="view-team-and-company-calendars"></a>Просмотр календарей группы и компании
 
@@ -64,6 +64,11 @@ ms.locfileid: "3969006"
 Конфигурация календаря в параметрах отпуска и отсутствия определяет доступные параметры просмотра.
 
 Можно также фильтровать календари по менеджерам или подразделениям. Назначение основной должности определяет сотрудников, которые отображаются, когда установлены эти фильтры. 
+
+>[!IMPORTANT]
+>Просмотр отпусков и отсутствия в нескольких компаниях в настоящее время является предварительной версией. Необходимо включить ее в среде **Песочница**. Дополнительные сведения о включении функций предварительной версии см. в разделе [Управление функциями](hr-admin-manage-features.md).<br><br>
+>Затем необходимо включить функцию в **общих параметрах Human Resources**, чтобы отображать фильтр юридического лица в календарях. Дополнительные сведения см. в разделе [Настройка параметров отпусков и отгулов](hr-leave-and-absence-parameters.md).<br><br>
+>Календарь можно отфильтровать по юридическим лицам. Если требуется отобразить всех сотрудников независимо от юридического лица, снимите флажок и выберите ВВОД. 
 
 Сведения о настройках календаря см. в разделе [Настройка параметров календаря](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
