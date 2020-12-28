@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533398"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517314"
 ---
 # <a name="enable-location-based-store-detection"></a>Включение обнаружения магазинов на основе местоположения
 
@@ -52,11 +52,11 @@ ms.locfileid: "3533398"
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 

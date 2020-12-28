@@ -3,7 +3,7 @@ title: Настройка виртуальных сущностей Common Data 
 description: В этом разделе показано, как настроить виртуальные сущности для Dynamics 365 Human Resources. Создание и обновление существующих виртуальных сущностей и анализ созданных и доступных сущностей.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058162"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645609"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Настройка виртуальных сущностей Common Data Service
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources — это виртуальный источник данных в Common Data Service. Он предоставляет полные операции создания, чтения, обновления и удаления (CRUD) в Common Data Service и Microsoft Power Platform. Данные для виртуальных сущностей хранятся не в Common Data Service, а в базе данных приложения. 
 
@@ -50,11 +50,23 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 ## <a name="setup"></a>Настройка
 
-Для включения виртуальных сущностей в среде выполните следующие шаги настройки. 
+Для включения виртуальных сущностей в среде выполните следующие шаги настройки.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Включение виртуальных сущностей в Human Resources
+
+Сначала необходимо включить виртуальные объекты в рабочей области **Управление функциями**.
+
+1. В модуле Human Resources выберите **Администрирование системы**.
+
+2. Выберите плитку **Управление функциями**.
+
+3. Выберите **Поддержка виртуальных сущностей в HR/CDS**, а затем выберите **Включить**.
+
+Дополнительные сведения о включении и отключении функций см. в разделе [Управление функциями](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Регистрация приложения в Microsoft Azure
 
-Прежде всего необходимо зарегистрировать приложение на портале Azure, чтобы платформа идентификации Microsoft могла предоставлять службы проверки подлинности и авторизации для приложения и пользователей. Дополнительные сведения о регистрации приложений в Azure см. в разделе [Краткое руководство: регистрация приложения на платформе идентификации Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Необходимо зарегистрировать ваш экземпляр Human Resources на портале Azure, чтобы платформа идентификации Microsoft могла предоставлять службы проверки подлинности и авторизации для приложения и пользователей. Дополнительные сведения о регистрации приложений в Azure см. в разделе [Краткое руководство: регистрация приложения на платформе идентификации Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Откройте [портал Microsoft Azure](https://portal.azure.com).
 
@@ -93,7 +105,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 4. Выберите действие **Установить приложение**.
 
-5. Выберите **Dynamics 365 HR Virtual Entity** , затем выберите **Далее**.
+5. Выберите **Dynamics 365 HR Virtual Entity**, затем выберите **Далее**.
 
 6. Просмотрите и отметьте, чтобы принять условия обслуживания.
 
@@ -121,16 +133,28 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 7. Выберите запись **Источник данных Microsoft HR**.
 
-8. Введите требуемые сведения для конфигурации источника данных.
+8. Введите требуемые сведения для конфигурации источника данных:
 
-   - **Целевой URL-адрес** : URL-адрес вашего пространства имен Human Resources.
-   - **Код клиента** : код клиента Azure Active Directory ( Azure AD).
-   - **Код приложения AAD** : код приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **Секрет приложения AAD** : секрет приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Целевой URL-адрес**: URL-адрес вашего пространства имен Human Resources. Формат целевого URL-адреса:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. Нажмите **Сохранить и закрыть**.
+     Пример:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Не забудьте включить символ "**/**" в конце URL-адреса, чтобы избежать возникновения ошибки.
+
+   - **Код клиента**: код клиента Azure Active Directory ( Azure AD).
+
+   - **Код приложения AAD**: код приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **Секрет приложения AAD**: секрет приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Источник данных Microsoft HR](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Нажмите **Сохранить и закрыть**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>Предоставление разрешений приложения в Human Resources
 
@@ -149,8 +173,8 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 3. Выберите **Создать** для создания записи второго приложения:
 
-    - **Код клиента** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Имя** : Dynamics 365 HR Virtual Entity
+    - **Код клиента**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Имя**: Dynamics 365 HR Virtual Entity
     - В поле **Код пользователя** выберите код пользователя с разрешениями администратора в модуле Human Resources и среде Power Apps.
 
 ## <a name="generate-virtual-entities"></a>Создание виртуальных сущностей
@@ -162,7 +186,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 2. Выберите вкладку **Виртуальные сущности**.
 
 > [!NOTE]
-> Переключатель **Включить виртуальную сущность** будет установлен в значение **Да** автоматически, если все необходимые настройки завершены. Если переключатель имеет значение **Нет** , просмотрите шаги в предыдущих разделах данного документа, чтобы выполнить настройку всех необходимых компонентов.
+> Переключатель **Включить виртуальную сущность** будет установлен в значение **Да** автоматически, если все необходимые настройки завершены. Если переключатель имеет значение **Нет**, просмотрите шаги в предыдущих разделах данного документа, чтобы выполнить настройку всех необходимых компонентов.
 
 3. Выберите сущность или сущности, которые требуется создать в Common Data Service.
 

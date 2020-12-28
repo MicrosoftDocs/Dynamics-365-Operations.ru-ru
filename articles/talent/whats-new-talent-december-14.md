@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897749"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529764"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Что нового и что изменилось в Dynamics 365 Talent — Core HR (14 декабря 2018 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Сборка 8.1.2085**
 
@@ -137,9 +139,9 @@ ms.locfileid: "2897749"
 
 Также необходимо обновить преобразование поля "Пол". Выберите тип сопоставления **fn** (функция) для поля "Пол" и обновите следующие сопоставления значений.
 
-| Значение Common Data Service                   | Значение в Finance and Operations                     |
+| Значение Common Data Service                   | Значение Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
-| 75440000                    | Пол сотрудника                                             |
+| 75440000                    | Мужской                                             |
 | 75440001                    | Женский                                           |
 | 75440002                    | Не допускается                                             | 
 | 75440003                    | Не указан                                      |

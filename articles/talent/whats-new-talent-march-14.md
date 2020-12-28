@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897611"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528629"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (14 марта 2019 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты в Talent.
 
@@ -44,8 +46,8 @@ ms.locfileid: "2897611"
 ### <a name="mass-assign-checklists-to-workers"></a>Массовое назначение контрольных списков для работников
 После этого изменения теперь можно выбрать несколько сотрудников и массово назначить этим сотрудников один или несколько контрольных списков. 
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 для Finance and Operations
-Дополнительные сведения об обновлении платформы Platform Update 24 для Finance and Operations см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы Platform Update 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Значительные изменения в платформе 24 включают: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Обновление платформы 24 для Finance and Operations
+Дополнительные сведения об обновлении платформы 24 для Finance and Operations см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Значительные изменения в платформе 24 включают: 
 
 - Оповещения включены в Talent.
 - Обновленная панель навигации теперь совместима с заголовком Office.

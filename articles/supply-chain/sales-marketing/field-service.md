@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209130"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528907"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Обзор интеграции с Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Supply Chain Management обеспечивает синхронизацию бизнес-процессов между Dynamics 365 Supply Chain Management и Dynamics 365 Field Service. Варианты интеграции настраиваются с помощью расширяемых шаблонов интегратора данных и службы Common Data Service для обеспечения синхронизации бизнес-процессов.
 Стандартные шаблоны можно использовать для создания настраиваемых проектов интеграции, где дополнительные стандартные и настраиваемые поля, а также объекты, могут быть сопоставлены для настройки интеграции и соответствия определенным бизнес-требованиям. 

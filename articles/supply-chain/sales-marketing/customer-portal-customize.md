@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414004"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527371"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Настройка и использование клиентского портала
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этом разделе описываются отдельные страницы, доступные на готовом клиентском портале. Даны объяснения, что представляют собой страницы и как их можно настраивать.
 
 Клиентский портал содержит несколько готовых веб-страниц и действий. На следующей карте сайта дан обзор таких веб-страниц и действий, а также ролей, которые могут выполнять эти действия.
 
-![![Карта сайта клиентского портала](media/customer-portal-site-map.png "Карта сайта клиентского портала")](media/customer-portal-site-map.png "Customer portal site map")
+![Карта сайта клиентского портала](media/customer-portal-site-map.png "Карта сайта клиентского портала")
 
 ## <a name="typical-customizations"></a>Типичные настройки
 
@@ -62,12 +64,12 @@ ms.locfileid: "3414004"
     - **Номер заявки** — введите номер заявки для заказа. Это поле необязательно для заполнения.
     - **Поставка в страну/регион** — введите страну или регион, в которые будут поставлены номенклатуры. Это поле автоматически задается для пользователей, не являющихся администраторами.
 
-    ![![Страница информации о заказе](media/customer-portal-order-information.png "Страница информации о заказе")](media/customer-portal-order-information.png "Order Information page")
+    ![Страница информации о заказе](media/customer-portal-order-information.png "Страница информации о заказе")
 
 1. Выберите **Далее**.
 1. На странице **Номенклатуры** выберите **Добавить номенклатуру**.
 
-    ![![Страница номенклатур](media/customer-portal-items.png "Страница номенклатур")](media/customer-portal-items.png "Items page")
+    ![Страница номенклатур](media/customer-portal-items.png "Страница номенклатур")
 
 1. В диалоговом окне **Сведения о номенклатуре** задайте следующие поля:
 
@@ -76,14 +78,14 @@ ms.locfileid: "3414004"
     - **Единица измерения** — укажите единицу измерения (например, **шт.**, **кг** или **коробка**).
     - **Расчетная чистая сумма** — значение рассчитывается как расчетная цена номенклатуры × количество выбранной единицы измерения.
 
-    ![![Диалоговое окно информации о номенклатуре](media/customer-portal-item-information.png "Диалоговое окно информации о номенклатуре")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Диалоговое окно информации о номенклатуре](media/customer-portal-item-information.png "Диалоговое окно информации о номенклатуре")
 
 1. Выберите **Отправить**, чтобы добавить номенклатуру в заказ.
 1. Повторяйте шаги с 4 по 6 до тех пор, пока не будут добавлены все номенклатуры, которые требуется заказать.
 1. После завершения добавления номенклатур нажмите **Далее** на странице **Номенклатуры**.
 1. На странице **Информация о заказе** дана сводка по заказу. Изучите содержимое заказа и сведения о поставке. Если все выглядит правильно, нажмите **Отправить**, чтобы отправить заказ.
 
-    ![![Страница информации о заказе](media/customer-portal-order-submit.png "Страница информации о заказе")](media/customer-portal-order-submit.png "Order Information page")
+    ![Страница информации о заказе](media/customer-portal-order-submit.png "Страница информации о заказе")
 
 ### <a name="standard-data-setup"></a>Настройка стандартных данных
 
@@ -148,19 +150,19 @@ ms.locfileid: "3414004"
 
 Для создания плиток на домашней странице используется единственный настраиваемый элемент управления, включенный в шаблон клиентского портала.
 
-![![Плитки на домашней странице](media/customer-portal-home-page-tiles.png "Плитки на домашней странице")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Плитки на домашней странице](media/customer-portal-home-page-tiles.png "Плитки на домашней странице")
 
 Для изменения плиток выполните следующие действия.
 
 1. Откройте [Приложение управления порталом](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. В области перехода слева выберите **Шаблоны страницы**.
 
-    ![![Область перехода управления порталом](media/customer-portal-nav.png "Область перехода управления порталом")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Область перехода управления порталом](media/customer-portal-nav.png "Область перехода управления порталом")
 
 1. Выберите шаблон страницы под названием **Домашняя страница**.
 1. В поле **Веб-шаблон** выберите ссылку **Домашняя страница**, чтобы открыть исходный код для этой страницы.
 
-    ![![Поле веб-шаблона](media/customer-portal-web-template.png "Поле веб-шаблона")](media/customer-portal-web-template.png "Web Template field")
+    ![Поле веб-шаблона](media/customer-portal-web-template.png "Поле веб-шаблона")
 
 1. Теперь будет показан весь исходный код для домашней страницы, измените его нужным образом.
 

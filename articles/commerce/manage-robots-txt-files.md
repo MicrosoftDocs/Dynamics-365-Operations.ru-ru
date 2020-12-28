@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983631"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517460"
 ---
 # <a name="manage-robotstxt-files"></a>Управление файлами robots.txt
 
@@ -90,15 +90,15 @@ Dynamics 365 Commerce позволяет загружать файл robots.txt 
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
 
-[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+[Настройка клиента B2C в модуле Commerce](set-up-B2C-tenant.md)
 
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 

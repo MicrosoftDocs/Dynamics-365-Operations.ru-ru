@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974846"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665306"
 ---
 # <a name="recall-order-operation-in-pos"></a>Операция отзыва заказа в POS-терминале
 
 [!include [banner](includes/banner.md)]
 
-Операция отзыва заказа в POS-терминала Commerce обеспечивает обновление функций поиска и фильтрации заказов и информации, относящейся к заказу. Эта функция доступна в версиях Commerce 10.0.15 и выше.
+Операция **Отзыв заказа** в POS-терминала Commerce обеспечивает обновление функций поиска и фильтрации заказов и информации, относящейся к заказу. Эта функция доступна в версиях Commerce 10.0.15 и выше.
 
 Чтобы включить эту функцию, необходимо включить функцию **Усовершенствованная операция отзыва заказов в POS-терминале** в рабочей области **Управления функциями** в Commerce Headquarters. После включения функции обновите [макеты экрана](pos-screen-layouts.md) в POS-терминале, чтобы воспользоваться преимуществами некоторых измененных возможностей.
 

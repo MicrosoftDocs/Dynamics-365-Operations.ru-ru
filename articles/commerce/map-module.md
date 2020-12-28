@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817214"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665428"
 ---
 # <a name="map-module"></a>Модуль карты
 
@@ -58,7 +58,7 @@ ms.locfileid: "3817214"
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Добавление разрешенных URL-адресов для сопоставления в директивы политики безопасности содержимого сайта
 
-Для взаимодействия модуля карты с Картами Bing необходимо убедиться, что следующие URL-адреса сопоставления разрешены (также называются "список разрешенных") в политике безопасности содержимого сайта (CSP). Эта настройка выполняется в построителе сайтов Commerce путем добавления разрешенных URL-адресов в различные директивы CSP для сайта (например, **img-src**). Дополнительные сведения см. в разделе [Политика безопасности содержимого](manage-csp.md). 
+Для взаимодействия модуля карты с Картами Bing необходимо убедиться, что следующие URL-адреса сопоставления разрешены в политике безопасности содержимого сайта (CSP). Эта настройка выполняется в построителе сайтов Commerce путем добавления разрешенных URL-адресов в различные директивы CSP для сайта (например, **img-src**). Дополнительные сведения см. в разделе [Политика безопасности содержимого](manage-csp.md). 
 
 - В директиву **connect-src** добавьте **&#42;.bing.com**.
 - В директиву **img-src**, добавьте **&#42;.virtualearth.net**.

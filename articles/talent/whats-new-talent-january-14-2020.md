@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c885602f99995d536d8ff3be43e67578abcda3fc
-ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
+ms.openlocfilehash: 865ddbc6749d3ea29a258f4c772044307c41bf35
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081826"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529122"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-14-2020"></a>Что нового и что изменилось в Dynamics 365 Talent (14 января 2020 г.)
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Talent.
 

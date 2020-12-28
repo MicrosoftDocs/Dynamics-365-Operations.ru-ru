@@ -17,16 +17,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a3389d6ce5f1985f7515e777a2bafae4eae5f0c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431115"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589071"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 В этом разделе содержатся ответы на часто задаваемые вопросы, связанные с тем, какие данные синхронизируются в случае интеграции Dynamics 365 Human Resources с Dynamics 365 Finance.
+
+## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Можно ли редактировать пользователя приложения Dynamics 365 Talent в Power Apps?
+
+№ п/п При изменении пользователя приложения Talent интеграция между Human Resources и Common Data Service может быть нарушена. В приведенной ниже таблице показаны параметры по умолчанию для пользователя приложения Talent.
+
+| Полное имя | ИД приложения | Код объекта Azure AD | URI кода приложения |
+| --- | --- | --- | --- |
+| Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
+
+![Параметры по умолчанию для пользователя приложения Talent](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Синхронизируются все данные или только некоторые информационные объекты?
 
@@ -50,7 +62,7 @@ ms.locfileid: "3431115"
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Иногда при импорте сотрудников они перемещаются в неактивных работников в Finance. Почему?
 
-Данная ошибка может возникать, если у сотрудников нет активной записи сведений о приеме на работу в Human Resources. Чтобы решить эту проблему, откройте **Управление персоналом \> Сотрудники \> История занятости \> Диспетчер дат**и убедитесь, что имеется активная запись данных о приеме на работу.
+Данная ошибка может возникать, если у сотрудников нет активной записи сведений о приеме на работу в Human Resources. Чтобы решить эту проблему, откройте **Управление персоналом \> Сотрудники \> История занятости \> Диспетчер дат** и убедитесь, что имеется активная запись данных о приеме на работу.
 
 ## <a name="if-i-select-to-map-only-a-subset-of-fields-will-changes-made-to-non-mapped-fields-trigger-a-sync"></a>Если я выбрал сопоставить только подмножество полей, изменений, будут ли изменения, внесенные в несопоставленные поля, вызывать синхронизацию?
 

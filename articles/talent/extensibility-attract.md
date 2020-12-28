@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832869"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527250"
 ---
 # <a name="extensibility-in-attract"></a>Расширяемость в Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Talent строится на основе Common Data Service и может расширяться различными способами с помощью платформы Microsoft Power Platform и возможностей, предлагаемых службой Common Data Service. Таким образом, можно настроить и персонализировать систему с помощью Microsoft Power Apps и Microsoft Power Automate. Можно также получить дополнительные аналитические данные о людях с помощью Microsoft Power BI. Кроме того, новые пользовательские действия, такие как Power Apps и веб-содержимое (iframe), сделают процесс найма более гибким, чем когда-либо ранее. С помощью этих действий можно настроить процесс найма для потребностей и процессов вашего бизнеса и можно обеспечить эффективную настраиваемую среду как для группы найма на работу, так и для кандидатов.
 

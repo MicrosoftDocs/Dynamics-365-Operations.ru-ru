@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fc0490e3532dcbb9c1e91101009b2d4605315416
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097072"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594220"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Отправка файлов, отличных от изображений и видео
 
@@ -95,4 +95,6 @@ ms.locfileid: "3097072"
 
 [Кадрирование изображений](dam-crop-images.md)
 
-[Настройка фокальных точек изображения](dam-custom-focal-point.md)
+[Настройка точек фокуса изображения](dam-custom-focal-point.md)
+
+[Отправка и предоставление статических файлов](upload-serve-static-files.md)

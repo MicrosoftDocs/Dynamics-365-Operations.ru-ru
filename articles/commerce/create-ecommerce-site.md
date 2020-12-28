@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533444"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517192"
 ---
 # <a name="create-an-e-commerce-site"></a>Создание сайта электронной коммерции
 
@@ -32,7 +32,7 @@ ms.locfileid: "3533444"
 
 В этой теме описываются шаги и сведения, необходимые для создания нового сайта электронной коммерции в построителе сайтов Dynamics 365 Commerce.
 
-При наличии лицензии на использование электронной коммерции для построителя сайтов будет подготовлен начальный сайт, который можно использовать в качестве основы для собственного сайта. Однако если необходимо начать с нуля или если необходимо создать второй сайт, необходимо создать новый сайт в среде разработки сайтов. 
+При наличии лицензии на возможности Dynamics 365 Commerce будет подготовлен построитель сайтов с начальным сайтом, который можно использовать в качестве основы для собственного сайта. Однако если необходимо начать с нуля или если необходимо создать второй сайт, необходимо создать новый сайт в среде разработки сайтов. 
 
 ## <a name="set-up-your-site"></a>Настройка сайта
 
@@ -58,9 +58,9 @@ ms.locfileid: "3533444"
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 

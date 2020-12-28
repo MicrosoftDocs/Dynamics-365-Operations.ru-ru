@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 года)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012283"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700965"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 года)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.15. Эта версия имеет номер сборки 10.0.644 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты в Microsoft Dynamics 365 Supply Chain Management версии 10.0.15. Эта версия имеет номер сборки 10.0.644 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** октябрь 2020 г.
 - **Общая доступность выпуска (самостоятельное обновление):** ноябрь 2020 г.
@@ -39,19 +38,23 @@ ms.locfileid: "4012283"
 
 Этот выпуск содержит следующие функции. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<br> - Дополнительные сведения см. в разделе [Облачные и пограничные единицы масштабирования для рабочих нагрузок производства и управления складом](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Создать и обработать заказы на перемещение из приложения склада](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Дополнительные сведения см. в разделе [Создание заказов на перемещение из приложения склада](../warehousing/create-transfer-order-from-warehouse-app.md).
 
 - [Поля ответа на запрос предложения по умолчанию для предложений поставщиков](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Дополнительные сведения см. в разделе [Обзор запросов предложений](../procurement/request-quotations.md).
 
-- [Надстройка для управления изменениями в проектировании для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [Надстройка для управления изменениями в проектировании для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Дополнительные сведения см. в разделе [Обзор управления техническими изменениями](../engineering-change-management/product-engineering-overview.md).
 
 - [Руководства с использованием смешанной реальности для производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Дополнительные сведения см. в разделе [Предоставление руководств с использованием смешанной реальности для работников на производстве](../production-control/instruction-guides-in-production-overview.md).
 
 - [Новое взаимодействие с пользователем для выполнения производственного цеха](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Дополнительные сведения см. в разделе [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md).
 
 - [Обработка событий приложения склада](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Дополнительные сведения см. в разделе [Обработка событий приложения склада](../warehousing/warehouse-app-events.md).
+
+- [Сохраненные представления для страницы выпущенных продуктов](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Дополнительные сведения см. в разделе [Сохраненные представления](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+
+- Документ "Сертификат о происхождении USMCA"<br> - Дополнительные сведения см. в разделе [Сертификация происхождения USMCA](../transportation/usmca-certification-of-origin.md).
 
 Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 

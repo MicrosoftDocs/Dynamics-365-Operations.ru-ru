@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462398"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Просмотр состояния адаптируемых сотрудников и ваших задач
 
@@ -33,12 +33,12 @@ Microsoft Dynamics 365 Talent: Onboard позволяет просматрива
 
 1. В левом меню выберите **Руководства**. Вы видите обзор прогресса для всех руководств по адаптации, которые вы отправили.
 
-    ![[Просмотр состояния руководство по адаптации](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[Просмотр состояния руководств по адаптации](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
 2. Для детализации выберите руководство, которое хотите просмотреть.
 3. Выберите вкладку **Мероприятия**, чтобы узнать, какие действия завершил ваш новый сотрудник.
 
-    ![[Просмотр мероприятий, которые завершил новый сотрудник](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Просмотр действий, выполненных новым сотрудником](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Просмотр назначенных вам задач адаптации
 

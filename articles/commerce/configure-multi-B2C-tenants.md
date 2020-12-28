@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976024"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517139"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Настройка нескольких клиентов B2C в среде Commerce
 
@@ -114,11 +114,11 @@ Dynamics 365 Commerce использует облачную службу удо�
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 

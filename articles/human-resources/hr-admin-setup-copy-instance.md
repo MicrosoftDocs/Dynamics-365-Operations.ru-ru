@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706236"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527845"
 ---
 # <a name="copy-an-instance"></a>Копирование экземпляра
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Можно использовать Microsoft Dynamics Lifecycle Services (LCS) для копирования базы данных Microsoft Dynamics 365 Human Resources в среду в песочнице. При наличии другой среды-песочницы можно также скопировать базу данных из этой среды в целевую среду-песочницу.
 
