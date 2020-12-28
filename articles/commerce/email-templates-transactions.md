@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983165"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415150"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Создание шаблонов сообщений электронной почты для событий проводок
 

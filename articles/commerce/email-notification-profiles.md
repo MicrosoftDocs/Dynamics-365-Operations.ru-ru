@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
-ms.sourcegitcommit: 17ffdcbf4b1801bd6ee9c9ddc18622d5d04b8a98
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180203"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415151"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Настройка профиля уведомлений по электронной почте
 

@@ -17,11 +17,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117298"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415326"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Новые возможности и изменения в Dynamics 365 Retail
 

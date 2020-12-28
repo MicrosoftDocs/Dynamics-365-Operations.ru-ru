@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036840"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415301"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Создание списков задач и добавление задач
 
@@ -43,7 +43,7 @@ ms.locfileid: "3036840"
 Выполните следующие действия, чтобы создать список задач.
 
 1. Перейдите в **Retail и Commerce \> Управление задачами \> Администрирование управления задачами**.
-1. Выберите **Создать**, а затем введите значения в поля **Имя**, **Описание**и **Владелец**.
+1. Выберите **Создать**, а затем введите значения в поля **Имя**, **Описание** и **Владелец**.
 1. Нажмите **Сохранить**.
 
 ## <a name="add-tasks-to-a-task-list"></a>Добавление задач в список задач
