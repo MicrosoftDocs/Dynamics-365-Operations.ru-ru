@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982265"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435853"
 ---
 # <a name="weighted-average-date"></a>Взвешенное среднее по дате
 
@@ -38,7 +38,7 @@ ms.locfileid: "3982265"
 
 Расчет себестоимости по методу взвешенного среднего по дате производится по следующей формуле: 
 
-Средневзвешенное значение = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Средневзвешенное значение = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Во время закрытия запасов расчет выполняется ежедневно в течение периода закрытия, как показано на следующем рисунке. 
 

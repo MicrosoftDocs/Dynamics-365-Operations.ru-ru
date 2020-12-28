@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 263a044a0a378e95ea271ac1c6f468f9e3287f26
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802733"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435857"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Простой из-за обслуживания для заказов на работу
 

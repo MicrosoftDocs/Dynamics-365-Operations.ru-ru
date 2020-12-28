@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 5ebf23c5c831e9dad5d13c72f82eb3eeb30da853
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215869"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435847"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Синхронизация заказов на выполнение работ с проектом из Field Service в Supply Chain Management
 
