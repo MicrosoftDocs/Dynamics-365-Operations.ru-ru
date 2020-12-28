@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897588"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528677"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (11 июня 2019 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
@@ -54,7 +56,7 @@ ms.locfileid: "2897588"
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 для Finance and Operations
+### <a name="platform-update-27-for-finance-and-operations"></a>Обновление платформы 27 для Finance and Operations
 
 Дополнительные сведения об обновлении платформы Platform update 27 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 27 (июнь 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 

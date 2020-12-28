@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646047"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517216"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки контента (CDN)
 
@@ -97,7 +97,7 @@ ms.locfileid: "3646047"
 1. В поле **Имя** введите **по умолчанию**.
 1. В поле **Принятый протокол** выберите **HTTP и HTTPS**.
 1. В поле **Интерфейсные узлы** введите **dynamics-ecom-tenant-name.azurefd.net**.
-1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\***.
+1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\** _.
 1. В разделе **Сведения о маршруте** установите параметр **Тип маршрута** в значение **Прямой**.
 1. В поле **Серверный пул** выберите **ecom-backend**.
 1. В группе полей **Протокол переадресации** выберите параметр **Сопоставить запрос**. 
@@ -110,7 +110,7 @@ ms.locfileid: "3646047"
 1. В поле **Имя** введите **статические**.
 1. В поле **Принятый протокол** выберите **HTTP и HTTPS**.
 1. В поле **Интерфейсные узлы** введите **dynamics-ecom-tenant-name.azurefd.net**.
-1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\_msdyn365/\_scnr/\***.
+1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\_msdyn365/\_scnr/\** _.
 1. В разделе **Сведения о маршруте** установите параметр **Тип маршрута** в значение **Прямой**.
 1. В поле **Серверный пул** выберите **ecom-backend**.
 1. В группе полей **Протокол переадресации** выберите параметр **Сопоставить запрос**.
@@ -146,11 +146,11 @@ ms.locfileid: "3646047"
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 

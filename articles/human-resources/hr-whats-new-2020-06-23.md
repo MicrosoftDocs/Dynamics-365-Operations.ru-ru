@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711948"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528725"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (23 июня 2020 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3347. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 

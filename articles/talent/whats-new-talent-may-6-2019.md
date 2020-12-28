@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897519"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529716"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (6 мая 2019 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
@@ -43,7 +45,7 @@ ms.locfileid: "2897519"
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2282. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 для Finance and Operations
+### <a name="platform-update-26-for-finance-and-operations"></a>Обновление платформы 26 для Finance and Operations
 
 Дополнительные сведения об обновлении платформы Platform update 26 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 26 (май 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 

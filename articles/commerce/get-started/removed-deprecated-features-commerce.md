@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 07/07/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
-ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
+ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3539887"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689547"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Удаленные или устаревшие функции Dynamics 365 Commerce
 
@@ -35,6 +35,18 @@ ms.locfileid: "3539887"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.15
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Поддержка Internet Explorer 11 для Dynamics 365 устарела
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Начиная с декабря 2020 года поддержка Microsoft Internet Explorer 11 всех продуктов Dynamics 365 устарела, и Internet Explorer 11 не будет поддерживаться после августа 2021 года.<br><br>Это повлияет на клиентов, использующих продукты Dynamics 365, которые разработаны для использования с помощью интерфейса Internet Explorer 11. После августа 2021 года Internet Explorer 11 не будет поддерживаться для подобных продуктов Dynamics 365. |
+| **Заменена другой функцией?**   | Мы рекомендуем пользователям переходить на Microsoft Edge.|
+| **Затрагиваемые области продукта**         | Все продукты Dynamics 365 |
+| **Вариант развертывания**              | Все|
+| **Состояние**                         | Устарело. Internet Explorer 11 не будет поддерживаться после августа 2021 года.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.11
 ### <a name="data-action-hooks"></a>Обработчики действий с данными

@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897703"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529170"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Что нового и что изменилось в Dynamics 365 Talent — Core HR (6 декабря 2018 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Сборка 8.1.2071**
 
 В этой теме описываются новые и измененные компоненты Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 для Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>Обновление платформы 22 для Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Экспорт до 1 миллиона строк в Excel
 

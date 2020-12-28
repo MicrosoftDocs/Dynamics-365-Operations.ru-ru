@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056105"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527893"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Интеграция с LinkedIn Talent Hub
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) является платформой системы отслеживания кандидатов (АТС). Оно позволяет искать, контролировать и нанимать сотрудников в одном месте. Интегрировав Microsoft Dynamics 365 Human Resources с LinkedIn Talent Hub, можно легко создавать записи о сотрудниках в Human Resources для претендентов, которые были приняты на должность.
 
@@ -99,7 +101,7 @@ ms.locfileid: "4056105"
     1. Измените значение поля **Тип пользователя** на **Пользователь приложения**.
     2. Задайте в поле **Имя пользователя** значение **Интеграция Dynamics365 HR LinkedIn HRIS**.
     3. Задайте в поле **Код приложения** значение **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Введите любое значение в поля **Имя** , **Фамилия** и **Основной адрес электронной почты**.
+    4. Введите любое значение в поля **Имя**, **Фамилия** и **Основной адрес электронной почты**.
     5. На панели инструментов выберите **Сохранить \& закрыть**.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Назначение роли безопасности новому пользователю
@@ -121,9 +123,9 @@ ms.locfileid: "4056105"
 1. В Dynamics 365 Human Resources откройте страницу **Приложения Azure Active Directory**.
 2. Добавьте новую запись в список и задайте следующие поля:
 
-    - **Код клиента** : введите **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Имя** : введите имя созданной ранее роли безопасности Power Apps, например **Интеграция LinkedIn Talent Hub HRIS**.
-    - **Код пользователя** : выберите пользователя, обладающего разрешениями на запись данных в управлении персоналом.
+    - **Код клиента**: введите **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Имя**: введите имя созданной ранее роли безопасности Power Apps, например **Интеграция LinkedIn Talent Hub HRIS**.
+    - **Код пользователя**: выберите пользователя, обладающего разрешениями на запись данных в управлении персоналом.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Создание сущности в Common Data Service
 
@@ -150,9 +152,9 @@ ms.locfileid: "4056105"
 
 2. Выберите запись кандидата.
 
-3. Выберите **Изменить стадию** , затем выберите **Нанят**.
+3. Выберите **Изменить стадию**, затем выберите **Нанят**.
 
-4. В меню с многоточием ( **...** ) для кандидата выберите **Экспорт в HRIS**.
+4. В меню с многоточием (**...**) для кандидата выберите **Экспорт в HRIS**.
 
 5. В области **Экспорт в HRIS** введите информацию, которую необходимо экспортировать:
 

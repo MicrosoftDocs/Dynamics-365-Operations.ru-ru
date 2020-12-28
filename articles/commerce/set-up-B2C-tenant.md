@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980972"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517388"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Настройка клиента B2C в Commerce
 
@@ -345,15 +345,15 @@ Azure AD B2C предоставляет три основных типа пот�
 
 [Настройка доменного имени](configure-your-domain-name.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
+[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Связывание веб-сайта с каналом](associate-site-online-store.md)
+[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
-[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)Связывание сайта Dynamics 365 Commerce с интернет-каналом
 
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 

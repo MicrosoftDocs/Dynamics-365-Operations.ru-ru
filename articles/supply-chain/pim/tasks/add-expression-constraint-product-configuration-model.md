@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986487"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436052"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Добавление ограничения выражения к модели конфигурации продукта
 
@@ -44,7 +44,7 @@ ms.locfileid: "3986487"
 ## <a name="enter-expression"></a>Ввести выражение
 1. Щелкните "Изменить выражение".
     * Если вы разблокируете интерфейс в записи задач на этом этапе, можно использовать IntelliSense и список символов для построения выражения ограничения.  
-2. В поле "ConstraintBody" введите в "Implies[FrontGrill=="Metal", CornerProtection]".
+2. В поле "ConstraintBody" введите "Implies[FrontGrill=="Metal", CornerProtection]".
     * Логика этого выражения гласит: если передняя решетка металлическая, должен быть выбран параметр защиты углов.  
 3. Щелкните "Проверить".
     * Функция проверки выполняется через выражение ограничения и проверяет наличие синтаксических ошибок.  

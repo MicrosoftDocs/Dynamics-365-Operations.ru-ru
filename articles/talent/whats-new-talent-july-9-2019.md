@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: feb39966d98fa7bde9a6bfad26b07fbd224da59b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897634"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528047"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (9 июля 2019 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
@@ -47,9 +49,9 @@ ms.locfileid: "2897634"
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2374.
 
-### <a name="platform-update-28-for-finance-and-operations"></a>Platform Update 28 для Finance and Operations
+### <a name="platform-update-28-for-finance-and-operations"></a>Обновление платформы 28 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Platform Update 28 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Дополнительные сведения об обновлении платформы Platform update 28 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Поддержка объектов для настраиваемых полей в Common Data Service 
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431230"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527808"
 ---
 # <a name="provision-human-resources"></a>Обеспечение Human Resources
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой статье содержится пошаговое описание процесса подготовки новой производственной среды для Microsoft Dynamics 365 Human Resources. В этой статье предполагается, что вы приобрели Управление персоналом в соответствии с соглашением поставщика облачных решений (CSP) или архитектуры предприятия (EA). Если имеется существующая лицензия Microsoft Dynamics 365, которая уже включает план обслуживания Управление персоналом, но вы не можете выполнить действия, описанные в этой статье, обратитесь в службу поддержки.
 
@@ -96,7 +98,7 @@ ms.locfileid: "3431230"
    
     - **Пробные среды** — эти среды создаются с датой истечения срока действия. После истечения срока действия среда и все содержащиеся в ней экземпляры Human Resources будут удалены автоматически.
    
-    - **Неподдерживаемые регионы** — в настоящее время Human Resources поддерживается только в следующих регионах: США, Европа, Великобритания, Австралия, Канада и Азия.
+    - **Неподдерживаемые регионы** — в настоящее время Human Resources поддерживается только в следующих регионах: США, Европа, Соединенное Королевство, Австралия, Канада и Азия.
 
     > [!NOTE]
     > Среда Human Resources настраивается в той же области, в которой подготовлена среда Power Apps. Миграция среды Human Resources в другой регион не поддерживается.

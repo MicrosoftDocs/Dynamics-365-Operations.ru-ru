@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5849e3a8c3c619916c718032579d4fe6444fa49b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889129"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436334"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Состояния жизненного цикла запросов на обслуживание
 

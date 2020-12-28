@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016386"
+ms.locfileid: "4436406"
 ---
 # <a name="transportation-management-overview"></a>Обзор управления транспортировкой
 

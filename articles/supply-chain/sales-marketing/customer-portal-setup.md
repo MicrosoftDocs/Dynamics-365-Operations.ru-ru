@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
-ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
+ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435616"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529538"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Установка, настройка и обновление клиентского портала
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
 

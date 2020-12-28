@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930025"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476085"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -86,7 +86,6 @@ ms.locfileid: "3930025"
 
 | Расход | Состояние |
 | --- | --- |
-| Горизонтальная прокрутка не работает для телефонов с Android | Горизонтальная прокрутка не является проблемой на устройствах с iOS или на настольном компьютере. Мы работаем над исправлением для Android. |
 | Неверное сальдо при подаче запроса на отпуск для будущей даты. | Прогнозирование пока недоступно. Сальдо отображается для текущей даты. |
 | Не удается отменить запрос **На рассмотрении**. | Эта функциональная возможность в настоящее время не поддерживается и будет добавлена в будущем выпуске. |
 | Сведения о сальдо рассчитываются на сегодняшний день. | В настоящее время в системе не отображается сальдо на период начисления, даже если оно настроено в параметрах отпусков и отсутствия. |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d8f70e7aa7316241adbbde6c4188c2ae0e640633
-ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.openlocfilehash: 675a3f0faed0ce8be4ce2633585ce8e0cf1c9be7
+ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "3823535"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4669092"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Что нового и что изменилось в Human Resources
 
@@ -49,6 +49,8 @@ ms.locfileid: "3823535"
 
 Чтобы выяснить новые или измененные функции в каждом двухнедельном выпуске Human Resources, см. следующие статьи:
 
+[02 декабря 2020 г.](hr-whats-new-2020-12-02.md)</br>
+[22 октября 2020 г.](hr-whats-new-2020-10-22.md)</br>
 [16 сентября 2020 г.](hr-whats-new-2020-09-16.md)</br>
 [3 сентября 2020 г.](hr-whats-new-2020-09-03.md)</br>
 [20 августа 2020 г.](hr-whats-new-2020-08-20.md)</br>
@@ -74,6 +76,6 @@ ms.locfileid: "3823535"
 
 ## <a name="see-also"></a>См. также
 
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2020, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)

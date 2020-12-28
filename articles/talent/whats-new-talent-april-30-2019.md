@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 2539baba84bffeb21d351cc307191eea3e940515
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897900"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528203"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Что нового или что изменилось в Dynamics 365 Talent (30 апреля 2019 г.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
@@ -98,4 +100,4 @@ ms.locfileid: "2897900"
 
 ### <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
 
-В обновлении платформы Platform Update 26 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически отправляют уведомления по электронной почте контактам, когда уведомления запускаются событием.
+В обновлении платформы Platform update 26 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам, когда уведомления запускаются событиями.
