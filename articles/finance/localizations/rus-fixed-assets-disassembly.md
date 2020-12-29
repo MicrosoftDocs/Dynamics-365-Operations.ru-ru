@@ -18,11 +18,11 @@ ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 267d6f2d8958161c51c0bc637a05379980f54954
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552342"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408567"
 ---
 # <a name="partial-fixed-asset-disassembly-liquidation"></a>Частичная разборка ОС (ликвидация)
 

@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8776443b32d7ea428d7900d636786542b5aa43f3
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976079"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408569"
 ---
 # <a name="transfer-fixed-assets-russia"></a>Перенос основных средств (Россия)
 

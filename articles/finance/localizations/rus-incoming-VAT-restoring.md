@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 950c08ae34dbc483f4fa9830600553c5c31574a8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987319"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408561"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]

@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 2479bfc79169012d9e97ede4884f037a41734022
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408530"
 ---
 # <a name="set-up-deferrals-russia"></a>Настройка расходов будущих периодов (Россия)
 

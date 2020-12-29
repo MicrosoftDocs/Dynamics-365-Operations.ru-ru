@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: f575a19f0244bc0694f67738f2c9402b8b033d9a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770372"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408581"
 ---
 # <a name="calculate-depreciation-for-russia"></a>Расчет амортизации для России
 

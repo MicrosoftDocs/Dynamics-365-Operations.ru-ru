@@ -16,11 +16,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 1ef50fc6d17b8054cdf08df9a9b2033dc00fabc1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553207"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408585"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажи, покупки и переводы в иностранной валюте
 

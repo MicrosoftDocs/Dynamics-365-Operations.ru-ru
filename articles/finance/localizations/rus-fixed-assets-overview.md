@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: f962abaf1199a3fe44cd17e50c8b477baa11a378
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915403"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408565"
 ---
 # <a name="fixed-assets-overview"></a>Обзор основных средств
 

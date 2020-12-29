@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: fc680ac238d5152f42c93438d815939b706dab22
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092190"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408552"
 ---
 # <a name="ledger-translation-russia"></a>Трансляция счетов (Россия)
 

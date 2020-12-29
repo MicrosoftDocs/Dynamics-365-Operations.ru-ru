@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: e9fe4fad187148875f5e0bdc3994a80309dcd53b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976080"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408570"
 ---
 # <a name="create-a-fixed-asset-lease-and-a-return-from-lease-transaction-russia"></a>Создание проводки по аренде и окончании аренды основных средств (Россия)
 

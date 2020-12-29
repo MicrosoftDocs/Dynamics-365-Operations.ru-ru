@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a68afc70f22fd566fe54ab71051f558c67f4898
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978166"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408525"
 ---
 # <a name="correspondence-of-accounts"></a>Корреспонденция счетов
 

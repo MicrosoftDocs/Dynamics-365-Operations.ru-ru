@@ -16,11 +16,11 @@ ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 4b5c1fdf8dd0859df38b8cbc9f656acd9754407b
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2668330"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408546"
 ---
 # <a name="allocation-of-miscellaneous-charges-in-proportion-to-weight-and-volume"></a>Распределение накладных расходов пропорционально весу и объему
 [!include [banner](../includes/banner.md)]

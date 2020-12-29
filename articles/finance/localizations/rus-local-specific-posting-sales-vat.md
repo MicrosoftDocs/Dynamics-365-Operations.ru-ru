@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 75dfe57487967dd4ba30017fa87cfe9df022342d
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553206"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408547"
 ---
 # <a name="local-specific-posting-of-sales-vat"></a>Специфическая локальная разноска исходящего НДС 
 

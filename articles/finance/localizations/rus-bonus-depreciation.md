@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 33b23fd64a84e3f99c6fedf6517c051c0050b3c2
-ms.sourcegitcommit: 7507d711596921a0cd39119804d0ca2d47b31e65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2020
-ms.locfileid: "3270862"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408505"
 ---
 # <a name="depreciation-bonuses-russia"></a>Амортизационные премии (Россия)
 

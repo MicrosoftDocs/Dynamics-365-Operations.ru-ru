@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 74628cb40e9d9ad1eefd231570c4d40a1f543b4b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985929"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408509"
 ---
 # <a name="russia-advance-holders-overview"></a>Обзор подотчетных лиц России
 [!include [banner](../includes/banner.md)]

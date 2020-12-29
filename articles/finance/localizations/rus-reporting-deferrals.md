@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 40c6d8fd05dd20de95980c8bd131ad464129f6d8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175209"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408536"
 ---
 # <a name="reporting-for-deferrals-russia"></a>Отчетность по РБП (Россия)
 

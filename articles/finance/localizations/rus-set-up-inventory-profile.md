@@ -16,11 +16,11 @@ ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8facb3c0b67a421b7176e9397991460b4858c770
-ms.sourcegitcommit: 60ad3da04c815c2516672543320ae4b631e78662
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3368810"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408528"
 ---
 # <a name="set-up-an-inventory-profile"></a>Настройка профиля учета 
 [!include [banner](../includes/banner.md)]

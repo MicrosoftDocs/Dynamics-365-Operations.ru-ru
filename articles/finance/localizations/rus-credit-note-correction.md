@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
 ms.openlocfilehash: 067fdcd49a08862939cece7defd83dffb883d4cb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175224"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408586"
 ---
 # <a name="credit-note-corrections-russia"></a>Корректировки кредит-нот (Россия)
 

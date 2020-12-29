@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 583b9b141e088475bd49bb8b10479651b9006ec9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986903"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408591"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]

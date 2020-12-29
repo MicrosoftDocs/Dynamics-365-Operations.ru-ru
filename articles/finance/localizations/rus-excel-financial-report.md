@@ -15,11 +15,11 @@ ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 951d0f4c647880bba53669dde693888fbd4d2eab
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3886910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408578"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 

@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: de50d3320ada278fbf43dbb313fdaed38b57ee9e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408506"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

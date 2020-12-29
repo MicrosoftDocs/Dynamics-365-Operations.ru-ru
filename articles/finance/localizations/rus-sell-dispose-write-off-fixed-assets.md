@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ba7daab36d82fa33f2d1c61f89b82381c180d5e4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408532"
 ---
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]

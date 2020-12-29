@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 2c9b68253e559f6bcd85633e954966185b27fdaf
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552344"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408582"
 ---
 # <a name="receipt-of-deferrals"></a>Поступление РБП
 

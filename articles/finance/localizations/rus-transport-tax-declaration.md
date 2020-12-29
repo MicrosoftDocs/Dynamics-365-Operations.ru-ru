@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 70280ac14c3f06ac05092e374094ce81f7157c37
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183901"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408501"
 ---
 # <a name="transport-tax-declaration-russia"></a>Декларация по транспортному налогу (Россия)
 

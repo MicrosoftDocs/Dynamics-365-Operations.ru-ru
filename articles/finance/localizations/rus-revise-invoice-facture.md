@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
 ms.openlocfilehash: 4e870b15b20dccc7fc6ca984b5007f47bf5c06f5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773483"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408535"
 ---
 # <a name="revision-factures-and-corrective-factures"></a>Пересмотр счетов-фактур и корректирующие счета-фактуры
 
