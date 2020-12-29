@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812540"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694997"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Новые или обновленные руководства по задачам (август 2016 г.)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812540"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (август 2016 г. — все языки) для Microsoft Dynamics AX
 
-Унифицированная библиотека APQC (август 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics AX с обновлением платформы 2 (август 2016), обновлению приложения Dynamics AX за май 2016 и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Домашняя страница "Что нового и что изменилось в Finance and Operations"](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
+Унифицированная библиотека APQC (август 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics AX с обновлением платформы 2 (август 2016), обновлению приложения Dynamics AX за май 2016 и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
 
 ### <a name="data-access"></a>Доступ к данным
 

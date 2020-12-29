@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
-ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
+ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "2870272"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694477"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Требования к определению параметров оборудования для локальных сред
 
@@ -97,7 +96,7 @@ ms.locfileid: "2870272"
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Службы федерации Active Directory (AD FS)
 
-Сведения об определении параметров AD FS см. в [документации по планированию мощности AD FS сервера](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Сведения об определении параметров AD FS см. в [документации по планированию мощности сервера AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 [Электронная таблица определения параметров](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) доступна для планирования числа экземпляров в развертывании.
 

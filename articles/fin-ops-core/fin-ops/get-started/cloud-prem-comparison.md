@@ -3,26 +3,25 @@ title: Сравнение характеристик облачной и лок�
 description: В этой теме показано, какие функции поддерживаются в облачной и локальной версиях.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040107"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694575"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Сравнение характеристик облачной и локальной версий
 
@@ -167,9 +166,12 @@ ms.locfileid: "4040107"
 | Платформенная совместимость     |                                           | Да       | Да             |
 | Обслуживание                  |                                           | Да       | Да             |
 |                            | Обслуживание сред                    | Да       | Нет              |
-| Синтаксический анализатор трассировки и PerfTimer |                                           | Да       | Нет              |
+| Синтаксический анализатор трассировки               |                                           | Да       | Да             |
+| PerfTimer                  |                                           | Да       | Да\*           |
 | Обновить                    |                                           | Да       | Да             |
 |                            | Обновить                                   | Да       | Нет              |
 |                            | Обновление и поддержка предыдущих версий | Да       | Нет              |
 | Разработка в Visual Studio  |                                           | Да       | Да             |
+
+\* В локальных средах PerfTimer только отображает результаты для клиента.
 

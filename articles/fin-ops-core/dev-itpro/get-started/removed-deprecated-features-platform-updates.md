@@ -3,24 +3,23 @@ title: Удаленные или устаревшие функции Platform
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в обновлениях платформы приложений Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971453"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689574"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Удаленные или устаревшие функции Platform
 
@@ -37,8 +36,16 @@ ms.locfileid: "3971453"
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.15 приложений Finance and Operations
 
-> [!NOTE]
-> Версия 10.0.15 — это предварительная версия. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Поддержка Internet Explorer 11 для Dynamics 365 устарела
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Начиная с декабря 2020 года поддержка Microsoft Internet Explorer 11 всех продуктов Dynamics 365 устарела, и Internet Explorer 11 не будет поддерживаться после августа 2021 года.<br><br>Это повлияет на клиентов, использующих продукты Dynamics 365, которые разработаны для использования с помощью интерфейса Internet Explorer 11. После августа 2021 года Internet Explorer 11 не будет поддерживаться для подобных продуктов Dynamics 365. |
+| **Заменена другой функцией?**   | Мы рекомендуем пользователям переходить на Microsoft Edge.|
+| **Затрагиваемые области продукта**         | Все продукты Dynamics 365 |
+| **Вариант развертывания**              | Все|
+| **Состояние**                         | Устарело. Internet Explorer 11 не будет поддерживаться после августа 2021 года.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Надстройка Visual Studio для применения исправлений метаданных
 
@@ -52,10 +59,6 @@ ms.locfileid: "3971453"
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.14 приложений Finance and Operations
-
-> [!NOTE]
-> Версия 10.0.14 — это предварительная версия. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Страница активных пользователей 
 
@@ -144,7 +147,7 @@ ms.locfileid: "3971453"
 | **Заменена другой функцией?**   | Visual Studio 2017 заменит Visual Studio 2015 как развернутую и требуемую версию. |
 | **Затрагиваемые области продукта**         | Средства разработки Visual Studio |
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | После объявления о появлении новых виртуальных машин (ВМ) в Visual Studio 2017 необходимо повторно развернуть существующие виртуальные машины Visual Studio 2015 для волны выпуска 1 в 2021 г. |
+| **Состояние**                         | Виртуальные машины, развернутые в версии 10.0.13 (обновление платформы 37) или более поздних версиях, содержат Visual Studio 2017. Версия 10.0.16 (обновление платформы 40) — это последний выпуск с поддержкой Visual Studio 2015. Виртуальные машины, имеющие только Visual Studio 2015, не смогут выполнить обновление до версии 10.0.17 (обновление платформы 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Группы полей, содержащие недопустимые ссылки на поля
 

@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248721"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695123"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Учебник по настройке и установке средства Regression Suite Automation Tool
 Этот раздел представляет собой учебник, который поможет вам настроить и начать работу с RSAT и средствами, связанными с использованием RSAT. 
@@ -387,7 +386,7 @@ RSAT можно установить на любой компьютер, на к
 
     ![AOSService в списке сайтов](./media/setup_rsa_tool_49.png)
 
-3. Щелкните правой кнопкой мыши **Проводник** ,чтобы открыть папку **\<Диск\>: \\AosService\\WebRoot** Найдите файл **wif.config**.
+3. Щелкните правой кнопкой мыши **Проводник**, чтобы открыть папку **\<Drive\>: \\AosService\\WebRoot**. Найдите файл **wif.config**.
 
     ![Файл Wif.config в папке WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ RSAT можно установить на любой компьютер, на к
     ```
 
     > [!NOTE]
-    > Если несколько пользователей используют одно и то же приложение, каждый пользователь должен создать отдельные отпечатки, а каждый из этих отпечаток должен быть добавлен в раздел **\<ключи\>**.
+    > Если несколько пользователей используют одно и то же приложение, каждый пользователь должен создать отдельные отпечатки, а каждый из этих отпечаток должен быть добавлен в раздел **\<keys\>**.
 
 5. Если имеется более одного компьютера AOS, повторите шаги с 3 по 4 для каждого дополнительного компьютера.
 
@@ -563,7 +562,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![Разрешение рабочего стола установлено на 100%](./media/setup_rsa_tool_68.png)
 
-6. Если драйверы браузера не установлены в системе, выводится предупреждающее сообщение "Для этой операции требуется драйвер \<название браузера\>. Вы хотите загрузить и установить его автоматически?" Выберите **Да**.
+6. Если драйверы браузера не установлены в системе, выводится предупреждающее сообщение "Для этой операции требуется драйвер \<browser name\>. Вы хотите загрузить и установить его автоматически?" Выберите **Да**.
 
     ![Предупреждающее сообщение для Internet Explorer](./media/setup_rsa_tool_69.png)
 

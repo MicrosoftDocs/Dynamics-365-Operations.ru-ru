@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367346"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695147"
 ---
 # <a name="help-system"></a>Система справки
 
@@ -49,7 +48,7 @@ ms.locfileid: "3367346"
 
 Содержимое на docs.microsoft.com можно найти с помощью любой поисковой системы. Для оптимальных результатов рекомендуется использовать поиск по сайту, например **site:docs.microsoft.com dynamics 365 "искомый термин"**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Получение уведомлений об изменениях через RSS-канал
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Получение уведомлений об изменениях через RSS-канал
 
 Чтобы подписаться на RSS-канал для всех обновлений, которые относятся к содержимому docs.microsoft.com, используйте следующую ссылку:
 
@@ -68,7 +67,7 @@ ms.locfileid: "3367346"
 > [!NOTE]
 > Если необходимо отправить отзыв по документации, необходимо войти с учетной записью GitHub. Дополнительные сведения см. в разделе [Настройка и управление вашим профилем GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Внесение вклада в документацию
+## <a name="contribute-to-the-documentation"></a>Внесение вклада в документацию
 
 Можно вносить вклад и делать изменения в документации. Чтобы начать работу, выберите кнопку **Изменить** (символ карандаша) в разделе. Следующий видеоролик показывает, как можно внести свой вклад в нашу документацию.
 

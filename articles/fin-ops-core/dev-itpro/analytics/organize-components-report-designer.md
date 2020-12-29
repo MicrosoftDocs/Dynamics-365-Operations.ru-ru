@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185298"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685819"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Организация компонентов отчета в конструкторе отчетов
 
@@ -61,7 +60,7 @@ ms.locfileid: "2185298"
 1. В конструкторе отчетов в области перехода щелкните **Группы отчетов**.
 2. Дважды щелкните группу отчетов, чтобы изменить ее.
 3. На вкладке **Группа отчетов** внесите требуемые изменения.
-4. В меню **Файл** щелкните **Сохранить**, чтобы сохранить измененную группу отчетов. Либо нажмите кнопку **Сохранить** ![Сохранить](media/save.gif "Сохранить") на панели инструментов.
+4. В меню **Файл** щелкните **Сохранить**, чтобы сохранить измененную группу отчетов. Либо нажмите кнопку **Сохранить** ![Сохранить](media/save.gif "Сохранение") на панели инструментов.
 
 > [ПРИМЕЧАНИЕ] Если вы запланировали создание отчетов через заданные интервалы, вы можете переопределить эти настройки и создать отчет немедленно.
 

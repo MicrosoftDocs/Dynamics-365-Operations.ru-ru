@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 74d5b92f8f8864544e6b333bd957206f02a2503f
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811634"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695097"
 ---
 # <a name="new-task-guides-february-2016"></a>Новые руководства по задачам (февраль 2016 г.)
 
@@ -242,7 +241,7 @@ ms.locfileid: "2811634"
 | GB-00002 Настройка номенклатурных групп, правил и параметров НДС, удерживаемого с покупателя                                  | Соединенное Королевство                  |
 | GB-00002 Настройка налоговых групп для НДС, удерживаемый с покупателя                                                | Соединенное Королевство                  |
 | GB-00009 Создание кредит-ноты на скидку за сопоставление                                               | Соединенное Королевство                  |
-| GB-00009 Параметры настройки для кредит-ноты на скидку за своевременную уплату                                   | Великобритания                  |
+| GB-00009 Параметры настройки для кредит-ноты на скидку за своевременную уплату                                   | Соединенное Королевство                  |
 
 ### <a name="develop-vision-and-strategy"></a>Разработка видения и стратегии
 

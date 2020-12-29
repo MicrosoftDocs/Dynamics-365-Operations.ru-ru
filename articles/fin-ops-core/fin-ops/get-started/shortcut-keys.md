@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013188"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693733"
 ---
 # <a name="keyboard-shortcuts"></a>Сочетания клавиш
 
@@ -33,7 +32,7 @@ ms.locfileid: "4013188"
 > [!NOTE]
 > Сочетания клавиш, описанные здесь, относятся к раскладке клавиатуры для США. Клавиши в других раскладках могут не соответствовать в точности раскладке для США.
 
-Некоторые из сочетаний клавиш на этой странице являются *клавишными аккордами* , то есть требуют двух последовательных наборов сочетаний клавиш (разделенных запятой), которые должны быть независимо нажаты для запуска требуемого действия. Например, сочетание клавиш "Alt + M,A" означает, что пользователь сначала нажимает "Alt+M", отпускает клавиши и нажимает "A". 
+Некоторые из сочетаний клавиш на этой странице являются *клавишными аккордами*, то есть требуют двух последовательных наборов сочетаний клавиш (разделенных запятой), которые должны быть независимо нажаты для запуска требуемого действия. Например, сочетание клавиш "Alt + M,A" означает, что пользователь сначала нажимает "Alt+M", отпускает клавиши и нажимает "A". 
 
 ## <a name="finding-a-shortcut"></a>Поиск сочетания клавиш
 

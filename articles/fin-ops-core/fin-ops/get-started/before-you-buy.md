@@ -3,25 +3,24 @@ title: Перед покупкой
 description: Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce.
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027732"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694144"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -41,7 +40,7 @@ ms.locfileid: "3027732"
 
 - Нормативные требования и требования соответствия, которые недоступны в облачных сертификациях.
 - Неподключенный бизнес-процесс с периодическим подключением к Интернету, необходимым для доступа к Microsoft Dynamics Lifecycle Services (LCS) для управления жизненным циклом приложений.
-- [Функциональные возможности, не реализованные в локальных развертываниях](features-not-implemented-on-prem.md).
+- [Сравнение характеристик облачной и локальной версий](cloud-prem-comparison.md).
 - [Требования к системе для локальных развертываний](system-requirements-on-prem.md).
 
 > [!IMPORTANT]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257069"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685391"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Расширенный редактор формул электронной отчетности
 
@@ -44,9 +43,9 @@ ms.locfileid: "3257069"
 
 Выполните следующие действия, чтобы начать работу с расширенным редактором формул в своем экземпляре Microsoft Dynamics 365 Finance.
 
-1.  Перейдите в раздел  **Управление организацией** \> **Электронная отчетность** \> **Конфигурации**.
-2.  На странице **Конфигурации** в области действий на вкладке **Конфигурации** в группе **Дополнительные параметры** выберите **Параметры пользователя**.
-3.  В диалоговом окне **Параметры пользователя** в разделе **Трассировка выполнения** установите для параметра **Включить расширенный редактор формул** значение **Да**.
+1.  Перейдите в раздел **Администрирование организации** \> **Электронная отчетность** \> **Конфигурации**.
+2.  На странице **Конфигурации** в области действий на вкладке **Конфигурации** в группе **Дополнительные параметры** выберите **Параметры пользователя**.
+3.  В диалоговом окне **Параметры пользователя** в разделе **Трассировка выполнения** установите для параметра **Включить расширенный редактор формул** значение **Да**.
 
 [![Страница конфигураций электронной отчетности](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
@@ -162,7 +161,7 @@ ms.locfileid: "3257069"
 В настоящее время редактор поддерживается в следующих веб-браузерах:
 
 - Chrome
-- Edge
+- Microsoft Edge
 - Firefox
 - Opera
 - Safari

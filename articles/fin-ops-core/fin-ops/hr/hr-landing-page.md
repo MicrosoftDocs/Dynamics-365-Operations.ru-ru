@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812444"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694947"
 ---
 # <a name="human-resources-overview"></a>Обзор управления персоналом
 
@@ -72,7 +71,7 @@ ms.locfileid: "2812444"
 
 ## <a name="create-and-maintain-benefits"></a>Создание и ведение льгот
 
-В дополнение к заработной плате и премиям сотрудников можно разработать программы льгот, например программы медицинского страхования и пенсионные программы. Можно также управлять льготами, такими как программы займа, в которых компания одалживает номенклатуры, такие как компьютеры или телефоны, своим сотрудникам.
+В дополнение к заработной плате и премиям сотрудников можно разработать программы льгот, например программы медицинского страхования и пенсионные программы. Можно также управлять льготами, такими как программы займа, в которых компания выдает номенклатуры, такие как компьютеры или телефоны, во временное пользование своим сотрудникам.
 
 - [Определение и управление программой льгот](../../../talent/manage-benefit-program.md)
 - [Политики прав на льготы](../../../talent/benefit-eligibility-policies.md)

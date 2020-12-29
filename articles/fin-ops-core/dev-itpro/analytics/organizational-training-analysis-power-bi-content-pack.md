@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Организационное обучение"
-description: В этом разделе рассматривается содержимое Power BI "Finance and Operations — организационное обучение".
+description: В этом разделе описывается содержимое Power BI "Finance and Operations — Организационное обучение".
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c9025baccf34195c753fc50ad38cd3016c65b53
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182976"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685843"
 ---
 # <a name="organizational-training-power-bi-content"></a>Содержимое Power BI "Организационное обучение"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе рассматривается содержимое Power BI "Finance and Operations — организационное обучение".
+В этом разделе описывается содержимое Power BI "Finance and Operations — Организационное обучение".
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
 После подключения пакета содержимого к данным в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.

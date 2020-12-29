@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175116"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689502"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -35,6 +35,40 @@ ms.locfileid: "3175116"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.16
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Формат электронной отчетности "Формат экспорта проводок книги учета (BE)" и соответствующая модель "Экспорт проводок книги учета (BE)" для Бельгии
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменено новым форматом электронной отчетности в модели "Стандартный файл аудита (SAF-T)".  |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Заявление |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: 1 декабря 2021 г. мы планируем больше не поддерживать формат электронной отчетности "Формат экспорта проводок книги учета (BE)" и соответствующую модель "Экспорт проводок книги учета (BE)". Новый формат "Экспорт данных главной книги (BE)" вместе с "Сопоставление модели данных главной книги" вводятся в соответствии с моделью "Стандартный файл аудита (SAF-T)". |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Отчет "НДС 100" для Соединенного Королевства в формате SSRS
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменяется новым форматом электронной отчетности — формат "Декларации по НДС в Excel (UK)" в модели "Модель налоговой декларации".  |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Заявление |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: с 1 декабря 2021 г. планируется прекратить поддержку отчет "НДС 100" в формате SSRS. Новый формат "Декларация НДС в Excel (UK)" в модели "Модель налоговой декларации" была введена в [функции НДС MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.15
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Поддержка Internet Explorer 11 для Dynamics 365 устарела
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Начиная с декабря 2020 года поддержка Microsoft Internet Explorer 11 всех продуктов Dynamics 365 устарела, и Internet Explorer 11 не будет поддерживаться после августа 2021 года.<br><br>Это повлияет на клиентов, использующих продукты Dynamics 365, которые разработаны для использования с помощью интерфейса Internet Explorer 11. После августа 2021 года Internet Explorer 11 не будет поддерживаться для подобных продуктов Dynamics 365. |
+| **Заменена другой функцией?**   | Мы рекомендуем пользователям переходить на Microsoft Edge.|
+| **Затрагиваемые области продукта**         | Все продукты Dynamics 365 |
+| **Вариант развертывания**              | Все|
+| **Состояние**                         | Устарело. Internet Explorer 11 не будет поддерживаться после августа 2021 года.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.12
 

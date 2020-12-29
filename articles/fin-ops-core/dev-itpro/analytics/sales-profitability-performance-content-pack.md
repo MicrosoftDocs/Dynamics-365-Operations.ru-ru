@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 490a4f6d1bd9f3bdb0af09bd4e6f7f8fb2c92a1b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984282"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688243"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Содержимое Power BI "Показатели продаж и прибыльности"
 
@@ -51,7 +50,7 @@ ms.locfileid: "3984282"
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Эффективность продаж и прибыльность** отображается на странице **Эффективность продаж и прибыльность** (**Продажи и маркетинг** \> **Запросы и отчеты** \> **Анализ эффективности продаж** \> **Эффективность продаж и прибыльность**).
 
-## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Показатели, включенные в пакет содержимого Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, включенные в пакет содержимого Power BI
 Содержимое Power BI **Показатели продаж и прибыльности** включает отчет, состоящий из набора показателей. Эти показатели отображаются в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализаций в этом содержимом.
 
 | Страница отчета            | Диаграммы                                     | Плитки                                                   |
