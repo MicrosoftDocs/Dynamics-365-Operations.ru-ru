@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ef024185c4654804f6f260a43c1bf294b33c10e2
-ms.sourcegitcommit: 6e290b0d3aeedd0e234ac4f1df92b1b9afd6fccc
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829687"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680863"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Сжатие больших документов, созданных в электронной отчетности 
 
@@ -40,7 +39,7 @@ ms.locfileid: "3829687"
 
 ## <a name="example-compress-an-outbound-document"></a>Пример: сжатие исходящего документа
 
-В этом примере показано, как пользователь, назначенный для роли **Системный администратор** или **Функциональный консультант электронной отчетности**, может настроить формат электронной отчетности для сжатия созданного документа.
+В этом примере показано, как пользователь, назначенный для роли **Системный администратор** или **Функциональный консультант электронной отчетности**, может настроить формат электронной отчетности для сжатия созданного документа.
 
 ### <a name="prerequisites"></a>Необходимые условия
 

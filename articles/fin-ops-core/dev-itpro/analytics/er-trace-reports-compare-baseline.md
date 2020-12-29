@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771245"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682831"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
 
@@ -187,7 +186,7 @@ ms.locfileid: "2771245"
 
 1. На странице **Базовые образцы формата электронной отчетности** на панели операций выберите кнопку **Вложения** (символ скрепки для бумаги).
 2. В области действий выберите **Создать** \> **Файл**. В параметрах электронной отчетности тип документа **Файл** должен быть ранее выбран в качестве типа документа, используемого для хранения базисных файлов.
-3. Выберите **Обзор**и выберите файл **out.Admin.xml**, созданный при выполнении ранее настроенного формата ER.
+3. Выберите **Обзор** и выберите файл **out.Admin.xml**, созданный при выполнении ранее настроенного формата ER.
 
     ![Страница вложений](media/GER-BaselineSample-UploadBaselineFile.PNG "Снимок экрана страницы вложений")
 

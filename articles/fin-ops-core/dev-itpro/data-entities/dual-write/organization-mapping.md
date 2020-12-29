@@ -1,6 +1,6 @@
 ---
-title: Организационная иерархия в Common Data Service
-description: Эта тема описывает интеграцию организационных данных между приложениями Finance and Operations и Common Data Service.
+title: Организационная иерархия в Dataverse
+description: Эта тема описывает интеграцию организационных данных между приложениями Finance and Operations и Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,32 +18,34 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000742"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680080"
 ---
-# <a name="organization-hierarchy-in-common-data-service"></a>Организационная иерархия в Common Data Service
+# <a name="organization-hierarchy-in-dataverse"></a>Организационная иерархия в Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Поскольку Dynamics 365 Finance — это финансовая система, *организация* является основной концепцией, а настройка системы начинается с конфигурации организационной иерархии. Финансы бизнеса затем могут отслеживаться на уровне организации, а также на любом уровне в иерархии организации.
 
-Хотя Common Data Service не имеет понятия иерархии организации, она имеет несколько отдельных концепций, таких как общий доход от продаж. В рамках интеграции Common Data Service структура данных иерархии организации добавляется в Common Data Service.
+Хотя Dataverse не имеет понятия иерархии организации, она имеет несколько отдельных концепций, таких как общий доход от продаж. В рамках интеграции Dataverse структура данных иерархии организации добавляется в Dataverse.
 
 ## <a name="data-flow"></a>Поток данных
 
-Бизнес-экосистема, состоящая из приложений Finance and Operations и Common Data Service, будет по-прежнему иметь организационную иерархию. Эта организационная иерархия построена на приложениях Finance and Operations, но она доступна в Common Data Service для целей информации и расширения. На следующей иллюстрации показана информация об иерархии организации, которая доступна в Common Data Service в качестве одностороннего потока данных из приложений Finance and Operations в Common Data Service.
+Бизнес-экосистема, состоящая из приложений Finance and Operations и Dataverse, будет по-прежнему иметь организационную иерархию. Эта организационная иерархия построена на приложениях Finance and Operations, но она доступна в Dataverse для целей информации и расширения. На следующей иллюстрации показана информация об иерархии организации, которая доступна в Dataverse в качестве одностороннего потока данных из приложений Finance and Operations в Dataverse.
 
 ![Изображение архитектуры](media/dual-write-data-flow.png)
 
-Сопоставления сущности организационной иерархии доступны для односторонней синхронизации данных из приложений Finance and Operations в Common Data Service.
+Сопоставления таблицы организационной иерархии доступны для односторонней синхронизации данных из приложений Finance and Operations в Dataverse.
 
 ## <a name="templates"></a>Шаблоны
 
-Информация о продукте содержит все сведения, имеющие отношение к продукту и его определению, такие как аналитики продукта или аналитики отслеживания и хранения. Как показано в следующей таблице, для синхронизации продуктов и связанных сведений создается коллекция сопоставлений объектов.
+Информация о продукте содержит все сведения, имеющие отношение к продукту и его определению, такие как аналитики продукта или аналитики отслеживания и хранения. Как показано в следующей таблице, для синхронизации продуктов и связанных сведений создается коллекция сопоставлений таблиц.
 
 Приложения Finance and Operations | Другие приложения Dynamics 365 | описание
 -----------------------|--------------------------------|---
@@ -64,7 +66,7 @@ ms.locfileid: "4000742"
 
 ## <a name="internal-organization"></a>Внутренняя организация
 
-Сведения о внутренней организации в Common Data Service поступают из двух объектов, **операционная единица** и **юридические лица**.
+Сведения о внутренней организации в Dataverse поступают из двух таблиц, **операционная единица** и **юридические лица**.
 
 [!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
 

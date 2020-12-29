@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af2899da843967bfaaa8f3c66906fc8e3765b573
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142509"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684771"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>Электронная отчетность — Создание конфигурации формата (ноябрь 2016 г.)
 
@@ -40,8 +39,8 @@ ms.locfileid: "3142509"
  > Если пункт **Создать конфигурацию** отсутствует, необходимо включить режим конструктора на странице **Параметры электронной отчетности**. 
  
 5. В поле **Создать** введите **Формат, основанный на модели данных PaymentModel**.
-6. В поле **Имя** введите **BACS (Великобритания, вымышленный)**.
-7. В поле **Описание** введите **Формат платежа поставщикам BACS (Великобритания, вымышленный)**.
+6. В поле **Имя** введите **BACS (Соединенное Королевство, вымышленный)**.
+7. В поле **Описание** введите **Формат платежа поставщикам BACS (Соединенное Королевство, вымышленный)**.
     * Активный поставщик конфигурации вводится здесь автоматически. Этот поставщик сможет обновлять эту конфигурацию. Другие поставщики могут использовать эту конфигурация, но не смогут ее обновлять.  
     * Можно определить конкретный формат электронного документа. Оставьте это поле пустым, если вы хотите выбирать формат во время выполнения.  
 8. В поле **Определение модели данных** введите или выберите значение.

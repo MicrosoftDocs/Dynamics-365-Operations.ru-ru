@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181734"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682729"
 ---
 # <a name="financial-report-components"></a>Компоненты финансового отчета
 
@@ -81,7 +80,7 @@ ms.locfileid: "2181734"
 
 ### <a name="export-a-building-block-group"></a>Экспорт группы шаблонов
 
-Можно экспортировать группу шаблонов или отдельные шаблоны отчетов в группу шаблонов. Можно использовать экспортированную группу шаблонов как резервную копию. Можно также копировать экспортированные данные между установками. Конструктор отчетов включает ссылочные стили шрифтов и наборы аналитик вместе с группой строительных блоков.
+Можно экспортировать группу шаблонов или отдельные шаблоны отчетов в группу шаблонов. Можно использовать экспортированную группу шаблонов как резервную копию. Можно также копировать экспортированные данные между установками. Конструктор отчетов включает ссылочные стили шрифтов и наборы аналитик вместе с группой строительных блоков.
 
 1. В конструкторе отчетов, в меню **Компания**, щелкните **Группы строительного блока**.
 2. В диалоговом окне **Группы шаблонов** выберите группу шаблонов, которую требуется экспортировать, и нажмите кнопку **Экспорт**.

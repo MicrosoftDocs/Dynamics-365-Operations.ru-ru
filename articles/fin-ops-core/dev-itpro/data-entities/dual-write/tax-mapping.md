@@ -1,6 +1,6 @@
 ---
 title: Интегрированный налог
-description: Эта тема описывает интеграцию данных налога между Finance and Operations и Common Data Service.
+description: Эта тема описывает интеграцию данных налога между Finance and Operations и Dataverse.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997608"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679304"
 ---
 # <a name="integrated-tax"></a>Интегрированный налог
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997608"
 
 ## <a name="templates"></a>Шаблоны
 
-Данные налога включают коллекцию сопоставлений объектов, которые работают совместно во время взаимодействия данных клиентов, как показано в следующей таблице.
+Данные налога включают коллекцию сопоставлений таблиц, которые работают совместно во время взаимодействия данных клиентов, как показано в следующей таблице.
 
 Приложения Finance and Operations | Приложения на основе модели в Dynamics 365 | описание |
 -------------------------|---------------------------------|----|

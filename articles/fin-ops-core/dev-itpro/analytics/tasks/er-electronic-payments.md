@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa39a9d459022e391f99e284d41d82215cc10e2b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142578"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681741"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
 
@@ -40,7 +39,7 @@ ms.locfileid: "3142578"
 5. Установите в поле "Общая электронная отчетность" значение "Да".
     * Выберите значение "Да", чтобы использовать шаблон общей электронной отчетности для создания файлов платежей.  
 6. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-7. Выберите конфигурацию формата BACS (Великобритания, вымышленный).
+7. Выберите конфигурацию формата BACS (Соединенное Королевство, вымышленный).
 8. Нажмите кнопку "Сохранить".
 9. Закройте страницу.
 
