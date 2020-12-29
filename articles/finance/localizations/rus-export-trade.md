@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 589324bea6d7c3be3ae7561c6e3de0544b9d91ba
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375802"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408574"
 ---
 # <a name="process-invoice-factures-for-export-trade"></a>Обработка счетов-фактур для экспортной торговли
 

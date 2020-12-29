@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: d69fc8da24427f4d3e1e4cf49285bd750c178d43
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175215"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408564"
 ---
 # <a name="revaluate-fixed-asset-cost-and-depreciation-russia"></a>Переоценка стоимости основных средств и амортизация (Россия)
 

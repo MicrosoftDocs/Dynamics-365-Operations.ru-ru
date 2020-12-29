@@ -16,11 +16,11 @@ ms.author: v-oloski
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 36af0b9a4b8f7e88373eff823d17a461e65fe7fd
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622812"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408527"
 ---
 # <a name="unified-printing-forms-for-fixed-assets-russia"></a>Унифицированные формы печати для основных средств (Россия)
 

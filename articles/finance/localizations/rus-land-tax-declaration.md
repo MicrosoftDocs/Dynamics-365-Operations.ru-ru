@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: d5634b576b235d337dafab30004d4bac428e59fc
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031032"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408553"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 

@@ -16,11 +16,11 @@ ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 1b375d2eb6e76f63cf0155adbe292088ff02a5ff
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553104"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408563"
 ---
 # <a name="fixed-assets-russia"></a>Основные средства (Россия)
 
