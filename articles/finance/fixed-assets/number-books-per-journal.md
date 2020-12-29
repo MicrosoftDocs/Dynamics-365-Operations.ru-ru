@@ -1,0 +1,49 @@
+---
+title: Число книг в журнале
+description: В этой теме описывается взаимосвязь между журналами и книгами активов при создании предложения по приобретению или амортизации основных средств с помощью пакетного задания. Можно определить максимальное число книг, включаемых для каждого приобретения и для амортизации.
+author: moaamer
+manager: Ann Beebe
+ms.date: 11/19/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
+ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
+ms.search.region: Global
+ms.author: moaamer
+ms.search.validFrom: 2020-11-19
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650680"
+---
+# <a name="number-of-books-per-journal"></a><span data-ttu-id="66c64-104">Число книг в журнале</span><span class="sxs-lookup"><span data-stu-id="66c64-104">Number of books per journal</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="66c64-105">В этой теме описывается взаимосвязь между журналами и книгами активов при создании предложения по приобретению или амортизации основных средств с помощью пакетного задания.</span><span class="sxs-lookup"><span data-stu-id="66c64-105">This topic describes the relationship between journals and asset books when you create a fixed asset acquisition or depreciation proposal through a batch job.</span></span> <span data-ttu-id="66c64-106">Можно определить максимальное число книг, включаемых для каждого приобретения и для амортизации, используя поля в разделе **Число книг в журнале** на вкладке **Общие** страницы **Параметры основных средств** (**Основные средства \> Настройка \> Параметры основных средств**).</span><span class="sxs-lookup"><span data-stu-id="66c64-106">You can define the maximum number of books that are included for each acquisition and for depreciation by using the fields in the **Number of books per journal** section on the **General** tab of the **Fixed assets parameters** page (**Fixed assets \> Setup \> Fixed assets parameters**).</span></span> <span data-ttu-id="66c64-107">Эти поля позволяют распределять число книг активов по журналу приобретения и журналу амортизации.</span><span class="sxs-lookup"><span data-stu-id="66c64-107">These fields let you distribute the number of asset books per acquisition journal and depreciation journal.</span></span>
+
+<span data-ttu-id="66c64-108">Для предложения по приобретению значением по умолчанию является по крайней мере 10 000 книг.</span><span class="sxs-lookup"><span data-stu-id="66c64-108">For an acquisition proposal, the default value is at least 10,000 books.</span></span> <span data-ttu-id="66c64-109">Для предложения по амортизации значением по умолчанию является по крайней мере 2 000 книг.</span><span class="sxs-lookup"><span data-stu-id="66c64-109">For a depreciation proposal, the default value is at least 2,000 books.</span></span>
+
+<span data-ttu-id="66c64-110">Например, если имеется 4 000 основных средств, и с каждым активом связаны две книги, одна книга будет разнесена на текущий слой, а другая книга будет разнесена на уровень налога.</span><span class="sxs-lookup"><span data-stu-id="66c64-110">For example, if there are 4,000 fixed assets, and two books are associated with each asset, one book will be posted to the current layer, and the other book will be posted to the tax layer.</span></span> <span data-ttu-id="66c64-111">При приобретении 4 000 основных средств с помощью пакетной обработки пакетное задание, создающее один журнал приобретения основных средств, будет содержать книги 4 000 активов.</span><span class="sxs-lookup"><span data-stu-id="66c64-111">If you acquire 4,000 fixed assets through batch processing, the batch job that creates one fixed asset acquisition journal will contain 4,000 asset books.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="66c64-112">Созданный журнал будет продолжать использоваться до тех пор, пока не будет завершено пакетное задание.</span><span class="sxs-lookup"><span data-stu-id="66c64-112">The journal that is created will continue to be used until the batch job is completed.</span></span>
+>
+> <span data-ttu-id="66c64-113">Производные книги не включаются в максимальное число книг на журнал.</span><span class="sxs-lookup"><span data-stu-id="66c64-113">The derived books aren't included in the maximum number of books per journal.</span></span>
+
+<span data-ttu-id="66c64-114">Можно использовать пакетную обработку для выполнения амортизации для того же набора приобретенных активов.</span><span class="sxs-lookup"><span data-stu-id="66c64-114">You can use  batch processing to run depreciation for the same set of acquired assets.</span></span> <span data-ttu-id="66c64-115">Например, пакетное задание создает два журнала амортизации, каждый из которых состоит из 2 000 книг активов.</span><span class="sxs-lookup"><span data-stu-id="66c64-115">For example, a batch job creates two depreciation journals, each of which consists of 2,000 asset books.</span></span> <span data-ttu-id="66c64-116">Первый журнал будет содержать книги, связанные с основными средствами, пронумерованными с 1 по 2 000.</span><span class="sxs-lookup"><span data-stu-id="66c64-116">The first journal will contain books that are associated with the fixed assets that are numbered 1 through 2,000.</span></span> <span data-ttu-id="66c64-117">Второй журнал будет затем содержать книги, связанные с основными средствами, пронумерованными с 2 001 до 4 000.</span><span class="sxs-lookup"><span data-stu-id="66c64-117">The second journal will then contain books that are associated with the fixed assets that are numbered 2,001 through 4,000.</span></span>
+
+<span data-ttu-id="66c64-118">Задание пакетной обработки исключает закрытые книги.</span><span class="sxs-lookup"><span data-stu-id="66c64-118">The batch processing job excludes closed books.</span></span> <span data-ttu-id="66c64-119">Например, в пакетном задании для амортизации 10 из первых 2 000 книг закрыты.</span><span class="sxs-lookup"><span data-stu-id="66c64-119">For example, in a batch job for depreciation, 10 of the first 2,000 books are closed.</span></span> <span data-ttu-id="66c64-120">В этом случае первый журнал будет содержать книги, связанные с основными средствами, пронумерованными с 1 по 2 011.</span><span class="sxs-lookup"><span data-stu-id="66c64-120">In this case, the first journal will contain books that are associated with the fixed assets that are numbered 1 through 2,011.</span></span> <span data-ttu-id="66c64-121">Второй журнал будет затем содержать книги, связанные с основными средствами, пронумерованными с 2 012 до 4 000.</span><span class="sxs-lookup"><span data-stu-id="66c64-121">The second journal will then contain books that are associated with the fixed assets that are numbered 2,012 through 4,000.</span></span>
+
+<span data-ttu-id="66c64-122">Ограничение количества книг применяется, если дублирующие коды активов не существуют в одном и том же журнале.</span><span class="sxs-lookup"><span data-stu-id="66c64-122">The limit on the number of books is applied if duplicate asset IDs don't exist in the same journal.</span></span> <span data-ttu-id="66c64-123">Однако если код актива совпадает с кодом книги, число книг на журнал может быть превышено, чтобы сохранить код актива в том же журнале.</span><span class="sxs-lookup"><span data-stu-id="66c64-123">However, if the asset ID is the same as the book ID, the number of books per journal can be exceeded to keep the asset ID in the same journal.</span></span>
+
+<span data-ttu-id="66c64-124">Например, имеется 5 001 кодов основных средств, три книги связаны с каждым кодом ОС, а каждая книга активов разносится на один и тот же слой разноски.</span><span class="sxs-lookup"><span data-stu-id="66c64-124">For example, there are 5,001 fixed asset IDs, three books are associated with each fixed asset ID, and each asset book is posted to the same posting layer.</span></span> <span data-ttu-id="66c64-125">Амортизация выполняется за три последовательных месяца без суммирования.</span><span class="sxs-lookup"><span data-stu-id="66c64-125">You run depreciation for three consecutive months, without summarization.</span></span> <span data-ttu-id="66c64-126">Журнал амортизации будет создан с помощью пакетного задания, и система создаст семь журналов с 667 кодами основных средств и тремя книгами для каждого кода основных средств.</span><span class="sxs-lookup"><span data-stu-id="66c64-126">The depreciation journal will be created through a batch job, and the system will create seven journals that have 667 fixed asset IDs and three books for each fixed asset ID.</span></span> <span data-ttu-id="66c64-127">Результат будет 2 001 книга.</span><span class="sxs-lookup"><span data-stu-id="66c64-127">The result will be 2,001 books.</span></span> <span data-ttu-id="66c64-128">Поэтому в течение трех месяцев будет 6 003 строки журнала для поддержания одинаковых кодов активов в одном журнале.</span><span class="sxs-lookup"><span data-stu-id="66c64-128">Therefore, in three months, there will be 6,003 journal lines to maintain the same asset IDs in the same journal.</span></span> <span data-ttu-id="66c64-129">В системе также будет создан один журнал с 332 кодами основных средств и тремя книгами для каждого кода основного средства.</span><span class="sxs-lookup"><span data-stu-id="66c64-129">The system will also create one journal that has 332 fixed asset IDs and three books for each fixed asset ID.</span></span> <span data-ttu-id="66c64-130">Через три месяца будет 2 988 строк.</span><span class="sxs-lookup"><span data-stu-id="66c64-130">In three months, there will be 2,988 lines.</span></span>
