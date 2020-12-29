@@ -16,11 +16,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143819"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447149"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Ввод данных счета в модуль расчетов с поставщиками с использованием кластера накладных
 

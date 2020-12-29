@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772107"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447328"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Шаблоны бюджетного планирования для Excel
 
@@ -67,7 +67,7 @@ ms.locfileid: "2772107"
 
 Наведите курсор на нужное место в файле Excel. Щелкните **Добавить метку**, чтобы добавить подпись поля в выбранном месте. Выберите **Добавить значение**, чтобы добавить в выбранное место значение поля. Для закрытия конструктора щелкните **Готово**.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Выберите "Добавить значение"](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Выберите "Добавить значение"](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Добавление рассчитанного столбца в таблицу шаблона документа бюджетного плана
 --------------------------------------------------------------
@@ -120,7 +120,7 @@ ms.locfileid: "2772107"
 
 Щелкните стрелку для открытия дополнительного меню. Выберите **Блокировать**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Выберите "Блокировать"](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Выберите "Блокировать"](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Можно ли использовать другие возможности Excel, такие как форматирование ячеек, цвета, условное форматирование и диаграммы с моими шаблонами бюджетного плана?
 
