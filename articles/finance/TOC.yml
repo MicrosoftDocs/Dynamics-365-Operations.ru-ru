@@ -72,12 +72,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.17 (март 2021 г.)
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: "Finance 10.0.16 (февраль 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: "Finance 10.0.15 (январь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: "Finance 10.0.14 (ноябрь 2020\_г.)"
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции в Dynamics 365 Finance
@@ -175,7 +175,7 @@
                 - name: Архитектура приложений Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: Адаптация проекта реализации
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Планирование среды
@@ -340,14 +340,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Workflow-процесс клиента
               href: accounts-receivable/customer-workflow.md
-            - name: Обзор процедуры признания выручки
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: Настройка признания выручки
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: Признание выручки будущих периодов
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: Признание выручки по заказам на продажу
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Настройка и обработка периодических накладных
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных с произвольным текстом
@@ -384,10 +376,30 @@
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Закрытие расчетов с клиентами
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Платежи и сопоставления
+            - name: Признание выручки
               items:
                 - name: Обзор процедуры признания выручки
                   href: accounts-receivable/revenue-recognition-overview.md
+                - name: Настройка признания выручки
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: Признание выручки будущих периодов
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: Признание выручки по заказам на продажу
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: Наборы признаний выручки
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: Перераспределение признания выручки
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: Перераспределение признания выручки — сценарий 1
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: 'Сценарий 2: перераспределение признания выручки'
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: 'Сценарий 3: перераспределение признания выручки'
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: 'Сценарий 4: перераспределение признания выручки'
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
+            - name: Платежи и сопоставления
+              items:
                 - name: Обзор платежей клиентов
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Централизованные платежи для расчетов с клиентами
@@ -470,6 +482,10 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Управление произвольными примечаниями
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: Ссылки на исходные накладные в кредит-нотах
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: Нумерация документов и ваучеров в хронологическом порядке
+              href: accounts-receivable/chrono-numbers.md
         - name: Бюджетирование
           items:
             - name: Домашняя страница бюджетирования
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: Прогнозирование движения денежных средств
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: Устранение неполадок при настройке прогноза движения денежных средств
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: Рабочая область управления банками
               href: cash-bank-management/Bank-management-workspace.md
             - name: Банковская переоценка в иностранной валюте
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: Реверсирование разнесенных проводок по аренде
                   href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Соглашения по аренде активов
+                  href: asset-leasing/asset-leasing-convention.md
                 - name: Корректировка аренды
                   href: asset-leasing/adjust-lease.md
                 - name: Уменьшение актива в форме права пользования
                   href: asset-leasing/impair-rou-asset.md
+                - name: Предложение о прекращении аренды
+                  href: asset-leasing/lease-termination.md
                 - name: Связывание аренды с основным средством
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: Запись аренды в иностранной валюте
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: Создание консолидированных финансовых отчетов
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Импорт данных дочерних компаний из файлов
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Экспорт данных дочерних компаний в файл
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Консолидировать с импортом — Формат
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Подготовка юридического лица к процессу консолидации
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Настройка дочернего юридического лица для консолидации
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: Создание групп консолидации и дополнительного счета консолидации
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: Типы счетов ГК
@@ -1004,7 +1036,9 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Один ваучер
                   href: general-ledger/one-voucher.md
-                - name: Сопоставления ГК
+                - name: Один ваучер — Вопросы и ответы
+                  href: general-ledger/one-voucher-faq.md
+                - name: Сопоставления книги учета
                   href: general-ledger/ledger-settlements.md
             - name: Закрытие периода
               items:
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Массовое закрытие финансовых периодов
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: Вопросы и ответы по мероприятиям на конец года
+                  href: general-ledger/faq-year-end-activities.md
             - name: Налог
               items:
                 - name: Обзор налога
@@ -1056,12 +1092,26 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Настройка периодов сопоставления налогов
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Настройка подоходного налога
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Просмотр разнесенных проводок налога
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Печать отчета о налоговых платежах по коду
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Подоходный налог
+              items:
+                - name: Настройка подоходного налога
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Глобальный подоходный налог
+                  items:
+                    - name: Обзор глобального подоходного налога
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Настройка глобального подоходного налога
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Подоходный налог в проводках по покупкам
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Подоходный налог в проводках по продажам
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Создание платежа подоходного налога
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Рабочее место аудита
               items:
                 - name: Правила политики аудита
@@ -1070,6 +1120,52 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Определение политик аудита для документов-источников
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Финансовая отчетность
+          items:
+            - name: Начало работы с финансовой отчетностью
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: Обзор финансовой отчетности
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: Компоненты финансового отчета
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Валюта в финансовой отчетности
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: Финансовые отчеты по балансовому отчету
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: Создание финансовых отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: Финансовый отчет по отчету о доходах
+              href: general-ledger/income-statement-financial-report.md
+            - name: Финансовые отчеты по пробному балансу
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: Просмотр финансовых отчетов
+              href: general-ledger/view-financial-reports.md
+            - name: Интерфейс конструктора отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: Сочетания клавиш для конструктора финансовых отчетов
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: Пользовательские параметры в конструкторе финансовых отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Расширенные параметры форматирования
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Организация компонентов отчета в конструкторе отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Определения отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Определения строк
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Определения столбцов
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Определения дерева отчетности в финансовых отчетах
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Изменение ячеек определений строк
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Сброс киоска данных финансовой отчетности
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: Когда следует сбросить киоск данных
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: Вопросы и ответы по финансовой отчетности
+              href: general-ledger/financial-reporting-faq.md
         - name: Финансовый анализ
           items:
             - name: Домашняя страница финансового анализа
@@ -1306,48 +1402,6 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Расчет канадского HST-налога
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Финансовая отчетность
-          items:
-            - name: Начало работы с финансовой отчетностью
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: Обзор финансовой отчетности
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: Компоненты финансового отчета
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Валюта в финансовой отчетности
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: Финансовые отчеты по балансовому отчету
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: Создание финансовых отчетов
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: Финансовый отчет по отчету о доходах
-              href: general-ledger/income-statement-financial-report.md
-            - name: Финансовые отчеты по пробному балансу
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: Просмотр финансовых отчетов
-              href: general-ledger/view-financial-reports.md
-            - name: Интерфейс конструктора отчетов
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: Сочетания клавиш для конструктора финансовых отчетов
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: Пользовательские параметры в конструкторе финансовых отчетов
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Расширенные параметры форматирования
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Организация компонентов отчета в конструкторе отчетов
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Определения отчетов
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Определения строк
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Определения столбцов
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Определения дерева отчетности в финансовых отчетах
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Изменение ячеек определений строк
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Сброс киоска данных финансовой отчетности
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Глобализация
           items:
             - name: Ресурсы по глобализации
@@ -1358,18 +1412,30 @@
               items:
                 - name: Обзор надстройки "Электронное выставление счетов"
                   href: localizations/e-invoicing-service-overview.md
+                - name: Компоненты администрирования надстройки "Электронное выставление счетов"
+                  href: localizations/e-invoicing-service-administration.md
+                - name: Настройте надстройку "Электронное выставление счетов" в службах Regulatory Configuration Services (RCS)
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Выдача электронных накладных в модуле Финансы и Supply Chain Management
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Создание учетной записи хранения Azure и хранилища ключей
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Начало работы с надстройкой "Электронное выставление счетов"
-                  href: localizations/e-invoicing-get-started.md
-                - name: Начало работы с надстройкой "Электронное выставление счетов" для Бразилии
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: Начало работы с надстройкой "Электронное выставление счетов" для Италии
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: Начало работы с надстройкой "Электронное выставление счетов" для Мексики
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: Настройка надстройки "Электронное выставление счетов"
-                  href: localizations/e-invoicing-setup.md
+                - name: Начало работы
+                  items:
+                    - name: Начать администрирование службы надстройки "Электронное выставление счетов"
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Начало работы с надстройкой "Электронное выставление счетов"
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Бразилии
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Электронные накладные клиентов в Египте
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Италии
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Мексики
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: Настройка надстройки "Электронное выставление счетов"
+                      href: localizations/e-invoicing-setup.md
             - name: Австралия
               items:
                 - name: Обзор по Австралии
@@ -1710,6 +1776,14 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Настройка формата платежной квитанции
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: Египет
+              items:
+                - name: Обзор по Египту
+                  href: localizations/egypt.md
+                - name: Настройка регистрационных номеров для Египта
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: Настройка макета накладной для Египта
+                  href: localizations/emea-egy-invoice-layout.md
             - name: Эстония
               items:
                 - name: Обзор по Эстонии
@@ -1800,6 +1874,8 @@
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
                 - name: Поддерживаемые стандарты для выставления накладных в электронном виде
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: Принудительное создание электронных накладных
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: Ссылка на исходную накладную (Восточная Европа)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: Поиск субъекта по коду НДС
@@ -1968,7 +2044,9 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Интерактивная система выставления накладных
                   href: localizations/emea-hun-online-invoicing.md
-                - name: Отложенные расчеты налогов
+                - name: Налоговые отчеты для Венгрии
+                  href: localizations/emea-hun-sales-tax-reports.md
+                - name: Расчеты отложенных налогов
                   href: localizations/emea-hun-deferred-vat.md
             - name: Исландия
               items:
@@ -2224,7 +2302,9 @@
                   href: localizations/italy.md
                 - name: Сведения для отчетов по НДС
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: Отчет "Черный список"
+                - name: Квартальный отчет по НДС
+                  href: localizations/emea-ita-quarterly-vat-communication.md
+                - name: Отчет по черному списку
                   href: localizations/emea-ita-black-list-report.md
                 - name: Дата обеспечения
                   href: localizations/emea-ita-competence-date.md
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: Годовой налоговый отчет
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: Отслеживаемость платежа
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: Единая система контроля даты разноски
+                  href: localizations/emea-ita-post-date-control.md
             - name: Япония
               items:
                 - name: Обзор по Японии
@@ -2826,6 +2910,10 @@
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Регистры налога на активы
                       href: localizations/rus-assets-tax-registers.md
+                    - name: Налоговый регистр расходов будущих периодов
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: Налоговые регистры для движения денежных средств
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: Саудовская Аравия
               items:
                 - name: Обзор по Саудовской Аравии
@@ -2900,12 +2988,16 @@
               items:
                 - name: Обзор по Таиланду
                   href: localizations/thailand.md
-                - name: Отчеты по карточкам запасов
+                - name: Отчеты по картам запаса
                   href: localizations/apac-tha-stock-card-reports.md
                 - name: Накладная по налогам для подстановки или корректировки
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Нереализованный НДС
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Аналитики налогового филиала
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: Отчет по исходящему НДС
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: Подоходный налог
                   href: localizations/apac-tha-withholding-tax.md
             - name: Объединенные Арабские Эмираты (ОАЭ)
@@ -2991,7 +3083,7 @@
                 - name: Разработка плана преемственности
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Ввод табелей учета рабочего времени проекта
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: Проекты по массовому набору сотрудников
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: Создание проекта по массовому набору сотрудников
@@ -3307,6 +3399,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: Функции
                   items:
+                    - name: Контейнер
+                      items:
+                        - name: Контейнерные функции
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: Дата и время
                       items:
                         - name: Функции даты и времени
@@ -3315,7 +3413,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
-                        - name: Datetimeformat
+                        - name: DateTimeFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
@@ -3529,6 +3627,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Тип: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Контейнер: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 'Дата и время: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Дата и время: DateToDateTime'
@@ -3570,7 +3670,11 @@
                         - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для создания отчетов в формате Word
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Разработка конфигураций электронной отчетности для создания отчетов в формате Word
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: Повторное использование конфигураций электронной отчетности с шаблонами Excel для создания отчетов в формате Word
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для заполнения шаблонов в формате PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Внедрение изображений и фигур
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: Подавление символов спецификации в созданных файлах
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: Обновление данных приложения с помощью электронной отчетности
               items:
                 - name: Создание электронных документов и обновление данных приложения
@@ -3646,7 +3752,7 @@
                         - name: Импорт конфигураций из GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Импорт обновленных версий конфигураций электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Улучшенная фильтрация для поиска конфигураций в GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Отправка конфигураций в GR
@@ -3710,38 +3816,40 @@
                         - name: Изменение и выполнение форматов для использования файлов управления документами
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Отладка источников данных
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Использование штрихкода для формирования изображений штрихкода
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
                     - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Управление несколькими производными сопоставлениями для одного корня модели
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка форматов
                   items:
                     - name: Выбор определений моделей при создании форматов
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Настройка форматов электронной отчетности для использования параметров, указанных для юридического лица'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка параметров формата электронной отчетности для юридического лица
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: Отложенное выполнение элементов формата электронной отчетности
                       items:
                         - name: Отложенное выполнение элемента последовательности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: Отложенное выполнение XML-элемента
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: Разработка многоязычных отчетов
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Сжатие больших исходящих документов
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Проверка настроенных компонентов электронной отчетности
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Относительный путь в привязке данных
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Использование решений для электронной отчетности в Finance and Operations
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: Использование решений электронной отчетности в Финансы
               items:
                 - name: Настройка платформы
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Настройка назначений
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Настройка зависящих от действия назначений
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка ссылки на формат электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Автоматическая проверка созданных отчетов
@@ -3811,10 +3921,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
                 - name: Изменения API
                   items:
-                    - name: Application update 7.3
+                    - name: Обновление приложения 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.11
+                    - name: Обновление приложения 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Обновление приложения 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки

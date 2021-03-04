@@ -94,12 +94,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.17 (апрель 2021 г.)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: "Commerce 10.0.16 (февраль 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: "Commerce 10.0.15 (январь 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: "Commerce 10.0.14 (ноябрь 2020\_г.)"
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Общие сведения о Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Реализация управления жизненным циклом
+              items:
+                - name: Домашняя страница модуля реализации управления жизненным циклом
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Архитектура приложений Finance and Operations
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Адаптация проекта реализации
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Планирование среды
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Подготовка к вводу в эксплуатацию
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: Вопросы и ответы по вводу в эксплуатацию
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Отправка запроса на обслуживание
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Перемещение сред между центрами обработки данных
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Перемещение лицензий между соглашениями различных типов
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: Перемещение проектов реализации LCS в другие арендаторы Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Перемещение проектов внедрения LCS из локального развертывания в облако
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Реализация проектов Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Обновление кода и сред для проектов Commerce
+                  href: dev-itpro/updating-environments.md
+                - name: Тестирование и проблемы с производительностью
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Обзор архитектуры
           items:
             - name: Архитектура
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Инициализация начальных данных в новых средах Commerce
                   href: enable-configure-retail-functionality.md
-            - name: Реализация управления жизненным циклом
-              items:
-                - name: Домашняя страница модуля реализации управления жизненным циклом
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Архитектура приложений Finance and Operations
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Адаптация проекта реализации
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Планирование среды
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Подготовка к вводу в эксплуатацию
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Вопросы и ответы по вводу в эксплуатацию
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Отправка запроса на обслуживание
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Перемещение сред между центрами обработки данных
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Перемещение лицензий между соглашениями различных типов
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: Перемещение проектов реализации LCS в другие арендаторы Azure AD
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Перемещение проектов внедрения LCS из локального развертывания в облако
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Реализация проектов Finance and Operations Commerce
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Commerce'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Обновление кода и сред для проектов Commerce
-                  href: dev-itpro/updating-environments.md
-                - name: Тестирование и проблемы с производительностью
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Настройка каналов
           items:
             - name: Обзор каналов
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: Способы оплаты в центрах обработки вызовов
                       href: work-with-payments.md
+                    - name: Обработка возврата денежных средств в центрах обработки вызовов
+                      href: call-center-refund-payments.md
                     - name: 'Настройка, авторизация и проверка данных кредитной карты'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Настройка номиналов валюты для POS
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: Включение рекомендаций «Выбрать похожие по виду»
                   href: shop-similar-looks.md
+                - name: Включение рекомендаций «Выбрать похожие по описанию»
+                  href: shop-similar-description.md
                 - name: Опыт использования POS
                   items:
                     - name: Добавление рекомендаций по продуктам в POS
@@ -712,14 +716,16 @@
           items:
             - name: Клиентские заказы
               items:
-                - name: Заказы клиентов в POS-терминале
+                - name: Клиентские заказы в POS
                   href: customer-orders-overview.md
                 - name: Гибридные клиентские заказы
                   href: hybrid-customer-orders.md
-                - name: Операция отзыва заказа в POS-терминале
+                - name: Операция отзыва заказа в POS
                   href: enhancedorderrecall.md
-                - name: Включение нескольких режимов доставки отправки
+                - name: Включение нескольких режимов самовывоза
                   href: multiple-pickup-modes.md
+                - name: Обработка самовывоза заказа клиентом в POS
+                  href: process-order-pickup-POS.md
             - name: Заказы на продажу
               items:
                 - name: Создание заказов центра обработки вызовов
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: Включение обнаружения магазинов на основе местонахождения
                   href: enable-store-detection.md
+                - name: Цифровые подарочные сертификаты электронной коммерции
+                  href: digital-gift-cards.md
+                - name: Требования к браузеру для сайтов Dynamics 365 Commerce
+                  href: browser-requirements.md
             - name: Обзор примера сайта
               items:
                 - name: Обзор домашней страницы
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Проверка доступности контента страницы
                       href: verify-accessibility.md
+                    - name: Создание динамических страниц электронной коммерции на основе параметров URL-адреса
+                      href: create-dynamic-pages.md
                 - name: Навигация по сайту
                   items:
                     - name: Настройка навигации по сайту
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Модули семейства продуктов
                       href: product-collection-module-overview.md
+                    - name: Модуль быстрого просмотра
+                      href: quick-view-module.md
                 - name: Модули навигации
                   items:
                     - name: Модуль иерархической навигации
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: Модуль выбора сайта
                       href: site-selector.md
+                - name: Модули поиска
+                  items:
+                    - name: Модуль результатов поиска
+                      href: search-result-module.md
                 - name: Модули соответствия
                   items:
                     - name: Модуль согласия на получение файлов cookie
@@ -1106,6 +1124,18 @@
           items:
             - name: Интеграция Dynamics 365 Fraud Protection с Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: Электронная коммерция B2B
+          items:
+            - name: Настройка сайта электронной коммерции B2B
+              href: b2b/set-up-b2b-site.md
+            - name: Создание иерархий моделирования организации для организаций B2B
+              href: b2b/org-model.md
+            - name: Управление пользователями деловых партнеров на сайтах электронной коммерции B2B
+              href: b2b/manage-b2b-users.md
+            - name: Настройка способа платежа для счета клиента для сайтов электронной коммерции B2B
+              href: b2b/payment-method.md
+            - name: Настройка пределов количества продуктов для сайтов электронной коммерции B2B
+              href: b2b/quantity-limits.md
         - name: Мониторинг и анализ
           items:
             - name: Мониторинг эффективности продаж и маржи
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Имитация состояния выполненного входа в ходе локальной разработки
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: 'Настройте свойства модуля, которые должны отображаться в зависимости от контекста'
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: Глобализация модулей с помощью класса CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Настройка Azure Key Vault для безопасного управления ключами
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Предстоящие изменения в Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: Важные изменения в разработке и ALM между версиями 10.0.10 и 10.0.13
+                - name: Разработка и изменения ALM между версиями 10.0.10 и 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: Объединение систем сборки для Commerce и Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Создание готовых к развертыванию пакетов
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
+                - name: Разработка в размещенной в облаке среде без доступа администратора
                   href: dev-itpro/cloud-dev-box.md
                 - name: Настройка конвейера сборки Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: API клиентов и потребителей Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Создание нового API расширения Retail Server (Retail SDK версии 10.0.11 и более поздние версии)
+                - name: Создание API расширения Retail Server (Retail SDK версии 10.0.11 и более поздние версии)
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: Создание нового API расширения Retail Server (Retail SDK версии 10.0.11 и более ранние версии)
                   href: dev-itpro/retail-server-extension.md
@@ -2300,11 +2332,11 @@
                   href: payment-connector-data-fields.md
                 - name: Включение защиты от дубликатов платежей для соединителя платежей
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Создание упаковки платежа для обозревателя приложений в развертываниях Service Fabric
+                - name: Создание упаковки платежа Commerce для развертывания Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: Расширяемость сторонних решений для электронной коммерции
               items:
-                - name: Настройка интернет-магазинов
+                - name: Настройка интерактивных магазинов
                   href: dev-itpro/configure-online-store.md
                 - name: Настройка поставщиков проверки подлинности
                   href: dev-itpro/configure-authentication-providers.md

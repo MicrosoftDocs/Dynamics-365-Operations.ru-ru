@@ -5,6 +5,10 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 января 2021 г.
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 января 2021 г.
+          href: hr-whats-new-2021-01-21.md
         - name: 2 декабря 2020 г.
           href: hr-whats-new-2020-12-02.md
         - name: 22 октября 2020 г.
@@ -79,12 +83,16 @@
           items:
             - name: Выбор технологии интеграции данных
               href: hr-admin-integration-choose-technology.md
-            - name: Настройка интеграции с Common Data Service
+            - name: Вопросы и ответы по регулированию
+              href: hr-admin-integration-throttling-faq.md
+            - name: Настройка интеграции с Dataverse
               href: hr-admin-integration-common-data-service.md
-            - name: Объекты Common Data Service
+            - name: Таблицы Dataverse
               href: hr-developer-entities.md
-            - name: Настройка виртуальных объектов Common Data Service
+            - name: Настройка виртуальных объектов Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Вопросы и ответы по виртуальным объектам Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: Настройка интеграции с Finance
               href: hr-admin-integration-finance.md
             - name: Настройка интеграции с Dayforce
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Расширение с помощью Power Apps и Power Automate
           href: hr-developer-power-apps.md
-        - name: Объекты Common Data Service
+        - name: Таблицы Dataverse
           href: hr-developer-entities.md
         - name: Настраиваемые поля
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Выбор технологии интеграции данных
               href: hr-admin-integration-choose-technology.md
-            - name: Настройка интеграции с Common Data Service
+            - name: Настройка интеграции с Dataverse
               href: hr-admin-integration-common-data-service.md
             - name: Настройка интеграции с Finance
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Отправка запроса на отпуск в workflow-процесс
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: API интеграции ATS
+          items:
+            - name: Введение
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Запрос на набор сотрудников и соответствующие объекты
+              items:
+                - name: Запрос на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Образование по запросу на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Местонахождение запроса на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Позиция запроса на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Навыки для запроса на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Пример запроса на набор персонала
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Наборы параметров запроса на набор сотрудников
+              items:
+                - name: Статус освобождения от должности
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Статус позиции по запросу на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Статус запроса на набор сотрудников
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Категория нормативных заданий
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Кандидат для приема на работу и соответствующие объекты
+              items:
+                - name: Кандидат для приема на работу
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Тип сертификата
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Контакты
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Респондент
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Адрес респондента
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Сертификат респондента
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Образование респондента
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Идентификационный номер респондента
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Профессиональный опыт респондента
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Отбор респондента
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Навыки респондента
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Уровень рейтинга
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Типы отбора
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Пример запроса кандидата на прием на работу
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Наборы параметров кандидата
+              items:
+                - name: Результат интеграции кандидата
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Пусто Да Нет
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Статус заполнения
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Тип контакта
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Основа для зачетов за расходы на образование
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Пол
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Семейное положение
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Месяцы года
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Нет Да
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Единица периода
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Частота отбора
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Частота отбора создается из
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Тип уровня навыка
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Руководство пользователя
       items:
         - name: Обзор
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Оповещение клиентов с помощью уведомлений по электронной почте
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Электронные подписи
-              items:
-                - name: Обзор электронных подписей
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Настройка электронных подписей
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Управление обращениями
               items:
                 - name: Обзор управления обращениями
@@ -585,12 +673,14 @@
                       href: hr-benefits-process-enrollment-eligibility.md
                     - name: Обработка событий в жизни
                       href: hr-benefits-process-life-events.md
-                    - name: Обработка изменений в жизни
+                    - name: Обработка изменений событий в жизни
                       href: hr-benefits-process-life-event-changes.md
-                    - name: Обработка приемлемости событий в жизни
+                    - name: Обработка допустимости событий в жизни
                       href: hr-benefits-process-life-event-eligibility.md
-                    - name: Обработка изменений ставок
+                    - name: Обработка изменений рейтинга
                       href: hr-benefits-process-rate-changes.md
+                - name: Отчетность ACA
+                  href: hr-benefits-management-aca-reports.md
             - name: Определение программ льгот и управление ими
               href: hr-benefits-manage-program.md
             - name: Политики прав на льготы
