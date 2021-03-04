@@ -49,3 +49,6 @@ ms.locfileid: "4527725"
 **Долгосрочное решение**
 
 Будут доступны дополнительные параметры Power BI, и дополнительные данные и объекты будут входить в Common Data Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

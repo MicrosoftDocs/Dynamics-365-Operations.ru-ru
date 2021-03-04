@@ -83,3 +83,6 @@ LIST (list 1 [, list 2, …, list N])
 [Функции для работы со списками](er-functions-category-list.md)
 
 [Отладка источников данных для выполняемого формата электронной отчетности для анализа потока и преобразования данных](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

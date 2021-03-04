@@ -41,3 +41,6 @@ ms.locfileid: "4415324"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Клиентские заказы в Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

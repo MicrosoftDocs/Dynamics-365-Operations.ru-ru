@@ -514,3 +514,6 @@ ms.locfileid: "4680178"
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Загрузка конфигураций электронной отчетности из глобального репозитория Configuration Service](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

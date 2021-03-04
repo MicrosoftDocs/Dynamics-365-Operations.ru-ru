@@ -56,3 +56,6 @@ Dynamics 365 Commerce— основана на проверенных возмо
 - [Управление сайтом электронной коммерции](online-store-overview.md)
 - [Защита от мошенничества](dev-itpro/DFP.md)
 - [Разработка и расширяемость Commerce](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

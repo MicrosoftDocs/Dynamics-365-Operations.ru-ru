@@ -449,3 +449,6 @@ ms.locfileid: "4408514"
 - [Электронная отчетность](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Электронные сообщения](../general-ledger/electronic-messaging.md)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

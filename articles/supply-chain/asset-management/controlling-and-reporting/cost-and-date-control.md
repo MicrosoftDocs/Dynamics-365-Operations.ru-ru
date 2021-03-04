@@ -108,3 +108,6 @@ ms.locfileid: "4435936"
 ![Пример результатов расчета в Управление датами заказов на работу](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4415117"
 [Обзор макета экрана](pos-screen-layouts.md)       
 
 [Настройка и установка Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

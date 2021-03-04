@@ -81,3 +81,6 @@ Workflow-процесс можно создать в Dynamics 365 Human Resource
 ## <a name="see-also"></a>См. также
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

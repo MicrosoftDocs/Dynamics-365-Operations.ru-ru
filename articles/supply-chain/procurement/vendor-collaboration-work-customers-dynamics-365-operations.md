@@ -147,3 +147,6 @@ ms.locfileid: "4654348"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Ведение пользователей совместной работы с поставщиками](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -300,3 +300,6 @@ ms.locfileid: "4681288"
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью](trace-execution-er-troubleshoot-perf.md)
 - [Поддержка параметризованных вызовов источников данных электронной отчетности для типа вычисляемого поля](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

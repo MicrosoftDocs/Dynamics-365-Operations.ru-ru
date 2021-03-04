@@ -134,3 +134,6 @@ Dynamics 365 Commerce поддерживает несколько розничн
 [Настройка канала центра обработки вызовов](channel-setup-callcenter.md)
 
 [Соединитель платежей Dynamics 365 для Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

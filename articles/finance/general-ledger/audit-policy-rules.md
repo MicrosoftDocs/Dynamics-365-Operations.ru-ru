@@ -101,3 +101,6 @@ ms.locfileid: "4447161"
 [пределение политик аудита для документов-источников](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

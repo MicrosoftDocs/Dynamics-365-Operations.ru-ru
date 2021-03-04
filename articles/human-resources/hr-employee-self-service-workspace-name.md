@@ -45,3 +45,6 @@ ms.locfileid: "4420313"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Обзор самообслуживания сотрудников и менеджеров](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

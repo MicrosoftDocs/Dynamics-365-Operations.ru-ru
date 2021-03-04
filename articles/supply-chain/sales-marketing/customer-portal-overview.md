@@ -69,3 +69,6 @@ ms.locfileid: "4529586"
 ![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
 
 Клиентский портал выступает в качестве отправной точки для организаций, желающих использовать порталы Power Apps для создания внешнего веб-сайта, использующего данные из установки Supply Chain Management. Он помогает организациям объединять двойную запись, Supply Chain Management и порталы Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

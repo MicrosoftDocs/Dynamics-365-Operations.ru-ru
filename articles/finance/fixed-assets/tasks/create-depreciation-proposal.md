@@ -48,3 +48,6 @@ ms.locfileid: "4447292"
 3. Выберите **Строки**.
 4. Выберите **Разнести**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

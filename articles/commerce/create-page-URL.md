@@ -107,3 +107,6 @@ ms.locfileid: "4415195"
 [Настройка доменного имени](configure-your-domain-name.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ ROUND (number, decimals)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Математические функции](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

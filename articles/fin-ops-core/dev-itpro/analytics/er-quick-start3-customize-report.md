@@ -671,3 +671,6 @@ ms.locfileid: "4683027"
 - [Загрузка конфигураций электронной отчетности из глобального репозитория Configuration Service](er-download-configurations-global-repo.md)
 - [Создание накладных с произвольным текстом](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Создание настраиваемых полей и работа с ними](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

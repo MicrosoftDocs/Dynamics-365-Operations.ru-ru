@@ -91,3 +91,6 @@ ROUNDAMOUNT (number, decimals, round rule)
 [Другие функции (характерные для конкретных бизнес-доменов)](er-functions-category-other.md)
 
 [Математические функции](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

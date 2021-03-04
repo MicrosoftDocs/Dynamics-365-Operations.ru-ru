@@ -61,3 +61,6 @@ ms.locfileid: "4436156"
 >[!NOTE]
 >Если требуется сосредоточиться только на планировании мощностей по запланированным заказам на работу, см. раздел [Расчет максимальной мощности по запланированным заказам на работу](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

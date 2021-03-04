@@ -599,3 +599,6 @@ ms.locfileid: "4687238"
 [Определения строк в конструкторе финансовых отчетов](row-definitions-financial-reporting.md)
 
 [Расширенные параметры форматирования в финансовой отчетности](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

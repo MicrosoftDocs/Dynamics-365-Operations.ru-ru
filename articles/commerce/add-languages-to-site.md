@@ -176,3 +176,6 @@ ms.locfileid: "4415177"
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

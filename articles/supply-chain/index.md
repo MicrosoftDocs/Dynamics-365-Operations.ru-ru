@@ -106,3 +106,6 @@ ms.locfileid: "5154287"
 ## <a name="elearning-courses"></a>Курсы eLearning
 
 Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

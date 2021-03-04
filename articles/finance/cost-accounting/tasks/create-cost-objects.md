@@ -51,3 +51,6 @@ ms.locfileid: "4447337"
 ## <a name="view-the-imported-cost-centers"></a>Просмотр импортированных центров затрат
 1. Щелкните "Просмотр элементов аналитики".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

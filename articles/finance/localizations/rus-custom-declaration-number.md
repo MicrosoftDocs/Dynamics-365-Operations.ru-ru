@@ -97,3 +97,6 @@ ms.locfileid: "4408584"
 
     ![Фактура накладной](media/7%20Invoice-facture.jpg)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

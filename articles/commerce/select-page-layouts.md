@@ -78,3 +78,6 @@ ms.locfileid: "4415361"
 
 [Проверка специальных возможностей контента страницы](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

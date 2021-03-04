@@ -66,3 +66,6 @@ ms.locfileid: "4420178"
     * Статус "Начато" означает, что проект готов получать заявления.  
 33. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

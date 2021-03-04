@@ -50,3 +50,6 @@ ms.locfileid: "4685771"
 | Название должности                  | Имя файла |
 |------------------------|-----------|
 | Конфигурация модели ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

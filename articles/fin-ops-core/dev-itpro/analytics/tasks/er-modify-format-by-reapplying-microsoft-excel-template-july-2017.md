@@ -83,3 +83,6 @@ ms.locfileid: "4684243"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Использование измененной черновой версии формата электронной отчетности для использования при обработке журнала платежей
 
 Просмотрите созданный лист, включая новый элемент сведений строк платежа — дату платежа.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

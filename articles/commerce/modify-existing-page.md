@@ -87,3 +87,6 @@ ms.locfileid: "4415318"
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
 
 [Проверка специальных возможностей контента страницы](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

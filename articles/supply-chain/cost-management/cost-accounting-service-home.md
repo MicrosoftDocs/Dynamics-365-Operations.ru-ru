@@ -37,3 +37,6 @@ ms.locfileid: "4435950"
 ## <a name="related-resources"></a>Связанные ресурсы
 
 [Начало работы со службой учета затрат](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

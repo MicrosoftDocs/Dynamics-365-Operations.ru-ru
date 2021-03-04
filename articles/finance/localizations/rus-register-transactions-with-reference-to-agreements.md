@@ -129,3 +129,6 @@ ms.locfileid: "4408537"
 - [Договоры](rus-agreements.md)
 - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
 - [Запросы и отчеты с договорами](rus-inquiries-reports-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

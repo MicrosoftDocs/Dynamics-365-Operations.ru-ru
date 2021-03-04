@@ -95,3 +95,6 @@ ms.locfileid: "4436107"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Приемка с устройства карты задания](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

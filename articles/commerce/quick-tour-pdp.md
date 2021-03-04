@@ -88,3 +88,6 @@ ms.locfileid: "4415343"
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
 
 [Страница сведений о расширении возможностей страницы продукта](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

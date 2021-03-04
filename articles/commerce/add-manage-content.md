@@ -57,3 +57,6 @@ ms.locfileid: "4415185"
 [Состояния и жизненный цикл документа](document-states-overview.md)
 
 [Включение и использование межканального совместного использования](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

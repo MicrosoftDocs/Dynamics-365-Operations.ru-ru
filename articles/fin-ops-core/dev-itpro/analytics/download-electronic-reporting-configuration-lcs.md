@@ -76,3 +76,6 @@ ms.locfileid: "4683313"
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ ms.locfileid: "4415367"
 [Состояния и жизненный цикл документа](document-states-overview.md)
 
 [Работа с группами публикаций](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

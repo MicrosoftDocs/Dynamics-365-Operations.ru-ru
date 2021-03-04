@@ -170,3 +170,6 @@ ms.locfileid: "4415224"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Гибридные клиентские заказы](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

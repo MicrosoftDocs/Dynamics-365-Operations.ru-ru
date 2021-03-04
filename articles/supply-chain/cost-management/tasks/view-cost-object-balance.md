@@ -40,3 +40,6 @@ ms.locfileid: "4436170"
 8. Снимите флажок "Местонахождение".
 9. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

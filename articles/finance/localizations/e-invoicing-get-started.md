@@ -344,3 +344,6 @@ ms.locfileid: "4447384"
 - [Приступая к работе с дополнительным компонентом электронных накладных для Мексики](e-invoicing-mex-get-started.md)
 - [Приступая к работе с дополнительным компонентом электронных накладных для Италии](e-invoicing-ita-get-started.md)
 - [Настройка дополнения электронных накладных](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

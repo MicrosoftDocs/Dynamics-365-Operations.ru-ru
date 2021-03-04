@@ -135,3 +135,6 @@ ms.locfileid: "4415305"
 [Управление оценками и отзывами](manage-reviews.md)
 
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

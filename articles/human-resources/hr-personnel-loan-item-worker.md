@@ -44,3 +44,6 @@ ms.locfileid: "4420230"
 2. Щелкните "Изменить".
 3. Введите дату в поле "Фактический возврат".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

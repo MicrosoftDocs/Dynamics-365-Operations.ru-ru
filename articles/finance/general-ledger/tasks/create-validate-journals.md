@@ -43,3 +43,6 @@ ms.locfileid: "4646319"
 12. Щелкните **Разнести**.
 13. Щелкните **Операция**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

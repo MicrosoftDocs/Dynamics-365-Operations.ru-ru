@@ -65,3 +65,6 @@ ms.locfileid: "4447249"
 [Настройка банковских услуг и профилей разноски для гарантийного письма](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

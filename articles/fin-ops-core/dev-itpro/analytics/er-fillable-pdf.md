@@ -301,3 +301,6 @@ ms.locfileid: "4688133"
 
 - [Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML (ноябрь 2016 г.)](tasks/er-design-reports-openxml-2016-11.md)
 - [Разработка конфигураций электронной отчетности для создания отчетов в формате Word](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

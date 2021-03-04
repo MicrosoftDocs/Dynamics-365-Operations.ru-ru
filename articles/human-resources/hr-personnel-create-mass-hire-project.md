@@ -48,3 +48,6 @@ ms.locfileid: "4420179"
     * При желании выберите подразделение для новых должностей.  
 13. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

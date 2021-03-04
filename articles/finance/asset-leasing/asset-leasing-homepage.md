@@ -96,3 +96,6 @@ ms.locfileid: "4447418"
 ### <a name="videos"></a>Видео
 
 Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

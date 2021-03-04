@@ -146,3 +146,6 @@ ms.locfileid: "4665280"
 [REST API Карт Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Модуль карт](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

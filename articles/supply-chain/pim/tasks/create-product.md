@@ -39,3 +39,6 @@ ms.locfileid: "4436032"
 8. В поле "Номер продукта" введите значение.
 9. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

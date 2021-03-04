@@ -182,3 +182,6 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 [Настройка канала центра обработки вызовов](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

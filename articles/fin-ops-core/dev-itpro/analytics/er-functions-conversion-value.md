@@ -63,3 +63,6 @@ VALUE (text)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции преобразования типов](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

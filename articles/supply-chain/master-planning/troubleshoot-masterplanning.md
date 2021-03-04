@@ -89,3 +89,6 @@ ms.locfileid: "4645073"
 
 > [!NOTE]
 > Это ограничит период для развертываний, выполняемых для этого сводного плана, до одного дня.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

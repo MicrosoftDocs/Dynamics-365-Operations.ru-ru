@@ -156,3 +156,6 @@ ms.locfileid: "4688325"
 [Финансовая отчетность](financial-reporting-intro.md)
 
 [Интерфейс конструктора отчетов](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "4436033"
 7. В поле "Описание" введите значение.
 8. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ ms.locfileid: "4517436"
 
 - Видео: [Подробные сведения о конфигурации управления складом](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Тема справки: [Создание директив местонахождения](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

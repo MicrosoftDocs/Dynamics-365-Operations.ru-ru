@@ -149,3 +149,6 @@ ms.locfileid: "4408578"
 
 5. Нажмите **ОК**.
 6. Просмотрите созданный отчет Excel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

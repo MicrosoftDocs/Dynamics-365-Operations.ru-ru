@@ -109,3 +109,6 @@ ms.locfileid: "4415109"
 [Модуль поля покупки](add-buy-box.md)
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

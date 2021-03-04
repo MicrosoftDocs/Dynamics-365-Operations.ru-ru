@@ -63,3 +63,6 @@ ms.locfileid: "4682197"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 Для получения дополнительных сведений о безопасности на уровне строк Power BI см. раздел [Управления безопасностью в своей модели в Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

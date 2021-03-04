@@ -35,3 +35,6 @@ ms.locfileid: "4685177"
 3. В списке найдите и выберите требуемую запись.
 4. Щелкните **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4420218"
 3. Выберите **Сохранить**.
 
 ![Страница параметров глобальной адресной книги](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

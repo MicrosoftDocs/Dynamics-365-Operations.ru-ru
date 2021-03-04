@@ -45,3 +45,6 @@ ms.locfileid: "4683146"
 - [Рабочая область платежей поставщику](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Содержимое Power BI "Производительность склада"](warehouse-power-bi-content.md)
 - [Содержимое Power BI "Показатели трудовых ресурсов"](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

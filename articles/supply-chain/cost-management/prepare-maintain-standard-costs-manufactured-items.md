@@ -73,3 +73,6 @@ ms.locfileid: "4436075"
 
 [Настройка продуктов, которые можно произвести или приобрести](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4415302"
 [Назначение списков задач магазинам или сотрудникам](task-mgmt-assign-lists.md)
 
 [Управление задачами в POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

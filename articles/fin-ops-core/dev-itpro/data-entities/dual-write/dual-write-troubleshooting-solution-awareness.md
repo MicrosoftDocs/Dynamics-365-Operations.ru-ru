@@ -45,3 +45,6 @@ ms.locfileid: "4683579"
 *Объект с именем 'msdyn\_dualwriteentitymap' с namemapping='Logical' не найден в MetadataCache.*
 
 Чтобы устранить проблему, убедитесь, что базовое решение двойной записи установлено в Dataverse. Базовое решение двойной записи является необходимым условием для поддержки решений.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

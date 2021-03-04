@@ -52,3 +52,6 @@ ms.locfileid: "4420192"
    4. Нажмите **ОК**. Процесс будет выполнен с заданными вами параметрами.
 
 4. Нажмите **ОК**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

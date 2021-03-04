@@ -164,3 +164,6 @@ On the **System parameters** page, follow these steps:
 | [Сообщество Dynamics](https://community.dynamics.com/) | Этот сайт включает блоги, форумы и видео. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Этот сайт предоставляет сведения об оценке и продажах. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Этот сайт размещает ресурсы обучения, можно загрузить отчеты и документы, и является основным сайтом поддержки для владельцев планов обслуживания. Может потребоваться план обслуживания для доступа к некоторым ресурсам на сайте. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

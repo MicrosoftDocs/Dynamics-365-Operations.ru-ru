@@ -115,3 +115,6 @@ ms.locfileid: "4415196"
 [Создание юридических лиц](channels-legal-entities.md)
 
 [Создание группы вариантов](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

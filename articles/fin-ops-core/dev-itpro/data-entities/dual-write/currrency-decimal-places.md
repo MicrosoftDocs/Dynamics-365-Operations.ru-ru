@@ -95,3 +95,6 @@ ms.locfileid: "4683748"
 ### <a name="tables-currency-field"></a>Таблицы: поле валюты
 
 Число десятичных разрядов, которые могут быть настроены для некоторых полей валюты, ограничивается четырьмя.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

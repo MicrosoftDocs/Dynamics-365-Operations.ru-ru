@@ -190,3 +190,6 @@ Supply Chain Management предлагает дополнительное кра
 ## <a name="related-topic"></a>Связанные раздел
 
 [Поиск продуктов и вариантов продуктов во время ввода заказа](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

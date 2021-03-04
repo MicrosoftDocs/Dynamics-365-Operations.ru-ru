@@ -102,3 +102,6 @@ ms.locfileid: "4694503"
     ```
 2. Создайте оповещение из формы SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal po
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Текстовые функции](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

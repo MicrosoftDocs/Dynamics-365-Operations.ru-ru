@@ -94,3 +94,6 @@ ms.locfileid: "4680863"
 [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 
 [Отложенное выполнение элементов XML в форматах электронной отчетности](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

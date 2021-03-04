@@ -54,3 +54,6 @@ ms.locfileid: "4420175"
 
 ## <a name="steps-for-creating-a-department"></a>Шаги для создания подразделения
 Описание пошаговой процедуры создания нового подразделения см. в статье [Определение новых подразделений](../fin-and-ops/hr/tasks/define-new-departments.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

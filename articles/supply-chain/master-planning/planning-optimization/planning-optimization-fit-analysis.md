@@ -114,3 +114,6 @@ ms.locfileid: "4436062"
 [Применение фильтров к плану](plan-filters.md)
 
 [Отмена задания планирования](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

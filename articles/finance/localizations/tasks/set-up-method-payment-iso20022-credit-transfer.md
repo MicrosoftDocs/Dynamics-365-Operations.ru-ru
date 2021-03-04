@@ -48,3 +48,6 @@ ms.locfileid: "4447048"
 10. В поле "Счет оплаты" укажите значения "DEMF OPER".
 11. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

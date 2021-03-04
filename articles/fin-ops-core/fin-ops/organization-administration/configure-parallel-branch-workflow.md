@@ -50,3 +50,6 @@ ms.locfileid: "4693338"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор создания бизнес-правил](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

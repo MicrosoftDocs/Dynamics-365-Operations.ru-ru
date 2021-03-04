@@ -59,3 +59,6 @@ ms.locfileid: "4435757"
     * Обратите внимание, что канбан имеет два задания процесса из производственного потока. Первое задание — это SpeakerAssemblyAndPolish, второе — SpeakerTestAndPackaging.  
     * Это последний шаг.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

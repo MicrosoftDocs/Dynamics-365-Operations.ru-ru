@@ -309,3 +309,6 @@ ms.locfileid: "4679734"
 [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 
 [Настройка параметров формата ER для юридического лица](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

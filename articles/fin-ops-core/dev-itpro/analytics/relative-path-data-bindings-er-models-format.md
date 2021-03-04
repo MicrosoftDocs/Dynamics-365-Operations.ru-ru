@@ -57,3 +57,6 @@ ms.locfileid: "4687483"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Язык формул электронной отчетности](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

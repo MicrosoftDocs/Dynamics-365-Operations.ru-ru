@@ -65,3 +65,6 @@ ms.locfileid: "4685741"
 - Управление затратами
 - [Результаты финансовой деятельности](financial-performance-power-bi-content-pack.md)
 - [Эффективность канала розничной торговли](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

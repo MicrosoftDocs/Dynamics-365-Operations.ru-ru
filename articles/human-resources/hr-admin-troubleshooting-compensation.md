@@ -47,3 +47,6 @@ ms.locfileid: "4420187"
 - Процесс:
 
     - [Обработка компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

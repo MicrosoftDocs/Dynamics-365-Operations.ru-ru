@@ -289,3 +289,6 @@ ms.locfileid: "4686424"
 [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 
 [Трассировка выполнения формата электронной отчетности для устранения проблем с производительностью](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

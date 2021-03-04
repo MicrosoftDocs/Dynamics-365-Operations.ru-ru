@@ -60,3 +60,6 @@ ms.locfileid: "4447282"
 
 - [Финансовые аналитики](financial-dimensions.md)
 - [Создание и назначение структур дополнительных правил](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4415397"
 [Модуль сведений о заказе](order-confirmation-module.md)
 
 [Модуль подарочных сертификатов](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

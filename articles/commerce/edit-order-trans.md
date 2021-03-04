@@ -90,3 +90,6 @@ ms.locfileid: "5010159"
 [Создание книги Excel для редактирования проводок розничной торговли](create-excel-edit.md)
 
 [Добавление полей в книгу Excel для редактирования проводок розничной торговли](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

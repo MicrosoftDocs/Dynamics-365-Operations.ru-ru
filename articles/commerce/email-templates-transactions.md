@@ -203,3 +203,6 @@ Dynamics 365 Commerce предоставляет готовое решение �
 [Настройка приема электронной почты](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Отправка чеков по электронной почте из Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4436150"
 На следующем рисунке показан пример страницы **Типы запроса на обслуживание**.
 
 ![Страница типов запросов на обслуживание](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

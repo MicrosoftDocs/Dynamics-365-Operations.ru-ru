@@ -121,3 +121,6 @@ Dynamics 365 Commerce использует Azure Active Directory (Azure AD) B2C
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
 
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

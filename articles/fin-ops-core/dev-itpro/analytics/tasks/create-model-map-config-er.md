@@ -65,3 +65,6 @@ ms.locfileid: "4682077"
     * Сопоставление образца Интрастат  
 5. Нажмите Создать конфигурацию.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

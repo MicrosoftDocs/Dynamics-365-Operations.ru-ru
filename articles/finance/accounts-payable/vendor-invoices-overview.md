@@ -128,3 +128,6 @@ ms.locfileid: "4701684"
 - [Ввод данных счета в модуль расчетов с поставщиками с использованием журнала утверждения](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Ввод данных счета в модуль расчетов с поставщиками с использованием кластера накладных](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Регистрация накладной поставщика в журнале накладных](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

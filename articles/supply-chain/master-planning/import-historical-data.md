@@ -59,3 +59,6 @@ ms.locfileid: "4436279"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

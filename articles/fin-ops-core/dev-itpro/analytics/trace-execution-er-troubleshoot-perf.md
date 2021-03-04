@@ -376,3 +376,6 @@ ms.locfileid: "4687435"
 
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Повышение производительности решений электронной отчетности за счет добавления параметризованных источников данных ВЫЧИСЛЯЕМЫЕ ПОЛЯ](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4688157"
 | [Эффективность продаж и прибыльность](sales-profitability-performance-content-pack.md) | <ul><li>Выручка по регионам</li><li>Первые 10 клиентов по выручке</li><li>Первые 10 продуктов по выручке</li></ul> |
 | [Управление кредитом и сбором задолженностей](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Необработанные клиенты</li><li>Клиенты с превышением кредитного лимита</li><li>Сальдо по срокам</li></ul> |
 | [Анализ расходов на закупку](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Покупки по месяцам и дням</li><li>10 лучших поставщиков по закупкам</li><li>10 продуктов с наибольшими закупками</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

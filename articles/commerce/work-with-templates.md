@@ -150,3 +150,6 @@ ms.locfileid: "4415251"
 [Обзор шаблонов и макетов](templates-layouts-overview.md)
 
 [Работа с предустановленными макетами](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

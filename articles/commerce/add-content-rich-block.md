@@ -89,3 +89,6 @@ ms.locfileid: "4415173"
 
 [Модуль видеопроигрывателя](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "4436127"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Создание соглашения на обслуживание](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

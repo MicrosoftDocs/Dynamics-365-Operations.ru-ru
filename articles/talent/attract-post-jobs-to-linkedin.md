@@ -80,3 +80,6 @@ Attract позволяет размещать объявления в огран
 [Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Устранение неполадок интеграции с LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

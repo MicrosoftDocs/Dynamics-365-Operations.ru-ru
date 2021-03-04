@@ -60,3 +60,6 @@ ms.locfileid: "4435825"
 [Шаблоны обслуживания](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

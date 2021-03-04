@@ -44,3 +44,6 @@ ms.locfileid: "4435822"
 10. Нажмите кнопку "Сохранить".
 11. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

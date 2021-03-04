@@ -48,3 +48,6 @@ ms.locfileid: "4435820"
 7. Щелкните Отправить.
 8. Выберите маршрут.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

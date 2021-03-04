@@ -45,3 +45,6 @@ ms.locfileid: "4415308"
 - Сводка по налогам
 - Сводка переопределения цены
 - Сводка по скидке
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

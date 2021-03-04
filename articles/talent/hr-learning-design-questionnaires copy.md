@@ -246,3 +246,6 @@ ms.locfileid: "4462307"
 
 [Просмотр и оценка результатов анкет](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

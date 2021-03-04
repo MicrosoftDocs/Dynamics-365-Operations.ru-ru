@@ -81,3 +81,6 @@ ATP = ATP за предыдущий период + приходы за теку�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

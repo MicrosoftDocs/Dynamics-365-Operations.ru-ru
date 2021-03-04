@@ -63,3 +63,6 @@ ms.locfileid: "4415278"
 29. Щелкните "Опубликовать".
 30. Щелкните "Закрыть".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

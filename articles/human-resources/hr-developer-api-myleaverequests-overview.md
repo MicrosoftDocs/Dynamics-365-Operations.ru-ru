@@ -64,3 +64,5 @@ ms.locfileid: "4420173"
 
 - [Отправка запроса на отпуск в workflow-процесс](hr-developer-api-myleaverequests-submit.md)
 - [Проверка подлинности](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

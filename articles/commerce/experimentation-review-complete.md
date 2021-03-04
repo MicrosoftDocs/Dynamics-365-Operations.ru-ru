@@ -61,3 +61,6 @@ ms.locfileid: "4415381"
 
 ## <a name="previous-step"></a>Предыдущий шаг
 [Запуск эксперимента и контроль за ним](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

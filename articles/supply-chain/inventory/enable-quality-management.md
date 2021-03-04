@@ -504,3 +504,6 @@ ms.locfileid: "4436110"
 [Управление несоответствием](enable-nonconformance-management.md)
 
 [Управление качеством для складских процессов](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

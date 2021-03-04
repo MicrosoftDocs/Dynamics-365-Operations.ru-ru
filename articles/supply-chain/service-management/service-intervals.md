@@ -94,3 +94,6 @@ ms.locfileid: "4436126"
 
 [Настройка интервалов обслуживания](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -134,3 +134,6 @@ ms.locfileid: "4408598"
 4. Выберите **ОК**, чтобы создать акт инвентаризации денежных средств.
 
     ![Отчет акта инвентаризации денежных средств](media/cash-primary-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ ms.locfileid: "4447262"
 ![Конфигурация используется совместно с внешней организацией](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Чтобы отменить общий доступ к конфигурации, который ранее был предоставлен для внешней организации, выберите конфигурацию и щелкните **Отмена общего доступа**, а затем нажмите кнопку **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Dynamics 365 Commerce позволяет управлять метаданным
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
 
 [Проверка специальных возможностей контента страницы](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

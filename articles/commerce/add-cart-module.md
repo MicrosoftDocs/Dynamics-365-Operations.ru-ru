@@ -117,3 +117,6 @@ ms.locfileid: "4415395"
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
 
 [Создание профиля функциональности для онлайн-торговли](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

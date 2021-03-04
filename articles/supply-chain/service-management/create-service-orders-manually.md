@@ -102,3 +102,6 @@ ms.locfileid: "4436065"
 
 [Создание заказов на обслуживание (форма класса)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

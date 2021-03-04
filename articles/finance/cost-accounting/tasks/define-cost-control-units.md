@@ -41,3 +41,6 @@ ms.locfileid: "4447336"
 10. В поле "Аналитика" введите или выберите значение.
 11. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ ms.locfileid: "4436078"
 
 5. Щелкните **OK**. Создан один или несколько заказов на работу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

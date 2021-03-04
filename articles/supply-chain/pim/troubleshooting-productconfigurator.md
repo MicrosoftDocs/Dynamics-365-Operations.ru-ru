@@ -75,3 +75,6 @@ ms.locfileid: "4516863"
 
 - *ResultDecimal* = *Ввод* × *Процент* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

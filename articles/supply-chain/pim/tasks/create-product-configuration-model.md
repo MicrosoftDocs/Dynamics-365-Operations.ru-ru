@@ -83,3 +83,6 @@ ms.locfileid: "4436037"
 17. В поле "В серии" введите число.
 18. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

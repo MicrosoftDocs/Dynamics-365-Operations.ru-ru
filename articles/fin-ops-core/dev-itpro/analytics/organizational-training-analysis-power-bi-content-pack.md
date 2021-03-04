@@ -57,3 +57,6 @@ ms.locfileid: "4685843"
 | Training\_Position        | Должность, название и эквивалент полной занятости (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Имя, фамилия и ФИО                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Должность и дата трудового стажа                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

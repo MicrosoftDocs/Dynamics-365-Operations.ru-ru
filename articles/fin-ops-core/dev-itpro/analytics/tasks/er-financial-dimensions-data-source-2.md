@@ -147,3 +147,6 @@ ms.locfileid: "4681693"
 4. Щелкните "Завершить".
 5. Нажмите кнопку "OК".
 ![Страница конструктора сопоставления модели электронной отчетности](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

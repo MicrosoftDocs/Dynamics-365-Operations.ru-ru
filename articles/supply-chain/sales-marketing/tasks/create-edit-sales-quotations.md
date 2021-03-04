@@ -70,3 +70,6 @@ ms.locfileid: "4435844"
 13. Щелкните **Заказы на продажу**.
 14. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

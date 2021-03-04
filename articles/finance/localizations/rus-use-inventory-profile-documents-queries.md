@@ -744,3 +744,6 @@ ms.locfileid: "4669001"
 
 -  [Обзор профиля учета](rus-inventory-profile-overview.md)
 -  [Настройка профиля учета](rus-set-up-inventory-profile.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

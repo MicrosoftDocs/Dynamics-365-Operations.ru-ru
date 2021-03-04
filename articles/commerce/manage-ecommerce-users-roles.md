@@ -71,3 +71,6 @@ ms.locfileid: "4415126"
 [Особенности поисковой оптимизации (SEO) для вашего сайта](search-engine-optimization-considerations.md)
 
 [Управление политикой безопасности содержимого (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

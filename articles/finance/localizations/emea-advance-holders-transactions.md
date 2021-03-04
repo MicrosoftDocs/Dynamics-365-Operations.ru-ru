@@ -64,3 +64,6 @@ ms.locfileid: "4408504"
 
 - [Авансовый платеж сотруднику (Восточная Европа)](tasks/advance-payment-employee.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ ms.locfileid: "4435939"
 ## <a name="related-resources"></a>Связанные ресурсы
 
 [Домашняя страница службы учета затрат](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

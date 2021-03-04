@@ -126,3 +126,6 @@ ms.locfileid: "4408580"
 
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
 - [Расчет амортизации для России](rus-depreciation-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

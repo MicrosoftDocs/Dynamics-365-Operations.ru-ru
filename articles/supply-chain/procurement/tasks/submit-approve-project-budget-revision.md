@@ -46,3 +46,6 @@ ms.locfileid: "4435974"
 12. В поле "Комментарий" введите значение.
 13. Щелкните Отправить.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

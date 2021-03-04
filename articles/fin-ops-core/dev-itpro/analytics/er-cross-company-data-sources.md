@@ -76,3 +76,6 @@ FILTER (MyTable,
 
 - [Конфигурация модели электронной отчетности — CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [Конфигурация формата электронной отчетности — CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

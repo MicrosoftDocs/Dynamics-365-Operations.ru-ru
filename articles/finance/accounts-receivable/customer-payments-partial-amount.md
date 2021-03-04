@@ -60,3 +60,6 @@ ms.locfileid: "4447065"
 
 
 Дополнительные сведения см. в разделе [Внесение платежей клиентов](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

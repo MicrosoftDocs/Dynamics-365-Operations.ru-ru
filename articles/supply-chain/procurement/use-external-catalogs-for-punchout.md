@@ -55,3 +55,5 @@ ms.locfileid: "4436460"
 
 - [Настройка внешнего каталога для электронных закупок с внешними заказами](set-up-external-catalog-for-punchout.md)
 - [Улучшения cXML покупки](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

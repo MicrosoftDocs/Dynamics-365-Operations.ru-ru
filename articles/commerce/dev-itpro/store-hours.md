@@ -78,3 +78,6 @@ ms.locfileid: "4687519"
 Теперь чеки с POS-терминала включают в себя часы работы магазина. Если в шаблон были включены праздники, они будут показаны в чеке.
 
 ![Пример чека](../dev-itpro/media/Storehours3.png "Пример чека")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

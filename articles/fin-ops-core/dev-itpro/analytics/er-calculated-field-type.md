@@ -342,3 +342,6 @@ ms.locfileid: "4681264"
 - [Конструктор формул в электронной отчетности (ER)](general-electronic-reporting-formula-designer.md)
 - [Повышение производительности решений электронной отчетности за счет добавления параметризованных источников данных ВЫЧИСЛЯЕМЫЕ ПОЛЯ](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

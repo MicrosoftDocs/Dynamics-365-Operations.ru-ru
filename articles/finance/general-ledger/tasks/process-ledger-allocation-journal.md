@@ -44,3 +44,6 @@ ms.locfileid: "4447227"
 9. Выберите **Разнести**.
 10. Выберите **Разнести**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

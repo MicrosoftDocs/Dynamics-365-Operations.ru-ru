@@ -143,3 +143,6 @@ ms.locfileid: "4527346"
 
 [Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

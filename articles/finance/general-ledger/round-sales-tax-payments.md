@@ -131,3 +131,6 @@ ms.locfileid: "4447371"
 - [Функция round](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

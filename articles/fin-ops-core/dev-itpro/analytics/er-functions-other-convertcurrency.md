@@ -71,3 +71,6 @@ CONVERTCURRENCY (amount, source currency, target currency, date, company)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Другие функции (характерные для конкретных бизнес-доменов)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

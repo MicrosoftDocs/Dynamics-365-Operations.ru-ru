@@ -251,3 +251,6 @@ MRP создает спланированный заказ, прикреплен
 ## <a name="see-also"></a>См. также
 
 Дополнительное обсуждение см. в исходной записи блога [Подробнее о (динамических) отрицательных днях](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

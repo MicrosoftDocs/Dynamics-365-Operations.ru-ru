@@ -73,3 +73,6 @@ ms.locfileid: "4436222"
 На следующем рисунке (a) — это спецификация на продукт G и деталь F, а (b) — маршрутный лист для продукта G и детали F.
 
 ![Продукт G и деталь F с маршрутными листами](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

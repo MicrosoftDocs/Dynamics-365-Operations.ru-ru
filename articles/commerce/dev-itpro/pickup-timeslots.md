@@ -123,3 +123,6 @@ ms.locfileid: "4681550"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Модуль сведений о самовывозе](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

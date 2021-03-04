@@ -106,3 +106,6 @@ Supply Chain Management теперь поддерживает расчет сп�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

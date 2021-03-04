@@ -61,3 +61,6 @@ Fabrikam позволяет клиентам получать скидки по 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

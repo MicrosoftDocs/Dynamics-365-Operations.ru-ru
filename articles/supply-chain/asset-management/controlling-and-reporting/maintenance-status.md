@@ -68,3 +68,6 @@ ms.locfileid: "4435934"
 
 ![Пример месячной нагрузки с функциональными местоположениями](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

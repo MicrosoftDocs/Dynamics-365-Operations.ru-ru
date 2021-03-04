@@ -205,3 +205,6 @@ ms.locfileid: "4415370"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Установка конструктора макета Retail POS](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

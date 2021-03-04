@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Логическое значение, указывающее, должна ли отображаться область фильтров (**true**) или нет (**false**).     |
 | showNavPane      | Логическое значение, указывающее, должна ли отображаться область перехода (**true**) или нет (**false**). |
 | defaultFilters   | Фильтры по умолчанию для отчета Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

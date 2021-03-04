@@ -67,3 +67,6 @@ ms.locfileid: "4700989"
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | Ноябрь 2016 г.    | [Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016 мая         | [Что нового и что изменилось в версии приложения Dynamics AX 7.0.1 (май 2016 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016 февраля    | [Что нового и что изменилось в Dynamics AX 7.0 (февраль 2016 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

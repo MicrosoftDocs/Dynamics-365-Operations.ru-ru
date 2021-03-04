@@ -85,3 +85,6 @@ ms.locfileid: "4420277"
 
 > [!Warning]
 > Среды Power Apps сохраняются только в течение семи дней после удаления. Среду следует восстанавливать в течение семи дней.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

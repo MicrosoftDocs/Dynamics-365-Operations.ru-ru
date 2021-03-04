@@ -149,3 +149,6 @@ ms.locfileid: "4415266"
 [Применение настроек запасов](inventory-settings.md)
 
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

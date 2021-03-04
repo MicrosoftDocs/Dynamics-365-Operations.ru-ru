@@ -91,3 +91,6 @@ ms.locfileid: "4462383"
 > Интегрированное приложение Offer Management доступно только с надстройкой Comprehensive hiring. Для получения дополнительных сведений см. раздел [Какая версия Microsoft Dynamics 365 Talent — Attract](./attract-comprehensive-hiring.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

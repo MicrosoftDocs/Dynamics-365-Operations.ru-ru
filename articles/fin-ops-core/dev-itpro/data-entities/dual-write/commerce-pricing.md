@@ -53,3 +53,6 @@ ms.locfileid: "4594926"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Продажа перспективному клиенту в случае двойной записи](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

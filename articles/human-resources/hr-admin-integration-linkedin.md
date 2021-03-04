@@ -190,3 +190,6 @@ ms.locfileid: "4527893"
 
 [Настройка виртуальных сущностей Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Что такое Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

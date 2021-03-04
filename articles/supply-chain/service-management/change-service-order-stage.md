@@ -41,3 +41,6 @@ ms.locfileid: "4436216"
 4.  В форме **Изменить этап сервисного обслуживания** выберите соответствующий этап.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

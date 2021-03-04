@@ -108,3 +108,6 @@ ms.locfileid: "4681717"
 
 ![Страница конструктора модели данных ER](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

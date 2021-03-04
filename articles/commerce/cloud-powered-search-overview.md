@@ -82,3 +82,6 @@ Dynamics 365 Commerce также поддерживает функциональ
 [Обзор целевой страницы категории и страницы результатов поиска по умолчанию](category-search-page-overview.md)
 
 [Управление метаданными SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

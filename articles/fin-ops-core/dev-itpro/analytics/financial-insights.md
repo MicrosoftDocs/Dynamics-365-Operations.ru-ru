@@ -247,3 +247,6 @@ ms.locfileid: "4682779"
 - [Доступ к аналитическим рабочим областям и отчетам в среде с 1 блоком](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Добавление аналитики в рабочие области с помощью Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

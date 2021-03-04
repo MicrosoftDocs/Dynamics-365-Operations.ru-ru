@@ -89,3 +89,6 @@ ms.locfileid: "4687285"
 - [Отчет о лицензионных кодах и ключах конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
 - [Доступные отчеты служб SQL Server Reporting Services (SSRS)](SSRS-report.md)
 - [Отчет о типах бизнес-правил](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

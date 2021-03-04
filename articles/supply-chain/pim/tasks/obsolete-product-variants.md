@@ -73,3 +73,6 @@ ms.locfileid: "4435892"
 
 8. В списке найдите и выберите требуемую запись.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

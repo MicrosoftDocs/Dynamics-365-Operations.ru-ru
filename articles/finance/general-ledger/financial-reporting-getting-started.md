@@ -173,3 +173,6 @@ ms.locfileid: "4672452"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Просмотр финансовых отчетов](view-financial-reports.md)
 - [Определения дерева отчетности в финансовых отчетах](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -185,3 +185,6 @@ ms.locfileid: "4436082"
 | 06:00 | 08:00 | 2    | 1.5       | 3            |
 | 08:00 | 09:00 | 1    | 2         | 2            |
 |          |          |      | **Итого** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

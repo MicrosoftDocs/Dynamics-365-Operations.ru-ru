@@ -53,3 +53,6 @@ ms.locfileid: "4436059"
 3. Нажмите **ОК**.
 4. Выберите **Спланированные заказы**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

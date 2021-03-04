@@ -42,3 +42,6 @@ ms.locfileid: "4436025"
 11. В поле "GTIN" введите значение.
 12. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

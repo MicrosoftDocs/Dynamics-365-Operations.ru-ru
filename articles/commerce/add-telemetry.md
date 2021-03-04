@@ -122,3 +122,6 @@ ms.locfileid: "4415181"
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

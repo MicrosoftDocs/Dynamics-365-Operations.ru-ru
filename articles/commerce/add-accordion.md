@@ -87,3 +87,6 @@ ms.locfileid: "4415156"
 [Модуль вкладок](add-tab.md)
 
 [Модуль текстового блока](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

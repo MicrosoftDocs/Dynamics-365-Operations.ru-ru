@@ -44,3 +44,6 @@ ms.locfileid: "4686107"
 [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 
 [Язык формул электронной отчетности](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

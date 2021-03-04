@@ -46,3 +46,6 @@ ms.locfileid: "4415237"
 [Добавление страницы политики конфиденциальности](add-privacy-page.md)
 
 [Замена идентификаторов пользователей, связанных с отслеживаемыми изменениями содержимого](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4681885"
 21. В поле "Тема" введите значение.
 22. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

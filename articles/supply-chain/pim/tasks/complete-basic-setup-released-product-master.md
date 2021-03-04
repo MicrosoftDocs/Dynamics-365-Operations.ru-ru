@@ -53,3 +53,6 @@ ms.locfileid: "4436049"
 20. Закройте страницу.
 21. Закройте форму **Сведения о выпущенном продукте**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

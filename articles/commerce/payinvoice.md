@@ -45,3 +45,6 @@ ms.locfileid: "4972665"
 
 > [!NOTE]
 > Оплата и сопоставление частичных сумм пока не поддерживаются.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

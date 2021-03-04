@@ -66,3 +66,6 @@ ms.locfileid: "4415310"
 [Модуль заголовка](author-header-module.md)
 
 [Модуль нижнего колонтитула](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

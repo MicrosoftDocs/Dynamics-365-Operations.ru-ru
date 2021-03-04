@@ -41,3 +41,6 @@ ms.locfileid: "4415168"
 > Эти параметры не ограничивают доступ к операции переопределения цены, поскольку при этом задается базисная цена, что не рассматривается как скидка.
 
 [![Поле для запрета скидок](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

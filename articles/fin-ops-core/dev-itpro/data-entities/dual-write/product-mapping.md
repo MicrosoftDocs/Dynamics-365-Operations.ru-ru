@@ -223,3 +223,6 @@ ms.locfileid: "4680056"
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Миграция данных о продуктах из других приложений Dynamics 365 в Finance and Operations
 
 Если в других приложениях Dynamics 365 есть продукты, отсутствующие в Finance and Operations, администратор может сначала использовать **EcoResReleasedProductCreationV2Entity** для импорта этих продуктов в Finance and Operations. Во-вторых, сопоставьте данные о продуктах в Finance and Operations и других приложениях Dynamics 365, как описано выше. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

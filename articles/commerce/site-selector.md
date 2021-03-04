@@ -64,3 +64,6 @@ ms.locfileid: "4665231"
 [Модуль иерархической навигации](add-breadcrumb.md)
 
 [Модуль меню навигации](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ ms.locfileid: "4462342"
 
 
 Дополнительные сведения о процессе создания предложения см. в разделе [Создание, утверждение и подписание предложений](./creating-offers.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

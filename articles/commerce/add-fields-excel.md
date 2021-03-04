@@ -55,3 +55,6 @@ ms.locfileid: "4980414"
 [Изменение финансовых аналитик для проводок розничной торговли](edit-financial-dim.md)
 
 [Создание книги Excel для редактирования проводок розничной торговли](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

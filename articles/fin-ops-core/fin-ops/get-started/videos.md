@@ -167,3 +167,6 @@ ms.locfileid: "4693577"
 [Технические вопросы по FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) — технические сведения и рекомендации, которые помогают клиентам и партнерам получить подробную информацию в конкретной области.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

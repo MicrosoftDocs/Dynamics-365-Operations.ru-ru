@@ -107,3 +107,6 @@ ms.locfileid: "4436326"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Управление единицей измерения](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ ms.locfileid: "4436283"
 --------
 
 [Параметры покрытия](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

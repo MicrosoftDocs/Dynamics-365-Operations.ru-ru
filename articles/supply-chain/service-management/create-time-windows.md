@@ -40,3 +40,6 @@ ms.locfileid: "4436158"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Окна времени](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

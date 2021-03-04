@@ -69,3 +69,6 @@ MID (text, starting position, number of characters)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Текстовые функции](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

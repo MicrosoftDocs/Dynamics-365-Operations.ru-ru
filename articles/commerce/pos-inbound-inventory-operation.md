@@ -221,3 +221,6 @@ ms.locfileid: "4415265"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Исходящая операция запасов в POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

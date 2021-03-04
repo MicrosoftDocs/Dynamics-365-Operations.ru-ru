@@ -95,3 +95,6 @@ ms.locfileid: "4517168"
 [Модуль поля покупки](add-buy-box.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

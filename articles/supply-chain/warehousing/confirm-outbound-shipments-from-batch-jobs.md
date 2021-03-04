@@ -54,3 +54,6 @@ ms.locfileid: "4435803"
 1. Нажмите **ОК** в диалоговом окне **Подтверждение отгрузки**, чтобы добавить пакетное задание в очередь пакетных заданий.
 
 Дополнительные сведения см. в разделе [Обзор пакетной обработки](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Contoso — это крупная компания, которая требуе�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

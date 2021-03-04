@@ -99,3 +99,6 @@ ms.locfileid: "4512219"
 
 - [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ ms.locfileid: "4420231"
 
 ## <a name="steps-for-creating-a-job"></a>Шаги для создания должности
 Описание пошаговой процедуры создания новой должности см. в статье [Определение новых должностей](../fin-and-ops/hr/tasks/define-new-jobs.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

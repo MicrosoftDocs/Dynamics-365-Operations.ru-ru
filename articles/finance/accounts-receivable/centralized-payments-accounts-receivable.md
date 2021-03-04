@@ -296,3 +296,6 @@ Fabrikam получает платеж 75,00 от клиента 4 000, комп
 | Расчеты с клиентами (Fabrikam West)    |              | 75,00         |
 | Долг компании Fabrikam East (Fabrikam West) | 25,00        |               |
 | Расчеты с клиентами (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

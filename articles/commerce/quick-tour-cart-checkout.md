@@ -107,3 +107,6 @@ ms.locfileid: "4415344"
 [Обзор страниц сведений о продукте](quick-tour-pdp.md)
 
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

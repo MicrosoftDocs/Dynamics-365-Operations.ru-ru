@@ -243,3 +243,6 @@ ms.locfileid: "4680718"
 - [Настройка формата для инвентаризации и суммирования](./tasks/er-format-counting-summing-1.md)
 - [Трассировка выполнения формата электронной отчетности для устранения проблем с производительностью](trace-execution-er-troubleshoot-perf.md)
 - [Отложить выполнение элементов последовательности в форматах ER](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

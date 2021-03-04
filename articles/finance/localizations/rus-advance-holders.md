@@ -151,3 +151,6 @@ ms.locfileid: "4408509"
 ## <a name="set-up-the-advance-holder"></a>Настройка подотчетного лица
 
 [Обзор подотчетных лиц](emea-advance-holders.md#create-an-advance-holder)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4447335"
 14. В поле "Слой разноски" выберите "Текущий".
 15. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

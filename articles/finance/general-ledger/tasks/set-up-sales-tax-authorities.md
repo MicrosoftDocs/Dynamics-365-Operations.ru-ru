@@ -41,3 +41,6 @@ ms.locfileid: "4447126"
 10. В поле "Округление" введите число.
 11. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

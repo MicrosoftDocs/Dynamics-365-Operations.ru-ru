@@ -43,3 +43,6 @@ ms.locfileid: "4436068"
 6. Нажмите **Сохранить**.
 
 ![Запланированное выполнение](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

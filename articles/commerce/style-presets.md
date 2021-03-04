@@ -128,3 +128,6 @@ ms.locfileid: "4415306"
 [Добавление языков на сайт](add-languages-to-site.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

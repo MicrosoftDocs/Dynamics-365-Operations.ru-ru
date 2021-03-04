@@ -97,3 +97,6 @@ ms.locfileid: "4420206"
 - [Обработка приемлемости событий в жизни](hr-benefits-process-life-event-eligibility.md)
 - [Обработка изменений ставок](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

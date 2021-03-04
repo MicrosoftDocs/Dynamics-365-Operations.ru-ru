@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 "искомый термин"
 – или –
 
 site:msdn.microsoft.com dynamics ax 2012 “искомый термин”
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

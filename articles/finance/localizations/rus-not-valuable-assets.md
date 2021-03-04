@@ -200,3 +200,6 @@ ms.locfileid: "4408602"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Учет рабочей одежды и специальной оснастки (Россия)](rus-working-clothes-instruments-accounting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

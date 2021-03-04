@@ -91,3 +91,5 @@ ms.locfileid: "4420317"
 ## <a name="see-also"></a>См. также
 
 [Вопросы и ответы по вводу в эксплуатацию](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

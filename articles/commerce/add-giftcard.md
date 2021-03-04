@@ -94,3 +94,6 @@ ms.locfileid: "4415402"
 [Поддержка внешних подарочных карт](./dev-itpro/gift-card.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

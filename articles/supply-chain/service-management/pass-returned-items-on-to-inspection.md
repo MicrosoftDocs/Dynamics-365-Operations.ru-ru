@@ -56,3 +56,6 @@ ms.locfileid: "4436063"
 
 [Определение порядка списания возврата](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

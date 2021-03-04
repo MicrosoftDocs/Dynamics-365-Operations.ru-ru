@@ -51,3 +51,6 @@ ms.locfileid: "4436121"
 
 [Подготовка к поддержке стандартных затрат по произведенной номенклатуре](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

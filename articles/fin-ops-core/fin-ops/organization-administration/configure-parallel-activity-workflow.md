@@ -53,3 +53,6 @@ ms.locfileid: "4693362"
     > Порядок ветвлений не важен, поскольку все ветви параллельного мероприятия выполняются одновременно.
 
 3. Для настройки каждой ветви см. раздел [Настройка параллельных ветвей в workflow-процессе](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

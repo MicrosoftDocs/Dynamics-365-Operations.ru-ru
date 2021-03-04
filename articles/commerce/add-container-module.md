@@ -142,3 +142,6 @@ ms.locfileid: "4415174"
 [Модуль верхнего колонтитула](author-header-module.md)
 
 [Модуль нижнего колонтитула](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

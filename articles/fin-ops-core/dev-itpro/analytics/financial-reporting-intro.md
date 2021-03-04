@@ -96,3 +96,6 @@ ms.locfileid: "4682705"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 [Создание финансовых отчетов](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

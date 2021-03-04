@@ -106,3 +106,6 @@ ms.locfileid: "4447235"
 - [Рабочая область управления затратами](cost-control-workspace.md)
 - [Иерархия аналитик](dimension-hierarchy.md)
 - [Настройка безопасности для пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

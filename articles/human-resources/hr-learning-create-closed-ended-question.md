@@ -68,3 +68,6 @@ ms.locfileid: "4420306"
 5. В поле "Группа ответов" введите или выберите значение.
 6. В поле "Текст" введите значение.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

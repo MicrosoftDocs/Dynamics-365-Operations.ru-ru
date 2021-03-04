@@ -40,3 +40,6 @@ ms.locfileid: "4447273"
 7. В поле **Частота периода** выберите вариант.
 8. Закройте форму.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

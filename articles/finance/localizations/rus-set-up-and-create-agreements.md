@@ -158,3 +158,6 @@ ms.locfileid: "4408531"
 - [Договоры](rus-agreements.md)
 - [Регистрация проводок со ссылками на договоры](rus-register-transactions-with-reference-to-agreements.md)
 - [Запросы и отчеты с договорами](rus-inquiries-reports-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

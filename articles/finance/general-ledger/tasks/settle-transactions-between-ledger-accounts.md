@@ -49,3 +49,6 @@ ms.locfileid: "4447224"
 7. Щелкните "Сопоставления ГК".
 8. В списке пометьте выбранную строку.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

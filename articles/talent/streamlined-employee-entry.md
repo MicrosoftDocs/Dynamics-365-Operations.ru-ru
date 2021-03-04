@@ -91,3 +91,6 @@ Dynamics 365 Talent обеспечивает эффективный ввод с�
 
 [![Штатные единицы](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

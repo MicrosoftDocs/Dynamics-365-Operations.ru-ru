@@ -42,3 +42,6 @@ ms.locfileid: "4436041"
     * Выберите технологию "Конфигурация на основе аналитик".  
 9. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

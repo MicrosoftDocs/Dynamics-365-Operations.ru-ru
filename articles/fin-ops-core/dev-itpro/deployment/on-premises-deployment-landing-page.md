@@ -72,3 +72,6 @@ ms.locfileid: "4679352"
 - [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и локальные выпуски](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

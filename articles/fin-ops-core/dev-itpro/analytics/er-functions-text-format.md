@@ -101,3 +101,6 @@ FORMAT (CONCATENATE (@"SYS70894", ". ", @"SYS18389"), model.Customer.Name, DATET
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Текстовые функции](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "4435982"
 7. Выберите **Добавить в строки**.
 8. Нажмите **ОК**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

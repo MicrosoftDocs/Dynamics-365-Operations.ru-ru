@@ -57,3 +57,6 @@ ms.locfileid: "4456635"
 - Количество прихода
 - Количество расходов
 - Количество в наличии
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

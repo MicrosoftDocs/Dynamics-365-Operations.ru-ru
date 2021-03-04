@@ -151,3 +151,6 @@ ms.locfileid: "4683466"
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 [Ресурсы мобильных платформ](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

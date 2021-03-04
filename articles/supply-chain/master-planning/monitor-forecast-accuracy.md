@@ -50,3 +50,6 @@ Supply Chain Management вычисляет следующие типы точн�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

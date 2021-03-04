@@ -82,3 +82,6 @@ ms.locfileid: "4435966"
 
 - Dynamics 365 Sales версии 1612 (8.2.1.207) (БД 8.2.1.207) (сетевая версия) или более новой.
 - Решение "Перспективный клиент в наличные деньги" для Dynamics 365 Sales, версия 1.15.0.0 или более новая версия. Это решение можно загрузить с сайта AppSource. [Загрузка Dynamics 365, "Перспективный клиент в наличные деньги"](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

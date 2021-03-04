@@ -354,3 +354,6 @@ ms.locfileid: "4436382"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Политики консолидации отгрузок](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4447162"
 
 
 Дополнительные сведения см. в разделах [Создание схем начисления](tasks/create-accrual-schemes.md) и [Создание проводок начисления ГК](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

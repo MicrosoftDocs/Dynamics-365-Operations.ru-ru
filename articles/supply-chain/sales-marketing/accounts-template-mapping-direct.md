@@ -117,3 +117,6 @@ ms.locfileid: "4529218"
 
 [Синхронизация заголовков и строк накладной по продаже непосредственно из Supply Chain Management с Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4436030"
 
 ## <a name="select-the-product-configuration"></a>Выберите конфигурацию продукта.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

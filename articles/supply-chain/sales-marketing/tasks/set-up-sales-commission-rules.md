@@ -96,3 +96,6 @@ ms.locfileid: "4435963"
 17. В списке выберите группу комиссий, созданную ранее.
 18. Нажмите **Сохранить**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4415326"
 | Dynamics 365 for Retail — 7.3.2.5 | 7.3.21971.64091 | 2018 июня | [KB 4342134 Microsoft Dynamics 365 for Retail — версия 7.3.2.5 — пакет исправления BugFix Package 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* Ссылка указывает на статью базы знаний (КБ). Необходимо выполнить вход в Lifecycle Services (LCS) для просмотра статьи базы знаний.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ ms.locfileid: "4528253"
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Накладные по договору (из Field Service в Supply Chain Management): строки накладных
 
 [![Сопоставление шаблона в интеграции данных](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

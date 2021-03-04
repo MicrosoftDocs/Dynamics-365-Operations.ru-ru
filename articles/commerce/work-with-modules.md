@@ -173,3 +173,6 @@ ms.locfileid: "4415255"
 
 [Работа с группами публикаций](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

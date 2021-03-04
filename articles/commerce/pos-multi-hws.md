@@ -154,3 +154,6 @@ Microsoft Dynamics 365 Commerce поддерживает такие тенден
 - [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Соединитель платежей Dynamics 365 для Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Обзор поддержки сетевых периферийных устройств](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

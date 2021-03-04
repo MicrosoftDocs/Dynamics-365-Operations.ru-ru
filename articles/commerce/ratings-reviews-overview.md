@@ -59,3 +59,6 @@ ms.locfileid: "4415340"
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
 
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

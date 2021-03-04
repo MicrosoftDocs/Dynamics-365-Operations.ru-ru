@@ -79,3 +79,6 @@ ms.locfileid: "4447240"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте учета каждой компании |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте системы всех компаний |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Суммарная чистая сумма проводки и сальдо по валюте в валюте проводки |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4462304"
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Текущий отчет о балансе в отпуске PBI удваивает баланс сотрудников (385581)
 
 Это изменение исправляет текущий отчет о балансе в этом сценарии.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

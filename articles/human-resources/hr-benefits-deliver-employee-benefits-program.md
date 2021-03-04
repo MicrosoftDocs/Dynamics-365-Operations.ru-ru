@@ -68,3 +68,6 @@ ms.locfileid: "4420268"
 16. В поле "Основание" выберите вариант.
 17. В поле "Сумма или ставка" введите число.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

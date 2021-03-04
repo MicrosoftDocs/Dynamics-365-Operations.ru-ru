@@ -81,3 +81,6 @@ ms.locfileid: "4529514"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Склады (из Supply Chain Management в Field Service): Склад
 
 [![Сопоставление шаблона в интеграции данных](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

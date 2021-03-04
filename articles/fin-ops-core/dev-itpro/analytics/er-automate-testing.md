@@ -380,3 +380,6 @@ ms.locfileid: "4681456"
 - [Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями](er-trace-reports-compare-baseline.md)
 - [Электронная отчетность — Обновление формата путем принятия новой базовой версии данного формата](tasks/er-upgrade-format.md)
 - [Электронная отчетность — Импорт конфигурации из Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

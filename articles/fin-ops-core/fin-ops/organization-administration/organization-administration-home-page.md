@@ -101,3 +101,6 @@ ms.locfileid: "4694010"
 - [Настройка управления документами](configure-document-management.md)
 - [Настройка и отправка электронной почты](configure-email.md)
 - [Данные времени/даты и часовые пояса](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

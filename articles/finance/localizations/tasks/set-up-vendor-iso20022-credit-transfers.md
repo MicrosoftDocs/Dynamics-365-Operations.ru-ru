@@ -52,3 +52,6 @@ ms.locfileid: "4447028"
 4. В списке перейдите по ссылке в строке SEPA CT.
 5. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

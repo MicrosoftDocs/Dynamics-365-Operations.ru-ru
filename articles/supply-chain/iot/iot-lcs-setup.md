@@ -56,3 +56,6 @@ ms.locfileid: "4436350"
 2. В LCS, перейдите к сведениям о вашей среде Supply Chain Management.
 3. Перейдите в раздел **Надстройки среды**.
 4. Выберите **Удаление** для надстройки аналитики Интернета вещей.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

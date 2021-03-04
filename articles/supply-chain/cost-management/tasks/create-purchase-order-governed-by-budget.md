@@ -62,3 +62,6 @@ ms.locfileid: "4436114"
 4. Щелкните "Ошибки или предупреждения бюджетных проверок".
 5. Щелкните "Закрыть".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

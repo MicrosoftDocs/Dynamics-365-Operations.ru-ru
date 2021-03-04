@@ -69,3 +69,6 @@ ms.locfileid: "4415148"
 - Каналы Commerce
 - Регистры и устройства
 - Ассортименты
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

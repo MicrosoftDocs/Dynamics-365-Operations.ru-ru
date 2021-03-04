@@ -67,3 +67,6 @@ ms.locfileid: "4462371"
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Код причины увольнения обновляет запись назначения для должность
 Код причины увольнения теперь обновляет назначение на должность при увольнении сотрудника и прекращении должности. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

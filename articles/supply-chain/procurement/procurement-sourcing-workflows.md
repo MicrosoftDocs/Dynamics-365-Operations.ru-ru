@@ -80,3 +80,6 @@ ms.locfileid: "4654156"
 - [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Бизнес-правило для заявок на покупку](purchase-requisitions-workflow.md)
 - [Адаптация поставщиков](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

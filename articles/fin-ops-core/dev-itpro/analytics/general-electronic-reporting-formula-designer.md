@@ -164,3 +164,6 @@ ms.locfileid: "4682657"
 
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Язык формул электронной отчетности](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

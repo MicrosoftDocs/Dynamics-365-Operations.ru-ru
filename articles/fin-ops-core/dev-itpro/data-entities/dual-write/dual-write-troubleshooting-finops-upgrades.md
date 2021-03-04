@@ -91,3 +91,6 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 4. Откройте страницу **Сопоставление таблиц** со страницы **Двойная запись** в приложении Finance and Operations.
 5. Если атрибут не был автоматически заполнен в сопоставлении, добавьте его вручную, нажав кнопку **Добавить атрибут**, затем щелкнув **Сохранить**. 
 6. Выберите сопоставление и щелкните **Выполнить**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

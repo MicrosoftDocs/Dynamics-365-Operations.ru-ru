@@ -62,3 +62,6 @@ ms.locfileid: "4415137"
 [Модуль верхнего колонтитула](author-header-module.md) 
 
 [Соответствие файлов cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

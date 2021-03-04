@@ -77,3 +77,6 @@ COUNTIFS (condition 1 range, condition 1 value[, condition 2 range, condition 2 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции сбора данных](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

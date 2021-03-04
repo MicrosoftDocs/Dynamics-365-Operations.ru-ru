@@ -110,3 +110,6 @@ ms.locfileid: "4436463"
 ### <a name="issue-resolution"></a>Устранение проблемы
 
 Это зависит от настроек параметров для накладных и групп накладных. Дополнительные сведения см. в следующей записи блога: [Учет накладных расходов на покупку и изменение запасов](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

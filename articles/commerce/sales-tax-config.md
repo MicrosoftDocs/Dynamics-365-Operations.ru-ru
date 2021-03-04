@@ -83,3 +83,6 @@ ms.locfileid: "4530205"
 
 [Расчет налогового освобождения](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

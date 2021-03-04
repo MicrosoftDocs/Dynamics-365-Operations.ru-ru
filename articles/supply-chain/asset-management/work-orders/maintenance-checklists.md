@@ -80,3 +80,6 @@ ms.locfileid: "4435858"
 
 ![Рисунок 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

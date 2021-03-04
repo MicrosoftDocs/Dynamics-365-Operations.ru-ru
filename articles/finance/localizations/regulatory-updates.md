@@ -87,3 +87,6 @@ ms.locfileid: "4517508"
 - Все запланированные и выпущенных нормативные обновления [Lifecycle Service — поиск проблем](https://lcs.dynamics.com/Logon/Index) (необходим вход).
 - Список локализаций, которые поддерживаются, см. в [руководстве по международной доступности](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

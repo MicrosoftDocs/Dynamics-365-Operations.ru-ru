@@ -53,3 +53,6 @@ ms.locfileid: "4415382"
 
 ## <a name="next-step"></a>Далее
 [Повышение вариации и завершение эксперимента](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

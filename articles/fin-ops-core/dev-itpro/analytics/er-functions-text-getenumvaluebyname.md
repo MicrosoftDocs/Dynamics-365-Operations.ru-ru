@@ -117,3 +117,6 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 [Функция ER FIRSTORNULL](er-functions-list-firstornull.md)
 
 [Функция ER WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

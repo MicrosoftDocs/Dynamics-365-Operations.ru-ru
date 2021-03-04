@@ -160,3 +160,6 @@ ms.locfileid: "4436138"
 
 [Визуальное планирование для производства (демонстрационный скрипт)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

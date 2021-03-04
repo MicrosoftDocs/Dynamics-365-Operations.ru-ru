@@ -35,3 +35,6 @@ ms.locfileid: "4435893"
 3. В поле "Состояние" введите значение.
 4. В поле "Описание" введите значение.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -258,3 +258,6 @@ ms.locfileid: "4408522"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Малоценные основные средства (МОС) (Россия)](rus-not-valuable-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

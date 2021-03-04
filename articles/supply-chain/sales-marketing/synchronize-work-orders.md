@@ -77,3 +77,6 @@ ms.locfileid: "4435847"
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Заказы на выполнение работ с проектом (из Field Service в Supply Chain Management): WorkOrderService
 
 [![Сопоставление шаблона в интеграции данных](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

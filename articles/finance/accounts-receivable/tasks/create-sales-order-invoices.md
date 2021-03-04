@@ -68,3 +68,6 @@ ms.locfileid: "4447330"
 10. Щелкните **Отмена**.
 11. Нажмите кнопку **Да**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

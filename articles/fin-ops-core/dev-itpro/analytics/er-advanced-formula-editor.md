@@ -171,3 +171,6 @@ ms.locfileid: "4685391"
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 - [Редактор Monaco](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

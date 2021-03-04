@@ -70,3 +70,6 @@ ms.locfileid: "4435724"
 
 [Потребности в номенклатуре (форма)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

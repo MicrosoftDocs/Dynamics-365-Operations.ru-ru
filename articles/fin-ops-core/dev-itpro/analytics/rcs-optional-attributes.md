@@ -130,3 +130,6 @@ ms.locfileid: "4686669"
 3. Нажмите кнопку **Обзор** и выберите файл **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Щелкните **OK**.
 5. Просмотрите сформированный файл. Обратите внимание, что этот же файл, который был импортирован в качестве структуры формата, теперь считает атрибут "id" для элемента "document" необязательным.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

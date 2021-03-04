@@ -67,3 +67,6 @@ ms.locfileid: "4436302"
 2. Выберите **Закрыть несоответствие**.
 3. Выберите **Да**.
 4. Закройте страницы.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

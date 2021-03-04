@@ -227,3 +227,6 @@ ms.locfileid: "4687480"
 [Финансовая отчетность](financial-reporting-intro.md)
 
 [Создание финансовых отчетов](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

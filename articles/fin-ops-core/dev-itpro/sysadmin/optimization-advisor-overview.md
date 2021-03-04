@@ -94,3 +94,6 @@ ms.locfileid: "4682545"
 [Создание правил для помощника по оптимизации](./create-rules-optimization-advisor.md)
 
 [Помощник по оптимизации в Dynamics 365 for Finance and Operations (видео)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ ms.locfileid: "4415364"
 [Расширение возможностей страницы продукта](enrich-product-page.md)
 
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

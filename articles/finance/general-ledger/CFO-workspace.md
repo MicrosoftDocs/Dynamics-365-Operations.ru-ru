@@ -56,3 +56,6 @@ ms.locfileid: "4447180"
 16. Соберите проект, а затем откройте приложение для просмотра результатов.
 
     [![Готовая рабочая область](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

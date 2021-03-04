@@ -49,3 +49,6 @@ ms.locfileid: "4462296"
 
 ## <a name="analytic-reports"></a>Аналитические отчеты
 Группы по найму сотрудников могут использовать просмотр основных показателей процесса найма на работу для одной должности или агрегированных показателей по всем должностям с [аналитическими отчетами в Attract](analytic-reports.md). Эта функция в данный момент доступна для [предварительного просмотра](access-preview-feature.md) для клиентов с [Какая версия Microsoft Dynamics 365 Talent — Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

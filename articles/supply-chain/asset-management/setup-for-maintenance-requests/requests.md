@@ -42,3 +42,6 @@ ms.locfileid: "4436149"
 На следующем рисунке показан пример страницы списка **Все запросы на обслуживание**.
 
 ![Страница всех запросов на обслуживание](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

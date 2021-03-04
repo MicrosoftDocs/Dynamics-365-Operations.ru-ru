@@ -110,3 +110,6 @@ ms.locfileid: "4415223"
 [Создание URL-адреса страницы](create-page-url.md)
 
 [Работа с группами публикаций](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

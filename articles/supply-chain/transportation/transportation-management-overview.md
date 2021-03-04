@@ -87,3 +87,6 @@ Supply Chain Management предоставляет стратегию постр
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

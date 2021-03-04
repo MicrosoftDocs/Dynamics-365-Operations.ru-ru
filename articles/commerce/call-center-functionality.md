@@ -69,3 +69,6 @@ ms.locfileid: "4415384"
 ## <a name="configure-continuity-programs"></a>Настройка программ непрерывности
 
 [Настройка программ непрерывности для центров обработки вызовов](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4420199"
 6. В поле "Действует" введите дату и время.
 7. Щелкните "Создать льготу".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

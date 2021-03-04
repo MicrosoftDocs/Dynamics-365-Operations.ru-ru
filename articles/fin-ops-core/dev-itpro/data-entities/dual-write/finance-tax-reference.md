@@ -37,3 +37,6 @@ ms.locfileid: "4684040"
 
 + [Интегрированная книга учета](ledger-mapping.md)
 + [Интегрированный налоговый справочник](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

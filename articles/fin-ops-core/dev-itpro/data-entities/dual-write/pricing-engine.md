@@ -69,3 +69,6 @@ Microsoft Dynamics 365 Supply Chain Management включает в себя ме
 + Настройка накладных расходов и распределения расходов в Supply Chain Management не воспроизводится в Sales.
 + В ценах не учитывается специальная розничная цена, указанная в поле **Канал розничной торговли** на странице строки заказа на продажу в Supply Chain Management.
 + Скидки, которые определены в разделе **Управление торговыми скидками** Supply Chain Management не рассматриваются.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

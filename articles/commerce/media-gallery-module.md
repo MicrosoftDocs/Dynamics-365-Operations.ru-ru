@@ -104,3 +104,6 @@ ms.locfileid: "4415334"
 [Модуль контейнера](add-container-module.md)
 
 [Отправка изображений](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

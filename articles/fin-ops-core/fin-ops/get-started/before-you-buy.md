@@ -93,3 +93,6 @@ Microsoft FastTrack for Dynamics 365 — это служба успеха кли
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Обновление с Dynamics AX 2012 или миграция с AX 2009
 
 Если вы клиент, который выполняет обновление с Microsoft Dynamics AX 2012 или мигрирует с Microsoft Dynamics AX 2009, вы можете иметь право на более длительный период действия пробной версии. Для получения дополнительных сведений обратитесь по адресу <daxcf@microsoft.com>.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Platform update 18 для Finance and Operations теперь входит в с
 ## <a name="bug-fixes"></a>Исправления ошибок
 
 Эта версия включает в себя несколько дополнительных исправлений ошибок; в частности, ссылки на ACA, ADA и I9 теперь будут включены только в компаниях, которые находятся в США.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

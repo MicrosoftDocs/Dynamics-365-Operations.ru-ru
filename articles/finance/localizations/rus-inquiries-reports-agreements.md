@@ -141,3 +141,6 @@ ms.locfileid: "4408560"
 - [Договоры](rus-agreements.md)
 - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
 - [Регистрация проводок со ссылками на договоры](rus-register-transactions-with-reference-to-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

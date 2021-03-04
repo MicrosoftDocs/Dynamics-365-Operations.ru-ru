@@ -45,3 +45,6 @@ ms.locfileid: "4415379"
 На приведенной ниже диаграмме показаны как наборы статусов, так и их связь друг с другом.
 
 [ ![Статусы экспериментирования](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

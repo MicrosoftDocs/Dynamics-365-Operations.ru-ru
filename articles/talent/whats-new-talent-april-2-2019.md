@@ -80,3 +80,6 @@ ms.locfileid: "4528227"
 
 ###  <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
 С обновлением платформы Platform update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам при наступлении события. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

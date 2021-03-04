@@ -78,3 +78,6 @@ ms.locfileid: "4447189"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Сопоставить остаток](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

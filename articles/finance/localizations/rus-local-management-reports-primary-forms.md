@@ -218,3 +218,6 @@ ms.locfileid: "4408550"
 
 [Отчет служб SQL Server Reporting Services](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

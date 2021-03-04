@@ -109,3 +109,6 @@ ms.locfileid: "4685621"
 
 Дополнительные сведения о предстоящих изменениях см. в разделе [Новые возможности и изменения в двойной записи](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

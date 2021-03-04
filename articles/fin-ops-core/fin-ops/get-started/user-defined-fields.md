@@ -162,3 +162,6 @@ ms.locfileid: "4693553"
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Можно ли ссылаться на настраиваемые поля в средствах разработчика?  
 
 Настраиваемые поля могут управляться только через интерфейс пользователя и не могут быть вызваны с помощью кода. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

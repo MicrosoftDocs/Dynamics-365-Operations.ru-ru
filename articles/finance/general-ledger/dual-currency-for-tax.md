@@ -145,3 +145,6 @@ ms.locfileid: "4447159"
 - [Двойная валюта](dual-currency.md)
 - [Обзор налога](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

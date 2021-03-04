@@ -65,3 +65,6 @@ Commerce предоставляет целевую страницу катего
 [Расширение возможностей страницы продукта](enrich-product-page.md)
 
 [Проверка специальных возможностей контента страницы](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ ms.locfileid: "4665428"
 [Управление картами Bing для вашей организации](./dev-itpro/manage-bing-maps.md)
 
 [Веб-элемент управления Карт Bing V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

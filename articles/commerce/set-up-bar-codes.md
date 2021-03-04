@@ -47,3 +47,6 @@ ms.locfileid: "4415335"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка масок штрихкодов](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

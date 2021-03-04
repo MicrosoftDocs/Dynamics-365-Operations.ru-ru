@@ -101,3 +101,6 @@ ms.locfileid: "4436313"
 [Настройка заказов на контроль качества](tasks/set-up-quality-orders.md)
 
 [Контроль качества товаров](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

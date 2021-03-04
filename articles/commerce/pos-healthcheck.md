@@ -83,3 +83,6 @@ Microsoft Dynamics 365 Commerce версии 10.0.10 и более поздни�
 ## <a name="related-articles"></a>Связанные статьи
 
 [Триггеры и вывод на печать в Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

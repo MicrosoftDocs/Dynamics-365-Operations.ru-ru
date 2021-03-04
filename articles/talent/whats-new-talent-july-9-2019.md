@@ -115,3 +115,6 @@ ms.locfileid: "4528047"
 - **Тип отпуска**
 - **Банковский счет работника**
 - **Рабочий календарь**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

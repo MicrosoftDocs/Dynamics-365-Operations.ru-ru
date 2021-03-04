@@ -83,3 +83,6 @@ ms.locfileid: "4415207"
 [Добавление новой страницы сайта](add-new-page.md)
 
 [Создание URL-адреса страницы](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

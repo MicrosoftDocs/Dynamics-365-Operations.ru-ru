@@ -54,3 +54,6 @@ ms.locfileid: "4420161"
 25. Откройте фильтра столбца "Состояние".
 26. Сортировать от А до Я
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

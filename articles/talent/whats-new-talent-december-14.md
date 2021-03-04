@@ -151,3 +151,6 @@ ms.locfileid: "4529764"
 ![Задача сопоставления работников с работником](./media/WorkerMapping.png)
 
 ![Преобразование поля "Пол"](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

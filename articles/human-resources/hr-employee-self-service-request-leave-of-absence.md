@@ -53,3 +53,6 @@ ms.locfileid: "4420315"
 ## <a name="see-also"></a>См. также
 
 [Приостановка отпуска](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

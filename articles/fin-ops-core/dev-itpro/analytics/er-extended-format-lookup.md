@@ -91,3 +91,6 @@ ms.locfileid: "4679494"
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [API платформы электронной отчетности (ER)](er-apis-app73.md)
 - [Управление жизненным циклом конфигураций электронной отчетности (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

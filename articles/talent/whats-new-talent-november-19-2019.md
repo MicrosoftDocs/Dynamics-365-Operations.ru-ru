@@ -86,3 +86,6 @@ ms.locfileid: "4527152"
 ### <a name="print-performance-reviews"></a>Печать оценок производительности
 
 См. раздел [Печать оценок производительности](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) в Dynamics 365 волны 2 выпуска 2019 года.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

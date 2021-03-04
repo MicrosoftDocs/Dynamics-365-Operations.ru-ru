@@ -253,3 +253,6 @@ ms.locfileid: "4408535"
 
     Выберите **Печать** \> **Копия**, чтобы распечатать исходный счет-фактуру.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

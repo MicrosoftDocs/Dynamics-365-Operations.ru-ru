@@ -41,3 +41,6 @@ ms.locfileid: "4420201"
    | **Описание** | Описание типа занятости. |
 
 4. Нажмите **Сохранить**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

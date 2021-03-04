@@ -58,3 +58,6 @@ ms.locfileid: "4679822"
 ## <a name="run-in-a-sandbox-environment"></a>Запуск в песочнице
 1. Выберите **Пакетный импорт**.
 2. Нажмите **ОК**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

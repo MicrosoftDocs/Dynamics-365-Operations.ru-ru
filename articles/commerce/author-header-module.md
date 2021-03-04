@@ -119,3 +119,6 @@ ms.locfileid: "4415373"
 [Модуль выбора сайта](site-selector.md)
 
 [Модуль выбора магазина](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

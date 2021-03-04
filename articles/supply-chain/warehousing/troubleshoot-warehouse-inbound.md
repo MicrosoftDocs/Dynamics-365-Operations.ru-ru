@@ -65,3 +65,6 @@ ms.locfileid: "4645980"
 1. Получение сверх количества загрузки
 
 Дополнительные сведения см. в разделе [Разноска зарегистрированных количеств товаров по заказам на покупку](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

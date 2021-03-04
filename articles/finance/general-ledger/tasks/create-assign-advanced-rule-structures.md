@@ -59,3 +59,6 @@ ms.locfileid: "4447084"
 17. Закройте страницу.
 18. Выберите **Активировать**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

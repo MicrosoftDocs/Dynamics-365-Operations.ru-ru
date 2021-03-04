@@ -41,3 +41,6 @@ ms.locfileid: "4415293"
 9. В списке перейдите по ссылке в выбранной строке.
 10. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

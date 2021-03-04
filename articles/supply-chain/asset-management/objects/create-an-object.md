@@ -116,3 +116,6 @@ ms.locfileid: "4435817"
 ## <a name="financial-dimensions"></a>Финансовые аналитики
 
 Можно выбрать финансовые аналитики для актива.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

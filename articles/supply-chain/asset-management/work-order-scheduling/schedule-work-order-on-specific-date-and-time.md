@@ -56,3 +56,6 @@ ms.locfileid: "4435940"
 >[!NOTE]
 >Чтобы запланировать специалиста по обслуживанию для заказа на работу, этот специалист по обслуживанию должен быть доступен в ожидаемые дату и время начала работы. Доступность работника настраивается в [календаре работника](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ WHERE (list, condition)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции для работы со списками](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

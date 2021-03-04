@@ -46,3 +46,6 @@ ms.locfileid: "4447191"
 6. Щелкните "Разнести".
     * Разнесите выбранные накладные.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4436129"
 
 [Панель подготовки к отправке (форма)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

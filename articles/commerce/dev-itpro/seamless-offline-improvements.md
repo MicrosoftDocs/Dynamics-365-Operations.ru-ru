@@ -56,3 +56,6 @@ ms.locfileid: "4687545"
 
 - [Функции POS в автономном режиме](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Операции POS в интерактивном и автономном режимах](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

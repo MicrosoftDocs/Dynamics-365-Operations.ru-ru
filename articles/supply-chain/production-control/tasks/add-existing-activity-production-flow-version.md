@@ -56,3 +56,6 @@ ms.locfileid: "4435772"
 3. В поле "Мероприятие" введите или выберите значение.
 4. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

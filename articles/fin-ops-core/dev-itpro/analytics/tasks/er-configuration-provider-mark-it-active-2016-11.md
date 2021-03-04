@@ -44,3 +44,6 @@ ms.locfileid: "4682005"
 2. Выберите **Установить активные**.
 
 ![Страница рабочей области электронной отчетности](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

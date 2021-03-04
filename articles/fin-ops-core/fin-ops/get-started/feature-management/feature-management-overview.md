@@ -203,3 +203,6 @@ IFeatureLifecycle является внутренним механизмом Mic
 - PublicPreview — показывается по умолчанию, но с предупреждением о том, что эта функция является предварительной версией.
 - Released — полностью выпущена.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -163,3 +163,6 @@ API реализован путем использования набора кл
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

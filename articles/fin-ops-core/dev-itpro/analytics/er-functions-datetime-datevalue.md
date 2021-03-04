@@ -79,3 +79,6 @@ DATEVALUE (text, format, culture)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции даты и времени](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

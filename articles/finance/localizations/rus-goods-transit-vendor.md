@@ -188,3 +188,6 @@ ms.locfileid: "4408562"
 
   ![Распечатанный отчет акта инвентаризации (ИНВ-6)](media/goods-in-transit-vendor-11.png)
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ ms.locfileid: "4436497"
 - [Назначение состояния жизненного цикла продукта выпущенному продукту](tasks/product-lifecycle-state-released-product.md)
 - [Поиск устаревших вариантов продуктов и назначение состояния жизненного цикла продукта](tasks/obsolete-product-variants.md)
 - [Создание состояния жизненного цикла продукта для исключения продуктов из сводного планирования](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

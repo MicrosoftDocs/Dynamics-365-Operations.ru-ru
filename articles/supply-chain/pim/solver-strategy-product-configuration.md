@@ -73,3 +73,6 @@ ms.locfileid: "4436269"
 [Эвристика](https://techterms.com/definition/heuristic)
 
 [Проблема удовлетворения ограничений](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

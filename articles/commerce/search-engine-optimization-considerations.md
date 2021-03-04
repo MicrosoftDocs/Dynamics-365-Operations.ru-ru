@@ -56,3 +56,6 @@ ms.locfileid: "4415321"
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
 
 [Управление политикой безопасности содержимого (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

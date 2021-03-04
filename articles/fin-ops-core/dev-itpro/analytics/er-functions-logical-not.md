@@ -55,3 +55,6 @@ NOT (condition)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Логические функции](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

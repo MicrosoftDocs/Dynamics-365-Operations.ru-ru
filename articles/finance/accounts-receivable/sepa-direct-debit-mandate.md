@@ -54,3 +54,6 @@ ms.locfileid: "4447102"
 
 [Создание поручения прямого дебетования для клиента](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

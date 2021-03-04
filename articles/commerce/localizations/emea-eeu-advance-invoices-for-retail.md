@@ -88,3 +88,6 @@ ms.locfileid: "4408517"
 
 4. Перейдите в раздел **Retail и Commerce \> ИТ Retail и Commerce \> График распределения**.
 5. Выберите задание **1090**, затем выберите **Запустить сейчас**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

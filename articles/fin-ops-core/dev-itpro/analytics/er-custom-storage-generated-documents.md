@@ -175,3 +175,6 @@ public DocuRef insertFile(
 
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 - [Домашняя страница расширяемости](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

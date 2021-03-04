@@ -102,3 +102,6 @@ ms.locfileid: "4681408"
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Настройка платформы для электронной отчетности (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

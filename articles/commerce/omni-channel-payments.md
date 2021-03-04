@@ -238,3 +238,6 @@ ms.locfileid: "4415359"
 - [Соединитель платежей Dynamics 365 для Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Настройка BOPIS в ознакомительной среде Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

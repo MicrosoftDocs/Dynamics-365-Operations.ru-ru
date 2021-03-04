@@ -224,3 +224,6 @@ ms.locfileid: "4686745"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ ms.locfileid: "4683929"
 13. Щелкните **Выход**, чтобы закрыть **Диспетчер конфигурации Reporting Services**.
 
     [![закрытие диспетчера конфигурации служб Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

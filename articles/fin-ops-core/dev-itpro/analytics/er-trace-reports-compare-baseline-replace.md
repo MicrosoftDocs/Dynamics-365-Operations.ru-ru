@@ -207,3 +207,6 @@ ms.locfileid: "4682855"
 
 - [Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями](er-trace-reports-compare-baseline.md)
 - [Ресурсы регистратора задач](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4447216"
 [Создание договора о банковских услугах для аккредитива](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

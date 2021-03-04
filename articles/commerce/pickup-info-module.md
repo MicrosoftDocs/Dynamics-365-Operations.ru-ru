@@ -70,3 +70,6 @@ ms.locfileid: "4665356"
 [Модуль подтверждения заказа](order-confirmation-module.md)
 
 [Модуль сведений о заказе](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

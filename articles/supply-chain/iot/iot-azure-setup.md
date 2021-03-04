@@ -162,3 +162,6 @@ ms.locfileid: "4436352"
 > Когда обновляется одна из строк подключения, необходимо также обновить значения секрета.
 
 Теперь подготовка необходимых ресурсов Azure завершена. Следующий шаг состоит в [установке надстройки аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Attract посылает канал объявлений о вакансиях �
 [Создание, утверждение и публикация вакансий в Attract](./creating-jobs-attract.md)
 
 [Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 Talent — Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

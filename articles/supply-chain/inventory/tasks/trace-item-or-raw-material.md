@@ -60,3 +60,6 @@ ms.locfileid: "4436294"
 9. Щелкните **Отгруженные заказы на продажу**.
 10. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

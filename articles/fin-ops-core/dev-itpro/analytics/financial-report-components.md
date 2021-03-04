@@ -126,3 +126,6 @@ ms.locfileid: "4682729"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Финансовая отчетность](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

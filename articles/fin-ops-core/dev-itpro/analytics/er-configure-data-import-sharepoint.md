@@ -206,3 +206,6 @@ ms.locfileid: "4680910"
 
 [Изменения в API платформы электронной отчетности для Application update 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

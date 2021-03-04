@@ -140,3 +140,6 @@ ms.locfileid: "4408583"
 
 - [Настройка амортизации (Россия)](rus-depreciation-setup.md)
 - [Расчет амортизации для России](rus-depreciation-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

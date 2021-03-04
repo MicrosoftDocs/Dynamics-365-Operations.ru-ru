@@ -106,3 +106,6 @@ ms.locfileid: "4415193"
 [Модуль текстового блока](add-content-rich-block.md)
 
 [Модуль блока содержимого](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

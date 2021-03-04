@@ -239,3 +239,6 @@ Dynamics 365 Commerce предоставляет функции, позволя�
 [Настройка ассортиментов](set-up-assortments.md)
 
 [Обзор номерных серий](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

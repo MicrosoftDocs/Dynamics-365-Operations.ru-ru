@@ -150,3 +150,6 @@ ms.locfileid: "4456597"
     ![Изменение значение поля пользовательского режима интеграции](media/sales-map-user-mode-yes.png)
 
 Заказы на продажу теперь сопоставлены.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

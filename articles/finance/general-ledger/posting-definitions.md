@@ -62,3 +62,6 @@ ms.locfileid: "4447225"
 Дополнительные сведения см. в разделе [Примеры определений разноски](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

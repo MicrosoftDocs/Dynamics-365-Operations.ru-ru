@@ -243,3 +243,6 @@ ms.locfileid: "4682831"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка платформы для электронной отчетности (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

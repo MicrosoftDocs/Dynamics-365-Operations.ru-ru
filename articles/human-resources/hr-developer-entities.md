@@ -180,3 +180,6 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 
 [Выбор технологии интеграции данных](hr-admin-integration-choose-technology.md)</br>
 [Настройка интеграции Common Data Service](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

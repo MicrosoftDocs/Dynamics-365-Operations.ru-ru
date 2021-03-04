@@ -303,3 +303,6 @@ ER теперь поддерживает тип источника данных 
 - [Места назначения электронной отчетности](electronic-reporting-destinations.md)
 - [Язык формул электронной отчетности](er-formula-language.md)
 - [Функция NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ ms.locfileid: "4415176"
 [Модуль текстового блока](add-content-rich-block.md)
 
 [Модуль видеопроигрывателя](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
