@@ -1,5 +1,5 @@
 ---
-title: Бизнес-правило клиента
+title: Workflow-процесс клиента
 description: В этом разделе приводятся сведения о бизнес-правиле клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
 author: mikefalkner
 manager: aolson
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a74b8ed226c4e13c8684fe86d4dca7236a84040e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459827"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012196"
 ---
-# <a name="customer-workflow"></a>Бизнес-правило клиента
+# <a name="customer-workflow"></a>Workflow-процесс клиента
 
 [!include [banner](../includes/banner.md)]
 

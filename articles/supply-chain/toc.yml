@@ -72,12 +72,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (апрель 2021 г.)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (февраль 2021 г.)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (январь 2021 г.)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: "Supply Chain Management 10.0.14 (ноябрь 2020\_г.)"
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Сохраненные представления
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Стандартные сохраненные представления для Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: Возможности сетки
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Создание настраиваемых полей и работа с ними
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Архитектура приложений Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Адаптация проекта реализации
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Планирование среды
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Рабочие нагрузки управления складом для облачных и пограничных единиц масштабирования
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Заказы на склад для облачных и пограничных единиц масштабирования
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Управление активами
           items:
             - name: Обзор управления активами
@@ -363,9 +367,11 @@
               items:
                 - name: 'Прогнозы, заказы на работу и проекты'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: 'Выставление счетов за обслуживание по основным средствам, принадлежащим заказчику'
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Интеграция управления активами с основными средствами
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
-            - name: Профилактическое и реактивное обслуживание
+            - name: Профилактическое и оперативное обслуживание
               items:
                 - name: Обзор профилактического обслуживания
                   href: asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Статус обслуживания
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Управление активами из мобильного приложения
+              items:
+                - name: Настройка мобильной рабочей области управления активами
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: Использование мобильной рабочей области управления активами
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: Интеграция управления активами с Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: Мобильная рабочая область управления активами
-              href: asset-management/asset-management-mobile-workspace.md
         - name: Управление данными
           items:
             - name: Целевые объекты
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Мобильная рабочая область запасов в наличии
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Устранение неполадок операций с запасами
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Исходящий процесс
               items:
                 - name: Обзор исходящих процессов
@@ -1373,16 +1385,22 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Сводное планирование с прогнозом спроса
                   href: master-planning/planning-optimization/demand-forecast.md
-                - name: Сводное планирование с торговыми договорами о покупке
+                - name: Сводное планирование с коммерческими соглашениями о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Заявки на покупку
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: Планирование производства
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: Маркировка запасов с оптимизацией планирования
                   href: master-planning/planning-optimization/marking.md
                 - name: Внутрихолдинговое планирование
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Исключение продуктов с определенными состояниями жизненного цикла продукта
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Временные границы покрытия
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Утверждение спланированных заказов
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Автоматическое подтверждение при оптимизации планирования
@@ -1639,7 +1657,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Создание класса SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Связывание класса документов бизнес-правил с типом бизнес-правил
+                    - name: Связывание класса документов workflow-процесса с типом бизнес-правил
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Отчет о типах бизнес-правил
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Использование конструктора формул
                   href: production-control/formula-designer.md
+                - name: Переопределение принципа резервирования по умолчанию для материалов в производстве
+                  href: production-control/override-default-reservation-principle.md
                 - name: Добавление вариантов продуктов в заказы на покупку с использованием весов вариантов
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Создание заказа на продажу для настраиваемого продукта
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Функциональность конструктора спецификаций
                       href: production-control/bom-designer-functionality.md
+                    - name: Переопределение принципа резервирования по умолчанию для материалов в производстве
+                      href: production-control/override-default-reservation-principle.md
                     - name: Искусственные номенклатуры
                       href: production-control/phantom-items.md
                     - name: Расчет спецификаций
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: 'Комплектация кластера, управляемая системой'
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Настройка различных аналитик для упаковки и хранения
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: Настройка контейнеризации
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Подтверждение партии и грузоместа
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Повторная печать и аннулирование этикеток волны
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Отгрузка небольших посылок
+                      href: warehousing/small-parcel-shipping.md
                     - name: Устранение неполадок с формированием загрузок и отгрузками
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Политики консолидации отгрузок
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Работа с директивами местонахождения
                       href: warehousing/create-location-directive.md
+                    - name: Настройка фильтров продуктов для складских проводок
+                      href: warehousing/filters-and-filter-codes.md
                     - name: Лимиты хранения местонахождения
                       href: warehousing/location-stocking-limits.md
                     - name: Коды шагов волны
                       href: warehousing/wave-step-codes.md
                     - name: Настройка обработки волн
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Планирование создания работы во время волны
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: Настройка и использование печати этикеток волны
                       href: warehousing/configure-wave-label-printing.md
                     - name: Автообновление отгрузок
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Установка и настройка приложения склада
                   items:
+                    - name: Установка и подключение мобильного приложения "Управление складом"
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: Установка и подключение приложения склада
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Сканирование штрих-кодов с помощью камеры в приложении склада
