@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d5634b576b235d337dafab30004d4bac428e59fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9c90079c876b6b11a8fdcf0b5f333f5e55508c0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408553"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000406"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 
@@ -640,6 +639,3 @@ ms.locfileid: "4408553"
 5.  Выберите **Строки** для просмотра строк журнала, которые содержат проводки начисления земельного налога, которые были созданы на основании данных налогового регистра и настроек параметров для основных средств.
 
 6.  Проверьте и разнесите журнал.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

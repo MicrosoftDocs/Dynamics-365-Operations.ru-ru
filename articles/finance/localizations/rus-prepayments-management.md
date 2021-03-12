@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 959182ed41cc96415be71519dcbe3653d78a00ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc1eaa77c7b7ea1082682184441e07ffb71e1166
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408542"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000391"
 ---
 # <a name="prepayments-management"></a>Управление Предоплатами
 [!include [banner](../includes/banner.md)]
@@ -348,6 +347,3 @@ ms.locfileid: "4408542"
 Для отмены возмещения НДС используется страница **Книга продаж (Отмена обработанного НДС)** (**Расчеты с клиентами** \> **Периодические задачи** \> **Книга продаж** \> **Отмена обработанного НДС**).
 
 Невозможно отменить обработку входящего НДС, если только не отменено возмещение НДС по предоплате, которая сопоставляется с накладной.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

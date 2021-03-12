@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e71cfd451a51a5dabd12419541202ecc39df631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435852"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999964"
 ---
 # <a name="set-up-master-planning"></a>Настройка сводного планирования
 
@@ -227,6 +226,3 @@ ms.locfileid: "4435852"
 Система использует только спланированные заказы на поставку, которые находятся в пределах временной границы, и создает новый спланированный заказ вне ее. Преимуществом динамических отрицательных дней является то, что они будут включать в себя время упреждения для отдельного продукта, чтобы повторно использовать существующие заказы и не создавать новые спланированные заказы, которые будут выполнены в более позднюю дату из-за задержек, вызванных временем упреждения. 
 
 Дополнительные сведения см. в разделе [Отрицательные дни и динамические отрицательные дни](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

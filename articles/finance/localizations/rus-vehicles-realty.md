@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d98fd4ce7e1c706f4e235263cff2fd9f2c125b13
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9672a5682ebcd96848ad9c0e34302468da1d2bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408500"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000367"
 ---
 # <a name="vehicles-and-realty-as-fixed-assets-russia"></a>Транспортные средства и недвижимость как основные средства (Россия)
 
@@ -46,6 +45,3 @@ ms.locfileid: "4408500"
 5. В поле **Дата удаления из регистра** выберите дату, когда следует удалить актив из налогового реестра.
 
 Дополнительные сведения об амортизации активов см. в разделе [Расчет амортизации (Россия)](rus-depreciation-calculation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

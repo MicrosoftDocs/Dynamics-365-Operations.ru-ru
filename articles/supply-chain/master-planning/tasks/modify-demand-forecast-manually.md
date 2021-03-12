@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435870"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999839"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Изменение прогноза спроса вручную
 
@@ -43,6 +42,3 @@ ms.locfileid: "4435870"
 1. Щелкните **Открыть** в Microsoft Office.
 2. Щелкните **Редактировать прогноз спроса** в Excel". В Excel можно добавлять, удалять и изменять строки прогноза спроса. Если вы не видите данные в Excel, необходимо войти, установив флажок "Оставаться в системе"; кроме того, необходимо доверять приложению для подключения к данным.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

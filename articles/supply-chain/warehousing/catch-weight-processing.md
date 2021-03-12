@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436399"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001184"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Обработка учета продуктов в двух единицах измерения с помощью управления складом
 
@@ -210,6 +209,3 @@ ms.locfileid: "4436399"
 
 > [!NOTE]
 > Предыдущая информация о тегах с учетом в двух единицах измерения действительна только в том случае, если у продукта с учетом в двух единицах измерения имеется полностью отслеживаемый метод отслеживания аналитики тегов с учетом в двух единицах измерения (то есть если параметр **Метод отслеживания аналитики тегов учета в двух единицах измерения** политики обработки номенклатур с учетом в двух единицах измерения задан как **Аналитики продукта,аналитики отслеживания и все аналитики хранения**). Если номенклатура с учетом в двух единицах измерения имеет частичное отслеживание по тегу (то есть, параметр **Метод отслеживания аналитики тегов учета в двух единицах измерения** политики обработки номенклатур с учетом в двух единицах измерения задан как **Аналитики продукта, аналитики отслеживания и статус запасов**), применяются дополнительные ограничения. Так в этом случае видимость между тегом и запасами теряется, некоторые дополнительные сценарии не поддерживаются.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

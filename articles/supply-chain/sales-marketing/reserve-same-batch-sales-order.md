@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436451"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001507"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Резервирование такой же партии для заказа на продажу
 
@@ -45,6 +44,3 @@ ms.locfileid: "4436451"
 - Партия имеет недостаточное количество оставшихся дней срока хранения на основании даты окончания срока годности и даты, до которой желательно использовать продукцию, плюс все дни продаж клиента.
 
 Для номенклатур, связанных с группой аналитик хранения, для которой включен параметр **Использовать процессы управления складом**, можно зарезервировать определенные номера партий с помощью иерархии резервирования со складской аналитикой номера партии, определенной над аналитикой местонахождения. Страница **Резервирование партии** для строк заказа на продажу и перемещение также позволяет выбрать и резервировать несколько строк на основе доступных номеров партий. Дополнительные сведения о действиях, выполняемых при использовании иерархии резервирования, в которой аналитика номера партии расположена под местоположением, см. в разделе [Гибкая политика резервирования аналитики уровня склада](../warehousing/flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

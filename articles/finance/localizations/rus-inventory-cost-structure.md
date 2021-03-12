@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a10fe09d0dda892d3679aee71f2bab40205f385d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9795e188a7f0f845c2417b93e1bd3100637e1a5a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408558"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000415"
 ---
 # <a name="inventory-cost-structure"></a>Структура стоимости запасов
 [!include [banner](../includes/banner.md)]
@@ -217,6 +216,3 @@ ms.locfileid: "4408558"
 На страницах **Сопоставление** и **Анализатор себестоимости** коды накладных расходов с типом дебета **Номенклатура** и типом кредита **Счет ГК** отображаются в виде отдельной строки. Коды накладных расходов с другими типами дебета и кредита включаются в себестоимость номенклатуры как прямые расходы (стандартная функция). Они не распределяются на странице **Сопоставления**. Следовательно, они не отображаются на странице **Анализатор себестоимости**.
 
 Если поле **Код накладных расходов** на странице **Сопоставления** не задано, код накладных расходов не будет показан на странице **Анализатор себестоимости**. Если поле **Код накладных расходов** на странице **Сопоставления** задано, код накладных расходов будет показан как отдельная строка на странице **Анализатор себестоимости**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

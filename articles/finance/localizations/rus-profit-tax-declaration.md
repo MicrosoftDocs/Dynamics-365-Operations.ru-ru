@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 368f28e95b74d41d0f1aef435a246254b4610539
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fdafa6f987618ab0de02d54ada6a28cea01ee325
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408540"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000388"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 
@@ -146,6 +145,3 @@ ms.locfileid: "4408540"
 14. Для просмотра созданного отчета выберите **Вложения** (символ скрепки) в верхнем правом углу страницы. Затем выберите **Открыть**, чтобы открыть файл.
 
 Необходимо также вручную отправить созданный файл в специальное программное обеспечение независимых разработчиков для предварительного просмотра данных, обновления данных и передачи файлов декларации налога на прибыль в налоговые органы по каналам связи.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

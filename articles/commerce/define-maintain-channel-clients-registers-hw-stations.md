@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc043208362137d337f91745d2de357388510005
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415157"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000908"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Подключение периферийных устройств к POS
 
@@ -205,6 +204,3 @@ Cloud POS — это POS на основе браузера. Поскольку 
 ### <a name="client-data-synchronization"></a>Синхронизация данных клиента
 
 Все изменения в клиенте POS за исключением изменений в статусе активации устройства необходимо синхронизировать с базой данных канала, чтобы они вступили в силу. Чтобы синхронизировать изменения с базой данных канала, перейдите в раздел **Retail и Commerce** &gt; **ИТ Retail и Commerce** &gt; **График распределения и выполните требуемый график распределения**. В случае изменений клиента необходимо выполнить графики распределения **Регистры** и **Конфигурация канала**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

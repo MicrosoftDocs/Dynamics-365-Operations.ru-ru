@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fc680ac238d5152f42c93438d815939b706dab22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ae0dd207ec4057e0db1ad83feb9bf7561aeef72
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408552"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000400"
 ---
 # <a name="ledger-translation-russia"></a>Трансляция счетов (Россия)
 
@@ -381,6 +380,3 @@ ms.locfileid: "4408552"
 1. Перейдите в раздел **Главная книга \> Периодические задачи \> Сессии трансляции**.
 2. В нижней части страницы выберите трансляцию, которую требуется отменить.
 3. Выберите **Отмена**. Поля **Статус экспорта** и **Статус импорта** автоматически обновляются на значение **Отменено**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

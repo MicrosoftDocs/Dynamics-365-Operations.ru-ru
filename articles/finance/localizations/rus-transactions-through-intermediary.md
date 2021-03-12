@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 583b9b141e088475bd49bb8b10479651b9006ec9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2721e2a5a3fcaf06d538851afab9964bccdae9c3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408591"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000373"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]
@@ -89,6 +88,3 @@ ms.locfileid: "4408591"
 2. На вкладке **Номерные серии** в поле **Код номерной серии** выберите код номерной серии для ссылки **Код отчета**.
 
 Дополнительные сведения см. в разделах [Покупки по комиссии](rus-purchases-on-commission.md) и [Продажи по комиссии](rus-sales-on-commission.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

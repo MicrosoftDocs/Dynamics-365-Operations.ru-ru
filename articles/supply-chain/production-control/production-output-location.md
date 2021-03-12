@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4002bf7dddb196edf306268ecc16e1bfa5d6d1e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8d28b9670d8752c1039684551d56b1779a10b20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436219"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001607"
 ---
 # <a name="production-output-location"></a>Местонахождение получения из производства
 
@@ -40,6 +39,3 @@ ms.locfileid: "4436219"
 4. Если местонахождение не обнаружено, используйте местоположение получения, которое определено в складе, определенном для производственного заказа.
 
 Местонахождение получения из производства по умолчанию задается только для продуктов, которые были настроены с помощью расширенных процессов складов. Когда принимается этот тип номенклатуры, создается работа склада типа **Размещение готовой продукции** или **Размещение побочных и попутных продуктов**. Этот тип работы использует местонахождение получения из производства в качестве местонахождения комплектации. Местонахождение размещения определяется директивами местонахождения.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

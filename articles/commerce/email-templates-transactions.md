@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415150"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000796"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Создание шаблонов сообщений электронной почты для событий проводок
 
@@ -203,6 +202,3 @@ Dynamics 365 Commerce предоставляет готовое решение �
 [Настройка приема электронной почты](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Отправка чеков по электронной почте из Modern POS ](email-receipts.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
