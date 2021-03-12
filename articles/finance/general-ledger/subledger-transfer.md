@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645178"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975491"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Перенос субкниги в главную книгу
 
@@ -42,6 +41,3 @@ ms.locfileid: "4645178"
 В версии 10.0.8 были сделаны усовершенствования, повышающие производительность параметра "Асинхронно". Эта функция включается в рамках функции **Оптимизация производительности переноса субкниги в главную книгу**. 
  
 Эта функция улучшает перенос данных из субкниги в главную книгу. Это позволяет повысить эффективность процесса и группирует совокупные наборы более мелких проводок для передачи. Это позволяет более эффективно использовать сервер пакетной обработки. Для этой функции требуется, чтобы сервер пакетной обработки был настроен, подключен и работал, чтобы можно было работать с параметром переноса "Асинхронно". 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

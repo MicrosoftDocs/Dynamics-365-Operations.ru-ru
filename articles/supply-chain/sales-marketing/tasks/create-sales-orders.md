@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435842"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974818"
 ---
 # <a name="create-sales-orders"></a>Создавать заказы на продажу
 
@@ -68,6 +67,3 @@ ms.locfileid: "4435842"
     На странице **Итоги** отображаются сведения обо всем заказе. Сюда входит промежуточная сумма, которая является суммой всех чистых сумм по строкам, скорректированных с учетом окончательных скидок по строке, итоговая сумма накладной, которая является промежуточной суммой, скорректированной с учетом окончательной скидки на уровне заказа, накладных расходов и налога, кредитный лимит клиента и т. д. Сумма накладной — это сумма, которая отображается в документе накладной клиента.  
     
 3. Нажмите **ОК**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

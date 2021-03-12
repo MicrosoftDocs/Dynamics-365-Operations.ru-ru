@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435995"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974793"
 ---
 # <a name="troubleshoot-sales-orders"></a>Устранение неполадок заказов на продажу
 
@@ -59,6 +58,8 @@ ms.locfileid: "4435995"
 Можно отменить только заказы на продажу и заказы на возврат, которые находятся в состоянии *Создано*. Дополнительные сведения см. в разделе [Отмена заказов на возврат](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>При попытке отменить заказ на продажу я получаю ошибку "Не удается удалить резервирования в связи с наличием зависимой от них работы".
+
+Код ошибки: WAX4661
 
 Если работа связана с заказом на продажу, невозможно отменить заказ на продажу до отмены и сторнирования работы. Это требование применимо даже в том случае, если работа, связанная с заказом на продажу, закрыта.
 
@@ -110,7 +111,4 @@ Supply Chain Management в настоящее время не поддержив
 
 Номенклатура набора недоступна для заказа на покупку, поскольку, если исследовать строки заказа на продажу для номенклатуры набора, вы увидите, что количество равно *0* (нулю) и статус *Отменено*. Такое поведение предусмотрено разработчиками. Заказ на продажу покупает только компоненты номенклатуры набора. Он не покупает саму номенклатуру набора.
 
-Если необходимо купить набор, подумайте, следует ли помечать его как номенклатуру набора, так как эта функция фактически разработана для сценариев распознавания выручки. Дополнительные сведения о номенклатурах наборов см. в разделе [Наборы](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Если необходимо купить набор, подумайте, следует ли помечать его как номенклатуру набора, так как эта функция разработана для сценариев распознавания выручки. Дополнительные сведения о номенклатурах наборов см. в разделе [Наборы](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

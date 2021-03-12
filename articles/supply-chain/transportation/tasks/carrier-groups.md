@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 14a2f4c7d8d053ffd7b4b5d090113e1d9c3294c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646430"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974118"
 ---
 # <a name="carrier-groups"></a>Группы перевозчиков
 
@@ -38,6 +37,3 @@ ms.locfileid: "4646430"
 1. В поле **Имя** введите описательное имя для группы.
 1. На экспресс-вкладке **Сведения** добавьте строку и выберите перевозчика и услугу перевозчика для него. Повторяйте этот шаг до тех пор, пока не будет добавлено столько перевозчиков, сколько требуется для группы.
 1. Закройте страницу.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
