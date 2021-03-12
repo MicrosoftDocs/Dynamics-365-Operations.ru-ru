@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,35 +18,35 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2348d7721cd281bb2a1b5af007c98ce69377a412
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436121"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963796"
 ---
-#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="2ea53-103">Ограничения на версии учета затрат для стандартных затрат</span><span class="sxs-lookup"><span data-stu-id="2ea53-103">Restrictions on costing versions for standard costs</span></span>
+#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="b4449-103">Ограничения на версии учета затрат для стандартных затрат</span><span class="sxs-lookup"><span data-stu-id="b4449-103">Restrictions on costing versions for standard costs</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2ea53-104">В этом разделе рассматриваются ограничения, которые применяются в отношении версии цены для стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="2ea53-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
+<span data-ttu-id="b4449-104">В этом разделе рассматриваются ограничения, которые применяются в отношении версии цены для стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="b4449-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 
-<span data-ttu-id="2ea53-105">Следующие ограничения помогают обеспечить соблюдение принципов расчета стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="2ea53-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
+<span data-ttu-id="b4449-105">Следующие ограничения помогают обеспечить соблюдение принципов расчета стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="b4449-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
 
--  <span data-ttu-id="2ea53-106">Накладные расходы должны быть включены в затраты по номенклатуре.</span><span class="sxs-lookup"><span data-stu-id="2ea53-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="2ea53-107">Накладные расходы для произведенной номенклатуры отражают амортизированные постоянные затраты в спецификации (BOM) и информации о маршруте.</span><span class="sxs-lookup"><span data-stu-id="2ea53-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="2ea53-108">Поэтому эти расходы необходимо включить в затраты на единицу измерения.</span><span class="sxs-lookup"><span data-stu-id="2ea53-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="2ea53-109">Накладные расходы для приобретенной номенклатуры также включаются в затраты на единицу измерения номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="2ea53-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
+-  <span data-ttu-id="b4449-106">Накладные расходы должны быть включены в затраты по номенклатуре.</span><span class="sxs-lookup"><span data-stu-id="b4449-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="b4449-107">Накладные расходы для произведенной номенклатуры отражают амортизированные постоянные затраты в спецификации (BOM) и информации о маршруте.</span><span class="sxs-lookup"><span data-stu-id="b4449-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="b4449-108">Поэтому эти расходы необходимо включить в затраты на единицу измерения.</span><span class="sxs-lookup"><span data-stu-id="b4449-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="b4449-109">Накладные расходы для приобретенной номенклатуры также включаются в затраты на единицу измерения номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="b4449-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
 
--  <span data-ttu-id="2ea53-110">Вычисление стандартных затрат для произведенных номенклатур должно быть основано на записях затрат в рамках версии цены для стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="2ea53-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="2ea53-111">Альтернативный источник данных по затратам можно использовать только с версией цены для плановых затрат, например, с торговыми соглашениями о закупочных ценах для приобретенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="2ea53-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="2ea53-112">Альтернативные источники данных по затратам определяются группой расчета спецификации.</span><span class="sxs-lookup"><span data-stu-id="2ea53-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
+-  <span data-ttu-id="b4449-110">Вычисление стандартных затрат для произведенных номенклатур должно быть основано на записях затрат в рамках версии цены для стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="b4449-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="b4449-111">Альтернативный источник данных по затратам можно использовать только с версией цены для плановых затрат, например, с торговыми соглашениями о закупочных ценах для приобретенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="b4449-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="b4449-112">Альтернативные источники данных по затратам определяются группой расчета спецификации.</span><span class="sxs-lookup"><span data-stu-id="b4449-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
 
--  <span data-ttu-id="2ea53-113">Расчеты спецификации должны выполняться с использованием одноуровневого режима развертывания.</span><span class="sxs-lookup"><span data-stu-id="2ea53-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
+-  <span data-ttu-id="b4449-113">Расчеты спецификации должны выполняться с использованием одноуровневого режима развертывания.</span><span class="sxs-lookup"><span data-stu-id="b4449-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
 
-<span data-ttu-id="2ea53-114">Данные о затратах по номенклатуре для стандартных затрат можно скопировать в другую версию цены, которая содержит стандартные затраты или плановые затраты.</span><span class="sxs-lookup"><span data-stu-id="2ea53-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="2ea53-115">Однако данные о затратах для плановых затрат невозможно скопировать в версию цены, содержащую стандартные затраты, поскольку ограничения, перечисленные раньше в этом разделе, не применяются по отношению к плановым затратам.</span><span class="sxs-lookup"><span data-stu-id="2ea53-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
+<span data-ttu-id="b4449-114">Данные о затратах по номенклатуре для стандартных затрат можно скопировать в другую версию цены, которая содержит стандартные затраты или плановые затраты.</span><span class="sxs-lookup"><span data-stu-id="b4449-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="b4449-115">Однако данные о затратах для плановых затрат невозможно скопировать в версию цены, содержащую стандартные затраты, поскольку ограничения, перечисленные раньше в этом разделе, не применяются по отношению к плановым затратам.</span><span class="sxs-lookup"><span data-stu-id="b4449-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
 
-<a name="related-topics"></a><span data-ttu-id="2ea53-116">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="2ea53-116">Related topics</span></span>
+<a name="related-topics"></a><span data-ttu-id="b4449-116">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="b4449-116">Related topics</span></span>
 --------
 
-[<span data-ttu-id="2ea53-117">Обзор версий учета затрат</span><span class="sxs-lookup"><span data-stu-id="2ea53-117">Costing versions overview</span></span>](costing-versions.md)
+[<span data-ttu-id="b4449-117">Обзор версий учета затрат</span><span class="sxs-lookup"><span data-stu-id="b4449-117">Costing versions overview</span></span>](costing-versions.md)
 
-[<span data-ttu-id="2ea53-118">Обновление стандартных затрат в непроизводственной среде</span><span class="sxs-lookup"><span data-stu-id="2ea53-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
+[<span data-ttu-id="b4449-118">Обновление стандартных затрат в непроизводственной среде</span><span class="sxs-lookup"><span data-stu-id="b4449-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
 
-[<span data-ttu-id="2ea53-119">Подготовка к поддержке стандартных затрат по произведенной номенклатуре</span><span class="sxs-lookup"><span data-stu-id="2ea53-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
+[<span data-ttu-id="b4449-119">Подготовка к поддержке стандартных затрат по произведенной номенклатуре</span><span class="sxs-lookup"><span data-stu-id="b4449-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
 
