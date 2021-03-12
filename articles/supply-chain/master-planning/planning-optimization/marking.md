@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672205"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983499"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Маркировка запасов с оптимизацией планирования
 
@@ -49,6 +48,3 @@ ms.locfileid: "4672205"
 - **Нет** — складская маркировка не применяется.
 - **Стандарт** — складская маркировка обновляется согласно определению источника потребности. Заказ типа "Потребность в номенклатуре" (спрос) помечается по заказу на выполнение (поставка). Если некоторое количество остается в заказе на выполнение, оно не отмечается, а справочная информация остается пустой. Например, если заказ на продажу на 100 шт. привязан к заказу на покупку на 150 шт., справочная информация будет назначена только этому заказу на продажу.
 - **Расширено** — заказ типа "Потребность в номенклатуре" (спрос) и заказ на выполнение (поставка) маркируются, вне зависимости от оставшегося для заказа на выполнение количества. Например, если заказ на продажу на 100 шт. привязан к заказу на покупку на 150 шт., справочная информация будет назначена как заказу на продажу, так и заказу на покупку.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

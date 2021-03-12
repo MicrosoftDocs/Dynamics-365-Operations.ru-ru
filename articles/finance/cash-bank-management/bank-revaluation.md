@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b7d2e33c1edb36227a76453d1981aec5babbf75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985370"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Банковская переоценка в иностранной валюте
 
@@ -88,6 +87,3 @@ ms.locfileid: "4447298"
 Если необходимо реверсировать проводку переоценки, выберите кнопку **Сторнировать проводку** на панели действий страницы **Переоценка в иностранной валюте**. Новая историческая запись переоценки в иностранной валюте создается для поддержания исторического аудиторского следа, когда выполняется или сторнируется переоценка.
 
 Чтобы отменить несколько переоценок, сначала необходимо реверсировать самую последнюю переоценку. Затем продолжайте реверсирование более старых переоценок по датам. Затем можно обработать новые переоценки для периодов, которые были реверсированы.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

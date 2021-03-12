@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985220"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Регистрация и разноска датированного будущим числом чека для поставщика
 
@@ -56,6 +55,3 @@ ms.locfileid: "4447236"
 16. Закройте страницу.
 17. Перейдите на вкладку "Чеки, датированные будущим числом".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

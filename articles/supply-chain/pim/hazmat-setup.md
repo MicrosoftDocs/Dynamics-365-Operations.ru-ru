@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983349"
 ---
 # <a name="set-up-hazardous-materials"></a>Настройка опасных материалов
 
@@ -284,6 +283,3 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет нес
 Спецификация *Туннель для перевозки опасных материалов* ограничивает типы туннелей, по которым допускается перевозка опасного материала, определяя типы туннелей, которые необходимо использовать. Категории туннелей устанавливаются соответствующими правилами для транспортировки опасных материалов. Эта спецификация обычно применяется только для транспортировки автомобильным транспортом.
 
 Для настройки значений для этой спецификации перейдите на страницу **Управление сведениями о продукте \> Настройка \> Документация по отгрузке опасных материалов \> Туннель для перевозки опасных материалов**. На странице **Туннель для перевозки опасных материалов** можно создать любое количество идентификаторов тоннелей и настроить каждый из них с помощью идентификационного кода и краткого описания.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

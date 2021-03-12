@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 390ccdfde3f9bb93770d456af7532a42e81955a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b1fc042bff4d801ae893b0370b67cd8e11ba95f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982324"
 ---
 # <a name="payment-configurations-for-retail-statements"></a>Конфигурации платежей для журналов операций розничной торговли
 
@@ -53,6 +52,3 @@ ms.locfileid: "4415276"
     * Выберите счет для разноски сумм сдачи наличных средств в сейф.  
 8. Нажмите кнопку "Сохранить".
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f10022ae4906972d08e08e3e5476630213468d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985469"
 ---
 # <a name="cash-overview-power-bi-content"></a>Содержимое Power BI "Обзор кассы"
 
@@ -79,6 +78,3 @@ ms.locfileid: "4447240"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте учета каждой компании |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте системы всех компаний |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Суммарная чистая сумма проводки и сальдо по валюте в валюте проводки |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdBOM, PmfProdCoBy, ProdParmCostEstimation, ProdCalcTrans, ProdParmRelease, ProdSchedule, ProdRouteJob, ProdParmStartUp, ProdJournalTransBOM, ProdJournalTransRoute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e57cd9254185b73f544e8ff4f7658cf743b672f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5fd04587c95ba8a48750f96302a11aeaf82308d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435769"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981414"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Жизненный цикл заказа партии от создания до запуска
 
@@ -92,6 +91,3 @@ ms.locfileid: "4435769"
 12. Закройте страницу.
 13. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
