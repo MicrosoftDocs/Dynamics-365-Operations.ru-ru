@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea6f04b1dad162749edc1ad7662f7d9cf077221d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5822b3413a6fa4b6044a97ec320521b4d7206bad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988985"
 ---
 # <a name="fixed-asset-management-workspace"></a>Рабочая область управления основными средствами
 
@@ -74,6 +73,3 @@ ms.locfileid: "4447181"
 | Карты оценок        | Детальное описание основных средств |
 
 Чтобы просмотреть аналитику с данными, сначала необходимо обновить агрегированное измерение AssetTransactionMeasure на странице **Хранилище объектов**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2a715fe2ae0cb32e523248ffb15bdde4b36bd01d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447209"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990222"
 ---
 # <a name="process-allocations"></a>Обработка распределений
 
@@ -44,6 +43,3 @@ ms.locfileid: "4447209"
 > [!NOTE]
 > При бюджетной планировании невозможно использовать внутрихолдинговые правила распределения главной книги.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447254"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988809"
 ---
 # <a name="sales-tax-overview"></a>Обзор налога
 
@@ -97,6 +96,3 @@ ms.locfileid: "4447254"
 Если в качестве способа оплаты используется чек, датированный будущим числом, то при создании платежа банковский счет не очищается. В некоторых странах НДС становится "реализованной" задолженностью, когда платеж очищает банк, то есть чек, датированный будущим числом, сопоставлен. Это можно включить, выбрав параметр **реализовать условный налог при выписке чеков, датированных будущим числом** в **Управление банком и кассовыми операциями > Настройка > Параметры управления банком и кассовыми операциями > Чеки, датированные будущим числом**.
 
 Дополнительные сведения см. в разделе [Настройка подоходного налога](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

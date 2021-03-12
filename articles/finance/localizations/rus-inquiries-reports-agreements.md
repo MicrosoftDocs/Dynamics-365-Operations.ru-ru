@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 23ab6ad5cf9ed36662993b306d3227b34558c926
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f10b51b282b748d72e6271ebd03226d120bd14c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408560"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990073"
 ---
 # <a name="inquiries-and-reports-with-agreements"></a>Запросы и отчеты с договорами
 [!include [banner](../includes/banner.md)]
@@ -141,6 +140,3 @@ ms.locfileid: "4408560"
 - [Договоры](rus-agreements.md)
 - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
 - [Регистрация проводок со ссылками на договоры](rus-register-transactions-with-reference-to-agreements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

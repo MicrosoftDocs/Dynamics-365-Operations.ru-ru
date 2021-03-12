@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: edf0e3fefb6593b8f3f5aaf8773714c0ee7c947f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e810341a0a03e970918b662fb290fb9196e1ac9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408589"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989808"
 ---
 # <a name="register-goods-shipped-to-customers-russia"></a>Регистрация товаров, отгруженных клиентам (Россия)
 
@@ -238,6 +237,3 @@ ms.locfileid: "4408589"
   - **Дебет**: себестоимость проданных товаров, по которым выставлена накладная; **Кредит**: заказ на продажу, корр. счет товаров отгруженных
   - **Дебет**: корр. счет уплаты (налог); **Кредит**: исходящий налог
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

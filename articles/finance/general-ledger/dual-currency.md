@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990472"
 ---
 # <a name="dual-currency"></a>Двойная валюта
 
@@ -209,6 +208,3 @@ ms.locfileid: "4447049"
 -  Теперь можно выбрать, следует ли использовать валюту учета или валюту отчетности из исходной компании в качестве валюты проводки в консолидированной компании.
 
 - Суммы в валюте учета или отчетности их исходной компании будут скопированы напрямую в суммы в валюте учета или валюте отчетности в консолидированной компании, если какая-то из валют совпадает. Суммы в валюте учета и в валюте отчетности в консолидированной компании рассчитываются с использованием валютного курса, если ни одна из валют не совпадает.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

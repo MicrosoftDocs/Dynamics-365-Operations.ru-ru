@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989701"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Настройка элемента меню мобильного устройства для предоставления обзора строк комплектации
 
@@ -69,6 +68,3 @@ ms.locfileid: "4435919"
     - Используйте оставшиеся поля **Отображаемое поле** для добавления до семи дополнительных отображаемых полей, как это требуется. В каждом поле **Отображаемое поле** выберите имя поля строки работы. Затем каждая строка отобразит значение для этого поля. Значения будут показаны в том порядке, в котором они выбраны здесь. Если не требуются все семь значений, можно оставить некоторые из полей **Отображаемое поле** пустыми.
 
 1. На панели действий выберите **Сохранить**, затем закройте страницу **Список полей**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
