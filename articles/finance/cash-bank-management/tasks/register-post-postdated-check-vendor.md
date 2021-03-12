@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985220"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="9d167-103">Регистрация и разноска датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="9d167-103">Register and post a postdated check for a vendor</span></span>
+# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="72a5a-103">Регистрация и разноска датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="72a5a-103">Register and post a postdated check for a vendor</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9d167-104">Для регистрации сведений по чеку, датированному задним числом, до отправки чека поставщику можно использовать ваучер журнала.</span><span class="sxs-lookup"><span data-stu-id="9d167-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="9d167-105">Также можно разнести чек, датированный будущим числом, и сформировать финансовые проводки.</span><span class="sxs-lookup"><span data-stu-id="9d167-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="9d167-106">Прежде чем регистрировать и разносить датированный будущим числом чек от поставщика, выполните следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="9d167-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
+<span data-ttu-id="72a5a-104">Для регистрации сведений по чеку, датированному задним числом, до отправки чека поставщику можно использовать ваучер журнала.</span><span class="sxs-lookup"><span data-stu-id="72a5a-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="72a5a-105">Также можно разнести чек, датированный будущим числом, и сформировать финансовые проводки.</span><span class="sxs-lookup"><span data-stu-id="72a5a-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="72a5a-106">Прежде чем регистрировать и разносить датированный будущим числом чек от поставщика, выполните следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="72a5a-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 
-<span data-ttu-id="9d167-107">Настройка датированных будущим числом чеков на странице "Управление банком и кассовыми операциями".</span><span class="sxs-lookup"><span data-stu-id="9d167-107">Set up postdated checks in the Cash and bank management page.</span></span> 
+<span data-ttu-id="72a5a-107">Настройка датированных будущим числом чеков на странице "Управление банком и кассовыми операциями".</span><span class="sxs-lookup"><span data-stu-id="72a5a-107">Set up postdated checks in the Cash and bank management page.</span></span> 
 
 
 
-<span data-ttu-id="9d167-108">Роль для выполнения этого руководства по задачам — казначей.</span><span class="sxs-lookup"><span data-stu-id="9d167-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="9d167-109">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="9d167-109">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="72a5a-108">Роль для выполнения этого руководства по задачам — казначей.</span><span class="sxs-lookup"><span data-stu-id="72a5a-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="72a5a-109">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="72a5a-109">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="9d167-110">Перейдите в раздел "Расчеты с поставщиками" > "Платежи" > "Журнал платежей".</span><span class="sxs-lookup"><span data-stu-id="9d167-110">Go to Acounts payable > Payments > Payment journal</span></span>
-2. <span data-ttu-id="9d167-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9d167-111">Click New.</span></span>
-3. <span data-ttu-id="9d167-112">В поле "Имя" введите "VendPay".</span><span class="sxs-lookup"><span data-stu-id="9d167-112">In the Name field, type 'VendPay'.</span></span>
-4. <span data-ttu-id="9d167-113">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="9d167-113">Click Lines.</span></span>
-5. <span data-ttu-id="9d167-114">В поле "Счет" укажите требуемые значения.</span><span class="sxs-lookup"><span data-stu-id="9d167-114">In the Account field, specify the desired values.</span></span>
-6. <span data-ttu-id="9d167-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9d167-115">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="9d167-116">В поле "Дебет" введите число.</span><span class="sxs-lookup"><span data-stu-id="9d167-116">In the Debit field, enter a number.</span></span>
-8. <span data-ttu-id="9d167-117">В поле "Способ оплаты" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="9d167-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="9d167-118">Выберите способ оплаты для чека, датированного будущим числом.</span><span class="sxs-lookup"><span data-stu-id="9d167-118">Select the method of payment for the postdated check</span></span>  
-9. <span data-ttu-id="9d167-119">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9d167-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="9d167-120">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9d167-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="9d167-121">Перейдите на вкладку "Чеки, датированные будущим числом".</span><span class="sxs-lookup"><span data-stu-id="9d167-121">Click the Postdated checks tab.</span></span>
-12. <span data-ttu-id="9d167-122">В поле "Номер чека" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9d167-122">In the Check number field, type a value.</span></span>
-    * <span data-ttu-id="9d167-123">Введите или измените номер чека, датированного задним числом.</span><span class="sxs-lookup"><span data-stu-id="9d167-123">Enter or modify the number of the postdated check.</span></span>  
-13. <span data-ttu-id="9d167-124">В поле "Наименование выставляющего банка" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9d167-124">In the Issuing bank name field, type a value.</span></span>
-    * <span data-ttu-id="9d167-125">Введите реквизиты выставляющего банка.</span><span class="sxs-lookup"><span data-stu-id="9d167-125">enter the bank details for the issuing bank.</span></span>  
-14. <span data-ttu-id="9d167-126">Щелкните вкладку "Список".</span><span class="sxs-lookup"><span data-stu-id="9d167-126">Click the List tab.</span></span>
-15. <span data-ttu-id="9d167-127">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="9d167-127">Click Post.</span></span>
-16. <span data-ttu-id="9d167-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d167-128">Close the page.</span></span>
-17. <span data-ttu-id="9d167-129">Перейдите на вкладку "Чеки, датированные будущим числом".</span><span class="sxs-lookup"><span data-stu-id="9d167-129">Click the Postdated checks tab.</span></span>
+1. <span data-ttu-id="72a5a-110">Перейдите в раздел "Расчеты с поставщиками" > "Платежи" > "Журнал платежей".</span><span class="sxs-lookup"><span data-stu-id="72a5a-110">Go to Acounts payable > Payments > Payment journal</span></span>
+2. <span data-ttu-id="72a5a-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="72a5a-111">Click New.</span></span>
+3. <span data-ttu-id="72a5a-112">В поле "Имя" введите "VendPay".</span><span class="sxs-lookup"><span data-stu-id="72a5a-112">In the Name field, type 'VendPay'.</span></span>
+4. <span data-ttu-id="72a5a-113">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="72a5a-113">Click Lines.</span></span>
+5. <span data-ttu-id="72a5a-114">В поле "Счет" укажите требуемые значения.</span><span class="sxs-lookup"><span data-stu-id="72a5a-114">In the Account field, specify the desired values.</span></span>
+6. <span data-ttu-id="72a5a-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="72a5a-115">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="72a5a-116">В поле "Дебет" введите число.</span><span class="sxs-lookup"><span data-stu-id="72a5a-116">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="72a5a-117">В поле "Способ оплаты" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="72a5a-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="72a5a-118">Выберите способ оплаты для чека, датированного будущим числом.</span><span class="sxs-lookup"><span data-stu-id="72a5a-118">Select the method of payment for the postdated check</span></span>  
+9. <span data-ttu-id="72a5a-119">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="72a5a-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="72a5a-120">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="72a5a-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="72a5a-121">Перейдите на вкладку "Чеки, датированные будущим числом".</span><span class="sxs-lookup"><span data-stu-id="72a5a-121">Click the Postdated checks tab.</span></span>
+12. <span data-ttu-id="72a5a-122">В поле "Номер чека" введите значение.</span><span class="sxs-lookup"><span data-stu-id="72a5a-122">In the Check number field, type a value.</span></span>
+    * <span data-ttu-id="72a5a-123">Введите или измените номер чека, датированного задним числом.</span><span class="sxs-lookup"><span data-stu-id="72a5a-123">Enter or modify the number of the postdated check.</span></span>  
+13. <span data-ttu-id="72a5a-124">В поле "Наименование выставляющего банка" введите значение.</span><span class="sxs-lookup"><span data-stu-id="72a5a-124">In the Issuing bank name field, type a value.</span></span>
+    * <span data-ttu-id="72a5a-125">Введите реквизиты выставляющего банка.</span><span class="sxs-lookup"><span data-stu-id="72a5a-125">enter the bank details for the issuing bank.</span></span>  
+14. <span data-ttu-id="72a5a-126">Щелкните вкладку "Список".</span><span class="sxs-lookup"><span data-stu-id="72a5a-126">Click the List tab.</span></span>
+15. <span data-ttu-id="72a5a-127">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="72a5a-127">Click Post.</span></span>
+16. <span data-ttu-id="72a5a-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="72a5a-128">Close the page.</span></span>
+17. <span data-ttu-id="72a5a-129">Перейдите на вкладку "Чеки, датированные будущим числом".</span><span class="sxs-lookup"><span data-stu-id="72a5a-129">Click the Postdated checks tab.</span></span>
 
