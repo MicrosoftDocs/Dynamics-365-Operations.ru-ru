@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 173e003fbddb0b021f87a8e28a553f4578b16e9b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436401"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977471"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Пакетный выпуск частично зарезервированных заказов на перемещение
 
@@ -64,6 +63,3 @@ ms.locfileid: "4436401"
 -   Чтобы задать параметры **Количество** и **Разрешить выпуск частично выпущенных заказов** для заказов на перемещение, выберите **Управление складом** \> **Запуск на склад** \> **Автоматический выпуск заказов на перемещение**.
 
 -   Чтобы задать параметры **Количество** и **Разрешить выпуск частично выпущенных заказов** для заказов на продажу, выберите **Управление складом** \> **Запуск на склад** \> **Автоматический выпуск заказов на продажу**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447275"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976374"
 ---
 # <a name="reconcile-a-bank-account"></a>Согласование банковского счета
 
@@ -71,6 +70,3 @@ ms.locfileid: "4447275"
 Выверки банковских выписок могут быть отменены только в хронологическом порядке, в котором они были введены. При отмене выверки банковской выписки новые проводки и корректировки будут реверсированы, а все другие проводки будут помечены как невыверенные.
  
 Чтобы отменить выверку банковской выписки, выберите банковскую выписку и выберите **Банковская выписка > Отмена банковской выверки**. На странице **Отмена банковской выверки** предоставьте **Код основания**, **Комментарий к причине** и **Дату отмены**. Выберите **OK**, чтобы начать отмену. Обратите внимание, что дата отмены банковской выписки должна быть на дату или после даты банковской выписки. После того, как выверка банковской выписки будет отменена, поле **Дата отмены** для банковской выписки будет обновлено предоставленной **Датой отмены**. Выберите кнопку **Проводки** для просмотра проводок, для которых выверка была отменена.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

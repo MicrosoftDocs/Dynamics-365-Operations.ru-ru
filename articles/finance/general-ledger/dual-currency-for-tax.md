@@ -3,7 +3,7 @@ title: Поддержка двойной валюты для налога
 description: В этом разделе объясняется, как расширить возможности учета в двух валютах в налоговом домене и влияние на расчет и разноску налога
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978617"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Поддержка двойной валюты для налога
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ ms.locfileid: "4447159"
 
 Как следствие поддержки двойной валюты, в управлении функциями доступны две новые функции: 
 
-- Преобразование налога (версия релиза 10.0.9)
-- Автосальдо сопоставления налога в валюте отчетности (версия релиза 10.0.11)
+- Преобразование налога (новое в версии 10.0.13)
 
 Поддержка двойной валюты для налогов обеспечивает точное вычисление налогов в валюте налога, а также точное вычисление сальдо сопоставления налога в валюте учета и в валюте отчетности. 
 
@@ -145,6 +143,3 @@ ms.locfileid: "4447159"
 - [Двойная валюта](dual-currency.md)
 - [Обзор налога](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

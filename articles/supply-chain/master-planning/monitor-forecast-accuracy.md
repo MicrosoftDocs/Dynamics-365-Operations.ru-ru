@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a21e9d6199229438b73bfdf8307030eed60c21bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436267"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977946"
 ---
 # <a name="monitor-forecast-accuracy"></a>Отслеживание точности прогноза
 
@@ -50,6 +49,3 @@ Supply Chain Management вычисляет следующие типы точн�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

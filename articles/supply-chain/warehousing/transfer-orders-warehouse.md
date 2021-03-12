@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7dfb215683b4ee5d186626492bd90116d1a06a1d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436420"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976846"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Настройка складов для заказов на перемещение 
 
@@ -53,6 +52,3 @@ ms.locfileid: "4436420"
 2. В поле **Пункт приемки** выберите **склад**.
 3. Выберите **Склад отгрузки**, **Склад приемки** и **Время транспортировки в днях**. 
 4. (Необязательно) Можно также задать время транспортировки, в зависимости от способа поставки, на вкладке **Время транспортировки в днях по способу поставки**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

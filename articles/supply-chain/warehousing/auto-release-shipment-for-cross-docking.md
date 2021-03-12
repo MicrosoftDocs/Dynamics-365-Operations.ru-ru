@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435837"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977496"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Автоматический запуск отгрузки для кросс-докинга
 
@@ -179,6 +178,3 @@ ms.locfileid: "4435837"
 - Выпуск на склад запускается для связанного заказа на продажу.
 - На основе выпуска создается отгрузка и работа по кросс-докингу. Эта работа указывает оператору склада отобрать количества, необходимые для выполнения строки заказа на продажу, и поместить их в исходящее местоположение, указанное в директиве местонахождения кросс-докинга.
 - Если количество в производственном заказе превышает количество, необходимое для заказа на продажу, создается обычная работа размещения. Эта работа указывает оператору склада отобрать количества готовой продукции, которая остается после кросс-докинга, и поместить их в обычное хранение в соответствии с директивой местоположения.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

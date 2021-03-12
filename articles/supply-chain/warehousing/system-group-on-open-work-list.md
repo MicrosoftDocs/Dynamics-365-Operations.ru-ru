@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977371"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Системная группировка в списке открытых работ
 
@@ -42,6 +41,3 @@ ms.locfileid: "4435902"
 | Поле системной группировки | Доступен, только если параметр <strong>Разрешить системную группировку</strong> установлен в значение <strong>Да</strong>. Выберите поле, которое определяет, как работа по комплектации будет группироваться для работников. Например, если выбрать поле <strong>ShipmentId</strong>, работник будет сканировать код отгрузки для группировки работы комплектации. Вся работа для отгрузки будет назначена работнику. Это поле требует, чтобы вы создали пункт меню для использования существующей работы, сгруппированной системой. Используйте поле <strong>Метка системной группировки</strong>, чтобы сообщить работнику, что следует сканировать. |
 | Метка системной группировки |                       Доступен, только если параметр <strong>Разрешить системную группировку</strong> установлен в значение <strong>Да</strong>. Введите информацию для работника о том, что следует сканировать, когда работа комплектации группируется. Например, если вы используете поле <strong>ShipmentId</strong> для группировки работ по комплектации по отгрузке, можно ввести в этом поле "Код отгрузки". Это поле требует, чтобы вы создали пункт меню для использования существующей работы, сгруппированной системой. Также необходимо выбрать поле, по которому будет выполняться группировка, в поле <strong>Системная группировка</strong>.                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

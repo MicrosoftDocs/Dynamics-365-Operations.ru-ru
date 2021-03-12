@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976466"
 ---
 # <a name="configure-settlement"></a>Настройка сопоставления
 
@@ -67,6 +66,3 @@ ms.locfileid: "4447341"
 
 -   Часто организации используют фиксированные аналитики для нулевого заполнения финансовой аналитики, которая не обязательна. Обычно это относится к балансовым счетам, например, расчеты с клиентами/расчеты с поставщиками. Структуры счетов используется, чтобы не отслеживать финансовые аналитики, которые обычно заполняются нулями.  Можно удалить финансовые аналитики для балансового счета, устраняя необходимость использовать фиксированные аналитики.
 -   Если в организации требуется фиксированные аналитики для счета ГК расчетов с клиентами/расчетов с поставщиками, найдите способ задать по умолчанию фиксированную аналитику на платеж, чтобы значение фиксированной аналитики сохранилось для транзакции поставщика для платежа. Это позволит системе восстановить счет ГК расчетов с клиентами/расчетов с поставщиками для включения значений фиксированной аналитики. Значение фиксированной аналитики можно определить как значение по умолчанию для поставщиков или наименования журнала для журнала платежей.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435739"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977871"
 ---
 # <a name="define-production-flow-models"></a>Определение моделей производственных потоков
 
@@ -46,6 +45,3 @@ ms.locfileid: "4435739"
 8. В поле "Реакция на нехватку мощности" выберите вариант.
     * Возможны следующие варианты:   Отсрочка — откладывание полного спроса события планирования на следующий доступный день производства с доступной пропускной способностью. Отмена — завершение автоматического планирования для события планирования и оставление связанных заданий незапланированными.   Добавление к запрошенному дню — планирование запрошенных заданий для запрошенного периода. Это перегружает ячейку на этот день, и планировщик должен рассматривать и действовать вручную.    Распределение на доступные периоды — распределение различных заданий события планирования на все доступные производственные дни, начиная с первого доступного дня. Минимальное количество распределения — это количество заданий канбана. Распределение назначает минимальное количество планирования (количество канбанов) на каждый день с достаточной свободной пропускной способностью.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

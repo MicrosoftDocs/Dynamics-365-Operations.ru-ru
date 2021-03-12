@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b206dbda56acd4fcd4aa98be4b5e0d6c839f0354
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447218"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976424"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Управление проверкой счетов с International Bank Account Number (IBAN)
 
@@ -48,6 +47,3 @@ ms.locfileid: "4447218"
     Также проверяется, соответствует ли номер банковского счета той части IBAN, которая представляет номер банковского счета. Если номер банковского счета не соответствует структуре, будет выведено сообщение. Это сообщение — не более чем предупреждение. Можно продолжить выполнение операции, даже если номер банковского счета не соответствует структуре IBAN.
 
     Также проверяется, соответствует ли код банка той части IBAN, которая представляет код банка. Код банка включает номер банка и, часто, дополнительное отделение банка. Если код банка не соответствует, будет выведено сообщение. Это сообщение — не более чем предупреждение. Можно продолжить выполнение операции, даже если код банка не соответствует.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
