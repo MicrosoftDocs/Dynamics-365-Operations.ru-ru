@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8766208f0dff0cf24db7335ef00c42749811f8fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16f604d5e06859b15c6f610e7a5c822ef2089ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436028"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966913"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Создание состояния жизненного цикла продукта по умолчанию
 
@@ -62,6 +61,3 @@ ms.locfileid: "4436028"
 > [!NOTE]
 > Предположим, что вы задали активное состояние, теперь вы можете выбрать активное состояние, чтобы разрешить использовать продукт в сводном планировании и расчете уровня спецификации. Очевидно, что имеет смысл указать все сведения о продукте, необходимые для согласованного планирования.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

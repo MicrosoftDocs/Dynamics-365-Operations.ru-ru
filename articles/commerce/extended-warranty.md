@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415129"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965129"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Создание и настройка расширенных гарантий
 
@@ -142,7 +141,7 @@ Dynamics 365 Commerce предоставляет функции, позволя�
 
 Для настройки гарантийной группы в Commerce выполните следующие действия.
 
-1. Выберите **Retail и Commerce \> Продукты и категории \> Гарантия \> Гарантийные группы**.
+1. Выберите **Retail и Commerce \> Продукты и категории \> Гарантия \> Гарантийные группы**.
 1. Выберите **Создать** для создания гарантийной группы.
 1. В поле **Имя** введите название новой группы.
 1. На экспресс-вкладке **Общие** в поле **Описание** введите описание группы.
@@ -239,6 +238,3 @@ Dynamics 365 Commerce предоставляет функции, позволя�
 [Настройка ассортиментов](set-up-assortments.md)
 
 [Обзор номерных серий](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

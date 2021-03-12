@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965560"
 ---
 # <a name="outbound-workload-visualization"></a>Визуализация исходящей рабочей нагрузки
 
@@ -98,6 +97,3 @@ ms.locfileid: "4645443"
 ![Визуализация зон и состояния работы](media/work-viz-chart.png "Визуализация зон и состояния работы")
 
 На этой диаграмме показаны две зоны с именами **ЭТАЖ** и **СБОРНАЯ**, плюс зона с именем **Пусто**. Зона **Пусто** представляет все строки работ, не являющиеся участниками каких-либо зон. Диаграмма всегда показывает все несвязанные отфильтрованные данные как **Пусто**, чтобы предоставить как можно большую видимость. В зоне **ЭТАЖ** на диаграмме показаны три закрытые строки и четыре открытые строки. В зоне **СБОРНАЯ** на диаграмме показаны четыре закрытые строки, одна открытая строка и 24 отмененные строки. Наконец, на диаграмме показаны восемь закрытых строк, не являющихся частью какой-либо зоны и, следовательно, они отображаются как **Пустые**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

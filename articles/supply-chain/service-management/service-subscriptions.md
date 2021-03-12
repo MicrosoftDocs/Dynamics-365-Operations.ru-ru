@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965813"
 ---
 # <a name="service-subscriptions"></a>Подписки на сервисное обслуживание
 
@@ -38,6 +37,3 @@ ms.locfileid: "4435721"
 Код периода определяется в группе подписок на обслуживание. Он определяется для подписок с использованием группы подписок на обслуживание. Любой новый сбор по подписке, который вы создаете, содержит предлагаемую дату начала. Это дата начала периода, если это первый создаваемый период, или в конца предыдущего периода, если это второй или последующий период.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
