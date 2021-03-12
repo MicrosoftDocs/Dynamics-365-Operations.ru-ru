@@ -11,27 +11,26 @@ ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38ee6c5b3d258c313a2066b388a83330bf696d39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f30b8d1061eb2fe709df38628acd798448c8929e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447355"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989235"
 ---
-# <a name="postdated-checks"></a><span data-ttu-id="56ea3-105">Чеки, датированные будущим числом</span><span class="sxs-lookup"><span data-stu-id="56ea3-105">Postdated checks</span></span>
+# <a name="postdated-checks"></a><span data-ttu-id="c430d-105">Чеки, датированные будущим числом</span><span class="sxs-lookup"><span data-stu-id="c430d-105">Postdated checks</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="56ea3-106">Эта статья содержит сведения о поддержке чеков, датированных будущим числом.</span><span class="sxs-lookup"><span data-stu-id="56ea3-106">This article provides information about support for postdated checks.</span></span> <span data-ttu-id="56ea3-107">Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем.</span><span class="sxs-lookup"><span data-stu-id="56ea3-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="56ea3-108">Поэтому чек нельзя обналичить до указанной даты.</span><span class="sxs-lookup"><span data-stu-id="56ea3-108">Therefore, the check can't be cashed until the specified date.</span></span>
+<span data-ttu-id="c430d-106">Эта статья содержит сведения о поддержке чеков, датированных будущим числом.</span><span class="sxs-lookup"><span data-stu-id="c430d-106">This article provides information about support for postdated checks.</span></span> <span data-ttu-id="c430d-107">Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем.</span><span class="sxs-lookup"><span data-stu-id="c430d-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="c430d-108">Поэтому чек нельзя обналичить до указанной даты.</span><span class="sxs-lookup"><span data-stu-id="c430d-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
-<span data-ttu-id="56ea3-109">Dynamics 365 Finance поддерживает полный цикл управления для чеков, датированных задним числом, как в расчетах с клиентами, так и расчетах с поставщиками, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="56ea3-109">Dynamics 365 Finance supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
+<span data-ttu-id="c430d-109">Dynamics 365 Finance поддерживает полный цикл управления для чеков, датированных задним числом, как в расчетах с клиентами, так и расчетах с поставщиками, как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="c430d-109">Dynamics 365 Finance supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -39,63 +38,63 @@ ms.locfileid: "4447355"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="56ea3-110">Сценарий</span><span class="sxs-lookup"><span data-stu-id="56ea3-110">Scenario</span></span></th>
-<th><span data-ttu-id="56ea3-111">Подробности</span><span class="sxs-lookup"><span data-stu-id="56ea3-111">Details</span></span></th>
+<th><span data-ttu-id="c430d-110">Сценарий</span><span class="sxs-lookup"><span data-stu-id="c430d-110">Scenario</span></span></th>
+<th><span data-ttu-id="c430d-111">Подробности</span><span class="sxs-lookup"><span data-stu-id="c430d-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="56ea3-112">Настройка датированных задним числом чеков</span><span class="sxs-lookup"><span data-stu-id="56ea3-112">Set up postdated checks</span></span></td>
-<td><span data-ttu-id="56ea3-113">Необходимо настроить новый способ оплаты и определить процедуры платежа для клиринговых счетов для выписанные чеки, полученные чеки и подоходного налога.</span><span class="sxs-lookup"><span data-stu-id="56ea3-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
+<td><span data-ttu-id="c430d-112">Настройка датированных задним числом чеков</span><span class="sxs-lookup"><span data-stu-id="c430d-112">Set up postdated checks</span></span></td>
+<td><span data-ttu-id="c430d-113">Необходимо настроить новый способ оплаты и определить процедуры платежа для клиринговых счетов для выписанные чеки, полученные чеки и подоходного налога.</span><span class="sxs-lookup"><span data-stu-id="c430d-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="56ea3-114">Регистрация и разнесение датированного задним числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-114">Register and post a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="56ea3-115">Регистрация сведений о датированном будущим числом чека, который поставщику выписывается.</span><span class="sxs-lookup"><span data-stu-id="56ea3-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="56ea3-116">При разноске платежа задолженность поставщику распознается, но банковский счет еще не кредитуется.</span><span class="sxs-lookup"><span data-stu-id="56ea3-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="56ea3-117">Вместо этого клиринговый счет используется для этой цели.</span><span class="sxs-lookup"><span data-stu-id="56ea3-117">Instead, a clearing account is used for this purpose.</span></span> </td>
+<td><span data-ttu-id="c430d-114">Регистрация и разнесение датированного задним числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-114">Register and post a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="c430d-115">Регистрация сведений о датированном будущим числом чека, который поставщику выписывается.</span><span class="sxs-lookup"><span data-stu-id="c430d-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="c430d-116">При разноске платежа задолженность поставщику распознается, но банковский счет еще не кредитуется.</span><span class="sxs-lookup"><span data-stu-id="c430d-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="c430d-117">Вместо этого клиринговый счет используется для этой цели.</span><span class="sxs-lookup"><span data-stu-id="c430d-117">Instead, a clearing account is used for this purpose.</span></span> </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="56ea3-118">Регистрация и разноска датированного будущим числом чека для клиента</span><span class="sxs-lookup"><span data-stu-id="56ea3-118">Register and post a postdated check for a customer</span></span></td>
-<td><span data-ttu-id="56ea3-119">Регистрация информации о полученных от клиентов чеках, датированных будущим числом.</span><span class="sxs-lookup"><span data-stu-id="56ea3-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="56ea3-120">При разноске платежа сумма с клиента кредитуется, но банковский счет еще не дебетуется.</span><span class="sxs-lookup"><span data-stu-id="56ea3-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="56ea3-121">Вместо этого клиринговый счет используется для этой цели.</span><span class="sxs-lookup"><span data-stu-id="56ea3-121">Instead, a clearing account is used for this purpose.</span></span></td>
+<td><span data-ttu-id="c430d-118">Регистрация и разноска датированного будущим числом чека для клиента</span><span class="sxs-lookup"><span data-stu-id="c430d-118">Register and post a postdated check for a customer</span></span></td>
+<td><span data-ttu-id="c430d-119">Регистрация информации о полученных от клиентов чеках, датированных будущим числом.</span><span class="sxs-lookup"><span data-stu-id="c430d-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="c430d-120">При разноске платежа сумма с клиента кредитуется, но банковский счет еще не дебетуется.</span><span class="sxs-lookup"><span data-stu-id="c430d-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="c430d-121">Вместо этого клиринговый счет используется для этой цели.</span><span class="sxs-lookup"><span data-stu-id="c430d-121">Instead, a clearing account is used for this purpose.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="56ea3-122">Регистрация и разнесение датированного будущим числом чека для клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="c430d-122">Регистрация и разнесение датированного будущим числом чека для клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
 <td>
-<span data-ttu-id="56ea3-123">Если исходный чек для поставщика или от клиента поврежден или потерян, можно выпустить заменяющий чек, датированный будущим числом.</span><span class="sxs-lookup"><span data-stu-id="56ea3-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="56ea3-124">При регистрации сведений о чеке необходимо сослаться на исходный чек и указать, что новый чек является заменой исходного чека.</span><span class="sxs-lookup"><span data-stu-id="56ea3-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="56ea3-125">Также можно разнести заменяющий чек.</span><span class="sxs-lookup"><span data-stu-id="56ea3-125">You can also post the replacement check.</span></span></td>
+<span data-ttu-id="c430d-123">Если исходный чек для поставщика или от клиента поврежден или потерян, можно выпустить заменяющий чек, датированный будущим числом.</span><span class="sxs-lookup"><span data-stu-id="c430d-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="c430d-124">При регистрации сведений о чеке необходимо сослаться на исходный чек и указать, что новый чек является заменой исходного чека.</span><span class="sxs-lookup"><span data-stu-id="c430d-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="c430d-125">Также можно разнести заменяющий чек.</span><span class="sxs-lookup"><span data-stu-id="c430d-125">You can also post the replacement check.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="56ea3-126">Перенос датированного задним числом чека клиента поставщику</span><span class="sxs-lookup"><span data-stu-id="56ea3-126">Transfer a customer postdated check to a vendor</span></span></td>
-<td><span data-ttu-id="56ea3-127">При получении чека, датированного будущим числом, от клиента, можно передать этот чек поставщику в качестве оплаты.</span><span class="sxs-lookup"><span data-stu-id="56ea3-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
+<td><span data-ttu-id="c430d-126">Перенос датированного задним числом чека клиента поставщику</span><span class="sxs-lookup"><span data-stu-id="c430d-126">Transfer a customer postdated check to a vendor</span></span></td>
+<td><span data-ttu-id="c430d-127">При получении чека, датированного будущим числом, от клиента, можно передать этот чек поставщику в качестве оплаты.</span><span class="sxs-lookup"><span data-stu-id="c430d-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="56ea3-128">Сопоставление датированного задним числом чека для клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-128">Settle a postdated check for a customer or a vendor</span></span></td>
-<td><span data-ttu-id="56ea3-129">Сопоставляйте чека, датированного будущим числом, разнесенного на Промежуточный счет для клиента или поставщика, когда чек начнет действовать.</span><span class="sxs-lookup"><span data-stu-id="56ea3-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="56ea3-130">Когда чек сопоставлен, банк наконец дебетует или кредитует относительно клирингового счета, который был использован ранее.</span><span class="sxs-lookup"><span data-stu-id="56ea3-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
+<td><span data-ttu-id="c430d-128">Сопоставление датированного задним числом чека для клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-128">Settle a postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="c430d-129">Сопоставляйте чека, датированного будущим числом, разнесенного на Промежуточный счет для клиента или поставщика, когда чек начнет действовать.</span><span class="sxs-lookup"><span data-stu-id="c430d-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="c430d-130">Когда чек сопоставлен, банк наконец дебетует или кредитует относительно клирингового счета, который был использован ранее.</span><span class="sxs-lookup"><span data-stu-id="c430d-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="56ea3-131">Отмена датированного задним числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-131">Cancel a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="56ea3-132">Разнесенный чек, датированный будущим числом, можно отменить в следующих случаях: - Чек возвращен банком.</span><span class="sxs-lookup"><span data-stu-id="56ea3-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
-<span data-ttu-id="56ea3-133">- Чек применен к неправильной накладной.</span><span class="sxs-lookup"><span data-stu-id="56ea3-133">- The check is applied to an incorrect invoice.</span></span>
-<span data-ttu-id="56ea3-134">- По чему произведена наличная оплата.</span><span class="sxs-lookup"><span data-stu-id="56ea3-134">- A cash payment is made against the check.</span></span>
+<td><span data-ttu-id="c430d-131">Отмена датированного задним числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-131">Cancel a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="c430d-132">Разнесенный чек, датированный будущим числом, можно отменить в следующих случаях: - Чек возвращен банком.</span><span class="sxs-lookup"><span data-stu-id="c430d-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
+<span data-ttu-id="c430d-133">- Чек применен к неправильной накладной.</span><span class="sxs-lookup"><span data-stu-id="c430d-133">- The check is applied to an incorrect invoice.</span></span>
+<span data-ttu-id="c430d-134">- По чему произведена наличная оплата.</span><span class="sxs-lookup"><span data-stu-id="c430d-134">- A cash payment is made against the check.</span></span>
   </td>
   </tr>
   <tr class="even">
-  <td><span data-ttu-id="56ea3-135">Остановка платежа по датированному будущим числом чеку</span><span class="sxs-lookup"><span data-stu-id="56ea3-135">Stop payment for a postdated check</span></span></td>
-  <td><span data-ttu-id="56ea3-136">Можно остановить платеж по выписанному задним числом чеку, выписанному поставщику, в случае недостатка средств, изменения условий соглашения с поставщиком, поставки дефектных товаров поставщиком или возврата товаров поставщику.</span><span class="sxs-lookup"><span data-stu-id="56ea3-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="56ea3-137">Остановить платеж можно только по чекам, которые еще не были проведены в системе.</span><span class="sxs-lookup"><span data-stu-id="56ea3-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  <td><span data-ttu-id="c430d-135">Остановка платежа по датированному будущим числом чеку</span><span class="sxs-lookup"><span data-stu-id="c430d-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="c430d-136">Можно остановить платеж по выписанному задним числом чеку, выписанному поставщику, в случае недостатка средств, изменения условий соглашения с поставщиком, поставки дефектных товаров поставщиком или возврата товаров поставщику.</span><span class="sxs-lookup"><span data-stu-id="c430d-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="c430d-137">Остановить платеж можно только по чекам, которые еще не были проведены в системе.</span><span class="sxs-lookup"><span data-stu-id="c430d-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
   </tr>
   </tbody>
   </table>
 
 
 
-<span data-ttu-id="56ea3-138">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="56ea3-138">For more information, see the following topics:</span></span>
+<span data-ttu-id="c430d-138">Дополнительные сведения см. в следующих разделах:</span><span class="sxs-lookup"><span data-stu-id="c430d-138">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="56ea3-139">Настройка датированных будущим числом чеков</span><span class="sxs-lookup"><span data-stu-id="56ea3-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
+[<span data-ttu-id="c430d-139">Настройка датированных будущим числом чеков</span><span class="sxs-lookup"><span data-stu-id="c430d-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
 
-[<span data-ttu-id="56ea3-140">Регистрация и разноска датированного будущим числом чека для клиента</span><span class="sxs-lookup"><span data-stu-id="56ea3-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
+[<span data-ttu-id="c430d-140">Регистрация и разноска датированного будущим числом чека для клиента</span><span class="sxs-lookup"><span data-stu-id="c430d-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
 
-[<span data-ttu-id="56ea3-141">Сопоставление датированного будущим числом чека от клиента</span><span class="sxs-lookup"><span data-stu-id="56ea3-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
+[<span data-ttu-id="c430d-141">Сопоставление датированного будущим числом чека от клиента</span><span class="sxs-lookup"><span data-stu-id="c430d-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
 
-[<span data-ttu-id="56ea3-142">Регистрация и разноска датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
+[<span data-ttu-id="c430d-142">Регистрация и разноска датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
 
-[<span data-ttu-id="56ea3-143">Сопоставление датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="56ea3-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
+[<span data-ttu-id="c430d-143">Сопоставление датированного будущим числом чека для поставщика</span><span class="sxs-lookup"><span data-stu-id="c430d-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
 
 
 
