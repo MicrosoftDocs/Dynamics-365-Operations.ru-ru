@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680080"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744701"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Организационная иерархия в Dataverse
 
@@ -49,9 +49,9 @@ ms.locfileid: "4680080"
 
 Приложения Finance and Operations | Другие приложения Dynamics 365 | описание
 -----------------------|--------------------------------|---
-Цели организационной иерархии | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта цели организационной иерархии.
-Тип организационной иерархии | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта типа организационной иерархии.
-Организационная иерархия — опубликованная | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию объекта опубликованной организационной иерархии.
+Цели организационной иерархии | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы цели организационной иерархии.
+Тип организационной иерархии | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы типа организационной иерархии.
+Организационная иерархия — опубликованная версия | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы опубликованной организационной иерархии.
 Операционная единица | msdyn_internalorganizations |
 Юридические лица | msdyn_internalorganizations |
 Юридические лица | cdm_companies | Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании).
@@ -73,6 +73,3 @@ ms.locfileid: "4680080"
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

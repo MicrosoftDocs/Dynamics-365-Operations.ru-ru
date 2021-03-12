@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 61c286391d83d70036dbed7eae6755cdefce5f2e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693675"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798078"
 ---
 # <a name="change-the-banner-or-logo"></a>Изменение баннера или эмблемы
 
@@ -39,6 +39,3 @@ ms.locfileid: "4693675"
 6. Перейдите в раздел **Область переходов > Модули > Общие > Общая > Панель мониторинга по умолчанию**. Вы должны видеть новый баннер и изображение эмблемы на панели мониторинга.  
     
     Вам может потребоваться изменить свою компанию, используя элемент управления выбора компании, на ту, для которой вы загрузили баннер.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

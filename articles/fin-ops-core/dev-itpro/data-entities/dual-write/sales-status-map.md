@@ -1,6 +1,6 @@
 ---
-title: Настройка сопоставления для полей статуса заказа на продажу
-description: В этой теме объясняется, как настроить поля статуса заказа на продажу для двойной записи.
+title: Настройка сопоставления для столбцов статуса заказа на продажу
+description: В этой теме объясняется, как настроить столбцы статуса заказа на продажу для двойной записи.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4456597"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744307"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Настройка сопоставления для полей статуса заказа на продажу
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Настройка сопоставления для столбцов статуса заказа на продажу
 
 [!include [banner](../../includes/banner.md)]
 
-Поля, которые показывают статус заказа на продажу, имеют разные значения перечисления в Microsoft Dynamics 365 Supply Chain Management и Dynamics 365 Sales. Для сопоставления этих полей в двойной записи требуется дополнительная настройка.
+Столбцы, которые показывают статус заказа на продажу, имеют разные значения перечисления в Microsoft Dynamics 365 Supply Chain Management и Dynamics 365 Sales. Для сопоставления этих столбцов в двойной записи требуется дополнительная настройка.
 
-## <a name="fields-in-supply-chain-management"></a>Поля в Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>Столбцы в Supply Chain Management
 
-В Supply Chain Management два поля отражают статус заказа на продажу. Поля, которые необходимо сопоставить, это **Статус** и **Статус документа**.
+В Supply Chain Management два столбца отражают статус заказа на продажу. Столбцы, которые необходимо сопоставить, это **Статус** и **Статус документа**.
 
 Перечисление **Статус** определяет общий статус заказа. Этот статус отображается в заголовке заказа.
 
@@ -49,13 +49,13 @@ ms.locfileid: "4456597"
 Перечисление **Статус документа** имеет следующие значения:
 
 - Подтверждение
-- Лист подбора
+- Сборочный лист
 - Отборочная накладная
 - Счет-фактура
 
-## <a name="fields-in-sales"></a>Поля в Sales
+## <a name="columns-in-sales"></a>Столбцы в Sales
 
-В Sales два поля указывают статус заказа. Поля, которые необходимо сопоставить, это **Статус** и **Статус обработки**.
+В Sales два столбца указывают статус заказа. Столбцы, которые необходимо сопоставить, это **Статус** и **Статус обработки**.
 
 Перечисление **Статус** определяет общий статус заказа. Оно имеет следующие значения:
 
@@ -95,7 +95,7 @@ ms.locfileid: "4456597"
 
 ## <a name="setup"></a>Настройка
 
-Чтобы настроить сопоставление для полей статуса заказа на продажу, необходимо включить атрибуты **IsSOPIntegrationEnabled** и **isIntegrationUser**.
+Чтобы настроить сопоставление для столбцов статуса заказа на продажу, необходимо включить атрибуты **IsSOPIntegrationEnabled** и **isIntegrationUser**.
 
 Для включения атрибута **IsSOPIntegrationEnabled** выполните следующие шаги.
 
@@ -110,14 +110,14 @@ ms.locfileid: "4456597"
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ ms.locfileid: "4456597"
 
 Для включения атрибута **isIntegrationUser** выполните следующие шаги.
 
-1. В Sales перейдите в раздел **Параметр \> Настройка \> Настроить систему**, выберите пункт **Сущность пользователя** и откройте **Форма \> Пользователь**.
+1. В Sales перейдите в раздел **Параметр \> Настройка \> Настроить систему**, выберите пункт **Таблица пользователя** и откройте **Форма \> Пользователь**.
 
     ![Открытие формы пользователя](media/sales-map-user.png)
 
 2. В обозревателе полей найдите **Пользовательский режим интеграции** и дважды щелкните его, чтобы добавить в форму. Сохраните изменение.
 
-    ![Добавление поля пользовательского режима интеграции в форму](media/sales-map-field-explorer.png)
+    ![Добавление столбца пользовательского режима интеграции в форму](media/sales-map-field-explorer.png)
 
 3. В Sales перейдите к разделу **Параметр \> Безопасность \> Пользователи** и измените представление с **Разрешенные пользователи** на **Пользователи приложения**.
 
@@ -145,11 +145,8 @@ ms.locfileid: "4456597"
 
     ![Список пользователей приложения](media/sales-map-user-mode.png)
 
-5. Измените значение поля **Пользовательский режим интеграции** на **Да**.
+5. Измените значение столбца **Пользовательский режим интеграции** на **Да**.
 
-    ![Изменение значение поля пользовательского режима интеграции](media/sales-map-user-mode-yes.png)
+    ![Изменение значение столбца пользовательского режима интеграции](media/sales-map-user-mode-yes.png)
 
 Заказы на продажу теперь сопоставлены.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

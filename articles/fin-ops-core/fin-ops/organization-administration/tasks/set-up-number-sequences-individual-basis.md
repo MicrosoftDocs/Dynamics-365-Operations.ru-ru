@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694723"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796638"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Настройка номерных серий на индивидуальной основе
 
@@ -40,6 +40,3 @@ ms.locfileid: "4694723"
 8. Разверните раздел **Общее**. На экспресс-вкладке "Общее" указывается, является ли номерная серия неавтоматической, непрерывной или прерывной. Кроме того, необходимо указать самое маленькое и большое число, которое может использоваться в номерной серии. Не рекомендуется изменять не непрерывная номерная серия непрерывная к номерной серии. Номерная серия не будет поистине непрерывной. Это изменение также может привести к нарушениям дублированного ключа в базе данных. Кроме того, непрерывные номерные серии существенно сказываются на производительности.   
 9. Нажмите кнопку **Сохранить**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

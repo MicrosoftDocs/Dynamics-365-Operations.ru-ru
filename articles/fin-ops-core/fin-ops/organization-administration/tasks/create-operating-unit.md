@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694821"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796738"
 ---
 # <a name="create-an-operating-unit"></a>Создание операционной единицы
 
@@ -41,6 +41,3 @@ ms.locfileid: "4694821"
     + Введите сведения о способах связи, например адреса электронной почты, URL-адреса и номера телефона. Для ввода новой записи щелкните "Создать". Для изменения существующей записи щелкните **Дополнительные параметры > Дополнительно**.   
 6. При необходимости измените **Номер операционной единицы**. Обратите внимание на то, что этот номер является уникальным идентификатором для записи **Субъект** и не может совпадать с любой другой операционной единицей.
 7. Нажмите **Сохранить**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

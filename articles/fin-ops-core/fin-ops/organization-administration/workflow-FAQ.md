@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694064"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797399"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -59,6 +59,3 @@ ms.locfileid: "4694064"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Что такое функция улучшенной обработки ошибок рабочего процесса?
 Функция улучшенной обработки ошибок рабочего процесса в версии 10.0.13 добавляет коды ошибок для различения различных классов ошибок рабочих процессов. Отображаемые сообщения об ошибках будут в основном похожи с небольшими различиями, чтобы сделать их более понятными.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

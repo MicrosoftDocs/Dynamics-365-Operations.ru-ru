@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 41777436a624f9b98956553243056b92a00c1ed6
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b9bd15e73535f1d07b664ed659f9f15b3b0b7594
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693878"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797471"
 ---
 # <a name="manage-email-templates"></a>Управление шаблонами электронной почты
 
@@ -47,6 +47,3 @@ ms.locfileid: "4693878"
 8. Продолжайте вводить электронное сообщение, вставляя, где необходимо, поля закладок.
 9. Нажмите **Сохранить**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

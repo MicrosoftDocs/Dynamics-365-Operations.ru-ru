@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686083"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740816"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Список функций ER в категории преобразования типа
 
@@ -38,6 +38,14 @@ ms.locfileid: "4686083"
 | [IntValue](er-functions-conversion-intvalue.md)       | Эта функция возвращает значение *Int*, представляющее указанную строку. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Эта функция возвращает *вещественное* значение, преобразованное из указанного *строкового* значения. При преобразовании учитываются указанные десятичные разделители и разделители групп цифр. |
 | [Стоимость](er-functions-conversion-value.md)             | Эта функция возвращает *вещественное* значение, преобразованное из указанного *строкового* значения. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Функции преобразования типа в категории контейнеров
+
+В следующей таблице описаны функции преобразования типов в категории [контейнеров](er-functions-category-container.md).
+
+| Функция | описание |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Эта функция преобразует заданный ввод типа *Строка* в элемент данных типа *Контейнер*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Функции преобразования типа в категории даты и времени
 
@@ -79,6 +87,3 @@ ms.locfileid: "4686083"
 [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 
 [Язык формул электронной отчетности](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

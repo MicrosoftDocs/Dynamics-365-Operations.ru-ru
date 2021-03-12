@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694144"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798557"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -30,7 +30,7 @@ ms.locfileid: "4694144"
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Шаг 1. Попробуйте Finance and Operations бесплатно в течение 30 дней
 
-Вы можете попробовать Dynamics 365 for Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия приложений Finance and Operations включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Дополнительные сведения: [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Вы можете попробовать Dynamics 365 for Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия приложений Finance and Operations включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Сведения см. в разделе [Регистрация на подписки на предварительные версии](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Шаг 2: Выберите вариант развертывания
 
@@ -93,6 +93,3 @@ Microsoft FastTrack for Dynamics 365 — это служба успеха кли
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Обновление с Dynamics AX 2012 или миграция с AX 2009
 
 Если вы клиент, который выполняет обновление с Microsoft Dynamics AX 2012 или мигрирует с Microsoft Dynamics AX 2009, вы можете иметь право на более длительный период действия пробной версии. Для получения дополнительных сведений обратитесь по адресу <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

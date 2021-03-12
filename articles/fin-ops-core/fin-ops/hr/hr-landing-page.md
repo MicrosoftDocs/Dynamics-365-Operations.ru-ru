@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b2c23cda87060ecb129befcc67c5b54f2f062bb3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694947"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797825"
 ---
 # <a name="human-resources-overview"></a>Обзор управления персоналом
 
@@ -93,6 +93,3 @@ Microsoft Dynamics AX может помочь вам поддерживать б
 - [Разработка анкет](../../../talent/design-questionnaires.md)
 - [Распределение и планирование анкет](../../../talent/distribute-questionnaires.md)
 - [Просмотр и оценка результатов анкет](../../../talent/evaluate-questionnaire-results.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694084"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797104"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Настройка этапов утверждения в workflow-процессе
 
@@ -276,6 +276,3 @@ ms.locfileid: "4694084"
 
 5. Повторите шаги с 3 по 4 для каждого пользователя, которого следует добавить в маршрут эскалации. можно изменить порядок пользователей.
 6. Если пользователи, перечисленные в маршруте эскалации, не отвечают за отведенное время, система автоматически выполняет действие с документом. Чтобы указать действие, которое будет выполнять система, выберите строку **Действие** и на вкладке **Конечное действие** выберите действие.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

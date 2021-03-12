@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685571"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744621"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Устранение проблем с синхронизацией в режиме реального времени
 
@@ -46,11 +46,11 @@ ms.locfileid: "4685571"
 
 Чтобы устранить проблему, выполните шаги, указанные в разделе [Системные требования и предварительные условия](requirements-and-prerequisites.md). Для выполнения этих шагов пользователь с двойной записью, созданный в Dataverse, должен иметь роль администратора системы. Группа-владелец по умолчанию должна также иметь роль администратора системы.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Синхронизация в режиме реального времени для любого объекта постоянно создает аналогичную ошибку при создании строки в приложении Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Синхронизация в режиме реального времени для любой таблицы постоянно создает аналогичную ошибку при создании строки в приложении Finance and Operations
 
 **Роль, требуемая для исправления ошибки:** системный администратор
 
-При каждом попытке сохранить данные объекта в приложении Finance and Operations может появиться сообщение об ошибке, подобное следующему:
+При каждом попытке сохранить данные таблицы в приложении Finance and Operations может появиться сообщение об ошибке, подобное следующему:
 
 *Не удается сохранить изменения в базе данных. Единица работы не может зафиксировать проводку. Невозможно записать данные в единицы измерения объекта. Операции записи в UnitOfMeasureEntity заканчиваются сбоем с сообщением об ошибке "Не удается синхронизировать с единицами измерения объекта".*
 
@@ -58,8 +58,8 @@ ms.locfileid: "4685571"
 
 Если данные существуют на обеих сторонах, и вы убедились, что проблема не связана с данными, выполните следующие действия.
 
-1. Остановите связанный объект.
-2. Выполните вход в приложение Finance and Operations и убедитесь, что строки для объекта, в котором возникает ошибка, существуют в таблицах DualWriteProjectConfiguration и DualWriteProjectFieldConfiguration. Например, вот как выглядит запрос, если происходит сбой объекта **Клиенты**.
+1. Остановите связанную таблицу.
+2. Выполните вход в приложение Finance and Operations и убедитесь, что строки для таблицы, в которой возникает ошибка, существуют в таблицах DualWriteProjectConfiguration и DualWriteProjectFieldConfiguration. Например, вот как выглядит запрос, если происходит сбой таблицы **Клиенты**.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ ms.locfileid: "4685571"
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Если имеются строки для объекта, в котором возникает ошибка, даже после остановки сопоставления таблиц, удалите строки, относящиеся к объекту, в котором возникает ошибка. Запишите столбец **projectname** в таблице DualWriteProjectConfiguration и извлеките запись в таблице DualWriteProjectFieldConfiguration, используя это имя проекта, чтобы удалить строку.
+3. Если имеются строки для таблицы, в которой возникает ошибка, даже после остановки сопоставления таблиц, удалите строки, относящиеся к таблице, в которой возникает ошибка. Запишите столбец **projectname** в таблице DualWriteProjectConfiguration и извлеките строку в таблице DualWriteProjectFieldConfiguration, используя это имя проекта, чтобы удалить строку.
 4. Запустите сопоставление таблиц. Проверьте, были ли данные синхронизированы без каких-либо проблем.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Обработка ошибок привилегии чтения или записи при создании данных в приложении Finance and Operations
@@ -127,6 +127,3 @@ ms.locfileid: "4685571"
 
 3. Убедитесь, что столбец **externalenvironmentURL** имеет правильный URL-адрес Dataverse или приложения. Удалите все дубликаты строк, которые указывают на неправильный URL-адрес Dataverse. Удалите соответствующие строки в таблицах DUALWRITEPROJECTFIELDCONFIGURATION и DUALWRITEPROJECTCONFIGURATION.
 4. Остановите сопоставление таблиц, а затем перезапустите его
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

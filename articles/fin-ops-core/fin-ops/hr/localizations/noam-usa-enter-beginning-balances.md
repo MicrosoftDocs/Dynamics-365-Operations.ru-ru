@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693410"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797792"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Ввод начальных сальдо зарплат
 
@@ -166,6 +166,3 @@ ms.locfileid: "4693410"
 2. Щелкните **Да** при появлении сообщения "При сторнировании этой выписки по оплате будет создана сторнирующая выписка по оплате, корреспондирующая с данной выпиской. Ни одну из выписок по оплате нельзя будет изменить. Вы действительно хотите сторнировать эту выписку по оплате? . 
 
 После реверсирования выписки по оплате можно создать новую выписку по оплате для работника из выписке о доходах, созданной ранее. Не забудьте исправить все неправильные строки в выписке о доходах перед созданием новой выписки по оплате, а затем создайте новую выписку по оплате с правильными суммами. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

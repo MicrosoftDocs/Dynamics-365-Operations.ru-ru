@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685673"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744861"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Руководство по настройке двойной записи
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685673"
 Можно настроить подключение с двойной записью между средой Finance and Operations и средой Dataverse.
 
 + **Среда Finance and Operations** предоставляет основную платформу для **приложений Finance and Operations** (например, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce и Dynamics 365 Human Resources).
-+ **Среда Dataverse** предоставляет основную платформу для **приложений взаимодействия с клиентами** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing и Dynamics 365 Project Service Automation).
++ **Среда Dataverse** предоставляет основную платформу для **приложений для взаимодействия с клиентами** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing и Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > Модуль Human Resources в Dynamics 365 Finance поддерживает подключения с двойной записью, но приложение Dynamics 365 Human Resources не поддерживает.
@@ -138,6 +138,3 @@ ms.locfileid: "4685673"
 Пример см. в разделе [Включение сопоставления таблиц "Клиенты v3" — "Контакты"](enable-entity-map.md#enable-table-map)
 
 Для альтернативного подхода, основанного на томах данных в каждой сущности, требующих выполнения первоначальной синхронизации, см. в разделе [Рекомендации по первоначальной синхронизации](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

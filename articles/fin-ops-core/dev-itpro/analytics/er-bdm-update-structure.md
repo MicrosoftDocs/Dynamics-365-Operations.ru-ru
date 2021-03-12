@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681336"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728097"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Обновление структуры шаблона бизнес-документа 
 
@@ -56,7 +56,7 @@ ms.locfileid: "4681336"
 5. Выберите **ОК** для создания нового шаблона.
 
     > [!NOTE]
-    > Если вы еще не выполнили вход в Office Online, вы [переходите на страницу входа Office 365](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Чтобы вернуться в среду Finance, нажмите кнопку **Назад** в браузере.
+    > Если вы еще не выполнили вход в Office Online, вы [переходите на страницу входа Office 365](er-business-document-management.md#frequently-asked-questions). Чтобы вернуться в среду Finance, нажмите кнопку **Назад** в браузере.
 
     Новый шаблон открывается для редактирования во встроенном элементе управления Excel Online на странице редактора шаблонов.
 
@@ -106,6 +106,3 @@ ms.locfileid: "4681336"
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Обзор управления бизнес-документами](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
