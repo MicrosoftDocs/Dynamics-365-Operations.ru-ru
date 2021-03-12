@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 99abfa334def203e12fc03a0cdb782a445a6f411
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8df88ed08eb87232264563d8e0c163ec0362acdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408538"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997498"
 ---
 # <a name="register-fixed-assets-acquisitions-russia"></a>Регистрация приобретений основных средств (Россия)
 
@@ -105,6 +104,3 @@ ms.locfileid: "4408538"
 
     > [!NOTE]
     > Чтобы изменить статус на **Запланировано**, выполните реверсирующую проводку приобретения для всех моделей стоимости. Если актив, который был реверсирован, состоял из складских компонентов, создаются проводки для записи возврата компонентов в запасы. При реверсировании проводки приобретения себестоимость возвращаемых компонентов может отличаться от текущей складской себестоимости. Однако после закрытия запасов компоненты будут отражать текущее ценообразование.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

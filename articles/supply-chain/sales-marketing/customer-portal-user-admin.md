@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528301"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996784"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
@@ -39,11 +38,11 @@ ms.locfileid: "4528301"
 
 ## <a name="prerequisite-setup"></a>Необходимые условия настройки
 
-Контакты на порталах Power Apps хранятся в виде записей в объекте **Контакты** в Common Data Service. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
+Контакты на порталах Power Apps хранятся в виде записей в таблице **Контакты** в Microsoft Dataverse. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
 
 ![Диаграмма системы для контактов клиентского портала](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
 
-Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление объекта **Контакт** в двойной записи.
+Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление таблицы **Контакт** в двойной записи.
 
 ## <a name="the-invitation-process"></a>Процесс приглашения
 
@@ -58,15 +57,15 @@ ms.locfileid: "4528301"
 
 Дополнительные сведения см. в разделе [Настройка контакта для использования на портале](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) в документации по порталам Power Apps.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Готовые веб-роли и разрешения объектов
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Готовые веб-роли и разрешения таблиц
 
-Роли пользователей на порталах Power Apps определяются [веб-ролями](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [разрешениями объектов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
+Роли пользователей на порталах Power Apps определяются [веб-ролями](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [разрешениями таблиц](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
 
 ### <a name="out-of-box-web-roles"></a>Готовые веб-роли
 
 В этом разделе описываются веб-роли, обеспечиваемые с помощью клиентского портала.
 
-Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений объектов для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
+Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений таблиц для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
 
 #### <a name="administrator"></a>Администратор
 
@@ -96,6 +95,3 @@ ms.locfileid: "4528301"
 
 > [!NOTE]
 > Даже если Sam и Jane являются контактами, работающими у клиента X, они могут видеть только те заказы, которые разместили они, и ничего другого. Хотя у May в системе может быть заказ, она не видит этот заказ на клиентском портале, поскольку она является неавторизованным пользователем. (Кроме того, ей необходимо разместить заказ через другой канал, отличный от клиентского портала.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

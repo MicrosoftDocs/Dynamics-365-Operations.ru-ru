@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba7daab36d82fa33f2d1c61f89b82381c180d5e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b57f7dd4ebd329b1858260fd405e50df4039ff8a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408532"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997483"
 ---
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]
@@ -111,6 +110,3 @@ ms.locfileid: "4408532"
 18. Выберите **Баланс**, чтобы открыть страницу **Сальдо по ОС**. Сведения отображаются в полях **Вывод (продажа)** и **Прибыль / Убыток**.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

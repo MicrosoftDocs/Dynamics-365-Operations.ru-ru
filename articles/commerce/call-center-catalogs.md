@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4415385"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997808"
 ---
 # <a name="call-center-catalogs"></a>Каталоги центра обработки вызовов
 
@@ -101,6 +100,3 @@ ms.locfileid: "4415385"
 ## <a name="additional-notes"></a>Дополнительные примечания
 
 В настоящее время при применении кода источника идентификатора к заказу на продажу в центре обработки вызовов обычно применяются цены, продвижение, сценарии и расширение продаж/перекрестные продажи, ориентированные на каталог. Система не будет запрещать или препятствовать размещать заказы на продажу продукта, который отсутствует в каталоге. Если осуществляется заказ номенклатуры, которая не является частью каталога, система будет использовать сначала **Ценовая группа**, которая определена на канале центра обработки вызовов (**Retail и Commerce** \> **Каналы** \> **Центры обработки вызовов** \> **Все центры обработки вызовов**), для получения цены номенклатуры или в поиске ее продвижения. Если цена конкретного канала не обнаружена, будет использоваться базовая отпускная цена номенклатуры.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

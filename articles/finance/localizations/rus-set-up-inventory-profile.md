@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8facb3c0b67a421b7176e9397991460b4858c770
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62ea28da11cd3480f501ae6ba1e9767ad97a4b48
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997471"
 ---
 # <a name="set-up-an-inventory-profile"></a>Настройка профиля учета 
 [!include [banner](../includes/banner.md)]
@@ -322,6 +321,3 @@ ms.locfileid: "4408528"
 
 - [Обзор профиля учета](rus-inventory-profile-overview.md)
 - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

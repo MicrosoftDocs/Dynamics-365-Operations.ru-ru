@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436448"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998386"
 ---
 # <a name="wave-template-grouping"></a>Группировка шаблонов волны
 
@@ -201,6 +200,3 @@ ms.locfileid: "4436448"
 1. Выберите код волны, созданной из третьего заказа на продажу.
 1. Выберите ссылку кода волны, чтобы открыть страницу сведений о волне.
 1. Обратите внимание, что отгрузка была добавлена на экспресс-вкладку **Строки волны** вместе с отгрузкой по первому заказу на продажу.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

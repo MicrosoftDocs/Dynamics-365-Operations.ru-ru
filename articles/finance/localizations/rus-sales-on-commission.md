@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3098f6468d7c55a160dc059ecad248035e3fddc0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 0f1dc903a2dad81118b2b621d5311bcd3b43ef7e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4408601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997477"
 ---
 # <a name="sales-on-commission"></a>Продажи по комиссии
 [!include [banner](../includes/banner.md)]
@@ -246,6 +245,3 @@ ms.locfileid: "4408601"
 
 - [Проводки через посредников](rus-transactions-through-intermediary.md) 
 - [Покупки по комиссии](rus-purchases-on-commission.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

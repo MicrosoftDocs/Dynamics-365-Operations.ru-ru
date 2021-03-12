@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1941efb5f6da9a94e8829e1d8071d2a9843170c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2326f4cfbf53f0ccadc7652d1c82d2de2271edcb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997501"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]
@@ -249,8 +248,5 @@ ms.locfileid: "4408539"
 
 Более подробную информацию см. в следующих разделах:
 
-- [Проводки через посредников](rus-transactions-through-intermediary.md) 
+- [Проводки через посредников](rus-transactions-through-intermediary.md) 
 - [Продажи по комиссии](rus-sales-on-commission.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

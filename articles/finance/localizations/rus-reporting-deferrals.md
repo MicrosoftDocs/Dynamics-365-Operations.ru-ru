@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 40c6d8fd05dd20de95980c8bd131ad464129f6d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d5a00180bc05334186df9e674cf03c0dbe762f5c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408536"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997492"
 ---
 # <a name="reporting-for-deferrals-russia"></a>Отчетность по РБП (Россия)
 
@@ -85,6 +84,3 @@ ms.locfileid: "4408536"
     | Дата начала (на экспресс-вкладке **Включаемые записи**)      | Дата начала периода, для которого создается отчет. |
     | Группа РБП (на экспресс-вкладке **Включаемые записи**) | Идентификационный код группы РБП, для которой в отчет включены коэффициенты РБП. |
     | Код расхода (на экспресс-вкладке **Включаемые записи**)    | Код расходов коэффициентов РБП, включенных в отчет. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

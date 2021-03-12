@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2479bfc79169012d9e97ede4884f037a41734022
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0739205ad3cdcfec5afbb8c7ff98a914dcf7f15d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997474"
 ---
 # <a name="set-up-deferrals-russia"></a>Настройка расходов будущих периодов (Россия)
 
@@ -492,6 +491,3 @@ ms.locfileid: "4408530"
     | Копировать РБП    | Создайте расход будущего периода, идентичный выбранному расходу будущего периода.           |
     | Модели учета расходов будущих периодов | Определите модели расходов будущих периодов для выбранного расхода будущего периода.                      |
     | Источник           | Просмотр источника, из которого создается ваучер регистрации расхода будущего периода. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

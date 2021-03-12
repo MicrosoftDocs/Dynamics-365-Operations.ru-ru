@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 4e870b15b20dccc7fc6ca984b5007f47bf5c06f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e07aa8d040df2d563f6411e600b0138b6279d74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408535"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997489"
 ---
 # <a name="revision-factures-and-corrective-factures"></a>Пересмотр счетов-фактур и корректирующие счета-фактуры
 
@@ -253,6 +252,3 @@ ms.locfileid: "4408535"
 
     Выберите **Печать** \> **Копия**, чтобы распечатать исходный счет-фактуру.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

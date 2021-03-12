@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8c2288a18398f71a75dad6e51d51ba4b09561e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415229"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997683"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Отгрузка заказов из другого магазина с помощью функции отправки накладных расходов
 
@@ -42,6 +41,3 @@ ms.locfileid: "4415229"
 Возможность выбора адреса "доставки" остается неизменной.
 
 Методы доставки, которые можно использовать для выполнения строки заказа, основаны на конфигурации допустимых способов доставки продуктов и адресов. Поскольку правила в отношении допустимых способов доставки поддерживаются только в центральном офисе (HQ), клиент POS-терминала выполняет вызов в режиме реального времени для выборки допустимых способов доставки для строки отгрузки.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
