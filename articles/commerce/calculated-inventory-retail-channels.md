@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995828"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Расчет доступности запасов для каналов розничной торговли
 
@@ -114,6 +113,3 @@ ms.locfileid: "4415225"
 > Для повышения производительности при использовании расчета наличия запасов на стороне канала для создания запроса доступности запасов с помощью API-интерфейса электронной коммерции или новой логики запасов канала POS в расчете используется кэш, чтобы определить, прошло ли достаточно времени, чтобы оправдать повторное выполнение логики расчета. В качестве значения кэша по умолчанию задано 60. Например, вы включили расчет на стороне канала для магазина и просмотрели запасы в наличии для продукта на странице **Поиск запасов**. Если одна единица продукта будет продана, на странице **Поиск запасов** не будет отображаться сокращенный запас до тех пор, пока не будет очищен кэш. После разноски проводок пользователями в POS, они должны подождать 60 секунд, прежде чем убедиться в том, что запасы в наличии были сокращены.
 
 Если бизнес-сценарий требует меньшее время кэширования, обратитесь за помощью к представителю службы поддержки продукта.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

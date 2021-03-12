@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644929"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995098"
 ---
 # <a name="finance-insights-home-page-preview"></a>Домашняя страница финансового анализа (предварительная версия)
 
@@ -67,7 +66,7 @@ ms.locfileid: "4644929"
 - Администратор клиента Active Directory должен авторизовать приложение AI Builder для доступа к Data Lake.
 - Функция будет включена в Dynamics 365.
 
-Знакомство с процессом создания и управления ресурсами в Azure, Common Data Service и LCS будет полезным при выполнении этого процесса.
+Знакомство с процессом создания и управления ресурсами в Azure, Microsoft Dataverse и LCS будет полезным при выполнении этого процесса.
 
 ## <a name="configure-finance-insights"></a>Настройка финансового анализа
 
@@ -130,6 +129,3 @@ ms.locfileid: "4644929"
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 
 Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

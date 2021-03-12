@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415216"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993736"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Включение и настройка автоматических накладных расходов по каналам
 
@@ -77,7 +76,7 @@ ms.locfileid: "4415216"
 
 Чтобы определить автоматические накладные расходы по каналам в модуле Commerce, выполните следующие действия.
 
-1. Перейдите в раздел **Расчеты с клиентами \> Настройка накладных расходов \> Автоматические затраты**.
+1. Перейдите в раздел **Расчеты с клиентами \> Настройка накладных расходов \> Автоматические затраты**.
 1. В левой области в поле **Уровень** выберите **Заголовок** или **Строка**, в зависимости от бизнес-требований.
 1. В поле **Код канала розничной торговли** выберите соответствующий код канала (например, **Таблица** или **Группа**). Если используется настройка по умолчанию **Все**, правила накладных расходов применяются ко всем каналам.
 
@@ -128,6 +127,3 @@ ms.locfileid: "4415216"
 [Омниканальные расширенные автоматические накладные расходы](omni-auto-charges.md)
 
 [Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

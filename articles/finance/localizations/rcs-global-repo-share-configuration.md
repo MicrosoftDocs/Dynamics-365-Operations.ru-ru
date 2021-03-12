@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447262"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994322"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Совместно использовать конфигурацию электронной отчетности (ER) в глобальном репозитории Regulatory Configuration Service (RCS) с внешними организациями.
 
@@ -50,7 +49,7 @@ ms.locfileid: "4447262"
 
 1. В рабочей области **электронной отчетности** выберите **репозитории** для поставщика конфигурации.
 
-    ![Поставщики конфигурации](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Поставщики конфигурации](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Выберите **Глобальный репозиторий** \> **Открыть**.
 3. Выполните поиск конфигурацию, к которой необходимо предоставить общий доступ. Чтобы уточнить поиск, можно использовать поля фильтра. Если не удается найти конфигурацию в глобальном репозитории, выполните шаги в [Создание и загрузка новой версии электронной отчетности (ER)](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ ms.locfileid: "4447262"
 3. Выберите конфигурацию, к которой необходимо предоставить общий доступ.
 4. На экспресс-вкладке **совместно с** выберите **организация**.
 
-    ![Экспресс-вкладка "совместно с"](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Экспресс-вкладка "совместно с"](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. В диалоговом окне введите имя домена для внешней организации, а затем нажмите кнопку **ОК**.
 
-    ![Диалоговое окно Поделиться версией конфигурации с внешней организацией](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Диалоговое окно Поделиться версией конфигурации с внешней организацией](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Конфигурация используется совместно с внешней организацией и доступна для данной организации в глобальном репозитории. Здесь можно импортировать ее в экземпляр RCS организации или в экземпляры приложений Finance and Operations.
 
-![Конфигурация используется совместно с внешней организацией](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Чтобы отменить общий доступ к конфигурации, который ранее был предоставлен для внешней организации, выберите конфигурацию и щелкните **Отмена общего доступа**, а затем нажмите кнопку **OK**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

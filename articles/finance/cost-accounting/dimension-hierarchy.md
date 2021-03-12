@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447119"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995198"
 ---
 # <a name="dimension-hierarchy"></a>Иерархия аналитик
 
@@ -333,6 +332,3 @@ ms.locfileid: "4447119"
 > [!NOTE] 
 > - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Иерархия списков доступа не позволяет защитить экспорт данных в Excel. Таким образом, средства отчетности должны использоваться только бухгалтерами и менеджерами, которые должны иметь полный доступ для просмотра данных.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e429fef6101f611d7a2c1b5323d6fe1e39d1cdd3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457e7128bed2232a3e092b31136f768940482741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436005"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994187"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Бережливая фиксация из заказов на продажу
 
@@ -57,6 +56,3 @@ ms.locfileid: "4436005"
 5. В дереве выберите "Строка продаж 000832\Канбан 000558\Расход для L0001\Канбан 000559".
     * Задание для второго канбана также запланировано, поскольку запланировано все дерево информации об источниках потребности. Обратите внимание, что статус задания канбана изменился с "Не запланировано" на "Запланировано".  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
