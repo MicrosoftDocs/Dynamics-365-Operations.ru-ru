@@ -11,104 +11,103 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, InventTransRegister
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42ca1d4d2d9b45d79cf479833f83e498e3b73540
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b46801ee150d1cf25d8f4c6ea9aaa8011e1cbd38
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435781"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006624"
 ---
-# <a name="register-the-receipt-of-returned-items"></a><span data-ttu-id="65323-103">Регистрация прихода возврата</span><span class="sxs-lookup"><span data-stu-id="65323-103">Register the receipt of returned items</span></span> 
+# <a name="register-the-receipt-of-returned-items"></a><span data-ttu-id="b4978-103">Регистрация прихода возврата</span><span class="sxs-lookup"><span data-stu-id="b4978-103">Register the receipt of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="65323-104">Имеется два метода регистрации поступления возвращенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="65323-104">There are two methods for registering the receipt of returned items.</span></span> <span data-ttu-id="65323-105">Первый метод — это процесс приемки на склад, в котором используется форма **Обзор прибытия**.</span><span class="sxs-lookup"><span data-stu-id="65323-105">The first method is a warehouse receiving process that uses the **Arrival overview** form.</span></span> <span data-ttu-id="65323-106">Во втором методе используется форма **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="65323-106">The second uses the **Registration** form.</span></span>
+<span data-ttu-id="b4978-104">Имеется два метода регистрации поступления возвращенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="b4978-104">There are two methods for registering the receipt of returned items.</span></span> <span data-ttu-id="b4978-105">Первый метод — это процесс приемки на склад, в котором используется форма **Обзор прибытия**.</span><span class="sxs-lookup"><span data-stu-id="b4978-105">The first method is a warehouse receiving process that uses the **Arrival overview** form.</span></span> <span data-ttu-id="b4978-106">Во втором методе используется форма **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="b4978-106">The second uses the **Registration** form.</span></span>
 
-## <a name="register-the-receipt-of-returned-items-in-the-arrival-overview-form"></a><span data-ttu-id="65323-107">Регистрация прихода возвращенных номенклатур на форме "Обзор прибытия"</span><span class="sxs-lookup"><span data-stu-id="65323-107">Register the receipt of returned items in the Arrival overview form</span></span>
+## <a name="register-the-receipt-of-returned-items-in-the-arrival-overview-form"></a><span data-ttu-id="b4978-107">Регистрация прихода возвращенных номенклатур на форме "Обзор прибытия"</span><span class="sxs-lookup"><span data-stu-id="b4978-107">Register the receipt of returned items in the Arrival overview form</span></span>
 
-<span data-ttu-id="65323-108">Форма **Обзор прибытия** может использоваться для идентификации возврата поставки по ее номеру разрешения на возврат материалов.</span><span class="sxs-lookup"><span data-stu-id="65323-108">You can use the **Arrival overview** form to identify a return shipment by its Return Material Authorization (RMA) number.</span></span> <span data-ttu-id="65323-109">Если на вкладке **Настройка** определено имя журнала и существуют строки журнала, соответствующие строкам, выбранным в форме **Обзор прибытия**, то по щелчку **Начать прибытие** создается новый заголовок журнала.</span><span class="sxs-lookup"><span data-stu-id="65323-109">If a journal name is defined on the **Setup** tab, and journal lines that correspond to the lines selected on the **Arrival overview** form exist, a new journal header is created when you click **Start arrival**.</span></span>
+<span data-ttu-id="b4978-108">Форма **Обзор прибытия** может использоваться для идентификации возврата поставки по ее номеру разрешения на возврат материалов.</span><span class="sxs-lookup"><span data-stu-id="b4978-108">You can use the **Arrival overview** form to identify a return shipment by its Return Material Authorization (RMA) number.</span></span> <span data-ttu-id="b4978-109">Если на вкладке **Настройка** определено имя журнала и существуют строки журнала, соответствующие строкам, выбранным в форме **Обзор прибытия**, то по щелчку **Начать прибытие** создается новый заголовок журнала.</span><span class="sxs-lookup"><span data-stu-id="b4978-109">If a journal name is defined on the **Setup** tab, and journal lines that correspond to the lines selected on the **Arrival overview** form exist, a new journal header is created when you click **Start arrival**.</span></span>
 
-1.  <span data-ttu-id="65323-110">Щелкните **Управление запасами** \> **Периодические операции** \> **Обзор прибытия**.</span><span class="sxs-lookup"><span data-stu-id="65323-110">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
+1.  <span data-ttu-id="b4978-110">Щелкните **Управление запасами** \> **Периодические операции** \> **Обзор прибытия**.</span><span class="sxs-lookup"><span data-stu-id="b4978-110">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
 
-2.  <span data-ttu-id="65323-111">В поле **Имя настройки** выберите **Заказ на возврат**, а затем щелкните **Обновить**.</span><span class="sxs-lookup"><span data-stu-id="65323-111">In the **Setup name** field, select **Return order**, and then click **Update**.</span></span>
+2.  <span data-ttu-id="b4978-111">В поле **Имя настройки** выберите **Заказ на возврат**, а затем щелкните **Обновить**.</span><span class="sxs-lookup"><span data-stu-id="b4978-111">In the **Setup name** field, select **Return order**, and then click **Update**.</span></span>
     
 
     > [!TIP]
-    > <P><span data-ttu-id="65323-112">Чтобы сузить диапазон результатов поиска, можно использовать поля <STRONG>Диапазон</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="65323-112">You can use the <STRONG>Range</STRONG> fields to narrow the search results.</span></span> <span data-ttu-id="65323-113">Можно ввести или выбрать RMA-номер в поле <STRONG>RMA-номер</STRONG>, чтобы получить точный результат.</span><span class="sxs-lookup"><span data-stu-id="65323-113">You can type or select the RMA number in the <STRONG>RMA number</STRONG> field for an exact result.</span></span> <span data-ttu-id="65323-114">Чтобы определить и сохранить набор фильтров, ограничивающих входящие прибытия, которые будут отображаться на экране, откройте вкладку <STRONG>Настройка</STRONG>. Доступные фильтры включают типы, склады и доки.</span><span class="sxs-lookup"><span data-stu-id="65323-114">To define and save a set of filters that will restrict which incoming arrivals are displayed, click the <STRONG>Setup</STRONG> tab. The available filters include types, warehouses, and docks.</span></span></P>
+    > <P><span data-ttu-id="b4978-112">Чтобы сузить диапазон результатов поиска, можно использовать поля <STRONG>Диапазон</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b4978-112">You can use the <STRONG>Range</STRONG> fields to narrow the search results.</span></span> <span data-ttu-id="b4978-113">Можно ввести или выбрать RMA-номер в поле <STRONG>RMA-номер</STRONG>, чтобы получить точный результат.</span><span class="sxs-lookup"><span data-stu-id="b4978-113">You can type or select the RMA number in the <STRONG>RMA number</STRONG> field for an exact result.</span></span> <span data-ttu-id="b4978-114">Чтобы определить и сохранить набор фильтров, ограничивающих входящие прибытия, которые будут отображаться на экране, откройте вкладку <STRONG>Настройка</STRONG>. Доступные фильтры включают типы, склады и доки.</span><span class="sxs-lookup"><span data-stu-id="b4978-114">To define and save a set of filters that will restrict which incoming arrivals are displayed, click the <STRONG>Setup</STRONG> tab. The available filters include types, warehouses, and docks.</span></span></P>
 
     
 
     > [!WARNING]
-    > <P><span data-ttu-id="65323-115">В форме <STRONG>Обзор прибытия</STRONG> заказы на возврат не могут смешиваться с другими типами прибытий.</span><span class="sxs-lookup"><span data-stu-id="65323-115">Return orders cannot be mixed with other arrival types in the <STRONG>Arrival overview</STRONG> form.</span></span> <span data-ttu-id="65323-116">Поэтому ссылкой всегда является заказ на продажу, но никакой идентификатор заказа на продажу не указывается в заголовке журнала.</span><span class="sxs-lookup"><span data-stu-id="65323-116">Therefore, the reference will always be sales order, but no sales order ID will be specified on the journal header.</span></span></P>
+    > <P><span data-ttu-id="b4978-115">В форме <STRONG>Обзор прибытия</STRONG> заказы на возврат не могут смешиваться с другими типами прибытий.</span><span class="sxs-lookup"><span data-stu-id="b4978-115">Return orders cannot be mixed with other arrival types in the <STRONG>Arrival overview</STRONG> form.</span></span> <span data-ttu-id="b4978-116">Поэтому ссылкой всегда является заказ на продажу, но никакой идентификатор заказа на продажу не указывается в заголовке журнала.</span><span class="sxs-lookup"><span data-stu-id="b4978-116">Therefore, the reference will always be sales order, but no sales order ID will be specified on the journal header.</span></span></P>
 
 
 
-3.  <span data-ttu-id="65323-117">В сетке **Поступления** найдите строку, которая соответствует возвращаемой номенклатуре, а затем установите флажок в столбце **Выбрать для прибытия**.</span><span class="sxs-lookup"><span data-stu-id="65323-117">In the **Receipts** grid, locate the line that matches the item being returned, and then select the check box in the **Select for arrival** column.</span></span>
+3.  <span data-ttu-id="b4978-117">В сетке **Поступления** найдите строку, которая соответствует возвращаемой номенклатуре, а затем установите флажок в столбце **Выбрать для прибытия**.</span><span class="sxs-lookup"><span data-stu-id="b4978-117">In the **Receipts** grid, locate the line that matches the item being returned, and then select the check box in the **Select for arrival** column.</span></span>
 
-4.  <span data-ttu-id="65323-118">Чтобы исключить определенные строки из прихода возврата, например номенклатуры из исходного заказа, которые не были включены в отгрузку возврата, снимите связанные флажки **Выбрать для прибытия** в таблице **Строки** в нижней части формы.</span><span class="sxs-lookup"><span data-stu-id="65323-118">To exclude certain lines from the return receipt, such as items from the original order that were not included in the return shipment, clear the associated **Select for arrival** check boxes in the **Lines** table in the lower part of the form.</span></span>
+4.  <span data-ttu-id="b4978-118">Чтобы исключить определенные строки из прихода возврата, например номенклатуры из исходного заказа, которые не были включены в отгрузку возврата, снимите связанные флажки **Выбрать для прибытия** в таблице **Строки** в нижней части формы.</span><span class="sxs-lookup"><span data-stu-id="b4978-118">To exclude certain lines from the return receipt, such as items from the original order that were not included in the return shipment, clear the associated **Select for arrival** check boxes in the **Lines** table in the lower part of the form.</span></span>
 
-5.  <span data-ttu-id="65323-119">Нажмите кнопку **Начать прибытие**, чтобы создать журнал прибытий.</span><span class="sxs-lookup"><span data-stu-id="65323-119">Click the **Start arrival** button to create an arrival journal.</span></span>
+5.  <span data-ttu-id="b4978-119">Нажмите кнопку **Начать прибытие**, чтобы создать журнал прибытий.</span><span class="sxs-lookup"><span data-stu-id="b4978-119">Click the **Start arrival** button to create an arrival journal.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="65323-120">Можно выбрать несколько заказов на возврат и включить их все в один процесс прибытия.</span><span class="sxs-lookup"><span data-stu-id="65323-120">You can select multiple return orders and include them all in a single arrival process.</span></span> <span data-ttu-id="65323-121">Каждая строка заказа на возврат будет скопирована в соответствующую строку журнала прибытия номенклатур.</span><span class="sxs-lookup"><span data-stu-id="65323-121">Each return order line will be copied into a corresponding item arrival journal line.</span></span></P>
+    > <P><span data-ttu-id="b4978-120">Можно выбрать несколько заказов на возврат и включить их все в один процесс прибытия.</span><span class="sxs-lookup"><span data-stu-id="b4978-120">You can select multiple return orders and include them all in a single arrival process.</span></span> <span data-ttu-id="b4978-121">Каждая строка заказа на возврат будет скопирована в соответствующую строку журнала прибытия номенклатур.</span><span class="sxs-lookup"><span data-stu-id="b4978-121">Each return order line will be copied into a corresponding item arrival journal line.</span></span></P>
 
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="65323-122">Журнал прибытий можно также создать вручную, пользуясь формой <STRONG>Прибытие номенклатуры</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="65323-122">You can also manually create an arrival journal by using the <STRONG>Item arrival</STRONG> form.</span></span> 
+    > <P><span data-ttu-id="b4978-122">Журнал прибытий можно также создать вручную, пользуясь формой <STRONG>Прибытие номенклатуры</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="b4978-122">You can also manually create an arrival journal by using the <STRONG>Item arrival</STRONG> form.</span></span> 
 
 
 
-6.  <span data-ttu-id="65323-123">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Прибытие номенклатуры**.</span><span class="sxs-lookup"><span data-stu-id="65323-123">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
+6.  <span data-ttu-id="b4978-123">Щелкните **Управление запасами** \> **Журналы** \> **Прибытие номенклатуры** \> **Прибытие номенклатуры**.</span><span class="sxs-lookup"><span data-stu-id="b4978-123">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
 
-7.  <span data-ttu-id="65323-124">Выберите журнал прибытий, который только что создали, а затем щелкните **Строки**, чтобы открыть форму **Строки журнала, местоположения**.</span><span class="sxs-lookup"><span data-stu-id="65323-124">Select the arrival journal that you just created and then click **Lines** to open the **Journal lines, locations** form.</span></span>
+7.  <span data-ttu-id="b4978-124">Выберите журнал прибытий, который только что создали, а затем щелкните **Строки**, чтобы открыть форму **Строки журнала, местоположения**.</span><span class="sxs-lookup"><span data-stu-id="b4978-124">Select the arrival journal that you just created and then click **Lines** to open the **Journal lines, locations** form.</span></span>
 
-8.  <span data-ttu-id="65323-125">На вкладке **Общие** измените число в поле **Количество**, если это необходимо, а затем назначьте код расстановки в поле **Код расстановки**.</span><span class="sxs-lookup"><span data-stu-id="65323-125">On the **General** tab, adjust the number in the **Quantity** field, if it is required, and then assign a disposition code in the **Disposition code** field.</span></span>
+8.  <span data-ttu-id="b4978-125">На вкладке **Общие** измените число в поле **Количество**, если это необходимо, а затем назначьте код расстановки в поле **Код расстановки**.</span><span class="sxs-lookup"><span data-stu-id="b4978-125">On the **General** tab, adjust the number in the **Quantity** field, if it is required, and then assign a disposition code in the **Disposition code** field.</span></span>
     
-    <span data-ttu-id="65323-126">Либо можно установить флажок **Управление карантином**, чтобы возвращенные номенклатуры отправлялись через процесс проверки в контексте карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="65323-126">Alternatively, you can select the **Quarantine management** check box to have the returned items sent through an inspection process in the context of a quarantine order.</span></span>
-    
-
-    > [!NOTE]
-    > <P><span data-ttu-id="65323-127">При отправке возвращенных номенклатур через карантин невозможно указать код расстановки.</span><span class="sxs-lookup"><span data-stu-id="65323-127">If you send the returned items through quarantine, you cannot specify a disposition code.</span></span></P>
-
-
-
-9.  <span data-ttu-id="65323-128">Нажмите кнопку **Проверить**.</span><span class="sxs-lookup"><span data-stu-id="65323-128">Click the **Validate** button.</span></span>
-
-10. <span data-ttu-id="65323-129">Если ошибок в процессе проверки нет, нажмите кнопку **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="65323-129">If there are no errors in the validation process, click **Post**.</span></span>
-
-## <a name="register-the-receipt-of-returned-items-in-the-registration-form"></a><span data-ttu-id="65323-130">Регистрация прихода возвращенных номенклатур на форме "Регистрация"</span><span class="sxs-lookup"><span data-stu-id="65323-130">Register the receipt of returned items in the Registration form</span></span>
-
-<span data-ttu-id="65323-131">Для регистрации прибытия возвращенных номенклатур вместо формы **Обзор прибытия** можно использовать форму **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="65323-131">As an alternative to using the **Arrival overview** form, you can use the **Registration** form to register the arrival of returned items.</span></span>
-
-1.  <span data-ttu-id="65323-132">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Все заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="65323-132">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span> <span data-ttu-id="65323-133">Создайте новый заказ на возврат или откройте заказ на возврат из списка.</span><span class="sxs-lookup"><span data-stu-id="65323-133">Create a new return order or open the return order from the list.</span></span> <span data-ttu-id="65323-134">На экспресс-вкладке **Строки** выберите строку заказа на возврат.</span><span class="sxs-lookup"><span data-stu-id="65323-134">On the **Lines** FastTab, select the return order line.</span></span> <span data-ttu-id="65323-135">Щелкните **Обновить строку**, а затем щелкните **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="65323-135">Click **Update line**, and then click **Registration**.</span></span>
-
-2.  <span data-ttu-id="65323-136">Назначьте код расстановки в поле **Код расстановки**, а затем щелкните **OK**.</span><span class="sxs-lookup"><span data-stu-id="65323-136">Assign a disposition code in the **Disposition code** field, and then click **OK**.</span></span>
+    <span data-ttu-id="b4978-126">Либо можно установить флажок **Управление карантином**, чтобы возвращенные номенклатуры отправлялись через процесс проверки в контексте карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="b4978-126">Alternatively, you can select the **Quarantine management** check box to have the returned items sent through an inspection process in the context of a quarantine order.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="65323-137">С помощью формы <STRONG>Регистрация</STRONG> невозможно отправить номенклатуру на проверку в качестве карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="65323-137">It is not possible to send the item for inspection as a quarantine order using the <STRONG>Registration</STRONG> form.</span></span></P>
+    > <P><span data-ttu-id="b4978-127">При отправке возвращенных номенклатур через карантин невозможно указать код расстановки.</span><span class="sxs-lookup"><span data-stu-id="b4978-127">If you send the returned items through quarantine, you cannot specify a disposition code.</span></span></P>
 
 
 
-3.  <span data-ttu-id="65323-138">В сетке **Проводки** выберите проводку, которую необходимо зарегистрировать.</span><span class="sxs-lookup"><span data-stu-id="65323-138">In the **Transactions** grid, select the transaction to be registered.</span></span>
+9.  <span data-ttu-id="b4978-128">Нажмите кнопку **Проверить**.</span><span class="sxs-lookup"><span data-stu-id="b4978-128">Click the **Validate** button.</span></span>
 
-4.  <span data-ttu-id="65323-139">В сетке **К регистрации сейчас** щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="65323-139">In the **Register now** grid, click **Add**.</span></span> <span data-ttu-id="65323-140">Повторяйте предыдущие два шага до тех пор, пока все возвращенные номенклатуры не появятся в сетке **К регистрации сейчас**.</span><span class="sxs-lookup"><span data-stu-id="65323-140">Repeat the previous two steps until all of the returned items appear in the **Register now** grid.</span></span>
+10. <span data-ttu-id="b4978-129">Если ошибок в процессе проверки нет, нажмите кнопку **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="b4978-129">If there are no errors in the validation process, click **Post**.</span></span>
 
-5.  <span data-ttu-id="65323-141">Щелкните **Разнести все**.</span><span class="sxs-lookup"><span data-stu-id="65323-141">Click **Post all**.</span></span>
+## <a name="register-the-receipt-of-returned-items-in-the-registration-form"></a><span data-ttu-id="b4978-130">Регистрация прихода возвращенных номенклатур на форме "Регистрация"</span><span class="sxs-lookup"><span data-stu-id="b4978-130">Register the receipt of returned items in the Registration form</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="65323-142">См. также</span><span class="sxs-lookup"><span data-stu-id="65323-142">See also</span></span>
+<span data-ttu-id="b4978-131">Для регистрации прибытия возвращенных номенклатур вместо формы **Обзор прибытия** можно использовать форму **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="b4978-131">As an alternative to using the **Arrival overview** form, you can use the **Registration** form to register the arrival of returned items.</span></span>
 
-<span data-ttu-id="65323-143">[Обзор поступлений (форма)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="65323-143">[Arrival overview (form)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span></span>
+1.  <span data-ttu-id="b4978-132">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Все заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="b4978-132">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span> <span data-ttu-id="b4978-133">Создайте новый заказ на возврат или откройте заказ на возврат из списка.</span><span class="sxs-lookup"><span data-stu-id="b4978-133">Create a new return order or open the return order from the list.</span></span> <span data-ttu-id="b4978-134">На экспресс-вкладке **Строки** выберите строку заказа на возврат.</span><span class="sxs-lookup"><span data-stu-id="b4978-134">On the **Lines** FastTab, select the return order line.</span></span> <span data-ttu-id="b4978-135">Щелкните **Обновить строку**, а затем щелкните **Регистрация**.</span><span class="sxs-lookup"><span data-stu-id="b4978-135">Click **Update line**, and then click **Registration**.</span></span>
+
+2.  <span data-ttu-id="b4978-136">Назначьте код расстановки в поле **Код расстановки**, а затем щелкните **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4978-136">Assign a disposition code in the **Disposition code** field, and then click **OK**.</span></span>
+    
+
+    > [!NOTE]
+    > <P><span data-ttu-id="b4978-137">С помощью формы <STRONG>Регистрация</STRONG> невозможно отправить номенклатуру на проверку в качестве карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="b4978-137">It is not possible to send the item for inspection as a quarantine order using the <STRONG>Registration</STRONG> form.</span></span></P>
+
+
+
+3.  <span data-ttu-id="b4978-138">В сетке **Проводки** выберите проводку, которую необходимо зарегистрировать.</span><span class="sxs-lookup"><span data-stu-id="b4978-138">In the **Transactions** grid, select the transaction to be registered.</span></span>
+
+4.  <span data-ttu-id="b4978-139">В сетке **К регистрации сейчас** щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="b4978-139">In the **Register now** grid, click **Add**.</span></span> <span data-ttu-id="b4978-140">Повторяйте предыдущие два шага до тех пор, пока все возвращенные номенклатуры не появятся в сетке **К регистрации сейчас**.</span><span class="sxs-lookup"><span data-stu-id="b4978-140">Repeat the previous two steps until all of the returned items appear in the **Register now** grid.</span></span>
+
+5.  <span data-ttu-id="b4978-141">Щелкните **Разнести все**.</span><span class="sxs-lookup"><span data-stu-id="b4978-141">Click **Post all**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="b4978-142">См. также</span><span class="sxs-lookup"><span data-stu-id="b4978-142">See also</span></span>
+
+<span data-ttu-id="b4978-143">[Обзор поступлений (форма)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b4978-143">[Arrival overview (form)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span></span>
 
   
 
