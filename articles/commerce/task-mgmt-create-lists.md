@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cca5e0efd6516d02c372e8a616b6bb0c39f3088c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415301"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006218"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Создание списков задач и добавление задач
 
@@ -93,6 +92,3 @@ Commerce позволяет связывать задачи с отдельны�
 [Назначение списков задач магазинам или сотрудникам](task-mgmt-assign-lists.md)
 
 [Управление задачами в POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

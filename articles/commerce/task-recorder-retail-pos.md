@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415299"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006143"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Регистратор задач и справка для Retail Modern POS (MPOS) и Cloud POS
 
@@ -34,7 +33,7 @@ ms.locfileid: "4415299"
 
 ## <a name="overview"></a>Обзор
 
-Регистратор задач в Retail Modern POS или Cloud POS представляет собой новое решение, созданное для обеспечения высокой отзывчивости. Он предоставляет гибкий программный интерфейс (API) для расширения и полной интеграции с потребителями записей бизнес-процессов. Кроме того, предложена интеграция регистратора задач со средством моделирования бизнес-процессов (BPM) на Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Таким образом, пользователи могут продолжать создавать схемы бизнес-процессов с широкими возможностями, чтобы анализировать и проектировать свои приложения.
+Регистратор задач в Retail Modern POS или Cloud POS представляет собой новое решение, созданное для обеспечения высокой отзывчивости. Он предоставляет гибкий программный интерфейс (API) для расширения и полной интеграции с потребителями записей бизнес-процессов. Кроме того, предложена интеграция регистратора задач со средством моделирования бизнес-процессов (BPM) на Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Таким образом, пользователи могут продолжать создавать схемы бизнес-процессов с широкими возможностями, чтобы анализировать и проектировать свои приложения.
 
 ## <a name="architecture"></a>Архитектура
 
@@ -146,6 +145,3 @@ ms.locfileid: "4415299"
 
 > [!NOTE]
 > Справка в Retail Modern POS и Cloud POS не открывает проводники по задачам в зависимости от того, в какой форме вы находитесь или какую операцию выполняете. Необходимо ввести имя процесса в поле поиска и нажать кнопку **Поиск**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006399"
 ---
 # <a name="advanced-load-building-during-wave"></a>Расширенное формирование загрузки во время волны
 
@@ -250,6 +249,3 @@ ms.locfileid: "4654206"
 1. В только что созданном заказе на продажу на экспресс-вкладке **Строки заказа на продажу** выберите **Добавить строку**, чтобы добавить новую строку.
 1. В новой строке задайте в поле **Код номенклатуры** значение *M9200*, а в поле **Количество** — значение *1*.
 1. Повторите строки с 6 по 9, чтобы зарезервировать строку и выпустить ее на склад. Как и ранее, система создает **новую** отгрузку для добавленной строки. Однако, поскольку номенклатура берется из группы номенклатур **CarAudio**, она **не проходит ограничения, настроенные для группы смешанной загрузки**. Таким образом, она **добавляется к новой загрузке**. Если группа смешанной загрузки не указана в шаблоне формирования загрузки, данная отгрузка будет добавлена к первой загрузке.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
