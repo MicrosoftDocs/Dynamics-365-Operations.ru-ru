@@ -11,46 +11,45 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b192cd6316f8e4de7919b7a3feda29fcbf54059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d01acbfd57fdfcbc951fab738bfb062ab7b344be
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436193"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965763"
 ---
-# <a name="update-and-index-subscription-sales-prices"></a><span data-ttu-id="702af-103">Обновление и индексирование цен продажи подписки</span><span class="sxs-lookup"><span data-stu-id="702af-103">Update and index subscription sales prices</span></span> 
+# <a name="update-and-index-subscription-sales-prices"></a><span data-ttu-id="7a660-103">Обновление и индексирование цен продажи подписки</span><span class="sxs-lookup"><span data-stu-id="7a660-103">Update and index subscription sales prices</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="702af-104">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="702af-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="7a660-104">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="7a660-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="702af-105">Выберите подписку, для которой требуется обновить индекс или базисную цену.</span><span class="sxs-lookup"><span data-stu-id="702af-105">Select the subscription to update the index or base price for.</span></span>
+2.  <span data-ttu-id="7a660-105">Выберите подписку, для которой требуется обновить индекс или базисную цену.</span><span class="sxs-lookup"><span data-stu-id="7a660-105">Select the subscription to update the index or base price for.</span></span>
 
-3.  <span data-ttu-id="702af-106">Щелкните **Индекс**.</span><span class="sxs-lookup"><span data-stu-id="702af-106">Click **Index**.</span></span> <span data-ttu-id="702af-107">В поле **Изменить** укажите способ обновления базисной цены или индекса, а также укажите, какое значение должно использоваться при обновлении — процентное значение или новое значение.</span><span class="sxs-lookup"><span data-stu-id="702af-107">In the **Change** field, indicate how to update the base price or index, and whether the update must use a percentage or a new value.</span></span> <span data-ttu-id="702af-108">Возможные варианты выбора:</span><span class="sxs-lookup"><span data-stu-id="702af-108">You can select from the following options:</span></span>
+3.  <span data-ttu-id="7a660-106">Щелкните **Индекс**.</span><span class="sxs-lookup"><span data-stu-id="7a660-106">Click **Index**.</span></span> <span data-ttu-id="7a660-107">В поле **Изменить** укажите способ обновления базисной цены или индекса, а также укажите, какое значение должно использоваться при обновлении — процентное значение или новое значение.</span><span class="sxs-lookup"><span data-stu-id="7a660-107">In the **Change** field, indicate how to update the base price or index, and whether the update must use a percentage or a new value.</span></span> <span data-ttu-id="7a660-108">Возможные варианты выбора:</span><span class="sxs-lookup"><span data-stu-id="7a660-108">You can select from the following options:</span></span>
     
-      - <span data-ttu-id="702af-109">**Индекс по проценту**</span><span class="sxs-lookup"><span data-stu-id="702af-109">**Index by a percentage**</span></span>
+      - <span data-ttu-id="7a660-109">**Индекс по проценту**</span><span class="sxs-lookup"><span data-stu-id="7a660-109">**Index by a percentage**</span></span>
     
-      - <span data-ttu-id="702af-110">**Индексировать до**</span><span class="sxs-lookup"><span data-stu-id="702af-110">**Index to**</span></span>
+      - <span data-ttu-id="7a660-110">**Индексировать до**</span><span class="sxs-lookup"><span data-stu-id="7a660-110">**Index to**</span></span>
     
-      - <span data-ttu-id="702af-111">**Базовая цена по проценту**</span><span class="sxs-lookup"><span data-stu-id="702af-111">**Base price by percentage**</span></span>
+      - <span data-ttu-id="7a660-111">**Базовая цена по проценту**</span><span class="sxs-lookup"><span data-stu-id="7a660-111">**Base price by percentage**</span></span>
     
-      - <span data-ttu-id="702af-112">**Базовая цена до**</span><span class="sxs-lookup"><span data-stu-id="702af-112">**Base price to**</span></span>
+      - <span data-ttu-id="7a660-112">**Базовая цена до**</span><span class="sxs-lookup"><span data-stu-id="7a660-112">**Base price to**</span></span>
 
-4.  <span data-ttu-id="702af-113">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="702af-113">Click **OK**.</span></span>
+4.  <span data-ttu-id="7a660-113">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7a660-113">Click **OK**.</span></span>
 
-<span data-ttu-id="702af-114">Базисная цена или индекс подписки обновляются в соответствии с указанным значением.</span><span class="sxs-lookup"><span data-stu-id="702af-114">The base price or index of the subscription is updated with the specified value.</span></span>
+<span data-ttu-id="7a660-114">Базисная цена или индекс подписки обновляются в соответствии с указанным значением.</span><span class="sxs-lookup"><span data-stu-id="7a660-114">The base price or index of the subscription is updated with the specified value.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="702af-115">См. также</span><span class="sxs-lookup"><span data-stu-id="702af-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a660-115">См. также</span><span class="sxs-lookup"><span data-stu-id="7a660-115">See also</span></span>
 
-<span data-ttu-id="702af-116">[Индексация подписки (форма класса)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="702af-116">[Index subscription (class form)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span></span>
+<span data-ttu-id="7a660-116">[Индексация подписки (форма класса)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7a660-116">[Index subscription (class form)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span></span>
 
   
 

@@ -11,50 +11,49 @@ ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: adbd5ef1cafe778cf897aafb05c77fca89be3e20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415294"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964928"
 ---
-# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="c5b71-103">Создание и связывание станции оборудования</span><span class="sxs-lookup"><span data-stu-id="c5b71-103">Create and associate a hardware station</span></span>
+# <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="0c252-103">Создание и связывание станции оборудования</span><span class="sxs-lookup"><span data-stu-id="0c252-103">Create and associate a hardware station</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c5b71-104">Эта процедура содержит инструкции по созданию станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="c5b71-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="c5b71-105">Новый профиль оборудования будет создан и будет использован для добавления новых станций оборудования в предварительно определенный магазин (канал).</span><span class="sxs-lookup"><span data-stu-id="c5b71-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="c5b71-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="c5b71-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="0c252-104">Эта процедура содержит инструкции по созданию станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="0c252-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="0c252-105">Новый профиль оборудования будет создан и будет использован для добавления новых станций оборудования в предварительно определенный магазин (канал).</span><span class="sxs-lookup"><span data-stu-id="0c252-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="0c252-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="0c252-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="c5b71-107">Перейдите в раздел "Реквизиты Commerce" > "Каналы" > ..</span><span class="sxs-lookup"><span data-stu-id="c5b71-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="c5b71-108">> ..</span><span class="sxs-lookup"><span data-stu-id="c5b71-108">> ..</span></span> <span data-ttu-id="c5b71-109">> ..</span><span class="sxs-lookup"><span data-stu-id="c5b71-109">> ..</span></span> <span data-ttu-id="c5b71-110">> "Профили станции оборудования".</span><span class="sxs-lookup"><span data-stu-id="c5b71-110">> Hardware station profiles.</span></span>
-2. <span data-ttu-id="c5b71-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="c5b71-111">Click New.</span></span>
-3. <span data-ttu-id="c5b71-112">В поле "Код станции оборудования" введите "TestHWProfile".</span><span class="sxs-lookup"><span data-stu-id="c5b71-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
-4. <span data-ttu-id="c5b71-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c5b71-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="c5b71-114">В поле "Номер порта" введите число.</span><span class="sxs-lookup"><span data-stu-id="c5b71-114">In the Port number field, enter a number.</span></span>
-6. <span data-ttu-id="c5b71-115">В поле "Профиль оборудования" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c5b71-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="c5b71-116">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="c5b71-116">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="c5b71-117">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c5b71-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="c5b71-118">В поле "Имя пакета" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c5b71-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="c5b71-119">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c5b71-119">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="c5b71-120">Это стандартный пакет, поставляемый с новой средой.</span><span class="sxs-lookup"><span data-stu-id="c5b71-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="c5b71-121">Номер версии может отличаться.</span><span class="sxs-lookup"><span data-stu-id="c5b71-121">The version number may vary.</span></span>  
-11. <span data-ttu-id="c5b71-122">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="c5b71-122">Click Save.</span></span>
-12. <span data-ttu-id="c5b71-123">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="c5b71-123">Close the page.</span></span>
-13. <span data-ttu-id="c5b71-124">Перейдите в раздел Retail и Commerce > Каналы > Все магазины.</span><span class="sxs-lookup"><span data-stu-id="c5b71-124">Go to Retail and Commerce > Channels > All stores.</span></span>
-14. <span data-ttu-id="c5b71-125">В списке выберите строку 17.</span><span class="sxs-lookup"><span data-stu-id="c5b71-125">In the list, select row 17.</span></span>
-    * <span data-ttu-id="c5b71-126">При использовании компании демонстрационных данных USRT это будет магазин в Хьюстоне.</span><span class="sxs-lookup"><span data-stu-id="c5b71-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
-15. <span data-ttu-id="c5b71-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c5b71-127">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="c5b71-128">Переключите развертывание раздела "Станции оборудования".</span><span class="sxs-lookup"><span data-stu-id="c5b71-128">Toggle the expansion of the Hardware stations section.</span></span>
-17. <span data-ttu-id="c5b71-129">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="c5b71-129">Click Add.</span></span>
-18. <span data-ttu-id="c5b71-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="c5b71-130">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="c5b71-131">В поле "Код профиля" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c5b71-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="c5b71-132">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c5b71-132">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c5b71-133">Это должен быть новый профиль станции оборудования, созданных на предыдущих шагах.</span><span class="sxs-lookup"><span data-stu-id="c5b71-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
-21. <span data-ttu-id="c5b71-134">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c5b71-134">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="c5b71-135">В поле "Имя узла" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c5b71-135">In the Host name field, type a value.</span></span>
-23. <span data-ttu-id="c5b71-136">В поле "Код терминала EFT" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c5b71-136">In the EFT terminal ID field, type a value.</span></span>
-24. <span data-ttu-id="c5b71-137">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="c5b71-137">Click Save.</span></span>
+1. <span data-ttu-id="0c252-107">Перейдите в раздел "Реквизиты Commerce" > "Каналы" > ..</span><span class="sxs-lookup"><span data-stu-id="0c252-107">Go to Commerce essentials > Channels > ..</span></span> <span data-ttu-id="0c252-108">> ..</span><span class="sxs-lookup"><span data-stu-id="0c252-108">> ..</span></span> <span data-ttu-id="0c252-109">> ..</span><span class="sxs-lookup"><span data-stu-id="0c252-109">> ..</span></span> <span data-ttu-id="0c252-110">> "Профили станции оборудования".</span><span class="sxs-lookup"><span data-stu-id="0c252-110">> Hardware station profiles.</span></span>
+2. <span data-ttu-id="0c252-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0c252-111">Click New.</span></span>
+3. <span data-ttu-id="0c252-112">В поле "Код станции оборудования" введите "TestHWProfile".</span><span class="sxs-lookup"><span data-stu-id="0c252-112">In the Hardware station ID field, type 'TestHWProfile'.</span></span>
+4. <span data-ttu-id="0c252-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0c252-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="0c252-114">В поле "Номер порта" введите число.</span><span class="sxs-lookup"><span data-stu-id="0c252-114">In the Port number field, enter a number.</span></span>
+6. <span data-ttu-id="0c252-115">В поле "Профиль оборудования" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="0c252-115">In the Hardware profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="0c252-116">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="0c252-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="0c252-117">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0c252-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="0c252-118">В поле "Имя пакета" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="0c252-118">In the Package name field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="0c252-119">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0c252-119">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="0c252-120">Это стандартный пакет, поставляемый с новой средой.</span><span class="sxs-lookup"><span data-stu-id="0c252-120">This is the standard package that comes with a new environment.</span></span> <span data-ttu-id="0c252-121">Номер версии может отличаться.</span><span class="sxs-lookup"><span data-stu-id="0c252-121">The version number may vary.</span></span>  
+11. <span data-ttu-id="0c252-122">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="0c252-122">Click Save.</span></span>
+12. <span data-ttu-id="0c252-123">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="0c252-123">Close the page.</span></span>
+13. <span data-ttu-id="0c252-124">Перейдите в раздел Retail и Commerce > Каналы > Все магазины.</span><span class="sxs-lookup"><span data-stu-id="0c252-124">Go to Retail and Commerce > Channels > All stores.</span></span>
+14. <span data-ttu-id="0c252-125">В списке выберите строку 17.</span><span class="sxs-lookup"><span data-stu-id="0c252-125">In the list, select row 17.</span></span>
+    * <span data-ttu-id="0c252-126">При использовании компании демонстрационных данных USRT это будет магазин в Хьюстоне.</span><span class="sxs-lookup"><span data-stu-id="0c252-126">If you are using the USRT demo data company, this is the Houston store.</span></span>  
+15. <span data-ttu-id="0c252-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0c252-127">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="0c252-128">Переключите развертывание раздела "Станции оборудования".</span><span class="sxs-lookup"><span data-stu-id="0c252-128">Toggle the expansion of the Hardware stations section.</span></span>
+17. <span data-ttu-id="0c252-129">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="0c252-129">Click Add.</span></span>
+18. <span data-ttu-id="0c252-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="0c252-130">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="0c252-131">В поле "Код профиля" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="0c252-131">In the Profile ID field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="0c252-132">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="0c252-132">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0c252-133">Это должен быть новый профиль станции оборудования, созданных на предыдущих шагах.</span><span class="sxs-lookup"><span data-stu-id="0c252-133">This must be the new hardware station profile that was created in the previous steps.</span></span>  
+21. <span data-ttu-id="0c252-134">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0c252-134">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="0c252-135">В поле "Имя узла" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0c252-135">In the Host name field, type a value.</span></span>
+23. <span data-ttu-id="0c252-136">В поле "Код терминала EFT" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0c252-136">In the EFT terminal ID field, type a value.</span></span>
+24. <span data-ttu-id="0c252-137">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0c252-137">Click Save.</span></span>
 
