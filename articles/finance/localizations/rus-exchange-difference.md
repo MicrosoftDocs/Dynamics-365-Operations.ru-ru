@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 03f759d5076859e1cce9546cba5554139b035ad4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b1996038df805a318336964bb56cb3361057acb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408576"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962555"
 ---
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 
@@ -264,6 +263,3 @@ ms.locfileid: "4408576"
 8. Установите флажок **Включить в книгу**, чтобы обновить счета-фактуру суммовой разницы в книге продаж.
 9. Выберите **Печать**.
 10. Установите для параметра **Только включенные** значение **Да**, чтобы напечатать исходный счет-фактуру только вместе с выбранными счетами-фактурами суммовых разницы. Если установить этот параметр в значение **Нет**, вместе с исходным счетом-фактурой будут напечатаны все счета-фактуры суммовой разницы.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e92a15cf4e2694eba1804184a02a7fd13159799e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68a3d175e89e89d0909b140863b1aa61a184fce6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435920"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963293"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Частичная отгрузка загрузки транспорта
 
@@ -66,6 +65,3 @@ ms.locfileid: "4435920"
 
 1. Выберите **Управление складом** \> **Загрузки** \> **Загрузки транспорта**.
 2. В области действий на вкладке **Отгрузка и получение** в группе **Подтверждение** выберите **Транспортировка**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

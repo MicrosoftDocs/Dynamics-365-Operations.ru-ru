@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 37b97345626c8ff54fcc794ec65169b205585c62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a19f7645640c2809540846979d97f8646e24b92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962558"
 ---
 # <a name="exchange-adjustment"></a>Курсовая разница
 
@@ -75,6 +74,3 @@ ms.locfileid: "4408577"
 
 > [!NOTE]
 > Если столбец **Тип проводки книги учета** не отображается, щелкните правой кнопкой мыши в любом месте в строке сетки, отображающем имена столбцов, выберите **Добавить столбцы**, затем выберите **Тип проводки книги учета**, затем выберите **Вставить**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

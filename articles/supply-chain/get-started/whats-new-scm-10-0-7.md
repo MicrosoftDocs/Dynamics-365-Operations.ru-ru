@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
-ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
+ms.openlocfilehash: 4da0c95d753685cc9cce774dc63309a53bd2fbd0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4597114"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963543"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.7 (январь 2020 г.)
 
@@ -65,5 +64,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 включает обно�
 Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

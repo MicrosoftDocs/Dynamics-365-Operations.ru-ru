@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3f5a4d7d12890792a6fbbadc084ad4a675d63694
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 337dba5c5582c05c7b8b57557871fb8e71627175
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408599"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962570"
 ---
 # <a name="create-or-generate-deferrals-russia"></a>Создание или генерация РБП (Россия)
 
@@ -112,6 +111,3 @@ ms.locfileid: "4408599"
 Для просмотра вручную и автоматически созданных РБП перейдите к пункту **Главная книга > РБП > РБП**.
 
 ![Страница РБП, список РБП](media/6_Deferrals.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

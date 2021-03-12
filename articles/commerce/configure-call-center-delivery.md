@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415143"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963118"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Настройка режимов доставки и накладных расходов центра обработки вызовов
 
@@ -95,6 +94,3 @@ ms.locfileid: "4415143"
 Например для заказов, отгруженных по воздуху на следующий день, комплектации должна выполняться на складе до 13: 00 ежедневно. В этом случае также код ускорения может быть создан, и этот код может быть связан с любым режимом поставки на следующий день, настроенные в системе. Когда склад создает свою волну комплектации, соответствующий код ускорения в поле **Ускорить** может использоваться в качестве фильтра, так что комплектация производится только для заказов, имеющих режим доставки, связанный с этим кодом.
 
 Кроме того, при вводе заказа центра обработки вызовов код ускорения может вручную применяться к заголовку заказа на продажу или отдельной строке заказа на продажу. Снова код может использоваться для сортировки или отчетности. В некоторых случаях заказ необходимо тщательно отслеживать из-за неполадки службы клиента. Таким образом, определенный срочный код может применяться к заголовку заказа или строки для определения и определить порядок заказа в процессе выполнения.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

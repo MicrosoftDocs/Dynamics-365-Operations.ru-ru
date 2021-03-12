@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 07d238dff82e35e20a17b26ef8e904822dd9a373
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: dcd606042ba5cb644105241ffcbba1de67c5745d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4408602"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962528"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 
@@ -200,6 +199,3 @@ ms.locfileid: "4408602"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Учет рабочей одежды и специальной оснастки (Россия)](rus-working-clothes-instruments-accounting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

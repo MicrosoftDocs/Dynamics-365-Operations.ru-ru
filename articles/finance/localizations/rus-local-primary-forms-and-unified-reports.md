@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0f4e985eb2ddbf2c25dd558918912626f40b4665
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 45e5661e3103568c0b313450aa6eeb4b7ef432f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408598"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962537"
 ---
 # <a name="cash---local-primary-forms-and-unified-reports"></a>Наличные деньги — локальные основные формы и унифицированные отчеты
 [!include [banner](../includes/banner.md)]
@@ -134,6 +133,3 @@ ms.locfileid: "4408598"
 4. Выберите **ОК**, чтобы создать акт инвентаризации денежных средств.
 
     ![Отчет акта инвентаризации денежных средств](media/cash-primary-03.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

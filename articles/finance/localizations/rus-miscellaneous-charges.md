@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b5c1fdf8dd0859df38b8cbc9f656acd9754407b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c3c42b1e8eb332df6e8da118eb395861fbe60f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408546"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962531"
 ---
 # <a name="allocation-of-miscellaneous-charges-in-proportion-to-weight-and-volume"></a>Распределение накладных расходов пропорционально весу и объему
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,3 @@ ms.locfileid: "4408546"
 ![Страница Распределить накладные расходы](media/2%20Allocate%20charges.png)
 
 6. Укажите другие сведения и разнесите счет-фактуру как обычно.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankGroup, BankAccountTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 11b998329d432afae478dc88724ecf5fffe9f289
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4cdf319f11325675f62707be857f752c280fe1d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408548"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962540"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 
@@ -86,6 +85,3 @@ ms.locfileid: "4408548"
 > Прежде чем определять шаблон документа, создайте шаблоны в виде файлов и вложите их в запись. Определить наличие вложенных документов можно по числовому индикатору на значке **Вложения документов**.
 
 ![Банковский счет](media/rus-bank-account.jpg)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

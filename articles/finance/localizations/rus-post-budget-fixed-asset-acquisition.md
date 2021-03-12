@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BudgetModel
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e5a5e12ee2c56b866a16717069ad9e750f19612d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a53957671250c066694f0e08655eabda76968082
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408543"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962519"
 ---
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 
@@ -60,6 +59,3 @@ ms.locfileid: "4408543"
 21. Выберите **Проверить** \> **Проверить**, чтобы проверить в журнале сведения об основном средстве.
 22. Выберите **Разнести** \> **Перенос в бюджет ОС**, чтобы перенести проводки в бюджет основных средств.
 23. Выберите **Разнести** \> **Перенос в бюджет ОС и в бюджет ГК**, чтобы перенести проводки в бюджет основных средств и ГК.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961567"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Настройка номиналов денежных знаков для терминала POS
 
@@ -52,6 +51,3 @@ ms.locfileid: "4415206"
 
 - **Больше или равно сумме к выплате** — по умолчанию POS будет только отображать номиналы банкнот, которые больше суммы к выплате, что позволяет принять оплату одним нажатием. Например, если сумма к уплате составляет 75 рублей, в POS отобразятся следующие номиналы: 100, 500, 1000 и 5000 рублей. При нажатии любой их этих сумм она автоматически будет принята в уплату за покупку. 5-, 10- и 50-рублевые банкноты не отображаются, поскольку эти суммы меньше суммы к уплате.
 - **Все номиналы** — выберите этот вариант, чтобы в POS всегда отображались все номиналы, независимо от суммы к выплате. Это означает, что пользователь может использовать сочетание банкнот для достижения суммы к выплате. Например если сумма к уплате составляет 60 рублей, пользователь может выбрать 50 рублей и 10 рублей для совершения продажи.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

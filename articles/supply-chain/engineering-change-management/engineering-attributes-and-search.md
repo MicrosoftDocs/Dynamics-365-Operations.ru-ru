@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4436496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963696"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Инженерные атрибуты и поиск инженерных атрибутов
 
@@ -94,6 +93,3 @@ ms.locfileid: "4436496"
 Поиск продуктов можно выполнить с помощью поиска инженерных атрибутов, выполнив поиск их значений инженерных атрибутов. Таким образом, на основе их характеристик можно легко найти инженерные продукты. Можно выполнять поиск в продуктах, относящихся к категории технологических продуктов, или можно выполнять поиск во всех технологических продуктах.
 
 Поиск доступен на страницах шаблонов продуктов и из элементов проводок в системе, например заказов на продажу. Для транзакционной номенклатуры можно использовать страницу **Поиск инженерных атрибутов**, чтобы выполнить поиск продукта. Затем можно использовать кнопку **Добавить как новую строку**, чтобы добавить продукт в строки заказа на продажу. Продукты в результатах поиска могут быть также добавлены непосредственно в заказ.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

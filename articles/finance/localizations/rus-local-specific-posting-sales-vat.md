@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 75dfe57487967dd4ba30017fa87cfe9df022342d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24b14b32ba79c2e6538292b041b0188a4c2c62a2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408547"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962542"
 ---
 # <a name="local-specific-posting-of-sales-vat"></a>Специфическая локальная разноска исходящего НДС 
 
@@ -86,6 +85,3 @@ ms.locfileid: "4408547"
 
 > [!NOTE]
 > Счета в поле **Тип разноски** должны иметь значение **Налог**. Если счета не имеют этого значения, его можно добавить на вкладке **Проверка разноски** на странице **Счета ГК**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

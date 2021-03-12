@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: de50d3320ada278fbf43dbb313fdaed38b57ee9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9726c9476922f4feb34fec4349a08195d1a8a26
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408506"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962582"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 
@@ -477,6 +476,3 @@ ms.locfileid: "4408506"
 4. В поле **Наименование** выберите наименование журнала налога на имущество.
 5. Выберите **Строки** для просмотра строк журнала, которые содержат проводки начисления налога на имущество, которые были созданы на основании данных налогового регистра и настроек параметров для основных средств.
 6. Проверьте и разнесите журнал.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

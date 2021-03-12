@@ -3,7 +3,7 @@ title: Функция ER DATEFORMAT
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности DATEFORMAT.
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684943"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826019"
 ---
 # <a name="dateformat-er-function"></a>Функция ER DATEFORMAT
 
@@ -52,6 +52,9 @@ DATEFORMAT (date, format, culture)
 
 Формат строки вывода.
 
+> [!NOTE]
+> В строке форматирования учитывается регистр при использовании стандартного или пользовательского формата. Например, [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) спецификатор формата "d" возвращает дату, используя короткий шаблон даты, в то время как стандартный спецификатор формата "D" возвращает дату, используя полный шаблон даты. Кроме того, [пользовательский](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) спецификатор формата "M" возвращает месяц от 1 до 12, в то время как пользовательский спецификатор формата "m" возвращает минуты от 0 до 59.
+
 `culture`: *Строка*
 
 Культура для форматирования.
@@ -64,7 +67,7 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="usage-notes"></a>Примечания по использованию
 
-Когда культура не определена как аргумент вызываемой функции, значение `culture` определяется контекстом вызова. Например, если функция `DATEFORMAT` вызывается с помощью синтаксиса 1 в формате электронной отчетности (ER) для элемента **FILE**, настроенного на использование немецкой культуры, преобразование будет осуществляться с помощью немецкой культуры. Значение шаблона `culture` по умолчанию — **EN-US**.
+Если культура не определена как аргумент вызываемой функции, значение `culture` определяется контекстом вызова. Например, если функция `DATEFORMAT` вызывается с помощью синтаксиса 1 в формате электронной отчетности (ER) для элемента **FILE**, настроенного на использование немецкой культуры, преобразование будет осуществляться с помощью немецкой культуры. Значение шаблона `culture` по умолчанию — **EN-US**.
 
 ## <a name="example-1"></a>Пример 1
 
@@ -77,6 +80,3 @@ DATEFORMAT (date, format, culture)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции даты и времени](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
