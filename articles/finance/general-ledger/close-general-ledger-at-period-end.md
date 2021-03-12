@@ -11,46 +11,45 @@ ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cabdce5e23704fbf12e631a138235174ebc5772
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 944f88e65c5dbbd2acf21ebfd96c28ce477798ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447197"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975999"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="b5a41-103">Закрытие ГК в конце периода</span><span class="sxs-lookup"><span data-stu-id="b5a41-103">Close the general ledger at period end</span></span>
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="17f9a-103">Закрытие ГК в конце периода</span><span class="sxs-lookup"><span data-stu-id="17f9a-103">Close the general ledger at period end</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b5a41-104">В этом разделе описаны задачи, которые обычно выполняются при закрытии периода для главной книги.</span><span class="sxs-lookup"><span data-stu-id="b5a41-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
+<span data-ttu-id="17f9a-104">В этом разделе описаны задачи, которые обычно выполняются при закрытии периода для главной книги.</span><span class="sxs-lookup"><span data-stu-id="17f9a-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-<span data-ttu-id="b5a41-105">В главной книге можно выполнять процедуры закрытия для периода или года.</span><span class="sxs-lookup"><span data-stu-id="b5a41-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="b5a41-106">Процессы закрытия подготавливают систему к новому периоду.</span><span class="sxs-lookup"><span data-stu-id="b5a41-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="b5a41-107">Чтобы подготовить систему к новому году, необходимо выполнить процесс закрытия на конец года.</span><span class="sxs-lookup"><span data-stu-id="b5a41-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="b5a41-108">Каждая организация имеет разные процессы и шаги, выполняемые на конец периода.</span><span class="sxs-lookup"><span data-stu-id="b5a41-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="b5a41-109">Ниже приведены некоторые необязательные шаги для окончания периода.</span><span class="sxs-lookup"><span data-stu-id="b5a41-109">Here are some optional steps for period ends:</span></span>
+<span data-ttu-id="17f9a-105">В главной книге можно выполнять процедуры закрытия для периода или года.</span><span class="sxs-lookup"><span data-stu-id="17f9a-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="17f9a-106">Процессы закрытия подготавливают систему к новому периоду.</span><span class="sxs-lookup"><span data-stu-id="17f9a-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="17f9a-107">Чтобы подготовить систему к новому году, необходимо выполнить процесс закрытия на конец года.</span><span class="sxs-lookup"><span data-stu-id="17f9a-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="17f9a-108">Каждая организация имеет разные процессы и шаги, выполняемые на конец периода.</span><span class="sxs-lookup"><span data-stu-id="17f9a-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="17f9a-109">Ниже приведены некоторые необязательные шаги для окончания периода.</span><span class="sxs-lookup"><span data-stu-id="17f9a-109">Here are some optional steps for period ends:</span></span>
 
--   <span data-ttu-id="b5a41-110">Завершите все задачи для всех других модулей, например Расчеты с поставщиками, Расчеты с клиентами и Запасы.</span><span class="sxs-lookup"><span data-stu-id="b5a41-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
--   <span data-ttu-id="b5a41-111">Проверьте, что все журналы разнесены.</span><span class="sxs-lookup"><span data-stu-id="b5a41-111">Verify that all journals are posted.</span></span>
--   <span data-ttu-id="b5a41-112">Выполните переоценку в иностранной валюте для создания любых сумм внереализационной прибыли или убытков.</span><span class="sxs-lookup"><span data-stu-id="b5a41-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
--   <span data-ttu-id="b5a41-113">Сопоставьте проводки для каждого счета ГК.</span><span class="sxs-lookup"><span data-stu-id="b5a41-113">Settle transactions for each ledger account.</span></span>
--   <span data-ttu-id="b5a41-114">Обработайте все требуемые распределения.</span><span class="sxs-lookup"><span data-stu-id="b5a41-114">Process any required allocations.</span></span>
--   <span data-ttu-id="b5a41-115">Вручную разнесите корректировки на конец периода.</span><span class="sxs-lookup"><span data-stu-id="b5a41-115">Manually post period-end adjustments.</span></span>
--   <span data-ttu-id="b5a41-116">Учтите в субкниге проводки и просмотрите отчет **Журнал ГК**.</span><span class="sxs-lookup"><span data-stu-id="b5a41-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
--   <span data-ttu-id="b5a41-117">Выполните консолидацию, используя консолидированную компанию или финансовую отчетность.</span><span class="sxs-lookup"><span data-stu-id="b5a41-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
--   <span data-ttu-id="b5a41-118">Создайте финансовые отчеты на конец периода с помощью финансовой отчетности.</span><span class="sxs-lookup"><span data-stu-id="b5a41-118">Generate period-end financial statements by using Financial reporting.</span></span>
--   <span data-ttu-id="b5a41-119">Задайте для периодов ГК статус **Заблокировано**, чтобы было невозможно выполнить разноску.</span><span class="sxs-lookup"><span data-stu-id="b5a41-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="b5a41-120">Также можно ограничить период определенной группой пользователей, пока выполняются действия на конец периода, для более эффективного управления.</span><span class="sxs-lookup"><span data-stu-id="b5a41-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="b5a41-121">Не рекомендуется задавать для периодов статус **Закрытый на постоянной основе**, поскольку невозможно повторно открыть период, который был закрыт.</span><span class="sxs-lookup"><span data-stu-id="b5a41-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
+-   <span data-ttu-id="17f9a-110">Завершите все задачи для всех других модулей, например Расчеты с поставщиками, Расчеты с клиентами и Запасы.</span><span class="sxs-lookup"><span data-stu-id="17f9a-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="17f9a-111">Проверьте, что все журналы разнесены.</span><span class="sxs-lookup"><span data-stu-id="17f9a-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="17f9a-112">Выполните переоценку в иностранной валюте для создания любых сумм внереализационной прибыли или убытков.</span><span class="sxs-lookup"><span data-stu-id="17f9a-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="17f9a-113">Сопоставьте проводки для каждого счета ГК.</span><span class="sxs-lookup"><span data-stu-id="17f9a-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="17f9a-114">Обработайте все требуемые распределения.</span><span class="sxs-lookup"><span data-stu-id="17f9a-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="17f9a-115">Вручную разнесите корректировки на конец периода.</span><span class="sxs-lookup"><span data-stu-id="17f9a-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="17f9a-116">Учтите в субкниге проводки и просмотрите отчет **Журнал ГК**.</span><span class="sxs-lookup"><span data-stu-id="17f9a-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="17f9a-117">Выполните консолидацию, используя консолидированную компанию или финансовую отчетность.</span><span class="sxs-lookup"><span data-stu-id="17f9a-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="17f9a-118">Создайте финансовые отчеты на конец периода с помощью финансовой отчетности.</span><span class="sxs-lookup"><span data-stu-id="17f9a-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="17f9a-119">Задайте для периодов ГК статус **Заблокировано**, чтобы было невозможно выполнить разноску.</span><span class="sxs-lookup"><span data-stu-id="17f9a-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="17f9a-120">Также можно ограничить период определенной группой пользователей, пока выполняются действия на конец периода, для более эффективного управления.</span><span class="sxs-lookup"><span data-stu-id="17f9a-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="17f9a-121">Не рекомендуется задавать для периодов статус **Закрытый на постоянной основе**, поскольку невозможно повторно открыть период, который был закрыт.</span><span class="sxs-lookup"><span data-stu-id="17f9a-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-<span data-ttu-id="b5a41-122">Рабочая область закрытия финансового периода может использоваться для организации и отслеживания задач, необходимых для различных процессов на конец периода.</span><span class="sxs-lookup"><span data-stu-id="b5a41-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
+<span data-ttu-id="17f9a-122">Рабочая область закрытия финансового периода может использоваться для организации и отслеживания задач, необходимых для различных процессов на конец периода.</span><span class="sxs-lookup"><span data-stu-id="17f9a-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-<span data-ttu-id="b5a41-123">Дополнительные сведения см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="b5a41-123">For more information, see the following topics for more information:</span></span>
-- [<span data-ttu-id="b5a41-124">Рабочая область закрытия финансового периода</span><span class="sxs-lookup"><span data-stu-id="b5a41-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
-- [<span data-ttu-id="b5a41-125">Закрытие на конец года</span><span class="sxs-lookup"><span data-stu-id="b5a41-125">Year-end close</span></span>](Year-end-close.md)  
-- [<span data-ttu-id="b5a41-126">Массовое закрытие финансовых периодов</span><span class="sxs-lookup"><span data-stu-id="b5a41-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
+<span data-ttu-id="17f9a-123">Дополнительные сведения см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="17f9a-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="17f9a-124">Рабочая область закрытия финансового периода</span><span class="sxs-lookup"><span data-stu-id="17f9a-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="17f9a-125">Закрытие на конец года</span><span class="sxs-lookup"><span data-stu-id="17f9a-125">Year-end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="17f9a-126">Массовое закрытие финансовых периодов</span><span class="sxs-lookup"><span data-stu-id="17f9a-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 
