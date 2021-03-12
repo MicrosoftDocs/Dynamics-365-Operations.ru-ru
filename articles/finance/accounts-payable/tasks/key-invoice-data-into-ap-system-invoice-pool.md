@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e53de7091fd818bdc7085c404794e16dc84dd156
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447149"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979296"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Ввод данных счета в модуль расчетов с поставщиками с использованием кластера накладных
 
@@ -68,6 +67,3 @@ ms.locfileid: "4447149"
 13. Выберите **Проводки**.
 14. Выберите созданную накладную. Начисление регистра накладных было реверсировано и разнесено на соответствующий счет расходов.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

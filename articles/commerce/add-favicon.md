@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f249348fac526fc7814045b1b1b71c898430c0f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415172"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980439"
 ---
 # <a name="add-a-favicon"></a>Добавление значка сайта
 
@@ -66,7 +65,7 @@ ms.locfileid: "4415172"
 1. В диалоговом окне **Создание фрагмента** выберите **Метатеги** в качестве модуля, на котором основан фрагмент.
 1. Введите имя для фрагмента, затем выберите **ОК**.
 1. В дереве иерархии фрагментов выберите дочерний элемент **Метатеги по умолчанию**.
-1. В правой области в разделе **Метатеги** выберите **Добавить**, а затем введите HTML-строку, созданную ранее для значка сайта. 
+1. В правой области в разделе **Метатеги** выберите **Добавить**, а затем введите HTML-строку, созданную ранее для значка сайта. 
 1. Выберите **Завершить редактирование**, а затем нажмите кнопку **Опубликовать**, чтобы опубликовать фрагмент.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Добавьте фрагмент метатега в раздел HTML head страниц
@@ -99,6 +98,3 @@ ms.locfileid: "4415172"
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

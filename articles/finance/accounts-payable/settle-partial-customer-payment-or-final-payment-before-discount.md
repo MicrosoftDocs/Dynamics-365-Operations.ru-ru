@@ -1,5 +1,5 @@
 ---
-title: Сопоставление частичного платежа клиента и окончательного платежа полностью до даты скидки
+title: Сопоставление частичного и окончательного платежей в полном объеме до даты скидки
 description: В этой статье приведены сценарии, которые показывают, как записывать частичные платежи для клиента и использовать скидки по оплате в период скидки по оплате.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7c0c2c5db4f8169876be2bd98e36c4a8dbc35c35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4447367"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979471"
 ---
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Сопоставление частичного платежа клиента и окончательного платежа полностью до даты скидки
+# <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Сопоставление частичного и окончательного платежей в полном объеме до даты скидки
 
 [!include [banner](../includes/banner.md)]
 
@@ -149,6 +148,3 @@ ms.locfileid: "4447367"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

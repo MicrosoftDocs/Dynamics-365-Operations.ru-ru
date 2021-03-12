@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 146794557a3a6ba1801598fe6b814e209d9f5fc6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 317cad877cec4d9f02f53762af65f0b226d0aad6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447045"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979396"
 ---
 # <a name="specify-the-cross-rate"></a>Указание кросс-курса
 
@@ -44,6 +43,3 @@ ms.locfileid: "4447045"
 3.  Для клиента на странице списка **Все клиенты** последовательно выберите пункты **Собрать > Сопоставлять открытые транзакции**. Для поставщика на странице списка **Все поставщики** последовательно выберите пункты **Накладная > Сопоставлять открытые транзакции**. 
 4.  Выберите транзакции, являющиеся основным платежом, и щелкните кнопку **Пометить оплату**. Будет установлен флажок в столбце **Пометка**, а в столбце **Основной платеж** будет показан информационный значок. 
 5.  В поле **Кросс-курс** введите обменный курс между валютами накладной и платежа на дату сопоставления. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

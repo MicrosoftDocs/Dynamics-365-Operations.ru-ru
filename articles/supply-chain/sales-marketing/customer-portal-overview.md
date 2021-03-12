@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529586"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980814"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ ms.locfileid: "4529586"
 
 [Порталы Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) — это функция, позволяющая пользователям создавать внешние веб-сайты, на которое могут входить пользователи, находящиеся за пределами организации. Для создания порталов практически не требуется программирования. Клиентский портал — это один из многих [шаблонов портала Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) от корпорации Майкрософт.
 
-[Двойная запись](https://docs.microsoft.com/powerapps/maker/portals/overview) — это готовый продукт инфраструктуры, обеспечивающий взаимодействие практически в режиме реального времени между приложениями на основе модели в Dynamics 365 и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Common Data Service. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от объектов, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих объектов должна быть включена двойная запись.
+[Двойная запись](https://docs.microsoft.com/powerapps/maker/portals/overview) — это готовая инфраструктура продукта, обеспечивающая взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
 
 ![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
 
 Клиентский портал выступает в качестве отправной точки для организаций, желающих использовать порталы Power Apps для создания внешнего веб-сайта, использующего данные из установки Supply Chain Management. Он помогает организациям объединять двойную запись, Supply Chain Management и порталы Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

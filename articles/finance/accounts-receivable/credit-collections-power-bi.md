@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447385"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979147"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Содержимое Power BI "Управление кредитом и сбором задолженностей"
 
@@ -77,6 +76,3 @@ ms.locfileid: "4447385"
 | Письма-напоминания         | <ul><li>Суммы кодов сбора задолженностей</li><li>Сведения о суммах кодов сбора задолженностей</li><li>Сумма писем-напоминаний по компаниям</li><li>Сумма писем-напоминаний по группам клиентов</li><li>Сумма писем-напоминаний по регионам</li></ul> |
 
 Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

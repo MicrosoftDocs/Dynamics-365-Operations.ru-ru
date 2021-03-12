@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: 34f4e22f571569a6276f8a801d33c6afef8480dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4447374"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979571"
 ---
 # <a name="vendor-payments-workspace"></a>Рабочая область платежей поставщику
 
@@ -78,6 +77,3 @@ ms.locfileid: "4447374"
 |    Отношение сальдо по поставщикам к сальдо по клиентам     |                                                                                                                   <ul><li>Отношение сальдо по поставщикам к сальдо по клиентам</li><li>Отношение сальдо по поставщикам к сальдо по клиентам по компании</li><li>Сведения об отношении сальдо по поставщикам к сальдо по клиентам</li></ul>                                                                                                                    |
 |    Накладные с блокировкой платежа     |                                                                                         <ul><li>Накладные с блокировкой платежа</li><li>Сведения о накладных с блокировкой платежа</li><li>Накладные с блокировкой платежа по компании</li><li>Накладные с блокировкой платежа по группе поставщиков</li></ul>                                                                                          |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
