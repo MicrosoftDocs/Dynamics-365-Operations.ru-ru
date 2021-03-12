@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a9f8f519c54ffe4f1a2a44da51ac5d97c56182a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435891"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992228"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Назначение состояния жизненного цикла продукта шаблону выпущенного продукта
 
@@ -54,6 +53,3 @@ ms.locfileid: "4435891"
 2. В списке пометьте выбранную строку.
 3. В поле "Состояние жизненного цикла продукта" введите или выберите значение.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

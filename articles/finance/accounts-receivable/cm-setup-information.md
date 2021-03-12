@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447073"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991269"
 ---
 # <a name="credit-management-setup"></a>Настройка управления кредитом 
 
@@ -153,6 +152,3 @@ ms.locfileid: "4447073"
 2. Выберите оператор сравнения, который определяет, как должны оцениваться сведения группы оценок.
 3. Введите значение, которое должно сравниваться со значением, указанным для группы оценок.
 4. Введите кредитный лимит, который должен быть назначен, если сведения о клиенте соответствуют значению, указанному для группы оценок. Например, можно создать автоматический кредитный лимит для группы оценок **Низкий**. Если годы в бизнесе являются одной из групп оценки, можно определить одну строку, которая назначает кредитный лимит 100 000, если клиент был в течение пяти лет, а другая строка, которая назначает кредитный лимит 200 000, если клиент был в бизнесе в течение 10 лет.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

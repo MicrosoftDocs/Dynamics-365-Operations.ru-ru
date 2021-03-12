@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 16b83102aa76f46473138f89ea487e71668a188c
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: f362bf4a6b5de3ce16330aea08880b07b4145792
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447398"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992872"
 ---
 # <a name="set-up-index-rates"></a>Настройка ставок, привязанных к индексу
 
@@ -43,6 +42,3 @@ ms.locfileid: "4447398"
 
 - Выберите метод **Разница значений ставки, привязанной к индексу** для расчета нового платежа по аренде, основанный на разнице между ставкой, привязанной к индексу, на начальную дату и последней ставкой, привязанной к индексу. Ставка, привязанная к индексу, определяется в поле **Ставка, привязанная к индексу (%)**.
 - Выберите метод **Значение ставки, привязанной к индексу** для расчета платежа по аренде с использованием процентного значения, указанного в поле **Ставка индекса (%)**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

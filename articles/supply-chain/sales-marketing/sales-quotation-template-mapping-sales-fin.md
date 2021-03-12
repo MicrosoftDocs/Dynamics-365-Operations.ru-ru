@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527346"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991873"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Supply Chain Management
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527346"
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
@@ -63,8 +62,8 @@ ms.locfileid: "4527346"
 
 | Прод.        | Управление цепочкой поставок     |
 |--------------|----------------------------|
-| Цитаты       | Заголовок предложения по продаже CDS |
-| QuoteDetails | Строки предложения по продаже CDS  |
+| Цитаты       | Заголовок предложения по продаже Dataverse |
+| QuoteDetails | Строки предложения по продаже Dataverse  |
 
 ## <a name="entity-flow"></a>Поток объектов
 
@@ -143,6 +142,3 @@ ms.locfileid: "4527346"
 
 [Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

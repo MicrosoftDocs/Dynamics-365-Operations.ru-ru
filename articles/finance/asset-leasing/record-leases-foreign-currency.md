@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 92177d4f808bfec88dabe9277c3d584ed02e401e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7f70442450cc1c814ae23e41a1feb3a63f2aade8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447396"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992897"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Запись аренды в иностранной валюте
 
@@ -53,6 +52,3 @@ ms.locfileid: "4447396"
 Окончательную сумму расходов на амортизацию можно рассчитать, используя слегка отличающийся валютный курс, чтобы актив ФПП был полностью амортизировать в валюте учета и в валюте отчетности.
 
 Если аренда была реклассифицирована как **Отложенная рента**, система автоматически очищает обменные курсы в валютах учета и отчетности, если они уже были определены.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

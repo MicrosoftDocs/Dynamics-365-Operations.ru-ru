@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4447420"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990956"
 ---
 # <a name="budget-control-overview"></a>Обзор бюджетного контроля
 
@@ -127,6 +126,3 @@ ms.locfileid: "4447420"
 С этой страницы пользователи могут детализировать в страницу **Статистика бюджетного контроля по периоду**, чтобы посмотреть сведения и резервирования доступности бюджета для выбранной комбинации аналитик бюджетного контроля. Пользователи могут также детализировать в страницу **Статистика бюджетного контроля** для просмотра доступности бюджета для всех комбинаций финансовых аналитик, используемых в бюджетном контроле. 
 
 Если бюджетный контроль включен для заказов на покупку, то менеджер бюджета может использовать Рабочую область **Бюджеты и прогнозы главной книги**, чтобы посмотреть очередь всех неподтверждённых заказов на покупку с предупреждениями и ошибками проверки бюджета. Если для менеджера бюджета настроены разрешения превышения бюджета, заказ на покупку можно подтверждать прямо в рабочей области.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
