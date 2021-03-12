@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92f984818cd4f98d410112a1c85b45378aa7d909
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e7db673a1e41f86fb1c98bb5b008b0e7a3dad9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408512"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002758"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 
@@ -137,6 +136,3 @@ ms.locfileid: "4408512"
 12. Для просмотра созданного отчета выберите кнопку **Вложения** (символ скрепки) в верхнем правом углу страницы. Затем выберите **Открыть**, чтобы открыть файл.
 
 Необходимо также вручную отправить созданный файл в специальное программное обеспечение независимых разработчиков для предварительного просмотра данных и обновления данных, а также для передачи файлов бухгалтерской отчетности в налоговые органы по каналам связи.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

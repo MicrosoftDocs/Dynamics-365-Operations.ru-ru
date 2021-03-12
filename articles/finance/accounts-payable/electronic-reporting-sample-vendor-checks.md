@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a5c14f9529d11898e43f128c26859fc17fac9b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50dbc8c3c2d95ca4ec0dab02e9f790c06e4dbc63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447313"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003507"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Электронная отчетность для образцов чеков поставщика
 
@@ -44,6 +43,3 @@ Microsoft Dynamics 365 Finance включает формат образца, г�
 - При создании платежей для настроенного банковского счета в журнале платежей, чеки будут напечатаны в указанном формате.
 
 Дополнительные сведения см. в разделе [Изменение формата электронной отчетности](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

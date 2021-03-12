@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 067fdcd49a08862939cece7defd83dffb883d4cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67754cfc11eae76f817327885dae78586dfcbc83
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408586"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002734"
 ---
 # <a name="credit-note-corrections-russia"></a>Корректировки кредит-нот (Россия)
 
@@ -88,6 +87,3 @@ ms.locfileid: "4408586"
 
 ### <a name="post-vendor-invoices-as-credit-corrections"></a>Разноска накладных поставщика как коррекций кредита
 На странице **Открытые накладные поставщиков** вы можете создавать и разносить накладные поставщика в качестве корректировок по кредитам для проводок номенклатур возврата. Процедура похожа на процедуру разноски сторнированной проводки для кредит-ноты по заказу на покупку ранее в этой теме.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

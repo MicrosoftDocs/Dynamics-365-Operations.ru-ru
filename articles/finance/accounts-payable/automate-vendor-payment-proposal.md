@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4447423"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003586"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Автоматизация предложений по оплате поставщикам
 
@@ -144,6 +143,3 @@ ms.locfileid: "4447423"
 | Запрос событий расписания | Сотрудник по платежам расчетов с поставщиками, сотрудник по централизованным платежам расчетов с поставщиками | Эта обязанность предоставляет права на просмотр событий автоматизации предложений по оплате с учетом следующих привилегий:<ul><li>Просмотр событий расписания</li><li>Просмотр еженедельного представления событий</li></ul> |
 | Запрос по сериям расписания      | Не допускается                                                                       | Эта обязанность предоставляет права на просмотр настроек серий и событий с учетом следующих привилегий:<ul><li>Просмотр событий расписания</li><li>Просмотр страницы списка событий</li><li>Просмотр еженедельного представления событий</li></ul>|
 | Ведение событий расписания     | Не допускается                                                                       | Эта обязанность предоставляет права на создание и ведение события с помощью следующих привилегий:<ul><li>Ведение событий расписания</li><li>Просмотр еженедельного представления событий</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b866aa50f5f2447f1885ba1dde8a95e14d2160b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: edf608230d4e2032f0f3826b493237e27059dbad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408513"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002764"
 ---
 # <a name="account-activity-reports"></a>Отчеты по обороту по счету
 [!include [banner](../includes/banner.md)]
@@ -219,6 +218,3 @@ ms.locfileid: "4408513"
 > - Выберите ячейку "итого", чтобы открыть проводки по всем счетам, включенным в диапазон указанного итогового счета и создавшим оборот на итоговом счете.
 > - Щелкните **Выбрать** для изменения параметров создания отчета.
 > - Выберите **Печать**, чтобы напечатать отчет в Excel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

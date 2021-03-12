@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f7e5be1540c0b76ee95bc2f445ca5ba017010435
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89fc34c90a18f9e5d09b8ae87d3633a80f08dc39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408566"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002689"
 ---
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 
@@ -82,6 +81,3 @@ ms.locfileid: "4408566"
 1. Выберите **Основные средства (Россия)** \> **Периодические операции** \> **Формирование штрих-код из инв. номера ОС**.
 2. На экспресс-вкладке **Включаемые записи** выберите **Фильтр**, затем в диалоговом окне **Активы** введите критерии, которые используются для выбора основных средств. Затем выберите **OK**, чтобы вернуться в диалоговое окно **Формирование штрих-код из инв. номера ОС**.
 4. Нажмите **ОК**. Если не указан штрих-код для основного средства, значение, указанное в поле **Инвентарный номер ОС** появится в поле **Штрих-код** на странице **Основные средства** (**Основные средства (Россия)** \> **Обычные** \> **Основные средства**).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

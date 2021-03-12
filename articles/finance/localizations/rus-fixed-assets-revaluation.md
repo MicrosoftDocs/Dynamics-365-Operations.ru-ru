@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d69fc8da24427f4d3e1e4cf49285bd750c178d43
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3747683f880807abcc150819bddfb9014b07cc68
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408564"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002683"
 ---
 # <a name="revaluate-fixed-asset-cost-and-depreciation-russia"></a>Переоценка стоимости основных средств и амортизация (Россия)
 
@@ -71,6 +70,3 @@ ms.locfileid: "4408564"
 11. Выберите **Журнал ОС**, затем, на странице **Журнал ОС**, выберите **Строки**. На странице **Проводка по ваучеру** отображаются проводки переоценки. Эти проводки можно при необходимости исправить.
 12. Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.
 13. Проверьте баланс в модели стоимости (**Основные средства (Россия)** \> **Основные средства** \> **Модели учета** \> **Баланс**). Значения в полях **Переоценка стоимости** и **Переоценка амортизации** будут обновлены.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

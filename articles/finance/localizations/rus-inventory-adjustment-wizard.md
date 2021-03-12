@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 692e468c99aa7a796c2f58f13c11601a64107c26
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecd409ed77a0d20ef1b2679c74409321d68a0237
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408559"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005723"
 ---
 # <a name="inventory-adjustment-wizard"></a>Мастер корректировки запасов
 
@@ -217,6 +216,3 @@ ms.locfileid: "4408559"
 10. Выполните остальные шаги настройки, как описано в разделе [Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов](#adjust-item-cost-using-inventory-adjustment-wizard). Повторите операцию распределения для всех складов и аналитик, для которых необходимо выполнить распределение.
 
 Как вы видите, система позволяет определить сумму корректировки на основе сальдо счета в контексте аналитик. Ее можно также распределить по себестоимости запасов или складских приемок.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

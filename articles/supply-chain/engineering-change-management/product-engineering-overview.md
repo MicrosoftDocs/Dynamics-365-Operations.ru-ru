@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f1aa04b472eaef7ed398f08a05d46bac2d589561
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001956"
 ---
 # <a name="engineering-change-management-overview"></a>Обзор управления техническими изменениями
 
@@ -59,6 +58,3 @@ ms.locfileid: "4514358"
 1. Перейдите в раздел **Администрирование системы \> Настройка \> Конфигурация лицензии**.
 1. Разверните узел **Торговля** и установите флажок **Управление техническими изменениями**.
 1. Выключите режим обслуживания, как описано в разделе [Режим обслуживания](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: v-lenest
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 87c6843613e4a4dbdea10fd0d18b0766af1f2e04
-ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
+ms.openlocfilehash: 4bca1ceb6150f954f1f83854bd4a664c33e429d7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4515149"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002719"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 
@@ -288,6 +287,3 @@ ms.locfileid: "4515149"
 
 17. Утвердите журнал, затем создайте журнал налоговых регистров для двух месяцев 2019 календарного года.
 18. Рассчитайте регистры. В регистре **Расходы будущих периодов** должна отобразиться та же строка, которая была показана в регистре **Расходы будущих периодов** за один месяц. Однако в поле **Сумма месяцев** будет установлено значение **2,00** вместо **1,00**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

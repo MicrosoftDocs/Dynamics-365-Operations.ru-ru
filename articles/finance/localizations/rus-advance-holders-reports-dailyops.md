@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: ede6df7778945d64e7e011ae5ae88b517f820f5a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5c489833fec619aedc21c18f14a0ac0ec542bf9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408511"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002752"
 ---
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 
@@ -61,6 +60,3 @@ ms.locfileid: "4408511"
 ## <a name="accounting-distributions-and-subledger-journals"></a>Распределения по бухгалтерским счетам и журналам субкниги
 
 Строки журнала субкниги — это записи ГК, разнесенные в главную книгу с помощью общего журнала. Можно создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков. Перед разноской сведения о поставщике в главной книге можно просмотреть или изменить журналы субкниги с помощью метода распределения. Этот метод позволяет распределить суммы разноски между несколькими финансовыми аналитиками. В зависимости от разрешений пользователя можно также изменить номер счета ГК или значения финансовых аналитик по умолчанию. Распределения служат в качестве интерфейса в журналы субкниги и содержат только одну сторону учетной записи.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

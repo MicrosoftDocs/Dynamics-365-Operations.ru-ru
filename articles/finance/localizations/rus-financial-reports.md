@@ -9,17 +9,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cb784c316c23c6e693896590fdbc953e1386d7fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: abe030bc568dfb83adfa43c379a2ca433b9dda73
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005732"
 ---
 # <a name="financial-reporting-russia"></a>Финансовая отчетность (Россия)
 
@@ -323,6 +322,3 @@ ms.locfileid: "4408573"
 9. Выберите **Создать отчет** для выполнения формата электронной отчетности для финансового отчета.
 10. Если появится запрос, введите параметры пользователя в диалоговом окне.
 11. Просмотрите созданный файл в области **Вложения**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

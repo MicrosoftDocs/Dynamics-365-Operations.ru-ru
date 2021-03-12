@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4cce18cb7ea7d6bb20d55a9d5eb5cabb8d42d603
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fc05ff37e01f4d5d16ce7f3b8cd4e554d5ffc80
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408510"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002755"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 
@@ -244,6 +243,3 @@ ms.locfileid: "4408510"
 2. В поле **Дата проводки** выберите дату проводки по подотчетному лицу. Все проводки, сопоставленные до этой даты, будут реверсированы.
 3. На экспресс-вкладке **Включаемые записи** определите дополнительную фильтрацию проводок, сопоставления которых требуется отменить.
 4. Выберите **ОК** для отмены периодического сопоставления.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

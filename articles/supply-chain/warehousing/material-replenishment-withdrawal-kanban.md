@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436354"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004489"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Пополнение канбанами изъятия
 
@@ -87,6 +86,3 @@ ms.locfileid: "4436354"
 
 После потребления канбана в местонахождении получения из производства канбан регистрируется как пустой и новый канбан добавляется в поток. При создании канбана строка волны добавляется к волне канбана. При обработке волны канбана создается работа склада для комплектации канбана. Работник склада обрабатывает работу для комплектации канбана и направляется работой на комплектацию материала для канбана в местонахождении склада. Когда работник склада подтверждает комплектацию, канбан автоматически выполняется, и работник склада направляется на комплектацию материала в местонахождение получения из производства.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

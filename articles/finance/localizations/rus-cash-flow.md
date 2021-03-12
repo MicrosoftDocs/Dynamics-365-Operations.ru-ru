@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 105263afede1d8d5a05b5c7412f52c0d81486f29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a74c37664e5a6a59ebf1d9607b4e5405f9d6dc3b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408588"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002743"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 
@@ -646,6 +645,3 @@ ms.locfileid: "4408588"
 Стандартная функция предложения по оплате будет обрабатывать открытые проводки, связанные с платежным требованием, имеющим статус **Принято**.
 
 Алгоритм предложения по оплате включает дополнительные изменения, которые применяются при использовании платежных требований. Система учитывает профиль разноски, значение параметра **Предоплата** и реквизиты платежного поручения, которые заполняются по платежному требованию.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

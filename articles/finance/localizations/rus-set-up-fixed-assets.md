@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3100f9bf4b6c070f3970e3fd545772ac694ca438
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 37c05dc2db54ea5b51e994594c217796cd7723e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408529"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002677"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 
@@ -205,6 +204,3 @@ ms.locfileid: "4408529"
 15. На вкладке **Документ** выберите код анализа и настройте номерные серии для документов по ОС.
 16. На вкладке **Финансовые аналитики** выберите коды финансовой аналитики для проводок с основными средствами.
 17. На вкладке **Номерные серии** выберите номерную серию для параметров **Инвентарный номер ОС**, **Штрих-код**, **Переоценка ОС**, **Инвентаризация ОС**, **Перемещение ОС**, **Списание по состоянию** и **Номер журнала регистров налога на имущество**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

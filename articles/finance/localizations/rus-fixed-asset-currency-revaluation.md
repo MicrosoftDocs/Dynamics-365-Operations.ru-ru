@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5d80e4f7b957eb0ebb0fc76d550c8b970ca53683
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8926c4b931cf426b15c766f34237228d3eaae0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408571"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002701"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 
@@ -54,6 +53,3 @@ ms.locfileid: "4408571"
 ## <a name="reverse-revaluation-transactions"></a>Реверсирование проводок переоценки
 
 Проводки переоценки реверсируются так же, как проводки приобретения (проводки ввода в эксплуатацию). Создается две проводки: проводка переоценки стоимости и проводка переоценки амортизации.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

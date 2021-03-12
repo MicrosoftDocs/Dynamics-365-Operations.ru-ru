@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436061"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001807"
 ---
 # <a name="calendars-and-master-planning"></a>Календари и сводное планирование
 
@@ -143,6 +142,3 @@ ms.locfileid: "4436061"
 
 ### <a name="updating-scm-related-calendars"></a>Обновление календарей, связанных с SCM
 Хотя важно, что все соответствующие календари были назначены своим соответствующим местам (поставщик, клиент, склад, способ поставки или группа покрытия), также очень важно обновлять их для отражения изменений. Система определяет даты заказов на производство, перемещение, покупку и продажу в зависимости от комбинации назначенных календарей. Рекомендуется четко задать, кто отвечает за назначение и обновление календарей в соответствующих областях. В случае аварии или других необычных изменений рабочих дней очень важно обновить календари в соответствии с этим. Все задачи, которые зависят от календарей, например сводное планирование и планирование производства, необходимо снова запустить при обновлении календарей. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

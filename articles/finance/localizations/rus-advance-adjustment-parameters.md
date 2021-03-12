@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: a126e58e4fe28bc3c3f96d696404a232a01fc447
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: da388b1d1cb295e7421710da139765209ed835ff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408595"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002761"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 
@@ -87,6 +86,3 @@ ms.locfileid: "4408595"
 - Выберите **Ваучер**, чтобы открыть страницу **Проводки ваучера**, где можно просмотреть проводки, которые были выполнены в главной книге.
 - Выберите **Проводки**, чтобы открыть страницу **Проводки по подотчетным лицам**, где можно просмотреть проводки, которые были выполнены для подотчетного лица.
 - Выберите **Проверено**, чтобы пометить выбранную строку как проверенную.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

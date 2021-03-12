@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447412"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003264"
 ---
 # <a name="impair-right-of-use-assets"></a>Снижение стоимости активов в форме права пользования
 
@@ -102,6 +101,3 @@ ms.locfileid: "4447412"
 7. Чтобы просмотреть чистый эффект обесценения, перейдите в таблицы проводок по обязательствам и активам. Обратите внимание, что расходы обесценения уменьшили актив ФПП, но учетная сумма обязательств по аренде не изменилась.
 
 У такого обесценения есть другой эффект, который следует учитывать. Так как сумма актива ФПП в данный момент намного меньше, чем арендное обязательство, сумма должна амортизироваться не так, как раньше. В частности, актив теперь амортизируется по линейному закону в течение оставшихся 84 месяцев аренды, начиная с даты проводки.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
