@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: ff0aa5fd0b78814dfa5bb00d6d5ef2984c566d14
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447403"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971411"
 ---
 # <a name="configure-lease-parameters"></a>Настройка параметров аренды
 
@@ -46,6 +45,3 @@ ms.locfileid: "4447403"
 
     > [!NOTE]
     > Рекомендуется оставить для этого параметра значение **Нет**. Настройка этого параметра используется в качестве проверки и управления, чтобы предотвратить случайную амортизацию закрытой версии книги. Если для параметра установлено значение **Нет**, вы помогаете сохранить точные расчеты остаточной стоимости и будущей амортизации.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

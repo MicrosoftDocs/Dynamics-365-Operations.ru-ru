@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447357"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972256"
 ---
 # <a name="accounting-distributions"></a>Распределение по бухгалтерским счетам
 
@@ -57,6 +56,3 @@ ms.locfileid: "4447357"
 В версии 10.0.13 была добавлена функция, которая проверяет таблицу распределения бухгалтерских данных, чтобы убедиться, что новые поля правильно настроены. Этот компонент называется **Включение дополнительной проверки данных для документов, использующих структуру учета исходных документов**. Чтобы использовать эту функцию, ее необходимо включить с помощью рабочей области **Управление функциями**. Чтобы включить функцию, выполните поиск имени функции в поле **Поиск** на странице **Управление функциями**, затем выберите **Включить**.
 
 Подробнее см. в разделе [Распределения по счетам и записи в журнале субкниги для накладных поставщика](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

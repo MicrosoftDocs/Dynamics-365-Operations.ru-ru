@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bbfb6537118a9936c127018427b0516e7ea002a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447222"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971536"
 ---
 # <a name="review-collections-information"></a>Просмотр сведений о сборах
 
@@ -143,6 +142,3 @@ ms.locfileid: "4447222"
 5. Выберите **Показать список**.
 - Выберите счет клиента или подтвердите запись по умолчанию. По умолчанию это выбранный счет клиента на странице списка или в форме, из которой была открыта форма. При открытии формы со страницы списка клиенты в списке являются клиентами, которые включены в пул сборов, используемый на странице списка.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

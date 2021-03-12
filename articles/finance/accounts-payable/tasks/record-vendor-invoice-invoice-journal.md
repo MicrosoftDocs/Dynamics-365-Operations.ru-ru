@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 18d8b74bd8783c23e548a3185414d1461bc1d869
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645289"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971836"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Регистрация накладной поставщика в журнале накладных
 
@@ -49,6 +48,3 @@ ms.locfileid: "4645289"
 12. Щелкните **Разнести**.
 13. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4402759b3bf0cc61fded697c66eab6dc6b429664
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65b7286ff7cfc9eb0d3f5f76ac94470bd964ab3d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415262"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972870"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Каталог обучения для лиц, принимающих технические решения и бизнес-решения, с Dynamics 365 Commerce
 
@@ -36,6 +35,3 @@ ms.locfileid: "4415262"
 | [Значение Microsoft Dynamics 365 и Power Platform для бизнеса](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Этот курс обучения начинается с демонстрации того, как цифровое преобразование и возможности бизнес-приложений могут преобразовать ваш бизнес. Будет рассмотрено, как Dynamics 365 и Power Platform помогают принимать обоснованные решения на основе потребностей и целей вашей организации, с помощью четырех строительных блоков цифрового преобразования — современных, унифицированных, интеллектуальных и адаптируемых.                  | Бесплатный путь онлайн-обучения в произвольном темпе                                          | 6.5 часов   |
 | [Начало работы с Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                       | Dynamics 365 Commerce— основана на проверенных возможностях Dynamics 365 Retail и предоставляет полноценное многоканальное решение, объединяющее в себе бэк-офис, магазин, центр обработки вызовов и работу в цифровой среде. Dynamics 365 Commerce позволяет создавать лояльность к торговым маркам с помощью персонализированных взаимодействий с клиентами, увеличить выручку с учетом повышенной продуктивности работы сотрудников, оптимизировать операции для снижения затрат и повышения эффективности цепочки поставок , в конечном итоге обеспечивая лучшие деловые результаты. | Бесплатный путь онлайн-обучения в произвольном темпе                                          | 2 часов   |
 | [Начало работы с Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection — это облачное решение, предназначенное для электронной коммерции, физических и многоканальных магазинов, помогающее защитить свой доход и репутацию, предоставляя средства и возможности для уменьшения мошенничества и нарушений, уменьшая эксплуатационные расходы и повышая уровень привлечения, защищая учетные записи пользователей от мошенничества. | Бесплатный путь онлайн-обучения в произвольном темпе | 35 минут |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

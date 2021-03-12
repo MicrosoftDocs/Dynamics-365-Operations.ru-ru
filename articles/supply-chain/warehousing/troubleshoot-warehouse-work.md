@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a00ae517ff583e4231099d8e9f5d5b5a696cf7f7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 3015ec777953cedb5a5d8eea873ed1043cac04cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645801"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970251"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Устранение неполадок работы склада
 
@@ -50,6 +49,3 @@ ms.locfileid: "4645801"
 ### <a name="issue-resolution"></a>Устранение проблемы
 
 Корпорация Майкрософт проверила эту проблему и определила, что она является ограничением функции. В настоящее время процессы управления складом поддерживают только запасы, которыми владеет юридическое лицо.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

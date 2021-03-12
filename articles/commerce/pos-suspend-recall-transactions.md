@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f513e2d857908f2b95d27bf48ff1e826724d7cbf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 823d538bea481aef4f3657fe0ae1ebb3b0cf759c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415322"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972538"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Приостановка и возобновление транзакции в POS
 
@@ -82,6 +81,3 @@ POS можно настроить для создания печатного б�
 ### <a name="void-a-suspended-transaction"></a>Аннулирование приостановленной проводки
 
 Можно аннулировать приостановленные проводки, либо вызвав проводку с последующим выполнением операции **Аннулировать проводку**, либо выбрав проводку в списке **Отозвать проводку** и выбрав **Аннулировать** на панели приложения. Кроме того, можно настроить магазин, чтобы пользователям предлагалось аннулировать приостановленные проводки при закрытии смены.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

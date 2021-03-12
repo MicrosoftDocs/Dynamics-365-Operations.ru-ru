@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447405"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971486"
 ---
 # <a name="asset-leasing-reports"></a>Отчеты об аренде активов
 
@@ -165,6 +164,3 @@ ms.locfileid: "4447405"
 |     Валютное                          |     Сокращение для использованной валюты проводки. Все отчеты преобразуют валюту проводки в валюту отчетности.  |
 |     Осталось арендных платежей          |     Общая сумма неоплаченных арендных платежей по графику платежей, остающихся с даты **По состоянию на**.            |
 |     Взвешенные оставшиеся платежи       |     Оставшиеся платежи по аренде, умноженные на использованный коэффициент дисконтирования.   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

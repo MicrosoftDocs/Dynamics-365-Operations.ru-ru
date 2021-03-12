@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d8aa4963026ad55ed3dfccb28b6cc68a872f326
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2500bdaa7107c24f7cb95249208b7ac2a2958fed
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447096"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971561"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Создание последовательности писем-напоминаний
 
@@ -59,6 +58,3 @@ ms.locfileid: "4447096"
 26. Разверните экспресс-вкладку **Примечание**.
 27. Введите текст, который будет отображаться в письме-напоминании для выбранного кода письма-напоминания. Этот текст можно перевести на несколько языков с помощью меню "Переводы" над полем примечания.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

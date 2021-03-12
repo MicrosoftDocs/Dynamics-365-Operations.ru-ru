@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
-ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
+ms.openlocfilehash: f29e90e1c61792c70d4d6eaeee7758676bf193b2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "4584323"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972501"
 ---
 # <a name="price-adjustments-and-discounts"></a>Корректировки цены и скидки
 
@@ -51,6 +50,3 @@ ms.locfileid: "4584323"
 - **Скидка на доставку** — скидка, которая применяется, когда общая сумма проводки превышает указанную сумму и конкретный способ поставки (например, поставка через два дня или на следующий день) используется для данного заказа.
 
 Корректировки цен и скидки можно связать с ценовыми группами. Ценовые группы можно затем связать с каналами, каталогами, назначениями и программами лояльности.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

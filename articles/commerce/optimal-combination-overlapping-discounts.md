@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415250"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972715"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Определения оптимального сочетания пересекающихся скидок
 
@@ -84,6 +83,3 @@ ms.locfileid: "4415250"
 ![Формула для расчета маржинального значения](./media/overlapping-discount-combo-06.jpg)
 
 После расчета маржинального значения каждого скидки на общем наборе продуктов скидки применяются к общим продуктом по порядку, строго, от максимального маржинального значения до минимального маржинального значения. В этом методе все остальные варианты скидки не сравниваются каждый раз после применения одного экземпляра скидки. Вместо этого пересекающиеся скидки сравниваются один раз и затем применяются по порядку. Дополнительные сравнения не выполняются. Пороговое значение для переключения на метод маржинальных значений можно настроить на вкладке **Скидка** на странице **Параметры Commerce**. Допустимое время расчета общей скидки зависит от отрасли розничной торговли. Однако обычно это время лежит в диапазоне от десятков миллисекунд до одной секунды.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
