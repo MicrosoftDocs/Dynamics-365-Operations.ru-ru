@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
@@ -19,32 +18,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f50d9f2f7249ecb4090983e245d4700020e0886
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436275"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005185"
 ---
-# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="455d9-103">Развертывание версии спецификации</span><span class="sxs-lookup"><span data-stu-id="455d9-103">Explosion of a BOM version</span></span>
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="af437-103">Развертывание версии спецификации</span><span class="sxs-lookup"><span data-stu-id="af437-103">Explosion of a BOM version</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="455d9-104">В этой статье объясняется сценарий сводного планирования, который включает в себя развертывание версии спецификации (BOM).</span><span class="sxs-lookup"><span data-stu-id="455d9-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
+<span data-ttu-id="af437-104">В этой статье объясняется сценарий сводного планирования, который включает в себя развертывание версии спецификации (BOM).</span><span class="sxs-lookup"><span data-stu-id="af437-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-<span data-ttu-id="455d9-105">Развертывание спроса версии спецификаций приводит к созданию спроса по каждой номенклатуре строки спецификаций на определенном сайте и, возможно, на определенном складе.</span><span class="sxs-lookup"><span data-stu-id="455d9-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="455d9-106">Для спецификации сайта может быть определен конкретный склад для каждой строки спецификаций.</span><span class="sxs-lookup"><span data-stu-id="455d9-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="455d9-107">Кроме того, для каждой строки спецификаций настройки аналитики номенклатуры определяют, требуется ли склад.</span><span class="sxs-lookup"><span data-stu-id="455d9-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="455d9-108">Этот итоговый спрос по каждой номенклатуре строки спецификации становится, в свою очередь, исходной точкой для дополнительного развертывания спроса.</span><span class="sxs-lookup"><span data-stu-id="455d9-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="455d9-109">Этот сценарий сводного планирования включает следующие условия:</span><span class="sxs-lookup"><span data-stu-id="455d9-109">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="af437-105">Развертывание спроса версии спецификаций приводит к созданию спроса по каждой номенклатуре строки спецификаций на определенном сайте и, возможно, на определенном складе.</span><span class="sxs-lookup"><span data-stu-id="af437-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="af437-106">Для спецификации сайта может быть определен конкретный склад для каждой строки спецификаций.</span><span class="sxs-lookup"><span data-stu-id="af437-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="af437-107">Кроме того, для каждой строки спецификаций настройки аналитики номенклатуры определяют, требуется ли склад.</span><span class="sxs-lookup"><span data-stu-id="af437-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="af437-108">Этот итоговый спрос по каждой номенклатуре строки спецификации становится, в свою очередь, исходной точкой для дополнительного развертывания спроса.</span><span class="sxs-lookup"><span data-stu-id="af437-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="af437-109">Этот сценарий сводного планирования включает следующие условия:</span><span class="sxs-lookup"><span data-stu-id="af437-109">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="455d9-110">Аналитика площадки является обязательной и должна вводится по проводке запроса.</span><span class="sxs-lookup"><span data-stu-id="455d9-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="455d9-111">Аналитика площадки является непротиворечивой.</span><span class="sxs-lookup"><span data-stu-id="455d9-111">The site dimension is consistent.</span></span> <span data-ttu-id="455d9-112">Поэтому площадка для запросов нижних уровней - та же, что и площадка для первоначальной проводки запросов.</span><span class="sxs-lookup"><span data-stu-id="455d9-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
+-   <span data-ttu-id="af437-110">Аналитика площадки является обязательной и должна вводится по проводке запроса.</span><span class="sxs-lookup"><span data-stu-id="af437-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="af437-111">Аналитика площадки является непротиворечивой.</span><span class="sxs-lookup"><span data-stu-id="af437-111">The site dimension is consistent.</span></span> <span data-ttu-id="af437-112">Поэтому площадка для запросов нижних уровней - та же, что и площадка для первоначальной проводки запросов.</span><span class="sxs-lookup"><span data-stu-id="af437-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-<span data-ttu-id="455d9-113">На следующей иллюстрации показан процесс развертывания спроса сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="455d9-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Развертывание спроса с использованием версии спецификации](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="af437-113">На следующей иллюстрации показан процесс развертывания спроса сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="af437-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Развертывание спроса с использованием версии спецификации](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a><span data-ttu-id="455d9-115">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="455d9-115">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="af437-115">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="af437-115">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="455d9-116">Определение версии спецификации</span><span class="sxs-lookup"><span data-stu-id="455d9-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="af437-116">Определение версии спецификации</span><span class="sxs-lookup"><span data-stu-id="af437-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
-[<span data-ttu-id="455d9-117">Обзор сводного планирования и функции работы с несколькими узлами</span><span class="sxs-lookup"><span data-stu-id="455d9-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="af437-117">Обзор сводного планирования и функции работы с несколькими узлами</span><span class="sxs-lookup"><span data-stu-id="af437-117">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
 
 
 
