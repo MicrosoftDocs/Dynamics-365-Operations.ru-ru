@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415315"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985719"
 ---
 # <a name="set-up-retail-products"></a>Настройка розничных продуктов
 
@@ -40,6 +39,3 @@ ms.locfileid: "4415315"
 4. **Добавьте продукты в ассортименты.** Ассортимент представляет набор продуктов, которые вы предлагаете в ваших каналах торговли. Можно определить один или несколько ассортиментов, каждый продукт может быть назначен одному или нескольким ассортиментам. Чтобы назначить продукты каналам, нужно назначить им ассортименты. При создании ассортимента продукты, которые еще не были предоставлены юридическим лицам, можно добавить в ассортимент. Однако чтобы продукты стали доступны для каналов, их нужно предоставить юридическим лицам.
 5. **Добавьте продукты к иерархиям навигации.** Прежде чем продукты можно будет просматривать по Интернету или в пункте продажи (POS), их необходимо классифицировать в навигационной иерархии Commerce.
 6. **Добавьте продукты в каталоги.** Хотя этот шаг необязателен для пункта продаж (POS), интернет-магазины требуют, чтобы продукты были включены по крайней мере в один каталог.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Создание исходного бюджета, а затем реверсирование предварительных записей бюджета для государственного сектора
-description: При создании записи исходного бюджета и использовании бюджетной модели и значений аналитики, которые содержат предварительные бюджетные суммы, предварительные бюджетные суммы можно реверсировать.
+description: В этой теме приводятся сведения о создании и сторнировании исходной записи бюджета с использованием модели бюджета и значений аналитик, которые имеют предварительные бюджетные суммы.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 134e2ca851d72965198026107817c66a808ac705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447294"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987962"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Создание исходного бюджета, а затем реверсирование предварительных записей бюджета для государственного сектора
 
@@ -51,6 +50,3 @@ ms.locfileid: "4447294"
     * Чтобы выбрать дополнительные параметры, щелкните значок "Разблокировать" в верхней части страницы.  
 18. Щелкните Обновить.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, SysClientPolymorphicCreateSelector, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411e20bd8631b70df981c5785f502693d5ba3705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436052"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987137"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Добавление ограничения выражения к модели конфигурации продукта
 
@@ -44,13 +43,10 @@ ms.locfileid: "4436052"
 ## <a name="enter-expression"></a>Ввести выражение
 1. Щелкните "Изменить выражение".
     * Если вы разблокируете интерфейс в записи задач на этом этапе, можно использовать IntelliSense и список символов для построения выражения ограничения.  
-2. В поле "ConstraintBody" введите "Implies[FrontGrill=="Metal", CornerProtection]".
+2. В поле "ConstraintBody" введите в "Implies[FrontGrill=="Metal", CornerProtection]".
     * Логика этого выражения гласит: если передняя решетка металлическая, должен быть выбран параметр защиты углов.  
 3. Щелкните "Проверить".
     * Функция проверки выполняется через выражение ограничения и проверяет наличие синтаксических ошибок.  
 4. Щелкните "Закрыть".
 5. Нажмите кнопку "OК".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

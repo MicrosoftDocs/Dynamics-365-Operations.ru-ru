@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78943
 ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7a216b237052e084e7efac2580bf5ff9846d3127
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415313"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985684"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Настройка анализа новизны, частоты и денежных средств (RFM)
 
@@ -97,6 +96,3 @@ ms.locfileid: "4415313"
 2. На странице **RFM-анализ** выберите запись, которую требуется просмотреть.
 3. Чтобы просмотреть журнал записей, выберите экспресс-вкладку **История**.
 4. Чтобы очистить журнал записей, выберите **Очистить историю**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

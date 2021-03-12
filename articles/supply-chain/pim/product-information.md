@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527394"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987212"
 ---
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 
@@ -59,7 +58,7 @@ ms.locfileid: "4527394"
 
 Определение продукта можно создать в Supply Chain Management. Его также можно импортировать из систем управления жизненным циклом продуктов (PLM), управления данными о продуктах (PDM) или управления информацией о продуктах (PIM). При использовании нескольких экземпляров Supply Chain Management один из экземпляров обычно используется в качестве справочника данных по продуктам для всех остальных экземпляров. Такой подход обеспечивается большим набором информационных объектов, которые делают возможным экспорт и импорт данных определений продуктов из одного экземпляра в другой.
 
-Для поддержки распределения данных о продуктов по нескольким экземпляров Supply Chain Management позволяет использовать Common Data Service. Определения продуктов можно экспортировать из экземпляра Supply Chain Management в Common Data Service. Определения продуктов затем можно использовать для заполнения других бизнес-приложений, таких как Dynamics 365 Sales, данными о продуктах.
+Для поддержки распределения данных о продуктов по нескольким экземпляров Supply Chain Management позволяет использовать Microsoft Dataverse. Определения продуктов можно экспортировать из экземпляра Supply Chain Management в Microsoft Dataverse. Определения продуктов затем можно использовать для заполнения других бизнес-приложений, таких как Dynamics 365 Sales, данными о продуктах.
 
 Обратите внимание, что в динамических, гибких организациях информация о продуктах изменяется каждый день. Таким образом, ведение точных и актуальных данных о продуктах является важнейшим бизнес-процессом само по себе.
 
@@ -96,6 +95,3 @@ ms.locfileid: "4527394"
 ### <a name="manually-creating-a-new-released-product"></a>Создание нового выпущенного продукта вручную
 
 Вы можете вручную создать выпущенный продукт в рамках одной процедуры, в зависимости от бизнес-процессов организации и правил, определяющих, может ли использоваться эта функция. Эта функция позволяет создать новый продукт и автоматически выпустить его в текущее юридическое лицо. Чтобы создать новый продукт, щелкните **Выпущенные продукты** в рабочей области **Обслуживание выпущенного продукта** или на странице списка **Используемый продукт**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

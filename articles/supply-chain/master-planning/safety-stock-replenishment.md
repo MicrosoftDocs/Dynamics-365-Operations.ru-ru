@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435815"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987262"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Выполнение резервного запаса для номенклатур
 
@@ -116,6 +115,3 @@ ms.locfileid: "4435815"
 На этапе покрытия сводного планирования пополнение резервных запасов больше не имеет пониженный приоритет. Запасы в наличии могут использоваться до любых других типов спроса. Во время вычисления задержки новая логика будет добавлен для просмотра задержанных строки продаж, потребностей строк спецификации и всех другие типов спроса, чтобы определить, могут ли они быть доставлены в срок, при условии использования резервного запаса. Если система определяет, что может минимизировать задержки с помощью резервных запасов, то в строках продажи или строках спецификации их первоначальное покрытие будет заменено на резервный запас, и взамен система активирует пополнение резервного запаса.
 
 Если план и номенклатура не настроены для расчета задержки, то ограничение резервного запаса будет иметь тот же приоритет, что и любые другие типы спроса. Это означает, что имеется резервирование наличных запасов и других доступных запасов до других типов спроса.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

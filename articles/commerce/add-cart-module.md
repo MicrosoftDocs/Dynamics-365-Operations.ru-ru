@@ -3,7 +3,7 @@ title: Модуль корзины
 description: В этом разделе описываются модули корзины, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4415395"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985987"
 ---
 # <a name="cart-module"></a>Модуль корзины
 
@@ -53,6 +52,7 @@ ms.locfileid: "4415395"
 | Заголовок | Текст заголовка и метка заголовка (**H1**, **H2**, **H3**, **H4**, **H5** или **H6**) | Заголовок для корзины, например "Корзина" или "Товары в корзине". |
 | Показывать ошибки "Нет в наличии" | **True** или **False** | Если это свойство имеет значение **Истина**, страница корзины отобразит ошибки, связанные с запасами. Рекомендуется установить для этого свойства значение **Истина**, если для сайта установлены проверки запасов. |
 | Показывать накладные расходы на поставку для номенклатур строки | **True** или **False** | Если это свойство имеет значение **Истина**, для номенклатур строки корзины будут отображаться расходы на доставку, если эта информация доступна. Эта функция не поддерживается в теме "Fabrikam", поскольку пользователи выбирают отгрузку только в потоке оформления заказа. Однако эту возможность можно включить в другие workflow-процессы, если это применимо. |
+| Показывать доступные акции| **True** или **False** | Если это свойство имеет значение **True**, в корзине отображаются доступные рекламные акции на основе номенклатур в корзине. Эта возможность доступна в выпуске Dynamics 365 Commerce 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Модули, которые могут быть использованы в модуле корзины
 
@@ -117,6 +117,3 @@ ms.locfileid: "4415395"
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
 
 [Создание профиля функциональности для онлайн-торговли](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
