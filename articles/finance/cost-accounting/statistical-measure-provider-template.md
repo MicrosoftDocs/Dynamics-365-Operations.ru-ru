@@ -1,5 +1,5 @@
 ---
-title: Элементы статистической аналитики и шаблоны поставщика статистической меры
+title: Шаблоны поставщика для элементов статистической аналитики и поставщиков мер
 description: В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры. Элементы статистической аналитики могут использоваться в качестве базы распределения в таких политиках, как распределение затрат и распределение стоимости. Их также можно использовать для включения в отчетность потребления немонетарных ресурсов.
 author: AndersGirke
 manager: AnnBe
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969461"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Элементы статистической аналитики и шаблоны поставщика статистической меры
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Шаблоны поставщика для элементов статистической аналитики и поставщиков мер
 
 [!include [banner](../includes/banner.md)]
 
@@ -346,6 +345,3 @@ ms.locfileid: "4447311"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Базы распределения](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

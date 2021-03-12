@@ -3,14 +3,13 @@ title: Подготовка ознакомительной среды Dynamics 3
 description: В этой теме объясняется, как подготовить ознакомительную среду Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4415393"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969909"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Подготовка ознакомительной среды Dynamics 365 Commerce
 
@@ -131,6 +130,22 @@ ms.locfileid: "4415393"
 
 Если вы не можете найти ссылку **Управление** в представлении сведений о среде, обратитесь за помощью к своему контакту в Майкрософт.
 
+Во время процесса развертывания может появиться следующее сообщение об ошибке:
+
+> Ознакомительным (демонстрационные и тестовые) средам необходимо зарегистрировать приложение соединителя Scale Unit \<application ID\> в Headquarters.
+
+Если из-за сбоя инициализации устройства CSU появляется это сообщение об ошибке, запишите идентификатор приложения, который является глобальным уникальным идентификатором (GUID), затем выполните действия, указанные в следующем разделе, чтобы зарегистрировать приложение развертывания CSU в Commerce Headquarters.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Регистрация приложения развертывания CSU в Commerce headquarters (если необходимо)
+
+Чтобы зарегистрировать приложение развертывания CSU в Commerce headquarters, выполните следующие действия.
+
+1. В Commerce headquarters перейдите в раздел **Администрирование системы \> Настройка \> Приложения Azure Active Directory**.
+1. В столбце **Код клиента** введите код приложения из полученного сообщения об ошибке инициализации CSU.
+1. В столбце **Имя** введите любой описательный текст (например, **Оценка CSU**).
+1. В столбце **Код пользователя** введите **RetailServiceAccount**.
+1. Повторите инициализацию CSU и развертывание из LCS.
+
 ### <a name="initialize-e-commerce"></a>Инициализация электронной коммерции
 
 Чтобы инициализировать электронную коммерцию, выполните следующие действия.
@@ -176,6 +191,3 @@ ms.locfileid: "4415393"
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

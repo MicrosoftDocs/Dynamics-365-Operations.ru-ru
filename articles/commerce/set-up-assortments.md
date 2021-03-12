@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15811
 ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26614d319453041177e8072793f09f52ebfd51fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969834"
 ---
 # <a name="set-up-assortments"></a>Настройка ассортиментов
 
@@ -55,6 +54,3 @@ ms.locfileid: "4415337"
 2. Выберите каналы или общие группы каналов, в отношении которых действует ассортимент.
 3. Добавьте категории продуктов, отдельные продукты или варианты продуктов в ассортимент. Можно включить все продукты в конкретную категорию или исключить выбранные продукты из категории, включенной в ассортимент.
 4. Опубликуйте ассортимент. При публикации ассортимента автоматически запускается планировщик ассортимента. Этот процесс позволяет получить список продуктов. Когда этот процесс завершен, продукты становятся доступны каналам, которым назначен ассортимент продуктов. Если вносятся изменения в ассортимент, который был опубликован, или в каналы, которым назначен ассортимент, его необходимо обновить. Чтобы обновить ассортимент после внесения изменений можно запустить планировщик ассортимента как пакетное задание.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
