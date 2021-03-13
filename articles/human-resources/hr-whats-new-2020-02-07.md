@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (7 февраля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 7 февраля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0a45eed4e094cedb9d6d8ed0cb2bdc81eb31b76e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526959"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128121"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (7 февраля 2020 г.)
 
@@ -57,9 +57,9 @@ ms.locfileid: "4526959"
 
 Скоро будет доступно обновление платформы 32. [Дополнительные сведения об обновлении платформы 32 см. здесь](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>Обновленное решение Common Data Service
+### <a name="updated-dataverse-solution"></a>Обновленное решение Dataverse
 
-Новое решение Common Data Service будет доступно в ближайшее время со следующими изменениями:
+Новое решение Dataverse будет доступно в ближайшее время со следующими изменениями:
 
 | Описание | Изменение |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ ms.locfileid: "4526959"
 | Новые объекты настройки переменной компенсации | **Тип плана переменной компенсации**</br>**План переменной компенсации**</br>**Положения о передаче прав на льготы**</br>**Уровень плана переменной компенсации** |
 | Новый объект **Занятость по календарю работников** | Добавлено **Объект рабочего календаря** |
 | Новый объект **Сведения о позиции зарплаты** | Добавлено **Сведения о позиции зарплаты** |
-| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Common Data Service. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
+| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Dataverse. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
 
 ## <a name="see-also"></a>См. также
 
@@ -78,5 +78,3 @@ ms.locfileid: "4526959"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

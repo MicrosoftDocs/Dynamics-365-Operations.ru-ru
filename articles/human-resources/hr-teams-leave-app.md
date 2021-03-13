@@ -2,7 +2,7 @@
 title: Управление запросами на отпуск в Teams
 description: В этом разделе показано, как запросить отпуск в приложении Dynamics 365 Human Resources в Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4420328"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128169"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Управление запросами на отпуск в Teams
 
@@ -196,7 +196,6 @@ ms.locfileid: "4420328"
 | --- | --- |
 | При увеличении до 400% на рабочем столе скрываются из вида некоторые кнопки действий. | Рекомендуется использовать экранную лупу вместо этого, пока мы не сможем поддерживать этот уровень масштабирования. |
 | На вкладке **Отгулы** средство VoiceOver объявляет действие кнопки при чтении заголовка для сетки отгулов. | Заголовок и элементы в сетке группируются по годам, и их можно свернуть. Средство VoiceOver интерпретирует это как элемент действия, но это не так. |
-| При прокрутке, пока открыто всплывающее окно или меню, средство VoiceOver пропускает чтение содержимого всплывающего окна или меню. | Просматривайте содержимое с помощью сканирования пальцем. |
 | На вкладке **Отгулы** имеется дополнительный жест прокрутки при переходе к полю **Код причины** в новом запросе. | Нет скрытого элемента управления, к которому пытается перейти навигация при прокрутке. |
 | На вкладке **Отгулы** если вы проведите пальцем, когда календарь открыт, вы выходите за пределы элемента управления, а не переходите наверх в новом запросе или при редактировании запроса. | При достижении **К сегодняшней дате** считайте, что это конец элемента управления, и прокручивайте в обратном направлении, чтобы вернуться к началу. |
 | Средство VoiceOver не читает этикетки для дат. | Даты, которые указываются парами, всегда имеют вид **Дата начала** и **Дата окончания**. |
@@ -229,6 +228,3 @@ Dynamics 365 Human Resources передает сведения о запросе
 [Загрузка и установка Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Центр справки Microsoft Teams](https://support.office.com/teams)</br>
 [Приложение Human Resources в Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

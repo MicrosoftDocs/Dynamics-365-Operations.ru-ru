@@ -1,8 +1,8 @@
 ---
 title: Что нового или что изменилось в Dynamics 365 Human Resources (3 апреля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 3 апреля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b00ef61cdd7ceac6c6f57187a0e6c98e94c8cb71
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526794"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127929"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Что нового или что изменилось в Dynamics 365 Human Resources (3 апреля 2020 г.)
 
@@ -64,7 +64,7 @@ ms.locfileid: "4526794"
  - Уровень плана отпусков и отсутствий V2
  - План отпусков и отсутствий V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Решение Common Data Service теперь доступно со следующими изменениями:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Решение Dataverse теперь доступно со следующими изменениями:
 
 | описание | Изменение |
 | --- | --- |
@@ -76,18 +76,18 @@ ms.locfileid: "4526794"
 | Новые объекты настройки переменной компенсации | <ul><li>**Тип плана переменной компенсации**</li><li>**План переменной компенсации**</li><li>**Положения о передаче прав на льготы**</li><li>**Уровень плана переменной компенсации**</li></ul> |
 | Новый объект **Занятость по календарю работников** | <ul><li>Добавлено **Объект рабочего календаря**</li></ul> |
 | Новый объект **Сведения о позиции зарплаты** | <ul><li>Добавлено **Сведения о позиции зарплаты**</li></ul> |
-| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Common Data Service, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
+| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Dataverse, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
 
 > [!NOTE]
-> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Common Data Service. Обновления финансовых аналитик в данный момент не синхронизируются из Common Data Service в модуль Human Resources.
+> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Dataverse. Обновления финансовых аналитик в данный момент не синхронизируются из Dataverse в модуль Human Resources.
 
-В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Common Data Service для модуля Human Resources:
+В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Dataverse для модуля Human Resources:
 
 1.  Перейдите к [Центру администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Выберите **Среды**.
 
-3.  Найдите среду, которую требуется обновить. Среда должна соответствовать значению **Имя среды** в разделе **Сведения Common Data Service** в форме **Сведения** в модуле Human Resources.
+3.  Найдите среду, которую требуется обновить. Среда должна соответствовать значению **Имя среды** в разделе **Сведения Dataverse** в форме **Сведения** в модуле Human Resources.
 
 4.  Выберите среду, чтобы просмотреть сведения о среде.
 
@@ -137,5 +137,3 @@ ms.locfileid: "4526794"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (14 мая 2020 г.)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 14 мая 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528505"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127857"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (14 мая 2020 г.)
 
@@ -35,9 +35,9 @@ ms.locfileid: "4528505"
 
 Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений Finance and Operations (май 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Убедитесь, что списки выбора Common Data Service соответствуют перечислениям Отпуск (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Убедитесь, что списки выбора Dataverse соответствуют перечислениям Отпуск (436343)
 
-Теперь списки выбора Common Data Service соответствуют перечислениям Отпуск.
+Теперь списки выбора Dataverse соответствуют перечислениям Отпуск.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Разрешить пользователям настраивать workflow-процесс для запроса на отпуск на основе суммы запроса (300044)
 
@@ -75,7 +75,7 @@ ms.locfileid: "4528505"
 
 Благодаря этому изменению баннер "Приступая к работе" скрыт для пользователей, не являющихся системными администраторами или администраторами управления данными. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Объект адреса работника Common Data Service действует по-разному в отношении дат и времени дат вступления в силу в Human Resources (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Объект адреса работника Dataverse действует по-разному в отношении дат и времени дат вступления в силу в Human Resources (425071)
 
 Это изменение позволяет сохранить сведения об адресе, согласованные по определенным сценариям, на основе дат адреса.
 
@@ -119,5 +119,3 @@ ms.locfileid: "4528505"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

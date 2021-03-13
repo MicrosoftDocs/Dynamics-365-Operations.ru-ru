@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (03 февраля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 3 февраля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527010"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128145"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (3 февраля 2020 г.)
 
@@ -45,7 +45,7 @@ ms.locfileid: "4527010"
 
 ## <a name="coming-soon"></a>Скоро
 
-Новое решение Common Data Service будет доступно в ближайшее время со следующими изменениями:
+Новое решение Dataverse будет доступно в ближайшее время со следующими изменениями:
 
 | Описание | Изменение |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ ms.locfileid: "4527010"
 | Новые объекты настройки переменной компенсации | **Тип плана переменной компенсации**</br>**План переменной компенсации**</br>**Положения о передаче прав на льготы**</br>**Уровень плана переменной компенсации** |
 | Новый объект **Занятость по календарю работников** | Добавлено **Объект рабочего календаря** |
 | Новый объект **Сведения о позиции зарплаты** | Добавлено **Сведения о позиции зарплаты** |
-| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Common Data Service. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
+| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Dataverse. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
 
 ## <a name="see-also"></a>См. также
 
@@ -65,6 +65,3 @@ ms.locfileid: "4527010"
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

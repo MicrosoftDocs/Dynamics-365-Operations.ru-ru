@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (18 февраля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 18 февраля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526986"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128073"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (18 февраля 2020 г.)
 
@@ -43,17 +43,17 @@ ms.locfileid: "4526986"
 
 Плитки управления фиксированной и переменной компенсацией теперь отображают правильные записи в новой форме **Работник**. Применяется только к функции предварительного просмотра упрощенной формы сотрудника. Эту функцию предварительного просмотра можно включить в **управлении функциями**. Дополнительные сведения см. в разделе [Управление функциями](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Пустое поле статуса для некоторых записей запроса отпуска в Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Пустое поле статуса для некоторых записей запроса отпуска в Dataverse (414915)
 
-Это изменение исправляет проблему с Common Data Service, когда поле **Статус** в запросе отпуска установлено на **Просмотреть**. Common Data Service теперь отображает статус.
+Это изменение исправляет проблему с Dataverse, когда поле **Статус** в запросе отпуска установлено на **Просмотреть**. Dataverse теперь отображает статус.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Анализ несоответствия навыков возможен для назначенного задания (411390)
 
 Теперь можно выполнить анализ несоответствия навыков для любого задания, определенного в Управление персоналом.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Системная валюта не синхронизируется из Common Data Service с Управление персоналом в новых средах (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Системная валюта не синхронизируется из Dataverse с Управление персоналом в новых средах (418011)
 
-Системная валюта в Common Data Service теперь может синхронизироваться с Управление персоналом.
+Системная валюта в Dataverse теперь может синхронизироваться с Управление персоналом.
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра
 
@@ -63,9 +63,9 @@ ms.locfileid: "4526986"
 
 ## <a name="coming-soon"></a>Скоро
 
-### <a name="updated-common-data-service-solution"></a>Обновленное решение Common Data Service
+### <a name="updated-dataverse-solution"></a>Обновленное решение Dataverse
 
-Новое решение Common Data Service будет доступно в ближайшее время со следующими изменениями:
+Новое решение Dataverse будет доступно в ближайшее время со следующими изменениями:
 
 | Описание | Изменение |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ ms.locfileid: "4526986"
 | Новые объекты настройки переменной компенсации | **Тип плана переменной компенсации**</br>**План переменной компенсации**</br>**Положения о передаче прав на льготы**</br>**Уровень плана переменной компенсации** |
 | Новый объект **Занятость по календарю работников** | Добавлено **Объект рабочего календаря** |
 | Новый объект **Сведения о позиции зарплаты** | Добавлено **Сведения о позиции зарплаты** |
-| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Common Data Service. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
+| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Dataverse. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
 
 ## <a name="see-also"></a>См. также
 
@@ -84,5 +84,3 @@ ms.locfileid: "4526986"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

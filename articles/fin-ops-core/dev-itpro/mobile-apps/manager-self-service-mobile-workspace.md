@@ -1,6 +1,6 @@
 ---
 title: Мобильная рабочая группа "Моя группа"
-description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Пользователь может также отсылать благодарности лицам в рамках цепочки их отчетности.
+description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680978"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127553"
 ---
-# <a name="my-team-mobile-workspace"></a>Мобильная рабочая группа "Моя группа"
+# <a name="my-team-mobile-workspace"></a>Мобильная рабочая область «Моя группа»
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,6 +97,3 @@ ms.locfileid: "4680978"
 1.  Выберите **Отправить благодарность**. 
 1. Введите текст благодарности, который необходимо отправить. 
 1. Выберите **Готово**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
