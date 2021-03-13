@@ -1,6 +1,6 @@
 ---
 title: Отправка конфигурации в Lifecycle Services
-description: В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может создать новую конфигурацию электронной отчетности (ER) и отправить ее в Microsoft Dynamics Lifecycle Services (LCS).
+description: В этом разделе описывается, как создать новую конфигурацию электронной отчетности (ER) и отправить ее в Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,133 +15,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684171"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092549"
 ---
-# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="9d689-103">Отправка конфигурации в Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="9d689-103">Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="113ba-103">Отправка конфигурации в Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="113ba-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9d689-104">В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может создать новую [конфигурацию электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) и отправить ее в [библиотеку ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="9d689-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="113ba-104">В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может создать новую [конфигурацию электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) и отправить ее в [библиотеку ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="113ba-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="9d689-105">В этом примере вам предстоит создать конфигурацию и отправить ее в LCS для демонстрационной компании под названием Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности являются общими для всех компаний.</span><span class="sxs-lookup"><span data-stu-id="9d689-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="9d689-106">Для выполнения этих шагов необходимо сначала выполнить шаги в теме [Создание поставщиков конфигурации и установка их в качестве активных](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="9d689-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="9d689-107">Также требуется доступ к LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-107">Access to LCS is also required.</span></span>
+<span data-ttu-id="113ba-105">В этом примере вам предстоит создать конфигурацию и отправить ее в LCS для демонстрационной компании под названием Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности являются общими для всех компаний.</span><span class="sxs-lookup"><span data-stu-id="113ba-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="113ba-106">Для выполнения этих шагов необходимо сначала выполнить шаги в теме [Создание поставщиков конфигурации и установка их в качестве активных](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="113ba-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="113ba-107">Также требуется доступ к LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="9d689-108">Войдите в приложение с помощью одной из следующих ролей:</span><span class="sxs-lookup"><span data-stu-id="9d689-108">Sign in to the application by using one of the following roles:</span></span>
+1. <span data-ttu-id="113ba-108">Войдите в приложение с помощью одной из следующих ролей:</span><span class="sxs-lookup"><span data-stu-id="113ba-108">Sign in to the application by using one of the following roles:</span></span>
 
-    - <span data-ttu-id="9d689-109">Разработчик электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="9d689-109">Electronic reporting developer</span></span>
-    - <span data-ttu-id="9d689-110">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="9d689-110">System administrator</span></span>
+    - <span data-ttu-id="113ba-109">Разработчик электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="113ba-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="113ba-110">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="113ba-110">System administrator</span></span>
 
-2. <span data-ttu-id="9d689-111">Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="9d689-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
-3. <span data-ttu-id="9d689-112">Выберите компанию **Litware, Inc.** и пометьте ее как **Активная**.</span><span class="sxs-lookup"><span data-stu-id="9d689-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
-4. <span data-ttu-id="9d689-113">Выберите **Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="9d689-113">Select **Configurations**.</span></span>
+2. <span data-ttu-id="113ba-111">Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="113ba-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="113ba-112">Выберите компанию **Litware, Inc.** и пометьте ее как **Активная**.</span><span class="sxs-lookup"><span data-stu-id="113ba-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="113ba-113">Выберите **Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="113ba-113">Select **Configurations**.</span></span>
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> <span data-ttu-id="9d689-114">Убедитесь, что текущий пользователь Dynamics 365 Finance является членом проекта LCS, который содержит [библиотеку активов](../../lifecycle-services/asset-library.md#asset-library-support), которая используется, чтобы импортировать конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="9d689-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+> <span data-ttu-id="113ba-114">Убедитесь, что текущий пользователь Dynamics 365 Finance является членом проекта LCS, который содержит [библиотеку активов](../../lifecycle-services/asset-library.md#asset-library-support), которая используется, чтобы импортировать конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="113ba-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
 >
-> <span data-ttu-id="9d689-115">Невозможно получить доступ к проекту LCS из репозитория электронной отчетности, который представляет другой домен, отличный от домена, используемого в Finance.</span><span class="sxs-lookup"><span data-stu-id="9d689-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="9d689-116">При попытке будет отображен пустой список проектов LCS, и вы не сможете импортировать конфигурации электронной отчетности из библиотеки активов уровня проекта в LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="9d689-117">Чтобы получить доступ к библиотекам активов уровня проекта из репозитория электронной отчетности, который используется для импорта конфигураций электронной отчетности, выполните вход в Finance, используя учетные данные пользователя, принадлежащего к клиенту (домену), для которого была выполнена подготовка текущего экземпляра Finance.</span><span class="sxs-lookup"><span data-stu-id="9d689-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+> <span data-ttu-id="113ba-115">Невозможно получить доступ к проекту LCS из репозитория электронной отчетности, который представляет другой домен, отличный от домена, используемого в Finance.</span><span class="sxs-lookup"><span data-stu-id="113ba-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="113ba-116">При попытке будет отображен пустой список проектов LCS, и вы не сможете импортировать конфигурации электронной отчетности из библиотеки активов уровня проекта в LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="113ba-117">Чтобы получить доступ к библиотекам активов уровня проекта из репозитория электронной отчетности, который используется для импорта конфигураций электронной отчетности, выполните вход в Finance, используя учетные данные пользователя, принадлежащего к клиенту (домену), для которого была выполнена подготовка текущего экземпляра Finance.</span><span class="sxs-lookup"><span data-stu-id="113ba-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="9d689-118">Создать новой конфигурации модели данных</span><span class="sxs-lookup"><span data-stu-id="9d689-118">Create a new data model configuration</span></span>
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="113ba-118">Создать новой конфигурации модели данных</span><span class="sxs-lookup"><span data-stu-id="113ba-118">Create a new data model configuration</span></span>
 
-1. <span data-ttu-id="9d689-119">Перейдите в раздел **Управление организацией \> Электронная отчетность \> Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="9d689-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
-2. <span data-ttu-id="9d689-120">На странице **Конфигурации** выберите **Создать конфигурацию**, чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="9d689-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+1. <span data-ttu-id="113ba-119">Перейдите в раздел **Управление организацией \> Электронная отчетность \> Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="113ba-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="113ba-120">На странице **Конфигурации** выберите **Создать конфигурацию**, чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="113ba-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
 
-    <span data-ttu-id="9d689-121">В этом примере вам предстоит создать конфигурацию, которая содержит пример модели данных для электронных документов.</span><span class="sxs-lookup"><span data-stu-id="9d689-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="9d689-122">Эта конфигурация модели данных будет отправлена в LCS позже.</span><span class="sxs-lookup"><span data-stu-id="9d689-122">This data model configuration will be uploaded into LCS later.</span></span>
+    <span data-ttu-id="113ba-121">В этом примере вам предстоит создать конфигурацию, которая содержит пример модели данных для электронных документов.</span><span class="sxs-lookup"><span data-stu-id="113ba-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="113ba-122">Эта конфигурация модели данных будет отправлена в LCS позже.</span><span class="sxs-lookup"><span data-stu-id="113ba-122">This data model configuration will be uploaded into LCS later.</span></span>
 
-3. <span data-ttu-id="9d689-123">В поле **Имя** введите **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="9d689-123">In the **Name** field, enter **Sample model configuration**.</span></span>
-4. <span data-ttu-id="9d689-124">В поле **Описание** введите **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="9d689-124">In the **Description** field, enter **Sample model configuration**.</span></span>
-5. <span data-ttu-id="9d689-125">Выберите **Создать конфигурацию**.</span><span class="sxs-lookup"><span data-stu-id="9d689-125">Select **Create configuration**.</span></span>
-6. <span data-ttu-id="9d689-126">Выберите **Конструктор моделей**.</span><span class="sxs-lookup"><span data-stu-id="9d689-126">Select **Model designer**.</span></span>
-7. <span data-ttu-id="9d689-127">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="9d689-127">Select **New**.</span></span>
-8. <span data-ttu-id="9d689-128">В поле **Имя** введите **Точка входа**.</span><span class="sxs-lookup"><span data-stu-id="9d689-128">In the **Name** field, enter **Entry point**.</span></span>
-9. <span data-ttu-id="9d689-129">Выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="9d689-129">Select **Add**.</span></span>
-10. <span data-ttu-id="9d689-130">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="9d689-130">Select **Save**.</span></span>
-11. <span data-ttu-id="9d689-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d689-131">Close the page.</span></span>
-12. <span data-ttu-id="9d689-132">Выберите **Изменить статус**.</span><span class="sxs-lookup"><span data-stu-id="9d689-132">Select **Change status**.</span></span>
-13. <span data-ttu-id="9d689-133">Выберите **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="9d689-133">Select **Complete**.</span></span>
-14. <span data-ttu-id="9d689-134">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="9d689-134">Select **OK**.</span></span>
-15. <span data-ttu-id="9d689-135">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d689-135">Close the page.</span></span>
+3. <span data-ttu-id="113ba-123">В поле **Имя** введите **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="113ba-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="113ba-124">В поле **Описание** введите **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="113ba-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="113ba-125">Выберите **Создать конфигурацию**.</span><span class="sxs-lookup"><span data-stu-id="113ba-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="113ba-126">Выберите **Конструктор моделей**.</span><span class="sxs-lookup"><span data-stu-id="113ba-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="113ba-127">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="113ba-127">Select **New**.</span></span>
+8. <span data-ttu-id="113ba-128">В поле **Имя** введите **Точка входа**.</span><span class="sxs-lookup"><span data-stu-id="113ba-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="113ba-129">Выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="113ba-129">Select **Add**.</span></span>
+10. <span data-ttu-id="113ba-130">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="113ba-130">Select **Save**.</span></span>
+11. <span data-ttu-id="113ba-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="113ba-131">Close the page.</span></span>
+12. <span data-ttu-id="113ba-132">Выберите **Изменить статус**.</span><span class="sxs-lookup"><span data-stu-id="113ba-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="113ba-133">Выберите **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="113ba-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="113ba-134">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="113ba-134">Select **OK**.</span></span>
+15. <span data-ttu-id="113ba-135">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="113ba-135">Close the page.</span></span>
 
-## <a name="register-a-new-repository"></a><span data-ttu-id="9d689-136">Регистрация нового репозитория</span><span class="sxs-lookup"><span data-stu-id="9d689-136">Register a new repository</span></span>
+## <a name="register-a-new-repository"></a><span data-ttu-id="113ba-136">Регистрация нового репозитория</span><span class="sxs-lookup"><span data-stu-id="113ba-136">Register a new repository</span></span>
 
-1. <span data-ttu-id="9d689-137">Перейдите в раздел **Управление организацией \> Рабочие области \> Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="9d689-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+1. <span data-ttu-id="113ba-137">Перейдите в раздел **Управление организацией \> Рабочие области \> Электронная отчетность**.</span><span class="sxs-lookup"><span data-stu-id="113ba-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
 
-2. <span data-ttu-id="9d689-138">В разделе **Поставщики конфигурации** выберите плитку **Litware, Inc.**</span><span class="sxs-lookup"><span data-stu-id="9d689-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+2. <span data-ttu-id="113ba-138">В разделе **Поставщики конфигурации** выберите плитку **Litware, Inc.**</span><span class="sxs-lookup"><span data-stu-id="113ba-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
 
-3. <span data-ttu-id="9d689-139">На плитке **Litware, Inc.** выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="9d689-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+3. <span data-ttu-id="113ba-139">На плитке **Litware, Inc.** выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="113ba-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
 
-    <span data-ttu-id="9d689-140">Теперь можно открыть список репозиториев для поставщика конфигурации Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="9d689-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+    <span data-ttu-id="113ba-140">Теперь можно открыть список репозиториев для поставщика конфигурации Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="113ba-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
 
-4. <span data-ttu-id="9d689-141">Выберите **Добавить**, чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="9d689-141">Select **Add** to open the drop-down dialog box.</span></span>
+4. <span data-ttu-id="113ba-141">Выберите **Добавить**, чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="113ba-141">Select **Add** to open the drop-down dialog box.</span></span>
 
-    <span data-ttu-id="9d689-142">Теперь можно добавить новый репозиторий.</span><span class="sxs-lookup"><span data-stu-id="9d689-142">You can now add a new repository.</span></span>
+    <span data-ttu-id="113ba-142">Теперь можно добавить новый репозиторий.</span><span class="sxs-lookup"><span data-stu-id="113ba-142">You can now add a new repository.</span></span>
 
-5. <span data-ttu-id="9d689-143">В поле **Тип репозитория конфигурации** выберите **LCS**.</span><span class="sxs-lookup"><span data-stu-id="9d689-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
-6. <span data-ttu-id="9d689-144">Выберите **Создать репозиторий**.</span><span class="sxs-lookup"><span data-stu-id="9d689-144">Select **Create repository**.</span></span>
-7. <span data-ttu-id="9d689-145">В поле **Проект** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9d689-145">In the **Project** field, enter or select a value.</span></span>
+5. <span data-ttu-id="113ba-143">В поле **Тип репозитория конфигурации** выберите **LCS**.</span><span class="sxs-lookup"><span data-stu-id="113ba-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="113ba-144">Выберите **Создать репозиторий**.</span><span class="sxs-lookup"><span data-stu-id="113ba-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="113ba-145">В поле **Проект** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="113ba-145">In the **Project** field, enter or select a value.</span></span>
 
-    <span data-ttu-id="9d689-146">В данном примере выберите требуемый вариант LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="9d689-147">Вы должны иметь [доступ](#accessconditions) к проекту.</span><span class="sxs-lookup"><span data-stu-id="9d689-147">You must have [access](#accessconditions) to the project.</span></span>
+    <span data-ttu-id="113ba-146">В данном примере выберите требуемый вариант LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="113ba-147">Вы должны иметь [доступ](#accessconditions) к проекту.</span><span class="sxs-lookup"><span data-stu-id="113ba-147">You must have [access](#accessconditions) to the project.</span></span>
 
-8. <span data-ttu-id="9d689-148">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="9d689-148">Select **OK**.</span></span>
+8. <span data-ttu-id="113ba-148">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="113ba-148">Select **OK**.</span></span>
 
-    <span data-ttu-id="9d689-149">Заполните новую запись репозитория.</span><span class="sxs-lookup"><span data-stu-id="9d689-149">Complete a new repository entry.</span></span>
+    <span data-ttu-id="113ba-149">Заполните новую запись репозитория.</span><span class="sxs-lookup"><span data-stu-id="113ba-149">Complete a new repository entry.</span></span>
 
-9. <span data-ttu-id="9d689-150">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9d689-150">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="113ba-150">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="113ba-150">In the list, mark the selected row.</span></span>
 
-    <span data-ttu-id="9d689-151">В данном примере выберите запись репозитория **LCS**.</span><span class="sxs-lookup"><span data-stu-id="9d689-151">For this example, select the **LCS** repository record.</span></span>
+    <span data-ttu-id="113ba-151">В данном примере выберите запись репозитория **LCS**.</span><span class="sxs-lookup"><span data-stu-id="113ba-151">For this example, select the **LCS** repository record.</span></span>
 
-    <span data-ttu-id="9d689-152">Обратите внимание, что зарегистрированный репозиторий помечается текущим поставщиком.</span><span class="sxs-lookup"><span data-stu-id="9d689-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="9d689-153">Другими словами, в этот репозиторий можно поместить только конфигурации, принадлежащие данному поставщику, и, следовательно, отправить их в выбранный проект LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+    <span data-ttu-id="113ba-152">Обратите внимание, что зарегистрированный репозиторий помечается текущим поставщиком.</span><span class="sxs-lookup"><span data-stu-id="113ba-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="113ba-153">Другими словами, в этот репозиторий можно поместить только конфигурации, принадлежащие данному поставщику, и, следовательно, отправить их в выбранный проект LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
 
-10. <span data-ttu-id="9d689-154">Выберите **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="9d689-154">Select **Open**.</span></span>
+10. <span data-ttu-id="113ba-154">Выберите **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="113ba-154">Select **Open**.</span></span>
 
-    <span data-ttu-id="9d689-155">Вы открываете репозиторий для просмотра списка конфигураций электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="9d689-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="9d689-156">Если выбранный проект еще не использовался для совместного использования конфигураций электронной отчетности, список будет пустым.</span><span class="sxs-lookup"><span data-stu-id="9d689-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+    <span data-ttu-id="113ba-155">Вы открываете репозиторий для просмотра списка конфигураций электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="113ba-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="113ba-156">Если выбранный проект еще не использовался для совместного использования конфигураций электронной отчетности, список будет пустым.</span><span class="sxs-lookup"><span data-stu-id="113ba-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
 
-11. <span data-ttu-id="9d689-157">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d689-157">Close the page.</span></span>
-12. <span data-ttu-id="9d689-158">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d689-158">Close the page.</span></span>
+11. <span data-ttu-id="113ba-157">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="113ba-157">Close the page.</span></span>
+12. <span data-ttu-id="113ba-158">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="113ba-158">Close the page.</span></span>
 
-## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="9d689-159">Отправка конфигурации в LCS</span><span class="sxs-lookup"><span data-stu-id="9d689-159">Upload a configuration into LCS</span></span>
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="113ba-159">Отправка конфигурации в LCS</span><span class="sxs-lookup"><span data-stu-id="113ba-159">Upload a configuration into LCS</span></span>
 
-1. <span data-ttu-id="9d689-160">Перейдите в раздел **Управление организацией \> Электронная отчетность \> Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="9d689-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
-2. <span data-ttu-id="9d689-161">На странице **Конфигурации** в дереве конфигураций выберите пункт **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="9d689-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+1. <span data-ttu-id="113ba-160">Перейдите в раздел **Управление организацией \> Электронная отчетность \> Конфигурации**.</span><span class="sxs-lookup"><span data-stu-id="113ba-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="113ba-161">На странице **Конфигурации** в дереве конфигураций выберите пункт **Пример конфигурации модели**.</span><span class="sxs-lookup"><span data-stu-id="113ba-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
 
-    <span data-ttu-id="9d689-162">Вы должны выбрать созданную конфигурацию, которая уже завершена.</span><span class="sxs-lookup"><span data-stu-id="9d689-162">You must select a created configuration that has been already completed.</span></span>
+    <span data-ttu-id="113ba-162">Вы должны выбрать созданную конфигурацию, которая уже завершена.</span><span class="sxs-lookup"><span data-stu-id="113ba-162">You must select a created configuration that has been already completed.</span></span>
 
-3. <span data-ttu-id="9d689-163">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9d689-163">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="113ba-163">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="113ba-163">In the list, find and select the desired record.</span></span>
 
-    <span data-ttu-id="9d689-164">Для этого примера выберите версию выбранной конфигурации со статусом **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="9d689-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+    <span data-ttu-id="113ba-164">Для этого примера выберите версию выбранной конфигурации со статусом **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="113ba-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
 
-4. <span data-ttu-id="9d689-165">Выберите **Изменить статус**.</span><span class="sxs-lookup"><span data-stu-id="9d689-165">Select **Change status**.</span></span>
-5. <span data-ttu-id="9d689-166">Выберите **Поделиться**.</span><span class="sxs-lookup"><span data-stu-id="9d689-166">Select **Share**.</span></span>
+4. <span data-ttu-id="113ba-165">Выберите **Изменить статус**.</span><span class="sxs-lookup"><span data-stu-id="113ba-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="113ba-166">Выберите **Поделиться**.</span><span class="sxs-lookup"><span data-stu-id="113ba-166">Select **Share**.</span></span>
 
-    <span data-ttu-id="9d689-167">Статус конфигурации изменяется с **Завершено** на **Общие**, когда конфигурация публикуется в LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+    <span data-ttu-id="113ba-167">Статус конфигурации изменяется с **Завершено** на **Общие**, когда конфигурация публикуется в LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
 
-6. <span data-ttu-id="9d689-168">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="9d689-168">Select **OK**.</span></span>
-7. <span data-ttu-id="9d689-169">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9d689-169">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="113ba-168">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="113ba-168">Select **OK**.</span></span>
+7. <span data-ttu-id="113ba-169">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="113ba-169">In the list, find and select the desired record.</span></span>
 
-    <span data-ttu-id="9d689-170">Для этого примера выберите версию конфигурации со статусом **Общие**.</span><span class="sxs-lookup"><span data-stu-id="9d689-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+    <span data-ttu-id="113ba-170">Для этого примера выберите версию конфигурации со статусом **Общие**.</span><span class="sxs-lookup"><span data-stu-id="113ba-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
 
-    <span data-ttu-id="9d689-171">Обратите внимание, что статус выбранной версии изменился с **Завершено** на **Общие**.</span><span class="sxs-lookup"><span data-stu-id="9d689-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+    <span data-ttu-id="113ba-171">Обратите внимание, что статус выбранной версии изменился с **Завершено** на **Общие**.</span><span class="sxs-lookup"><span data-stu-id="113ba-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
 
-8. <span data-ttu-id="9d689-172">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9d689-172">Close the page.</span></span>
-9. <span data-ttu-id="9d689-173">Выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="9d689-173">Select **Repositories**.</span></span>
+8. <span data-ttu-id="113ba-172">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="113ba-172">Close the page.</span></span>
+9. <span data-ttu-id="113ba-173">Выберите **Репозитории**.</span><span class="sxs-lookup"><span data-stu-id="113ba-173">Select **Repositories**.</span></span>
 
-    <span data-ttu-id="9d689-174">Теперь можно открыть список репозиториев для поставщика конфигурации Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="9d689-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+    <span data-ttu-id="113ba-174">Теперь можно открыть список репозиториев для поставщика конфигурации Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="113ba-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
 
-10. <span data-ttu-id="9d689-175">Выберите **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="9d689-175">Select **Open**.</span></span>
+10. <span data-ttu-id="113ba-175">Выберите **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="113ba-175">Select **Open**.</span></span>
 
-    <span data-ttu-id="9d689-176">В данном примере выберите репозиторий **LCS** и откройте его.</span><span class="sxs-lookup"><span data-stu-id="9d689-176">For this example, select the **LCS** repository, and open it.</span></span>
+    <span data-ttu-id="113ba-176">В данном примере выберите репозиторий **LCS** и откройте его.</span><span class="sxs-lookup"><span data-stu-id="113ba-176">For this example, select the **LCS** repository, and open it.</span></span>
 
-    <span data-ttu-id="9d689-177">Обратите внимание, что выбранная конфигурация отображается как актив выбранного проекта LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+    <span data-ttu-id="113ba-177">Обратите внимание, что выбранная конфигурация отображается как актив выбранного проекта LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
 
-11. <span data-ttu-id="9d689-178">Откройте LCS, перейдя на <https://lcs.dynamics.com>.</span><span class="sxs-lookup"><span data-stu-id="9d689-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
-12. <span data-ttu-id="9d689-179">Откройте проект, который использовался ранее для регистрации репозитория.</span><span class="sxs-lookup"><span data-stu-id="9d689-179">Open a project that was used earlier for repository registration.</span></span>
-13. <span data-ttu-id="9d689-180">Откройте библиотеку активов проекта.</span><span class="sxs-lookup"><span data-stu-id="9d689-180">Open the Asset library of the project.</span></span>
-14. <span data-ttu-id="9d689-181">Выберите тип актива **Конфигурация GER**.</span><span class="sxs-lookup"><span data-stu-id="9d689-181">Select the **GER configuration** asset type.</span></span>
+11. <span data-ttu-id="113ba-178">Откройте LCS, перейдя на <https://lcs.dynamics.com>.</span><span class="sxs-lookup"><span data-stu-id="113ba-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="113ba-179">Откройте проект, который использовался ранее для регистрации репозитория.</span><span class="sxs-lookup"><span data-stu-id="113ba-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="113ba-180">Откройте библиотеку активов проекта.</span><span class="sxs-lookup"><span data-stu-id="113ba-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="113ba-181">Выберите тип актива **Конфигурация GER**.</span><span class="sxs-lookup"><span data-stu-id="113ba-181">Select the **GER configuration** asset type.</span></span>
 
-    <span data-ttu-id="9d689-182">В списке должна быть указана отправленная вами конфигурация электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="9d689-182">The ER configuration that you uploaded should be listed.</span></span>
+    <span data-ttu-id="113ba-182">В списке должна быть указана отправленная вами конфигурация электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="113ba-182">The ER configuration that you uploaded should be listed.</span></span>
 
-    <span data-ttu-id="9d689-183">Обратите внимание, что отправленную конфигурацию LCS можно импортировать в другой экземпляр, если поставщики имеют доступ к этому проекту LCS.</span><span class="sxs-lookup"><span data-stu-id="9d689-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
+    <span data-ttu-id="113ba-183">Обратите внимание, что отправленную конфигурацию LCS можно импортировать в другой экземпляр, если поставщики имеют доступ к этому проекту LCS.</span><span class="sxs-lookup"><span data-stu-id="113ba-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
