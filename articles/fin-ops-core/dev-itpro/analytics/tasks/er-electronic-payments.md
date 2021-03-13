@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
-description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может использовать новую конфигурацию формата электронной отчетности для создания электронных документов для обработки платежей.
+description: В этой теме описывается, как использовать новую конфигурацию формата электронной отчетности (ER), чтобы создавать электронные документы для обработки платежей.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 816f98660a5508ada203f49a71e0785548fb9a31
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681741"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092208"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
 
@@ -81,6 +81,3 @@ ms.locfileid: "4681741"
 25. Нажмите кнопку "OК".
     * Проанализируйте созданный файл платежа в формате XML. Сравните его с созданным макетом документа и определенными атрибутами проводки по оплате.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 1. Подготовка модели данных)
-description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами (вложений) в выходных данных электронной отчетности.
+description: В этой теме описывается, как настроить формат электронной отчетности (ER), чтобы в выходных данных электронной отчетности использовать файлы управления документами (вложения). (Часть 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bff518c60f0f36bdc88245d79bd82f0c4d0599ed
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681836"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092649"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 1. Подготовка модели данных)
 
@@ -74,6 +74,3 @@ ms.locfileid: "4681836"
 3. В поле "Имя" введите "Модель накладной клиента (настраиваемая)".
 4. Нажмите Создать конфигурацию.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

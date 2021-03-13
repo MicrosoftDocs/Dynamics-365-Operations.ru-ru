@@ -1,6 +1,6 @@
 ---
 title: Разработка конфигураций для формирования документов, имеющих данные приложений
-description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 1. Импорт конфигураций)".
+description: В этой теме описано, как разработать конфигурации электронной отчетности (ER) для создания электронного документа. (Часть 1 — Импорт конфигураций).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684603"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092930"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Разработка конфигураций для формирования документов, имеющих данные приложений
 
@@ -58,6 +58,3 @@ ms.locfileid: "4684603"
 10. Закройте страницу.
 11. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

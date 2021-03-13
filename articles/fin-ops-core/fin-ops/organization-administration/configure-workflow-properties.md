@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693290"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067631"
 ---
 # <a name="configure-workflow-properties"></a>Настройка свойств workflow-процесса
 
@@ -73,6 +73,9 @@ ms.locfileid: "4693290"
     4. В поле **Переведенный текст** введите текст.
     5. Для того, чтобы персонализовать текст можно вставить заполнители. Инструкции по вводу заполнителя см. на шаге 3.
     6. Нажмите кнопку **Закрыть**.
+
+> [!NOTE]
+> Заполнители не могут быть добавлены с помощью копирования и вставки, так как целевая информация не вставляется правильно. Для добавления заполнителей используйте интерфейс.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Укажите, когда данный рабочей процесс используется в условиях активации
 
@@ -179,6 +182,3 @@ ms.locfileid: "4693290"
 2. В поле **Введите комментарии о workflow-процессе** введите комментарии.
 3. Проверьте комментарии. После добавления комментариев их невозможно изменить.
 4. Нажмите кнопку **Добавить** для добавления комментариев в область **История комментариев**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

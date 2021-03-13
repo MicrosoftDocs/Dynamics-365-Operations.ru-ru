@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 4 — Выполнение формата)
-description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами в выходных данных электронной отчетности.
+description: В этой теме описывается, как настроить формат электронной отчетности, чтобы в выходных данных электронной отчетности использовать файлы управления документами. (Часть 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681789"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092524"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 4 — Выполнение формата)
 
@@ -69,6 +69,3 @@ ms.locfileid: "4681789"
 11. Нажмите кнопку "OК".
     * Просмотрите созданные выходные данные. Обратите внимание, что для каждого вложения был создан один узел XML. Содержимое вложения записывается в выходные данные XML в текстовом формате MIME (base64).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

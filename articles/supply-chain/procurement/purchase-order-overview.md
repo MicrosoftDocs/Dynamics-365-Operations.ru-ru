@@ -1,7 +1,7 @@
 ---
 title: Обзор заказа на покупку
 description: В этой статье приводятся общие сведения о заказах на покупку и ссылки на дополнительные статьи, связанные с различными стадиями хода выполнения заказа на покупку.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436473"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022239"
 ---
 # <a name="purchase-order-overview"></a>Обзор заказа на покупку
 
@@ -92,6 +91,3 @@ ms.locfileid: "4436473"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

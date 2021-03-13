@@ -1,6 +1,6 @@
 ---
 title: Отправка конфигурации в Lifecycle Services
-description: В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может создать новую конфигурацию электронной отчетности (ER) и отправить ее в Microsoft Dynamics Lifecycle Services (LCS).
+description: В этом разделе описывается, как создать новую конфигурацию электронной отчетности (ER) и отправить ее в Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684171"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092549"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Отправка конфигурации в Lifecycle Services
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684171"
     В списке должна быть указана отправленная вами конфигурация электронной отчетности.
 
     Обратите внимание, что отправленную конфигурацию LCS можно импортировать в другой экземпляр, если поставщики имеют доступ к этому проекту LCS.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

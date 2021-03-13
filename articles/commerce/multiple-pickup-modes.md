@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594992"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053421"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Включение нескольких режимов доставки самовывозом для заказов клиентов
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 В Microsoft Dynamics 365 Commerce версии 10.0.16 или более поздней организации могут определить несколько способов доставки, которые покупатели или продавцы могут выбирать при создании заказа, которые покупатель сам получит в магазине. Таким образом, организации могут предоставлять своим покупателям несколько вариантов получения. Например, многие розничные продавцы теперь предлагают покупателям на выбор получение в магазине или получение в окне выдачи из автомобиля для своих заказов. Commerce поддерживает настройку этих разных режимов получения самовывозом. Пользователи могут воспользоваться преимуществами этих функций, создавая заказы клиентов в любом поддерживаемом канале Commerce (электронная коммерция, центр обработки вызовов или магазин).
 
@@ -86,6 +85,3 @@ ms.locfileid: "4594992"
 ## <a name="considerations-for-distributed-order-management"></a>Соображения для распределенного управления заказами
 
 Функции [распределенного управления заказами (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) в Commerce игнорируют все строки продаж, помеченные для самовывоза из магазинов. Эти функции были обновлены, чтобы гарантировать, что строки продаж, связанные с настроенными способами поставки самовывозом, обходят логику DOM и не будут перераспределены на новый склад выполнения.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

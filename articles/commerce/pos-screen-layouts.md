@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4415370"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032941"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Визуальные конфигурации пользовательского интерфейса POS
 
@@ -117,6 +116,9 @@ ms.locfileid: "4415370"
 
 ![Компактные сетки кнопки макета](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Размеры кнопок в конструкторе будут масштабироваться по размеру окна, поэтому они могут неправильно отражать реальные кнопки, отображаемые в POS-терминале. Чтобы лучше имитировать макет сетки кнопок, измените размеры окон конструктора до размера POS-терминала.
+
 ### <a name="images"></a>Изображения
 
 Для каждого размера макета в макете экрана можно указать изображения, которые будут включены в пользовательский интерфейс POS. Для полных макетов POS одно изображение может быть указано для экрана приветствия. Это изображение отображается как первый элемент пользовательского интерфейса в левой части окна. На экране **Проводка** изображения могут использоваться как вкладка изображений или логотипа. Компактные макеты POS не используют эти изображения.
@@ -205,6 +207,3 @@ ms.locfileid: "4415370"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Установка конструктора макета Retail POS](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

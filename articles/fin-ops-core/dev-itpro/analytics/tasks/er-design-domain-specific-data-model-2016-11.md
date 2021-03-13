@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность Проектирование моделей данных для конкретных доменов
-description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности, содержащую модель данных для электронных платежных документов.
+description: В этой теме описывается, как создать новую конфигурацию электронной отчетности (ER), которая содержит модель данных для электронных платежных документов.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681957"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092699"
 ---
 # <a name="er-design-domain-specific-data-model"></a>Электронная отчетность Проектирование моделей данных для конкретных доменов
 
@@ -187,6 +187,3 @@ ms.locfileid: "4681957"
 65. Нажмите кнопку "Сохранить".
 66. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

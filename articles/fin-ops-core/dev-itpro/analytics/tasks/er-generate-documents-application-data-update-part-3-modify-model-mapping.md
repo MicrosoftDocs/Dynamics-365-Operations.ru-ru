@@ -1,6 +1,6 @@
 ---
 title: Изменение моделей и сопоставлений для формирования документов, содержащих данные приложений
-description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 2. Формирование документов)".
+description: В этой теме описано, как разработать конфигурации электронной отчетности для создания электронного документа и обновления данных приложений. (Часть 2 — Создание документов).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 025429c8e6775d20634703853df04d63c0651b98
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684579"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092905"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Изменение моделей и сопоставлений для формирования документов, содержащих данные приложений
 
@@ -168,6 +168,3 @@ ms.locfileid: "4684579"
 66. Закройте страницу.
 67. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
