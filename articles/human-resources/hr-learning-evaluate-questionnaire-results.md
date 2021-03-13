@@ -2,7 +2,7 @@
 title: Просмотр и оценка результатов анкет
 description: В этой статье объясняется, как просмотреть и оценить результаты анкет, заполненных респондентами.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420301"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116124"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Просмотр и оценка результатов анкет
 
@@ -52,7 +52,7 @@ ms.locfileid: "4420301"
 
 На странице **Ответы** можно просматривать сведения об ответах, полученных баллах, ответах респондента в каждой группе результатов и иерархию вопросов, используемую в выбранной анкете, если она имеется. Кроме того, можно создавать и печатать следующие отчеты:
 
--   **Отчет о результатах** — в этом отчете показано графическое представление баллов, которые были получены для каждой группы результатов выбранного сеанса ответов.
+-   **Отчет о результатах** — в этом отчете показано графическое представление баллов, которые были получены для каждой группы результатов выбранного сеанса ответов.
 -   **Отчет по ответам** — в этом отчете показаны ответы, которые выбрал респондент для каждого вопроса в анкете.
 -   **Неверные ответы** — в этом отчете показаны сведения, связанные с неправильными ответами, выбранными респондентами.
 
@@ -72,5 +72,3 @@ ms.locfileid: "4420301"
 -   Выбор или проверка критериев для анализа результатов по характеристикам респондента или анкеты. Например, выбрав **Почтовый индекс**, можно проанализировать корреляцию между расположением респондента и правильными ответами.
 
 Указанные параметры сохраняются и могут использоваться для периодического повторного расчета результатов.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

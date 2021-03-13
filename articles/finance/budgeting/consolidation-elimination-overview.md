@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447322"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120487"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Обзор консолидации и Закрытия
 
@@ -60,6 +59,7 @@ ms.locfileid: "4447322"
 Вариант **Финансовая отчетность** —решение, потому что сведения на уровне проводки можно осмотреть для такого количества компаний, какое включено в определение дерева отчетности.
 
 4.  Мы используем бюджетное планирование или бюджетный контроль, и его необходимо консолидировать.
+
 Вариант **Финансовая отчетность** — решение для того, чтобы консолидировать все данные бюджетного планирования или бюджетного контроля.
 
 5.  Наши дочерние компании разбросаны по всему миру, и мы имеем множественные планы счетов. Какой самый лучший метод чтобы консолидировать наши данные?
@@ -86,10 +86,10 @@ ms.locfileid: "4447322"
 
 Путем использования параметра **Экспорт сальдо компаний**, чтобы экспортировать от одного экземпляра, и после этого используя параметр **Консолидировать с импортом** на другом экземпляре, вы можете консолидировать данные.
 
+11. Можно ли выполнить консолидацию с моим бюджетом в статусе **ЧЕРНОВИК**? 
+            
+Вы не сможете обрабатывать или завершать бюджеты в консолидированной компании. Рекомендуется использовать Financial Reporting для консолидации черновых бюджетов.
 
 Дополнительные сведения см. в разделе [Валютная переоценка в компании консолидации](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
