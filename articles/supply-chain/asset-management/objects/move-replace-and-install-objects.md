@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectReplace, EntAssetObjectInstallLookup, EntAssetObjectMove, EntAssetObjectTableEditSubObjects
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 022ffc59b1b64913fedaf550f3fdb32141a94031
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436095"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020287"
 ---
 # <a name="move-replace-and-install-assets"></a>Перемещение, замена и установка активов
 
@@ -91,6 +90,3 @@ ms.locfileid: "4436095"
 4. В поле **Функциональное местоположение** выберите новое местоположение.
 5. По умолчанию, в поле **Действует с** автоматически задаются текущая дата и время. Тем не менее, можно выбрать другую дату и время, с которого установка в структуру актива действительна.
 6. Нажмите **ОК**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

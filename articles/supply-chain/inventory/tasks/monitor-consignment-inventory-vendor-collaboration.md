@@ -1,7 +1,7 @@
 ---
 title: Мониторинг консигнационных запасов в рамках совместной работы с поставщиком
 description: Эта процедура показывает порядок использования совместной работы с поставщиками для просмотра сведений об уровне запасов продукта, который был помещен в коносамент у клиента.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c74f09ee2056ce88442bf8f8ccba3985638525a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f2e782bed4cd9f2f13e2ee45afffaef277279131
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436298"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020137"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Мониторинг консигнационных запасов в рамках совместной работы с поставщиком
 
@@ -43,6 +42,3 @@ ms.locfileid: "4436298"
 1. Перейдите в раздел "Совместная работа с поставщиками" > "Консигнационные запасы" > "Консигнационные запасы в наличии".
     * Страница "Консигнационные запасы в наличии" показывает запасы, принадлежащие вам на складе клиента. Можно показать дополнительные аналитики, такие как сайт и склад, выбрав вкладку "Отобразить аналитики".   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

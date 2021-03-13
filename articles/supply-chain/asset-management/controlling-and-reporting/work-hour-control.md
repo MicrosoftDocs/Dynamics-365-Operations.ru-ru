@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435932"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018479"
 ---
 # <a name="work-hour-control"></a>Контроль рабочих часов
 
@@ -74,6 +73,3 @@ ms.locfileid: "4435932"
 Другим способом расчета часов является выбор нескольких активов в разделе **Все активы** или **Активные активы**. Затем нажмите кнопку **Управление часами** на экспресс-вкладке **Общие**. Выбранные активы автоматически вставляются в поле **Актив** на экспресс-вкладке **Записи для добавления**. Щелкните **ОК** в диалоговом окне **Управление рабочими часами по активам**, и отобразится расчет для выбранных активов. Эта же процедура может быть выполнена для функциональных местоположений в разделе **Все функциональные местоположения** или **Активные функциональные местоположения**, а также для заказов на работу в разделе **Все заказы на работу** или **Активные заказы на работу**.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

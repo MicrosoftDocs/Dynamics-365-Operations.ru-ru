@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435855"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017876"
 ---
 # <a name="manually-created-work-orders"></a>Созданные вручную заказы на работу
 
@@ -166,6 +165,3 @@ ms.locfileid: "4435855"
 >[!NOTE]
 >Если вы хотите, чтобы заказы на работу создавались автоматически, вы можете запланировать задания плана обслуживания или настроить "Автосоздание" [планы обслуживания](../preventive-and-reactive-maintenance/maintenance-plans.md) или [циклы обслуживания](../preventive-and-reactive-maintenance/maintenance-rounds.md) по активу. Заказы на работу, созданные на основе запросов на обслуживание на странице списка **Весь график обслуживания**, имеют типы заданий обслуживания, выбранные в запросах на обслуживание.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

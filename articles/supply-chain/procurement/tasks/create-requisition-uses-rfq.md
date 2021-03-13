@@ -1,7 +1,7 @@
 ---
 title: Создание заявки, которая использует запрос предложения
 description: В этой теме объясняется, как добавить сведения о цене и поставщике в заявку на покупку из процесса запроса предложения.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLineRelatedDocuments, EcoResCategorySingleLookup, PurchReqWorkflowDropDialog, WorkflowSubmitDialog, WorkflowStatus, WorkflowWorkItemActionDialog, WorkflowUserListLookup, PurchReqCopyRFQ, SysDataAreaSelectLookup, PurchRFQCaseTable, PurchRFQEditLines, PurchRFQReplyTable, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 205cba2325e76dae9572301e44e0e89cbcfd106e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05ff98b5fd95fa345d344e54d9116c73434e5de5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435907"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018904"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Создание заявки, которая использует запрос предложения
 
@@ -99,6 +98,3 @@ ms.locfileid: "4435907"
 8. Выберите страницу.
 9. Выберите "Завершить".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

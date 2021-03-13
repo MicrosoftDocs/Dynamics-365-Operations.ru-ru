@@ -1,7 +1,7 @@
 ---
 title: Отправка и утверждение версии бюджета проекта
 description: В этой процедуре предоставляются сведения о пересмотре бюджета проекта.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3061084222c0b23c657973205c9c3e7002cdeeb2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de6faf9442834d5fcf75e5d6219387648edb6840
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435974"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018786"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Отправка и утверждение версии бюджета проекта
 
@@ -46,6 +45,3 @@ ms.locfileid: "4435974"
 12. В поле "Комментарий" введите значение.
 13. Щелкните Отправить.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

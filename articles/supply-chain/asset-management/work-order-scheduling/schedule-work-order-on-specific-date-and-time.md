@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e81ea13a3463965c6e4785dac32f536d2e94a7ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435940"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017375"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Планирование заказа на работу для конкретной даты и времени
 
@@ -56,6 +55,3 @@ ms.locfileid: "4435940"
 >[!NOTE]
 >Чтобы запланировать специалиста по обслуживанию для заказа на работу, этот специалист по обслуживанию должен быть доступен в ожидаемые дату и время начала работы. Доступность работника настраивается в [календаре работника](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

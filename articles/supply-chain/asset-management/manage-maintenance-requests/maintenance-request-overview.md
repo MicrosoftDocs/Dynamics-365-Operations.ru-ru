@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7038269c66092367a0faf147766cb45eb5364e1b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436098"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019637"
 ---
 # <a name="maintenance-requests"></a>Запросы на обслуживание
 
@@ -73,6 +72,3 @@ ms.locfileid: "4436098"
 | Отправить кредитный актив                  | Выберите кредитный актив, который должен быть временной заменой актива, выбранного в выбранном запросе на обслуживание. |
 | Возврат кредитного актива                | Регистрация кредитных активов как возвращенных. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

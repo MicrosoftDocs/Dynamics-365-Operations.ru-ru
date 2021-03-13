@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bec6612290de71933ea1cb3bbe2147b9c98e21bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff485e05b10b0d22d0fdac6d764cebb13507f391
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435928"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018811"
 ---
 # <a name="asset-management-overview"></a>Обзор управления активами
 
@@ -38,6 +37,3 @@ ms.locfileid: "4435928"
 ![Обзор интеграции управления активами](media/overview-integrate2.jpg)
 
 Управление активами позволяет эффективно управлять и выполнять задачи, связанные с управлением и обслуживанием многих типов оборудования в вашей компании, например, машин, производственного оборудования и транспортных средств. Управление активами поддерживает решения во многих отраслях промышленности.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
