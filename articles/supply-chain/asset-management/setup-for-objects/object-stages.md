@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566036c6361194d910a0fc34bd5d72147585ec4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435944"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016560"
 ---
 # <a name="asset-lifecycle-states"></a>Состояния жизненного цикла активов
 
@@ -70,6 +69,3 @@ ms.locfileid: "4435944"
 
 6. Выберите **Обновления состояния жизненного цикла** для определения состояний жизненного цикла актива, которые могут следовать выбранноому состоянию жизненного цикла.
 7. Вы используете экспресс-вкладку **Состояние актива** при обработке активов, которые вы получаете для ремонта. В разделе **Входящие/Исходящие** можно выбрать состояния жизненного цикла актива, чтобы указать workflow-процесс актива, который вы получаете для ремонта. Если вы предлагаете кредитные активы клиентам или подразделениям, в разделе **Временное пользование** вы можете выбрать состояния жизненного цикла для кредитных активов.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

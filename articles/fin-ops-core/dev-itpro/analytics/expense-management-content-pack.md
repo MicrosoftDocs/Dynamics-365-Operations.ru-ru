@@ -1,7 +1,7 @@
 ---
 title: Содержимое Power BI для управления расходами
 description: В этой теме описывается, что входит в пакет содержимого Power BI для управления расходами.
-author: RyanSand
+author: panolte
 manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9391676beea6aac831648d5fa55eae5eba3f6397
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682805"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016460"
 ---
 # <a name="expense-management-power-bi-content"></a>Содержимое Power BI для управления расходами
 
@@ -93,6 +93,3 @@ ms.locfileid: "4682805"
 | Статистические данные по сотрудникам | Отчеты о расходах по типам затрат            |
 |                     | Личные расходы                       |
 |                     | Отчеты о расходах по группам статистики     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
