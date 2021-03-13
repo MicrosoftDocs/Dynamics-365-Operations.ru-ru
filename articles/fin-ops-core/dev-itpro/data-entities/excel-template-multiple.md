@@ -1,5 +1,5 @@
 ---
-title: Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов
+title: Шаблоны данных с несколькими листами
 description: В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688087"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130589"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов
+# <a name="data-templates-with-multiple-worksheets"></a>Шаблоны данных с несколькими листами
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ ms.locfileid: "4688087"
 ## <a name="upload-a-file-using-run-project"></a>Отправка файла с помощью команды "Выполнить проект"
 
 Можно отправить файл Excel при использовании параметра **Выполнить проект** для выполнения проекта импорта. Будьте внимательны, чтобы отправить только файлы, имеющие те же листы, что и существующие сопоставления для информационных объектов в проекте данных. Если лист отсутствует в новом отправленном файле, система выводит сообщение об ошибке и останавливает импорт. Если сопоставление с листом должно быть изменено для объекта, сначала необходимо обновить сопоставления в проекте данных из проекта данных, прежде чем использовать этот файл в процессе **Выполнить проект**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

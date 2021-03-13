@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок, связанных с обновлениями приложений Finance and Operations
+title: Устранение неполадок при обновлениях приложений Finance and Operations
 description: В этом разделе содержатся сведения об устранении неполадок, связанных с обновлениями приложений Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683607"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131229"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Устранение неполадок, связанных с обновлениями приложений Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Устранение неполадок при обновлениях приложений Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "4683607"
 
 **Роль, требуемая для исправления ошибки:** системный администратор
 
-При попытке использовать объект **DualWriteProjectConfiguration** для обновления приложения Finance and Operations до обновления платформы Platform update 30, может появиться сообщение об ошибке, которое напоминает следующий пример.
+При попытке использовать таблицу **DualWriteProjectConfiguration** для обновления приложения Finance and Operations до обновления платформы Platform update 30, может появиться сообщение об ошибке, которое напоминает следующий пример.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 8. Выберите **Синхронизировать** для выполнения полной синхронизации базы данных.
 9. После успешного завершения полной синхронизации базы данных перезапустите этап синхронизации базы данных в службах Microsoft Dynamics Lifecycle Services (LCS) и используйте требуемые сценарии обновления вручную, чтобы можно было продолжить обновление.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Проблема с отсутствующими полями объекта на картах
+## <a name="missing-table-columns-issue-on-maps"></a>В картах отсутствуют столбцы таблицы
 
 **Роль, требуемая для исправления ошибки:** системный администратор
 
@@ -70,27 +70,24 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 *Отсутствует исходное поле \<field name\> в схеме.*
 
-![Пример сообщения об ошибке об отсутствующем исходном поле](media/error_missing_field.png)
+![Пример сообщения об ошибке об отсутствующем исходном столбце](media/error_missing_field.png)
 
-Чтобы устранить проблему, сначала необходимо выполнить следующие действия, чтобы убедиться в наличии полей в объекте.
+Чтобы устранить проблему, сначала необходимо выполнить следующие действия, чтобы убедиться в наличии столбцов в таблице.
 
 1. Выполните вход в виртуальную машину для приложения Finance and Operations.
-2. Выберите **Рабочие области \> Управление данными**, выберите плитку **Параметры структуры**, затем на вкладке **Параметры таблицы** выберите **Обновить список объектов**, чтобы обновить таблицы.
-3. Выберите **Рабочие области \> Управление данными**, выберите вкладку **Таблицы данных** и убедитесь, что объект указан в списке. Если объект отсутствует в списке, выполните вход в виртуальную машину для приложения Finance and Operations и убедитесь, что объект доступен.
+2. Выберите **Рабочие области \> Управление данными**, выберите плитку **Параметры структуры**, затем на вкладке **Параметры таблицы** выберите **Обновить список таблиц**, чтобы обновить таблицы.
+3. Выберите **Рабочие области \> Управление данными**, выберите вкладку **Таблицы данных** и убедитесь, что таблица указана в списке. Если таблица отсутствует в списке, выполните вход в виртуальную машину для приложения Finance and Operations и убедитесь, что таблица доступна.
 4. Откройте страницу **Сопоставление таблиц** со страницы **Двойная запись** в приложении Finance and Operations.
-5. Выберите **Обновить список объектов**, чтобы автоматически заполнить поля в сопоставлениях таблиц.
+5. Выберите **Обновить список таблиц**, чтобы автоматически заполнить столбцы в сопоставлениях таблиц.
 
 Если проблема все еще не устранена, выполните следующие действия.
 
 > [!IMPORTANT]
-> В этих шагах выполняется процедура удаления объекта и добавления его снова. Чтобы избежать проблем, обязательно точно выполните описанные шаги.
+> В этих шагах выполняется процедура удаления таблицы и добавления ее снова. Чтобы избежать проблем, обязательно точно выполните описанные шаги.
 
 1. В приложении Finance and Operations перейдите к пункту **Рабочие области \> Управление данными** и выберите плитку **Таблицы данных**.
-2. Найдите объект, в котором отсутствует атрибут. Нажмите **Изменить целевое сопоставление** на панели инструментов.
+2. Найдите таблицу, в которой отсутствует атрибут. Нажмите **Изменить целевое сопоставление** на панели инструментов.
 3. В области **Сопоставить промежуточные данные с целевыми** щелкните **Создать сопоставление**.
 4. Откройте страницу **Сопоставление таблиц** со страницы **Двойная запись** в приложении Finance and Operations.
 5. Если атрибут не был автоматически заполнен в сопоставлении, добавьте его вручную, нажав кнопку **Добавить атрибут**, затем щелкнув **Сохранить**. 
 6. Выберите сопоставление и щелкните **Выполнить**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

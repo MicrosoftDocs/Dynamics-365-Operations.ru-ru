@@ -2,7 +2,7 @@
 title: Ведение сведений о травмах и заболеваниях сотрудников
 description: Рекомендуется сначала выполнить задание "Настройка травм и заболеваний", поскольку здесь используются некоторые сведения о настройке.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420207"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130117"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Ведение сведений о травмах и заболеваниях сотрудников
 
@@ -93,6 +93,3 @@ ms.locfileid: "4420207"
 36. Нажмите кнопку "Сохранить".
     * Статус инцидента можно изменить в любое время.  Установите для инцидента статус "В работе", если выполняется обработка травмы или заболевания.  После закрытия инцидента можно только добавлять или удалять затраты, лечение или отчеты, связанные с инцидентом.  Чтобы изменить другую информацию, повторное откройте инцидент.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

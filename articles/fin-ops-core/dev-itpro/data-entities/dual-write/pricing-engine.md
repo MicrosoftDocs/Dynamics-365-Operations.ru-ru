@@ -1,5 +1,5 @@
 ---
-title: Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
+title: Синхронизация по требованию с механизмом ценообразования Supply Chain Management
 description: В этом разделе описывается, как использовать механизм ценообразования в Microsoft Dynamics 365 Supply Chain Management из Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4456663"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130661"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Синхронизация по требованию с механизмом ценообразования Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management включает в себя ме
 3. Добавьте новую строку заказа.
 4. При создании нового заказа выберите **Рассчитать цену заказа** на панели операций. При обновлении существующего заказа выберите **Пересчитать** на панели операций.
 
-    Следующие поля автоматически заполняются:
+    Следующие столбцы автоматически заполняются:
 
     + Детальная сумма
     + % скидки
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management включает в себя ме
 
 ## <a name="how-it-works"></a>Как это работает
 
-При выборе пункта **Рассчитать цену заказа** в Sales функция **Итоговые значения** на вкладке **Заказ на продажу \> Просмотр** в Supply Chain Management вызывается для связанного заказа на продажу. Значения в итоговой сумме заказа в Sales используются для заполнения соответствующих полей в Supply Chain Management.
+При выборе пункта **Рассчитать цену заказа** в Sales функция **Итоговые значения** на вкладке **Заказ на продажу \> Просмотр** в Supply Chain Management вызывается для связанного заказа на продажу. Значения в итоговой сумме заказа в Sales используются для заполнения соответствующих столбцов в Supply Chain Management.
 
 При расчете итога по заказу на продажу в Supply Chain Management в расчете оцениваются существующие торговые договоры и договоры продажи для клиента и продуктов, перечисленных в заказе на продажу. Эти сведения используются при расчете итоговых сумм. При выборе пункта **Рассчитать цену заказа** Sales автоматически отражает все настройки, выполненные в Supply Chain Management.
 
 ## <a name="limitations"></a>Ограничения
 
-Когда поля в Sales заполнены, действуют следующие ограничения:
+Когда столбцы в Sales заполнены, действуют следующие ограничения:
 
 + Настройка накладных расходов и распределения расходов в Supply Chain Management не воспроизводится в Sales.
-+ В ценах не учитывается специальная розничная цена, указанная в поле **Канал розничной торговли** на странице строки заказа на продажу в Supply Chain Management.
++ В ценах не учитывается специальная розничная цена, указанная в столбце **Канал розничной торговли** на странице строки заказа на продажу в Supply Chain Management.
 + Скидки, которые определены в разделе **Управление торговыми скидками** Supply Chain Management не рассматриваются.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Просмотр и управление изменениями адресов
 description: В этом разделе объясняется, как просматривать изменения адресов и управлять ими в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420186"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152061"
 ---
 # <a name="view-and-manage-address-changes"></a>Просмотр и управление изменениями адресов
 
@@ -125,9 +125,6 @@ ms.locfileid: "4420186"
 При выборе плитки **изменения адреса** на новой странице отображаются сведения об изменении адреса. Можно дополнительно установить флажок **включить будущие изменения адреса** в верхнем правом углу для просмотра изменений адреса с будущей датой.
 
 > [!NOTE]
-> Если вы хотите получать оповещение или сообщение электронной почты об изменениях адресов, можно создать новое правило генерации оповещений на вкладке **Параметры** в области действий. Дополнительные сведения о создании правил оповещения см. в разделе [Создание правил оповещения](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Если вы хотите получать оповещение или сообщение электронной почты об изменениях адресов, можно создать новое правило генерации оповещений на вкладке **Параметры** в области действий. Дополнительные сведения о создании правил оповещения см. в разделе [Создание правил оповещения](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Если требуется настроить workflow-процесс для изменения адреса, можно выбрать параметр **Послать извне** в правиле оповещений, а затем использовать Power Automate для запуска бизнес-события и настройки workflow-процесса. Дополнительные сведения см. в [Оповещения как бизнес-события](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Если требуется настроить workflow-процесс для изменения адреса, можно выбрать параметр **Послать извне** в правиле оповещений, а затем использовать Power Automate для запуска бизнес-события и настройки workflow-процесса. Дополнительные сведения см. в [Оповещения как бизнес-события](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

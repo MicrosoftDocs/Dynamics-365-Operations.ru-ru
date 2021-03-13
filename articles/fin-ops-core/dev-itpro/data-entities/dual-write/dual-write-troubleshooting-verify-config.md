@@ -1,5 +1,5 @@
 ---
-title: Проверка настройки двойной записи в приложениях Finance and Operations и Dataverse
+title: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
 description: В этой теме объясняется, как можно определить, настроена ли двойная запись в приложениях Finance and Operations и в Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 361d6555b60e02832c337b6f416b2b3627b6d365
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685547"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129315"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Проверка настройки двойной записи в приложениях Finance and Operations и Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,13 +51,10 @@ ms.locfileid: "4685547"
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Проверка настройки двойной записи в Dataverse
 
-Если при создании данных вы видите поле **Компания** на страницах в Dataverse, двойная запись настроена.
+Если при создании данных вы видите столбец **Компания** на страницах в Dataverse, двойная запись настроена.
 
 ![Проверка подключения Dataverse](media/verify_cds.png)
 
 Сведения об устранении проблем при создании данных в Dataverse см. в разделе [Устранение проблем с синхронизацией в режиме реального времени](dual-write-troubleshooting-live-sync.md).
 
 Сведения о том, как просмотреть подробные сведения об ошибке при возникновении каких-либо ошибок во время создания данных в Dataverse см. в разделе [Включение и просмотр журнала трассировки подключаемого модуля в Dataverse для просмотра подробных сведений об ошибке](dual-write-troubleshooting.md#enable-view-trace).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
