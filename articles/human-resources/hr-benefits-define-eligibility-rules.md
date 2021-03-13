@@ -2,7 +2,7 @@
 title: Определение правил и политик проверки прав на льготы
 description: Эта статья показывает, как создавать правила и политики проверки прав на льготы, а затем назначать правила льготам.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,61 +11,59 @@ ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f46437fef342ab1a4e368063d8b74205ca8e8c05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc80549eaffa72a22dec51829c86d04a763de96a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420234"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113969"
 ---
-# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="ea27a-103">Определение правил и политик проверки прав на льготы</span><span class="sxs-lookup"><span data-stu-id="ea27a-103">Define benefit eligibility rules and policies</span></span>
+# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="9875e-103">Определение правил и политик проверки прав на льготы</span><span class="sxs-lookup"><span data-stu-id="9875e-103">Define benefit eligibility rules and policies</span></span>
 
-<span data-ttu-id="ea27a-104">Эта статья показывает, как создавать правила и политики проверки прав на льготы, а затем назначать правила льготам.</span><span class="sxs-lookup"><span data-stu-id="ea27a-104">This article shows you how you can create benefit eligibility rules and policies and then assign rules to Benefits.</span></span>  
+<span data-ttu-id="9875e-104">Эта тема показывает, как создавать правила и политики проверки прав на льготы, а затем назначать правила льготам.</span><span class="sxs-lookup"><span data-stu-id="9875e-104">This topic shows you how you can create benefit eligibility rules and policies and then assign rules to benefits.</span></span>  
 
-<span data-ttu-id="ea27a-105">В качестве компании с демонстрационными данными для создания этой записи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="ea27a-105">The demo data company used to create this recording is USMF.</span></span>
+## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="9875e-105">Создание типа правил политики приемлемости льготы</span><span class="sxs-lookup"><span data-stu-id="9875e-105">Create benefit eligibility policy rule type</span></span>
 
+1. <span data-ttu-id="9875e-106">Перейдите в раздел **Управление персоналом > Льготы > Приемлемость > Типы правил политики права на льготу**.</span><span class="sxs-lookup"><span data-stu-id="9875e-106">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policy rule types**.</span></span>
+2. <span data-ttu-id="9875e-107">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="9875e-107">Select **New**.</span></span>
+3. <span data-ttu-id="9875e-108">В поле **Имя правила** введите значение.</span><span class="sxs-lookup"><span data-stu-id="9875e-108">In the **Rule name** field, enter a value.</span></span>
+4. <span data-ttu-id="9875e-109">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="9875e-109">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="9875e-110">В поле **Имя запроса** выберите кнопку раскрывающегося списка, чтобы открыть подстановку.</span><span class="sxs-lookup"><span data-stu-id="9875e-110">In the **Query name** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="9875e-111">В списке выберите ссылку в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9875e-111">In the list, select the link in the selected row.</span></span>
+7. <span data-ttu-id="9875e-112">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="9875e-112">Select **Save**.</span></span>
+8. <span data-ttu-id="9875e-113">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9875e-113">Close the page.</span></span>
 
-## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="ea27a-106">Создание типа правил политики приемлемости льготы</span><span class="sxs-lookup"><span data-stu-id="ea27a-106">Create benefit eligibility policy rule type</span></span>
-1. <span data-ttu-id="ea27a-107">Перейдите в раздел "Управление персоналом" > "Льготы" > "Приемлемость" > "Типы правил политики права на льготу".</span><span class="sxs-lookup"><span data-stu-id="ea27a-107">Go to Human resources > Benefits > Eligibility > Benefit eligibility policy rule types.</span></span>
-2. <span data-ttu-id="ea27a-108">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="ea27a-108">Click New.</span></span>
-3. <span data-ttu-id="ea27a-109">В поле "Правило" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ea27a-109">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="ea27a-110">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ea27a-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="ea27a-111">В поле "Имя запроса" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="ea27a-111">In the Query name field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="ea27a-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="ea27a-112">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="ea27a-113">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="ea27a-113">Click Save.</span></span>
-8. <span data-ttu-id="ea27a-114">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-114">Close the page.</span></span>
+## <a name="benefit-eligibility-policy"></a><span data-ttu-id="9875e-114">Политика права на льготу</span><span class="sxs-lookup"><span data-stu-id="9875e-114">Benefit eligibility policy</span></span>
 
-## <a name="benefit-eligibility-policy"></a><span data-ttu-id="ea27a-115">Политика права на льготу</span><span class="sxs-lookup"><span data-stu-id="ea27a-115">Benefit eligibility policy</span></span>
-1. <span data-ttu-id="ea27a-116">Перейдите в раздел "Управление персоналом" > "Льготы" > "Приемлемость" > "Политики приемлемости льготы".</span><span class="sxs-lookup"><span data-stu-id="ea27a-116">Go to Human resources > Benefits > Eligibility > Benefit eligibility policies.</span></span>
-2. <span data-ttu-id="ea27a-117">Выберите существующую политику права на льготу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-117">Select an existing benefit policy.</span></span>
-3. <span data-ttu-id="ea27a-118">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="ea27a-118">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ea27a-119">Переключите развертывание разделов организаций политики.</span><span class="sxs-lookup"><span data-stu-id="ea27a-119">Toggle the expansion of the Policy organizations sections.</span></span>  <span data-ttu-id="ea27a-120">Здесь можно добавить или удалить организации, которые требуется включить в политику.</span><span class="sxs-lookup"><span data-stu-id="ea27a-120">Here you can add or remove any organizations you want to include in the policy.</span></span>
-5. <span data-ttu-id="ea27a-121">Разверните или сверните раздел "Правила политики".</span><span class="sxs-lookup"><span data-stu-id="ea27a-121">Expand or collapse the Policy rules section.</span></span>
-6. <span data-ttu-id="ea27a-122">Найдите в списке ранее созданное правило политики.</span><span class="sxs-lookup"><span data-stu-id="ea27a-122">In the list find the policy rule previously created.</span></span>
-7. <span data-ttu-id="ea27a-123">Щелкните "Создать правило политики".</span><span class="sxs-lookup"><span data-stu-id="ea27a-123">Click Create policy rule.</span></span>
-8. <span data-ttu-id="ea27a-124">В поле "Действует с" введите дату, когда политика должна вступить в силу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-124">In the Effective date field, enter the date in which you want the policy to become effective.</span></span>
-    * <span data-ttu-id="ea27a-125">Задание даты вступления в силу и даты окончания позволяет вносить в правила политики изменения, которые должны вступить в силу в будущем, не возвращаясь в политике перед моментом вступления их в силу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-125">Setting effective and end dates allows you to make future changes to policy rules and removing the need to come back to the policy when you want those changes to take effect.</span></span>  
-9. 
-    * <span data-ttu-id="ea27a-126">Например, если требуется, чтобы правило применялось только к менеджерам по продажам, можно создать предложение с условием "Где", например: "Где описание должности равно Менеджер по продажам".</span><span class="sxs-lookup"><span data-stu-id="ea27a-126">For example if you wanted the rule to only apply to Sales Managers you could create the Where clause to say: Where position description equals Sales Manager.</span></span>  <span data-ttu-id="ea27a-127">В одном правиле можно объединить несколько операторов "Где" с помощью операторов "И" и "Или".</span><span class="sxs-lookup"><span data-stu-id="ea27a-127">You can And or Or multiple Where statements together in the rule.</span></span>  
-10. <span data-ttu-id="ea27a-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ea27a-128">Click OK.</span></span>
-11. <span data-ttu-id="ea27a-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-129">Close the page.</span></span>
-12. <span data-ttu-id="ea27a-130">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="ea27a-130">Close the page.</span></span>
+1. <span data-ttu-id="9875e-115">Перейдите в раздел **Управление персоналом > Льготы > Приемлемость > Политики приемлемости льготы**.</span><span class="sxs-lookup"><span data-stu-id="9875e-115">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policies**.</span></span>
+2. <span data-ttu-id="9875e-116">Выберите существующую политику права на льготу.</span><span class="sxs-lookup"><span data-stu-id="9875e-116">Select an existing benefit policy.</span></span>
+3. <span data-ttu-id="9875e-117">В списке выберите ссылку в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9875e-117">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="9875e-118">Переключите развертывание разделов **Организации политики**.</span><span class="sxs-lookup"><span data-stu-id="9875e-118">Toggle the expansion of the **Policy organizations** sections.</span></span> <span data-ttu-id="9875e-119">Можно добавить или удалить организации, которые требуется включить в политику.</span><span class="sxs-lookup"><span data-stu-id="9875e-119">You can add or remove any organizations you want to include in the policy.</span></span>
+5. <span data-ttu-id="9875e-120">Разверните или сверните раздел **Правила политики**.</span><span class="sxs-lookup"><span data-stu-id="9875e-120">Expand or collapse the **Policy rules** section.</span></span>
+6. <span data-ttu-id="9875e-121">Найдите в списке ранее созданное правило политики.</span><span class="sxs-lookup"><span data-stu-id="9875e-121">In the list, find the policy rule previously created.</span></span>
+7. <span data-ttu-id="9875e-122">Выберите **Создать правило политики**.</span><span class="sxs-lookup"><span data-stu-id="9875e-122">Select **Create policy rule**.</span></span>
+8. <span data-ttu-id="9875e-123">В поле **Действует с** введите дату, когда политика должна вступить в силу.</span><span class="sxs-lookup"><span data-stu-id="9875e-123">In the **Effective date** field, enter the date in which you want the policy to become effective.</span></span>
+    * <span data-ttu-id="9875e-124">Задание даты вступления в силу и даты окончания позволяет вносить в правила политики изменения, которые должны вступить в силу в будущем, чтобы не возвращаться к политике перед моментом вступления их в силу.</span><span class="sxs-lookup"><span data-stu-id="9875e-124">Setting effective end dates allows you to make future changes to policy rules so you don't need to come back to the policy when you want those changes to take effect.</span></span>  
+9. <span data-ttu-id="9875e-125">При необходимости добавьте предложение в поле **Добавить условие**.</span><span class="sxs-lookup"><span data-stu-id="9875e-125">If needed, add a where clause to the **Add condition** field.</span></span>
+    * <span data-ttu-id="9875e-126">Например, если требуется, чтобы правило применялось только к менеджерам по продажам, можно создать предложение с условием "Где", например: "Где описание должности равно Менеджер по продажам".</span><span class="sxs-lookup"><span data-stu-id="9875e-126">For example if you wanted the rule to only apply to Sales Managers you could create the where clause to say: Where position description equals Sales Manager.</span></span> <span data-ttu-id="9875e-127">В одно правило можно добавить несколько операторов "Где".</span><span class="sxs-lookup"><span data-stu-id="9875e-127">You can add multiple where statements together in the rule.</span></span>  
+10. <span data-ttu-id="9875e-128">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="9875e-128">Select **OK**.</span></span>
+11. <span data-ttu-id="9875e-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9875e-129">Close the page.</span></span>
 
-## <a name="assign-rule-to-benefit"></a><span data-ttu-id="ea27a-131">Назначение правила льготе</span><span class="sxs-lookup"><span data-stu-id="ea27a-131">Assign rule to benefit</span></span>
-1. <span data-ttu-id="ea27a-132">Перейдите в раздел "Управление персоналом" > "Льготы" > "Льготы".</span><span class="sxs-lookup"><span data-stu-id="ea27a-132">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="ea27a-133">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="ea27a-133">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="ea27a-134">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="ea27a-134">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ea27a-135">Разверните или сверните раздел "Правила приемлемости".</span><span class="sxs-lookup"><span data-stu-id="ea27a-135">Expand or collapse the Eligibility rules section.</span></span>
-5. <span data-ttu-id="ea27a-136">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="ea27a-136">Click Edit.</span></span>
-6. <span data-ttu-id="ea27a-137">В поле "Приемлемость" выберите из списка "На основе правила".</span><span class="sxs-lookup"><span data-stu-id="ea27a-137">In the Eligibility field, select Rule based from the list.</span></span>
-7. <span data-ttu-id="ea27a-138">В поле "Тип правила" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="ea27a-138">In the Rule type field, click the drop down button to open the lookup.</span></span>
-8. <span data-ttu-id="ea27a-139">Найдите в списке ранее созданное правило и выберите его.</span><span class="sxs-lookup"><span data-stu-id="ea27a-139">In the list find and select the rule you previously created.</span></span>
-9. <span data-ttu-id="ea27a-140">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="ea27a-140">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="ea27a-141">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="ea27a-141">Click Save.</span></span>
-11. <span data-ttu-id="ea27a-142">Закройте форму.</span><span class="sxs-lookup"><span data-stu-id="ea27a-142">Close the form.</span></span>
+## <a name="assign-rule-to-benefit"></a><span data-ttu-id="9875e-130">Назначение правила льготе</span><span class="sxs-lookup"><span data-stu-id="9875e-130">Assign rule to benefit</span></span>
+
+1. <span data-ttu-id="9875e-131">Перейдите в раздел **Управление персоналом > Льготы > Льготы**.</span><span class="sxs-lookup"><span data-stu-id="9875e-131">Go to **Human resources > Benefits > Benefits**.</span></span>
+2. <span data-ttu-id="9875e-132">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9875e-132">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="9875e-133">В списке выберите ссылку в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9875e-133">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="9875e-134">Разверните или сверните раздел **Правила приемлемости**.</span><span class="sxs-lookup"><span data-stu-id="9875e-134">Expand or collapse the **Eligibility rules** section.</span></span>
+5. <span data-ttu-id="9875e-135">Выберите **Правка**.</span><span class="sxs-lookup"><span data-stu-id="9875e-135">Select **Edit**.</span></span>
+6. <span data-ttu-id="9875e-136">В поле **Приемлемость** выберите правило.</span><span class="sxs-lookup"><span data-stu-id="9875e-136">In the **Eligibility** field, select the rule.</span></span>
+7. <span data-ttu-id="9875e-137">В поле **Тип правила** выберите ранее созданное правило.</span><span class="sxs-lookup"><span data-stu-id="9875e-137">In the **Rule type** field, select the rule you previously created.</span></span>
+9. <span data-ttu-id="9875e-138">В списке выберите ссылку в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9875e-138">In the list, select the link in the selected row.</span></span>
+10. <span data-ttu-id="9875e-139">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="9875e-139">Select **Save**.</span></span>
+11. <span data-ttu-id="9875e-140">Закройте форму.</span><span class="sxs-lookup"><span data-stu-id="9875e-140">Close the form.</span></span>
 
