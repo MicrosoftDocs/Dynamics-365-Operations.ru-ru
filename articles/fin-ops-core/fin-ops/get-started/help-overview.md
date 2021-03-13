@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695147"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154161"
 ---
 # <a name="help-system"></a>Система справки
 
@@ -163,7 +163,4 @@ On the **System parameters** page, follow these steps:
 | [Docs.microsoft.com/предыдущие версии](/previous-versions/dynamics/) | Этот сайт размещает содержимое из предыдущих выпусков. |
 | [Сообщество Dynamics](https://community.dynamics.com/) | Этот сайт включает блоги, форумы и видео. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Этот сайт предоставляет сведения об оценке и продажах. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Этот сайт размещает ресурсы обучения, можно загрузить отчеты и документы, и является основным сайтом поддержки для владельцев планов обслуживания. Может потребоваться план обслуживания для доступа к некоторым ресурсам на сайте. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Этот сайт размещает ресурсы обучения, можно загрузить отчеты и документы, и является основным сайтом поддержки для владельцев планов обслуживания. Может потребоваться план обслуживания для доступа к некоторым ресурсам на сайте. |

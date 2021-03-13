@@ -9,17 +9,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 951d0f4c647880bba53669dde693888fbd4d2eab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 296f5e03c2d587e731486ca4503023e0499bf065
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408578"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154073"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 
@@ -43,7 +42,7 @@ ms.locfileid: "4408578"
 
 Создание шаблона Excel для вашего финансового отчета. Как минимум необходимо назначить имена всем ячейкам Excel, которые должны иметь значения в отчете, который будет создан.
 
-Например, загрузите [пример шаблона Excel для балансового отчета в России](https://mbs.microsoft.com/customersource/global/AX/learning/documentation/how-to-articles/BalancesheetRussia).
+Например, загрузите [пример шаблона Excel для балансового отчета в России](https://docs.microsoft.com/dynamics/s-e/).
 
 ## <a name="create-an-er-configuration-for-the-financial-report-in-excel-format"></a>Создание конфигурации электронной отчетности для финансового отчета в формате Excel
 
@@ -149,6 +148,3 @@ ms.locfileid: "4408578"
 
 5. Нажмите **ОК**.
 6. Просмотрите созданный отчет Excel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

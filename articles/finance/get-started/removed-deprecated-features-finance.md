@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689502"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154185"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -34,9 +33,19 @@ ms.locfileid: "4689502"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://docs.microsoft.com/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.16
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Форматы электронной отчетности "Декларация по НДС (CZ)" и "Экспорт инструкций управления (CZ)" Чешской Республики
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменяются новыми форматами |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Заявление |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: 22 января 2022 года корпорация Майкрософт планирует больше не поддерживать форматы электронной отчетности "Декларация по НДС (CZ)", "Экспорт управляющей инструкции (CZ)". Новые форматы XML-документа декларации по НДС (CZ), Excel декларации по НДС (CZ), XML-документа управляющей инструкции по НДС (CZ) введены в качестве модели налоговой декларации. |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Формат электронной отчетности "Формат экспорта проводок книги учета (BE)" и соответствующая модель "Экспорт проводок книги учета (BE)" для Бельгии
 
@@ -107,6 +116,3 @@ ms.locfileid: "4689502"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Предыдущие объявления об удаленных или устаревших функциях
 Для получения дополнительных сведений о функциях, которые были удалены или устарели в предыдущих выпусках, см [Удаленные или устаревшие функции в предыдущих выпусках](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

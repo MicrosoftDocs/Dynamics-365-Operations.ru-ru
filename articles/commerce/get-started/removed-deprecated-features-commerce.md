@@ -3,24 +3,23 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: dd982ae60da1c2958d6d759bb5dd256a71fabf6c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689547"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154209"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Удаленные или устаревшие функции Dynamics 365 Commerce
 
@@ -34,7 +33,22 @@ ms.locfileid: "4689547"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://docs.microsoft.com/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.17
+
+> [!Important]
+> Версия 10.0.17 доступна как часть выпуска предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="full-dataset-generation-interval-is-deprecated"></a>Интервал создания полного набора данных устарел
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Начиная с данного выпуска в форме **Параметры планировщика Commerce** в Dynamics 365 headquarters поле **Интервал создания полного набора данных в днях** станет устаревшим. Кроме того, начиная с этого выпуска это поле будет визуально удалено, чтобы значение невозможно было изменить. Оно останется со значением **0**. |
+| **Заменена другой функцией?**   | Нет |
+| **Затрагиваемые области продукта**         | Dynamics 365 Commerce |
+| **Вариант развертывания**              | Все|
+| **Состояние**                         | Устарело. Не используйте это поле и не изменяйте значение в нем.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.15
 
@@ -108,6 +122,3 @@ ms.locfileid: "4689547"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Предыдущие объявления об удаленных или устаревших функциях
 Для получения дополнительных сведений о функциях, которые были удалены или устарели в предыдущих выпусках, см [Удаленные или устаревшие функции в предыдущих выпусках](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

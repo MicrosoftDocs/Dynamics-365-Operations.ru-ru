@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 036b43d8730b52bddc93c0fc3b47d9d62649e898
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529836"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152181"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (6 октября 2020 г.)
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529836"
 
 В этой теме описываются новые, измененные и ожидающиеся компоненты в Dynamics 365 Human Resources. Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
-Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>В данном выпуске
 
@@ -73,13 +72,13 @@ ms.locfileid: "4529836"
 | --- | --- | --- |
 | Приложение Human Resources в Microsoft Teams | [Отпуск и отгулы сотрудников в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Управление запросами на отпуск в Teams](hr-teams-leave-app.md) |
 | Расширенные запросы и утверждения рабочих процессов | [Улучшения рабочих процессов управления организациями и персоналом](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Параметр конфигурации для размещения списка рабочих элементов, назначенных мне](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Виртуальные сущности в Common Data Service для Human Resources | [Развертывание основных данных Dynamics 365 Human Resources в Common Data Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Настройка виртуальных сущностей Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Виртуальные сущности в Dataverse для Human Resources | [Развертывание основных данных Dynamics 365 Human Resources в Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Настройка виртуальных сущностей Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Скоро
 
 Следующие новые функции планируются в будущих выпусках:
 
-- **Сущности контрольного списка, включенные в Common Data Service**: сущности контрольного списка для адаптации, увольнения, переходов и бизнес-процессов в скором времени будут доступны в Common Data Service.
+- **Сущности контрольного списка, включенные в Dataverse**: сущности контрольного списка для адаптации, увольнения, переходов и бизнес-процессов в скором времени будут доступны в Dataverse.
 
 - **Коды причин управления льготами**: коды причин управления льготами скоро будут объединены с существующими кодами причин в Human Resources. Если созданные коды причин в модуле управления льготами имеют более 15 символов, необходимо изменить имя кода причины в форме **Коды причин** управления льготами, чтобы оно состояло не более чем из 15 символов. После обновления имени код причины появится под существующим кодом причины в управлении персоналом. Это изменение будет доступно в будущем и не повлияет на существующие функции.
 
@@ -90,9 +89,6 @@ ms.locfileid: "4529836"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2020, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2020, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682753"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154369"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Решение PowerBI.com "Результаты финансовой деятельности"
 
@@ -87,7 +87,4 @@ ms.locfileid: "4682753"
 - Главные книги
 - ChartofAccounts
 
-Эти объекты были использованы для создания вычисляемых мер в модели данных. Вычисляемые меры используются для расчета ключевых показателей производительности (KPI) и отчетов, используемых в содержимом. По умолчанию содержимое отображает данные за последние три года и один будущий год. Чтобы включить дополнительные расчеты от отчеты и панель мониторинга, можно изменить [книгу Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Эта книга является моделью данных по умолчанию, которая использовалась для создания содержимого.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+Эти объекты были использованы для создания вычисляемых мер в модели данных. Вычисляемые меры используются для расчета ключевых показателей производительности (KPI) и отчетов, используемых в содержимом. По умолчанию содержимое отображает данные за последние три года и один будущий год. Чтобы включить дополнительные расчеты от отчеты и панель мониторинга, можно изменить [книгу Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Эта книга является моделью данных по умолчанию, которая использовалась для создания содержимого.

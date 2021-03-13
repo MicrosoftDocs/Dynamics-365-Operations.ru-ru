@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c66481b1dd8650960cad2947425c1e6c7450afcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436279"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154235"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Импорт исторических данных для прогнозов спроса
 
@@ -34,31 +33,31 @@ ms.locfileid: "4436279"
 В рабочей области **Управление данными** можно просмотреть обзор всех полей объекта.
 
 1. Откройте рабочую область **Управление данными**.
-2. Щелкните плитку **Информационные объекты**.
+2. Выберите плитку **Информационные объекты**.
 3. Найдите в списке объект **Исторический внешний спрос**.
-4. Щелкните **Целевые поля**. Следующие поля объекта являются обязательными: сайт (**DeliveringSiteId**), дата (**DemandDate**), количество (**DemandQuantity**) и номер номенклатуры (**ItemNumber**) или ключ распределения номенклатуры (**ProductAllocationKeyId**).
+4. Выберите **Целевые поля**. Следующие поля объекта являются обязательными: сайт (**DeliveringSiteId**), дата (**DemandDate**), количество (**DemandQuantity**) и номер номенклатуры (**ItemNumber**) или ключ распределения номенклатуры (**ProductAllocationKeyId**).
 
 Чтобы использовать информационный объект, необходим файл Microsoft Excel или файл значений с разделителями-запятыми (CSV), содержащий исторические данные о спросе. В следующем примере показано, как импортировать данные из CSV-файла.
 
+Дополнительные сведения о том, как импортировать данные, в том числе о порядке очистки данных после импорта, см. в теме [Обзор заданий импорта и экспорта данных](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) и связанных с ней темах.
+
 ## <a name="example"></a>Пример
 
-Можно использовать следующий файл в качестве примера. Загрузите [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Этот файл содержит исторические данные по спросу для номенклатуры D0001. Он содержит только следующие обязательные поля: сайт, количество и дата спроса.
+Можно использовать следующий файл в качестве примера. Загрузите [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Этот файл содержит исторические данные по спросу для номенклатуры D0001. Он содержит только следующие обязательные поля: сайт, количество и дата спроса.
 
 1. Выберите компанию, в которую следует импортировать исторические данные о спросе.
 2. Откройте рабочую область **Управление данными**.
-3. Щелкните плитку **Импорт**.
+3. Выберите плитку **Импорт**.
 4. Введите имя для проекта импорта, например **Импорт исторического спроса на номенклатуру D0001**.
 5. В поле **Формат исходных данных** выберите формат импортируемого файла. Чтобы импортировать файл HistoricalDemandData из этого примера, выберите **CSV**.
 6. В поле **Имя объекта** выберите **Исторический внешний спрос**.
 7. Сохраните файл на своем компьютере, затем отправьте его.
-8. Нажмите кнопку **Импорт**.
+8. Выберите **Импорт**.
 9. Автоматически открывается страница **Сводка выполнения**. Проверьте импортированные данные на странице.
 
 После импорта исторических данных о спросе можно создать прогноз продаж.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)  
+[Обзор заданий импорта и экспорта данных](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)

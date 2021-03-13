@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 2d4e219100bb415bc756b19a4d160c2b1a606c31
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87799966234a56ebb3f22579852665226d5a3920
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408550"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154075"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 
@@ -216,8 +215,5 @@ ms.locfileid: "4408550"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Отчет служб SQL Server Reporting Services](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)
+[Отчет служб SQL Server Reporting Services](https://docs.microsoft.com/dynamics/s-e/)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
