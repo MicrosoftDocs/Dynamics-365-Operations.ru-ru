@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007720"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ограничения выражений и ограничения таблиц в моделях конфигурации продукта
 
@@ -110,7 +109,7 @@ ms.locfileid: "4436236"
 <tr class="odd">
 <td>Implies</td>
 <td>Выражение истинно, если первое условие ложно, второе условие истинно или выполняются оба условия.</td>
-<td>Implies[a, b], инфиксная нотация: a -: b</td>
+<td>Implies[a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Оператор:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Инфиксная нотация:</strong> x != 0 -: y &gt;= 0</li>
@@ -119,7 +118,7 @@ ms.locfileid: "4436236"
 <tr class="even">
 <td>И</td>
 <td>Выражение истинно, только если условия истинны. Если число условий равно 0, результатом будет <strong>True</strong>.</td>
-<td>And[args], инфиксная нотация: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>Оператор:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Инфиксная нотация:</strong> x == 2 &amp; y &lt;= 2</li>
@@ -128,7 +127,7 @@ ms.locfileid: "4436236"
 <tr class="odd">
 <td>Или</td>
 <td>Выражение истинно, если любое из условий истинно. Если число условий равно 0, результатом будет <strong>False</strong>.</td>
-<td>Or[args], инфиксная нотация: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Инфиксная нотация:</strong> x == 2 | y &lt;= 2</li>
@@ -137,7 +136,7 @@ ms.locfileid: "4436236"
 <tr class="even">
 <td>Плюс</td>
 <td>Выражение суммирует его условия. Если число условий равно 0, результатом будет <strong>0</strong>.</td>
-<td>Plus[args], инфиксная нотация: a + b + ... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Инфиксная нотация:</strong> x + y + 2 == z</li>
@@ -146,7 +145,7 @@ ms.locfileid: "4436236"
 <tr class="odd">
 <td>Минус</td>
 <td>Инвертирует свой аргумент. У этого выражения должно быть ровно одно условие.</td>
-<td>Minus[expr], инфиксная нотация: -expr</td>
+<td>Minus[expr], infix: -expr</td>
 <td><ul>
 <li><strong>Оператор:</strong> Minus[x] == y</li>
 <li><strong>Инфиксная нотация:</strong> -x == y</li>
@@ -161,16 +160,16 @@ ms.locfileid: "4436236"
 <tr class="odd">
 <td>Время</td>
 <td>Выражение получает произведение условий. Если число условий равно 0, результатом будет <strong>1</strong>.</td>
-<td>Times[args], инфиксная нотация: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Times[x, y, 2] == z</li>
 <li><strong>Инфиксная нотация:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Мощность</td>
-<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (Другими словами, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
-<td>Power[args], инфиксная нотация: a ^ b ^ ... ^ z</td>
+<td>Степень</td>
+<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (То есть, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Power[x, 2] == y</li>
 <li><strong>Инфиксная нотация:</strong> x ^ 2 == y</li>
@@ -191,7 +190,7 @@ ms.locfileid: "4436236"
 <tr class="odd">
 <td>Не</td>
 <td>Выражение получает логическую инверсию условия. У этого выражения должно быть ровно одно условие.</td>
-<td>Not[expr], инфиксная нотация: !expr</td>
+<td>Not[expr], infix: !expr</td>
 <td><ul>
 <li><strong>Оператор:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Инфиксная нотация:</strong> !x!(y == 3)</li>
@@ -222,7 +221,7 @@ ms.locfileid: "4436236"
 |        (x)        |                           Скобки имеют наивысший приоритет.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Почему мои ограничения выражений не проходят проверку?
-Нельзя использовать зарезервированные ключевые слова, такие как имена решателя, для атрибутов, компонентов или субкомпонентов в модели конфигурации продукта. Ниже приведен список зарезервированных ключевых слов, которые нельзя использовать.
+Нельзя использовать зарезервированные ключевые слова, такие как имена решателя, для атрибутов, компонентов или субкомпонентов в модели конфигурации продукта. Ниже приведен список зарезервированных ключевых слов, которые нельзя использовать.
 
 -   Ceiling
 -   Элемент
@@ -254,6 +253,3 @@ ms.locfileid: "4436236"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

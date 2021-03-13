@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436461"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007499"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Устранение неполадок заказов на покупку
 
@@ -132,7 +131,7 @@ ms.locfileid: "4436461"
 
 Для примера сценария, описанного в описании проблемы, в котором запись имеет дату вступления в силу *01/11/2018* и дату истечения срока действия *Никогда*, можно импортировать новую запись с датой вступления в силу *01/10/2018* и датой истечения срока действия *Никогда*. Однако нельзя уменьшить период, чтобы дата вступления в силу обновлялась до *01/12/2018* через управление данными. Это изменение необходимо выполнить с помощью пользовательского интерфейса.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>После изменения адреса поставки в заголовке заказа на покупку имя доставки не синхронизируется.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>После изменения адреса поставки в заголовке заказа на покупку имя доставки не синхронизируется.
 
 ### <a name="issue-description"></a>Описание проблемы
 
@@ -145,6 +144,3 @@ ms.locfileid: "4436461"
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Можно ли найти пользователя, который отменил заказ на покупку?
 
 Эта информация отслеживается только в том случае, если заказ на покупку подлежит управлению изменениями. При использовании управления изменениями можно видеть, кто отправил изменение (отмену) и кто его утвердил.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

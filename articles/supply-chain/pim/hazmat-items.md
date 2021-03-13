@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436235"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007674"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Опасные материалы в продуктах, заказах, отгрузках и загрузках
 
@@ -221,6 +220,3 @@ ms.locfileid: "4436235"
 1. В области действий на вкладке **Загрузки** в группе **Действия** выберите **Проверка совместимости**.
 
 Вы получите сообщение, которое информирует вас о результатах проверки.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

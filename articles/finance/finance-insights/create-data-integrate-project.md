@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: fb17d5e82709a34ff088774d9e9034adb714b58c
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0029e093f524c61ff17a480ee3b881b3994ba95a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009461"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Создание проекта средства интеграции данных (предварительная версия)
 
@@ -73,6 +72,3 @@ ms.locfileid: "4646261"
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 
 Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

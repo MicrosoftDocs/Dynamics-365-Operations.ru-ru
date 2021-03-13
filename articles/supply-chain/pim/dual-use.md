@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436237"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007715"
 ---
 # <a name="dual-use-goods"></a>Товары двойного назначения
 
@@ -108,6 +107,3 @@ ms.locfileid: "4436237"
     | Печать на счете | Установите этот флажок для печати номера сертификата на счетах, адресованных в указанную страну в указанном диапазоне дат. |
     | Печать на отборочной накладной | Установите этот флажок для печати номера сертификата на отборочных накладных, адресованных в указанную страну в указанном диапазоне дат. |
     | Печать на заказе на продажу | Установите этот флажок для печати номера сертификата на заказах на продажу, адресованных в указанную страну в указанном диапазоне дат. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

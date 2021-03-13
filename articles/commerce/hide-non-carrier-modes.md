@@ -10,19 +10,18 @@ ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 38d57ed5f8d2b8725cd11156f0135988bb76e047
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcacb4243e78607d19d2c57aff5debe04d85d6f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415325"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009730"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Скрыть режимы доставки, не связанные с перевозчиком, из параметров отгрузки в POS
 
@@ -36,6 +35,3 @@ ms.locfileid: "4415325"
 По умолчанию диалоговое окно, в котором выбран способ поставки, отображает все допустимые способы поставки для комбинации канала, номенклатуры и адреса поставки. Эти способы поставки определяются на странице **Режимы поставки** в Headquarters (**Продажи и маркетинг \> Настройка \> Распределение \> Режимы поставки**). Режимы поставки без перевозчика, такие как **На вынос** или **Отправка**, могут также отображаться для выбора в диалоговом окне.
 
 Однако была добавлена функция, позволяющая скрыть не относящиеся к перевозчикам режимы поставки в диалоговом окне. Чтобы включить эту функцию, на странице **Параметры Commerce** на вкладке **Заказы клиента** установите параметр **Показывать только параметры режима перевозчика для заказов на отгрузку** на **Да**. После включения этой функции и запуска соответствующих заданий распределения для синхронизации информации с базой данных канала не относящиеся к перевозчикам режимы поставки не отображаются для выбора в процессе создания заказов на отгрузку в POS.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
