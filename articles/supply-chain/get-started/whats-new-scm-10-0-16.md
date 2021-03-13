@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 года)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626810"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104997"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 года)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.16. Эта версия имеет номер сборки 10.0.689 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.16. Эта версия имеет номер сборки 10.0.689 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** ноябрь 2020 г.
 - **Общая доступность выпуска (самостоятельное обновление):** январь 2021 г.
@@ -40,8 +38,11 @@ ms.locfileid: "4626810"
 Этот выпуск содержит следующие функции. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
 - [Настраиваемый интерфейс выполнения цеха](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка устройства для выполнения интерфейса выполнения производственного цеха](../production-control/production-floor-execution-setup.md).
+
 - [Надстройка видимости запасов для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Дополнительные сведения см. в разделе [Надстройка видимости запасов](../inventory/inventory-visibility.md)
+
 - [Проверка грузомест по строкам исходного документа](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Дополнительные сведения см. в разделе [Обзор конфигурации склада](../warehousing/warehouse-configuration.md).
+
 - [Визуализация исходящих рабочих нагрузок в модуле управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Дополнительные сведения см. в разделе [Визуализация исходящих рабочих нагрузок](../warehousing/outbound-workload-visualization.md)
 
 Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
@@ -88,7 +89,7 @@ ms.locfileid: "4626810"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.16 приложений Finance and Operations (октябрь 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.16 приложений Finance and Operations (февраль 2021 года)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -110,6 +111,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 включает обно
 Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

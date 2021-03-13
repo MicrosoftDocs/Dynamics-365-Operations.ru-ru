@@ -1,7 +1,7 @@
 ---
 title: Расширенные параметры форматирования в финансовой отчетности
-description: При создании отчета в финансовой отчетности доступны дополнительные функции форматирования, включая фильтры для аналитик, ограничения для столбцов и единиц отчетности, строки не для печати и операторы IF/THEN/ELSE в расчетах.
-author: ryansandness
+description: В этой теме описываются расширенные функции форматирования, включая фильтры, ограничения, непечатаемые строки и условные выражения в расчетах.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683171"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093170"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Расширенные параметры форматирования в финансовой отчетности
 
@@ -310,6 +310,3 @@ ms.locfileid: "4683171"
 Можно разработать отчеты, используя значения аналитик, содержащие амперсанд (&).
 
 В любом поле **Связь с финансовой аналитикой** можно ввести значение, например **'P&L'**. Включение одинарных кавычек (' ') на обеих сторонах значения аналитики указывает на то, что используется литеральное значение, например, включение знака амперсанда (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

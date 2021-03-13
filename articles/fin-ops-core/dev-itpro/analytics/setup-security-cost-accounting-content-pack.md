@@ -1,6 +1,6 @@
 ---
 title: Настройка безопасности для содержимого Power BI анализа учета затрат
-description: В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле "Учет затрат" на защиту на уровне строк в Microsoft Power BI. Данная функция позволяет гарантировать, что пользователи видят только те данные Power BI, к которым им предоставлен доступ.
+description: В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле "Учет затрат" на защиту на уровне строк в Microsoft Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d54ced21de112288c2f98c0bc895ca0d49c217e3
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682197"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093363"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого Power BI анализа учета затрат
 
@@ -63,6 +63,3 @@ ms.locfileid: "4682197"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 Для получения дополнительных сведений о безопасности на уровне строк Power BI см. раздел [Управления безопасностью в своей модели в Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

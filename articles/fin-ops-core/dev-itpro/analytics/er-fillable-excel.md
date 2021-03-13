@@ -1,6 +1,6 @@
 ---
 title: Разработка конфигурации для создания документов в формате Excel
-description: В этом разделе приводятся сведения о создании формата электронной отчетности (ER) для заполнения шаблона Excel, а затем создание исходящих документов в формате Excel.
+description: В этой теме описывается, как создавать формат электронной отчетности (ER) для заполнения шаблона Excel, а затем создание исходящих документов в формате Excel.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686546"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094037"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Разработка конфигурации для создания документов в формате Excel
 
@@ -189,6 +189,3 @@ ms.locfileid: "4686546"
 [Внедрение изображений и фигур в документы, создаваемые с помощью электронной отчетности](electronic-reporting-embed-images-shapes.md)
 
 [Настройка электронной отчетности (ER) для загрузки данных в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

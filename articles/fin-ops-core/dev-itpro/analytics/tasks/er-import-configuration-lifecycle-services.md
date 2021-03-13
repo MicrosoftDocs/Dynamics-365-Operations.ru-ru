@@ -1,6 +1,6 @@
 ---
 title: Импорт конфигурации из Lifecycle Services
-description: В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может импортировать новую версию конфигурации электронной отчетности (ER) из Microsoft Dynamics Lifecycle Services (LCS).
+description: В этой теме описывается, как импортировать новую версию электронной отчетности (ER) из Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684459"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093703"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Импорт конфигурации из Lifecycle Services
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684459"
     Для этого примера выберите версию этой конфигурации со статусом **Общие**.
 
     Обратите внимание, что общая версия 1 выбранной конфигурации модели данных теперь также доступна.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

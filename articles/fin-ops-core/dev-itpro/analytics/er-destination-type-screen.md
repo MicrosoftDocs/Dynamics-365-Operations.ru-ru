@@ -1,6 +1,6 @@
 ---
 title: Тип места назначения ER экрана
-description: В этой теме приводятся сведения о настройке места назначения экрана для каждого компонента "папка" или "файл" формата электронной отчетности (ER), настроенного для создания исходящих документов.
+description: В этой теме приводятся сведения о настройке места назначения экрана для каждого компонента папки или файла в формате электронной отчетности (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c687a435f50b54fd7bdf5b4802f4c07abd0f0e3e
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679542"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094062"
 ---
-# <a name="screen-destination"></a>Место назначения экрана
+# <a name="screen-destination"></a>Назначение экрана
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,6 +38,3 @@ ms.locfileid: "4679542"
 
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

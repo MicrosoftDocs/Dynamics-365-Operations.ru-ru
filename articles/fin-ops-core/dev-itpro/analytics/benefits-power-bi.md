@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Льготы"
-description: В этом разделе описывается содержимое Power BI "Льготы". В нем описывается порядок доступа к включенным отчетам и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+description: В этом разделе описывается содержимое Power BI "Льготы".
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687268"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093089"
 ---
 # <a name="benefits-power-bi-content"></a>Содержимое Power BI "Льготы"
 
@@ -69,6 +69,3 @@ ms.locfileid: "4687268"
 | Имя сотрудника            | Имя, фамилия и ФИО                                                                       | Текущий сотрудник, уволенный сотрудник, тенденция сотрудников |
 | Должность сотрудника           | Должность и дата трудового стажа                                                                                   | Текущий сотрудник, уволенный сотрудник, тенденция сотрудников |
 | Тенденция сотрудника           | Сотрудники по времени, численность сотрудников, компания и должность                                                        | Компания, компенсация, географическое местоположение, имя сотрудника, отчитывается перед, смещение календаря, дата, должность сотрудника, демографические показатели, занятость, задание, льготы |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

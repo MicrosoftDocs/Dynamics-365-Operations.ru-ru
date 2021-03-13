@@ -1,6 +1,6 @@
 ---
 title: Финансовая отчетность
-description: Финансовая отчетность позволяет профессионалам в сфере финансов и бизнеса создавать, вести, развертывать и просматривать финансовые отчеты. Она выходит за пределы традиционных ограничений отчетности для эффективной разработки различных типов отчетов.
+description: Финансовая отчетность позволяет профессионалам в сфере финансов и бизнеса создавать, вести, развертывать и просматривать финансовые отчеты.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b1db953165bd745a00f68048767a2b19fcc2f38
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682705"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093959"
 ---
 # <a name="financial-reporting"></a>Финансовая отчетность
 
@@ -96,6 +96,3 @@ ms.locfileid: "4682705"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 [Создание финансовых отчетов](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

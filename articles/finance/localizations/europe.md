@@ -3,24 +3,23 @@ title: Обзор по Европе
 description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
+ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512219"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5099907"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -65,6 +64,7 @@ ms.locfileid: "4512219"
 - [Обработка накладных](emea-invoice-processing.md)
 - [Выпуск сертификата записи ЕС](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Поддерживаемые стандарты для выставления накладных в электронном виде](emea-oioubl-standards-electronic-invoicing.md)
+- [Принудительное создание электронных накладных](emea-eur-forced-einvoices.md)
 - [Ссылка на исходную накладную (Восточная Европа)](tasks/ee-00004-original-invoice-reference.md)
 - [Поиск субъекта по коду НДС](tasks/eur-00015-party-search-vat-id.md)
 - [Инструмент создания ссылки на платеж](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -99,6 +99,3 @@ ms.locfileid: "4512219"
 
 - [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Содержимое Power BI "Факт/Бюджет"
-description: В этой теме описывается содержимое Power BI "Факт/Бюджет". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
-author: ryansandness
+description: В этой теме описывается содержимое Power BI "Факт/Бюджет". В нем объясняется, как получить доступ к отчетам, и представляются сведения о модели данных.
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685281"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093856"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Содержимое Power BI "Факт/Бюджет"
 
@@ -57,6 +57,3 @@ ms.locfileid: "4685281"
 | Главные книги                   | Книги, которые могут использоваться для фильтрации отчета по текущей книге              |
 | Коды бюджета              | Коды бюджета, по которым требуется фильтровать отчеты                                                |
 | Юридические лица            | Юридические лица, которые могут использоваться для фильтрации отчета по текущему юридическому лицу |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

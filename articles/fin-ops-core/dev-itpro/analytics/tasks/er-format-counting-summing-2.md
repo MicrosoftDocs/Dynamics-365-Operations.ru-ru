@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 2. Настройка вычислений)
-description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для выполнения инвентаризации и суммирования на основе данных уже созданных текстовых выходных данных.
+description: В этой теме описывается, как настроить формат электронный отчетности для выполнения инвентаризации и суммирования на основе данных уже созданного текстового вывода. (Часть 2)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9314a8cd5838333a20dd59dfb52f80a43d89b8c6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6215fe1f32bcb4833bd009b7c33e09edbba17817
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684699"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093005"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 2. Настройка вычислений)
 
@@ -139,6 +139,3 @@ ms.locfileid: "4684699"
 83. Нажмите кнопку "Сохранить".
 84. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

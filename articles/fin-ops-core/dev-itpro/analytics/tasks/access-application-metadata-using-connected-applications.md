@@ -1,6 +1,6 @@
 ---
 title: Доступ к метаданным приложения с помощью подключенных приложений
-description: В этом разделе описывается, как пользователь службы Regulatory Configuration Service (RCS) может создать новое сопоставление модели электронной отчетности (ER) с помощью метаданных в Finance and Operations.
+description: В этой теме описывается, как пользователь службы Regulatory Configuration Service может создать новое сопоставление модели электронной отчетности с помощью метаданных.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682149"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093338"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Доступ к метаданным приложения с помощью подключенных приложений
 
@@ -113,6 +113,3 @@ ms.locfileid: "4682149"
 11. Закройте страницу. 
 
 Когда необходимо оценить сопоставление модели с помощью метаданных другой версии приложения, зарегистрируйте другое подключенное приложение, назначьте его этому сопоставлению модели и проверьте его по новым метаданным.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

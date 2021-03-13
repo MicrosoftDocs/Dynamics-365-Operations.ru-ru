@@ -1,6 +1,6 @@
 ---
 title: Разработка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
-description: Шаги в этом разделе содержат сведения о том, как разрабатывать конфигурации электронной отчетности, которые формируют электронные документы в форматах Microsoft Office (Excel и Word), содержащие внедренные изображения.
+description: В этой теме описано, как разработать конфигурации, которые создают электронные документы в форматах Excel и Word, содержащих внедренные изображения.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684411"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093678"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Разработка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
 
@@ -90,6 +90,3 @@ ms.locfileid: "4684411"
  30. Выберите "Да" в поле "Разрешать создание контрольной операции в неактивных банковских счетах:".  
  31. Нажмите кнопку "Сохранить".  
  32. Закройте страницу.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

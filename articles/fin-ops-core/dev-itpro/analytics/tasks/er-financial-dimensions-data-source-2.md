@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 2. Сопоставление модели)
-description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности.
+description: В этой теме описывается, как настроить модель электронной отчетности (ER) для использования финансовых аналитик в качестве источника данных для отчетов электронной отчетности. (Часть 2)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 02c730d08c411e736a7f8b9e7bad3d6a18cb8e6a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681693"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093245"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 2. Сопоставление модели)
 
@@ -147,6 +147,3 @@ ms.locfileid: "4681693"
 4. Щелкните "Завершить".
 5. Нажмите кнопку "OК".
 ![Страница конструктора сопоставления модели электронной отчетности](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

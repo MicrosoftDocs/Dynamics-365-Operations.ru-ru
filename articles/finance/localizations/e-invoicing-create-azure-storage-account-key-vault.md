@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447379"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104237"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Создание учетной записи хранилища в Azure и хранилища ключей
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Дополнительная служба электронных накладных несет ответственность за хранение всех ваших деловых данных в ресурсах Microsoft Azure, принадлежащих вашей компании. Для обеспечения правильной работы службы и того, что все деловые данные, необходимые для дополнения электронных накладных и создаваемые этим дополнением, доступны только для этого дополнения, необходимо создать два основных ресурса Azure:
-
-- Учетная запись хранилища Azure (хранилище BLOB-объектов) для хранения электронных накладных
-- Хранилище ключей Azure для хранения сертификатов и универсального кода ресурса (URI) учетной записи хранилища
-
-> [!NOTE]
-> Выделенный ресурсы хранилища ключей и хранилища BLOB-объектов клиента должны быть выделены специально для использования с дополнением электронных накладных.
 
 ## <a name="prerequisites"></a>Необходимые условия
 
@@ -91,6 +80,3 @@ ms.locfileid: "4447379"
 9. В диалоговом окне **Субъект** выберите субъект, добавив **Дополнение электронных накладных**.
 10. Выберите **Добавить**, затем выберите **Сохранить изменения Key Vault**.
 11. На странице **Обзор** скопируйте значение **Имя DNS** для хранилища ключей. Это значение будет использоваться во время настройки службы в RCS и будет называться *URI хранилища ключей*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

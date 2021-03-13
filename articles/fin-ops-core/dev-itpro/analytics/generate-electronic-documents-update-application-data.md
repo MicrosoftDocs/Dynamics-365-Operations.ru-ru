@@ -1,6 +1,6 @@
 ---
 title: Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)
-description: Можно разработать форматы электронной отчетности (ER), которые могут использоваться в приложении для создания исходящих электронных документов. Можно также создать форматы ER, которые анализируют входящие электронные документы и используют содержимое в таких документах для обновления данных приложения.
+description: Можно разработать форматы электронной отчетности (ER), которые могут использоваться в приложении для создания исходящих электронных документов.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688396"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093881"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Создание электронных документов и обновление данных приложения с помощью электронной отчетности
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ ms.locfileid: "4688396"
 - [Конфигурация модели данных: Интрастат (модель)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация сопоставления модели ER: Интрастат (сопоставление)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация формата ER: Интрастат (формат)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
