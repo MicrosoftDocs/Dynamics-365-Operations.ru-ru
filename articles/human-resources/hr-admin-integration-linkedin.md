@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527893"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114067"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Интеграция с LinkedIn Talent Hub
 
@@ -127,14 +127,14 @@ ms.locfileid: "4527893"
     - **Имя**: введите имя созданной ранее роли безопасности Power Apps, например **Интеграция LinkedIn Talent Hub HRIS**.
     - **Код пользователя**: выберите пользователя, обладающего разрешениями на запись данных в управлении персоналом.
 
-### <a name="create-the-entity-in-common-data-service"></a>Создание сущности в Common Data Service
+### <a name="create-the-table-in-dataverse"></a>Создание таблицы в Dataverse
 
 > [!IMPORTANT]
-> Интеграция с LinkedIn Talent Hub зависит от виртуальных сущностей в Common Data Service для Human Resources. В качестве обязательного условия для этого шага настройки необходимо настроить виртуальные сущности. Сведения о настройке виртуальных сущностей см. в разделе [Настройка виртуальных сущностей Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Интеграция с LinkedIn Talent Hub зависит от виртуальных таблиц в Dataverse для Human Resources. В качестве обязательного условия для этого шага настройки необходимо настроить виртуальные таблицы. Сведения о настройке виртуальных таблиц см. в разделе [Настройка виртуальных таблиц Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. В Human Resources откройте страницу **Интеграция Common Data Service (CDS)**.
+1. В Human Resources откройте страницу **Интеграция Dataverse**.
 
-2. Выберите вкладку **Виртуальные сущности**.
+2. Выберите вкладку **Виртуальные таблицы**.
 
 3. Отфильтруйте список сущностей по метке сущности, чтобы найти **Экспортированный кандидат LinkedIn**.
 
@@ -188,8 +188,5 @@ ms.locfileid: "4527893"
 
 ## <a name="see-also"></a>См. также
 
-[Настройка виртуальных сущностей Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Что такое Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Настройка виртуальных таблиц Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

@@ -2,7 +2,7 @@
 title: Создание вопроса, зависящего от ответа на предыдущий вопрос
 description: Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420311"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115012"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Создание вопроса, зависящего от ответа на предыдущий вопрос
 
@@ -56,6 +56,3 @@ ms.locfileid: "4420311"
 10. В дереве выберите "Вопросы\Я получаю достойную оплату за свою работу".
     * Обратите внимание, что дерево вопроса обновилось, чтобы отразить зависимость.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

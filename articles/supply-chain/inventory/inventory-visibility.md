@@ -1,7 +1,7 @@
 ---
 title: Надстройка видимости запасов
 description: В этом разделе описывается, как установить и настроить настройку отображения запасов для Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625073"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114678"
 ---
 # <a name="inventory-visibility-add-in"></a>Надстройка видимости запасов
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Надстройка для отображения запасов — это независимая и масштабируемая микрослужба, позволяющая осуществлять отслеживание запасов в наличии в реальном времени, обеспечивая таким образом глобальное представление отображения запасов.
 
 Вся информация, относящаяся к запасам в наличии, экспортируется в службу практически в реальном времени с помощью SQL-интеграции низкого уровня. Внешние системы обращаются к службе через API RESTful для запроса информации о наличии по заданным наборам аналитик, тем самым получая список доступных позиций в наличии.
 
-Видимость запасов — это микрослужба, основанная на Common Data Service, что означает, что ее можно расширить путем создания приложений Power Apps и применения Power BI для предоставления настраиваемых функций в соответствии с потребностями бизнеса. Возможно также обновление индекса для выполнения складских запросов.
+Видимость запасов — это микрослужба, основанная на Microsoft Dataverse, что означает, что ее можно расширить путем создания приложений Power Apps и применения Power BI для предоставления настраиваемых функций в соответствии с потребностями бизнеса. Возможно также обновление индекса для выполнения складских запросов.
 
 Видимость запасов предоставляет параметры конфигурации, которые позволяют ей интегрироваться с несколькими системами сторонних производителей. Она поддерживает стандартизированную складскую аналитику, настраиваемую расширяемость и стандартизованные настраиваемые подсчитанные количества.
 
@@ -78,30 +78,57 @@ ms.locfileid: "4625073"
 
 ### <a name="get-a-security-service-token"></a>Получение маркера службы безопасности
 
-Чтобы получить маркер службы безопасности, выполните следующие действия:
+Получите маркер службы безопасности, выполнив следующие действия:
 
-1. Получите `aadToken` и вызовите конечную точку: https://securityservice.operations365.dynamics.com/token.
-1. Замените `client_assertion` в основном тексте на `aadToken`.
-1. Замените контекст в основном тексте средой, в которой требуется развернуть надстройку.
-1. Замените область в основном тексте следующим:
+1. Выполните вход на портал Azure и используйте его, чтобы найти `clientId` и `clientSecret` для вашего приложения Supply Chain Management.
+1. Получите токен Azure Active Directory (`aadToken`), отправив HTTP-запрос со следующими свойствами:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Метод** - `GET`
+    - **Содержимое основной части (данные формы)**:
 
-    - Область для MCK — "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (Код приложения и код клиента Azure Active Directory для MCK можно найти в `appsettings.mck.json`.)
-    - Область для PROD — "https://inventoryservice.operations365.dynamics.com/.default"  
-    (Код приложения и код клиента Azure Active Directory для PROD можно найти в `appsettings.prod.json`.)
+        | ключ | значение |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | ресурс | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Вы должны получить токен `aadToken` в ответе, который напоминает следующий пример:
 
-    Результат должен быть похож на следующий пример.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Сформулируйте запрос JSON, похожий на следующий:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Где:
+    - Значение `client_assertion` должно быть токеном `aadToken`, полученным на предыдущем шаге.
+    - Значение `context` должно быть идентификатором среды, в которой требуется развернуть надстройку.
+    - Установите все остальные значения, как показано в примере.
+
+1. Отправьте запрос HTTP со следующими свойствами:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Метод** - `POST`
+    - **Заголовок HTTP** — включает версию API (ключ равен `Api-Version`, значение равно `1.0`)
+    - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
 
 1. В ответе вы получите `access_token`. Это то, что требуется в качестве маркера носителя для вызова API отображения запасов. Рассмотрим пример:
 
@@ -500,6 +527,3 @@ ms.locfileid: "4625073"
 ```
 
 Обратите внимание, что поля количества структурированы как словарь мер и связанные с ними значений.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

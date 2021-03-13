@@ -1,8 +1,8 @@
 ---
-title: Обзор
+title: Обзор администрирования
 description: Руководство администратора поможет выполнить настройку, управление и устранение неполадок Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527869"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114060"
 ---
-# <a name="overview"></a>Обзор
+# <a name="administration-overview"></a>Обзор администрирования
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527869"
 
 - Настройка интеграции данных
   - [Выбор технологии интеграции данных](hr-admin-integration-choose-technology.md)
-  - [Настройка интеграции Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Настройка интеграции Dataverse](hr-admin-integration-common-data-service.md)
   - [Настройка интеграции с Finance](hr-admin-integration-finance.md)
   - [Настройка интеграции с Dayforce](hr-admin-integration-dayforce.md)
   - [Создание приложения для повторяющегося экспорта данных](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ ms.locfileid: "4527869"
 - [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)
 - [Руководство разработчика](hr-developer-overview.md)
 - [Руководство пользователя](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Отключение клиента
 description: В этой статье объясняется, что делать, если клиент отключен от свой среды и не знает, почему.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: d02916283bbd4cee6502942020df1b275a0242b3
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4420327"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114031"
 ---
 # <a name="client-disconnects"></a>Отключение клиента
 
@@ -52,6 +52,3 @@ Microsoft Dynamics 365 Human Resources отключает пользовател
 Убедитесь в том, что одновременно открыта только одна среда для определенного типа браузера. Пользователи могут открывать несколько сеансов в одной среде (то есть, несколько вкладок в одном браузере).
 
 Пользователи, которые хотят переходить двумя средами одновременно, должны открыть каждую среду в другом типе браузера. (Например, пользователь А может просматривать среду 1 в Chrome и среду 2 в Microsoft Edge.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

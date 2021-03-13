@@ -2,7 +2,7 @@
 title: Настройка вычетов
 description: Используйте вычеты в Microsoft Dynamics 365 Human Resources, чтобы определить, сколько (если применимо) необходимо вычесть из зарплаты сотруднику по чеку для каждой льготы.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c84e44e784e18c82098d63909f198049ae5f995c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420159"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113999"
 ---
 # <a name="configure-deductions"></a>Настройка вычетов
 
@@ -52,6 +52,3 @@ ms.locfileid: "4420159"
 4. Чтобы отследить и настроить изменения настройки ставки льгот, выберите **Действия**, а затем выберите **Управление версиями**.
 
 5. Нажмите **Сохранить**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

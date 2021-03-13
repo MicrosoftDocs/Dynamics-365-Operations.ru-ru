@@ -2,7 +2,7 @@
 title: Настройка интеграции с Dayforce
 description: Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этой статье. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420165"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113992"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
@@ -676,6 +676,3 @@ Dayforce использует следующие сведения:
 
 Сотрудники могут объявить несколько идентификационных номеров для типа идентификатора **Паспорт**. Тем не менее только запись текущего активного паспорта интегрируется в Dayforce. Если срок действия всех записей паспорта истек, в Dayforce интегрируется тот, который был выдан последним.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

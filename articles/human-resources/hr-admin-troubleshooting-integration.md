@@ -2,7 +2,7 @@
 title: Вопросы и ответы интеграции с Finance
 description: В этой статье объясняется, какие данные синхронизируются в интеграции Human Resources и Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589071"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114002"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -32,7 +32,7 @@ ms.locfileid: "4589071"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Можно ли редактировать пользователя приложения Dynamics 365 Talent в Power Apps?
 
-№ п/п При изменении пользователя приложения Talent интеграция между Human Resources и Common Data Service может быть нарушена. В приведенной ниже таблице показаны параметры по умолчанию для пользователя приложения Talent.
+№ п/п При изменении пользователя приложения Human Resources интеграция между Human Resources и Dataverse может быть нарушена. В приведенной ниже таблице показаны параметры по умолчанию для пользователя приложения Talent.
 
 | Полное имя | ИД приложения | Код объекта Azure AD | URI кода приложения |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ ms.locfileid: "4589071"
 
 Синхронизируется подмножество данных. Список всех сущностей см. в разделе [Интеграция Dynamics 365 Finance](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Почему не отображаются данные, синхронизированные с Common Data Service?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Почему не отображаются данные, синхронизированные с Dataverse?
 
-По умолчанию интеграция Common Data Service отключена в новых средах, не содержащих предоставленных демонстрационных данных. По умолчанию он включается в новых средах, содержащих демонстрационные данные, а синхронизация данных начинается при подготовке среды. После того как среда готова к синхронизации данных, можно включить интеграцию. Дополнительные сведения см. в разделе [Настройка интеграции Common Data Service](hr-admin-integration-common-data-service.md).
+По умолчанию интеграция Dataverse отключена в новых средах, не содержащих предоставленных демонстрационных данных. По умолчанию он включается в новых средах, содержащих демонстрационные данные, а синхронизация данных начинается при подготовке среды. После того как среда готова к синхронизации данных, можно включить интеграцию. Дополнительные сведения см. в разделе [Настройка интеграции Dataverse](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Можно ли создать новое сопоставление без использования шаблонов?
 
-Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Можно ли сопоставить финансовые аналитики для перемещения между Human Resources и Finance?
 
-Финансовые аналитики в настоящее время не находятся в Common Data Service для приложений и, в результате, не являются частью шаблона по умолчанию. Эта сущность запланирована, но в настоящее время не известно, когда она будет выпущена.
+Финансовые аналитики в настоящее время не находятся в Dataverse для приложений и, в результате, не являются частью шаблона по умолчанию. Эта сущность запланирована, но в настоящее время не известно, когда она будет выпущена.
 
 Для данных, которые расположены в Finance, но не существуют в Human Resources, свяжите две системы вместе с помощью **Настроить ссылки** в Human Resources.
 
@@ -76,7 +76,7 @@ ms.locfileid: "4589071"
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Можно ли указать поля, которые передаются в Finance, для конкретной сущности?
 
-Поля можно добавлять или удалять из задачи интеграции. Не все поля данных, которые существуют в сущности Common Data Service будет заполняться из Human Resources.
+Поля можно добавлять или удалять из задачи интеграции. Не все поля данных, которые существуют в таблице Dataverse, будет заполняться из Human Resources.
 Дополнительные данные могут заполняться через Power Apps.
 
 ![Добавление полей в задачу интеграции и удаление полей из задачи интеграции](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ ms.locfileid: "4589071"
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Можно ли повторно выполнить поврежденное выполнение? Если да, будет ли отправлен полный файл или только изменения?
 
-Первый запуск интегратора данных всегда является полным запуском. Последующие запуски основаны на отслеживании изменений. В случае выполнения с ошибками извлекаются записи в области выполнения и отправляются самые последние изменения из Common Data Service.
+Первый запуск интегратора данных всегда является полным запуском. Последующие запуски основаны на отслеживании изменений. В случае выполнения с ошибками извлекаются записи в области выполнения и отправляются самые последние изменения из Dataverse.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>При сохранении проекта появилось сообщение об ошибке: "Проект имеет ошибки сопоставления". Что делать?
 
@@ -109,15 +109,15 @@ ms.locfileid: "4589071"
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Требуется перенести данные, которые не являются частью шаблона по умолчанию, предоставленного корпорацией Майкрософт. Можно сделать это?
 
-Да, поля можно добавить в существующий шаблон или удалить их из него. Можно изменить шаблон для включения дополнительных данных из других сущностей Common Data Service для приложений. Сущность должна находиться в Common Data Service для приложений, чтобы ее можно было включить в шаблон. 
+Да, поля можно добавить в существующий шаблон или удалить их из него. Можно изменить шаблон для включения дополнительных данных из других таблиц Dataverse. Сущность должна находиться в Dataverse для приложений, чтобы ее можно было включить в шаблон. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Я только что создал новые среды Finance и Human Resources и получил ошибку "Значение данных нарушает ограничения целостности". Почему?
 
 Причины этой ошибки могут быть следующими:
 
-- Передача данных привела к извлечению дублирующихся записей в источнике (Common Data Service).
+- Передача данных привела к извлечению дублирующихся записей в источнике (Dataverse).
 
-- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Common Data Service и соответствуют требованиям Finance and Operations.
+- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и соответствуют требованиям Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Если имеются ошибки выполнения и код сотрудника не синхронизируется, как найти старое задание, которое содержит сбойную запись сотрудника?
 
@@ -139,27 +139,27 @@ ms.locfileid: "4589071"
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>После интеграции Human Resources и Finance я не вижу свои данные Human Resources в Finance. Что делать?
 
-Интеграция с Finance осуществляется в два этапа. Во-первых убедитесь, что данные Human Resources обновлены и доступны в Common Data Service. Это синхронизация почти в реальном времени, и ее можно проверить в Power Apps, просмотрев данные в информационных объектах.
+Интеграция с Finance осуществляется в два этапа. Во-первых убедитесь, что данные Human Resources обновлены и доступны в Dataverse. Это синхронизация почти в реальном времени, и ее можно проверить в Power Apps, просмотрев данные в таблицах данных.
 
-![Данные в Common Data Service](media/DataInCDS.png)
+![Данные в Dataverse](media/DataInCDS.png)
 
-Если данные не отображаются должным образом в Common Data Service, убедитесь, что сущность поддерживается в интеграции. Чтобы включить дополнительные данные в Common Data Service, изменение будет требоваться со стороны корпорации Майкрософт.
+Если данные не отображаются должным образом в Dataverse, убедитесь, что сущность поддерживается в интеграции. Чтобы включить дополнительные данные в Dataverse, изменение будет требоваться со стороны корпорации Майкрософт.
 
-Если сущность поддерживается и данные доступны в Common Data Service, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Если сущность поддерживается и данные доступны в Dataverse, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Адреса моих сотрудников неправильные после импорта в Finance. Что делать?
 
-Номерная серия для параметра **Код местоположения** использует одинаковый шаблон в Human Resources и Finance. Номерная серия должна быть уникальной на обеих сторонах, поэтому нет конфликтов адресов при интеграции данных из Common Data Service в Finance and Operations.
+Номерная серия для параметра **Код местоположения** использует одинаковый шаблон в Human Resources и Finance. Номерная серия должна быть уникальной на обеих сторонах, поэтому нет конфликтов адресов при интеграции данных из Dataverse в Finance and Operations.
 
 Во время реализации Human Resources убедитесь, что номерные серии не одинаковы в Human Resources и Finance. Проверьте, что все номерные серии не идентичны там, где данные могут поддерживаться в обеих системах.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>При создании моего набора подключения я не вижу подключение в раскрывающемся списке подключения. Что делать?
 
-Убедитесь, что при создании подключений выбраны Dynamics 365 Finance и Common Data Service.
+Убедитесь, что при создании подключений выбраны Dynamics 365 Finance и Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>При синхронизации занятости возникают ошибки «CompanyInfo_FK не существует» или «Значение "31.12.2154 23:59:59" в поле "Дата окончания занятости" не найдено в связанной таблице "Занятость"». Что делать?
 
-Убедитесь, что сопоставляются правильные юридические лица. Синхронизация юридических лиц не является частью шаблона по умолчанию, поэтому ожидается, что каждое юридическое лицо, которое присутствует в Human Resources и Common Data Service, также присутствует в Finance.
+Убедитесь, что сопоставляются правильные юридические лица. Синхронизация юридических лиц не является частью шаблона по умолчанию, поэтому ожидается, что каждое юридическое лицо, которое присутствует в Human Resources и Dataverse, также присутствует в Finance.
 Кроме того, убедитесь, что выбраны правильные юридические лица для связанного набора соединений.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>После настройки проекта сопоставление полей для Finance выглядит пустым. Что делать?
@@ -172,15 +172,12 @@ ms.locfileid: "4589071"
 
 - Интегратор данных (DI): 
 
-  - [Интеграция данных в Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Интеграция данных в Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Управление ошибками и устранение неполадок интегратора данных](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Ответ на запросы DSR для созданных системой журналов в Power Apps, Microsoft Power Automate и Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Ответ на запросы DSR для созданных системой журналов в Power Apps, Microsoft Power Automate и Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Управление данными:
 
   - [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Настройка кодов уровней
 description: Dynamics 365 Human Resources использует коды уровней со ставками льгот, оплаченными сотрудниками и работодателем.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3245b4265e51ad87419786c01fad578d743f2c06
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9c914216cb7799356fb2a840ad80d8379a1be10
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420232"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113979"
 ---
 # <a name="set-up-tier-codes"></a>Настройка кодов уровней
 
@@ -41,6 +41,3 @@ Dynamics 365 Human Resources использует коды уровней со �
    | **Описание** | Описание кода уровня льготы. |
 
 4. Нажмите **Сохранить**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

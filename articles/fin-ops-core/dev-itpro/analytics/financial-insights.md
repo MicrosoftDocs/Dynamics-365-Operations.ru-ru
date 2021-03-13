@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682779"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115736"
 ---
 # <a name="financial-insights"></a>Финансовый анализ
 
@@ -66,9 +66,10 @@ ms.locfileid: "4682779"
 
 Необходимо обновить следующие объекты, чтобы просматривать данные в рабочих областях **Финансовый анализ** и **Обзор финансового директора**:
 
-- Данные проводок финансовой отчетности версии 2 (**Примечание.** Это новое в версии 10.0.1 и заменяет предыдущую сущность.)
-- Транзакционные данные финансовой отчетности
+- BudgetActivityMeasure
+- Транзакционные данные финансовой отчетности, версия 3 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Куб покупок
 - Куб продаж
@@ -247,6 +248,3 @@ ms.locfileid: "4682779"
 - [Доступ к аналитическим рабочим областям и отчетам в среде с 1 блоком](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Добавление аналитики в рабочие области с помощью Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

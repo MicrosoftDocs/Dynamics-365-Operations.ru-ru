@@ -2,7 +2,7 @@
 title: Создание оценок производительности
 description: В этой теме объясняется порядок создания оценки производительности и описывает назначение каждого раздела оценки.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420235"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115808"
 ---
 # <a name="create-performance-reviews"></a>Создание оценок производительности
 
@@ -78,6 +78,3 @@ ms.locfileid: "4420235"
 34. Выберите вкладку **Отзыв**. По мере последовательного изменения статусов оценки сотрудник и менеджер могут добавить комментарии для каждой цели или компетенции.  
 35. Выберите вкладку **Утверждения**. Работник и руководитель могут утвердить проверку. После получения всех необходимых утверждений статус изменяется на **Завершено** и никакие дальнейшие изменения не допускаются.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Обработка изменений ставок
 description: Процесс изменения ставок льгот в Microsoft Dynamics 365 Human Resources, когда для нового или существующего плана льгот есть изменения параметров правил допустимости.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f326957d5f33607e434f99563cfeb528c05f258d
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420216"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114000"
 ---
 # <a name="process-rate-changes"></a>Обработка изменений ставок
 
@@ -48,6 +48,3 @@ ms.locfileid: "4420216"
    4. Нажмите **ОК**. Процесс будет выполнен с заданными вами параметрами.
 
 4. Нажмите **ОК**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

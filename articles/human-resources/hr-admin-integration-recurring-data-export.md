@@ -2,7 +2,7 @@
 title: Создание приложения для повторяющегося экспорта данных
 description: В этой статье описывается создание приложения логики Microsoft Azure, которое экспортирует данные из Microsoft Dynamics 365 Human Resources по регулярному расписанию.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 97972d2179c42e9d2d672cbebb75643ef0a02a62
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420282"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113976"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Создание приложения для повторяющегося экспорта данных
 
@@ -205,6 +205,3 @@ ms.locfileid: "4420282"
 В этом учебнике было рассмотрено, как использовать приложение логики для экспорта данных из Human Resources и сохранения экспортированных данных в папке OneDrive для бизнеса. Шаги данного руководства можно изменить, если это необходимо для нужд бизнеса.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

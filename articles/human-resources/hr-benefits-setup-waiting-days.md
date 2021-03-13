@@ -2,7 +2,7 @@
 title: Настройка дней ожидания
 description: В Microsoft Dynamics 365 Human Resources дни ожидания определяют месячный этап для использования в планах льгот.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb72e46674b64897e4ffb6dbf458e453801b4dc3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e56edc19591ba535518f1cac54d29427ca233ab9
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420176"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113994"
 ---
 # <a name="configure-waiting-days"></a>Настройка дней ожидания
 
@@ -42,6 +42,3 @@ ms.locfileid: "4420176"
    | **День** | День месяца, в который система должна установить дату периода ожидания. |
    
 4. Нажмите **Сохранить**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

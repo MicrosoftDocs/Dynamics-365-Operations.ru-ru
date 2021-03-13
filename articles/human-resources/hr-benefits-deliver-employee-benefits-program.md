@@ -2,7 +2,7 @@
 title: Реализация программы льгот сотрудника
 description: В этой статье показано, как создать элементы льгот, которые будут использоваться при создании новой льготы.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fe53b28d1e2ff539cf431a2a6a00b10d1adb06f
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420268"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113968"
 ---
 # <a name="deliver-employee-benefits-program"></a>Реализация программы льгот сотрудника
 
@@ -68,6 +68,3 @@ ms.locfileid: "4420268"
 16. В поле "Основание" выберите вариант.
 17. В поле "Сумма или ставка" введите число.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

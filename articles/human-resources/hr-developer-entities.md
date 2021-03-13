@@ -1,9 +1,9 @@
 ---
-title: Объекты Common Data Service
-description: Microsoft Dynamics 365 Human Resources использует Common Data Service для включения сценариев расширяемости и интеграции.
+title: Таблицы Dataverse
+description: Microsoft Dynamics 365 Human Resources использует Dataverse для включения сценариев расширяемости и интеграции.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530014"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114038"
 ---
-# <a name="common-data-service-entities"></a>Объекты Common Data Service
+# <a name="dataverse-tables"></a>Таблицы Dataverse
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+Microsoft Dynamics 365 Human Resources использует Dataverse для включения сценариев расширяемости и интеграции.
 
-Microsoft Dynamics 365 Human Resources использует Common Data Service для включения сценариев расширяемости и интеграции.
+> [!NOTE]
+> Сущности Human Resources соответствуют таблицам Dataverse. Дополнительные сведения об Dataverse (ранее Common Data Service) и обновлениях терминологии см. в разделе [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-Дополнительные сведения о Common Data Service см. в разделе [Что такое Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Доступны следующие таблицы Dataverse на основе сущностей Human Resources.
 
-Доступны следующие объекты Управление персоналом в Common Data Service.
+## <a name="benefit-tables"></a>Таблицы льгот
 
-## <a name="benefit-entities"></a>Объекты льгот
-
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Частота расчета льгот | cdm_benefitcalculationfrequency |
 | Частоты расчета для платежного периода для льгот | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +46,9 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | План льготы | cdm_benefitplan (не включено для поддержки настраиваемых полей) |
 | Тип льготы | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>Объекты задач бизнес-процесса
+## <a name="business-process-tasks-tables"></a>Таблицы задач бизнес-процесса
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Календарь бизнес-процесса | cdm_businessprocesscalendar |
 | Назначение группы бизнес-процессу | cdm_businessprocessgroupassignment |
@@ -58,11 +57,11 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Заголовок шаблона контрольного списка | cdm_businessprocesstemplateheader |
 | Задача шаблона контрольного списка | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Объекты компенсации
+## <a name="compensation-tables"></a>Таблицы компенсаций
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
-| План фиксированной компенсации | cdm_compensationfixedplan |
+| Фиксированный план компенсации | cdm_compensationfixedplan |
 | Сетка компенсации | cdm_compensationgrid |
 | Уровень компенсации | cdm_compensationlevel |
 | Частота компенсационных выплат | cdm_compensationpayfrequency |
@@ -75,11 +74,11 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Тип плана переменной компенсации | cdm_compensationvariableplantype |
 | Мероприятие фиксированной компенсации | cdm_fixedcompensationevent |
 | Положение о передаче прав на льготы | cdm_vestingrule |
-| Фиксированная компенсация для работника | cdm_workerfixedcompensation |
+| Фиксированная компенсация работника | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Объекты организации
+## <a name="organization-tables"></a>Таблицы организаций
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Отдел | cdm_department |
 | Занятость | cdm_employment |
@@ -95,11 +94,11 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Должность | cdm_title |
 
 > [!NOTE]
-> Финансовые аналитики для **Тип должности**, **Назначение работника на должность** и **Занятость** обеспечивают однонаправленную интеграцию с Common Data Service. Обновления финансовых аналитик в данный момент не могут выполнять синхронизацию из Common Data Service в Human Resources. 
+> Финансовые аналитики для **Тип должности**, **Назначение работника на должность** и **Занятость** обеспечивают однонаправленную интеграцию с Dataverse. Обновления финансовых аналитик в данный момент не могут выполнять синхронизацию из Dataverse в Human Resources. 
 
-## <a name="leave-and-absence-entities"></a>Объекты отпусков и отсутствия
+## <a name="leave-and-absence-tables"></a>Таблицы отпусков и отсутствия
 
-| Наименование | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Банковская проводка отпуска | cdm_leavebanktransaction |
 | Регистрация отпуска | cdm_leaveenrollment |
@@ -109,19 +108,19 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Тип отпуска | cdm_leavetype |
 | Код основания типа отпуска | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Объекты заработной платы
+## <a name="payroll-tables"></a>Таблицы зарплаты
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Цикл оплаты | cdm_paycycle |
 | Платежный период | cdm_payperiod |
-| Код дохода в зарплате | cdm_payrollearningcode |
+| Код дохода по зарплате | cdm_payrollearningcode |
 | Выплаты по банковскому счету | cdm_bankaccountdisbursement |
 | Налоговый регион | cdm_taxregion |
 
-## <a name="worker-entities"></a>Объекты работника
+## <a name="worker-tables"></a>Таблицы работников
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Рабочий | cdm_worker |
 | Адрес работника | cdm_workeraddress |
@@ -135,22 +134,22 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Интервал рабочего времени | cdm_workcalendartimeinterval (не включено для поддержки настраиваемых полей) |
 | Банковский счет работника | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Объекты настройки работника
+## <a name="worker-setup-tables"></a>Таблицы настройки работников
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Статус ветерана | cdm_veteranstatus |
 | Этническое происхождение | cdm_ethnicorigin |
 | Код основания | cdm_reasoncode |
-| Выпускающее агентство по идентификации лиц | cdm_personidentificationissuingagency |
+| Агентство, выпускающее средства идентификации пользователей | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Объекты компетенции
+## <a name="competency-tables"></a>Таблицы компетенции
 
-| Название | Объект |
+| ФИО | Таблица |
 | --- | --- |
 | Тип навыка | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Модели связи объектов
+## <a name="table-relationship-models"></a>Модели связи таблиц
 
 ### <a name="worker"></a>Рабочий
 
@@ -178,8 +177,9 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 
 ## <a name="see-also"></a>См. также
 
-[Выбор технологии интеграции данных](hr-admin-integration-choose-technology.md)</br>
-[Настройка интеграции Common Data Service](hr-admin-integration-common-data-service.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Выбор технологии интеграции данных](hr-admin-integration-choose-technology.md)<br>
+[Настройка интеграции Dataverse](hr-admin-integration-common-data-service.md)<br>
+[Настройка виртуальных таблиц Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Вопросы и ответы по виртуальным таблицам Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Обновления терминологии](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

@@ -2,7 +2,7 @@
 title: Анкеты
 description: В этой статье представлены общие сведения об анкетах и ссылки на более подробные сведения. Анкета — это набор вопросов, используемых для сбора сведений для различных целей. Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c96be3a46de6ed841331f36114132ca59c236ba2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 17183c3af289fd65f2cbd8e2d635d74d2b73ad29
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420302"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115446"
 ---
 # <a name="questionnaires"></a>Анкеты
 
@@ -32,7 +32,7 @@ ms.locfileid: "4420302"
 Анкету можно модифицировать, чтобы она соответствовала конкретным потребностям, с помощью разнообразных функций, доступных в Microsoft Dynamics 365 Finance. Вот несколько примеров использования анкет:
 
 -   Проверка профессиональных навыков и кандидатов.
--   Определение того, выучили ли участники курса материал курса.
+-   Определение того, выучили ли участники курса материал курса.
 -   Оценка курса (например, оснащение, содержимое и лектор).
 -   Исследование степени удовлетворения сотрудников и клиентов.
 -   Оценка производительности работы сотрудников.
@@ -44,6 +44,3 @@ ms.locfileid: "4420302"
 | [Разработка анкеты](hr-learning-design-questionnaires.md) | В этой статье приводятся сведения о том, как разработать анкету. Процесс разработки включает настройку необходимых условий, ответов и вопросов и их объединение в анкету. |
 | [Распределение и планирование анкет](hr-learning-distribute-questionnaires.md) | В этой статье представлены сведения о распространении анкеты респондентам и заполнении анкет. |
 | [Просмотр и оценка результатов анкеты](hr-learning-evaluate-questionnaire-results.md) | В этой статье содержатся сведения о том, как просматривать и оценивать результаты заполненных анкет. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

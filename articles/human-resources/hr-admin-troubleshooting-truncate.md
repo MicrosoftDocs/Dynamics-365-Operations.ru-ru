@@ -2,7 +2,7 @@
 title: Как избежать усечения текста в иерархии должностей и при экспорте в Visio
 description: В этой статье объясняется, как решить проблему, когда имена людей и названия должностей усекаются при просмотре иерархии должностей клиентами в Microsoft Dynamics 365 Human Resources. Усечение текста затрудняет получение снимков экрана или печать иерархии.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420248"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113990"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Исключение усечения текста по иерархии должностей и экспорт в Visio
 
@@ -104,6 +104,3 @@ ms.locfileid: "4420248"
 **Дополнительный параметр**
 
 В Human Resources также можно использовать рабочую область **Люди**, чтобы просмотреть некоторую информацию, относящуюся к иерархии.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
