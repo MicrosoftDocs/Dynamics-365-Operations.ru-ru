@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7d6e3dea1b3c1ef47490df678f639c036cdd5c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435948"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021712"
 ---
 # <a name="asset-criticality-types"></a>Типы критичности активов
 
@@ -62,6 +61,3 @@ ms.locfileid: "4435948"
 - Критичность в заказе на работу пересчитывается каждый раз при добавлении или удалении строки в заказ на работу или удаления из заказа на работу.
 - Если заказ на работу содержит несколько заданий заказа на работу, наивысшая критичность, согласно полю **Коэффициент** на странице **Типы критичности**, всегда используется в заказе на работу.
 - Как правило, критичность активв может меняться в течение определенного периода. На критичность может повлиять покупка нового оборудования, реконструкции и так далее. Рассмотрите возможность переоценки критичностей актива через регулярные промежутки времени (например, один раз в год или каждые два года), чтобы убедиться, что ваши определения критичности соответствуют текущей настройке производства.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

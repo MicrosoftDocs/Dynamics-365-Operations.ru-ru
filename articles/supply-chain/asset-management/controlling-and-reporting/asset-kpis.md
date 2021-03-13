@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3ebbb1016bafed8ad9fb998fc76152e215c08c3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435938"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021788"
 ---
 # <a name="asset-kpis"></a>Ключевые показатели эффективности актива
 
@@ -90,6 +89,3 @@ ms.locfileid: "4435938"
 - Имеется возможность выбирать несколько активов в разделе **Все активы** и нажать кнопку **КПЭ активов** на вкладке **Общее**. Затем нажмите кнопку **ОК** в диалоговом окне **Расчет ключевых показателей эффективности активов**, чтобы рассчитать ключевые показатели эффективности для выбранных активов.  
 - Результаты вычисления ключевых показателей эффективности могут включать или не включать [регистрации простоя из-за обслуживания](../work-orders/maintenance-downtime.md), в зависимости от настройки и использования кодов причин простоя из-за обслуживания. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
