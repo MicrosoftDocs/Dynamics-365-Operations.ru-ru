@@ -1,7 +1,7 @@
 ---
 title: Правила политики аудита
 description: Для оценки отчетов по расходам, накладных поставщиков и заказов на покупку в соответствии на предмет соответствия созданным правилам политики можно использовать политики аудита. Все правила, связанные с политиками аудита, применяются в пакетном режиме в соответствии с заданным графиком.  Каждое правило политики представляет собой экземпляр типа правила политики. Для каждого типа правила политики одновременно может быть активно только одно правило политики.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447161"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021249"
 ---
 # <a name="audit-policy-rules"></a>Правила политики аудита
 
@@ -101,6 +100,3 @@ ms.locfileid: "4447161"
 [пределение политик аудита для документов-источников](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

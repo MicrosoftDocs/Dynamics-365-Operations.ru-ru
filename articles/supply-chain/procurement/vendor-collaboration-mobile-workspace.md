@@ -1,7 +1,7 @@
 ---
 title: Мобильная рабочая область совместной работы с поставщиками
 description: В этой теме содержится информация о мобильной рабочей области "Совместная работа с поставщиками". Эта рабочая область помогает вашим поставщикам быть в курсе заказов на покупку, отправленных им на утверждение. Они также могут просмотреть сведения о новых и обновленных заказах на покупку и контактах.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: mkirknel
+ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc73fe415ec2b9a266dda6b7f1b3469b7a77f256
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436317"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020844"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Мобильная рабочая область совместной работы с поставщиками
 
@@ -170,6 +169,3 @@ ms.locfileid: "4436317"
 
 ### <a name="open-confirmed-orders"></a>Открытие подтвержденных заказов
 Когда заказ на покупку подтвержден клиентом (т .е. статус заказа на покупку изменен на **Подтверждено**), этот заказ отображается в открытых подтвержденных заказах. Он будет оставаться в этом списке, пока не будет зарегистрирован как полученный клиентом.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Определение политик аудита для документов-источников
 description: В этой теме объясняется, как настроить и запустить правила политики аудита.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447283"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021437"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Определение политик аудита для документов-источников
 
@@ -88,6 +87,3 @@ ms.locfileid: "4447283"
 57. Разверните раздел **Ассоциации**.
 58. В списке найдите и выберите требуемую запись.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
