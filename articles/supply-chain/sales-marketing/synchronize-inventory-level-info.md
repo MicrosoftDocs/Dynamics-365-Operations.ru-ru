@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 828dd1324c2692b7b3f4bc15c5e50b3dbee8b72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435921"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010930"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Синхронизация сведений об уровне запасов из Supply Chain Management с Field Service 
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 
@@ -51,7 +52,7 @@ ms.locfileid: "4435921"
 
 | Field Service                      | Управление цепочкой поставок                |
 |------------------------------------|----------------------------------------|
-| msdynce_externalproductinventories | Запасы CDS в наличии по складам     |
+| msdynce_externalproductinventories | Запасы Dataverse в наличии по складам     |
 
 ## <a name="entity-flow"></a>Поток объектов
 Сведения об уровне запасов из Finance and Operations отправляются в Field Service для выбранных продуктов. Сведения об уровне запасов включают: 
@@ -91,6 +92,3 @@ ms.locfileid: "4435921"
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Запасы продуктов (из Supply Chain Management в Field Service): запасы продуктов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

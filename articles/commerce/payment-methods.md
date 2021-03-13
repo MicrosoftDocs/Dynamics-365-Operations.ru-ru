@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54bff6b7962ade09ea5c1f5f8d7721757dea1fc3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012374"
 ---
 # <a name="payment-methods"></a>Способы оплаты
 
@@ -49,6 +48,3 @@ ms.locfileid: "4415249"
 2. Создайте типы и номера карт на уровне организации. Если кредитные карты или дебетовые карты принимаются, необходимо создать один способ оплаты картами, а затем создать типы и номера карт на уровне организации.
 3. Настройте способ оплаты для магазина. Свяжите способы оплаты с каждым магазином, а затем введите параметры для каждого способа оплаты, характерные для конкретного магазина.
 4. Настройте способы платежа картами для магазинов. Завершите настройку карты для любого карточного способа оплаты, используемого в магазине.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

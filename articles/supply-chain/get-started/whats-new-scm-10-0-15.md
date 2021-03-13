@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700965"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014541"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты в Microsoft Dynamics 365 Supply Chain Management версии 10.0.15. Эта версия имеет номер сборки 10.0.644 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.15. Эта версия имеет номер сборки 10.0.644 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** октябрь 2020 г.
 - **Общая доступность выпуска (самостоятельное обновление):** ноябрь 2020 г.
@@ -84,6 +83,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 включает обно
 Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

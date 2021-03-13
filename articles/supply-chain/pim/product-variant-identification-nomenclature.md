@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f17f9e1401c68c11e23f327d96028663470b3245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435808"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011330"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Номенклатура номеров и названий вариантов продуктов
 
@@ -198,6 +197,3 @@ ms.locfileid: "4435808"
 
 [Создание номенклатуры номера продукта для сконфигурированных вариантов продуктов](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

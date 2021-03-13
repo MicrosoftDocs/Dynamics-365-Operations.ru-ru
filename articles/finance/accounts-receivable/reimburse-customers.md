@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: ae6a3078743fc9cd43c71bc1d4531c0553ee53bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644545"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012147"
 ---
 # <a name="reimburse-customers"></a>Зачет клиентов
 
@@ -49,6 +48,3 @@ ms.locfileid: "4644545"
 
 5. Для просмотра созданных проводок возмещения используйте отчет **Возмещение** (**Расчеты с клиентами \> Запросы и отчеты \> Отчет о возмещении**).
 6. В модуле "Расчеты с поставщиками" создайте платеж для накладных поставщика, которые были созданы в процессе возмещения. Сведения о том, как заплатить поставщикам, см. в разделе [Обзор платежей поставщикам](../accounts-payable/Vendor-payments-workspace.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435839"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010780"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Поиск применимых цен и скидок
 
@@ -60,6 +59,3 @@ ms.locfileid: "4435839"
     * Для продукта T0012 существует для соглашения по скидке по сроке, согласно которым при количестве по строке заказа от 1 до 10 скидка составляет 5 процентов, а при количестве свыше 10 — 7 процентов. Обратите внимание, что скидки применяются к группе продуктов, в данном примере с кодом группы 01, в которую входит продукт T0012.  
 4. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

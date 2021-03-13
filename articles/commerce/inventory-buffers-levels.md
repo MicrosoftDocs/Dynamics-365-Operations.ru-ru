@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415266"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012445"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Настройка буферов запасов и уровней запасов
 
@@ -149,6 +148,3 @@ ms.locfileid: "4415266"
 [Применение настроек запасов](inventory-settings.md)
 
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

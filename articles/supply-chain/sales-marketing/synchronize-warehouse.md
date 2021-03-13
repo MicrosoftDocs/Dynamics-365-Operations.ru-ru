@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 28445592d7a2a8964b1642ae52cff08be6feabbe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0c0c1bafb5b36bb9ddc00061e0040a199c8c033d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529514"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010855"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Синхронизация складов из Supply Chain Management в Field Service
 
@@ -45,20 +44,20 @@ ms.locfileid: "4529514"
 **Задача в проекте интеграции данных**
 - Склад
 
-## <a name="entity-set"></a>Набор объектов
+## <a name="table-set"></a>Набор таблиц
 | Field Service    | Управление цепочкой поставок                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Склады                             |
 
-## <a name="entity-flow"></a>Поток объектов
-Склады, которые создаются и поддерживаются в Supply Chain Management, можно синхронизировать с Field Service через проект интеграции данных службы Common Data Service (CDS). Склады, которые требуется синхронизировать с Field Service, можно контролировать с помощью расширенных запросов и фильтрации по проекту. Склады, которые синхронизируются из Supply Chain Management, создаются в Field Service с полем **Поддерживается извне** со значением **Да**, и запись становится записью только для чтения.
+## <a name="table-flow"></a>Поток таблиц
+Склады, которые создаются и поддерживаются в Supply Chain Management, можно синхронизировать с Field Service через проект интеграции данных службы Microsoft Dataverse. Склады, которые требуется синхронизировать с Field Service, можно контролировать с помощью расширенных запросов и фильтрации по проекту. Склады, которые синхронизируются из Supply Chain Management, создаются в Field Service со столбцом **Поддерживается извне** со значением **Да**, и запись становится записью только для чтения.
 
 ## <a name="field-service-crm-solution"></a>Решение Field Service CRM
-Для поддержки интеграции между Field Service и Supply Chain Management требуется дополнительная функциональная возможность решения Field Service CRM. В решении поле **Поддерживается извне** было добавлено в объект **Склад (msdyn_warehouses)**. Это поле помогает определить, обрабатывается ли склад из Supply Chain Management, или он существует только в Field Service. Для этого поля предусмотрены следующие параметры:
+Для поддержки интеграции между Field Service и Supply Chain Management требуется дополнительная функциональная возможность решения Field Service CRM. В решении столбец **Поддерживается извне** был добавлен в таблицу **Склад (msdyn_warehouses)**. Этот столбец помогает определить, обрабатывается ли склад из Supply Chain Management, или он существует только в Field Service. Для этого столбца предусмотрены следующие параметры:
 - **Да** — склад поступил из Supply Chain Management и не может быть изменен в Sales.
 - **Нет** — склад был введен непосредственно в Field Service и поддерживается здесь.
 
-Поле **Поддерживается извне** помогает контролировать синхронизацию уровней запасов, корректировки, передачи и использования в заказах на выполнение работ. Только склады, для которых параметр **Поддерживается извне** имеет значение **Да**, может использоваться для синхронизации непосредственно с тем же складом в другой системе. 
+Столбец **Поддерживается извне** помогает контролировать синхронизацию уровней запасов, корректировки, передачи и использования в заказах на выполнение работ. Только склады, для которых параметр **Поддерживается извне** имеет значение **Да**, может использоваться для синхронизации непосредственно с тем же складом в другой системе. 
 
 > [!NOTE]
 > Можно создать несколько складов в Field Service (с настройкой **Поддерживается извне** = "Нет") и затем сопоставить их с одним складом с функцией расширенного запроса и фильтрации. Это используется в ситуациях, когда требуется, чтобы приложение Field Service управляло подробным уровнем запасов и отправляло только обновления в приложение Supply Chain Management. В этом случае Field Service не будет получать обновления уровней запасов из Supply Chain Management. Дополнительные сведения см. в разделах [Синхронизация корректировок запасов из Field Service в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) и [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу, связанными с проектом в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
@@ -81,6 +80,3 @@ ms.locfileid: "4529514"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Склады (из Supply Chain Management в Field Service): Склад
 
 [![Сопоставление шаблона в интеграции данных](./media/Warehouse1.png)](./media/Warehouse1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
