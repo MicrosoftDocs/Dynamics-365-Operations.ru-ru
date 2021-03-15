@@ -68,3 +68,6 @@ ms.locfileid: "5000753"
 - Каналы Commerce
 - Регистры и устройства
 - Ассортименты
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

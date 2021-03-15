@@ -67,3 +67,6 @@ ms.locfileid: "4992947"
 5. Щелкните **OK**.
 6. В поле **Статус** выберите "Разнесено".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ ms.locfileid: "4976921"
 5. Выберите стрелку вправо.
 6. Нажмите **Сохранить**.
 7. Закройте страницу.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

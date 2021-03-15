@@ -239,3 +239,6 @@ ms.locfileid: "5033160"
 1. Выберите **Готово**.
 
     ![Добавление вложения в запрос на обслуживание](media/am-mobile-10.png "Добавление вложения в запрос на обслуживание")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

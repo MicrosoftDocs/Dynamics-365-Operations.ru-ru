@@ -164,3 +164,6 @@ ms.locfileid: "5092724"
 
 - [Разработка новых конфигураций электронной отчетности для создания отчетов в формате Word](../er-design-configuration-word.md)
 - [Внедрение изображений и фигур в документы, создаваемые с помощью электронной отчетности](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

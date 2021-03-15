@@ -257,3 +257,6 @@ ms.locfileid: "4997486"
       ![Параметры выполнения импорта объекта](media/17%20Entity%20import%20execution%20parameters.jpg)
 
 При выполнении задания полного импорта необходимо одновременно указать несколько регионов, но не все регионы.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

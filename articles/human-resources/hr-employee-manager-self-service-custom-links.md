@@ -48,3 +48,6 @@ ms.locfileid: "5114058"
 ## <a name="see-also"></a>См. также
 
 [Обзор самообслуживания сотрудников и менеджеров](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

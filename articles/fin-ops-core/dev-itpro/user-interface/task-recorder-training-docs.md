@@ -123,3 +123,6 @@ ms.locfileid: "5092877"
 [Регистратор задач](task-recorder.md)
 
 [Создание расширенных разделов справки с помощью регистратора задач (внешняя ссылка)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ ms.locfileid: "5033227"
 Дополнительные сведения о работе с мобильной рабочей областью **Управление активами** см. в разделе [Использование мобильной рабочей области управления активами](asset-management-mobile-workspace.md).
 
 Дополнительные сведения о мобильном приложении Finance and Operations (Dynamics 365) см. в разделе [Главная страница мобильного приложения](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

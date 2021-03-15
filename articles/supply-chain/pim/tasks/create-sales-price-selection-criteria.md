@@ -53,3 +53,6 @@ ms.locfileid: "4999664"
 4. В поле "Критерии" выберите "Группа клиентов 10". 
 5. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

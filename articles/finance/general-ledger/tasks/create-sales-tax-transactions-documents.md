@@ -59,3 +59,6 @@ ms.locfileid: "4968662"
 29. Щелкните "Налог".
 30. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

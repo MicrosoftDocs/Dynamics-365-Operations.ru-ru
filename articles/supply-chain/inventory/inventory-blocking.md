@@ -69,3 +69,6 @@ ms.locfileid: "5011605"
 [Процессы управления качеством](quality-management-processes.md)
 
 [Контроль качества товаров](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

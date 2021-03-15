@@ -293,3 +293,6 @@ ms.locfileid: "5104317"
 ### <a name="quality-update-for-1009platform-update-33"></a>Обновление качества для 10.0.9/Platform update 33
 
 - [KB 4550367] Значения времени форматируются неправильно.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

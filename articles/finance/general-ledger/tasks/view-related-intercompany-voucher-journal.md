@@ -53,3 +53,6 @@ ms.locfileid: "4994373"
 3. В списке пометьте выбранную строку.
 4. Щелкните "Операция".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

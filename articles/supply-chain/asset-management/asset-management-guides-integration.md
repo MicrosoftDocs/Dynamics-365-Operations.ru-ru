@@ -113,3 +113,6 @@ ms.locfileid: "5000292"
 
 - [Обзор двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Обзор управления активами](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

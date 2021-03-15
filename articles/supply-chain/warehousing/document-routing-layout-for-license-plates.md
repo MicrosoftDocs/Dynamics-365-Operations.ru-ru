@@ -135,3 +135,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Дополнительные сведения о печати меток
 
 Дополнительные сведения о настройке и печати меток см. в разделе [Включение печати меток грузомест](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

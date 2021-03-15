@@ -99,3 +99,6 @@ ms.locfileid: "5001557"
 ## <a name="save"></a>Сохранение
 1. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

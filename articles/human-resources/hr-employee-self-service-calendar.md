@@ -72,3 +72,6 @@ ms.locfileid: "4962273"
 
 Сведения о настройках календаря см. в разделе [Настройка параметров календаря](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

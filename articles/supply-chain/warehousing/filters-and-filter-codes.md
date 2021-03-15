@@ -165,3 +165,6 @@ ms.locfileid: "4973743"
 ## <a name="see-also"></a>См. также
 
 [Дополнительные сведения см. в записи блога о кодах фильтров склада WMS](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ ms.locfileid: "5000517"
 [Обзор страниц сведений о продукте](quick-tour-pdp.md)
 
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

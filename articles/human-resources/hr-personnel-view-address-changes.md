@@ -128,3 +128,6 @@ ms.locfileid: "5152061"
 > Если вы хотите получать оповещение или сообщение электронной почты об изменениях адресов, можно создать новое правило генерации оповещений на вкладке **Параметры** в области действий. Дополнительные сведения о создании правил оповещения см. в разделе [Создание правил оповещения](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > Если требуется настроить workflow-процесс для изменения адреса, можно выбрать параметр **Послать извне** в правиле оповещений, а затем использовать Power Automate для запуска бизнес-события и настройки workflow-процесса. Дополнительные сведения см. в [Оповещения как бизнес-события](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

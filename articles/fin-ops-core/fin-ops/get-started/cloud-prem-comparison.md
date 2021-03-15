@@ -176,3 +176,6 @@ ms.locfileid: "4959902"
 
 \* В локальных средах PerfTimer только отображает результаты для клиента.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

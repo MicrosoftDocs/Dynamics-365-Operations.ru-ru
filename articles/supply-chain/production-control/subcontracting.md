@@ -302,3 +302,6 @@ ms.locfileid: "4981464"
     ![Диаграммы сравнения стоимости](./media/subcontract35_cost-comparison-charts.png)
 
 Отсутствует настройка в данных.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

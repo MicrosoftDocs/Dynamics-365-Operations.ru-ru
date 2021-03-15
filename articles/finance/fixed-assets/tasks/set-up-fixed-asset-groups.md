@@ -38,3 +38,6 @@ ms.locfileid: "4994848"
 8. В поле **Соглашение по амортизации** выберите вариант.
 9. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "5035274"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Резервирование по заказам](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "5114041"
    | Линейная | Номер строки будущего жизненного события. |
 
 4. Нажмите **Сохранить**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

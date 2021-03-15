@@ -66,3 +66,6 @@ Commerce предоставляет целевую страницу катего
 [Проверка доступности контента страницы](verify-accessibility.md)
 
 [Создание динамических страниц электронной коммерции на основе параметров URL-адреса](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

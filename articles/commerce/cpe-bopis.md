@@ -163,3 +163,6 @@ ms.locfileid: "4993483"
 [Сохранение интерактивных платежных инструментов с помощью соединителя Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Обзор многоканальных платежей](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "5006874"
 3. В поле "Значение" введите значение.
 4. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,5 @@ Dynamics 365 Human Resources предоставляет аналитику, по
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Создание плана отпусков и отсутствий](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

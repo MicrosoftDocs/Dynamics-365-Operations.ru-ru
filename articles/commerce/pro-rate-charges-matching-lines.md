@@ -174,3 +174,6 @@ ms.locfileid: "4972413"
 [Омниканальные расширенные автоматические накладные расходы](omni-auto-charges.md)
 
 [Включение и настройка автоматических накладных расходов по каналам](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

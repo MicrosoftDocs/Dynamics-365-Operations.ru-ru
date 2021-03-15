@@ -211,3 +211,6 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     Исходная синхронизация строк теперь завершена.
 
 8. В приложении Finance and Operations снова включите отслеживание изменений для таблицы **Клиенты V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Fabrikam предлагает клиенту 4031 два периода скид
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

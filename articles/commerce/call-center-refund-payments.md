@@ -108,3 +108,6 @@ ms.locfileid: "4991423"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Способы оплаты в центрах обработки вызовов](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

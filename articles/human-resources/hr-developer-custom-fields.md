@@ -40,3 +40,5 @@ ms.locfileid: "5115496"
 [Таблицы Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Создание настраиваемых полей и работа с ними](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Предоставление пользовательских полей для информационных объектов](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

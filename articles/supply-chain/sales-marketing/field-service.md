@@ -84,3 +84,6 @@ Supply Chain Management обеспечивает синхронизацию би
 - Field Service (версия 8.2.0.286) или более поздняя в Dynamics 365 9.1.x - выпущено в ноябре 2018 г.
 - Решение "Перспективный клиент в наличные деньги" (P2C) для Dynamics 365, версия 1.15.0.1 или более новая версия. Это решение можно загрузить с сайта [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Решение "интеграции Field Service, проект и запасы" для Dynamics 365, версия 2.0.0.0 или более новая. Это решение можно загрузить с сайта [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

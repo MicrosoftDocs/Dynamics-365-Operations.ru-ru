@@ -1033,3 +1033,6 @@ Lifecycle Services (LCS) обеспечивает набор служб, кот�
 [Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md)
 
 [Новые руководства по задачам (февраль 2016 г.)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

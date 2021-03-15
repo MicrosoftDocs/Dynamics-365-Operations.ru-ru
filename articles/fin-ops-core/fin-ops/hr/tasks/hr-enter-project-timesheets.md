@@ -51,3 +51,6 @@ ms.locfileid: "5055947"
 21. Щелкните **Отправить**.
 22. Щелкните **Отправить**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

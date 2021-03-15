@@ -94,3 +94,6 @@ ms.locfileid: "4993558"
 [Настройка модулей оценок и отзывов на страницах сведений о продукте](ratings-reviews-modules.md)
 
 [Синхронизация оценок продуктов в Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

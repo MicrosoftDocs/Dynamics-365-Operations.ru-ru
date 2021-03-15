@@ -46,3 +46,6 @@ ms.locfileid: "4798002"
     * Пример:"Отпуск для усыновления"  
 12. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "5017926"
 
 ![Рисунок 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

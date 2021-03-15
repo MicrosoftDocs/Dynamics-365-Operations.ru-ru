@@ -64,3 +64,6 @@ ms.locfileid: "5010955"
 29. Нажмите кнопку "OК".
 30. Выберите причину, по которой вы уходите раньше.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

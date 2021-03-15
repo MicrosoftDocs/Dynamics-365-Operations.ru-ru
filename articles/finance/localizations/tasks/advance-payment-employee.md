@@ -170,3 +170,6 @@ ms.locfileid: "4990048"
 12. Закройте страницу.
 13. Щелкните "Проводки".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ ms.locfileid: "4995223"
 [Определение прав доступа для контроллеров объектов затрат](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -255,3 +255,6 @@ ms.locfileid: "4798234"
 
 [Сочетания клавиш анализа отсутствующих счетов](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

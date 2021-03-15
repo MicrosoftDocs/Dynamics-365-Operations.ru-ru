@@ -139,3 +139,6 @@ ms.locfileid: "5006424"
 ### <a name="page-numbers"></a>Номера страниц
 
 Текущая страница и число страниц печатаются в нижней части документа.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

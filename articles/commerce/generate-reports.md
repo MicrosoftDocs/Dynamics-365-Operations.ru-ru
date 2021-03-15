@@ -137,3 +137,6 @@ ms.locfileid: "4970050"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Домашняя страница Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

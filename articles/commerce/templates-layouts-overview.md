@@ -111,3 +111,6 @@ ms.locfileid: "4962968"
 [Работа с предустановленными макетами](work-with-layouts.md)
 
 [Работа с группами публикаций](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

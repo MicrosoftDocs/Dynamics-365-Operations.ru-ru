@@ -86,3 +86,6 @@ ms.locfileid: "4983474"
 [Просмотр журнала плана и журналов планирования](plan-history-logs.md)
 
 [Отмена задания планирования](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Supply Chain Management обеспечивает, что движение мат
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

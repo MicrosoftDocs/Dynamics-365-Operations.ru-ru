@@ -49,3 +49,6 @@ ms.locfileid: "5113972"
 **Долгосрочное решение**
 
 Будут доступны дополнительные параметры Power BI, и дополнительные данные и объекты будут входить в Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

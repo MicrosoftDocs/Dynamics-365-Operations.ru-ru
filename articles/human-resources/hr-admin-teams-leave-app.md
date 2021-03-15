@@ -134,3 +134,6 @@ Dynamics 365 Human Resources передает сведения о запросе
 [Центр справки Microsoft Teams](https://support.office.com/teams)</br>
 [Управление запросами на отпуск в Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

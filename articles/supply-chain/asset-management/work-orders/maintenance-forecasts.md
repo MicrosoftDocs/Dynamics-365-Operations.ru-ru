@@ -123,3 +123,6 @@ ms.locfileid: "5020876"
 На приведенном ниже рисунке показан пример диалогового окна **Обновить прогноз по заказу на работу**.
 
 ![Рисунок 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

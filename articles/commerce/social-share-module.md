@@ -81,3 +81,6 @@ ms.locfileid: "4985544"
 [Модуль поля покупки](add-buy-box.md)
 
 [Соответствие файлов cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

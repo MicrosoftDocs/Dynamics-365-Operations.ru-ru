@@ -181,3 +181,6 @@ ms.locfileid: "4975772"
 
 ## <a name="generating-consolidated-financial-statements"></a>Формирование консолидированных финансовых отчетов
 Сведения о сценариях, в которых может понадобиться формировать консолидированные финансовые отчеты, см. в разделе [Формирование консолидированных финансовых отчетов](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

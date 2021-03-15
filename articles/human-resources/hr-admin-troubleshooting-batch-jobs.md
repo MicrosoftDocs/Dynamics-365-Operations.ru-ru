@@ -65,3 +65,6 @@ Microsoft Dynamics 365 Human Resources может столкнуться с пр
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Оптимизация производительности с помощью задач автоматической очистки](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

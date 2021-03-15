@@ -69,3 +69,6 @@ ms.locfileid: "5020762"
 3. В диалоговом окне **Сохранить как** выберите расположение, в котором следует сохранить файл шаблона каталога, и сохраните файл.
 
 Дополнительные сведения и примеры см. в этой записи блога: [Каталоги поставщиков в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Microsoft Dynamics 365 Human Resources, который был развернут
 2. Выберите **Открыть из LCS**.
 3. Выберите библиотеку и узел BPM, в которых сохранено руководство по задаче.
 4. Откройте руководство по задаче.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

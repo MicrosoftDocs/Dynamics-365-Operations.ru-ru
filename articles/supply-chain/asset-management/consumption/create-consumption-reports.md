@@ -77,3 +77,6 @@ ms.locfileid: "5022541"
 >[!NOTE]
 >Можно также создать [отчет по заказу на работу](../work-orders/work-order-report.md), который содержит больше сведений о заказе на работу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

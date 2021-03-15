@@ -84,3 +84,6 @@ ms.locfileid: "5035957"
 [Управление пользователями деловых партнеров на сайтах электронной коммерции B2B](manage-b2b-users.md)
 
 [Настройка метода платежа для счета клиента для сайтов электронной коммерции B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

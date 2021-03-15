@@ -139,3 +139,6 @@ ms.locfileid: "4975747"
 
 - [Определение финансовых аналитик](tasks/define-financial-dimensions.md)
 - [Ведение шаблонов финансовой аналитики по умолчанию](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -300,3 +300,6 @@ ms.locfileid: "4989135"
 -  [Аналитики элементов затрат](cost-elements.md)
 -  [Иерархия аналитик](dimension-hierarchy.md)
 -  [Расчет накладных расходов](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

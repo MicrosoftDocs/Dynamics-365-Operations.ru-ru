@@ -86,3 +86,6 @@ ms.locfileid: "4972759"
 [Модуль сведений о самовывозе](pickup-info-module.md)
 
 [Модуль подарочных сертификатов](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

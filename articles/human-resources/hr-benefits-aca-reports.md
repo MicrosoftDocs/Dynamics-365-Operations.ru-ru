@@ -87,3 +87,6 @@ ms.locfileid: "5142164"
 
 > [!NOTE]
 > В окне запроса отображаются только планы льгот, помеченные как **Подлежащие отчетности по ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

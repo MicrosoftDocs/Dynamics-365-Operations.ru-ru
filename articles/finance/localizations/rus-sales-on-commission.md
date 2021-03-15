@@ -245,3 +245,6 @@ ms.locfileid: "4997477"
 
 - [Проводки через посредников](rus-transactions-through-intermediary.md) 
 - [Покупки по комиссии](rus-purchases-on-commission.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

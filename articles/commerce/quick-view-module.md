@@ -77,3 +77,6 @@ ms.locfileid: "5097060"
 [Модуль семейства продуктов](product-collection-module-overview.md)
 
 [Модуль результатов поиска](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

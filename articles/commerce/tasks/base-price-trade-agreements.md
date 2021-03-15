@@ -69,3 +69,6 @@ ms.locfileid: "5006066"
 38. В области **Панель операций** щелкните "Продажа".
 39. Щелкните **Цена продажи**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

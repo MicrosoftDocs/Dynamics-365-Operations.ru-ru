@@ -66,3 +66,6 @@ ms.locfileid: "4796614"
 8. После того как сущность **Предложения с расценками** расширена, примените фильтр, имеющий `CUSTGROUP != "<company>"` в качестве строки запроса.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Диалоговое окно изменения запроса для заголовка предложения с расценками на продажу CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

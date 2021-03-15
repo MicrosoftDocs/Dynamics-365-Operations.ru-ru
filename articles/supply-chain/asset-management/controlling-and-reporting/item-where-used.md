@@ -70,3 +70,6 @@ ms.locfileid: "5021147"
 
 ![Пример расчета используемой номенклатуры](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

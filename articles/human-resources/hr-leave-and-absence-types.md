@@ -82,3 +82,6 @@ ms.locfileid: "5115084"
 - [Создание календаря рабочего времени](hr-leave-and-absence-working-time-calendar.md)
 - [Приостановка отпуска](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

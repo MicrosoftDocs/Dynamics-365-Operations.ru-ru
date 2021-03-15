@@ -67,3 +67,6 @@ ms.locfileid: "4980140"
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ ms.locfileid: "4980190"
 [Модуль гармошек](add-accordion.md)
 
 [Модуль текстового блока](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

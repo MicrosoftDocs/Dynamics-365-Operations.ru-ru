@@ -92,3 +92,6 @@ Dynamics 365 Commerce предоставляет оценки доступнос
 [Модуль выбора магазина](store-selector.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

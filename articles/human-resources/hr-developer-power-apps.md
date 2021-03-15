@@ -60,3 +60,5 @@ ms.locfileid: "5115374"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

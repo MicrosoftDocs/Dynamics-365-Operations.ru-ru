@@ -108,3 +108,6 @@ ms.locfileid: "4966638"
 ### <a name="calculate-and-approve-absence"></a>Расчет и утверждение отсутствия
 
 - Выберите **Посещаемость и время присутствия** &gt; **Просмотр и утверждение** &gt; **Утвердить или Рассчитать**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

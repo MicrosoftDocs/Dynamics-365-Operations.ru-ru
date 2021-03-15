@@ -36,3 +36,6 @@ ms.locfileid: "4982274"
 5. В списке найдите и выберите требуемую запись.
 6. Щелкните "Загрузить".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

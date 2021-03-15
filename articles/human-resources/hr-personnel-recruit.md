@@ -225,3 +225,6 @@ Dynamics 365 Human Resources помогает управлять запроса�
 [Настройка виртуальных таблиц Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Организация трудовых ресурсов](hr-personnel-departments-jobs-positions.md)<br>
 [Настройка компонентов должности](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

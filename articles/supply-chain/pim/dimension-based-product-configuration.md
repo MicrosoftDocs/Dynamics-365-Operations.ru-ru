@@ -87,3 +87,6 @@ ms.locfileid: "5007749"
 7.  [Создание правил конфигурации](tasks/create-configuration-rules.md)
 8.  [Создание конфигураций на основе аналитик](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

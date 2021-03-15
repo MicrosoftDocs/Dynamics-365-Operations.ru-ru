@@ -63,3 +63,6 @@ ms.locfileid: "4985844"
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

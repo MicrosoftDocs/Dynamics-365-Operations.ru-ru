@@ -86,3 +86,6 @@ ms.locfileid: "5097373"
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
 
 [Создание динамических страниц электронной коммерции на основе параметров URL-адреса](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

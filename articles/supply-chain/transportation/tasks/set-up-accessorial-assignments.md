@@ -49,3 +49,6 @@ ms.locfileid: "4974043"
 14. В поле "Дополнительный сбор" введите число.
 15. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

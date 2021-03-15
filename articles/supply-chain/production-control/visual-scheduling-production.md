@@ -159,3 +159,6 @@ ms.locfileid: "5154259"
 
 [Визуальное планирование для производства (демонстрационный скрипт)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

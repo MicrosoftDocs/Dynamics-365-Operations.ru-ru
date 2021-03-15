@@ -59,3 +59,6 @@ ms.locfileid: "5008224"
 [Просмотр журнала плана и журналов планирования](plan-history-logs.md)
 
 [Применение фильтров к плану](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

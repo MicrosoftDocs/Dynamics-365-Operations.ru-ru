@@ -59,3 +59,6 @@ ms.locfileid: "4988144"
     * Например, выберите банковский счет "DEMF OPER".  
 6. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

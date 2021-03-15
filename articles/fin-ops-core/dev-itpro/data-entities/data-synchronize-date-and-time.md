@@ -40,3 +40,6 @@ ms.locfileid: "4798727"
 4. Измените **Часовой пояс** на **Часовой пояс UTC** и измените **Язык** на **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

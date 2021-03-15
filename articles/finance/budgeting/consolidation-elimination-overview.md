@@ -93,3 +93,6 @@ ms.locfileid: "5120487"
 Дополнительные сведения см. в разделе [Валютная переоценка в компании консолидации](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

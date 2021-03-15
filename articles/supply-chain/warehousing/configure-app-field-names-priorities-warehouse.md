@@ -143,3 +143,6 @@ ms.locfileid: "4963443"
 --------
 
 [Обзор установки и настройки приложения склада](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

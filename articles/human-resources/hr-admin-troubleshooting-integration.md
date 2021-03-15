@@ -181,3 +181,6 @@ ms.locfileid: "5114002"
 - Управление данными:
 
   - [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

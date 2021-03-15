@@ -59,3 +59,6 @@ ms.locfileid: "4972940"
 [Кадрирование изображений](dam-crop-images.md)
 
 [Отправка и предоставление статических файлов](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

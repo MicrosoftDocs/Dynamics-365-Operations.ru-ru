@@ -88,3 +88,6 @@ ms.locfileid: "4798598"
 Видео [Параметры правил оповещения](https://youtu.be/cpzimwOjicM) (показано выше) включено в список воспроизведения [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на сайте YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

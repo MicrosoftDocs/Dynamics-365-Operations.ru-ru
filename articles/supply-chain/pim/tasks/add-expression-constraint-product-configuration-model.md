@@ -50,3 +50,6 @@ ms.locfileid: "4987137"
 4. Щелкните "Закрыть".
 5. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

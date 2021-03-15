@@ -945,3 +945,6 @@ ms.locfileid: "4797203"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

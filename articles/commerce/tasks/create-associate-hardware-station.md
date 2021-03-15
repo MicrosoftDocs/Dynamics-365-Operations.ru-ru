@@ -57,3 +57,6 @@ ms.locfileid: "4964928"
 23. В поле "Код терминала EFT" введите значение.
 24. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

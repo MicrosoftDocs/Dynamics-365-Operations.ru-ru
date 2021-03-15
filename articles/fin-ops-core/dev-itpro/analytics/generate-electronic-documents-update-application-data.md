@@ -40,3 +40,6 @@ ms.locfileid: "5093881"
 - [Конфигурация модели данных: Интрастат (модель)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация сопоставления модели ER: Интрастат (сопоставление)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация формата ER: Интрастат (формат)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

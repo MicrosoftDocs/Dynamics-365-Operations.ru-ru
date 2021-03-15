@@ -62,3 +62,6 @@ ms.locfileid: "5115398"
 - [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)
 - [Руководство администратора](hr-admin-overview.md)
 - [Руководство пользователя](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

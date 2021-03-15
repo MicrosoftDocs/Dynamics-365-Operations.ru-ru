@@ -255,3 +255,5 @@ ms.locfileid: "5114014"
 На следующем рисунке показан пример сопоставления шаблона в интеграторе данных. 
 
 ![Сопоставление шаблона](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

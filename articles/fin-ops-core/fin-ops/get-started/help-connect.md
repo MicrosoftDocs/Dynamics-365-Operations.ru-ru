@@ -99,3 +99,6 @@ Microsoft представила набор средств, помогающих
 [Ресурсы регистратора задач](../../dev-itpro/user-interface/task-recorder.md)  
 [Создание документации или учебных материалов с помощью регистратора задач](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Репозиторий GitHub пользовательской справки](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

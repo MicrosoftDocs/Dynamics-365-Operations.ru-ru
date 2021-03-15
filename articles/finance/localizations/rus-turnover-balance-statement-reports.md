@@ -229,3 +229,6 @@ ms.locfileid: "4962515"
     ![Диалоговое окно предварительного расчета данных проводок](media/11_Pre-calculate_transactional_data.jpg)
 
 5. Выберите **ОК** для предварительного расчета данных проводок.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

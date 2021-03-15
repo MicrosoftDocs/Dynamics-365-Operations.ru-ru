@@ -139,3 +139,6 @@ ms.locfileid: "5035958"
 [Настройка лимитов количества продуктов для сайтов электронной коммерции B2B](quantity-limits.md)
 
 [Обзор номерных серий](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ ms.locfileid: "4969859"
 
 [Обзор страниц корзины и оформления заказа](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

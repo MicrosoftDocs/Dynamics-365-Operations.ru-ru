@@ -76,3 +76,6 @@ ms.locfileid: "4993377"
 [Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Управление политикой безопасности содержимого (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

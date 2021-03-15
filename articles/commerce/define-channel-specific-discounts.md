@@ -61,3 +61,6 @@ ms.locfileid: "4991398"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Корректировки цены и скидки](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

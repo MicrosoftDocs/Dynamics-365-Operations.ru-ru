@@ -43,3 +43,6 @@ ms.locfileid: "4990675"
     * В этом примере выберите элемент аналитики 6001004 "Telefono".  
 11. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

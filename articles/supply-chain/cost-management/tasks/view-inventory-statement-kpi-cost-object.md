@@ -38,3 +38,6 @@ ms.locfileid: "5001981"
 7. В поле "Дата начала" введите дату.
 8. В поле "Дата окончания" введите дату.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

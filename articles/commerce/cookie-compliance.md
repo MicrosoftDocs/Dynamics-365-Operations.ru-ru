@@ -72,3 +72,6 @@ ms.locfileid: "4993508"
 [Модуль согласия на файлы cookie](cookie-consent-module.md) 
  
 [Модуль верхнего колонтитула](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ ms.locfileid: "4997758"
 [Настройка оповещений о мошенничестве и работа с ними](set-up-fraud-alerts.md)
 
 [Настройка программ непрерывности для центров обработки вызовов](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4974293"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Копирование строк шаблонов обслуживания](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

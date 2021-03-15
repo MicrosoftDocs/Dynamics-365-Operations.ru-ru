@@ -522,3 +522,6 @@ ms.locfileid: "5003189"
 | 11         | Накопленная амортизация |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

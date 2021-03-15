@@ -66,3 +66,6 @@ ms.locfileid: "5060827"
 ## <a name="see-also"></a>См. также
 
 - [Отложенное выполнение элементов XML в форматах электронной отчетности](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

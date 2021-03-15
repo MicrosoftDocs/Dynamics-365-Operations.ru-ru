@@ -55,3 +55,6 @@ ms.locfileid: "4985220"
 16. Закройте страницу.
 17. Перейдите на вкладку "Чеки, датированные будущим числом".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

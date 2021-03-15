@@ -45,3 +45,6 @@ ms.locfileid: "5004985"
 1. Щелкните "Отметка об отъезде водителя".
 2. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

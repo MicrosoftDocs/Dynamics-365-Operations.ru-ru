@@ -153,3 +153,6 @@ ms.locfileid: "5001582"
 | Приемка |   Автопотребление по спецификации    | <strong>Никогда</strong>  |
 | Приемка | Обновить конечный отчет | <strong>Статус</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

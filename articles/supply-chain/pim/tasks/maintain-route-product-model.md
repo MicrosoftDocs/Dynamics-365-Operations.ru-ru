@@ -66,3 +66,6 @@ ms.locfileid: "4966838"
 15. В поле "Потребность" введите или выберите значение.
 16. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

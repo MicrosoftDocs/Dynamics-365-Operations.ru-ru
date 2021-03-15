@@ -52,3 +52,6 @@ ms.locfileid: "5130280"
 16. В поле "Опишите изменения" введите значение.
 17. Щелкните "Опубликовать".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

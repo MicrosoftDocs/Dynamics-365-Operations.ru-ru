@@ -63,3 +63,6 @@ ms.locfileid: "5000958"
 [Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

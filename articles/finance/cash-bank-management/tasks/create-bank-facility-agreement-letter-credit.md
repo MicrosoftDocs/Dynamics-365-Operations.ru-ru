@@ -50,3 +50,6 @@ ms.locfileid: "4989174"
 18. Щелкните "Развернуть".
 19. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

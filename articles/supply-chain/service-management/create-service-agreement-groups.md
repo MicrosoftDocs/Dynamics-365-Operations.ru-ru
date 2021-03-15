@@ -42,3 +42,6 @@ ms.locfileid: "4965939"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Обзор соглашений о сервисном обслуживании](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

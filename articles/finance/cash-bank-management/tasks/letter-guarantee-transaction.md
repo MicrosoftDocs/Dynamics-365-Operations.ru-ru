@@ -147,3 +147,6 @@ ms.locfileid: "4976342"
     * Проверьте разнесенные записи журнала.  
 16. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

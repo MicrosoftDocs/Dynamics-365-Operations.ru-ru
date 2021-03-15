@@ -135,3 +135,6 @@ URL-адрес страницы сведений о продукте содер�
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

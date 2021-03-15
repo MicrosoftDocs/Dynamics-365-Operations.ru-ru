@@ -46,3 +46,6 @@ ms.locfileid: "4965435"
 [Создание заказов центра обработки вызовов](tasks/create-call-center-orders.md)
 
 [Настройка транзакционных писем по способу доставки](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

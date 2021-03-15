@@ -80,3 +80,6 @@ ms.locfileid: "4977046"
 11. В поле **Выбор поля** введите или выберите значение.
 12. Нажмите **ОК**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

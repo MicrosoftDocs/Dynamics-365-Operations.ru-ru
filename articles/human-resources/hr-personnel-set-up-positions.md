@@ -67,3 +67,6 @@ ms.locfileid: "5130481"
 30. В поле "Подразделение" введите или выберите значение.
 31. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

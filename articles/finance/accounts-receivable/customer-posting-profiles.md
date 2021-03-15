@@ -139,3 +139,6 @@ ms.locfileid: "4991100"
 
 Дополнительные сведения см. в разделе [Обзор платежей клиентов](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

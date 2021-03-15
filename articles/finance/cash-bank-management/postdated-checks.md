@@ -98,3 +98,6 @@ Dynamics 365 Finance поддерживает полный цикл управл
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

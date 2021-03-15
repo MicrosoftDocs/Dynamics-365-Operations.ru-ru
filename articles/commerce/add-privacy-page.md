@@ -108,3 +108,6 @@ ms.locfileid: "4980215"
 [Соответствие файлов cookie](cookie-compliance.md)
 
 [Замена идентификаторов пользователей, связанных с отслеживаемыми изменениями содержимого](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

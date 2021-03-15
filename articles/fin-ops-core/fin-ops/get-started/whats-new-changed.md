@@ -50,3 +50,6 @@ ms.locfileid: "4797143"
 - [Что нового и что изменилось в Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

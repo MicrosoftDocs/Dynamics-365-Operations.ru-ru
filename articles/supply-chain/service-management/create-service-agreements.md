@@ -61,3 +61,6 @@ ms.locfileid: "4965982"
 [Обзор разработки и создания соглашений о сервисном обслуживании](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

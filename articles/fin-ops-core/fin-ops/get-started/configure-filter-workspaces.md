@@ -63,3 +63,6 @@ ms.locfileid: "4798459"
 [![фильтры-раздела-рабочей-области](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Как и в случае с фильтром уровня рабочей области, выберите или введите значение в поле, чтобы фильтровать содержимое раздела.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

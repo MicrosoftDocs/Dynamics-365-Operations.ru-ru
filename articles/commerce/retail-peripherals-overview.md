@@ -835,3 +835,6 @@ Modern POS для Android является версией программы Mod
 [Симулятор периферийных устройств для Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

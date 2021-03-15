@@ -235,3 +235,6 @@ ms.locfileid: "5111228"
 - [Приступая к работе с дополнительным компонентом электронных накладных для Мексики](e-invoicing-mex-get-started.md)
 - [Приступая к работе с дополнительным компонентом электронных накладных для Италии](e-invoicing-ita-get-started.md)
 - [Электронные накладные клиентов в Египте](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

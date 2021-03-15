@@ -55,3 +55,6 @@ ms.locfileid: "5114045"
     ![Кнопка "Синхронизация"](media/get-more.png)
 
     По завершении синхронизации Human Resources появится на домашней странице.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

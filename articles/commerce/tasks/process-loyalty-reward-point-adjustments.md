@@ -49,3 +49,6 @@ ms.locfileid: "4991347"
 15. Щелкните "Проводки по карте".
 16. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

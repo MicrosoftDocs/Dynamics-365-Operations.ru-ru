@@ -94,3 +94,6 @@ ms.locfileid: "4969411"
     * Выберите элемент аналитики, соответствующий узлу.  
 59. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

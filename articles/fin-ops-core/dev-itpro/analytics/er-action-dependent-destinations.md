@@ -129,3 +129,6 @@ ms.locfileid: "5153647"
 [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 
 [Изменения в API платформы электронной отчетности для Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

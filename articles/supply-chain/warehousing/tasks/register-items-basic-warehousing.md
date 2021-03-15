@@ -57,3 +57,6 @@ ms.locfileid: "4977071"
 2. Щелкните "Поступление продуктов".
 3. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

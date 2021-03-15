@@ -102,3 +102,6 @@ USMF выполняет дополнительные периодические 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "5011755"
 6. Щелкните "Просмотр сравнения стоимости".
 7. Щелкните "Закрыть".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

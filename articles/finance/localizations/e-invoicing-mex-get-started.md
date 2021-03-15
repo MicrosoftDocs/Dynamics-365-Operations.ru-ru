@@ -298,3 +298,6 @@ ms.locfileid: "4988494"
 - [Обзор дополнительной функции электронных накладных](e-invoicing-service-overview.md)
 - [Приступая к работе с дополнительным компонентом электронных накладных](e-invoicing-get-started.md)
 - [Настройка дополнения электронных накладных](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

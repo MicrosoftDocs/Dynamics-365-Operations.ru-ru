@@ -54,3 +54,6 @@ ms.locfileid: "4993904"
 - [Миграция Microsoft Dynamics AX WMS на новые функции склада и транспортировки R3](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [Миграция элементов WMSI/WMS2](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Обновление управления складом с Microsoft Dynamics AX 2012 до Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

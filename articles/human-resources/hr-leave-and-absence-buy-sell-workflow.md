@@ -81,3 +81,6 @@ ms.locfileid: "5116052"
 [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)<br>
 [Управление политиками покупки и продажи отпусков](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ ms.locfileid: "4972990"
 [Настройка ассортиментов](set-up-assortments.md)
 
 [Управление атрибутами и группами атрибутов](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

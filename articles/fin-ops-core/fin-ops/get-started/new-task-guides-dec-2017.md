@@ -368,3 +368,6 @@ ms.locfileid: "4799070"
 **Удаленная строка спецификации**
 
 - Перемещение запланированных заданий канбана
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

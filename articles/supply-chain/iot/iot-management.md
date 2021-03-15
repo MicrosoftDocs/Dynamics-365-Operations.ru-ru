@@ -61,3 +61,6 @@ ms.locfileid: "5000014"
 + [Подключение DevKit AZ3166 Интернета вещей к узлу Интернета вещей Azure](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Подключите интерактивный модулятор Raspberry Pi к узлу Интернета вещей Azure (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Обзор ускорителя решений моделирования устройств](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ ms.locfileid: "5098646"
 [Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

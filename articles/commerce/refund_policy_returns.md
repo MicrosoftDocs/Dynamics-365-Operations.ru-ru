@@ -103,3 +103,6 @@ ms.locfileid: "4979729"
 
 
 ![Список способов оплаты](media/Return-policy-page5.PNG "Тип возврата разрешен")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

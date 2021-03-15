@@ -47,3 +47,6 @@ ms.locfileid: "5003735"
 14. В поле "Вес" введите число.
 15. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ ms.locfileid: "4998611"
 
 [Планирование заданий канбана для бережливого производства](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

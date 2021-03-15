@@ -80,3 +80,6 @@ ms.locfileid: "5116004"
 [Начисление планов отпусков и отсутствия](hr-leave-and-absence-accrue.md)</br>
 [Покупка и продажа отпуска](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

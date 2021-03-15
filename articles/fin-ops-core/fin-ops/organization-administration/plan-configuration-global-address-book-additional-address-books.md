@@ -57,3 +57,6 @@ ms.locfileid: "4796954"
 **Решение.**
 
 - Сколько дополнительных адресных книг требуется создать?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

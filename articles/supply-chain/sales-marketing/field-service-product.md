@@ -72,3 +72,6 @@ service       :  690970002
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Продукты Field Service (из Supply Chain Management в Field Service): Продукты — Продукты
 
 [![Сопоставление шаблона в интеграции данных](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

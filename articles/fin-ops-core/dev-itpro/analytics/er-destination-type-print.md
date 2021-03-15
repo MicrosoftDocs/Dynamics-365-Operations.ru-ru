@@ -70,3 +70,6 @@ ms.locfileid: "5094087"
 
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

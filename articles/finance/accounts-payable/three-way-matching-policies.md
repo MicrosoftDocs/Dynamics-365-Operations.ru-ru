@@ -144,3 +144,6 @@ Fabrikam работает с несколькими компаниями и со
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

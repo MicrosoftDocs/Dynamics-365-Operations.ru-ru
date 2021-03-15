@@ -321,3 +321,6 @@ ms.locfileid: "4997471"
 
 - [Обзор профиля учета](rus-inventory-profile-overview.md)
 - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ ms.locfileid: "4728097"
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Обзор управления бизнес-документами](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

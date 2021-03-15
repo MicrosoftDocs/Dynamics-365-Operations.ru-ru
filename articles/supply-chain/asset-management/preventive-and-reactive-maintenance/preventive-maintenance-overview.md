@@ -38,3 +38,6 @@ ms.locfileid: "5016736"
 
 ![Рисунок 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "5154235"
 
 [Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)  
 [Обзор заданий импорта и экспорта данных](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

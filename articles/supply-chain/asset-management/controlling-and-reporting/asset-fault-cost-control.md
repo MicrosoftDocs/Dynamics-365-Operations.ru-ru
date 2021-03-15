@@ -61,3 +61,6 @@ ms.locfileid: "5019961"
     ![Рисунок 1](media/05-controlling-and-reporting.png)
 
 Сведения о настройке неисправностей см. в разделе [Управление неисправностями](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

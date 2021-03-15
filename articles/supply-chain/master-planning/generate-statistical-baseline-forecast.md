@@ -77,3 +77,6 @@ ms.locfileid: "5007988"
 - [Внесение ручных корректировок в базовый прогноз](manual-adjustments-baseline-forecast.md)
 
 - [Авторизация скорректированного прогноза](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

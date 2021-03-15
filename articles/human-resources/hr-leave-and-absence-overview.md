@@ -54,3 +54,6 @@ Dynamics 365 Human Resources помогает предоставить сотр�
 [Запрос на отсутствие](hr-employee-self-service-request-time-off.md)
 [Управление запросами на отпуска и отсутствие](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

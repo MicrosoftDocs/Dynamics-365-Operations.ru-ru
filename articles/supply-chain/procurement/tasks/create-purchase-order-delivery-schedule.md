@@ -73,3 +73,6 @@ ms.locfileid: "5021812"
 6. Сверните раздел **Строки**.
 7. Выберите **ОК**, чтобы разнести поступление.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

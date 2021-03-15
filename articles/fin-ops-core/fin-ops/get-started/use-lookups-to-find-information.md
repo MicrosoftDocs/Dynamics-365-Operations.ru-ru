@@ -83,3 +83,6 @@ ms.locfileid: "4798151"
 После применения фильтра (см. рисунок ниже) пользователь может найти и выбрать строку в обычном режиме.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

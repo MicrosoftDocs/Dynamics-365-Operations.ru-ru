@@ -80,3 +80,6 @@ ms.locfileid: "5010980"
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Перемещение запасов (из Field Service в Supply Chain Management): перемещение запасов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

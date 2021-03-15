@@ -290,3 +290,6 @@ ms.locfileid: "5104431"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Выпуск электронных накладных в Finance и Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

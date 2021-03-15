@@ -117,3 +117,6 @@ ms.locfileid: "5000673"
 [Соединитель платежей Dynamics 365 для PayPal](paypal.md)
 
 [Строгая проверка подлинности клиентов с помощью Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

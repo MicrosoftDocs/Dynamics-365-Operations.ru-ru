@@ -116,3 +116,6 @@ ms.locfileid: "4978046"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Информационные объекты](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

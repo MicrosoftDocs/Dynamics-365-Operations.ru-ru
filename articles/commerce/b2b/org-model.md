@@ -62,3 +62,6 @@ ms.locfileid: "5035955"
 [Настройка метода платежа для счета клиента для сайтов электронной коммерции B2B](payment-method.md)
 
 [Настройка лимитов количества продуктов для сайтов электронной коммерции B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

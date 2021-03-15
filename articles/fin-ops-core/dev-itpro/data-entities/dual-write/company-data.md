@@ -102,3 +102,6 @@ ms.locfileid: "4744887"
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Применение контекста компании":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

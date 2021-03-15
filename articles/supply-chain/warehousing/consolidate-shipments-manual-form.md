@@ -97,3 +97,5 @@ ms.locfileid: "4983024"
 
 - [Политики консолидации отгрузок](about-shipment-consolidation-policies.md)
 - [Настройка политик консолидации отгрузок](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

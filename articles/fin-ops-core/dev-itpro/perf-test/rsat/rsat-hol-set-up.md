@@ -803,3 +803,6 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 2. Убедитесь, что оба тестовых случая прошли успешно.
 
     ![Поле "Результат" со значением успешного прохождения для обоих тестовых случаев](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

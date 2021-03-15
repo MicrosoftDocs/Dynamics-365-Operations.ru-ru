@@ -64,3 +64,6 @@ Microsoft Dynamics 365 Human Resources может столкнуться с пр
 
 8. При необходимости измените любые другие параметры в области **Выполнять в фоновом режиме**, затем выберите **ОК**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

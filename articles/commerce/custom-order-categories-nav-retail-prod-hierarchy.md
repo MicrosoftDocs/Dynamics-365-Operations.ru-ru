@@ -87,3 +87,6 @@ ms.locfileid: "4976771"
 
 > [!NOTE]
 > По умолчанию функция настраиваемого порядка сортировки отключена. Чтобы узнать, как включить эту функцию и другие функции, см. раздел [Управление функциями](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

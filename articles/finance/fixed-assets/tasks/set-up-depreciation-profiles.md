@@ -39,3 +39,6 @@ ms.locfileid: "4994873"
 7. В поле **Частота периода** выберите вариант.
 8. Закройте форму.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

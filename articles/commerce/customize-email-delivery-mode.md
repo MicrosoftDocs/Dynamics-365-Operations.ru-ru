@@ -71,3 +71,6 @@ ms.locfileid: "5031856"
 [Создание заказов центра обработки вызовов](tasks/create-call-center-orders.md)
 
 [Изменение режима доставки в POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

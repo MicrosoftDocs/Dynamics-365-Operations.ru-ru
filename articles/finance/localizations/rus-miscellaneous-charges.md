@@ -57,3 +57,6 @@ ms.locfileid: "4962531"
 ![Страница Распределить накладные расходы](media/2%20Allocate%20charges.png)
 
 6. Укажите другие сведения и разнесите счет-фактуру как обычно.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

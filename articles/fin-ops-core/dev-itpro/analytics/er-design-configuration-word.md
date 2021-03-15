@@ -72,3 +72,6 @@ ms.locfileid: "5094162"
 
 - [Повторное использование конфигураций электронной отчетности с шаблонами Excel для формирования отчетов в формате Word](./tasks/er-design-configuration-word-2016-11.md)
 - [Внедрение изображений и фигур в документы, создаваемые с помощью электронной отчетности](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

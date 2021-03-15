@@ -125,3 +125,6 @@ ms.locfileid: "5113939"
 ## <a name="grant-access-to-the-environment"></a>Предоставление доступа к среде
 
 По умолчанию, глобальный администратор, который создал среду, имеет к ней доступ. Необходимо явно предоставить доступ дополнительным пользователям приложения. Вы должны добавить пользователей и присвоить им соответствующие роли в среде Human Resources. Глобальный администратор, который выполнил развертывание Управление персоналом, должен запустить Attract и Onboard для завершения инициализации и предоставления доступа другим пользователям клиента. До этого другие пользователи не смогут получить доступ к Attract и Onboard и будут получать ошибки нарушения прав доступа. Дополнительные сведения см. в разделах [Создание новых пользователей](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) и [Назначение пользователям ролей безопасности](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

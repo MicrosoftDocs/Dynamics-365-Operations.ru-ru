@@ -67,3 +67,6 @@ ms.locfileid: "5113969"
 10. Нажмите **Сохранить**.
 11. Закройте форму.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -438,3 +438,6 @@ ms.locfileid: "4996395"
 [Статусы запасов](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

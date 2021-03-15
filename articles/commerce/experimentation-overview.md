@@ -56,3 +56,6 @@ ms.locfileid: "5009982"
 
 ## <a name="next-step"></a>Далее
 [Определение гипотезы и определение метрики успеха для эксперимента](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

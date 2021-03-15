@@ -94,3 +94,6 @@ ms.locfileid: "4976996"
 8. В поле "Единица веса" введите или выберите значение.
 9. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

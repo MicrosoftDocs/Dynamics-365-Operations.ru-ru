@@ -45,3 +45,6 @@ ms.locfileid: "5005850"
 [![Примененный фильтр и импорт для типа бизнес-документа](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Отфильтрованные результаты могут импортироваться в репозиторий RCS пользователей или в среду Dynamics 365 Finance отдельно или в виде набора. Для этого выберите группу конфигураций и нажмите **Импорт**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

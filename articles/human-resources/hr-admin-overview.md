@@ -102,3 +102,5 @@ ms.locfileid: "5114060"
 - [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)
 - [Руководство разработчика](hr-developer-overview.md)
 - [Руководство пользователя](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

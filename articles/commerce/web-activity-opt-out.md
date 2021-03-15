@@ -55,3 +55,6 @@ Dynamics 365 Commerce позволяет администраторам сайт
 ### <a name="custom-extensions"></a>Настраиваемые расширения
 
 Администраторы могут создавать свои собственные расширения для управления отказами пользователей. Дополнительные сведения см. в разделе [API вызова Retail Server](e-commerce-extensibility/call-retail-server-apis.md) и [Расширяемость канала продаж через Интернет](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

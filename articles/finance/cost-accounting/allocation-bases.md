@@ -429,3 +429,6 @@ ms.locfileid: "4976224"
 |    CC002    |     FI      | 3,075.00  | (3075,00 ÷ 18162,50) × сумма  |
 |    CC003    |     СП      | 13,250.00 | (13250,00 ÷ 18162,50) × сумма |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

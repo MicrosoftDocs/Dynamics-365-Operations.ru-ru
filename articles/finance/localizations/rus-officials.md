@@ -114,3 +114,6 @@ ms.locfileid: "5000394"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

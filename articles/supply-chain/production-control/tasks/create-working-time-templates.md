@@ -78,3 +78,6 @@ ms.locfileid: "5006825"
 3. Разверните раздел "Воскресенье".
 4. Выберите "Да" в поле "Закрыто для отправки".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

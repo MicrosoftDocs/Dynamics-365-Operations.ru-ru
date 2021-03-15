@@ -73,3 +73,6 @@ ms.locfileid: "4982077"
 10. Щелкните "Отборочная накладная".
 11. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

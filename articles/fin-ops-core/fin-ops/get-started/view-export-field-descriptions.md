@@ -107,3 +107,6 @@ ms.locfileid: "4797907"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка описаний полей](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

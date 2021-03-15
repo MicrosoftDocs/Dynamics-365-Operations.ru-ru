@@ -64,3 +64,6 @@ ms.locfileid: "4979271"
 10. В области действий щелкните "Просмотр".
 11. Щелкните "Сведения о сопоставлении".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

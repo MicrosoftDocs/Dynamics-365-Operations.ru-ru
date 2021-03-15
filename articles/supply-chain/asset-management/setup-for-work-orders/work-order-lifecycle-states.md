@@ -138,3 +138,6 @@ ms.locfileid: "5021587"
 9. Сохраните модель жизненного цикла заказа на работу.
 
 ![Страница моделей жизненного цикла заказа на работу](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

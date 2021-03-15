@@ -62,3 +62,6 @@ ms.locfileid: "5012446"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка, установка и активация Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Dynamics 365 Human Resources предоставляет аналитику о с
 [Управление отпусками и отсутствиями](hr-leave-and-absence-overview.md)</br>
 [Развитие сотрудников](hr-develop-performance-management-overview.md)</br>
 [Создание курсов](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

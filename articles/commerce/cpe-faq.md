@@ -70,3 +70,6 @@ Dynamics 365 Commerce и Commerce Scale Unit — это полностью пр�
 [Настройка BOPIS в ознакомительной среде Dynamics 365 Commerce](cpe-bopis.md)
 
 [Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

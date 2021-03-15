@@ -35,3 +35,6 @@ ms.locfileid: "4992453"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Цикличный подсчет](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

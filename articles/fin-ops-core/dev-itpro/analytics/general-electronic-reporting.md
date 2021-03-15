@@ -298,3 +298,6 @@ ms.locfileid: "5093934"
 
 - [Создание конфигураций электронной отчетности (ER)](electronic-reporting-configuration.md)
 - [Управление жизненным циклом конфигураций электронной отчетности (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

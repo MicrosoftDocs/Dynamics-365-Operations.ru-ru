@@ -114,3 +114,6 @@ ms.locfileid: "4971686"
 
  - [Просмотр сведений о сборах](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

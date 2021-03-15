@@ -97,3 +97,6 @@ ms.locfileid: "4798703"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Руководства, помогающие разработчикам и клиентам учитывать специальные возможности при настройке
 
 Дополнительные сведения о рекомендациях корпорации Майкрософт по включению специальных возможностей см. в разделе [Специальные возможности в формах, продуктах и элементах управления](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ ms.locfileid: "5006268"
 [Создание списков задач и добавление задач](task-mgmt-create-lists.md)
 
 [Управление задачами в POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

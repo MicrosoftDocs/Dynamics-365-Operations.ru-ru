@@ -88,3 +88,6 @@ ms.locfileid: "5000373"
 2. На вкладке **Номерные серии** в поле **Код номерной серии** выберите код номерной серии для ссылки **Код отчета**.
 
 Дополнительные сведения см. в разделах [Покупки по комиссии](rus-purchases-on-commission.md) и [Продажи по комиссии](rus-sales-on-commission.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

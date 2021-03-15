@@ -190,3 +190,6 @@ ms.locfileid: "5114067"
 
 [Настройка виртуальных таблиц Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

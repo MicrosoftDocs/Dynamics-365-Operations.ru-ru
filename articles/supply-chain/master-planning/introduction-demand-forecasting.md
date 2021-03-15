@@ -102,3 +102,6 @@ ms.locfileid: "5081375"
 [Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Расширение функциональных возможностей прогнозирования спроса](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

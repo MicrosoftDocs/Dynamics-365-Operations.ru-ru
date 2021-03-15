@@ -71,3 +71,6 @@ ms.locfileid: "5130279"
 33. Переключите развертывание раздела "Образование".
 34. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,5 @@ ms.locfileid: "5016385"
 
 - [Улучшения cXML покупки](purchasing-cxml-enhancements.md)
 - [Использование внешних каталогов для электронных закупок с внешними заказами](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

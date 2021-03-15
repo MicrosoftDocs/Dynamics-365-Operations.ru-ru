@@ -71,3 +71,6 @@ workflow-процесс представляет бизнес-процесс. О
 + [Настройка параллельных ветвей в workflow-процессе](configure-parallel-branch-workflow.md)
 + [Настройка бизнес-правил по строке](configure-line-item-workflow.md)
 + [Вопросы и ответы по рабочим процессам](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

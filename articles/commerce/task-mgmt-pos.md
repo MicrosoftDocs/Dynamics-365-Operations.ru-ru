@@ -63,3 +63,6 @@ ms.locfileid: "5006193"
 [Создание списков задач и добавление задач](task-mgmt-create-lists.md)
 
 [Назначение списков задач магазинам или сотрудникам](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ ms.locfileid: "5012349"
 19. Щелкните "Создать заказ".
 20. Щелкните Да.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

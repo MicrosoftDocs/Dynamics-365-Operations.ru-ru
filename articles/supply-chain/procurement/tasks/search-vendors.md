@@ -38,3 +38,6 @@ ms.locfileid: "5020713"
 6. В поле "Страна/регион" введите значение.
 7. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

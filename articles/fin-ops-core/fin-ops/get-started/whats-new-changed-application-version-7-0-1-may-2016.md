@@ -106,3 +106,6 @@ ms.locfileid: "4797172"
 [Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md)
 
 [Новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

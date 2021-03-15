@@ -92,3 +92,6 @@ ms.locfileid: "5010930"
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Запасы продуктов (из Supply Chain Management в Field Service): запасы продуктов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4967013"
 17. В поле "Количество" укажите "1000".
 18. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

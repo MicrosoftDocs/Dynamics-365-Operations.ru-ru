@@ -79,3 +79,6 @@ Dynamics 365 Commerce поддерживает несколько розничн
 [Управление продуктами и категориями продуктов ](category-management-product-creation.md)
 
 [Изменение порядка сортировки для объектов мерчандайзинга](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

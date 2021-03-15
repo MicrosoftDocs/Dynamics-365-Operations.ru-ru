@@ -162,3 +162,6 @@ ms.locfileid: "4985962"
 [Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -315,3 +315,6 @@ ms.locfileid: "4970314"
 На следующем рисунке показано, как может выглядеть завершенная работа кросс-докинга в Microsoft Dynamics 365 Supply Chain Management.
 
 ![Завершенная работа кросс-докинга](media/PlannedCrossDockingWork.png "Завершенная работа кросс-докинга")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

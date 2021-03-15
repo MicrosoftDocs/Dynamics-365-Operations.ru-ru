@@ -48,3 +48,6 @@ ms.locfileid: "4994348"
 2. На панели операций выберите **Код налога**.
 3. Выберите **Разнесенный налог**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

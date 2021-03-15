@@ -68,3 +68,6 @@ ms.locfileid: "5000735"
 [Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

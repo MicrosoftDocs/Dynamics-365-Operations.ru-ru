@@ -302,3 +302,6 @@ ms.locfileid: "5035959"
 [Модуль блока содержимого](../add-hero-module.md)
 
 [Коллекция продуктов](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

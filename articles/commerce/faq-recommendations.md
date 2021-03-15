@@ -99,3 +99,6 @@ ms.locfileid: "5009907"
 [Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
 
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

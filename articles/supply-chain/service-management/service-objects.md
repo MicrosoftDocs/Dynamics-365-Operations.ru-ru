@@ -46,3 +46,6 @@ ms.locfileid: "4974318"
 
 [Создание объектов обслуживания](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

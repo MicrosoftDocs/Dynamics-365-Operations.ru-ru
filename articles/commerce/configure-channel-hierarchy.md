@@ -83,3 +83,6 @@ ms.locfileid: "5001033"
 [Создание навигационной иерархии канала](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

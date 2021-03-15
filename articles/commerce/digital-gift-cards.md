@@ -100,3 +100,6 @@ ms.locfileid: "4982674"
 [Создание профиля функциональности для онлайн-торговли](online-functionality-profile.md)
 
 [Поддержка внешних подарочных карт](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

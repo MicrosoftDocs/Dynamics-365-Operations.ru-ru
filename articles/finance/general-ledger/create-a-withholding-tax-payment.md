@@ -40,3 +40,6 @@ ms.locfileid: "5060787"
 7. Щелкните **OK**.
 
 ![Параметры для платежа по подоходному налогу](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

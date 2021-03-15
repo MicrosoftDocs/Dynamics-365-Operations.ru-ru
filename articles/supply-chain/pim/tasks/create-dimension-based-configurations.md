@@ -52,3 +52,6 @@ ms.locfileid: "5011280"
     * Введите описание конфигурации, чтобы объяснить ее содержимое.  
 11. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

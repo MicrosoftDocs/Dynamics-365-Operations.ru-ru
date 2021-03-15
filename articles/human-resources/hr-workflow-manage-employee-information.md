@@ -73,3 +73,6 @@ Workflow-процесс может быть связан с любой иера�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

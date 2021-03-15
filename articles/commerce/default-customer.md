@@ -112,3 +112,6 @@ ms.locfileid: "4993408"
 [Обзор каналов](channels-overview.md)
 
 [Необходимые условия для настройки каналов](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

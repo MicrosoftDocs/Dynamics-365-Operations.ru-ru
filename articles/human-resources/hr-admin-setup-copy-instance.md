@@ -150,3 +150,6 @@ ms.locfileid: "5113991"
 [Удаление экземпляра](hr-admin-setup-remove-instance.md)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

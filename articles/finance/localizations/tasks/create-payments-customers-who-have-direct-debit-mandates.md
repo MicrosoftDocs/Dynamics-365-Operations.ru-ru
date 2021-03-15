@@ -67,3 +67,6 @@ ms.locfileid: "4964574"
 11. Нажмите кнопку "OК".
 12. Нажмите кнопку "OК".
 13. Щелкните "Создать платежи".
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

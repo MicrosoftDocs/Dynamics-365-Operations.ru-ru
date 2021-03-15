@@ -76,3 +76,6 @@ ms.locfileid: "4992996"
 [Удержания по кредитам для заказов на продажу](./cm-sales-order-credit-holds.md)
 
 [Периодические задачи управления кредитами клиента](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "4982748"
 [Создание профиля функциональности розничной торговли](retail-functionality-profile.md)
 
 [Настройка работника](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

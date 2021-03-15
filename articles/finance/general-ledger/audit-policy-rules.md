@@ -100,3 +100,6 @@ ms.locfileid: "5021249"
 [пределение политик аудита для документов-источников](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

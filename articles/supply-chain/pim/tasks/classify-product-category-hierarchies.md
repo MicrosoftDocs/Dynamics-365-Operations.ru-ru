@@ -42,3 +42,6 @@ ms.locfileid: "4987012"
 11. В поле **Категория** введите или выберите значение.
 12. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

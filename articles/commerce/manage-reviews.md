@@ -131,3 +131,6 @@ Dynamics 365 Commerce использует Microsoft Azure Cognitive Service д�
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
 
 [Синхронизация оценок продуктов в Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

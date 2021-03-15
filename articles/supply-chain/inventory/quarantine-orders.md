@@ -66,3 +66,6 @@ ms.locfileid: "5011705"
 --------
 
 [Блокировка запасов](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

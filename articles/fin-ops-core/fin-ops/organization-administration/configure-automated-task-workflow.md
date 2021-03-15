@@ -110,3 +110,6 @@ ms.locfileid: "4798913"
     </table>
 
 8. Повторите шаги 3–7 для каждого события, выбранного на шаге 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

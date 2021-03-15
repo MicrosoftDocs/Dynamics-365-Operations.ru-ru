@@ -82,3 +82,6 @@ ms.locfileid: "5125241"
 [Введение в интерфейс API интеграции системы отслеживания кандидатов](hr-admin-integration-ats-api-introduction.md)<br>
 [Пример запроса для запроса на набор персонала](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

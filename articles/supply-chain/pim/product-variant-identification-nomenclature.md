@@ -197,3 +197,6 @@ ms.locfileid: "5011330"
 
 [Создание номенклатуры номера продукта для сконфигурированных вариантов продуктов](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

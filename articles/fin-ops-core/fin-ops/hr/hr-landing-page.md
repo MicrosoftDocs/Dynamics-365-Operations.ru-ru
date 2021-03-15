@@ -93,3 +93,6 @@ Microsoft Dynamics AX может помочь вам поддерживать б
 - [Разработка анкет](../../../talent/design-questionnaires.md)
 - [Распределение и планирование анкет](../../../talent/distribute-questionnaires.md)
 - [Просмотр и оценка результатов анкет](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ ms.locfileid: "5094112"
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 - [Конструктор формул в электронной отчетности (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

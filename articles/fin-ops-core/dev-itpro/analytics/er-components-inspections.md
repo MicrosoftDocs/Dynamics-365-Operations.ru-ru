@@ -812,3 +812,6 @@ ms.locfileid: "4797349"
 [Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью](trace-execution-er-troubleshoot-perf.md)
 
 [Обзор управления бизнес-документами](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

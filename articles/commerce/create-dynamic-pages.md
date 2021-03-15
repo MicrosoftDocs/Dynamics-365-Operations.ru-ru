@@ -96,3 +96,6 @@ ms.locfileid: "5098645"
 [Проверка доступности контента страницы](verify-accessibility.md)
 
 [Расширяемость канала продаж через Интернет](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

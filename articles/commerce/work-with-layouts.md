@@ -108,3 +108,6 @@ ms.locfileid: "5009601"
 [Обзор шаблонов и макетов](templates-layouts-overview.md)
 
 [Работа с шаблонами](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

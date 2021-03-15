@@ -56,3 +56,6 @@ ms.locfileid: "4994162"
 6. В поле "Количество правильных" введите число.
 7. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

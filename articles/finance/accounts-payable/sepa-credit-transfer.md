@@ -125,3 +125,6 @@ EPC, состоящий из европейских банков, разраба
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

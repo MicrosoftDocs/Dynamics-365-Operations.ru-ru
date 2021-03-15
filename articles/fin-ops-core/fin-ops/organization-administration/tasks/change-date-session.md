@@ -32,3 +32,6 @@ ms.locfileid: "4796881"
 2. В поле **Дата** введите дату.
 3. Нажмите **ОК**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

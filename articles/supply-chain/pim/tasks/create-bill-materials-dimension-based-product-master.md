@@ -78,3 +78,6 @@ ms.locfileid: "4986912"
 5. Нажмите кнопку "OК".
 6. Нажмите кнопку Активировать.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

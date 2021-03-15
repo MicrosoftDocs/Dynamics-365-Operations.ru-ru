@@ -64,3 +64,6 @@ ms.locfileid: "4968812"
 4. На вкладке **Настройка** установите для параметра **Отсроченный расчет налога** значение **Да**.
 
 ![Изображение страницы общего журнала](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

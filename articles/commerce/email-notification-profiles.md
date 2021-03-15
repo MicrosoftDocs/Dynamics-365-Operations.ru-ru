@@ -95,3 +95,6 @@ ms.locfileid: "5000832"
 [Необходимые условия для настройки каналов](channels-prerequisites.md)
 
 [Обзор организаций и организационных иерархий](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

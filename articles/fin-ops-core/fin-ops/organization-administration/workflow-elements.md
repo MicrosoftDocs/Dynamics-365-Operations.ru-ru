@@ -89,3 +89,6 @@ Workflow-процесс может быть создан для обработк
 ### <a name="subworkflow"></a>Вспомогательный workflow-процесс
 
 *Вспомогательный workflow-процесс* — это workflow-процесс, запускаемый в рамках другого workflow-процесса.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

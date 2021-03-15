@@ -59,3 +59,6 @@ ms.locfileid: "5009956"
 
 ## <a name="next-step"></a>Далее
 [Запуск и контроль эксперимента](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

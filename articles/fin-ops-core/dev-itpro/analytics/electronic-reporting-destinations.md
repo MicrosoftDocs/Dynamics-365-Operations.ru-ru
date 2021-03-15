@@ -241,3 +241,6 @@ ms.locfileid: "5097289"
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Настройка зависящих от действий мест назначения электронной отчетности](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

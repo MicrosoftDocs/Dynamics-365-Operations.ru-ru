@@ -159,3 +159,6 @@ ms.locfileid: "5000409"
 
 - [Настройка профиля учета](rus-set-up-inventory-profile.md)
 - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

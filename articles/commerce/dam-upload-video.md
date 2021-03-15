@@ -72,3 +72,6 @@ ms.locfileid: "5000933"
 [Настройка точек фокуса изображения](dam-custom-focal-point.md)
 
 [Отправка и предоставление статических файлов](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

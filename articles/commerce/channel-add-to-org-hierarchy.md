@@ -81,3 +81,6 @@ ms.locfileid: "4993710"
 [Настройка канала розничной торговли](channel-setup-retail.md)
     
 [Настройка интернет-канала](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

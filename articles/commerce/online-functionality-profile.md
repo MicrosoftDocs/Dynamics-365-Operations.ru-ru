@@ -66,3 +66,6 @@ ms.locfileid: "4969984"
 [Настройка канала розничной торговли](channel-setup-retail.md)
 
 [Настройка канала центра обработки вызовов](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

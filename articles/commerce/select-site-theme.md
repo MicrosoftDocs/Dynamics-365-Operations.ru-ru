@@ -67,3 +67,6 @@ ms.locfileid: "4982420"
 
 [Создание новой темы](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

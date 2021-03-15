@@ -221,3 +221,6 @@ Dynamics 365 Human Resources — это виртуальный источник 
 [Создание и редактирование виртуальных таблиц, содержащих данные из внешнего источника данных](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Что такое порталы Power Apps?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Обзор создания приложений в Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

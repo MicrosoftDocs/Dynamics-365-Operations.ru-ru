@@ -53,3 +53,6 @@ ms.locfileid: "4987437"
 [Процессы управления качеством](quality-management-processes.md)
 
 [Настройка предварительных требований для управления несоответствиями](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

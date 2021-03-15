@@ -47,3 +47,6 @@ ms.locfileid: "4991498"
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
 [Включение обнаружения магазинов на основе местонахождения](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

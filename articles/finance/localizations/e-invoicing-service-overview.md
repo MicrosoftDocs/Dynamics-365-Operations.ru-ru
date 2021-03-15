@@ -109,3 +109,6 @@ ms.locfileid: "5104216"
 - [Администрирование службы](e-invoicing-service-administration.md)
 - [Настройка электронного выставления накладных в RCS](e-invoicing-configuration-rcs.md)
 - [Выпуск электронных накладных в Finance и Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

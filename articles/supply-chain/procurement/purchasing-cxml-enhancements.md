@@ -276,3 +276,6 @@ ms.locfileid: "4992203"
 
 - [Настройка внешнего каталога для электронных закупок с внешними заказами](set-up-external-catalog-for-punchout.md)
 - [Использование внешних каталогов для электронных закупок с внешними заказами](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

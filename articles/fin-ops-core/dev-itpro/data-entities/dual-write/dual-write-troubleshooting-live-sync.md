@@ -127,3 +127,6 @@ ms.locfileid: "4744621"
 
 3. Убедитесь, что столбец **externalenvironmentURL** имеет правильный URL-адрес Dataverse или приложения. Удалите все дубликаты строк, которые указывают на неправильный URL-адрес Dataverse. Удалите соответствующие строки в таблицах DUALWRITEPROJECTFIELDCONFIGURATION и DUALWRITEPROJECTCONFIGURATION.
 4. Остановите сопоставление таблиц, а затем перезапустите его
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ ms.locfileid: "4981039"
 2. Щелкните "Завершить".
     * В результате перемещение обоих заданий будет перемещено.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

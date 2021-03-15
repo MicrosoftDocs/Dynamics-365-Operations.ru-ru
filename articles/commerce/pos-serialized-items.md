@@ -135,3 +135,6 @@ POS-операция **Входящие запасы** позволяет пол
 [Входящая операция запасов в POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Исходящая операция запасов в POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

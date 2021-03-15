@@ -51,3 +51,6 @@ ms.locfileid: "5021537"
 8. Нажмите **Сохранить**.
 
 ![Типы заказов на работу](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

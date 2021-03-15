@@ -53,3 +53,6 @@ ms.locfileid: "4991211"
 
 
 Дополнительные сведения см. в разделе [Обзор платежей поставщикам](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

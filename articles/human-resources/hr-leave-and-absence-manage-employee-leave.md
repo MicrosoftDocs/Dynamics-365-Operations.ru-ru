@@ -56,3 +56,6 @@ ms.locfileid: "4970664"
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Управление запросами на отпуска и отсутствие](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

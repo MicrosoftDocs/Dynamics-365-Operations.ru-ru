@@ -95,3 +95,6 @@ ms.locfileid: "4986037"
 [Модуль блока содержимого](add-hero-module.md)
 
 [Модуль видеопроигрывателя](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

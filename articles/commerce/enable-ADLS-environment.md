@@ -114,3 +114,6 @@ ms.locfileid: "5010107"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

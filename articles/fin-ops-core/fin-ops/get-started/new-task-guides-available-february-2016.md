@@ -645,3 +645,6 @@ ms.locfileid: "4799108"
 [Новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
 
 [Новые или обновленные руководства по задачам (ноябрь 2016 г.)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

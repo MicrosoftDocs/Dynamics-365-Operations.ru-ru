@@ -44,3 +44,6 @@ ms.locfileid: "4996510"
 
 [Создание окон времени](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

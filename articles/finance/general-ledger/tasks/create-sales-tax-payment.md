@@ -36,3 +36,6 @@ ms.locfileid: "4968712"
 5. В поле **Дата проводки** введите дату.
 6. Щелкните **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -182,3 +182,6 @@ ms.locfileid: "4826117"
 - [Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны](er-country-dependent-model-mapping.md)
 - [Изменения API платформы электронной отчетности](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

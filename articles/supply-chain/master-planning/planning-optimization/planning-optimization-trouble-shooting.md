@@ -74,3 +74,6 @@ ms.locfileid: "4992578"
 [Начало работы с оптимизацией планирования](get-started.md)
 
 [Анализ соответствия оптимизации планирования](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

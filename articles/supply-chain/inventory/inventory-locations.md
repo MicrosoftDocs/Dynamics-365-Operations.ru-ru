@@ -65,3 +65,6 @@ ms.locfileid: "4978021"
 --------
 
 [Создание нового макета склада](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

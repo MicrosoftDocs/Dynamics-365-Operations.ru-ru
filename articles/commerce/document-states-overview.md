@@ -60,3 +60,6 @@ ms.locfileid: "4982624"
 [Обзор шаблонов и макетов](templates-layouts-overview.md)
 
 [Настройка навигации по сайту](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

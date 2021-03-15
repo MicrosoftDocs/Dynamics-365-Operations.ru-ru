@@ -72,3 +72,6 @@ ms.locfileid: "5113998"
    | **Окончание** | Дата и время окончания доступности плитки. |
 
 4. Нажмите **Сохранить**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

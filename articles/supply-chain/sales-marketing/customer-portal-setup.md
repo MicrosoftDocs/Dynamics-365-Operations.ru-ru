@@ -85,3 +85,6 @@ ms.locfileid: "4977746"
 - [Обновление портала](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Миграция конфигурации портала](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Управление жизненным циклом решения: Dynamics 365 для приложений Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

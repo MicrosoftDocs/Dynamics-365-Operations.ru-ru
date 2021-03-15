@@ -217,3 +217,6 @@ ms.locfileid: "4965410"
 - Дата создания
 - Дата поставки
 - Дата прихода
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

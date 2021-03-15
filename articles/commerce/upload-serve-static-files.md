@@ -105,3 +105,6 @@ ms.locfileid: "5031828"
 [Кадрирование изображений](dam-crop-images.md)
 
 [Настройка точек фокуса изображения](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

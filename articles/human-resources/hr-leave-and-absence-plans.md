@@ -383,3 +383,6 @@ ms.locfileid: "5115956"
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Настройка типов отпусков и отсутствий](hr-leave-and-absence-types.md)
 - [Начисление планов отпусков и отсутствий](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -217,3 +217,6 @@ ms.locfileid: "5154075"
 
 [Отчет служб SQL Server Reporting Services](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4979861"
 [Обзор страниц корзины и оформления заказа](quick-tour-cart-checkout.md)
 
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

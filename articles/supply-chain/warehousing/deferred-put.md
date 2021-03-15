@@ -109,3 +109,6 @@ ms.locfileid: "4973793"
 ## <a name="deleting-completed-tasks"></a>Удаление завершенных задач
 
 Можно удалить задачи отложенной обработки размещения, которые были завершены, выбрав их и удалив на странице.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -345,3 +345,6 @@ ms.locfileid: "4969461"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Базы распределения](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

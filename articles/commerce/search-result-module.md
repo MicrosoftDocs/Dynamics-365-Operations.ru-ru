@@ -90,3 +90,6 @@ ms.locfileid: "5097186"
 [Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль быстрого просмотра](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

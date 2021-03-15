@@ -66,3 +66,6 @@ ms.locfileid: "4966963"
 8. В списке перейдите по ссылке в выбранной строке.
 9. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

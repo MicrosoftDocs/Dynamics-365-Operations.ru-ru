@@ -50,3 +50,6 @@ ms.locfileid: "4798631"
 На следующем рисунке показана структура оповещений, когда они получены по электронной почте.
 
 [![Основанные на шаблонах оповещения для создания записи, изменений полей и удаления шаблона](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

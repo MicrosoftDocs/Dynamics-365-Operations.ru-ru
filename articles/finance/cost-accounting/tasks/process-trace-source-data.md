@@ -44,3 +44,6 @@ ms.locfileid: "4990650"
     * В этом примере выберите "Fiscal 2017 Period 9".  
 14. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
