@@ -14,6 +14,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для 10.0.18 (май 2021 г.)
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Обновления платформы для 10.0.17 (апрель 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "Обновления платформы для 10.0.16 (февраль 2021\_г.)"
@@ -22,6 +24,8 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Удаленные или устаревшие функции
               items:
+                - name: Домашняя страница удаленных или устаревших функций
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Удаленные или устаревшие функции платформы
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Удаленные или устаревшие функции в предыдущих выпусках
@@ -38,6 +42,8 @@
               href: business-events/app-business-events.md
             - name: Бизнес-события бизнес-правила
               href: business-events/business-events-workflow.md
+            - name: Пакетные бизнес-события
+              href: business-events/system-business-events.md
             - name: Оповещения как бизнес-события
               href: business-events/alerts-business-events.md
             - name: Бизнес-события в Microsoft Flow
@@ -216,13 +222,17 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Внутренние активы для обслуживания
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Интегрированный работник, задание и должность'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Наличие запасов
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Интегрированный работник, задание и должность'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Интеграция примечаний
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Ссылка на сопоставление
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Поддержка двойной записи
                           items:
-                            - name: Поддержка Field Service и решений Project Service Automation
+                            - name: Поддержка решений Field Service и Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
                             - name: Перенос перспективного клиента в данные наличных денег из средства интеграции данных в двойную запись
                               href: data-entities/dual-write/migrate-prospect-to-cash.md
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Создание подключения к Lifecycle Services (LCS) в Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Обновление размещенного Azure Pipeline для новых пакетов NuGet
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Обновление устаревшего процесса продаж в Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Пример приложения для управления автопарком
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Мониторинг и диагностика
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Отчет по анализу влияния
-              href: lifecycle-services/impact-analysis-report.md
             - name: Перезапуск служб среды
               href: lifecycle-services/restart-environment-services.md
             - name: Сообщение о сбое производства
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Экспорт пользователей B2B в Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Ведение данных
+              href: sysadmin/DataMaintenancePortal.md
             - name: Безопасность
               items:
                 - name: Безопасность на основе ролей
