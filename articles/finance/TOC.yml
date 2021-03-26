@@ -72,7 +72,9 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (март 2021 г.)
+                    - name: Finance 10.0.18 (май 2021 г.)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: "Finance 10.0.17 (апрель 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: "Finance 10.0.16 (февраль 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: Удаленные или устаревшие функции
               items:
+                - name: Домашняя страница удаленных или устаревших функций
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Удаленные или устаревшие функции в Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Удаленные или устаревшие функции в предыдущих выпусках
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Обработка писем-напоминаний
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Пример обработки писем-напоминаний
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Отчет по срокам оплаты по клиентам
@@ -486,6 +492,8 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: Нумерация документов и ваучеров в хронологическом порядке
               href: accounts-receivable/chrono-numbers.md
+            - name: Архивировать напечатанные накладные клиентов с хэш-номерами
+              href: accounts-receivable/archive-printed-invoices.md
         - name: Бюджетирование
           items:
             - name: Домашняя страница бюджетирования
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Импорт и создание нескольких разовых поставщиков и накладных в государственном секторе
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Ограничение редактирования распределений по бухгалтерским счетам в накладных
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Планирование разовых поставщиков в государственном секторе
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Управление доступом к договорам покупки в государственном секторе
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Начало работы с надстройкой "Электронное выставление счетов" для Бразилии
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Электронные накладные клиентов в Египте
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Египта
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Начало работы с надстройкой "Электронное выставление счетов" для Италии
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Начало работы с надстройкой "Электронное выставление счетов" для Мексики
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Настройка параметров NF-e для финансового учреждения
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 — цифровая платформа промежуточных продаж для NF-e
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 — налоговые льготы и правила налогового освобождения для NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: Настройка макета накладной для Египта
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Электронные накладные клиентов в Египте
+                  href: localizations/emea-egy-e-invoices.md
             - name: Эстония
               items:
                 - name: Обзор по Эстонии
@@ -2008,12 +2022,14 @@
                   items:
                     - name: Обзор файла аудита Германии
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Настройка конфигурации файла аудита
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Создание файла аудита
-                      href: localizations/tasks/german-audit-file.md
                     - name: Импорт конфигурации файла аудита
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Создание файла аудита
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Настройка конфигурации файла аудита
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Добавление фильтров к конфигурации файла аудита
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Корректировки амортизации для дополнительных приобретений во второй год
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Электронная передача декларации НДС (ELSTER)
@@ -2306,7 +2322,7 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Отчет по черному списку
                   href: localizations/emea-ita-black-list-report.md
-                - name: Дата обеспечения
+                - name: Дата обеспечения и финансовый журнал
                   href: localizations/emea-ita-competence-date.md
                 - name: Амортизация основных средств
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: Повторное использование конфигураций электронной отчетности с шаблонами Excel для создания отчетов в формате Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Подавление элементов управления содержимым Word в созданных отчетах
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для заполнения шаблонов в формате PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Внедрение изображений и фигур
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Совместное использование конфигураций в GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
