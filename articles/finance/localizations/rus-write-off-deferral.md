@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7e58bc7019c671e35341c8f6e84cc29a95431695
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 738e436871b7e01ce2c4123584445e4407fb4ebf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208437"
 ---
 # <a name="write-off-deferrals-russia"></a>Списание РБП (Россия)
 

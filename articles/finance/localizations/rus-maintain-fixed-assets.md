@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c6ec316b49902505eceb06f830bf722ba3801f1e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 93edb7e83bdd8976c2de42a8a30df736379b4a07
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219851"
 ---
 # <a name="maintain-fixed-assets"></a>Ведение основных средств
 [!include [banner](../includes/banner.md)]

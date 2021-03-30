@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3c3c42b1e8eb332df6e8da118eb395861fbe60f2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e28f184c5d9a6279809db3005e9686721f1e9d72
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219849"
 ---
 # <a name="allocation-of-miscellaneous-charges-in-proportion-to-weight-and-volume"></a>Распределение накладных расходов пропорционально весу и объему
 [!include [banner](../includes/banner.md)]

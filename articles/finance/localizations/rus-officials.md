@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f8a9aafb7e885ffe45a83433832fe94f4d2a1b37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 64d127364b279f24bbdbebfaf53afa2348ffd8d0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000394"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219843"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]

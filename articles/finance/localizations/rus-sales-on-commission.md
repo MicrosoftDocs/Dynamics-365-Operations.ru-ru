@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0f1dc903a2dad81118b2b621d5311bcd3b43ef7e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 19ced2ccb0638c8c35f3a504a726825d7185c368
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220962"
 ---
 # <a name="sales-on-commission"></a>Продажи по комиссии
 [!include [banner](../includes/banner.md)]

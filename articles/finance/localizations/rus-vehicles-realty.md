@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c9672a5682ebcd96848ad9c0e34302468da1d2bd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a7d8db9b9e7cc978eb86de4fd6a615534af0d2a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208439"
 ---
 # <a name="vehicles-and-realty-as-fixed-assets-russia"></a>Транспортные средства и недвижимость как основные средства (Россия)
 

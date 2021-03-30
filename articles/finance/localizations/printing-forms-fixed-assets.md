@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2d4156e1cc94ed2c52ebace9e198f48ceaa036b7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2c39a8b5ae16dee958c981e0c64d141ae6ee022f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218870"
 ---
 # <a name="unified-printing-forms-for-fixed-assets-russia"></a>Унифицированные формы печати для основных средств (Россия)
 

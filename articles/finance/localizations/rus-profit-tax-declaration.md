@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdafa6f987618ab0de02d54ada6a28cea01ee325
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ce386f3df51ce20ee9588a64dc8ea6ed9d708cf9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214461"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 

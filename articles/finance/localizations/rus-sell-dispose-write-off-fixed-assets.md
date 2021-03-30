@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b57f7dd4ebd329b1858260fd405e50df4039ff8a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d67c9c72e48db56d9f42a99e21ca1ce57a0317a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220960"
 ---
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]
