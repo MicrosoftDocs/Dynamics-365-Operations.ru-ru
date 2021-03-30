@@ -17,60 +17,63 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6c8f00eb1a1fe2ef3aea22da20ce218d7568f64
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b9c6a410acbfebb3a83e753c422dd87dbf52566
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205865"
 ---
-# <a name="add-an-address-to-a-service-order"></a><span data-ttu-id="cbf2c-103">Добавление адреса в заказ на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="cbf2c-103">Add an address to a service order</span></span>    
+# <a name="add-an-address-to-a-service-order"></a><span data-ttu-id="a271d-103">Добавление адреса в заказ на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="a271d-103">Add an address to a service order</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="cbf2c-104">В этом разделе описывается, как добавить адрес клиента в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-104">This topic describes how to add a customer address to a service order.</span></span> <span data-ttu-id="cbf2c-105">При создании заказа на обслуживание адресная информация переносится из проекта, к которому присоединен заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-105">When you create a service order, the address information is transferred from the project that the service order is attached to.</span></span> <span data-ttu-id="cbf2c-106">Однако можно выбрать альтернативное местоположение из адресов, которые уже введены в Microsoft Dynamics AX для клиентов, поставщиков, сайтов, складов, заказов на сервисное обслуживание и проектов.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-106">However, you can select an alternative location from addresses that are already entered in Microsoft Dynamics AX for customers, vendors, sites, warehouses, service orders, and projects.</span></span>
+<span data-ttu-id="a271d-104">В этом разделе описывается, как добавить адрес клиента в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a271d-104">This topic describes how to add a customer address to a service order.</span></span> <span data-ttu-id="a271d-105">При создании заказа на обслуживание адресная информация переносится из проекта, к которому присоединен заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a271d-105">When you create a service order, the address information is transferred from the project that the service order is attached to.</span></span> <span data-ttu-id="a271d-106">Однако можно выбрать альтернативное местоположение из адресов, которые уже введены в Microsoft Dynamics AX для клиентов, поставщиков, сайтов, складов, заказов на сервисное обслуживание и проектов.</span><span class="sxs-lookup"><span data-stu-id="a271d-106">However, you can select an alternative location from addresses that are already entered in Microsoft Dynamics AX for customers, vendors, sites, warehouses, service orders, and projects.</span></span>
 
-<span data-ttu-id="cbf2c-107">Также можно создать новый адрес.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-107">You can also create a new address.</span></span> <span data-ttu-id="cbf2c-108">По умолчанию новый адрес добавляется в проект.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-108">By default, the new address is transferred to the project.</span></span> <span data-ttu-id="cbf2c-109">Однако можно указать, чтобы новый адрес применялся только к данному экземпляру службы.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-109">However, you can specify that the new address is only relevant for this instance of the service.</span></span> <span data-ttu-id="cbf2c-110">В этом случае новый адрес не будет добавлен в проект.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-110">If you do, the new address is not transferred to the project.</span></span>
+<span data-ttu-id="a271d-107">Также можно создать новый адрес.</span><span class="sxs-lookup"><span data-stu-id="a271d-107">You can also create a new address.</span></span> <span data-ttu-id="a271d-108">По умолчанию новый адрес добавляется в проект.</span><span class="sxs-lookup"><span data-stu-id="a271d-108">By default, the new address is transferred to the project.</span></span> <span data-ttu-id="a271d-109">Однако можно указать, чтобы новый адрес применялся только к данному экземпляру службы.</span><span class="sxs-lookup"><span data-stu-id="a271d-109">However, you can specify that the new address is only relevant for this instance of the service.</span></span> <span data-ttu-id="a271d-110">В этом случае новый адрес не будет добавлен в проект.</span><span class="sxs-lookup"><span data-stu-id="a271d-110">If you do, the new address is not transferred to the project.</span></span>
 
-## <a name="create-a-customer-address-for-a-service-order"></a><span data-ttu-id="cbf2c-111">Создание адреса клиента для заказа на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="cbf2c-111">Create a customer address for a service order</span></span>
+## <a name="create-a-customer-address-for-a-service-order"></a><span data-ttu-id="a271d-111">Создание адреса клиента для заказа на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="a271d-111">Create a customer address for a service order</span></span>
 
-<span data-ttu-id="cbf2c-112">Чтобы добавить адрес в заказ на сервисное обслуживание, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-112">To add an address to a service order, follow these steps:</span></span>
+<span data-ttu-id="a271d-112">Чтобы добавить адрес в заказ на сервисное обслуживание, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a271d-112">To add an address to a service order, follow these steps:</span></span>
 
-1.  <span data-ttu-id="cbf2c-113">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-113">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="a271d-113">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a271d-113">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="cbf2c-114">Откройте заказ на сервисное обслуживание, для которого необходимо создать адрес.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-114">Open the service order that you want to create an address for.</span></span>
+2.  <span data-ttu-id="a271d-114">Откройте заказ на сервисное обслуживание, для которого необходимо создать адрес.</span><span class="sxs-lookup"><span data-stu-id="a271d-114">Open the service order that you want to create an address for.</span></span>
 
-3.  <span data-ttu-id="cbf2c-115">В разделе **Панель операций** щелкните **Изменить** и выберите **Представление заголовка**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-115">On the **Action Pane**, click **Edit**, and then click **Header view**.</span></span>
+3.  <span data-ttu-id="a271d-115">В разделе **Панель операций** щелкните **Изменить** и выберите **Представление заголовка**.</span><span class="sxs-lookup"><span data-stu-id="a271d-115">On the **Action Pane**, click **Edit**, and then click **Header view**.</span></span>
 
-4.  <span data-ttu-id="cbf2c-116">На экспресс-вкладке **Адрес** нажмите кнопку **Добавить адрес**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-116">On the **Address** FastTab, click **Add address**.</span></span>
+4.  <span data-ttu-id="a271d-116">На экспресс-вкладке **Адрес** нажмите кнопку **Добавить адрес**.</span><span class="sxs-lookup"><span data-stu-id="a271d-116">On the **Address** FastTab, click **Add address**.</span></span>
 
-5.  <span data-ttu-id="cbf2c-117">В форме **Создать адрес** введите уникальное имя адреса и заполните оставшиеся поля.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-117">In the **New address** form, enter a unique name for the address and complete the remaining fields.</span></span> 
+5.  <span data-ttu-id="a271d-117">В форме **Создать адрес** введите уникальное имя адреса и заполните оставшиеся поля.</span><span class="sxs-lookup"><span data-stu-id="a271d-117">In the **New address** form, enter a unique name for the address and complete the remaining fields.</span></span> 
     
 
     > [!WARNING]
-    > <P><span data-ttu-id="cbf2c-118">Если ввести имя уже существующего адреса, вводимая в остальные поля информация переопределит сведения, указанные для существующего адреса.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-118">If you enter the same name as an existing address, the information that you enter in the remaining fields will overwrite information for the existing address.</span></span></P>
+    > <P><span data-ttu-id="a271d-118">Если ввести имя уже существующего адреса, вводимая в остальные поля информация переопределит сведения, указанные для существующего адреса.</span><span class="sxs-lookup"><span data-stu-id="a271d-118">If you enter the same name as an existing address, the information that you enter in the remaining fields will overwrite information for the existing address.</span></span></P>
 
 
-6.  <span data-ttu-id="cbf2c-119">Нажмите кнопку **ОК**, чтобы скопировать новый адрес в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-119">Click **OK** to copy the new address to your service order.</span></span>
+6.  <span data-ttu-id="a271d-119">Нажмите кнопку **ОК**, чтобы скопировать новый адрес в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a271d-119">Click **OK** to copy the new address to your service order.</span></span>
 
-## <a name="specify-an-alternative-address-on-a-service-order"></a><span data-ttu-id="cbf2c-120">Указание альтернативного адреса в заказе на обслуживание</span><span class="sxs-lookup"><span data-stu-id="cbf2c-120">Specify an alternative address on a service order</span></span>
+## <a name="specify-an-alternative-address-on-a-service-order"></a><span data-ttu-id="a271d-120">Указание альтернативного адреса в заказе на обслуживание</span><span class="sxs-lookup"><span data-stu-id="a271d-120">Specify an alternative address on a service order</span></span>
 
-<span data-ttu-id="cbf2c-121">Чтобы добавить альтернативный адрес в заказ на сервисное обслуживание, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-121">To add an alternative address to a service order, follow these steps:</span></span>
+<span data-ttu-id="a271d-121">Чтобы добавить альтернативный адрес в заказ на сервисное обслуживание, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="a271d-121">To add an alternative address to a service order, follow these steps:</span></span>
 
-1.  <span data-ttu-id="cbf2c-122">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-122">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="a271d-122">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a271d-122">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="cbf2c-123">Откройте заказ на сервисное обслуживание, для которого необходимо ввести альтернативный адрес.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-123">Open the service order that you want to enter an alternative address for.</span></span>
+2.  <span data-ttu-id="a271d-123">Откройте заказ на сервисное обслуживание, для которого необходимо ввести альтернативный адрес.</span><span class="sxs-lookup"><span data-stu-id="a271d-123">Open the service order that you want to enter an alternative address for.</span></span>
 
-3.  <span data-ttu-id="cbf2c-124">В разделе **Панель операций** щелкните **Изменить** и выберите **Представление заголовка**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-124">On the **Action Pane**, click **Edit**, and then click **Header view**.</span></span>
+3.  <span data-ttu-id="a271d-124">В разделе **Панель операций** щелкните **Изменить** и выберите **Представление заголовка**.</span><span class="sxs-lookup"><span data-stu-id="a271d-124">On the **Action Pane**, click **Edit**, and then click **Header view**.</span></span>
 
-4.  <span data-ttu-id="cbf2c-125">На экспресс-вкладке **Адрес** нажмите кнопку **Другой адрес**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-125">On the **Address** FastTab, click **Other address**.</span></span>
+4.  <span data-ttu-id="a271d-125">На экспресс-вкладке **Адрес** нажмите кнопку **Другой адрес**.</span><span class="sxs-lookup"><span data-stu-id="a271d-125">On the **Address** FastTab, click **Other address**.</span></span>
 
-5.  <span data-ttu-id="cbf2c-126">В форме **Выбор адреса**, в поле **Тип записи** выберите **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-126">In the **Address selection** form, in the **Record type** field, select **Service orders**.</span></span>
+5.  <span data-ttu-id="a271d-126">В форме **Выбор адреса**, в поле **Тип записи** выберите **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a271d-126">In the **Address selection** form, in the **Record type** field, select **Service orders**.</span></span>
 
-6.  <span data-ttu-id="cbf2c-127">Выберите адрес и нажмите кнопку **ОК**, чтобы скопировать его в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="cbf2c-127">Select an address, and then click **OK** to copy it to your service order.</span></span>
+6.  <span data-ttu-id="a271d-127">Выберите адрес и нажмите кнопку **ОК**, чтобы скопировать его в заказ на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a271d-127">Select an address, and then click **OK** to copy it to your service order.</span></span>
 
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

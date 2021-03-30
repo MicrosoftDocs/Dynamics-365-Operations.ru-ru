@@ -18,36 +18,39 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c42fbd42288a072803e4f5de46560d13129515db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da8db87f44c974b3fee8e249e318669ca8e9f2b8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220832"
 ---
-# <a name="master-planning-and-multisite-functionality-overview"></a><span data-ttu-id="c27e0-103">Обзор сводного планирования и функции работы с несколькими узлами</span><span class="sxs-lookup"><span data-stu-id="c27e0-103">Master planning and multisite functionality overview</span></span>
+# <a name="master-planning-and-multisite-functionality-overview"></a><span data-ttu-id="fdb02-103">Обзор сводного планирования и функции работы с несколькими узлами</span><span class="sxs-lookup"><span data-stu-id="fdb02-103">Master planning and multisite functionality overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c27e0-104">При сводном планировании учитываются настройки складских аналитик сайта и склада.</span><span class="sxs-lookup"><span data-stu-id="c27e0-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
+<span data-ttu-id="fdb02-104">При сводном планировании учитываются настройки складских аналитик сайта и склада.</span><span class="sxs-lookup"><span data-stu-id="fdb02-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-<span data-ttu-id="c27e0-105">Аналитика сайта является обязательной; аналитику склада можно настроить как обязательную.</span><span class="sxs-lookup"><span data-stu-id="c27e0-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
+<span data-ttu-id="fdb02-105">Аналитика сайта является обязательной; аналитику склада можно настроить как обязательную.</span><span class="sxs-lookup"><span data-stu-id="fdb02-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-<span data-ttu-id="c27e0-106">Если аналитика является обязательной, значение этой аналитики должно быть введено во всех складских проводках.</span><span class="sxs-lookup"><span data-stu-id="c27e0-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="c27e0-107">Поэтому при сводном планировании узел и склад для начального спроса известны.</span><span class="sxs-lookup"><span data-stu-id="c27e0-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="c27e0-108">Аналитика узла также согласована, так что во время развертывания спроса нижнего уровня значение узла не изменяется.</span><span class="sxs-lookup"><span data-stu-id="c27e0-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
+<span data-ttu-id="fdb02-106">Если аналитика является обязательной, значение этой аналитики должно быть введено во всех складских проводках.</span><span class="sxs-lookup"><span data-stu-id="fdb02-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="fdb02-107">Поэтому при сводном планировании узел и склад для начального спроса известны.</span><span class="sxs-lookup"><span data-stu-id="fdb02-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="fdb02-108">Аналитика узла также согласована, так что во время развертывания спроса нижнего уровня значение узла не изменяется.</span><span class="sxs-lookup"><span data-stu-id="fdb02-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-<span data-ttu-id="c27e0-109">Если склад не настроен как обязательный, он может быть неизвестен для начального спроса.</span><span class="sxs-lookup"><span data-stu-id="c27e0-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="c27e0-110">Механизм планирования должен определить, какой склад использовать, на основе настроек, которые определяются для номенклатуры, отдельных складов и сведений строки заказа.</span><span class="sxs-lookup"><span data-stu-id="c27e0-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
+<span data-ttu-id="fdb02-109">Если склад не настроен как обязательный, он может быть неизвестен для начального спроса.</span><span class="sxs-lookup"><span data-stu-id="fdb02-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="fdb02-110">Механизм планирования должен определить, какой склад использовать, на основе настроек, которые определяются для номенклатуры, отдельных складов и сведений строки заказа.</span><span class="sxs-lookup"><span data-stu-id="fdb02-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-<span data-ttu-id="c27e0-111">Следующие разделы описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.</span><span class="sxs-lookup"><span data-stu-id="c27e0-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
+<span data-ttu-id="fdb02-111">Следующие разделы описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.</span><span class="sxs-lookup"><span data-stu-id="fdb02-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[<span data-ttu-id="c27e0-112">Сводное планирование для покрытия сайта и склада, склад обязателен</span><span class="sxs-lookup"><span data-stu-id="c27e0-112">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="fdb02-112">Сводное планирование для покрытия сайта и склада, склад обязателен</span><span class="sxs-lookup"><span data-stu-id="fdb02-112">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="c27e0-113">Сводное планирование для покрытия сайта, обязательный склад</span><span class="sxs-lookup"><span data-stu-id="c27e0-113">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="fdb02-113">Сводное планирование для покрытия сайта, обязательный склад</span><span class="sxs-lookup"><span data-stu-id="fdb02-113">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="c27e0-114">Сводное планирование для покрытия сайта и склада, склад не обязателен</span><span class="sxs-lookup"><span data-stu-id="c27e0-114">Master planning for site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="fdb02-114">Сводное планирование для покрытия сайта и склада, склад не обязателен</span><span class="sxs-lookup"><span data-stu-id="fdb02-114">Master planning for site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="c27e0-115">Сводное планирование для покрытия объекта, склад не обязателен</span><span class="sxs-lookup"><span data-stu-id="c27e0-115">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="fdb02-115">Сводное планирование для покрытия объекта, склад не обязателен</span><span class="sxs-lookup"><span data-stu-id="fdb02-115">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="c27e0-116">Определение версии спецификации</span><span class="sxs-lookup"><span data-stu-id="c27e0-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="fdb02-116">Определение версии спецификации</span><span class="sxs-lookup"><span data-stu-id="fdb02-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

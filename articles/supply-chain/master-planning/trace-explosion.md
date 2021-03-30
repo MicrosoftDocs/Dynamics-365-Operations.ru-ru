@@ -18,32 +18,35 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7166063e7865e02eb4ee914f7984fa78a51e4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 677b62055d71ee7ba1419fc2d7e6738b9438cb16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011424"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216161"
 ---
-# <a name="use-tracing-for-explosion"></a><span data-ttu-id="cd042-103">Использование трассировки для развертывания</span><span class="sxs-lookup"><span data-stu-id="cd042-103">Use tracing for explosion</span></span>
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="db702-103">Использование трассировки для развертывания</span><span class="sxs-lookup"><span data-stu-id="db702-103">Use tracing for explosion</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cd042-104">Эта статья описывает, как можно использовать трассировку, чтобы исследовать причины результата развертывания заказа.</span><span class="sxs-lookup"><span data-stu-id="cd042-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
+<span data-ttu-id="db702-104">Эта статья описывает, как можно использовать трассировку, чтобы исследовать причины результата развертывания заказа.</span><span class="sxs-lookup"><span data-stu-id="db702-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-<span data-ttu-id="cd042-105">Включив трассировку, вы можете просматривать информацию о факторах, которые участвуют в результатах развертывания определенного заказа.</span><span class="sxs-lookup"><span data-stu-id="cd042-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="cd042-106">Ниже приведены примеры, как можно использовать сведения трассировки:</span><span class="sxs-lookup"><span data-stu-id="cd042-106">The following examples show how you can use the tracing information:</span></span>
+<span data-ttu-id="db702-105">Включив трассировку, вы можете просматривать информацию о факторах, которые участвуют в результатах развертывания определенного заказа.</span><span class="sxs-lookup"><span data-stu-id="db702-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="db702-106">Ниже приведены примеры, как можно использовать сведения трассировки:</span><span class="sxs-lookup"><span data-stu-id="db702-106">The following examples show how you can use the tracing information:</span></span>
 
--   <span data-ttu-id="cd042-107">Просмотр связей между действиями по запланированным заказам для оптимизации цепочки поставок и резервирования запасов.</span><span class="sxs-lookup"><span data-stu-id="cd042-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
--   <span data-ttu-id="cd042-108">Просмотр связей с заказами, которые уже утверждены.</span><span class="sxs-lookup"><span data-stu-id="cd042-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="cd042-109">Вы можете сосредоточиться на автоматическом подтверждении производных потребностей и более точной поставной приоритетов заказов.</span><span class="sxs-lookup"><span data-stu-id="cd042-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
--   <span data-ttu-id="cd042-110">Моделирование результатов планирования, чтобы определить, оптимальны ли параметры планирования.</span><span class="sxs-lookup"><span data-stu-id="cd042-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
--   <span data-ttu-id="cd042-111">Выявление того, как определяется информация, такая как даты производство, количества и приоритеты для заказов.</span><span class="sxs-lookup"><span data-stu-id="cd042-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
+-   <span data-ttu-id="db702-107">Просмотр связей между действиями по запланированным заказам для оптимизации цепочки поставок и резервирования запасов.</span><span class="sxs-lookup"><span data-stu-id="db702-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="db702-108">Просмотр связей с заказами, которые уже утверждены.</span><span class="sxs-lookup"><span data-stu-id="db702-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="db702-109">Вы можете сосредоточиться на автоматическом подтверждении производных потребностей и более точной поставной приоритетов заказов.</span><span class="sxs-lookup"><span data-stu-id="db702-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="db702-110">Моделирование результатов планирования, чтобы определить, оптимальны ли параметры планирования.</span><span class="sxs-lookup"><span data-stu-id="db702-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="db702-111">Выявление того, как определяется информация, такая как даты производство, количества и приоритеты для заказов.</span><span class="sxs-lookup"><span data-stu-id="db702-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-<span data-ttu-id="cd042-112">Вы можете просматривать информацию о фьючерсах и действия для выбранного заказа.</span><span class="sxs-lookup"><span data-stu-id="cd042-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="cd042-113">На странице **Развертывание** отслеживание информации доступно на вкладке **Объяснение** в верхней области.</span><span class="sxs-lookup"><span data-stu-id="cd042-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="cd042-114">Трассировка происходит при развертывании заказа.</span><span class="sxs-lookup"><span data-stu-id="cd042-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="cd042-115">Чтобы начать трассировку для заказа щелкните **Обновить**, а затем установите флажок **Включить трассировку**.</span><span class="sxs-lookup"><span data-stu-id="cd042-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="cd042-116">Можно использовать поле **Найти текст** для поиска конкретной информации в журнале.</span><span class="sxs-lookup"><span data-stu-id="cd042-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="cd042-117">Результаты поиска будут выделены в дереве.</span><span class="sxs-lookup"><span data-stu-id="cd042-117">Search results are highlighted in the tree.</span></span>
+<span data-ttu-id="db702-112">Вы можете просматривать информацию о фьючерсах и действия для выбранного заказа.</span><span class="sxs-lookup"><span data-stu-id="db702-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="db702-113">На странице **Развертывание** отслеживание информации доступно на вкладке **Объяснение** в верхней области.</span><span class="sxs-lookup"><span data-stu-id="db702-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="db702-114">Трассировка происходит при развертывании заказа.</span><span class="sxs-lookup"><span data-stu-id="db702-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="db702-115">Чтобы начать трассировку для заказа щелкните **Обновить**, а затем установите флажок **Включить трассировку**.</span><span class="sxs-lookup"><span data-stu-id="db702-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="db702-116">Можно использовать поле **Найти текст** для поиска конкретной информации в журнале.</span><span class="sxs-lookup"><span data-stu-id="db702-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="db702-117">Результаты поиска будут выделены в дереве.</span><span class="sxs-lookup"><span data-stu-id="db702-117">Search results are highlighted in the tree.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="cd042-118">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="cd042-118">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="db702-118">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="db702-118">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="cd042-119">Обзор сводных планов</span><span class="sxs-lookup"><span data-stu-id="cd042-119">Master plans overview</span></span>](master-plans.md)
+[<span data-ttu-id="db702-119">Обзор сводных планов</span><span class="sxs-lookup"><span data-stu-id="db702-119">Master plans overview</span></span>](master-plans.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
