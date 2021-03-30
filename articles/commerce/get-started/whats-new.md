@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 97ae175eeb6d600777bb06d1dc6a54b5a2693baa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 690e73bfe24be3ba3cf6d25b361b2afb0938d02f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979911"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206212"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Новые возможности и изменения в Dynamics 365 Retail
 
@@ -31,7 +31,7 @@ ms.locfileid: "4979911"
 
 ## <a name="releases-of-dynamics-365-retail"></a>Выпуски Dynamics 365 Retail
 
-| Выпуск | Номер сборки | Доступность | Подробнее |
+| Запуск в производство | Номер сборки | Доступность | Подробнее |
 |---------|--------------|--------------|------------|
 | Dynamics 365 for Finance & Operations - Retail - 7.3.5 | 7.3.11971.64930 | 2018 сентября | [KB 4464337 Microsoft Dynamics 365 for Finance and Operations — версия 7.3.5, (двоичная часть)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450), [KB 4463127 Microsoft Dynamics 365 for Finance and Operations — версия 7.3.5, (часть X++)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
 | Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7.3.11971.64556 | 2018 августа | [KB 4467783 Microsoft Dynamics 365 for Retail — версия 7.3.5 — пакет исправления BugFix Package 2\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4467783&bugId=257914&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |

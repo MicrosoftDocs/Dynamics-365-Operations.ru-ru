@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23d81eaee6684ff2b041f93edd05076af66d322d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206423"
 ---
-# <a name="container-module"></a>Модуль контейнера
+# <a name="container-module"></a>Контейнерный модуль
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули-контейнеры, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Контейнерный модуль — это модуль, в котором размещены другие модули. Основное назначение контейнерного модуля заключается в определении (с помощью установленных для него свойств) макета помещаемых внутрь него модулей. Например, эти модули могут отображаться рядом в макете из двух, трех, четырех или шести столбцов. Кроме того, они могут быть ограничены по ширине контейнера или могут заполнять экран. Заголовок также может быть добавлен к каждому контейнерному модулю.
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ff60ef23c7e19e3f2f97d56fd416e0018a0c324d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995828"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213266"
 ---
-# <a name="calculate-inventory-availability-for-retail-channels"></a>Расчет доступности запасов для каналов розничной торговли
+# <a name="calculate-inventory-availability-for-retail-channels"></a>Расчет наличия запасов для розничных каналов
 
 [!include [banner](../includes/banner.md)]
 

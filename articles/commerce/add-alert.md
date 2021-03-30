@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a77196be69bb71d917bf84c633199a3af3fbf478
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b9325ef31fc61d451584930b09c2039156c0c05
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986037"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206591"
 ---
 # <a name="promo-banner-module"></a>Модуль рекламного баннера
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули рекламного баннера, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модули рекламного баннера используются для отображения на странице встроенных информационных сообщений. Они могут использоваться для отображения рекламных акций на уровне всего сайта, которые появляются на всех страницах сайта электронной коммерции. 
 

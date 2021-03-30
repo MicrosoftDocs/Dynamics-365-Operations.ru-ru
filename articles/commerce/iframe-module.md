@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b7b5935a81377e0cb6acfc497eece6148bf1eeee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 178469d58e5cb619c3eacfa6760f0eaec18be0dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993377"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206140"
 ---
 # <a name="iframe-module"></a>Модуль iFrame
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модуль iFrame предоставляет iFrame (встраиваемый кадр), который содержит внешнее содержимое на сайте. Например, его можно использовать для размещения видео YouTube или средства просмотра PDF-файлов на любой странице сайта. 
 

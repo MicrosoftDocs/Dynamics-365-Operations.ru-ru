@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9626f33ced0433bc96ed58429e95d4f75af6508
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c024cc1b16ca60b2277eba2d7045020c2e67c3a0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980390"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206303"
 ---
-# <a name="gift-card-module"></a>Модуль подарочного сертификата
+# <a name="gift-card-module"></a>Модуль подарочных сертификатов
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули подарочных сертификатов, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модули подарочных сертификатов могут использоваться в модуле оформления покупки для приема подарочных сертификатов, которые являются распространенной формой оплаты, используемой в проводках электронной коммерции. Модуль подарочного сертификата поддерживает подарочные сертификаты Dynamics 365, SVS и Givex. Подарочные сертификаты SVS и Givex погашаются через поставщика платежей Adyen. Дополнительные сведения о поддержке внешних подарочных сертификатов, таких как SVS и Givex, см. в разделе [Поддержка внешних подарочных сертификатов](./dev-itpro/gift-card.md).
 
