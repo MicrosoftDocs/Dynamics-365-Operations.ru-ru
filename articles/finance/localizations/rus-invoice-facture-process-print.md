@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 49e6c810f0dec9f1ed0a74ca4f121778c033f969
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a4c49620a3ef858b7e00edb83b3f09af4471de29
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232419"
 ---
 # <a name="invoice-factures-processing-and-printing"></a>Обработка и печать счетов-фактур
 

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2e9fbfb3630b22d5bf1106db352527a7c4362cb7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8796eda275078b367c5f20794de982297a3ec9ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240559"
 ---
 # <a name="receipt-of-deferrals"></a>Поступление РБП
 
