@@ -16,95 +16,98 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbc85b957e716d07d9073d889c47f157ea0ead01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24c2be8a1b0da3c34919fdb44aa744f8e7fc87c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215420"
 ---
-# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="a4707-103">Разноска интерактивных продаж и платежей</span><span class="sxs-lookup"><span data-stu-id="a4707-103">Posting of online sales and payments</span></span>
+# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="8983d-103">Разноска интерактивных продаж и платежей</span><span class="sxs-lookup"><span data-stu-id="8983d-103">Posting of online sales and payments</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a4707-104">Эта процедура содержите инструкции по настройке и запуску регулярного пакетного задания для создания заказов на продажу и платежей для проводок интернета-магазина.</span><span class="sxs-lookup"><span data-stu-id="a4707-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span>
+<span data-ttu-id="8983d-104">Эта процедура содержите инструкции по настройке и запуску регулярного пакетного задания для создания заказов на продажу и платежей для проводок интернета-магазина.</span><span class="sxs-lookup"><span data-stu-id="8983d-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span>
 
-<span data-ttu-id="a4707-105">Разноска интернет-продаж и платежей выполняется в два этапа.</span><span class="sxs-lookup"><span data-stu-id="a4707-105">Posting online sales and payments is a two-stage process.</span></span>
+<span data-ttu-id="8983d-105">Разноска интернет-продаж и платежей выполняется в два этапа.</span><span class="sxs-lookup"><span data-stu-id="8983d-105">Posting online sales and payments is a two-stage process.</span></span>
 
-- <span data-ttu-id="a4707-106">Извлечение данных транзакций Commerce интернет-торговли в головной офис.</span><span class="sxs-lookup"><span data-stu-id="a4707-106">Pulling the online commerce transaction data in HQ.</span></span>
-- <span data-ttu-id="a4707-107">Синхронизация заказов для создания заказов на продажу в головном отделении.</span><span class="sxs-lookup"><span data-stu-id="a4707-107">Synchronizing orders to create sales orders in HQ.</span></span>
+- <span data-ttu-id="8983d-106">Извлечение данных транзакций Commerce интернет-торговли в головной офис.</span><span class="sxs-lookup"><span data-stu-id="8983d-106">Pulling the online commerce transaction data in HQ.</span></span>
+- <span data-ttu-id="8983d-107">Синхронизация заказов для создания заказов на продажу в головном отделении.</span><span class="sxs-lookup"><span data-stu-id="8983d-107">Synchronizing orders to create sales orders in HQ.</span></span>
 
-<span data-ttu-id="a4707-108">Извлечение данных транзакций интернет-торговли может выполнять либо вручную путем запуска P-задания, либо путем создания повторяющегося пакетного задания.</span><span class="sxs-lookup"><span data-stu-id="a4707-108">Pulling the online transaction data can be done either by manually running the P-job or by creating a recurrent batch job.</span></span>
+<span data-ttu-id="8983d-108">Извлечение данных транзакций интернет-торговли может выполнять либо вручную путем запуска P-задания, либо путем создания повторяющегося пакетного задания.</span><span class="sxs-lookup"><span data-stu-id="8983d-108">Pulling the online transaction data can be done either by manually running the P-job or by creating a recurrent batch job.</span></span>
 
-### <a name="manually-running-the-p-job"></a><span data-ttu-id="a4707-109">Запуск P-задания вручную</span><span class="sxs-lookup"><span data-stu-id="a4707-109">Manually running the P-job</span></span>
+### <a name="manually-running-the-p-job"></a><span data-ttu-id="8983d-109">Запуск P-задания вручную</span><span class="sxs-lookup"><span data-stu-id="8983d-109">Manually running the P-job</span></span>
 
-1. <span data-ttu-id="a4707-110">Перейдите в раздел Все рабочие области > ИТ Retail и Commerce.</span><span class="sxs-lookup"><span data-stu-id="a4707-110">Go to All workspaces > Retail and Commerce IT.</span></span>
-2. <span data-ttu-id="a4707-111">Щелкните "График распределения".</span><span class="sxs-lookup"><span data-stu-id="a4707-111">Click Distribution schedule.</span></span>
-3. <span data-ttu-id="a4707-112">Выберите P-0001.</span><span class="sxs-lookup"><span data-stu-id="a4707-112">Select P-0001.</span></span>
-4. <span data-ttu-id="a4707-113">Если необходимо, скорректируйте группы баз данных каналов.</span><span class="sxs-lookup"><span data-stu-id="a4707-113">Adjust channel database groups, if required.</span></span>
-5. <span data-ttu-id="a4707-114">Щелкните Запустить сейчас.</span><span class="sxs-lookup"><span data-stu-id="a4707-114">Click Run now.</span></span>
-6. <span data-ttu-id="a4707-115">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="a4707-115">Click Yes.</span></span>
+1. <span data-ttu-id="8983d-110">Перейдите в раздел Все рабочие области > ИТ Retail и Commerce.</span><span class="sxs-lookup"><span data-stu-id="8983d-110">Go to All workspaces > Retail and Commerce IT.</span></span>
+2. <span data-ttu-id="8983d-111">Щелкните "График распределения".</span><span class="sxs-lookup"><span data-stu-id="8983d-111">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="8983d-112">Выберите P-0001.</span><span class="sxs-lookup"><span data-stu-id="8983d-112">Select P-0001.</span></span>
+4. <span data-ttu-id="8983d-113">Если необходимо, скорректируйте группы баз данных каналов.</span><span class="sxs-lookup"><span data-stu-id="8983d-113">Adjust channel database groups, if required.</span></span>
+5. <span data-ttu-id="8983d-114">Щелкните Запустить сейчас.</span><span class="sxs-lookup"><span data-stu-id="8983d-114">Click Run now.</span></span>
+6. <span data-ttu-id="8983d-115">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="8983d-115">Click Yes.</span></span>
 
-### <a name="scheduling-a-recurring-p-job"></a><span data-ttu-id="a4707-116">Планирование повторяющегося P-задания</span><span class="sxs-lookup"><span data-stu-id="a4707-116">Scheduling a recurring P-job</span></span>
+### <a name="scheduling-a-recurring-p-job"></a><span data-ttu-id="8983d-116">Планирование повторяющегося P-задания</span><span class="sxs-lookup"><span data-stu-id="8983d-116">Scheduling a recurring P-job</span></span>
 
-1. <span data-ttu-id="a4707-117">Перейдите в раздел Все рабочие области > ИТ Retail и Commerce.</span><span class="sxs-lookup"><span data-stu-id="a4707-117">Go to All workspaces > Retail and Commerce IT.</span></span>
-2. <span data-ttu-id="a4707-118">Щелкните "График распределения".</span><span class="sxs-lookup"><span data-stu-id="a4707-118">Click Distribution schedule.</span></span>
-3. <span data-ttu-id="a4707-119">Выберите P-0001.</span><span class="sxs-lookup"><span data-stu-id="a4707-119">Select P-0001.</span></span>
-4. <span data-ttu-id="a4707-120">Щелкните "Создать пакетное задание".</span><span class="sxs-lookup"><span data-stu-id="a4707-120">Click Create batch job.</span></span>
-5. <span data-ttu-id="a4707-121">Щелкните "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="a4707-121">Click Run in the background.</span></span>
-5. <span data-ttu-id="a4707-122">Включите пакетную обработку.</span><span class="sxs-lookup"><span data-stu-id="a4707-122">Enable Batch processing.</span></span>
-6. <span data-ttu-id="a4707-123">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="a4707-123">Click Recurrence..</span></span>
-7. <span data-ttu-id="a4707-124">Выберите параметр "Дата завершения не указана".</span><span class="sxs-lookup"><span data-stu-id="a4707-124">Select the No end date option.</span></span>
-8. <span data-ttu-id="a4707-125">В поле "Счетчик" введите интервал между запусками в минутах.</span><span class="sxs-lookup"><span data-stu-id="a4707-125">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="a4707-126">Обычно это будет 5–10.</span><span class="sxs-lookup"><span data-stu-id="a4707-126">Typically this would be 5-10.</span></span>
-9. <span data-ttu-id="a4707-127">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-127">Click OK.</span></span>
-10. <span data-ttu-id="a4707-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-128">Click OK.</span></span>
+1. <span data-ttu-id="8983d-117">Перейдите в раздел Все рабочие области > ИТ Retail и Commerce.</span><span class="sxs-lookup"><span data-stu-id="8983d-117">Go to All workspaces > Retail and Commerce IT.</span></span>
+2. <span data-ttu-id="8983d-118">Щелкните "График распределения".</span><span class="sxs-lookup"><span data-stu-id="8983d-118">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="8983d-119">Выберите P-0001.</span><span class="sxs-lookup"><span data-stu-id="8983d-119">Select P-0001.</span></span>
+4. <span data-ttu-id="8983d-120">Щелкните "Создать пакетное задание".</span><span class="sxs-lookup"><span data-stu-id="8983d-120">Click Create batch job.</span></span>
+5. <span data-ttu-id="8983d-121">Щелкните "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="8983d-121">Click Run in the background.</span></span>
+5. <span data-ttu-id="8983d-122">Включите пакетную обработку.</span><span class="sxs-lookup"><span data-stu-id="8983d-122">Enable Batch processing.</span></span>
+6. <span data-ttu-id="8983d-123">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="8983d-123">Click Recurrence..</span></span>
+7. <span data-ttu-id="8983d-124">Выберите параметр "Дата завершения не указана".</span><span class="sxs-lookup"><span data-stu-id="8983d-124">Select the No end date option.</span></span>
+8. <span data-ttu-id="8983d-125">В поле "Счетчик" введите интервал между запусками в минутах.</span><span class="sxs-lookup"><span data-stu-id="8983d-125">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="8983d-126">Обычно это будет 5–10.</span><span class="sxs-lookup"><span data-stu-id="8983d-126">Typically this would be 5-10.</span></span>
+9. <span data-ttu-id="8983d-127">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-127">Click OK.</span></span>
+10. <span data-ttu-id="8983d-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-128">Click OK.</span></span>
 
-<span data-ttu-id="a4707-129">Заказы могут быть синхронизированы либо путем запуска задания "Синхронизировать заказы" вручную, либо путем создания повторяющегося пакетного задания.</span><span class="sxs-lookup"><span data-stu-id="a4707-129">Orders can be synchronized either by manually running the "Synchronize orders"-job or by creating a recurring batch job.</span></span>
+<span data-ttu-id="8983d-129">Заказы могут быть синхронизированы либо путем запуска задания "Синхронизировать заказы" вручную, либо путем создания повторяющегося пакетного задания.</span><span class="sxs-lookup"><span data-stu-id="8983d-129">Orders can be synchronized either by manually running the "Synchronize orders"-job or by creating a recurring batch job.</span></span>
 
-### <a name="manually-running-order-synchronization"></a><span data-ttu-id="a4707-130">Запуск синхронизации заказов вручную</span><span class="sxs-lookup"><span data-stu-id="a4707-130">Manually running order synchronization</span></span> 
+### <a name="manually-running-order-synchronization"></a><span data-ttu-id="8983d-130">Запуск синхронизации заказов вручную</span><span class="sxs-lookup"><span data-stu-id="8983d-130">Manually running order synchronization</span></span> 
 
-<span data-ttu-id="a4707-131">Выполните следующие действия, чтобы один раз запустить задание "Синхронизировать заказы" вручную.</span><span class="sxs-lookup"><span data-stu-id="a4707-131">Follow these steps to manually run "Synchronize orders" job once.</span></span>
+<span data-ttu-id="8983d-131">Выполните следующие действия, чтобы один раз запустить задание "Синхронизировать заказы" вручную.</span><span class="sxs-lookup"><span data-stu-id="8983d-131">Follow these steps to manually run "Synchronize orders" job once.</span></span>
 
-1. <span data-ttu-id="a4707-132">Перейдите "Все рабочие области > Финансовая информация магазина".</span><span class="sxs-lookup"><span data-stu-id="a4707-132">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="a4707-133">Щелкните "Синхронизация заказов".</span><span class="sxs-lookup"><span data-stu-id="a4707-133">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="a4707-134">В поле "Организационная иерархия" выберите "Магазины по регионам".</span><span class="sxs-lookup"><span data-stu-id="a4707-134">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
-    * <span data-ttu-id="a4707-135">Выберите конкретный интернет-магазин или узел, если вы хотите создать пакетное задание для группы магазинов.</span><span class="sxs-lookup"><span data-stu-id="a4707-135">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="a4707-136">Нажмите на стрелку для добавления выбора.</span><span class="sxs-lookup"><span data-stu-id="a4707-136">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="a4707-137">Щелкните вкладку "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="a4707-137">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="a4707-138">Отключение пакетной обработки</span><span class="sxs-lookup"><span data-stu-id="a4707-138">Disable Batch processing</span></span>
-6. <span data-ttu-id="a4707-139">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="a4707-139">Click Recurrence.</span></span>
-7. <span data-ttu-id="a4707-140">Выбор параметра "Окончание после"</span><span class="sxs-lookup"><span data-stu-id="a4707-140">Select End After option</span></span>
-8. <span data-ttu-id="a4707-141">В поле "Окончание после" введите 1.</span><span class="sxs-lookup"><span data-stu-id="a4707-141">In the End After field, enter 1.</span></span>
-9. <span data-ttu-id="a4707-142">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-142">Click OK.</span></span>
-10. <span data-ttu-id="a4707-143">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-143">Click OK.</span></span>
+1. <span data-ttu-id="8983d-132">Перейдите "Все рабочие области > Финансовая информация магазина".</span><span class="sxs-lookup"><span data-stu-id="8983d-132">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="8983d-133">Щелкните "Синхронизация заказов".</span><span class="sxs-lookup"><span data-stu-id="8983d-133">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="8983d-134">В поле "Организационная иерархия" выберите "Магазины по регионам".</span><span class="sxs-lookup"><span data-stu-id="8983d-134">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
+    * <span data-ttu-id="8983d-135">Выберите конкретный интернет-магазин или узел, если вы хотите создать пакетное задание для группы магазинов.</span><span class="sxs-lookup"><span data-stu-id="8983d-135">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="8983d-136">Нажмите на стрелку для добавления выбора.</span><span class="sxs-lookup"><span data-stu-id="8983d-136">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="8983d-137">Щелкните вкладку "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="8983d-137">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="8983d-138">Отключение пакетной обработки</span><span class="sxs-lookup"><span data-stu-id="8983d-138">Disable Batch processing</span></span>
+6. <span data-ttu-id="8983d-139">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="8983d-139">Click Recurrence.</span></span>
+7. <span data-ttu-id="8983d-140">Выбор параметра "Окончание после"</span><span class="sxs-lookup"><span data-stu-id="8983d-140">Select End After option</span></span>
+8. <span data-ttu-id="8983d-141">В поле "Окончание после" введите 1.</span><span class="sxs-lookup"><span data-stu-id="8983d-141">In the End After field, enter 1.</span></span>
+9. <span data-ttu-id="8983d-142">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-142">Click OK.</span></span>
+10. <span data-ttu-id="8983d-143">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-143">Click OK.</span></span>
 
-### <a name="scheduling-recurring-order-synchronization"></a><span data-ttu-id="a4707-144">Планирование повторяющейся синхронизации заказов</span><span class="sxs-lookup"><span data-stu-id="a4707-144">Scheduling recurring order synchronization</span></span>
+### <a name="scheduling-recurring-order-synchronization"></a><span data-ttu-id="8983d-144">Планирование повторяющейся синхронизации заказов</span><span class="sxs-lookup"><span data-stu-id="8983d-144">Scheduling recurring order synchronization</span></span>
 
-<span data-ttu-id="a4707-145">Эта процедура содержите инструкции по настройке и запуску регулярного пакетного задания для создания заказов на продажу и платежей для проводок интернета-магазина.</span><span class="sxs-lookup"><span data-stu-id="a4707-145">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="a4707-146">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="a4707-146">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="8983d-145">Эта процедура содержите инструкции по настройке и запуску регулярного пакетного задания для создания заказов на продажу и платежей для проводок интернета-магазина.</span><span class="sxs-lookup"><span data-stu-id="8983d-145">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="8983d-146">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="8983d-146">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="a4707-147">Перейдите "Все рабочие области > Финансовая информация магазина".</span><span class="sxs-lookup"><span data-stu-id="a4707-147">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="a4707-148">Щелкните "Синхронизация заказов".</span><span class="sxs-lookup"><span data-stu-id="a4707-148">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="a4707-149">В поле "Организационная иерархия" выберите "Магазины по регионам".</span><span class="sxs-lookup"><span data-stu-id="a4707-149">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
-    * <span data-ttu-id="a4707-150">Выберите конкретный интернет-магазин или узел, если вы хотите создать пакетное задание для группы магазинов.</span><span class="sxs-lookup"><span data-stu-id="a4707-150">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="a4707-151">Нажмите на стрелку для добавления выбора.</span><span class="sxs-lookup"><span data-stu-id="a4707-151">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="a4707-152">Щелкните вкладку "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="a4707-152">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="a4707-153">Включите пакетную обработку</span><span class="sxs-lookup"><span data-stu-id="a4707-153">Enable Batch processing</span></span>
-6. <span data-ttu-id="a4707-154">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="a4707-154">Click Recurrence.</span></span>
-7. <span data-ttu-id="a4707-155">Выберите параметр "Дата завершения не указана".</span><span class="sxs-lookup"><span data-stu-id="a4707-155">Select the No end date option.</span></span>
-8. <span data-ttu-id="a4707-156">В поле "Счетчик" введите интервал между запусками в минутах.</span><span class="sxs-lookup"><span data-stu-id="a4707-156">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="a4707-157">Обычно это будет 2–20</span><span class="sxs-lookup"><span data-stu-id="a4707-157">Typically this would be 2-20</span></span>
-9. <span data-ttu-id="a4707-158">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-158">Click OK.</span></span>
-10. <span data-ttu-id="a4707-159">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a4707-159">Click OK.</span></span>
+1. <span data-ttu-id="8983d-147">Перейдите "Все рабочие области > Финансовая информация магазина".</span><span class="sxs-lookup"><span data-stu-id="8983d-147">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="8983d-148">Щелкните "Синхронизация заказов".</span><span class="sxs-lookup"><span data-stu-id="8983d-148">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="8983d-149">В поле "Организационная иерархия" выберите "Магазины по регионам".</span><span class="sxs-lookup"><span data-stu-id="8983d-149">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
+    * <span data-ttu-id="8983d-150">Выберите конкретный интернет-магазин или узел, если вы хотите создать пакетное задание для группы магазинов.</span><span class="sxs-lookup"><span data-stu-id="8983d-150">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="8983d-151">Нажмите на стрелку для добавления выбора.</span><span class="sxs-lookup"><span data-stu-id="8983d-151">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="8983d-152">Щелкните вкладку "Выполнять в фоновом режиме".</span><span class="sxs-lookup"><span data-stu-id="8983d-152">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="8983d-153">Включите пакетную обработку</span><span class="sxs-lookup"><span data-stu-id="8983d-153">Enable Batch processing</span></span>
+6. <span data-ttu-id="8983d-154">Щелкните "Повторение".</span><span class="sxs-lookup"><span data-stu-id="8983d-154">Click Recurrence.</span></span>
+7. <span data-ttu-id="8983d-155">Выберите параметр "Дата завершения не указана".</span><span class="sxs-lookup"><span data-stu-id="8983d-155">Select the No end date option.</span></span>
+8. <span data-ttu-id="8983d-156">В поле "Счетчик" введите интервал между запусками в минутах.</span><span class="sxs-lookup"><span data-stu-id="8983d-156">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="8983d-157">Обычно это будет 2–20</span><span class="sxs-lookup"><span data-stu-id="8983d-157">Typically this would be 2-20</span></span>
+9. <span data-ttu-id="8983d-158">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-158">Click OK.</span></span>
+10. <span data-ttu-id="8983d-159">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="8983d-159">Click OK.</span></span>
 
-## <a name="data-entities-involved-in-the-process"></a><span data-ttu-id="a4707-160">Информационные объекты, включенные в процесс</span><span class="sxs-lookup"><span data-stu-id="a4707-160">Data entities involved in the process</span></span>
+## <a name="data-entities-involved-in-the-process"></a><span data-ttu-id="8983d-160">Информационные объекты, включенные в процесс</span><span class="sxs-lookup"><span data-stu-id="8983d-160">Data entities involved in the process</span></span>
 
-- <span data-ttu-id="a4707-161">RetailTransactionTable</span><span class="sxs-lookup"><span data-stu-id="a4707-161">RetailTransactionTable</span></span>
-- <span data-ttu-id="a4707-162">RetailTransactionAddressTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-162">RetailTransactionAddressTrans</span></span>
-- <span data-ttu-id="a4707-163">RetailTransactionInfocodeTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-163">RetailTransactionInfocodeTrans</span></span>
-- <span data-ttu-id="a4707-164">RetailTransactionTaxTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-164">RetailTransactionTaxTrans</span></span>
-- <span data-ttu-id="a4707-165">RetailTransactionSalesTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-165">RetailTransactionSalesTrans</span></span>
-- <span data-ttu-id="a4707-166">RetailTransactionTaxMeasure</span><span class="sxs-lookup"><span data-stu-id="a4707-166">RetailTransactionTaxMeasure</span></span>
-- <span data-ttu-id="a4707-167">RetailTransactionDiscountTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-167">RetailTransactionDiscountTrans</span></span>
-- <span data-ttu-id="a4707-168">RetailTransactionTaxTransGTE</span><span class="sxs-lookup"><span data-stu-id="a4707-168">RetailTransactionTaxTransGTE</span></span>
-- <span data-ttu-id="a4707-169">RetailTransactionMarkupTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-169">RetailTransactionMarkupTrans</span></span>
-- <span data-ttu-id="a4707-170">RetailTransactionPaymentTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-170">RetailTransactionPaymentTrans</span></span>
-- <span data-ttu-id="a4707-171">RetailTransactionAttributeTrans</span><span class="sxs-lookup"><span data-stu-id="a4707-171">RetailTransactionAttributeTrans</span></span>
+- <span data-ttu-id="8983d-161">RetailTransactionTable</span><span class="sxs-lookup"><span data-stu-id="8983d-161">RetailTransactionTable</span></span>
+- <span data-ttu-id="8983d-162">RetailTransactionAddressTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-162">RetailTransactionAddressTrans</span></span>
+- <span data-ttu-id="8983d-163">RetailTransactionInfocodeTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-163">RetailTransactionInfocodeTrans</span></span>
+- <span data-ttu-id="8983d-164">RetailTransactionTaxTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-164">RetailTransactionTaxTrans</span></span>
+- <span data-ttu-id="8983d-165">RetailTransactionSalesTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-165">RetailTransactionSalesTrans</span></span>
+- <span data-ttu-id="8983d-166">RetailTransactionTaxMeasure</span><span class="sxs-lookup"><span data-stu-id="8983d-166">RetailTransactionTaxMeasure</span></span>
+- <span data-ttu-id="8983d-167">RetailTransactionDiscountTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-167">RetailTransactionDiscountTrans</span></span>
+- <span data-ttu-id="8983d-168">RetailTransactionTaxTransGTE</span><span class="sxs-lookup"><span data-stu-id="8983d-168">RetailTransactionTaxTransGTE</span></span>
+- <span data-ttu-id="8983d-169">RetailTransactionMarkupTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-169">RetailTransactionMarkupTrans</span></span>
+- <span data-ttu-id="8983d-170">RetailTransactionPaymentTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-170">RetailTransactionPaymentTrans</span></span>
+- <span data-ttu-id="8983d-171">RetailTransactionAttributeTrans</span><span class="sxs-lookup"><span data-stu-id="8983d-171">RetailTransactionAttributeTrans</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

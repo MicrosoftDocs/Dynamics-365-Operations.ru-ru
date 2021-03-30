@@ -15,56 +15,59 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85c1faebe9a61ad2e708ba26c7a5f0cad15f5f8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d097caf3ad097e3107708c426ef668c70298c4f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209859"
 ---
-# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="84033-103">Настройка клиентов и банковских счетов клиентов для безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="84033-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
+# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="25d79-103">Настройка клиентов и банковских счетов клиентов для безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="25d79-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="84033-104">В этой задаче описывается настройка банковского счета клиента и поручения на безакцептное списание клиента, которые необходимы для создания файла платежа клиента, такого как прямое дебетование ISO20022.</span><span class="sxs-lookup"><span data-stu-id="84033-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="84033-105">В зависимости от настроенных форматов платежей клиентов, дополнительные сведения, не рассматриваемые в этой процедуре, могут потребоваться для клиента или банковского счета клиента.</span><span class="sxs-lookup"><span data-stu-id="84033-105">Depending on the customer payment formats tha are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
+<span data-ttu-id="25d79-104">В этой задаче описывается настройка банковского счета клиента и поручения на безакцептное списание клиента, которые необходимы для создания файла платежа клиента, такого как прямое дебетование ISO20022.</span><span class="sxs-lookup"><span data-stu-id="25d79-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="25d79-105">В зависимости от настроенных форматов платежей клиентов, дополнительные сведения, не рассматриваемые в этой процедуре, могут потребоваться для клиента или банковского счета клиента.</span><span class="sxs-lookup"><span data-stu-id="25d79-105">Depending on the customer payment formats tha are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
 
-<span data-ttu-id="84033-106">Эта задача была создана с использованием компании с демонстрационными данными DEMF с основным адресом юридического лица в Германии.</span><span class="sxs-lookup"><span data-stu-id="84033-106">This task was created using the demo data company DEMF with a legal entity primary address in Germany.</span></span>
-
-
-
-<span data-ttu-id="84033-107">Это четвертая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="84033-107">This is the fourth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="25d79-106">Эта задача была создана с использованием компании с демонстрационными данными DEMF с основным адресом юридического лица в Германии.</span><span class="sxs-lookup"><span data-stu-id="25d79-106">This task was created using the demo data company DEMF with a legal entity primary address in Germany.</span></span>
 
 
-## <a name="set-up-a-customer-bank-account"></a><span data-ttu-id="84033-108">Настройка банковского счета клиента</span><span class="sxs-lookup"><span data-stu-id="84033-108">Set up a customer bank account</span></span>
-1. <span data-ttu-id="84033-109">Перейдите в раздел "Расчеты с клиентами" > "Клиенты" > "Все клиенты".</span><span class="sxs-lookup"><span data-stu-id="84033-109">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="84033-110">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="84033-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="84033-111">Например, отфильтруйте поле "Счет" по значению "DE-010".</span><span class="sxs-lookup"><span data-stu-id="84033-111">For example, filter on the Account field with a value of 'DE-010 '.</span></span>
-3. <span data-ttu-id="84033-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="84033-112">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="84033-113">В области действий щелкните "Клиент".</span><span class="sxs-lookup"><span data-stu-id="84033-113">On the Action Pane, click Customer.</span></span>
-5. <span data-ttu-id="84033-114">Щелкните "Банковские счета".</span><span class="sxs-lookup"><span data-stu-id="84033-114">Click Bank accounts.</span></span>
-6. <span data-ttu-id="84033-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="84033-115">Click New.</span></span>
-7. <span data-ttu-id="84033-116">В поле "Банковский счет" введите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-116">In the Bank account field, type a value.</span></span>
-8. <span data-ttu-id="84033-117">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-117">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="84033-118">Например, введите "Банк EUR".</span><span class="sxs-lookup"><span data-stu-id="84033-118">For example, enter 'EUR bank'.</span></span>  
-9. <span data-ttu-id="84033-119">В поле "Банковские группы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-119">In the Bank groups field, enter or select a value.</span></span>
-10. <span data-ttu-id="84033-120">В поле "IBAN" введите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-120">In the IBAN field, type a value.</span></span>
-    * <span data-ttu-id="84033-121">Например, введите "DE36200400000628808808".</span><span class="sxs-lookup"><span data-stu-id="84033-121">For example, enter 'DE36200400000628808808'.</span></span>  
-11. <span data-ttu-id="84033-122">В поле "SWIFT-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-122">In the SWIFT code field, type a value.</span></span>
-    * <span data-ttu-id="84033-123">Например, введите "COBADEFFXXX".</span><span class="sxs-lookup"><span data-stu-id="84033-123">For example: Enter 'COBADEFFXXX'.</span></span>  <span data-ttu-id="84033-124">Обратите внимание, что SWIFT\BIC не является обязательным для многих форматов платежей, однако рекомендуется, чтобы этот код был зарегистрирован для банковского счета.</span><span class="sxs-lookup"><span data-stu-id="84033-124">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
-12. <span data-ttu-id="84033-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="84033-125">Click Save.</span></span>
-13. <span data-ttu-id="84033-126">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="84033-126">Close the page.</span></span>
-14. <span data-ttu-id="84033-127">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="84033-127">Click Edit.</span></span>
-15. <span data-ttu-id="84033-128">Разверните раздел "Значения платежа по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="84033-128">Expand the Payment defaults section.</span></span>
-16. <span data-ttu-id="84033-129">В поле "Банковский счет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-129">In the Bank account field, enter or select a value.</span></span>
 
-## <a name="add-a-direct-debit-mandate"></a><span data-ttu-id="84033-130">Добавление поручения на безакцептное списание</span><span class="sxs-lookup"><span data-stu-id="84033-130">Add a direct debit mandate</span></span>
-1. <span data-ttu-id="84033-131">Разверните раздел "Поручения на безакцептное списание".</span><span class="sxs-lookup"><span data-stu-id="84033-131">Expand the Direct debit mandates section.</span></span>
-2. <span data-ttu-id="84033-132">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="84033-132">Click Add.</span></span>
-3. <span data-ttu-id="84033-133">В поле "Банковский счет кредитора" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-133">In the Creditor bank account field, enter or select a value.</span></span>
-    * <span data-ttu-id="84033-134">Например, выберите DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="84033-134">For example, select DEMF OPER.</span></span>  
-4. <span data-ttu-id="84033-135">В поле "Дата подписи" введите дату.</span><span class="sxs-lookup"><span data-stu-id="84033-135">In the Signature date field, enter a date.</span></span>
-5. <span data-ttu-id="84033-136">Щелкните "Да", чтобы подтвердить обновление даты.</span><span class="sxs-lookup"><span data-stu-id="84033-136">Click Yes to confirm the date update.</span></span>
-6. <span data-ttu-id="84033-137">В поле "Место подписания" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="84033-137">In the Signature location field, enter or select a value.</span></span>
-7. <span data-ttu-id="84033-138">В поле "Ожидаемое количество платежей" введите число.</span><span class="sxs-lookup"><span data-stu-id="84033-138">In the Expected number of payments field, enter a number.</span></span>
-8. <span data-ttu-id="84033-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="84033-139">Click OK.</span></span>
-9. <span data-ttu-id="84033-140">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="84033-140">Click Save.</span></span>
+<span data-ttu-id="25d79-107">Это четвертая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="25d79-107">This is the fourth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
+
+## <a name="set-up-a-customer-bank-account"></a><span data-ttu-id="25d79-108">Настройка банковского счета клиента</span><span class="sxs-lookup"><span data-stu-id="25d79-108">Set up a customer bank account</span></span>
+1. <span data-ttu-id="25d79-109">Перейдите в раздел "Расчеты с клиентами" > "Клиенты" > "Все клиенты".</span><span class="sxs-lookup"><span data-stu-id="25d79-109">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="25d79-110">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="25d79-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="25d79-111">Например, отфильтруйте поле "Счет" по значению "DE-010".</span><span class="sxs-lookup"><span data-stu-id="25d79-111">For example, filter on the Account field with a value of 'DE-010 '.</span></span>
+3. <span data-ttu-id="25d79-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="25d79-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="25d79-113">В области действий щелкните "Клиент".</span><span class="sxs-lookup"><span data-stu-id="25d79-113">On the Action Pane, click Customer.</span></span>
+5. <span data-ttu-id="25d79-114">Щелкните "Банковские счета".</span><span class="sxs-lookup"><span data-stu-id="25d79-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="25d79-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="25d79-115">Click New.</span></span>
+7. <span data-ttu-id="25d79-116">В поле "Банковский счет" введите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-116">In the Bank account field, type a value.</span></span>
+8. <span data-ttu-id="25d79-117">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-117">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="25d79-118">Например, введите "Банк EUR".</span><span class="sxs-lookup"><span data-stu-id="25d79-118">For example, enter 'EUR bank'.</span></span>  
+9. <span data-ttu-id="25d79-119">В поле "Банковские группы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-119">In the Bank groups field, enter or select a value.</span></span>
+10. <span data-ttu-id="25d79-120">В поле "IBAN" введите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-120">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="25d79-121">Например, введите "DE36200400000628808808".</span><span class="sxs-lookup"><span data-stu-id="25d79-121">For example, enter 'DE36200400000628808808'.</span></span>  
+11. <span data-ttu-id="25d79-122">В поле "SWIFT-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-122">In the SWIFT code field, type a value.</span></span>
+    * <span data-ttu-id="25d79-123">Например, введите "COBADEFFXXX".</span><span class="sxs-lookup"><span data-stu-id="25d79-123">For example: Enter 'COBADEFFXXX'.</span></span>  <span data-ttu-id="25d79-124">Обратите внимание, что SWIFT\BIC не является обязательным для многих форматов платежей, однако рекомендуется, чтобы этот код был зарегистрирован для банковского счета.</span><span class="sxs-lookup"><span data-stu-id="25d79-124">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
+12. <span data-ttu-id="25d79-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="25d79-125">Click Save.</span></span>
+13. <span data-ttu-id="25d79-126">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="25d79-126">Close the page.</span></span>
+14. <span data-ttu-id="25d79-127">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="25d79-127">Click Edit.</span></span>
+15. <span data-ttu-id="25d79-128">Разверните раздел "Значения платежа по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="25d79-128">Expand the Payment defaults section.</span></span>
+16. <span data-ttu-id="25d79-129">В поле "Банковский счет" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-129">In the Bank account field, enter or select a value.</span></span>
+
+## <a name="add-a-direct-debit-mandate"></a><span data-ttu-id="25d79-130">Добавление поручения на безакцептное списание</span><span class="sxs-lookup"><span data-stu-id="25d79-130">Add a direct debit mandate</span></span>
+1. <span data-ttu-id="25d79-131">Разверните раздел "Поручения на безакцептное списание".</span><span class="sxs-lookup"><span data-stu-id="25d79-131">Expand the Direct debit mandates section.</span></span>
+2. <span data-ttu-id="25d79-132">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="25d79-132">Click Add.</span></span>
+3. <span data-ttu-id="25d79-133">В поле "Банковский счет кредитора" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-133">In the Creditor bank account field, enter or select a value.</span></span>
+    * <span data-ttu-id="25d79-134">Например, выберите DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="25d79-134">For example, select DEMF OPER.</span></span>  
+4. <span data-ttu-id="25d79-135">В поле "Дата подписи" введите дату.</span><span class="sxs-lookup"><span data-stu-id="25d79-135">In the Signature date field, enter a date.</span></span>
+5. <span data-ttu-id="25d79-136">Щелкните "Да", чтобы подтвердить обновление даты.</span><span class="sxs-lookup"><span data-stu-id="25d79-136">Click Yes to confirm the date update.</span></span>
+6. <span data-ttu-id="25d79-137">В поле "Место подписания" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="25d79-137">In the Signature location field, enter or select a value.</span></span>
+7. <span data-ttu-id="25d79-138">В поле "Ожидаемое количество платежей" введите число.</span><span class="sxs-lookup"><span data-stu-id="25d79-138">In the Expected number of payments field, enter a number.</span></span>
+8. <span data-ttu-id="25d79-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="25d79-139">Click OK.</span></span>
+9. <span data-ttu-id="25d79-140">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="25d79-140">Click Save.</span></span>
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
