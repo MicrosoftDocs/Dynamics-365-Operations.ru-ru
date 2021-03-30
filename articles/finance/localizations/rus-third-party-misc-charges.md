@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a28af7d6eefc6bdb575088d77ee8c78defb57c02
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f0f3253e1985c6d854c241ced9da88c0ea2c182c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244462"
 ---
 # <a name="third-party-miscellaneous-charges"></a>Сторонние накладные расходы
 
