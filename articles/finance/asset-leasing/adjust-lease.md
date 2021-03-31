@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219995"
 ---
 # <a name="adjust-leases"></a>Корректировка аренд
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме объясняется, как корректировать аренду. Корректировка может потребоваться, если условия аренды изменяются, аренда продляется или другие обстоятельства изменяются. Аренда активов удовлетворяет рекомендациям по изменениям в аренде, приведенным в теме 842 кодификации стандартов учета (ASC 842) и международном стандарте финансовой отчетности 16 (МСФО 16). ASC 842-20-15-1 определяет изменение аренды как любое изменение условий контракта, которые вызывают изменение в области или в отношении аренды. Параграф 39 МСФО 16 указывает, что арендополучатель должен выполнить переоценку арендного обязательства, чтобы оно отражало изменения платежей по аренде.
 
