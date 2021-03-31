@@ -17,43 +17,46 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53cb727cc0f001a6ac344d37f25273999f992d8a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f30937eb44893a3cb3587d072b685a855b0ecd3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224914"
 ---
-# <a name="take-returned-items-through-inspection"></a><span data-ttu-id="50d49-103">Прохождение возвратом процедуры проверки</span><span class="sxs-lookup"><span data-stu-id="50d49-103">Take returned items through inspection</span></span> 
+# <a name="take-returned-items-through-inspection"></a><span data-ttu-id="847e7-103">Прохождение возвратом процедуры проверки</span><span class="sxs-lookup"><span data-stu-id="847e7-103">Take returned items through inspection</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="50d49-104">Щелкните **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.</span><span class="sxs-lookup"><span data-stu-id="50d49-104">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="847e7-104">Щелкните **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.</span><span class="sxs-lookup"><span data-stu-id="847e7-104">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="50d49-105">Найдите строку заказа, соответствующую возвращенной номенклатуре, которую вы осматриваете.</span><span class="sxs-lookup"><span data-stu-id="50d49-105">Locate the order line that corresponds to the returned item that you are inspecting.</span></span>
+2.  <span data-ttu-id="847e7-105">Найдите строку заказа, соответствующую возвращенной номенклатуре, которую вы осматриваете.</span><span class="sxs-lookup"><span data-stu-id="847e7-105">Locate the order line that corresponds to the returned item that you are inspecting.</span></span>
 
     > [!NOTE]
-    > <P><span data-ttu-id="50d49-106">Карантинный заказ может быть связан просто с одним кодом номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="50d49-106">A quarantine order can be associated with just a single item number.</span></span> <span data-ttu-id="50d49-107">Если 10 номенклатур, имеющих разные коды номенклатур, возвращены в одну отгрузку и отправлены в карантин, 10 отдельных карантинных заказов созданы.</span><span class="sxs-lookup"><span data-stu-id="50d49-107">If 10 items that have different item numbers are returned in a single shipment and sent to quarantine, 10 individual quarantine orders are created.</span></span></P>
+    > <P><span data-ttu-id="847e7-106">Карантинный заказ может быть связан просто с одним кодом номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="847e7-106">A quarantine order can be associated with just a single item number.</span></span> <span data-ttu-id="847e7-107">Если 10 номенклатур, имеющих разные коды номенклатур, возвращены в одну отгрузку и отправлены в карантин, 10 отдельных карантинных заказов созданы.</span><span class="sxs-lookup"><span data-stu-id="847e7-107">If 10 items that have different item numbers are returned in a single shipment and sent to quarantine, 10 individual quarantine orders are created.</span></span></P>
 
-3.  <span data-ttu-id="50d49-108">После осмотра номенклатуры выберите значение в поле **Код метода обработки**, чтобы указать, что следует сделать с номенклатурой и как должна быть обработана соответствующая финансовая проводка.</span><span class="sxs-lookup"><span data-stu-id="50d49-108">After examining the item, make a selection in the **Disposition code** field to indicate what should be done with the item and how to handle the related financial transaction.</span></span> <span data-ttu-id="50d49-109">Примеры включают возвращение номенклатуры на склад с возвратом денег клиенту, утилизация номенклатуры с отправкой замены клиенту, или возврат номенклатуры клиенту без кредитования.</span><span class="sxs-lookup"><span data-stu-id="50d49-109">Examples include returning the item to stock and refunding the customer, scrapping the item and sending a replacement to the customer, or returning the item to the customer without credit.</span></span>
+3.  <span data-ttu-id="847e7-108">После осмотра номенклатуры выберите значение в поле **Код метода обработки**, чтобы указать, что следует сделать с номенклатурой и как должна быть обработана соответствующая финансовая проводка.</span><span class="sxs-lookup"><span data-stu-id="847e7-108">After examining the item, make a selection in the **Disposition code** field to indicate what should be done with the item and how to handle the related financial transaction.</span></span> <span data-ttu-id="847e7-109">Примеры включают возвращение номенклатуры на склад с возвратом денег клиенту, утилизация номенклатуры с отправкой замены клиенту, или возврат номенклатуры клиенту без кредитования.</span><span class="sxs-lookup"><span data-stu-id="847e7-109">Examples include returning the item to stock and refunding the customer, scrapping the item and sending a replacement to the customer, or returning the item to the customer without credit.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="50d49-110">Если нескольким возвращенным номенклатурам в одной партии невозможно присвоить одинаковый код метода обработки, следует разделить карантинный заказ (<STRONG>Функции</STRONG> &gt; <STRONG>Разделить</STRONG>), чтобы назначить отдельный код метода обработки каждой подпартии.</span><span class="sxs-lookup"><span data-stu-id="50d49-110">If multiple returned items in a single item number batch cannot be assigned the same disposition code, you must split the quarantine order (<STRONG>Functions</STRONG> &gt; <STRONG>Split</STRONG>) to assign a different disposition code to each sub-batch.</span></span></P>
+    > <P><span data-ttu-id="847e7-110">Если нескольким возвращенным номенклатурам в одной партии невозможно присвоить одинаковый код метода обработки, следует разделить карантинный заказ (<STRONG>Функции</STRONG> &gt; <STRONG>Разделить</STRONG>), чтобы назначить отдельный код метода обработки каждой подпартии.</span><span class="sxs-lookup"><span data-stu-id="847e7-110">If multiple returned items in a single item number batch cannot be assigned the same disposition code, you must split the quarantine order (<STRONG>Functions</STRONG> &gt; <STRONG>Split</STRONG>) to assign a different disposition code to each sub-batch.</span></span></P>
 
 
-4.  <span data-ttu-id="50d49-111">Закончив осмотр, щелкните **Приемка**, чтобы выпустить возвращенные номенклатуры и создать запись в журнале поступления номенклатур.</span><span class="sxs-lookup"><span data-stu-id="50d49-111">When you are finished with the inspection, click **Report as finished** to release the returned items and create an item arrival journal entry.</span></span> <span data-ttu-id="50d49-112">Лицо или подразделение, которые получают номенклатуры, затем обрабатывают журнал для номенклатур, которые будут возвращены на склад.</span><span class="sxs-lookup"><span data-stu-id="50d49-112">The person or department that receives the items then processes the journal for the items to be returned to inventory.</span></span>
+4.  <span data-ttu-id="847e7-111">Закончив осмотр, щелкните **Приемка**, чтобы выпустить возвращенные номенклатуры и создать запись в журнале поступления номенклатур.</span><span class="sxs-lookup"><span data-stu-id="847e7-111">When you are finished with the inspection, click **Report as finished** to release the returned items and create an item arrival journal entry.</span></span> <span data-ttu-id="847e7-112">Лицо или подразделение, которые получают номенклатуры, затем обрабатывают журнал для номенклатур, которые будут возвращены на склад.</span><span class="sxs-lookup"><span data-stu-id="847e7-112">The person or department that receives the items then processes the journal for the items to be returned to inventory.</span></span>
     
-    <span data-ttu-id="50d49-113">–или–</span><span class="sxs-lookup"><span data-stu-id="50d49-113">–or–</span></span>
+    <span data-ttu-id="847e7-113">–или–</span><span class="sxs-lookup"><span data-stu-id="847e7-113">–or–</span></span>
     
-    <span data-ttu-id="50d49-114">Закройте карантинный заказ и переместите номенклатуры обратно на склад с помощью функций **Запасы**.</span><span class="sxs-lookup"><span data-stu-id="50d49-114">End the quarantine order, and move the items back into inventory directly by using one of the **Inventory** functions.</span></span>
+    <span data-ttu-id="847e7-114">Закройте карантинный заказ и переместите номенклатуры обратно на склад с помощью функций **Запасы**.</span><span class="sxs-lookup"><span data-stu-id="847e7-114">End the quarantine order, and move the items back into inventory directly by using one of the **Inventory** functions.</span></span>
 
-5.  <span data-ttu-id="50d49-115">Закройте форму, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="50d49-115">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="847e7-115">Закройте форму, чтобы сохранить изменения.</span><span class="sxs-lookup"><span data-stu-id="847e7-115">Close the form to save your changes.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="50d49-116">См. также</span><span class="sxs-lookup"><span data-stu-id="50d49-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="847e7-116">См. также</span><span class="sxs-lookup"><span data-stu-id="847e7-116">See also</span></span>
 
-[<span data-ttu-id="50d49-117">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="50d49-117">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
+[<span data-ttu-id="847e7-117">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="847e7-117">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
