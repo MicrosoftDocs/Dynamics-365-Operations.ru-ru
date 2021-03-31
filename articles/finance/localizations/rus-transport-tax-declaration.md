@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d45feb3af1f1069e7f797001ccaea64c81dfc9ec
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eec421f6a9e31171a87546ad0e43c61baaf128aa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000376"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230176"
 ---
 # <a name="transport-tax-declaration-russia"></a>Декларация по транспортному налогу (Россия)
 

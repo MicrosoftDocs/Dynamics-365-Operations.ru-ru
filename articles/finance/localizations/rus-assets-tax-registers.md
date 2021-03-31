@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: be2418355f09b131d2d6656a8272a917a923f95e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a26f1916b2fd02fe6a7f7afc3d5c92d81a176563
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005735"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228066"
 ---
 # <a name="fixed-assets-and-intangible-assets-registers"></a>Регистры основных средств и нематериальных активов
 [!include [banner](../includes/banner.md)]
