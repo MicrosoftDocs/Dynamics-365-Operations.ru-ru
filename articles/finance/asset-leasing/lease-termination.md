@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131304"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207311"
 ---
 # <a name="propose-a-lease-for-termination"></a>Предложение аренды для завершения
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Если аренда была прекращена раньше, аренда актива может записать запись журнала завершения, чтобы списать арендное обязательство, актив в форме права пользования (ФПП) и накопленной амортизации, а также журнала прибылей или убытков. Процесс раннего завершения прерывает аренду и ее связанные журналы аренды. Он не прерывает отдельные книги аренды. В этой теме описывается функция, позволяющая предложить аренду для завершения и обработать запись в журнале прекращения аренды.
 

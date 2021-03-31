@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213826"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций среды оценки Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -135,17 +135,17 @@ ms.locfileid: "4993458"
 
 | Наименование маркера | Маркер |
 |-------------------|-------|
-| Номер приказа      | %salesid% |
+| Порядковый номер      | %salesid% |
 | Имя клиента   | %customername% |
-| Адрес поставки  | %deliveryaddress% |
+| Адрес доставки  | %deliveryaddress% |
 | Адрес выставления счета   | %customeraddress% |
-| Дата заказа        | %shipdate% |
+| Кассовый ордер за дату        | %shipdate% |
 | Способ поставки     | %modeofdelivery% |
 | Скидка          | %discount% |
 | Налог         | %tax% |
 | Итог по заказу       | %total% |
 
-#### <a name="sales-line"></a>Строка продажи
+#### <a name="sales-line"></a>Строка продаж
 
 Следующие маркеры заменяются значениями для каждого продукта в заказе.
 
@@ -159,7 +159,7 @@ ms.locfileid: "4993458"
 | Наименование продукта:           | %lineproductname% |
 | описание            | %lineproductdescription% |
 | Количество               | %linequantity% |
-| Цена за единицу в строке        | %lineprice% (verify) |
+| Цена за единицу в строке        | %lineprice% (проверить) |
 | Итого по номенклатуре строки        | %linenetamount% |
 | скидка по строке          | %linediscount% |
 | Дата отгрузки              | %lineshipdate% |

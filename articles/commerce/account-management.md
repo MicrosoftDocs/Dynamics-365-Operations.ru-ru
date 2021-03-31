@@ -1,5 +1,5 @@
 ---
-title: Страницы и модули управления учетными записями
+title: Страницы и модули управления учетной записью
 description: В этом разделе рассматриваются страницы и модули управления учетными записями в Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c465b8883438eee886b177274bf89ddb86aa00b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206639"
 ---
-# <a name="account-management-pages-and-modules"></a>Страницы и модули управления учетными записями
+# <a name="account-management-pages-and-modules"></a>Страницы и модули управления учетной записью
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе рассматриваются страницы и модули управления учетными записями в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Управление учетными записями относится к группе страниц, используемых для управления информацией, относящейся к учетным записям пользователей в Dynamics 365 Commerce. Страницы управления учетными записями включают целевую страницу управления учетными записями, страницу профиля пользователя, страницу адрес пользователя, страницу журнал заказов, страницу сведений о заказе, страницу программы лояльности и страницу списка желаний.
 

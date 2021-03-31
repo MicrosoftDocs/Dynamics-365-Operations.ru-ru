@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205130"
 ---
 # <a name="store-selector-module"></a>Модуль выбора магазина
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модуль выбора магазина, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Клиенты могут использовать модуль выбора магазина для комплектации продукта в выбранном магазине после покупки в сети. В Commerce версии 10.0.13 модуль выбора магазина также содержит дополнительные возможности, позволяющие демонстрировать страницу **Поиск магазина** с ближайшими магазинами.
 
