@@ -15,28 +15,31 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac39cc87e69f65117a7463b12d90ce1bb122847f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dcd6162d2b8722f9114b438cf853c1ff1ab9b840
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218943"
 ---
-# <a name="define-cost-control-units"></a><span data-ttu-id="9aef3-103">Определение единиц управления затратами</span><span class="sxs-lookup"><span data-stu-id="9aef3-103">Define cost control units</span></span>
+# <a name="define-cost-control-units"></a><span data-ttu-id="fb69b-103">Определение единиц управления затратами</span><span class="sxs-lookup"><span data-stu-id="fb69b-103">Define cost control units</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9aef3-104">Эта процедура показывает, как определить единицы управления затратами в книге учета затрат.</span><span class="sxs-lookup"><span data-stu-id="9aef3-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="9aef3-105">Вам нужно выбрать аналитику объектов затрат, для которой вы хотите управлять затратами в книге.</span><span class="sxs-lookup"><span data-stu-id="9aef3-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="9aef3-106">Элементы аналитики объектов затрат преобразуются в объекты затрат единиц управления затратами.</span><span class="sxs-lookup"><span data-stu-id="9aef3-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="9aef3-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USP2.</span><span class="sxs-lookup"><span data-stu-id="9aef3-107">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="fb69b-104">Эта процедура показывает, как определить единицы управления затратами в книге учета затрат.</span><span class="sxs-lookup"><span data-stu-id="fb69b-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="fb69b-105">Вам нужно выбрать аналитику объектов затрат, для которой вы хотите управлять затратами в книге.</span><span class="sxs-lookup"><span data-stu-id="fb69b-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="fb69b-106">Элементы аналитики объектов затрат преобразуются в объекты затрат единиц управления затратами.</span><span class="sxs-lookup"><span data-stu-id="fb69b-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="fb69b-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USP2.</span><span class="sxs-lookup"><span data-stu-id="fb69b-107">The demo data company used to create this procedure is USP2.</span></span>
 
-1. <span data-ttu-id="9aef3-108">Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="9aef3-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="9aef3-109">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9aef3-109">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="9aef3-110">Щелкните "Единицы управления".</span><span class="sxs-lookup"><span data-stu-id="9aef3-110">Click Control units.</span></span>
-4. <span data-ttu-id="9aef3-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9aef3-111">Click New.</span></span>
-5. <span data-ttu-id="9aef3-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9aef3-112">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="9aef3-113">В поле "Аналитика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9aef3-113">In the Dimension field, enter or select a value.</span></span>
-7. <span data-ttu-id="9aef3-114">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="9aef3-114">Click Save.</span></span>
-8. <span data-ttu-id="9aef3-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9aef3-115">Click New.</span></span>
-9. <span data-ttu-id="9aef3-116">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9aef3-116">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="9aef3-117">В поле "Аналитика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9aef3-117">In the Dimension field, enter or select a value.</span></span>
-11. <span data-ttu-id="9aef3-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="9aef3-118">Click Save.</span></span>
+1. <span data-ttu-id="fb69b-108">Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="fb69b-108">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="fb69b-109">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="fb69b-109">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="fb69b-110">Щелкните "Единицы управления".</span><span class="sxs-lookup"><span data-stu-id="fb69b-110">Click Control units.</span></span>
+4. <span data-ttu-id="fb69b-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="fb69b-111">Click New.</span></span>
+5. <span data-ttu-id="fb69b-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="fb69b-112">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="fb69b-113">В поле "Аналитика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fb69b-113">In the Dimension field, enter or select a value.</span></span>
+7. <span data-ttu-id="fb69b-114">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="fb69b-114">Click Save.</span></span>
+8. <span data-ttu-id="fb69b-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="fb69b-115">Click New.</span></span>
+9. <span data-ttu-id="fb69b-116">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="fb69b-116">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="fb69b-117">В поле "Аналитика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fb69b-117">In the Dimension field, enter or select a value.</span></span>
+11. <span data-ttu-id="fb69b-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="fb69b-118">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

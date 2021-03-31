@@ -1,5 +1,5 @@
 ---
-title: Настройка интернет-канала
+title: Настройка канала онлайн-торговли
 description: В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
@@ -16,120 +16,123 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 89a28d6d4f435b9cf0c39afc64c3caaf0b24ba19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 44cc63560c048031c8315dc3f15ef07583bdc266
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218353"
 ---
-# <a name="set-up-an-online-channel"></a><span data-ttu-id="aeb4d-103">Настройка интернет-канала</span><span class="sxs-lookup"><span data-stu-id="aeb4d-103">Set up an online channel</span></span>
+# <a name="set-up-an-online-channel"></a><span data-ttu-id="0c709-103">Настройка канала онлайн-торговли</span><span class="sxs-lookup"><span data-stu-id="0c709-103">Set up an online channel</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="aeb4d-104">В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-104">This topic describes how to create a new online channel in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="0c709-104">В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="0c709-104">This topic describes how to create a new online channel in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="aeb4d-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="aeb4d-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="0c709-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="0c709-105">Overview</span></span>
 
-<span data-ttu-id="aeb4d-106">Dynamics 365 Commerce поддерживает несколько розничных каналов.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="aeb4d-107">Эти розничные каналы включают в себя интернет-магазины, центры обработки вызовов и розничные магазины (также называются физическими магазинами).</span><span class="sxs-lookup"><span data-stu-id="aeb4d-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="aeb4d-108">Интернет-магазины дает возможность покупать продукты не только в розничных магазинах торговца, но и в интернет-магазине.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-108">Online stores give customers the option of purchasing products from the retailer's online store in addition to its retail stores.</span></span>
+<span data-ttu-id="0c709-106">Dynamics 365 Commerce поддерживает несколько розничных каналов.</span><span class="sxs-lookup"><span data-stu-id="0c709-106">Dynamics 365 Commerce supports multiple retail channels.</span></span> <span data-ttu-id="0c709-107">Эти розничные каналы включают в себя интернет-магазины, центры обработки вызовов и розничные магазины (также называются физическими магазинами).</span><span class="sxs-lookup"><span data-stu-id="0c709-107">These retail channels include online stores, call centers, and retail stores (also known as brick-and-mortar stores).</span></span> <span data-ttu-id="0c709-108">Интернет-магазины дает возможность покупать продукты не только в розничных магазинах торговца, но и в интернет-магазине.</span><span class="sxs-lookup"><span data-stu-id="0c709-108">Online stores give customers the option of purchasing products from the retailer's online store in addition to its retail stores.</span></span>
 
-<span data-ttu-id="aeb4d-109">Чтобы создать интернет-магазин в модуле Commerce, необходимо сначала создать интернет-канал.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-109">To create an online store in Commerce, you must first create an online channel.</span></span> <span data-ttu-id="aeb4d-110">Перед созданием нового интернет-канала убедитесь, что вы соблюдаете [Необходимые условия для настройки каналов](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="aeb4d-110">Before you create a new online channel, ensure that you have completed the [Channel set up prerequisites](channels-prerequisites.md).</span></span>
+<span data-ttu-id="0c709-109">Чтобы создать интернет-магазин в модуле Commerce, необходимо сначала создать интернет-канал.</span><span class="sxs-lookup"><span data-stu-id="0c709-109">To create an online store in Commerce, you must first create an online channel.</span></span> <span data-ttu-id="0c709-110">Перед созданием нового интернет-канала убедитесь, что вы соблюдаете [Необходимые условия для настройки каналов](channels-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="0c709-110">Before you create a new online channel, ensure that you have completed the [Channel set up prerequisites](channels-prerequisites.md).</span></span>
 
-<span data-ttu-id="aeb4d-111">Прежде чем можно будет создать новый сайт, необходимо создать по крайней мере один интернет-магазин в Commerce.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-111">Before you can create a new site, at least one online store must be created in Commerce.</span></span> <span data-ttu-id="aeb4d-112">Дополнительные сведения см. в разделе [Создание сайта электронной коммерции](create-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="aeb4d-112">For more information, see [Create an e-Commerce site](create-ecommerce-site.md).</span></span>
+<span data-ttu-id="0c709-111">Прежде чем можно будет создать новый сайт, необходимо создать по крайней мере один интернет-магазин в Commerce.</span><span class="sxs-lookup"><span data-stu-id="0c709-111">Before you can create a new site, at least one online store must be created in Commerce.</span></span> <span data-ttu-id="0c709-112">Дополнительные сведения см. в разделе [Создание сайта электронной коммерции](create-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="0c709-112">For more information, see [Create an e-Commerce site](create-ecommerce-site.md).</span></span>
 
-## <a name="create-and-configure-a-new-online-channel"></a><span data-ttu-id="aeb4d-113">Создание и настройка нового интернет-канала</span><span class="sxs-lookup"><span data-stu-id="aeb4d-113">Create and configure a new online channel</span></span>
+## <a name="create-and-configure-a-new-online-channel"></a><span data-ttu-id="0c709-113">Создание и настройка нового интернет-канала</span><span class="sxs-lookup"><span data-stu-id="0c709-113">Create and configure a new online channel</span></span>
 
-<span data-ttu-id="aeb4d-114">Чтобы создать и настроить новый интернет-канал, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-114">To create and configure a new online channel, follow these steps.</span></span>
+<span data-ttu-id="0c709-114">Чтобы создать и настроить новый интернет-канал, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0c709-114">To create and configure a new online channel, follow these steps.</span></span>
 
-1. <span data-ttu-id="aeb4d-115">В области переходов перейдите **Модули \> Каналы \> Интернет-магазины**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-115">In the navigation pane, go to **Modules \> Channels \> Online Stores**.</span></span>
-1. <span data-ttu-id="aeb4d-116">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-116">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="aeb4d-117">Вставьте имя для нового канала в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-117">In the **Name** field, provide a name for the new channel.</span></span>
-1. <span data-ttu-id="aeb4d-118">В раскрывающемся списке **Юридическое лицо** введите соответствующее юридическое лицо.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-118">In the **Legal entity** drop-down, enter the appropriate legal entity.</span></span>
-1. <span data-ttu-id="aeb4d-119">В раскрывающемся списке **Склад** введите соответствующий склад.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-119">In the **Warehouse** drop-down, enter the appropriate warehouse.</span></span>
-1. <span data-ttu-id="aeb4d-120">В поле **Часовой пояс магазина** выберите нужный часовой пояс.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-120">In the **Store time zone** field, select the appropriate time zone.</span></span>
-1. <span data-ttu-id="aeb4d-121">В поле **Валюта** выберите подходящую валюту.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-121">In the **Currency** field, select the appropriate currency.</span></span>
-1. <span data-ttu-id="aeb4d-122">В поле **Клиент по умолчанию** укажите допустимый клиент по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-122">In the **Default customer** field, provide a valid default customer.</span></span>
-1. <span data-ttu-id="aeb4d-123">В поле **Адресная книга клиентов** укажите допустимую адресную книгу.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-123">In the **Customer address book** field, provide a valid address book.</span></span>
-1. <span data-ttu-id="aeb4d-124">В поле **Профиль функциональности** выберите профиль функциональности, если это применимо.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-124">In the **Functionality profile** field, select a functionality profile if applicable.</span></span>
-1. <span data-ttu-id="aeb4d-125">В поле **Профиль уведомлений по электронной почте** укажите допустимый профиль уведомлений по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-125">In the **Email notification profile** field, provide a valid email notification profile.</span></span>
-1. <span data-ttu-id="aeb4d-126">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-126">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="0c709-115">В области переходов перейдите **Модули \> Каналы \> Интернет-магазины**.</span><span class="sxs-lookup"><span data-stu-id="0c709-115">In the navigation pane, go to **Modules \> Channels \> Online Stores**.</span></span>
+1. <span data-ttu-id="0c709-116">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="0c709-116">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="0c709-117">Вставьте имя для нового канала в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="0c709-117">In the **Name** field, provide a name for the new channel.</span></span>
+1. <span data-ttu-id="0c709-118">В раскрывающемся списке **Юридическое лицо** введите соответствующее юридическое лицо.</span><span class="sxs-lookup"><span data-stu-id="0c709-118">In the **Legal entity** drop-down, enter the appropriate legal entity.</span></span>
+1. <span data-ttu-id="0c709-119">В раскрывающемся списке **Склад** введите соответствующий склад.</span><span class="sxs-lookup"><span data-stu-id="0c709-119">In the **Warehouse** drop-down, enter the appropriate warehouse.</span></span>
+1. <span data-ttu-id="0c709-120">В поле **Часовой пояс магазина** выберите нужный часовой пояс.</span><span class="sxs-lookup"><span data-stu-id="0c709-120">In the **Store time zone** field, select the appropriate time zone.</span></span>
+1. <span data-ttu-id="0c709-121">В поле **Валюта** выберите подходящую валюту.</span><span class="sxs-lookup"><span data-stu-id="0c709-121">In the **Currency** field, select the appropriate currency.</span></span>
+1. <span data-ttu-id="0c709-122">В поле **Клиент по умолчанию** укажите допустимый клиент по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0c709-122">In the **Default customer** field, provide a valid default customer.</span></span>
+1. <span data-ttu-id="0c709-123">В поле **Адресная книга клиентов** укажите допустимую адресную книгу.</span><span class="sxs-lookup"><span data-stu-id="0c709-123">In the **Customer address book** field, provide a valid address book.</span></span>
+1. <span data-ttu-id="0c709-124">В поле **Профиль функциональности** выберите профиль функциональности, если это применимо.</span><span class="sxs-lookup"><span data-stu-id="0c709-124">In the **Functionality profile** field, select a functionality profile if applicable.</span></span>
+1. <span data-ttu-id="0c709-125">В поле **Профиль уведомлений по электронной почте** укажите допустимый профиль уведомлений по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="0c709-125">In the **Email notification profile** field, provide a valid email notification profile.</span></span>
+1. <span data-ttu-id="0c709-126">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0c709-126">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="aeb4d-127">На следующем рисунке показано создание нового интернет-канала.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-127">The following image shows the creation of a new online channel.</span></span>
+<span data-ttu-id="0c709-127">На следующем рисунке показано создание нового интернет-канала.</span><span class="sxs-lookup"><span data-stu-id="0c709-127">The following image shows the creation of a new online channel.</span></span>
 
 ![Новый интернет-канал](media/channel-setup-online-1.png)
 
-<span data-ttu-id="aeb4d-129">На следующем рисунке показан пример интернет-канала.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-129">The following image shows an example online channel.</span></span>
+<span data-ttu-id="0c709-129">На следующем рисунке показан пример интернет-канала.</span><span class="sxs-lookup"><span data-stu-id="0c709-129">The following image shows an example online channel.</span></span>
 
 ![Пример интернет-канала](media/channel-setup-online-2.png)
 
-## <a name="set-up-languages"></a><span data-ttu-id="aeb4d-131">Настройка языков</span><span class="sxs-lookup"><span data-stu-id="aeb4d-131">Set up languages</span></span>
+## <a name="set-up-languages"></a><span data-ttu-id="0c709-131">Настройка языков</span><span class="sxs-lookup"><span data-stu-id="0c709-131">Set up languages</span></span>
 
-<span data-ttu-id="aeb4d-132">Если веб-узел электронной коммерции поддерживает несколько языков, разверните раздел **Языки** и добавьте дополнительные языки по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-132">If your e-Commerce site will support multiple languages, expand the **Languages** section and add additional languages as needed.</span></span>
+<span data-ttu-id="0c709-132">Если веб-узел электронной коммерции поддерживает несколько языков, разверните раздел **Языки** и добавьте дополнительные языки по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="0c709-132">If your e-Commerce site will support multiple languages, expand the **Languages** section and add additional languages as needed.</span></span>
 
-## <a name="set-up-payment-account"></a><span data-ttu-id="aeb4d-133">Настрое счета оплаты</span><span class="sxs-lookup"><span data-stu-id="aeb4d-133">Set up payment account</span></span>
+## <a name="set-up-payment-account"></a><span data-ttu-id="0c709-133">Настрое счета оплаты</span><span class="sxs-lookup"><span data-stu-id="0c709-133">Set up payment account</span></span>
 
-<span data-ttu-id="aeb4d-134">В разделе **Счет оплаты** можно добавить стороннего поставщика платежа.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-134">From within the **Payment account** section, you can add a third-party payment provider.</span></span> <span data-ttu-id="aeb4d-135">Информацию о настройках соединителя платежей Ayden см. в разделе [Соединитель платежей Dynamics 365 для Adyen](../retail/dev-itpro/adyen-connector.md).</span><span class="sxs-lookup"><span data-stu-id="aeb4d-135">For information on setting up an Adyen payment connector, see [Dynamics 365 Payment Connector for Adyen](../retail/dev-itpro/adyen-connector.md).</span></span>
+<span data-ttu-id="0c709-134">В разделе **Счет оплаты** можно добавить стороннего поставщика платежа.</span><span class="sxs-lookup"><span data-stu-id="0c709-134">From within the **Payment account** section, you can add a third-party payment provider.</span></span> <span data-ttu-id="0c709-135">Информацию о настройках соединителя платежей Ayden см. в разделе [Соединитель платежей Dynamics 365 для Adyen](../retail/dev-itpro/adyen-connector.md).</span><span class="sxs-lookup"><span data-stu-id="0c709-135">For information on setting up an Adyen payment connector, see [Dynamics 365 Payment Connector for Adyen](../retail/dev-itpro/adyen-connector.md).</span></span>
 
-## <a name="additional-channel-setup"></a><span data-ttu-id="aeb4d-136">Дополнительная настройка канала</span><span class="sxs-lookup"><span data-stu-id="aeb4d-136">Additional channel setup</span></span>
+## <a name="additional-channel-setup"></a><span data-ttu-id="0c709-136">Дополнительная настройка канала</span><span class="sxs-lookup"><span data-stu-id="0c709-136">Additional channel setup</span></span>
 
-<span data-ttu-id="aeb4d-137">Дополнительные задачи, которые необходимы для настройки интернет-канала, включают настройку способов оплаты, способов поставки и назначения группы выполнения.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-137">Additional tasks that are required for online channel setup include setting up payment methods, modes of delivery, and the fulfillment group assignment.</span></span>
+<span data-ttu-id="0c709-137">Дополнительные задачи, которые необходимы для настройки интернет-канала, включают настройку способов оплаты, способов поставки и назначения группы выполнения.</span><span class="sxs-lookup"><span data-stu-id="0c709-137">Additional tasks that are required for online channel setup include setting up payment methods, modes of delivery, and the fulfillment group assignment.</span></span>
 
-<span data-ttu-id="aeb4d-138">На следующем рисунке показаны варианты настройки **Режимы поставки**, **Способы оплаты** и **Назначение группы выполнения** на вкладке **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-138">The following image shows **Modes of delivery**, **Payment methods**, and **Fulfillment group assignment** setup options on the **Set up** tab.</span></span>
+<span data-ttu-id="0c709-138">На следующем рисунке показаны варианты настройки **Режимы поставки**, **Способы оплаты** и **Назначение группы выполнения** на вкладке **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="0c709-138">The following image shows **Modes of delivery**, **Payment methods**, and **Fulfillment group assignment** setup options on the **Set up** tab.</span></span>
 
 ![Дополнительные действия по настройке интернет-канала](media/channel-setup-online-3.png)
 
-### <a name="set-up-payment-methods"></a><span data-ttu-id="aeb4d-140">Настройка способов оплаты</span><span class="sxs-lookup"><span data-stu-id="aeb4d-140">Set up payment methods</span></span>
+### <a name="set-up-payment-methods"></a><span data-ttu-id="0c709-140">Настройка способов оплаты</span><span class="sxs-lookup"><span data-stu-id="0c709-140">Set up payment methods</span></span>
 
-<span data-ttu-id="aeb4d-141">Для настройки способов оплаты для каждого типа платежа, поддерживаемого в этом канале, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-141">To set up payment methods, for each payment type supported on this channel follow these steps.</span></span>
+<span data-ttu-id="0c709-141">Для настройки способов оплаты для каждого типа платежа, поддерживаемого в этом канале, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0c709-141">To set up payment methods, for each payment type supported on this channel follow these steps.</span></span>
 
-1. <span data-ttu-id="aeb4d-142">На панели операций выберите вкладку **Настройка**, а затем выберите **Способы оплаты**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-142">On the action pane, select the **Set Up** tab, then select **Payment methods**.</span></span>
-1. <span data-ttu-id="aeb4d-143">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-143">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="aeb4d-144">В области переходов выберите нужный способ оплаты.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-144">In the navigation pane, select a desired payment method.</span></span>
-1. <span data-ttu-id="aeb4d-145">В разделе **Общие** введите **Имя операции** и настройте другие необходимые элементы.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-145">In the **General** section, provide an **Operation name** and configure any other desired settings.</span></span>
-1. <span data-ttu-id="aeb4d-146">Настройте дополнительные параметры, необходимые для типа оплаты.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-146">Configure any additional settings as required for the payment type.</span></span>
-1. <span data-ttu-id="aeb4d-147">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-147">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="0c709-142">На панели операций выберите вкладку **Настройка**, а затем выберите **Способы оплаты**.</span><span class="sxs-lookup"><span data-stu-id="0c709-142">On the action pane, select the **Set Up** tab, then select **Payment methods**.</span></span>
+1. <span data-ttu-id="0c709-143">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="0c709-143">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="0c709-144">В области переходов выберите нужный способ оплаты.</span><span class="sxs-lookup"><span data-stu-id="0c709-144">In the navigation pane, select a desired payment method.</span></span>
+1. <span data-ttu-id="0c709-145">В разделе **Общие** введите **Имя операции** и настройте другие необходимые элементы.</span><span class="sxs-lookup"><span data-stu-id="0c709-145">In the **General** section, provide an **Operation name** and configure any other desired settings.</span></span>
+1. <span data-ttu-id="0c709-146">Настройте дополнительные параметры, необходимые для типа оплаты.</span><span class="sxs-lookup"><span data-stu-id="0c709-146">Configure any additional settings as required for the payment type.</span></span>
+1. <span data-ttu-id="0c709-147">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0c709-147">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="aeb4d-148">На следующем рисунке показан пример способы наличной оплаты.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-148">The following image shows an example of a cash payment method.</span></span>
+<span data-ttu-id="0c709-148">На следующем рисунке показан пример способы наличной оплаты.</span><span class="sxs-lookup"><span data-stu-id="0c709-148">The following image shows an example of a cash payment method.</span></span>
 
 ![Пример способов оплаты](media/channel-setup-retail-5.png)
 
-### <a name="set-up-modes-of-delivery"></a><span data-ttu-id="aeb4d-150">Настройка способов поставки</span><span class="sxs-lookup"><span data-stu-id="aeb4d-150">Set up modes of delivery</span></span>
+### <a name="set-up-modes-of-delivery"></a><span data-ttu-id="0c709-150">Настройка способов поставки</span><span class="sxs-lookup"><span data-stu-id="0c709-150">Set up modes of delivery</span></span>
 
-<span data-ttu-id="aeb4d-151">Настроенные способы поставки можно просмотреть, выбрав **Способы поставки** на вкладке **Настройка** на **панели операций**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-151">You can see the configured modes of delivery by selecting **Modes of delivery** from the **Set up** tab on the **Action pane**.</span></span>  
+<span data-ttu-id="0c709-151">Настроенные способы поставки можно просмотреть, выбрав **Способы поставки** на вкладке **Настройка** на **панели операций**.</span><span class="sxs-lookup"><span data-stu-id="0c709-151">You can see the configured modes of delivery by selecting **Modes of delivery** from the **Set up** tab on the **Action pane**.</span></span>  
 
-<span data-ttu-id="aeb4d-152">Чтобы изменить или добавить способ поставки, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-152">To change or add a mode of delivery, follow these steps.</span></span>
+<span data-ttu-id="0c709-152">Чтобы изменить или добавить способ поставки, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0c709-152">To change or add a mode of delivery, follow these steps.</span></span>
 
-1. <span data-ttu-id="aeb4d-153">В области переходов перейдите **Модули \> Управление запасами \> Режимы поставки**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-153">In the navigation pane, go to **Modules \> Inventory management \> Modes of delivery**.</span></span>
-1. <span data-ttu-id="aeb4d-154">В области действий выберите **Создать**, чтобы создать новый способ поставки, или выберите существующий режим.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-154">On the action pane, select **New** to create a new mode of delivery, or select an existing mode.</span></span>
-1. <span data-ttu-id="aeb4d-155">В разделе **Каналы розничной торговли** выберите **Добавить строку**, чтобы добавить канал.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-155">In the **Retail channels** section, select **Add line** to add the channel.</span></span> <span data-ttu-id="aeb4d-156">Добавление каналов с помощью узлов организации вместо добавления каждого канала по отдельности может ускорить добавление каналов.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-156">Adding channels using organization nodes instead of adding each channel individually can streamline adding channels.</span></span>
+1. <span data-ttu-id="0c709-153">В области переходов перейдите **Модули \> Управление запасами \> Режимы поставки**.</span><span class="sxs-lookup"><span data-stu-id="0c709-153">In the navigation pane, go to **Modules \> Inventory management \> Modes of delivery**.</span></span>
+1. <span data-ttu-id="0c709-154">В области действий выберите **Создать**, чтобы создать новый способ поставки, или выберите существующий режим.</span><span class="sxs-lookup"><span data-stu-id="0c709-154">On the action pane, select **New** to create a new mode of delivery, or select an existing mode.</span></span>
+1. <span data-ttu-id="0c709-155">В разделе **Каналы розничной торговли** выберите **Добавить строку**, чтобы добавить канал.</span><span class="sxs-lookup"><span data-stu-id="0c709-155">In the **Retail channels** section, select **Add line** to add the channel.</span></span> <span data-ttu-id="0c709-156">Добавление каналов с помощью узлов организации вместо добавления каждого канала по отдельности может ускорить добавление каналов.</span><span class="sxs-lookup"><span data-stu-id="0c709-156">Adding channels using organization nodes instead of adding each channel individually can streamline adding channels.</span></span>
 
-<span data-ttu-id="aeb4d-157">На следующем рисунке показан пример режима поставки.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-157">The following image shows an example of a mode of delivery.</span></span>
+<span data-ttu-id="0c709-157">На следующем рисунке показан пример режима поставки.</span><span class="sxs-lookup"><span data-stu-id="0c709-157">The following image shows an example of a mode of delivery.</span></span>
 
 ![Настройка способов поставки](media/channel-setup-retail-7.png)
 
-### <a name="set-up-a-fulfillment-group-assignment"></a><span data-ttu-id="aeb4d-159">Настройка назначения группы выполнения</span><span class="sxs-lookup"><span data-stu-id="aeb4d-159">Set up a fulfillment group assignment</span></span>
+### <a name="set-up-a-fulfillment-group-assignment"></a><span data-ttu-id="0c709-159">Настройка назначения группы выполнения</span><span class="sxs-lookup"><span data-stu-id="0c709-159">Set up a fulfillment group assignment</span></span>
 
-<span data-ttu-id="aeb4d-160">Чтобы настроить назначение группы выполнения, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-160">To set up a fulfillment group assignment, follow these steps.</span></span>
+<span data-ttu-id="0c709-160">Чтобы настроить назначение группы выполнения, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0c709-160">To set up a fulfillment group assignment, follow these steps.</span></span>
 
-1. <span data-ttu-id="aeb4d-161">На панели операций выберите вкладку **Настройка**, а затем выберите **Назначение группы выполнения**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-161">On the action pane, select the **Set up** tab, then select **Fulfillment group assignment**.</span></span>
-1. <span data-ttu-id="aeb4d-162">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-162">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="aeb4d-163">В раскрывающемся списке **Группа выполнения** выберите группу выполнения.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-163">In the **Fulfillment group** drop-down list, select a fulfillment group.</span></span>
-1. <span data-ttu-id="aeb4d-164">В **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-164">In the **Description** drop-down list, enter a description.</span></span>
-1. <span data-ttu-id="aeb4d-165">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-165">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="0c709-161">На панели операций выберите вкладку **Настройка**, а затем выберите **Назначение группы выполнения**.</span><span class="sxs-lookup"><span data-stu-id="0c709-161">On the action pane, select the **Set up** tab, then select **Fulfillment group assignment**.</span></span>
+1. <span data-ttu-id="0c709-162">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="0c709-162">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="0c709-163">В раскрывающемся списке **Группа выполнения** выберите группу выполнения.</span><span class="sxs-lookup"><span data-stu-id="0c709-163">In the **Fulfillment group** drop-down list, select a fulfillment group.</span></span>
+1. <span data-ttu-id="0c709-164">В **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="0c709-164">In the **Description** drop-down list, enter a description.</span></span>
+1. <span data-ttu-id="0c709-165">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0c709-165">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="aeb4d-166">На следующем рисунке показан пример настройки назначения группы выполнения.</span><span class="sxs-lookup"><span data-stu-id="aeb4d-166">The following image shows an example of a fulfillment group assignment setup.</span></span>
+<span data-ttu-id="0c709-166">На следующем рисунке показан пример настройки назначения группы выполнения.</span><span class="sxs-lookup"><span data-stu-id="0c709-166">The following image shows an example of a fulfillment group assignment setup.</span></span>
 
 ![Настройка назначения группы выполнения](media/channel-setup-retail-9.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="aeb4d-168">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="aeb4d-168">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0c709-168">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="0c709-168">Additional resources</span></span>
 
-[<span data-ttu-id="aeb4d-169">Обзор каналов</span><span class="sxs-lookup"><span data-stu-id="aeb4d-169">Channels overview</span></span>](channels-overview.md)
+[<span data-ttu-id="0c709-169">Обзор каналов</span><span class="sxs-lookup"><span data-stu-id="0c709-169">Channels overview</span></span>](channels-overview.md)
 
-[<span data-ttu-id="aeb4d-170">Необходимые условия для настройки каналов</span><span class="sxs-lookup"><span data-stu-id="aeb4d-170">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="0c709-170">Необходимые условия для настройки каналов</span><span class="sxs-lookup"><span data-stu-id="0c709-170">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="aeb4d-171">Настройка канала розничной торговли</span><span class="sxs-lookup"><span data-stu-id="aeb4d-171">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="0c709-171">Настройка канала розничной торговли</span><span class="sxs-lookup"><span data-stu-id="0c709-171">Set up a retail channel</span></span>](channel-setup-retail.md)
 
-[<span data-ttu-id="aeb4d-172">Настройка канала центра обработки вызовов</span><span class="sxs-lookup"><span data-stu-id="aeb4d-172">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+[<span data-ttu-id="0c709-172">Настройка канала центра обработки вызовов</span><span class="sxs-lookup"><span data-stu-id="0c709-172">Set up a call center channel</span></span>](channel-setup-callcenter.md)
 
-[<span data-ttu-id="aeb4d-173">Соединитель платежей Dynamics 365 для Adyen</span><span class="sxs-lookup"><span data-stu-id="aeb4d-173">Dynamics 365 Payment Connector for Adyen</span></span>](../retail/dev-itpro/adyen-connector.md)
+[<span data-ttu-id="0c709-173">Соединитель платежей Dynamics 365 для Adyen</span><span class="sxs-lookup"><span data-stu-id="0c709-173">Dynamics 365 Payment Connector for Adyen</span></span>](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
