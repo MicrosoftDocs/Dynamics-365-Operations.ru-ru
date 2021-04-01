@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5594b81d09eade263487244a14c0305d589ff94e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91614cda804cae4574fce4c9cfb31c63d876f19b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238638"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Определение гипотезы и определение метрики успеха для эксперимента
 Первый этап жизненного цикла эксперимента включает в себя определение гипотезы для эксперимента и определение метрик, которые вы будете отслеживать для оценки успеха. На следующей схеме показаны все шаги [настройки и запуска эксперимента](experimentation-overview.md) на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах. 
