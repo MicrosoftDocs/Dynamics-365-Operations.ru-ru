@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ae2627bbced566ad3de70a022f1bc17cc2b46231
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1076cdd3dad5322497fb1a26969565afb1d4f725
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240563"
 ---
 # <a name="deferrals-counting-russia"></a>Инвентаризация РБП (Россия)
 
