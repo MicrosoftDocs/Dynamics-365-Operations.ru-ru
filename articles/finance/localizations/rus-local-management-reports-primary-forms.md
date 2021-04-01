@@ -17,12 +17,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 87799966234a56ebb3f22579852665226d5a3920
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 77b1dd160191f193289617f7c0bf37e8632e590a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154075"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232415"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 

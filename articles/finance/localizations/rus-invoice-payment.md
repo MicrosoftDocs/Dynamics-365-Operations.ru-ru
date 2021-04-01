@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9e84021925ce6f272902b854cb4edf6dde89c24f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 283578bfcf467832ca7ee7b3960316050b9c6f76
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232417"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]

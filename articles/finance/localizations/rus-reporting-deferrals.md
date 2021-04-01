@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d5a00180bc05334186df9e674cf03c0dbe762f5c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f2ba9883277fbe9e60b2342192a01dc35d05ff88
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235112"
 ---
 # <a name="reporting-for-deferrals-russia"></a>Отчетность по РБП (Россия)
 

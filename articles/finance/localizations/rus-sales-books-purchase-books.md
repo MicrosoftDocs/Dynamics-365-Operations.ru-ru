@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: df3b7f1adeff2c457e66a1825addacf00e2fdd66
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: 579888b441a07a48cc8392305ee3cb7cbf824a2b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060666"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235106"
 ---
 # <a name="sales-books-purchase-books-and-invoice-factures-journals"></a>Книги продаж, книги покупок и журналы счетов-фактур
 
