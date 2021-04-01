@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: abe030bc568dfb83adfa43c379a2ca433b9dda73
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 374c157c96cb40bc3b754b9006181bb7b79e8382
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240544"
 ---
 # <a name="financial-reporting-russia"></a>Финансовая отчетность (Россия)
 
