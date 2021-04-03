@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 1290cf971e7702affa325640a2b28ac64d74744e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093394"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563008"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI анализа учета затрат
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Анализ учета затрат**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое **Анализ учета затрат** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 

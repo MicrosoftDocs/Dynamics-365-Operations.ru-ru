@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0c2d782cd405eae1c8e6cda22c3e1e2273e11365
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a60ef9c33660fa38cca7da6ae21616b8e72e2586
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002746"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242832"
 ---
 # <a name="agreements"></a>Договоры
 [!include [banner](../includes/banner.md)]

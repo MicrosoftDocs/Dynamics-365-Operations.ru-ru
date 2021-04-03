@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 8bbd1e35c0a6efd8feae80cb0010b84bbbf5cd6a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093089"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559925"
 ---
 # <a name="benefits-power-bi-content"></a>Содержимое Power BI "Льготы"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое Microsoft Power BI **Льготы**. В нем описывается порядок доступа к включенным отчетам и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этом разделе описывается содержимое **Льготы** для Microsoft Power BI. В нем описывается порядок доступа к включенным отчетам и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Льготы** показано в рабочей области **Управление льготами** при использовании одного из следующих продуктов:

@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142283"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486985"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Установка и подключение приложения склада
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> В этой теме описывается, как настроить старое приложение склада. Если вы ищите сведения о том, как настроить новое мобильное приложение управления складом (в настоящее время на этапе общедоступной предварительной версии) см. тему [Установка и подключение мобильного приложения управления складом](install-configure-warehouse-management-app.md).
+> В этой теме описывается, как настроить старое приложение склада. Если вы ищите сведения о том, как настроить новое мобильное приложение управления складом см. тему [Установка и подключение мобильного приложения управления складом](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > В этой теме описывается, как настроить приложение склада для размещения в облаке. Если требуется сведения о настройке приложения склада для локальных развертываний, см. тему [Складские операции для локальных развертываний](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

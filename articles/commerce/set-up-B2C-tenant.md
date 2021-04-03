@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 68e72bc17005c11f28f572114357f906098cc045
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993352"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478148"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Настройка клиента B2C в Commerce
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить клиенты "бизнес-потребитель" (B2C) Azure Active Directory (Azure AD) для проверки подлинности сайта пользователя в Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Dynamics 365 Commerce использует Azure AD B2C для поддержки учетных данных пользователей и потоков проверки подлинности. Пользователь может регистрировать, выполнять вход и сбрасывать свои пароли в этих потоках. Azure AD B2C хранит конфиденциальные сведения о проверке подлинности пользователя, такие как имя пользователя и пароль. Запись пользователя в клиенте B2C хранит либо запись локальной учетной записи B2C, либо запись поставщика удостоверений социальных сетей B2C. Эти записи B2C будут связываться обратно с записью клиента в среде Commerce.
 

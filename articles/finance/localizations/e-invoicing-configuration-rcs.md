@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104431"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592630"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Настройка надстройки электронного выставления счетов в Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ ms.locfileid: "5104431"
 | Бельгия        | Электронная накладная для Бельгии (BE)      | Накладные по продаже и по проекту |
 | Бразилия         | Бразильский NF-e (BR)                  | Модель финансового документа 55, корректирующие письма, отмены и удаления |
 | Бразилия         | Бразильский NFS-e ABRASF Куритиба (BR) | Финансовые документы сервиса |
-| Бразилия         | Бразильский NFS-e Сан Пауло (BR)       | Финансовые документы сервиса |
 | Дания        | Электронная накладная для Дании (DK)       | Накладные по продаже и по проекту |
 | Египет          | Электронная накладная для Египта (EG) | Накладные по продаже и по проекту |
 | Эстония        | Электронная накладная для Эстонии (EE)     | Накладные по продаже и по проекту |
@@ -119,10 +118,6 @@ ms.locfileid: "5104431"
 
 - NFS-e ABRASF Куритиба (BR)
 - NFS-e ABRASF запрос Куритиба (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Бразильский (BR) NFS-e: NFS-e город Сан Пауло
-
-- NFS-e Сан Пауло (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Датская (DK) электронная накладная: накладные по продаже и накладные по проектам для Дании
 
@@ -210,7 +205,7 @@ ms.locfileid: "5104431"
 | Вызов бразильской службы SEFAZ                  | Интеграция с бразильской службой SEFAZ для отправки финансовых документов.       | В режиме предварительного просмотра           |
 | Вызов мексиканской службы PAC                      | Интеграция с мексиканской службой PAC для отправки CFDI.                      | В режиме предварительного просмотра           |
 | Обработка ответа                              | Анализ ответа, полученного от вызова веб-службы.                     | Общедоступно  |
-| Использование MS Power Automate                         | Интеграция с потоком встроено в Microsoft Power Automate.                       | В режиме предварительного просмотра           |
+| Использование MS Power Automate                         | Интеграция с потоком, встроенным в Microsoft Power Automate.                       | В режиме предварительного просмотра           |
 
 ## <a name="configuration-providers"></a>Поставщики конфигураций
 
