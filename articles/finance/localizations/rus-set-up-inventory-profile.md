@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 62ea28da11cd3480f501ae6ba1e9767ad97a4b48
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dd9df76fa0af134bff0e029392f414ce0ae956b7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259208"
 ---
 # <a name="set-up-an-inventory-profile"></a>Настройка профиля учета 
 [!include [banner](../includes/banner.md)]
@@ -315,7 +315,7 @@ ms.locfileid: "4997471"
 
 4. На вкладке **спецификации** в поле **Профиль учета** выберите профиль учета, который должен использоваться по умолчанию при создании и развертывании спецификаций, и когда обрабатывается как готовое, если в строках спецификации не указан профиль учета.
 
-![Страница параметров модуля "Управление запасами и складами", вкладка Спецификации](media/13_Inventory_and_warehouse_management_parameters.png)
+!Страница "Параметры управления запасами и складами", вкладка "Спецификации"](media/13_Inventory_and_warehouse_management_parameters.png)
 
 Более подробную информацию см. в следующих разделах:
 
