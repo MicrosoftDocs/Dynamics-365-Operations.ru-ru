@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024678"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500606"
 ---
 # <a name="manage-standard-cost-updates"></a>Управление обновлениями стандартных затрат
 
@@ -45,6 +45,8 @@ ms.locfileid: "5024678"
 В этом примере использовалась одна дополнительная версия цены для управления обновлениями в течение всего 2020 года. Можно использовать несколько дополнительных версий цены, например, отдельную версию для каждого пакета обновлений. При использовании более чем одной дополнительной версии цены в качестве отката должны использоваться активные затраты, поскольку они распространяются на несколько версий цены.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Финансовые аналитики для переоценки стандартной себестоимости
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Активация новой стандартной цены обычно приводит к переоценке стоимости запасов в наличии через проводки переоценки стандартной себестоимости. Обычно финансовые аналитики номенклатуры затем разносятся по проводкам. Однако если требуется управлять тем, требуется ли разносить финансовые аналитики, и способом их разноски, используйте [управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), чтобы включить функцию с именем *Параметры задания значений по умолчанию для финансовых аналитик для переоценки стандартной себестоимости запасов*. После включения этой функции перейдите в раздел **Управление затратами > Настройка учетных политик запасов > Параметры** и задайте для нового раскрывающегося списка **Источник финансовых аналитик** одно из следующих значений:
 

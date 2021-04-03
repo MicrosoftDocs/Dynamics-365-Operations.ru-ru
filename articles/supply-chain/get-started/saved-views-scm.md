@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123476"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500702"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Стандартные сохраненные представления для Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 В Microsoft Dynamics 365 Supply Chain Management имеется несколько сохраненных представлений, которые можно включить и использовать при необходимости. Некоторые из этих стандартных сохраненных представлений оптимизированы и именуются для определенной роли или задачи (например, "контроль качества" или "получение"). Другие оптимизируются таким образом, что они содержат только поля и параметры, которые, как указывает статистика использования Microsoft, чаще всего используются клиентами. Эти сохраненные представления обычно называют *упрощенными* представлениями. В этой теме описываются доступные стандартные сохраненные представления и объясняется, как их включить и настроить.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetWorkOrderProjCostInfoPart
+ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 643e59f082949ed51ab61d79648a98b83a7f0b03
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: a93436d101e6201c9d86279ea5b1a37fcc644fd1
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131849"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500462"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Выставление счетов за обслуживание принадлежащих заказчику активов
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
 Функция *Выставление счетов за заказы на работу* позволяет создавать и выставлять счета за работу по обслуживанию, выполненную для активов, принадлежащих клиентам. Эта функция позволяют выполнять следующие задачи:
 
