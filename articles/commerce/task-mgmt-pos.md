@@ -15,51 +15,52 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006193"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478370"
 ---
-# <a name="task-management-in-pos"></a><span data-ttu-id="51acd-103">Управление задачами в POS</span><span class="sxs-lookup"><span data-stu-id="51acd-103">Task management in POS</span></span>
+# <a name="task-management-in-pos"></a><span data-ttu-id="79e37-103">Управление задачами в POS</span><span class="sxs-lookup"><span data-stu-id="79e37-103">Task management in POS</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="51acd-104">В этом разделе описывается управление задачами в приложении POS Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="51acd-104">This topic describes task management in the Microsoft Dynamics 365 Commerce point of sale (POS) application.</span></span>
+<span data-ttu-id="79e37-104">В этом разделе описывается управление задачами в приложении POS Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="79e37-104">This topic describes task management in the Microsoft Dynamics 365 Commerce point of sale (POS) application.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="51acd-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="51acd-105">Overview</span></span>
+<span data-ttu-id="79e37-105">Приложение POS Dynamics 365 Commerce содержит функции управления задачами, которые позволяют руководителям и работникам магазинов управлять задачами и обновлять статус задач.</span><span class="sxs-lookup"><span data-stu-id="79e37-105">The Dynamics 365 Commerce POS application has task management features that let store managers and workers manage tasks and update task status.</span></span> <span data-ttu-id="79e37-106">Работники магазина могут получить доступ к задачам, выбирая плитку **задачи** на домашней странице POS или выбирая уведомления о задачах.</span><span class="sxs-lookup"><span data-stu-id="79e37-106">Store workers can access tasks either by selecting the **Tasks** tile on the POS home page or by selecting task notifications.</span></span> <span data-ttu-id="79e37-107">По умолчанию работники магазина переносятся на вкладку **Мои задачи**, где они могут просматривать назначенные им задачи.</span><span class="sxs-lookup"><span data-stu-id="79e37-107">By default, store workers are taken to the **My tasks** tab, where they can view the tasks that are assigned to them.</span></span> <span data-ttu-id="79e37-108">Однако они могут легко переключаться на **просроченные задачи**, **Открытые задачи** и **Списки задач**.</span><span class="sxs-lookup"><span data-stu-id="79e37-108">However, they can easily switch to the **Overdue tasks**, **Open tasks**, and **Task lists** tabs.</span></span>
 
-<span data-ttu-id="51acd-106">Приложение POS Dynamics 365 Commerce содержит функции управления задачами, которые позволяют руководителям и работникам магазинов управлять задачами и обновлять статус задач.</span><span class="sxs-lookup"><span data-stu-id="51acd-106">The Dynamics 365 Commerce POS application has task management features that let store managers and workers manage tasks and update task status.</span></span> <span data-ttu-id="51acd-107">Работники магазина могут получить доступ к задачам, выбирая плитку **задачи** на домашней странице POS или выбирая уведомления о задачах.</span><span class="sxs-lookup"><span data-stu-id="51acd-107">Store workers can access tasks either by selecting the **Tasks** tile on the POS home page or by selecting task notifications.</span></span> <span data-ttu-id="51acd-108">По умолчанию работники магазина переносятся на вкладку **Мои задачи**, где они могут просматривать назначенные им задачи.</span><span class="sxs-lookup"><span data-stu-id="51acd-108">By default, store workers are taken to the **My tasks** tab, where they can view the tasks that are assigned to them.</span></span> <span data-ttu-id="51acd-109">Однако они могут легко переключаться на **просроченные задачи**, **Открытые задачи** и **Списки задач**.</span><span class="sxs-lookup"><span data-stu-id="51acd-109">However, they can easily switch to the **Overdue tasks**, **Open tasks**, and **Task lists** tabs.</span></span>
+## <a name="task-operations-for-store-managers"></a><span data-ttu-id="79e37-109">Операции задач для руководителей магазинов</span><span class="sxs-lookup"><span data-stu-id="79e37-109">Task operations for store managers</span></span>
 
-## <a name="task-operations-for-store-managers"></a><span data-ttu-id="51acd-110">Операции задач для руководителей магазинов</span><span class="sxs-lookup"><span data-stu-id="51acd-110">Task operations for store managers</span></span>
+<span data-ttu-id="79e37-110">С помощью кнопок на панели команд руководители магазинов могут выполнять следующие операции задач в приложении POS:</span><span class="sxs-lookup"><span data-stu-id="79e37-110">Store managers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
 
-<span data-ttu-id="51acd-111">С помощью кнопок на панели команд руководители магазинов могут выполнять следующие операции задач в приложении POS:</span><span class="sxs-lookup"><span data-stu-id="51acd-111">Store managers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
+- <span data-ttu-id="79e37-111">**Назначить** — назначьте выбранные задачи работнику магазина.</span><span class="sxs-lookup"><span data-stu-id="79e37-111">**Assign** – Assign selected tasks to a store worker.</span></span>
+- <span data-ttu-id="79e37-112">**Статус задачи** — изменение статуса выбранных задач.</span><span class="sxs-lookup"><span data-stu-id="79e37-112">**Task status** – Change the status of selected tasks.</span></span>
+- <span data-ttu-id="79e37-113">**Фильтр** — по умолчанию отображаются только активные задачи.</span><span class="sxs-lookup"><span data-stu-id="79e37-113">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="79e37-114">Однако с помощью фильтров руководители могут просматривать все задачи, даже выполненные или отмененные.</span><span class="sxs-lookup"><span data-stu-id="79e37-114">However, by applying filters, managers can view all tasks, even tasks that have been completed or canceled.</span></span>
+- <span data-ttu-id="79e37-115">**Новая задача** — создание задачи в рамках существующего списка задач или создание одноцелевой задачи.</span><span class="sxs-lookup"><span data-stu-id="79e37-115">**New task** – Create a task under an existing task list, or create an single-purpose task.</span></span>
 
-- <span data-ttu-id="51acd-112">**Назначить** — назначьте выбранные задачи работнику магазина.</span><span class="sxs-lookup"><span data-stu-id="51acd-112">**Assign** – Assign selected tasks to a store worker.</span></span>
-- <span data-ttu-id="51acd-113">**Статус задачи** — изменение статуса выбранных задач.</span><span class="sxs-lookup"><span data-stu-id="51acd-113">**Task status** – Change the status of selected tasks.</span></span>
-- <span data-ttu-id="51acd-114">**Фильтр** — по умолчанию отображаются только активные задачи.</span><span class="sxs-lookup"><span data-stu-id="51acd-114">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="51acd-115">Однако с помощью фильтров руководители могут просматривать все задачи, даже выполненные или отмененные.</span><span class="sxs-lookup"><span data-stu-id="51acd-115">However, by applying filters, managers can view all tasks, even tasks that have been completed or canceled.</span></span>
-- <span data-ttu-id="51acd-116">**Новая задача** — создание задачи в рамках существующего списка задач или создание одноцелевой задачи.</span><span class="sxs-lookup"><span data-stu-id="51acd-116">**New task** – Create a task under an existing task list, or create an single-purpose task.</span></span>
+<span data-ttu-id="79e37-116">С помощью кнопок на панели команд работники магазинов могут выполнять следующие операции задач в приложении POS:</span><span class="sxs-lookup"><span data-stu-id="79e37-116">Store workers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
 
-<span data-ttu-id="51acd-117">С помощью кнопок на панели команд работники магазинов могут выполнять следующие операции задач в приложении POS:</span><span class="sxs-lookup"><span data-stu-id="51acd-117">Store workers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
+- <span data-ttu-id="79e37-117">**Статус задачи** — изменение статуса выбранных задач.</span><span class="sxs-lookup"><span data-stu-id="79e37-117">**Task status** – Change the status of selected tasks.</span></span>
+- <span data-ttu-id="79e37-118">**Фильтр** — по умолчанию отображаются только активные задачи.</span><span class="sxs-lookup"><span data-stu-id="79e37-118">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="79e37-119">Однако с помощью фильтров работники могут просматривать все задачи, даже выполненные или отмененные.</span><span class="sxs-lookup"><span data-stu-id="79e37-119">However, by applying filters, workers can view all tasks, even tasks that have been completed or canceled.</span></span>
 
-- <span data-ttu-id="51acd-118">**Статус задачи** — изменение статуса выбранных задач.</span><span class="sxs-lookup"><span data-stu-id="51acd-118">**Task status** – Change the status of selected tasks.</span></span>
-- <span data-ttu-id="51acd-119">**Фильтр** — по умолчанию отображаются только активные задачи.</span><span class="sxs-lookup"><span data-stu-id="51acd-119">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="51acd-120">Однако с помощью фильтров работники могут просматривать все задачи, даже выполненные или отмененные.</span><span class="sxs-lookup"><span data-stu-id="51acd-120">However, by applying filters, workers can view all tasks, even tasks that have been completed or canceled.</span></span>
-
-<span data-ttu-id="51acd-121">На следующем рисунке показана вкладка **мои задачи** в приложении Commerce POS.</span><span class="sxs-lookup"><span data-stu-id="51acd-121">The following illustration shows the **My tasks** tab in the Commerce POS application.</span></span>
+<span data-ttu-id="79e37-120">На следующем рисунке показана вкладка **мои задачи** в приложении Commerce POS.</span><span class="sxs-lookup"><span data-stu-id="79e37-120">The following illustration shows the **My tasks** tab in the Commerce POS application.</span></span>
 
 ![Вкладка «мои задачи» в приложении Commerce POS](media/POS-task-management.png)
 
-<span data-ttu-id="51acd-123">На следующем рисунке показана вкладка **Списки задач**.</span><span class="sxs-lookup"><span data-stu-id="51acd-123">The following illustration shows the **Task lists** tab.</span></span>
+<span data-ttu-id="79e37-122">На следующем рисунке показана вкладка **Списки задач**.</span><span class="sxs-lookup"><span data-stu-id="79e37-122">The following illustration shows the **Task lists** tab.</span></span>
 
 ![Вкладка «Списки задач» в приложении Commerce POS](media/POS-task-lists-management.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="51acd-125">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="51acd-125">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="79e37-124">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="79e37-124">Additional resources</span></span>
 
-[<span data-ttu-id="51acd-126">Обзор управления задачами</span><span class="sxs-lookup"><span data-stu-id="51acd-126">Task management overview</span></span>](task-mgmt-overview.md)
+[<span data-ttu-id="79e37-125">Обзор управления задачами</span><span class="sxs-lookup"><span data-stu-id="79e37-125">Task management overview</span></span>](task-mgmt-overview.md)
 
-[<span data-ttu-id="51acd-127">Настройка управления задачами</span><span class="sxs-lookup"><span data-stu-id="51acd-127">Configure task management</span></span>](task-mgmt-configure.md)
+[<span data-ttu-id="79e37-126">Настройка управления задачами</span><span class="sxs-lookup"><span data-stu-id="79e37-126">Configure task management</span></span>](task-mgmt-configure.md)
 
-[<span data-ttu-id="51acd-128">Создание списков задач и добавление задач</span><span class="sxs-lookup"><span data-stu-id="51acd-128">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
+[<span data-ttu-id="79e37-127">Создание списков задач и добавление задач</span><span class="sxs-lookup"><span data-stu-id="79e37-127">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
 
-[<span data-ttu-id="51acd-129">Назначение списков задач магазинам или сотрудникам</span><span class="sxs-lookup"><span data-stu-id="51acd-129">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+[<span data-ttu-id="79e37-128">Назначение списков задач магазинам или сотрудникам</span><span class="sxs-lookup"><span data-stu-id="79e37-128">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
