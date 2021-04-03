@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,15 +11,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
+ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154185"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5474071"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -33,7 +33,19 @@ ms.locfileid: "5154185"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://docs.microsoft.com/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.17
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Хранилище LCS в качестве параметра хранения для конфигураций электронной отчетности
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменяется новым глобальным репозиторием Regulatory Configuration Services (RCS) |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Продукты Dynamics 365 Finance, Supply Chain Management и Project Operations|
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устаревший: с 01 апреля 2022 года планируется прекратить поддержку репозитория Microsoft Dynamics Lifecycle Services (LCS) в качестве параметра хранения для конфигураций электронной отчетности (ER). Новые конфигурации Microsoft ER будут опубликованы для загрузки только из глобального репозитория. Доступ к глобальному репозиторию осуществляется из продуктов Dynamics 365 и RCS. Дополнительные сведения см. в разделе [Импорт конфигураций ER из RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.16
 

@@ -3,7 +3,7 @@ title: Обзор по Европе
 description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099907"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557432"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -40,6 +40,7 @@ ms.locfileid: "5099907"
 - [Отчетность отчета ЕС по НДС](emea-eu-sales-list.md)
 - [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
+- [Руководство по финансам (глобализация) относительно воздействия Брексит](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
 - [Выбытие ОС для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Создание документа перемещения для внутреннего перемещения запасов](tasks/transfer-document-internal-inventory-transfer.md)
