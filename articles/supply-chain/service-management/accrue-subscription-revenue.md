@@ -17,29 +17,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8a28c102f4cbfb52b7cbcf8918ea375e67b8d8d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4b397dd6fef20b4f7709423c462c6b721f7fc252
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966138"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232190"
 ---
-# <a name="accrue-subscription-revenue"></a><span data-ttu-id="da470-103">Начислить выручку по подписке</span><span class="sxs-lookup"><span data-stu-id="da470-103">Accrue subscription revenue</span></span> 
+# <a name="accrue-subscription-revenue"></a><span data-ttu-id="09ddd-103">Начислить выручку по подписке</span><span class="sxs-lookup"><span data-stu-id="09ddd-103">Accrue subscription revenue</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="da470-104">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Подписки на сервисное обслуживание** \> **Начисление выручки по подписке**.</span><span class="sxs-lookup"><span data-stu-id="da470-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
+1.  <span data-ttu-id="09ddd-104">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Подписки на сервисное обслуживание** \> **Начисление выручки по подписке**.</span><span class="sxs-lookup"><span data-stu-id="09ddd-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
 
-2.  <span data-ttu-id="da470-105">В поле **Код периода** выберите код периода.</span><span class="sxs-lookup"><span data-stu-id="da470-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="da470-106">Доход разносится по всем проводкам по сборам по подписке с выбранным кодом периода.</span><span class="sxs-lookup"><span data-stu-id="da470-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
+2.  <span data-ttu-id="09ddd-105">В поле **Код периода** выберите код периода.</span><span class="sxs-lookup"><span data-stu-id="09ddd-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="09ddd-106">Доход разносится по всем проводкам по сборам по подписке с выбранным кодом периода.</span><span class="sxs-lookup"><span data-stu-id="09ddd-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
 
-3.  <span data-ttu-id="da470-107">В поле **Дата разноски** введите дату разноски и нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="da470-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
+3.  <span data-ttu-id="09ddd-107">В поле **Дата разноски** введите дату разноски и нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="09ddd-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="da470-108">Накладные для проводок по сборам должны быть выставлены до разноски начисленного дохода.</span><span class="sxs-lookup"><span data-stu-id="da470-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
+> <P><span data-ttu-id="09ddd-108">Накладные для проводок по сборам должны быть выставлены до разноски начисленного дохода.</span><span class="sxs-lookup"><span data-stu-id="09ddd-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
 
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

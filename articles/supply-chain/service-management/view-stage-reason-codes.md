@@ -17,30 +17,33 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef9a76d36c01b4e90d76fc6482e652b29ef4768
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbb498b972949b24c70a13ab9e0a7da83079085b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259562"
 ---
-# <a name="view-stage-reason-codes"></a><span data-ttu-id="676ca-103">Просмотр кодов причин этапов</span><span class="sxs-lookup"><span data-stu-id="676ca-103">View stage reason codes</span></span> 
+# <a name="view-stage-reason-codes"></a><span data-ttu-id="503ef-103">Просмотр кодов причин этапов</span><span class="sxs-lookup"><span data-stu-id="503ef-103">View stage reason codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="676ca-104">Просмотр и изменение списка причин этапов заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="676ca-104">View and modify the list of stage reasons for a service order.</span></span> <span data-ttu-id="676ca-105">Используйте причины этапа, чтобы указывать причины для статусов заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="676ca-105">Use stage reasons to indicate the reason for the status of a service order.</span></span> <span data-ttu-id="676ca-106">Например, можно создать этап **Отменено**, которому назначен код причины **Отклонено заказчиком**.</span><span class="sxs-lookup"><span data-stu-id="676ca-106">For example, you can create a **Canceled** stage that is assigned a reason code of **Canceled by the customer**.</span></span>
+<span data-ttu-id="503ef-104">Просмотр и изменение списка причин этапов заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="503ef-104">View and modify the list of stage reasons for a service order.</span></span> <span data-ttu-id="503ef-105">Используйте причины этапа, чтобы указывать причины для статусов заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="503ef-105">Use stage reasons to indicate the reason for the status of a service order.</span></span> <span data-ttu-id="503ef-106">Например, можно создать этап **Отменено**, которому назначен код причины **Отклонено заказчиком**.</span><span class="sxs-lookup"><span data-stu-id="503ef-106">For example, you can create a **Canceled** stage that is assigned a reason code of **Canceled by the customer**.</span></span>
 
-  - <span data-ttu-id="676ca-107">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="676ca-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="676ca-108">Открытие заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="676ca-108">Open a service order.</span></span>
+  - <span data-ttu-id="503ef-107">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="503ef-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="503ef-108">Открытие заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="503ef-108">Open a service order.</span></span>
 
-  - <span data-ttu-id="676ca-109">В форме **Заказы на обслуживание** в области **Панель операций** на вкладе **Подготовить к отправке** щелкните **Причины этапа**.</span><span class="sxs-lookup"><span data-stu-id="676ca-109">In the **Service orders** form, on the **Action Pane**, on the **Dispatch** tab, click **Stage reasons**.</span></span>
+  - <span data-ttu-id="503ef-109">В форме **Заказы на обслуживание** в области **Панель операций** на вкладе **Подготовить к отправке** щелкните **Причины этапа**.</span><span class="sxs-lookup"><span data-stu-id="503ef-109">In the **Service orders** form, on the **Action Pane**, on the **Dispatch** tab, click **Stage reasons**.</span></span>
 
-  - <span data-ttu-id="676ca-110">В форме **Причины этапа** щелкните **Создать**, чтобы создать новый код причины этапа.</span><span class="sxs-lookup"><span data-stu-id="676ca-110">On the **Stage reasons** form, click **New** to create a new stage reason code.</span></span>
+  - <span data-ttu-id="503ef-110">В форме **Причины этапа** щелкните **Создать**, чтобы создать новый код причины этапа.</span><span class="sxs-lookup"><span data-stu-id="503ef-110">On the **Stage reasons** form, click **New** to create a new stage reason code.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="676ca-111">См. также</span><span class="sxs-lookup"><span data-stu-id="676ca-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="503ef-111">См. также</span><span class="sxs-lookup"><span data-stu-id="503ef-111">See also</span></span>
 
-<span data-ttu-id="676ca-112">[Причины этапа (форма)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="676ca-112">[Stage reasons (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span></span>
+<span data-ttu-id="503ef-112">[Причины этапа (форма)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="503ef-112">[Stage reasons (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
