@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115422"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467128"
 ---
 # <a name="personnel-actions-faq"></a>Вопросы и ответы по действиям персонала
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой статье содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом. К примерам задач, для которых могут потребоваться действий персонала, относится создание новых должностей, изменение значений имеющихся должностей, прием на работу новых работников, перевод работников, изменение компенсации работников, изменение назначений должности или увольнение работников.
 

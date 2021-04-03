@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6bcbbd1203f4e9e80f6c5264cf4d5ea7d0970fc
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 65d5492ed988c51efe9e1629fa13225f1b4a3c15
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126106"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464210"
 ---
 # <a name="person-skill"></a>Навык физического лица
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается сущность навыка физического лица для Dynamics 365 Human Resources.
 

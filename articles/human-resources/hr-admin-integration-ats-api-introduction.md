@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125601"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464040"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Введение в интерфейс API интеграции системы отслеживания кандидатов
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС). Целью API является обеспечение оптимизации интеграции между Dynamics 365 Human Resources и партнерскими системами ATS.
 
@@ -121,12 +123,12 @@ ms.locfileid: "5125601"
 - [Пусто Да Нет](hr-admin-integration-ats-api-blank-yes-no.md)
 - [Статус выполнения](hr-admin-integration-ats-api-completion-status.md)
 - [Тип контакта](hr-admin-integration-ats-api-contact-type.md)
-- [Базис кредита образования](hr-admin-integration-ats-api-education-credit-basis.md)
+- [Основа для зачетов за расходы на образование](hr-admin-integration-ats-api-education-credit-basis.md)
 - [Род](hr-admin-integration-ats-api-gender.md)
 - [Семейное положение](hr-admin-integration-ats-api-marital-status.md)
 - [Месяцы года](hr-admin-integration-ats-api-months-of-year.md)
 - [Нет Да](hr-admin-integration-ats-api-no-yes.md)
-- [Единица измерения периода](hr-admin-integration-ats-api-period-unit.md)
+- [Единица периода](hr-admin-integration-ats-api-period-unit.md)
 - [Частота отбора](hr-admin-integration-ats-api-screening-frequency.md)
 - [Начальная дата создаваемой периодичности отбора](hr-admin-integration-ats-api-screening-frequency-generate-from.md)
 - [Тип уровня навыка](hr-admin-integration-ats-api-skill-level-type.md)

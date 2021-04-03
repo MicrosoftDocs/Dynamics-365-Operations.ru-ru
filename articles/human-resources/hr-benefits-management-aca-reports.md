@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2e4b250f4a059719067a9e19bbf3ce4aecc9bb1f
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 24df18f428e4ca14859bc34048a6bda5e03d1b2f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114044"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464382"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Создание отчетов ACA в управлении льготами
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Управление льготами помогает отслеживать информацию, о которой сообщается в форме 1095-B и форме 1095-C для мандата работодателя по закону США о доступном медицинском обслуживании (ACA). Подобно возможности отчетности ACA в старой рабочей области **Льготы**, эта функция применяется только к юридическим лицам в Соединенных Штатах Америки.
 

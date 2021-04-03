@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 722ae95de3b1822f3c7246394c3d16b8b827723b
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a6a32dc1c2e645be392db81c092534e8789aedd1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115616"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465590"
 ---
 # <a name="performance-management"></a>Управление производительностью
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Процесс управления производительностью позволяет сотрудникам документировать и обсуждать свою производительность с менеджером. В свою очередь, менеджеры могут предоставить отзывы и рекомендации сотрудникам.  
 
