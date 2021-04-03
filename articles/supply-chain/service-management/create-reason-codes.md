@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965981"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470985"
 ---
-# <a name="create-reason-codes"></a>Создание кодов причины    
+# <a name="create-reason-codes"></a>Создание кодов причины
 
 [!include [banner](../includes/banner.md)]
 
+1. Перейдите **Управление сервисным обслуживанием** \> **Настройка** \> **Заказы на обслуживание** \> **Коды причин этапов**.
 
-1.  Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Заказы на обслуживание** \> **Коды причин этапов**.
+1. Выберите **Создать** для создания нового кода причины.
 
-2.  Нажмите CTRL+N, чтобы создать новый код причины.
-
-3.  Щелкните CTRL+S, чтобы сохранить код причины.
+1. Выберите **Сохранить**, чтобы сохранить код причины.
 
 При появлении запроса на ввод кода причины для обоснования обновления этапа заказа на сервисное обслуживание можно выбрать один из созданных здесь кодов причин.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

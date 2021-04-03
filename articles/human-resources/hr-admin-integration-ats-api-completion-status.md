@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9024e00b5d25117fd255084609c4f8db9284f32
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: d8ea90785f303301a21a4ac799578b08cabd0e3d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125697"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468211"
 ---
 # <a name="completion-status"></a>Статус выполнения
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается набор параметров статуса выполнения для Dynamics 365 Human Resources.
 

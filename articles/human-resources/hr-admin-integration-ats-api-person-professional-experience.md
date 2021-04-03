@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51dd993e2d43174e96c062e142021cc0f6e3a288
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 5672e32b157b46b6863f06fea123fd3d6a3d96d2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125289"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466432"
 ---
 # <a name="person-professional-experience"></a>Опыт работы физического лица
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается сущность опыта работы физического лица для Dynamics 365 Human Resources.
 

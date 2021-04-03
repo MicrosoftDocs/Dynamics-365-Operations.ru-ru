@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006193"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478370"
 ---
 # <a name="task-management-in-pos"></a>Управление задачами в POS
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается управление задачами в приложении POS Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Приложение POS Dynamics 365 Commerce содержит функции управления задачами, которые позволяют руководителям и работникам магазинов управлять задачами и обновлять статус задач. Работники магазина могут получить доступ к задачам, выбирая плитку **задачи** на домашней странице POS или выбирая уведомления о задачах. По умолчанию работники магазина переносятся на вкладку **Мои задачи**, где они могут просматривать назначенные им задачи. Однако они могут легко переключаться на **просроченные задачи**, **Открытые задачи** и **Списки задач**.
 

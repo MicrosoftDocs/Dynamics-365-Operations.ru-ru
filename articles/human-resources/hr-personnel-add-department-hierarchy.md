@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 723e46f98545e80551da9f79b6aeffc3eca48830
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130381"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466022"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Создание подразделений и включение их в иерархию подразделений
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки.
 

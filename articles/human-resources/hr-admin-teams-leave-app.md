@@ -3,7 +3,7 @@ title: Приложение Human Resources в Teams
 description: Эта тема знакомит с приложением Microsoft Dynamics 365 Human Resources в Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114005"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487881"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более детальная информация. Кроме того, они могут отправлять пользователям сведения о предстоящих отгулах в рабочих группа и чатах вне приложения Human Resources.
 
-![Бот для приложения отпусков Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Бот для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Вкладка Отгул для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ ms.locfileid: "5114005"
 
 ## <a name="install-and-setup"></a>Установка и настройка
 
-Приложение "Human Resources" можно найти в магазине "Teams". Сведения об установке приложения Teams см. в разделе [Управление запросами на отпуск в Teams](hr-teams-leave-app.md).
+Приложение Dynamics 365 Human Resources можно найти в магазине Teams. Сведения об установке приложения Teams см. в разделе [Управление запросами на отпуск в Teams](hr-teams-leave-app.md).
 
 Сведения об управлении разрешениями приложений в Teams см. в разделе [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Если требуется, чтобы пользователи могли просматривать календарь отпусков и отсутствия в приложении, необходимо включить **Календарь отпусков и отсутствия в Teams** в управлении функциями. Дополнительные сведения о включении функций см. в разделе [Управление функциями](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Включение уведомлений для приложения Human Resources в Teams
 
-Если требуется, чтобы пользователи получали уведомления о запросах на отпуск в приложении Teams, необходимо включить уведомления в модуле Human Resources.
+Если требуется, чтобы пользователи получали уведомления о запросах на отпуск в приложении Teams, необходимо включить уведомления в Dynamics 365 Human Resources.
 
 >[!NOTE]
->Уведомления будут получать только пользователи, вошедшие в Teams и использующие приложение Human Resources Teams.
+>Уведомления будут получать только пользователи, вошедшие в Teams и использующие приложение Dynamics 365 Human Resources.
 
 1. В модуле Human Resources выберите **Администрирование системы**.
 
@@ -66,7 +68,7 @@ ms.locfileid: "5114005"
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Включение и выключение уведомлений Teams для отдельных пользователей
 
-После включения уведомлений для приложения Human Resources Teams можно включать или отключать уведомления для отдельных пользователей.
+После включения уведомлений для приложения Dynamics 365 Human Resources Teams можно включать или отключать уведомления для отдельных пользователей.
 
 1. В модуле Human Resources выберите **Администрирование системы**.
 
@@ -82,9 +84,28 @@ ms.locfileid: "5114005"
 
 6. Нажмите **Сохранить**.
 
-## <a name="known-issues"></a>Известные проблемы
+## <a name="supported-languages"></a>Поддерживаемые языки
 
-| Расход | Состояние |
+Приложение Dynamics 365 Human Resources в Teams поддерживает следующие языки:
+
+| Код языка | Язык |
+| --- | --- |
+| de-DE | Немецкий (Германия) |
+| es-ES | Испанский (Испания) |
+| es-MX | Испанский (Мексика) |
+| fr-CA | Французский (Канада) |
+| fr-FR | Французский (Франция) |
+| it-IT | Итальянский (Италия) |
+| nl-NL | Нидерландский (Нидерланды) |
+| pt-BR | Португальский (Бразилия) |
+| tr-TR | Турецкий (Турция) |
+| zh-CN | Китайский (упрощенное письмо) |
+
+## <a name="notes"></a>Основание
+
+Следующие рабочие элементы включены в будущие выпуски:
+
+| Рабочий элемент | Состояние |
 | --- | --- |
 | Неверное сальдо при подаче запроса на отпуск для будущей даты. | Прогнозирование пока недоступно. Сальдо отображается для текущей даты. |
 | Не удается отменить запрос **На рассмотрении**. | Эта функциональная возможность в настоящее время не поддерживается и будет добавлена в будущем выпуске. |
@@ -96,7 +117,7 @@ ms.locfileid: "5114005"
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Невозможно выполнить вход в приложение Human Resources в Teams
 
-Если пользователь обращается к вам из-за того, что он не может войти в приложение, убедитесь, что у пользователя имеется соответствующая запись сотрудника в модуле Human Resources.
+Если пользователь обращается к вам из-за того, что он не может войти в приложение, убедитесь, что у пользователя имеется соответствующая запись сотрудника в управлении персоналом.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Ошибка при утверждении запросов отпуска в приложении Human Resources в Teams
 
