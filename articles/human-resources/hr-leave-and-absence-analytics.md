@@ -18,30 +18,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 488745388312f0a2ef936dac2f8252431123fe33
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: c20d0da62724202e5b6c750e646bc205542191aa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116076"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468163"
 ---
-# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="7e3af-103">Просмотр аналитики для отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="7e3af-103">View analytics for leave and absence</span></span>
+# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="f1805-103">Просмотр аналитики для отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="f1805-103">View analytics for leave and absence</span></span>
 
-<span data-ttu-id="7e3af-104">Dynamics 365 Human Resources предоставляет аналитику, помогающую предоставить аналитику тенденциям отпусков и отсутствия в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="7e3af-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="7e3af-105">Просмотр аналитики для отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="7e3af-105">View Leave and absence analytics</span></span>
+<span data-ttu-id="f1805-104">Dynamics 365 Human Resources предоставляет аналитику, помогающую предоставить аналитику тенденциям отпусков и отсутствия в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="f1805-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
 
-1. <span data-ttu-id="7e3af-106">В рабочей области **Отпуск и отсутствие** выберите вкладку **Аналитика**.</span><span class="sxs-lookup"><span data-stu-id="7e3af-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
+## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="f1805-105">Просмотр аналитики для отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="f1805-105">View Leave and absence analytics</span></span>
 
-2. <span data-ttu-id="7e3af-107">В нижней части вкладки выберите одно из следующих представлений:</span><span class="sxs-lookup"><span data-stu-id="7e3af-107">Choose one of the following views from the tabs along the bottom:</span></span>
+1. <span data-ttu-id="f1805-106">В рабочей области **Отпуск и отсутствие** выберите вкладку **Аналитика**.</span><span class="sxs-lookup"><span data-stu-id="f1805-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
 
-   - <span data-ttu-id="7e3af-108">**Обзор отпусков и отсутствия на работе** — просмотр процента регистрации и ставок использования для планов отпусков, ежемесячных начислений и сальдо и сальдо по отсутствию менеджером.</span><span class="sxs-lookup"><span data-stu-id="7e3af-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
+2. <span data-ttu-id="f1805-107">В нижней части вкладки выберите одно из следующих представлений:</span><span class="sxs-lookup"><span data-stu-id="f1805-107">Choose one of the following views from the tabs along the bottom:</span></span>
 
-   - <span data-ttu-id="7e3af-109">**Анализ текущего сальдо** — просмотр подробных сведений о сальдо по отпуску и начислениях.</span><span class="sxs-lookup"><span data-stu-id="7e3af-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
+   - <span data-ttu-id="f1805-108">**Обзор отпусков и отсутствия на работе** — просмотр процента регистрации и ставок использования для планов отпусков, ежемесячных начислений и сальдо и сальдо по отсутствию менеджером.</span><span class="sxs-lookup"><span data-stu-id="f1805-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
 
-   - <span data-ttu-id="7e3af-110">**Анализ тенденции сальдо** — просмотр трендов в сальдо по отпуску по месяцам и по годам, а также просмотр тенденций за последние 12 месяцев.</span><span class="sxs-lookup"><span data-stu-id="7e3af-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
+   - <span data-ttu-id="f1805-109">**Анализ текущего сальдо** — просмотр подробных сведений о сальдо по отпуску и начислениях.</span><span class="sxs-lookup"><span data-stu-id="f1805-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7e3af-111">См. также</span><span class="sxs-lookup"><span data-stu-id="7e3af-111">See also</span></span>
+   - <span data-ttu-id="f1805-110">**Анализ тенденции сальдо** — просмотр трендов в сальдо по отпуску по месяцам и по годам, а также просмотр тенденций за последние 12 месяцев.</span><span class="sxs-lookup"><span data-stu-id="f1805-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
 
-- [<span data-ttu-id="7e3af-112">Обзор отпусков и отсутствия на работе</span><span class="sxs-lookup"><span data-stu-id="7e3af-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="7e3af-113">Создание плана отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="7e3af-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+## <a name="see-also"></a><span data-ttu-id="f1805-111">См. также</span><span class="sxs-lookup"><span data-stu-id="f1805-111">See also</span></span>
+
+- [<span data-ttu-id="f1805-112">Обзор отпусков и отсутствия на работе</span><span class="sxs-lookup"><span data-stu-id="f1805-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="f1805-113">Создание плана отпусков и отсутствий</span><span class="sxs-lookup"><span data-stu-id="f1805-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
