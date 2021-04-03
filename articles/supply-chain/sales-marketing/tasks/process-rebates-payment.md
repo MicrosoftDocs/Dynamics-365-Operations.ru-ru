@@ -14,39 +14,42 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d32d94daef570e37a1a36d948fe18cd4041e46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 617b5d99973e630cca2973227c2e54a63bd1ec4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966163"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263308"
 ---
-# <a name="process-rebates-for-payment"></a><span data-ttu-id="d0063-103">Обработка ретробонусов для оплаты</span><span class="sxs-lookup"><span data-stu-id="d0063-103">Process rebates for payment</span></span>
+# <a name="process-rebates-for-payment"></a><span data-ttu-id="c9eb0-103">Обработка ретробонусов для оплаты</span><span class="sxs-lookup"><span data-stu-id="c9eb0-103">Process rebates for payment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d0063-104">В этой процедуре демонстрируется, как преобразовывать утвержденные и обработанные ретробонусы клиентов в кредит-ноты.</span><span class="sxs-lookup"><span data-stu-id="d0063-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="d0063-105">Это руководство можно выполнить в компании демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="d0063-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="d0063-106">Необходимым условием для этого руководства является наличие одного или нескольких требований по ретробонусам со статусом "Пометка".</span><span class="sxs-lookup"><span data-stu-id="d0063-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="d0063-107">При использовании компании USMF необходимо выполнить руководство "Создание и обработка ретробонусов клиента", прежде чем приступать к этому руководству.</span><span class="sxs-lookup"><span data-stu-id="d0063-107">If you're using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
+<span data-ttu-id="c9eb0-104">В этой процедуре демонстрируется, как преобразовывать утвержденные и обработанные ретробонусы клиентов в кредит-ноты.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="c9eb0-105">Это руководство можно выполнить в компании демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="c9eb0-106">Необходимым условием для этого руководства является наличие одного или нескольких требований по ретробонусам со статусом "Пометка".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="c9eb0-107">При использовании компании USMF необходимо выполнить руководство "Создание и обработка ретробонусов клиента", прежде чем приступать к этому руководству.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-107">If you're using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 
 
-## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="d0063-108">Преобразование требований по ретробонусам в кредит-ноту</span><span class="sxs-lookup"><span data-stu-id="d0063-108">Convert rebate claims to credit note</span></span>
-1. <span data-ttu-id="d0063-109">Перейдите в раздел "Все клиенты".</span><span class="sxs-lookup"><span data-stu-id="d0063-109">Go to All customers.</span></span>
-2. <span data-ttu-id="d0063-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="d0063-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d0063-111">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="d0063-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="d0063-112">В области действий щелкните "Сбор".</span><span class="sxs-lookup"><span data-stu-id="d0063-112">On the Action Pane, click Collect.</span></span>
-5. <span data-ttu-id="d0063-113">Щелкните "Сопоставление проводок".</span><span class="sxs-lookup"><span data-stu-id="d0063-113">Click Settle transactions.</span></span>
-6. <span data-ttu-id="d0063-114">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="d0063-114">Click Functions.</span></span>
-7. <span data-ttu-id="d0063-115">Щелкните "Программа бонусов".</span><span class="sxs-lookup"><span data-stu-id="d0063-115">Click Rebate program.</span></span>
-    * <span data-ttu-id="d0063-116">На странице "Ретробонус" перечислены требования по ретробонусам, которые вы обработали на рабочем месте по начислению ретробонусов и которые находятся в состоянии "Пометка".</span><span class="sxs-lookup"><span data-stu-id="d0063-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
-8. <span data-ttu-id="d0063-117">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="d0063-117">Click Edit.</span></span>
-    * <span data-ttu-id="d0063-118">Установите флажки в поле "Пометка" для требований, которые вы хотите включить в кредит-ноту.</span><span class="sxs-lookup"><span data-stu-id="d0063-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
-9. <span data-ttu-id="d0063-119">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="d0063-119">Click Functions.</span></span>
-10. <span data-ttu-id="d0063-120">Щелкните "Создать кредит-ноту".</span><span class="sxs-lookup"><span data-stu-id="d0063-120">Click Create credit note.</span></span>
-    * <span data-ttu-id="d0063-121">Появляется сообщение о том, что журнал разнесен (это журнал потребления модуля "Расчеты с клиентами", как указано на странице "Параметры модуля расчетов с клиентами").</span><span class="sxs-lookup"><span data-stu-id="d0063-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="d0063-122">В результате этого сумма реального обязательства (кредита) переносится на сальдо клиента.</span><span class="sxs-lookup"><span data-stu-id="d0063-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="d0063-123">Это означает, что счет клиента кредитуется, а счет начисления "Ретробонус" дебетуется.</span><span class="sxs-lookup"><span data-stu-id="d0063-123">This means that the customer's account has been credited, and the Rebate accrual account has been debited.</span></span>  
-11. <span data-ttu-id="d0063-124">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="d0063-124">Close the page.</span></span>
-12. <span data-ttu-id="d0063-125">Щелкните "Отмена".</span><span class="sxs-lookup"><span data-stu-id="d0063-125">Click Cancel.</span></span>
-    * <span data-ttu-id="d0063-126">В результате страница будет обновлена, и вы увидите новые данные.</span><span class="sxs-lookup"><span data-stu-id="d0063-126">This refreshes the page so that you can see the updates.</span></span>  
-13. <span data-ttu-id="d0063-127">В области действий щелкните "Сбор".</span><span class="sxs-lookup"><span data-stu-id="d0063-127">On the Action Pane, click Collect.</span></span>
-14. <span data-ttu-id="d0063-128">Щелкните "Сопоставление проводок".</span><span class="sxs-lookup"><span data-stu-id="d0063-128">Click Settle transactions.</span></span>
-    * <span data-ttu-id="d0063-129">Обратите внимание, что к сальдо клиента была добавлена проводка на отрицательную сумму, соответствующую суммарной величине ретробонусов, без ссылки на накладную.</span><span class="sxs-lookup"><span data-stu-id="d0063-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
-15. <span data-ttu-id="d0063-130">Щелкните "Отмена".</span><span class="sxs-lookup"><span data-stu-id="d0063-130">Click Cancel.</span></span>
+## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="c9eb0-108">Преобразование требований по ретробонусам в кредит-ноту</span><span class="sxs-lookup"><span data-stu-id="c9eb0-108">Convert rebate claims to credit note</span></span>
+1. <span data-ttu-id="c9eb0-109">Перейдите в раздел "Все клиенты".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-109">Go to All customers.</span></span>
+2. <span data-ttu-id="c9eb0-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="c9eb0-111">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="c9eb0-112">В области действий щелкните "Сбор".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-112">On the Action Pane, click Collect.</span></span>
+5. <span data-ttu-id="c9eb0-113">Щелкните "Сопоставление проводок".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-113">Click Settle transactions.</span></span>
+6. <span data-ttu-id="c9eb0-114">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-114">Click Functions.</span></span>
+7. <span data-ttu-id="c9eb0-115">Щелкните "Программа бонусов".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-115">Click Rebate program.</span></span>
+    * <span data-ttu-id="c9eb0-116">На странице "Ретробонус" перечислены требования по ретробонусам, которые вы обработали на рабочем месте по начислению ретробонусов и которые находятся в состоянии "Пометка".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
+8. <span data-ttu-id="c9eb0-117">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-117">Click Edit.</span></span>
+    * <span data-ttu-id="c9eb0-118">Установите флажки в поле "Пометка" для требований, которые вы хотите включить в кредит-ноту.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
+9. <span data-ttu-id="c9eb0-119">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-119">Click Functions.</span></span>
+10. <span data-ttu-id="c9eb0-120">Щелкните "Создать кредит-ноту".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-120">Click Create credit note.</span></span>
+    * <span data-ttu-id="c9eb0-121">Появляется сообщение о том, что журнал разнесен (это журнал потребления модуля "Расчеты с клиентами", как указано на странице "Параметры модуля расчетов с клиентами").</span><span class="sxs-lookup"><span data-stu-id="c9eb0-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="c9eb0-122">В результате этого сумма реального обязательства (кредита) переносится на сальдо клиента.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="c9eb0-123">Это означает, что счет клиента кредитуется, а счет начисления "Ретробонус" дебетуется.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-123">This means that the customer's account has been credited, and the Rebate accrual account has been debited.</span></span>  
+11. <span data-ttu-id="c9eb0-124">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-124">Close the page.</span></span>
+12. <span data-ttu-id="c9eb0-125">Щелкните "Отмена".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-125">Click Cancel.</span></span>
+    * <span data-ttu-id="c9eb0-126">В результате страница будет обновлена, и вы увидите новые данные.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-126">This refreshes the page so that you can see the updates.</span></span>  
+13. <span data-ttu-id="c9eb0-127">В области действий щелкните "Сбор".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-127">On the Action Pane, click Collect.</span></span>
+14. <span data-ttu-id="c9eb0-128">Щелкните "Сопоставление проводок".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-128">Click Settle transactions.</span></span>
+    * <span data-ttu-id="c9eb0-129">Обратите внимание, что к сальдо клиента была добавлена проводка на отрицательную сумму, соответствующую суммарной величине ретробонусов, без ссылки на накладную.</span><span class="sxs-lookup"><span data-stu-id="c9eb0-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
+15. <span data-ttu-id="c9eb0-130">Щелкните "Отмена".</span><span class="sxs-lookup"><span data-stu-id="c9eb0-130">Click Cancel.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

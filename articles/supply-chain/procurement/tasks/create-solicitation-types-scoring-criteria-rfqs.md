@@ -15,39 +15,42 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40625152a579bb269411d026d77d449902c8d4bc
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cf196711799b78d7f4106b6693127d7f356b1d4e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016814"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262221"
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="7c2cb-103">Создание типов обращений и критериев оценки для запросов предложений</span><span class="sxs-lookup"><span data-stu-id="7c2cb-103">Create solicitation types and scoring criteria for RFQs</span></span>
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="22c0b-103">Создание типов обращений и критериев оценки для запросов предложений</span><span class="sxs-lookup"><span data-stu-id="22c0b-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7c2cb-104">В этом руководстве показано, как создать тип обращения и связать его с методом оценки.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="7c2cb-105">В нем также показано, как использовать тип обращения в запросе предложения, который задает метод оценки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="7c2cb-106">Эти задачи обычно выполняются менеджером по закупкам.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="7c2cb-107">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="7c2cb-108">Необходимо иметь доступный метод оценки перед началом работы.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-108">You need to have a scoring method available before you start.</span></span>
+<span data-ttu-id="22c0b-104">В этом руководстве показано, как создать тип обращения и связать его с методом оценки.</span><span class="sxs-lookup"><span data-stu-id="22c0b-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="22c0b-105">В нем также показано, как использовать тип обращения в запросе предложения, который задает метод оценки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="22c0b-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="22c0b-106">Эти задачи обычно выполняются менеджером по закупкам.</span><span class="sxs-lookup"><span data-stu-id="22c0b-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="22c0b-107">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="22c0b-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="22c0b-108">Необходимо иметь доступный метод оценки перед началом работы.</span><span class="sxs-lookup"><span data-stu-id="22c0b-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a><span data-ttu-id="7c2cb-109">Создание типа обращения</span><span class="sxs-lookup"><span data-stu-id="7c2cb-109">Create a solicitation type</span></span>
-1. <span data-ttu-id="7c2cb-110">Перейдите в раздел "Закупки и источники" > "Настройка" > "Запрос предложения" > "Тип обращения".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
-2. <span data-ttu-id="7c2cb-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-111">Click New.</span></span>
-3. <span data-ttu-id="7c2cb-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="7c2cb-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7c2cb-114">В поле "Метод оценки" выберите метод оценки, который требуется использовать для этого типа обращения.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
-6. <span data-ttu-id="7c2cb-115">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-115">Click Save.</span></span>
-7. <span data-ttu-id="7c2cb-116">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-116">Close the page.</span></span>
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="22c0b-109">Создание типа обращения</span><span class="sxs-lookup"><span data-stu-id="22c0b-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="22c0b-110">Перейдите в раздел "Закупки и источники" > "Настройка" > "Запрос предложения" > "Тип обращения".</span><span class="sxs-lookup"><span data-stu-id="22c0b-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="22c0b-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="22c0b-111">Click New.</span></span>
+3. <span data-ttu-id="22c0b-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22c0b-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="22c0b-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22c0b-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="22c0b-114">В поле "Метод оценки" выберите метод оценки, который требуется использовать для этого типа обращения.</span><span class="sxs-lookup"><span data-stu-id="22c0b-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="22c0b-115">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="22c0b-115">Click Save.</span></span>
+7. <span data-ttu-id="22c0b-116">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="22c0b-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a><span data-ttu-id="7c2cb-117">Использование типа обращения</span><span class="sxs-lookup"><span data-stu-id="7c2cb-117">Use the solicitation type</span></span>
-1. <span data-ttu-id="7c2cb-118">Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Все запросы предложений".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
-2. <span data-ttu-id="7c2cb-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-119">Click New.</span></span>
-3. <span data-ttu-id="7c2cb-120">В поле "Тип обращения" выберите созданный тип обращения.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="22c0b-117">Использование типа обращения</span><span class="sxs-lookup"><span data-stu-id="22c0b-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="22c0b-118">Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Все запросы предложений".</span><span class="sxs-lookup"><span data-stu-id="22c0b-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="22c0b-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="22c0b-119">Click New.</span></span>
+3. <span data-ttu-id="22c0b-120">В поле "Тип обращения" выберите созданный тип обращения.</span><span class="sxs-lookup"><span data-stu-id="22c0b-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
     *   
-4. <span data-ttu-id="7c2cb-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-121">Click OK.</span></span>
-5. <span data-ttu-id="7c2cb-122">Щелкните "Критерии оценки".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-122">Click Scoring criteria.</span></span>
-    * <span data-ttu-id="7c2cb-123">Отображаемые критерии оценки — это критерии из метода оценки, связанного с типом обращения.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="7c2cb-124">Можно добавить или удалить критерии на этой странице.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="7c2cb-125">Также можно добавить новый критерий, скопировав его из других методов оценки.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
-6. <span data-ttu-id="7c2cb-126">Щелкните "Копировать критерии".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-126">Click Copy criteria.</span></span>
-7. <span data-ttu-id="7c2cb-127">В поле "Метод оценки" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-127">In the Scoring method field, enter or select a value.</span></span>
-8. <span data-ttu-id="7c2cb-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="7c2cb-128">Click OK.</span></span>
-9. <span data-ttu-id="7c2cb-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="7c2cb-129">Close the page.</span></span>
+4. <span data-ttu-id="22c0b-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="22c0b-121">Click OK.</span></span>
+5. <span data-ttu-id="22c0b-122">Щелкните "Критерии оценки".</span><span class="sxs-lookup"><span data-stu-id="22c0b-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="22c0b-123">Отображаемые критерии оценки — это критерии из метода оценки, связанного с типом обращения.</span><span class="sxs-lookup"><span data-stu-id="22c0b-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="22c0b-124">Можно добавить или удалить критерии на этой странице.</span><span class="sxs-lookup"><span data-stu-id="22c0b-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="22c0b-125">Также можно добавить новый критерий, скопировав его из других методов оценки.</span><span class="sxs-lookup"><span data-stu-id="22c0b-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="22c0b-126">Щелкните "Копировать критерии".</span><span class="sxs-lookup"><span data-stu-id="22c0b-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="22c0b-127">В поле "Метод оценки" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="22c0b-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="22c0b-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="22c0b-128">Click OK.</span></span>
+9. <span data-ttu-id="22c0b-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="22c0b-129">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
