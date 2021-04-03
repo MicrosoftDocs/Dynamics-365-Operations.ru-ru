@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985962"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582727"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки контента (CDN)
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки содержимого (CDN)
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 При настройке среды электронной коммерции в Dynamics 365 Commerce можно настроить ее для работы со службой CDN. 
 
@@ -96,7 +93,7 @@ ms.locfileid: "4985962"
 1. В поле **Имя** введите **по умолчанию**.
 1. В поле **Принятый протокол** выберите **HTTP и HTTPS**.
 1. В поле **Интерфейсные узлы** введите **dynamics-ecom-tenant-name.azurefd.net**.
-1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\** _.
+1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\***.
 1. В разделе **Сведения о маршруте** установите параметр **Тип маршрута** в значение **Прямой**.
 1. В поле **Серверный пул** выберите **ecom-backend**.
 1. В группе полей **Протокол переадресации** выберите параметр **Сопоставить запрос**. 
@@ -109,7 +106,7 @@ ms.locfileid: "4985962"
 1. В поле **Имя** введите **статические**.
 1. В поле **Принятый протокол** выберите **HTTP и HTTPS**.
 1. В поле **Интерфейсные узлы** введите **dynamics-ecom-tenant-name.azurefd.net**.
-1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\_msdyn365/\_scnr/\** _.
+1. В области **Шаблоны для сопоставления** в верхнем поле введите **/\_msdyn365/\_scnr/\***.
 1. В разделе **Сведения о маршруте** установите параметр **Тип маршрута** в значение **Прямой**.
 1. В поле **Серверный пул** выберите **ecom-backend**.
 1. В группе полей **Протокол переадресации** выберите параметр **Сопоставить запрос**.
@@ -143,25 +140,7 @@ ms.locfileid: "4985962"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Настройка доменного имени](configure-your-domain-name.md)
-
-[Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
-
-[Создание сайта электронной коммерции](create-ecommerce-site.md)
-
-[Связывание сайта Dynamics 365 Commerce с интернет-каналом](associate-site-online-store.md)
-
-[Управление файлами robots.txt](manage-robots-txt-files.md)
-
-[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
-
-[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
-
-[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
-
-[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
-
-[Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
+[Параметры реализации сети доставки содержимого](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

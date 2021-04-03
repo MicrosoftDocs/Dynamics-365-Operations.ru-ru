@@ -3,7 +3,7 @@ title: Создание учетной записи хранилища в Azure 
 description: В этом разделе объясняется, как создать учетную запись хранилища Azure и хранилище ключей.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104237"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479353"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Создание учетной записи хранилища в Azure и хранилища ключей
 
@@ -77,9 +77,12 @@ ms.locfileid: "5104237"
 
     ![Предоставление разрешения сертификата](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. В диалоговом окне **Субъект** выберите субъект, добавив **Дополнение электронных накладных**.
-10. Выберите **Добавить**, затем выберите **Сохранить изменения Key Vault**.
-11. На странице **Обзор** скопируйте значение **Имя DNS** для хранилища ключей. Это значение будет использоваться во время настройки службы в RCS и будет называться *URI хранилища ключей*.
+9. В поле **Выбрать доверителя** выберите **нет выбранных**.
+10. В диалоговом окне **Субъект** выберите субъект, добавив **Служба электронных накладных**.
+11. Выберите **Добавить**, затем выберите **Сохранить изменения Key Vault**.
+12. На странице **Обзор** скопируйте значение **Имя DNS** для хранилища ключей. Это значение будет использоваться во время настройки службы в RCS и будет называться *URI хранилища ключей*.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131801"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500582"
 ---
 # <a name="creating-work-orders"></a>Создание заказов на работу
 
@@ -62,8 +62,7 @@ ms.locfileid: "5131801"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Группировка строк заказов на работу, которые создаются автоматически при выполнении плана обслуживания
 
-> [!IMPORTANT]
-> Функциональность, описанная в этом разделе, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Эта функция позволяет определить правила для группировки строк заказа на работу в одном заказе на работу, когда система настроена на автоматическое создание заказов на работу на основе плана обслуживания. Ранее автоматически созданные заказы на работу могли содержать только одну строку. Однако теперь можно группировать заказы на работу по, например, активу, типу актива или функциональному местоположению. (Созданные вручную заказы на работу уже могут быть сгруппированы таким образом, как это описано в предыдущем разделе этой темы.)
 

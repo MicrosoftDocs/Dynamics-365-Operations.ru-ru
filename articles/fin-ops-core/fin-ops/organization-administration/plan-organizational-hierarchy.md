@@ -3,10 +3,9 @@ title: Планирование организационной иерархии
 description: Прежде чем настраивать организации и организационные иерархии, вы должны понять, как лучше всего смоделировать вашу компанию.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154417"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569369"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Планирование организационной иерархии
 
@@ -166,7 +165,7 @@ ms.locfileid: "5154417"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Если организация моделируется как юридическое лицо
 
-Для поддерживаемых стран и регионов можно создавать большинство предусмотренных законодательством отчетов. Сведения о том, какие отчеты доступны для каждой страны или региона см. на [портале локализации Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/). (Необходима учетная запись CustomerSource.)
+Для поддерживаемых стран и регионов можно создавать большинство предусмотренных законодательством отчетов. 
 
 > [!NOTE]
 > Слой разноски в главной книге позволяет делать записи корректировки в родительской компании, которая использует другой стандарт учета, чем дочерняя компания. Например, для компании, которая использует принципы учета GAAP в Соединенном Королевстве (UK GAAP), можно делать записи корректировки в слое разноски. Эти записи можно консолидировать в родительскую компанию, которая использует принципы учета GAAP в США. Записи корректировки не влияют на отчетность GAAP в Соединенном Королевстве.

@@ -1,0 +1,108 @@
+---
+title: Что нового и что изменилось в Dynamics 365 Human Resources 22 февраля 2021 г.
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 22 февраля 2021 года.
+author: marcelbf
+manager: tfehr
+ms.date: 02/22/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: marcelbf
+ms.search.validFrom: 2021-02-22
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 363ea7d47a46234b2854a073029859c31277d88f
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579363"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 22 февраля 2021 г.
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+В этой теме описываются новые, измененные и ожидающиеся компоненты в Dynamics 365 Human Resources.
+
+Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
+
+Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+
+## <a name="in-this-release"></a>В данном выпуске
+
+Этот выпуск включает следующие новые функции и исправления ошибок. Изменения применяются для номера сборки 8.1.3988.
+
+### <a name="new-features"></a>Новые возможности
+
+В этой версии следующие функции стали общедоступными.
+
+| Функция | План выпуска | Документация |
+| --- | --- | --- |
+| Приложение Dynamics 365 Human Resources для Microsoft Teams | [Отпуск и отгулы сотрудников в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Управление запросами на отпуск в Teams](hr-teams-leave-app.md) |
+
+### <a name="bug-fixes"></a>Исправления ошибок
+
+Этот выпуск содержит следующие исправления ошибок.
+
+> [!NOTE]
+> Наша цель — предоставить эту информацию вам как можно скорее. Мы может обновить этот раздел для включения исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этого раздела.
+
+| Номер проблемы | Расход |  описание |
+| --- | --- | --- |
+| 529994 | Изменение поля **Известен как** в форме **Работник** не вызывает обновление Dataverse | Исправлена проблема, когда Dataverse не обновляется при обновлении поля **Известен как** в форме **Работник**. |
+| 532651 | В отчете PBI аналитики компенсаций не используется пересчет валют при расчете метрик для всей компании | Исправлена проблема, в которой отчет PBI аналитики компенсации не преобразовал валюты правильно. |
+| 552226 | Обработка жизненного события закрывает и повторно открывает планы несколько раз для оного жизненного события  | Исправлена проблема, в которой сотрудник находится в нескольких юридических лицах и происходит жизненное событие, для каждого юридического лица, в котором находится сотрудник, создается запись жизненного события. При обработке жизненных событий должен быть выбран юридическое лицо для обработки. Однако логика обработки не ограничивает себя этим юридическим лицом. Вместо этого обрабатываются все юридические лица, закрываются и повторно открываются планы в выбранном юридическом лице. Это действие является жизненным событием, которое должно обрабатываться несколько раз в одном и том же юридическом лице, что приводит к множественному закрытию/повторному открытию каждого плана, на который влияет жизненное событие. |
+| 518064 | Только один из них, выбранный в подходящих планах, если несколько помечены как назначенные лица по умолчанию | Исправлена проблема, в которой несколько назначенных по умолчанию не выбираются автоматически в подходящих планах. Теперь можно назначить основного бенефициара для личного контакта. Основной бенефициар указано как 100% в подходящих планах, если имеется несколько бенефициаров. |
+| 552365 | Ошибка собственных заданий экспорта базы данных (BYOD) после обновления платформы 40 | Исправлена проблема ошибки экспорта BYOD после обновления платформы 40 для среды. |
+| 547123 | Ограничение числа задач, запрошенных в списке дел на панели мониторинга | Число задач, отображаемых в списке дел, ограничивается 15 для устранения проблем с производительностью, вызванных попыткой загрузить слишком большое число задач. |
+
+## <a name="in-preview"></a>В режиме предварительного просмотра
+
+В предварительной версии доступны следующие новые функции. Дополнительные сведения о включении и выключении функций см. в разделе [Управление функциями](hr-admin-manage-features.md).
+
+| Функция | План выпуска | Документация |
+| --- | --- | --- |
+| Представление отпусков в нескольких компаниях для менеджеров | [Представление отпусков сотрудников в нескольких компаниях для менеджеров](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Настройка параметров отпусков и отсутствий](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| Рабочая область управления льготами | [Рабочая область управления льготами (предварительная версия)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Рабочая область управления льготами](hr-benefits-management-workspace.md) |
+| Ограничение сотрудникам изменения сведений о бизнес-контактах | [Ограничение сотрудникам изменения сведений о бизнес-контактах](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Ограничение редактирования личных данных](hr-employee-self-service-restrict-editing.md)|
+
+## <a name="coming-soon"></a>Скоро
+
+| Функция | Подробности |
+| --- | --- |
+| Навыки, введенные руководителем для своих сотрудников, могут быть автоматически утверждены рабочим процессом | Скоро появится. |
+
+Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 1 Dynamics 365 Human Resources от 2021 года](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+
+## <a name="terminology-updates-for-microsoft-dataverse"></a>Обновления терминологии для Microsoft Dataverse
+
+Начиная с ноября 2020 года Common Data Service был переименован в [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Дополнительные сведения см. в [официальном объявлении](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) в блоге по Power Apps. В сочетании с этим изменением имени была обновлена некоторая терминология в Dataverse. Например, вместо термина *объект* теперь используется термин *таблица*, а вместо термина *поле* — *столбец*. Дополнительные сведения см. в разделе [Обновления терминологии](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+
+В этом выпуске терминология, связанная в интеграцией Dynamics 365 Human Resources с Dataverse, обновлена в рамках всего приложения, чтобы отразить эти изменения. Например, форма **Интеграция Common Data Service** теперь называется **Интеграция Microsoft Dataverse**.
+
+Дополнительные сведения об интеграции Dynamics 365 Human Resources с Microsoft Dataverse см. в разделах [Настройка интеграции Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) и [Настройка виртуальных таблиц Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+
+## <a name="updates-to-service-deployment"></a>Обновление развертывания служб
+
+С 22 февраля 2021 в выпуске 2021 мы корректируем развертывание обновления региональных служб. Эти корректировки включают в себя изменение порядка, в котором глобальные регионы получают обновления для службы управления персоналом, и изменения времени ожидания между этапами обновления. Эти изменения приводят к оптимизации с рекомендациям по безопасному развертыванию (SDP), повышая стабильность обслуживания, качество и поддержку.
+
+Мы будем продолжать использовать двухнедельное развертывание. Однако клиенты могут заметить, что обновления обычно применяются к их средам управления персоналом в разное время в цикле двух недель, чем в предыдущих выпусках.
+
+Дополнительные сведения о процессе обновления служб см. в разделе [Процесс обновления](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process).
+
+## <a name="see-also"></a>См. также
+
+[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2021, волна 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Процесс обновления](hr-admin-setup-update-process.md)</br>
+[Управление функциями](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
