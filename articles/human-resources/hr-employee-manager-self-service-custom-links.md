@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8662035235aa9b4788ced83c2c0efc0e4862e2a6
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ab6b212efca7fa69d74d06ce2dbbab09d50f044c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114058"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467201"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Создание пользовательских ссылок на портале самообслуживания менеджеров
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Можно добавить пользовательские ссылки на вкладку **Моя группа** на портале самообслуживания менеджера. Эта функция позволяет обеспечить быстрый доступ к важной информации. Это аналогично добавлению пользовательских ссылок на вкладке **Моя информация** на портале самообслуживания сотрудников.
 

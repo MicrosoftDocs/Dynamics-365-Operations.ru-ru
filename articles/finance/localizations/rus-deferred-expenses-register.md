@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: v-lenest
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 4bca1ceb6150f954f1f83854bd4a664c33e429d7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec04f9187e4b2ddbb18865199974255c14d011f1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002719"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240557"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 

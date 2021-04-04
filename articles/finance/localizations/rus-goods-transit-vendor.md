@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 8.1.2
-ms.openlocfilehash: df8ee4f8a7773737a288bc75352cdd21e456d4cf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2622d537e26a46fda321fc4e6b5c73bad204ff36
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247954"
 ---
 # <a name="goods-in-transit-from-vendor-russia"></a>Товары в пути от поставщика (Россия)
 

@@ -3,10 +3,9 @@ title: Тип места назначения ER принтера
 description: В этой теме объясняется, как можно настроить место назначения принтера для каждого компонента ПАПКА или ФАЙЛ в формате электронной отчетности (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094087"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561958"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Назначение принтера
 
@@ -48,8 +47,6 @@ ms.locfileid: "5094087"
 Место назначения **Принтер** может быть настроено только для тех компонентов файлов, которые используются для создания выходных данных в формате PDF для печати (слияние PDF или формат PDF) или Microsoft Office Excel/Word (файл Excel). При создании выходных данных в формате PDF они отправляются на принтер. Когда выходные данные создаются в формате Microsoft Office, они автоматически преобразуются в формат PDF и затем отправляются на принтер.
 
 ### <a name="limitations"></a>Ограничения
-
-Эта функция предназначена для предварительного просмотра и подчиняется условиям использования, которые описаны в [Дополнительные условия использования предварительных версий Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 Место назначения **Принтер** реализовано только для развертываний в облаке.
 

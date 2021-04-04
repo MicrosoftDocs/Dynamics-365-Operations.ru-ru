@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113995"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463920"
 ---
 # <a name="create-plan-types"></a>Создание типов планов
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Тип плана в Microsoft Dynamics 365 Human Resources является высокоуровневой группировкой различных типов льгот. Каждый тип плана имеет код типа плана, который определяет правила для данного типа плана. Например, тип плана "основное страхование жизни" будет иметь код типа плана "жизненный", так как это вид плана страхования жизни, и должен соответствовать правилам, установленным для кода типа плана "жизнь". Другой тип плана может быть "дополнительное страхование жизни", также кодом типа плана "жизнь".
 

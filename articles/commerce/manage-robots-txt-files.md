@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982549"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477716"
 ---
 # <a name="manage-robotstxt-files"></a>Управление файлами robots.txt
-
 
 [!include [banner](includes/banner.md)]
 
 В этой теме описано, как управлять файлами robots.txt в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Стандарт исключения роботов, или robots.txt, является стандартом, который веб-сайты используют для связи с веб-роботами. Он инструктирует веб-роботов о любых областях веб-сайта, которые не должны быть посещены. Роботы часто используются поисковыми системами для индексирования веб-сайтов.
 
