@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,55 +16,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cc47c5001cf456b1fc600b326f826ea3b8b43ee
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ca218f87eb1f9235ab475809fbbdfecf3fe0c7fb
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687058"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566050"
 ---
-# <a name="where-er-function"></a><span data-ttu-id="e4f51-103">Функция ER WHERE</span><span class="sxs-lookup"><span data-stu-id="e4f51-103">WHERE ER function</span></span>
+# <a name="where-er-function"></a><span data-ttu-id="e1ee1-103">Функция ER WHERE</span><span class="sxs-lookup"><span data-stu-id="e1ee1-103">WHERE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e4f51-104">Функция `WHERE` возвращает указанный список в качестве значения *Список записей* после того, как он был отфильтрован в соответствии с указанным условием.</span><span class="sxs-lookup"><span data-stu-id="e4f51-104">The `WHERE` function returns the specified list as a *Record list* value after it has been filtered according to the specified condition.</span></span>
+<span data-ttu-id="e1ee1-104">Функция `WHERE` возвращает указанный список в качестве значения *Список записей* после того, как он был отфильтрован в соответствии с указанным условием.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-104">The `WHERE` function returns the specified list as a *Record list* value after it has been filtered according to the specified condition.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e4f51-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e4f51-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e1ee1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e1ee1-105">Syntax</span></span>
 
 ```vb
 WHERE (list, condition)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e4f51-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="e4f51-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="e1ee1-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="e1ee1-106">Arguments</span></span>
 
-<span data-ttu-id="e4f51-107">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="e4f51-107">`list`: *Record list*</span></span>
+<span data-ttu-id="e1ee1-107">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="e1ee1-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="e4f51-108">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="e4f51-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="e1ee1-108">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="e4f51-109">`condition`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="e4f51-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="e1ee1-109">`condition`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="e1ee1-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="e4f51-110">Действительное условное выражение, используемое для фильтрации записей указанного списка.</span><span class="sxs-lookup"><span data-stu-id="e4f51-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
+<span data-ttu-id="e1ee1-110">Действительное условное выражение, используемое для фильтрации записей указанного списка.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e4f51-111">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="e4f51-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e1ee1-111">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="e1ee1-111">Return values</span></span>
 
-<span data-ttu-id="e4f51-112">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="e4f51-112">*Record list*</span></span>
+<span data-ttu-id="e1ee1-112">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="e1ee1-112">*Record list*</span></span>
 
-<span data-ttu-id="e4f51-113">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="e4f51-113">The resulting list of records.</span></span>
+<span data-ttu-id="e1ee1-113">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-113">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e4f51-114">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="e4f51-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="e1ee1-114">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="e1ee1-114">Usage notes</span></span>
 
-<span data-ttu-id="e4f51-115">Эта функция отличается от функции [FILTER](er-functions-list-filter.md), так как указанное условие применяется на уровне базы данных к любому источнику данных электронной отчетности (ER) с типом *Список записей*, присутствующему в памяти.</span><span class="sxs-lookup"><span data-stu-id="e4f51-115">This function differs from the [FILTER](er-functions-list-filter.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Record list* type that is present in memory.</span></span>
+<span data-ttu-id="e1ee1-115">Эта функция отличается от функции [FILTER](er-functions-list-filter.md), так как указанное условие применяется на уровне базы данных к любому источнику данных электронной отчетности (ER) с типом *Список записей*, присутствующему в памяти.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-115">This function differs from the [FILTER](er-functions-list-filter.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Record list* type that is present in memory.</span></span>
 
-<span data-ttu-id="e4f51-116">Если аргументы, настроенные для этой функции (`list` и `condition`) позволяют перевести этот запрос на прямой вызов SQL, во время разработки будет выдано предупреждающее сообщение.</span><span class="sxs-lookup"><span data-stu-id="e4f51-116">If the arguments that are configured for this function (`list` and `condition`) allow this request to be translated to the direct SQL call, a warning message is thrown at design time.</span></span> <span data-ttu-id="e4f51-117">Это сообщение информирует пользователя о том, что производительность может быть улучшена, если функцию [FILTER](er-functions-list-filter.md) использовать вместо `WHERE`.</span><span class="sxs-lookup"><span data-stu-id="e4f51-117">This message informs the user that performance might be improved if the [FILTER](er-functions-list-filter.md) function is used instead of `WHERE`.</span></span>
+<span data-ttu-id="e1ee1-116">Если аргументы, настроенные для этой функции (`list` и `condition`) позволяют перевести этот запрос на прямой вызов SQL, во время разработки будет выдано предупреждающее сообщение.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-116">If the arguments that are configured for this function (`list` and `condition`) allow this request to be translated to the direct SQL call, a warning message is thrown at design time.</span></span> <span data-ttu-id="e1ee1-117">Это сообщение информирует пользователя о том, что производительность может быть улучшена, если функцию [FILTER](er-functions-list-filter.md) использовать вместо `WHERE`.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-117">This message informs the user that performance might be improved if the [FILTER](er-functions-list-filter.md) function is used instead of `WHERE`.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="e4f51-118">Пример 1</span><span class="sxs-lookup"><span data-stu-id="e4f51-118">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="e1ee1-118">Пример 1</span><span class="sxs-lookup"><span data-stu-id="e1ee1-118">Example 1</span></span>
 
-<span data-ttu-id="e4f51-119">Если **Поставщик** настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, выражение `WHERE (Vendors, Vendors.VendGroup = "40")` возвращает список только поставщиков, которые относятся к группе поставщиков 40.</span><span class="sxs-lookup"><span data-stu-id="e4f51-119">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `WHERE (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
+<span data-ttu-id="e1ee1-119">Если **Поставщик** настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, выражение `WHERE (Vendors, Vendors.VendGroup = "40")` возвращает список только поставщиков, которые относятся к группе поставщиков 40.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-119">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `WHERE (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="e4f51-120">Пример 2</span><span class="sxs-lookup"><span data-stu-id="e4f51-120">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="e1ee1-120">Пример 2</span><span class="sxs-lookup"><span data-stu-id="e1ee1-120">Example 2</span></span>
 
-<span data-ttu-id="e4f51-121">Если введен источник данных **DS** для типа *Вычисляемое поле* и он содержит выражение `SPLIT ("A|B|C", "|")`, выражение `WHERE( DS, DS.Value = "B")` возвращает список только одной записи, содержащей текст **"B"** в поле **Значение**.</span><span class="sxs-lookup"><span data-stu-id="e4f51-121">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `WHERE( DS, DS.Value = "B")` returns a list of only one record that contains the text **"B"** in the **Value** field.</span></span>
+<span data-ttu-id="e1ee1-121">Если введен источник данных **DS** для типа *Вычисляемое поле* и он содержит выражение `SPLIT ("A|B|C", "|")`, выражение `WHERE( DS, DS.Value = "B")` возвращает список только одной записи, содержащей текст **"B"** в поле **Значение**.</span><span class="sxs-lookup"><span data-stu-id="e1ee1-121">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `WHERE( DS, DS.Value = "B")` returns a list of only one record that contains the text **"B"** in the **Value** field.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e4f51-122">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e4f51-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e1ee1-122">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e1ee1-122">Additional resources</span></span>
 
-[<span data-ttu-id="e4f51-123">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="e4f51-123">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="e1ee1-123">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="e1ee1-123">List functions</span></span>](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
