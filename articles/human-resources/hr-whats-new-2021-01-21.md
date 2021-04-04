@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: af847ed36187c0d0629ce4063d9c17cb0fa8cfcf
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: fc3bb035686a46030514aca1f5ad03a2681845fd
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060850"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463534"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources от 21 января 2021 г.
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой теме описываются новые, измененные и ожидающиеся компоненты в Dynamics 365 Human Resources.
 
