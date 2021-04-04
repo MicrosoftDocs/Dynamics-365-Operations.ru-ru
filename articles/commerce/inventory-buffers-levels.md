@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012445"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478396"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Настройка буферов запасов и уровней запасов
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как настроить буферы запасов и уровни запасов, которые определяют сообщения о доступности запасов на сайта Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Центральный офис Dynamics 365 Commerce хранит данные о запасах и различные каналы, такие как приложения POS, витрины магазина электронной коммерции и другие настраиваемые интегрированные приложения, которые извлекают и помещают запасы в асинхронном режиме. Таким образом, доступные значения запасов, полученные через страницу запасов в наличии в центральном офисе Commerce через интерфейс пользователя POS и через API доступности запасов для электронной коммерции, не всегда 100-процентно точны в реальном времени.
 
