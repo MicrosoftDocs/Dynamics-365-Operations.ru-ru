@@ -3,10 +3,9 @@ title: Видео
 description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями Finance and Operations, которые доступны на YouTube и других сайтах.
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70eddab17d94a7ff4a9f00117200a657ebfb24dd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797883"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566230"
 ---
 # <a name="videos"></a>Видео 
 
@@ -89,9 +88,6 @@ ms.locfileid: "4797883"
 ### <a name="customize-the-app"></a>Настройка приложения
 - [Добавить настраиваемые поля](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Внедрение Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>Расходы
-- [Опыт работы с расходами](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Финансовая отчетность
 - [Поиск версии конструктора отчетов](https://www.youtube.com/embed/icfA5Q3kp4w)

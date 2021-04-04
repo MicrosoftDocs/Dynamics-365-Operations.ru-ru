@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 6eb5a78c6ac4ad13ad1d263c557359ad2f789cc0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093571"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569920"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Содержимое Power BI "Показатели продаж и прибыльности"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Показатели продаж и прибыльности**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое **Показатели продаж и прибыльности** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
