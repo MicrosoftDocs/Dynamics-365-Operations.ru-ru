@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973768"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558270"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Макет маршрутизации документов для наклеек грузомест
 
 [!include [banner](../includes/banner.md)]
+
 
 Макет маршрутизации документов определяет компоновку наклеек грузомест и печатаемые на них данные. Точки запуска печати настраиваются при настройке элементов меню и шаблонов работы мобильного устройства.
 
@@ -51,6 +52,10 @@ ms.locfileid: "4973768"
 Чтобы просмотреть значения, которые будут распечатаны, перейдите к пункту **Управление складом \> Запросы и отчеты \> Метки грузомест**.
 
 Несколько широко доступных инструментов создания меток могут помочь отформатировать текст для макета метки. Многие из этих средств поддерживают формат `$FieldName$`. Кроме того, Microsoft Dynamics 365 Supply Chain Management использует специальную логику форматирования в качестве части сопоставления полей для макета маршрутизации документов.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Включите эту функцию для своей системы
+
+Если ваша система еще не содержит функций, описанных в этом разделе, перейдите в [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Усовершенствованные макеты меток грузомест*.
 
 ## <a name="custom-number-formats"></a>Пользовательские числовые форматы
 

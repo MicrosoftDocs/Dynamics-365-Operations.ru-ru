@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 56ff879603a31956db877b45aec11b15371b69f5
-ms.sourcegitcommit: 5c1b5ef40ce7359b3f1955535a250718d863badb
+ms.openlocfilehash: f46a8efefd8e41c08bf4de49cfec856dc0a86da1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142164"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468043"
 ---
 # <a name="generate-aca-reports"></a>Создание отчетов ACA
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Отчетность по закону США о доступном медицинском обслуживании (ACA) создает формы 1095-B и 1095-C в поддержку части **Мандат работодателя** закона США о доступном медицинском обслуживании.
 

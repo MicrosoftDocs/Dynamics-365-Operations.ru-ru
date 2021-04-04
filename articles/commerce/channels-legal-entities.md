@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9491feb004366a02155225bfb323773e130f3dc9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993611"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478220"
 ---
 # <a name="create-legal-entities"></a>Создание юридических лиц
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
-
-## <a name="overview"></a>Обзор
 
 Юридическое лицо — это организация, имеющая зарегистрированную или узаконенную правовую структуру. Юридические лица могут заключать юридические соглашения и обязаны подготавливать отчетность по результатам своей деятельности.
 

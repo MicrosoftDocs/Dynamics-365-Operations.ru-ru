@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c10802d66ba9e241a042cc1a0bba01457da20126
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5887ae7983fd817a929a185327671b301808b354
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010107"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478244"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Включение Azure Data Lake Storage в среде Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как включить и проверить Azure Data Lake Storage для среды Dynamics 365 Commerce, что является необходимым условием для включения рекомендаций по продукту.
-
-## <a name="overview"></a>Обзор
 
 В решении Dynamics 365 Commerce все сведения о продуктах и проводках отслеживаются в хранилище объектов среды. Чтобы сделать эти данные доступными другим службам Dynamics 365, таким как анализ данных, бизнес-аналитика и персонализированные рекомендации, необходимо подключить среду к принадлежащему заказчику решению Azure Data Lake Storage Gen 2.
 

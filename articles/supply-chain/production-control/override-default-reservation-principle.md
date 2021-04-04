@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078299"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501110"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Переопределение принципа резервирования по умолчанию для материалов в производстве
 
@@ -38,11 +39,11 @@ ms.locfileid: "5078299"
 Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление производством*
-- **Название функции:** *Переопределение резервирования производства по умолчанию*
+- **Название функции:** *(Предварительная версия) Переопределение резервирования производства по умолчанию*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Назначение политики резервирования производства группе моделей номенклатуры
 
-1. Перейдите в раздел **Управление затратами &gt; Настройка учетных политик запасов &gt; Группы моделей номенклатуры**.
+1. Перейдите в раздел **Управление затратами \> Настройка учетных политик запасов \> Группы моделей номенклатуры**.
 1. Создайте или выберите группу номенклатурных моделей.
 1. На экспресс-вкладке **Политики запасов** установите флажок **Переопределение резервирования производства номенклатуры**.
 1. В поле **Резервирование** выберите принцип резервирования для номенклатур, относящихся к выбранной группе моделей. (Эти номенклатуры включают номенклатуры, которые находятся в строке спецификации или формулы.)

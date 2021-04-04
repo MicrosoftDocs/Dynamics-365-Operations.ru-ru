@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997608"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477764"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Настройка нескольких клиентов B2C в среде Commerce
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, когда и как настроить несколько клиентов "бизнес-потребитель" B2C Microsoft Azure Active Directory (Azure AD) по каналам для проверки подлинности пользователя в выделенной среде Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Dynamics 365 Commerce использует облачную службу удостоверений Azure AD B2C для поддержки учетных данных пользователя и потоков проверки подлинности. Пользователи могут использовать потоки проверки подлинности для регистрации, входа и сброса пароля. Azure AD B2C хранит конфиденциальные сведения о проверке подлинности пользователя, такие как имя пользователя и пароль. Запись пользователя является уникальной для каждого клиента B2C и использует либо учетные данные с именем пользователя (адресом электронной почты), либо учетные данные поставщика удостоверений социальных сетей.
 

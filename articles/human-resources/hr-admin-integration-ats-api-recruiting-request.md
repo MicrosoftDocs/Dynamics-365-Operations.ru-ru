@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125433"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500630"
 ---
 # <a name="recruiting-request"></a>Запрос на набор сотрудников
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается сущность запроса на набор сотрудников для Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ ms.locfileid: "5125433"
 | **Значение ИД вакансии**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Только для чтения<br>Необязательный<br>Внешний ключ: mshr_hcmjobtypeentityid сущности mshr_hcmjobtypenentity | Созданный системой уникальный идентификатор типа вакансии, связанного с вакансией для запроса на набор сотрудников. |
 | **Статус "Освобожденный"**<br>mshr_exemptstatus<br>Набор параметров *JobExemptStatus* | Только для чтения<br>Необязательный | Статус исключения FLSA на основе типа вакансии. |
 | **Ожидаемая дата начала**<br>mshr_estimatedstartdate<br>*Дата* | Чтение/запись<br>Требуется | Предполагаемая дата начала, с которой кандидат может приступить к работе. |
-| **Внешнее описание**<br>mshr_externaldescription<br>*Строка* | Чтение/запись<br>Необязательный | Предназначенное для кандидата описание вакансии/должности. | Нижний порог компенсации<br>mshr_compensationlowthreshold<br>*Двойной* | Чтение/запись<br>Необязательный | Нижняя граница для уровня компенсации. |
+| **Внешнее описание**<br>mshr_externaldescription<br>*Строка* | Чтение/запись<br>Необязательный | Предназначенное для кандидата описание вакансии/должности. | 
+| **Нижний порог компенсации**<br>mshr_compensationlowthreshold<br>*Двойной* | Чтение/запись<br>Необязательный | Нижняя граница для уровня компенсации. |
 | **Контрольная точка компенсации**<br>mshr_compensationcontrolpoint<br>*Двойной* | Чтение/запись<br>Необязательный | Контрольная точка для уровня компенсации. |
 | **Верхний порог компенсации**<br>mshr_compensationhighthreshold<br>*Двойной* | Чтение/запись<br>Необязательный | Верхняя граница для уровня компенсации. |
 | **Уровень компенсации**<br>mshr_compensationlevelid<br>*Строка* | Чтение/запись<br>Необязательный | Уровень компенсации для должности. Должность может быть настроена с несколькими уровнями компенсации. Этот атрибут указывает выбранный уровень компенсации должности для данного запроса. |

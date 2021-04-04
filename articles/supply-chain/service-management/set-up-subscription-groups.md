@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd9f6dfdf17ffd506fff21763388ee0ca7526681
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991599"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470890"
 ---
 # <a name="set-up-subscription-groups"></a>Настройка групп подписки 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Подписки на сервисное обслуживание** \> **Группы подписки**.
+1.  Перейдите **Управление сервисным обслуживанием** \> **Настройка** \> **Подписки на сервисное обслуживание** \> **Группы подписки**.
 
-2.  Нажмите сочетание клавиш Ctrl+N или щелкните **Создать**, чтобы создать новую группу подписки.
+2.  Выберите **Создать** для создания новой группы подписки.
 
 3.  В поле **Группа подписки** введите имя новой группы подписки.
 

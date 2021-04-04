@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8557416cee8ae23bb0e9d837677bf8140ecd8a3e
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: e642146701edad6b2275156e89048bc5a418c8a0
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115158"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467923"
 ---
 # <a name="set-up-training-courses"></a>Настройка курсов обучения
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Администраторы и менеджеры по управлению персоналом могут использовать характеристики курсов для ведения информации об обучении, которое предложено работникам.
 
