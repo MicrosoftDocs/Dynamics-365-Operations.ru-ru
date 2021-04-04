@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2e1d5fc80d93e41626da8eb5bdf8f389fb0bd531
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113988"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466190"
 ---
 # <a name="create-coverage-options"></a>Создание параметров покрытия
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Параметры покрытия в Microsoft Dynamics 365 Human Resources представляют собой уровни покрытия для выборов участника в плане или программе льгот. Например, параметры покрытия могут включать **Только сотрудник** для медицинских планов или **Две заработные платы** для плана страхования жизни. После определения можно повторно использовать параметры покрытия для льготы. Можно связать параметр с одним или несколькими планами.
 
