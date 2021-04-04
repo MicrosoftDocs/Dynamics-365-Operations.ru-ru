@@ -15,47 +15,50 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0faa23193111ed771ccc3a5c7f99ca908a036e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8079dadd09f3e781bcfde21974882cdd59dec809
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988144"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256604"
 ---
-# <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="10cfa-103">Настройка банковских счетов компании для безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="10cfa-103">Set up company bank accounts for ISO20022 direct debits</span></span>
+# <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="c8c8a-103">Настройка банковских счетов компании для безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="c8c8a-103">Set up company bank accounts for ISO20022 direct debits</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="10cfa-104">В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов.</span><span class="sxs-lookup"><span data-stu-id="10cfa-104">This task walks you through setting up the company specific bank account information that is required for generating customer payment files.</span></span> <span data-ttu-id="10cfa-105">Эта процедура использует формат прямого дебетования ISO 20022 в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="10cfa-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> <span data-ttu-id="10cfa-106">Другие форматы могут требовать дополнительных сведений о настройке, таких как код компании или код сортировки.</span><span class="sxs-lookup"><span data-stu-id="10cfa-106">Other formats might require additional setup information like the Company ID or the Sort code.</span></span>
+<span data-ttu-id="c8c8a-104">В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-104">This task walks you through setting up the company specific bank account information that is required for generating customer payment files.</span></span> <span data-ttu-id="c8c8a-105">Эта процедура использует формат прямого дебетования ISO 20022 в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> <span data-ttu-id="c8c8a-106">Другие форматы могут требовать дополнительных сведений о настройке, таких как код компании или код сортировки.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-106">Other formats might require additional setup information like the Company ID or the Sort code.</span></span>
 
 
 
-<span data-ttu-id="10cfa-107">Эта задача была создана с использованием компании с демонстрационными данными DEMF.</span><span class="sxs-lookup"><span data-stu-id="10cfa-107">This task was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="c8c8a-107">Эта задача была создана с использованием компании с демонстрационными данными DEMF.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-107">This task was created using the demo data company DEMF.</span></span>
 
 
 
-<span data-ttu-id="10cfa-108">Это вторая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="10cfa-108">This is the second of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="c8c8a-108">Это вторая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-108">This is the second of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
 
-## <a name="set-up-the-iban-and-swift-codes"></a><span data-ttu-id="10cfa-109">Настройка кода IBAN и SWIFT-кода</span><span class="sxs-lookup"><span data-stu-id="10cfa-109">Set up the IBAN and SWIFT codes</span></span>
-1. <span data-ttu-id="10cfa-110">Перейдите в раздел "Управление банком и кассовыми операциями" > "Банковские счета".</span><span class="sxs-lookup"><span data-stu-id="10cfa-110">Go to Cash and bank management > Bank accounts.</span></span>
-2. <span data-ttu-id="10cfa-111">Используйте экспресс-фильтр для фильтрации поля "Банковский счет" по значению 'DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="10cfa-111">Use the Quick Filter to filter on the Bank account field with a value of 'DEMF OPER'.</span></span>
-3. <span data-ttu-id="10cfa-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="10cfa-112">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="10cfa-113">Например, щелкните "DEMF OPER", чтобы открыть сведения о банковском счете.</span><span class="sxs-lookup"><span data-stu-id="10cfa-113">For example, click 'DEMF OPER' to open the bank account details.</span></span>  
-4. <span data-ttu-id="10cfa-114">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="10cfa-114">Click Edit.</span></span>
-5. <span data-ttu-id="10cfa-115">Разверните или сверните раздел "Дополнительная идентификация".</span><span class="sxs-lookup"><span data-stu-id="10cfa-115">Expand or collapse the Additional identification section.</span></span>
-6. <span data-ttu-id="10cfa-116">В поле "IBAN" введите значение.</span><span class="sxs-lookup"><span data-stu-id="10cfa-116">In the IBAN field, type a value.</span></span>
-    * <span data-ttu-id="10cfa-117">Например, введите "DE89370400440532013000".</span><span class="sxs-lookup"><span data-stu-id="10cfa-117">For example, enter 'DE89370400440532013000'.</span></span>  
-7. <span data-ttu-id="10cfa-118">В поле "SWIFT-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="10cfa-118">In the SWIFT code field, type a value.</span></span>
-    * <span data-ttu-id="10cfa-119">Например, введите "DEUTDEFF".</span><span class="sxs-lookup"><span data-stu-id="10cfa-119">For example, enter 'DEUTDEFF'.</span></span>    <span data-ttu-id="10cfa-120">Обратите внимание, что SWIFT\BIC не является обязательным для многих форматов платежей, однако рекомендуется, чтобы этот код был зарегистрирован для банковского счета.</span><span class="sxs-lookup"><span data-stu-id="10cfa-120">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
-8. <span data-ttu-id="10cfa-121">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="10cfa-121">Click Save.</span></span>
+## <a name="set-up-the-iban-and-swift-codes"></a><span data-ttu-id="c8c8a-109">Настройка кода IBAN и SWIFT-кода</span><span class="sxs-lookup"><span data-stu-id="c8c8a-109">Set up the IBAN and SWIFT codes</span></span>
+1. <span data-ttu-id="c8c8a-110">Перейдите в раздел "Управление банком и кассовыми операциями" > "Банковские счета".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-110">Go to Cash and bank management > Bank accounts.</span></span>
+2. <span data-ttu-id="c8c8a-111">Используйте экспресс-фильтр для фильтрации поля "Банковский счет" по значению 'DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-111">Use the Quick Filter to filter on the Bank account field with a value of 'DEMF OPER'.</span></span>
+3. <span data-ttu-id="c8c8a-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="c8c8a-113">Например, щелкните "DEMF OPER", чтобы открыть сведения о банковском счете.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-113">For example, click 'DEMF OPER' to open the bank account details.</span></span>  
+4. <span data-ttu-id="c8c8a-114">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-114">Click Edit.</span></span>
+5. <span data-ttu-id="c8c8a-115">Разверните или сверните раздел "Дополнительная идентификация".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-115">Expand or collapse the Additional identification section.</span></span>
+6. <span data-ttu-id="c8c8a-116">В поле "IBAN" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-116">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="c8c8a-117">Например, введите "DE89370400440532013000".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-117">For example, enter 'DE89370400440532013000'.</span></span>  
+7. <span data-ttu-id="c8c8a-118">В поле "SWIFT-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-118">In the SWIFT code field, type a value.</span></span>
+    * <span data-ttu-id="c8c8a-119">Например, введите "DEUTDEFF".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-119">For example, enter 'DEUTDEFF'.</span></span>    <span data-ttu-id="c8c8a-120">Обратите внимание, что SWIFT\BIC не является обязательным для многих форматов платежей, однако рекомендуется, чтобы этот код был зарегистрирован для банковского счета.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-120">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
+8. <span data-ttu-id="c8c8a-121">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-121">Click Save.</span></span>
 
-## <a name="set-up-a-bank-account-for-the-legal-entity"></a><span data-ttu-id="10cfa-122">Настройка банковского счета для юридического лица</span><span class="sxs-lookup"><span data-stu-id="10cfa-122">Set up a bank account for the legal entity</span></span>
-1. <span data-ttu-id="10cfa-123">Перейдите в раздел "Управление организацией" > "Организации" > "Юридические лица".</span><span class="sxs-lookup"><span data-stu-id="10cfa-123">Go to Organization administration > Organizations > Legal entities.</span></span>
-2. <span data-ttu-id="10cfa-124">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="10cfa-124">Click Edit.</span></span>
-3. <span data-ttu-id="10cfa-125">Разверните или сверните раздел "Сведения о банковском счете".</span><span class="sxs-lookup"><span data-stu-id="10cfa-125">Expand or collapse the Bank account information section.</span></span>
-4. <span data-ttu-id="10cfa-126">В поле "Банковский счет" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="10cfa-126">In the Bank account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="10cfa-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="10cfa-127">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="10cfa-128">Например, выберите банковский счет "DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="10cfa-128">For example, select the "DEMF OPER" bank account.</span></span>  
-6. <span data-ttu-id="10cfa-129">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="10cfa-129">Click Save.</span></span>
+## <a name="set-up-a-bank-account-for-the-legal-entity"></a><span data-ttu-id="c8c8a-122">Настройка банковского счета для юридического лица</span><span class="sxs-lookup"><span data-stu-id="c8c8a-122">Set up a bank account for the legal entity</span></span>
+1. <span data-ttu-id="c8c8a-123">Перейдите в раздел "Управление организацией" > "Организации" > "Юридические лица".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-123">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="c8c8a-124">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-124">Click Edit.</span></span>
+3. <span data-ttu-id="c8c8a-125">Разверните или сверните раздел "Сведения о банковском счете".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-125">Expand or collapse the Bank account information section.</span></span>
+4. <span data-ttu-id="c8c8a-126">В поле "Банковский счет" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-126">In the Bank account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="c8c8a-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c8c8a-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="c8c8a-128">Например, выберите банковский счет "DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-128">For example, select the "DEMF OPER" bank account.</span></span>  
+6. <span data-ttu-id="c8c8a-129">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="c8c8a-129">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
