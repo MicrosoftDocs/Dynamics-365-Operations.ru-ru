@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: "Finance 10.0.16 (февраль 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: "Finance 10.0.15 (январь 2021\_г.)"
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -1418,34 +1416,36 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
-            - name: Надстройка "Электронное выставление счетов"
+            - name: Электронное выставление накладных
               items:
-                - name: Обзор надстройки "Электронное выставление счетов"
+                - name: Обзор электронного выставления накладных
                   href: localizations/e-invoicing-service-overview.md
-                - name: Компоненты администрирования надстройки "Электронное выставление счетов"
+                - name: Компоненты администрирования электронного выставления накладных
                   href: localizations/e-invoicing-service-administration.md
-                - name: Настройте надстройку "Электронное выставление счетов" в службах Regulatory Configuration Services (RCS)
+                - name: Настройка электронного выставления накладных в службах Regulatory Configuration Services (RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
-                - name: Выдача электронных накладных в модуле Финансы и Supply Chain Management
+                - name: Выдача электронных накладных в Finance и Supply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: Создание учетной записи хранения Azure и хранилища ключей
+                - name: Создание учетной записи хранения Azure и Key Vault
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Начало работы
                   items:
-                    - name: Начать администрирование службы надстройки "Электронное выставление счетов"
+                    - name: Начало работы с администрированием службы электронного выставления накладных
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Начало работы с надстройкой "Электронное выставление счетов"
+                    - name: Начало работы с электронным выставлением накладных
                       href: localizations/e-invoicing-get-started.md
-                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Бразилии
+                    - name: Начало работы с электронным выставлением накладных для Бразилии
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Египта
+                    - name: Начало работы с электронным выставлением накладных для Египта
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Италии
+                    - name: Начало работы с электронным выставлением накладных для Италии
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Начало работы с надстройкой "Электронное выставление счетов" для Мексики
+                    - name: Начало работы с электронным выставлением накладных для Мексики
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: Настройка надстройки "Электронное выставление счетов"
+                    - name: Настройка электронного выставления накладных
                       href: localizations/e-invoicing-setup.md
+                - name: Вопросы и ответы по электронному выставлению накладных
+                  href: localizations/e-invoicing-faq.md
             - name: Австралия
               items:
                 - name: Обзор по Австралии
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Электронные накладные клиентов в Египте
                   href: localizations/emea-egy-e-invoices.md
+                - name: Декларация по НДС для Египта
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Декларация подоходного налога для Египта
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Эстония
               items:
                 - name: Обзор по Эстонии
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: Область индийских локализаций
                   href: localizations/apac-ind-scope.md
+                - name: Что нового и что изменилось для индийской локализации
+                  items:
+                    - name: Что нового и что изменилось в версии 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: Что нового и что изменилось в версии 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Что нового и что изменилось в версии 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Что нового и что изменилось в версии 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Что нового и что изменилось в версии 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Что нового и что изменилось в версии 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Что нового и что изменилось в версии 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Что нового и что изменилось в версии 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Что нового и что изменилось в версии 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Что нового и что изменилось в версии 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Что нового и что изменилось в версии 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Что нового и что изменилось в версии 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Что нового и что изменилось в версии 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Что нового и что изменилось в версии 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Что нового и что изменилось в версии 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Основные средства
                   items:
                     - name: Обзор основных средств Индии
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Перенос единиц основного капитала в ОС
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST Индии
+                - name: Косвенные налоги
                   items:
-                    - name: Обзор GST Индии
-                      href: localizations/apac-ind-gst.md
-                    - name: Что нового и что изменилось для локализации GST Индии
+                    - name: GST Индии
                       items:
-                        - name: Что нового и что изменилось в версии 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: Что нового и что изменилось в версии 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: Что нового и что изменилось в версии 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: Что нового и что изменилось в версии 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: Что нового и что изменилось в версии 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: Что нового и что изменилось в версии 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: Что нового и что изменилось в версии 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: Что нового и что изменилось в версии 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: Что нового и что изменилось в версии 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: Что нового и что изменилось в версии 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: Что нового и что изменилось в версии 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: Что нового и что изменилось в версии 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: Что нового и что изменилось в версии 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: Что нового и что изменилось в версии 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: Что нового и что изменилось в версии 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: Эталонные группы GST Индии
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Интеграция GST для контрольно-кассовых машин
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Настройка справочника
-                      items:
-                        - name: Создание вертикали бизнеса
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Обновление кода региона и территории профсоюза
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: Создание шаблона GSTIN
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: Определение GSTIN и справочных номерных серий
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: Определение кодов HSN и кодов учета услуг
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Создание типа налоговой ставки
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: Создание счетов ГК для типа разноски GST
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Создание периода сопоставления налога
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: Присоединение GSTIN к группе налоговой регистрации
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Настройка налога
-                      items:
-                        - name: Определение конфигурации налога и ее развертывание для юридических лиц
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: Сопоставление типов налогов конфигурации — таможня
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Настройка таблиц ставок и процентов
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Настройка иерархии налога с продаж и правил возмещения
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Проводка по покупке
-                      items:
-                        - name: Приобретение у незарегистрированных поставщиков
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Приобретение налогооблагаемой номенклатуры у незарегистрированного поставщика
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Приобретение у зарегистрированных поставщиков
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: Приобретение уцененных товаров
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Приобретение освобожденных от налога товаров
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Приобретение товаров с нулевой ставкой
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: 'Приобретение товаров, не относящихся к GST'
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Приобретение у составных дилеров
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: 'Приобретение налогооблагаемых товаров, имеющих расходы на отгрузку'
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: 'Пересмотр накладной по покупке, включающей налогооблагаемые товары'
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Приобретение основных средств
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Создание кредит-ноты на основании накладной по покупке
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Создание дебит-ноты на основании накладной по покупке
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: 'Заказы для контроля качества, которые включают уничтожение выбранной номенклатуры'
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Заказы на возврат покупки
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: Авансовые платежи поставщика с удержанием с покупателя
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Проводка по продаже
-                      items:
-                        - name: Продажи налогооблагаемых товаров потребителям
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Продажи зарегистрированным клиентам
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Накладные с произвольным текстом
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Продажи налогооблагаемых товаров с удержанием с покупателя
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: 'Продажи номенклатур, не облагаемых налогом'
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Продажи товаров с нулевой ставкой
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: 'Продажи товаров, не относящихся к GST'
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: Продажи налогооблагаемых товаров со скидкой и предварительной оценкой
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: 'Продажи налогооблагаемых товаров, имеющих налог на расходы на отгрузку'
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: 'Продажи, в которых цены включают и исключают налог'
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Создание дебит-ноты на основании накладной по продаже
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Создание кредит-ноты на основании накладной по продаже
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: 'Накладные по продаже, разделенные на основании адресов поставки'
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Заказы на возврат
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Иностранные проводки
-                      items:
-                        - name: 'Импорт товаров, имеющих GST'
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: 'Импорт услуг, имеющих GST'
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: 'Экспорт товаров, имеющих налог с нулевой ставкой'
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: 'Экспорт услуг, имеющих налог с нулевой ставкой'
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Проводка по запасам
-                      items:
-                        - name: Заказы на перемещение запасов
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: 'Заказы на перемещение запасов, включающие налог в трансферной цене'
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Проводка по оплате клиентом
-                      items:
-                        - name: 'Авансовые платежи, включающие налог'
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: 'Авансовые платежи, сопоставленные во время разноски накладной'
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: 'Ручное сопоставление авансового платежа и накладной, включающей налог'
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: 'Оплата накладных, включающих налог'
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: 'Пересмотр авансовых платежей, включающих налог'
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Возвраты денежных средств по платежам клиента
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Проводка по прямому налогу
+                        - name: Обзор GST Индии
+                          href: localizations/apac-ind-gst.md
+                        - name: Механизм начисления налогов
+                          items:
+                            - name: Обзор механизма начисления налогов
+                              href: general-ledger/tax-engine.md
+                            - name: Импорт конфигурации
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Расширенный конструктор формул
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Применимость механизма начисления налогов
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Создание компонентов налога
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Интеграция механизма начисления налогов
+                              href: general-ledger/tax-engine-integration.md
+                            - name: Расширение механизма начисления налогов
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: Очистка таблицы TaxDocumentJSON
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: Устранение неполадок GTE
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Настройка справочника
+                          items:
+                            - name: Создание вертикали бизнеса
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Обновление кода региона и территории профсоюза
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: Создание шаблона GSTIN
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: Определение GSTIN и справочных номерных серий
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: Определение кодов HSN и кодов учета услуг
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Создание типа налоговой ставки
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: Создание счетов ГК для типа разноски GST
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Создание периода сопоставления налога
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: Присоединение GSTIN к группе налоговой регистрации
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Настройка налога
+                          items:
+                            - name: Определение конфигурации налога и ее развертывание для юридических лиц
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: Сопоставление типов налогов конфигурации — таможня
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Настройка таблиц ставок и процентов
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Настройка иерархии налога с продаж и правил возмещения
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: Эталонные группы GST Индии
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Налоговые проводки
+                          items:
+                            - name: Проводки по покупке
+                              items:
+                                - name: Приобретение у незарегистрированных поставщиков
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Приобретение налогооблагаемой номенклатуры у незарегистрированного поставщика
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Приобретение у зарегистрированных поставщиков
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: Приобретение уцененных товаров
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Приобретение освобожденных от налога товаров
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Приобретение товаров с нулевой ставкой
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: 'Приобретение товаров, не относящихся к GST'
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Приобретение у составных дилеров
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: 'Приобретение налогооблагаемых товаров, имеющих расходы на отгрузку'
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: 'Пересмотр накладной по покупке, включающей налогооблагаемые товары'
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Приобретение основных средств
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Создание кредит-ноты на основании накладной по покупке
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Создание дебит-ноты на основании накладной по покупке
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: 'Заказы для контроля качества, которые включают уничтожение выбранной номенклатуры'
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Заказы на возврат покупки
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: Авансовые платежи поставщика с удержанием с покупателя
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Проводки по продажам
+                              items:
+                                - name: Продажи налогооблагаемых товаров потребителям
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Продажи зарегистрированным клиентам
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Накладные с произвольным текстом
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Продажи налогооблагаемых товаров с удержанием с покупателя
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: 'Продажи номенклатур, не облагаемых налогом'
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Продажи товаров с нулевой ставкой
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: 'Продажи товаров, не относящихся к GST'
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: Продажи налогооблагаемых товаров со скидкой и предварительной оценкой
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: 'Продажи налогооблагаемых товаров, имеющих налог на расходы на отгрузку'
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: 'Продажи, в которых цены включают и исключают налог'
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Создание дебит-ноты на основании накладной по продаже
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Создание кредит-ноты на основании накладной по продаже
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: 'Накладные по продаже, разделенные на основании адресов поставки'
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Заказы на возврат
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Иностранные проводки
+                              items:
+                                - name: 'Импорт товаров, имеющих GST'
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: 'Импорт услуг, имеющих GST'
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: 'Экспорт товаров, имеющих налог с нулевой ставкой'
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: 'Экспорт услуг, имеющих налог с нулевой ставкой'
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: Кредит-нота или дебит-нота по заказу на экспорт
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Проводки по перемещению запасов
+                              items:
+                                - name: Заказы на перемещение запасов
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: 'Заказы на перемещение запасов, включающие налог в трансферной цене'
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Проводки по оплате клиентами
+                              items:
+                                - name: 'Авансовые платежи, включающие налог'
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: 'Авансовые платежи, сопоставленные во время разноски накладной'
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: 'Ручное сопоставление авансового платежа и накладной, включающей налог'
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: 'Оплата накладных, включающих налог'
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: 'Пересмотр авансовых платежей, включающих налог'
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Возвраты денежных средств по платежам клиента
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Корректировка налогов
+                              items:
+                                - name: Корректировка суммы налога
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Создание журнала налогов
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Запросы налоговых документов
+                              items:
+                                - name: Запрос налога
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Сопоставление налогов
+                          items:
+                            - name: Сопоставление налога на основе правила
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: Отчеты GSTR
+                          items:
+                            - name: Новые форматы возврата GSTR-1 и GSTR-2
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: Новое автономное средство GSTR для ANX-1 и регистрации покупок
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: Создание данных отчета GSTR для возвратов налога
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: Включение многопакетной обработки для отчетов GSTR
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Прямые налоги
+                  items:
+                    - name: Подоходный налог Индии
                       items:
                         - name: Включение GST при расчете налоговых вычетов
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: Включение GST при расчете налоговых сборов
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Корректировка суммы налога
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Сопоставление налога на основе правила
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Создание журнала налогов
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Создание данных отчета GSTR для налоговой отчетности
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Включение многопакетной обработки для отчетов GSTR
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Запрос налога
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: Очистка таблицы TaxDocumentJSON
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Механизм начисления налогов
-                  items:
-                    - name: Обзор механизма начисления налогов
-                      href: general-ledger/tax-engine.md
-                    - name: Импорт конфигурации
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Расширенный конструктор формул
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Применимость механизма начисления налогов
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Создание компонентов налога
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Интеграция механизма начисления налогов
-                      href: general-ledger/tax-engine-integration.md
-                    - name: Расширение механизма начисления налогов
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Устранение неполадок GTE
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Вопросы и ответы по налоговым порогам
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Вопросы и ответы по налоговым порогам
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: TCS на продажу товаров
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Италия
               items:
                 - name: Обзор по Италии
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: Отчеты i.SAF для Литвы
                   href: localizations/emea-ltu-isaf.md
+                - name: Стандартный файл налогового аудита (SAF-T) для Литвы
+                  href: localizations/emea-ltu-saf-t.md
             - name: Малайзия
               items:
                 - name: Обзор по Малайзии
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Налоговые регистры для движения денежных средств
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Регистры номинальных расходов
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Саудовская Аравия
               items:
                 - name: Обзор по Саудовской Аравии
@@ -3323,7 +3351,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json
                     - name: Запуск агента маршрутизации документов в качестве службы Windows
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/finance/toc.json
-                - name: Доступные отчеты служб отчетности SQL Server
+                - name: Доступные отчеты SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/finance/toc.json
                 - name: Установка шаблонов дизайна отчетов
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/finance/toc.json
@@ -3381,11 +3409,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Подготовка метаданных для конкретного приложения
                       items:
-                        - name: (Электронная отчетность) Подготовка метаданных приложения для использования в RCS
+                        - name: Подготовка метаданных приложения в электронной отчетности для использования в RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Доступ к метаданным приложения с помощью конфигурации электронной отчетности
+                        - name: Доступ к метаданным приложения в RCS с помощью конфигурации электронной отчетности
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Доступ к метаданным приложения с помощью подключенных приложений
+                        - name: Доступ к метаданным приложения в RCS с помощью подключенных приложений
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Определение сопоставлений моделей и выбор источников данных
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Текст: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Разработка форматов электронной отчетности для создания исходящих электронных документов в различных форматах
+            - name: Разработка форматов электронной отчетности для создания исходящих документов в различных форматах
               items:
                 - name: Разработка конфигураций для создания исходящих документов в формате Excel
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Внедрение изображений и фигур
                   items:
-                    - name: (Электронная отчетность) Внедрение изображений и фигур в создаваемые документы
+                    - name: Внедрение изображений и фигур в создаваемые документы
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: Пример внедрения изображений и фигур
                       items:
@@ -3761,11 +3789,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Импорт конфигураций (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory services (RCS)
+                - name: Regulatory Services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) — функции глобализации
-                      href: localizations/rcs-globalization-feature.md
-                    - name: Загрузка в конфигураций электронной отчетности в Finance
+                    - name: Функции глобализации в RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
+                    - name: Загрузка конфигураций электронной отчетности в Finance
                       items:
                         - name: Загрузка конфигураций из RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
@@ -3896,17 +3924,17 @@
                     - name: Типы назначений
                       items:
                         - name: Назначение архива
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: Назначение электронной почты
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Назначение файлов
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Назначение Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Назначение принтера
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Назначение экрана
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка назначений
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка зависящих от действия назначений
@@ -3919,7 +3947,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнений с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Автоматизация проверки с помощью электронной отчетности
+                    - name: Автоматизация тестирования с помощью электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: Автоматизация бизнес-процессов с помощью конфигураций электронной отчетности
                   items:

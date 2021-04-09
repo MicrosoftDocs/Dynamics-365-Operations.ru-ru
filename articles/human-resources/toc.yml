@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 марта 2021 г.
+          href: hr-whats-new-2021-03-22.md
         - name: 8 марта 2021 г.
           href: hr-whats-new-2021-03-08.md
         - name: 22 февраля 2021 г.
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Оптимизация производительности с помощью задач автоматической очистки
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Сброс застрявших пакетных заданий
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Аналитические отчеты не обновляются
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Невозможно создать среду в центре администрирования Power Apps

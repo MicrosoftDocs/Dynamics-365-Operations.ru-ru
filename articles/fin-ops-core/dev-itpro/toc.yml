@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: "Обновления платформы для 10.0.16 (февраль 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: "Обновления платформы для 10.0.15 (январь 2021\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Интегрированный работник, задание и должность'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Субъект и глобальная адресная книга
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Использование портала Power с моделью данных субъекта
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Интеграция примечаний
                               href: data-entities/dual-write/notes-integration.md
                             - name: Ссылка на сопоставление
@@ -526,13 +528,15 @@
                   items:
                     - name: Настройка локальных проектов в LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Настройка и развертывание локальных сред
+                    - name: Настройка и развертывание локальных сред (Platform update 41 и более поздние версии)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Настройка и развертывание локальных сред (Platform update с 12 по 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Действия по установке для компонентов канала Retail в локальной среде
                       href: deployment/deploy-retail-onprem.md
                     - name: Разработка и развертывание пользовательских моделей в локальных средах
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Обслуживание среды
+                - name: Операции среды
                   items:
                     - name: Применение обновлений к локальному развертыванию
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Настройка в локальных развертываниях только для пакетных и интерактивных узлов AOS
                       href: deployment/onprem-batchonly.md
+                    - name: Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Настройка прокси-серверов для локальных сред
                       href: deployment/onprem-reverseproxy.md
                     - name: Локальная диагностика
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Интеграция Microsoft Power Platform
           items:
-            - name: Интеграция Microsoft Power Platform с Finance and Operations
-              href: power-platform/overview.md
-            - name: Обзор надстроек
-              href: power-platform/add-ins-overview.md
-            - name: Моделирование объектов
-              href: power-platform/entity-modeling.md
-            - name: Управление жизненным циклом приложений
-              href: power-platform/application-lifecycle-management.md
-            - name: Ссылка администратора Finance and Operations и Dataverse
-              href: power-platform/admin-reference.md
-            - name: Порталы Power Apps с Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Вопросы и ответы по виртуальным объектам Finance and Operations
-              href: power-platform/faq.md
+            - name: Виртуальные объекты
+              items:
+                - name: Интеграция Microsoft Power Platform с Finance and Operations
+                  href: power-platform/overview.md
+                - name: Моделирование объектов
+                  href: power-platform/entity-modeling.md
+                - name: Управление жизненным циклом приложений
+                  href: power-platform/application-lifecycle-management.md
+                - name: Ссылка администратора Finance and Operations и Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Порталы Power Apps с Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Вопросы и ответы по виртуальным объектам Finance and Operations
+                  href: power-platform/faq.md
+            - name: Надстройки
+              items:
+                - name: Обзор надстроек
+                  href: power-platform/add-ins-overview.md
         - name: Мобильная платформа
           items:
             - name: Ресурсы мобильных платформ
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Учебник Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: 'Настройка пользователей, не являющихся администраторами'
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Рекомендации
               href: perf-test/rsat/rsat-best-practices.md
             - name: Независимые от данных испытания с помощью Regression Suite Automation Tool
