@@ -2,11 +2,9 @@
 title: Перераспределение признания выручки — Сценарий 1
 description: В этом разделе описывается сценарий перераспределения, когда вводятся два заказа на продажу, но они только подтверждаются. Тот же сценарий даст аналогичные результаты, если более двух заказов на продажу находятся в подтвержденном состоянии.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25fb32ce72555e573cd37a0ab092b51b99bb4372
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260885"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824012"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Перераспределение признания выручки — Сценарий 1
 

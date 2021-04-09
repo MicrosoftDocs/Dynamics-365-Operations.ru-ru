@@ -2,11 +2,9 @@
 title: Перераспределение признания выручки — Сценарий 3
 description: В этом разделе описывается сценарий перераспределения, в котором новая строка добавляется в существующий заказ на продажу, по которому выставлена накладная. Когда в контракт добавляется новая номенклатура, она может быть добавлена либо в новый заказ на продажу, либо в существующий заказ на продажу.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ca61a64199d9a61d0ddaa95c49e847e4be35c07b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2105973470877f59fd9c4e8d1b1bfc1875a394b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238336"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833145"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Перераспределение признания выручки — Сценарий 3
 

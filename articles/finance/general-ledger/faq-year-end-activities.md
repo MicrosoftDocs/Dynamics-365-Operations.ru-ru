@@ -2,11 +2,9 @@
 title: Вопросы и ответы по мероприятиям на конец года
 description: Эта тема был скомпилирован для помощи в выполнении мероприятий на конец года.
 author: kweekley
-manager: tfehr
 ms.date: 01/25/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,14 +13,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a9feafcab5969e9ec8fcbb8a6903d7b59505f6ae
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249419"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822839"
 ---
 # <a name="year-end-activities-faq"></a>Вопросы и ответы по мероприятиям на конец года 
+
+[!include [banner](../includes/banner.md)]
 
 Эта тема был скомпилирован для помощи в выполнении мероприятий на конец года. Сведения в этом разделе главным образом нацелены на вопросы, касающиеся мероприятий на конец года для главной книги и расчетов с поставщиками.
 

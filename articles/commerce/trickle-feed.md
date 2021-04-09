@@ -2,11 +2,9 @@
 title: Поточное создание заказов по проводкам розничного магазина
 description: В этом разделе описана процедура поточного создания заказов по проводкам магазина в Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0fdb1f636183e8365729ab8947a50614a77eaeac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0686b1b3113440808ea195683e15fb2c66b4558
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211053"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801851"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Поточное создание заказов по проводкам розничного магазина
 

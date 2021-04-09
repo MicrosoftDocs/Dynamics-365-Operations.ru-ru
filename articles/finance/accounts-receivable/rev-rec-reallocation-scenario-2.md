@@ -2,11 +2,9 @@
 title: Перераспределение признания выручки — Сценарий 2
 description: В этом разделе описывается сценарий перераспределения, когда вводятся два заказа на продажу, а затем клиент добавляет номенклатуру в контракт после выставления накладной по первому заказу на продажу. Когда в контракт добавляется новая номенклатура, она может быть добавлена либо в новый заказ на продажу, либо в существующий заказ на продажу.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aed5e30f09b69ffa70025b8339b0f1782afe587a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 31a0b26fbf2383c90caaa8c1ea0e56ab5f377609
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238360"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814208"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Перераспределение признания выручки — Сценарий 2
 

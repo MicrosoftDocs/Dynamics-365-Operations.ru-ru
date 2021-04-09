@@ -2,11 +2,9 @@
 title: Домашняя страница Finance
 description: В этом разделе представлен список разделов справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813491"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -71,8 +69,10 @@ ms.locfileid: "5218891"
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
-Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
+## <a name="elearning-courses"></a>Курсы eLearning
 
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Finance на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

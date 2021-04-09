@@ -2,11 +2,9 @@
 title: Копирование клиентов с использованием общих номерных серий
 description: В этом разделе рассматривается использование общих номерных серий для копирования клиента в другое юридическое лицо с сохранением того же кода клиента.
 author: mikefalkner
-manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 57ee142d3611aeae8da3f9335ea5837910ffa636
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f7d3648514bcdb3ad249c657f34ecc5e1d817d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217562"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827610"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Копирование клиентов с использованием общих номерных серий
 
