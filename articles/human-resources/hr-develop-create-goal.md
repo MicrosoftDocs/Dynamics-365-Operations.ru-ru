@@ -2,11 +2,9 @@
 title: Создание цели
 description: Можно создать цели, добавить мероприятия к целям, отслеживать измерения и связать цели с оценкой.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
@@ -16,49 +14,49 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d2a8b50f88e1f321e376923ba1da8497cedc89f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465038"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794837"
 ---
-# <a name="create-a-goal"></a><span data-ttu-id="f33b2-103">Создание цели</span><span class="sxs-lookup"><span data-stu-id="f33b2-103">Create a goal</span></span>
+# <a name="create-a-goal"></a><span data-ttu-id="1b831-103">Создание цели</span><span class="sxs-lookup"><span data-stu-id="1b831-103">Create a goal</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="f33b2-104">Можно создать цели, добавить мероприятия к целям, отслеживать измерения и связать цели с оценкой.</span><span class="sxs-lookup"><span data-stu-id="f33b2-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="f33b2-105">Эта процедура была создана с использованием демонстрационных данных компании USMF.</span><span class="sxs-lookup"><span data-stu-id="f33b2-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="f33b2-106">Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="f33b2-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="1b831-104">Можно создать цели, добавить мероприятия к целям, отслеживать измерения и связать цели с оценкой.</span><span class="sxs-lookup"><span data-stu-id="1b831-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="1b831-105">Эта процедура была создана с использованием демонстрационных данных компании USMF.</span><span class="sxs-lookup"><span data-stu-id="1b831-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="1b831-106">Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="1b831-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
-1. <span data-ttu-id="f33b2-107">Перейдите в раздел "Все рабочие области" > "Самообслуживание сотрудников".</span><span class="sxs-lookup"><span data-stu-id="f33b2-107">Go to All workspaces > Employee self service.</span></span>
-2. <span data-ttu-id="f33b2-108">Щелкните "Показать все цели"</span><span class="sxs-lookup"><span data-stu-id="f33b2-108">Click View all goals</span></span>
-3. <span data-ttu-id="f33b2-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f33b2-109">Click New.</span></span>
-4. <span data-ttu-id="f33b2-110">В поле "Имя" введите «Завершение проекта Contoso".</span><span class="sxs-lookup"><span data-stu-id="f33b2-110">In the Name field, type 'Complete the Contoso project'.</span></span>
-5. <span data-ttu-id="f33b2-111">В поле "Обзор" введите "Я закончу проект Contoso через 30 дней".</span><span class="sxs-lookup"><span data-stu-id="f33b2-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
-    * <span data-ttu-id="f33b2-112">Цели могут применяться к субъекту, группе или даже корпорации.</span><span class="sxs-lookup"><span data-stu-id="f33b2-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="f33b2-113">По умолчанию цели для сотрудников являются индивидуальными.</span><span class="sxs-lookup"><span data-stu-id="f33b2-113">The default setting for Employee goals is Individual.</span></span>  
-6. <span data-ttu-id="f33b2-114">В поле "Категория цели" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f33b2-114">In the Goal category field, enter or select a value.</span></span>
-7. <span data-ttu-id="f33b2-115">В поле "Дата начала" измените отображаемую дату.</span><span class="sxs-lookup"><span data-stu-id="f33b2-115">In the Start date field, change the date shown.</span></span>
-8. <span data-ttu-id="f33b2-116">В поле "Дата окончания" измените отображаемую дату.</span><span class="sxs-lookup"><span data-stu-id="f33b2-116">In the End date field, change the date shown.</span></span>
-    * <span data-ttu-id="f33b2-117">После завершения цели введите здесь дату, когда цель была завершена.</span><span class="sxs-lookup"><span data-stu-id="f33b2-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
-9. <span data-ttu-id="f33b2-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f33b2-118">Click Save.</span></span>
-10. <span data-ttu-id="f33b2-119">Развернуть раздел "Измерения".</span><span class="sxs-lookup"><span data-stu-id="f33b2-119">Expand the Measurements section.</span></span> <span data-ttu-id="f33b2-120">Если он уже развернут, дважды щелкните стрелку "Развернуть".</span><span class="sxs-lookup"><span data-stu-id="f33b2-120">If it is already expanded, click the Expand arrow twice.</span></span>
-11. <span data-ttu-id="f33b2-121">Щелкните "Добавить измерения", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="f33b2-121">Click Add measurement to open the drop dialog.</span></span>
-12. <span data-ttu-id="f33b2-122">В поле "Измерение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f33b2-122">In the Measurement field, enter or select a value.</span></span>
-13. <span data-ttu-id="f33b2-123">В поле "Целевая сумма" введите число.</span><span class="sxs-lookup"><span data-stu-id="f33b2-123">In the Target amount field, enter a number.</span></span>
-14. <span data-ttu-id="f33b2-124">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="f33b2-124">Click OK.</span></span>
-15. <span data-ttu-id="f33b2-125">Развернуть раздел "Мероприятия".</span><span class="sxs-lookup"><span data-stu-id="f33b2-125">Expand the Activities section.</span></span> <span data-ttu-id="f33b2-126">Если он уже развернут, дважды щелкните стрелку "Развернуть".</span><span class="sxs-lookup"><span data-stu-id="f33b2-126">If it is already expanded, click the Expand arrow twice.</span></span>
-16. <span data-ttu-id="f33b2-127">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="f33b2-127">Click Add.</span></span>
-17. <span data-ttu-id="f33b2-128">В поле "Заголовок" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f33b2-128">In the Title field, type a value.</span></span>
-18. <span data-ttu-id="f33b2-129">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f33b2-129">In the Description field, type a value.</span></span>
-19. <span data-ttu-id="f33b2-130">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="f33b2-130">Click Save.</span></span>
-20. <span data-ttu-id="f33b2-131">Щелкните "Показать разделы", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="f33b2-131">Click Show sections to open the drop dialog.</span></span>
-21. <span data-ttu-id="f33b2-132">Выберите значение "Нет" в поле "Показать измерения".</span><span class="sxs-lookup"><span data-stu-id="f33b2-132">Select No in the Show measurements field.</span></span>
-22. <span data-ttu-id="f33b2-133">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="f33b2-133">Click Save.</span></span>
-23. <span data-ttu-id="f33b2-134">Щелкните "Показать разделы", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="f33b2-134">Click Show sections to open the drop dialog.</span></span>
-24. <span data-ttu-id="f33b2-135">Выберите значение "Да" в поле "Показать измерения".</span><span class="sxs-lookup"><span data-stu-id="f33b2-135">Select Yes in the Show measurements field.</span></span>
-25. <span data-ttu-id="f33b2-136">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f33b2-136">Click Save.</span></span>
-    * <span data-ttu-id="f33b2-137">Часто имеются цели, одинаковые или аналогичные для членов группы или всех сотрудников.</span><span class="sxs-lookup"><span data-stu-id="f33b2-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="f33b2-138">Администратор или менеджер по управлению персоналом могут создавать шаблоны целей для этих целей.</span><span class="sxs-lookup"><span data-stu-id="f33b2-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="f33b2-139">Можно добавить цель из шаблона, а затем изменить ее, чтобы она соответствовала вашим срокам.</span><span class="sxs-lookup"><span data-stu-id="f33b2-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
-    * <span data-ttu-id="f33b2-140">Часто имеются несколько целей, одинаковых или аналогичных для членов группы или всех сотрудников.</span><span class="sxs-lookup"><span data-stu-id="f33b2-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="f33b2-141">Администратор или менеджер по управлению персоналом могут создавать группы целей, содержащие один или несколько шаблонов целей.</span><span class="sxs-lookup"><span data-stu-id="f33b2-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="f33b2-142">Можно добавить цели из группы целей, а затем изменить их, чтобы они соответствовали вашим срокам.</span><span class="sxs-lookup"><span data-stu-id="f33b2-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
-    * <span data-ttu-id="f33b2-143">При создании оценки можно добавить цели в эту оценку.</span><span class="sxs-lookup"><span data-stu-id="f33b2-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="f33b2-144">См. руководство по задаче для оценок, чтобы узнать, как можно добавить цели в оценки.</span><span class="sxs-lookup"><span data-stu-id="f33b2-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
+1. <span data-ttu-id="1b831-107">Перейдите в раздел "Все рабочие области" > "Самообслуживание сотрудников".</span><span class="sxs-lookup"><span data-stu-id="1b831-107">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="1b831-108">Щелкните "Показать все цели"</span><span class="sxs-lookup"><span data-stu-id="1b831-108">Click View all goals</span></span>
+3. <span data-ttu-id="1b831-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1b831-109">Click New.</span></span>
+4. <span data-ttu-id="1b831-110">В поле "Имя" введите «Завершение проекта Contoso".</span><span class="sxs-lookup"><span data-stu-id="1b831-110">In the Name field, type 'Complete the Contoso project'.</span></span>
+5. <span data-ttu-id="1b831-111">В поле "Обзор" введите "Я закончу проект Contoso через 30 дней".</span><span class="sxs-lookup"><span data-stu-id="1b831-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
+    * <span data-ttu-id="1b831-112">Цели могут применяться к субъекту, группе или даже корпорации.</span><span class="sxs-lookup"><span data-stu-id="1b831-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="1b831-113">По умолчанию цели для сотрудников являются индивидуальными.</span><span class="sxs-lookup"><span data-stu-id="1b831-113">The default setting for Employee goals is Individual.</span></span>  
+6. <span data-ttu-id="1b831-114">В поле "Категория цели" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1b831-114">In the Goal category field, enter or select a value.</span></span>
+7. <span data-ttu-id="1b831-115">В поле "Дата начала" измените отображаемую дату.</span><span class="sxs-lookup"><span data-stu-id="1b831-115">In the Start date field, change the date shown.</span></span>
+8. <span data-ttu-id="1b831-116">В поле "Дата окончания" измените отображаемую дату.</span><span class="sxs-lookup"><span data-stu-id="1b831-116">In the End date field, change the date shown.</span></span>
+    * <span data-ttu-id="1b831-117">После завершения цели введите здесь дату, когда цель была завершена.</span><span class="sxs-lookup"><span data-stu-id="1b831-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
+9. <span data-ttu-id="1b831-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="1b831-118">Click Save.</span></span>
+10. <span data-ttu-id="1b831-119">Развернуть раздел "Измерения".</span><span class="sxs-lookup"><span data-stu-id="1b831-119">Expand the Measurements section.</span></span> <span data-ttu-id="1b831-120">Если он уже развернут, дважды щелкните стрелку "Развернуть".</span><span class="sxs-lookup"><span data-stu-id="1b831-120">If it is already expanded, click the Expand arrow twice.</span></span>
+11. <span data-ttu-id="1b831-121">Щелкните "Добавить измерения", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="1b831-121">Click Add measurement to open the drop dialog.</span></span>
+12. <span data-ttu-id="1b831-122">В поле "Измерение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1b831-122">In the Measurement field, enter or select a value.</span></span>
+13. <span data-ttu-id="1b831-123">В поле "Целевая сумма" введите число.</span><span class="sxs-lookup"><span data-stu-id="1b831-123">In the Target amount field, enter a number.</span></span>
+14. <span data-ttu-id="1b831-124">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="1b831-124">Click OK.</span></span>
+15. <span data-ttu-id="1b831-125">Развернуть раздел "Мероприятия".</span><span class="sxs-lookup"><span data-stu-id="1b831-125">Expand the Activities section.</span></span> <span data-ttu-id="1b831-126">Если он уже развернут, дважды щелкните стрелку "Развернуть".</span><span class="sxs-lookup"><span data-stu-id="1b831-126">If it is already expanded, click the Expand arrow twice.</span></span>
+16. <span data-ttu-id="1b831-127">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="1b831-127">Click Add.</span></span>
+17. <span data-ttu-id="1b831-128">В поле "Заголовок" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1b831-128">In the Title field, type a value.</span></span>
+18. <span data-ttu-id="1b831-129">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="1b831-129">In the Description field, type a value.</span></span>
+19. <span data-ttu-id="1b831-130">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="1b831-130">Click Save.</span></span>
+20. <span data-ttu-id="1b831-131">Щелкните "Показать разделы", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="1b831-131">Click Show sections to open the drop dialog.</span></span>
+21. <span data-ttu-id="1b831-132">Выберите значение "Нет" в поле "Показать измерения".</span><span class="sxs-lookup"><span data-stu-id="1b831-132">Select No in the Show measurements field.</span></span>
+22. <span data-ttu-id="1b831-133">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="1b831-133">Click Save.</span></span>
+23. <span data-ttu-id="1b831-134">Щелкните "Показать разделы", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="1b831-134">Click Show sections to open the drop dialog.</span></span>
+24. <span data-ttu-id="1b831-135">Выберите значение "Да" в поле "Показать измерения".</span><span class="sxs-lookup"><span data-stu-id="1b831-135">Select Yes in the Show measurements field.</span></span>
+25. <span data-ttu-id="1b831-136">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="1b831-136">Click Save.</span></span>
+    * <span data-ttu-id="1b831-137">Часто имеются цели, одинаковые или аналогичные для членов группы или всех сотрудников.</span><span class="sxs-lookup"><span data-stu-id="1b831-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="1b831-138">Администратор или менеджер по управлению персоналом могут создавать шаблоны целей для этих целей.</span><span class="sxs-lookup"><span data-stu-id="1b831-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="1b831-139">Можно добавить цель из шаблона, а затем изменить ее, чтобы она соответствовала вашим срокам.</span><span class="sxs-lookup"><span data-stu-id="1b831-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
+    * <span data-ttu-id="1b831-140">Часто имеются несколько целей, одинаковых или аналогичных для членов группы или всех сотрудников.</span><span class="sxs-lookup"><span data-stu-id="1b831-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="1b831-141">Администратор или менеджер по управлению персоналом могут создавать группы целей, содержащие один или несколько шаблонов целей.</span><span class="sxs-lookup"><span data-stu-id="1b831-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="1b831-142">Можно добавить цели из группы целей, а затем изменить их, чтобы они соответствовали вашим срокам.</span><span class="sxs-lookup"><span data-stu-id="1b831-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
+    * <span data-ttu-id="1b831-143">При создании оценки можно добавить цели в эту оценку.</span><span class="sxs-lookup"><span data-stu-id="1b831-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="1b831-144">См. руководство по задаче для оценок, чтобы узнать, как можно добавить цели в оценки.</span><span class="sxs-lookup"><span data-stu-id="1b831-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
 
 
 
