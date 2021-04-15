@@ -2,7 +2,6 @@
 title: Управление клиентами в магазинах
 description: В этом разделе описывается, как предприятия розничной торговли могут активировать возможности управления клиентом на POS-терминале в Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8a1b360ba6a2d32e38e101f25f108094a00190c8
-ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
+ms.openlocfilehash: 46a18d36a389e8a52253c2c3a153e0eae95c0e57
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "5555055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799429"
 ---
 # <a name="customer-management-in-stores"></a>Управление клиентами в магазинах
 

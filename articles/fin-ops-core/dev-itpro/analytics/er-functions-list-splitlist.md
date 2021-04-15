@@ -2,8 +2,7 @@
 title: Функция ER SPLITLIST
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SPLITLIST.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559146"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745577"
 ---
 # <a name="splitlist-er-function"></a>Функция ER SPLITLIST
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559146"
 
 Функция `SPLITLIST` разделяет список на подсписки (или пакеты), каждый из которых содержит указанное число записей. Затем она возвращает результат в качестве нового значения *Список записей*, которое состоит из пакетов.
 
-## <a name="syntax"></a>Синтаксис
+## <a name="syntax-1"></a>Синтаксис 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Синтаксис 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Аргументы
@@ -44,6 +49,10 @@ SPLITLIST (list, number)
 `number`: *Целочисленный*
 
 Максимальное количество записей на один пакет.
+
+`on-demand reading flag`: *Логический*
+
+*Логическое* значение, которое указывает, должны ли при необходимости создаваться элементы вложенных списков.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -62,6 +71,8 @@ SPLITLIST (list, number)
 - **BatchNumber:** *Целочисленный*
 
     Номер текущего пакета в возвращенном списке.
+
+Если флаг чтения по запросу имеет значение **True**, вложенные списки создаются после запроса, что позволяет уменьшить потребление памяти, но может привести к ухудшению производительности, если элементы не используются последовательно.
 
 ## <a name="example"></a>Пример
 

@@ -2,7 +2,6 @@
 title: Управление жизненным циклом конфигураций электронной отчетности (ER)
 description: В этом разделе описывается управление жизненным циклом конфигураций электронных отчетов (ER) для решения Microsoft Dynamics 365 Finance.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1b5ac8e256835332a4c53ed2872ee609253ad9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568733"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750114"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности (ER)
 

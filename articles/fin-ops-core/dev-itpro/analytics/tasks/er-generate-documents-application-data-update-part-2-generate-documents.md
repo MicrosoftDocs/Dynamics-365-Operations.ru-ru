@@ -2,7 +2,6 @@
 title: Разработка конфигураций для формирования документов, имеющих данные приложений
 description: В этой теме описано, как разработать конфигурации электронной отчетности (ER) для создания электронного документа. (Часть 1 — Импорт конфигураций).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217eca9bd1502d4327857720fb2d32a3ec3508ef
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9d3f528d48f345ec4b5cc2a46d7740cb6d0a36cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751090"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Разработка конфигураций для формирования документов, имеющих данные приложений
 

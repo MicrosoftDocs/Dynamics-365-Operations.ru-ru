@@ -2,11 +2,9 @@
 title: Управление метаданными для поисковой оптимизации
 description: В этом разделе описывается, как управлять метаданными оптимизации поисковой системы (SEO) в Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00942befef9f9b6a878766bbbb5341426e31db2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e03ef346df92a94b0a403f241d0f7d1f64fd210
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252614"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794219"
 ---
 # <a name="manage-seo-metadata"></a>Управление метаданными SEO
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как управлять метаданными оптимизации поисковой системы (SEO) в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Управление метаданными SEO для сайта может осуществляться с помощью карт сайта и метаданных страниц.
     

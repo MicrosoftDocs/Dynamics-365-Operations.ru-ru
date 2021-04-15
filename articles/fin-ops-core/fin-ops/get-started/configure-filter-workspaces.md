@@ -2,7 +2,6 @@
 title: Конфигурация и фильтрация рабочих областей
 description: Эта статья предоставляет обзор о том, как настроить и фильтровать рабочие области.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4f587608b03512aabce1d9b76ec4b9d6ec9227b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559440"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744035"
 ---
 # <a name="configure-and-filter-workspaces"></a>Конфигурация и фильтрация рабочих областей
 
@@ -55,9 +54,9 @@ ms.locfileid: "5559440"
 
 Выберите параметр для фильтрации рабочей области на основе этого параметра.
 
-### <a name="workspace-section-filters"></a>Фильтры раздела рабочей области
+### <a name="workspace-section-filters&quot;></a>Фильтры раздела рабочей области
 
-Если индивидуальные разделы рабочей области имеют фильтры, можно фильтровать каждый раздел отдельно. На следующем рисунке фильтр (поле с текстом "Фильтр") — это пример фильтра поля с произвольным текстом.
+Если индивидуальные разделы рабочей области имеют фильтры, можно фильтровать каждый раздел отдельно. На следующем рисунке фильтр (поле с текстом &quot;Фильтр") — это пример фильтра поля с произвольным текстом.
 
 [![фильтры-раздела-рабочей-области](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 

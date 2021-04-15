@@ -2,11 +2,9 @@
 title: Обзор домашней страницы
 description: Этот раздел содержит обзор домашней страницы в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 11c440663214f4991770390c0757c92ef02755f5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244774"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792203"
 ---
 # <a name="home-page-overview"></a>Обзор домашней страницы
 
 [!include [banner](includes/banner.md)]
 
 Этот раздел содержит обзор домашней страницы в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Домашняя страница является страницей по умолчанию, на которую направляются покупатели при посещении сайта электронной коммерции. Обычно эта страница предназначена для демонстрации продуктов и рекламных акций с помощью комбинации модулей маркетинга. Домашняя страница должна быть насыщена изображениями и текста для привлечения покупателей.
 
