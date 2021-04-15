@@ -2,7 +2,6 @@
 title: Что нового и что изменилось в Dynamics AX 7.0 (февраль 2016 г.)
 description: В этой статье описываются новые и измененные компоненты в Microsoft Dynamics AX 7.0. Эта версия включает возможности платформы и приложения и была выпущена в феврале 2016 г.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5631f65ab0a687671320dc1649bc83946074dc85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566618"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752874"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Что нового и что изменилось в Dynamics AX 7.0 (февраль 2016 г.)
 

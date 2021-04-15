@@ -2,11 +2,9 @@
 title: Распределение и планирование анкет
 description: В этой статье объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8c79e7b39e092bb85677fed19a53d5b9bf24962
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: cd0c519cfb8af811ef733804ea1086680990df00
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464990"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790604"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Распределение и планирование анкет
 

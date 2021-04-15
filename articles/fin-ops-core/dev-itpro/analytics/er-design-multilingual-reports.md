@@ -2,7 +2,6 @@
 title: Разработка многоязычных отчетов в электронной отчетности
 description: В этой теме объясняется, как использовать метки электронной отчетности (ER) для проектирования и создания многоязыковых отчетов.
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e765b450f626abb3dee4a70419176568eeb62d7e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562078"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753560"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Разработка многоязычных отчетов в электронной отчетности
 

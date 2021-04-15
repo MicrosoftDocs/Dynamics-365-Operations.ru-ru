@@ -2,7 +2,6 @@
 title: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнения их с базовыми значениями
 description: В этой теме описываются усовершенствования в базовой функции электронной отчетности в Microsoft Dynamics 365 for Finance and Operations версии 10.0.3 (июнь 2019 года).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1579a0bb0dcf21ae16a54969e57ca88301041076
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743613"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнения их с базовыми значениями
 
@@ -145,7 +144,7 @@ ms.locfileid: "5568957"
 
 Выполните действия, указанные в разделе "Пример. Автоматизация настройки базовых правил" данной темы. Уведомление предупреждает, что исходящий файл был создан с использованием базовых настроек, и что произошла принудительная замена привязок формата.
 
-![Уведомление на странице конфигураций](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Снимок экрана уведомления на странице "Конфигурации"")
+![Уведомление на странице конфигураций](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Снимок экрана уведомления на странице &quot;Конфигурации&quot;")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Подавление предупреждений о замене привязок формата
 

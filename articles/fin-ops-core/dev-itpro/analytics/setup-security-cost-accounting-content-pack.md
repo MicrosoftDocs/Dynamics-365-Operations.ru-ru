@@ -2,7 +2,6 @@
 title: Настройка безопасности для содержимого Power BI анализа учета затрат
 description: В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле "Учет затрат" на защиту на уровне строк в Microsoft Power BI.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 10b87d01fd1172f4509f6fa803522eb25e73f9f5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754272"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого Power BI анализа учета затрат
 

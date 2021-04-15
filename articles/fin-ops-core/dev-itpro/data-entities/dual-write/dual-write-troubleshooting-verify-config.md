@@ -2,7 +2,6 @@
 title: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
 description: В этой теме объясняется, как можно определить, настроена ли двойная запись в приложениях Finance and Operations и в Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0a1da32713f3d4d19b4d343c5b67b416a6c4ffbb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566773"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748857"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
 

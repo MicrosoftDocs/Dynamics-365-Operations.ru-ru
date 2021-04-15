@@ -1,8 +1,7 @@
 ---
 title: Новые руководства по задачам (февраль 2016 г.)
-description: В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations и библиотеку по началу работы (февраль 2016 г.).
+description: В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caad79ab5c5b8796116f54ceead0097481c42e9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87c7b92b31456afc4c44427949bb2ae4dbbbf5c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566560"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749810"
 ---
 # <a name="new-task-guides-february-2016"></a>Новые руководства по задачам (февраль 2016 г.)
 
