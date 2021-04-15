@@ -2,7 +2,6 @@
 title: Диагностика безопасности для записей задач
 description: В этом разделе содержатся сведения о том, как выполнять анализ и управление требованиями к разрешениям безопасности на основе записи задач.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,40 +13,40 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 99f9da527e818892eb3f46aceca3cc4588b99e81
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570989"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745773"
 ---
-# <a name="security-diagnostics-for-task-recordings"></a><span data-ttu-id="cac82-103">Диагностика безопасности для записей задач</span><span class="sxs-lookup"><span data-stu-id="cac82-103">Security diagnostics for task recordings</span></span>
+# <a name="security-diagnostics-for-task-recordings"></a><span data-ttu-id="57f72-103">Диагностика безопасности для записей задач</span><span class="sxs-lookup"><span data-stu-id="57f72-103">Security diagnostics for task recordings</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-## <a name="before-you-begin"></a><span data-ttu-id="cac82-104">Перед началом</span><span class="sxs-lookup"><span data-stu-id="cac82-104">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="57f72-104">Перед началом</span><span class="sxs-lookup"><span data-stu-id="57f72-104">Before you begin</span></span>
 
-<span data-ttu-id="cac82-105">В этом разделе содержатся сведения о том, как выполнять анализ и управление требованиями к разрешениям безопасности на основе записи задач.</span><span class="sxs-lookup"><span data-stu-id="cac82-105">This topic provides information about how to analyze and manage security permission requirements based on a task recording.</span></span> <span data-ttu-id="cac82-106">Перед выполнением шагов, описанных в этом разделе, необходимо провести запись задач бизнес-процесса, который требуется проанализировать.</span><span class="sxs-lookup"><span data-stu-id="cac82-106">Before you complete the steps in this topic, you must have a task recording of the business process that you want to analyze.</span></span> <span data-ttu-id="cac82-107">Для записи бизнес-процесса см. раздел [Ресурсы регистратора задач](../../user-interface/task-recorder.md).</span><span class="sxs-lookup"><span data-stu-id="cac82-107">To record a business process, see [Task recorder resources](../../user-interface/task-recorder.md).</span></span> 
+<span data-ttu-id="57f72-105">В этом разделе содержатся сведения о том, как выполнять анализ и управление требованиями к разрешениям безопасности на основе записи задач.</span><span class="sxs-lookup"><span data-stu-id="57f72-105">This topic provides information about how to analyze and manage security permission requirements based on a task recording.</span></span> <span data-ttu-id="57f72-106">Перед выполнением шагов, описанных в этом разделе, необходимо провести запись задач бизнес-процесса, который требуется проанализировать.</span><span class="sxs-lookup"><span data-stu-id="57f72-106">Before you complete the steps in this topic, you must have a task recording of the business process that you want to analyze.</span></span> <span data-ttu-id="57f72-107">Для записи бизнес-процесса см. раздел [Ресурсы регистратора задач](../../user-interface/task-recorder.md).</span><span class="sxs-lookup"><span data-stu-id="57f72-107">To record a business process, see [Task recorder resources](../../user-interface/task-recorder.md).</span></span> 
 
-## <a name="manage-security-for-a-task-recording"></a><span data-ttu-id="cac82-108">Управление безопасностью записи задач</span><span class="sxs-lookup"><span data-stu-id="cac82-108">Manage security for a task recording</span></span>
+## <a name="manage-security-for-a-task-recording"></a><span data-ttu-id="57f72-108">Управление безопасностью записи задач</span><span class="sxs-lookup"><span data-stu-id="57f72-108">Manage security for a task recording</span></span>
 
-1. <span data-ttu-id="cac82-109">Выберите **Администрирование системы** > **Безопасность** > **Диагностика безопасности для записи задач**.</span><span class="sxs-lookup"><span data-stu-id="cac82-109">Go to **System administration** > **Security** > **Security diagnostic for task recording**.</span></span>
-2. <span data-ttu-id="cac82-110">Откройте запись задачи из нужного местоположения.</span><span class="sxs-lookup"><span data-stu-id="cac82-110">Open the task recording from its location.</span></span> <span data-ttu-id="cac82-111">Выберите **Открыть с этого компьютера** или **Открыть из Lifecycle Services**, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="cac82-111">Select **Open from this PC** or **Open from Lifecycle Services**, and then select **Close**.</span></span>
-3. <span data-ttu-id="cac82-112">Откроется страница **Сведения о пункте меню Безопасность**, на которой перечислены необходимые для процесса объекты безопасности.</span><span class="sxs-lookup"><span data-stu-id="cac82-112">This will open the **Security menu item details** page that lists the security objects required for the process.</span></span>
+1. <span data-ttu-id="57f72-109">Выберите **Администрирование системы** > **Безопасность** > **Диагностика безопасности для записи задач**.</span><span class="sxs-lookup"><span data-stu-id="57f72-109">Go to **System administration** > **Security** > **Security diagnostic for task recording**.</span></span>
+2. <span data-ttu-id="57f72-110">Откройте запись задачи из нужного местоположения.</span><span class="sxs-lookup"><span data-stu-id="57f72-110">Open the task recording from its location.</span></span> <span data-ttu-id="57f72-111">Выберите **Открыть с этого компьютера** или **Открыть из Lifecycle Services**, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="57f72-111">Select **Open from this PC** or **Open from Lifecycle Services**, and then select **Close**.</span></span>
+3. <span data-ttu-id="57f72-112">Откроется страница **Сведения о пункте меню Безопасность**, на которой перечислены необходимые для процесса объекты безопасности.</span><span class="sxs-lookup"><span data-stu-id="57f72-112">This will open the **Security menu item details** page that lists the security objects required for the process.</span></span>
 
  > [!NOTE]
- > <span data-ttu-id="cac82-113">Пункты меню **Действие** и **Вывод** не включаются в список.</span><span class="sxs-lookup"><span data-stu-id="cac82-113">The **Action** and **Output** menu items are not included in the list.</span></span>
+ > <span data-ttu-id="57f72-113">Пункты меню **Действие** и **Вывод** не включаются в список.</span><span class="sxs-lookup"><span data-stu-id="57f72-113">The **Action** and **Output** menu items are not included in the list.</span></span>
 
-4. <span data-ttu-id="cac82-114">В поле **ИД пользователя** выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="cac82-114">In the **User ID** field, select a user.</span></span> <span data-ttu-id="cac82-115">Если у пользователя отсутствуют разрешения на доступ к некоторым пунктам меню, поле **Отсутствующие разрешения** будет обновлено на **Да**.</span><span class="sxs-lookup"><span data-stu-id="cac82-115">If the user does not have permissions for some menu items, the **Missing permissions** field will update to **Yes**.</span></span>
+4. <span data-ttu-id="57f72-114">В поле **ИД пользователя** выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="57f72-114">In the **User ID** field, select a user.</span></span> <span data-ttu-id="57f72-115">Если у пользователя отсутствуют разрешения на доступ к некоторым пунктам меню, поле **Отсутствующие разрешения** будет обновлено на **Да**.</span><span class="sxs-lookup"><span data-stu-id="57f72-115">If the user does not have permissions for some menu items, the **Missing permissions** field will update to **Yes**.</span></span>
   
   ![Страница сведения о пункте меню "Безопасность"](../media/Security-Menu-Item-Details.png)
 
-5. <span data-ttu-id="cac82-117">Выберите **Добавить ссылку**, чтобы просмотреть список объектов безопасности, включая роли, обязанности и привилегии, которые предоставляют отсутствующее разрешение.</span><span class="sxs-lookup"><span data-stu-id="cac82-117">Select **Add Reference** to see a list of the security objects, including roles, duties, and privileges that grant the missing permission.</span></span>
-6. <span data-ttu-id="cac82-118">Выберите объект безопасности из списка.</span><span class="sxs-lookup"><span data-stu-id="cac82-118">Select a security object from the list:</span></span>
+5. <span data-ttu-id="57f72-117">Выберите **Добавить ссылку**, чтобы просмотреть список объектов безопасности, включая роли, обязанности и привилегии, которые предоставляют отсутствующее разрешение.</span><span class="sxs-lookup"><span data-stu-id="57f72-117">Select **Add Reference** to see a list of the security objects, including roles, duties, and privileges that grant the missing permission.</span></span>
+6. <span data-ttu-id="57f72-118">Выберите объект безопасности из списка.</span><span class="sxs-lookup"><span data-stu-id="57f72-118">Select a security object from the list:</span></span>
 
-    - <span data-ttu-id="cac82-119">Если выбрана **Роль**, выберите **Добавить роль для пользователя**.</span><span class="sxs-lookup"><span data-stu-id="cac82-119">If **Role** is selected, select **Add role to user**.</span></span> <span data-ttu-id="cac82-120">Откроется страница **Назначить пользователей ролям**.</span><span class="sxs-lookup"><span data-stu-id="cac82-120">This will open the **Assign users to roles** page.</span></span> <span data-ttu-id="cac82-121">Дополнительные сведения см. в разделе [Назначение пользователей для ролей безопасности](assign-users-security-roles.md).</span><span class="sxs-lookup"><span data-stu-id="cac82-121">For more information, see [Assign users to security roles](assign-users-security-roles.md) page.</span></span>
-    - <span data-ttu-id="cac82-122">Если выбрано **Полномочие**, выберите **Добавить полномочие для роли**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cac82-122">If **Duty** is selected, select **Add duty to role**, select the roles that the duty should be added to, and then select **OK**.</span></span>
-    - <span data-ttu-id="cac82-123">Если выбрана **Привилегия**, выберите **Добавить привилегию для полномочий**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cac82-123">If **Privilege** is selected, select **Add privilege to duties**, select the roles that the duty should be added to, and then select **OK**.</span></span>
+    - <span data-ttu-id="57f72-119">Если выбрана **Роль**, выберите **Добавить роль для пользователя**.</span><span class="sxs-lookup"><span data-stu-id="57f72-119">If **Role** is selected, select **Add role to user**.</span></span> <span data-ttu-id="57f72-120">Откроется страница **Назначить пользователей ролям**.</span><span class="sxs-lookup"><span data-stu-id="57f72-120">This will open the **Assign users to roles** page.</span></span> <span data-ttu-id="57f72-121">Дополнительные сведения см. в разделе [Назначение пользователей для ролей безопасности](assign-users-security-roles.md).</span><span class="sxs-lookup"><span data-stu-id="57f72-121">For more information, see [Assign users to security roles](assign-users-security-roles.md) page.</span></span>
+    - <span data-ttu-id="57f72-122">Если выбрано **Полномочие**, выберите **Добавить полномочие для роли**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="57f72-122">If **Duty** is selected, select **Add duty to role**, select the roles that the duty should be added to, and then select **OK**.</span></span>
+    - <span data-ttu-id="57f72-123">Если выбрана **Привилегия**, выберите **Добавить привилегию для полномочий**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="57f72-123">If **Privilege** is selected, select **Add privilege to duties**, select the roles that the duty should be added to, and then select **OK**.</span></span>
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Настройка служб SQL Server Reporting Services для локальных развертываний
 description: В этой теме представлены сведения о настройке служб SQL Server Reporting Services (SSRS) для локального развертывания.
 author: PeterRFriis
-manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
 ms.prod: ''
@@ -15,83 +14,83 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: cc8bb6c3a993274f70316145f2ec8a6217e6886c
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 88e6d5470ff7808a9b6263b6426e19f6ea11493d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755532"
 ---
-# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a><span data-ttu-id="c44a1-103">Настройка служб SQL Server Reporting Services для локальных развертываний</span><span class="sxs-lookup"><span data-stu-id="c44a1-103">Configure SQL Server Reporting Services for on-premises deployments</span></span>
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a><span data-ttu-id="edf10-103">Настройка служб SQL Server Reporting Services для локальных развертываний</span><span class="sxs-lookup"><span data-stu-id="edf10-103">Configure SQL Server Reporting Services for on-premises deployments</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c44a1-104">Используйте шаги, приведенные ранее в этой теме, для настройки служб SQL Server Reporting Services (SSRS) для развертывания Microsoft Dynamics 365 Finance + Operations (локальная версия).</span><span class="sxs-lookup"><span data-stu-id="c44a1-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 Finance + Operations (on-premises) deployment.</span></span>
+<span data-ttu-id="edf10-104">Используйте шаги, приведенные ранее в этой теме, для настройки служб SQL Server Reporting Services (SSRS) для развертывания Microsoft Dynamics 365 Finance + Operations (локальная версия).</span><span class="sxs-lookup"><span data-stu-id="edf10-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 Finance + Operations (on-premises) deployment.</span></span>
 
-1. <span data-ttu-id="c44a1-105">Откройте приложение "Диспетчер конфигурации Reporting Services".</span><span class="sxs-lookup"><span data-stu-id="c44a1-105">Open the Reporting Services Configuration Manager application.</span></span>
-2. <span data-ttu-id="c44a1-106">Оставьте значение по умолчанию **Имя сервера**, которое должно представлять собой имя текущего компьютера, и **Экземпляра сервера отчетов**, **MSSQLSERVER**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-106">Leave the default **Server name**, which should be the name of the current machine, and the **Report Server Instance**, **MSSQLSERVER**.</span></span>
-3. <span data-ttu-id="c44a1-107">Щелкните **Подключить**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-107">Click **Connect**.</span></span>
+1. <span data-ttu-id="edf10-105">Откройте приложение "Диспетчер конфигурации Reporting Services".</span><span class="sxs-lookup"><span data-stu-id="edf10-105">Open the Reporting Services Configuration Manager application.</span></span>
+2. <span data-ttu-id="edf10-106">Оставьте значение по умолчанию **Имя сервера**, которое должно представлять собой имя текущего компьютера, и **Экземпляра сервера отчетов**, **MSSQLSERVER**.</span><span class="sxs-lookup"><span data-stu-id="edf10-106">Leave the default **Server name**, which should be the name of the current machine, and the **Report Server Instance**, **MSSQLSERVER**.</span></span>
+3. <span data-ttu-id="edf10-107">Щелкните **Подключить**.</span><span class="sxs-lookup"><span data-stu-id="edf10-107">Click **Connect**.</span></span>
 
-    <span data-ttu-id="c44a1-108">[![Подключение конфигурации Reporting Services](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-108">[![Reporting services configuration connection](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span></span>
+    <span data-ttu-id="edf10-108">[![Подключение конфигурации Reporting Services](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-108">[![Reporting services configuration connection](./media/ssrs-config-manager-01.png)](./media/ssrs-config-manager-01.png)</span></span>
 
-4. <span data-ttu-id="c44a1-109">Щелкните вкладку **Учетная запись службы** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-109">Click the **Service Account** tab and verify that the settings match the following graphic.</span></span>
+4. <span data-ttu-id="edf10-109">Щелкните вкладку **Учетная запись службы** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-109">Click the **Service Account** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="c44a1-110">[![Вкладка "Учетная запись службы"](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-110">[![Service account tab](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span></span>
+    <span data-ttu-id="edf10-110">[![Вкладка "Учетная запись службы"](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-110">[![Service account tab](./media/ssrs-config-manager-02.png)](./media/ssrs-config-manager-02.png)</span></span>
 
-5. <span data-ttu-id="c44a1-111">Щелкните вкладку **URL-адрес веб-службы** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-111">Click the **Web Service URL** tab and verify that the settings match the following graphic.</span></span>
+5. <span data-ttu-id="edf10-111">Щелкните вкладку **URL-адрес веб-службы** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-111">Click the **Web Service URL** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="c44a1-112">[![Вкладка "URL-адрес веб-службы"](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-112">[![Web service URL tab](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span></span>
+    <span data-ttu-id="edf10-112">[![Вкладка "URL-адрес веб-службы"](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-112">[![Web service URL tab](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png)</span></span>
 
-6. <span data-ttu-id="c44a1-113">Щелкните вкладку **База данных** и убедитесь, что значения **Имя базы данных** и **Параметры учетных данных** соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-113">Click the **Database** tab and verify that the **Database Name** and **Credential settings** match the following graphic.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="c44a1-114">Понадобится создать новую базу данных.</span><span class="sxs-lookup"><span data-stu-id="c44a1-114">You will need to create a new database.</span></span> <span data-ttu-id="c44a1-115">Для этого щелкните **Изменить базу данных**, а затем убедитесь, что имя новой базы данных: **DynamicsAxReportServer**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-115">To do this, click **Change Database**, and then verify that the new database name is: **DynamicsAxReportServer**.</span></span>
-
-    <span data-ttu-id="c44a1-116">[![вкладка "База данных"](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-116">[![database tab](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span></span>
-
-7. <span data-ttu-id="c44a1-117">Щелкните вкладку **URL-адрес веб-портала** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-117">Click the **Web Portal URL** tab and verify that the settings match the following graphic.</span></span>
+6. <span data-ttu-id="edf10-113">Щелкните вкладку **База данных** и убедитесь, что значения **Имя базы данных** и **Параметры учетных данных** соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-113">Click the **Database** tab and verify that the **Database Name** and **Credential settings** match the following graphic.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="c44a1-118">Необходимо нажать **Применить** для создания и правильной настройки портала.</span><span class="sxs-lookup"><span data-stu-id="c44a1-118">You must click **Apply** to create and properly configure the Portal.</span></span>
+    > <span data-ttu-id="edf10-114">Понадобится создать новую базу данных.</span><span class="sxs-lookup"><span data-stu-id="edf10-114">You will need to create a new database.</span></span> <span data-ttu-id="edf10-115">Для этого щелкните **Изменить базу данных**, а затем убедитесь, что имя новой базы данных: **DynamicsAxReportServer**.</span><span class="sxs-lookup"><span data-stu-id="edf10-115">To do this, click **Change Database**, and then verify that the new database name is: **DynamicsAxReportServer**.</span></span>
 
-    <span data-ttu-id="c44a1-119">[![вкладка "URL-адрес веб-портала"](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
+    <span data-ttu-id="edf10-116">[![вкладка "База данных"](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-116">[![database tab](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)</span></span>
 
-    <span data-ttu-id="c44a1-120">После настройки портала вкладка **Веб-портал** будет соответствовать приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
+7. <span data-ttu-id="edf10-117">Щелкните вкладку **URL-адрес веб-портала** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-117">Click the **Web Portal URL** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="c44a1-121">[![вкладка "Веб-портал"](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="edf10-118">Необходимо нажать **Применить** для создания и правильной настройки портала.</span><span class="sxs-lookup"><span data-stu-id="edf10-118">You must click **Apply** to create and properly configure the Portal.</span></span>
 
-8. <span data-ttu-id="c44a1-122">Перейдите по URL-адресу отчетов для просмотра веб-портал SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="c44a1-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span>
-9. <span data-ttu-id="c44a1-123">Находясь на портале, создайте новую папку с именем **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
+    <span data-ttu-id="edf10-119">[![вкладка "URL-адрес веб-портала"](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
 
-    <span data-ttu-id="c44a1-124">[![папка Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
+    <span data-ttu-id="edf10-120">После настройки портала вкладка **Веб-портал** будет соответствовать приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
 
-10. <span data-ttu-id="c44a1-125">В разделе **Диспетчер конфигурации служб Reporting Services** щелкните вкладку **Параметры электронной почты** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="edf10-121">[![вкладка "Веб-портал"](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
 
-    <span data-ttu-id="c44a1-126">[![вкладка "Параметры электронной почты"](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-126">[![email settings tab](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span></span>
+8. <span data-ttu-id="edf10-122">Перейдите по URL-адресу отчетов для просмотра веб-портал SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="edf10-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span>
+9. <span data-ttu-id="edf10-123">Находясь на портале, создайте новую папку с именем **Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="edf10-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
 
-11. <span data-ttu-id="c44a1-127">Щелкните вкладку **Учетная запись для выполнения** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-127">Click the **Execution Account** tab and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="edf10-124">[![папка Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
 
-    <span data-ttu-id="c44a1-128">[![вкладка "Учетная запись для выполнения"](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
+10. <span data-ttu-id="edf10-125">В разделе **Диспетчер конфигурации служб Reporting Services** щелкните вкладку **Параметры электронной почты** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="c44a1-129">Не следует изменять параметры по умолчанию на вкладке **Ключи шифрования**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-129">Don't change the default settings on the **Encryption Keys** tab.</span></span>
+    <span data-ttu-id="edf10-126">[![вкладка "Параметры электронной почты"](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-126">[![email settings tab](./media/ssrs-config-manager-08.png)](./media/ssrs-config-manager-08.png)</span></span>
 
-    <span data-ttu-id="c44a1-130">[![вкладка "Ключи шифрования"](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-130">[![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
+11. <span data-ttu-id="edf10-127">Щелкните вкладку **Учетная запись для выполнения** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-127">Click the **Execution Account** tab and verify that the settings match the following graphic.</span></span>
 
-12. <span data-ttu-id="c44a1-131">Щелкните вкладку **Параметры подписки** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="c44a1-131">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
+    <span data-ttu-id="edf10-128">[![вкладка "Учетная запись для выполнения"](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
 
-    <span data-ttu-id="c44a1-132">[![вкладка "Параметры подписки"](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-132">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
+    <span data-ttu-id="edf10-129">Не следует изменять параметры по умолчанию на вкладке **Ключи шифрования**.</span><span class="sxs-lookup"><span data-stu-id="edf10-129">Don't change the default settings on the **Encryption Keys** tab.</span></span>
 
-    <span data-ttu-id="c44a1-133">Не следует изменять параметры по умолчанию на вкладке **Масштабное развертывание**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-133">Don't change the default settings on the **Scale-out Deployment** tab.</span></span>
+    <span data-ttu-id="edf10-130">[![вкладка "Ключи шифрования"](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-130">[![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
 
-    <span data-ttu-id="c44a1-134">[![вкладка "Масштабное развертывание"](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-134">[![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
+12. <span data-ttu-id="edf10-131">Щелкните вкладку **Параметры подписки** и убедитесь, что параметры соответствуют приведенному ниже рисунку.</span><span class="sxs-lookup"><span data-stu-id="edf10-131">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
 
-    <span data-ttu-id="c44a1-135">Не следует изменять параметры по умолчанию на вкладке **Интеграция с Power BI**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-135">Don't change the default settings on the **Power BI Integration** tab.</span></span>
+    <span data-ttu-id="edf10-132">[![вкладка "Параметры подписки"](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-132">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
 
-    <span data-ttu-id="c44a1-136">[![Вкладка "Интеграция с Power BI"](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-136">[![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span>
+    <span data-ttu-id="edf10-133">Не следует изменять параметры по умолчанию на вкладке **Масштабное развертывание**.</span><span class="sxs-lookup"><span data-stu-id="edf10-133">Don't change the default settings on the **Scale-out Deployment** tab.</span></span>
 
-13. <span data-ttu-id="c44a1-137">Щелкните **Выход**, чтобы закрыть **Диспетчер конфигурации Reporting Services**.</span><span class="sxs-lookup"><span data-stu-id="c44a1-137">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
+    <span data-ttu-id="edf10-134">[![вкладка "Масштабное развертывание"](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-134">[![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
 
-    <span data-ttu-id="c44a1-138">[![закрытие диспетчера конфигурации служб Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span><span class="sxs-lookup"><span data-stu-id="c44a1-138">[![close reporting services configuration manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span></span>
+    <span data-ttu-id="edf10-135">Не следует изменять параметры по умолчанию на вкладке **Интеграция с Power BI**.</span><span class="sxs-lookup"><span data-stu-id="edf10-135">Don't change the default settings on the **Power BI Integration** tab.</span></span>
+
+    <span data-ttu-id="edf10-136">[![Вкладка "Интеграция с Power BI"](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-136">[![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span>
+
+13. <span data-ttu-id="edf10-137">Щелкните **Выход**, чтобы закрыть **Диспетчер конфигурации Reporting Services**.</span><span class="sxs-lookup"><span data-stu-id="edf10-137">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
+
+    <span data-ttu-id="edf10-138">[![закрытие диспетчера конфигурации служб Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span><span class="sxs-lookup"><span data-stu-id="edf10-138">[![close reporting services configuration manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

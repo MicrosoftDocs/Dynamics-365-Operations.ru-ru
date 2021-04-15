@@ -2,7 +2,6 @@
 title: Функция ER IF
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности IF.
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,58 +15,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a69675e3c743154e8119ba6c04da5897f23a8422
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3674618acae79170daf94413895d17d86a491996
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565912"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753176"
 ---
-# <a name="if-er-function"></a><span data-ttu-id="c6cf1-103">Функция ER IF</span><span class="sxs-lookup"><span data-stu-id="c6cf1-103">IF ER function</span></span>
+# <a name="if-er-function"></a><span data-ttu-id="423fb-103">Функция ER IF</span><span class="sxs-lookup"><span data-stu-id="423fb-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c6cf1-104">Функция `IF` возвращает первое указанное значение, если выполняется указанное условие.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="c6cf1-105">В противном случае возвращает второе указанное значение.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="c6cf1-106">Возвращаемое значение может быть значением любого из поддерживаемых типов данных.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="423fb-104">Функция `IF` возвращает первое указанное значение, если выполняется указанное условие.</span><span class="sxs-lookup"><span data-stu-id="423fb-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="423fb-105">В противном случае возвращает второе указанное значение.</span><span class="sxs-lookup"><span data-stu-id="423fb-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="423fb-106">Возвращаемое значение может быть значением любого из поддерживаемых типов данных.</span><span class="sxs-lookup"><span data-stu-id="423fb-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c6cf1-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c6cf1-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="423fb-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="423fb-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="c6cf1-108">Аргументы</span><span class="sxs-lookup"><span data-stu-id="c6cf1-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="423fb-108">Аргументы</span><span class="sxs-lookup"><span data-stu-id="423fb-108">Arguments</span></span>
 
-<span data-ttu-id="c6cf1-109">`condition`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="c6cf1-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="423fb-109">`condition`: *Логический*</span><span class="sxs-lookup"><span data-stu-id="423fb-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="c6cf1-110">Действительное условное выражение, которое должно быть протестировано.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="423fb-110">Действительное условное выражение, которое должно быть протестировано.</span><span class="sxs-lookup"><span data-stu-id="423fb-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="c6cf1-111">`first value`: *Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="c6cf1-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="423fb-111">`first value`: *Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="423fb-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="c6cf1-112">Результат, который возвращается при выполнении условия.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="423fb-112">Результат, который возвращается при выполнении условия.</span><span class="sxs-lookup"><span data-stu-id="423fb-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="c6cf1-113">`second value`: *Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="c6cf1-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="423fb-113">`second value`: *Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="423fb-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="c6cf1-114">Результат, который возвращается при невыполнении условия.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="423fb-114">Результат, который возвращается при невыполнении условия.</span><span class="sxs-lookup"><span data-stu-id="423fb-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c6cf1-115">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c6cf1-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="423fb-115">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="423fb-115">Return values</span></span>
 
-<span data-ttu-id="c6cf1-116">*Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="c6cf1-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="423fb-116">*Любой из поддерживаемых типов данных*</span><span class="sxs-lookup"><span data-stu-id="423fb-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="c6cf1-117">Полученное значение любого из поддерживаемых типов данных.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="423fb-117">Полученное значение любого из поддерживаемых типов данных.</span><span class="sxs-lookup"><span data-stu-id="423fb-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="c6cf1-118">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="c6cf1-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="423fb-118">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="423fb-118">Usage notes</span></span>
 
-<span data-ttu-id="c6cf1-119">Аргументы `first value` и `second value` должны быть указаны с помощью одного и того же типа данных.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="c6cf1-120">Исключение выдается во время разработки, если типы данных настроенных значений не совпадают.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="423fb-119">Аргументы `first value` и `second value` должны быть указаны с помощью одного и того же типа данных.</span><span class="sxs-lookup"><span data-stu-id="423fb-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="423fb-120">Исключение выдается во время разработки, если типы данных настроенных значений не совпадают.</span><span class="sxs-lookup"><span data-stu-id="423fb-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="c6cf1-121">Если первое значение и второе значение являются значениями типа данных *Контейнер (запись)* или *Список записей*, то в результате есть только поля, которые существуют в обоих значениях.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="423fb-121">Если первое значение и второе значение являются значениями типа данных *Контейнер (запись)* или *Список записей*, то в результате есть только поля, которые существуют в обоих значениях.</span><span class="sxs-lookup"><span data-stu-id="423fb-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c6cf1-122">Пример</span><span class="sxs-lookup"><span data-stu-id="c6cf1-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="423fb-122">Пример</span><span class="sxs-lookup"><span data-stu-id="423fb-122">Example</span></span>
 
-<span data-ttu-id="c6cf1-123">`IF (1=2, "condition is met", "condition is not met")` возвращает строку **"условие не выполняется"**.</span><span class="sxs-lookup"><span data-stu-id="c6cf1-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="423fb-123">`IF (1=2, "condition is met", "condition is not met")` возвращает строку **"условие не выполняется"**.</span><span class="sxs-lookup"><span data-stu-id="423fb-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c6cf1-124">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c6cf1-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="423fb-124">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="423fb-124">Additional resources</span></span>
 
-[<span data-ttu-id="c6cf1-125">Логические функции</span><span class="sxs-lookup"><span data-stu-id="c6cf1-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="423fb-125">Логические функции</span><span class="sxs-lookup"><span data-stu-id="423fb-125">Logical functions</span></span>](er-functions-category-logical.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
