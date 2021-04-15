@@ -5,7 +5,6 @@ author: Anasyash
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 374c157c96cb40bc3b754b9006181bb7b79e8382
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 96ef001c307e1d4f538831f495f7555ae34eb73a
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240544"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637678"
 ---
 # <a name="financial-reporting-russia"></a>Финансовая отчетность (Россия)
 

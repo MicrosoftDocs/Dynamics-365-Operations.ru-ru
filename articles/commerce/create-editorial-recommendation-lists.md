@@ -2,11 +2,9 @@
 title: Создание контролируемых рекомендаций вручную
 description: В этой теме объясняется, как менеджер по сбыту может вручную создавать списки продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7dd9de055a020d7171aa2dea45714933b0987d49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 00f7d076d745cb750dbfdd3a95130196edd888bc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207992"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795771"
 ---
 # <a name="manually-create-curated-recommendations"></a>Создание контролируемых рекомендаций вручную
 

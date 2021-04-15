@@ -2,11 +2,9 @@
 title: Добавление приветственного сообщения
 description: В этом разделе описывается, как добавить приветственное сообщение на веб-сайт Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d17ad7cfd6f11e84fdd1c8ebccca6f786b83c62d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3e61f43eca7d1343d020e1c01b5b1140f07b63c6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209163"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797391"
 ---
 # <a name="add-a-welcome-message"></a>Добавление приветственного сообщения
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как добавить приветственное сообщение на веб-сайт Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Приветственное сообщение на веб-сайте электронной коммерции может информировать посетителей о текущих распродажах, обновлениях сайта или доступности сезонных коллекций. Приветственное сообщение устанавливается с помощью модуля оповещения.
 

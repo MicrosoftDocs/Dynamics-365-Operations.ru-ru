@@ -2,11 +2,9 @@
 title: Настройка функции расширенного входа для MPOS и Cloud POS
 description: В этом разделе описываются параметры настройки расширенного входа для Cloud POS и Retail Modern POS (MPOS).
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ecb6f56f26133e7c46805500914e906b74e64df8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bb0e646cc4be5fa7fbb8a0ef47b524612a6f9a46
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209109"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792497"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Настройка функциональности расширенного входа для MPOS и Cloud POS
 

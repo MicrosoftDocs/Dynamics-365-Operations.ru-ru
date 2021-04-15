@@ -2,11 +2,9 @@
 title: Создание вопроса, зависящего от ответа на предыдущий вопрос
 description: Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a76220647417b6ff69e2f0ab5b2fa5297db5c49
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ae4a792e53127196aacdf659bb483867d5c17494
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467851"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794741"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Создание вопроса, зависящего от ответа на предыдущий вопрос
 
