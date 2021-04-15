@@ -2,11 +2,9 @@
 title: Интеграция Dynamics 365 Supply Chain Management (управление активами) с Dynamics 365 Guides
 description: В этой теме объясняется, как интегрировать модуль управления активами в Microsoft Dynamics 365 Supply Chain Management с Dynamics 365 Guides, чтобы пользоваться руководствами в смешанной реальности в повседневных процессах обслуживания.
 author: kamaybac
-manager: tfehr
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e3e9e74397faec12f6eecff1f562fd9d731ac5e2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230160"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813925"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Интеграция Dynamics 365 Supply Chain Management (управление активами) с Dynamics 365 Guides
 
@@ -62,14 +60,14 @@ ms.locfileid: "5230160"
 
     1. В поле **Имя** выберите руководство, а затем выберите **Сохранить**.
 
-        ![Выберите руководство в поле "Имя"](media/am-guides-integration-select-guide.png "Выберите руководство в поле "Имя"")
+        ![Выберите руководство в поле "Имя"](media/am-guides-integration-select-guide.png "Выберите руководство в поле &quot;Имя&quot;")
 
 1. Связывание шаблона контрольного списка обслуживания с типом задания:
 
     1. [Создайте тип задания обслуживания](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) или выберите существующий тип.
     1. В области действий выберите **Значения по умолчанию для типа заданий обслуживания**.
 
-        ![Кнопка "Значения по умолчанию для типа заданий обслуживания"](media/am-guides-integration-job-defaults.png "Кнопка "Значения по умолчанию для типа заданий обслуживания"")
+        ![Кнопка "Значения по умолчанию для типа заданий обслуживания"](media/am-guides-integration-job-defaults.png "Кнопка &quot;Значения по умолчанию для типа заданий обслуживания&quot;")
 
     1. Создайте строку, а затем выберите **Сохранить**.
 
@@ -77,7 +75,7 @@ ms.locfileid: "5230160"
 
     1. В области действий выберите **Контрольный список обслуживания**.
 
-        ![Кнопка "Контрольный список обслуживания"](media/am-guides-integration-maintenance-checklist.png "Кнопка "Контрольный список обслуживания"")
+        ![Кнопка "Контрольный список обслуживания"](media/am-guides-integration-maintenance-checklist.png "Кнопка &quot;Контрольный список обслуживания&quot;")
 
     1. На экспресс-вкладке **Строки контрольного списка обслуживания** добавьте строку, а затем измените значение в поле **Тип** на **Шаблон**.
 

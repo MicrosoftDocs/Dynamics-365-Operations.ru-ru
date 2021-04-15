@@ -2,11 +2,9 @@
 title: Что нового и что изменилось в Dynamics 365 Human Resources (1 мая 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 1 мая 2020 года.
 author: andreabichsel
-manager: tfehr
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71fb3b6cb28abbd5d373103205c3360b7e64464e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 52eb748fe8b3c62d6a5ebf46fd01afc291ec5572
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465326"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803425"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (1 мая 2020 г.)
 

@@ -2,11 +2,9 @@
 title: Изменение этапа заказа на обслуживание
 description: Можно изменить этап заказа на сервисное обслуживание.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5956629332547022068e7e9420b87bb6c8276adf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b35efb92de1ed91001561d39126d10063290a346
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243017"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810830"
 ---
 # <a name="change-the-service-order-stage"></a>Изменение этапа заказа на обслуживание 
 

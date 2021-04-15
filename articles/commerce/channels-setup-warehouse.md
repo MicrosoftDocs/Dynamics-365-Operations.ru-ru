@@ -2,11 +2,9 @@
 title: Настройка склада
 description: В этом разделе описывается, как настроить склад для использования с новым каналом в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477642"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800503"
 ---
 # <a name="warehouse-set-up"></a>Настройка складов
 
@@ -49,7 +47,7 @@ ms.locfileid: "5477642"
 
 ![Пример: сайт склада](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>Настройка склада
+## <a name="set-up-a-warehouse&quot;></a>Настройка склада
 
 Чтобы настроить склад, выполните следующие шаги.
 
@@ -63,14 +61,14 @@ ms.locfileid: "5477642"
     - Если требуется настроить **Транзитный склад**, сначала необходимо выполнить следующие действия для создания дополнительного склада, где для этого **Тип** устанавливается значение **Транзит**.
 1. На панели операций выберите **Сохранить**.
 
-## <a name="set-up-inventory-aisles"></a>Настройка складских проходов
+## <a name=&quot;set-up-inventory-aisles&quot;></a>Настройка складских проходов
 
 Чтобы настроить складские проходы, выполните следующие действия.
 
 1. В области переходов выберите **Модули \> Розничная торговля и коммерция \> Настройка канала \> Настройка местонахождения \> Складские проходы**.
 1. В области действий выберите **Создать**.
 1. В раскрывающемся списке **Склад** выберите склад, который был создан ранее.
-1. В поле **Проход** введите имя (например, "Def").
+1. В поле **Проход** введите имя (например, &quot;Def").
 1. В поле **Имя** введите имя (например, "Default aisle").
 1. На панели операций выберите **Сохранить**.
 

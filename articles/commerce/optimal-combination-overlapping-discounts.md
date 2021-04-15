@@ -2,11 +2,9 @@
 title: Определения оптимального сочетания пересекающихся скидок
 description: Если скидки пересекаются, необходимо определить сочетание пересекающихся скидок, которое будет давать самую низкую общую суммы проводки или самую большую общую скидку. Когда сумма скидки варьируется в зависимости от цены приобретенных продуктов, как в обычной розничной скидке "купите 1, получите 1 со скидкой X процентов" (BOGO), этот процесс становится предметом комбинаторной задачи оптимизации.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fee9289820d3df821036412147994e227d68d1dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804705"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Определения оптимального сочетания пересекающихся скидок
 

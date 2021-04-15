@@ -2,11 +2,9 @@
 title: Работа с модулями
 description: В этом разделе описывается, как и когда использовать модули в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210907"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801369"
 ---
 # <a name="work-with-modules"></a>Работа с модулями
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как и когда использовать модули в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модули являются логическими строительными блоками, составляющими структуру страницы, и они имеют различные цели и области действия. Некоторые модули являются контейнерами высокого уровня, и их единственная цель состоит в том, чтобы хранить и организовывать другие модули (дочерние модули). Другие модули, такие как простой модуль размещения изображений, имеют очень конкретную цель. Другие модули, например, модуль карусели, попадают где-то посередине между этими двумя категориями.
 

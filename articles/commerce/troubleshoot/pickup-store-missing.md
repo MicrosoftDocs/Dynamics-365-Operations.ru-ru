@@ -2,7 +2,6 @@
 title: Розничный магазин не отображается в списке магазинов, из которого будет осуществляться самовывоз
 description: В этом разделе приведены инструкции по устранению неполадок, которые могут помочь в том случае, когда розничный магазин не появляется в списке магазинов, в котором можно забрать товары самовывозом.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 652f5f1a779a412c21c18814071ba0fb7dd2e155
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 9974b3e10bbdcd2e8a8723a3be4b70401bb9e546
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585508"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801611"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>Розничный магазин не отображается в списке магазинов, из которого будет осуществляться самовывоз
 

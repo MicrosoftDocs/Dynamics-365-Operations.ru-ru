@@ -2,11 +2,9 @@
 title: Настройка интерфейса выполнения производственного цеха
 description: В этом разделе описывается, как создать одну или несколько конфигураций для интерфейса выполнения производственного цеха. При открытии интерфейса выполнения производственного цеха он автоматически загружает выбранную конфигурацию и фильтр заданий, которые относятся к браузеру и устройству. В конфигурации задаются политики, которые должны быть применимы для конкретного использования.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556322"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814738"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Настройка интерфейса выполнения производственного цеха
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Сотрудники производственного цеха используют интерфейс выполнения производственного цеха для регистрации своей ежедневной работы, например, когда они начинают задание, вводят обратную связь по заданиям, регистрируют дополнительные мероприятия и регистрируют отсутствие. Эти регистрации являются основой для отслеживания хода выполнения работ и затрат на производственные заказы и для расчета базиса для оплаты работников.
 
@@ -67,6 +64,8 @@ ms.locfileid: "5556322"
 - Функция для блокировки устройства карты задания и терминала карты задания для дезинфекции
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Функция управления активами для интерфейса выполнения производственного цеха
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Эта функция добавляет вкладку управления активами в интерфейсе выполнения производственного цеха. Работники могут использовать эту вкладку для выбора актива, связанного с ресурсом оборудования, который находится в выбранном фильтре списка заданий. Для выбранного актива оборудования работник может просмотреть статус и работоспособность актива из значений счетчиков для максимум четырех выбранных счетчиков. Если вы хотите использовать эту функцию, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

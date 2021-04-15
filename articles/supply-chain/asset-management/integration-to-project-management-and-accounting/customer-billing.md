@@ -2,11 +2,9 @@
 title: Выставление счетов за обслуживание принадлежащих заказчику активов
 description: В этом разделе описан порядок создания, обработки и выставления счетов за работу по обслуживанию, выполненную с активами, принадлежащими клиентам.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a93436d101e6201c9d86279ea5b1a37fcc644fd1
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 5532f1ce14239002022f487f227286efe10abf12
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500462"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813805"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Выставление счетов за обслуживание принадлежащих заказчику активов
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Функция *Выставление счетов за заказы на работу* позволяет создавать и выставлять счета за работу по обслуживанию, выполненную для активов, принадлежащих клиентам. Эта функция позволяют выполнять следующие задачи:
 

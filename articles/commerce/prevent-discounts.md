@@ -2,11 +2,9 @@
 title: Параметры для запрета скидок для розничных продуктов
 description: Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f5037067917290f21f681d2446a0e1ab0e31228c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddf3834057c89f5a091f09412183ca79540225fc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231208"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802895"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Параметры для запрета скидок для розничных продуктов
 
