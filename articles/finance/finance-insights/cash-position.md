@@ -2,11 +2,9 @@
 title: Состояние денежной наличности (предварительная версия)
 description: В этой теме описывается, как функция прогнозирования движения денежных средств прогнозирует состояние наличных средств в организации в указанное время. Здесь также описываются параметры, доступные для отображения прогнозов для разных периодов.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ffe91d7ca273de36c2fae58a39d3a3d306496990
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208589"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811395"
 ---
 # <a name="cash-position-preview"></a>Состояние денежной наличности (предварительная версия)
 

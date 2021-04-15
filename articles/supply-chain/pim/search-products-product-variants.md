@@ -2,11 +2,9 @@
 title: Поиск продуктов и вариантов продуктов во время ввода заказа
 description: Используйте поле **Код номенклатуры** для поиска продуктов и вариантов продуктов при создании строки заказа на продажу или заказа на покупку вручную. Это позволяет быстро найти варианты продукта, когда имеется только строка конфигурации или доступна только одна из аналитик продукта.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, PurchTablePart, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38d6a95d1923d179dad9f532db980a12e397ccb1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262269"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812747"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Поиск продуктов и вариантов продуктов во время ввода заказа
 

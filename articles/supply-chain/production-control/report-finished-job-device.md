@@ -2,11 +2,9 @@
 title: Приемка с устройства карты задания
 description: В этом разделе описывается, как настроить систему таким образом, чтобы пользователи устройства карты задания могли отчитываться о готовой продукции из производственного заказа в запасы.
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262149"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811638"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Приемка с устройства карты задания
 
@@ -64,7 +62,7 @@ ms.locfileid: "5262149"
 Чтобы разрешить устройствам карты задания принимать номер партии во время приемки, необходимо использовать [управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), чтобы включить следующие функции (в этом порядке):
 
 1. Улучшенное взаимодействие пользователя в диалоговом окне хода выполнения отчета на устройстве карты задания
-1. Позволяет вводить номера партий и серийные номера при приемке с устройства карты задания (предварительная версия)
+1. Позволяет вводить номера партий и серийные номера при приемке с устройства карты задания
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Настройка продуктов, требующих отчета по номерам партий
 
@@ -142,7 +140,7 @@ ms.locfileid: "5262149"
 Чтобы разрешить устройствам карты задания принимать серийный номер во время приемки, необходимо использовать [управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), чтобы включить следующие функции (в этом порядке):
 
 1. Улучшенное взаимодействие пользователя в диалоговом окне хода выполнения отчета на устройстве карты задания
-1. Позволяет вводить номера партий и серийные номера при приемке с устройства карты задания (предварительная версия)
+1. Позволяет вводить номера партий и серийные номера при приемке с устройства карты задания
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Настройка продуктов, требующих отчета по серийным номерам
 

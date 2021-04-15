@@ -2,7 +2,6 @@
 title: Интерфейс транспортно-складского оборудования (MHAX)
 description: В этом разделе описывается порядок настройки интерфейс транспортно-складского оборудования (MHAX), чтобы можно было подключиться к внешним системам физической обработки материалов (MH).
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571850"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810518"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Интерфейс транспортно-складского оборудования (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Интерфейс транспортно-складского оборудования* (MHAX) можно использовать для подключения внешних систем физической обработки материалов (МХ) к складу, управляемому с помощью расширенного управления складом (WMS) в Microsoft Dynamics 365 Supply Chain Management. Интерфейс между системами WMS и MH состоит из двух очередей: одна для исходящих событий (WMS в MH) и одна для входящих событий (MH в WMS). Система WMS создает исходящие события на основе строк работы, которые создаются во время различных процессов создания и выполнения работ. Затем система MH регулярно опрашивает систему WMS для создания новых событий и обработки ответов. После того, как система MH завершила обработку событий в соответствии с инструкциями по работе, она отправляет входящие события, такие как завершение строки работы и недоукомплектованность.
 

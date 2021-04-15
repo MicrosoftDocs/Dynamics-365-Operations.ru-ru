@@ -1,12 +1,10 @@
 ---
-title: Настройка имен полей приложения в приложении склада
-description: В этом разделе описывается, как определить и настроить имена полей и приоритеты приложения склада в Dynamics 365 Supply Chain Management.
+title: Настройка полей для мобильного приложения "Управление складом"
+description: В этой теме описывается, как определить и настроить имена полей и приоритеты для полей, отображаемых в мобильном приложении "Управление складом".
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808830"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Настройка имен полей приложения в приложении склада
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Настройка полей для мобильного приложения "Управление складом"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, как определить и настроить имена полей и приоритеты приложения склада в Dynamics 365 Supply Chain Management. 
+В этой теме описывается, как определить и настроить имена полей и приоритеты для полей, отображаемых в мобильном приложении "Управление складом".
 
 > [!NOTE]
-> Этот раздел относится к функциям в модуле "Управление складом". Он не применяется к функциям в модуле "Управление запасами". Warehousing — это приложение, которое можно использовать для выполнения задач на складе. Можно определить и настроить имена полей, которые используются в приложении, а также настроить приоритет, который должен быть назначен именам полей. В этом разделе описывается, как определить и настроить эти имена полей и приоритеты приложения склада, а также как они используются в приложении Warehousing. Подробные сведения о порядке настройки подключения к Warehousing см. в руководстве [Обзор установки и настройки приложения склада](install-configure-warehousing-app.md).
+> Этот раздел относится к функциям в модуле "Управление складом". Он не применяется к функциям в модуле "Управление запасами". Мобильное приложение "Управление складом" — это приложение, которое можно использовать для выполнения задач на складе. Можно определить и настроить имена полей, которые используются в приложении, а также настроить приоритет, который должен быть назначен именам полей. В этой теме описывается, как определить и настроить эти имена полей и приоритеты мобильного приложения "Управление складом", а также как они используются.
 
 ## <a name="configure-warehouse-app-field-names"></a>Настройка имен полей в приложении склада
 
@@ -142,7 +140,7 @@ ms.locfileid: "5232967"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Обзор установки и настройки приложения склада](install-configure-warehousing-app.md)
+[Установка и подключение мобильного приложения "Управление складом"](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

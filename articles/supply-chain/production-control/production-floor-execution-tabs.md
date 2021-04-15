@@ -2,11 +2,9 @@
 title: Разработка интерфейса выполнения производственного цеха
 description: В этом разделе описывается разработка содержимого пользовательского интерфейса для каждой конфигурации.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501038"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814688"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Разработка интерфейса выполнения производственного цеха
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Можно разработать содержимое пользовательского интерфейса для каждой конфигурации, используемой интерфейсом выполнения производственного цеха. Например, сотрудникам в одной из производственных ячеек может потребоваться иметь возможность открыть инструкции по заданию в производственном цехе, в то время как в другой производственной ячейке инструкции не требуются. В этом случае необходимо создать две конфигурации, одну с кнопкой для открытия вложенных документов, и одну без этой кнопки.
 

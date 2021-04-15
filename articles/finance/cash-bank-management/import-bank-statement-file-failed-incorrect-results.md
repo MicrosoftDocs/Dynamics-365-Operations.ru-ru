@@ -2,11 +2,9 @@
 title: Устранение неполадок импорта файла банковской выписки
 description: Важно, чтобы файл банковской выписки из банка соответствовал макету, поддерживаемому в Microsoft Dynamics 365 Finance. Из-за строгих стандартов для банковских выписок большинство интеграций будут работать надлежащим образом. Однако иногда файл выписки невозможно импортировать или он выдает неверные результаты. Обычно эти проблемы возникают из-за небольших различий в файле банковской выписки. В этой статье описывается, как исправить эти различия и устранить проблемы.
 author: panolte
-manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac82a269e8f7773c58517ef017576c82c52039cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0e01881a6b68526479d27014d49a718069cffc9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253971"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815892"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Устранение неполадок импорта файла банковской выписки
 
@@ -34,6 +32,9 @@ ms.locfileid: "5253971"
 ------------------
 
 После попытки импорта файла банковской выписки перейдите в журнал заданий управления данными и просмотрите сведениям о выполнении, чтобы найти ошибку. Сведения об ошибке могут отобразиться, если навести указатель мыши на выписку, сальдо или строку выписки. Однако, скорее всего, сведений будет недостаточно для определения поля или элемента, который является причиной проблемы.
+
+> [!NOTE]
+> Импортированные банковские выписки могут перекрываться только для одного момента времени.  Например, если выписка заканчивается в 00:00 1-го января 2021 года, то начальная дата следующей выписки может быть 00:00 1-го января 2021 года, 00:00:00.
 
 ## <a name="what-are-the-differences"></a>В чем различия?
 Сравните определение формата файла банка с определением импорта Finance и обратите внимание на все различия в полях и элементах. Сравните файл банковской выписки с соответствующим примером файла Finance. В файлах ISO20022 все различия должны быть хорошо видны.
@@ -94,14 +95,13 @@ ms.locfileid: "5253971"
 -   Шаблон MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Примеры форматов банковской выписки и технических макетов
-В следующей таблице приведены примеры определений технических макетов для расширенных файлов импорта банковской выписки и трех связанных примеров файлов банковской выписки. Можно загрузить файлы примеров и технические макеты здесь: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
-
+В следующей таблице приведены примеры определений технических макетов для расширенных файлов импорта банковской выписки и трех связанных примеров файлов банковской выписки. Можно загрузить файлы примеров и технические макеты здесь: [Примеры импорта файлов](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
 
 | Определение технического макета                             | Пример файла банковской выписки          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
+| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
 
 
 

@@ -1,12 +1,10 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021)
+title: Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.17.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571820"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813179"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.17. Эта версия имеет номер сборки 10.0.761 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.17. Эта версия имеет номер сборки 10.0.761 и доступна следующим образом:
 
 - **Предварительная версия**: февраль 2021 года
 - **Общая доступность выпуска (самостоятельное обновление):** март 2021 года
@@ -36,9 +33,9 @@ ms.locfileid: "5571820"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
+Этот выпуск содержит следующие функции.  Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
+Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать. Некоторые из вышеперечисленных функций все еще могут быть предварительными версиями, хотя большинство уже общедоступны.
 
 ### <a name="asset-management"></a>Управление активами
 
@@ -68,9 +65,13 @@ ms.locfileid: "5571820"
 
 - [Мобильное приложение управления складом](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Дополнительные сведения см. в разделах [Установка и подключение приложения управления складом](../warehousing/install-configure-warehouse-management-app.md) и [Пользовательские параметры мобильного устройства](../warehousing/mobile-device-user-settings.md).
 
+- Уведомления о выполнении волны<br> - Дополнительные сведения см. в разделе [Уведомления о выполнении волны](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>Производство
 
-- [Функции управления активами в интерфейсе выполнения производственного цеха](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md).
+- [Функции управления активами в интерфейсе выполнения производственного цеха](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка интерфейса выполнения производственного цеха](../production-control/production-floor-execution-configure.md).
+
+- Единая номерная серия для кодов заданий<br> - Дополнительные сведения см. 
 
 - [Переопределение принципа резервирования по умолчанию для материалов в производстве](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Дополнительные сведения см. в разделе [Переопределение принципа резервирования по умолчанию для материалов в производстве](../production-control/override-default-reservation-principle.md).
 
