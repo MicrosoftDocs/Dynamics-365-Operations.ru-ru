@@ -2,7 +2,6 @@
 title: Домашняя страница содержимого Power BI
 description: В этой теме перечислено доступное решения PowerBI.com и описаны ресурсы, где можно получить дополнительную информацию о решениях.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -16,54 +15,54 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0be4f3526e7a81398a3e06aef9432ef0c60945ed
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564471"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753126"
 ---
-# <a name="power-bi-content-home-page"></a><span data-ttu-id="4f6f2-103">Домашняя страница содержимого Power BI</span><span class="sxs-lookup"><span data-stu-id="4f6f2-103">Power BI content home page</span></span>
+# <a name="power-bi-content-home-page"></a><span data-ttu-id="b2af9-103">Домашняя страница содержимого Power BI</span><span class="sxs-lookup"><span data-stu-id="b2af9-103">Power BI content home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4f6f2-104">Следующие решения PowerBI.com доступны для сред приложений.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-104">The following PowerBI.com solutions are available for application environments.</span></span>
+<span data-ttu-id="b2af9-104">Следующие решения PowerBI.com доступны для сред приложений.</span><span class="sxs-lookup"><span data-stu-id="b2af9-104">The following PowerBI.com solutions are available for application environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="4f6f2-105">Решения PowerBI.com, которые доступны из Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="4f6f2-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="b2af9-105">Решения PowerBI.com, которые доступны из Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b2af9-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="4f6f2-106">В библиотеке общих ресурсов в LCS доступны следующие решения PowerBI.com.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="4f6f2-107">См. сведения о версии в библиотеке общих ресурсов, чтобы загрузить правильную версию для существующей среды.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="4f6f2-108">Большинство решений PowerBI.com в следующем списке были встроены в аналитические рабочие области в последних версиях.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="4f6f2-109">Использование аналитических рабочих областей устраняет необходимость загрузки этих решений из библиотеки общих ресурсов в LCS.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="4f6f2-110">Темы в этом списке указывают, где эти решения PowerBI.com были встроены, где это применимо.</span><span class="sxs-lookup"><span data-stu-id="4f6f2-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
-
-- [<span data-ttu-id="4f6f2-111">Факт/бюджет</span><span class="sxs-lookup"><span data-stu-id="4f6f2-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="4f6f2-112">Обзор кассы</span><span class="sxs-lookup"><span data-stu-id="4f6f2-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="4f6f2-113">Компенсации и льготы</span><span class="sxs-lookup"><span data-stu-id="4f6f2-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-114">Анализ учета затрат</span><span class="sxs-lookup"><span data-stu-id="4f6f2-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
-- [<span data-ttu-id="4f6f2-115">Управление кредитом и сбором задолженностей</span><span class="sxs-lookup"><span data-stu-id="4f6f2-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="4f6f2-116">Компетенции и развитие сотрудников</span><span class="sxs-lookup"><span data-stu-id="4f6f2-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-117">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="4f6f2-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-118">Управление основными средствами</span><span class="sxs-lookup"><span data-stu-id="4f6f2-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="4f6f2-119">Организационное обучение</span><span class="sxs-lookup"><span data-stu-id="4f6f2-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-120">Менеджер методики</span><span class="sxs-lookup"><span data-stu-id="4f6f2-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="4f6f2-121">Эффективность производства</span><span class="sxs-lookup"><span data-stu-id="4f6f2-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="4f6f2-122">Анализ расходов на покупки</span><span class="sxs-lookup"><span data-stu-id="4f6f2-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
-- [<span data-ttu-id="4f6f2-123">Набор сотрудников</span><span class="sxs-lookup"><span data-stu-id="4f6f2-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-124">Эффективность продаж и прибыльность</span><span class="sxs-lookup"><span data-stu-id="4f6f2-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="4f6f2-125">Платежи поставщикам</span><span class="sxs-lookup"><span data-stu-id="4f6f2-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="4f6f2-126">Эффективность склада</span><span class="sxs-lookup"><span data-stu-id="4f6f2-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="4f6f2-127">Показатели трудовых ресурсов</span><span class="sxs-lookup"><span data-stu-id="4f6f2-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
-
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="4f6f2-128">Решения PowerBI.com, доступные из AppSource</span><span class="sxs-lookup"><span data-stu-id="4f6f2-128">PowerBI.com solutions available from AppSource</span></span>
-
-<span data-ttu-id="4f6f2-129">Следующие решения PowerBI.com доступны из [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="4f6f2-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="b2af9-106">В библиотеке общих ресурсов в LCS доступны следующие решения PowerBI.com.</span><span class="sxs-lookup"><span data-stu-id="b2af9-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="b2af9-107">См. сведения о версии в библиотеке общих ресурсов, чтобы загрузить правильную версию для существующей среды.</span><span class="sxs-lookup"><span data-stu-id="b2af9-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4f6f2-130">Эти решения устарели, как описано в разделе [Пакеты содержимого Power BI, доступные в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="4f6f2-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> <span data-ttu-id="b2af9-108">Большинство решений PowerBI.com в следующем списке были встроены в аналитические рабочие области в последних версиях.</span><span class="sxs-lookup"><span data-stu-id="b2af9-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="b2af9-109">Использование аналитических рабочих областей устраняет необходимость загрузки этих решений из библиотеки общих ресурсов в LCS.</span><span class="sxs-lookup"><span data-stu-id="b2af9-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="b2af9-110">Темы в этом списке указывают, где эти решения PowerBI.com были встроены, где это применимо.</span><span class="sxs-lookup"><span data-stu-id="b2af9-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
 
-- <span data-ttu-id="4f6f2-131">Управление затратами</span><span class="sxs-lookup"><span data-stu-id="4f6f2-131">Cost management</span></span>
-- [<span data-ttu-id="4f6f2-132">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="4f6f2-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="4f6f2-133">Эффективность канала розничной торговли</span><span class="sxs-lookup"><span data-stu-id="4f6f2-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+- [<span data-ttu-id="b2af9-111">Факт/бюджет</span><span class="sxs-lookup"><span data-stu-id="b2af9-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="b2af9-112">Обзор кассы</span><span class="sxs-lookup"><span data-stu-id="b2af9-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="b2af9-113">Компенсации и льготы</span><span class="sxs-lookup"><span data-stu-id="b2af9-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-114">Анализ учета затрат</span><span class="sxs-lookup"><span data-stu-id="b2af9-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="b2af9-115">Управление кредитом и сбором задолженностей</span><span class="sxs-lookup"><span data-stu-id="b2af9-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="b2af9-116">Компетенции и развитие сотрудников</span><span class="sxs-lookup"><span data-stu-id="b2af9-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-117">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="b2af9-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-118">Управление основными средствами</span><span class="sxs-lookup"><span data-stu-id="b2af9-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="b2af9-119">Организационное обучение</span><span class="sxs-lookup"><span data-stu-id="b2af9-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-120">Менеджер методики</span><span class="sxs-lookup"><span data-stu-id="b2af9-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="b2af9-121">Эффективность производства</span><span class="sxs-lookup"><span data-stu-id="b2af9-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="b2af9-122">Анализ расходов на покупки</span><span class="sxs-lookup"><span data-stu-id="b2af9-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="b2af9-123">Набор сотрудников</span><span class="sxs-lookup"><span data-stu-id="b2af9-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-124">Эффективность продаж и прибыльность</span><span class="sxs-lookup"><span data-stu-id="b2af9-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="b2af9-125">Платежи поставщикам</span><span class="sxs-lookup"><span data-stu-id="b2af9-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="b2af9-126">Эффективность склада</span><span class="sxs-lookup"><span data-stu-id="b2af9-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="b2af9-127">Показатели трудовых ресурсов</span><span class="sxs-lookup"><span data-stu-id="b2af9-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
+
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="b2af9-128">Решения PowerBI.com, доступные из AppSource</span><span class="sxs-lookup"><span data-stu-id="b2af9-128">PowerBI.com solutions available from AppSource</span></span>
+
+<span data-ttu-id="b2af9-129">Следующие решения PowerBI.com доступны из [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="b2af9-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b2af9-130">Эти решения устарели, как описано в разделе [Пакеты содержимого Power BI, доступные в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="b2af9-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="b2af9-131">Управление затратами</span><span class="sxs-lookup"><span data-stu-id="b2af9-131">Cost management</span></span>
+- [<span data-ttu-id="b2af9-132">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="b2af9-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="b2af9-133">Эффективность канала розничной торговли</span><span class="sxs-lookup"><span data-stu-id="b2af9-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

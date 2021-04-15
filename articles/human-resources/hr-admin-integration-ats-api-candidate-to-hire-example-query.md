@@ -2,11 +2,9 @@
 title: Пример запроса кандидата для приема на работу
 description: В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,31 +14,31 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467633"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795077"
 ---
-# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="1dba5-103">Пример запроса кандидата для приема на работу</span><span class="sxs-lookup"><span data-stu-id="1dba5-103">Example query for Candidate to hire</span></span>
+# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="a7489-103">Пример запроса кандидата для приема на работу</span><span class="sxs-lookup"><span data-stu-id="a7489-103">Example query for Candidate to hire</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="1dba5-104">В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="1dba5-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="a7489-104">В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="a7489-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="1dba5-105">В этой теме представлен пример, демонстрирующий способы использования *глубокой вставки* для создания всех сведений о новой записи кандидата в одной операции API.</span><span class="sxs-lookup"><span data-stu-id="1dba5-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="1dba5-106">Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span><span class="sxs-lookup"><span data-stu-id="1dba5-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
+<span data-ttu-id="a7489-105">В этой теме представлен пример, демонстрирующий способы использования *глубокой вставки* для создания всех сведений о новой записи кандидата в одной операции API.</span><span class="sxs-lookup"><span data-stu-id="a7489-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="a7489-106">Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span><span class="sxs-lookup"><span data-stu-id="a7489-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
 
-<span data-ttu-id="1dba5-107">Сущность **mshr_hcmcandidatetohireentity** является уникальной, поскольку связана с сущностью **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="1dba5-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="1dba5-108">Многие свойства сущности **mshr_hcmcandidatetohireentity** (например, **mshr_firstname**, **mshr_lastname** и **mshr_birthdate**) наследуются из записи **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="1dba5-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="1dba5-109">При разноске новой записи кандидата в **mshr_hcmcandidatetohireentity** без использования операций глубокой вставки можно определить значения для этих свойств непосредственно в записи **mshr_hcmcandidatetohireentity**.</span><span class="sxs-lookup"><span data-stu-id="1dba5-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="1dba5-110">Соответствующая запись **mshr_dirpersonentity** создается неявно с определенными значениями для свойств.</span><span class="sxs-lookup"><span data-stu-id="1dba5-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="1dba5-111">Затем можно создать любые другие записи сущности (такие как навыки или образование) как отдельные вызовы API.</span><span class="sxs-lookup"><span data-stu-id="1dba5-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
+<span data-ttu-id="a7489-107">Сущность **mshr_hcmcandidatetohireentity** является уникальной, поскольку связана с сущностью **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="a7489-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="a7489-108">Многие свойства сущности **mshr_hcmcandidatetohireentity** (например, **mshr_firstname**, **mshr_lastname** и **mshr_birthdate**) наследуются из записи **mshr_dirpersonentity**.</span><span class="sxs-lookup"><span data-stu-id="a7489-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="a7489-109">При разноске новой записи кандидата в **mshr_hcmcandidatetohireentity** без использования операций глубокой вставки можно определить значения для этих свойств непосредственно в записи **mshr_hcmcandidatetohireentity**.</span><span class="sxs-lookup"><span data-stu-id="a7489-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="a7489-110">Соответствующая запись **mshr_dirpersonentity** создается неявно с определенными значениями для свойств.</span><span class="sxs-lookup"><span data-stu-id="a7489-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="a7489-111">Затем можно создать любые другие записи сущности (такие как навыки или образование) как отдельные вызовы API.</span><span class="sxs-lookup"><span data-stu-id="a7489-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
 
-<span data-ttu-id="1dba5-112">Однако, если необходимо использовать глубокие вставки для создания всех связанных сущностей в одной операции, свойства, относящиеся к сущности **mshr_dirpersonentity**, должны быть определены на этом вложенном уровне операции.</span><span class="sxs-lookup"><span data-stu-id="1dba5-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
+<span data-ttu-id="a7489-112">Однако, если необходимо использовать глубокие вставки для создания всех связанных сущностей в одной операции, свойства, относящиеся к сущности **mshr_dirpersonentity**, должны быть определены на этом вложенном уровне операции.</span><span class="sxs-lookup"><span data-stu-id="a7489-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
 
-<span data-ttu-id="1dba5-113">В этом примере показано, как создать запись кандидата, связанную запись физического лица и навыки и образование физического лица в трех вложенных уровнях с помощью глубоких вставок в одной операции API.</span><span class="sxs-lookup"><span data-stu-id="1dba5-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
+<span data-ttu-id="a7489-113">В этом примере показано, как создать запись кандидата, связанную запись физического лица и навыки и образование физического лица в трех вложенных уровнях с помощью глубоких вставок в одной операции API.</span><span class="sxs-lookup"><span data-stu-id="a7489-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1dba5-114">Пример не включает все свойства для каждой из сущностей API.</span><span class="sxs-lookup"><span data-stu-id="1dba5-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="1dba5-115">Это упрощено для демонстрационных целей.</span><span class="sxs-lookup"><span data-stu-id="1dba5-115">It is simplified for demonstration purposes.</span></span>
+> <span data-ttu-id="a7489-114">Пример не включает все свойства для каждой из сущностей API.</span><span class="sxs-lookup"><span data-stu-id="a7489-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="a7489-115">Это упрощено для демонстрационных целей.</span><span class="sxs-lookup"><span data-stu-id="a7489-115">It is simplified for demonstration purposes.</span></span>
 
-<span data-ttu-id="1dba5-116">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="1dba5-116">**Request**</span></span>
+<span data-ttu-id="a7489-116">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="a7489-116">**Request**</span></span>
 
 ```http
 
@@ -102,7 +100,7 @@ Accept: application/json
 }
 ```
 
-<span data-ttu-id="1dba5-117">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="1dba5-117">**Response**</span></span>
+<span data-ttu-id="a7489-117">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="a7489-117">**Response**</span></span>
 
 ```http
 
@@ -112,9 +110,9 @@ OData-EntityId: [Organization URI]/api/data/v9.1/mshr_hcmcandidatetohireentities
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="1dba5-118">См. также</span><span class="sxs-lookup"><span data-stu-id="1dba5-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7489-118">См. также</span><span class="sxs-lookup"><span data-stu-id="a7489-118">See also</span></span>
 
-[<span data-ttu-id="1dba5-119">Введение в интерфейс API интеграции системы отслеживания кандидатов</span><span class="sxs-lookup"><span data-stu-id="1dba5-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="a7489-119">Введение в интерфейс API интеграции системы отслеживания кандидатов</span><span class="sxs-lookup"><span data-stu-id="a7489-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
