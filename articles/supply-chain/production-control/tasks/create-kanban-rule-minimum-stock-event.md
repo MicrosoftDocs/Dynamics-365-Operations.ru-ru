@@ -2,11 +2,9 @@
 title: Создание правила канбана с помощью события минимального запаса
 description: Эта процедура рассматривает настройку, необходимую для создания правила канбана с помощью события минимального запаса, чтобы гарантировать, что определенный продукт всегда доступен в определенном местонахождении.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
@@ -16,56 +14,56 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 297ee73daf10dffd027dadec11725ae6f0408d4c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 598af59a1b30cfeb5c25c89d95e1a60e6707c899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255165"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829098"
 ---
-# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="e7bee-103">Создание правила канбана с помощью события минимального запаса</span><span class="sxs-lookup"><span data-stu-id="e7bee-103">Create a kanban rule using a minimum stock event</span></span>
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="d3736-103">Создание правила канбана с помощью события минимального запаса</span><span class="sxs-lookup"><span data-stu-id="d3736-103">Create a kanban rule using a minimum stock event</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e7bee-104">Эта процедура рассматривает настройку, необходимую для создания правила канбана с помощью события минимального запаса, чтобы гарантировать, что определенный продукт всегда доступен в определенном местонахождении.</span><span class="sxs-lookup"><span data-stu-id="e7bee-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="e7bee-105">Правило канбана создается для перемещения материала в местонахождение, когда уровень запасов опускается ниже 200 шт.</span><span class="sxs-lookup"><span data-stu-id="e7bee-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="e7bee-106">В результате обработки события возникновения потребности создаются необходимые канбаны.</span><span class="sxs-lookup"><span data-stu-id="e7bee-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="e7bee-107">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="e7bee-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="e7bee-108">Эта задача предназначена для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="e7bee-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
+<span data-ttu-id="d3736-104">Эта процедура рассматривает настройку, необходимую для создания правила канбана с помощью события минимального запаса, чтобы гарантировать, что определенный продукт всегда доступен в определенном местонахождении.</span><span class="sxs-lookup"><span data-stu-id="d3736-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="d3736-105">Правило канбана создается для перемещения материала в местонахождение, когда уровень запасов опускается ниже 200 шт.</span><span class="sxs-lookup"><span data-stu-id="d3736-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="d3736-106">В результате обработки события возникновения потребности создаются необходимые канбаны.</span><span class="sxs-lookup"><span data-stu-id="d3736-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="d3736-107">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d3736-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="d3736-108">Эта задача предназначена для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="d3736-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="e7bee-109">Создать новое правило канбана</span><span class="sxs-lookup"><span data-stu-id="e7bee-109">Create a new kanban rule</span></span>
-1. <span data-ttu-id="e7bee-110">Перейдите в раздел "Управление сведениями о продуктах" > "Бережливое производство" > "Правила канбана".</span><span class="sxs-lookup"><span data-stu-id="e7bee-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="e7bee-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e7bee-111">Click New.</span></span>
-3. <span data-ttu-id="e7bee-112">В поле "Тип" выберите "Изъятие".</span><span class="sxs-lookup"><span data-stu-id="e7bee-112">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="e7bee-113">Этот тип используется для создания канбанов перемещения.</span><span class="sxs-lookup"><span data-stu-id="e7bee-113">This type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="e7bee-114">В поле "Стратегия пополнения" выберите "Событие".</span><span class="sxs-lookup"><span data-stu-id="e7bee-114">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="e7bee-115">Стратегия события используется для создания канбанов перемещения на основе события.</span><span class="sxs-lookup"><span data-stu-id="e7bee-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="e7bee-116">Позже в этой процедуре вы активируете канбаны перемещения с помощью пополнения запасов.</span><span class="sxs-lookup"><span data-stu-id="e7bee-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
-5. <span data-ttu-id="e7bee-117">В поле "Первое мероприятие плана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e7bee-117">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="e7bee-118">Введите или выберите ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="e7bee-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="e7bee-119">Это мероприятие перемещения имеет склад приемки (выпуск) и местонахождение 12. Это означает, что материалы перемещаются в местонахождение 12 на складе 12.</span><span class="sxs-lookup"><span data-stu-id="e7bee-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="e7bee-120">Разверните раздел "Сведения".</span><span class="sxs-lookup"><span data-stu-id="e7bee-120">Expand the Details section.</span></span>
-7. <span data-ttu-id="e7bee-121">В поле "Продукт" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e7bee-121">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="e7bee-122">Выберите M0007.</span><span class="sxs-lookup"><span data-stu-id="e7bee-122">Select M0007.</span></span>  
-8. <span data-ttu-id="e7bee-123">Разверните раздел "События".</span><span class="sxs-lookup"><span data-stu-id="e7bee-123">Expand the Events section.</span></span>
-9. <span data-ttu-id="e7bee-124">В поле "Событие пополнения запасов" выберите "Партия".</span><span class="sxs-lookup"><span data-stu-id="e7bee-124">In the Stock replenishment event field, select 'Batch'.</span></span>
-    * <span data-ttu-id="e7bee-125">В результате создаются канбаны для удовлетворения потребности в материале в связанном местонахождении во время обработки события возникновения потребности.</span><span class="sxs-lookup"><span data-stu-id="e7bee-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="d3736-109">Создать новое правило канбана</span><span class="sxs-lookup"><span data-stu-id="d3736-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="d3736-110">Перейдите в раздел "Управление сведениями о продуктах" > "Бережливое производство" > "Правила канбана".</span><span class="sxs-lookup"><span data-stu-id="d3736-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="d3736-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3736-111">Click New.</span></span>
+3. <span data-ttu-id="d3736-112">В поле "Тип" выберите "Изъятие".</span><span class="sxs-lookup"><span data-stu-id="d3736-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="d3736-113">Этот тип используется для создания канбанов перемещения.</span><span class="sxs-lookup"><span data-stu-id="d3736-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="d3736-114">В поле "Стратегия пополнения" выберите "Событие".</span><span class="sxs-lookup"><span data-stu-id="d3736-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="d3736-115">Стратегия события используется для создания канбанов перемещения на основе события.</span><span class="sxs-lookup"><span data-stu-id="d3736-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="d3736-116">Позже в этой процедуре вы активируете канбаны перемещения с помощью пополнения запасов.</span><span class="sxs-lookup"><span data-stu-id="d3736-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="d3736-117">В поле "Первое мероприятие плана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="d3736-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="d3736-118">Введите или выберите ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="d3736-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="d3736-119">Это мероприятие перемещения имеет склад приемки (выпуск) и местонахождение 12. Это означает, что материалы перемещаются в местонахождение 12 на складе 12.</span><span class="sxs-lookup"><span data-stu-id="d3736-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="d3736-120">Разверните раздел "Сведения".</span><span class="sxs-lookup"><span data-stu-id="d3736-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="d3736-121">В поле "Продукт" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="d3736-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="d3736-122">Выберите M0007.</span><span class="sxs-lookup"><span data-stu-id="d3736-122">Select M0007.</span></span>  
+8. <span data-ttu-id="d3736-123">Разверните раздел "События".</span><span class="sxs-lookup"><span data-stu-id="d3736-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="d3736-124">В поле "Событие пополнения запасов" выберите "Партия".</span><span class="sxs-lookup"><span data-stu-id="d3736-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="d3736-125">В результате создаются канбаны для удовлетворения потребности в материале в связанном местонахождении во время обработки события возникновения потребности.</span><span class="sxs-lookup"><span data-stu-id="d3736-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="e7bee-126">Задание минимального количества для номенклатуры</span><span class="sxs-lookup"><span data-stu-id="e7bee-126">Set the minimum quantity for the item</span></span>
-1. <span data-ttu-id="e7bee-127">Щелкните для перехода по ссылке в поле "Продукт".</span><span class="sxs-lookup"><span data-stu-id="e7bee-127">Click to follow the link in the Product field.</span></span>
-2. <span data-ttu-id="e7bee-128">Щелкните для перехода по ссылке в поле "Код номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="e7bee-128">Click to follow the link in the Item number field.</span></span>
-3. <span data-ttu-id="e7bee-129">Разверните информационное поле "Изображение продукта".</span><span class="sxs-lookup"><span data-stu-id="e7bee-129">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="e7bee-130">В области действий щелкните "План".</span><span class="sxs-lookup"><span data-stu-id="e7bee-130">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="e7bee-131">Щелкните "Покрытие номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="e7bee-131">Click Item coverage.</span></span>
-6. <span data-ttu-id="e7bee-132">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e7bee-132">Click New.</span></span>
-7. <span data-ttu-id="e7bee-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="e7bee-133">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="e7bee-134">В поле "Склад" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e7bee-134">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="e7bee-135">Задайте склад 12.</span><span class="sxs-lookup"><span data-stu-id="e7bee-135">Set Warehouse to 12.</span></span>  
-9. <span data-ttu-id="e7bee-136">Задайте минимальное значение "200".</span><span class="sxs-lookup"><span data-stu-id="e7bee-136">Set Minimum to '200'.</span></span>
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="d3736-126">Задание минимального количества для номенклатуры</span><span class="sxs-lookup"><span data-stu-id="d3736-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="d3736-127">Щелкните для перехода по ссылке в поле "Продукт".</span><span class="sxs-lookup"><span data-stu-id="d3736-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="d3736-128">Щелкните для перехода по ссылке в поле "Код номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="d3736-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="d3736-129">Разверните информационное поле "Изображение продукта".</span><span class="sxs-lookup"><span data-stu-id="d3736-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="d3736-130">В области действий щелкните "План".</span><span class="sxs-lookup"><span data-stu-id="d3736-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="d3736-131">Щелкните "Покрытие номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="d3736-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="d3736-132">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3736-132">Click New.</span></span>
+7. <span data-ttu-id="d3736-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="d3736-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="d3736-134">В поле "Склад" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="d3736-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="d3736-135">Задайте склад 12.</span><span class="sxs-lookup"><span data-stu-id="d3736-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="d3736-136">Задайте минимальное значение "200".</span><span class="sxs-lookup"><span data-stu-id="d3736-136">Set Minimum to '200'.</span></span>
 
-## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="e7bee-137">Выполнение задания создания события партии</span><span class="sxs-lookup"><span data-stu-id="e7bee-137">Run the batch event creation job</span></span>
-1. <span data-ttu-id="e7bee-138">Перейдите в раздел "Управление производством" > "Периодические задачи" > "Обработка пакетных заданий канбана" > "Обработка события определения источника потребности".</span><span class="sxs-lookup"><span data-stu-id="e7bee-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
-2. <span data-ttu-id="e7bee-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="e7bee-139">Click OK.</span></span>
-3. <span data-ttu-id="e7bee-140">Перейдите в раздел "Управление сведениями о продуктах" > "Бережливое производство" > "Правила канбана".</span><span class="sxs-lookup"><span data-stu-id="e7bee-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-4. <span data-ttu-id="e7bee-141">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="e7bee-141">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="e7bee-142">Выберите правило канбана, созданное ранее.</span><span class="sxs-lookup"><span data-stu-id="e7bee-142">Select the kanban rule that you created earlier.</span></span>  
-5. <span data-ttu-id="e7bee-143">Разверните раздел "Канбаны".</span><span class="sxs-lookup"><span data-stu-id="e7bee-143">Expand the Kanbans section.</span></span>
-    * <span data-ttu-id="e7bee-144">Обратите внимание, что канбан был создан для перемещения необходимого материала на склад 12.</span><span class="sxs-lookup"><span data-stu-id="e7bee-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="d3736-137">Выполнение задания создания события партии</span><span class="sxs-lookup"><span data-stu-id="d3736-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="d3736-138">Перейдите в раздел "Управление производством" > "Периодические задачи" > "Обработка пакетных заданий канбана" > "Обработка события определения источника потребности".</span><span class="sxs-lookup"><span data-stu-id="d3736-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="d3736-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="d3736-139">Click OK.</span></span>
+3. <span data-ttu-id="d3736-140">Перейдите в раздел "Управление сведениями о продуктах" > "Бережливое производство" > "Правила канбана".</span><span class="sxs-lookup"><span data-stu-id="d3736-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="d3736-141">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="d3736-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d3736-142">Выберите правило канбана, созданное ранее.</span><span class="sxs-lookup"><span data-stu-id="d3736-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="d3736-143">Разверните раздел "Канбаны".</span><span class="sxs-lookup"><span data-stu-id="d3736-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="d3736-144">Обратите внимание, что канбан был создан для перемещения необходимого материала на склад 12.</span><span class="sxs-lookup"><span data-stu-id="d3736-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 
 
 
