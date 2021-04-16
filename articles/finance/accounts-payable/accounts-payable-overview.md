@@ -2,11 +2,9 @@
 title: Обзор настройки модуля "Расчеты с поставщиками"
 description: Эта статья описывает страницы, используемые для настройки основной и дополнительных функций для расчетов с поставщиками. Она также описывают шаги настройки, которые необходимо выполнить до начала настройки расчетов с поставщиками.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efaf1d4d9d6b8764597f267de9d545b7d9301b52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266476"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820891"
 ---
 # <a name="configure-accounts-payable-overview"></a>Обзор настройки модуля "Расчеты с поставщиками"
 

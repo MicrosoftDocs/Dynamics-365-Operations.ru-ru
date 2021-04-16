@@ -2,7 +2,6 @@
 title: Модуль "Стоимость на складе"
 description: 'Модуль "Стоимость на складе" помогает предприятиям оптимизировать входящие операции по отгрузке, предоставляя пользователям полный финансовый и логистический контроль над фрахтом импорта: от производителя до склада.'
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500340"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823345"
 ---
 # <a name="landed-cost-module"></a>Модуль "Стоимость на складе"
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Модуль **Стоимость на складе** помогает предприятиям оптимизировать входящие операции по отгрузке, предоставляя пользователям полный финансовый и логистический контроль над фрахтом импорта: от производителя до склада. Для импортированных товаров стоимость на складе может составлять 40 процентов или более от общих затрат на каждую импортированную номенклатуру. Поэтому задачей является обеспечение точных оценок для стоимости на складе.
 

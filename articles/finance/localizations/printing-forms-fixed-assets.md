@@ -2,11 +2,9 @@
 title: Унифицированные формы печати для основных средств (Россия)
 description: В этом разделе содержатся сведения об унифицированных формах печати основных средств для Microsoft Dynamics 365 Finance для России.
 author: v-oloski
-manager: AnnBe
 ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c39a8b5ae16dee958c981e0c64d141ae6ee022f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b6b6430fc83117d961c4104937c25500c3fbd1f4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218870"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838760"
 ---
 # <a name="unified-printing-forms-for-fixed-assets-russia"></a>Унифицированные формы печати для основных средств (Россия)
 

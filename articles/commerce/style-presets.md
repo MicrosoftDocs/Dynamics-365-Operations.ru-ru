@@ -2,11 +2,9 @@
 title: Работа с предустановленными стилями
 description: В этом разделе описывается, как работать с предустановками стилей в построителе сайтов Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226599"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791759"
 ---
 # <a name="work-with-style-presets"></a>Работа с предустановленными стилями
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как работать с предустановками стилей в построителе сайтов Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Предустановка стиля представляет собой сохраненный набор всех значений настраиваемого стиля для темы сайта. Она может использоваться для немедленного изменения оформления сайта с помощью построителя сайтов. Предустановки стилей позволяют авторам построителя сайтов Commerce быстро изменять, просматривать и активировать набор значений стилей на своем сайте без необходимости использовать каскадные таблицы стилей (CSS) или развертывать темы. Стили шрифтов, стили кнопок и цвета узла являются типичными примерами переменных стиля, которыми можно управлять через предустановки стилей.
 

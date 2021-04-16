@@ -2,11 +2,9 @@
 title: Восстановление входящего НДС
 description: В этом разделе представлены сведения о восстановлении ранее удержанных сумм НДС для основных средств.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 11/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a006dc79f615218796485498d2ba3cb0019edf6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d07d8b084ed5a68f2aaa4b58d14f1c24291b169e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239613"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842303"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]

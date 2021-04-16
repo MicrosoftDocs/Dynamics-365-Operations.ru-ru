@@ -2,11 +2,9 @@
 title: Частичный подсчет циклов местонахождений
 description: Планы подсчета циклов регулируют фактические операции подсчета. Можно запросить, чтобы только конкретные продукты и варианты продуктов подчитывались вместо всех запасов в наличии в местонахождении.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234689"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818904"
 ---
 # <a name="partial-location-cycle-counting"></a>Частичный подсчет циклов местонахождений
 
@@ -48,7 +46,7 @@ ms.locfileid: "5234689"
 Для процесса подсчета частичных циклов дата и время для поля **Последний цикличный подсчет** не обновляются для местонахождения, даже если подсчитываются все номенклатуры в наличии в данном местонахождении. Частичный цикличный подсчет не учитывает параметр **Дней между цикличными подсчетами** на странице **Планы подсчета циклов**. Частичный цикличный подсчет не поддерживает одновременный подсчет нескольких номенклатур в одном местонахождении. Функция частичного цикличного подсчета может приводить к многократным подсчетам в одном местонахождении для номенклатуры, когда выполняется команда **Обработать план подсчета циклов**. Чтобы избежать возникновения такой ситуации, необходимо указать фильтры в поле **Выбрать местоположения**.
 
 > [!NOTE]
-> Приложение склада не предоставляет кнопки **Добавить НЗ или номенклатуру** при использовании процесса частичного подсчета циклов.
+> Мобильное приложение управления складом не предоставляет кнопки **Добавить НЗ или номенклатуру** при использовании процесса частичного подсчета циклов.
 
 ## <a name="example"></a>Пример
 

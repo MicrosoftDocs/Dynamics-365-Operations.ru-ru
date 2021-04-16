@@ -2,7 +2,6 @@
 title: Настройка конфигураций электронной отчетности для создания электронного документа
 description: В этой теме объясняется, как настроить конфигурации поставляемой корпорацией Майкрософт электронной отчетности (ER), которые используются для создания пользовательского электронного документа.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a0cc308e2e3c7f42295a6170c4f709a835c5c84
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46b232da404fe2106ce4b5455ea4d682a08aaa53
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743637"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Настройка конфигураций электронной отчетности для создания электронного документа
 

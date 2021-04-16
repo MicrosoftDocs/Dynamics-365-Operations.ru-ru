@@ -2,11 +2,9 @@
 title: Настройка расходов будущих периодов (Россия)
 description: В этом разделе описывается, как настроить расходы будущих периодов.
 author: anasyash
-manager: AnnBe
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: cf39bcb485e4ab6cfd4e1c7dc4e1f4f01735ba07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: addb58dc9cb7ae9dcb6140f326fe274eaa29a087
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836814"
 ---
 # <a name="set-up-deferrals-russia"></a>Настройка расходов будущих периодов (Россия)
 
