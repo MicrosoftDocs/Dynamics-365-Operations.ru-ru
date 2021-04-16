@@ -2,10 +2,8 @@
 title: Повторная печать и аннулирование этикеток волны
 description: В этой теме объясняется, как аннулировать и повторно печатать существующие этикетки волны.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228377"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817373"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Повторная печать и аннулирование этикеток волны
 
@@ -218,5 +216,8 @@ ms.locfileid: "5228377"
 1. Выберите код исключения работы, который был создан для этого сценария.
 1. Если выбрано правильное исключение, должен быть доступен флажок **Аннулирование и повторная печать**. Установите этот флажок и подтвердите. При подтверждении последовательность рулона этикеток, определяемая полем **Код сборки этикетки**, пересчитывается на основе измененного количества для строки работы. Затем она печатается на указанном принтере.
 
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+- [Печать этикеток волны](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

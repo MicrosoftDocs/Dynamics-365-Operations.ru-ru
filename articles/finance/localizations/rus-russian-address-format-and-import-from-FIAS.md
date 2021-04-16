@@ -2,11 +2,9 @@
 title: Российские форматы адреса
 description: В этом разделе содержатся сведения о российских форматах адресов и импорте из FIAS.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a61f7e86e8403f5fdbacc79b5df5745ca28e996
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71f57f7ca76f967758f9e045f918b76c0ee5c5e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235108"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836818"
 ---
 # <a name="russian-address-formats"></a>Российские форматы адреса
 [!include [banner](../includes/banner.md)]

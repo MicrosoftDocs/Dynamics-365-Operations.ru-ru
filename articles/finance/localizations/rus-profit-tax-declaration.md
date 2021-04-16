@@ -2,11 +2,9 @@
 title: Декларация по налогу на прибыль
 description: В данном разделе содержится информация о декларации по налогу на прибыль для России.
 author: anasyash
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ce386f3df51ce20ee9588a64dc8ea6ed9d708cf9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 61b08dbaa45e783c0a848d2f65fdd8177a8005bf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214461"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813941"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 
