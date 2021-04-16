@@ -2,11 +2,9 @@
 title: Обзор конфигурации продукта
 description: Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях.
 author: cvocph
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45e2e285f6c5c20e08aeb12df1fab48e5f07a8c7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ba1fcdffec27e848afaf4b821df85240139f41f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221951"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812819"
 ---
 # <a name="product-configuration-overview"></a>Обзор конфигурации продукта
 

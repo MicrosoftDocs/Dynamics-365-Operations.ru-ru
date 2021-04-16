@@ -2,11 +2,9 @@
 title: Один ваучер
 description: Один ваучер для финансовых журналов (общий журнал, журнал основных средств, журнал платежей поставщикам и т. д.) позволяет ввести несколько проводок по вспомогательной книге в контексте одного ваучера.
 author: kweekley
-manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 6b1fbf75904a869fa51d6a5938d3e808b3d6624c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230282"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834508"
 ---
 # <a name="one-voucher"></a>Один ваучер
 

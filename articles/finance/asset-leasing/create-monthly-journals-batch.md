@@ -2,11 +2,9 @@
 title: Создание ежемесячных записей в журнале в пакетном режиме
 description: В этой теме объясняется, как создавать записи журнала в пакетном режиме для повышения эффективности при записи ежемесячных арендных расходов.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6fd1815620095909e290fd03c404d964baa04a94
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241570"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816036"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Создание ежемесячных записей в журнале в пакетном режиме
 

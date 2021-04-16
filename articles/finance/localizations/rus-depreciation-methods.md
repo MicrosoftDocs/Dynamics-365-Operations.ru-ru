@@ -2,11 +2,9 @@
 title: Методы амортизации (Россия)
 description: В этом разделе описаны различные методы амортизации основных средств для России.
 author: anasyash
-manager: AnnBe
 ms.date: 09/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c5f2ea0c4dfa0c5097049041b0df133efe301663
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 10f9490359893a2fd9ba6461b72349c5d451c6e9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240553"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840939"
 ---
 # <a name="depreciation-methods-russia"></a>Методы амортизации (Россия)
 

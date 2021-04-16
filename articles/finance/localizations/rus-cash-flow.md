@@ -2,11 +2,9 @@
 title: Управление движением денежных средств (Россия)
 description: Это руководство содержит пример, в котором показано, как настроить и использовать управление движением денежных средств в Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4bbee47b8996ac8082688db0aecea9def386db08
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be1873d9405b70a4b226b9d9764e0be9a57042ad
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240593"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840961"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 

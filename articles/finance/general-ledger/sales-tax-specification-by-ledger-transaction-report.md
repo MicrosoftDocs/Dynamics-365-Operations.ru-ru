@@ -2,11 +2,9 @@
 title: Отчет с налоговой информацией по проводке ГК
 description: В этой теме объясняется, как использовать отчет по налоговой информации по проводке ГК для просмотра и печати сведений о проводках ГК, для которых рассчитан налог.
 author: ericwang
-manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b90ae491605bf59b93137936a2804c4b84c6e1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204890"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815268"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Отчет с налоговой информацией по проводке ГК
 [!include [banner](../includes/banner.md)]

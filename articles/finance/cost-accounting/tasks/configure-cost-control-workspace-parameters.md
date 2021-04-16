@@ -2,11 +2,9 @@
 title: Настройка параметров рабочей области управления затратами
 description: Эта процедура используется для настройки рабочей области "Управление затратами" таким образом, чтобы менеджеры на различных уровнях организации могли получать представление о своих объектах затрат, например центрах затрат и группах продуктов.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61f25b93440495b2d1b70227ecda011c43c2e564
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9c186fdd6149f4e208bb89e1c3514e2a2ac0168c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208783"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822089"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Настройка параметров рабочей области управления затратами
 

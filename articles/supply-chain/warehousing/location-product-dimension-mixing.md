@@ -2,11 +2,9 @@
 title: Смешивание аналитик продуктов в местонахождении
 description: В этой теме содержится информация о смешивании аналитик продуктов в местонахождении. Эта функция профиля местонахождения помогает улучшить управление местоположением при использовании вариантов продуктов или продуктов, имеющих аналитики, например, в индустрии моды. Она позволяет определить, могут ли быть смешаны конфигурации, цвета, стили и размеры для конкретного профиля местоположения, или же можно поместить только одну из этих аналитик или их комбинацию в одно и то же местонахождение.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217037"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831298"
 ---
 # <a name="location-product-dimension-mixing"></a>Смешивание аналитик продуктов в местонахождении
 
@@ -206,9 +204,9 @@ ms.locfileid: "5217037"
 
 1. Выберите **Сохранить**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Получение строк заказа на покупку в приложении склада
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Получение строк заказа на покупку в мобильном приложении управления складом
 
-1. Выполните вход в приложение склада в качестве пользователя, который имеет доступ к складу *24*.
+1. Выполните вход в мобильное приложение управления складом в качестве пользователя, который имеет доступ к складу *24*.
 1. Выберите меню **Входящий**.
 1. Выберите **Получение строки заказа на покупку**.
 1. Выберите поле **PONUM**, затем введите номер заказа на покупку.

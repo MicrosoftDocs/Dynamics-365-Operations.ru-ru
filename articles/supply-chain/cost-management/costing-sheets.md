@@ -2,11 +2,9 @@
 title: Листы калькуляции себестоимости
 description: У настройки ведомости затрат есть две основные цели. Во-первых, вы определяете формат отображения информации о стоимости проданных товаров для готовой продукции или производственного заказа. Отформатированное изображение называется ведомость затрат. Во-вторых, вы определяете основу для подсчета косвенных затрат. Настройка ведомости затрат основана на функции группы затрат для отображения информации для формул подсчета косвенных затрат. В этой статье описываются две цели настройки ведомости затрат.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34924491b92a043354354d6421df7e9af2dda68d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: aba67903639804fb5c345a713073a5a46f37d91f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232382"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839327"
 ---
 # <a name="costing-sheets"></a>Листы калькуляции себестоимости
 

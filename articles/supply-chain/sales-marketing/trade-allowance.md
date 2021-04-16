@@ -2,11 +2,9 @@
 title: Управление торговыми скидками
 description: В этой теме рассматривается управление торговыми скидками в Dynamics 365 Supply Chain Management.
 author: t-benebo
-manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b7be74bbd1af4e67facc680edbee3a84470b5ed4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58cdfcf67ab774bbc119f2507920f1fb1d7a562c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205793"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824782"
 ---
 # <a name="trade-allowance-management"></a>Управление торговыми скидками
 
@@ -61,7 +59,7 @@ ms.locfileid: "5205793"
 
 Фонды, назначаемые договорам о торговых скидках, учитываются на странице **Средства**. Чтобы открыть страницу **Средства**, выберите **Продажи и маркетинг** \> **Торговые скидки** \> **Средства** \> **Средства**.
 
-![Страница "Средства"](./media/trade-allowance-management-funds-page.png "Страница "Средства"")
+![Страница "Средства"](./media/trade-allowance-management-funds-page.png "Страница &quot;Средства&quot;")
 
 На странице **Средства** можно просмотреть сведения о поощрительных фондах.
 
@@ -77,7 +75,7 @@ ms.locfileid: "5205793"
 
 Договоры о торговых скидках учитываются на странице **Договоры о ценовых скидках**. Чтобы открыть страницу **Договоры о ценовых скидках**, выберите **Продажи и маркетинг** \> **Торговые скидки** \> **Договоры о ценовых скидках**.
 
-![Страница "Договоры о ценовых скидках"](./media/trade-allowance-management-agreements-page.png "Страница "Договоры о ценовых скидках"")
+![Страница "Договоры о ценовых скидках"](./media/trade-allowance-management-agreements-page.png "Страница &quot;Договоры о ценовых скидках&quot;")
 
 #### <a name="header"></a>Заголовок
 

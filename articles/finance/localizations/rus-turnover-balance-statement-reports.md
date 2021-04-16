@@ -2,11 +2,9 @@
 title: Отчеты по оборотно-сальдовой ведомости
 description: В этой теме приводятся сведения об оборотно-сальдовых ведомостях для клиентов, поставщиков и подотчетных лиц.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 584299dbd3afe1ff2dd54b8bb0f059376a58ed45
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d22bc709d08606f1c63ec3722b0d7f542482138c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226185"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836806"
 ---
 # <a name="turnover-balance-statement-reports"></a>Отчеты по оборотно-сальдовой ведомости
 [!include [banner](../includes/banner.md)]
