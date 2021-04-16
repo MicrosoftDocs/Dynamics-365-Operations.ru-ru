@@ -2,11 +2,9 @@
 title: Определение приоритета заказов на обслуживание
 description: Определите приоритет заказов на обслуживание.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,35 +15,35 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aec2344c27bc645ada53dcec61f519920838c604
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06f75fa3261183256d069be42405bd9c1e1ea536
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220712"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810614"
 ---
-# <a name="prioritize-service-orders"></a><span data-ttu-id="32dfa-103">Определение приоритета заказов на обслуживание</span><span class="sxs-lookup"><span data-stu-id="32dfa-103">Prioritize service orders</span></span> 
+# <a name="prioritize-service-orders"></a><span data-ttu-id="ea6db-103">Определение приоритета заказов на обслуживание</span><span class="sxs-lookup"><span data-stu-id="ea6db-103">Prioritize service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="32dfa-104">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Панель исполнения**.</span><span class="sxs-lookup"><span data-stu-id="32dfa-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="ea6db-104">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Панель исполнения**.</span><span class="sxs-lookup"><span data-stu-id="ea6db-104">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="32dfa-105">Щелкните **Дополнительно**, чтобы отобразить диаграмму Ганта в верхней части формы и вкладки в нижней области.</span><span class="sxs-lookup"><span data-stu-id="32dfa-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
+2.  <span data-ttu-id="ea6db-105">Щелкните **Дополнительно**, чтобы отобразить диаграмму Ганта в верхней части формы и вкладки в нижней области.</span><span class="sxs-lookup"><span data-stu-id="ea6db-105">Click **Advanced** to display the Gantt chart at the top of the form and the tabs in the lower pane.</span></span>
 
-3.  <span data-ttu-id="32dfa-106">Разверните каждый список групп подготовки к отправке.</span><span class="sxs-lookup"><span data-stu-id="32dfa-106">Expand each dispatch team list.</span></span>
+3.  <span data-ttu-id="ea6db-106">Разверните каждый список групп подготовки к отправке.</span><span class="sxs-lookup"><span data-stu-id="ea6db-106">Expand each dispatch team list.</span></span>
 
-4.  <span data-ttu-id="32dfa-107">Выберите имеющее цветовое кодирование изображение, которое представляет действие сервиса.</span><span class="sxs-lookup"><span data-stu-id="32dfa-107">Select the color-coded graphic that represents a service activity.</span></span>
+4.  <span data-ttu-id="ea6db-107">Выберите имеющее цветовое кодирование изображение, которое представляет действие сервиса.</span><span class="sxs-lookup"><span data-stu-id="ea6db-107">Select the color-coded graphic that represents a service activity.</span></span>
 
-5.  <span data-ttu-id="32dfa-108">На вкладке **Все**, **Группа**, **Неисполненные** или **Связанные** измените выбор в поле **Приоритет**.</span><span class="sxs-lookup"><span data-stu-id="32dfa-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
+5.  <span data-ttu-id="ea6db-108">На вкладке **Все**, **Группа**, **Неисполненные** или **Связанные** измените выбор в поле **Приоритет**.</span><span class="sxs-lookup"><span data-stu-id="ea6db-108">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, change the selection in the **Priority** field.</span></span>
 
-6.  <span data-ttu-id="32dfa-109">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="32dfa-109">Click **Save**.</span></span>
+6.  <span data-ttu-id="ea6db-109">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="ea6db-109">Click **Save**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="32dfa-110">См. также</span><span class="sxs-lookup"><span data-stu-id="32dfa-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ea6db-110">См. также</span><span class="sxs-lookup"><span data-stu-id="ea6db-110">See also</span></span>
 
-[<span data-ttu-id="32dfa-111">Панель подготовки к отправке</span><span class="sxs-lookup"><span data-stu-id="32dfa-111">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="ea6db-111">Панель подготовки к отправке</span><span class="sxs-lookup"><span data-stu-id="ea6db-111">Dispatch board</span></span>](dispatch-board.md)
 
-[<span data-ttu-id="32dfa-112">Просмотр статус строки заказа на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="32dfa-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="ea6db-112">Просмотр статус строки заказа на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="ea6db-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
   
 

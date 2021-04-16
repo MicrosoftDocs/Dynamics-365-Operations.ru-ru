@@ -2,11 +2,9 @@
 title: Продажа и возврат продуктов, которые не являются частью ассортимента магазина
 description: С Dynamics 365 Commerce можно продавать и возвращать продукты за пределами ассортиментов.
 author: pdp1207
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -17,34 +15,34 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18d91287bfdcca272b5dd5e8dc8e04b1fd937a6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b6bae9f0d3a236c69ee3ee47226c19c1e1dcaf42
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254705"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794051"
 ---
-# <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a><span data-ttu-id="2b8f2-103">Продажа и возврат продуктов, которые не являются частью ассортимента магазина</span><span class="sxs-lookup"><span data-stu-id="2b8f2-103">Sell and return products that aren't part of a store's assortment</span></span>
+# <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a><span data-ttu-id="24d26-103">Продажа и возврат продуктов, которые не являются частью ассортимента магазина</span><span class="sxs-lookup"><span data-stu-id="24d26-103">Sell and return products that aren't part of a store's assortment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="2b8f2-104">Для любого предприятия розничной торговли достаточно распространенным является сценарий с продажей продуктов и приемом возвратов продуктов, даже если эти продукты отсутствуют в магазине (иными словами, продуктов, не входящих в ассортимент магазина).</span><span class="sxs-lookup"><span data-stu-id="2b8f2-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don't carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
+<span data-ttu-id="24d26-104">Для любого предприятия розничной торговли достаточно распространенным является сценарий с продажей продуктов и приемом возвратов продуктов, даже если эти продукты отсутствуют в магазине (иными словами, продуктов, не входящих в ассортимент магазина).</span><span class="sxs-lookup"><span data-stu-id="24d26-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don't carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
 
-<span data-ttu-id="2b8f2-105">Вот некоторые типовые сценарии:</span><span class="sxs-lookup"><span data-stu-id="2b8f2-105">Here are some typical scenarios:</span></span>
+<span data-ttu-id="24d26-105">Вот некоторые типовые сценарии:</span><span class="sxs-lookup"><span data-stu-id="24d26-105">Here are some typical scenarios:</span></span>
 
-+ <span data-ttu-id="2b8f2-106">В конкретном магазине предприятия розничной торговли не выставлены все продукты, которыми торгует предприятие.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-106">A retailer doesn't carry all its products in a specific store.</span></span> <span data-ttu-id="2b8f2-107">Остальные продукты хранятся на складе.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-107">The remaining products are stored in the warehouse.</span></span> <span data-ttu-id="2b8f2-108">Сотрудник магазина может помочь клиенту, найдя продукты на складе, добавив их в корзину и оформив заказ путем выбора метода доставки, — например, продукт может быть доставлен со склада по определенному адресу или клиент может забрать его из данного магазина или из другого магазина.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-108">The store associate can assist the customer by searching or browsing for the products in the warehouse, add them to the cart, and complete the checkout by selecting a delivery method, such as shipping to an address from the warehouse or letting the customer pick up the product from the current store or from another store.</span></span>
-+ <span data-ttu-id="2b8f2-109">В магазине, которые посетил клиент, определенные продукты не выставлены или их нет в наличии, однако эти продукты имеются в других магазинах.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-109">A retailer doesn't carry specific products in the store or doesn't have them in stock at the store the customer visited, but the products are available in other stores.</span></span> <span data-ttu-id="2b8f2-110">Сотрудник магазина помочь клиенту, найдя продукты в другом магазине, добавив их в корзину и оформив заказ путем выбора метода доставки.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-110">The store associate can assist the customer by searching or browsing the products in the other store, add them to the cart, and complete the checkout by selecting a delivery method.</span></span>
-+ <span data-ttu-id="2b8f2-111">У предприятия розничной торговли несколько магазинов в конкретном городе или районе, и предприятие не требует, чтобы клиенты возвращали купленные продукты именно в тот магазин, где они их приобрели.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-111">A retailer has many stores in and around a specific city or zip code and doesn't want to force the customers to return products to the same store they were purchased in.</span></span> <span data-ttu-id="2b8f2-112">Клиенты могут сделать возврат в любом удобном им магазине.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-112">Instead, customers can return products to any store.</span></span>
++ <span data-ttu-id="24d26-106">В конкретном магазине предприятия розничной торговли не выставлены все продукты, которыми торгует предприятие.</span><span class="sxs-lookup"><span data-stu-id="24d26-106">A retailer doesn't carry all its products in a specific store.</span></span> <span data-ttu-id="24d26-107">Остальные продукты хранятся на складе.</span><span class="sxs-lookup"><span data-stu-id="24d26-107">The remaining products are stored in the warehouse.</span></span> <span data-ttu-id="24d26-108">Сотрудник магазина может помочь клиенту, найдя продукты на складе, добавив их в корзину и оформив заказ путем выбора метода доставки, — например, продукт может быть доставлен со склада по определенному адресу или клиент может забрать его из данного магазина или из другого магазина.</span><span class="sxs-lookup"><span data-stu-id="24d26-108">The store associate can assist the customer by searching or browsing for the products in the warehouse, add them to the cart, and complete the checkout by selecting a delivery method, such as shipping to an address from the warehouse or letting the customer pick up the product from the current store or from another store.</span></span>
++ <span data-ttu-id="24d26-109">В магазине, которые посетил клиент, определенные продукты не выставлены или их нет в наличии, однако эти продукты имеются в других магазинах.</span><span class="sxs-lookup"><span data-stu-id="24d26-109">A retailer doesn't carry specific products in the store or doesn't have them in stock at the store the customer visited, but the products are available in other stores.</span></span> <span data-ttu-id="24d26-110">Сотрудник магазина помочь клиенту, найдя продукты в другом магазине, добавив их в корзину и оформив заказ путем выбора метода доставки.</span><span class="sxs-lookup"><span data-stu-id="24d26-110">The store associate can assist the customer by searching or browsing the products in the other store, add them to the cart, and complete the checkout by selecting a delivery method.</span></span>
++ <span data-ttu-id="24d26-111">У предприятия розничной торговли несколько магазинов в конкретном городе или районе, и предприятие не требует, чтобы клиенты возвращали купленные продукты именно в тот магазин, где они их приобрели.</span><span class="sxs-lookup"><span data-stu-id="24d26-111">A retailer has many stores in and around a specific city or zip code and doesn't want to force the customers to return products to the same store they were purchased in.</span></span> <span data-ttu-id="24d26-112">Клиенты могут сделать возврат в любом удобном им магазине.</span><span class="sxs-lookup"><span data-stu-id="24d26-112">Instead, customers can return products to any store.</span></span>
 
-<span data-ttu-id="2b8f2-113">С помощью Commerce предприятия розничной торговли могут реализовать эти типовые сценарии.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-113">Those common scenarios are available for retailers using Commerce.</span></span> <span data-ttu-id="2b8f2-114">Система Commerce позволяет:</span><span class="sxs-lookup"><span data-stu-id="2b8f2-114">With Commerce, you can:</span></span>
+<span data-ttu-id="24d26-113">С помощью Commerce предприятия розничной торговли могут реализовать эти типовые сценарии.</span><span class="sxs-lookup"><span data-stu-id="24d26-113">Those common scenarios are available for retailers using Commerce.</span></span> <span data-ttu-id="24d26-114">Система Commerce позволяет:</span><span class="sxs-lookup"><span data-stu-id="24d26-114">With Commerce, you can:</span></span>
 
-+ <span data-ttu-id="2b8f2-115">Искать или просматривать продукты в других магазинах.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-115">Search or browse products at other stores.</span></span>
-+ <span data-ttu-id="2b8f2-116">Искать или просматривать все выпущенные в продажу продукты.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-116">Search or browse all released products.</span></span>
-+ <span data-ttu-id="2b8f2-117">Создавать проводки "заплатил и забрал" или заказы клиентов.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-117">Create cash-and-carry transactions or customer orders.</span></span>
-+ <span data-ttu-id="2b8f2-118">Выбирать варианты доставки для заказов клиентов.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-118">Select delivery options for customer orders.</span></span>
-+ <span data-ttu-id="2b8f2-119">Оформлять самовывоз продуктов клиентами из текущего магазина или из другого магазина.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-119">Pick up products at the current store or another store.</span></span>
-+ <span data-ttu-id="2b8f2-120">Отменять заказы в текущем магазине или в другом магазине.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-120">Cancel an order at the current store or another store.</span></span>
-+ <span data-ttu-id="2b8f2-121">Оформлять возврат заказов с учетом или без учета прихода в текущем магазине или в другом магазине.</span><span class="sxs-lookup"><span data-stu-id="2b8f2-121">Return an order with or without the receipt at the current store or another store.</span></span>
++ <span data-ttu-id="24d26-115">Искать или просматривать продукты в других магазинах.</span><span class="sxs-lookup"><span data-stu-id="24d26-115">Search or browse products at other stores.</span></span>
++ <span data-ttu-id="24d26-116">Искать или просматривать все выпущенные в продажу продукты.</span><span class="sxs-lookup"><span data-stu-id="24d26-116">Search or browse all released products.</span></span>
++ <span data-ttu-id="24d26-117">Создавать проводки "заплатил и забрал" или заказы клиентов.</span><span class="sxs-lookup"><span data-stu-id="24d26-117">Create cash-and-carry transactions or customer orders.</span></span>
++ <span data-ttu-id="24d26-118">Выбирать варианты доставки для заказов клиентов.</span><span class="sxs-lookup"><span data-stu-id="24d26-118">Select delivery options for customer orders.</span></span>
++ <span data-ttu-id="24d26-119">Оформлять самовывоз продуктов клиентами из текущего магазина или из другого магазина.</span><span class="sxs-lookup"><span data-stu-id="24d26-119">Pick up products at the current store or another store.</span></span>
++ <span data-ttu-id="24d26-120">Отменять заказы в текущем магазине или в другом магазине.</span><span class="sxs-lookup"><span data-stu-id="24d26-120">Cancel an order at the current store or another store.</span></span>
++ <span data-ttu-id="24d26-121">Оформлять возврат заказов с учетом или без учета прихода в текущем магазине или в другом магазине.</span><span class="sxs-lookup"><span data-stu-id="24d26-121">Return an order with or without the receipt at the current store or another store.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

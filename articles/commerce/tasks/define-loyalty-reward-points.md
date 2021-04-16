@@ -2,11 +2,9 @@
 title: Определение баллов поощрения по программе лояльности
 description: Эта процедура содержит инструкции по определению баллов поощрения лояльности.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
@@ -16,34 +14,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bb190e720e5040d446d75a2e8c39cb360019d42
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e7f3b19513bb25d1976d2e4d0e235c347c38ccb4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256885"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798473"
 ---
-# <a name="define-loyalty-reward-points"></a><span data-ttu-id="71884-103">Определение баллов поощрения по программе лояльности</span><span class="sxs-lookup"><span data-stu-id="71884-103">Define loyalty reward points</span></span>
+# <a name="define-loyalty-reward-points"></a><span data-ttu-id="2a959-103">Определение баллов поощрения по программе лояльности</span><span class="sxs-lookup"><span data-stu-id="2a959-103">Define loyalty reward points</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="71884-104">Эта процедура содержит инструкции по определению баллов поощрения лояльности.</span><span class="sxs-lookup"><span data-stu-id="71884-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="71884-105">Необходимо настроить баллы поощрения лояльности перед настройкой программы лояльности.</span><span class="sxs-lookup"><span data-stu-id="71884-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="71884-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="71884-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="2a959-104">Эта процедура содержит инструкции по определению баллов поощрения лояльности.</span><span class="sxs-lookup"><span data-stu-id="2a959-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="2a959-105">Необходимо настроить баллы поощрения лояльности перед настройкой программы лояльности.</span><span class="sxs-lookup"><span data-stu-id="2a959-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="2a959-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="2a959-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="71884-107">Перейдите в раздел "Retail и Commerce" > "Клиенты" > "Лояльность" > "Баллы поощрения по программе лояльности".</span><span class="sxs-lookup"><span data-stu-id="71884-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
-2. <span data-ttu-id="71884-108">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="71884-108">Click New.</span></span>
-3. <span data-ttu-id="71884-109">В поле "Код точки вознаграждения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="71884-109">In the Reward point ID field, type a value.</span></span>
-4. <span data-ttu-id="71884-110">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="71884-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="71884-111">В поле "Тип точки вознаграждения" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="71884-111">In the Reward point type field, select an option.</span></span>
-    * <span data-ttu-id="71884-112">Выберите количество, если вы хотите, чтобы баллы поощрения округлялись до ближайшего целого числа.</span><span class="sxs-lookup"><span data-stu-id="71884-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="71884-113">Выберите "Сумма", если вы хотите, чтобы баллы поощрения округлялись в соответствии с правилами округления валюты.</span><span class="sxs-lookup"><span data-stu-id="71884-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="71884-114">При выборе варианта "Количество" пропустите следующий шаг этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="71884-114">If you select Quantity, skip the next step of this procedure..</span></span>  
-6. <span data-ttu-id="71884-115">В поле "Валюта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="71884-115">In the Currency field, type a value.</span></span>
-    * <span data-ttu-id="71884-116">В случае выбора варианта "Сумма" для баллов поощрения все начисленные баллы поощрения будут иметь выбранную валюту.</span><span class="sxs-lookup"><span data-stu-id="71884-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="71884-117">В случае выбора для баллов поощрения типа "Количество" это поле неприменимо, пропустите данный шаг.</span><span class="sxs-lookup"><span data-stu-id="71884-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
-7. <span data-ttu-id="71884-118">Снимите или установите флажок "Погашаемо".</span><span class="sxs-lookup"><span data-stu-id="71884-118">Check or uncheck the Redeemable checkbox.</span></span>
-8. <span data-ttu-id="71884-119">В поле "Классификация погашения" введите число.</span><span class="sxs-lookup"><span data-stu-id="71884-119">In the Redeem ranking field, enter a number.</span></span>
-    * <span data-ttu-id="71884-120">Классификация погашения используется, если два или более подлежащих погашению набора баллов поощрения могут быть использованы для оплаты продуктов.</span><span class="sxs-lookup"><span data-stu-id="71884-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="71884-121">Если два набора баллов поощрения имеют одинаковый класс погашения, будет использоваться тот из них, который требует меньшего числа баллов.</span><span class="sxs-lookup"><span data-stu-id="71884-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
-9. <span data-ttu-id="71884-122">В поле "Значение срока действия" введите число.</span><span class="sxs-lookup"><span data-stu-id="71884-122">In the Expiration time value field, enter a number.</span></span>
-    * <span data-ttu-id="71884-123">Срок действия баллов поощрения истекает через определенное количество дней, месяцев или лет после даты начисления баллов.</span><span class="sxs-lookup"><span data-stu-id="71884-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="71884-124">Значение "0" означает, что срок действия баллов поощрения лояльности никогда не истечет.</span><span class="sxs-lookup"><span data-stu-id="71884-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
-10. <span data-ttu-id="71884-125">В поле "Единица измерения срока действия" выберите параметр.</span><span class="sxs-lookup"><span data-stu-id="71884-125">In the Expiration time unit field, select an option.</span></span>
-11. <span data-ttu-id="71884-126">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71884-126">Click Save.</span></span>
+1. <span data-ttu-id="2a959-107">Перейдите в раздел "Retail и Commerce" > "Клиенты" > "Лояльность" > "Баллы поощрения по программе лояльности".</span><span class="sxs-lookup"><span data-stu-id="2a959-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
+2. <span data-ttu-id="2a959-108">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="2a959-108">Click New.</span></span>
+3. <span data-ttu-id="2a959-109">В поле "Код точки вознаграждения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="2a959-109">In the Reward point ID field, type a value.</span></span>
+4. <span data-ttu-id="2a959-110">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="2a959-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2a959-111">В поле "Тип точки вознаграждения" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="2a959-111">In the Reward point type field, select an option.</span></span>
+    * <span data-ttu-id="2a959-112">Выберите количество, если вы хотите, чтобы баллы поощрения округлялись до ближайшего целого числа.</span><span class="sxs-lookup"><span data-stu-id="2a959-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="2a959-113">Выберите "Сумма", если вы хотите, чтобы баллы поощрения округлялись в соответствии с правилами округления валюты.</span><span class="sxs-lookup"><span data-stu-id="2a959-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="2a959-114">При выборе варианта "Количество" пропустите следующий шаг этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="2a959-114">If you select Quantity, skip the next step of this procedure..</span></span>  
+6. <span data-ttu-id="2a959-115">В поле "Валюта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="2a959-115">In the Currency field, type a value.</span></span>
+    * <span data-ttu-id="2a959-116">В случае выбора варианта "Сумма" для баллов поощрения все начисленные баллы поощрения будут иметь выбранную валюту.</span><span class="sxs-lookup"><span data-stu-id="2a959-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="2a959-117">В случае выбора для баллов поощрения типа "Количество" это поле неприменимо, пропустите данный шаг.</span><span class="sxs-lookup"><span data-stu-id="2a959-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
+7. <span data-ttu-id="2a959-118">Снимите или установите флажок "Погашаемо".</span><span class="sxs-lookup"><span data-stu-id="2a959-118">Check or uncheck the Redeemable checkbox.</span></span>
+8. <span data-ttu-id="2a959-119">В поле "Классификация погашения" введите число.</span><span class="sxs-lookup"><span data-stu-id="2a959-119">In the Redeem ranking field, enter a number.</span></span>
+    * <span data-ttu-id="2a959-120">Классификация погашения используется, если два или более подлежащих погашению набора баллов поощрения могут быть использованы для оплаты продуктов.</span><span class="sxs-lookup"><span data-stu-id="2a959-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="2a959-121">Если два набора баллов поощрения имеют одинаковый класс погашения, будет использоваться тот из них, который требует меньшего числа баллов.</span><span class="sxs-lookup"><span data-stu-id="2a959-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
+9. <span data-ttu-id="2a959-122">В поле "Значение срока действия" введите число.</span><span class="sxs-lookup"><span data-stu-id="2a959-122">In the Expiration time value field, enter a number.</span></span>
+    * <span data-ttu-id="2a959-123">Срок действия баллов поощрения истекает через определенное количество дней, месяцев или лет после даты начисления баллов.</span><span class="sxs-lookup"><span data-stu-id="2a959-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="2a959-124">Значение "0" означает, что срок действия баллов поощрения лояльности никогда не истечет.</span><span class="sxs-lookup"><span data-stu-id="2a959-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
+10. <span data-ttu-id="2a959-125">В поле "Единица измерения срока действия" выберите параметр.</span><span class="sxs-lookup"><span data-stu-id="2a959-125">In the Expiration time unit field, select an option.</span></span>
+11. <span data-ttu-id="2a959-126">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="2a959-126">Click Save.</span></span>
 
 
 
