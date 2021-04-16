@@ -2,11 +2,9 @@
 title: Массовое обновление основных средств
 description: При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,26 +14,26 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc2f311e2463d68b9a8f8edb3afb82bef0934540
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 03f835bcbb0c9916297082198344320bd3795213
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826794"
 ---
-# <a name="fixed-asset-mass-update"></a><span data-ttu-id="c46df-103">Массовое обновление основных средств</span><span class="sxs-lookup"><span data-stu-id="c46df-103">Fixed asset mass update</span></span>
+# <a name="fixed-asset-mass-update"></a><span data-ttu-id="037ec-103">Массовое обновление основных средств</span><span class="sxs-lookup"><span data-stu-id="037ec-103">Fixed asset mass update</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c46df-104">При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги.</span><span class="sxs-lookup"><span data-stu-id="c46df-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
+<span data-ttu-id="037ec-104">При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги.</span><span class="sxs-lookup"><span data-stu-id="037ec-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
 
-<span data-ttu-id="c46df-105">Например, если вы находитесь в Соединенных Штатах и в течение четвертого квартала ввели в эксплуатацию более 40 процентов своих основных средств, то необходимо использовать соглашение по амортизации для середины квартала.</span><span class="sxs-lookup"><span data-stu-id="c46df-105">For example, if you are in the United States, and you put more than 40 percent of your assets in service during the fourth quarter of the year, you must use the mid-quarter depreciation convention.</span></span> <span data-ttu-id="c46df-106">Можно использовать процесс массового обновления, чтобы внести изменения для всех активов, которым требуется новое соглашение по амортизации</span><span class="sxs-lookup"><span data-stu-id="c46df-106">You can use the process for a mass update to change all assets that require the new depreciation convention.</span></span> 
+<span data-ttu-id="037ec-105">Например, если вы находитесь в Соединенных Штатах и в течение четвертого квартала ввели в эксплуатацию более 40 процентов своих основных средств, то необходимо использовать соглашение по амортизации для середины квартала.</span><span class="sxs-lookup"><span data-stu-id="037ec-105">For example, if you are in the United States, and you put more than 40 percent of your assets in service during the fourth quarter of the year, you must use the mid-quarter depreciation convention.</span></span> <span data-ttu-id="037ec-106">Можно использовать процесс массового обновления, чтобы внести изменения для всех активов, которым требуется новое соглашение по амортизации</span><span class="sxs-lookup"><span data-stu-id="037ec-106">You can use the process for a mass update to change all assets that require the new depreciation convention.</span></span> 
 
-<span data-ttu-id="c46df-107">При обновлении соглашения по амортизации активов происходит удаление все проводок по амортизации, существующих для этих активов.</span><span class="sxs-lookup"><span data-stu-id="c46df-107">When you update the depreciation convention for assets, you delete all depreciation transactions that exist for those assets.</span></span> <span data-ttu-id="c46df-108">Также удаляются все проводки корректировок амортизации, проводки амортизационных премий и проводки дополнительной амортизации для этих активов.</span><span class="sxs-lookup"><span data-stu-id="c46df-108">You also delete all transactions for depreciation adjustments, transactions for bonus depreciation, and transactions for extraordinary depreciation for those assets.</span></span> 
+<span data-ttu-id="037ec-107">При обновлении соглашения по амортизации активов происходит удаление все проводок по амортизации, существующих для этих активов.</span><span class="sxs-lookup"><span data-stu-id="037ec-107">When you update the depreciation convention for assets, you delete all depreciation transactions that exist for those assets.</span></span> <span data-ttu-id="037ec-108">Также удаляются все проводки корректировок амортизации, проводки амортизационных премий и проводки дополнительной амортизации для этих активов.</span><span class="sxs-lookup"><span data-stu-id="037ec-108">You also delete all transactions for depreciation adjustments, transactions for bonus depreciation, and transactions for extraordinary depreciation for those assets.</span></span> 
 
-<span data-ttu-id="c46df-109">Чтобы обновить соглашение по амортизации для активов, которые уже были списаны, необходимо сначала удалить существующие проводки выбытия, включая проводки, созданные по причине выполнения процесса списания.</span><span class="sxs-lookup"><span data-stu-id="c46df-109">To update the depreciation convention for assets that have already been disposed of, you must first delete the existing disposal transactions.</span></span> <span data-ttu-id="c46df-110">Также необходимо удалить все проводки, которые были созданы по причине выполнения процесса списания.</span><span class="sxs-lookup"><span data-stu-id="c46df-110">You must also delete all transactions that were generated because of the disposal process.</span></span> 
+<span data-ttu-id="037ec-109">Чтобы обновить соглашение по амортизации для активов, которые уже были списаны, необходимо сначала удалить существующие проводки выбытия, включая проводки, созданные по причине выполнения процесса списания.</span><span class="sxs-lookup"><span data-stu-id="037ec-109">To update the depreciation convention for assets that have already been disposed of, you must first delete the existing disposal transactions.</span></span> <span data-ttu-id="037ec-110">Также необходимо удалить все проводки, которые были созданы по причине выполнения процесса списания.</span><span class="sxs-lookup"><span data-stu-id="037ec-110">You must also delete all transactions that were generated because of the disposal process.</span></span> 
 
-<span data-ttu-id="c46df-111">После обновления соглашения по амортизации для активов можно выполнить обработку амортизации и дополнительной амортизации для каждого актива.</span><span class="sxs-lookup"><span data-stu-id="c46df-111">After you update the depreciation convention for assets, you can process depreciation and extraordinary depreciation for each asset.</span></span> <span data-ttu-id="c46df-112">Если это необходимо, можно выполнить корректировки амортизации вручную.</span><span class="sxs-lookup"><span data-stu-id="c46df-112">You can also make manual depreciation adjustments, if any adjustments are required.</span></span>
+<span data-ttu-id="037ec-111">После обновления соглашения по амортизации для активов можно выполнить обработку амортизации и дополнительной амортизации для каждого актива.</span><span class="sxs-lookup"><span data-stu-id="037ec-111">After you update the depreciation convention for assets, you can process depreciation and extraordinary depreciation for each asset.</span></span> <span data-ttu-id="037ec-112">Если это необходимо, можно выполнить корректировки амортизации вручную.</span><span class="sxs-lookup"><span data-stu-id="037ec-112">You can also make manual depreciation adjustments, if any adjustments are required.</span></span>
 
 
 
