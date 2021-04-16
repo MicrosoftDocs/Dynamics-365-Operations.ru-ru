@@ -2,11 +2,9 @@
 title: Покупки по комиссии
 description: В этой теме приводятся сведения о покупках, выполненных по комиссии.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b8acdcfeaeac7684649994de604b7ada21c51e20
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 22c0fb9357059f548fbeebafe53b24bf74a9929c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235118"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836829"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]

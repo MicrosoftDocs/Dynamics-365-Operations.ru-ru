@@ -2,11 +2,9 @@
 title: Контроль работы склада с шаблонами работы и директивами для мест хранения
 description: В этой теме рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
 author: perlynne
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f51d30a63cba9e9fa5c8319c8b7d713acea5f19c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 91c8df8a111132d75ec02b79912c66e02aef4ea6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214186"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831322"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Контроль работы склада с шаблонами работы и директивами для мест хранения
 
