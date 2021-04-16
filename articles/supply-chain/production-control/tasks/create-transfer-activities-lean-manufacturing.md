@@ -2,11 +2,9 @@
 title: Создание мероприятий перемещения для бережливого производства
 description: Создайте мероприятие перемещения для бережливого производства.
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
@@ -16,78 +14,78 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e3c92c5fc9cdba7c77942fae5c32d625cc939f1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2411dc51dc1b85499edb30d9a580f396277a5bd9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237926"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828882"
 ---
-# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="286ba-103">Создание мероприятий перемещения для бережливого производства</span><span class="sxs-lookup"><span data-stu-id="286ba-103">Create transfer activities for lean manufacturing</span></span>
+# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="c18c9-103">Создание мероприятий перемещения для бережливого производства</span><span class="sxs-lookup"><span data-stu-id="c18c9-103">Create transfer activities for lean manufacturing</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="286ba-104">Создайте мероприятие перемещения для бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="286ba-104">Create a transfer activity for lean manufacturing.</span></span> 
+<span data-ttu-id="c18c9-104">Создайте мероприятие перемещения для бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="c18c9-104">Create a transfer activity for lean manufacturing.</span></span> 
 
-<span data-ttu-id="286ba-105">Обязательные компоненты:</span><span class="sxs-lookup"><span data-stu-id="286ba-105">Prerequisites:</span></span> 
+<span data-ttu-id="c18c9-105">Обязательные компоненты:</span><span class="sxs-lookup"><span data-stu-id="c18c9-105">Prerequisites:</span></span> 
 
-1. <span data-ttu-id="286ba-106">Необходимо создать производственный поток и версию, которые будут неактивны.</span><span class="sxs-lookup"><span data-stu-id="286ba-106">A production flow and version that is not active must be created.</span></span>
+1. <span data-ttu-id="c18c9-106">Необходимо создать производственный поток и версию, которые будут неактивны.</span><span class="sxs-lookup"><span data-stu-id="c18c9-106">A production flow and version that is not active must be created.</span></span>
 
-2. <span data-ttu-id="286ba-107">Необходимо создать исходный и конечный склады и местоположения.</span><span class="sxs-lookup"><span data-stu-id="286ba-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="286ba-108">По желанию можно создать пополнение или пополненную производственную ячейку.</span><span class="sxs-lookup"><span data-stu-id="286ba-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
+2. <span data-ttu-id="c18c9-107">Необходимо создать исходный и конечный склады и местоположения.</span><span class="sxs-lookup"><span data-stu-id="c18c9-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="c18c9-108">По желанию можно создать пополнение или пополненную производственную ячейку.</span><span class="sxs-lookup"><span data-stu-id="c18c9-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="286ba-109">Поиск версии производственного потока</span><span class="sxs-lookup"><span data-stu-id="286ba-109">Find the production flow version</span></span>
-1. <span data-ttu-id="286ba-110">Перейдите в раздел "Управление производством" > "Настройка" > "Поток бережливого производства" > "Производственные потоки".</span><span class="sxs-lookup"><span data-stu-id="286ba-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="286ba-111">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="286ba-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="286ba-112">Обратите внимание, что производственный поток должен иметь версию в статусе черновика.</span><span class="sxs-lookup"><span data-stu-id="286ba-112">Note that the production flow must have a version in draft status.</span></span>  
-3. <span data-ttu-id="286ba-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="286ba-113">In the list, click the link in the selected row.</span></span>
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="c18c9-109">Поиск версии производственного потока</span><span class="sxs-lookup"><span data-stu-id="c18c9-109">Find the production flow version</span></span>
+1. <span data-ttu-id="c18c9-110">Перейдите в раздел "Управление производством" > "Настройка" > "Поток бережливого производства" > "Производственные потоки".</span><span class="sxs-lookup"><span data-stu-id="c18c9-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="c18c9-111">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c18c9-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c18c9-112">Обратите внимание, что производственный поток должен иметь версию в статусе черновика.</span><span class="sxs-lookup"><span data-stu-id="c18c9-112">Note that the production flow must have a version in draft status.</span></span>  
+3. <span data-ttu-id="c18c9-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a><span data-ttu-id="286ba-114">Создание нового мероприятия</span><span class="sxs-lookup"><span data-stu-id="286ba-114">Create a new activity</span></span>
-1. <span data-ttu-id="286ba-115">Щелкните "Мероприятия".</span><span class="sxs-lookup"><span data-stu-id="286ba-115">Click Activities.</span></span>
-    * <span data-ttu-id="286ba-116">Убедитесь, что выбранный производственный поток содержит версию-черновик и выберите эту версию.</span><span class="sxs-lookup"><span data-stu-id="286ba-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
-2. <span data-ttu-id="286ba-117">Щелкните "Создание нового мероприятия плана".</span><span class="sxs-lookup"><span data-stu-id="286ba-117">Click Create new plan activity.</span></span>
-3. <span data-ttu-id="286ba-118">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="286ba-118">Click Next.</span></span>
-4. <span data-ttu-id="286ba-119">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="286ba-119">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="286ba-120">В поле "Тип мероприятия" выберите "Перемещение".</span><span class="sxs-lookup"><span data-stu-id="286ba-120">In the Activity type field, select 'Transfer'.</span></span>
-6. <span data-ttu-id="286ba-121">В поле "Количество процесса" введите число.</span><span class="sxs-lookup"><span data-stu-id="286ba-121">In the Process quantity field, enter a number.</span></span>
-7. <span data-ttu-id="286ba-122">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="286ba-122">Click Next.</span></span>
+## <a name="create-a-new-activity"></a><span data-ttu-id="c18c9-114">Создание нового мероприятия</span><span class="sxs-lookup"><span data-stu-id="c18c9-114">Create a new activity</span></span>
+1. <span data-ttu-id="c18c9-115">Щелкните "Мероприятия".</span><span class="sxs-lookup"><span data-stu-id="c18c9-115">Click Activities.</span></span>
+    * <span data-ttu-id="c18c9-116">Убедитесь, что выбранный производственный поток содержит версию-черновик и выберите эту версию.</span><span class="sxs-lookup"><span data-stu-id="c18c9-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="c18c9-117">Щелкните "Создание нового мероприятия плана".</span><span class="sxs-lookup"><span data-stu-id="c18c9-117">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="c18c9-118">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="c18c9-118">Click Next.</span></span>
+4. <span data-ttu-id="c18c9-119">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c18c9-119">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c18c9-120">В поле "Тип мероприятия" выберите "Перемещение".</span><span class="sxs-lookup"><span data-stu-id="c18c9-120">In the Activity type field, select 'Transfer'.</span></span>
+6. <span data-ttu-id="c18c9-121">В поле "Количество процесса" введите число.</span><span class="sxs-lookup"><span data-stu-id="c18c9-121">In the Process quantity field, enter a number.</span></span>
+7. <span data-ttu-id="c18c9-122">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="c18c9-122">Click Next.</span></span>
 
-## <a name="select-the-work-cells"></a><span data-ttu-id="286ba-123">Выбор производственных ячеек</span><span class="sxs-lookup"><span data-stu-id="286ba-123">Select the Work cells</span></span>
-1. <span data-ttu-id="286ba-124">В поле "Пополнение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="286ba-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="286ba-125">Для использования выходного местоположения производственной ячейки как исходного местоположения в мероприятии перемещения выберите производственную ячейку.</span><span class="sxs-lookup"><span data-stu-id="286ba-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="286ba-126">То же самое можно сделать с пополненной производственной ячейкой, которая задает целевое местоположение для мероприятия перемещения.</span><span class="sxs-lookup"><span data-stu-id="286ba-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
-2. <span data-ttu-id="286ba-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="286ba-127">In the list, click the link in the selected row.</span></span>
+## <a name="select-the-work-cells"></a><span data-ttu-id="c18c9-123">Выбор производственных ячеек</span><span class="sxs-lookup"><span data-stu-id="c18c9-123">Select the Work cells</span></span>
+1. <span data-ttu-id="c18c9-124">В поле "Пополнение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c18c9-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="c18c9-125">Для использования выходного местоположения производственной ячейки как исходного местоположения в мероприятии перемещения выберите производственную ячейку.</span><span class="sxs-lookup"><span data-stu-id="c18c9-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="c18c9-126">То же самое можно сделать с пополненной производственной ячейкой, которая задает целевое местоположение для мероприятия перемещения.</span><span class="sxs-lookup"><span data-stu-id="c18c9-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
+2. <span data-ttu-id="c18c9-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-127">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a><span data-ttu-id="286ba-128">Определение обновлений запасов</span><span class="sxs-lookup"><span data-stu-id="286ba-128">Define the inventory updates</span></span>
-1. <span data-ttu-id="286ba-129">В поле "Тип продукта" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="286ba-129">In the Product type field, select an option.</span></span>
-    * <span data-ttu-id="286ba-130">Обратите внимание, что перемещение не изменяет тип продукта.</span><span class="sxs-lookup"><span data-stu-id="286ba-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="286ba-131">Можно переместить готовые продукты или полуфабрикаты (перемещение между двумя мероприятиями производственного потока по возможности потока канбана).</span><span class="sxs-lookup"><span data-stu-id="286ba-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="286ba-132">При перемещении готовых продуктов можно выбрать, приводит ли комплектация или получение к складской проводке.</span><span class="sxs-lookup"><span data-stu-id="286ba-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="c18c9-128">Определение обновлений запасов</span><span class="sxs-lookup"><span data-stu-id="c18c9-128">Define the inventory updates</span></span>
+1. <span data-ttu-id="c18c9-129">В поле "Тип продукта" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="c18c9-129">In the Product type field, select an option.</span></span>
+    * <span data-ttu-id="c18c9-130">Обратите внимание, что перемещение не изменяет тип продукта.</span><span class="sxs-lookup"><span data-stu-id="c18c9-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="c18c9-131">Можно переместить готовые продукты или полуфабрикаты (перемещение между двумя мероприятиями производственного потока по возможности потока канбана).</span><span class="sxs-lookup"><span data-stu-id="c18c9-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="c18c9-132">При перемещении готовых продуктов можно выбрать, приводит ли комплектация или получение к складской проводке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
 
-## <a name="define-the-transfer-locations"></a><span data-ttu-id="286ba-133">Определение местоположения перемещения</span><span class="sxs-lookup"><span data-stu-id="286ba-133">Define the transfer locations</span></span>
-1. <span data-ttu-id="286ba-134">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="286ba-134">Click Next.</span></span>
-2. <span data-ttu-id="286ba-135">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="286ba-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="286ba-136">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="286ba-136">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="286ba-137">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="286ba-137">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="286ba-138">В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="286ba-138">In the Location field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="286ba-139">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="286ba-139">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="286ba-140">В поле "Транспортировка" выберите "Грузоотправитель".</span><span class="sxs-lookup"><span data-stu-id="286ba-140">In the Freighted by field, select 'Shipper'.</span></span>
-    * <span data-ttu-id="286ba-141">Возможные варианты: грузоотправитель — организация, управляющая складом отгрузки, получатель — организация, управляющая складом получения, перевозчик — сторонний поставщик.</span><span class="sxs-lookup"><span data-stu-id="286ba-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="286ba-142">Если управляющая организация является поставщиком, для мероприятия перемещения требуется соглашение субподряда.</span><span class="sxs-lookup"><span data-stu-id="286ba-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
-8. <span data-ttu-id="286ba-143">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="286ba-143">Click Next.</span></span>
+## <a name="define-the-transfer-locations"></a><span data-ttu-id="c18c9-133">Определение местоположения перемещения</span><span class="sxs-lookup"><span data-stu-id="c18c9-133">Define the transfer locations</span></span>
+1. <span data-ttu-id="c18c9-134">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="c18c9-134">Click Next.</span></span>
+2. <span data-ttu-id="c18c9-135">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c18c9-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="c18c9-136">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-136">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="c18c9-137">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c18c9-138">В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="c18c9-138">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c18c9-139">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="c18c9-139">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="c18c9-140">В поле "Транспортировка" выберите "Грузоотправитель".</span><span class="sxs-lookup"><span data-stu-id="c18c9-140">In the Freighted by field, select 'Shipper'.</span></span>
+    * <span data-ttu-id="c18c9-141">Возможные варианты: грузоотправитель — организация, управляющая складом отгрузки, получатель — организация, управляющая складом получения, перевозчик — сторонний поставщик.</span><span class="sxs-lookup"><span data-stu-id="c18c9-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="c18c9-142">Если управляющая организация является поставщиком, для мероприятия перемещения требуется соглашение субподряда.</span><span class="sxs-lookup"><span data-stu-id="c18c9-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
+8. <span data-ttu-id="c18c9-143">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="c18c9-143">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a><span data-ttu-id="286ba-144">Определение времени мероприятия</span><span class="sxs-lookup"><span data-stu-id="286ba-144">Define the activity times</span></span>
-1. <span data-ttu-id="286ba-145">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="286ba-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="286ba-146">Требуется определение времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="286ba-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="286ba-147">Время выполнения используется для расчета затрат и времени пропускной способности заданий канбана.</span><span class="sxs-lookup"><span data-stu-id="286ba-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="286ba-148">Времена выполнения не используются для расчета максимальной мощности и потребления, это рассчитывается временем цикла, производным от задачи версии производственного потока.</span><span class="sxs-lookup"><span data-stu-id="286ba-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
-2. <span data-ttu-id="286ba-149">В поле "Время" введите число.</span><span class="sxs-lookup"><span data-stu-id="286ba-149">In the Time field, enter a number.</span></span>
-3. <span data-ttu-id="286ba-150">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="286ba-150">In the Unit field, type a value.</span></span>
-4. <span data-ttu-id="286ba-151">Выберите единицу времени.</span><span class="sxs-lookup"><span data-stu-id="286ba-151">Select the Time unit.</span></span>
-5. <span data-ttu-id="286ba-152">В поле "На количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="286ba-152">In the Per quantity field, enter a number.</span></span>
-6. <span data-ttu-id="286ba-153">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="286ba-153">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="286ba-154">Время ожидания в очереди является необязательным.</span><span class="sxs-lookup"><span data-stu-id="286ba-154">Queue times are optional.</span></span>  
-7. <span data-ttu-id="286ba-155">В поле "Время" введите число.</span><span class="sxs-lookup"><span data-stu-id="286ba-155">In the Time field, enter a number.</span></span>
-8. <span data-ttu-id="286ba-156">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="286ba-156">In the Unit field, type a value.</span></span>
-9. <span data-ttu-id="286ba-157">Выберите единицу времени.</span><span class="sxs-lookup"><span data-stu-id="286ba-157">Select the Time unit.</span></span>
-10. <span data-ttu-id="286ba-158">В поле "На количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="286ba-158">In the Per quantity field, enter a number.</span></span>
-11. <span data-ttu-id="286ba-159">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="286ba-159">Click Next.</span></span>
-12. <span data-ttu-id="286ba-160">Нажмите кнопку Готово.</span><span class="sxs-lookup"><span data-stu-id="286ba-160">Click Finish.</span></span>
-13. <span data-ttu-id="286ba-161">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="286ba-161">Close the page.</span></span>
+## <a name="define-the-activity-times"></a><span data-ttu-id="c18c9-144">Определение времени мероприятия</span><span class="sxs-lookup"><span data-stu-id="c18c9-144">Define the activity times</span></span>
+1. <span data-ttu-id="c18c9-145">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c18c9-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c18c9-146">Требуется определение времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="c18c9-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="c18c9-147">Время выполнения используется для расчета затрат и времени пропускной способности заданий канбана.</span><span class="sxs-lookup"><span data-stu-id="c18c9-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="c18c9-148">Времена выполнения не используются для расчета максимальной мощности и потребления, это рассчитывается временем цикла, производным от задачи версии производственного потока.</span><span class="sxs-lookup"><span data-stu-id="c18c9-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="c18c9-149">В поле "Время" введите число.</span><span class="sxs-lookup"><span data-stu-id="c18c9-149">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="c18c9-150">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c18c9-150">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="c18c9-151">Выберите единицу времени.</span><span class="sxs-lookup"><span data-stu-id="c18c9-151">Select the Time unit.</span></span>
+5. <span data-ttu-id="c18c9-152">В поле "На количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="c18c9-152">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="c18c9-153">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c18c9-153">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c18c9-154">Время ожидания в очереди является необязательным.</span><span class="sxs-lookup"><span data-stu-id="c18c9-154">Queue times are optional.</span></span>  
+7. <span data-ttu-id="c18c9-155">В поле "Время" введите число.</span><span class="sxs-lookup"><span data-stu-id="c18c9-155">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="c18c9-156">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="c18c9-156">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="c18c9-157">Выберите единицу времени.</span><span class="sxs-lookup"><span data-stu-id="c18c9-157">Select the Time unit.</span></span>
+10. <span data-ttu-id="c18c9-158">В поле "На количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="c18c9-158">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="c18c9-159">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="c18c9-159">Click Next.</span></span>
+12. <span data-ttu-id="c18c9-160">Нажмите кнопку Готово.</span><span class="sxs-lookup"><span data-stu-id="c18c9-160">Click Finish.</span></span>
+13. <span data-ttu-id="c18c9-161">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="c18c9-161">Close the page.</span></span>
 
 
 

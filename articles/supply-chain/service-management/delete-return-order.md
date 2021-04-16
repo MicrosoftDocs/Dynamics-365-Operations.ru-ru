@@ -2,11 +2,9 @@
 title: Удаление заказа на возврат
 description: Форма "Удаление заказа на возврат" используется для удаления нескольких заказов на возврат.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesDeleteOrder
 audience: Application User
@@ -17,29 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054d56969a373c62d29fa12ef22024ff0e7e9558
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 32e61e76c16c994f463825507629e3af502dbe5d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817541"
 ---
-# <a name="delete-a-return-order"></a><span data-ttu-id="5ee69-103">Удаление заказа на возврат</span><span class="sxs-lookup"><span data-stu-id="5ee69-103">Delete a return order</span></span> 
+# <a name="delete-a-return-order"></a><span data-ttu-id="b4b4c-103">Удаление заказа на возврат</span><span class="sxs-lookup"><span data-stu-id="b4b4c-103">Delete a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="5ee69-104">Форма **Удаление заказа на возврат** используется для удаления нескольких заказов на возврат.</span><span class="sxs-lookup"><span data-stu-id="5ee69-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
+<span data-ttu-id="b4b4c-104">Форма **Удаление заказа на возврат** используется для удаления нескольких заказов на возврат.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
 
-1.  <span data-ttu-id="5ee69-105">Щелкните **Продажи и маркетинг** \> **Периодические операции** \> **Очистка** \> **Удалить заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="5ee69-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
+1.  <span data-ttu-id="b4b4c-105">Щелкните **Продажи и маркетинг** \> **Периодические операции** \> **Очистка** \> **Удалить заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
 
-2.  <span data-ttu-id="5ee69-106">Щелкните **Выбрать**, чтобы открыть форму **Обработка продаж**.</span><span class="sxs-lookup"><span data-stu-id="5ee69-106">Click **Select** to open the **Sales update** form.</span></span>
+2.  <span data-ttu-id="b4b4c-106">Щелкните **Выбрать**, чтобы открыть форму **Обработка продаж**.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-106">Click **Select** to open the **Sales update** form.</span></span>
 
-3.  <span data-ttu-id="5ee69-107">Задайте критерии, а затем щелкните **OK** для возврата в форму **Удаление заказа на возврат**.</span><span class="sxs-lookup"><span data-stu-id="5ee69-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="5ee69-108">Заказы на возврат, созданных для юридического лица, отображаются на основании заданных критериев.</span><span class="sxs-lookup"><span data-stu-id="5ee69-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
+3.  <span data-ttu-id="b4b4c-107">Задайте критерии, а затем щелкните **OK** для возврата в форму **Удаление заказа на возврат**.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="b4b4c-108">Заказы на возврат, созданных для юридического лица, отображаются на основании заданных критериев.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
 
-4.  <span data-ttu-id="5ee69-109">Выберите удаляемую строку заказа на возврат и щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="5ee69-109">Select the return order line to delete, and then click **OK**.</span></span>
+4.  <span data-ttu-id="b4b4c-109">Выберите удаляемую строку заказа на возврат и щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-109">Select the return order line to delete, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="5ee69-110">Щелкните **Да** для удаления заказов на возврат.</span><span class="sxs-lookup"><span data-stu-id="5ee69-110">Click **Yes** to delete the return orders.</span></span>
+5.  <span data-ttu-id="b4b4c-110">Щелкните **Да** для удаления заказов на возврат.</span><span class="sxs-lookup"><span data-stu-id="b4b4c-110">Click **Yes** to delete the return orders.</span></span>
 
 
 
