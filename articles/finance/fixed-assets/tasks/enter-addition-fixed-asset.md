@@ -2,11 +2,9 @@
 title: Ввод дополнения к ОС
 description: Процедура описывает порядок добавления к существующему ОС.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
@@ -15,35 +13,35 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35e447ff9652861de4f7f310f68e8180a69589b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 38b37b5c5717146618d54bf552145c33d46308f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817169"
 ---
-# <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="45448-103">Ввод дополнения к ОС</span><span class="sxs-lookup"><span data-stu-id="45448-103">Enter an addition to a fixed asset</span></span>
+# <a name="enter-an-addition-to-a-fixed-asset"></a><span data-ttu-id="34fbc-103">Ввод дополнения к ОС</span><span class="sxs-lookup"><span data-stu-id="34fbc-103">Enter an addition to a fixed asset</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="45448-104">Процедура описывает порядок добавления к существующему ОС.</span><span class="sxs-lookup"><span data-stu-id="45448-104">This procedure shows how to add an addition to an existing fixed asset.</span></span> <span data-ttu-id="45448-105">Цель дополнения к основному средств — отслеживание дополнений номенклатур, обслуживание или улучшение для актива и только для информации.</span><span class="sxs-lookup"><span data-stu-id="45448-105">The purpose of Fixed asset additions is to track item additions, maintenance, or improvements for an asset, and is informational only.</span></span> <span data-ttu-id="45448-106">Любые изменения стоимости основных средств или срока службы необходимо вносить отдельно.</span><span class="sxs-lookup"><span data-stu-id="45448-106">Any changes to the fixed asset value or service life must be made separately.</span></span>   
+<span data-ttu-id="34fbc-104">Процедура описывает порядок добавления к существующему ОС.</span><span class="sxs-lookup"><span data-stu-id="34fbc-104">This procedure shows how to add an addition to an existing fixed asset.</span></span> <span data-ttu-id="34fbc-105">Цель дополнения к основному средств — отслеживание дополнений номенклатур, обслуживание или улучшение для актива и только для информации.</span><span class="sxs-lookup"><span data-stu-id="34fbc-105">The purpose of Fixed asset additions is to track item additions, maintenance, or improvements for an asset, and is informational only.</span></span> <span data-ttu-id="34fbc-106">Любые изменения стоимости основных средств или срока службы необходимо вносить отдельно.</span><span class="sxs-lookup"><span data-stu-id="34fbc-106">Any changes to the fixed asset value or service life must be made separately.</span></span>   
 
-<span data-ttu-id="45448-107">В процедуре используется роль бухгалтера и демонстрационные данные для юридического лица USMF.</span><span class="sxs-lookup"><span data-stu-id="45448-107">The procedure uses the Accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="34fbc-107">В процедуре используется роль бухгалтера и демонстрационные данные для юридического лица USMF.</span><span class="sxs-lookup"><span data-stu-id="34fbc-107">The procedure uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="45448-108">В области перехода, перейдите к **Модули > Фиксированные активы > Фиксированные активы > Фиксированные активы**.</span><span class="sxs-lookup"><span data-stu-id="45448-108">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="45448-109">Найдите в списке основное средство для дополнения и выберите его.</span><span class="sxs-lookup"><span data-stu-id="45448-109">In the list, find and select the fixed asset for the addition.</span></span>
-3. <span data-ttu-id="45448-110">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="45448-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="45448-111">На панели операций щелкните **Основное средство**.</span><span class="sxs-lookup"><span data-stu-id="45448-111">On the Action Pane, click **Fixed asset**.</span></span>
-5. <span data-ttu-id="45448-112">Щелкните **Дополнения к основному средству**.</span><span class="sxs-lookup"><span data-stu-id="45448-112">Click **Fixed asset additions**.</span></span>
-6. <span data-ttu-id="45448-113">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="45448-113">Click **New**.</span></span>
-7. <span data-ttu-id="45448-114">В поле **Имя** введите значение.</span><span class="sxs-lookup"><span data-stu-id="45448-114">In the **Name** field, type a value.</span></span>
-8. <span data-ttu-id="45448-115">В поле **Дата приобретения** установите дату дополнительной покупки или услуги.</span><span class="sxs-lookup"><span data-stu-id="45448-115">In the **Acquisition date** field, set the date of the addition purchase or service.</span></span>
-9. <span data-ttu-id="45448-116">В поле **Стоимость единицы** введите стоимость номенклатуры, обслуживания или иного улучшения основного средства.</span><span class="sxs-lookup"><span data-stu-id="45448-116">In the **Unit cost** field, enter the cost of the item, maintenance, or other improvement for the asset.</span></span>
-10. <span data-ttu-id="45448-117">В поле **Количество** введите число.</span><span class="sxs-lookup"><span data-stu-id="45448-117">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="45448-118">Общая стоимость не повлияет на стоимость основного средства и используется только в целях отслеживания и информации.</span><span class="sxs-lookup"><span data-stu-id="45448-118">The total cost will have no impact on the value of the fixed asset and is for tracking and informational purposes only.</span></span> <span data-ttu-id="45448-119">Если стоимость будут капитализирована, проводку корректировки списания необходимо разнести отдельно.</span><span class="sxs-lookup"><span data-stu-id="45448-119">If the cost will be capitalized, then a write-up adjustment transaction must be posted separately.</span></span>  
-11. <span data-ttu-id="45448-120">Перейдите на вкладку **Общие**.</span><span class="sxs-lookup"><span data-stu-id="45448-120">Click the **General** tab.</span></span>
+1. <span data-ttu-id="34fbc-108">В области перехода, перейдите к **Модули > Фиксированные активы > Фиксированные активы > Фиксированные активы**.</span><span class="sxs-lookup"><span data-stu-id="34fbc-108">In the Navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="34fbc-109">Найдите в списке основное средство для дополнения и выберите его.</span><span class="sxs-lookup"><span data-stu-id="34fbc-109">In the list, find and select the fixed asset for the addition.</span></span>
+3. <span data-ttu-id="34fbc-110">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="34fbc-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="34fbc-111">На панели операций щелкните **Основное средство**.</span><span class="sxs-lookup"><span data-stu-id="34fbc-111">On the Action Pane, click **Fixed asset**.</span></span>
+5. <span data-ttu-id="34fbc-112">Щелкните **Дополнения к основному средству**.</span><span class="sxs-lookup"><span data-stu-id="34fbc-112">Click **Fixed asset additions**.</span></span>
+6. <span data-ttu-id="34fbc-113">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="34fbc-113">Click **New**.</span></span>
+7. <span data-ttu-id="34fbc-114">В поле **Имя** введите значение.</span><span class="sxs-lookup"><span data-stu-id="34fbc-114">In the **Name** field, type a value.</span></span>
+8. <span data-ttu-id="34fbc-115">В поле **Дата приобретения** установите дату дополнительной покупки или услуги.</span><span class="sxs-lookup"><span data-stu-id="34fbc-115">In the **Acquisition date** field, set the date of the addition purchase or service.</span></span>
+9. <span data-ttu-id="34fbc-116">В поле **Стоимость единицы** введите стоимость номенклатуры, обслуживания или иного улучшения основного средства.</span><span class="sxs-lookup"><span data-stu-id="34fbc-116">In the **Unit cost** field, enter the cost of the item, maintenance, or other improvement for the asset.</span></span>
+10. <span data-ttu-id="34fbc-117">В поле **Количество** введите число.</span><span class="sxs-lookup"><span data-stu-id="34fbc-117">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="34fbc-118">Общая стоимость не повлияет на стоимость основного средства и используется только в целях отслеживания и информации.</span><span class="sxs-lookup"><span data-stu-id="34fbc-118">The total cost will have no impact on the value of the fixed asset and is for tracking and informational purposes only.</span></span> <span data-ttu-id="34fbc-119">Если стоимость будут капитализирована, проводку корректировки списания необходимо разнести отдельно.</span><span class="sxs-lookup"><span data-stu-id="34fbc-119">If the cost will be capitalized, then a write-up adjustment transaction must be posted separately.</span></span>  
+11. <span data-ttu-id="34fbc-120">Перейдите на вкладку **Общие**.</span><span class="sxs-lookup"><span data-stu-id="34fbc-120">Click the **General** tab.</span></span>
 
-    * <span data-ttu-id="45448-121">Задайте для параметра **Увеличивает срок службы** значение **Да**, если дополнение увеличивает срок службы основного средства.</span><span class="sxs-lookup"><span data-stu-id="45448-121">Set **Increases service life** to **Yes** if the addition increases the service life of the asset.</span></span>  
-    * <span data-ttu-id="45448-122">Это поле используется только для информации.</span><span class="sxs-lookup"><span data-stu-id="45448-122">This field is informational only.</span></span> <span data-ttu-id="45448-123">Чтобы увеличить срок службы, измените срок службы в моделях стоимости и журналах амортизации для основного средства.</span><span class="sxs-lookup"><span data-stu-id="45448-123">To increase the service life, modify the Service life on the Value models and/or Depreciation books for the asset.</span></span>  
+    * <span data-ttu-id="34fbc-121">Задайте для параметра **Увеличивает срок службы** значение **Да**, если дополнение увеличивает срок службы основного средства.</span><span class="sxs-lookup"><span data-stu-id="34fbc-121">Set **Increases service life** to **Yes** if the addition increases the service life of the asset.</span></span>  
+    * <span data-ttu-id="34fbc-122">Это поле используется только для информации.</span><span class="sxs-lookup"><span data-stu-id="34fbc-122">This field is informational only.</span></span> <span data-ttu-id="34fbc-123">Чтобы увеличить срок службы, измените срок службы в моделях стоимости и журналах амортизации для основного средства.</span><span class="sxs-lookup"><span data-stu-id="34fbc-123">To increase the service life, modify the Service life on the Value models and/or Depreciation books for the asset.</span></span>  
 
 
 
