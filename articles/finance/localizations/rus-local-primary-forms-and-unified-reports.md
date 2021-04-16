@@ -2,11 +2,9 @@
 title: Наличные деньги — локальные основные формы и унифицированные отчеты
 description: В этой теме приводятся сведения об отчетах по проводкам по кассе, доступных для компаний с русским контекстом.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 11/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54991c6e834178ddb78172fea4c83eed0d1ff138
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 250c61c3895b7e132c2fd5ac29a1da7f2e43bd77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263820"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825753"
 ---
 # <a name="cash---local-primary-forms-and-unified-reports"></a>Наличные деньги — локальные основные формы и унифицированные отчеты
 [!include [banner](../includes/banner.md)]

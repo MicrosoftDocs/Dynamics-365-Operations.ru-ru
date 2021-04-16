@@ -2,11 +2,9 @@
 title: Мастер настройки сводного планирования
 description: В этой теме описываются различные важные стратегии и параметры, используемые для настройки сводного планирования.
 author: t-benebo
-manager: tfehr
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: f2f4d115c29cc87b5202ffd372871ae76780236b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232334"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829699"
 ---
 # <a name="master-planning-setup-wizard"></a>Мастер настройки сводного планирования
 

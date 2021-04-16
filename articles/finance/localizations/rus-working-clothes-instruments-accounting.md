@@ -2,11 +2,9 @@
 title: Учет рабочей одежды и специальной оснастки (Россия)
 description: Эти разделы содержат сведения о ведении спецодежды и спецоснастки для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b9e377a2151cda376c1c211fc114f8c1bfa2f646
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cd352d45f23142a49b5eb971213381d0e9d17929
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208435"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821867"
 ---
 # <a name="working-clothesspecial-rigging-accounting-russia"></a>Учет рабочей одежды и специальной оснастки (Россия)
 

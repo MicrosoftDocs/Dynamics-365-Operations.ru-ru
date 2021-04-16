@@ -2,11 +2,9 @@
 title: Список запасов в наличии
 description: В этом разделе описывается, как использовать страницу списка запасов в наличии для проверки сведений о запасах в наличии. В нем показаны несколько способов совместной работы различных параметров фильтрации и сортировки, а также способы, с помощью которых эти возможности могут получить неожиданные результаты при их комбинировании.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f16a1cc7ba2ed9eb6751173e55ba071e9b4bb9d3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e054c4010f730519532b67fe900573480ea2a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220904"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825995"
 ---
 # <a name="inventory-on-hand-list"></a>Список запасов в наличии
 

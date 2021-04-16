@@ -2,11 +2,9 @@
 title: Бухгалтерская отчетность в электронном формате (Россия)
 description: В этом разделе описывается настройка бухгалтерской отчетности для России.
 author: Anasyash
-manager: AnnBe
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 56b6c651fc4ae2b0f1d3b7e15c650972eabcf3d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 67d2dc1a9847ccc8653c446c974db7f58b2f7043
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822741"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 

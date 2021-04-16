@@ -2,11 +2,9 @@
 title: Амортизация с уменьшаемым остатком в 175 %
 description: Этот раздел содержит обзор метода амортизации с уменьшаемым остатком в 175 %.
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230354"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827154"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 175 %
 
@@ -66,10 +64,10 @@ ms.locfileid: "5230354"
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Пример амортизации уменьшаемого сальдо в 175%
 
-|                                |        |
+| Поле                          | значение  |
 |--------------------------------|--------|
-| Стоимость приобретения               | 11 000 |
-| Ликвидационная стоимость                  | 1,000  |
+| Стоимость приобретения               | 11,000 |
+| Ликвидационная стоимость                  | 1000  |
 | База амортизации              | 10 000 |
 | Срок службы в годах             | 5      |
 | Процент ежегодной амортизации | 35%    |

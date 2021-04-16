@@ -2,11 +2,9 @@
 title: Переоценка ОС в иностранной валюте
 description: В этой теме содержится информация о переоценке основных средств в иностранной валюте для России.
 author: Anasyash
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fbd98e8baf90aa5700f758197bb00768749bda86
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ea6f09ed26e6ac4544887311862e0a594ee24e55
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240541"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825757"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 

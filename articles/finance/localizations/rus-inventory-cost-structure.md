@@ -2,11 +2,9 @@
 title: Структура стоимости запасов
 description: В этой теме приводятся сведения о структуре стоимости запасов для накладных расходов в складских проводках.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 89db2edf7d27d65872e91cab22d374bcae3b34b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e6b8c2418cadc37bcbbf3961a1234050f6ae23f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250540"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822725"
 ---
 # <a name="inventory-cost-structure"></a>Структура стоимости запасов
 [!include [banner](../includes/banner.md)]

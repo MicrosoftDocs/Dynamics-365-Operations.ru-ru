@@ -2,11 +2,9 @@
 title: Обзор бюджетирования
 description: Почти всем компаниям, которые используют функциональность модуля "Финансы" в Microsoft Dynamics 365 Finance, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Finance and Operations или их загрузки из программ независимых разработчиков.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0c3f44924e9c49ac93eda728fa7e6197f4a45d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827466"
 ---
 # <a name="budgeting-overview"></a>Обзор бюджетирования
 

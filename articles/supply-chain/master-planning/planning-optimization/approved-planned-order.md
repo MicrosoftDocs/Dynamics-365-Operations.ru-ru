@@ -2,11 +2,9 @@
 title: Утвердить спланированные заказы
 description: В этой теме описывается утверждение спланированных заказов, которые поддерживаются в оптимизации планирования.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8745a461986c1f16f2b3f9fd23011701d104a30c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6c215a89403f16336caae5c62cde6df469c4091c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264026"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825899"
 ---
 # <a name="approve-planned-orders"></a>Утвердить спланированные заказы
 
