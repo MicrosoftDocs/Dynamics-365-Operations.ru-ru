@@ -2,11 +2,9 @@
 title: Панель подготовки к отправке
 description: Панель исполнения — это центральное место, в котором можно просмотреть статус мероприятий в заказе на сервисное обслуживание.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 613989ff3875c5564a82fcb483bd816cb8905532
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f2a7020b06f469947599f558890b1ab8cc7dbce0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836214"
 ---
 #  <a name="dispatch-board"></a>Панель подготовки к отправке 
 

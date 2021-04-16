@@ -2,11 +2,9 @@
 title: Настройка и создание файлов положительных платежей
 description: В этой теме описывается, как настроить положительный платеж и создавать файлы положительных платежей.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227384"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830720"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Настройка и создание файлов положительных платежей
 
@@ -140,6 +138,9 @@ ms.locfileid: "5227384"
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> Имена XML в XSLT должны соответствовать регистру узлов в XML. Как файлы XSLT, так и файлы XML чувствительны к регистру символов. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Назначение формата положительных платежей банковскому счету
 Для каждого банковского счета, для которого требуется создать информацию положительных платежей, необходимо назначить формат положительных платежей, заданный в предыдущем разделе. На странице **Банковские счета** выберите формат положительных платежей, соответствующий банковскому счету. В поле **Дата начала положительных платежей** введите первую дату создания файлов положительных платежей. Важно ввести дату в этой поле. В противном случае первый созданный файл положительных платежей будет включать все чеки, когда-либо созданные для данного банковского счета.

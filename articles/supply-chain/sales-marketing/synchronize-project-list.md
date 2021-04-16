@@ -2,11 +2,9 @@
 title: Синхронизация списка проектов из Supply Chain Management в Field Service
 description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации проектов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 author: ChristianRytt
-manager: tfehr
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 3d17b226cabd0668bcdb52e9a7fdfc5973fe49b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243065"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828499"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Синхронизация списка проектов из Supply Chain Management в Field Service
 

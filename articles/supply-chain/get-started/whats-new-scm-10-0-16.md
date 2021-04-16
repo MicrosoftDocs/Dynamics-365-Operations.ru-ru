@@ -2,11 +2,9 @@
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829989"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236083"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
+Этот выпуск содержит следующие функции. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
 - [Настраиваемый интерфейс выполнения цеха](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка устройства для выполнения интерфейса выполнения производственного цеха](../production-control/production-floor-execution-setup.md).
 
 - [Надстройка видимости запасов для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Дополнительные сведения см. в разделе [Надстройка видимости запасов](../inventory/inventory-visibility.md)
+
+- Единая номерная серия для кодов заданий<br> - Для получения дополнительных сведений см. раздел [Унифицированная номерная серия для кодов заданий](../production-control/unified-job-ids.md).
 
 - [Проверка грузомест по строкам исходного документа](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Дополнительные сведения см. в разделе [Обзор конфигурации склада](../warehousing/warehouse-configuration.md).
 
@@ -74,8 +74,8 @@ ms.locfileid: "5236083"
 - [Устранение неполадок резервирования в модуле "Управление складом"](../warehousing/troubleshoot-warehouse-reservations.md)
 - [Устранение неполадок с заказами на продажу](../sales-marketing/troubleshooting-sales.md)
 - [Устранение неполадок с предложениями по продаже](../sales-marketing/troubleshooting-salesquotation.md)
-- [Устранение неполадок при обновлении и миграции до расширенного управления складом](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Устранение неполадок при подключении приложения склада](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Устранение неполадок обновления и миграция на расширенное управление складом](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [Устранение неполадок подключения мобильного приложения управления складом](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Устранение неполадок конфигурации склада](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Устранение неполадок пополнения склада](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Устранение неполадок настройки склада](../warehousing/troubleshoot-warehouse-setup.md)

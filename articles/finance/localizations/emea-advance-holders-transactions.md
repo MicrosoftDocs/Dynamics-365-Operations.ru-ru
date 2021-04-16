@@ -2,11 +2,9 @@
 title: Проводки по подотч. лицам
 description: Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89522a0cca16e3d2cab660d39ab51ca63364aa4c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 96f4ab558fd82f47f6d337cdbcb8dba41d34b5a7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209909"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839951"
 ---
 # <a name="advance-holder-transactions"></a>Проводки по подотч. лицам
 

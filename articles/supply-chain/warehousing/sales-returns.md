@@ -2,11 +2,9 @@
 title: Возвраты продаж
 description: В этом разделе представлена информация о процессе для заказов на возврат. Сюда входят сведения о возвратах клиентами и их влияние на расчет себестоимости и количества запасов в наличии.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c01a945735f6340a0efd3d9c5ff74dd8cebd9ab7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d460cab24ca73d43a0f055c5f65791968841e472
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263332"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835518"
 ---
 # <a name="sales-returns"></a>Возвраты продаж
 

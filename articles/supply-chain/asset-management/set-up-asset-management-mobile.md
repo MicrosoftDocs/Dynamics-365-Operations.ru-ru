@@ -2,11 +2,9 @@
 title: Настройка мобильной рабочей области управления активами
 description: В этой теме описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение Finance and Operations (Dynamics 365) для запуска мобильной рабочей области управления активами, которую работники могут использовать для выполнения задач управления активами.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 54da27a022dcc800438b96224370228aa8eed261
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226155"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837785"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Настройка мобильной рабочей области управления активами
 

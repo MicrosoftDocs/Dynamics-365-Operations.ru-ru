@@ -2,11 +2,9 @@
 title: Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 description: В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, VATOperationCodeTable_RU
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8a0493ffd4fe56e3b8d026ae2102f745d6a679e6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2fa2f05ef609c43e46bd8e19c3947aa76d732743
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259206"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838700"
 ---
 # <a name="value-added-tax-vat-for-tax-agents-russia"></a>Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 

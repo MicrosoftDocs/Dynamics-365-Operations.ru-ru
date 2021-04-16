@@ -2,11 +2,9 @@
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258979"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832210"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
 
@@ -47,11 +45,11 @@ ms.locfileid: "5258979"
 
 - [Основная бизнес-аналитика Интернета вещей](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Дополнительные сведения см. в разделе [Домашняя страница бизнес-аналитики IoT](../iot/iot-intelligence-home-page.md).
 
-- [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение склада](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Массовое развертывание для Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Для получения дополнительных сведений см. раздел [Обзор установки и настройки приложения склада](../warehousing/install-configure-warehousing-app.md).
+- [Массовое развертывание для Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Дополнительные сведения см. в разделе [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Максимальное время выполнения для задания по очистке записей наличных запасов для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
+- [Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
 
 - [Поддержка оптимизации планирования для коммерческих соглашений о покупке](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Для получения дополнительных сведений см. [Сводное планирование с торговыми соглашениями о покупке](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

@@ -2,11 +2,9 @@
 title: переоценка в иностранной валюте для главной книги
 description: В этом разделе содержится обзор следующего для процесса переоценки ГК в иностранной валюте — настройка, выполнение процесса, расчет для процесса и порядок реверсирования проводок переоценки, если необходимо.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249271"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832930"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>переоценка в иностранной валюте для главной книги
 
@@ -83,7 +81,7 @@ ms.locfileid: "5249271"
 
 | Текущее сальдо в валюте проводки | Текущее сальдо в валюте учета | Валютный курс при переоценке | Новая сумма в валюте учета | Внереализационная прибыль/убыток    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | Убыток 166,67 (833,33 – 1000) |
+| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | Убыток 166,67 (833,33 – 1000) |
 
 Будет создана следующая учетная запись.
 

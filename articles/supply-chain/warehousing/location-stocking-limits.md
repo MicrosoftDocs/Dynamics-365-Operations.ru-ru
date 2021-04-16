@@ -2,11 +2,9 @@
 title: Лимиты хранения местонахождения
 description: В этой теме описываются функции для лимитов хранения местонахождения.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216989"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831274"
 ---
 # <a name="location-stocking-limits"></a>Лимиты хранения местонахождения
 
@@ -83,7 +81,7 @@ ms.locfileid: "5216989"
 
 Сначала вы получите количество *4* единиц измерения *PL* (палета) в размере *S* и проверите местоположения строк размещения для созданной работы. Затем вы получите количество *4* единиц измерения *PL* (палета) в размере *L* и проверите местоположения строк размещения для созданной работы.
 
-1. В приложении склада выполните вход,, используя *24* в качестве идентификатора пользователя и *1* в качестве пароля.
+1. В мобильном приложении управления складом выполните вход,, используя *24* в качестве идентификатора пользователя и *1* в качестве пароля.
 1. Выберите **Входящие** \> **Получение покупки**.
 1. Получите *4* *PL* (палеты) с кодом номенклатуры *D0013* в размере *S*.
 1. Проверьте работу по размещению, которая была создана. Должен отобразиться следующий результат:

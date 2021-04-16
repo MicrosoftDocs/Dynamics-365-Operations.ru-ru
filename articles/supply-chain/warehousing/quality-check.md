@@ -2,11 +2,9 @@
 title: Проверка качества
 description: В этом разделе содержится информация о функции проверки качества. Эта функция позволяет сотрудникам склада выполнять быстрые проверки качества, когда они получают номенклатуры в область дебаркадера приемки.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838234"
 ---
 # <a name="quality-check"></a>Проверка качества
 
@@ -301,7 +299,7 @@ ms.locfileid: "5228473"
 
 #### <a name="receive-pallet-1"></a>Получить палету 1
 
-1. Выполните вход в приложение склада как пользователь на складе *51*. (Введите *51* в качестве ИД пользователя и *1* в качестве пароля.)
+1. Выполните вход в мобильное приложение управления складом как пользователь для склада *51*. (Введите *51* в качестве ИД пользователя и *1* в качестве пароля.)
 1. Перейдите **Входящие \> Получение строки заказа на покупку**.
 1. В поле **PONUM** введите свой номер заказа на покупку.
 1. Подтвердите номер заказа на покупку.

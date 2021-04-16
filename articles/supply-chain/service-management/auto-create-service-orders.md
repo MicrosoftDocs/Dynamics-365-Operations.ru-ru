@@ -2,11 +2,9 @@
 title: Автоматическое создание заказов на обслуживание
 description: Можно создать заказы на сервисное обслуживание, на основе соглашения о сервисном обслуживании на период действия соглашения на сервисное обслуживание.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c1244cedff23df0350598a3cc876d39d4400b8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b864aee332c82bc6b6845e7f9e425cfef377033
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232142"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824638"
 ---
 # <a name="automatically-create-service-orders"></a>Автоматическое создание заказов на обслуживание 
 

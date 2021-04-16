@@ -2,11 +2,9 @@
 title: Скидки по оплате
 description: Скидки по оплате настроены и совместно используются для расчетов с клиентами и расчетов с клиентами.  Скидка по оплате можно определить в накладной клиента или накладной поставщика, и будет принята, если накладная оплачивается до даты скидки по оплате.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec166f0ef447a735ac776a10f1d4b340bf8452d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06a9effdbe2aed6175273332654755b0ebc46659
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232521"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830489"
 ---
 # <a name="cash-discounts"></a>Скидки по оплате
 

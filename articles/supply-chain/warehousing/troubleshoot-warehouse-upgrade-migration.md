@@ -2,11 +2,9 @@
 title: Устранение неполадок при обновлении и миграции до расширенного управления складом
 description: В этой теме описывается устранение распространенных проблем, которые могут встретиться при обновлении и переходе на расширенное управление складом.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208095"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826403"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Устранение неполадок при обновлении и миграции до расширенного управления складом
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208095"
 
 ### <a name="issue-description"></a>Описание проблемы
 
-Вы получаете это сообщение об ошибке в приложении склада, поскольку сертификаты с собственной подписью не являются доверенными для Android 8+ в локальных средах.
+Вы получаете это сообщение об ошибке в мобильном приложении управления складом, поскольку сертификаты с собственной подписью не являются доверенными для Android 8+ в локальных средах.
 
 ### <a name="issue-resolution"></a>Устранение проблемы
 
-Используйте внешний (общий) центр сертификации (ЦС). Исправление для этой проблемы доступно в версии 1.9.0.0 приложения склада. Дополнительные сведения об этой проблеме и ее устранении см. в разделе [Устранение неполадок при подключении к приложению склада](troubleshoot-warehouse-app-connection.md).
+Используйте внешний (общий) центр сертификации (ЦС). Исправление для этой проблемы доступно в версии 1.9.0.0 приложения склада. Дополнительные сведения об этой проблеме и ее устранении см. в разделе [Устранение неполадок при подключении к мобильному приложению управления складом](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Каков утвержденный процесс для перехода от базовой работы со складом к расширенной работе со складом?
 
