@@ -2,11 +2,9 @@
 title: Вопросы и ответы по рекомендациям по продуктам
 description: В этой теме приводятся сведения о процессах и инструментах, которые можно использовать для устранения неполадок, связанных с рекомендациями по продуктам или их результатами.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f0140f798e000ca66c67afa00f788abc560c8a07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216707"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792423"
 ---
 # <a name="product-recommendations-faq"></a>Вопросы и ответы по рекомендациям по продуктам
 

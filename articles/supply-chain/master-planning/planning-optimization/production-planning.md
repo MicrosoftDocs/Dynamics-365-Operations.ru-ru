@@ -2,11 +2,9 @@
 title: Планирование производства
 description: В этой теме описывается планирование производства и объясняется, как изменять спланированные производственные заказы при помощи оптимизации планирования.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470841"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839231"
 ---
 # <a name="production-planning"></a>Планирование производства
 
 Оптимизация планирования поддерживает несколько производственных сценариев. При переходе с существующего встроенного механизма сводного планирования важно знать о том, что изменилось в поведении системы.
 
 В следующем видео дан краткий обзор некоторых понятий, обсуждаемых в данной теме: [Dynamics 365 Supply Chain Management: планирование улучшений оптимизации](https://youtu.be/u1pcmZuZBTw).
+
+## <a name="turn-on-this-feature-for-your-system"></a>Включите эту функцию для своей системы
+
+Если ваша система еще не содержит функций, описанных в этом разделе, перейдите в [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Спланированные производственные заказы для оптимизации планирования*.
 
 ## <a name="planned-production-orders"></a>Спланированные производственные заказы
 

@@ -2,7 +2,6 @@
 title: Отложить выполнение элементов последовательности в форматах ER
 description: В этой теме объясняется, как отложить выполнение элемента последовательности в формате электронной отчетности (ER).
 author: NickSelin
-manager: kfend
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b1a9bb072330f586799f5cfea676d941739ca818
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753656"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Отложить выполнение элементов последовательности в форматах ER
 

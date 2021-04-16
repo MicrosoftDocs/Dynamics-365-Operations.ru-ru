@@ -2,11 +2,9 @@
 title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8c2ef1b4b032e0f9e653409f1410700c3d8f87ce
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f780881313f24f2ade50db7c00fab886f1e13879
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208433"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818200"
 ---
 # <a name="russia-overview"></a>Обзор по России
 

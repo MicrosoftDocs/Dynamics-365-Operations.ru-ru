@@ -2,11 +2,9 @@
 title: Складская обработка входящих загрузок для заказов на покупку
 description: В этом разделе описывается процесс складской обработки для входящих загрузок для заказов на покупку.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235348"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835638"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Складская обработка входящих загрузок для заказов на покупку
 
@@ -66,7 +64,7 @@ Microsoft Dynamics 365 Supply Chain Management поддерживает неск
 
 - **Меню мобильного устройства, настроенного для поддержки приема загрузки**
 
-    [Приложение склада](install-configure-warehousing-app.md) для мобильных устройств поддерживает следующие процессы создания работ:
+    [Мобильное приложение управления складом](../warehousing/install-configure-warehouse-management-app.md) для мобильных устройств поддерживает следующие процессы создания работ:
 
     - Загрузить получение номенклатуры.
     - Загрузить получение и складирование номенклатуры
@@ -285,7 +283,7 @@ Microsoft Dynamics 365 Supply Chain Management поддерживает неск
 
 Прежде чем сотрудники приемки склада смогут использовать мобильное устройство для регистрации входящих запасов, связанных с загрузкой, необходимо создать пункт меню мобильного устройства для этой цели.
 
-В этом разделе создается пункт меню мобильного устройства, который добавляется к существующему меню. Работник склада может затем выбрать пункт меню в приложении склада.
+В этом разделе создается пункт меню мобильного устройства, который добавляется к существующему меню. Работник склада может затем выбрать пункт меню в мобильном приложении управления складом.
 
 1. Перейдите к пункту **Управление складом \> Настройка \> Мобильное устройство \> Пункты меню мобильного устройства** и убедитесь, что в меню мобильного устройства имеется пункт меню со следующими параметрами:
 

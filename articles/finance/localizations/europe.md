@@ -2,11 +2,9 @@
 title: Обзор по Европе
 description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
-ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
+ms.openlocfilehash: 3954660e04b4da26908b9b981fa043474e62bf59
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5557432"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832628"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 

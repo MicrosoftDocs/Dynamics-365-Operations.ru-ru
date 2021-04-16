@@ -2,11 +2,9 @@
 title: Завершение базовой настройки шаблона запущенных в производство продуктов
 description: В этой теме показано, как выполнить минимальную настройку, необходимую, прежде чем шаблон продукта можно будет использовать в версиях спецификаций.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c6de9fa9dd49cc32f87a6041a3639198db9f182
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c41e9e3267f72a2452eddfeb15f8f5cba79b0b98
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218617"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820162"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Завершение базовой настройки шаблона запущенных в производство продуктов
 

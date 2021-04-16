@@ -2,11 +2,9 @@
 title: Сопоставление частичного платежа клиента с несколькими периодами скидок
 description: В этой статье показано, как сопоставляются частичные платежи клиента при наличии нескольких периодов скидки.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241722"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835108"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Сопоставление частичного платежа клиента с несколькими периодами скидок
 
@@ -56,7 +54,7 @@ Fabrikam предлагает клиенту 4031 два периода скид
 
 Данные по скидкам появляются внизу страницы **Сопоставление открытых проводок**. Если не изменить значение **Сумма сопоставления** на **294,00**, то отображаемые значения **Сумма скидки по оплате** будут отличаться. Однако при проводке платежа в качестве скидки по оплате будет взята сумма 6,00, потому что сопоставление автоматически регулирует значение **Сумма сопоставления**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Дата скидки по оплате           | 30.06.2015 |
 | Сумма скидки по оплате         | 20,00     |
@@ -75,7 +73,7 @@ Fabrikam предлагает клиенту 4031 два периода скид
 
 Данные по скидкам появляются внизу страницы **Сопоставление открытых проводок**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Дата скидки по оплате           | 09.07.2015 |
 | Сумма скидки по оплате         | 30,00     |

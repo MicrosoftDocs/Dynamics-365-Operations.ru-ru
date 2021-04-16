@@ -2,11 +2,9 @@
 title: Трансляция счетов (Россия)
 description: В этой теме приводятся сведения об использовании трансляции для перемещения бухгалтерских проводок из одной компании в другую.
 author: anasyash
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9cc04c4dbedeaaefe05909de6684669648d163ed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e76f2b903f5689a641bb227ad60b4348bbec077
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263872"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825755"
 ---
 # <a name="ledger-translation-russia"></a>Трансляция счетов (Россия)
 

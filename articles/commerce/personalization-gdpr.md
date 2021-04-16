@@ -2,11 +2,9 @@
 title: Отказ от персонализированных рекомендаций
 description: В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e65fc54f87664caec95b2bc2c579d0820ae08c0f
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477692"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804461"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Отказ от персонализированных рекомендаций
 

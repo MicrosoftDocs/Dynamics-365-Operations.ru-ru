@@ -1,26 +1,24 @@
 ---
 title: Создание заказа на покупку для разового поставщика
 description: В этой процедуре показано, как создать заказ на покупку для разового поставщика.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1abd942da608bc221a7a66e03b5269fa30e2c20
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3fe76a3d481c3bc8dd3a3d45eda031df61ece4aa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212038"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812381"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Создание заказа на покупку для разового поставщика
 

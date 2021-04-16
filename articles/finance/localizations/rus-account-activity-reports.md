@@ -2,11 +2,9 @@
 title: Отчеты по обороту по счету
 description: В этой теме приводятся сведения об отчетах оборотов по счетам, включая ведомость оборотов лист с корреспонденцией.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a88d3dfe6e207b691fa54268472a676bc981b8de
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9eacbfab2df9aed333b12e334504769e7c0dd74b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822743"
 ---
 # <a name="account-activity-reports"></a>Отчеты по обороту по счету
 [!include [banner](../includes/banner.md)]

@@ -2,11 +2,9 @@
 title: Декларация по земельному налогу
 description: В данном разделе содержится информация о декларации по земельному налогу для России.
 author: anasyash
-manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82342c78367bf930cd123a070e53defbcbad4e57
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7c8770e07a75e713b0a30cb8f8aba94052f2f55f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222059"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822721"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 

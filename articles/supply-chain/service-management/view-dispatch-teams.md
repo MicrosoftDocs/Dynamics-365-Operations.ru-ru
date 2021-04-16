@@ -2,11 +2,9 @@
 title: Просмотр групп подготовки к отправке
 description: Просмотр групп подготовки к отправке.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e4e4faf273aeb7a6b68ae61396913f1e2b86af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3cab1269bd5c11a6aa4484208c5b7c07e766c508
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259586"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824206"
 ---
 # <a name="view-dispatch-teams"></a>Просмотр групп подготовки к отправке   
 

@@ -2,11 +2,9 @@
 title: Ежедневные операции по подотчетным лицам в России
 description: В этой теме содержится информация о ежедневных операциях, таких как обработка денежных средств и исходящих сальдо по подотчетным лицам для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: df648e59abe1748e7bc0a4b51febd7ca1bca6368
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1351f24eb402d4cd232de74fbac8a44a5cce19b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242836"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822739"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 

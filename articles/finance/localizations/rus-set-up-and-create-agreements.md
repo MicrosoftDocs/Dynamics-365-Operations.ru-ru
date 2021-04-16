@@ -2,11 +2,9 @@
 title: Настройка и создание договоров
 description: В этой теме приводятся сведения о создании договоров покупки и продажи.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e75db9fbbef5e91a1ae25e1934e57385c71121cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 724c8825cc79c33ee30fe64e9ec733b84f53c987
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219838"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836816"
 ---
 # <a name="set-up-and-create-agreements"></a>Настройка и создание договоров
 [!include [banner](../includes/banner.md)]
