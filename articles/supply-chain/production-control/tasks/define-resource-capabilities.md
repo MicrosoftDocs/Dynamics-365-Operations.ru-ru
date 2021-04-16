@@ -2,11 +2,9 @@
 title: Определение возможностей ресурса
 description: Возможности ресурса описывают, что могут делать операционные ресурсы.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
@@ -16,37 +14,37 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c78db0d849c08622d9a2dffc109b439b4c584748
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 072991e7b3844ad3583b7d0c575d426299f74e9f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240373"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828714"
 ---
-# <a name="define-resource-capabilities"></a><span data-ttu-id="0a049-103">Определение возможностей ресурса</span><span class="sxs-lookup"><span data-stu-id="0a049-103">Define resource capabilities</span></span>
+# <a name="define-resource-capabilities"></a><span data-ttu-id="d971a-103">Определение возможностей ресурса</span><span class="sxs-lookup"><span data-stu-id="d971a-103">Define resource capabilities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0a049-104">Возможности ресурса описывают, что могут делать операционные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="0a049-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="0a049-105">Во время планирования требования каждого задания и операции сопоставляются с возможностями доступных ресурсов.</span><span class="sxs-lookup"><span data-stu-id="0a049-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="0a049-106">Это руководство по задаче поможет создать способность ресурса и назначить ее ресурсу.</span><span class="sxs-lookup"><span data-stu-id="0a049-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="0a049-107">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="0a049-107">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="d971a-104">Возможности ресурса описывают, что могут делать операционные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="d971a-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="d971a-105">Во время планирования требования каждого задания и операции сопоставляются с возможностями доступных ресурсов.</span><span class="sxs-lookup"><span data-stu-id="d971a-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="d971a-106">Это руководство по задаче поможет создать способность ресурса и назначить ее ресурсу.</span><span class="sxs-lookup"><span data-stu-id="d971a-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="d971a-107">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d971a-107">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-resource-capability"></a><span data-ttu-id="0a049-108">Создание возможности ресурса</span><span class="sxs-lookup"><span data-stu-id="0a049-108">Create a resource capability</span></span>
-1. <span data-ttu-id="0a049-109">Перейдите в раздел "Возможности ресурса".</span><span class="sxs-lookup"><span data-stu-id="0a049-109">Go to Resource capabilities.</span></span>
-2. <span data-ttu-id="0a049-110">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="0a049-110">Click New.</span></span>
-3. <span data-ttu-id="0a049-111">В поле "Возможность" введите код возможности ресурса.</span><span class="sxs-lookup"><span data-stu-id="0a049-111">In the Capability field, type the ID of the resource capability.</span></span>
-    * <span data-ttu-id="0a049-112">Для данной операций используйте код возможности, чтобы указать, что ресурсы должны иметь эту возможность для выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="0a049-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
-4. <span data-ttu-id="0a049-113">В поле "Описание" введите описание возможности.</span><span class="sxs-lookup"><span data-stu-id="0a049-113">In the Description field, enter a description of the capability.</span></span>
+## <a name="create-a-resource-capability"></a><span data-ttu-id="d971a-108">Создание возможности ресурса</span><span class="sxs-lookup"><span data-stu-id="d971a-108">Create a resource capability</span></span>
+1. <span data-ttu-id="d971a-109">Перейдите в раздел "Возможности ресурса".</span><span class="sxs-lookup"><span data-stu-id="d971a-109">Go to Resource capabilities.</span></span>
+2. <span data-ttu-id="d971a-110">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="d971a-110">Click New.</span></span>
+3. <span data-ttu-id="d971a-111">В поле "Возможность" введите код возможности ресурса.</span><span class="sxs-lookup"><span data-stu-id="d971a-111">In the Capability field, type the ID of the resource capability.</span></span>
+    * <span data-ttu-id="d971a-112">Для данной операций используйте код возможности, чтобы указать, что ресурсы должны иметь эту возможность для выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="d971a-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
+4. <span data-ttu-id="d971a-113">В поле "Описание" введите описание возможности.</span><span class="sxs-lookup"><span data-stu-id="d971a-113">In the Description field, enter a description of the capability.</span></span>
 
-## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="0a049-114">Назначение возможности ресурсу</span><span class="sxs-lookup"><span data-stu-id="0a049-114">Assign capability to a resource</span></span>
-1. <span data-ttu-id="0a049-115">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="0a049-115">Click Add.</span></span>
-2. <span data-ttu-id="0a049-116">В поле "Ресурс" введите код ресурса.</span><span class="sxs-lookup"><span data-stu-id="0a049-116">In the Resource field, type the ID of the resource.</span></span>
-    * <span data-ttu-id="0a049-117">Возможность ресурса можно назначить одному или нескольким ресурсам.</span><span class="sxs-lookup"><span data-stu-id="0a049-117">A resource capability can be assigned to one or more resources.</span></span>  
-3. <span data-ttu-id="0a049-118">В поле "Истечение срока" введите дату.</span><span class="sxs-lookup"><span data-stu-id="0a049-118">In the Expiration field, enter a date.</span></span>
-    * <span data-ttu-id="0a049-119">Это поле можно использовать для указания того, что ресурс имеет возможность только на ограниченное время.</span><span class="sxs-lookup"><span data-stu-id="0a049-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
-4. <span data-ttu-id="0a049-120">В поле "Приоритет" введите число.</span><span class="sxs-lookup"><span data-stu-id="0a049-120">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="0a049-121">При планировании заданий и операций можно указать, следует ли выбирать ресурсы по приоритету.</span><span class="sxs-lookup"><span data-stu-id="0a049-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="0a049-122">Если выбрать этот параметр и если нескольких ресурсов могут выполнить задание либо операцию к запрашиваемой дате, будет выбран ресурс с наименьшим приоритетом по отношению к необходимой возможности.</span><span class="sxs-lookup"><span data-stu-id="0a049-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
-5. <span data-ttu-id="0a049-123">В поле "Уровень" введите число.</span><span class="sxs-lookup"><span data-stu-id="0a049-123">In the Level field, enter a number.</span></span>
-    * <span data-ttu-id="0a049-124">Если указать, что для задания или операции требуется определенная возможность, можно также указать минимальный необходимый уровень.</span><span class="sxs-lookup"><span data-stu-id="0a049-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="0a049-125">Используйте уровень возможности для дифференциации ресурсов, которые могут выполнить одно задание, но различаются по скорости, сильным сторонам, размерам и т. д.</span><span class="sxs-lookup"><span data-stu-id="0a049-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
+## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="d971a-114">Назначение возможности ресурсу</span><span class="sxs-lookup"><span data-stu-id="d971a-114">Assign capability to a resource</span></span>
+1. <span data-ttu-id="d971a-115">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="d971a-115">Click Add.</span></span>
+2. <span data-ttu-id="d971a-116">В поле "Ресурс" введите код ресурса.</span><span class="sxs-lookup"><span data-stu-id="d971a-116">In the Resource field, type the ID of the resource.</span></span>
+    * <span data-ttu-id="d971a-117">Возможность ресурса можно назначить одному или нескольким ресурсам.</span><span class="sxs-lookup"><span data-stu-id="d971a-117">A resource capability can be assigned to one or more resources.</span></span>  
+3. <span data-ttu-id="d971a-118">В поле "Истечение срока" введите дату.</span><span class="sxs-lookup"><span data-stu-id="d971a-118">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="d971a-119">Это поле можно использовать для указания того, что ресурс имеет возможность только на ограниченное время.</span><span class="sxs-lookup"><span data-stu-id="d971a-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
+4. <span data-ttu-id="d971a-120">В поле "Приоритет" введите число.</span><span class="sxs-lookup"><span data-stu-id="d971a-120">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="d971a-121">При планировании заданий и операций можно указать, следует ли выбирать ресурсы по приоритету.</span><span class="sxs-lookup"><span data-stu-id="d971a-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="d971a-122">Если выбрать этот параметр и если нескольких ресурсов могут выполнить задание либо операцию к запрашиваемой дате, будет выбран ресурс с наименьшим приоритетом по отношению к необходимой возможности.</span><span class="sxs-lookup"><span data-stu-id="d971a-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
+5. <span data-ttu-id="d971a-123">В поле "Уровень" введите число.</span><span class="sxs-lookup"><span data-stu-id="d971a-123">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="d971a-124">Если указать, что для задания или операции требуется определенная возможность, можно также указать минимальный необходимый уровень.</span><span class="sxs-lookup"><span data-stu-id="d971a-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="d971a-125">Используйте уровень возможности для дифференциации ресурсов, которые могут выполнить одно задание, но различаются по скорости, сильным сторонам, размерам и т. д.</span><span class="sxs-lookup"><span data-stu-id="d971a-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
 
 
 
