@@ -2,7 +2,6 @@
 title: Параметры реализации сети доставки содержимого
 description: В этом разделе рассматриваются разнообразные параметры реализации сети доставки содержимого (CDN), которые могут использоваться в средах Microsoft Dynamics 365 Commerce. К этим параметрам относятся собственные, предоставляемые Commerce экземпляры Azure Front Door и принадлежащие клиенту экземпляры Azure Front Door.
 author: BrianShook
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ae0769b7e19f80244186c51454444c499c5e497f
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582811"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800719"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Параметры реализации сети доставки содержимого
 

@@ -2,11 +2,9 @@
 title: Управление пользователями деловых партнеров на веб-сайтах электронной коммерции B2B
 description: В этом разделе описывается, как администраторы могут добавлять, изменять и удалять пользователей деловых партнеров на веб-сайтах электронной коммерции "бизнес-бизнес" (B2B).
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9cd1e3e38bf7dd5ac536104c850cbfc6c53abcfd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211257"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799861"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Управление пользователями деловых партнеров на веб-сайтах электронной коммерции B2B
 

@@ -2,11 +2,9 @@
 title: Отправка видео
 description: В этом разделе описывается, как отправить видео в конструктор сайта Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799213"
 ---
 # <a name="upload-videos"></a>Отправка видео
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как отправить видео в конструктор сайта Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Библиотека мультимедиа конфигуратора сайта Commerce позволяет отправлять видеозаписи. Следует всегда отправлять версию видеозаписи с наивысшим битрейтом и разрешением, так как видео будет автоматически преобразовано в соответствии с разными окнами просмотра и их точками останова.
 

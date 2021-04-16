@@ -2,11 +2,9 @@
 title: Обзор отношений с клиентами
 description: В этом разделе представлен обзор новых возможностей отношений с клиентами, доступных в приложении магазина.
 author: bebeale
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
-ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
+ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "5555002"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800455"
 ---
 # <a name="clienteling-overview"></a>Обзор отношений с клиентами
 
@@ -70,7 +68,7 @@ ms.locfileid: "5555002"
 
 1. В рабочей области **Управление функциями** отфильтруйте функции модуля **Розничная торговля и коммерция**.
 
-    ![Отношения с клиентам в списке функций модуля Commerce](./media/Enable_clienteling.png "Отношения с клиентам в списке функций модуля "Розничная торговля и коммерция"")
+    ![Отношения с клиентам в списке функций модуля Commerce](./media/Enable_clienteling.png "Отношения с клиентам в списке функций модуля &quot;Розничная торговля и коммерция&quot;")
 
 2. Включите функцию **Отношения с клиентами**, выбрав **Включить**.
 3. На странице **Параметры Commerce** на вкладке **Номерная серия** выберите строку **Идентификатор клиентской книги**. Затем в поле **Код номерной серии** выберите номерную серию. Система будет использовать эту номерную серию для присвоения кода клиентским книгам.

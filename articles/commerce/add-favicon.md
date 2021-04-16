@@ -2,11 +2,9 @@
 title: Добавление значка сайта
 description: В этой теме объясняется, как добавить значок сайта к сайту.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 786ba02c312b7cdb3cf7f0689737084887d536bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797727"
 ---
 # <a name="add-a-favicon"></a>Добавление значка сайта
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как добавить значок сайта к сайту.
-
-## <a name="overview"></a>Обзор
 
 Значок сайта — это небольшой графический файл, который отображается на вкладке веб-браузера, в адресной строке, в журнале просмотра и в закладках или избранном, а также в других местах. Рекомендуется добавить значок сайта к сайту, так как он представляет и подкрепляет вашу торговую марку и помогает отличать веб-сайт от других сайтов, которые посещает клиент.
 

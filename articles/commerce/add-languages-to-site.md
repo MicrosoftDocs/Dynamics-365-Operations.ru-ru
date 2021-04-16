@@ -2,11 +2,9 @@
 title: Добавление языков на сайт
 description: В этой теме объясняется, как добавить поддержку дополнительных языков на сайте Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6ed1e2eae18b381c21b63a5cc403ddee0336f784
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d74b24cc6363aa0a59f4f6c3365a8b37bbbe292b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207611"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797631"
 ---
 # <a name="add-languages-to-your-site"></a>Добавление языков на сайт
-
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как добавить поддержку дополнительных языков на сайте Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Веб-сайт можно локализовать на любой язык, поддерживаемый Commerce. (Список поддерживаемых языков отображается далее в этом разделе.) Чтобы добавить язык на веб-сайте, необходимо сначала добавить его в интернет-магазин, связанный с вашим сайтом.
 

@@ -2,11 +2,9 @@
 title: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
 description: В этом разделе представлен обзор целевой страницы категории по умолчанию и страницы результатов поиска в Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7a40df479bffdc6fdee8f0a7f64fde980cbbdbab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215729"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794357"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Обзор целевой страницы категории и страницы результатов поиска по умолчанию
 

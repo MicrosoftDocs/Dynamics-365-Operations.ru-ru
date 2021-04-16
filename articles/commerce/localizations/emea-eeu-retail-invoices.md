@@ -2,11 +2,9 @@
 title: Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
 description: В этом разделе описывается, как настроить сведения по накладным клиентов и заказы на возврат продаж в странах Восточной Европы.
 author: epopov
-manager: annbe
 ms.date: 10/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f5ac2403b5d47f5443e8166fd2bd69d20924628
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f79208b2508ed3879aa626389564b10a1d78c165
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225707"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798829"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
 

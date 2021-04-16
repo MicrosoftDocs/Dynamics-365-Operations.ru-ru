@@ -2,11 +2,9 @@
 title: Управление сроками действия льгот
 description: В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f309dcbef7b0816f529f75b3ca505e2c9224e3ac
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2eeb9ccc5bb386d036f44ab6bb8f0999e05439b7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465062"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803761"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Управление сроками действия льгот
 

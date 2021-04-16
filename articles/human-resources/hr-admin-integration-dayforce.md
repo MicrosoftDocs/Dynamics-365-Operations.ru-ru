@@ -2,11 +2,9 @@
 title: Настройка интеграции с Dayforce
 description: Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этой статье. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5f65672960716bee3f58c98ccce249fdbf8697
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467153"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805090"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
