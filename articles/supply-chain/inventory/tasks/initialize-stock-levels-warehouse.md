@@ -2,11 +2,9 @@
 title: Инициализация уровней запасов на складе
 description: В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок.
 author: perlynne
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
@@ -16,48 +14,48 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c1e5ca96919acde7e850292a73ebd00185f1f7a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0746b799c701c569f0ae5c657ac3302ab6626287
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244483"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823489"
 ---
-# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="37bee-103">Инициализация уровней запасов на складе</span><span class="sxs-lookup"><span data-stu-id="37bee-103">Initialize stock levels in the warehouse</span></span>
+# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="99f6b-103">Инициализация уровней запасов на складе</span><span class="sxs-lookup"><span data-stu-id="99f6b-103">Initialize stock levels in the warehouse</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="37bee-104">В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок.</span><span class="sxs-lookup"><span data-stu-id="37bee-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="37bee-105">(Также можно обновить запасы в наличии, импортируя проводки в информационных объектах.) Это руководство можно выполнить в компании USMF для демонстрационных данных, где все условия, такие как наименование журнала, настройка номенклатуры, профили разносок и счета, доступны.</span><span class="sxs-lookup"><span data-stu-id="37bee-105">(It's also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="37bee-106">В руководство имеются конкретные значения для номенклатуры и аналитик, которые используются.</span><span class="sxs-lookup"><span data-stu-id="37bee-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="37bee-107">При выборе другой номенклатуры может потребоваться ввести значения для других аналитик.</span><span class="sxs-lookup"><span data-stu-id="37bee-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
+<span data-ttu-id="99f6b-104">В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок.</span><span class="sxs-lookup"><span data-stu-id="99f6b-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="99f6b-105">(Также можно обновить запасы в наличии, импортируя проводки в информационных объектах.) Это руководство можно выполнить в компании USMF для демонстрационных данных, где все условия, такие как наименование журнала, настройка номенклатуры, профили разносок и счета, доступны.</span><span class="sxs-lookup"><span data-stu-id="99f6b-105">(It's also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="99f6b-106">В руководство имеются конкретные значения для номенклатуры и аналитик, которые используются.</span><span class="sxs-lookup"><span data-stu-id="99f6b-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="99f6b-107">При выборе другой номенклатуры может потребоваться ввести значения для других аналитик.</span><span class="sxs-lookup"><span data-stu-id="99f6b-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
 
-1. <span data-ttu-id="37bee-108">Перейдите в раздел "Управление запасами" > "Записи журнала" > "Номенклатуры" > "Движение".</span><span class="sxs-lookup"><span data-stu-id="37bee-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
-2. <span data-ttu-id="37bee-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="37bee-109">Click New.</span></span>
-3. <span data-ttu-id="37bee-110">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="37bee-110">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="37bee-111">Выберите IMov.</span><span class="sxs-lookup"><span data-stu-id="37bee-111">Select IMov.</span></span>
-    * <span data-ttu-id="37bee-112">Рекомендуется использовать разные шаблоны имен журналов для разных деловых целей.</span><span class="sxs-lookup"><span data-stu-id="37bee-112">It's a good practice to use different journal name templates for the different business purposes.</span></span>  
-5. <span data-ttu-id="37bee-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="37bee-113">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="37bee-114">В поле "Корр.счет" укажите требуемые значения "140200".</span><span class="sxs-lookup"><span data-stu-id="37bee-114">In the Offset account field, specify the values '140200'.</span></span>
-    * <span data-ttu-id="37bee-115">Это корреспондирующий счет, который будет счетом по умолчанию в строках журнала.</span><span class="sxs-lookup"><span data-stu-id="37bee-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="37bee-116">Можно переопределить значение по умолчанию, чтобы назначить разные корр. счета в строках.</span><span class="sxs-lookup"><span data-stu-id="37bee-116">It's possible to override the default to assign different offset accounts per line.</span></span>  
-7. <span data-ttu-id="37bee-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="37bee-117">Click OK.</span></span>
-8. <span data-ttu-id="37bee-118">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="37bee-118">Click New.</span></span>
-9. <span data-ttu-id="37bee-119">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="37bee-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="37bee-120">Выберите номенклатуру A0001.</span><span class="sxs-lookup"><span data-stu-id="37bee-120">Select item A0001.</span></span>
-11. <span data-ttu-id="37bee-121">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="37bee-121">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="37bee-122">Перейдите на вкладку "Складские аналитики".</span><span class="sxs-lookup"><span data-stu-id="37bee-122">Click the Inventory dimensions tab.</span></span>
-13. <span data-ttu-id="37bee-123">В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="37bee-123">In the Site field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="37bee-124">Выберите сайт 1.</span><span class="sxs-lookup"><span data-stu-id="37bee-124">Select site 1.</span></span>
-15. <span data-ttu-id="37bee-125">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="37bee-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="37bee-126">Выберите склад 13.</span><span class="sxs-lookup"><span data-stu-id="37bee-126">Select warehouse 13.</span></span>
-17. <span data-ttu-id="37bee-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="37bee-127">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="37bee-128">В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="37bee-128">In the Location field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="37bee-129">Выберите местонахождение 13.</span><span class="sxs-lookup"><span data-stu-id="37bee-129">Select location 13.</span></span>
-20. <span data-ttu-id="37bee-130">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="37bee-130">In the Quantity field, enter a number.</span></span>
-21. <span data-ttu-id="37bee-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="37bee-131">Click Save.</span></span>
-22. <span data-ttu-id="37bee-132">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="37bee-132">Click Post.</span></span>
-23. <span data-ttu-id="37bee-133">Установите или снимите флажок "Перенести все ошибки разноски в новый журнал".</span><span class="sxs-lookup"><span data-stu-id="37bee-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
-    * <span data-ttu-id="37bee-134">При включении этого параметра строки, которые не могут быть разнесены, будут скопированы в новый журнал.</span><span class="sxs-lookup"><span data-stu-id="37bee-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="37bee-135">Можно использовать сведения в журнале, чтобы скорректировать проблемы, а затем повторно разнести строки.</span><span class="sxs-lookup"><span data-stu-id="37bee-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
-24. <span data-ttu-id="37bee-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="37bee-136">Click OK.</span></span>
-25. <span data-ttu-id="37bee-137">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="37bee-137">Close the page.</span></span>
-26. <span data-ttu-id="37bee-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="37bee-138">Close the page.</span></span>
+1. <span data-ttu-id="99f6b-108">Перейдите в раздел "Управление запасами" > "Записи журнала" > "Номенклатуры" > "Движение".</span><span class="sxs-lookup"><span data-stu-id="99f6b-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
+2. <span data-ttu-id="99f6b-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="99f6b-109">Click New.</span></span>
+3. <span data-ttu-id="99f6b-110">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="99f6b-110">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="99f6b-111">Выберите IMov.</span><span class="sxs-lookup"><span data-stu-id="99f6b-111">Select IMov.</span></span>
+    * <span data-ttu-id="99f6b-112">Рекомендуется использовать разные шаблоны имен журналов для разных деловых целей.</span><span class="sxs-lookup"><span data-stu-id="99f6b-112">It's a good practice to use different journal name templates for the different business purposes.</span></span>  
+5. <span data-ttu-id="99f6b-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="99f6b-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="99f6b-114">В поле "Корр.счет" укажите требуемые значения "140200".</span><span class="sxs-lookup"><span data-stu-id="99f6b-114">In the Offset account field, specify the values '140200'.</span></span>
+    * <span data-ttu-id="99f6b-115">Это корреспондирующий счет, который будет счетом по умолчанию в строках журнала.</span><span class="sxs-lookup"><span data-stu-id="99f6b-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="99f6b-116">Можно переопределить значение по умолчанию, чтобы назначить разные корр. счета в строках.</span><span class="sxs-lookup"><span data-stu-id="99f6b-116">It's possible to override the default to assign different offset accounts per line.</span></span>  
+7. <span data-ttu-id="99f6b-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="99f6b-117">Click OK.</span></span>
+8. <span data-ttu-id="99f6b-118">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="99f6b-118">Click New.</span></span>
+9. <span data-ttu-id="99f6b-119">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="99f6b-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="99f6b-120">Выберите номенклатуру A0001.</span><span class="sxs-lookup"><span data-stu-id="99f6b-120">Select item A0001.</span></span>
+11. <span data-ttu-id="99f6b-121">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="99f6b-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="99f6b-122">Перейдите на вкладку "Складские аналитики".</span><span class="sxs-lookup"><span data-stu-id="99f6b-122">Click the Inventory dimensions tab.</span></span>
+13. <span data-ttu-id="99f6b-123">В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="99f6b-123">In the Site field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="99f6b-124">Выберите сайт 1.</span><span class="sxs-lookup"><span data-stu-id="99f6b-124">Select site 1.</span></span>
+15. <span data-ttu-id="99f6b-125">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="99f6b-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="99f6b-126">Выберите склад 13.</span><span class="sxs-lookup"><span data-stu-id="99f6b-126">Select warehouse 13.</span></span>
+17. <span data-ttu-id="99f6b-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="99f6b-127">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="99f6b-128">В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="99f6b-128">In the Location field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="99f6b-129">Выберите местонахождение 13.</span><span class="sxs-lookup"><span data-stu-id="99f6b-129">Select location 13.</span></span>
+20. <span data-ttu-id="99f6b-130">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="99f6b-130">In the Quantity field, enter a number.</span></span>
+21. <span data-ttu-id="99f6b-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="99f6b-131">Click Save.</span></span>
+22. <span data-ttu-id="99f6b-132">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="99f6b-132">Click Post.</span></span>
+23. <span data-ttu-id="99f6b-133">Установите или снимите флажок "Перенести все ошибки разноски в новый журнал".</span><span class="sxs-lookup"><span data-stu-id="99f6b-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
+    * <span data-ttu-id="99f6b-134">При включении этого параметра строки, которые не могут быть разнесены, будут скопированы в новый журнал.</span><span class="sxs-lookup"><span data-stu-id="99f6b-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="99f6b-135">Можно использовать сведения в журнале, чтобы скорректировать проблемы, а затем повторно разнести строки.</span><span class="sxs-lookup"><span data-stu-id="99f6b-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
+24. <span data-ttu-id="99f6b-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="99f6b-136">Click OK.</span></span>
+25. <span data-ttu-id="99f6b-137">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="99f6b-137">Close the page.</span></span>
+26. <span data-ttu-id="99f6b-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="99f6b-138">Close the page.</span></span>
 
 
 
