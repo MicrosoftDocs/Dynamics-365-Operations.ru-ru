@@ -2,11 +2,9 @@
 title: Опасные материалы
 description: В этой теме приводятся сведения о документах для опасных материалов и информации, которая хранится в вашей среде.
 author: lachlancashMS
-manager: tfehr
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,17 +16,16 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d27ec5b65cc607c22d97c1dc44bb573bc2772611
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bda81f72d5dea24c7ba678b9a86258a02f7b8cd5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243185"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829434"
 ---
 # <a name="hazardous-materials"></a>Опасные материалы
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Сведения об опасных материалах настраиваются в разделе "Управление сведениями о продуктах". Этот модуль также содержит документы, которые могут быть распечатаны в модуле управления складом.
 

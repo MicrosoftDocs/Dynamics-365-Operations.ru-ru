@@ -2,11 +2,9 @@
 title: Настройка должностных лиц (Россия)
 description: В этой теме поясняется, как производится настройка должностных лиц в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OfficialsTable_RU
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 64d127364b279f24bbdbebfaf53afa2348ffd8d0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3d30aa4ee9dc29f181bebdf873269054ad46326a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836835"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]

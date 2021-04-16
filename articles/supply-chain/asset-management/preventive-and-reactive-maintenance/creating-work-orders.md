@@ -2,11 +2,9 @@
 title: Создание заказов на работу
 description: В этом разделе описывается, как создавать заказы на работу в модуле "Управление активами".
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500582"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836742"
 ---
 # <a name="creating-work-orders"></a>Создание заказов на работу
 
@@ -62,8 +60,6 @@ ms.locfileid: "5500582"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Группировка строк заказов на работу, которые создаются автоматически при выполнении плана обслуживания
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Эта функция позволяет определить правила для группировки строк заказа на работу в одном заказе на работу, когда система настроена на автоматическое создание заказов на работу на основе плана обслуживания. Ранее автоматически созданные заказы на работу могли содержать только одну строку. Однако теперь можно группировать заказы на работу по, например, активу, типу актива или функциональному местоположению. (Созданные вручную заказы на работу уже могут быть сгруппированы таким образом, как это описано в предыдущем разделе этой темы.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Включение группировки для автоматически создаваемых заказов на работу
@@ -71,7 +67,7 @@ ms.locfileid: "5500582"
 Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление активами*
-- **Имя компонента:** *(Предварительная версия) Применение правил группировки заказов на работу во время выполнения плана обслуживания*
+- **Имя компонента:** *Применение правил группировки заказов на работу во время выполнения плана обслуживания*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Настройка группирования для автоматически создаваемых заказов на работу
 

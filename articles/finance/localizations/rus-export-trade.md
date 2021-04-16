@@ -2,11 +2,9 @@
 title: Обработка счетов-фактур для экспортной торговли
 description: В этом разделе содержатся сведения о счетах-фактурах для продаж на экспорт в России.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7f338beb43030234071ea1dbdda75405c98fada1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 21b5828e2c158176ad2173ac74be3cedbae62e45
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231496"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840929"
 ---
 # <a name="process-invoice-factures-for-export-trade"></a>Обработка счетов-фактур для экспортной торговли
 

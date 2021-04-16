@@ -2,11 +2,9 @@
 title: Мелкие наличные деньги для Восточной Европы и России
 description: В этом разделе содержатся сведения о функциях мелких наличных деньги, которая позволяет пользователям в Эстонии, Литве, Чехии, Венгрии, Латвии, Польше и России отражать кассовые операции в системе.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RCashBalance, RCashCountStatementForm, RCashPosting, RCashRemainLimit, RCashReportJour_PL, RCashTable, RCashTableBalance, RCashTableCredLimit, RCashTableLastRevaluation, RCashTableTransactions, RCashTrans
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d6eaeb48184d30450a9da68b4f8419b1f3c77f6f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a721d5602fa7b569b56e85e1bd66a8e543a39a41
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231504"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832704"
 ---
 # <a name="petty-cash-for-eastern-europe-and-russia"></a>Мелкие наличные деньги для Восточной Европы и России
 

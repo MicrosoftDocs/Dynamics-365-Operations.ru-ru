@@ -2,11 +2,9 @@
 title: Пересмотр счетов-фактур и корректирующие счета-фактуры
 description: В этом разделе приводятся сведения о выпуске корректирующего или пересмотренного счета-фактуры с исходным счетом-фактурой.
 author: anasyash
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: cfd4846687eb4e32bcf1f24be8808030fa08f58d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 979a3e23f05b839cb896d4ca13620773d1997bb4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836820"
 ---
 # <a name="revision-factures-and-corrective-factures"></a>Пересмотр счетов-фактур и корректирующие счета-фактуры
 
@@ -130,10 +128,10 @@ ms.locfileid: "5235110"
  
 10. Выберите **Обновление счета-фактуры**, чтобы разнести корректирующий или исправленный счет-фактуру.
 
-#### <a name="create-a-corrective-or-revision-facture-for-a-vendor-invoice"></a>Создание корректирующего или исправленного счета-фактуры для накладной поставщика
+#### <a name="create-a-corrective-or-revision-facture-for-a-vendor-invoice&quot;></a>Создание корректирующего или исправленного счета-фактуры для накладной поставщика
 
 1.  Перейдите в раздел **Расчеты с поставщиками** \> **Накладные** \> **Открытые накладные поставщиков**.
-2.  Создайте накладную поставщика и укажите все поля, необходимые для обновления корректирующего или исправленного счета-фактуры (см. шаги в предыдущем разделе, "Создание корректирующего или исправленного счета-фактуры для заказа на покупку").
+2.  Создайте накладную поставщика и укажите все поля, необходимые для обновления корректирующего или исправленного счета-фактуры (см. шаги в предыдущем разделе, &quot;Создание корректирующего или исправленного счета-фактуры для заказа на покупку").
 
 #### <a name="create-a-corrective-or-revision-facture-for-a-sales-order"></a>Создание корректирующего или исправленного счета-фактуры для заказа на продажу
 

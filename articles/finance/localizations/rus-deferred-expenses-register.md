@@ -2,11 +2,9 @@
 title: Регистр отсроченных расходов
 description: Этот раздел обеспечивает информацию, как создать и настроить расходы будущих периодов.
 author: Akroshkina
-manager: anasyash
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: v-lenest
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: ec04f9187e4b2ddbb18865199974255c14d011f1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3ad150044ee1cf3aaf1d813b378b78723644d3b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240557"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840943"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 

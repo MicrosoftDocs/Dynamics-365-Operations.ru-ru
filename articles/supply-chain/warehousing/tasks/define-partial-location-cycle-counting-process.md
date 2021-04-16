@@ -2,11 +2,9 @@
 title: Определение процесса частичного подсчета циклов для местонахождения
 description: При использовании планов подсчета циклов для создания работы подсчета можно руководить фактическими операциями подсчета, запросив, чтобы подсчитывались только конкретные продукты и варианты продуктов, а не все запасы в наличии в местонахождении.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfea71459b80712c924912d909a0fdfa5fad09ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fcda301934c6ccc06f17ed8ae13c52754336d2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238950"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830914"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Определение процесса частичного подсчета циклов для местонахождения 
 

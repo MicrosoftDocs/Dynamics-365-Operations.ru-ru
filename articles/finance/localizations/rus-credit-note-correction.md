@@ -2,11 +2,9 @@
 title: Корректировки кредит-нот (Россия)
 description: В этой теме приводятся сведения о создании исправлений кредит-нот в расчетах с клиентами и в расчетах с поставщиками.
 author: anasyash
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 734286b565a2952d64b0ed17bb341b7e9c5b4e17
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 711ab539fde83904ec625515911aea85b821cf31
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258173"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840951"
 ---
 # <a name="credit-note-corrections-russia"></a>Корректировки кредит-нот (Россия)
 

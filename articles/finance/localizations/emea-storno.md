@@ -2,11 +2,9 @@
 title: Учет с использованием сторно
 description: Учет с использованием сторно — практика использования отрицательных чисел для изменения записей учета в журналах на противоположные.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f9a99383aca88306a29f15ba139076c9c3c81e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e1d5b0ae6191204b7dd3be4e9c446d704263e67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236213"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832678"
 ---
 # <a name="storno-accounting"></a>Учет с использованием сторно
 

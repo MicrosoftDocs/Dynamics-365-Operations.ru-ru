@@ -2,11 +2,9 @@
 title: Удаленные или устаревшие функции Dynamics 365 Finance
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474071"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836921"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ ms.locfileid: "5474071"
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Хранилище LCS в качестве параметра хранения для конфигураций электронной отчетности
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Заменяется новым глобальным репозиторием Regulatory Configuration Services (RCS) |
 | **Заменена другой функцией?**   | Да |
@@ -51,7 +49,7 @@ ms.locfileid: "5474071"
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Форматы электронной отчетности "Декларация по НДС (CZ)" и "Экспорт инструкций управления (CZ)" Чешской Республики
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Заменяются новыми форматами |
 | **Заменена другой функцией?**   | Да |
@@ -61,7 +59,7 @@ ms.locfileid: "5474071"
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Формат электронной отчетности "Формат экспорта проводок книги учета (BE)" и соответствующая модель "Экспорт проводок книги учета (BE)" для Бельгии
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Заменено новым форматом электронной отчетности в модели "Стандартный файл аудита (SAF-T)".  |
 | **Заменена другой функцией?**   | Да |
@@ -71,7 +69,7 @@ ms.locfileid: "5474071"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Отчет "НДС 100" для Соединенного Королевства в формате SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Заменяется новым форматом электронной отчетности — формат "Декларации по НДС в Excel (UK)" в модели "Модель налоговой декларации".  |
 | **Заменена другой функцией?**   | Да |
@@ -83,7 +81,7 @@ ms.locfileid: "5474071"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Поддержка Internet Explorer 11 для Dynamics 365 устарела
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Начиная с декабря 2020 года поддержка Microsoft Internet Explorer 11 всех продуктов Dynamics 365 устарела, и Internet Explorer 11 не будет поддерживаться после августа 2021 года.<br><br>Это повлияет на клиентов, использующих продукты Dynamics 365, которые разработаны для использования с помощью интерфейса Internet Explorer 11. После августа 2021 года Internet Explorer 11 не будет поддерживаться для подобных продуктов Dynamics 365. |
 | **Заменена другой функцией?**   | Мы рекомендуем пользователям переходить на Microsoft Edge.|
@@ -95,7 +93,7 @@ ms.locfileid: "5474071"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Польский отчеты SSRS: Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС – Справочник по функциям PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Юридически не требуется.  |
 | **Заменена другой функцией?**   | Да (формат Excel для стандартного файла аудита с декларацией НДС — JPK_VDEK) |
@@ -107,7 +105,7 @@ ms.locfileid: "5474071"
 
 ### <a name="norwegian-standard-main-accounts"></a>Норвежские стандартные счета ГК
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Перепроектирование  |
 | **Заменена другой функцией?**   | Да (заменяется на параметры формата электронной отчетности, зависящие от приложения) |
@@ -118,7 +116,8 @@ ms.locfileid: "5474071"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Диалоговое окно "запрос на изменение бизнес-правила" больше не включает раскрывающийся список выбора пользователя
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Изменение функции с выбором группы счетов.  |
 | **Заменена другой функцией?**   | Да |

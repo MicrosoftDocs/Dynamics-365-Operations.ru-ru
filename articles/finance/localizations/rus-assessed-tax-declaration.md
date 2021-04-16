@@ -2,11 +2,9 @@
 title: Налоговая декларация по налогу на имущество (Россия)
 description: В этой теме рассматривается настройка и использование деклараций по налогу на имущество для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2dd406a4baee32c85576ae68f19321dbad0eb887
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5c238b392f643b019c969c04c37b2143999f5a43
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838733"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

@@ -2,11 +2,9 @@
 title: Расчет предложений по количеству канбанов
 description: Эта процедура заключается в оптимизации размера и количества канбанов для конкретного правила канбана путем использования расчета количества канбанов.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 409903740413994fead3f65b12afb414ca5c43ed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 93845129e057b8729e676123967efefb6bca66f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255405"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829338"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Расчет предложений по количеству канбанов
 
