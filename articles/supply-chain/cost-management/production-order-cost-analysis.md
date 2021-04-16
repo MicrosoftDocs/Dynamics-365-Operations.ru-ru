@@ -2,11 +2,9 @@
 title: Анализ затрат по производственному заказу
 description: В этой статье приводятся сведения об анализе затрат, который можно выполнить для завершенных и текущих производственных заказов. Вы можете анализировать оценочные и фактические затраты, используя страницу "Расчет цены" или отчет "Оценка затрат и калькуляция себестоимости". Можно просматривать сведения об оценочных и фактических затратах (и количестве) для каждых компонентной номенклатуры, операции маршрутизации и элемента косвенных затрат.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90145c07ac4f0273288f6d1dddb0d99e9cd4cfd6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50df2a63584d3db0d3b91fabd224e12dffa809d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245307"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809646"
 ---
 # <a name="production-order-cost-analysis"></a>Анализ затрат по производственному заказу
 

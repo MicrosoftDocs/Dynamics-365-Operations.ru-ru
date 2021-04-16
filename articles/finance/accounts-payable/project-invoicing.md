@@ -2,11 +2,9 @@
 title: Выставление накладных по проекту
 description: Эта тема содержит обзор выставления накладных по проекту для проектов "Время и расходы" и проектов "Фиксированная цена". Она содержит сведения о предложениях накладных (предварительные накладные), управлении накладными, Выставлении накладной по промежуточной накладной, выставлении накладных поставщика и кредит-нотах.
 author: TaylorVH
-manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41c5e53969b5ee88e869196e8749dddd58047de2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ec5de48112e473f5570bc4641d58cb1becc0986
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827970"
 ---
 # <a name="project-invoicing"></a>Выставление накладных по проекту
 

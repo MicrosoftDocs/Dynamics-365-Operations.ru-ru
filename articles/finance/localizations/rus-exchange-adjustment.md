@@ -2,11 +2,9 @@
 title: Курсовая разница
 description: В данном разделе содержится информация об учете банковской курсовой разницы для России.
 author: anasyash
-manager: kfend
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 750ccc9d2534f2e5549cd9bad08c283efb7c9332
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7a4ef89b303f7725877dcf4c594e54a537791e25
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240543"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840933"
 ---
 # <a name="exchange-adjustment"></a>Курсовая разница
 

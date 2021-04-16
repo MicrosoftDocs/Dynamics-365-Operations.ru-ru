@@ -2,11 +2,9 @@
 title: Договоры
 description: В этой теме приводятся сведения о договоры продажи и покупки для русской локализации.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a60ef9c33660fa38cca7da6ae21616b8e72e2586
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 394a618eb8fb3613110c6e1dd7ca59e9a6e41a7e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242832"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825759"
 ---
 # <a name="agreements"></a>Договоры
 [!include [banner](../includes/banner.md)]

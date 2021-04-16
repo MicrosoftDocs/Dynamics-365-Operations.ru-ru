@@ -2,11 +2,9 @@
 title: Обзор основных средств
 description: В этой теме содержится информация о модуле основных средств для России.
 author: v-oloski
-manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c8883f4ed3e4c584df3278676a68643165138801
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6acdc20a02eaddada77d1b35c4202d0030c97e13
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240529"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836847"
 ---
 # <a name="fixed-assets-overview"></a>Обзор основных средств
 

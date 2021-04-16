@@ -1,12 +1,10 @@
 ---
-title: Настройка и использование печати этикеток волны
+title: Печать этикеток волны
 description: В этой теме описывается печать этикеток волны и объясняется, как ее настроить.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211774"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840445"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Настройка и использование печати этикеток волны
+# <a name="wave-label-printing"></a>Печать этикеток волны
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,5 +930,8 @@ ms.locfileid: "5211774"
 
 Для большинства из этих страниц можно найти соответствующую функцию, выбрав **Этикетки волны** в группе **Связанные сведения** на вкладке **Отгрузки** в области действий.
 
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+- [Повторная печать и аннулирование этикеток волны](reprint-and-void-wave-labels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

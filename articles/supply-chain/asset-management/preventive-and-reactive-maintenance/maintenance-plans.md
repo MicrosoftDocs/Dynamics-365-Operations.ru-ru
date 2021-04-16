@@ -1,12 +1,10 @@
 ---
 title: Планы обслуживания
 description: В этом разделе описываются планы обслуживания в «Управлении активами».
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500822"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839615"
 ---
 # <a name="maintenance-plans"></a>Планы обслуживания
 
@@ -195,8 +193,6 @@ ms.locfileid: "5500822"
 
 ## <a name="counter-based-maintenance-enhancements"></a>Усовершенствования обслуживания на основе счетчиков
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Функция *Усовершенствования обслуживания на основе счетчиков* вводит следующие функциональные возможности:
 
 - Параметр для автоматической вставки счетчика со значением *0* (ноль) при создании актива. Этот параметр может быть полезен, если используется прогнозное обслуживание на основе счетчиков. Если функция *Усовершенствования обслуживания на основе счетчиков* не используется, счетчики со значением *0* (ноль) должны вставляться вручную.
@@ -209,7 +205,7 @@ ms.locfileid: "5500822"
 Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление активами*
-- **Имя функции:** *(Предварительная версия) Улучшения обслуживания на основе счетчиков*
+- **Имя функции:** *Улучшения обслуживания на основе счетчиков*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Создание и инициализация счетчиков при создании актива
 

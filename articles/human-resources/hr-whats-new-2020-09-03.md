@@ -2,11 +2,9 @@
 title: Что нового и что изменилось в Dynamics 365 Human Resources (03 сентября 2020 г.)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 3 сентября 2020 года.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b1cf348425cba71024ee0d158d42bb1071260d09
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467707"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (3 сентября 2020 г.)
 
