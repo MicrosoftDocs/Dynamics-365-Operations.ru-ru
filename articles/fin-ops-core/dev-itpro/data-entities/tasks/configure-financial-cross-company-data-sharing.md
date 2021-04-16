@@ -2,7 +2,6 @@
 title: Настройка совместного использования финансовых данных компаниями
 description: В этой процедуре описывается, как настроить, включить, проверить и разрешить конфликты при обмене данными между компаниями.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 167f43224591462a4db42d041487ff8f66b02cd9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 35ec8fc809841c0830224646fb57b0e4e4d40ef4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561082"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752300"
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Настройка совместного использования финансовых данных компаниями
 

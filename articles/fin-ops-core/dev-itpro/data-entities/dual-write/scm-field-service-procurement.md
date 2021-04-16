@@ -2,7 +2,6 @@
 title: Интеграция закупок между Supply Chain Management и Field Service
 description: В этой теме описывается, как интеграция двойной записи поддерживает создание и обновления заказов на покупку из Supply Chain Management и Field Service.
 author: RichardLuan
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
-ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
+ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5579980"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750698"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Интеграция закупок между Supply Chain Management и Field Service
 

@@ -2,7 +2,6 @@
 title: Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
 description: В этой теме описывается, как использовать новую конфигурацию формата электронной отчетности (ER), чтобы создавать электронные документы для обработки платежей.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dd39b3faba90b38b837cd5167b216f9faa31d82
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f62d7cd690406647886f9d6d1cb1491b691d4159
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570224"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752492"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
 
