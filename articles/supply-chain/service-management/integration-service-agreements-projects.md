@@ -2,11 +2,9 @@
 title: Интеграция для соглашений на сервисное обслуживание и проектов
 description: При работе с соглашениями о сервисном обслуживании и строками соглашений о сервисном обслуживании используются данные, настроенные в областях раздела "Управление и учет по проектам".
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd0a7de17e8ff098220fd183b714b77225cc217f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c9855915bd4d1f8ebb0c73bf53e7032af4972c45
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247318"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831580"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Интеграция для соглашений на сервисное обслуживание и проектов 
 

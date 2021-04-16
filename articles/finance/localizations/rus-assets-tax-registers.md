@@ -2,11 +2,9 @@
 title: Регистры основных средств и нематериальных активов
 description: В этом разделе представлены сведения о регистрах основных средств и нематериальных активов.
 author: anasyash
-manager: AnnBe
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a26f1916b2fd02fe6a7f7afc3d5c92d81a176563
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73b3aa19e2987c664d98effba118d1741b8c2685
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228066"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838707"
 ---
 # <a name="fixed-assets-and-intangible-assets-registers"></a>Регистры основных средств и нематериальных активов
 [!include [banner](../includes/banner.md)]

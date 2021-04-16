@@ -2,11 +2,9 @@
 title: Обработка и печать счетов-фактур
 description: В этом разделе приводятся сведения о работе со счетами-фактурами по накладным.
 author: anasyash
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a4c49620a3ef858b7e00edb83b3f09af4471de29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2c152e881a38b09e62f4776570efc9b6ba42291b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232419"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842293"
 ---
 # <a name="invoice-factures-processing-and-printing"></a>Обработка и печать счетов-фактур
 

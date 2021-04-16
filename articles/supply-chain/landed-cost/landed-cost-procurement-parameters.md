@@ -2,7 +2,6 @@
 title: Параметры модуля "Закупки и источники" для стоимости на складе
 description: В этом разделе описывается, как настроить соответствующие параметры закупок и источников при использовании модуля стоимости на складе.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500750"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833937"
 ---
 # <a name="procurement-and-sourcing-parameters-for-landed-cost"></a>Параметры модуля "Закупки и источники" для стоимости на складе
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 На странице **Параметры модуля "Закупки и источники"** есть несколько настроек, которые особенно подходят при использовании модуля **Стоимость на складе**. Используйте диалоговое окно **Обновление строк заказа**, которое открывается со страницы **Параметры модуля "Закупки и источники"**, чтобы указать, должны ли строки заказа на покупку автоматически обновляться при внесении изменений в заголовок заказа на покупку.
 

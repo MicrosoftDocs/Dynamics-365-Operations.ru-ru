@@ -2,11 +2,9 @@
 title: Отчеты о запасах
 description: В данном разделе содержится информация об отчетах о запасах, доступных для России.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8f02f51be1c97c6f13d89fd51dbd70c468874ff0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6e900e2b984755380a6265174f732bad65a43ef
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232421"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842297"
 ---
 # <a name="inventory-reports"></a>Отчеты о запасах
 [!include [banner](../includes/banner.md)]

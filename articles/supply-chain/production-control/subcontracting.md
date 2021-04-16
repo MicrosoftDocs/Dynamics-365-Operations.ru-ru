@@ -2,11 +2,9 @@
 title: Субподряд
 description: Эта тема представляет собой пошаговое руководство по субподряду в производстве в Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255549"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825190"
 ---
 # <a name="subcontracting"></a>Субподряд
 
@@ -210,7 +208,7 @@ ms.locfileid: "5255549"
 
     ![Два набора работы для комплектации сырья на странице "Работа"](./media/subcontract22_work-page.png)
 
-26. Запустите приложение склада для обработки работы склада для операции 10.
+26. Запустите мобильное приложение управления складом для обработки работы склада для операции 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ ms.locfileid: "5255549"
     - В поле **От операции №** выберите **10**.
     - В поле **До операции №** выберите **10**.
 
-    ![Значения, заданные на вкладке "Общие"](./media/subcontract23_start-dialog.png)
+    ![Значения, заданные на вкладке "Общие" 1](./media/subcontract23_start-dialog.png)
 
 31. Выберите **OK**, чтобы закрыть диалоговое окно **Начало** и вернуться на страницу **Все производственные заказы**.
 
     Обратите внимание, что статус производственного заказа теперь **Начато**. Материалы для операции 10 потребляются путем автоматической разноски журнала ведомостей комплектации. Потребление времени для операции 10 учитывается путем автоматической разноски журнала карт маршрутов.
 
-32. Запустите приложение склада для обработки работы склада для операции 20.
+32. Запустите мобильное приложение управления складом для обработки работы склада для операции 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ ms.locfileid: "5255549"
     - В поле **Количество** введите **10**.
     - Установите для параметра **Разнести отборочную накладную** значение **Нет**.
 
-    ![Значения, заданные на вкладке "Общие"](./media/subcontract24_general-tab.png)
+    ![Значения, заданные на вкладке "Общие" 2](./media/subcontract24_general-tab.png)
 
 35. Выберите **OK**, чтобы закрыть диалоговое окно **Начало** и вернуться на страницу **Все производственные заказы**.
 

@@ -2,7 +2,6 @@
 title: Настройка значений параметров учета затрат
 description: При настройке модуля стоимости на складе можно определить несколько наборов общих значений, которые будут доступны при выборе определенных типов значений параметров учета затрат в других частях приложения. В этой теме описан порядок настройки таких наборов значений.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841943"
 ---
 # <a name="costing-parameter-values-setup"></a>Настройка значений параметров учета затрат
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 При настройке модуля **Стоимость на складе** можно определить несколько наборов общих значений и связанных параметров для каждого значения. Эти значения затем будут доступны при выборе конкретных типов значений параметров учета затрат в других частях приложения. В этой теме описан порядок настройки таких наборов значений.
 

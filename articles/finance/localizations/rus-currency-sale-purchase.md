@@ -2,11 +2,9 @@
 title: Продажи, покупки и переводы в иностранной валюте
 description: Этот раздел описывает функциональные возможности для регистрации проводок для продажи, покупки и перевода валюты.
 author: anasyash
-manager: AnnBe
 ms.date: 02/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2de94a6b056ab1821d8812f1152f5fd5b9c41a47
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 307e4d90b235801ee702ef0e137fd31a95c0e7b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255681"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840949"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажи, покупки и переводы в иностранной валюте
 

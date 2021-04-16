@@ -2,11 +2,9 @@
 title: Настройка основных средств (Россия)
 description: В этом разделе описывается настройка основных средств для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aef79050d4cfb2af2e392a398205722cc84a09bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 924723f9ef9ada46f9fa917f2804b447c427d099
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222057"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836812"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 

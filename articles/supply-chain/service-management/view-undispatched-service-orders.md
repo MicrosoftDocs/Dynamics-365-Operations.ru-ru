@@ -2,11 +2,9 @@
 title: Просмотр не подготовленных к отправке заказов на обслуживание
 description: В этом разделе описывается, как просмотреть мероприятия в заказе на сервисное обслуживание, которым не назначен работник из группы исполнения.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11c4c066b16d0a16472842ea0711fcac14b26ed8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a93fccc1b2c73e0c32898b58384f590d393d939
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222785"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824110"
 ---
 # <a name="view-undispatched-service-orders"></a>Просмотр не подготовленных к отправке заказов на обслуживание 
 

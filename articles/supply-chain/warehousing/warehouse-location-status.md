@@ -2,11 +2,9 @@
 title: Статус места хранения на складе
 description: В этом разделе представлен обзор функции статуса местонахождения склада.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248627"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837353"
 ---
 # <a name="warehouse-location-status"></a>Статус места хранения на складе
 
@@ -53,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management включает нескольк
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Подготовьте образец данных, необходимый для примера сценария
 
-Перед началом работы со сценарием необходимо активировать примеры данных и настроить функцию, как описано в этом разделе. Чтобы выполнить пример сценария, необходимо использовать приложение склада или эмулятор на основе браузера. Представленные здесь шаги используют приложение склада. Шаги для эмулятора на основе браузера аналогичны.
+Перед началом работы со сценарием необходимо активировать примеры данных и настроить функцию, как описано в этом разделе. Чтобы выполнить пример сценария, необходимо использовать мобильное приложение управления складом или эмулятор на основе браузера. Представленные здесь шаги используют мобильное приложение управления складом. Шаги для эмулятора на основе браузера аналогичны.
 
 #### <a name="use-the-usmf-legal-entity"></a>Использование юридического лица USMF
 

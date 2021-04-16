@@ -2,11 +2,9 @@
 title: Рабочая область управления затратами
 description: В этой теме содержится информация о рабочей области "Управление затратами". Эта рабочая область является центральной точкой, где менеджеры, ответственные за управление объектом затрат или группой объектов затрат в пределах аналитики, могут получить доступ к отчетам.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833050"
 ---
 # <a name="cost-control-workspace"></a>Рабочая область управления затратами 
 

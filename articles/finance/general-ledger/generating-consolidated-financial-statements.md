@@ -2,11 +2,9 @@
 title: Формирование консолидированных финансовых отчетов
 description: В этой теме описываются различные сценарии, в которых возможно формирование консолидированных финансовых отчетов.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0078d536e55da0bfd3d8b808eb05c8273aba792d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249151"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826698"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Формирование консолидированных финансовых отчетов
 
@@ -63,7 +61,7 @@ ms.locfileid: "5249151"
 
 На следующем рисунке показано определение столбцов в формате "друг рядом с другом".
 
-![Определение столбцов в формате "друг рядом с другом"](./media/column-definition-side-by-side-format.png "Определение столбцов в формате "друг рядом с другом"")
+![Определение столбцов в формате "друг рядом с другом"](./media/column-definition-side-by-side-format.png "Определение столбцов в формате &quot;друг рядом с другом&quot;")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Консолидации на основе организационных структур, созданных из юридических лиц
 Организационные иерархии, содержащие аналитики или юридические лица, динамически создают аналитические структуры в модуле "Финансовая отчетность". Простой способ оптимизировать консолидацию — это добавить в отчет в модуле "Финансовая отчетность" организационную иерархию. На основании даты отчета модуль Financial Reporting выберет организационную иерархию на дату вступления силу или перед ней, как показано на следующем рисунке.

@@ -2,11 +2,9 @@
 title: Обмен электронными сообщениями
 description: В этом разделе содержится обзор и сведения о настройке для обмена электронными сообщениями в Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 214d5cc2c3670b22fb4c28e5868fd9aade12ce84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236778"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823796"
 ---
 # <a name="electronic-messaging"></a>Электронные сообщения
 

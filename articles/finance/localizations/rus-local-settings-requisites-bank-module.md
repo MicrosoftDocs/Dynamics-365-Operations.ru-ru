@@ -2,11 +2,9 @@
 title: Настройка банковских счетов (Россия)
 description: В этой теме содержится информация о локальных параметрах и необходимых условиях для банковских модулей для России.
 author: anasyash
-manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankGroup, BankAccountTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 787d96c602a73ff9984c2fde6ef20a5f7c4ba932
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d2b64746380bf95cfd2e3f66ef5563ee4d856a39
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219855"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836839"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 

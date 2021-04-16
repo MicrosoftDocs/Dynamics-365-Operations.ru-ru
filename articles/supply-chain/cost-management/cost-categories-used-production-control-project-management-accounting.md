@@ -2,11 +2,9 @@
 title: Категории затрат, используемые в учете управлении производством и управлении проектом
 description: Некоторые типы производственных работ могут применяться к оценкам времени и отчетам проекта. В этой статье представлена информация о категориях затрат, которые необходимо определить для этих типов производственных работ для целей производства и для целей проекта.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540d020820222b024f838f8156aaef823605e950
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bffb56fa195c040520ad35bbadaa90816f14dc2a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228715"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839471"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Категории затрат, используемые в учете управлении производством и управлении проектом
 

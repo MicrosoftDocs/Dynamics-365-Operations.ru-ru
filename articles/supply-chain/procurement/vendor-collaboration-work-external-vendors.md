@@ -1,12 +1,10 @@
 ---
 title: Совместная работа с внешними поставщиками
 description: В этом разделе объясняется, как специалисты по закупкам могут сотрудничать с внешними поставщиками для обмена сведениями о заказах на покупку и консигнационных запасах.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b375e1916344d94c2eaf2d951cd72744917d9edf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246653"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837665"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Совместная работа с внешними поставщиками
 
