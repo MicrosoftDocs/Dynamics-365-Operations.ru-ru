@@ -2,11 +2,9 @@
 title: Поместить на стену — поместить в магазин
 description: В этой теме приводятся сведения о функциональности "Поместить на стену — поместить в магазин". Эта функция позволяет обрабатывать сценарии, в которых необходимо консолидировать продукт в промежуточной области предварительной упаковки, используя настраиваемые критерии. Оно помогает уменьшить время комплектации, поскольку допускает комплектацию на одном целевом грузоместе и может использовать больше позиций размещения, чем кластерная комплектация.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228521"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823295"
 ---
 # <a name="put-to-wall---put-to-store"></a>Поместить на стену — поместить в магазин
 
@@ -524,7 +522,7 @@ ms.locfileid: "5228521"
 
 Если позиции сортировки должны быть закрыты вручную, параметр **Автоматическое закрытие позиции сортировки** для шаблона исходящей сортировки должен иметь значение *Нет*, и закрытие должно быть выполнено до того, как запасы могут быть перемещены в область двери отсека. Позиции могут быть закрыты различными способами:
 
-- Через приложение склада:
+- Через мобильное приложение управления складом:
 
     - Пользователь может отсканировать одну из номенклатур, уже расположенных в данной позиции, затем нажать кнопку **Закрыть**, чтобы закрыть эту позицию.
     - Если пользователь сканирует контейнер, который уже отсортированный контейнер, выводится сообщение об ошибке. Однако пользователь все равно может продолжать закрытие этой позиции.

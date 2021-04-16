@@ -2,11 +2,9 @@
 title: Переопределение принципа резервирования по умолчанию для материалов в производстве
 description: В этой теме описывается, как задать принцип резервирования по умолчанию для каждой группы моделей номенклатуры, чтобы для каждой номенклатуры, которая является частью формулы производственной спецификации или заказа партии, можно было автоматически применять разные принципы резервирования.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814810"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Переопределение принципа резервирования по умолчанию для материалов в производстве
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Функция *Переопределение резервирования производства по умолчанию* позволяет установить принцип резервирования по умолчанию для каждой группы моделей номенклатуры. Таким образом, для каждой номенклатуры, которая является частью формулы спецификации или заказа партии, могут быть автоматически применены разные принципы резервирования. Можно выбрать, должна ли каждая группа номенклатурных моделей переопределять принцип резервирования по умолчанию, заданный для заказа, и какой принцип резервирования следует использовать вместо него (*вручную*, *оценка*, *планирование*, *выпуск* или *начало*).
 

@@ -2,11 +2,9 @@
 title: Декларация НДС (Россия)
 description: В данном разделе содержится информация о декларации НДС для России.
 author: anasyash
-manager: AnnBe
 ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3435e19bdbe65e8893df71b3be7894e2c24012b6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0949de63488407e7109616c1f415885bd9f05f1d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242844"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822745"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 

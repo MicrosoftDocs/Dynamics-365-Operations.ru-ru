@@ -2,11 +2,9 @@
 title: Списание РБП (Россия)
 description: Этот раздел объясняет, как списать РБП и как реверсировать списание РБП.
 author: anasyash
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 738e436871b7e01ce2c4123584445e4407fb4ebf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e3774de9cd7d84223d646f91ed8aa01ec89a8f5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208437"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818202"
 ---
 # <a name="write-off-deferrals-russia"></a>Списание РБП (Россия)
 

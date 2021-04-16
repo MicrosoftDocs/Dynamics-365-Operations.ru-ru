@@ -2,11 +2,9 @@
 title: Предварительный просмотр проводок ГК (Россия)
 description: В этой теме поясняется, как предварительно просмотреть проводки ГК в Microsoft Dynamics 365 Finance для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b893501506abf567564830c8e2bbe891429d42ce
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d202ba85b64357cd84b365654e0b812d39845152
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222055"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822719"
 ---
 # <a name="preview-ledger-transactions-russia"></a>Предварительный просмотр проводок ГК (Россия)
 

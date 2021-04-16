@@ -2,11 +2,9 @@
 title: Настройка ставок, привязанных к индексу
 description: В этом разделе описывается, как настроить ставки, привязанные к индексу. Ставки, привязанные к индексам, требуются, если ваша организация связывает суммы платежей арендной платы с набором ставок, привязанных к индексу.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b6d201329996f23d94c0fc76a9635d3bb99c931e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6424248e8d01d04720ad65e80aaa543b42abccc6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249685"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823031"
 ---
 # <a name="set-up-index-rates"></a>Настройка ставок, привязанных к индексу
 

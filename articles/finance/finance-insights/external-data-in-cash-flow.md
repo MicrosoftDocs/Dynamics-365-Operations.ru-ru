@@ -2,11 +2,9 @@
 title: Использование внешних данных в прогнозах движения денежных средств (предварительная версия)
 description: В этой теме описываются шаги настройки, которые необходимо выполнить, чтобы внешние данные могли быть введены или импортированы в прогнозы движения денежных средств.
 author: rcarlson
-manager: AnnBe
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 03318eaae0b3329dc758c48202f8f47ca2c4ab08
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245576"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818631"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Использование внешних данных в прогнозах движения денежных средств (предварительная версия)
 

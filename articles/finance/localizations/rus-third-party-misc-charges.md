@@ -2,11 +2,9 @@
 title: Сторонние накладные расходы
 description: В этой теме объясняется, как обрабатывать услуги, которые приобретаются, когда отдельная накладная используется в качестве накладных расходов.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f0f3253e1985c6d854c241ced9da88c0ea2c182c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c8c218dfddf220c73a7a3d21d098b09ff315351d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244462"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818206"
 ---
 # <a name="third-party-miscellaneous-charges"></a>Сторонние накладные расходы
 

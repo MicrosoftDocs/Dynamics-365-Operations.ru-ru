@@ -2,11 +2,9 @@
 title: Транспортные средства и недвижимость как основные средства (Россия)
 description: В этом разделе описан порядок настройки и использования транспортных средств и недвижимости в качестве основных средств для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a7d8db9b9e7cc978eb86de4fd6a615534af0d2a5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 706f35bd527b9dc5f74c4ecf9c4ae88b0b1f680f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208439"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821869"
 ---
 # <a name="vehicles-and-realty-as-fixed-assets-russia"></a>Транспортные средства и недвижимость как основные средства (Россия)
 

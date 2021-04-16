@@ -2,11 +2,9 @@
 title: Сторнирование разноски журнала
 description: В этой теме описываются возможности, позволяющие сторнировать ваучеры из списка проводок по ваучеру или из финансовых журналов.
 author: MikeFalkner
-manager: AnnBe
 ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19f7ea540035a3bc9eba445c508cb6f29e4bd20f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205010"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815412"
 ---
 # <a name="reverse-journal-posting"></a>Сторнирование разноски журнала
 

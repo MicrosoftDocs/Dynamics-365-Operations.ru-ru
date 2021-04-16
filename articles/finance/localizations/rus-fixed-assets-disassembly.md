@@ -2,11 +2,9 @@
 title: Частичная разборка (ликвидация) ОС
 description: В этом разделе содержатся сведения о частичной разборке или ликвидации основных средств для России.
 author: v-oloski
-manager: AnnBe
 ms.date: 09/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RAssetPosting
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c85ce32ae71c4e948ba2071bdd70598e2ce0468d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 575fe89d8966b368aaaf2a97f6c4453d4e3e9b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240533"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822727"
 ---
 # <a name="partial-fixed-asset-disassembly-liquidation"></a>Частичная разборка ОС (ликвидация)
 

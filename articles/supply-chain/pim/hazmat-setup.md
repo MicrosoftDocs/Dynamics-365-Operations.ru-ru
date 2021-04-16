@@ -2,11 +2,9 @@
 title: Настройка опасных материалов
 description: В этой теме объясняется, как настроить данные, необходимые для классификации номенклатур как опасных материалов. При создании заказа на продажу, включающего номенклатуру, которая классифицируется как опасный материал, система создает документацию на опасные материалы для этого заказа на продажу, когда он отгружается.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266111"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820354"
 ---
 # <a name="set-up-hazardous-materials"></a>Настройка опасных материалов
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Чтобы использовать функцию опасных материалов, необходимо сначала настроить данные, необходимые для классификации номенклатур как опасные материалы. Затем при создании заказа на продажу, включающего номенклатуру, которая классифицируется как опасный материал, система создает документацию на опасные материалы для этого заказа на продажу, когда он отгружается.
 

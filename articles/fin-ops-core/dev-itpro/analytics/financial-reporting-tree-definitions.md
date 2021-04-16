@@ -1,27 +1,26 @@
 ---
 title: Определения дерева отчетности в финансовых отчетах
 description: В этой статье описываются определения дерева отчетности. Определение дерева отчетности — это компонент отчета, определяющий структуру организации.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568783"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819946"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Определения дерева отчетности в финансовых отчетах
 
@@ -74,7 +73,7 @@ ms.locfileid: "5568783"
     | Включить/расположение знаков       | В этом разделе перечислены аналитики, определенные в финансовых данных, и отображается число символов в самом длинном значении, определенном для каждой аналитики. Установите флажок для аналитики, чтобы включить эту аналитику в иерархию дерева отчетности. |
     | Иерархия и диапазоны сегментов     | В этом разделе представлена иерархия аналитик. Вы можете двигать аналитики в списке для того, чтобы изменить их порядок отчетности. В полях **От аналитики** и **До аналитики** укажите диапазон значений для каждой аналитики. Если диапазон не указан, все значения аналитик будут вставляться в дерево отчетности.<blockquote>[!NOTE] Если используется несколько аналитик, в результатах будут возвращены только разнесенные комбинации аналитик.</blockquote> |
 
-    Снимок экрана с примером диалогового окна **Вставить единицы отчетности из аналитик** см. раздел "Пример вставки единиц отчетности из диалогового окна аналитик" далее в этой статье.
+    Иллюстрацию с примером диалогового окна **Вставить единицы отчетности из аналитик** см. в разделе "Пример вставки единиц отчетности из диалогового окна аналитик" далее в этой статье.
 
 5. Чтобы создать дополнительные сегменты (например, расщепив один сегмент на два более коротких сегмента), щелкните правильное расположение в поле **Положение символа** и щелкните **Расщепление сегментов**.
 6. Чтобы объединить два сегмента в один сегмент, щелкните в любом поле сегментов, чтобы объединить сегменты, и щелкните **Совмещение сегментов**.
@@ -186,23 +185,23 @@ ms.locfileid: "5568783"
 - Единицы отчетности с самым низким уровнем детализации ("Внутренние продажи", "Автоматические продажи", "Обслуживание клиентов" и "Операции") представляют подразделения в финансовых данных. Эти единицы отчетности — в заштрихованной области диаграммы.
 - Общие единицы более высокого уровня суммируют информацию от подробных единиц.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Структура сводного отчета Contoso — пример 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Структура единиц отчетности — пример 2
 
 На следующей схеме представлено дерево отчетности, которое имеет организационную структуру, разделенную на бизнес-функции.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Структура сводного отчета Contoso — пример 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Пример вставки единиц отчетности из диалогового окна аналитик
 
 На следующем рисунке показан пример диалогового окна **Вставить единицы отчетности из аналитик**. Например, в результате будет возвращена комбинация бизнес-единиц, центров затрат и подразделений.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Вставить элементы аналитической структуры](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Полученное определение дерева отчетности сортируется по подразделению, затем — по центру затрат, а затем — по подразделению. Аналитикой для пятой единицы отчетности является **Бизнес-единица = \[001\], центр затрат =\[\], подразделение = \[022\]**. Она определяет единицу отчетности для счетов, которые относятся к бизнес-единице 001 и подразделению 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Иллюстрация аналитической структуры](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Примеры свертки данных
 
@@ -210,11 +209,11 @@ ms.locfileid: "5568783"
 
 #### <a name="example-1"></a>Пример 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Свертка по нескольким компаниям](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Пример 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Свертка подразделений между компаниями](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

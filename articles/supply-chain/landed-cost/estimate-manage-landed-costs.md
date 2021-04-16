@@ -2,7 +2,6 @@
 title: Оценка и управление стоимостью на складе
 description: Система использует настройку автоматических затрат для определения оценки для стоимости на складе. В этой теме объясняется, как можно задать различные сценарии для более точной оценки.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501278"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823441"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Оценка и управление стоимостью на складе
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Система использует [настройку автоматических затрат](auto-cost-setup.md) для определения оценки для стоимости на складе. Кроме того, в этой теме объясняется, как можно задать различные сценарии для более точной оценки. Эти сценарии хранятся. Поэтому их можно просмотреть позже и сравнить с фактическими значениями в отчете. Также можно обновить цену номенклатуры.
 

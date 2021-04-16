@@ -2,11 +2,9 @@
 title: Задержки
 description: В этом разделе представлена информация о задержанных датах в сводном планировании. Задержанная дата — это реалистичный срок выполнения, который проводка получает, если самая ранняя дата выполнения, которую сводное планирование вычисляет, более запрошенной даты.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 195a966ea8baee7783af84ec5f178d7c35ee5cea
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207095"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813683"
 ---
 # <a name="delays"></a>Задержки
 
