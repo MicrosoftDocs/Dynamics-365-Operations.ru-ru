@@ -2,7 +2,6 @@
 title: Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 2. Настройка вычислений)
 description: В этой теме описывается, как настроить формат электронный отчетности для выполнения инвентаризации и суммирования на основе данных уже созданного текстового вывода. (Часть 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6eb3d686e8f60de51001deffb4c2460c181a4ab
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a14fe079515b176cbcda74852ae2ad456dd6434a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749029"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 2. Настройка вычислений)
 

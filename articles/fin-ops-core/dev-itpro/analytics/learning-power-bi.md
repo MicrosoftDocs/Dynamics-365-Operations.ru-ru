@@ -2,7 +2,6 @@
 title: Содержимое Power BI "Обучение"
 description: В этом разделе описывается содержимое Power BI "Обучение".
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26e895abe6154b395ddc25b136f84397c04037fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 668308b0a5cfe2fe242a218250c4f714d6f2c279
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568605"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744271"
 ---
 # <a name="learning-power-bi-content"></a>Содержимое Power BI "Обучение"
 

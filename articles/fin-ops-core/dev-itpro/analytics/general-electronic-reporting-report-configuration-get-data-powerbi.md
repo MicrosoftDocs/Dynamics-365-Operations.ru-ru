@@ -2,7 +2,6 @@
 title: Настройка электронной отчетности (ER) для загрузки данных в Power BI
 description: В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра в службы Power BI.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568709"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750090"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Настройка электронной отчетности (ER) для загрузки данных в Power BI
 

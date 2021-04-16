@@ -2,7 +2,6 @@
 title: Ввод табелей учета рабочего времени проекта
 description: Эта процедура позволят создать табель учета рабочего времени с помощью пустой формы такого табеля.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd0389584cb723b403dcd5f6bec67d2eb969048f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1b7be66d087942beef3f99e1f544627eca8b2156
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565012"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751942"
 ---
 # <a name="enter-project-timesheets"></a>Ввод табелей учета рабочего времени проекта
 

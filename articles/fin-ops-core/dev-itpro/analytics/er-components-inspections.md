@@ -2,7 +2,6 @@
 title: Проверка настроенного компонента электронной отчетности для предотвращения неполадок среды выполнения
 description: В этой теме объясняется, как проверить настроенные компоненты электронной отчетности (ER), чтобы исключить возможные проблемы среды выполнения.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574133"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753848"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Проверка настроенного компонента электронной отчетности для предотвращения неполадок среды выполнения
 
@@ -666,19 +665,19 @@ ms.locfileid: "5574133"
 
 ![Ошибка среды выполнения, возникающей при выполнении сопоставления формата на странице конструктора формата](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Автоматическое разрешение
+### <a name="automatic-resolution&quot;></a>Автоматическое разрешение
 
 Нет параметров для автоматического исправления этой проблемы.
 
-### <a name="manual-resolution"></a>Разрешение вручную
+### <a name=&quot;manual-resolution&quot;></a>Разрешение вручную
 
-#### <a name="option-1"></a>Параметр 1
+#### <a name=&quot;option-1&quot;></a>Параметр 1
 
 Удалите флаг **Кэш** из источника данных **Vendor**. Источник данных **FilteredVendor** затем становится исполняемым, но обращение к источнику данных **Vendor**, на который есть ссылка в таблице VendTable, будет выполняться при каждом вызове источника данных **FilteredVendor**.
 
-#### <a name="option-2"></a>Параметр 2
+#### <a name=&quot;option-2&quot;></a>Параметр 2
 
-Измените выражение источника данных **FilteredVendor** с `FILTER(Vendor, Vendor.AccountNum="US-101")` на `WHERE(Vendor, Vendor.AccountNum="US-101")`. В этом случае обращение к источнику данных **Vendor**, на который есть ссылка в таблице VendTable, будет производиться только при первом вызове источника данных **Vendor**. Однако выбор записей будет выполнен в памяти. Таким образом, такой подход может привести к снижению производительности.
+Измените выражение источника данных **FilteredVendor** с `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` на `WHERE(Vendor, Vendor.AccountNum="US-101")`. В этом случае обращение к источнику данных **Vendor**, на который есть ссылка в таблице VendTable, будет производиться только при первом вызове источника данных **Vendor**. Однако выбор записей будет выполнен в памяти. Таким образом, такой подход может привести к снижению производительности.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Отсутствует привязка
 

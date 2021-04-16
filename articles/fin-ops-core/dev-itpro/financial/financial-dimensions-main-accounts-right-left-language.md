@@ -2,7 +2,6 @@
 title: Финансовые аналитики и счета ГК в языках с направлением письма справа налево
 description: В этой теме описаны решения, которые требуется принимать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитиках и счетах ГК.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 496869bd3e7a372a5ec791df66fb7a8c43ccad13
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 508f4ed4de367770acddc77a6ff5e7e36fd20729
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561008"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748145"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Финансовые аналитики и счета ГК в языках с направлением письма справа налево
 

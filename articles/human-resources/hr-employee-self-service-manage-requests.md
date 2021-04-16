@@ -2,11 +2,9 @@
 title: Управление запросами на отпуска и отсутствия
 description: Просмотр и утверждение запросов на отпуск и отсутствие в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86e6868b5172ea113fab63780773633427a45a1a
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463198"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790748"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Управление запросами на отпуска и отсутствие
 
