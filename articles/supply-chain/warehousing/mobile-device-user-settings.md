@@ -2,11 +2,9 @@
 title: Параметры пользователя мобильного устройства
 description: В этой теме объясняется, как управлять настройками пользователя мобильного устройства для складских работников.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501206"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837473"
 ---
 # <a name="mobile-device-user-settings"></a>Параметры пользователя мобильного устройства
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В новом мобильном приложении "Управление складом" есть набор параметров, относящихся к приложению, которые помогают адаптировать взаимодействие с пользователем. Так как приложение может использоваться на устройствах различных размеров и конфигураций экрана (например, планшеты, телефоны и др.), может быть полезно централизованно управлять этими параметрами в Microsoft Dynamics 365 Supply Chain Management.
 

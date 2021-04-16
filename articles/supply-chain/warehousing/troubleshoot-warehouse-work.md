@@ -2,11 +2,9 @@
 title: Устранение неполадок работы склада
 description: В этой теме описывается устранение распространенных проблем, которые могут встретиться при работе с работой склада в Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237067"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837449"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Устранение неполадок работы склада
 
@@ -40,11 +38,11 @@ ms.locfileid: "5237067"
 
 Эта проблема будет устранена изменениями, которые разворачиваются в [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Эти изменения сделают поле **Серийный номер** необязательным, если разрешены пустой прием и пустой расход.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>При обработке перемещений в приложении склада выводится следующее сообщение об ошибке: "Владелец запасов %1не разрешен в этом процессе."
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>При обработке перемещений в мобильном приложении управления складом выводится следующее сообщение об ошибке: "Владелец запасов %1не разрешен в этом процессе."
 
 ### <a name="issue-description"></a>Описание проблемы
 
-Аналитика отслеживания **Владелец** отсутствует, если приложение склада используется для выполнения перемещений. Обычный журнал перемещения запасов из клиента Supply Chain Management будет работать правильно и может быть разнесен только в том случае, если заполнена аналитика **Владелец**.
+Аналитика отслеживания **Владелец** отсутствует, если мобильное приложение управления складом используется для выполнения перемещений. Обычный журнал перемещения запасов из клиента Supply Chain Management будет работать правильно и может быть разнесен только в том случае, если заполнена аналитика **Владелец**.
 
 ### <a name="issue-resolution"></a>Устранение проблемы
 
