@@ -2,7 +2,6 @@
 title: Продажа перспективному клиенту в случае двойной записи
 description: В этом разделе приводятся сведения о продаже перспективному клиенту в случае двойной записи.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 134aeb58db86486195019b4ae6bbbf549542cc07
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561260"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754096"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Продажа перспективному клиенту в случае двойной записи
 
