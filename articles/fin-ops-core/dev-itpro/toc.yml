@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: Использование портала Power с моделью данных субъекта
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Обновление модели субъекта и глобальной адресной книги
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Интеграция примечаний
                               href: data-entities/dual-write/notes-integration.md
                             - name: Ссылка на сопоставление
@@ -714,6 +716,8 @@
               items:
                 - name: X++ и функции отладчика
                   href: dev-tools/new-x-debugger-features.md
+                - name: Требования Visual Studio 2017 к X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Отладка кода X++
                   href: dev-tools/debug-xpp.md
                 - name: Классы EventHandlerResult в сценариях с запросами и ответами
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Даты вступления в силу
               href: dev-tools/date-effectivity.md
-            - name: Лицензирование для независимых поставщиков программного обеспечения
-              href: dev-tools/isv-licensing.md
-            - name: Локальное лицензирование для независимых поставщиков программного обеспечения
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Разработка для независимых поставщиков программного обеспечения
+              items:
+                - name: Привязка модулей X++ к пакетам с использованием ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Лицензирование для независимых поставщиков программного обеспечения
+                  href: dev-tools/isv-licensing.md
+                - name: Локальное лицензирование для независимых поставщиков программного обеспечения
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Общий регламент по защите данных (GDPR)
           items:
             - name: Обзор общего регламента по защите данных
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Интеграция Microsoft Power Platform
           items:
+            - name: Интеграция Microsoft Power Platform с Finance and Operations
+              href: power-platform/overview.md
             - name: Виртуальные объекты
               items:
-                - name: Интеграция Microsoft Power Platform с Finance and Operations
-                  href: power-platform/overview.md
                 - name: Моделирование объектов
                   href: power-platform/entity-modeling.md
                 - name: Управление жизненным циклом приложений
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Управление поддержкой для приложений Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Поддержка и мониторинг производства
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Администрирование системы
           items:
             - name: Домашняя страница администрирования системы
