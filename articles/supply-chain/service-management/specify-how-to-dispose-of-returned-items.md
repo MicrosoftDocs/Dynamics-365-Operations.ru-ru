@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eaeb2589329809e57ac01aba85067e94c15477c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c827df81621346733953dc77e16e269f8c3767a8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817493"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910121"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="d6678-103">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="d6678-103">Specify how to dispose of returned items</span></span> 
+# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="df42d-103">Определение порядка списания возврата</span><span class="sxs-lookup"><span data-stu-id="df42d-103">Specify how to dispose of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d6678-104">При обработке заказа на возврат следует указать код причины, чтобы определить, почему продукт возвращается.</span><span class="sxs-lookup"><span data-stu-id="d6678-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="d6678-105">Необходимо также указать код расстановки и действие метода обработки, чтобы указать, что следует сделать с возвращаемым продуктом.</span><span class="sxs-lookup"><span data-stu-id="d6678-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
+<span data-ttu-id="df42d-104">При обработке заказа на возврат следует указать код причины, чтобы определить, почему продукт возвращается.</span><span class="sxs-lookup"><span data-stu-id="df42d-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="df42d-105">Необходимо также указать код расстановки и действие метода обработки, чтобы указать, что следует сделать с возвращаемым продуктом.</span><span class="sxs-lookup"><span data-stu-id="df42d-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
 
-<span data-ttu-id="d6678-106">Код метода обработки может применяться при создании заказа на возврат, регистрации прибытия номенклатуры или обновления отборочных накладных при прибытии номенклатуры и завершения карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="d6678-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
+<span data-ttu-id="df42d-106">Код метода обработки может применяться при создании заказа на возврат, регистрации прибытия номенклатуры или обновления отборочных накладных при прибытии номенклатуры и завершения карантинного заказа.</span><span class="sxs-lookup"><span data-stu-id="df42d-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
 
-<span data-ttu-id="d6678-107">Можно определить коды методов обработки, которые необходимы для поддержки бизнес-процессов.</span><span class="sxs-lookup"><span data-stu-id="d6678-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="d6678-108">В следующей таблице представлено множество обычно используемых кодов для назначения методов обработки возвращаемого элемента номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="d6678-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
+<span data-ttu-id="df42d-107">Можно определить коды методов обработки, которые необходимы для поддержки бизнес-процессов.</span><span class="sxs-lookup"><span data-stu-id="df42d-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="df42d-108">В следующей таблице представлено множество обычно используемых кодов для назначения методов обработки возвращаемого элемента номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="df42d-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
 
 <table>
 <colgroup>
@@ -41,87 +41,87 @@ ms.locfileid: "5817493"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d6678-109">Тип метода обработки</span><span class="sxs-lookup"><span data-stu-id="d6678-109">Disposition type</span></span></p></th>
-<th><p><span data-ttu-id="d6678-110">Общий код</span><span class="sxs-lookup"><span data-stu-id="d6678-110">Common code</span></span></p></th>
-<th><p><span data-ttu-id="d6678-111">Описание</span><span class="sxs-lookup"><span data-stu-id="d6678-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="df42d-109">Тип метода обработки</span><span class="sxs-lookup"><span data-stu-id="df42d-109">Disposition type</span></span></p></th>
+<th><p><span data-ttu-id="df42d-110">Общий код</span><span class="sxs-lookup"><span data-stu-id="df42d-110">Common code</span></span></p></th>
+<th><p><span data-ttu-id="df42d-111">Описание</span><span class="sxs-lookup"><span data-stu-id="df42d-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-112">Выбытие</span><span class="sxs-lookup"><span data-stu-id="d6678-112">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="d6678-113">SC</span><span class="sxs-lookup"><span data-stu-id="d6678-113">SC</span></span></p></td>
-<td><p><span data-ttu-id="d6678-114">Отходы/уничтожение</span><span class="sxs-lookup"><span data-stu-id="d6678-114">Scrap/Destroy</span></span></p></td>
+<td><p><span data-ttu-id="df42d-112">Выбытие</span><span class="sxs-lookup"><span data-stu-id="df42d-112">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-113">SC</span><span class="sxs-lookup"><span data-stu-id="df42d-113">SC</span></span></p></td>
+<td><p><span data-ttu-id="df42d-114">Отходы/уничтожение</span><span class="sxs-lookup"><span data-stu-id="df42d-114">Scrap/Destroy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-115">Выбытие</span><span class="sxs-lookup"><span data-stu-id="d6678-115">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="d6678-116">DC</span><span class="sxs-lookup"><span data-stu-id="d6678-116">DC</span></span></p></td>
-<td><p><span data-ttu-id="d6678-117">Благотворительные пожертвования</span><span class="sxs-lookup"><span data-stu-id="d6678-117">Donate to Charity</span></span></p></td>
+<td><p><span data-ttu-id="df42d-115">Выбытие</span><span class="sxs-lookup"><span data-stu-id="df42d-115">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-116">DC</span><span class="sxs-lookup"><span data-stu-id="df42d-116">DC</span></span></p></td>
+<td><p><span data-ttu-id="df42d-117">Благотворительные пожертвования</span><span class="sxs-lookup"><span data-stu-id="df42d-117">Donate to Charity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-118">Выбытие</span><span class="sxs-lookup"><span data-stu-id="d6678-118">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="d6678-119">TD</span><span class="sxs-lookup"><span data-stu-id="d6678-119">TD</span></span></p></td>
-<td><p><span data-ttu-id="d6678-120">Утилизация третьих сторон</span><span class="sxs-lookup"><span data-stu-id="d6678-120">Third-Party Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-118">Выбытие</span><span class="sxs-lookup"><span data-stu-id="df42d-118">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-119">TD</span><span class="sxs-lookup"><span data-stu-id="df42d-119">TD</span></span></p></td>
+<td><p><span data-ttu-id="df42d-120">Утилизация третьих сторон</span><span class="sxs-lookup"><span data-stu-id="df42d-120">Third-Party Disposal</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-121">Выбытие</span><span class="sxs-lookup"><span data-stu-id="d6678-121">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="d6678-122">SL</span><span class="sxs-lookup"><span data-stu-id="d6678-122">SL</span></span></p></td>
-<td><p><span data-ttu-id="d6678-123">Ликвидация</span><span class="sxs-lookup"><span data-stu-id="d6678-123">Salvage</span></span></p></td>
+<td><p><span data-ttu-id="df42d-121">Выбытие</span><span class="sxs-lookup"><span data-stu-id="df42d-121">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-122">SL</span><span class="sxs-lookup"><span data-stu-id="df42d-122">SL</span></span></p></td>
+<td><p><span data-ttu-id="df42d-123">Ликвидация</span><span class="sxs-lookup"><span data-stu-id="df42d-123">Salvage</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-124">Выбытие</span><span class="sxs-lookup"><span data-stu-id="d6678-124">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="d6678-125">TS</span><span class="sxs-lookup"><span data-stu-id="d6678-125">TS</span></span></p></td>
-<td><p><span data-ttu-id="d6678-126">Продажи третьих лиц (вторичные рынки)</span><span class="sxs-lookup"><span data-stu-id="d6678-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
+<td><p><span data-ttu-id="df42d-124">Выбытие</span><span class="sxs-lookup"><span data-stu-id="df42d-124">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="df42d-125">TS</span><span class="sxs-lookup"><span data-stu-id="df42d-125">TS</span></span></p></td>
+<td><p><span data-ttu-id="df42d-126">Продажи третьих лиц (вторичные рынки)</span><span class="sxs-lookup"><span data-stu-id="df42d-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-127">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="d6678-127">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="d6678-128">RW</span><span class="sxs-lookup"><span data-stu-id="d6678-128">RW</span></span></p></td>
-<td><p><span data-ttu-id="d6678-129">Доработка</span><span class="sxs-lookup"><span data-stu-id="d6678-129">Rework</span></span></p></td>
+<td><p><span data-ttu-id="df42d-127">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="df42d-127">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-128">RW</span><span class="sxs-lookup"><span data-stu-id="df42d-128">RW</span></span></p></td>
+<td><p><span data-ttu-id="df42d-129">Доработка</span><span class="sxs-lookup"><span data-stu-id="df42d-129">Rework</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-130">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="d6678-130">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="d6678-131">RF</span><span class="sxs-lookup"><span data-stu-id="d6678-131">RF</span></span></p></td>
-<td><p><span data-ttu-id="d6678-132">Повторное изготовление/Восстановление</span><span class="sxs-lookup"><span data-stu-id="d6678-132">Remanufacture/Refurbish</span></span></p></td>
+<td><p><span data-ttu-id="df42d-130">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="df42d-130">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-131">RF</span><span class="sxs-lookup"><span data-stu-id="df42d-131">RF</span></span></p></td>
+<td><p><span data-ttu-id="df42d-132">Повторное изготовление/Восстановление</span><span class="sxs-lookup"><span data-stu-id="df42d-132">Remanufacture/Refurbish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-133">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="d6678-133">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="d6678-134">MD</span><span class="sxs-lookup"><span data-stu-id="d6678-134">MD</span></span></p></td>
-<td><p><span data-ttu-id="d6678-135">Изменить</span><span class="sxs-lookup"><span data-stu-id="d6678-135">Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-133">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="df42d-133">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-134">MD</span><span class="sxs-lookup"><span data-stu-id="df42d-134">MD</span></span></p></td>
+<td><p><span data-ttu-id="df42d-135">Изменить</span><span class="sxs-lookup"><span data-stu-id="df42d-135">Modify</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-136">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="d6678-136">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="d6678-137">RP</span><span class="sxs-lookup"><span data-stu-id="d6678-137">RP</span></span></p></td>
-<td><p><span data-ttu-id="d6678-138">Ремонт</span><span class="sxs-lookup"><span data-stu-id="d6678-138">Repair</span></span></p></td>
+<td><p><span data-ttu-id="df42d-136">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="df42d-136">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-137">RP</span><span class="sxs-lookup"><span data-stu-id="df42d-137">RP</span></span></p></td>
+<td><p><span data-ttu-id="df42d-138">Ремонт</span><span class="sxs-lookup"><span data-stu-id="df42d-138">Repair</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-139">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="d6678-139">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="d6678-140">RV</span><span class="sxs-lookup"><span data-stu-id="d6678-140">RV</span></span></p></td>
-<td><p><span data-ttu-id="d6678-141">Возврат поставщику</span><span class="sxs-lookup"><span data-stu-id="d6678-141">Return to Vendor</span></span></p></td>
+<td><p><span data-ttu-id="df42d-139">Ремонт/модификация</span><span class="sxs-lookup"><span data-stu-id="df42d-139">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="df42d-140">RV</span><span class="sxs-lookup"><span data-stu-id="df42d-140">RV</span></span></p></td>
+<td><p><span data-ttu-id="df42d-141">Возврат поставщику</span><span class="sxs-lookup"><span data-stu-id="df42d-141">Return to Vendor</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-142">Прочее</span><span class="sxs-lookup"><span data-stu-id="d6678-142">Other</span></span></p></td>
-<td><p><span data-ttu-id="d6678-143">AI</span><span class="sxs-lookup"><span data-stu-id="d6678-143">AI</span></span></p></td>
-<td><p><span data-ttu-id="d6678-144">Использовать "как есть"</span><span class="sxs-lookup"><span data-stu-id="d6678-144">Use as is</span></span></p></td>
+<td><p><span data-ttu-id="df42d-142">Прочее</span><span class="sxs-lookup"><span data-stu-id="df42d-142">Other</span></span></p></td>
+<td><p><span data-ttu-id="df42d-143">AI</span><span class="sxs-lookup"><span data-stu-id="df42d-143">AI</span></span></p></td>
+<td><p><span data-ttu-id="df42d-144">Использовать "как есть"</span><span class="sxs-lookup"><span data-stu-id="df42d-144">Use as is</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-145">Прочее</span><span class="sxs-lookup"><span data-stu-id="d6678-145">Other</span></span></p></td>
-<td><p><span data-ttu-id="d6678-146">RS</span><span class="sxs-lookup"><span data-stu-id="d6678-146">RS</span></span></p></td>
-<td><p><span data-ttu-id="d6678-147">Перепродажа</span><span class="sxs-lookup"><span data-stu-id="d6678-147">Resale</span></span></p></td>
+<td><p><span data-ttu-id="df42d-145">Прочее</span><span class="sxs-lookup"><span data-stu-id="df42d-145">Other</span></span></p></td>
+<td><p><span data-ttu-id="df42d-146">RS</span><span class="sxs-lookup"><span data-stu-id="df42d-146">RS</span></span></p></td>
+<td><p><span data-ttu-id="df42d-147">Перепродажа</span><span class="sxs-lookup"><span data-stu-id="df42d-147">Resale</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-148">Прочее</span><span class="sxs-lookup"><span data-stu-id="d6678-148">Other</span></span></p></td>
-<td><p><span data-ttu-id="d6678-149">EX</span><span class="sxs-lookup"><span data-stu-id="d6678-149">EX</span></span></p></td>
-<td><p><span data-ttu-id="d6678-150">Биржа</span><span class="sxs-lookup"><span data-stu-id="d6678-150">Exchange</span></span></p></td>
+<td><p><span data-ttu-id="df42d-148">Прочее</span><span class="sxs-lookup"><span data-stu-id="df42d-148">Other</span></span></p></td>
+<td><p><span data-ttu-id="df42d-149">EX</span><span class="sxs-lookup"><span data-stu-id="df42d-149">EX</span></span></p></td>
+<td><p><span data-ttu-id="df42d-150">Биржа</span><span class="sxs-lookup"><span data-stu-id="df42d-150">Exchange</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-151">Прочее</span><span class="sxs-lookup"><span data-stu-id="d6678-151">Other</span></span></p></td>
-<td><p><span data-ttu-id="d6678-152">MS</span><span class="sxs-lookup"><span data-stu-id="d6678-152">MS</span></span></p></td>
-<td><p><span data-ttu-id="d6678-153">Разное</span><span class="sxs-lookup"><span data-stu-id="d6678-153">Miscellaneous</span></span></p></td>
+<td><p><span data-ttu-id="df42d-151">Прочее</span><span class="sxs-lookup"><span data-stu-id="df42d-151">Other</span></span></p></td>
+<td><p><span data-ttu-id="df42d-152">MS</span><span class="sxs-lookup"><span data-stu-id="df42d-152">MS</span></span></p></td>
+<td><p><span data-ttu-id="df42d-153">Разное</span><span class="sxs-lookup"><span data-stu-id="df42d-153">Miscellaneous</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d6678-154">Для каждого кода расстановки, который вы определяете, необходимо выбрать действие метода обработки.</span><span class="sxs-lookup"><span data-stu-id="d6678-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="d6678-155">Действие метода обработки определяет физические и финансовые последствия кодов расстановки.</span><span class="sxs-lookup"><span data-stu-id="d6678-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="d6678-156">Например, действие метода обработки определяет физическую обработку возвращенной номенклатуры, финансовые последствия возврата номенклатуры, и необходимость отправки заменяющей номенклатуры клиенту.</span><span class="sxs-lookup"><span data-stu-id="d6678-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="d6678-157">Можно определить неограниченное количество кодов расстановки согласно вашим бизнес-потребностям, но есть только шесть предопределенных действия метода обработки, которые можно выбирать.</span><span class="sxs-lookup"><span data-stu-id="d6678-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="d6678-158">В приведенной ниже таблице показаны действия метода обработки и их определения.</span><span class="sxs-lookup"><span data-stu-id="d6678-158">The following table provides the disposition actions and their definitions.</span></span>
+<span data-ttu-id="df42d-154">Для каждого кода расстановки, который вы определяете, необходимо выбрать действие метода обработки.</span><span class="sxs-lookup"><span data-stu-id="df42d-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="df42d-155">Действие метода обработки определяет физические и финансовые последствия кодов расстановки.</span><span class="sxs-lookup"><span data-stu-id="df42d-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="df42d-156">Например, действие метода обработки определяет физическую обработку возвращенной номенклатуры, финансовые последствия возврата номенклатуры, и необходимость отправки заменяющей номенклатуры клиенту.</span><span class="sxs-lookup"><span data-stu-id="df42d-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="df42d-157">Можно определить неограниченное количество кодов расстановки согласно вашим бизнес-потребностям, но есть только шесть предопределенных действия метода обработки, которые можно выбирать.</span><span class="sxs-lookup"><span data-stu-id="df42d-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="df42d-158">В приведенной ниже таблице показаны действия метода обработки и их определения.</span><span class="sxs-lookup"><span data-stu-id="df42d-158">The following table provides the disposition actions and their definitions.</span></span>
 
 <table>
 <colgroup>
@@ -130,52 +130,52 @@ ms.locfileid: "5817493"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d6678-159">Действие метода обработки</span><span class="sxs-lookup"><span data-stu-id="d6678-159">Disposition action</span></span></p></th>
-<th><p><span data-ttu-id="d6678-160">описание</span><span class="sxs-lookup"><span data-stu-id="d6678-160">Description</span></span></p></th>
+<th><p><span data-ttu-id="df42d-159">Действие метода обработки</span><span class="sxs-lookup"><span data-stu-id="df42d-159">Disposition action</span></span></p></th>
+<th><p><span data-ttu-id="df42d-160">описание</span><span class="sxs-lookup"><span data-stu-id="df42d-160">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-161"><strong>По кредиту</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-161"><strong>Credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-162">Возврат номенклатуры на склад и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="d6678-162">Return the item to inventory and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-161"><strong>По кредиту</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-161"><strong>Credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-162">Возврат номенклатуры на склад и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="df42d-162">Return the item to inventory and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-163"><strong>Только по кредиту</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-163"><strong>Credit only</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-164">Кредитование клиента без необходимости или ожидания возврата номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="d6678-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-163"><strong>Только по кредиту</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-163"><strong>Credit only</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-164">Кредитование клиента без необходимости или ожидания возврата номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="df42d-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-165"><strong>Отходы</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-165"><strong>Scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-166">Отбраковка номенклатуру и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="d6678-166">Scrap the item and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-165"><strong>Отходы</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-165"><strong>Scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-166">Отбраковка номенклатуру и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="df42d-166">Scrap the item and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-167"><strong>Заменить и кредитовать</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-167"><strong>Replace and credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-168">Возврат номенклатуры на склад, создание заказа на замену и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="d6678-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-167"><strong>Заменить и кредитовать</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-167"><strong>Replace and credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-168">Возврат номенклатуры на склад, создание заказа на замену и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="df42d-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6678-169"><strong>Заменить и списать в отходы</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-169"><strong>Replace and scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-170">Отбраковки номенклатуры, создание заказа на замену и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="d6678-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-169"><strong>Заменить и списать в отходы</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-169"><strong>Replace and scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-170">Отбраковки номенклатуры, создание заказа на замену и кредитование клиента.</span><span class="sxs-lookup"><span data-stu-id="df42d-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6678-171"><strong>Вернуть клиенту</strong></span><span class="sxs-lookup"><span data-stu-id="d6678-171"><strong>Return to customer</strong></span></span></p></td>
-<td><p><span data-ttu-id="d6678-172">Отклонение возвращенной номенклатуры и возврат ее клиенту.</span><span class="sxs-lookup"><span data-stu-id="d6678-172">Reject the returned item and return it to the customer.</span></span></p></td>
+<td><p><span data-ttu-id="df42d-171"><strong>Вернуть клиенту</strong></span><span class="sxs-lookup"><span data-stu-id="df42d-171"><strong>Return to customer</strong></span></span></p></td>
+<td><p><span data-ttu-id="df42d-172">Отклонение возвращенной номенклатуры и возврат ее клиенту.</span><span class="sxs-lookup"><span data-stu-id="df42d-172">Reject the returned item and return it to the customer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="d6678-173">Выберите код метода обработки для карантинного заказа</span><span class="sxs-lookup"><span data-stu-id="d6678-173">Select a disposition code for a quarantine order</span></span>
+## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="df42d-173">Выберите код метода обработки для карантинного заказа</span><span class="sxs-lookup"><span data-stu-id="df42d-173">Select a disposition code for a quarantine order</span></span>
 
-1.  <span data-ttu-id="d6678-174">Щелкните **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.</span><span class="sxs-lookup"><span data-stu-id="d6678-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="df42d-174">Щелкните **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.</span><span class="sxs-lookup"><span data-stu-id="df42d-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="d6678-175">Для существующего карантинного заказа выберите действие из поля **Код метода обработки** на вкладке **Обзор**.</span><span class="sxs-lookup"><span data-stu-id="d6678-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
+2.  <span data-ttu-id="df42d-175">Для существующего карантинного заказа выберите действие из поля **Код метода обработки** на вкладке **Обзор**.</span><span class="sxs-lookup"><span data-stu-id="df42d-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d6678-176">См. также</span><span class="sxs-lookup"><span data-stu-id="d6678-176">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df42d-176">См. также</span><span class="sxs-lookup"><span data-stu-id="df42d-176">See also</span></span>
 
-<span data-ttu-id="d6678-177">[Карантинный заказ (форма)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="d6678-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
+[<span data-ttu-id="df42d-177">Карантинный заказ (форма)</span><span class="sxs-lookup"><span data-stu-id="df42d-177">Quarantine order (form)</span></span>](/dynamicsax-2012//quarantine-order-form)
 
-<span data-ttu-id="d6678-178">[Коды методов обработки (форма)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d6678-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="df42d-178">[Коды методов обработки (форма)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="df42d-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
   
 
