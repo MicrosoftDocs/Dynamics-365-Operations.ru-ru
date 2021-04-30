@@ -2,11 +2,11 @@
 title: Реклассификация краткосрочной части арендного обязательства
 description: В этой теме объясняется, как создать ежемесячную запись журнала для повторной классификации части арендного обязательства в качестве краткосрочной.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae5aebab507479775626579e8b08d68001326a06
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823103"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881574"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Реклассификация краткосрочной части арендного обязательства
 

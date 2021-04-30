@@ -1,6 +1,6 @@
 ---
 title: Восстановление входящего НДС
-description: В этом разделе представлены сведения о восстановлении ранее удержанных сумм НДС для основных средств.
+description: В этом разделе объясняется, как возместить ранее удержанные суммы НДС для основных средств.
 author: v-nadyuz
 ms.date: 11/12/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d07d8b084ed5a68f2aaa4b58d14f1c24291b169e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acbf2a289a78025c4539955af4843599daef24b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842303"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894650"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]
@@ -112,7 +112,7 @@ ms.locfileid: "5842303"
 1. На странице **Основные средства** выберите **Использование ОС**.
 2. На странице **Выпуск продукции/километры пробега** в поле **Выпуск/пробег экспорт** или **Выпуск/пробег необлагаемый** задайте, как основное средство используется для экспорта или мероприятий, на облагаемых налогом.
 
-Для получения дополнительных сведений о выпуску продукции/километрам пробега см. расстояния см. раздел [Метод амортизации по выпуску/пробегу продукта](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-depreciation-methods#product-output-mileage-depreciation-method).
+Для получения дополнительных сведений о выпуску продукции/километрам пробега см. расстояния см. раздел [Метод амортизации по выпуску/пробегу продукта](/dynamics365/unified-operations/financials/localizations/rus-depreciation-methods#product-output-mileage-depreciation-method).
 
 ## <a name="vat-restoration-process"></a>Процесс восстановления НДС
 
@@ -208,7 +208,7 @@ ms.locfileid: "5842303"
 
             ![Входящий НДС для косвенных затрат](media/4%20VAT%20distribution.jpg)
               
-            Эти сведения необходимы для определения суммы НДС, которая должна удерживаться при подтверждении экспорта, или когда срок подтверждения истекает, но экспорт не подтвержден. Эти сведения также используются в декларации по НДС. Дополнительные сведения см. в разделе [Декларация НДС (Россия)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-vat-declaration).
+            Эти сведения необходимы для определения суммы НДС, которая должна удерживаться при подтверждении экспорта, или когда срок подтверждения истекает, но экспорт не подтвержден. Эти сведения также используются в декларации по НДС. Дополнительные сведения см. в разделе [Декларация НДС (Россия)](/dynamics365/unified-operations/financials/localizations/rus-vat-declaration).
 
 ### <a name="approve-the-vat-restoring-journal"></a>Утверждение журнала восстановления НДС
 

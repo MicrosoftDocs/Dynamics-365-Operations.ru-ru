@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827106"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897680"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Отчет о движении основных средств
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827106"
 
 Отчет **Движение основных средств** предоставляет в удобном для восприятии формате Microsoft Excel подробные данные об основных средствах, которые могут потребоваться для закрытия периода, финансовых отчетов и налоговой отчетности. Отчет включает в себя начальное и конечное сальдо для основных средств, вместе с изменениями оценки для периода, а также все новые приобретения и выбытия активов, произошедшие во время периода. Данные собираются для отдельных основных средств, а также приводятся сводные значения для групп основных средств и юридического лица.
 
-Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Этот отчет доступен в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, или в качестве исправления для Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.). Три исправления должно применяться для сред, в которых установлена версия от июля 2017 г.:
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd66cb4f5ac02407250e15ae134b36f5ccd4d290
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802415"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889940"
 ---
 # <a name="configure-human-resources-parameters"></a>Настройка параметров Human Resources
 
@@ -92,7 +92,7 @@ ms.locfileid: "5802415"
 
 Для ведения ссылок и кодов номерных серий используется страница списка **Номерные серии** (выберите **Управление организацией > Номерные серии > Номерные серии**).
 
-Дополнительные сведения см. в разделе [Обзор номерных серий](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json).
+Дополнительные сведения см. в разделе [Обзор номерных серий](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 > [!NOTE]
 > Количество отработанных часов не может превышать 1250, а длительность трудоустройства не может превышать 12 месяцев. Эти максимальные значения соответствуют федеральному законодательству США.

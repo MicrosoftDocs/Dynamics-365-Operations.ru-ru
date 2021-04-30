@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9253537b7d306384747ca1e492def13c48aa678
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755508"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893340"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI анализа учета затрат
 
@@ -40,7 +40,7 @@ ms.locfileid: "5755508"
 Определив безопасность уровня доступа в модуле учета затрат и объединив его безопасностью уровня строк в Power BI, можно предоставить доступ всем владельцам объектов затрат доступ к содержимому Power BI **Анализ учета затрат**. Все данные в визуализациях затем фильтруются на основе уровня доступа, который контролируется в модуле учета затрат. Для получения дополнительных сведений о безопасности уровня доступа и безопасности уровня строк, см. в разделе [Настройка безопасности для содержимого Power BI анализа учета затрат](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Обязательно загрузите содержимое **Анализ учета затрат**, которое применяется к версии Microsoft Dynamics 365, которую вы используете.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840709"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907773"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
@@ -44,26 +44,26 @@ ms.locfileid: "5840709"
 
 ## <a name="the-invitation-process"></a>Процесс приглашения
 
-Чтобы пригласить существующего контакта на клиентский портал, выполните шаги, указанные в разделе [Приглашение контактов на свои порталы](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) в документации по порталам Power Apps.
+Чтобы пригласить существующего контакта на клиентский портал, выполните шаги, указанные в разделе [Приглашение контактов на свои порталы](/powerapps/maker/portals/configure/invite-contacts) в документации по порталам Power Apps.
 
-Прежде чем пригласить клиента на присоединение к клиентскому порталу, убедитесь, что [запись контакта](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) клиента доступна и настроена следующим образом:
+Прежде чем пригласить клиента на присоединение к клиентскому порталу, убедитесь, что [запись контакта](/powerapps/maker/portals/configure/configure-contacts) клиента доступна и настроена следующим образом:
 
 1. В поле **Компания** укажите юридическое лицо, к которому должен относиться клиент в Supply Chain Management.
 2. В поле **Счет клиента** укажите номер счета клиента в Supply Chain Management.
 
 После создания контакта его можно просмотреть в Supply Chain Management.
 
-Дополнительные сведения см. в разделе [Настройка контакта для использования на портале](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) в документации по порталам Power Apps.
+Дополнительные сведения см. в разделе [Настройка контакта для использования на портале](/powerapps/maker/portals/configure/configure-contacts) в документации по порталам Power Apps.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Готовые веб-роли и разрешения таблиц
 
-Роли пользователей на порталах Power Apps определяются [веб-ролями](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [разрешениями таблиц](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
+Роли пользователей на порталах Power Apps определяются [веб-ролями](/powerapps/maker/portals/configure/create-web-roles) и [разрешениями таблиц](/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
 
 ### <a name="out-of-box-web-roles"></a>Готовые веб-роли
 
 В этом разделе описываются веб-роли, обеспечиваемые с помощью клиентского портала.
 
-Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений таблиц для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
+Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений таблиц для порталов](/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
 
 #### <a name="administrator"></a>Администратор
 

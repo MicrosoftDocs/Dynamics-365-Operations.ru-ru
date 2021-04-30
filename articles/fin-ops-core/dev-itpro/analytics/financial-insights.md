@@ -2,8 +2,7 @@
 title: Финансовый анализ
 description: Финансовый анализ использует Microsoft Power BI для объединения финансовых ключевых индикаторов эффективности (КПЭ), диаграмм и финансовых отчетов.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572374"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894916"
 ---
 # <a name="financial-analysis"></a>Финансовый анализ
 
@@ -65,10 +64,9 @@ ms.locfileid: "5572374"
 
 Необходимо обновить следующие объекты, чтобы просматривать данные в рабочей области **Финансовый анализ**:
 
-- BudgetActivityMeasure
 - Транзакционные данные финансовой отчетности, версия 3 
+- Кредит и сборы V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Куб покупок
 - Куб продаж
@@ -241,9 +239,9 @@ ms.locfileid: "5572374"
 
 Сведения, приведенные в следующих ресурсах, не требуется для включения внедренных отчетов для рабочей области **Финансовый анализ** в производственной среде. Однако они полезны для окон разработки и при необходимости внедрения собственных отчетов Power BI.
 
-- [Доступ к аналитическим рабочим областям и отчетам в среде с 1 блоком](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Доступ к аналитическим рабочим областям и отчетам в среде с 1 блоком](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Добавление аналитики в рабочие области с помощью Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Добавление аналитики в рабочие области с помощью Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

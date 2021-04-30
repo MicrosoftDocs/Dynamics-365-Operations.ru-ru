@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 848464cbc62623502b9b87b9b41dcc17150e85ba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bdca4d63fbe04a01cf1bbf2ccd7b095d4718a115
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839013"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910313"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "5839013"
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 

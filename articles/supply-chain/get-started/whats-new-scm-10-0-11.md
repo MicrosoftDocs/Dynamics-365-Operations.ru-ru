@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821185"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909605"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.11 (июль 2020 г.)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821185"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
+Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
-- [Хранилище отчетов о запасах в наличии](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [Хранилище отчетов о запасах в наличии](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Улучшения получения грузомест для приложения склада для мобильных устройств](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Улучшения получения грузомест для приложения склада для мобильных устройств](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Улучшения резервирования строки для формы резервирования номеров партий](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Для получения дополнительных сведений см. раздел [Резервирование такой же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md).
+- [Улучшения резервирования строки для формы резервирования номеров партий](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Для получения дополнительных сведений см. раздел [Резервирование такой же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md).
 
-- [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Новые информационные объекты для области производства](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Получение сверх количества загрузки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
+- [Получение сверх количества загрузки](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
 
-- [Приемка по номерам партий с устройства карты задания](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Для получения дополнительных сведений см. [Приемка с устройства карты задания](../production-control/report-finished-job-device.md).
+- [Приемка по номерам партий с устройства карты задания](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Для получения дополнительных сведений см. [Приемка с устройства карты задания](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -61,7 +61,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.11 включает обно
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 

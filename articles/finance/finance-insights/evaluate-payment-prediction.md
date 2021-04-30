@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818638"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897920"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Оценка модели прогнозирования первоначальных платежей клиента (предварительная версия)
 
@@ -41,7 +41,7 @@ ms.locfileid: "5818638"
 
 На открытой странице показаны следующие сведения:
 
-- В разделе **Производительность** оценка производительности модели обеспечивает перспективу качества модели. Дополнительные сведения об этой оценке см. в разделе [Производительность модели прогнозирования](https://docs.microsoft.com/ai-builder/prediction-performance) в документации по AI Builder.
+- В разделе **Производительность** оценка производительности модели обеспечивает перспективу качества модели. Дополнительные сведения об этой оценке см. в разделе [Производительность модели прогнозирования](/ai-builder/prediction-performance) в документации по AI Builder.
 - В разделе **Самые влиятельные данные** показано, как важны для модели были данные различных входных типов. Можно оценить этот список и соответствующие процентные доли, чтобы определить, согласованы ли сведения с тем, что вам известно о вашем бизнесе и рынке.
 
     [![Разделы производительности и самых влиятельных данных для модели прогноза](./media/models.png)](./media/models.png)

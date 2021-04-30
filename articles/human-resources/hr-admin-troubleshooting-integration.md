@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794861"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892259"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -50,7 +50,7 @@ ms.locfileid: "5794861"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Можно ли создать новое сопоставление без использования шаблонов?
 
-Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Можно ли сопоставить финансовые аналитики для перемещения между Human Resources и Finance?
 
@@ -145,7 +145,7 @@ ms.locfileid: "5794861"
 
 Если данные не отображаются должным образом в Dataverse, убедитесь, что сущность поддерживается в интеграции. Чтобы включить дополнительные данные в Dataverse, изменение будет требоваться со стороны корпорации Майкрософт.
 
-Если сущность поддерживается и данные доступны в Dataverse, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Если сущность поддерживается и данные доступны в Dataverse, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Адреса моих сотрудников неправильные после импорта в Finance. Что делать?
 
@@ -172,15 +172,15 @@ ms.locfileid: "5794861"
 
 - Интегратор данных (DI): 
 
-  - [Интеграция данных в Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Интеграция данных в Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [Управление ошибками и устранение неполадок интегратора данных](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Управление ошибками и устранение неполадок интегратора данных](/powerapps/administrator/data-integrator-error-management)
 
-  - [Ответ на запросы DSR для созданных системой журналов в Power Apps, Microsoft Power Automate и Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Ответ на запросы DSR для созданных системой журналов в Power Apps, Microsoft Power Automate и Dataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Управление данными:
 
-  - [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Управление данными](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

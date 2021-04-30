@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16f4ead0e195280555f0825d617b9c4fcf0e827a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832210"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909581"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
 
@@ -33,25 +33,25 @@ ms.locfileid: "5832210"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
+Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
-- [Разрешить блокировку сенсорного экрана карты задания для санитарной обработки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Для получения дополнительных сведений см. раздел [Настроить карту заданий для устройств](../production-control/config-job-card-device.md).
+- [Разрешить блокировку сенсорного экрана карты задания для санитарной обработки](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Для получения дополнительных сведений см. раздел [Настроить карту заданий для устройств](../production-control/config-job-card-device.md).
 
-- [Определение вариантов продукта и аналитик отслеживания в приложении склада во время приемки номенклатуры загрузки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Дополнительные сведения см. в разделе [Настройка мобильных устройств для работы склада](../warehousing/configure-mobile-devices-warehouse.md).
+- [Определение вариантов продукта и аналитик отслеживания в приложении склада во время приемки номенклатуры загрузки](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Дополнительные сведения см. в разделе [Настройка мобильных устройств для работы склада](../warehousing/configure-mobile-devices-warehouse.md).
 
 - Уровень расчета затрат (новый уровень спецификации)<br> - Для получения дополнительных сведений см. в разделе [Уровень расчета затрат](../cost-management/cost-calculation-level.md).
 
-- [Клиентский портал для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Дополнительные сведения см. в разделе [Обзор клиентского портала для Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Клиентский портал для Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Дополнительные сведения см. в разделе [Обзор клиентского портала для Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
 
-- [Основная бизнес-аналитика Интернета вещей](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Дополнительные сведения см. в разделе [Домашняя страница бизнес-аналитики IoT](../iot/iot-intelligence-home-page.md).
+- [Основная бизнес-аналитика Интернета вещей](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Дополнительные сведения см. в разделе [Домашняя страница бизнес-аналитики IoT](../iot/iot-intelligence-home-page.md).
 
-- [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Массовое развертывание для Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Дополнительные сведения см. в разделе [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md).
+- [Массовое развертывание для Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Дополнительные сведения см. в разделе [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
+- [Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
 
-- [Поддержка оптимизации планирования для коммерческих соглашений о покупке](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Для получения дополнительных сведений см. [Сводное планирование с торговыми соглашениями о покупке](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Поддержка оптимизации планирования для коммерческих соглашений о покупке](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Для получения дополнительных сведений см. [Сводное планирование с торговыми соглашениями о покупке](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -67,7 +67,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.12 включает обно
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 

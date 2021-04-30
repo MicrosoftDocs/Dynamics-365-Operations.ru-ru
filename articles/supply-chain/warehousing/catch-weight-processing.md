@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808926"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907627"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Обработка учета продуктов в двух единицах измерения с помощью управления складом
 
@@ -40,7 +40,7 @@ ms.locfileid: "5808926"
 - Настройте группу упорядочения единиц измерения, где вторичная единица измерения определяется как низшая единица складского учета (SKU).
 - Настройте политику обработки номенклатур, учитываемых в двух единицах измерения.
 
-Дополнительные сведения см. в разделе [Настройка и ведение номенклатур с учетом в двух единицах измерения](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Дополнительные сведения см. в разделе [Настройка и ведение номенклатур с учетом в двух единицах измерения](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Корректировки проводок
 

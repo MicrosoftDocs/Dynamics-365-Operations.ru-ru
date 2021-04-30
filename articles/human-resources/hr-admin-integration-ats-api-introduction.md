@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798429"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890133"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Введение в интерфейс API интеграции системы отслеживания кандидатов
 
@@ -45,21 +45,21 @@ ms.locfileid: "5798429"
 
 Дополнительные общие сведения о веб-API Microsoft Dataverse см. в разделах:
 
-- [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [Использование веб-API Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Руководство разработчика Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
+- [Использование веб-API Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
+- [Руководство разработчика Microsoft Dataverse](/powerapps/developer/data-platform)
 
-В приведенной выше документации содержится информация и руководство разработчика по использованию веб-API Dataverse, например, [управление проверкой подлинности](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [выполнение операций](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [использование Postman с помощью API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) и [использование маркеров отслеживания изменений или разностного изменения](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) с API.
+В приведенной выше документации содержится информация и руководство разработчика по использованию веб-API Dataverse, например, [управление проверкой подлинности](/powerapps/developer/data-platform/webapi/authenticate-web-api), [выполнение операций](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [использование Postman с помощью API](/powerapps/developer/data-platform/webapi/use-postman-web-api) и [использование маркеров отслеживания изменений или разностного изменения](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) с API.
 
 ### <a name="option-sets"></a>Наборы параметров
 
-Модель данных для интерфейса API интеграции ATS, описанная в данном документе, включает наборы параметров, которые предоставляют перечисляемые значения, связанные со свойствами сущностей. Подробные сведения о работе с наборами параметров в веб-API Dataverse см. в разделе [Создание и обновление наборов параметров с помощью веб-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). Наборы параметров определяются для каждой среды Dataverse.
+Модель данных для интерфейса API интеграции ATS, описанная в данном документе, включает наборы параметров, которые предоставляют перечисляемые значения, связанные со свойствами сущностей. Подробные сведения о работе с наборами параметров в веб-API Dataverse см. в разделе [Создание и обновление наборов параметров с помощью веб-API](/powerapps/developer/data-platform/webapi/create-update-optionsets). Наборы параметров определяются для каждой среды Dataverse.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Виртуальные таблицы для Human Resources в Dataverse
 
 Конечные точки для API интеграции ATS используют возможности платформы виртуальных таблиц Microsoft Dataverse. По умолчанию виртуальные таблицы и связанные с ними конечные точки API не развертываются для сред Human Resources, позволяя организациям определять, какие конечные точки OData будут доступны для данной среды. Для использования API-интерфейса необходимо создать виртуальные таблицы для сущностей Human Resources для данной среды. 
 
-Сведения о создании виртуальных таблиц для API см. в разделе [Настройка виртуальных таблиц Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Сведения о создании виртуальных таблиц для API см. в разделе [Настройка виртуальных таблиц Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="data-model"></a>Модель данных
 
@@ -134,8 +134,8 @@ ms.locfileid: "5798429"
 ## <a name="see-also"></a>См. также
 
 [Найм кандидатов на должность](hr-personnel-recruit.md)<br>
-[Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Использование веб-API Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[Создание и обновление наборов параметров с помощью веб-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Использование веб-API Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)<br>
+[Создание и обновление наборов параметров с помощью веб-API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

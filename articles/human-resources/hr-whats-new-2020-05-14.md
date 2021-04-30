@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e70d8fc62150d68503552754e94c7130d8960c76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8244d512c9e1236fc52cd4a91cdc78cc2b9b984
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802367"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893109"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (14 мая 2020 г.)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5802367"
 
 ## <a name="platform-changes"></a>Изменения платформы
 
-Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений Finance and Operations (май 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
+Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений Finance and Operations (май 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Убедитесь, что списки выбора Dataverse соответствуют перечислениям Отпуск (436343)
 
@@ -116,7 +116,7 @@ ms.locfileid: "5802367"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811300"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897044"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с Financial reporting 
 
@@ -148,7 +148,7 @@ ms.locfileid: "5811300"
 * В Internet Explorer выберите **Параметры**, затем выберите **Свойства браузера**. Перейдите на вкладку **Безопасность**. Выберите "Надежные сайты". В области с меткой "Уровень безопасности для этой зоны" измените значение параметра на **Ниже среднего**.
 * Отключите блокировку всплывающих окон в браузере.
 * На рабочие станции необходимо установить Microsoft .NET Framework 4.6.2 или более поздней версии. Эту версию платформы Microsoft .NET Framework можно загрузить и установить из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53345).
-* При использовании браузера Chrome необходимо установить расширение ClickOnce, чтобы можно было загрузить клиент конструктора отчетов. При работе в Chrome в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито. Дополнительные сведения о расширении Chrome ClickOnce см. в документе [Требования к системе для облачных развертываний](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* При использовании браузера Chrome необходимо установить расширение ClickOnce, чтобы можно было загрузить клиент конструктора отчетов. При работе в Chrome в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито. Дополнительные сведения о расширении Chrome ClickOnce см. в документе [Требования к системе для облачных развертываний](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * При использовании Microsoft Edge с браузером Chrome нет необходимости устанавливать расширение ClickOnce для Microsoft Edge Chromium. Однако для загрузки клиента конструктора отчетов необходимо включить параметр ClickOnce. При работе в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито.
      1. Откройте новый браузер в Microsoft Edge.
      2. Введите **edge://flags** и выберите **Ввод**.

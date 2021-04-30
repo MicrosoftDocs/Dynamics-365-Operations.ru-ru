@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 40d443e52a2b781a40e2db1dbccd2351405ffff1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809574"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909751"
 ---
 # <a name="inventory-management-overview"></a>Обзор управления запасами
 
@@ -51,7 +51,7 @@ ms.locfileid: "5809574"
 Дополнительные сведения см. в разделе [Закрытие запасов](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Блоги по управлению производством и Supply Chain Management
-В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.
+В [блоге группы исследований производства Dynamics AX](/archive/blogs/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.
 
 ### <a name="task-guides"></a>Проводники по задачам
 Дополнительная справка доступна в виде руководств по задачам. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице

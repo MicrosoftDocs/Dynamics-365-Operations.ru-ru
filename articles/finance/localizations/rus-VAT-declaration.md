@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0949de63488407e7109616c1f415885bd9f05f1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 124dbfa2943fd086477ec0ea06a4afd19aec04f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822745"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890814"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5822745"
     - **Формат декларации НДС 5.05** – эта конфигурация требуется для создания декларации по НДС за отчетный период 2018 года.
     - **Формат декларации НДС 5.06** – эта конфигурация требуется для создания декларации по НДС за отчетный период 2019 года.
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Загрузите и импортируйте настройки пакета управления данными.
 
@@ -257,9 +257,9 @@ ms.locfileid: "5822745"
     1. Создайте настроенную конфигурацию электронной отчетности **Сопоставлений модели**. Создайте ее на основе конфигурации, предоставляемый поставщиком конфигураций Microsoft.
     2. Переопределите элемент источника данных **$RRG.$Section3.$data.$dataStd** сопоставления модели.
 
-Дополнительные сведения о порядке создания производной версии конфигураций электронной отчетности для настройки см. в разделе [Электронная отчетность — обновление формата путем принятия новой базовой версии этого формата](../../dev-itpro/analytics/tasks/er-upgrade-format.md).
+Дополнительные сведения о порядке создания производной версии конфигураций электронной отчетности для настройки см. в разделе [Электронная отчетность — обновление формата путем принятия новой базовой версии этого формата](../../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md).
 
-Дополнительные сведения об определении сопоставлений моделей см. в разделе [Определение сопоставлений моделей электронной отчетности и выбор источников данных для них](../../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Дополнительные сведения об определении сопоставлений моделей см. в разделе [Определение сопоставлений моделей электронной отчетности и выбор источников данных для них](../../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ## <a name="application-1-to-section-3"></a>Приложение 1 к разделу 3
 
@@ -443,7 +443,7 @@ ms.locfileid: "5822745"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Электронная отчетность](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Электронная отчетность](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
 - [Электронные сообщения](../general-ledger/electronic-messaging.md)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 

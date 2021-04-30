@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7029f1dab1f10c2b237fafb7b5d8eeff9fa7a543
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 890d7a2e671d6365cd1f6e23e399166541c04496
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790292"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890635"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 08 марта 2021 г.
 
@@ -32,7 +32,7 @@ ms.locfileid: "5790292"
 
 Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
-Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>В данном выпуске
 
@@ -44,7 +44,7 @@ ms.locfileid: "5790292"
 
 | Функция | План выпуска | Документация |
 | --- | --- | --- |
-| Представление отпусков в нескольких компаниях для менеджеров | [Представление отпусков сотрудников в нескольких компаниях для менеджеров](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Настройка параметров отпусков и отсутствий](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| Представление отпусков в нескольких компаниях для менеджеров | [Представление отпусков сотрудников в нескольких компаниях для менеджеров](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Настройка параметров отпусков и отсутствий](./hr-leave-and-absence-parameters.md) |
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -69,8 +69,8 @@ ms.locfileid: "5790292"
 
 | Функция | План выпуска | Документация |
 | --- | --- | --- |
-| Рабочая область управления льготами | [Рабочая область управления льготами (предварительная версия)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Рабочая область управления льготами](hr-benefits-management-workspace.md) |
-| Ограничение сотрудникам изменения сведений о бизнес-контактах | [Ограничение сотрудникам изменения сведений о бизнес-контактах](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Ограничение редактирования личных данных](hr-employee-self-service-restrict-editing.md)|
+| Рабочая область управления льготами | [Рабочая область управления льготами (предварительная версия)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Рабочая область управления льготами](hr-benefits-management-workspace.md) |
+| Ограничение сотрудникам изменения сведений о бизнес-контактах | [Ограничение сотрудникам изменения сведений о бизнес-контактах](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Ограничение редактирования личных данных](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Скоро
 
@@ -78,12 +78,12 @@ ms.locfileid: "5790292"
 | --- | --- |
 | Навыки, введенные руководителем для своих сотрудников, могут быть автоматически утверждены рабочим процессом | Скоро появится. |
 
-Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 1 Dynamics 365 Human Resources от 2021 года](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 1 Dynamics 365 Human Resources от 2021 года](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2021, волна 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2021, волна 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46b232da404fe2106ce4b5455ea4d682a08aaa53
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743637"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893308"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Настройка конфигураций электронной отчетности для создания электронного документа
 
@@ -667,8 +667,8 @@ ms.locfileid: "5743637"
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Загрузка конфигураций электронной отчетности из глобального репозитория Configuration Service](er-download-configurations-global-repo.md)
-- [Создание накладных с произвольным текстом](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
-- [Создание настраиваемых полей и работа с ними](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+- [Создание накладных с произвольным текстом](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
+- [Создание настраиваемых полей и работа с ними](../../fin-ops/get-started/user-defined-fields.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

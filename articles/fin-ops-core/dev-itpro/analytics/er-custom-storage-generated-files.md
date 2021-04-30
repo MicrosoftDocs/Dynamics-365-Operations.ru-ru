@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753704"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894156"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Определение расположений пользовательского хранилища для создаваемых документов
 
@@ -27,7 +27,7 @@ ms.locfileid: "5753704"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Разверните топологию, которая поддерживает непрерывную сборку. Дополнительные сведения см. в разделе [Развертывание топологий, которые поддерживают непрерывное построение и автоматизацию тестирования](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Необходим доступ к этой топологии для одной из следующих ролей:
+Разверните топологию, которая поддерживает непрерывную сборку. Дополнительные сведения см. в разделе [Развертывание топологий, которые поддерживают непрерывное построение и автоматизацию тестирования](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Необходим доступ к этой топологии для одной из следующих ролей:
 
 - Разработчик электронной отчетности
 - Консультант по функциональным возможностям электронной отчетности
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Измените существующий класс `AssetRollForwardService` и напишите код для настройки пользовательской фабрики назначения для средства выполнения отчетов. Обратите внимание, что при создании пользовательской фабрики назначения параметр, управляемый приложением, который определяет целевую папку, передается. Таким образом, эта целевая папка используется для хранения созданных файлов.
 
     > [!NOTE] 
-    > Убедитесь, что указанная папка (**c:\\0** в данном примере) присутствует в локальной файловой системе сервера, на котором запущена служба AOS. В противном случае во время выполнения будет создано исключение [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
+    > Убедитесь, что указанная папка (**c:\\0** в данном примере) присутствует в локальной файловой системе сервера, на котором запущена служба AOS. В противном случае во время выполнения будет создано исключение [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

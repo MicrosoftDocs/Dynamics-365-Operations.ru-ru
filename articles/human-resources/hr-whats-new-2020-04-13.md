@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b7822782fda3c20d57df96af59e18b1725e4f9f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 93873707703ce7148c353735ce1abce795796a5e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800197"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892017"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Что нового или что изменилось в Dynamics 365 Human Resources (13 апреля 2020 г.)
 
@@ -94,7 +94,7 @@ ms.locfileid: "5800197"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 
