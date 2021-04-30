@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810206"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897632"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Права доступа для контроллеров объектов затрат
 
@@ -62,9 +62,8 @@ ms.locfileid: "5810206"
 
 Можно использовать экспресс-вкладку **Пользователи** в конструкторе иерархии, чтобы вставить один или несколько кодов пользователей в каждом узле.
 
-|                                   | Пользователи            | Диапазоны элементов аналитики   |                         |
+|             Узлы                 | Пользователи            | Из элемента аналитики     |   В элемент аналитики   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Узлы**                         | **Код пользователя**      | **Из элемента аналитики** | **В элемент аналитики** |
 | Cтруктурное подразделение                      | Бенджамин, Клер |                           |                         |
 | &nbsp;&nbsp;Администрирование                 | апреля            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Финансы   | Алиша           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ ms.locfileid: "5810206"
     - Визуализация данных Power BI, которые встроены в клиент Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - В этом разделе показаны необходимые компоненты, которые должны присутствовать перед использованием рабочей области **Управление затратами**.
 
 Дополнительные ресурсы
 
 - [Рабочая область управления затратами](cost-control-workspace.md)
 - [Иерархия аналитик](dimension-hierarchy.md)
-- [Настройка безопасности для пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Настройка безопасности для пакета содержимого учета затрат](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

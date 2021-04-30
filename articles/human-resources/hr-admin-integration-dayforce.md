@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805090"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890012"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
@@ -53,8 +53,8 @@ ms.locfileid: "5805090"
 
 Дополнительные сведения об учетных записях хранилища Azure и строке подключения хранилища Azure см. в следующих статьях Azure:
 
-- [Об учетных записях хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Настройка строки подключения хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Об учетных записях хранилища Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Настройка строки подключения хранилища Azure](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Технические сведения о включении интеграции зарплаты
 
@@ -65,6 +65,7 @@ ms.locfileid: "5805090"
 
 > [!NOTE]
 > Пакет данных, переданный в конечную точку SFTP, шифруется с помощью уникального для пакета ключа. Ключ находится в хранилище ключей Azure Key Vault, доступном только для по Ceridian. Невозможно расшифровать и проверить содержимое пакета данных. Если необходимо изучить содержимое пакета данных, необходимо экспортировать проект данных "Экспорт интеграции зарплаты" вручную, загрузить его и затем открыть. При экспорте вручную шифрование или передача пакетов не применяются.
+> Для экземпляров, когда файлы интеграции отправляются из среды UAT или "песочницы" Dynamics 365 Human Resources в среду тестирования Ceridian Dayforce, можно использовать следующий URL-адрес хранилища ключей: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Настройка данных 
 
@@ -124,10 +125,10 @@ Dayforce создает следующие вычеты на основе вли
 
 Дополнительные сведения о том, как определять и управлять программами льгот, см. в следующих статьях:
 
-- [Реализация программы льгот сотрудника](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Создать новую льготу](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Определение правил и политик проверки прав на льготы](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Регистрация и удаление льгот для работников](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Реализация программы льгот сотрудника](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Создать новую льготу](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Определение правил и политик проверки прав на льготы](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Регистрация и удаление льгот для работников](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Компенсация 
 
@@ -137,20 +138,20 @@ Dayforce использует сведения о компенсации для 
 
 Дополнительные сведения о планах компенсации см. в следующих статьях:
 
-- [Создание планов фиксированной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Создание планов переменной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Разработка структуры и планов зарплаты/компенсации](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Обработка компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Определение процесса компенсации и расчет результатов](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Включение сотрудника в план фиксированных компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Включение сотрудника в план переменных компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Создание планов фиксированной компенсации](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Создание планов переменной компенсации](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Разработка структуры и планов зарплаты/компенсации](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Обработка компенсаций](/dynamics365/unified-operations/talent/process-compensation)
+- [Определение процесса компенсации и расчет результатов](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Включение сотрудника в план фиксированных компенсаций](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Включение сотрудника в план переменных компенсаций](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Должности 
 
 Должностные обязанности — это набор задач и обязанностей, которые возлагаются на занимающее эту задание лицо. Дополнительные сведения см. в следующих статьях:
 
-- [Настройка компонентов должности](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Определение новых должностей](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Настройка компонентов должности](/dynamics365/unified-operations/talent/create-job)
+- [Определение новых должностей](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Позиции
 
@@ -174,8 +175,8 @@ Dayforce использует сведения о компенсации для 
 
 Дополнительные сведения см. в следующих статьях:
 
-- [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Настройка должностей](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Настройка должностей](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Отделы
 
@@ -183,8 +184,8 @@ Dayforce использует сведения о компенсации для 
 
 Дополнительные сведения см. в следующих статьях:
 
-- [Создание подразделения и связывание его с иерархией подразделений](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Определение новых подразделений](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Создание подразделения и связывание его с иерархией подразделений](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Определение новых подразделений](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Циклы оплаты и платежные периоды
 

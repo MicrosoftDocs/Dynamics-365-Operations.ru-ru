@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823868"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897316"
 ---
 # <a name="financial-dimensions-and-posting"></a>Финансовые аналитики и разноска 
 
@@ -83,17 +83,17 @@ ms.locfileid: "5823868"
 
 Тем не менее при разноске строки применяется фиксированная аналитика, и строка разносится на отдел 022. На следующем рисунке показан разнесенный ваучер, где для счета продажи применена фиксированная аналитика.
 
-[![Проводки ваучера](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Проводки по ваучеру с примененной фиксированной аналитикой](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Пример 2
 
 В этом примере используется такая же настройка, как в первом. Однако мы добавим второй компонент и будем использовать аналитику "Отдел" в качестве аналитики балансирования. На следующем рисунке аналитика **Отдел** установлена в качестве финансовой аналитики балансирования для книги учета USMF.
 
-[![Главная книга](./media/ledger.png)](./media/ledger.png)
+[![На рисунке показан Департамент в качестве финансовой аналитики балансирования](./media/ledger.png)](./media/ledger.png)
 
 При использовании той же настройки заголовка журнала и разноске той же проводки сначала применяется фиксированная аналитика. Затем применяется логика балансирования, чтобы гарантировать, что у каждого отдела будет балансирующая запись. На следующем рисунке показаны проводки ваучера, которые включают балансирующую запись после применения фиксированной аналитики.
 
-[![Проводки ваучера](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Проводки по ваучеру после применения балансирующей записи](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Пример 3
 
@@ -119,11 +119,11 @@ ms.locfileid: "5823868"
 
 [Планирование плана счетов](plan-chart-of-accounts.md) 
 
-[Блог о планировании плана счетов в AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) — эта ссылка указывает на первую часть серии, состоящей из семи частей.
+[Блог о планировании плана счетов в AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) — эта ссылка указывает на первую часть серии, состоящей из семи частей.
 
-[Значения аналитик по умолчанию в распределениях по бухгалтерским счетам](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Значения аналитик по умолчанию в распределениях по бухгалтерским счетам](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Значения аналитик по умолчанию в структуре аналитик](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Значения аналитик по умолчанию в структуре аналитик](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

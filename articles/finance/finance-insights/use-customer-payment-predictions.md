@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 51cd69563a7a5b30e932f1aad828d095cc55b075
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827226"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897800"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Использование прогнозов платежей клиентов (предварительная версия)
 
@@ -102,7 +102,7 @@ ms.locfileid: "5827226"
 
 Общедоступная предварительная версия финансового анализа доступна для пробы для развертываний в США, Европе и Соединенном Королевстве. Корпорация Майкрософт последовательно добавляет поддержку дополнительных регионов.
 
-Общедоступные предварительные версии функций могут и должны быть включены только в средах песочницы уровня 2. Настройки и модели ИИ, созданные в среде песочницы, не могут быть перенесены в производственную среду. Дополнительные сведения см. в разделе [Дополнительные условия использования предварительных версий Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Общедоступные предварительные версии функций могут и должны быть включены только в средах песочницы уровня 2. Настройки и модели ИИ, созданные в среде песочницы, не могут быть перенесены в производственную среду. Дополнительные сведения см. в разделе [Дополнительные условия использования предварительных версий Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 

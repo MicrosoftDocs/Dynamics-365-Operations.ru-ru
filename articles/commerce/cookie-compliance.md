@@ -2,7 +2,7 @@
 title: Соответствие cookie
 description: В этой теме описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796035"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908192"
 ---
 # <a name="cookie-compliance"></a>Соответствие файлов cookie
 
@@ -50,6 +50,57 @@ ms.locfileid: "5796035"
 | x-ms-cpim-slice                             | Используется для маршрутизации запросов к соответствующему производственному экземпляру сервера аутентификации. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Используется для ведения сеанса SSO.                        |
 | x-ms-cpim-trans                             | Используется для отслеживания проводок (число открытых вкладок проверка подлинности для сайта "бизнес-клиент" (B2C)), включая текущую проводку. |
+| \_msdyn365___muid_                            | Используется, если для среды активировано Экспериментирование; используется в качестве userId для целей экспериментирования. |
+| \_msdyn365___exp_                             | Используется, если для среды активировано Экспериментирование; используется для измерения балансировки нагрузки производительности.         |
+
+
+
+Если пользователь выбирает ссылки на социальные сети внутри сайта, в их браузере также будут отслеживаться файлы cookie, перечисленные в следующей таблице.
+
+
+| Домен                      | Файлы cookie               | описание                                                  | Источник                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | Синхронизация кода в LinkedIn Ads                                      | Канал LinkedIn и тег аналитической информации                                |
+| .linkedin.com               | li_sugr                  | Идентификатор браузера                                           | Тег аналитической информации LinkedIn, если IP-адрес не указан в выбранной стране |
+| .linkedin.com               | BizographicsOptOut       | Определяет статус отказа для отслеживания третьей стороны.              | Гостевые элементы управления LinkedIn и отраслевые страницы отказа           |
+| .linkedin.com               | \_guid                    | Идентификатор браузера для Google Ads.                            | Канал LinkedIn                                                |
+| .linkedin.com               | li_oatml                 | Косвенный идентификатор члена для отслеживания преобразования, перенаправления и аналитики. | LinkedIn Ads и теги аналитической информации                                |
+| Различные собственные домены | li_fat_id                | Косвенный идентификатор члена для отслеживания преобразования, перенаправления и аналитики. | LinkedIn Ads и теги аналитической информации                                |
+| .adsymptotic.com            | U                        | Идентификатор браузера                                           | Тег аналитической информации LinkedIn, если IP-адрес не указан в выбранной стране |
+| .linkedin.com                | bcookie                  | Файл cookie идентификатора браузера                                            | Запросы в LinkedIn                                         |
+| .linkedin.com                | bscookie                 | Файл cookie защищенного браузера                                        | Запросы в LinkedIn                                         |
+| .linkedin.com               | lang                     | Устанавливает языковой стандарт и язык по умолчанию.                                 | Запросы в LinkedIn                                         |
+| .linkedin.com                | lidc                     | Используется для маршрутизации.                                             | Запросы в LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | Файл cookie диспетчера аудитории Adobe                                                     | Задано для синхронизации кода                                              |
+| .linkedin.com               | \_ga                      | Файл cookie Google Analytics                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Файл cookie Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Файл cookie Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Файл cookie содержит ИД пользователя текущего пользователя, выполнившего вход.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Используется для идентификации веб-браузера, используемого для подключения к Facebook, независимым от пользователя, выполнившего вход. | Facebook                                                             |
+| .facebook.com               | wd                       | Сохраняет размеры окна браузера и используется Facebook для оптимизации отрисовки страницы. | Facebook                                                             |
+| .facebook.com               | xs                       | Двузначное число, представляющее номер сеанса. Вторая часть значения — это секретный ключ сеанса. |  Facebook                                                            |
+| .facebook.com               | fr                       | Содержит уникальный код браузера и ИД пользователя, используемый для целевой рекламы. |  Facebook                                                            |
+| .facebook.com               | sb                       | Используется для улучшения предложений с друзьями Facebook.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Файл cookie содержит ИД пользователя текущего пользователя, выполнившего вход.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Файл cookie содержит ИД пользователя текущего пользователя, выполнившего вход.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Файл cookie содержит страницы, когда пользователь нажимает кнопку Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Файл cookie содержит страницы, когда пользователь нажимает кнопку Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Содержит ИД пользователя и метку времени создания файла cookie. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Файл cookie содержит страницы, когда пользователь нажимает кнопку Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Файл cookie содержит страницы, когда пользователь нажимает кнопку Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | Локальное хранилище            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Работники сервисного обслуживания          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Согласие пользователя сайта на использование файлов cookie на сайте электронной коммерции 
 

@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: v-lenest
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 3ad150044ee1cf3aaf1d813b378b78723644d3b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a0fda62bca1f264157610f5f3f22890a2adbe2de
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840943"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894843"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 
@@ -41,7 +41,7 @@ ms.locfileid: "5840943"
 
 ## <a name="deferrals-setup"></a>Настройка расходов будущих периодов
 
-Дополнительные сведения о настройке расходов будущих периодов см. в разделе [Настройка расходов будущих периодов (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-set-up-deferrals).
+Дополнительные сведения о настройке расходов будущих периодов см. в разделе [Настройка расходов будущих периодов (Россия)](./rus-set-up-deferrals.md).
 
 ### <a name="set-up-deferral-creation-when-you-sell-fixed-assets"></a>Настройка создания РБП при продаже основных средств
 

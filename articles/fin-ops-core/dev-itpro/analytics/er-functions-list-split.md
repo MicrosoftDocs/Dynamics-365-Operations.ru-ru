@@ -2,7 +2,7 @@
 title: Функция ER SPLIT
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SPLIT.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745601"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853451"
 ---
 # <a name="split-er-function"></a>Функция ER SPLIT
 
@@ -79,6 +79,14 @@ SPLIT (input, delimiter)
 ## <a name="example-2"></a>Пример 2
 
 `SPLIT ("XAb aBy", "aB")` возвращает новый список, который состоит из трех записей с полем **Значение** типа *Строка*. Поле **Значение** в первой записи содержит текст **"X"**, поле **Значение** во второй записи содержит текст **"&nbsp;"**, и поле **Значение** в третьей записи содержит текст **"y"**. 
+
+## <a name="example-3"></a>Пример 3
+
+Можно использовать функцию [INDEX](er-functions-list-index.md) для доступа к отдельным элементам указанной строки ввода. Если вы введете источник данных **MyList** типа **Вычисляемое поле** и настроите для него выражение `SPLIT("abc", 1)`, выражение `INDEX(MyList,2).Value` возвращает текст **"b"**.
+
+## <a name="example-4"></a>Пример 4
+
+Функция [ENUMERATE](er-functions-list-enumerate.md) также может помочь вам получить доступ к отдельным элементам указанной строки ввода. Если сначала ввести источник данных **MyList** для типа **вычисляемого поля** и выполнить настройку выражения `SPLIT("abc", 1)`, а затем ввести источник данных **EnumeratedList** для типа **вычисляемого поля** и настроить для него выражение `ENUMERATE(MyList)`, выражение `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` возвратит текст **"b"**.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

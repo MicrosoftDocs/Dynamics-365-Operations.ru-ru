@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 67d2dc1a9847ccc8653c446c974db7f58b2f7043
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc1f37c44a0f38d6a791a31ba5d1449eb9bb7578
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822741"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890764"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5822741"
     - Сопоставление моделей финансовых отчетов (RU)
     - Формат бухгалтерской отчетности 5.08 (RU)
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Отправьте настройки пакета управления данными.
 

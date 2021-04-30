@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841871"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908301"
 ---
 # <a name="safety-margins"></a>Резервное время
 
@@ -87,7 +87,7 @@ ms.locfileid: "5841871"
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Включение резервного времени в управлении функциями
 
-Прежде чем использовать эту функцию с оптимизацией планирования, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
+Прежде чем использовать эту функцию с оптимизацией планирования, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
 
 - **Модуль:** _Сводное планирование_
 - **Имя компонента:** _Резервное время для оптимизации планирования_

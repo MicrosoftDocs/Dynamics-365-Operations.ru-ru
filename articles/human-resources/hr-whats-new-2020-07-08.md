@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0762c86842db32127ac1da97a92ec05d434707d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b277333ea37c2b6157ae9befc9d94f0e35ff97be
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794429"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (8 июля 2020 г.)
 
@@ -92,7 +92,7 @@ ms.locfileid: "5794429"
 
 ## <a name="human-resources-application-in-teams"></a>Приложение Human Resources в Teams
 
-Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Объекты платформы управления данными (ДМФ) для управления льготами
  
@@ -138,7 +138,7 @@ ms.locfileid: "5794429"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

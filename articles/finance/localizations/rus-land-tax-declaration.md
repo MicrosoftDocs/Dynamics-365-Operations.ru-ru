@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c8770e07a75e713b0a30cb8f8aba94052f2f55f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b84e1a56a49f8c6a71f1280e4671aa6fab9f5c6b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822721"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893031"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 
@@ -530,7 +530,7 @@ ms.locfileid: "5822721"
 
     -   Формат расчета авансовых платежей по земельному налогу 5.06
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 2.  Можно передать параметры пакета управления данными для работы с декларацией налога на имущество. Выполните следующие действия.
 

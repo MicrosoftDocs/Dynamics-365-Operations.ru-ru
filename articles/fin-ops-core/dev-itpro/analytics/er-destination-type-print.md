@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 83081f8c17a903cd447a34596df2e61ebda0cafc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753440"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894012"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Назначение принтера
 
@@ -30,7 +30,7 @@ ms.locfileid: "5753440"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Перед началом необходимо установить и настроить агент маршрутизации документов, а затем зарегистрировать сетевые принтеры. Дополнительные сведения см. в [Установка агента маршрутизации документов для включения сетевой печати](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Перед началом необходимо установить и настроить агент маршрутизации документов, а затем зарегистрировать сетевые принтеры. Дополнительные сведения см. в [Установка агента маршрутизации документов для включения сетевой печати](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Убедитесь, что место назначения принтера доступно
 

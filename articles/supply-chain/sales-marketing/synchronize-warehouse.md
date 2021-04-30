@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b4503b0fea259d30e32dffe636bc0a7ac5528033
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807784"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910268"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Синхронизация складов из Supply Chain Management в Field Service
 
@@ -58,7 +58,7 @@ ms.locfileid: "5807784"
 Столбец **Поддерживается извне** помогает контролировать синхронизацию уровней запасов, корректировки, передачи и использования в заказах на выполнение работ. Только склады, для которых параметр **Поддерживается извне** имеет значение **Да**, может использоваться для синхронизации непосредственно с тем же складом в другой системе. 
 
 > [!NOTE]
-> Можно создать несколько складов в Field Service (с настройкой **Поддерживается извне** = "Нет") и затем сопоставить их с одним складом с функцией расширенного запроса и фильтрации. Это используется в ситуациях, когда требуется, чтобы приложение Field Service управляло подробным уровнем запасов и отправляло только обновления в приложение Supply Chain Management. В этом случае Field Service не будет получать обновления уровней запасов из Supply Chain Management. Дополнительные сведения см. в разделах [Синхронизация корректировок запасов из Field Service в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) и [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу, связанными с проектом в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Можно создать несколько складов в Field Service (с настройкой **Поддерживается извне** = "Нет") и затем сопоставить их с одним складом с функцией расширенного запроса и фильтрации. Это используется в ситуациях, когда требуется, чтобы приложение Field Service управляло подробным уровнем запасов и отправляло только обновления в приложение Supply Chain Management. В этом случае Field Service не будет получать обновления уровней запасов из Supply Chain Management. Дополнительные сведения см. в разделах [Синхронизация корректировок запасов из Field Service в Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) и [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу, связанными с проектом в Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Необходимые условия и настройка сопоставления
 ### <a name="data-integration-project"></a>Проект интеграции данных

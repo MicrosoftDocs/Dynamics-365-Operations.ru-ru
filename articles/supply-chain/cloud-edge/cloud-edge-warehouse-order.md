@@ -2,27 +2,21 @@
 title: Заказы склада для облачных и пограничных единиц масштабирования
 description: В этой теме приводятся сведения о возможности заказов склада, которые используются как часть рабочей нагрузки единицы масштабирования склада.
 author: perlynne
-ms.date: 01/14/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2021-01-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836694"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899127"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Заказы склада для облачных и пограничных единиц масштабирования
 
@@ -72,6 +66,8 @@ ms.locfileid: "5836694"
 
 - Перейдите в раздел **Управление складом \> Запросы и отчеты \> Строки складского заказа** и используйте фильтр, чтобы найти строки, которые вы ищете.
 - Перейдите в раздел **Закупки и источники \> Заказы на покупку \> Все заказы на покупку** и откройте соответствующий заказ на покупку. В разделе **Строки заказа на покупку** выберите одну или несколько строк, затем на панели инструментов выберите **Склад \> Записи приемки на склад**.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

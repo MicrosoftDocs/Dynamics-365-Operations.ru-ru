@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 263650cae4b8408f1f7a4a27c43294d2f51c1444
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800149"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891849"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (06 августа 2020 г.)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5800149"
 
 ## <a name="platform-update-1001236-is-now-available"></a>Доступно обновление платформы 10.0.12(36)
 
-Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.12 приложений Finance and Operations (август 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.12 приложений Finance and Operations (август 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Объекты платформы управления данными (ДМФ) для управления льготами
  
 Объекты управления льготами выпускаются. Объекты DMF позволяют импортировать и экспортировать данные для упрощения настройки управления льготами. Будет доступен шаблон управления льготами для перемещения данных. Шаблон экспортирует и импортирует данные последовательно для учета зависимостей данных. Дополнительные сведения см.
 
-- [Поддержка сущностей DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) в плане выпуска Dynamics 365 волны 1 за 2020 год
-- [Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [Поддержка сущностей DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) в плане выпуска Dynamics 365 волны 1 за 2020 год
+- [Обзор управления данными](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Клер создает workflow-процесс для покупки и продажи запросов на отпуск (446557)
 
 Дополнительные сведения см.
 
-- [Разрешите сотрудникам покупать и продавать отпуск](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
-- [Управление политиками покупки и продажи отпусков](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Покупка и продажа отпуска](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Разрешите сотрудникам покупать и продавать отпуск](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Управление политиками покупки и продажи отпусков](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Покупка и продажа отпуска](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Почтовые адреса работника V2 имеют доступ через юридические лица с ограниченным доступом (459126)
@@ -62,7 +62,7 @@ ms.locfileid: "5800149"
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Новые сущности для покупки и продажи отпуска (473180)
 
-Сущности платформы управления данными стали доступны для покупки и продажи отпуска. Дополнительные сведения см. в разделе [Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Сущности платформы управления данными стали доступны для покупки и продажи отпуска. Дополнительные сведения см. в разделе [Обзор управления данными](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>При просмотре информации о записи и использовании расширенных фильтров пользователь может получить доступ к записям других сотрудников (472490)
 
@@ -96,9 +96,9 @@ ms.locfileid: "5800149"
 
 Некоторые организации предоставляют льготу, позволяющую сотрудникам покупать или продавать отпуск. Этот процесс часто управляется вручную. Эта функция автоматизирует управление политиками и запросами для отдела кадров. Она упрощает процесс управления отпусками и помогает исключить ошибки. Дополнительные сведения см.
 
-- [Разрешите сотрудникам покупать и продавать отпуск](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
-- [Управление политиками покупки и продажи отпусков](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Покупка и продажа отпуска](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Разрешите сотрудникам покупать и продавать отпуск](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Управление политиками покупки и продажи отпусков](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Покупка и продажа отпуска](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Начисление отпуска для одной компании или одного плана
 
@@ -126,15 +126,15 @@ ms.locfileid: "5800149"
 
 Можно сделать поля обязательными, используя возможности персонализации в Human Resources. Для этой функции требуются **сохраненные представления**. Дополнительные сведения о сохраненных представлениях см. в:
 
-- [Сохраненные представления — общая доступность](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) в плане выпуска Dynamics 365 волны 2 за 2020 год
-- [Создание форм, использующих сохраненные представления](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Сохраненные представления — общая доступность](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) в плане выпуска Dynamics 365 волны 2 за 2020 год
+- [Создание форм, использующих сохраненные представления](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Приложение Human Resources в Teams
 
 Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см.
 
-- [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 1 за 2020 год
-- [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 1 за 2020 год
+- [Приложение Human Resources в Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>Объект DMF доступен для приостановки начисления
 
@@ -172,7 +172,7 @@ ms.locfileid: "5800149"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

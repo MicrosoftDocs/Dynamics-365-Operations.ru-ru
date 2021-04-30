@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743735"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891801"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Создание нового решения ER для печати пользовательского отчета
 
@@ -119,7 +119,7 @@ ms.locfileid: "5743735"
 
 - [Дополнительные ресурсы](#References)
 
-В этом примере будет создано новое решение ER для модуля [Анкета](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Новое решение ER позволяет создавать отчеты с помощью листа Microsoft Excel в качестве шаблона. Затем можно создать отчет **Анкета** в формате Excel или PDF, а также создавать существующие отчеты служб SQL Server Reporting Services (SSRS). Позднее можно изменить новый отчет по запросу. Написание кода не требуется.
+В этом примере будет создано новое решение ER для модуля [Анкета](../../../human-resources/hr-learning-questionnaires.md). Новое решение ER позволяет создавать отчеты с помощью листа Microsoft Excel в качестве шаблона. Затем можно создать отчет **Анкета** в формате Excel или PDF, а также создавать существующие отчеты служб SQL Server Reporting Services (SSRS). Позднее можно изменить новый отчет по запросу. Написание кода не требуется.
 
 1. Чтобы выполнить существующий отчет, перейдите к **Анкета** \> **Разработка** \> **Отчет "Анкеты"**.
 

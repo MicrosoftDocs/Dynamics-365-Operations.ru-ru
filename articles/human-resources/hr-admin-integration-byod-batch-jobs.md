@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: f21e9b94b5aa30b2cdb18692e8cc9c8d00f758d6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805042"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890084"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Оптимизация запланированных пакетных заданий BYOD
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме объясняется, как оптимизировать производительность, когда вы используете функцию использования собственной базы данных (BYOD). Дополнительные сведения о BYOD см. в разделе [Использование собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+В этой теме объясняется, как оптимизировать производительность, когда вы используете функцию использования собственной базы данных (BYOD). Дополнительные сведения о BYOD см. в разделе [Использование собственной базы данных (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Вопросы производительности при экспорте данных
 
-После публикации сущностей в целевой базе данных можно использовать функцию экспорта в рабочей области **Управление данными** для перемещения данных. Функция экспорта позволяет определить задание перемещения данных, которое содержит один или несколько сущностей. Дополнительные сведения об экспорте данных см. в разделе [Обзор заданий импорта и экспорта данных](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+После публикации сущностей в целевой базе данных можно использовать функцию экспорта в рабочей области **Управление данными** для перемещения данных. Функция экспорта позволяет определить задание перемещения данных, которое содержит один или несколько сущностей. Дополнительные сведения об экспорте данных см. в разделе [Обзор заданий импорта и экспорта данных](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Страницу **Экспорт** можно использовать для экспорта данных в другие целевые форматы данных, такие как файл значений с разделителями-запятыми (CSV). Эта страница также поддерживает базы данных SQL в качестве другого места назначения.
 
@@ -61,7 +61,7 @@ ms.locfileid: "5805042"
 
 При добавлении сущности для экспорта данных можно выполнить либо инкрементную принудительную отправку (экспорт), либо полную принудительную отправку. При полной принудительной отправке все существующие записи удаляются из сущности в базе данных BYOD. Затем вставляется текущий набор записей из сущности Human Resources.
 
-Для выполнения инкрементной принудительной отправки необходимо включить отслеживание изменений для каждой из сущностей на странице **Сущности**. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Для выполнения инкрементной принудительной отправки необходимо включить отслеживание изменений для каждой из сущностей на странице **Сущности**. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 При выборе инкрементной принудительной отправки первая отправка всегда является полной. SQL отслеживает изменения с первой полной принудительной отправки. Когда вставляется новая запись или когда запись обновляется или удаляется, это изменение отражается в целевой сущности.
 
@@ -88,14 +88,14 @@ ms.locfileid: "5805042"
 
 **Проблема:** при выполнении полной принудительной отправки для сущности вы видите большой набор записей в BYOD при использовании инструкции **select**. Однако при выполнении инкрементной принудительной отправки отображаются только несколько записей в BYOD. Кажется, что инкрементная принудительная отправка удалила все записи и были добавлены только измененные записи в BYOD.
 
-**Решение:** таблицы отслеживания изменений SQL могут быть не в ожидаемом состоянии. В случае такого типа рекомендуется отключить отслеживание изменений для сущности, а затем снова его включить. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Решение:** таблицы отслеживания изменений SQL могут быть не в ожидаемом состоянии. В случае такого типа рекомендуется отключить отслеживание изменений для сущности, а затем снова его включить. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="see-also"></a>См. также
 
-[Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Использование своей собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Обзор заданий импорта и экспорта данных](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Включение отслеживания изменений для объектов](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Обзор управления данными](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Использование своей собственной базы данных (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Обзор заданий импорта и экспорта данных](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Включение отслеживания изменений для объектов](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

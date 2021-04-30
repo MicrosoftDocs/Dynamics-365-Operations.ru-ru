@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 68553377d68999d0255761b7e080af649934d99c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac28013119b9d19fc34cbe8dcde769c47b620cc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836841"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894648"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 
@@ -213,7 +213,7 @@ ms.locfileid: "5836841"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Отчет служб SQL Server Reporting Services](https://docs.microsoft.com/dynamics/s-e/)
+[Отчет служб SQL Server Reporting Services](/dynamics/s-e/)
 
 
 

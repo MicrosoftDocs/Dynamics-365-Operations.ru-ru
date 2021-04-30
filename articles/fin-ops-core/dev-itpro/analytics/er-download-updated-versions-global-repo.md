@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753368"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893964"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Импорт обновленных версий конфигураций электронной отчетности
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753368"
 
 [Репозитории](general-electronic-reporting.md#Repository) электронной отчетности (ER) служат для совместного использования [конфигураций ER](general-electronic-reporting.md#Configuration). Можно [импортировать](download-electronic-reporting-configuration-lcs.md) конфигурации ER из других репозиториев в экземпляр Microsoft Dynamics 365 Finance. При импорте конфигураций ER [поставщики конфигурации](general-electronic-reporting.md#Provider) могут публиковать новые [версии](general-electronic-reporting.md#component-versioning) репозиториев, чтобы их можно было использовать совместно.
 
-В этом разделе описан порядок импорта обновленных версий конфигураций электронной отчетности из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+В этом разделе описан порядок импорта обновленных версий конфигураций электронной отчетности из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Просмотр доступных обновленных версий
 

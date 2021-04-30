@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808072"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907675"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
 [!include [banner](../../includes/banner.md)]
 
-Как было [объявлено ранее](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), оптимизация планирования запланирована для замены имеющейся встроенной подсистемы сводного планирования.
+Как было [объявлено ранее](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), оптимизация планирования запланирована для замены имеющейся встроенной подсистемы сводного планирования.
 
 Если в настоящее время используется встроенный механизм планирования, следует сейчас начать планирование миграции на оптимизацию планирования. Важно начать процесс миграции немедленно, потому что операции могут пострадать при принудительном устаревании. Чтобы избежать проблем в последнюю минуту, когда устаревание применяется принудительно, настоятельно рекомендуется выполнить миграцию до 1 декабря 2020 года. 
 

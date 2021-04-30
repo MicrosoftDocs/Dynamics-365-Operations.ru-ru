@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825526"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909212"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -83,12 +83,12 @@ ms.locfileid: "5825526"
 ## <a name="prices-and-discounts"></a>Цены и скидки
 -   [Договоры покупки](purchase-agreements.md)
 -   [Создание договора покупки](tasks/create-purchase-agreement.md)
--   [Ретробонусы поставщика](https://docs.microsoft.com/dynamics/s-e/) (технический документ)
+-   [Ретробонусы поставщика](/dynamics/s-e/) (технический документ)
 
 ## <a name="product-receipt-and-invoicing"></a>Поступление продуктов и создание накладных
 -   [Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
--   [Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Профили разноски поставщиков](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Профили разноски поставщиков](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
 -   [Обзор модуля "Закупки и источники"](procurement-sourcing-overview.md)

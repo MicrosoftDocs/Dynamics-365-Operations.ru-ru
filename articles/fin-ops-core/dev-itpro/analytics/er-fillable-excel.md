@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753320"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893916"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Разработка конфигурации для создания документов в формате Excel
 
@@ -159,7 +159,7 @@ ms.locfileid: "5753320"
 
 В добавленный компонент **нижнего колонтитула** добавьте необходимые вложенные компоненты **Текст\\Строка**, **Текст\\DateTime** или другого типа. Настройте привязки для этих компонентов, чтобы указать, как заполняются нижние колонтитулы страницы.
 
-Можно также использовать специальные [коды форматирования](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers), чтобы правильно отформатировать содержимое созданного нижнего колонтитула. Чтобы узнать, как использовать этот подход, выполните шаги, указанные в [примере 1](#example-1) далее в этом разделе.
+Можно также использовать специальные [коды форматирования](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers), чтобы правильно отформатировать содержимое созданного нижнего колонтитула. Чтобы узнать, как использовать этот подход, выполните шаги, указанные в [примере 1](#example-1) далее в этом разделе.
 
 > [!NOTE]
 > При настройке форматов ER убедитесь, что установлен [предел](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel и максимальное число символов для одного верхнего или нижнего колонтитула.

@@ -2,11 +2,11 @@
 title: Настройка счетов разноски аренды
 description: В этой теме перечислены счета разноски, которые необходимы для проводок модуля аренды активов, и объясняется, как определять счета разноски на странице "Параметры разноски аренды".
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0367cd5454178c9404942c9f2e8cfeeb326af700
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d5b97a999f782bd2ed6de0b692edc2f202860354
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811469"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880870"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Настройка счетов разноски аренды
 

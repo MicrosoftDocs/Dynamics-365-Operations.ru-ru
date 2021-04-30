@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819288"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908936"
 ---
 # <a name="routes-and-operations"></a>Маршруты и операции
 
@@ -79,7 +79,7 @@ ms.locfileid: "5819288"
 
 Каждый маршрут можно утвердить или не утвердить отдельно. Однако обратите внимание, что если маршрут не утвержден, все связанные версии маршрута также не будут утверждены. В параметрах управления производством можно указать, могут ли маршруты быть неутвержденными и возможно ли изменение утвержденных маршрутов.  
 
-Если необходимо вести журнал записей, которые утверждают каждый маршрут, можно требовать электронные подписи для утверждения маршрута. Пользователям будет необходимо подтвердить свою подлинность с помощью [электронной подписи](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Если необходимо вести журнал записей, которые утверждают каждый маршрут, можно требовать электронные подписи для утверждения маршрута. Пользователям будет необходимо подтвердить свою подлинность с помощью [электронной подписи](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Операция является шагом производственного процесса. Каждая операция имеет код и простое описание. В следующих таблицах приведены типичные примеры операций в цехе.
@@ -185,7 +185,7 @@ ms.locfileid: "5819288"
 
 ### <a name="electronic-signatures"></a>Электронные подписи
 
-Если необходимо вести журнал записей, которые утверждают и активируют каждую версию маршрута, можно требовать электронные подписи для этих задач. Тогда пользователи, которые утверждают и активируют версии маршрута, должны будут подтверждать свою личность, используя [электронную подпись](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Если необходимо вести журнал записей, которые утверждают и активируют каждую версию маршрута, можно требовать электронные подписи для этих задач. Тогда пользователи, которые утверждают и активируют версии маршрута, должны будут подтверждать свою личность, используя [электронную подпись](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Изменение продукта, которое использует управление запросами
 
@@ -253,7 +253,7 @@ ms.locfileid: "5819288"
 
 - [Возможности ресурса](resource-capabilities.md)
 
-- [Обзор электронной подписи](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Обзор электронной подписи](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

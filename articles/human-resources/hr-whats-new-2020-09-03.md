@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 10978d8843e7bce2800d62b63e58152569be9631
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800125"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891777"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (3 сентября 2020 г.)
 
@@ -31,7 +31,7 @@ ms.locfileid: "5800125"
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3504. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
 
-Дополнительные сведения о предстоящих функциях в модуле Human Resources см. в разделе [Обзор Dynamics 365 Human Resources волны 2 выпуска 2019 года](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Дополнительные сведения о процессе обновления для модуля Human Resources см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
+Дополнительные сведения о предстоящих функциях в модуле Human Resources см. в разделе [Обзор Dynamics 365 Human Resources волны 2 выпуска 2019 года](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Дополнительные сведения о процессе обновления для модуля Human Resources см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>В данном выпуске
 
@@ -76,21 +76,21 @@ ms.locfileid: "5800125"
 
 Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см.
 
-- [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 1 за 2020 год
-- [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841) в документации Human Resources
+- [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 1 за 2020 год
+- [Приложение Human Resources в Teams](./hr-admin-teams-leave-app.md) в документации Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Предварительные версии функций приложения Human Resources в Teams
  
 -  **Уведомления**: отправители и утверждающие запросы отпусков получают уведомления в приложении Human Resources в Teams. Утверждающие смогут утверждать или отклонять запросы на отсутствие. Отправители получат уведомление, если запрос был утвержден или отклонен. Дополнительные сведения см.
-   - [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 2 за 2020 год
-   - [Включение уведомлений для приложения Human Resources в Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) в документации Human Resources
-   - [Включение или выключение уведомлений Teams для отдельных пользователей](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) в документации Human Resources
-   - [Уведомления Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) в документации Human Resources
-   - [Просмотр календаря отпусков вашей рабочей группы](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) в документации Human Resources
+   - [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 2 за 2020 год
+   - [Включение уведомлений для приложения Human Resources в Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) в документации Human Resources
+   - [Включение или выключение уведомлений Teams для отдельных пользователей](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) в документации Human Resources
+   - [Уведомления Teams](./hr-teams-leave-app.md#respond-to-teams-notifications) в документации Human Resources
+   - [Просмотр календаря отпусков вашей рабочей группы](./hr-teams-leave-app.md#view-your-teams-leave-calendar) в документации Human Resources
  
 - **Календарь отпусков руководителя**: руководители смогут просматривать утвержденные и ожидающие отпуска для их непосредственных подчиненных в представлении календаря. Это представление упрощает понимание того, когда члены рабочей группы не находятся на рабочем месте. Дополнительные сведения см.
-   - [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 2 за 2020 год
-   - [Просмотр календаря отпусков вашей рабочей группы](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) в документации Human Resources
+   - [Отпуск сотрудника и опыт отсутствия в Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) в плане выпуска Dynamics 365 волны 2 за 2020 год
+   - [Просмотр календаря отпусков вашей рабочей группы](./hr-teams-leave-app.md#view-your-teams-leave-calendar) в документации Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Параметр конфигурации для размещения списка рабочих элементов, назначенных мне (477004)
 
@@ -98,7 +98,7 @@ ms.locfileid: "5800125"
 
 Эта функция также поддерживает параметры рабочего процесса, которые отображаются в формах действий персонала. Параметры рабочего процесса также появляются над экспресс-вкладкой действий для быстрого доступа. Дополнительные сведения см. 
 
-- [Улучшения рабочего процесса управления предприятием и персоналом](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) в плане волны 2 выпуска 2020 года Dynamics 365
+- [Улучшения рабочего процесса управления предприятием и персоналом](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) в плане волны 2 выпуска 2020 года Dynamics 365
 
 ![Рабочие элементы, назначенные мне](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -117,7 +117,7 @@ ms.locfileid: "5800125"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

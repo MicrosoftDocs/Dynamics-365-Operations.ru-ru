@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833865"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909483"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Стоимость на складе в сравнении с управлением транспортировкой
 
@@ -51,8 +51,8 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет два
 
 Следующие отчеты не работают в сочетании с функцией товаров в пути в составе стоимости на складе:
 
-- [Отчет по внутрихолдинговым итоговым значениям по товарам в пути](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Отчет по внутрихолдинговым итоговым значениям по товарам в пути](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Отчет по внутрихолдинговым итоговым значениям по товарам в пути](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Отчет по внутрихолдинговым итоговым значениям по товарам в пути](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 В этих отчетах предполагается, что товары передаются в транспортировку, как только будет выпущена отборочная накладная продажи, и что они переносятся на в запасы из транспортировки после поступления. Однако товары в пути не обрабатываются таким образом. Поэтому при совместном использовании товаров в пути и внутрихолдинговых функций результаты обоих этих отчетов будут неверны.
 

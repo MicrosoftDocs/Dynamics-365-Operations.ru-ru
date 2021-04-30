@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b44cee0574794ae4b3cfd1987934aa4933b46b2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3926acd07a68f59682c18f4f7bc290dc1e21d0b6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804001"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889748"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "5804001"
 
 Приложение Dynamics 365 Human Resources можно найти в магазине Teams. Сведения об установке приложения Teams см. в разделе [Управление запросами на отпуск в Teams](hr-teams-leave-app.md).
 
-Сведения об управлении разрешениями приложений в Teams см. в разделе [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
+Сведения об управлении разрешениями приложений в Teams см. в разделе [Управление политиками разрешений приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Если требуется, чтобы пользователи могли просматривать календарь отпусков и отсутствия в приложении, необходимо включить **Календарь отпусков и отсутствия в Teams** в управлении функциями. Дополнительные сведения о включении функций см. в разделе [Управление функциями](hr-admin-manage-features.md).
 
@@ -111,7 +111,7 @@ ms.locfileid: "5804001"
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-Если пользователь не может войти в систему или использовать приложение Human Resources Teams, попробуйте выполнить следующие инструкции по устранению неполадок. Если после устранения неполадок все еще возникают проблемы, обратитесь в службу поддержки. Для получения дополнительных см. [Получение поддержки](hr-admin-troubleshooting-support.md).
+Если пользователь не может войти в систему или использовать приложение Human Resources Teams, попробуйте выполнить следующие инструкции по устранению неполадок. Если после устранения неполадок все еще возникают проблемы, обратитесь в службу поддержки. Для получения дополнительных см. [Получение поддержки](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Невозможно выполнить вход в приложение Human Resources в Teams
 
@@ -141,11 +141,11 @@ ms.locfileid: "5804001"
 
 При использовании функции уведомлений для приложения Dynamics 365 Human Resources в Microsoft Teams некоторые клиентские данные могут выходить из географического региона, в котором развернута служба Human Resources вашего клиента.
 
-Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в сетке событий Microsoft Azure в течение 24 часов и будут обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Dynamics 365 Human Resources передает сведения о запросе отпуска сотрудника и задачах рабочего процесса в сетку событий Microsoft Azure и Microsoft Teams. Эти данные могут храниться в сетке событий Microsoft Azure в течение 24 часов и будут обрабатываться в США, шифруются при передаче и при хранении, и не используются корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
-При взаимодействии с чат-ботом в приложении Human Resources содержимое беседы может храниться в Azure Cosmos DB и передаваться в Microsoft Teams. Эти данные могут храниться в Azure Cosmos DB течение 24 часов и могут быть обработаны вне географического региона, в котором развернута служба Human Resources для клиента, шифруются при передачи и хранении, и не используется корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+При взаимодействии с чат-ботом в приложении Human Resources содержимое беседы может храниться в Azure Cosmos DB и передаваться в Microsoft Teams. Эти данные могут храниться в Azure Cosmos DB течение 24 часов и могут быть обработаны вне географического региона, в котором развернута служба Human Resources для клиента, шифруются при передачи и хранении, и не используется корпорацией Майкрософт или ее подсистемами для обучения или улучшения обслуживания. Чтобы понять, где хранятся данные в Teams, см. раздел: [Местоположение данных в Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  
-Для ограничения доступа к приложению Human Resources в Microsoft Teams для вашей организации или пользователей в организации см. раздел [Управление политиками разрешений приложений в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
+Для ограничения доступа к приложению Human Resources в Microsoft Teams для вашей организации или пользователей в организации см. раздел [Управление политиками разрешений приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>См. также 
 

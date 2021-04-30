@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750066"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893185"
 ---
 # <a name="electronic-reporting-er-overview"></a>Обзор электронной отчетности (ER)
 
@@ -183,11 +183,11 @@ ms.locfileid: "5750066"
 
 Дополнительные сведения см. в разделе [Импорт конфигураций электронной отчетности (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Репозиторий **RCS** предоставляет доступ к списку конфигураций определенного экземпляра [Configuration Service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration), который был выбран на стадии регистрации репозитория. Электронная отчетность позволяет импортировать завершенные или общие конфигурации из выбранного экземпляра RCS в текущий экземпляр, чтобы их можно было использовать для электронной отчетности.
+Репозиторий **RCS** предоставляет доступ к списку конфигураций определенного экземпляра [Configuration Service (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration), который был выбран на стадии регистрации репозитория. Электронная отчетность позволяет импортировать завершенные или общие конфигурации из выбранного экземпляра RCS в текущий экземпляр, чтобы их можно было использовать для электронной отчетности.
 
 Дополнительные сведения см. в разделе [Импорт конфигураций электронной отчетности (ER) из RCS](./rcs-download-configurations.md).
 
-Репозиторий **Глобальный репозиторий** предоставляет доступ к списку конфигураций в глобальном репозитории в [Configuration Service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Этот тип репозитория электронной отчетности можно зарегистрировать только для поставщика Майкрософт. Из глобального репозитория можно импортировать последние версии конфигураций электронной отчетности в текущий экземпляр.
+Репозиторий **Глобальный репозиторий** предоставляет доступ к списку конфигураций в глобальном репозитории в [Configuration Service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Этот тип репозитория электронной отчетности можно зарегистрировать только для поставщика Майкрософт. Из глобального репозитория можно импортировать последние версии конфигураций электронной отчетности в текущий экземпляр.
 
 Дополнительные сведения см. в разделе [Импорт конфигураций электронной отчетности из глобального репозитория Configuration Service](./er-download-configurations-global-repo.md).
 

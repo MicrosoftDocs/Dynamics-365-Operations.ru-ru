@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793833"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889844"
 ---
 # <a name="manage-features-in-human-resources"></a>Управление функциями в Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793833"
 
 В рамках нашего непрерывного процесса развертывания новых возможностей для Microsoft Dynamics 365 Human Resources мы хотим предоставить клиентам возможность испытать новые функции. Мы предоставляем предварительную версию, которая почти готова и прошла множество тестов. Мы хотели бы получить окончательные отзывы клиентов и выполнить проверку до выпуска общедоступной версии.
 
-Дополнительные сведения о новых возможностях в Human Resources см. в разделах [Что нового в Human Resources](hr-admin-whats-new.md) и [План выпуска Dynamics 365 и Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Дополнительные сведения о новых возможностях в Human Resources см. в разделах [Что нового в Human Resources](hr-admin-whats-new.md) и [План выпуска Dynamics 365 и Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Рабочая область **Управление функциями** содержит список функций, предоставляемых в каждом выпуске. По умолчанию новые функции отключены. Можно использовать рабочую область для их включения и просмотра документации по ним. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Рабочая область **Управление функциями** содержит список функций, предоставляемых в каждом выпуске. По умолчанию новые функции отключены. Можно использовать рабочую область для их включения и просмотра документации по ним. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Все новые возможности остаются в виде предварительного просмотра по крайней мере на 30 дней, а обычно 30-60 дней. Основные функции обычно доступны в октябре и апрель каждого года, следующего за периодом предварительного просмотра. После отображения новых возможностей в рабочей области **Управление функциями** их можно включить. Некоторые функции могут быть включены по умолчанию.
 
@@ -93,6 +93,6 @@ ms.locfileid: "5793833"
 ## <a name="see-also"></a>См. также
 
 - [Что нового в Human Resources](hr-admin-whats-new.md)
-- [Планы выпусков Dynamics 365 и Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Планы выпусков Dynamics 365 и Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

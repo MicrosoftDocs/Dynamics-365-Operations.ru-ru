@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f8d9408090846799c1bb421c4b6e5e248d37fa07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 791b244c867ea4263f08250abf220a1b75784cad
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797511"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907871"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>Добавление QR-кода или штрих-кода к транзакционным письмам и сообщениям электронной почты с чеками
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этой теме объясняется, как вставить QR-коды и штрих-коды, представляющие коды заказов в транзакционные письма и сообщения электронной почты с чеками в Microsoft Dynamics 365 Commerce.
 

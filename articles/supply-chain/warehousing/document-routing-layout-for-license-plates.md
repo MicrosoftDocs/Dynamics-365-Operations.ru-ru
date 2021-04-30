@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838282"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907995"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Макет маршрутизации документов для наклеек грузомест
 
@@ -73,7 +73,7 @@ $FieldName:FormatString$
 - Чтобы всегда показывать четыре цифры (с использованием нулей в качестве заполнителей), используйте `$Qty:0000$`. Например, если количество равно 10, метка отобразит "0010".
 - Чтобы всегда отображалось два знака после запятой, используйте `$Qty:0.00$`. Например, если количество равно 10, метка отобразит "10,00".
 
-Полный список доступных строк числовых форматов см. в разделе [Настраиваемые строки числовых форматов](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Полный список доступных строк числовых форматов см. в разделе [Настраиваемые строки числовых форматов](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Пользовательские форматы строк
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 В этом примере дата "30 апреля 2020 года" будет распечатана как "30-04-2020".
 
-Полный список доступных форматов даты и времени см. в разделе [Настраиваемые строки форматов даты и времени](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Полный список доступных форматов даты и времени см. в разделе [Настраиваемые строки форматов даты и времени](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Печать отдельных строк из многострочных данных
 

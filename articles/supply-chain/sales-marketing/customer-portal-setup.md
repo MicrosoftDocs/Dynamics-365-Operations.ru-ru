@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840733"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907823"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Установка, настройка и обновление клиентского портала
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840733"
 
 Для реализации клиентского портала необходимы следующие лицензии:
 
-- **Порталы Power Apps** — данная лицензия необходима для размещения клиентского портала. Порталы лицензируются в зависимости от использования. Дополнительные сведения см. в разделе [Требования к лицензированию порталов Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Порталы Power Apps** — данная лицензия необходима для размещения клиентского портала. Порталы лицензируются в зависимости от использования. Дополнительные сведения см. в разделе [Требования к лицензированию порталов Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Двойная запись** — у вас должны быть необходимые лицензии, чтобы включить двойную запись для таблиц Supply Chain Management. Дополнительную информацию см. в [системных требованиях для двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Зависимости двойной записи и порталов Power Apps
@@ -40,7 +40,7 @@ ms.locfileid: "5840733"
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Необходимая настройка для включения клиентского портала
 
-Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Убедитесь, что следующие сопоставления таблиц активированы в двойной записи:
 
@@ -74,14 +74,14 @@ ms.locfileid: "5840733"
 
 Чтобы узнать, как настроить клиентский портал, следует начать с изучения следующей документации по используемым технологиям:
 
-- [Документация по порталам Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Документация по порталам Power Apps](/powerapps/maker/portals/overview)
 - [Документация по двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Для эффективного управления порталами необходимо понимать порталы Power Apps и жизненный цикл Microsoft Dataverse. Дополнительные сведения см. на следующих ресурсах:
 
-- [О жизненном цикле портала](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Обновление портала](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Миграция конфигурации портала](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [О жизненном цикле портала](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Обновление портала](/powerapps/maker/portals/admin/upgrade-portal)
+- [Миграция конфигурации портала](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Управление жизненным циклом решения: Dynamics 365 для приложений Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

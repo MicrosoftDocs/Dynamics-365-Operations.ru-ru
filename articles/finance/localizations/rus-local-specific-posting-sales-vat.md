@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a152f5f367bab4edf6056896f4e0093dd81a6785
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d01477f2b5abce8d0e54df3f5a417ae2dd79eb2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821875"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894644"
 ---
 # <a name="local-specific-posting-of-sales-vat"></a>Специфическая локальная разноска исходящего НДС 
 
@@ -30,7 +30,7 @@ ms.locfileid: "5821875"
 2. Налоговые коды объединяются в налоговые группы и налоговые группы номенклатур.
 3. При выполнении проводки покупки или продажи будут указаны налоговые группы и налоговые группы номенклатур. Система определяет, какие налоги (налоговых коды) включаются и в налоговую группу, и в налоговую группу номенклатур. Она также рассчитывает налоги и генерирует проводки учета для них при разнесении операции.
 
-Дополнительные сведения см. в разделе [Обзор косвенных налогов](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview).
+Дополнительные сведения см. в разделе [Обзор косвенных налогов](../general-ledger/indirect-taxes-overview.md).
 
 ## <a name="posting-of-vat-payable-in-russia"></a>Разнесение НДС, уплачиваемого в России
 В следующей таблице приводится пример записей учета для продаж товаров и услуг в России.

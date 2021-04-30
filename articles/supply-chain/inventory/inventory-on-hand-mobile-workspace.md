@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816660"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908738"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
@@ -56,7 +56,7 @@ ms.locfileid: "5816660"
 Необходимые условия различаются в зависимости от версии Supply Chain Management, развернутой в вашей организации.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management
-Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Необходимые условия при использовании обновления платформы Platform Update 3 или более поздней версии 
 Если в вашей организации развернуто обновление платформы Platform Update 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -76,17 +76,17 @@ ms.locfileid: "5816660"
 
 <td>KB 4013633 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Запасы в наличии</strong>. Для установки KB 4013633 системный администратор должен выполнить следующие задачи.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Установите исправление метаданных</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Примените готовый к развертыванию пакет</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Опубликуйте мобильную рабочую область <strong>Запасы в наличии</strong>.</td>
 <td>Системный администратор</td>
-<td>См. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Публикация мобильной рабочей области</a>.</td>
+<td>См. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ ms.locfileid: "5816660"
 
 1.  На мобильном устройстве выберите рабочую область **Запасы в наличии**.
 
-2.  Выберите **Проверка запасов в наличии для номенклатуры**. Отображается список продуктов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  Выберите **Проверка запасов в наличии для номенклатуры**. Отображается список продуктов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Если нужной номенклатуры нет в списке, выберите **Дополнительный поиск**. Можно искать по коду продукта или переключиться на поиск по названию продукта.
 
 4.  Выберите продукт. Если у номенклатуры имеются изображение, отображается изображение.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751324"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893612"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Места назначения электронной отчетности (ER)
 
@@ -57,7 +57,7 @@ ms.locfileid: "5751324"
 
 В диалоговом окне **Отчет Интрастат**, на экспресс-вкладке **Выполнять в фоновом режиме**, если для параметра **Пакетная обработка** выбрано значение **Нет**, формат ER сразу выполняется в интерактивном режиме. После успешного выполнения сформированный исходящий документ становится доступным для загрузки.
 
-Если для параметра **Пакетная обработка** установлено значение **Да**, то формат ER выполняется в [пакетном](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) режиме. Создается соответствующее пакетное задание на основе параметров, указанных на вкладке **Выполнять в фоновом режиме** диалогового окна **Параметры электронной отчетности**.
+Если для параметра **Пакетная обработка** установлено значение **Да**, то формат ER выполняется в [пакетном](../sysadmin/batch-processing-overview.md) режиме. Создается соответствующее пакетное задание на основе параметров, указанных на вкладке **Выполнять в фоновом режиме** диалогового окна **Параметры электронной отчетности**.
 
 > [!NOTE]
 > Описание задания информирует пользователя о выполнении сопоставления форматов электронной отчетности. Оно также содержит имя выполняемого компонента электронной отчетности.
@@ -70,7 +70,7 @@ ms.locfileid: "5751324"
 - Выберите **Администрирование организации** \> **Электронная отчетность** \> **Задания электронной отчетности**, чтобы проверить статус запланированного задания и результаты выполнения завершенного задания. После успешного завершения задания выберите **Показать файлы** на странице **Задания электронной отчетности**, чтобы получить созданный исходящий документ.
 
     > [!NOTE]
-    > Этот документ хранится в виде вложения в текущей записи задания и управляется структурой [управления документами](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). [Тип документа](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), который используется для хранения артефактов ER этого типа, настраивается в [параметрах ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Этот документ хранится в виде вложения в текущей записи задания и управляется структурой [управления документами](../../fin-ops/organization-administration/configure-document-management.md). [Тип документа](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types), который используется для хранения артефактов ER этого типа, настраивается в [параметрах ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - На странице **Задания электронной отчетности** выберите **Показать файлы**, чтобы просмотреть список всех ошибок и предупреждений, созданных во время выполнения задания.
 

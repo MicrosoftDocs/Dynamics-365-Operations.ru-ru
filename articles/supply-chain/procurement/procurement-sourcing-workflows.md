@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807952"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909239"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
 
@@ -47,7 +47,7 @@ ms.locfileid: "5807952"
 | Workflow-процесс приложения добавления поставщика | Создание workflow-процессов проверки и утверждения для добавления новых поставщиков через запросы поставщиков. |
 
 > [!IMPORTANT]
-> При добавлении нового рабочего процесса можно также увидеть следующие устаревшие рабочие процессы, перечисленные в диалоговом окне **Создание рабочего процесса**. Они связаны с функциональностью *подтверждения поступления*, которая была доступна в [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), но которая в данный момент устарела. Эти рабочие процессы в настоящее время не поддерживаются.
+> При добавлении нового рабочего процесса можно также увидеть следующие устаревшие рабочие процессы, перечисленные в диалоговом окне **Создание рабочего процесса**. Они связаны с функциональностью *подтверждения поступления*, которая была доступна в [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), но которая в данный момент устарела. Эти рабочие процессы в настоящее время не поддерживаются.
 > 
 > - Workflow-процесс уведомления о сроке выполнения поставки
 > - Workflow-процесс уведомления о полученной накладной
