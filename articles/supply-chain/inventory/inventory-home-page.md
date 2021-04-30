@@ -16,45 +16,45 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 40d443e52a2b781a40e2db1dbccd2351405ffff1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809574"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909751"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="771a2-103">Обзор управления запасами</span><span class="sxs-lookup"><span data-stu-id="771a2-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="071e5-103">Обзор управления запасами</span><span class="sxs-lookup"><span data-stu-id="071e5-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="771a2-104">Модуль управления запасами можно использовать для выполнения следующих задач:</span><span class="sxs-lookup"><span data-stu-id="771a2-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="071e5-104">Модуль управления запасами можно использовать для выполнения следующих задач:</span><span class="sxs-lookup"><span data-stu-id="071e5-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="771a2-105">Входящие операции</span><span class="sxs-lookup"><span data-stu-id="771a2-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="771a2-106">Контроль качества</span><span class="sxs-lookup"><span data-stu-id="771a2-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="771a2-107">Действия с запасами</span><span class="sxs-lookup"><span data-stu-id="771a2-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="771a2-108">Исходящие операции</span><span class="sxs-lookup"><span data-stu-id="771a2-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="771a2-109">Управление запасами</span><span class="sxs-lookup"><span data-stu-id="771a2-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="071e5-105">Входящие операции</span><span class="sxs-lookup"><span data-stu-id="071e5-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="071e5-106">Контроль качества</span><span class="sxs-lookup"><span data-stu-id="071e5-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="071e5-107">Действия с запасами</span><span class="sxs-lookup"><span data-stu-id="071e5-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="071e5-108">Исходящие операции</span><span class="sxs-lookup"><span data-stu-id="071e5-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="071e5-109">Управление запасами</span><span class="sxs-lookup"><span data-stu-id="071e5-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="771a2-110">Карта обучения</span><span class="sxs-lookup"><span data-stu-id="771a2-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="071e5-110">Карта обучения</span><span class="sxs-lookup"><span data-stu-id="071e5-110">Learning map</span></span>
 
-<span data-ttu-id="771a2-111">На следующей карте обучения показаны основные понятия и задачи, составляющие структуру модуля "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="771a2-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="771a2-112">Щелкните карту обучения ниже, чтобы развернуть ее.</span><span class="sxs-lookup"><span data-stu-id="771a2-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="771a2-113">Эта карта обучения поможет вам приступить к работе.</span><span class="sxs-lookup"><span data-stu-id="771a2-113">This learning map will help you get started.</span></span>
+<span data-ttu-id="071e5-111">На следующей карте обучения показаны основные понятия и задачи, составляющие структуру модуля "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="071e5-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="071e5-112">Щелкните карту обучения ниже, чтобы развернуть ее.</span><span class="sxs-lookup"><span data-stu-id="071e5-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="071e5-113">Эта карта обучения поможет вам приступить к работе.</span><span class="sxs-lookup"><span data-stu-id="071e5-113">This learning map will help you get started.</span></span>
 
 
-<span data-ttu-id="771a2-114">[![Карта обучения работе с запасами](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="771a2-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+<span data-ttu-id="071e5-114">[![Карта обучения работе с запасами](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="071e5-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="771a2-115">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="771a2-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="071e5-115">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="071e5-115">Additional resources</span></span>
 
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="771a2-116">Новые возможности и текущие разработки</span><span class="sxs-lookup"><span data-stu-id="771a2-116">What's new and in development</span></span>
-<span data-ttu-id="771a2-117">Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.</span><span class="sxs-lookup"><span data-stu-id="771a2-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="071e5-116">Новые возможности и текущие разработки</span><span class="sxs-lookup"><span data-stu-id="071e5-116">What's new and in development</span></span>
+<span data-ttu-id="071e5-117">Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.</span><span class="sxs-lookup"><span data-stu-id="071e5-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="inventory-accounting"></a><span data-ttu-id="771a2-118">Учет запасов</span><span class="sxs-lookup"><span data-stu-id="771a2-118">Inventory accounting</span></span> 
-<span data-ttu-id="771a2-119">Дополнительные сведения см. в разделе [Закрытие запасов](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="771a2-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
+### <a name="inventory-accounting"></a><span data-ttu-id="071e5-118">Учет запасов</span><span class="sxs-lookup"><span data-stu-id="071e5-118">Inventory accounting</span></span> 
+<span data-ttu-id="071e5-119">Дополнительные сведения см. в разделе [Закрытие запасов](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="071e5-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="771a2-120">Блоги по управлению производством и Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="771a2-120">Manufacturing and Supply Chain Management blogs</span></span>
-<span data-ttu-id="771a2-121">В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.</span><span class="sxs-lookup"><span data-stu-id="771a2-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="071e5-120">Блоги по управлению производством и Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="071e5-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="071e5-121">В [блоге группы исследований производства Dynamics AX](/archive/blogs/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.</span><span class="sxs-lookup"><span data-stu-id="071e5-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](/archive/blogs/axmfg/) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
 
-### <a name="task-guides"></a><span data-ttu-id="771a2-122">Проводники по задачам</span><span class="sxs-lookup"><span data-stu-id="771a2-122">Task guides</span></span>
-<span data-ttu-id="771a2-123">Дополнительная справка доступна в виде руководств по задачам.</span><span class="sxs-lookup"><span data-stu-id="771a2-123">Additional help is available as task guides.</span></span> <span data-ttu-id="771a2-124">Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице</span><span class="sxs-lookup"><span data-stu-id="771a2-124">To access task guides, click the **Help** button on any page</span></span>
+### <a name="task-guides"></a><span data-ttu-id="071e5-122">Проводники по задачам</span><span class="sxs-lookup"><span data-stu-id="071e5-122">Task guides</span></span>
+<span data-ttu-id="071e5-123">Дополнительная справка доступна в виде руководств по задачам.</span><span class="sxs-lookup"><span data-stu-id="071e5-123">Additional help is available as task guides.</span></span> <span data-ttu-id="071e5-124">Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице</span><span class="sxs-lookup"><span data-stu-id="071e5-124">To access task guides, click the **Help** button on any page</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
