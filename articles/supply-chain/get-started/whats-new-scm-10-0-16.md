@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829989"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909927"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 
@@ -33,17 +33,17 @@ ms.locfileid: "5829989"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
+Этот выпуск содержит следующие функции. Перейдите по ссылке на [план выпуска](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-- [Настраиваемый интерфейс выполнения цеха](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка устройства для выполнения интерфейса выполнения производственного цеха](../production-control/production-floor-execution-setup.md).
+- [Настраиваемый интерфейс выполнения цеха](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка устройства для выполнения интерфейса выполнения производственного цеха](../production-control/production-floor-execution-setup.md).
 
-- [Надстройка видимости запасов для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Дополнительные сведения см. в разделе [Надстройка видимости запасов](../inventory/inventory-visibility.md)
+- [Надстройка видимости запасов для Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Дополнительные сведения см. в разделе [Надстройка видимости запасов](../inventory/inventory-visibility.md)
 
 - Единая номерная серия для кодов заданий<br> - Для получения дополнительных сведений см. раздел [Унифицированная номерная серия для кодов заданий](../production-control/unified-job-ids.md).
 
-- [Проверка грузомест по строкам исходного документа](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Дополнительные сведения см. в разделе [Обзор конфигурации склада](../warehousing/warehouse-configuration.md).
+- [Проверка грузомест по строкам исходного документа](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Дополнительные сведения см. в разделе [Обзор конфигурации склада](../warehousing/warehouse-configuration.md).
 
-- [Визуализация исходящих рабочих нагрузок в модуле управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Дополнительные сведения см. в разделе [Визуализация исходящих рабочих нагрузок](../warehousing/outbound-workload-visualization.md)
+- [Визуализация исходящих рабочих нагрузок в модуле управления складом](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Дополнительные сведения см. в разделе [Визуализация исходящих рабочих нагрузок](../warehousing/outbound-workload-visualization.md)
 
 Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
@@ -99,7 +99,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 включает обно
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 

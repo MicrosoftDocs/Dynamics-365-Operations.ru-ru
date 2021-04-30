@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802463"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892137"
 ---
 # <a name="view-and-manage-address-changes"></a>Просмотр и управление изменениями адресов
 
@@ -125,9 +125,9 @@ ms.locfileid: "5802463"
 При выборе плитки **изменения адреса** на новой странице отображаются сведения об изменении адреса. Можно дополнительно установить флажок **включить будущие изменения адреса** в верхнем правом углу для просмотра изменений адреса с будущей датой.
 
 > [!NOTE]
-> Если вы хотите получать оповещение или сообщение электронной почты об изменениях адресов, можно создать новое правило генерации оповещений на вкладке **Параметры** в области действий. Дополнительные сведения о создании правил оповещения см. в разделе [Создание правил оповещения](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Если вы хотите получать оповещение или сообщение электронной почты об изменениях адресов, можно создать новое правило генерации оповещений на вкладке **Параметры** в области действий. Дополнительные сведения о создании правил оповещения см. в разделе [Создание правил оповещения](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Если требуется настроить workflow-процесс для изменения адреса, можно выбрать параметр **Послать извне** в правиле оповещений, а затем использовать Power Automate для запуска бизнес-события и настройки workflow-процесса. Дополнительные сведения см. в [Оповещения как бизнес-события](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Если требуется настроить workflow-процесс для изменения адреса, можно выбрать параметр **Послать извне** в правиле оповещений, а затем использовать Power Automate для запуска бизнес-события и настройки workflow-процесса. Дополнительные сведения см. в [Оповещения как бизнес-события](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

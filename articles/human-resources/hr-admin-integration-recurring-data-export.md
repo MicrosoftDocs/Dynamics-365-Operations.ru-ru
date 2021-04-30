@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801127"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889868"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Создание приложения для повторяющегося экспорта данных
 
@@ -43,12 +43,12 @@ ms.locfileid: "5801127"
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** — Главный источник данных для работников, которые будут экспортированы.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** — технология, обеспечивающая согласование и планирование повторяющегося экспорта.
 
-    - **[Соединители](https://docs.microsoft.com/azure/connectors/apis-list)** — технология, используемая для подключения приложения логики к необходимым конечным точкам.
+    - **[Соединители](/azure/connectors/apis-list)** — технология, используемая для подключения приложения логики к необходимым конечным точкам.
 
-        - [HTTP с соединителем Azure AD](https://docs.microsoft.com/connectors/webcontents/)
-        - Соединитель [OneDrive для бизнеса](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - [HTTP с соединителем Azure AD](/connectors/webcontents/)
+        - Соединитель [OneDrive для бизнеса](/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[Пакет DMF REST API](../dev-itpro/data-entities/data-management-api.md)** — технология, используемая для запуска экспорта и отслеживания его выполнения.
+- **[Пакет DMF REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** — технология, используемая для запуска экспорта и отслеживания его выполнения.
 - **[OneDrive для бизнеса](https://onedrive.live.com/about/business/)** — место назначения для экспортируемых работников.
 
 ## <a name="prerequisites"></a>Необходимые условия
@@ -84,11 +84,11 @@ ms.locfileid: "5801127"
     ![Страница создания приложения логики](media/integration-logic-app-creation-1.png)
 
 2. В Logic Apps Designer начнем с чистого приложения логики.
-3. Добавьте [Триггер расписания повторения](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) для запуска приложения логики каждые 24 часа (или в соответствии с выбранным расписанием).
+3. Добавьте [Триггер расписания повторения](/azure/connectors/connectors-native-recurrence) для запуска приложения логики каждые 24 часа (или в соответствии с выбранным расписанием).
 
     ![Диалоговое окно повторения](media/integration-logic-app-recurrence-step.png)
 
-4. Вызовите DMF REST API [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage), чтобы запланировать экспорт пакета данных.
+4. Вызовите DMF REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage), чтобы запланировать экспорт пакета данных.
 
     1. Используйте действие **Вызвать запрос HTTP** из HTTP с соединителем Azure AD.
 
@@ -122,13 +122,13 @@ ms.locfileid: "5801127"
     > [!TIP]
     > Возможно, потребуется переименовать каждый шаг, чтобы он более был более значимым, чем имя по умолчанию, **Вызвать HTTP-запрос**. Например, можно переименовать этот шаг **ExportToPackage**.
 
-5. [Инициализируйте переменную](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) для хранения статуса выполнения запроса **ExportToPackage**.
+5. [Инициализируйте переменную](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) для хранения статуса выполнения запроса **ExportToPackage**.
 
     ![Инициализация действия переменной](media/integration-logic-app-initialize-variable-step.png)
 
 6. Подождите, пока статус выполнения экспорта данных станет **Успешно**.
 
-    1. Добавьте [цикл Until](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop), который повторяется до тех пор, пока значение переменной **ExecutionStatus** не будет выполнено **Успешно**.
+    1. Добавьте [цикл Until](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), который повторяется до тех пор, пока значение переменной **ExecutionStatus** не будет выполнено **Успешно**.
     2. Добавьте действие **Задержка**, которое ждет пять секунд, прежде чем оно будет опрашивать текущее состояние выполнения экспорта.
 
         ![Контейнер цикла Until](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ ms.locfileid: "5801127"
         > [!NOTE]
         > Установите предельное число **15**, чтобы подождать максимум 75 секунд (15 итераций по 5 секунд), чтобы завершить экспорт. Если экспорт занимает больше времени, скорректируйте количество предельных значений.        
 
-    3. Добавьте действие **Вызывать HTTP- запрос** для вызова DMF REST API [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) и задайте переменную **ExecutionStatus** для ответа результата **GetExecutionSummaryStatus**.
+    3. Добавьте действие **Вызывать HTTP- запрос** для вызова DMF REST API [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) и задайте переменную **ExecutionStatus** для ответа результата **GetExecutionSummaryStatus**.
 
-        > В этом примере проверка ошибок не выполняется. API **GetExecutionSummaryStatus** может возвращать неудачные состояния терминала (то есть состояние, отличное от **Успешно**). Дополнительные сведения см. в [документации по API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > В этом примере проверка ошибок не выполняется. API **GetExecutionSummaryStatus** может возвращать неудачные состояния терминала (то есть состояние, отличное от **Успешно**). Дополнительные сведения см. в [документации по API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Метод:** POST
         - **URL-адрес запроса:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ ms.locfileid: "5801127"
 
 7. Получите URL-адрес загрузки экспортированного пакета.
 
-    - Добавьте действие **Вызвать HTTP-запрос** для вызова DMF REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
+    - Добавьте действие **Вызвать HTTP-запрос** для вызова DMF REST API [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **Метод:** POST
         - **URL-адрес запроса:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ ms.locfileid: "5801127"
 
 8. Загрузите экспортированный пакет.
 
-    - Добавьте запрос HTTP **GET** (встроенное [действие соединителя HTTP](https://docs.microsoft.com/azure/connectors/connectors-native-http)) для загрузки пакета по URL-адресу, который был возвращен на предыдущем шаге.
+    - Добавьте запрос HTTP **GET** (встроенное [действие соединителя HTTP](/azure/connectors/connectors-native-http)) для загрузки пакета по URL-адресу, который был возвращен на предыдущем шаге.
 
         - **Метод:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ ms.locfileid: "5801127"
         > [!NOTE]
         > Этот запрос не требует дополнительной аутентификации, так как URL-адрес, возвращаемый API **GetExportedPackageUrl**, включает токен подписей общего доступа, который предоставляет доступ для загрузки файла.
 
-9. Сохраните загруженный пакет, используя [Соединитель OneDrive для бизнеса](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness).
+9. Сохраните загруженный пакет, используя [Соединитель OneDrive для бизнеса](/azure/connectors/connectors-create-api-onedriveforbusiness).
 
-    - Добавьте действие [Создать файл](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file) для OneDrive для бизнеса.
+    - Добавьте действие [Создать файл](/connectors/onedriveforbusinessconnector/#create-file) для OneDrive для бизнеса.
     - Подключитесь к учетной записи OneDrive для бизнеса.
 
         - **Путь к папке:** выбранная папка

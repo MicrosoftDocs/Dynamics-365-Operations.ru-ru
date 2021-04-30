@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839303"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881840"
 ---
 # <a name="archive-inventory-transactions"></a>Архивирование проводок по запасам
 
@@ -38,7 +38,7 @@ ms.locfileid: "5839303"
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Включите функцию в системе
 
-Если ваша система еще не содержит функций, описанных в этом разделе, перейдите в [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Архивация проводок по запасам*.
+Если ваша система еще не содержит функций, описанных в этом разделе, перейдите в [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Архивация проводок по запасам*. Обратите внимание, что эту функцию нельзя отключить после ее активации.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Вопросы, которые необходимо учесть перед архивацией проводок по запасам
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826043"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910193"
 ---
 # <a name="inventory-journals"></a>Журналы запасов
 
@@ -95,7 +95,7 @@ ms.locfileid: "5826043"
 -    Синхронная служба (OData)
 -  Асинхронная интеграция
 
-Дополнительные сведения см. в разделе [Информационные объекты](../../dev-itpro/data-entities/data-entities.md).
+Дополнительные сведения см. в разделе [Информационные объекты](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Не все журналы запасов поддерживают OData, следовательно нельзя использовать соединитель данных Excel для публикации, обновления или импорта данных обратно в Supply Chain Management. 
@@ -113,7 +113,7 @@ ms.locfileid: "5826043"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Информационные объекты](../../dev-itpro/data-entities/data-entities.md)
+[Информационные объекты](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

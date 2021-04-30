@@ -2,7 +2,7 @@
 title: Удаленные или устаревшие функции Dynamics 365 Finance
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836921"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898295"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ ms.locfileid: "5836921"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.20
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Конфигурация формата запроса данных накладных RTIR (HU)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Исключение из обработки электронных сообщений при взаимодействии с венгерской интерактивной системой выставления накладных |
+| **Заменена другой функцией?**   | Нет |
+| **Затрагиваемые области продукта**         | Заявление |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: к 15 апреля 2022 года мы планируем больше не поддерживать конфигурацию формата запроса данных накладных RTIR (HU). |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.17
 

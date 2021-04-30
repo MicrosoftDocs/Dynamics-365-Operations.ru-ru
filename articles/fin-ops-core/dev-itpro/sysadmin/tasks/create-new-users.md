@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745845"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907919"
 ---
 # <a name="create-new-users"></a>Создание новых пользователей
 
@@ -29,10 +29,10 @@ ms.locfileid: "5745845"
 Сведения о приобретении и лицензировании для приложений Finance and Operations см. в [руководстве по лицензированию Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Назначение лицензии пользователю
-Администраторы системы могут [назначать лицензии пользователям](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) из [центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Администраторы системы могут [назначать лицензии пользователям](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) из [центра администрирования Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Добавление внешнего пользователя в Azure AD и назначение лицензии 
-Внешние пользователи должны быть представлены в каталоге клиента (Azure Active Directory (Azure AD)), чтобы им можно было назначить лицензии. Эти внешние пользователи должны быть добавлены к клиенту в Azure AD в качестве гостевых пользователей, а затем им назначаются соответствующие лицензии. Требование для приложений Finance and Operations состоит в том, что компания гостевого пользователя должна использовать Azure AD. Дополнительные сведения см. в разделе [Добавление пользователей сотрудничества Azure Active Directory B2B на портале Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Внешние пользователи должны быть представлены в каталоге клиента (Azure Active Directory (Azure AD)), чтобы им можно было назначить лицензии. Эти внешние пользователи должны быть добавлены к клиенту в Azure AD в качестве гостевых пользователей, а затем им назначаются соответствующие лицензии. Требование для приложений Finance and Operations состоит в том, что компания гостевого пользователя должна использовать Azure AD. Дополнительные сведения см. в разделе [Добавление пользователей сотрудничества Azure Active Directory B2B на портале Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Импорт новых пользователей из Azure AD 
 1. Перейдите в раздел **Администрирование системы** \> **Пользователь** \> **Пользователи**.
@@ -57,7 +57,7 @@ ms.locfileid: "5745845"
 7. В поле **Компания** выберите начальную компанию по умолчанию для пользователя. 
 8. Нажмите **Сохранить**.
 
-Значения для поставщика удостоверений и кода телеметрии будут обновлены на основе вызова [Microsoft Graph](https://docs.microsoft.com/graph/overview) при сохранении пользовательской записи. Идентификатор телеметрии основан на коде объекта пользователя/идентификаторе безопасности (SID) в Azure AD.
+Значения для поставщика удостоверений и кода телеметрии будут обновлены на основе вызова [Microsoft Graph](/graph/overview) при сохранении пользовательской записи. Идентификатор телеметрии основан на коде объекта пользователя/идентификаторе безопасности (SID) в Azure AD.
 
 > [!NOTE]
 > После добавления пользователя необходимо назначить требуемые роли и организации. Дополнительные сведения см. в разделе [Назначение пользователей для ролей безопасности](assign-users-security-roles.md). В зависимости от условий, может также потребоваться связать пользователя с **Физическим лицом** и обновить **Параметры пользователя**, такие как язык.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789644"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890755"
 ---
 # <a name="performance-management"></a>Управление производительностью
 
@@ -93,7 +93,7 @@ ms.locfileid: "5789644"
 
 Можно создать новые оценки, основанные на созданных шаблонах. Например, можно иметь шаблон для личных собраний, планов развития или периодических оценок. Можно выбрать шаблон при создании новой оценки.
 
-Для печати отзывов выберите кнопку **Печать отзыва**. Если вы не видите кнопку на странице **Обзор**, убедитесь, что функция включена в рабочей области **Управление функциями**. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Для печати отзывов выберите кнопку **Печать отзыва**. Если вы не видите кнопку на странице **Обзор**, убедитесь, что функция включена в рабочей области **Управление функциями**. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > Возможность печати обзоров производительности доступна только в Human Resources. Это недоступно в Dynamics 365 Finance.

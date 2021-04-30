@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840228"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893810"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Создание учетной записи хранилища в Azure и хранилища ключей
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840228"
 
 Перед выполнением шагов из данного раздела необходимо убедиться, что были выполнены следующие задачи:
 
-- Создайте ресурс хранилища ключей в Azure. Дополнительные сведения см. в разделе [Об Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).
-- Создайте учетную запись хранилища Azure (хранилище BLOB-объектов). Дополнительные сведения см. в разделе [Управление учетной записью хранилища Azure](https://docs.microsoft.com/azure/storage/blobs/).
+- Создайте ресурс хранилища ключей в Azure. Дополнительные сведения см. в разделе [Об Azure Key Vault](/azure/key-vault/general/overview).
+- Создайте учетную запись хранилища Azure (хранилище BLOB-объектов). Дополнительные сведения см. в разделе [Управление учетной записью хранилища Azure](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Обзор
 
@@ -83,4 +83,3 @@ ms.locfileid: "5840228"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

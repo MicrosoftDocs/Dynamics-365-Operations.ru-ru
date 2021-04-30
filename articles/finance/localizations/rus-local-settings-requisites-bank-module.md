@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d2b64746380bf95cfd2e3f66ef5563ee4d856a39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c2cf15fe7ed8736c7730c7923383ccc5223d0bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836839"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894646"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "5836839"
 ### <a name="prerequisites"></a>Необходимые условия
 
 1.  Импортируйте файл конфигурации электронной отчетности "Каталог БИК банков (RU)" из Microsoft Dynamics Lifecycle Services (LCS).
-Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Перейдите в раздел **Управление банком и кассовыми операциями > Настройка > Параметры управления банком и кассовыми операциями**. На экспресс-вкладке **Общие** в группе полей **Импорт списка банков** в поле **Импорт конфигурации формата** выберите конфигурацию электронной отчетности "Каталог БИК банков (RU)".
 

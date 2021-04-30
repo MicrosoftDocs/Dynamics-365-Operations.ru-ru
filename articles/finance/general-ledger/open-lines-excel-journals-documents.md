@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d95584ff02eac7353b01c2159be02e694b4c83fe
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834484"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897752"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Публикация строк журналов и документов из Excel
 
@@ -45,7 +45,7 @@ ms.locfileid: "5834484"
 
 При публикации строк они проходят проверку, чтобы убедиться в том, что они соответствуют правилам, которые настроены в финансовых журналах. После публикации строк пользователи могут редактировать или разносить ваучеры из Dynamics 365 Finance. 
 
-Чтобы добавить финансовые аналитики в шаблон требуются дополнительные изменения. Дополнительные сведения см. в разделе [Добавление аналитик в шаблон Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). После добавления аналитик к объекту они будут доступны в конструкторе Excel и могут быть добавлены в шаблон.
+Чтобы добавить финансовые аналитики в шаблон требуются дополнительные изменения. Дополнительные сведения см. в разделе [Добавление аналитик в шаблон Microsoft Excel](../../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md). После добавления аналитик к объекту они будут доступны в конструкторе Excel и могут быть добавлены в шаблон.
 
 
 

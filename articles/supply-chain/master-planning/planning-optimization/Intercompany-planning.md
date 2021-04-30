@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5c9ab724034a9bb40cfe155b748a0c7e25978add
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833361"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907651"
 ---
 # <a name="intercompany-planning"></a>Внутрихолдинговое планирование
 
@@ -45,8 +45,8 @@ ms.locfileid: "5833361"
 
 Чтобы использовать внутрихолдинговое планирование, необходимо подготовить систему следующим образом:
 
-1. Соответствующие продукты должны быть выпущены во всех соответствующих компаниях. Дополнительные сведения см. в разделе [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
-1. Нисходящий спрос должен покрываться покупками от поставщика, у которого есть внутрихолдинговая связь с вышестоящей компанией и соответствующие складские аналитики по умолчанию (сайт и склад) для клиента. Дополнительные сведения см. в разделе [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
+1. Соответствующие продукты должны быть выпущены во всех соответствующих компаниях. Дополнительные сведения см. в [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
+1. Нисходящий спрос должен покрываться покупками от поставщика, у которого есть внутрихолдинговая связь с вышестоящей компанией и соответствующие складские аналитики по умолчанию (сайт и склад) для клиента. Дополнительные сведения см. в [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
 1. Сводный план в вышестоящей компании должен включать запланированный нисходящий спрос, а соответствующая компания и сводный план должны быть указаны в нижестоящих планах.
 
 ## <a name="include-planned-downstream-demand"></a>Включить спланированный нижестоящий спрос

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821137"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910433"
 ---
 # <a name="inventory-visibility-add-in"></a>Надстройка видимости запасов
 
@@ -39,7 +39,7 @@ ms.locfileid: "5821137"
 
 Необходимо установить надстройку отображения запасов, используя Microsoft Dynamics Lifecycle Services (LCS). LCS — это портал совместной работы, который предоставляет среду и набор регулярно обновленных служб, которые помогут управлять жизненным циклом приложений Dynamics 365 Finance and Operations.
 
-Дополнительные сведения см. в разделе [Ресурсы Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Дополнительные сведения см. в разделе [Ресурсы Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Необходимые условия
 
@@ -48,10 +48,13 @@ ms.locfileid: "5821137"
 - Получите проект внедрения LCS с по крайней мере одной развернутой средой.
 - Убедитесь, что необходимые условия для настройки надстроек в [Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md), обеспечены. Для контроля запасов не требуется связывание с двойной записью.
 - Для получения следующих трех необходимых файлов обратитесь к специалистам по контролю запасов по адресу [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (если версия Supply Chain Management, которую вы используете, более ранняя, чем версия 10.0.18)
+- Следуйте инструкциям, приведенным в [Быстрое начало: регистрация приложения на платформе Microsoft Identity](/azure/active-directory/develop/quickstart-register-app) для регистрации приложения и добавления секрета клиента в AAD в рамках подписки Azure.
+    - [Регистрация приложения](/azure/active-directory/develop/quickstart-register-app)
+    - [Добавить секрет клиента](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - **Код приложения (клиент)**, **Секрет клиента** и **Код клиента** будут использоваться в следующих шагах.
 
 > [!NOTE]
 > Поддерживаемые в настоящее время страны и регионы включают Канаду, США и Европейский союз (ЕС).
@@ -64,7 +67,7 @@ ms.locfileid: "5821137"
 
 1. Добавление участника-службы в клиент:
 
-    1. Установите модуль Azure AD PowerShell v2, как описано в подразделе [Установка Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Установите модуль Azure AD PowerShell v2, как описано в подразделе [Установка Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2).
     1. Выполните следующую команду PowerShell.
 
         ```powershell
@@ -80,7 +83,12 @@ ms.locfileid: "5821137"
     1. Выберите **Создать**. Задайте код приложения как *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Код объекта будет автоматически загружен после сохранения изменений.) Можно настроить имя. Например, можно изменить его на *Контроль запасов*. Закончив, выберите **Сохранить**.
     1. Выберите **Назначить роль**, а затем выберите **Системный администратор**. Если имеется роль с именем **Пользователь Common Data Service**, выберите ее.
 
-    Дополнительные сведения см. в разделе [Создание пользователя приложения](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Дополнительные сведения см. в разделе [Создание пользователя приложения](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Если языком по умолчанию в Dataverse является не **Английский**, выполните следующие действия:
+
+    1. Переход к **Дополнительные параметры \> Администрирование \> Языки**,
+    1. Выберите **Английский (LanguageCode=1033)** и нажмите кнопку **применить**.
 
 1. Импортируйте файл `Inventory Visibility Dataverse Solution.zip`, который включает в себя соответствующие записи конфигурации Dataverse и Power Apps:
 
@@ -158,12 +166,12 @@ ms.locfileid: "5821137"
 
     Найдите свой регион Azure среды, а затем введите URL-адрес. URL-адрес имеет следующую форму:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Например, если вы находитесь в Европе, у вашей среды будет один из следующих URL-адресов:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     В настоящее время доступны следующие регионы.
 
@@ -212,13 +220,13 @@ ms.locfileid: "5821137"
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ ms.locfileid: "5821137"
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Образец запроса
+
+Для справки, вот образец http-запроса, для отправки этого запроса можно использовать любые инструменты или язык кодирования, например ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Настройка интерфейса API для отображения запасов
 
@@ -338,7 +383,7 @@ ms.locfileid: "5821137"
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ ms.locfileid: "5821137"
     "returnNegative": true
 }
 ```
+
+Для поля `filters` в настоящее время только `ProductId` поддерживает несколько значений. Если `ProductId` является пустым массивом, будут запрашиваться все продукты.
 
 #### <a name="custom-measurement"></a>Пользовательское измерение
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802295"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894614"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (6 октября 2020 г.)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802295"
 
 В этой теме описываются новые, измененные и ожидающиеся компоненты в Dynamics 365 Human Resources. Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
-Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>В данном выпуске
 
@@ -42,7 +42,7 @@ ms.locfileid: "5802295"
 
 | Функция | План выпуска | Документация |
 | --- | --- | --- |
-| Дополнительные сведения о календарях отпусков | [Предоставление дополнительных сведений о представлениях календарей отпусков](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Просмотр календаря группы и компании](hr-employee-self-service-calendar.md) |
+| Дополнительные сведения о календарях отпусков | [Предоставление дополнительных сведений о представлениях календарей отпусков](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Просмотр календаря группы и компании](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -70,9 +70,9 @@ ms.locfileid: "5802295"
 
 | Функция | План выпуска | Документация |
 | --- | --- | --- |
-| Приложение Human Resources в Microsoft Teams | [Отпуск и отгулы сотрудников в Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Управление запросами на отпуск в Teams](hr-teams-leave-app.md) |
-| Расширенные запросы и утверждения рабочих процессов | [Улучшения рабочих процессов управления организациями и персоналом](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Параметр конфигурации для размещения списка рабочих элементов, назначенных мне](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Виртуальные сущности в Dataverse для Human Resources | [Развертывание основных данных Dynamics 365 Human Resources в Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Настройка виртуальных сущностей Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Приложение Human Resources в Microsoft Teams | [Отпуск и отгулы сотрудников в Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Приложение Human Resources в Teams](./hr-admin-teams-leave-app.md)<br>[Управление запросами на отпуск в Teams](hr-teams-leave-app.md) |
+| Расширенные запросы и утверждения рабочих процессов | [Улучшения рабочих процессов управления организациями и персоналом](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Параметр конфигурации для размещения списка рабочих элементов, назначенных мне](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Виртуальные сущности в Dataverse для Human Resources | [Развертывание основных данных Dynamics 365 Human Resources в Dataverse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Настройка виртуальных сущностей Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Скоро
 
@@ -82,14 +82,14 @@ ms.locfileid: "5802295"
 
 - **Коды причин управления льготами**: коды причин управления льготами скоро будут объединены с существующими кодами причин в Human Resources. Если созданные коды причин в модуле управления льготами имеют более 15 символов, необходимо изменить имя кода причины в форме **Коды причин** управления льготами, чтобы оно состояло не более чем из 15 символов. После обновления имени код причины появится под существующим кодом причины в управлении персоналом. Это изменение будет доступно в будущем и не повлияет на существующие функции.
 
-- **Пользовательские ссылки на портале самообслуживания менеджеров**: для поддержки руководителей мы расширяем возможности портала самообслуживания менеджеров. Мы добавляем возможность добавить пользовательские ссылки на вкладке **Моя рабочая группа**. Эта возможность аналогична функции пользовательских ссылок на вкладке **Моя информация** на портале самообслуживания сотрудников. Дополнительные сведения см. в разделе [Пользовательские ссылки в самообслуживании менеджеров](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Пользовательские ссылки на портале самообслуживания менеджеров**: для поддержки руководителей мы расширяем возможности портала самообслуживания менеджеров. Мы добавляем возможность добавить пользовательские ссылки на вкладке **Моя рабочая группа**. Эта возможность аналогична функции пользовательских ссылок на вкладке **Моя информация** на портале самообслуживания сотрудников. Дополнительные сведения см. в разделе [Пользовательские ссылки в самообслуживании менеджеров](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
-Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 2 Dynamics 365 Human Resources от 2019 года](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 2 Dynamics 365 Human Resources от 2019 года](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2020, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2020, волна 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

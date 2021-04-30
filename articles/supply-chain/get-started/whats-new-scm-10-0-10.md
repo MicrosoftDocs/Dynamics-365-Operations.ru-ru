@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821209"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909629"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.10 (май 2020 г.)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821209"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
+Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
-- [Улучшение использования существующих маркеров учета в двух единицах измерения с помощью управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Улучшение использования существующих маркеров учета в двух единицах измерения с помощью управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Улучшения управления входящими загрузками для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
+- [Улучшения управления входящими загрузками для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
 
-- [Усовершенствования печати этикеток для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Дополнительные сведения см. в разделе [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
+- [Усовершенствования печати этикеток для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Дополнительные сведения см. в разделе [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [Сводное планирование включает номенклатуры с запасами в наличии, когда включены фильтры предварительной обработки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [Сводное планирование включает номенклатуры с запасами в наличии, когда включены фильтры предварительной обработки](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Новые информационные объекты для области производства](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Управление качеством для складских процессов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Подробнее см. в разделе [Управление качеством для складских процессов](../inventory/quality-management-for-warehouses-processes.md).
+- [Управление качеством для складских процессов](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Подробнее см. в разделе [Управление качеством для складских процессов](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -61,7 +61,7 @@ Dynamics 365 Supply Chain Management 10.0.10 включает обновлени
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 1 за 2020 год](/dynamics365-release-plan/2020wave1/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 

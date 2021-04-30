@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837641"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910385"
 ---
 # <a name="modeling-a-lean-organization"></a>Моделирование бережливой организации
 
@@ -51,7 +51,7 @@ ms.locfileid: "5837641"
 
 Сам поток создания ценности моделируется как операционная единица. Поэтому поток создания ценности можно использовать как финансовая аналитика.
 
-Дополнительные сведения о создании операционных единиц см. в разделе [Создание операционной единицы](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Дополнительные сведения о создании операционных единиц см. в разделе [Создание операционной единицы](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Расчет себестоимости для бережливого производства на основе производственного потока
 Периодическая консолидация затрат на производственный поток позволяет скорректировать связанный счет НЗП и делает возможным определение отклонений для продуктов, поставляемых производственным потоком.

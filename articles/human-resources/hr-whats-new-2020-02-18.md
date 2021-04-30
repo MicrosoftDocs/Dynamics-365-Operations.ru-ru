@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790436"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890966"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (18 февраля 2020 г.)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5790436"
 
 ## <a name="platform-update-32"></a>Обновление платформы update 32 
 
-Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для Finance and Operations (февраль 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для Finance and Operations (февраль 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Значения поиска запоминаются при изменении параметров просмотра в упрощенной форме сотрудника (383833)
 
@@ -81,7 +81,7 @@ ms.locfileid: "5790436"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Управление персоналом](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

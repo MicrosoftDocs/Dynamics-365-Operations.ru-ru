@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801151"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889772"
 ---
 # <a name="administration-overview"></a>Обзор администрирования
 
@@ -46,10 +46,10 @@ ms.locfileid: "5801151"
   - [Настройка интеграции с Dayforce](hr-admin-integration-dayforce.md)
   - [Создание приложения для повторяющегося экспорта данных](hr-admin-integration-recurring-data-export.md)
   - Интеграция с Office
-    - [Учебник по интеграции с Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Обновление данных объекта в Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Создание функции открытия в Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Устранение неполадок интеграции с Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Учебник по интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Обновление данных объекта в Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Создание функции открытия в Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Устранение неполадок интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Управление функциями](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ ms.locfileid: "5801151"
   - [Создание документации или учебных материалов с помощью регистратора задач](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Устранение неполадок Human Resources
-  - [Получение поддержки](hr-admin-troubleshooting-support.md)
+  - [Получение поддержки](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Оптимизация производительности с помощью задач автоматической очистки](hr-admin-troubleshooting-batch-history.md)
   - [Аналитические отчеты не обновляются](hr-admin-troubleshooting-analytic-reports.md)
   - [Невозможно создать среду в центре администрирования Power Apps](hr-admin-troubleshooting-power-apps.md)

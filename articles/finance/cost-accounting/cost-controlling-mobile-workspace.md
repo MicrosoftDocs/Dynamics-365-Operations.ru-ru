@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6ab1edf6f3c1053f65c6d89786de5bfcc6c268e9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822959"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897944"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Мобильная рабочая область управления затратами
 
@@ -76,7 +76,7 @@ ms.locfileid: "5822959"
 Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Необходимые условия при использовании Microsoft Dynamics 365 Finance
-Если в вашей организации развернута система Finance, системный администратор должен опубликовать мобильную рабочую область **Управление затратами**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Если в вашей организации развернута система Finance, системный администратор должен опубликовать мобильную рабочую область **Управление затратами**. См. инструкции в [Публикация мобильной рабочей области](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании версии 1611 с обновлением платформы Platform Update 3 или более поздней версии
 Если в вашей организации развернута версия 1611 с обновлением платформы Platform Update 3 или более поздней версии, системный администратор должен выполнить следующие условия.
@@ -96,17 +96,17 @@ ms.locfileid: "5822959"
 
 <td>KB 4013633 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Управление затратами</strong>. Для установки KB 4013633 системный администратор должен выполнить следующие задачи.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Установите исправление метаданных</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Примените готовый к развертыванию пакет</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Опубликуйте мобильную рабочую область <strong>Управление затратами</strong>.</td>
 <td>Системный администратор</td>
-<td>См. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Публикация мобильной рабочей области</a>.</td>
+<td>См. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
 </tr>
 </tbody>
 </table>

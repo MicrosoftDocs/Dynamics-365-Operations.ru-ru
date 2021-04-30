@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f4c91c16363b978932d74c7e8b4420b3a8366d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f92ace4e7e765c326c62095fb57e3343d8d303b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752716"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909775"
 ---
 # <a name="available-mobile-workspaces"></a>Доступные мобильные рабочие области
 
@@ -31,9 +31,9 @@ ms.locfileid: "5752716"
 |[Каталог компании](company-directory-mobile-workspace.md)| Позволяет просматривать и связываться с другими сотрудниками в вашей организации.| 2017 июня |    
 |[Моя группа](manager-self-service-mobile-workspace.md)| Позволяет просматривать ваших прямых подчиненных и расширенный персонал, а также отправлять благодарности для отдельных лиц в рамках их цепочки отчетности.|2017 июня |     
 |[Утверждение накладной](invoice-approval-mobile-workspace.md)| Содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика.| 2017 июня   |
-| [Управление расходами](../../../finance/expense-management/expense-management-mobile-workspace.md) | Позволяет снимать и отправлять чеки, чтобы потом их можно было приложить к отчету о расходах. Мобильная рабочая область также позволяет быстро создавать строки расходов с помощью приложенного чека. | 2017 апреля |
+| [Управление расходами](/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace) | Позволяет снимать и отправлять чеки, чтобы потом их можно было приложить к отчету о расходах. Мобильная рабочая область также позволяет быстро создавать строки расходов с помощью приложенного чека. | 2017 апреля |
 | [Утверждение заказа на покупку](../../../supply-chain/procurement/purchase-order-mobile-workspace.md) | Позволяет просматривать и отвечать на заказы на покупку с такими действиями, как утверждение или отклонение. | 2017 апреля |
-| [Регистрация времени проекта](../../../finance/project-management/project-time-entry-mobile-workspace.md) | Позволяет вводить и сохранять время по проекту, используя мобильное устройство. | 2017 марта |
+| [Регистрация времени проекта](/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace) | Позволяет вводить и сохранять время по проекту, используя мобильное устройство. | 2017 марта |
 | [Управление затратами](../../../finance/cost-accounting/cost-controlling-mobile-workspace.md)     | Менеджеры центра затрат могут просматривать производительность центра затрат.                                                                                               |  2017 января        |
 | [Запасы в наличии](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Позволяет получить представление о зарезервированных и доступных запасах.                                                                                                    |   2017 января       |
 | [Заказы на продажу](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Позволяет быть в курсе дел по вашим заказам на продажу.                                                                                                                          |  2017 января                  |

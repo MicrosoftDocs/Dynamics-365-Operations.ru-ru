@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825334"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909140"
 ---
 # <a name="purchase-order-overview"></a>Обзор заказа на покупку
 
@@ -41,7 +41,7 @@ ms.locfileid: "5825334"
 -   [Создание заказов на покупку](purchase-order-creation.md)
 -   [Утверждение и подтверждение заказов на покупку](purchase-order-approval-confirmation.md)
 -   [Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
--   [Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Типы заказов на покупку
 Есть три типа заказов на покупку: При создании заказа на покупку необходимо указать тип. Можно настроить тип заказа по умолчанию для новых заказов на странице **Параметры модуля "Закупки и источники"**.
@@ -85,7 +85,7 @@ ms.locfileid: "5825334"
 
 [Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
 
-[Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801175"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889964"
 ---
 # <a name="configure-integration-with-finance"></a>Настройка интеграции с Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801175"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Для интеграции Dynamics 365 Human Resources с Dynamics 365 Finance можно использовать шаблон Human Resources в Finance в [Интеграторе данных](https://docs.microsoft.com/powerapps/administrator/data-integrator). Шаблон "Human Resources в Finance" обеспечивает поток данных для заданий, должностей и работников. Шаблон обеспечивает передачу данных из Human Resources в Finance, но не позволяют передавать данные из Finance в Human Resources.
+Для интеграции Dynamics 365 Human Resources с Dynamics 365 Finance можно использовать шаблон Human Resources в Finance в [Интеграторе данных](/powerapps/administrator/data-integrator). Шаблон "Human Resources в Finance" обеспечивает поток данных для заданий, должностей и работников. Шаблон обеспечивает передачу данных из Human Resources в Finance, но не позволяют передавать данные из Finance в Human Resources.
 
 ![Поток интеграции из Human Resources в Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ ms.locfileid: "5801175"
 
 Эта проблема может произойти с объектом **Работник**, который использует **Табельный номер** для выполнения сопоставления, и **Должности**. Задания не используют номерные серии. В результате, если один и тот же код задания присутствует в Human Resources и Finance, информация Human Resources перезаписывает информацию Dynamics 365 Finance. 
 
-Чтобы не допустить возникновения ошибок с повторяющимися идентификаторами, можно либо добавить префикс в [номерную серию](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), либо установить начальный номер в номерной серии, который находится за пределами диапазона другой системы. 
+Чтобы не допустить возникновения ошибок с повторяющимися идентификаторами, можно либо добавить префикс в [номерную серию](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), либо установить начальный номер в номерной серии, который находится за пределами диапазона другой системы. 
 
 Идентификатор местоположения, используемый для адреса работника, не является частью номерной серии. При интеграции адреса работника из Human Resources в Finance, если адрес работника уже существует в Finance, может быть создана дублирующаяся запись адреса. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832162"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.14 (ноябрь 2020 г.)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832162"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск включает обновленную платформу и общие усовершенствования, но не включает никаких новых функций, специфичных для Supply Chain Management. Дополнительные сведения о предстоящих функциях см. на сайте [Планы выпусков](https://docs.microsoft.com/dynamics365/release-plans/).
+Этот выпуск включает обновленную платформу и общие усовершенствования, но не включает никаких новых функций, специфичных для Supply Chain Management. Дополнительные сведения о предстоящих функциях см. на сайте [Планы выпусков](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -49,7 +49,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 включает обно
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 

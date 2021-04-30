@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747209"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890365"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -45,9 +45,9 @@ ms.locfileid: "5747209"
     - В будущих обновлениях мы добавим сообщение центра уведомлений, чтобы пользователю был назначен рабочий элемент рабочего процесса. 
 - Добавление уведомлений в рабочие процессы
     - Сообщения центра уведомлений могут быть созданы для конкретного пользователя, например, сообщение, созданное из рабочего процесса в X++.
-    - [В workflow-процессах есть бизнес-события](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
+    - [В workflow-процессах есть бизнес-события](../../dev-itpro/business-events/business-events-workflow.md), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
 
-В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [Бизнес-события рабочего процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.
+В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [Бизнес-события рабочего процесса](../../dev-itpro/business-events/business-events-workflow.md) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Почему редактор workflow-процесса не может запускаться в AD FS?
 При работе в рамках Active Directory Federation Services (AD FS) в обновленной среде у редактора рабочего процесса могут возникнуть проблемы с запуском. Если это так, убедитесь,что URL-адрес "https://dynamicsaxworkfloweditor/" добавлен к свойству **Microsoft Dynamics 365 for Operations On-premises — Рабочий процесс — собственное приложение** в настройках ADFS.

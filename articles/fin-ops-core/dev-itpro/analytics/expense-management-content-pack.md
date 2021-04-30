@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743515"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893260"
 ---
 # <a name="expense-management-power-bi-content"></a>Содержимое Power BI для управления расходами
 
@@ -41,7 +41,7 @@ ms.locfileid: "5743515"
 Все суммы показаны в валюте компании. Отображаются данные для всех компаний, но при необходимости можно добавить фильтр компаний. 
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое Power BI Expense Admin Dashboard.pbix и Expense Personal Dashboard.pbix можно найти в библиотеке общих средств Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Содержимое Power BI Expense Admin Dashboard.pbix и Expense Personal Dashboard.pbix можно найти в библиотеке общих средств Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Содержимое доступно из рабочей области управления расходами как внедренное содержимое Power BI. Любому ответственному за расходы доступны личные расходы, и только клерки и менеджеры расчетов с поставщиками имеют доступ к содержимому администраторов для просмотра данных о расходах для всех пользователей.
 
 ## <a name="refreshing-the-power-bi-content"></a>Обновление содержимого Power BI

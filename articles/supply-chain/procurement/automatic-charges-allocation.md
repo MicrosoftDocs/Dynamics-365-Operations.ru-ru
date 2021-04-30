@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841487"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910169"
 ---
 # <a name="automatic-allocation-of-charges"></a>Автоматическое распределение накладных расходов
 
@@ -144,7 +144,7 @@ ms.locfileid: "5841487"
     - **Сайт** и **Склад** — укажите сайт и склад,, если накладные расходы должны применяться только для определенного сайта и склада.
     - **Сохранить** — установите этот флажок, чтобы сохранить проводки с расходами после завершения выставления счетов, чтобы расход применялся всякий раз, когда создается новая накладная для выбранного счета клиента.
 
-1. **Только для заказов на продажу:** если требуется рассчитать многоуровневые расходы, см. информацию в разделе [Многоуровневые расходы по заказам на продажу](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
+1. **Только для заказов на продажу:** если требуется рассчитать многоуровневые расходы, см. информацию в разделе [Многоуровневые расходы по заказам на продажу](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders).
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Распределение расходов из заголовка в строку
 

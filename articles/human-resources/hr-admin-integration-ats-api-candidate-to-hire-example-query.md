@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795077"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893480"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Пример запроса кандидата для приема на работу
 
@@ -27,7 +27,7 @@ ms.locfileid: "5795077"
 
 В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.
 
-В этой теме представлен пример, демонстрирующий способы использования *глубокой вставки* для создания всех сведений о новой записи кандидата в одной операции API. Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+В этой теме представлен пример, демонстрирующий способы использования *глубокой вставки* для создания всех сведений о новой записи кандидата в одной операции API. Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 Сущность **mshr_hcmcandidatetohireentity** является уникальной, поскольку связана с сущностью **mshr_dirpersonentity**. Многие свойства сущности **mshr_hcmcandidatetohireentity** (например, **mshr_firstname**, **mshr_lastname** и **mshr_birthdate**) наследуются из записи **mshr_dirpersonentity**. При разноске новой записи кандидата в **mshr_hcmcandidatetohireentity** без использования операций глубокой вставки можно определить значения для этих свойств непосредственно в записи **mshr_hcmcandidatetohireentity**. Соответствующая запись **mshr_dirpersonentity** создается неявно с определенными значениями для свойств. Затем можно создать любые другие записи сущности (такие как навыки или образование) как отдельные вызовы API.
 

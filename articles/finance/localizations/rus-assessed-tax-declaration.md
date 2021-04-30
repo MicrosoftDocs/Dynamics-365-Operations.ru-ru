@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c238b392f643b019c969c04c37b2143999f5a43
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bfe4f873eb5a1475130fd91754c11384338b6503
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838733"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894847"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 
@@ -403,7 +403,7 @@ ms.locfileid: "5838733"
     - Сопоставление модели декларации налога на собственность
     - Декларация по имущественному налогу формата 5.06
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Можно передать параметры пакета управления данными для работы с декларацией налога на имущество. Выполните следующие действия.
 

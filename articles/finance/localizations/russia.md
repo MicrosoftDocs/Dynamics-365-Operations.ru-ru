@@ -1,8 +1,8 @@
 ---
 title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
-author: ShylaThompson
-ms.date: 12/11/2020
+author: kfend
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f780881313f24f2ade50db7c00fab886f1e13879
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 459d8d6a979556eb1f56cfb37ceb74a95f4a3bb2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818200"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890819"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -155,12 +155,14 @@ ms.locfileid: "5818200"
 - [Коды расходов и доходов](rus-expense-and-income-codes.md)
 - [Регистры налога на активы](rus-assets-tax-registers.md)
 - [Налоговый регистр расходов будущих периодов](rus-deferred-expenses-register.md)
-- [Регистры налогов движения денежных средств](rus-cash-flow-tax-registers.md)
+- [Налоговые регистры для движения денежных средств](rus-cash-flow-tax-registers.md)
+- [Регистры номинальных расходов](rus-rated-expenses-registers.md)
+- [Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей](rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Обзор электронной отчетности](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)
 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755066"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891703"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Повторное использование конфигураций электронной отчетности с шаблонами Excel для формирования отчетов в формате Word
 
@@ -90,7 +90,7 @@ ms.locfileid: "5755066"
 
 Теперь можно сопоставать элементы пользовательской XML-части **Отчет** с элементами управления содержимым документа Word.
 
-Если вы знакомы с процессом разработки документов Word в виде форм, которые содержат [элементы управления содержимым](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), сопоставленные с элементами [пользовательских XML-частей](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), выполните все шаги в следующей процедуре для создания документа. Дополнительные сведения см. в разделе [Создание форм, которые пользователи заполняют или печатают в Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). В противном случае пропустите следующую процедуру.
+Если вы знакомы с процессом разработки документов Word в виде форм, которые содержат [элементы управления содержимым](/office/client-developer/word/content-controls-in-word), сопоставленные с элементами [пользовательских XML-частей](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), выполните все шаги в следующей процедуре для создания документа. Дополнительные сведения см. в разделе [Создание форм, которые пользователи заполняют или печатают в Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). В противном случае пропустите следующую процедуру.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Получение документа Word с пользовательской XML-частью и сопоставление данных
 

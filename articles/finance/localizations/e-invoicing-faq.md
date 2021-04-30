@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 41cddcdad5043ec314a94dda67f4f2e9de406cac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ba1a6c5542c10306d4b7494d33e7ff04504fa95
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840180"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893786"
 ---
 # <a name="electronic-invoicing-faq"></a>Вопросы и ответы по электронному выставлению накладных
 
@@ -55,7 +55,7 @@ ms.locfileid: "5840180"
 
 ## <a name="does-electronic-invoicing-interface-with-the-vendor-import-automation-feature"></a>Взаимодействует ли электронное выставление накладных с функцией автоматизации импорта поставщиков?
 
-Нет. Для этого интерфейса имеются планы, но запланированный график отсутствует. После планирования даты будут объявлены в [планах выпуска](https://docs.microsoft.com/dynamics365/release-plans/).
+Нет. Для этого интерфейса имеются планы, но запланированный график отсутствует. После планирования даты будут объявлены в [планах выпуска](/dynamics365/release-plans/).
 
 ## <a name="how-does-electronic-invoicing-handle-file-attachments-into-the-electronic-invoice-is-a-sharepoint-server-needed-when-embedding-pdf-files-into-the-xml-file"></a>Как электронное выставление накладных обрабатывает вложенные файлы в электронной накладной? Является ли сервер SharePoint необходимым при внедрении PDF-файлов в файл XML?
 

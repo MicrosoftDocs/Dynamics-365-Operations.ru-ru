@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841775"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908379"
 ---
 # <a name="calendars-and-master-planning"></a>Календари и сводное планирование
 
@@ -90,7 +90,7 @@ ms.locfileid: "5841775"
 
 Обратите внимание, что можно включить только один календарь для каждого клиента. Если требуется включить календарь для каждого различного адреса для клиента, можно создать по одному клиенту на каждый адрес и затем назначить ему соответствующий календарь. 
 
-На запрошенную дату поступления в строках заказа на продажу влияют календарь клиента и метод управления датой поставки. Можно прочитать подробнее о расчете самой ранней даты поставки в разделе [Резервирование по заказам](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+На запрошенную дату поступления в строках заказа на продажу влияют календарь клиента и метод управления датой поставки. Можно прочитать подробнее о расчете самой ранней даты поставки в разделе [Резервирование по заказам](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Календарь отгрузки для юридического лица
 Для указания дат, в которые юридическое лицо может отгружать товары, можно настроить календарь отгрузки в разделе **Управление организацией > Организации > Юридические лица**. Выберите юридическое лицо и добавьте календарь на вкладке **Внешняя торговля и логистика** в поле **Календарь отгрузки**. Календарь отгрузки будет выступать в качестве источника значений по умолчанию для всех календарей складов юридического лица. 

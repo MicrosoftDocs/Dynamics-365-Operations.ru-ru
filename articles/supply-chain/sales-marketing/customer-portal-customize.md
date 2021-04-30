@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840781"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909008"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Настройка и использование клиентского портала
 
@@ -33,14 +33,14 @@ ms.locfileid: "5840781"
 
 Следующие темы содержат общие сведения о порталах Power Apps и способах настройки порталов:
 
-- [Работа с шаблонами](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) — в этой теме представлен общий обзор принципа работы порталов Power Apps и способов выполнения простых настроек порталов.
-- [Управление содержимым портала](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) — в этой теме объясняется, как управлять и настраивать содержимое портала.
-- [Правка CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) — в этой теме указано, как выполнить более сложную настройку пользовательского интерфейса (UI) портала.
-- [Создать тему для своего портала](https://docs.microsoft.com/dynamics365/portals/create-theme) — эта тема поможет создать тему пользовательского интерфейса для своего портала.
-- [Простое создание и представление содержимого портала](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) — эта тема поможет управлять основными данными и таблицами, используемыми для портала.
-- [Настройка контакта для использования на портале](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) — в этой теме объясняется, как создавать и настраивать роли пользователей и как работают безопасность и аутентификация на порталах Power Apps.
-- [Настройка примечаний для форм таблиц и веб-форм на порталах](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) — в этой теме объясняется, как добавлять документы и дополнительные хранилища на свой портал.
-- [Обработка ошибок для веб-сайта портала](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) — в этой теме объясняется, как просмотреть журналы ошибок портала и сохранить их в учетной записи хранилища BLOB-объектов Microsoft Azure.
+- [Работа с шаблонами](/powerapps/maker/portals/work-with-templates) — в этой теме представлен общий обзор принципа работы порталов Power Apps и способов выполнения простых настроек порталов.
+- [Управление содержимым портала](/dynamics365/portals/manage-portal-content) — в этой теме объясняется, как управлять и настраивать содержимое портала.
+- [Правка CSS](/powerapps/maker/portals/edit-css) — в этой теме указано, как выполнить более сложную настройку пользовательского интерфейса (UI) портала.
+- [Создать тему для своего портала](/dynamics365/portals/create-theme) — эта тема поможет создать тему пользовательского интерфейса для своего портала.
+- [Простое создание и представление содержимого портала](/dynamics365/portals/create-expose-portal-content) — эта тема поможет управлять основными данными и таблицами, используемыми для портала.
+- [Настройка контакта для использования на портале](/powerapps/maker/portals/configure/configure-contacts) — в этой теме объясняется, как создавать и настраивать роли пользователей и как работают безопасность и аутентификация на порталах Power Apps.
+- [Настройка примечаний для форм таблиц и веб-форм на порталах](/powerapps/maker/portals/configure-notes) — в этой теме объясняется, как добавлять документы и дополнительные хранилища на свой портал.
+- [Обработка ошибок для веб-сайта портала](/powerapps/maker/portals/admin/view-portal-error-log) — в этой теме объясняется, как просмотреть журналы ошибок портала и сохранить их в учетной записи хранилища BLOB-объектов Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Настройка процесса создания заказов
 
@@ -88,7 +88,7 @@ ms.locfileid: "5840781"
 
 Чтобы обеспечить удобное взаимодействие с пользователем, клиентский портал автоматически заполняет значения для нескольких обязательных полей. Эти значения основаны на информации в записи контакта клиента, отправляющего заказ.
 
-Для каждой [строки контакта](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts), принадлежащей клиенту, который будет использовать клиентский портал для отправки заказов, необходимо указать значения для следующих обязательных полей. В противном случае произойдет ошибка.
+Для каждой [строки контакта](/powerapps/maker/portals/configure/configure-contacts), принадлежащей клиенту, который будет использовать клиентский портал для отправки заказов, необходимо указать значения для следующих обязательных полей. В противном случае произойдет ошибка.
 
 - **Компания** — юридическое лицо, к которому относится заказ
 - **Потенциальный клиент** — счет клиента, связанный с заказом
@@ -134,16 +134,16 @@ ms.locfileid: "5840781"
 
 Необходимо обеспечить, чтобы ваш клиентский портал каким-либо образом отправил значения для всех этих столбцов.
 
-Если требуется добавить столбцы на страницу или удалить столбцы, см. раздел [Быстрое создание или изменение форм для упрощения ввода данных](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Если требуется добавить столбцы на страницу или удалить столбцы, см. раздел [Быстрое создание или изменение форм для упрощения ввода данных](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Если необходимо изменить способ предустановки столбцов и способ задания значений при сохранении страницы, см. следующие сведения в документации по порталам Power Apps:
 
-- [Предварительное заполнение полей](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Задание значения при сохранении](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Предварительное заполнение полей](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Задание значения при сохранении](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Настройка домашней страницы
 
-Все элементы управления на клиентском портале являются встроенными элементами управления портала Power Apps. Их можно настроить, следуя шагам в разделе [Создание страницы](https://docs.microsoft.com/powerapps/maker/portals/compose-page) в документации по порталам Power Apps.
+Все элементы управления на клиентском портале являются встроенными элементами управления портала Power Apps. Их можно настроить, следуя шагам в разделе [Создание страницы](/powerapps/maker/portals/compose-page) в документации по порталам Power Apps.
 
 Для создания плиток на домашней странице используется единственный настраиваемый элемент управления, включенный в шаблон клиентского портала.
 
@@ -151,7 +151,7 @@ ms.locfileid: "5840781"
 
 Для изменения плиток выполните следующие действия.
 
-1. Откройте [Приложение управления порталом](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Откройте [Приложение управления порталом](/powerapps/maker/portals/configure/configure-portal).
 1. В области перехода слева выберите **Шаблоны страницы**.
 
     ![Область перехода управления порталом](media/customer-portal-nav.png "Область перехода управления порталом")
@@ -167,11 +167,11 @@ ms.locfileid: "5840781"
 
 Для получения дополнительных сведений о настройке клиентского портала см. следующие ресурсы:
 
-- [Документация по порталам Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Документация по порталам Power Apps](/powerapps/maker/portals/overview)
 - [Документация по двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [О жизненном цикле портала](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Обновление портала](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Миграция конфигурации портала](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [О жизненном цикле портала](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Обновление портала](/powerapps/maker/portals/admin/upgrade-portal)
+- [Миграция конфигурации портала](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Управление жизненным циклом решения: Dynamics 365 для приложений Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

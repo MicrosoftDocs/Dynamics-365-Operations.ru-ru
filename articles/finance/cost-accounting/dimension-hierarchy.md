@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810182"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897584"
 ---
 # <a name="dimension-hierarchy"></a>Иерархия аналитик
 
@@ -331,7 +331,7 @@ ms.locfileid: "5810182"
     - Визуализация данных Power BI, которые встроены в клиент Dynamics 365 Finance
 
 > [!NOTE] 
-> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Иерархия списков доступа не позволяет защитить экспорт данных в Excel. Таким образом, средства отчетности должны использоваться только бухгалтерами и менеджерами, которые должны иметь полный доступ для просмотра данных.
 
 

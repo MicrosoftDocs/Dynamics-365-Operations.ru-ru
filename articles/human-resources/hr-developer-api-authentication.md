@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793689"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893456"
 ---
 # <a name="authentication"></a>Аутентификация
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Для веб-приложений укажите базовый URL-адрес приложения. Например, `http://localhost:31544` может быть URL-адресом для веб-приложения, которое выполняется на локальном компьютере. Пользователи затем используют этот URL-адрес для входа в приложение веб-клиента.
         - Для общедоступных клиентских приложений необходимо предоставить URI, который Azure AD будет использоваться для возврата ответов маркеров. Введите конкретное значение, которое относится к приложению, например `myapp://auth`.
 
-        Чтобы просмотреть отдельные примеры для веб-приложений или собственных приложений, см. краткие руководства для [платформы удостоверений Майкрософт (раньше Azure Active Directory для разработчиков)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Чтобы просмотреть отдельные примеры для веб-приложений или собственных приложений, см. краткие руководства для [платформы удостоверений Майкрософт (раньше Azure Active Directory для разработчиков)](/azure/active-directory/develop/#quickstarts).
 
 5. В **Разрешения API** выберите **Добавить разрешение**. Затем на вкладке **Используемые в моей организации API** найдите **Dynamics 365 Human Resources** и добавьте разрешение **user\_impersonation** в свое приложение. Код приложения для Human Resources — f9be0c49-aa22-4ec6-911a-c5da515226ff. Этот код используется для проверки правильности выбора приложения.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838330"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908019"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Отложенная обработка работы склада
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838330"
 
 Функциональность отложенной обработки позволяет работникам склада продолжать выполнять другую работу, пока операция размещения обрабатывается в фоновом режиме. Отложенная обработка полезна, когда многие строки работ должны быть обработаны, и работник может позволить, чтобы эта работа обрабатывалась асинхронно. Это также полезно, когда сервер может иметь специальное или незапланированное увеличение времени обработки, и увеличение времени обработки может повлиять на производительность пользователя.
 
-Фоновая обработка достигается с помощью платформы SysOperation. Для получения дополнительных сведений см. раздел [Обзор платформы SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Фоновая обработка достигается с помощью платформы SysOperation. Для получения дополнительных сведений см. раздел [Обзор платформы SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Настройка политик обработки работ
 

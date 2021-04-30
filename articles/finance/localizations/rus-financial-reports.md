@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 96ef001c307e1d4f538831f495f7555ae34eb73a
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 6766d593a3cbbbc07bfd3f8d57b747be512606fd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5637678"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894654"
 ---
 # <a name="financial-reporting-russia"></a>Финансовая отчетность (Россия)
 
@@ -209,7 +209,7 @@ ms.locfileid: "5637678"
 
 ## <a name="configure-er-to-use-the-results-of-financial-report-calculations"></a>Настройка электронной отчетности для использования результатов расчетов финансового отчета
 
-Дополнительные сведения см. в разделе [Электронная отчетность](../../dev-itpro/analytics/general-electronic-reporting.md). 
+Дополнительные сведения см. в разделе [Электронная отчетность](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). 
 
 Приведенный ниже пример показывает, как настроить электронную отчетность для использования результатов расчетов финансового отчета.
 
@@ -272,7 +272,7 @@ ms.locfileid: "5637678"
            - Элементы \> Значение \<-\> ParmFieldAmount 
            - Элементы \> ReportCode \<-\> FinancialReport\_UIP
 
-    ![Привязка](media/binding.jpg)
+    ![Список связанных полей](media/binding.jpg)
 
 7. Настройте формат отчета. Дополнительные сведения по добавлению новой конфигурации формата см. в разделе [Электронная отчетность — Создание конфигурации формата]( ../../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md). 
 

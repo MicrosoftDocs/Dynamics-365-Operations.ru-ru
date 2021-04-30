@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2f1354572422994cfa2a220f59d2fe223eebd36a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754328"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890892"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Содержимое Power BI "Показатели продаж и прибыльности"
 
@@ -76,7 +76,7 @@ ms.locfileid: "5754328"
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Показатели продаж и прибыльности**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Интеграция Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
 
-Сводные измерения в этом содержимом являются подмножеством сводных измерений, которые были доступны в кубе продаж в Microsoft Dynamics AX 2012 и Microsoft Dynamics AX 2012 R3. Для временного размещения агрегированных измерений куба в хранилище объектов необходимо сделать их развертываемыми. Дополнительные сведения см. в процедуре временного размещения сводных изменений в хранилище объектов в записи блога [Интеграция Power BI с хранилищем объектов в Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Сводные измерения в этом содержимом являются подмножеством сводных измерений, которые были доступны в кубе продаж в Microsoft Dynamics AX 2012 и Microsoft Dynamics AX 2012 R3. Для временного размещения агрегированных измерений куба в хранилище объектов необходимо сделать их развертываемыми. Дополнительные сведения см. в процедуре временного размещения сводных изменений в хранилище объектов в записи блога [Интеграция Power BI с хранилищем объектов в Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 Следующие ключевые агрегированные измерения объекта "Строки накладной" используются в качестве основы для содержимого.
 

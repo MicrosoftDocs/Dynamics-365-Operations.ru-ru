@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 61b08dbaa45e783c0a848d2f65fdd8177a8005bf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 48bdc5fb8342fe64f4946094c8886f66ec9f5e4e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813941"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894793"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 
@@ -47,7 +47,7 @@ ms.locfileid: "5813941"
     - Сопоставление моделей финансовых отчетов (RU)
     - Формат декларации налога на прибыль 5.08 (RU)
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Отправьте настройки пакета управления данными.
 
@@ -75,7 +75,7 @@ ms.locfileid: "5813941"
     > [!NOTE]
     > Сортировка ячеек финансового отчета, которые загружены из пакета, по столбцу **Описание**. Таким образом, ячейки на странице отображаются в том же порядке, в котором они отображаются в печатной версии декларации.
 
-    Дополнительные сведения о настройке финансовых отчетов для России см. в разделе [Финансовая отчетность (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-financial-reports).
+    Дополнительные сведения о настройке финансовых отчетов для России см. в разделе [Финансовая отчетность (Россия)](./rus-financial-reports.md).
 
 5. Выберите пункты **Налог** \> **Запросы и отчеты** \> **Электронные сообщения** \> **Электронные сообщения** и проверьте обработку импортированных электронных сообщений. Большая часть данных, которые были импортированы, представлена только на русском языке.
 
@@ -108,7 +108,7 @@ ms.locfileid: "5813941"
     3. Задайте для параметра **Показать диалоговое окно** значение **Да**.
     4. В поле **Сопоставление формата** выберите конфигурацию электронной отчетности **Формат декларации налога на прибыль 5.08 (RU)**, загруженную ранее.
 
-Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](https://docs.microsoft.com/dynamics365/finance/general-ledger/electronic-messaging).
+Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](../general-ledger/electronic-messaging.md).
 
 ### <a name="generate-a-profit-tax-declaration-in-electronic-format"></a>Создание декларации налога на прибыль в электронном формате
 

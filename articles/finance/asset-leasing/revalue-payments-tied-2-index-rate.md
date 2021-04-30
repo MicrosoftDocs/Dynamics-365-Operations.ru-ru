@@ -2,11 +2,11 @@
 title: Переоценка арендных платежей, связанных со ставкой, привязанной к индексу
 description: В этой теме описывается корректировка, выполняемая для арендных обязательств для актива в форме права пользования (ФПП) при изменении переменных арендных платежей вследствие изменения ставки, привязанной к индексу.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8d743bb51cfc1487e76ee46adfd59276f1c1b48b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f2adddbfdc43fa52bf9a585636ada1b0a63a6be0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819730"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880846"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Переоценка арендных платежей, связанных со ставкой, привязанной к индексу
 

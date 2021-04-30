@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835582"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909387"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Установка и подключение приложения склада
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835582"
 > В этой теме описывается, как настроить старое приложение склада (которое сейчас стало устаревшим). Если вы ищите сведения о том, как настроить новое мобильное приложение управления складом см. тему [Установка и подключение мобильного приложения управления складом](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> В этой теме описывается, как настроить приложение склада для размещения в облаке. Если требуется сведения о настройке приложения склада для локальных развертываний, см. тему [Складские операции для локальных развертываний](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> В этой теме описывается, как настроить приложение склада для размещения в облаке. Если требуется сведения о настройке приложения склада для локальных развертываний, см. тему [Складские операции для локальных развертываний](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Приложение склада доступно в магазине Google Play и Microsoft Store. Оно предоставляется как отдельный компонент. Поэтому необходимо загрузить его на каждое устройство, а затем настроить его для подключения к среде Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ ms.locfileid: "5835582"
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations — Warehousing в магазине Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 в магазине Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Для небольших развертываний может потребоваться установить приложение из соответствующего магазина на каждом устройстве, а затем вручную настроить подключение к используемым средам. Однако в версии приложения склада 1.7.0.0 и более поздних также можно автоматизировать развертывание и настройку приложений. Такой подход удобен, если вы управляете многими устройствами, и используете решение управления мобильными устройствами и мобильным приложением, такое как [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Сведения об использовании Intune для добавления приложений см. в разделе [Добавление приложений в Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Для небольших развертываний может потребоваться установить приложение из соответствующего магазина на каждом устройстве, а затем вручную настроить подключение к используемым средам. Однако в версии приложения склада 1.7.0.0 и более поздних также можно автоматизировать развертывание и настройку приложений. Такой подход удобен, если вы управляете многими устройствами, и используете решение управления мобильными устройствами и мобильным приложением, такое как [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Сведения об использовании Intune для добавления приложений см. в разделе [Добавление приложений в Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Создание приложения веб-службы в Azure Active Directory
 
@@ -89,11 +89,11 @@ ms.locfileid: "5835582"
 
 Дополнительные сведения о настройке приложений веб-служб в Azure AD см. в следующих источниках:
 
-- Инструкции, демонстрирующие использование Windows PowerShell для настройки приложений веб-служб в Azure AD, см. в разделе [Использование Azure PowerShell для создания субъекта-службы с сертификатом](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Инструкции, демонстрирующие использование Windows PowerShell для настройки приложений веб-служб в Azure AD, см. в разделе [Использование Azure PowerShell для создания субъекта-службы с сертификатом](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Полные сведения о том, как создать приложение веб-службы вручную в Azure AD, см. в следующих разделах:
 
-    - [Краткое описание: регистрация приложения на платформе Microsoft Identity](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Использование портала для создания приложения Azure AD и субъекта-службы, которые имеют доступ к ресурсам](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Краткое описание: регистрация приложения на платформе Microsoft Identity](/azure/active-directory/develop/quickstart-register-app)
+    - [Использование портала для создания приложения Azure AD и субъекта-службы, которые имеют доступ к ресурсам](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Создание и настройка учетной записи пользователя в Supply Chain Management
 
@@ -121,7 +121,7 @@ ms.locfileid: "5835582"
 
 Сертификаты могут использоваться в качестве секретов, чтобы предоставить удостоверение приложения при запросе токена. Открытая часть сертификата загружается в регистрацию приложения на портале Azure, в то время как полный сертификат должен быть развернут на каждом устройстве, где установлено приложение склада. Ваша организация несет ответственность за управление сертификатом с точки зрения ротации и т.д. Можно использовать самозаверяющие сертификаты, но всегда следует использовать сертификаты, которые не могут быть экспортированы.
 
-Сертификат необходимо сделать доступным локально на каждом устройстве, где выполняется приложение склада. Сведения об управлении сертификатами для устройств под управлением Intune если используется Intune, см. раздел [Использование сертификатов для проверки подлинности в Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Сертификат необходимо сделать доступным локально на каждом устройстве, где выполняется приложение склада. Сведения об управлении сертификатами для устройств под управлением Intune если используется Intune, см. раздел [Использование сертификатов для проверки подлинности в Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Настройка приложения путем импортирования параметров подключения
 

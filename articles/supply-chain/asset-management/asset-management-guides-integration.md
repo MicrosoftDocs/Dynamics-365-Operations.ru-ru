@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813925"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908575"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Интеграция Dynamics 365 Supply Chain Management (управление активами) с Dynamics 365 Guides
 
@@ -30,12 +30,12 @@ ms.locfileid: "5813925"
 - [Настройте Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) версии 10.0.9 или более поздней.
 - [Включите двойную запись для приложений Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Включите фокус-тестирование](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) для функции **MRGuidesFeature**. (Для производственных сред необходимо сначала отправить запрос в службу поддержки, чтобы ваш клиент был добавлен в группу фокус-тестирования.)
-- [Включите следующие конфигурационные ключи](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) на странице **Конфигурация лицензии**:
+- [Включите следующие конфигурационные ключи](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) на странице **Конфигурация лицензии**:
 
     - Управление активами \> Смешанная реальность управления активами
     - Смешанная реальность \> Руководство в смешанной реальности
 
-- [Настройте Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) версии 200.0.0.96 или более поздней.
+- [Настройте Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) версии 200.0.0.96 или более поздней.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Используйте Dynamics 365 Guides с управлением активами
 
@@ -47,8 +47,8 @@ ms.locfileid: "5813925"
 
 1. Создайте руководство с помощью приложений Dynamics 365 Guides для Windows и HoloLens. Информацию о том, как создать руководство, см. в следующих разделах:
 
-    - [Создание руководства с помощью приложения для Windows](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [Использование приложения HoloLens для размещения голограмм](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Создание руководства с помощью приложения для Windows](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [Использование приложения HoloLens для размещения голограмм](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. В Supply Chain Management [создайте шаблон контрольного списка обслуживания](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Свяжите руководство, созданное в строке контрольного списка обслуживания шаблона:

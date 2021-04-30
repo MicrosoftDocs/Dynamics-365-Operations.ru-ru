@@ -2,7 +2,7 @@
 title: Обзор управления бизнес-документами
 description: В этой теме приводятся сведения об использовании функции управления бизнес-документами в среде ER.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749545"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891313"
 ---
 # <a name="business-document-management-overview"></a>Обзор управления бизнес-документами
 
@@ -45,9 +45,9 @@ ms.locfileid: "5749545"
 
 ## <a name="business-document-availability"></a>Доступность бизнес-документов
 
-Полный список всех отчетов, запланированных для выпуска в октябре 2019 г., см. в разделе [Настраиваемая отчетность бизнес-документов в Word и Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Полный список всех отчетов, запланированных для выпуска в октябре 2019 г., см. в разделе [Настраиваемая отчетность бизнес-документов в Word и Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Полный список всех отчетов, запланированных для выпуска в октябре 2020 г., см. в разделе [Настраиваемая отчетность бизнес-документов — шаблоны Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Полный список всех отчетов, запланированных для выпуска в октябре 2020 г., см. в разделе [Настраиваемая отчетность бизнес-документов — шаблоны Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 В будущих выпусках будут доступны дополнительные отчеты. Специальные уведомления о дополнительных отчетах будут отправлены отдельно. Сведения о том, как просмотреть список доступных в настоящее время отчетов, см. в разделе [Список конфигураций электронной отчетности, выпущенных в Finance для поддержки настраиваемых бизнес-документов](#list-of-configurations-cbd) ниже.
 
@@ -272,7 +272,23 @@ ms.locfileid: "5749545"
 
 ![Подтверждение начала процесса редактирования для создания нового шаблона](./media/BDM-Overview-EditingTemplate4.png)
 
+Если поставщика нет, его предложат создать. Если активного поставщика нет, будет предложено выбрать его для активации.
+
+Чтобы создать поставщика, измените имя поставщика в поле **имя**, обновите веб-адрес нового поставщика в поле **Веб-адрес** и нажмите кнопку **ОК** для подтверждения.
+
+   ![Создать нового поставщика в BDM](./media/bdm_create_provider.png)
+
+Чтобы активировать существующего поставщика, выберите имя поставщика в поле **Поставщик конфигурации** и нажмите кнопку **OK**, чтобы указать поставщика в качестве активного.
+
+   ![Активация поставщика в BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Каждый шаблон BDM ссылается на поставщика как автора конфигурации. Это объясняется тем, что для шаблона необходим активный поставщик.
+
+
 Параметр **Создать документ** всегда доступен для шаблона в конфигурации формата ER, который предоставлен другим поставщиком (Microsoft в данном примере), и не имеет какой-либо редакции. Измененный шаблон будет затем сохранен в новой конфигурации формата ER, которая создается автоматически.
+
+
 
 ### <a name="start-editing-a-template"></a>Начало редактирования шаблона
 
@@ -419,7 +435,7 @@ ms.locfileid: "5749545"
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Список конфигураций электронной отчетности, выпущенных в Finance для поддержки настраиваемых бизнес-документов
 
-[Список](general-electronic-reporting.md#list-of-configurations) конфигураций электронной отчетности для Finance постоянно обновляется. Откройте [глобальный репозиторий](er-download-configurations-global-repo.md) для просмотра списка конфигураций электронной отчетности, которые в настоящее время поддерживаются. Можно выполнить [фильтрацию](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) глобального репозитория, чтобы просмотреть список конфигураций электронной отчетности, которые используются для поддержки настраиваемых бизнес-документов.
+[Список](general-electronic-reporting.md#list-of-configurations) конфигураций электронной отчетности для Finance постоянно обновляется. Откройте [глобальный репозиторий](er-download-configurations-global-repo.md) для просмотра списка конфигураций электронной отчетности, которые в настоящее время поддерживаются. Можно выполнить [фильтрацию](../../../finance/localizations/enhanced-filtering-global-repo.md) глобального репозитория, чтобы просмотреть список конфигураций электронной отчетности, которые используются для поддержки настраиваемых бизнес-документов.
 
 ![Фильтрация содержимого глобального репозитория на странице репозитория конфигураций](./media/bdm-overview-filterglobalrepo.gif)
 
