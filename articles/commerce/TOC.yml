@@ -94,12 +94,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (июль 2021 г.)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (май 2021 г.)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (апрель 2021 г.)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: "Commerce 10.0.16 (февраль 2021\_г.)"
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Внедрение приложений на основе холста из Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Внедрение сторонних приложений
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Поиск сведений с использованием подстановки
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Изменение даты для сеанса
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Настройка и установка Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
+                - name: Массовое развертывание запечатанных компонентов самообслуживания Commerce
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Массовое развертывание устаревших компонентов самообслуживания
                   href: dev-itpro/retail-mass-deployment.md
                 - name: События компонентов Commerce для диагностики и устранения неполадок
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Активация устройства настраиваемого Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Включение проверки подлинности Azure Active Directory для входа на POS-терминал
+                    - name: Настройка проверки подлинности Azure Active Directory для входа на POS-терминал
                       href: aad-pos-logon.md
                     - name: Поиск продуктов и клиентов в POS
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Обзор скидок на доставку
                   href: retail-shipping-discount.md
+                - name: Настройка подарков с акциями по покупке
+                  href: gift-with-purchase.md
                 - name: Настройка купонов
                   href: retail-coupons.md
                 - name: Отображение скидок в POS
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Продажа программ непрерывности и обработка заказов на продажу
                   href: tasks/use-continuity-program.md
+                - name: Включение уведомлений о возврате клиентов в POS-терминале
+                  href: enable-customer-check-in.md
             - name: Возвраты
               items:
                 - name: Связанные возвраты
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Отказ от сбора событий веб-активности
                   href: web-activity-opt-out.md
+                - name: Применение параметров единиц измерения
+                  href: unit-of-measure.md
             - name: Управление содержимым сайта
               items:
                 - name: Способы добавления содержимого
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Информационный модуль отправки
                       href: pickup-info-module.md
+                    - name: Возврат для модуля отправки
+                      href: check-in-pickup-module.md
                     - name: Модуль сведений о заказе
                       href: order-confirmation-module.md
                     - name: Модуль подарочных сертификатов
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
               href: set-up-rfm-analysis.md
+            - name: Настройка Microsoft Clarity в Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Глобализация
           items:
             - name: Обзор финансовой интеграции для канала Commerce
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Определенные пользователем профили сертификатов для розничных магазинов
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Обзор Regulatory Configuration Service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service — функции глобализации
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Файл props.autogenerated.ts модуля
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Предустановленные конфигурации модулей
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Разработка модулей
                   items:
                     - name: Создание нового модуля
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Добавление пользовательских кнопок в строку заголовка POS-терминала
                   href: dev-itpro/pos-header-bar.md
+                - name: 'SDK упаковки, независимый от POS'
+                  items:
+                    - name: Обзор расширения POS
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Начало работы с расширениями POS
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Создание проекта пакета расширения POS
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Создание файла APPX расширения Modern POS
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Отладка расширения POS
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Расширяемость Hardware Station
               items:
                 - name: Hardware Station и расширяемость

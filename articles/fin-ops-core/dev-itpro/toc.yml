@@ -14,12 +14,12 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для 10.0.19 (июль 2021 г.)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Обновления платформы для 10.0.18 (май 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Обновления платформы для 10.0.17 (апрель 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: "Обновления платформы для 10.0.16 (февраль 2021\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -303,19 +303,19 @@
                         - name: Настройка интеграции Project Service Automation
                           items:
                             - name: Обзор Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Параметры интеграции Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Синхронизация контрактов по проекту и проектов
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Синхронизация задач проекта
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Синхронизация категорий расходов по проекту
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Синхронизация оценок для проекта с прогнозами по проекту
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Синхронизация фактических данных проекта с журналом интеграции проекта
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Использование внешних веб-служб
               href: data-entities/consume-external-web-service.md
             - name: Электронные сообщения
@@ -691,7 +691,7 @@
                     - name: Обзор создания моделей и элементов модели данных
                       href: dev-tools/create-data-model-elements.md
                     - name: Правила именования для расширений
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Отключение настройки моделей и отказ от функций
                       href: dev-tools/lock-models.md
                 - name: Отчет об анализе настройки
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Что нового и что изменилось в Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Известные проблемы
-                  href: lifecycle-services/known-issues.md
                 - name: Удаленные или исключенные функции Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Руководство пользователя Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Использование Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: Поддержка тестовых случаев в Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Проверка ожидаемых значений
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Контрольные примеры цепочки
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Производные контрольные примеры
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Обновление файлов параметров
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Учебник Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: 'Настройка пользователей, не являющихся администраторами'
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Обновление AX 2012 — обновление данных в средах "песочниц" с использованием процесса DACPAC
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Обновление AX 2012 — репликация транзакций SQL
+                  href: database/replication-setup.md
                 - name: Обновление AX 2012 — обновление данных в средах "песочницы"
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Обновление AX 2012 — локальные среды

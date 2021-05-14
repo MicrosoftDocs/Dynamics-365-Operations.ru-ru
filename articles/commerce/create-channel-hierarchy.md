@@ -2,7 +2,7 @@
 title: Создание навигационной иерархии канала
 description: В этом разделе описывается, как создать навигационную иерархию канала в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,96 +14,96 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795843"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951916"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="2ece4-103">Создание навигационной иерархии канала</span><span class="sxs-lookup"><span data-stu-id="2ece4-103">Create a channel navigation hierarchy</span></span>
+# <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="33243-103">Создание навигационной иерархии канала</span><span class="sxs-lookup"><span data-stu-id="33243-103">Create a channel navigation hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="2ece4-104">В этом разделе описывается, как создать навигационную иерархию канала в Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="2ece4-104">This topic describes how to create a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="33243-104">В этом разделе описывается, как создать навигационную иерархию канала в Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="33243-104">This topic describes how to create a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="2ece4-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="2ece4-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="33243-105">Обзор</span><span class="sxs-lookup"><span data-stu-id="33243-105">Overview</span></span>
 
-<span data-ttu-id="2ece4-106">Навигационная иерархия канала используется для объединения продуктов в категории, чтобы продукты могли просматриваться в Интернете или в POS.</span><span class="sxs-lookup"><span data-stu-id="2ece4-106">A channel navigation hierarchy is used to group and organize products into categories so that the products can be browsed online or in point of sale (POS).</span></span>
+<span data-ttu-id="33243-106">Навигационная иерархия канала используется для объединения продуктов в категории, чтобы продукты могли просматриваться в Интернете или в POS.</span><span class="sxs-lookup"><span data-stu-id="33243-106">A channel navigation hierarchy is used to group and organize products into categories so that the products can be browsed online or in point of sale (POS).</span></span>
 
-## <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="2ece4-107">Создание навигационной иерархии канала</span><span class="sxs-lookup"><span data-stu-id="2ece4-107">Create a channel navigation hierarchy</span></span>
+## <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="33243-107">Создание навигационной иерархии канала</span><span class="sxs-lookup"><span data-stu-id="33243-107">Create a channel navigation hierarchy</span></span>
 
-<span data-ttu-id="2ece4-108">Чтобы создать навигационную иерархию канала торговли, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="2ece4-108">To create a channel navigation hierarchy, follow these steps.</span></span>
+<span data-ttu-id="33243-108">Чтобы создать навигационную иерархию канала торговли, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="33243-108">To create a channel navigation hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="2ece4-109">В области переходов выберите **Модули \> Retail и Commerce \> Продукты и категории \> Навигационные категории каналов**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Channel navigation categories**.</span></span>
-1. <span data-ttu-id="2ece4-110">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-110">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="2ece4-111">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="2ece4-111">In the **Name** box, enter a name.</span></span>
-1. <span data-ttu-id="2ece4-112">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="2ece4-112">In the **Description** box, enter a description.</span></span>
-1. <span data-ttu-id="2ece4-113">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-113">Select **Create**.</span></span>
-1. <span data-ttu-id="2ece4-114">На панели операций выберите **Новый узел категории** для создания корневого узла.</span><span class="sxs-lookup"><span data-stu-id="2ece4-114">On the action pane, select **New category node** to create a root node.</span></span>
-1. <span data-ttu-id="2ece4-115">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="2ece4-115">In the **Name** box, enter a name.</span></span>
-1. <span data-ttu-id="2ece4-116">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="2ece4-116">In the **Description** box, enter a description.</span></span>
-1. <span data-ttu-id="2ece4-117">В поле **Понятное имя** введите понятное имя.</span><span class="sxs-lookup"><span data-stu-id="2ece4-117">In the **Friendly name** box, enter a friendly name.</span></span>
-1. <span data-ttu-id="2ece4-118">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-118">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="33243-109">В области переходов выберите **Модули \> Retail и Commerce \> Продукты и категории \> Навигационные категории каналов**.</span><span class="sxs-lookup"><span data-stu-id="33243-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Channel navigation categories**.</span></span>
+1. <span data-ttu-id="33243-110">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="33243-110">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="33243-111">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="33243-111">In the **Name** box, enter a name.</span></span>
+1. <span data-ttu-id="33243-112">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="33243-112">In the **Description** box, enter a description.</span></span>
+1. <span data-ttu-id="33243-113">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="33243-113">Select **Create**.</span></span>
+1. <span data-ttu-id="33243-114">На панели операций выберите **Новый узел категории** для создания корневого узла.</span><span class="sxs-lookup"><span data-stu-id="33243-114">On the action pane, select **New category node** to create a root node.</span></span>
+1. <span data-ttu-id="33243-115">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="33243-115">In the **Name** box, enter a name.</span></span>
+1. <span data-ttu-id="33243-116">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="33243-116">In the **Description** box, enter a description.</span></span>
+1. <span data-ttu-id="33243-117">В поле **Понятное имя** введите понятное имя.</span><span class="sxs-lookup"><span data-stu-id="33243-117">In the **Friendly name** box, enter a friendly name.</span></span>
+1. <span data-ttu-id="33243-118">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="33243-118">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="2ece4-119">На следующем рисунке показан пример корневого узла.</span><span class="sxs-lookup"><span data-stu-id="2ece4-119">The following image shows a example root node.</span></span>
+<span data-ttu-id="33243-119">На следующем рисунке показан пример корневого узла.</span><span class="sxs-lookup"><span data-stu-id="33243-119">The following image shows a example root node.</span></span>
 
 ![Пример корневого узла](media/create-channel-hierarchy-1.png)
 
-## <a name="create-navigation-category-nodes"></a><span data-ttu-id="2ece4-121">Создание узлов навигационных категорий</span><span class="sxs-lookup"><span data-stu-id="2ece4-121">Create navigation category nodes</span></span>
+## <a name="create-navigation-category-nodes"></a><span data-ttu-id="33243-121">Создание узлов навигационных категорий</span><span class="sxs-lookup"><span data-stu-id="33243-121">Create navigation category nodes</span></span>
 
-<span data-ttu-id="2ece4-122">Чтобы создать дополнительные узлы навигационных категорий для представления категорий продуктов в канале, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="2ece4-122">To create any additional navigation category nodes to represent the product categories on the channel, follow these steps.</span></span>
+<span data-ttu-id="33243-122">Чтобы создать дополнительные узлы навигационных категорий для представления категорий продуктов в канале, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="33243-122">To create any additional navigation category nodes to represent the product categories on the channel, follow these steps.</span></span>
 
-1. <span data-ttu-id="2ece4-123">В области переходов выберите родительский узел, к которому требуется добавить категорию.</span><span class="sxs-lookup"><span data-stu-id="2ece4-123">In the navigation pane, select the parent node to add a category to.</span></span>
-1. <span data-ttu-id="2ece4-124">На панели операций выберите **Новый узел категории**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-124">On the action pane, select **New category node**.</span></span>
-1. <span data-ttu-id="2ece4-125">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="2ece4-125">In the **Name** box, enter a name.</span></span>
-1. <span data-ttu-id="2ece4-126">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="2ece4-126">In the **Description** box, enter a description.</span></span>
-1. <span data-ttu-id="2ece4-127">В поле **Понятное имя** введите понятное имя.</span><span class="sxs-lookup"><span data-stu-id="2ece4-127">In the **Friendly name** box, enter a friendly name.</span></span>
-1. <span data-ttu-id="2ece4-128">В поле **Порядок отображения** введите порядок отображения (необязательно).</span><span class="sxs-lookup"><span data-stu-id="2ece4-128">In the **Display order** box, enter a display order (optional).</span></span>
-1. <span data-ttu-id="2ece4-129">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-129">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="33243-123">В области переходов выберите родительский узел, к которому требуется добавить категорию.</span><span class="sxs-lookup"><span data-stu-id="33243-123">In the navigation pane, select the parent node to add a category to.</span></span>
+1. <span data-ttu-id="33243-124">На панели операций выберите **Новый узел категории**.</span><span class="sxs-lookup"><span data-stu-id="33243-124">On the action pane, select **New category node**.</span></span>
+1. <span data-ttu-id="33243-125">В поле **Имя** введите имя.</span><span class="sxs-lookup"><span data-stu-id="33243-125">In the **Name** box, enter a name.</span></span>
+1. <span data-ttu-id="33243-126">В поле **Описание** введите описание.</span><span class="sxs-lookup"><span data-stu-id="33243-126">In the **Description** box, enter a description.</span></span>
+1. <span data-ttu-id="33243-127">В поле **Понятное имя** введите понятное имя.</span><span class="sxs-lookup"><span data-stu-id="33243-127">In the **Friendly name** box, enter a friendly name.</span></span>
+1. <span data-ttu-id="33243-128">В поле **Порядок отображения** введите порядок отображения (необязательно).</span><span class="sxs-lookup"><span data-stu-id="33243-128">In the **Display order** box, enter a display order (optional).</span></span>
+1. <span data-ttu-id="33243-129">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="33243-129">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="2ece4-130">На следующем рисунке показан пример готовой навигационной иерархии канала.</span><span class="sxs-lookup"><span data-stu-id="2ece4-130">The following image shows an example of a completed channel navigation hierarchy.</span></span>
+<span data-ttu-id="33243-130">На следующем рисунке показан пример готовой навигационной иерархии канала.</span><span class="sxs-lookup"><span data-stu-id="33243-130">The following image shows an example of a completed channel navigation hierarchy.</span></span>
 
 ![Пример иерархии каналов](media/create-channel-hierarchy-2.png)
 
-## <a name="add-products-to-category-nodes"></a><span data-ttu-id="2ece4-132">Добавление продуктов в узлы категории</span><span class="sxs-lookup"><span data-stu-id="2ece4-132">Add products to category nodes</span></span>
+## <a name="add-products-to-category-nodes"></a><span data-ttu-id="33243-132">Добавление продуктов в узлы категории</span><span class="sxs-lookup"><span data-stu-id="33243-132">Add products to category nodes</span></span>
 
-<span data-ttu-id="2ece4-133">Чтобы добавить продукты в узлы категорий, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="2ece4-133">To add products to category nodes, follow these steps.</span></span>
+<span data-ttu-id="33243-133">Чтобы добавить продукты в узлы категорий, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="33243-133">To add products to category nodes, follow these steps.</span></span>
 
-1. <span data-ttu-id="2ece4-134">Выберите узел категории.</span><span class="sxs-lookup"><span data-stu-id="2ece4-134">Select a category node.</span></span>
-1. <span data-ttu-id="2ece4-135">В **Продукты** выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-135">Under **Products**, select **Add**.</span></span>
-1. <span data-ttu-id="2ece4-136">Найдите новые продукты, которые требуется добавить с использованием номера продукта или наименования продукта, а затем нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-136">Find the new product(s) you want to add using product number or product name, and then select **OK**.</span></span>
-1. <span data-ttu-id="2ece4-137">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-137">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="33243-134">Выберите узел категории.</span><span class="sxs-lookup"><span data-stu-id="33243-134">Select a category node.</span></span>
+1. <span data-ttu-id="33243-135">В **Продукты** выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="33243-135">Under **Products**, select **Add**.</span></span>
+1. <span data-ttu-id="33243-136">Найдите новые продукты, которые требуется добавить с использованием номера продукта или наименования продукта, а затем нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33243-136">Find the new product(s) you want to add using product number or product name, and then select **OK**.</span></span>
+1. <span data-ttu-id="33243-137">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="33243-137">On the action pane, select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2ece4-138">Добавление продуктов в узел внутри навигационной иерархии каналов недостаточно для того, чтобы продукты отображались в выбранном канале, продукты также должны быть включены в ассортимент продукта.</span><span class="sxs-lookup"><span data-stu-id="2ece4-138">Adding products to a node inside the channel navigation hierarchy is not sufficient for the products to show up on a selected channel, the products must also be assorted to a product.</span></span>
+> <span data-ttu-id="33243-138">Добавление продуктов в узел внутри навигационной иерархии каналов недостаточно для того, чтобы продукты отображались в выбранном канале, продукты также должны быть включены в ассортимент канала.</span><span class="sxs-lookup"><span data-stu-id="33243-138">Adding products to a node inside the channel navigation hierarchy is not sufficient for the products to show up on a selected channel, the products must also be assorted to a channel.</span></span> <span data-ttu-id="33243-139">Дополнительные сведения об ассортиментах см. в разделе [Управление ассортиментами](assortments.md).</span><span class="sxs-lookup"><span data-stu-id="33243-139">For more information on assortments, see [Assortment management](assortments.md).</span></span>
 
-<span data-ttu-id="2ece4-139">На следующем рисунке показан пример узла с добавленными продуктами.</span><span class="sxs-lookup"><span data-stu-id="2ece4-139">The following image shows an example node with products added.</span></span>
+<span data-ttu-id="33243-140">На следующем рисунке показан пример узла с добавленными продуктами.</span><span class="sxs-lookup"><span data-stu-id="33243-140">The following image shows an example node with products added.</span></span>
 
 ![Продукты, добавленные в узел категории](media/create-channel-hierarchy-3.png)
 
-## <a name="add-product-attribute-groups-to-category-nodes"></a><span data-ttu-id="2ece4-141">Добавление групп атрибутов продуктов в узлы категорий</span><span class="sxs-lookup"><span data-stu-id="2ece4-141">Add product attribute groups to category nodes</span></span>
+## <a name="add-product-attribute-groups-to-category-nodes"></a><span data-ttu-id="33243-142">Добавление групп атрибутов продуктов в узлы категорий</span><span class="sxs-lookup"><span data-stu-id="33243-142">Add product attribute groups to category nodes</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2ece4-142">Группы атрибутов должны быть созданы до того, как их можно будет добавить в узел внутри навигационной иерархии канала.</span><span class="sxs-lookup"><span data-stu-id="2ece4-142">Attribute groups must be created before you can add them to a node inside the channel navigation hierarchy.</span></span>
+> <span data-ttu-id="33243-143">Группы атрибутов должны быть созданы до того, как их можно будет добавить в узел внутри навигационной иерархии канала.</span><span class="sxs-lookup"><span data-stu-id="33243-143">Attribute groups must be created before you can add them to a node inside the channel navigation hierarchy.</span></span>
 
-<span data-ttu-id="2ece4-143">Чтобы добавить продукт группы атрибутов в узел категории, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="2ece4-143">To add product an attribute group to a category node, follow these steps.</span></span>
+<span data-ttu-id="33243-144">Чтобы добавить продукт группы атрибутов в узел категории, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="33243-144">To add product an attribute group to a category node, follow these steps.</span></span>
 
-1. <span data-ttu-id="2ece4-144">Выберите узел категории.</span><span class="sxs-lookup"><span data-stu-id="2ece4-144">Select a category node.</span></span>
-1. <span data-ttu-id="2ece4-145">В разделе **Группа атрибутов продукта** выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-145">Under **Product attribute group**, select **Add**.</span></span>
-1. <span data-ttu-id="2ece4-146">Найдите группы атрибутов, которые требуется добавить, а затем нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-146">Find the attribute group(s) you would like to add, and then select **OK**.</span></span>
-1. <span data-ttu-id="2ece4-147">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="2ece4-147">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="33243-145">Выберите узел категории.</span><span class="sxs-lookup"><span data-stu-id="33243-145">Select a category node.</span></span>
+1. <span data-ttu-id="33243-146">В разделе **Группа атрибутов продукта** выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="33243-146">Under **Product attribute group**, select **Add**.</span></span>
+1. <span data-ttu-id="33243-147">Найдите группы атрибутов, которые требуется добавить, а затем нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33243-147">Find the attribute group(s) you would like to add, and then select **OK**.</span></span>
+1. <span data-ttu-id="33243-148">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="33243-148">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="2ece4-148">На следующем рисунке показан пример узла с добавленными группами атрибутов продуктов.</span><span class="sxs-lookup"><span data-stu-id="2ece4-148">The following image shows a sample node with product attribute groups added.</span></span>
+<span data-ttu-id="33243-149">На следующем рисунке показан пример узла с добавленными группами атрибутов продуктов.</span><span class="sxs-lookup"><span data-stu-id="33243-149">The following image shows a sample node with product attribute groups added.</span></span>
 
 ![Группы атрибутов продукта в узле](media/create-channel-hierarchy-4.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="2ece4-150">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="2ece4-150">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="33243-151">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="33243-151">Additional resources</span></span>
 
-[<span data-ttu-id="2ece4-151">Настройка ассортиментов</span><span class="sxs-lookup"><span data-stu-id="2ece4-151">Set up assortments</span></span>](set-up-assortments.md)
+[<span data-ttu-id="33243-152">Настройка ассортиментов</span><span class="sxs-lookup"><span data-stu-id="33243-152">Set up assortments</span></span>](set-up-assortments.md)
 
-[<span data-ttu-id="2ece4-152">Управление атрибутами и группами атрибутов</span><span class="sxs-lookup"><span data-stu-id="2ece4-152">Manage attributes and attribute groups</span></span>](attribute-attributegroups-lifecycle.md)
+[<span data-ttu-id="33243-153">Управление атрибутами и группами атрибутов</span><span class="sxs-lookup"><span data-stu-id="33243-153">Manage attributes and attribute groups</span></span>](attribute-attributegroups-lifecycle.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

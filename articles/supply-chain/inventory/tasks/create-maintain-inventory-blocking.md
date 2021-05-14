@@ -1,8 +1,8 @@
 ---
 title: Создание и ведение блокировки запасов
-description: В этой процедуре показано, как блокировать запасы во избежание резервирования физических запасов в наличии другими исходящими документами-источниками.
+description: В этой теме показано, как использовать блокировку запасов во избежание резервирования физических запасов в наличии другими исходящими документами-источниками.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834009"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956166"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="73302-103">Создание и ведение блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="73302-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="06b65-103">Создание и ведение блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="06b65-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="73302-104">В этой процедуре показано, как блокировать запасы во избежание резервирования физических запасов в наличии другими исходящими документами-источниками.</span><span class="sxs-lookup"><span data-stu-id="73302-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="73302-105">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF и приведенные значения-примеры.</span><span class="sxs-lookup"><span data-stu-id="73302-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="73302-106">Перед началом процедуры необходимо иметь номенклатуру с физическими запасами в наличии.</span><span class="sxs-lookup"><span data-stu-id="73302-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="06b65-104">В этой теме показано, как использовать блокировку запасов во избежание резервирования физических запасов в наличии другими исходящими документами-источниками.</span><span class="sxs-lookup"><span data-stu-id="06b65-104">This topic describes how to use an inventory blocking to prevent physical on-hand inventory from being reserved by other outbound source documents.</span></span> <span data-ttu-id="06b65-105">Перед началом процедуры в этом разделе необходимо получить номенклатуру с физическими запасами в наличии.</span><span class="sxs-lookup"><span data-stu-id="06b65-105">Before you start the procedures in this topic, you must have an item that physical on-hand inventory is available for.</span></span>
 
+## <a name="block-inventory"></a><span data-ttu-id="06b65-106">Блокирование запасов</span><span class="sxs-lookup"><span data-stu-id="06b65-106">Block inventory</span></span>
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="73302-107">Создание блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="73302-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="73302-108">В **области перехода** выберите **Модули > Управление запасами > Периодические задачи > Блокировка запасов**.</span><span class="sxs-lookup"><span data-stu-id="73302-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="73302-109">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="73302-109">Click **New**.</span></span>
-3. <span data-ttu-id="73302-110">В поле **Код номенклатуры** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="73302-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="73302-111">Выберите в списке нужную номенклатуру.</span><span class="sxs-lookup"><span data-stu-id="73302-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="73302-112">Выберите код номенклатуры с физическими запасами в наличии, которые требуется заблокировать.</span><span class="sxs-lookup"><span data-stu-id="73302-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="73302-113">При использовании USMF можно выбрать номенклатуру M9201.</span><span class="sxs-lookup"><span data-stu-id="73302-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="73302-114">В поле **Количество** введите число.</span><span class="sxs-lookup"><span data-stu-id="73302-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="73302-115">При использовании номенклатуры M9201 необходимо выбрать меньше 200.</span><span class="sxs-lookup"><span data-stu-id="73302-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="73302-116">Разверните экспресс-вкладку **Складские аналитики**.</span><span class="sxs-lookup"><span data-stu-id="73302-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="73302-117">В поле **Склад** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="73302-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="73302-118">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="73302-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="73302-119">При использовании номенклатуры M9201 можно выбрать склад 51.</span><span class="sxs-lookup"><span data-stu-id="73302-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="73302-120">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="73302-120">Click **Save**.</span></span>
+<span data-ttu-id="06b65-107">Чтобы создать запись блокировки запасов для блокирования запасов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="06b65-107">To create an inventory blocking record so that inventory is blocked, follow these steps.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="73302-121">Обновление условий блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="73302-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="73302-122">На экспресс-вкладке **Общие** в поле **Количество** введите число.</span><span class="sxs-lookup"><span data-stu-id="73302-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="73302-123">Обновите поле количества запасов, чтобы отразить блокируемое количество.</span><span class="sxs-lookup"><span data-stu-id="73302-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="73302-124">В поле **Ожидаемая дата** введите дату.</span><span class="sxs-lookup"><span data-stu-id="73302-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="73302-125">Есть смысл указать, когда ожидается, что заблокированные запасы будут доступны для резервирования, путем назначения ожидаемой даты.</span><span class="sxs-lookup"><span data-stu-id="73302-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="73302-126">Если для блокировки запасов выбран вариант "Ожидаемые приходы" (это происходит по умолчанию при создании блокировки вручную), эта дата будет присутствовать в ожидаемой проводке.</span><span class="sxs-lookup"><span data-stu-id="73302-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="73302-127">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="73302-127">Click **Save**.</span></span>
+1. <span data-ttu-id="06b65-108">Перейдите в раздел **Управление запасами \> Периодические задачи \> Блокировка запасов**.</span><span class="sxs-lookup"><span data-stu-id="06b65-108">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="06b65-109">В области действий выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="06b65-109">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="06b65-110">В заголовке новой записи блокировки установите поле **Код номенклатуры** для номенклатуры, которую необходимо заблокировать, и введите описание.</span><span class="sxs-lookup"><span data-stu-id="06b65-110">On the header of the new blocking record, set the **Item number** field to the item that you want to block, and enter a description.</span></span>
+1. <span data-ttu-id="06b65-111">На экспресс-вкладке **Общие** в поле **Количество** введите количество блокируемых номенклатур.</span><span class="sxs-lookup"><span data-stu-id="06b65-111">On the **General** FastTab, in the **Quantity** field, enter the number of items to block.</span></span>
+1. <span data-ttu-id="06b65-112">На экспресс-вкладке **Складские аналитики** укажите сайт и склад, где в данный момент находятся номенклатуры, которые необходимо заблокировать.</span><span class="sxs-lookup"><span data-stu-id="06b65-112">On the **Inventory dimensions** FastTab, specify the site and warehouse where the items that you want to block are currently located.</span></span>
+1. <span data-ttu-id="06b65-113">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="06b65-113">On the Action Pane, select **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="73302-128">Снятие блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="73302-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="73302-129">В **области действий** щелкните **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="73302-129">On the **Action Pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="73302-130">Нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="73302-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="73302-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="73302-131">Close the page.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="06b65-114">Обновление условий блокировки запасов</span><span class="sxs-lookup"><span data-stu-id="06b65-114">Update the conditions of the inventory blocking</span></span>
 
+<span data-ttu-id="06b65-115">Чтобы обновить запись блокировки запасов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="06b65-115">To update an inventory blocking record, follow these steps.</span></span>
 
+1. <span data-ttu-id="06b65-116">Перейдите в раздел **Управление запасами \> Периодические задачи \> Блокировка запасов**.</span><span class="sxs-lookup"><span data-stu-id="06b65-116">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="06b65-117">В области списка выберите соответствующую запись блокировки.</span><span class="sxs-lookup"><span data-stu-id="06b65-117">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="06b65-118">Измените запись требуемым образом.</span><span class="sxs-lookup"><span data-stu-id="06b65-118">Edit the record as required.</span></span> <span data-ttu-id="06b65-119">Например, можно изменить значение поля **Ожидаемая дата**, чтобы указать, что заблокированные запасы должны стать доступными для резервирования.</span><span class="sxs-lookup"><span data-stu-id="06b65-119">For example, you might change the value of the **Expected date** field to indicate when the blocked inventory is expected to become available for reservation.</span></span> <span data-ttu-id="06b65-120">Если выбран параметр **Ожидаемые приходы**, дата появится в ожидаемой проводке.</span><span class="sxs-lookup"><span data-stu-id="06b65-120">If the **Expected receipts** option is selected, the date will appear on the expected transaction.</span></span> <span data-ttu-id="06b65-121">(Параметр **Ожидаемые приходы** по умолчанию выбирается при создании записи блокировки вручную.)</span><span class="sxs-lookup"><span data-stu-id="06b65-121">(The **Expected receipts** option is selected by default when you manually create a blocking record.)</span></span>
+1. <span data-ttu-id="06b65-122">На панели операций выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="06b65-122">On the Action Pane, select **Save**.</span></span>
+
+## <a name="unblock-inventory"></a><span data-ttu-id="06b65-123">Разблокировка запасов</span><span class="sxs-lookup"><span data-stu-id="06b65-123">Unblock inventory</span></span>
+
+<span data-ttu-id="06b65-124">Чтобы удалить запись блокировки запасов для разблокирования запасов, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="06b65-124">To remove an inventory blocking record so that inventory is unblocked, follow these steps.</span></span>
+
+1. <span data-ttu-id="06b65-125">Перейдите в раздел **Управление запасами \> Периодические задачи \> Блокировка запасов**.</span><span class="sxs-lookup"><span data-stu-id="06b65-125">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="06b65-126">В области списка выберите соответствующую запись блокировки.</span><span class="sxs-lookup"><span data-stu-id="06b65-126">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="06b65-127">В области действий выберите **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="06b65-127">On the Action Pane, select **Delete**.</span></span>
+1. <span data-ttu-id="06b65-128">Выводится запрос на подтверждение операции.</span><span class="sxs-lookup"><span data-stu-id="06b65-128">You're prompted to confirm the operation.</span></span> <span data-ttu-id="06b65-129">Выберите **Да** для продолжения.</span><span class="sxs-lookup"><span data-stu-id="06b65-129">Select **Yes** to continue.</span></span>
+1. <span data-ttu-id="06b65-130">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="06b65-130">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

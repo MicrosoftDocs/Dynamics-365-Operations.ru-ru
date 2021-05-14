@@ -13,68 +13,69 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0db1c35779a468d9a86d18eb6c849d40bc8c03a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13053dd87242963586678b46c64493feb3383c4c
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820090"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920713"
 ---
-# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="012c6-103">Создание спецификации для шаблона продукта на основе аналитик</span><span class="sxs-lookup"><span data-stu-id="012c6-103">Create a bill of materials for a dimension-based product master</span></span>
+# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="bdc97-103">Создание спецификации для шаблона продукта на основе аналитик</span><span class="sxs-lookup"><span data-stu-id="bdc97-103">Create a bill of materials for a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="012c6-104">Для данной процедуры необходимо завершить предыдущие 4 руководства в этой последовательности из восьми записей.</span><span class="sxs-lookup"><span data-stu-id="012c6-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="012c6-105">В первых 4 записях настраиваются данные, необходимые для завершения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="012c6-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="012c6-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="012c6-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="012c6-107">Обычно эта задача выполняется конструктором продуктов.</span><span class="sxs-lookup"><span data-stu-id="012c6-107">This task is typically handled by the product designer.</span></span>
+<span data-ttu-id="bdc97-104">Для данной процедуры необходимо завершить предыдущие 4 руководства в этой последовательности из восьми записей.</span><span class="sxs-lookup"><span data-stu-id="bdc97-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="bdc97-105">В первых 4 записях настраиваются данные, необходимые для завершения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="bdc97-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="bdc97-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="bdc97-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="bdc97-107">Обычно эта задача выполняется конструктором продуктов.</span><span class="sxs-lookup"><span data-stu-id="bdc97-107">This task is typically handled by the product designer.</span></span>
 
+## <a name="select-the-product"></a><span data-ttu-id="bdc97-108">Выбор продукта</span><span class="sxs-lookup"><span data-stu-id="bdc97-108">Select the product</span></span>
 
-## <a name="select-the-product"></a><span data-ttu-id="012c6-108">Выбор продукта</span><span class="sxs-lookup"><span data-stu-id="012c6-108">Select the product</span></span>
-1. <span data-ttu-id="012c6-109">Щелкните "Обслуживание выпущенного продукта".</span><span class="sxs-lookup"><span data-stu-id="012c6-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="012c6-110">Щелкните "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="012c6-110">Click Released products.</span></span>
-3. <span data-ttu-id="012c6-111">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="012c6-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="012c6-112">Найдите выпущенный шаблон продукта с помощью технологии конфигурации на основе аналитик, созданной в первом руководстве по задаче в этой последовательности.</span><span class="sxs-lookup"><span data-stu-id="012c6-112">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
-4. <span data-ttu-id="012c6-113">В области действий щелкните "Инжиниринг".</span><span class="sxs-lookup"><span data-stu-id="012c6-113">On the Action Pane, click Engineer.</span></span>
-5. <span data-ttu-id="012c6-114">Щелкните "Версии спецификации".</span><span class="sxs-lookup"><span data-stu-id="012c6-114">Click BOM versions.</span></span>
+1. <span data-ttu-id="bdc97-109">Выберите **Управление сведениями о продукте \> Продукты \> Выпущенные продукты**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-109">Go to **Product information management \> Products \> Released products**.</span></span>
+1. <span data-ttu-id="bdc97-110">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="bdc97-110">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="bdc97-111">Найдите выпущенный шаблон продукта с помощью технологии конфигурации на основе аналитик, созданной в первом руководстве по задаче в этой последовательности.</span><span class="sxs-lookup"><span data-stu-id="bdc97-111">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
+1. <span data-ttu-id="bdc97-112">В области действий выберите **Инженер**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-112">On the Action Pane, select **Engineer**.</span></span>
+1. <span data-ttu-id="bdc97-113">Выберите **Версии спецификаций**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-113">Select **BOM versions**.</span></span>
 
-## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="012c6-115">Создание новой спецификации и версии спецификации</span><span class="sxs-lookup"><span data-stu-id="012c6-115">Create new BOM and BOM version</span></span>
-1. <span data-ttu-id="012c6-116">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="012c6-116">Click New.</span></span>
-2. <span data-ttu-id="012c6-117">Щелкните спецификацию и версию спецификации.</span><span class="sxs-lookup"><span data-stu-id="012c6-117">Click BOM and BOM version.</span></span>
-3. <span data-ttu-id="012c6-118">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="012c6-119">Настройка сайта</span><span class="sxs-lookup"><span data-stu-id="012c6-119">Setting a site</span></span>  
-    * <span data-ttu-id="012c6-120">В этой процедуре мы не настраиваем определенный сайт для спецификации.</span><span class="sxs-lookup"><span data-stu-id="012c6-120">In this procedure we don't set a specific site for the BOM.</span></span>  
-4. <span data-ttu-id="012c6-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="012c6-121">Click OK.</span></span>
-5. <span data-ttu-id="012c6-122">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="012c6-122">Click New.</span></span>
-    * <span data-ttu-id="012c6-123">В этой процедуре мы добавим четыре строки в спецификацию.</span><span class="sxs-lookup"><span data-stu-id="012c6-123">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="012c6-124">Две строки представляют параметры кабеля и две строки представляют параметры шкафа.</span><span class="sxs-lookup"><span data-stu-id="012c6-124">Two lines represent cable options and two lines represent cabinet options.</span></span>  
-6. <span data-ttu-id="012c6-125">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="012c6-125">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="012c6-126">В поле "Код номенклатуры" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-126">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-127">Выберите код номенклатуры A0001, кабели 6' HDMI.</span><span class="sxs-lookup"><span data-stu-id="012c6-127">Select item number A0001, HDMI 6' Cables.</span></span>  
-8. <span data-ttu-id="012c6-128">В поле "Конфигурационная группа" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-128">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-129">Выберите конфигурационную группу кабеля, созданную в руководстве 4 в этой последовательности.</span><span class="sxs-lookup"><span data-stu-id="012c6-129">Select the Cable configuration group created in guide 4 in this sequence.</span></span>  
-9. <span data-ttu-id="012c6-130">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="012c6-130">Click New.</span></span>
-    * <span data-ttu-id="012c6-131">Выберите код номенклатуры A0002, кабели 12' HDMI.</span><span class="sxs-lookup"><span data-stu-id="012c6-131">Select item number A0002, HDMI 12' Cables.</span></span>  
-10. <span data-ttu-id="012c6-132">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="012c6-132">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="012c6-133">В поле "Код номенклатуры" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-133">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="012c6-134">В поле "Конфигурационная группа" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-134">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-135">Выберите конфигурационную группу кабеля еще раз.</span><span class="sxs-lookup"><span data-stu-id="012c6-135">Select the Cable configuration group again.</span></span>  
-13. <span data-ttu-id="012c6-136">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="012c6-136">Click New.</span></span>
-14. <span data-ttu-id="012c6-137">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="012c6-137">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="012c6-138">В поле "Код номенклатуры" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-138">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-139">Выберите код номенклатуры D0002, шкаф.</span><span class="sxs-lookup"><span data-stu-id="012c6-139">Select item number D0002 Cabinet.</span></span>  
-16. <span data-ttu-id="012c6-140">В поле "Конфигурационная группа" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-140">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-141">Выберите конфигурационную группу шкафа для данной строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="012c6-141">Select the Cabinet configuration group for this BOM line.</span></span>  
-17. <span data-ttu-id="012c6-142">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="012c6-142">Click New.</span></span>
-18. <span data-ttu-id="012c6-143">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="012c6-143">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="012c6-144">В поле "Код номенклатуры" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-144">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-145">Выберите код номенклатуры M0007 StandardCabinet в качестве последней строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="012c6-145">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
-20. <span data-ttu-id="012c6-146">В поле "Конфигурационная группа" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-146">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="012c6-147">Выберите конфигурационную группу шкафа для последней строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="012c6-147">Select the Cabinet configuration group for the laste BOM line.</span></span>  
+## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="bdc97-114">Создание новой спецификации и версии спецификации</span><span class="sxs-lookup"><span data-stu-id="bdc97-114">Create new BOM and BOM version</span></span>
 
-## <a name="approve-and-activate"></a><span data-ttu-id="012c6-148">Утвердить и активировать</span><span class="sxs-lookup"><span data-stu-id="012c6-148">Approve and activate</span></span>
-1. <span data-ttu-id="012c6-149">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="012c6-149">Close the page.</span></span>
-2. <span data-ttu-id="012c6-150">Нажмите кнопку Одобрить.</span><span class="sxs-lookup"><span data-stu-id="012c6-150">Click Approve.</span></span>
-3. <span data-ttu-id="012c6-151">В поле "Кем утверждено" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="012c6-151">In the Approved by field, enter or select a value.</span></span>
-4. <span data-ttu-id="012c6-152">Выберите значение "Да" в поле "Также утвердить спецификацию?" .</span><span class="sxs-lookup"><span data-stu-id="012c6-152">Select Yes in the Do you also want to approve the bill of materials? field.</span></span>
-5. <span data-ttu-id="012c6-153">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="012c6-153">Click OK.</span></span>
-6. <span data-ttu-id="012c6-154">Нажмите кнопку Активировать.</span><span class="sxs-lookup"><span data-stu-id="012c6-154">Click Activate.</span></span>
+1. <span data-ttu-id="bdc97-115">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-115">Select **New**.</span></span>
+1. <span data-ttu-id="bdc97-116">Выберите **Спецификация и версия спецификации**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-116">Select **BOM and BOM version**.</span></span>
+1. <span data-ttu-id="bdc97-117">В поле **Имя** введите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-117">In the **Name** field, type a value.</span></span>
+    * <span data-ttu-id="bdc97-118">Настройка сайта</span><span class="sxs-lookup"><span data-stu-id="bdc97-118">Setting a site</span></span>  
+    * <span data-ttu-id="bdc97-119">В этой процедуре мы не настраиваем определенный сайт для спецификации.</span><span class="sxs-lookup"><span data-stu-id="bdc97-119">In this procedure we don't set a specific site for the BOM.</span></span>  
+1. <span data-ttu-id="bdc97-120">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-120">Select **OK**.</span></span>
+1. <span data-ttu-id="bdc97-121">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-121">Select **New**.</span></span>
+    * <span data-ttu-id="bdc97-122">В этой процедуре мы добавим четыре строки в спецификацию.</span><span class="sxs-lookup"><span data-stu-id="bdc97-122">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="bdc97-123">Две строки представляют параметры кабеля и две строки представляют параметры шкафа.</span><span class="sxs-lookup"><span data-stu-id="bdc97-123">Two lines represent cable options and two lines represent cabinet options.</span></span>  
+1. <span data-ttu-id="bdc97-124">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="bdc97-124">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="bdc97-125">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-125">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-126">Выберите код номенклатуры A0001, кабели 6' HDMI.</span><span class="sxs-lookup"><span data-stu-id="bdc97-126">Select item number A0001, HDMI 6' Cables.</span></span>  
+1. <span data-ttu-id="bdc97-127">В поле **Конфигурационная группа** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-127">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-128">Выберите конфигурационную группу кабеля, созданную в руководстве 4 в этой последовательности.</span><span class="sxs-lookup"><span data-stu-id="bdc97-128">Select the cable configuration group created in guide 4 in this sequence.</span></span>  
+1. <span data-ttu-id="bdc97-129">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-129">Select **New**.</span></span>
+    * <span data-ttu-id="bdc97-130">Выберите код номенклатуры A0002, кабели 12' HDMI.</span><span class="sxs-lookup"><span data-stu-id="bdc97-130">Select item number A0002, HDMI 12' Cables.</span></span>  
+1. <span data-ttu-id="bdc97-131">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="bdc97-131">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="bdc97-132">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-132">In the **Item number** field, enter or select a value.</span></span>
+1. <span data-ttu-id="bdc97-133">В поле **Конфигурационная группа** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-133">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-134">Выберите конфигурационную группу кабеля еще раз.</span><span class="sxs-lookup"><span data-stu-id="bdc97-134">Select the cable configuration group again.</span></span>  
+1. <span data-ttu-id="bdc97-135">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-135">Select **New**.</span></span>
+1. <span data-ttu-id="bdc97-136">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="bdc97-136">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="bdc97-137">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-137">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-138">Выберите код номенклатуры D0002, шкаф.</span><span class="sxs-lookup"><span data-stu-id="bdc97-138">Select item number D0002 Cabinet.</span></span>  
+1. <span data-ttu-id="bdc97-139">В поле **Конфигурационная группа** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-139">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-140">Выберите конфигурационную группу шкафа для данной строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="bdc97-140">Select the cabinet configuration group for this BOM line.</span></span>  
+1. <span data-ttu-id="bdc97-141">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-141">Select **New**.</span></span>
+1. <span data-ttu-id="bdc97-142">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="bdc97-142">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="bdc97-143">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-143">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-144">Выберите код номенклатуры M0007 StandardCabinet в качестве последней строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="bdc97-144">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
+1. <span data-ttu-id="bdc97-145">В поле **Конфигурационная группа** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-145">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdc97-146">Выберите конфигурационную группу шкафа для последней строки спецификации.</span><span class="sxs-lookup"><span data-stu-id="bdc97-146">Select the Cabinet configuration group for the last BOM line.</span></span>  
+
+## <a name="approve-and-activate"></a><span data-ttu-id="bdc97-147">Утвердить и активировать</span><span class="sxs-lookup"><span data-stu-id="bdc97-147">Approve and activate</span></span>
+
+1. <span data-ttu-id="bdc97-148">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="bdc97-148">Close the page.</span></span>
+1. <span data-ttu-id="bdc97-149">Выберите **Утвердить**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-149">Select **Approve**.</span></span>
+1. <span data-ttu-id="bdc97-150">В поле **Кем утверждено** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bdc97-150">In the **Approved by** field, enter or select a value.</span></span>
+1. <span data-ttu-id="bdc97-151">Выберите значение *Да* в поле **Также утвердить спецификацию?**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-151">Select *Yes* in the **Do you also want to approve the bill of materials?** field.</span></span>
+1. <span data-ttu-id="bdc97-152">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-152">Select **OK**.</span></span>
+1. <span data-ttu-id="bdc97-153">Выберите **Активировать**.</span><span class="sxs-lookup"><span data-stu-id="bdc97-153">Select **Activate**.</span></span>
 
 
 
