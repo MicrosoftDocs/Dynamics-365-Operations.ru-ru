@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890060"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935761"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Настройка виртуальных таблиц Dataverse
 
@@ -102,27 +102,15 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 Установите приложение Dynamics 365 HR Virtual Table в своей среде Power Apps, чтобы развернуть пакет решения виртуальных таблиц в Dataverse.
 
-1. Откройте [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com).
+1. В Human Resources откройте страницу **Интеграция Microsoft Dataverse**.
 
-2. В списке **Среды** выберите среду Power Apps, связанную с экземпляром приложения Human Resources.
+2. Выберите вкладку **Виртуальные таблицы**.
 
-3. В разделе **Ресурсы** этой страницы выберите **Приложения Dynamics 365**.
+3. Выберите **Установить приложение виртуальной таблицы**.
 
-4. Выберите действие **Установить приложение**.
+### <a name="configure-the-virtual-table-data-source"></a>Настройка источника данных виртуальной таблицы
 
-5. Выберите **Dynamics 365 HR Virtual Table**, затем выберите **Далее**.
-
-6. Просмотрите и отметьте, чтобы принять условия обслуживания.
-
-7. Выберите **Установить**.
-
-Установка занимает несколько минут. После завершения переходите к следующим шагам.
-
-![Установка приложения Dynamics 365 HR Virtual Table с помощью центра администрирования Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Настройка источника данных виртуальной таблицы 
-
-Следующим шагом является настройка источника данных виртуальных таблиц в среде Power Apps. 
+Следующим шагом является настройка источника данных виртуальных таблиц в среде Power Apps.
 
 1. Откройте [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Dynamics 365 Human Resources — это виртуальный источник 
 4. В разделе **Центр работоспособности решений** выберите значок **Расширенный поиск** в верхнем правом углу страницы приложения.
 
 5. На странице **Расширенный поиск** в раскрывающемся списке **Найти** выберите **Конфигурации виртуальных источников данных Finance and Operations**.
+
+   > [!NOTE]
+   > Установка приложения виртуальной таблицы с предыдущего шага установки может занять несколько минут. Если **Конфигурации виртуальных источников данных Finance and Operations** недоступны в списке, подождите минуту и обновите список.
 
 6. Выберите **Результаты**.
 
@@ -186,7 +177,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 По завершении настройки можно выбрать виртуальные таблицы, которые требуется создать и включить в данном экземпляре Dataverse.
 
-1. В Human Resources откройте страницу **Интеграция Dataverse**.
+1. В Human Resources откройте страницу **Интеграция Microsoft Dataverse**.
 
 2. Выберите вкладку **Виртуальные таблицы**.
 
@@ -197,7 +188,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 4. Выберите **Создать/обновить**.
 
-![Интеграция Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Интеграция Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Проверка статуса создания таблицы
 

@@ -2,7 +2,7 @@
 title: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909655"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947552"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
 
@@ -32,6 +32,19 @@ ms.locfileid: "5909655"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.19
+
+### <a name="job-card-device"></a>Карта задания — устройство
+
+|   |   |
+|---|---|
+| **Причина устаревания/удаления** | [Устройство карты задания](../production-control/config-job-card-device.md) заменяется новым [интерфейсом выполнения производственного цеха](../production-control/production-floor-execution-configure.md). |
+| **Заменена другой функцией?**   | Да, [устройство карты задания](../production-control/config-job-card-device.md) заменяется новым [интерфейсом выполнения производственного цеха](../production-control/production-floor-execution-configure.md). |
+| **Затрагиваемые области продукта** | Supply Chain Management — управление производством |
+| **Вариант развертывания** | Облачное и локальное |
+| **Состояние** | Устарело. Устройство карты задания будет получать поддержку исправления ошибок и исправлений безопасности, но усовершенствования функций больше предоставляться не будут. После апреля 2022 года устройство карты задания больше не будет поддерживаться, и клиентам будет предложено перейти на новый интерфейс выполнения производственного цеха. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.18
 

@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748473"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920865"
 ---
 # <a name="globalization-resources"></a>Ресурсы по глобализации
 
 ## <a name="local-and-regional-deployments"></a>Локальные и региональные развертывания
 Если правительственные нормативные документы требуют, чтобы данные хранились или обслуживались не так, как в других странах или регионах, возможно, что при развертывании необходимо учитывать требования для конкретной страны или региона. Примите во внимание следующие ресурсы, которые могут иметь отношение к вам:
 
-[Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Локализация и нормативные компоненты
 
@@ -60,7 +60,7 @@ ms.locfileid: "5748473"
 -   [Отправка оповещений о функциях, связанных с законодательством конкретных стран/регионов](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Планы выпусков Dynamics 365
-[Планы выпусков Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
+[Планы выпусков Dynamics 365](/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Что нового в приложениях Finance and Operations
 На [домашней странице "Что нового и что изменилось в Finance and Operations"](../../fin-ops/get-started/whats-new-changed.md) перечислены функции, включенные в конкретные выпуски приложений Finance and Operations.

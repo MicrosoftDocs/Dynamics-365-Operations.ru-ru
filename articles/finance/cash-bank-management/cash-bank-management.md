@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 237a2a594abba7d74e7c1aba33a6f4e72b1e2e69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830528"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897436"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Домашняя страница модуля "Управление банком и кассовыми операциями"
 
@@ -83,7 +83,7 @@ ms.locfileid: "5830528"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](/dynamics365/release-plans/), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="blogs"></a>Блоги
 

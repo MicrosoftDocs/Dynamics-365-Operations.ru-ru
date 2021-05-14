@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857378"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941091"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Обновление модели субъекта и глобальной адресной книги
 
@@ -52,11 +52,11 @@ ms.locfileid: "5857378"
 
 2. Войдите в [Microsoft Azure](https://portal.azure.com/).
 
-3. Создайте [группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Создайте [группу ресурсов](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Создайте [учетную запись хранения](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) в созданной группе ресурсов.
+4. Создайте [учетную запись хранения](/azure/storage/common/storage-account-create?tabs=azure-portal) в созданной группе ресурсов.
 
-5. Создайте [фабрика данных](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) в созданной ранее группе ресурсов.
+5. Создайте [фабрика данных](/azure/data-factory/quickstart-create-data-factory-portal) в созданной ранее группе ресурсов.
 
 6. Откройте фабрику данных и выберите плитку **Автор и Монитор**.
 
@@ -81,7 +81,7 @@ ms.locfileid: "5857378"
     FO Linked Service_properties_type Properties_service Principal Id | Указывается идентификатор клиента приложения.
     Dynamics Crm Linked Service_properties_type Properties_username | Имя пользователя для подключения к Dynamics.
 
-    Дополнительные сведения см. в [Ручное распространение шаблона Resource Manager для каждой среды](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Связанные свойства службы](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) и [Копировать данные с помощью Фабрики данных Azure](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Дополнительные сведения см. в [Ручное распространение шаблона Resource Manager для каждой среды](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Связанные свойства службы](/azure/data-factory/connector-dynamics-ax#linked-service-properties) и [Копировать данные с помощью Фабрики данных Azure](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. После развертывания проверьте наборы данных, поток данных и связанную службу фабрики данных.
 
@@ -158,7 +158,7 @@ ms.locfileid: "5857378"
 8. Импортируйте новые записи **Стороны** в приложение Finance and Operations.
 
     + Загрузите файл `FONewParty.csv` из хранилища BLOB-объектов Azure. Путь `partybootstrapping/output/FONewParty.csv`.
-    + Преобразуйте файл `FONewParty.csv` в файл Excel и импортируйте файл Excel в приложение Finance and Operations.  Если вам подходит импорт csv, можно напрямую импортировать файл CSV. Для выполнения импорта может потребоваться несколько часов, в зависимости от объема данных. Дополнительные сведения см. в разделе [Обзор заданий импорта и экспорта данных](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Преобразуйте файл `FONewParty.csv` в файл Excel и импортируйте файл Excel в приложение Finance and Operations.  Если вам подходит импорт csv, можно напрямую импортировать файл CSV. Для выполнения импорта может потребоваться несколько часов, в зависимости от объема данных. Дополнительные сведения см. в разделе [Обзор заданий импорта и экспорта данных](../data-import-export-job.md).
 
     ![Импорт записей стороны Datavers](media/data-factory-import-party.png)
 

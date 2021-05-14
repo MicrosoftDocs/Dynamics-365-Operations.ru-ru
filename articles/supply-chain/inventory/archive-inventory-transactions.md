@@ -10,22 +10,20 @@ ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881840"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956066"
 ---
 # <a name="archive-inventory-transactions"></a>Архивирование проводок по запасам
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Со временем таблица проводок по запасам (`InventTrans`) продолжит расти и будет потреблять больше места для базы данных. Поэтому запросы, выполняемые с таблицей, постепенно становятся медленнее. В этом разделе описывается, как использовать функцию *Архивация проводок по запасам* для архивирования данных о проводках по запасам для повышения производительности системы.
 

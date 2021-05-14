@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796326"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936688"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Специальные возможности
 
@@ -95,11 +95,11 @@ ms.locfileid: "5796326"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Специальные возможности в формах, продуктах и элементах управления](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Специальные возможности в формах, продуктах и элементах управления](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Центр специальных возможностей Майкрософт](https://www.microsoft.com/accessibility)
 
-[Центр специальных возможностей Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[Центр специальных возможностей Dynamics 365](/dynamics365/get-started/accessibility/index)
 
 [Обзор соответствия](compliance-overview.md)
 

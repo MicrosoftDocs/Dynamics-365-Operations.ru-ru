@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e2c9fced9091e851683c7dd7727aff693043c433
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956286"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Отложенная обработка работы склада
 
@@ -108,5 +108,8 @@ ms.locfileid: "5908019"
 
 Можно удалить задачи отложенной обработки размещения, которые были завершены, выбрав их и удалив на странице.
 
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+- [Отложенная обработка операции перемещения запасов вручную](deferred-processing-manual-inventory-movement.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

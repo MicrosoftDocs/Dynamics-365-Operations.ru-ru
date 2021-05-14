@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907971"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935613"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021 г.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5907971"
 
 Этот выпуск содержит следующие функции.  Перейдите по ссылке на [план выпуска](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать. Некоторые из вышеперечисленных функций все еще могут быть предварительными версиями, хотя большинство уже общедоступны.
+Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 ### <a name="asset-management"></a>Управление активами
 
@@ -71,13 +71,13 @@ ms.locfileid: "5907971"
 
 - [Функции управления активами в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Дополнительные сведения см. в разделе [Настройка интерфейса выполнения производственного цеха](../production-control/production-floor-execution-configure.md).
 
-- Единая номерная серия для кодов заданий<br> - Дополнительные сведения см. 
+- [Выполнение производства с единицами масштабирования в облаке](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Дополнительные сведения см. в разделе [Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Переопределение принципа резервирования по умолчанию для материалов в производстве](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Дополнительные сведения см. в разделе [Переопределение принципа резервирования по умолчанию для материалов в производстве](../production-control/override-default-reservation-principle.md).
 
 - [Сохраненные представления для управления производством](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Дополнительные сведения см. в разделе [Стандартные сохраненные представления для Supply Chain Management](saved-views-scm.md).
 
-- [Выполнение производства с единицами масштабирования в облаке](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Дополнительные сведения см. в разделе [Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- Единая номерная серия для кодов заданий<br> - Для получения дополнительных сведений см. раздел [Унифицированная номерная серия для кодов заданий](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Планирование
 

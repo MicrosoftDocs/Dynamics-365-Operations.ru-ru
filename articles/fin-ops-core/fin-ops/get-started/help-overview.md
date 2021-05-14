@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897824"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923454"
 ---
 # <a name="help-system"></a>Система справки
 
@@ -39,7 +39,7 @@ ms.locfileid: "5897824"
 
 ## <a name="help-on-docsmicrosoftcom"></a>Справка на docs.microsoft.com
 
-Сайт docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) является источником по умолчанию для проектной документации для перечисленных выше приложений. Этот сайт содержит следующие возможности:
+Сайт docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) является источником по умолчанию для проектной документации для перечисленных выше приложений. Этот сайт содержит следующие возможности:
 
 - **Доступ к самому последнему содержимому** — сайт предоставляет Microsoft более быстрый и гибкий способ создания, доставки и обновления документации по продуктам. Поэтому он обеспечивает простой доступ к самой последней технической информации.
 - **Содержимое, написанное специалистами** — содержимое на сайте открыто для вкладов от участников сообщества, как внутри, так и за пределами Microsoft.
@@ -50,7 +50,7 @@ ms.locfileid: "5897824"
 
 Чтобы подписаться на RSS-канал для всех обновлений, которые относятся к содержимому docs.microsoft.com, используйте следующую ссылку:
 
-[RSS-канал](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS-канал](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Оставить нам отзыв
 
@@ -73,7 +73,7 @@ ms.locfileid: "5897824"
 
 Видео [Как внести вклад в документацию по Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (показано выше) включено в канал Microsoft Dynamics 365 на YouTube.
 
-Дополнительные сведения см. в [руководстве для участников по документам](https://docs.microsoft.com/contribute), которое публикуется рабочей группой, которая создала сайт docs.microsoft.com.
+Дополнительные сведения см. в [руководстве для участников по документам](/contribute), которое публикуется рабочей группой, которая создала сайт docs.microsoft.com.
 
 > [!NOTE]
 > В настоящее время мы принимаем материалы только на английском языке.
@@ -155,12 +155,13 @@ On the **System parameters** page, follow these steps:
 | Сайт | описание |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Этот сайт предоставляет всю документацию по продуктам для Dynamics 365 или ссылки на нее. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Этот сайт является бесплатным сайтом электронного обучения Microsoft. |
+| [Microsoft Learn](/learn/) | Этот сайт является бесплатным сайтом электронного обучения Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Этот сайт предоставляет совместное рабочее пространство на основе облака, которое клиенты и их партнеры могут использовать для управления проектами от предварительной продажи до реализации и выполнения операций. Он полезен на всех стадиях реализации. |
 | [Блог поддержки](https://aka.ms/AXSupportBlog) | Этот сайт предоставляет подсказки и рекомендации группы поддержки. |
 | [Docs.microsoft.com/предыдущие версии](/previous-versions/dynamics/) | Этот сайт размещает содержимое из предыдущих выпусков. |
 | [Сообщество Dynamics](https://community.dynamics.com/) | Этот сайт включает блоги, форумы и видео. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Этот сайт предоставляет сведения об оценке и продажах. |
+
 
 
 

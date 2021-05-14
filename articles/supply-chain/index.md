@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829964"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909799"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -94,16 +94,16 @@ ms.locfileid: "5829964"
 
 ## <a name="blogs"></a>Блоги
 
-В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
+В [блоге группы исследований производства Dynamics AX](/archive/blogs/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
 ## <a name="white-papers"></a>Технические документы
 
-- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](https://docs.microsoft.com/dynamics/s-e/)
+- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](/dynamics/s-e/)
 - [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

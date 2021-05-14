@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795963"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936919"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Настройка сценария BOPIS (купить в Интернете, забрать в магазине) в среде оценки Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795963"
 
 ## <a name="prerequisite"></a>Необходимые условия
 
-Выполните процедуры в этой теме только после того, как ваша ознакомительная среда Commerce была создана и настроена. Для получения информации о том, как подготовить и настроить среду, см. разделы [Подготовка ознакомительной среды Dynamics 365 Commerce](provisioning-guide.md) и [Настройка ознакомительной среды Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Выполните процедуры в этой теме только после того, как ваша ознакомительная среда Commerce была создана и настроена. Для получения информации о том, как подготовить и настроить среду, см. разделы [Подготовка ознакомительной среды Dynamics 365 Commerce](provisioning-guide.md) и [Настройка ознакомительной среды Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 После того как ваша среда Commerce подготовлена и полностью настроена, эту тему можно использовать для включения сценариев BOPIS.
 
@@ -37,7 +37,7 @@ ms.locfileid: "5795963"
 
 ### <a name="configure-modern-pos"></a>Настройка Modern POS
 
-Сценарии BOPIS, в которых участвует платеж по кредитной карте, требуют наличия станции оборудования. Станция оборудования встроена в клиенты Modern POS для Windows и Android. Если вы используете Cloud POS или Modern POS для iOS, клиент POS должен составлять пару с общей аппаратной станцией. В этой теме объясняется, как настроить BOPIS для клиентов Windows и Android. Сведения о том, как настроить общую станцию оборудования, см. в разделе [Настройка и установка Retail Hardware Station](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+Сценарии BOPIS, в которых участвует платеж по кредитной карте, требуют наличия станции оборудования. Станция оборудования встроена в клиенты Modern POS для Windows и Android. Если вы используете Cloud POS или Modern POS для iOS, клиент POS должен составлять пару с общей аппаратной станцией. В этой теме объясняется, как настроить BOPIS для клиентов Windows и Android. Сведения о том, как настроить общую станцию оборудования, см. в разделе [Настройка и установка Retail Hardware Station](./retail-hardware-station-configuration-installation.md).
 
 1. Перейдите в раздел **Розничная торговля и коммерция \> Настройка канала \> Настройка POS \> Регистры**.
 2. Выберите регистр **SANFRAN-5**, затем выберите **Правка**.
@@ -87,7 +87,7 @@ ms.locfileid: "5795963"
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Создание заказа в магазине для получения в магазине
 
-1. Перейдите по URL-адресу, указанному на этапе [Инициализация электронной коммерции](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) во время конфигурации среды.
+1. Перейдите по URL-адресу, указанному на этапе [Инициализация электронной коммерции](./provisioning-guide.md#initialize-e-commerce) во время конфигурации среды.
 2. Выберите номенклатуру и выберите **Добавить в корзину**.
 3. На странице корзины выберите пункт **Забрать это** для строки заказа, которая была только что добавлена.
 4. В диалоговом окне **Выбор магазина** введите **Сан-Франциско**, затем выберите кнопку **Поиск**.
@@ -112,7 +112,7 @@ ms.locfileid: "5795963"
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Синхронизация интернет-заказов с бек-офисом
 
-Сведения о синхронизации интернет-заказов см. в разделе [Разноска продаж и платежей через Интернет](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Сведения о синхронизации интернет-заказов см. в разделе [Разноска продаж и платежей через Интернет](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Получение заказа в магазине
 
@@ -148,19 +148,19 @@ ms.locfileid: "5795963"
 
 [Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Соединитель платежей Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Соединитель платежей Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Сохранение интерактивных платежных инструментов с помощью соединителя Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Сохранение интерактивных платежных инструментов с помощью соединителя Adyen](./dev-itpro/adyen-connector-listpi.md)
 
-[Обзор многоканальных платежей](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Обзор многоканальных платежей](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754808"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923315"
 ---
 # <a name="feature-management-overview"></a>Обзор управления компонентами
 
@@ -140,7 +140,7 @@ ms.locfileid: "5754808"
 
 ## <a name="new-features-are-optional-for-12-months"></a>Новые возможности необязательны в течение 12 месяцев
 
-Когда устанавливается новая некритическая функция, она будет необязательной в течение 12-месячного периода. Это позволяет вам и вашим организациям заранее планировать время, в течение которого функция будет вводиться и тестироваться в соответствии с повседневными операциями. Дополнительные сведения см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Когда устанавливается новая некритическая функция, она будет необязательной в течение 12-месячного периода. Это позволяет вам и вашим организациям заранее планировать время, в течение которого функция будет вводиться и тестироваться в соответствии с повседневными операциями. Дополнительные сведения см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Использование управления функциями для включения функций независимых разработчиков программного обеспечения или пользовательских функций
 
@@ -161,7 +161,7 @@ ms.locfileid: "5754808"
 Время выпуска обновлений может изменяться, время обновления среды переменное, и клиенты могут отказаться от некоторых обновлений. В результате трудно определить конкретные даты. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Где документация для функций, которые становятся обязательными? 
-Эта документация поступает от рабочих групп приложений. Часто они будут упомянуты в разделе [Удаленные или устаревшие функции](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Эта документация поступает от рабочих групп приложений. Часто они будут упомянуты в разделе [Удаленные или устаревшие функции](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Имеется ли в продукте уведомление или сигнал о том, что функция должна быть обязательно активирована? 
 Механизм уведомления, связанный с преобразованием функций в обязательные, не существует сегодня.

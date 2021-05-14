@@ -2,7 +2,7 @@
 title: Управление запросами на отпуска и отсутствия
 description: Просмотр и утверждение запросов на отпуск и отсутствие в Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790748"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924811"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Управление запросами на отпуска и отсутствие
 
@@ -31,9 +31,20 @@ ms.locfileid: "5790748"
 
 1. В рабочей области **Самообслуживание сотрудников** выберите **Моя группа**.
 
-2. В **Сведения о моей группе** выберите вкладку **Отпуск и отсутствие**. 
+2. В **Сведения о моей группе** выберите вкладку **Отпуск и отсутствие**.
 
 3. При необходимости просмотрите и утвердите запросы на отсутствие участников своей команды.
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Предварительная версия) Усовершенствования в работе workflow-процесса запроса на отпуск
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+Эта предварительная версия функции предоставляет следующие усовершенствования:
+
+- Можно выбрать несколько запросов на отпуск и выполнить одно и то же действие по отношению ко всем.
+- Лента в верхней части и кнопка нового workflow-процесса на странице отображает действия, которые можно сделать для запросов на отпуск.
+
+![Взаимодействие с менеджером](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>См. также
 

@@ -2,7 +2,7 @@
 title: Поддержка функций налогов для заказов на перемещение
 description: В этой теме объясняется поддержка новой функции налогов для заказов на перемещение с помощью службы расчета налогов.
 author: kailiang
-ms.date: 03/10/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 55597e4f0f40677e793b4c182e4b0ced01057751
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832569"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920963"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Поддержка функций налогов для заказов на перемещение
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 В этой теме приводятся сведения об интеграции расчета налога и разноски в заказах на перемещение. Эта функция позволяет настраивать расчет налогов и разноску в заказах на перемещение для перемещения запасов. В положениях по налогу на добавленную стоимость (НДС) в Европейском Союзе (ЕС) перемещение запасов считается поставками внутри сообщества и приобретением внутри сообщества.
 

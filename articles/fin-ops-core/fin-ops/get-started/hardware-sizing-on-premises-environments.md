@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748753"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923488"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Требования к определению параметров оборудования для локальных сред
 
@@ -134,7 +134,7 @@ ms.locfileid: "5748753"
 
 ## <a name="environment-orchestrator"></a>Orchestrator среды
 
-Orchestrator — это служба, управляющая развертыванием и связанным обменом данными с LCS. Эта служба развертывается как основная служба Service Fabric и требует по крайней мере трех виртуальных машин. Эта служба размещается совместно со службами оркестрации Service Fabric. Ее параметры должны определять согласно пиковой нагрузке кластера. Дополнительные сведения см. в разделе [Планирование и подготовка развертывания изолированного кластера Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Orchestrator — это служба, управляющая развертыванием и связанным обменом данными с LCS. Эта служба развертывается как основная служба Service Fabric и требует по крайней мере трех виртуальных машин. Эта служба размещается совместно со службами оркестрации Service Fabric. Ее параметры должны определять согласно пиковой нагрузке кластера. Дополнительные сведения см. в разделе [Планирование и подготовка развертывания изолированного кластера Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Виртуализация и превышение лимита
 

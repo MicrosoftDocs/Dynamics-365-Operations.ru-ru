@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828234"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920995"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Устранение неполадок входящих операций склада
 
@@ -56,7 +56,7 @@ ms.locfileid: "5828234"
 
 ### <a name="issue-resolution"></a>Устранение проблемы
 
-Новая функция обработки входящей загрузки *Получение сверх количества загрузки* решает эту проблему. Чтобы включить эту функцию, перейдите в раздел [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите следующие функции (в порядке, в котором они перечислены):
+Новая функция обработки входящей загрузки *Получение сверх количества загрузки* решает эту проблему. Чтобы включить эту функцию, перейдите в рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите следующие функции (в порядке, в котором они перечислены):
 
 1. Связать складские проводки по заказу на покупку с загрузкой
 1. Получение сверх количества загрузки

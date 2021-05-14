@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751418"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941037"
 ---
 # <a name="company-concept-in-dataverse"></a>Концепция компании в Dataverse
 
@@ -89,7 +89,7 @@ ms.locfileid: "5751418"
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Выбор строки изменяет компанию по умолчанию.":::
 
-+ Если вы являетесь системным конфигуратором или администратором и хотите автоматически заполнить данные компании в пользовательской форме, можно использовать [события формы](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Добавьте ссылку JavaScript на **msdyn_/DefaultCompany.js** и используйте следующие события: Можно использовать любую готовую форму, например форму **Организация**.
++ Если вы являетесь системным конфигуратором или администратором и хотите автоматически заполнить данные компании в пользовательской форме, можно использовать [события формы](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Добавьте ссылку JavaScript на **msdyn_/DefaultCompany.js** и используйте следующие события: Можно использовать любую готовую форму, например форму **Организация**.
 
     + Событие **OnLoad** для формы: установите значение в столбце **defaultCompany**.
     + Событие **onChange** для столбца **Компания**: установите значение в столбце **updateDefaultCompany**.

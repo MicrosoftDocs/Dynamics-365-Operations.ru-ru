@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.18 (май 2021 г.)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.18 (май 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909361"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934975"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.18 (май 2021 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.18 (май 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.18. Эта версия имеет номер сборки 10.0.793 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.18. Эта версия имеет номер сборки 10.0.793 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** март 2021 г.
 - **Общая доступность выпуска (самостоятельное обновление):** апрель 2021 года
@@ -43,9 +42,17 @@ ms.locfileid: "5909361"
 
 - [управление ретробонусами](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Дополнительные сведения см. в разделе [Обзор модуля управления ретробонусами](../rebate-management/rebate-management-overview.md)
 
+- [Политика настройки экспорта информационных объектов продаж](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Регистрация строки заказа на возврат продажи с десятичной точностью с учетом в двух единицах измерения и без него](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Подтверждение заказов на продажу одним щелчком](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Политика удаления строк заказа на покупку, связанных со строками заказа на продажу](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Упрощенный интерфейс для времени прихода на работу и ухода с работы (улучшения для [Улучшенный интерфейс выполнения производственного цеха для производства](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Дополнительные сведения см. в разделе [Настройка интерфейса выполнения производственного цеха](../production-control/production-floor-execution-configure.md).
 
-Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. 
+Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 ## <a name="new-and-updated-documentation-resources"></a>Новые и обновленные ресурсы документации
 

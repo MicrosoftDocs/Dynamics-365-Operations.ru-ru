@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813491"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890337"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -38,11 +38,11 @@ ms.locfileid: "5813491"
         - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Управление расходами](expense-management/expense-management.md)
-        - [Финансовая отчетность](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Управление расходами](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
         - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
-        - [Управление и учет по проектам](project-management/overview-project-management-accounting.md)
+        - [Управление и учет по проектам](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Государственный сектор](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ ms.locfileid: "5813491"
 
 ### <a name="countryregion-functionality"></a>Функциональность страны/региона
 
-Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) справки.
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) справки.
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
@@ -73,6 +73,6 @@ ms.locfileid: "5813491"
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Finance на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Finance на сайте Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

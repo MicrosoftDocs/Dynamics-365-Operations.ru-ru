@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750698"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941117"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Интеграция закупок между Supply Chain Management и Field Service
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет над
 ### <a name="prerequisites"></a>Необходимые условия
 
 - **Двойная запись** — дополнительные сведения см. в разделе [Главная страница двойной записи](dual-write-home-page.md#dual-write-setup).
-- **Dynamics 365 Field Service** — дополнительные сведения см. в разделе [Как установить Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Dynamics 365 Field Service** — дополнительные сведения см. в разделе [Как установить Dynamics 365 Field Service](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Когда они включены в Microsoft Dataverse, двойная запись и Field Service обеспечивают несколько слоев решений, расширяющих среду новыми метаданными, формами, представлениями и логикой. Эти решения могут быть включены в любом порядке, но обычно они устанавливаются в указанном здесь порядке:
 

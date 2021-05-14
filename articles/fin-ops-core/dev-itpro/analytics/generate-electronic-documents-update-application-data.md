@@ -2,7 +2,7 @@
 title: Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)
 description: Можно разработать форматы электронной отчетности (ER), которые могут использоваться в приложении для создания исходящих электронных документов.
 author: NickSelin
-ms.date: 11/01/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5f66a173c7d66f915a7802e42caf1a36f661eea1
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750042"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944325"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Создание электронных документов и обновление данных приложения с помощью электронной отчетности
 
@@ -35,9 +35,9 @@ ms.locfileid: "5750042"
 
 Для получения дополнительных сведений о данной функции, компоненте, см. ряд руководств "Создание документов электронной отчетности с обновлением данных" (часть бизнес-процесса 7.5.4.3 "Приобретение/разработка компонентов ИТ-услуг и решений" (10677)), в которых дано описание отчетности и архивирования Интрастат. Для выполнения определенных действий в этих руководствах необходимы следующие файлы. Загрузите и сохраните эти файлы на локальный компьютер.
 
-- [Конфигурация модели данных: Интрастат (модель)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [Конфигурация сопоставления модели ER: Интрастат (сопоставление)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [Конфигурация формата ER: Интрастат (формат)](https://go.microsoft.com/fwlink/?linkid=849038)
+- [Конфигурация модели данных: Интрастат (модель)](https://download.microsoft.com/download/9/c/e/9ceeacbe-c13e-422e-96f2-594c4a6b45b7/Intrastatmodel.xml)
+- [Конфигурация сопоставления модели ER: Интрастат (сопоставление)](https://download.microsoft.com/download/2/1/d/21ddaaeb-64c5-4408-a35f-1ccb922d40a4/Intrastatmapping.xml)
+- [Конфигурация формата ER: Интрастат (формат)](https://download.microsoft.com/download/8/b/b/8bbb8891-e88d-4739-b92a-2d1d2fffcb79/Intrastatformat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

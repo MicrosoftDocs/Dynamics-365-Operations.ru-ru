@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b75743a64fef53f79159a1476c99a7035b7e4f3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839181"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920093"
 ---
 # <a name="rebate-management-deals"></a>Сделки управления ретробонусами
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Сделки управления ретробонусами используются для управления другими методами и основами для расчета ретробонусов и роялти. Они включают правила для включений и исключений. Существует три типа сделок управления ретробонусами: ретробонусы клиента, роялти клиента и ретробонусы поставщика. Все три типа используют аналогичные настройки. В этой теме описываются различия, где они имеются.
 

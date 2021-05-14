@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890784"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941148"
 ---
 # <a name="regulatory-updates"></a>Нормативные обновления
 
@@ -47,6 +47,7 @@ ms.locfileid: "5890784"
 |      Бразилия         |   2020 октября      | 10.0.16      |   Декларация DRCST SC — SEF 262/2020   |
 |      Бразилия         |   2020 октября      | 10.0.16      |   SPED Fiscal ICMS / запись IPI C176   |
 |      Бразилия         |   декабрь 2020 г.      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 — идентификация посредника цифровых платформ (обновления макетов и правил проверки)   |
+|      Бразилия         |   2021 марта         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF макета 1.5.1
 |      Европа        |   2021 января       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Брексит — влияние протокола Северный Ирландии на отчетность по торговле внутри сообщества в странах Европейского Союза  |
 |      Германия        |   2021 января       | 10.0.16HF      |   Формат авансовых уведомлений по НДС ELSTER UstVA был расширен двумя новыми полями 37,50 для списания безнадежных долгов  |
 |      Германия        |   2021 января       | 10.0.17      |   Изменения в XML-структуре предварительного уведомления ELSTER по НДС (UstVA)  |

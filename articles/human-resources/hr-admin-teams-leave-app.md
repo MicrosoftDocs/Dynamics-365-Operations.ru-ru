@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3926acd07a68f59682c18f4f7bc290dc1e21d0b6
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 9cc15c33c7efdd515121db67331477baa4bdacaf
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889748"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953396"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -125,11 +125,19 @@ ms.locfileid: "5889748"
 
 2. Проверьте, что они действительно являются утверждающим для этого запроса, проверив параметры рабочего процесса для утверждения отпуска. Дополнительные сведения о рабочих процессах запроса отпуска см. в разделе [Создание рабочего процесса запроса отпуска](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Утверждающие отпуска не получают сообщения чата Teams для утверждения запросов на отпуск
+
+1. Убедитесь, что для среды и пользователя включены уведомления. Дополнительные сведения см. в [Включение уведомлений для приложения Human Resources в Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) и [Включение и выключение уведомлений Teams для отдельных пользователей](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Убедитесь, что пользователи вошли в систему на вкладке **Чаты** с теми же учетными данными, которые используются для утверждения запросов на отпуск. Используйте сообщения "выйти", а затем "войти", чтобы войти в систему, используя правильные учетные данные.
+
+3. Если проблема сохраняется, проверьте статус пакетного задания системы бизнес-событий как системный администратор. Если он находится на ожидающем или выполняющемся этапе, проверьте через несколько минут. Если статус не меняется, отправьте запрос в службу поддержки, чтобы ее сотрудники могли помочь в устранении проблемы.
+
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-При помощи бота Dynamics 365 Human Resources в Microsoft Teams входные данные пользователя обрабатываются для понимания соответствующего запроса/цели. Введенные пользователем данные, такие как "Поиск по счету Contoso", направляются в одну из функций Microsoft Cognitive Service, называемой Language Understanding Intelligent Service (LUIS). Узнайте подробнее о LUIS [здесь](https://www.luis.ai/). Служба LUIS устраняет неоднозначность или понимает цель ввода данных пользователем (в данном случае, целью является поиск информации) и целевого объекта (в данном случае предполагаемая объект — это учетная запись под названием Contoso). Затем эта информация передается в Microsoft  [Azure bot framework](https://azure.microsoft.com/services/bot-service/), которая взаимодействует с данными из Dynamics 365 Human Resources и извлекает их для запроса пользователя. 
+При помощи бота Dynamics 365 Human Resources в Microsoft Teams входные данные пользователя обрабатываются для понимания соответствующего запроса/цели. Введенные пользователем данные, такие как "Поиск по счету Contoso", направляются в одну из функций Microsoft Cognitive Service, называемой Language Understanding Intelligent Service (LUIS). Узнайте подробнее о LUIS [здесь](https://www.luis.ai/). Служба LUIS устраняет неоднозначность или понимает цель ввода данных пользователем (в данном случае, целью является поиск информации) и целевого объекта (в данном случае предполагаемая объект — это учетная запись под названием Contoso). Затем эта информация передается в Microsoft  [Azure bot framework](https://azure.microsoft.com/services/bot-service/), которая взаимодействует с данными из Dynamics 365 Human Resources и извлекает их для запроса пользователя.
 
 Установив и разрешив доступ к использованию бота, вы соглашаетесь разрешить службе LUIS и Azure Bot Framework обрабатывать цель входных данных, что приводит к расширенному взаимодействия с пользователем. Сравнение службы LUIS и Azure Bot Framework может иметь различные уровни соответствия по сравнению с Dynamics 365 Human Resources. Хотя у службы LUIS есть доступ только к пользовательским запросам и она не предназначена для подключения к данным пользователя или учетной записи Dynamics 365 Human Resources, пользователь бота Dynamics 365 Human Resources может добровольно ввести запрос, содержащий данные о клиентах, личные данные или другие данные, которые могут быть отправлены в службу LUIS и Azure Bot Framework. 
 

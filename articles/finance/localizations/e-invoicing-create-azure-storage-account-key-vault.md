@@ -2,7 +2,7 @@
 title: Создание учетной записи хранилища в Azure и хранилища ключей
 description: В этом разделе объясняется, как создать учетную запись хранилища Azure и хранилище ключей.
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893810"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963247"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Создание учетной записи хранилища в Azure и хранилища ключей
 
@@ -80,6 +80,10 @@ ms.locfileid: "5893810"
 11. Выберите **Добавить**, затем выберите **Сохранить изменения Key Vault**.
 12. На странице **Обзор** скопируйте значение **Имя DNS** для хранилища ключей. Это значение будет использоваться во время настройки службы в RCS и будет называться *URI хранилища ключей*.
 
+> [!NOTE]
+> Для обеспечения дополнительной безопасности учетной записи хранения настройте Azure Defender для хранилища.
+> 
+> Дополнительные сведения см. в разделе [Основные сведения о Azure Defender для хранилища](/azure/security-center/defender-for-storage-introduction).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

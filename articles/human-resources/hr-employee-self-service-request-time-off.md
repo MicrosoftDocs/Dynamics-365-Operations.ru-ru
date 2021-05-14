@@ -2,7 +2,7 @@
 title: Запрос на отсутствие
 description: Запрос на отсутствие в Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790700"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924862"
 ---
 # <a name="request-time-off"></a>Запрос на отсутствие
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790700"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Добавление вложения к существующему запросу
 
-При обновлении существующего запроса отгула можно добавить вложение. Можно также просмотреть все связанные запросы на конкретную дату. 
+При обновлении существующего запроса отгула можно добавить вложение. Можно также просмотреть все связанные запросы на конкретную дату.
 
 ## <a name="view-leave-balances"></a>Просмотр времени отпуска
 
@@ -58,6 +58,20 @@ ms.locfileid: "5790700"
 1. В рабочей области **Самообслуживания сотрудников** выберите **Еще** (...) на плитке **Время отсутствия**.
 
 2. Для просмотра утвержденных запросов отсутствия выберите **Утвержденное отсутствие**. Для просмотра ожидающих запросов отсутствия выберите **Запросы отсутствия**.
+
+## <a name="cancel-time-off-requests"></a>Отмена запросов на отгулы
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. В рабочей области **Самообслуживания сотрудников** выберите **Просмотр отгулов** на плитке **Время отсутствия**.
+
+2. В форме **Отгул** выберите один или несколько запросов времени, которые требуется отменить.
+
+3. Выберите кнопку **Отменить**.
+
+4. В области **Сведения об отмене** введите комментарий, а затем выберите **Отправить**.
+
+   ![Отмена запроса на отпуск](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>См. также
 

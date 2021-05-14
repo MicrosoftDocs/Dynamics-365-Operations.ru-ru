@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9b37ffe1f3c13672bfed29918bfc6d108b0eaea
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f11043005ba6ec32b81b923aa78248100134c130
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744647"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923383"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Домашняя страница удаленных или устаревших функций
 
@@ -37,6 +37,4 @@ ms.locfileid: "5744647"
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Устаревшие элементы в Microsoft Power Platform
 В следующих разделах представлены сведения об устаревших элементах в Microsoft Power Platform:
 
-- [Важные изменения (устаревшие элементы), происходящие в Power Apps, Power Automate и приложениях Customer Engagement](https://docs.microsoft.com/power-platform/important-changes-coming)
-
-
+- [Важные изменения (устаревшие элементы), происходящие в Power Apps, Power Automate и приложениях Customer Engagement](/power-platform/important-changes-coming)

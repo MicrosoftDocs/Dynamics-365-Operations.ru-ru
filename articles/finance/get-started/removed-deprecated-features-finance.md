@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898295"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965318"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -104,15 +104,15 @@ ms.locfileid: "5898295"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.12
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Польский отчеты SSRS: Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС – Справочник по функциям PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Не устарело: польские отчеты SSRS: Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС – Справочник по функциям PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Юридически не требуется.  |
 | **Заменена другой функцией?**   | Да (формат Excel для стандартного файла аудита с декларацией НДС — JPK_VDEK) |
-| **Затрагиваемые области продукта**         | Приложение |
+| **Затрагиваемые области продукта**         | Заявление |
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | Устарело: 1 июля 2021 г. планируется больше не поддерживать отчеты SSRS: **Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС — справочник по функциямPL-00014**. Вместо этого будет представлен пример формата Excel для стандартного файла аудита с декларацией НДС (JPK_VDEK). |
+| **Состояние**                         | Не устарело: 27 апреля 2021 г. планируется по-прежнему поддерживать отчеты SSRS: **Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС — справочник по функциям PL-00014**. Также будет представлен пример формата Excel для стандартного файла аудита с декларацией НДС (JPK_VDEK). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.11
 
