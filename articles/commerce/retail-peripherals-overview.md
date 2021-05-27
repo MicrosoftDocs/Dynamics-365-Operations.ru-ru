@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857281"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018839"
 ---
 # <a name="peripherals"></a>Периферийные устройства
 
@@ -158,7 +158,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="dedicated"></a>Выделенная
 
-Клиенты Modern POS для Windows Android и включают **специализированные** или встроенные станции оборудования. Эти клиенты могут взаимодействовать непосредственно с периферийными устройствами, используя бизнес-логику, встроенную в приложения. Приложение Android поддерживает только сетевые устройства. Дополнительные сведения о поддержке периферийных устройств в Android см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Клиенты Modern POS для Windows Android и включают **специализированные** или встроенные станции оборудования. Эти клиенты могут взаимодействовать непосредственно с периферийными устройствами, используя бизнес-логику, встроенную в приложения. Приложение Android поддерживает только сетевые устройства. Дополнительные сведения о поддержке периферийных устройств в Android см. в статье [Настройка приложения POS Hybrid в Android и iOS](./dev-itpro/hybridapp.md).
 
 Чтобы использовать выделенную станцию оборудования, назначьте профиль оборудования регистру, который будет использоваться приложения Modern POS для Windows или Android. Затем создайте станцию оборудования типа **Выделенный** для магазина, где будет использоваться регистр. Запустите Modern POS в режиме без денежного ящика и воспользуйтесь операцией **Управление станциями оборудования**, чтобы включить возможности станций оборудования, выделенная станция оборудования будет активна по умолчанию. Затем выполните выход из Modern POS, затем снова войдите в систему и откройте смену, периферийные устройства, настроенные в профиле оборудования, будут доступны для использования. 
 
@@ -199,7 +199,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Установка и настройка POS для Android и iOS
 
-Дополнительные сведения см. в разделе [Настройка приложения POS Hybrid POS в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Дополнительные сведения см. в разделе [Настройка приложения POS Hybrid POS в Android и iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Установка и настройка устройства OPOS
 
@@ -494,7 +494,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS для Android со станцией оборудования IPC (встроенной)
 
-**Новое в 10.0.8** — поддержка сетевых принтеров Epson и денежных ящиков, подключенных к этим принтерам через порт DK для Modern POS для приложения Android. Подробные сведения см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Новое в 10.0.8** — поддержка сетевых принтеров Epson и денежных ящиков, подключенных к этим принтерам через порт DK для Modern POS для приложения Android. Подробные сведения см. в статье [Настройка приложения POS Hybrid в Android и iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Все клиенты Modern POS со специальной "общей" станцией оборудования IIS
 
@@ -614,6 +614,9 @@ Modern POS для Android является версией программы Mod
 | Star         | TSP650II | Произвольная    | Подключение по сети   |
 | Star         | mPOP     | OPOS      | Подключение по Bluetooth |
 | HP           | F7M67AA  | OPOS      | Питание по USB             |
+
+> [!NOTE]
+> Принтер Star TSP 100 не поддерживается для встроенных аппаратных станций. Встроенная аппаратная станция использует 64-разрядный процесс, несовместимый с существующими драйверами Star TP 100. 
 
 #### <a name="bar-code-scanner"></a>Сканер штрих-кодов
 

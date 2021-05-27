@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: Интеграция данных
           items:
-            - name: Выбор стратегии интеграции данных (импорта/экспорта)
+            - name: Интеграция между приложениями Finance and Operations и сторонними службами
               href: data-entities/integration-overview.md
             - name: Регулирование на основе приоритетов
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Создание записей с использованием шаблонов записей
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Интеграция данных с помощью Dataverse
+                - name: Интегратор данных
                   items:
-                    - name: Обзор интеграции данных с помощью Dataverse
-                      href: data-entities/data-integration-cds.md
-                    - name: Интеграция двойной записи
+                    - name: Настройка сценария продажи перспективному клиенту
                       items:
-                        - name: Домашняя страница двойной записи
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Что нового и что изменилось в двойной записи
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Обзор двойной записи
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Настройка двойной записи
-                          items:
-                            - name: Требования к системе для двойной записи
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Руководство по настройке двойной записи
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Рекомендации по первоначальной синхронизации
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Настройка двойной записи из Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Включение двойной записи для существующих приложений Finance and Operations
-                              items:
-                                - name: Включение двойной записи для существующих приложений Finance and Operations
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Системные требования и необходимые условия
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Порядок использования мастера двойной записи для связи между средами
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Включение сопоставления объектов для двойной записи
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Миграция типа данных валюты для двойной записи
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Настройка сопоставления для полей статуса заказа на продажу
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Управление двойной записью
-                          items:
-                            - name: Настройка сопоставлений объектов и полей
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Работа с несколькими сопоставлениями объектов
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Изменение юридического лица после настройки двойной записи
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Управление ошибками и уведомления оповещения
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Управление жизненным циклом приложений
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Сопоставление концепций между приложениями
-                          items:
-                            - name: Интегрированный справочник клиентов
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Интеграция с поставщиками
-                              items:
-                                - name: Интегрированный справочник поставщиков
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Переключение между вариантами дизайна поставщиков
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Карточки постоянного клиента и баллы поощрения
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Интеграция продуктов
-                              items:
-                                - name: Единый подход к работе с продуктами
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Интегрированные сайты и склады
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Интеграция компании
-                              items:
-                                - name: Понятие компании в Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Инициализация данных компании
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Организационная иерархия в Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Финансовая и налоговая информация
-                              items:
-                                - name: Доступ к финансовым и налоговым ссылочным данным
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Интегрированная книга учета
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Интегрированный налоговый справочник
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Интеграция закупаемой продукции в Supply Chain Management с Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Синхронизация с ядром ценообразования Supply Chain Management по запросу
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: '"Перспективный клиент в наличные деньги" в случае двойной записи'
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Внутренние активы для обслуживания
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Наличие запасов
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Интегрированный работник, задание и должность'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Субъект и глобальная адресная книга
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Использование портала Power с моделью данных субъекта
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Обновление модели субъекта и глобальной адресной книги
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Интеграция примечаний
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Ссылка на сопоставление
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Поддержка двойной записи
-                          items:
-                            - name: Поддержка решений Field Service и Project Service Automation
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Перенос перспективного клиента в данные наличных денег из средства интеграции данных в двойную запись
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Устранение неполадок
-                              items:
-                                - name: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Устранение неполадок при начальной настройке
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Устранение неполадок при начальной синхронизации
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Устранение неполадок с двойной записью в приложениях Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Устранение неполадок с синхронизацией в режиме реального времени
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: 'Устранение неполадок, связанных с поддержкой решений'
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: 'Устранение неполадок, связанных с обновлениями приложений Finance and Operations'
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Общие рекомендации по устранению неполадок
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Вопросы и ответы по двойной записи
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Интеграция с Power Platform
+                        - name: Продажа перспективному клиенту
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Синхронизация организаций напрямую из Sales с клиентами в Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Синхронизация продуктов напрямую из Finance and Operations с продуктами в Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Синхронизация контактов напрямую из Sales с контактами или клиентами в Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Синхронизация заголовков и строк предложений по продаже напрямую из Sales с Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Синхронизация заголовков и строк накладных по продаже напрямую из Finance and Operations с Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Настройка интеграции с Field Service
                       items:
-                        - name: Настройка сценария продажи перспективному клиенту
-                          items:
-                            - name: Продажа перспективному клиенту
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Синхронизация организаций напрямую из Sales с клиентами в Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Синхронизация продуктов напрямую из Finance and Operations с продуктами в Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Синхронизация контактов напрямую из Sales с контактами или клиентами в Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Синхронизация заголовков и строк предложений по продаже напрямую из Sales с Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Синхронизация заголовков и строк накладных по продаже напрямую из Finance and Operations с Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Настройка интеграции с Field Service
-                          items:
-                            - name: Обзор настройки интеграции с Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Синхронизация перемещений и корректировок запасов из Field Service с Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Синхронизация сведений об уровне запасов из Finance and Operations с Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Синхронизация продуктов с единицами измерения складского учета из Finance and Operations с Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Синхронизация списка проектов из Finance and Operations с Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Синхронизация складов из Finance and Operations с Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Настройка интеграции Project Service Automation
-                          items:
-                            - name: Обзор Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Параметры интеграции Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Синхронизация контрактов по проекту и проектов
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Синхронизация задач проекта
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Синхронизация категорий расходов по проекту
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Синхронизация оценок для проекта с прогнозами по проекту
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Синхронизация фактических данных проекта с журналом интеграции проекта
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Обзор настройки интеграции с Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Синхронизация перемещений и корректировок запасов из Field Service с Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Синхронизация сведений об уровне запасов из Finance and Operations с Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Синхронизация продуктов с единицами измерения складского учета из Finance and Operations с Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Синхронизация списка проектов из Finance and Operations с Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Синхронизация складов из Finance and Operations с Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Настройка интеграции Project Service Automation
+                      items:
+                        - name: Обзор Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Параметры интеграции Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Синхронизация контрактов по проекту и проектов
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Синхронизация задач проекта
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Синхронизация категорий расходов по проекту
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Синхронизация оценок для проекта с прогнозами по проекту
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Синхронизация фактических данных проекта с журналом интеграции проекта
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Использование внешних веб-служб
               href: data-entities/consume-external-web-service.md
             - name: Электронные сообщения
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: 'Устранение неполадок сред, развернутых с помощью дистанционного развертывания'
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Вопросы и ответы по плановому обслуживанию в средах самообслуживания
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Завершение адаптации Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute и Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Интеграция Microsoft Power Platform с Finance and Operations
               href: power-platform/overview.md
+            - name: Двойная запись
+              items:
+                - name: Домашняя страница двойной записи
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Что нового и что изменилось в двойной записи
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Обзор двойной записи
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Настройка двойной записи
+                  items:
+                    - name: Требования к системе для двойной записи
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Руководство по настройке двойной записи
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Рекомендации по первоначальной синхронизации
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Настройка двойной записи из Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Включение двойной записи для существующих приложений Finance and Operations
+                      items:
+                        - name: Включение двойной записи для существующих приложений Finance and Operations
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Системные требования и необходимые условия
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Порядок использования мастера двойной записи для связи между средами
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Включение сопоставления объектов для двойной записи
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Миграция типа данных валюты для двойной записи
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Настройка сопоставления для полей статуса заказа на продажу
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Управление двойной записью
+                  items:
+                    - name: Настройка сопоставлений объектов и полей
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Работа с несколькими сопоставлениями объектов
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Изменение юридического лица после настройки двойной записи
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Управление ошибками и уведомления оповещения
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Управление жизненным циклом приложений
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Сопоставление концепций между приложениями
+                  items:
+                    - name: Интегрированный справочник клиентов
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Интеграция с поставщиками
+                      items:
+                        - name: Интегрированный справочник поставщиков
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Переключение между вариантами дизайна поставщиков
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Карточки постоянного клиента и баллы поощрения
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Интеграция продуктов
+                      items:
+                        - name: Единый подход к работе с продуктами
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Интегрированные сайты и склады
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Интеграция компании
+                      items:
+                        - name: Понятие компании в Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Инициализация данных компании
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Организационная иерархия в Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Финансовая и налоговая информация
+                      items:
+                        - name: Доступ к финансовым и налоговым ссылочным данным
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Интегрированная книга учета
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Интегрированный налоговый справочник
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Интеграция закупаемой продукции в Supply Chain Management с Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Синхронизация с ядром ценообразования Supply Chain Management по запросу
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: '"Перспективный клиент в наличные деньги" в случае двойной записи'
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Внутренние активы для обслуживания
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Наличие запасов
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Интегрированный работник, задание и должность'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Субъект и глобальная адресная книга
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Использование портала Power с моделью данных субъекта
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Обновление модели субъекта и глобальной адресной книги
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Интеграция примечаний
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Ссылка на сопоставление
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Поддержка двойной записи
+                  items:
+                    - name: Поддержка решений Field Service и Project Service Automation
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Перенос перспективного клиента в данные наличных денег из средства интеграции данных в двойную запись
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Устранение неполадок
+                      items:
+                        - name: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Устранение неполадок при начальной настройке
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Устранение неполадок при начальной синхронизации
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Устранение неполадок с двойной записью в приложениях Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Устранение неполадок с синхронизацией в режиме реального времени
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: 'Устранение неполадок, связанных с поддержкой решений'
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: 'Устранение неполадок, связанных с обновлениями приложений Finance and Operations'
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Общие рекомендации по устранению неполадок
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Вопросы и ответы по двойной записи
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Виртуальные объекты
               items:
+                - name: Обзор виртуальных объектов
+                  href: power-platform/virtual-entities-overview.md
                 - name: Моделирование объектов
                   href: power-platform/entity-modeling.md
                 - name: Управление жизненным циклом приложений

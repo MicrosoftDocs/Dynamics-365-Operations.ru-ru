@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 381d8bb0939f6c4c163477990e49382201487375
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792713"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019915"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Изменение финансовых аналитик для проводок розничной торговли
 
@@ -34,7 +34,7 @@ ms.locfileid: "5792713"
 
 1. Откройте страницу **Конфигурация финансовых аналитик для интеграции приложений**.
 1. Выберите активную запись **Интеграция аналитик по умолчанию**.
-1. На экспресс-вкладке **Финансовые аналитики** проверьте, что все аналитики, которые требуется изменить на листе Excel, присутствуют в списке **Выбрано**. Дополнительные сведения см. в разделе [Информационные объекты](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities).
+1. На экспресс-вкладке **Финансовые аналитики** проверьте, что все аналитики, которые требуется изменить на листе Excel, присутствуют в списке **Выбрано**. Дополнительные сведения см. в разделе [Информационные объекты](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities).
 1. Загрузите и откройте файл Excel на странице **Журналы операций**, странице **Проводки розничной торговли** или плитке **Ошибки проверки проводок** в рабочей области **Финансовая информация магазина**.
 1. Чтобы изменить финансовую аналитику проводки, выберите **Разработка**, а затем выберите символ карандаша рядом со строкой **Проводка (доступно для аудита)**.
 1. Найдите и выберите поле **FinancialDimensionDisplayValue**, выберите ячейку в заголовке листа Excel и нажмите **Добавить метку**.

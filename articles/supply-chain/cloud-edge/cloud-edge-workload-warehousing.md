@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944421"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980958"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Рабочие нагрузки управления складом для облачных и пограничных единиц масштабирования
 
@@ -58,7 +58,10 @@ ms.locfileid: "5944421"
   - **Заказы на перемещение** (только исходящие с простой работой комплектации и погрузки)
 
 - **Данные приемки по складским заказам** — эти данные используются только для заказов на покупку, уже выпущенных на склад.
-- **Данные грузоместа** — в концентраторе и единицах масштабирования могут быть созданы грузоместа. Была предоставлена специальная обработка конфликтов. Обратите внимание, что эти данные не являются специфичными для склада.
+- **Данные грузоместа** — в концентраторе и единицах масштабирования могут быть созданы грузоместа. Предоставлена специальная обработка конфликтов. 
+
+    > [!IMPORTANT]
+    > Данные грузоместа не являются специфичными для склада. Если один и тот же номерной знак создается в концентраторе и единице масштабирования в одном и том же цикле синхронизации, то следующая синхронизация завершится с ошибкой. В этом случае перейдите **Системный администратор > Запросы > Запросы рабочей нагрузки > Дублирующиеся записи**, где можно просматривать и объединять данные.
 
 ## <a name="outbound-process-flow"></a>Поток исходящего процесса
 

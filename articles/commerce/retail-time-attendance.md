@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791903"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021496"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Планирование управления временем и присутствием в Retail
 
@@ -38,9 +38,9 @@ ms.locfileid: "5791903"
 
 ### <a name="plan-worker-schedules"></a>Планирование расписаний работника
 
-- Примените профили, воспользовавшись планировщиком работы. Дополнительные сведения см. в разделе [Применение профиля с помощью планировщика работы](https://technet.microsoft.com/library/aa551234.aspx).
+- Примените профили, воспользовавшись планировщиком работы. Дополнительные сведения см. в разделе [Применение профиля с помощью планировщика работы](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Сведения об этапах настройки см. в разделе [Настройка времени и посещаемости](https://technet.microsoft.com/library/aa496971.aspx).
+Сведения об этапах настройки см. в разделе [Настройка времени и посещаемости](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Конфигурация, относящаяся к Commerce
 
@@ -135,7 +135,7 @@ ms.locfileid: "5791903"
 - Массовый уход
 - Регистрация отсутствия
 
-Дополнительные сведения о том, как обрабатывать регистрацию времени и посещаемости, см. в разделе [Обработка регистраций времени и посещаемости](https://technet.microsoft.com/library/aa573180.aspx).
+Дополнительные сведения о том, как обрабатывать регистрацию времени и посещаемости, см. в разделе [Обработка регистраций времени и посещаемости](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

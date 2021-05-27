@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910433"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017014"
 ---
 # <a name="inventory-visibility-add-in"></a>Надстройка видимости запасов
 
@@ -41,20 +41,23 @@ ms.locfileid: "5910433"
 
 Дополнительные сведения см. в разделе [Ресурсы Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Необходимые условия
+### <a name="inventory-visibility-add-in-prerequisites"></a>Необходимые условия для надстройки контроля запасов
 
 Перед установкой надстройки видимости запасов необходимо сделать следующее:
 
 - Получите проект внедрения LCS с по крайней мере одной развернутой средой.
 - Убедитесь, что необходимые условия для настройки надстроек в [Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md), обеспечены. Для контроля запасов не требуется связывание с двойной записью.
 - Для получения следующих трех необходимых файлов обратитесь к специалистам по контролю запасов по адресу [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (если версия Supply Chain Management, которую вы используете, более ранняя, чем версия 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (если версия Supply Chain Management, которую вы используете, более ранняя, чем версия 10.0.18)
+- Или же для получения пакетов Package Deployer обратитесь к специалистам по контролю запасов по адресу [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com). Эти пакеты могут использоваться официальным средством Package Deployer.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (этот пакет содержит все изменения, внесенные в пакет `InventoryServiceBase` плюс дополнительные компоненты пользовательского интерфейса)
 - Следуйте инструкциям, приведенным в [Быстрое начало: регистрация приложения на платформе Microsoft Identity](/azure/active-directory/develop/quickstart-register-app) для регистрации приложения и добавления секрета клиента в AAD в рамках подписки Azure.
-    - [Регистрация приложения](/azure/active-directory/develop/quickstart-register-app)
-    - [Добавить секрет клиента](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - **Код приложения (клиент)**, **Секрет клиента** и **Код клиента** будут использоваться в следующих шагах.
+  - [Регистрация приложения](/azure/active-directory/develop/quickstart-register-app)
+  - [Добавить секрет клиента](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - **Код приложения (клиент)**, **Секрет клиента** и **Код клиента** будут использоваться в следующих шагах.
 
 > [!NOTE]
 > Поддерживаемые в настоящее время страны и регионы включают Канаду, США и Европейский союз (ЕС).
@@ -63,18 +66,49 @@ ms.locfileid: "5910433"
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Настройка Dataverse
 
-Чтобы настроить Dataverse, выполните следующие шаги.
+Чтобы настроить Dataverse для использования с контролем запасов, необходимо сначала подготовить необходимые компоненты, а затем решить, нужно ли настраивать Dataverse, используя либо инструмент Package Deployer, либо вручную импортировать решения (не нужно делать и то, и другое). Затем установите надстройку контроля запасов. Следующие подразделы описывают выполнение каждой задачи.
 
-1. Добавление участника-службы в клиент:
+#### <a name="prepare-dataverse-prerequisites"></a>Подготовка необходимых компонентов Dataverse
 
-    1. Установите модуль Azure AD PowerShell v2, как описано в подразделе [Установка Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2).
-    1. Выполните следующую команду PowerShell.
+Прежде чем приступить к настройке Dataverse, добавьте в клиент субъект-службу, выполнив следующие действия:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Установите модуль Azure AD PowerShell v2, как описано в подразделе [Установка Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Выполните следующую команду PowerShell:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Настройка Dataverse с помощью средства Package Deployer
+
+После установки необходимых компонентов используйте следующую процедуру, если предпочитаете настроить Dataverse с помощью средства Package Deployer. Сведения о том, как импортировать решения вручную, см. в следующем разделе (не нужно выполнять оба процесса).
+
+1. Установите средства для разработчиков, как описано в разделе [Загрузить средства из NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. На основе своих бизнес-требований выберите пакет `InventoryServiceBase` или `InventoryServiceApplication`.
+
+1. Импорт решений:
+    1. Для пакета `InventoryServiceBase`:
+        - Разархивируйте `InventoryServiceBase.PackageDeployer.zip`
+        - Найдите папку `InventoryServiceBase` и файлы `[Content_Types].xml`, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` и `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - Скопируйте каждую из этих папок и файлов в каталог `.\Tools\PackageDeployment`, созданный при установке средств разработчика.
+    1. Для пакета `InventoryServiceApplication`:
+        - Разархивируйте `InventoryServiceApplication.PackageDeployer.zip`
+        - Найдите папку `InventoryServiceApplication` и файлы `[Content_Types].xml`, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` и `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - Скопируйте каждую из этих папок и файлов в каталог `.\Tools\PackageDeployment`, созданный при установке средств разработчика.
+    1. Выполните `.\Tools\PackageDeployment\PackageDeployer.exe`. Следуйте инструкциям на экране, чтобы импортировать решения.
+
+1. Назначение ролей безопасности новому пользователю.
+    1. Откройте URL-адрес своей среды Dataverse.
+    1. Перейдите **Дополнительные параметры \> Система \> Безопасность \> Пользователи** и найдите пользователя с именем **# InventoryVisibility**.
+    1. Выберите **Назначить роль**, а затем выберите **Системный администратор**. Если имеется роль с именем **Пользователь Common Data Service**, выберите также и ее.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Настройка вручную Dataverse путем импортирования решений
+
+После установки необходимых компонентов используйте следующую процедуру, если предпочитаете настроить Dataverse, вручную импортировав решения. Более подробную информацию об использовании средства Package Deployer (не нужно выполнять обе процедуры) см. в предыдущем разделе.
 
 1. Создайте пользователя приложения для контроля запасов в Dataverse:
 

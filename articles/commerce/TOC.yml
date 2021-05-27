@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Улучшения управления кассами
                       href: cash-mgmt.md
-                    - name: Поиск запасов в POS
-                      href: product-variants-POS.md
                     - name: Приостановка и возобновление проводок в POS
                       href: pos-suspend-recall-transactions.md
                     - name: Функциональность POS в автономном режиме
@@ -540,7 +538,7 @@
                       href: dev-itpro/commerce-payments.md
                     - name: Архивирование транзакционных данных с использованием кредитных карт
                       href: dev-itpro/archive-cc-data.md
-                    - name: Обработка кредитных карт без станции оборудования
+                    - name: Обработка кредитных карт без Hardware Station
                       href: dev-itpro/cnp-pos.md
                     - name: Dynamics 365 Payment Connector для PayPal
                       href: paypal.md
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Расчет наличия запасов для розничных каналов
                       href: calculated-inventory-retail-channels.md
+                    - name: Операция поиска запасов в POS
+                      href: pos-inventory-lookup-operation.md
                 - name: Заказы на покупку
                   items:
                     - name: Обзор заказов на покупку
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Создание проекта пакета расширения POS
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Создание файла APPX расширения Modern POS
+                    - name: Создание файла .appx для пакета расширения Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Отладка расширения POS
+                    - name: Отладка расширений POS
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Упаковка и развертывание расширения
+                      items:
+                        - name: Создание пакета расширения Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: 'Код, подписывающий пакет расширения Modern POS (MSIX)'
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Создание пакета расширения Cloud POS
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Миграция расширения POS в модель независимой упаковки
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Руководство по разработке расширения POS
+                      items:
+                        - name: Основы расширения POS
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Создание пользовательского представления в POS
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Использование элементов управления POS в расширениях
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Задачи
+                          items:
+                            - name: Использование Knockout.js в расширениях POS
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Использование консольных пользовательских API Commerce
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Расширяемость Hardware Station
               items:
                 - name: Hardware Station и расширяемость

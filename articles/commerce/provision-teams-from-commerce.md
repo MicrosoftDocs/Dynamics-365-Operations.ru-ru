@@ -2,11 +2,9 @@
 title: Подготовка Microsoft Teams из Dynamics 365 Commerce
 description: В этой теме описывается, как выполнить подготовку Microsoft Teams, используя организационные данные из Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908912"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022454"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Подготовка Microsoft Teams из Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Dynamics 365 Commerce предлагает простой способ подг�
     
 1. В Commerce Headquarter перейдите в раздел **Розничная торговля и коммерция \> Настройка канала \> Конфигурация интеграции Microsoft Teams**.
 1. Выберите **Загрузить иерархию таргетирования**, затем выберите **Розничные магазины по регионам**, чтобы загрузить файл значений с разделителями-запятыми (CSV) организационной иерархии.
-1. Установите модуль Microsoft Teams PowerShell, выполнив шаги, описанные в разделе [Установка Microsoft Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Установите модуль Microsoft Teams PowerShell, выполнив шаги, описанные в разделе [Установка Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
 1. При появлении запроса в окне Teams PowerShell выполните вход с учетной записью администратора для своего клиента Azure AD.
-1. Следуйте шагам в разделе [Настройка иерархии таргетирования рабочей группы](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) для отправки CSV-файла для иерархии таргетирования.
+1. Следуйте шагам в разделе [Настройка иерархии таргетирования рабочей группы](/microsoftteams/set-up-your-team-hierarchy) для отправки CSV-файла для иерархии таргетирования.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Проверка, что организационная иерархия была отправлена в Teams
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965318"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980906"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ ms.locfileid: "5965318"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.20
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Конфигурация формата запроса данных накладных RTIR (HU)
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Конфигурация формата электронной отчетности запроса данных накладных RTIR (HU)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ ms.locfileid: "5965318"
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело: к 15 апреля 2022 года мы планируем больше не поддерживать конфигурацию формата запроса данных накладных RTIR (HU). |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>Формат электронной отчетности "Французский файл аудита FEC" для Франции в формате "Выходные данные файла аудита Германии"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменяется новым форматом "Файл аудита FEC (FR)" |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Заявление |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: с 1 мая 2022 г. корпорация Майкрософт планирует больше не поддерживать формат электронной отчетности "Французский файл аудита FEC" для Франции в формате "Выходные данные файла аудита Германии". Новый формат файла аудита FEC (FR) будет представлен в "Модель экспорта данных". |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.17
 

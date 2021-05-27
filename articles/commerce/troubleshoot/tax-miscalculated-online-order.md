@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801419"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021111"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Налоги по интернет-заказам рассчитываются неправильно
 
@@ -44,7 +43,7 @@ ms.locfileid: "5801419"
 1. На экспресс-вкладке **Общие** в разделе **налог** настройте сведения о налогах для магазина.
 
 > [!NOTE]
-> Для самовывоза продуктов из магазина налоговая группа берется из магазина, выбранного для самовывоза. Дополнительные сведения см. в [Задание других параметров налогов для магазинов](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+> Для самовывоза продуктов из магазина налоговая группа берется из магазина, выбранного для самовывоза. Дополнительные сведения см. в [Задание других параметров налогов для магазинов](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Настройте налог для адреса клиента в Commerce headquarters
 
@@ -68,7 +67,7 @@ ms.locfileid: "5801419"
 1. На экспресс-вкладке **Налог на основе розничной торговли** настройте налоги для налоговой группы.
 
 > [!NOTE]
-> Для отгрузки, которая не затрагивает налог по адресу клиента, адрес поставки для строки и налоги по месту назначения, настроенные для налоговой группы, определяют налоговую группу. Дополнительные сведения см. в разделе [Настройка налогов для интернет-магазинов на основе места назначения](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Для отгрузки, которая не затрагивает налог по адресу клиента, адрес поставки для строки и налоги по месту назначения, настроенные для налоговой группы, определяют налоговую группу. Дополнительные сведения см. в разделе [Настройка налогов для интернет-магазинов на основе места назначения](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

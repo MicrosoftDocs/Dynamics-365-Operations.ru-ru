@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920963"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021377"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Поддержка функций налогов для заказов на перемещение
 
@@ -41,7 +40,7 @@ ms.locfileid: "5920963"
 
 1. На странице **Налоговые функции** на вкладке **Версии** выберите черновую версию функции, затем выберите **Правка**.
 
-    ![Выбор правки](../media/image1.png)
+    ![Выбор правки](../media/tax-feature-support-01.png)
 
 2. На странице **Настройка налоговых функций** на вкладке **Налоговые коды** выберите **Добавить** для создания новых налоговых кодов. В данном примере создаются три налоговых кода: **NL-Exempt**, **BE-RC-21** и **BE-RC+21**.
 
@@ -54,7 +53,7 @@ ms.locfileid: "5920963"
         4. Выберите **Добавить** в таблице **Ставка**.
         5. Переключите **Не облагается** в значение **Да** в разделе **Общие**.
 
-        ![Код налога NL-Exempt](../media/image2.png)
+        ![Код налога NL-Exempt](../media/tax-feature-support-02.png)
 
     - Когда заказ на перемещение поступает на склад в Бельгии, механизм возмещения расходов применяется с использованием налоговых кодов **BE-RC-21** и **BE-RC+21**.
         
@@ -67,7 +66,7 @@ ms.locfileid: "5920963"
         6. Переключите **Является возмещением расходов** в значение **Да** в разделе **Общие**.
         7. Нажмите **Сохранить**.
 
-        ![Налоговый код BE-RC-21 для возмещения расходов](../media/image3.png)
+        ![Налоговый код BE-RC-21 для возмещения расходов](../media/tax-feature-support-03.png)
         
         Создайте налоговый код **BE-RC+21**.
         1. Выберите **Добавить**, введите **BE-RC-21** в поле **Налоговый код**.
@@ -77,7 +76,7 @@ ms.locfileid: "5920963"
         5. Введите **21** в поле **Ставка налога**.
         6. Нажмите **Сохранить**.
 
-        ![Налоговый код BE-RC+21 для возмещения расходов](../media/image4.png)
+        ![Налоговый код BE-RC+21 для возмещения расходов](../media/tax-feature-support-04.png)
 
 3. Определите применимость налоговых кодов.
 
