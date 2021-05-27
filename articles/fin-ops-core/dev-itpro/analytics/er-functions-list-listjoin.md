@@ -15,72 +15,72 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efee93df7d1cf40d016b36042bb5e7f33c47ae44
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743807"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027923"
 ---
-# <a name="listjoin-er-function"></a><span data-ttu-id="e0d2e-103">Функция STRINGJOIN электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="e0d2e-103">LISTJOIN ER function</span></span>
+# <a name="listjoin-er-function"></a><span data-ttu-id="86f59-103">Функция STRINGJOIN электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="86f59-103">LISTJOIN ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e0d2e-104">Функция `LISTJOIN` возвращает значение *Список записей*, представляющее новый объединенный список записей, созданный из указанных аргументов.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-104">The `LISTJOIN` function returns a *Record list* value that represents a new joined list of records that is created from the specified arguments.</span></span>
+<span data-ttu-id="86f59-104">Функция `LISTJOIN` возвращает значение *Список записей*, представляющее новый объединенный список записей, созданный из указанных аргументов.</span><span class="sxs-lookup"><span data-stu-id="86f59-104">The `LISTJOIN` function returns a *Record list* value that represents a new joined list of records that is created from the specified arguments.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0d2e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e0d2e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="86f59-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="86f59-105">Syntax</span></span>
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e0d2e-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="e0d2e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="86f59-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="86f59-106">Arguments</span></span>
 
-<span data-ttu-id="e0d2e-107">`list 1`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="e0d2e-107">`list 1`: *Record list*</span></span>
+<span data-ttu-id="86f59-107">`list 1`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="86f59-107">`list 1`: *Record list*</span></span>
 
-<span data-ttu-id="e0d2e-108">Ссылка на источник данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-108">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="e0d2e-109">Этот аргумент является обязательным.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-109">This argument is mandatory.</span></span>
+<span data-ttu-id="86f59-108">Ссылка на источник данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="86f59-108">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="86f59-109">Этот аргумент является обязательным.</span><span class="sxs-lookup"><span data-stu-id="86f59-109">This argument is mandatory.</span></span>
 
-<span data-ttu-id="e0d2e-110">`list N`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="e0d2e-110">`list N`: *Record list*</span></span>
+<span data-ttu-id="86f59-110">`list N`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="86f59-110">`list N`: *Record list*</span></span>
 
-<span data-ttu-id="e0d2e-111">Ссылка на источник данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-111">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="e0d2e-112">Эти дополнительные аргументы являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="86f59-111">Ссылка на источник данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="86f59-111">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="86f59-112">Эти дополнительные аргументы являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="86f59-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e0d2e-113">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="e0d2e-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="86f59-113">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="86f59-113">Return values</span></span>
 
-<span data-ttu-id="e0d2e-114">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="e0d2e-114">*Record list*</span></span>
+<span data-ttu-id="86f59-114">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="86f59-114">*Record list*</span></span>
 
-<span data-ttu-id="e0d2e-115">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-115">The resulting list of records.</span></span>
+<span data-ttu-id="86f59-115">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="86f59-115">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e0d2e-116">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="e0d2e-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="86f59-116">Примечания по использованию</span><span class="sxs-lookup"><span data-stu-id="86f59-116">Usage notes</span></span>
 
-<span data-ttu-id="e0d2e-117">Структура создаваемого списка содержит только поля, представленные в структуре каждого списка записей, указанных в аргументах.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-117">The structure of the list that is created contains only the fields that are present in the structure of every record list that is referenced in the arguments.</span></span>
+<span data-ttu-id="86f59-117">Структура создаваемого списка содержит только поля, представленные в структуре каждого списка записей, указанных в аргументах.</span><span class="sxs-lookup"><span data-stu-id="86f59-117">The structure of the list that is created contains only the fields that are present in the structure of every record list that is referenced in the arguments.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e0d2e-118">Пример</span><span class="sxs-lookup"><span data-stu-id="e0d2e-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="86f59-118">Пример</span><span class="sxs-lookup"><span data-stu-id="86f59-118">Example</span></span>
 
-<span data-ttu-id="e0d2e-119">Вы вводите источник данных **Запись 1** типа `Container`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-119">You enter data source **Record 1** of the `Container` type.</span></span> <span data-ttu-id="e0d2e-120">Этот источник данных содержит следующие вложенные поля типа `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="e0d2e-120">This data source contains the following nested fields of the `Calculated field` type:</span></span>
+<span data-ttu-id="86f59-119">Вы вводите источник данных **Запись 1** типа `Container`.</span><span class="sxs-lookup"><span data-stu-id="86f59-119">You enter data source **Record 1** of the `Container` type.</span></span> <span data-ttu-id="86f59-120">Этот источник данных содержит следующие вложенные поля типа `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="86f59-120">This data source contains the following nested fields of the `Calculated field` type:</span></span>
 
-- <span data-ttu-id="e0d2e-121">**Код:** это поле содержит выражение, возвращающее значение типа `String`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-121">**Code**: This field contains an expression that returns a value of the `String` type.</span></span>
-- <span data-ttu-id="e0d2e-122">**Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-122">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
+- <span data-ttu-id="86f59-121">**Код:** это поле содержит выражение, возвращающее значение типа `String`.</span><span class="sxs-lookup"><span data-stu-id="86f59-121">**Code**: This field contains an expression that returns a value of the `String` type.</span></span>
+- <span data-ttu-id="86f59-122">**Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.</span><span class="sxs-lookup"><span data-stu-id="86f59-122">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
 
-<span data-ttu-id="e0d2e-123">Вы затем вводите источник данных **Запись 2** типа `Container`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-123">You then enter data source **Record 2** of the `Container` type.</span></span> <span data-ttu-id="e0d2e-124">Этот источник данных содержит следующие вложенные поля типа `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="e0d2e-124">This data source contains the following nested fields of the `Calculated field` type:</span></span>
+<span data-ttu-id="86f59-123">Вы затем вводите источник данных **Запись 2** типа `Container`.</span><span class="sxs-lookup"><span data-stu-id="86f59-123">You then enter data source **Record 2** of the `Container` type.</span></span> <span data-ttu-id="86f59-124">Этот источник данных содержит следующие вложенные поля типа `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="86f59-124">This data source contains the following nested fields of the `Calculated field` type:</span></span>
 
-- <span data-ttu-id="e0d2e-125">**Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-125">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
-- <span data-ttu-id="e0d2e-126">**IsValid**: это поле содержит выражение, возвращающее значение типа `Boolean`.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-126">**IsValid**: This field contains an expression that returns a value of the `Boolean` type.</span></span>
+- <span data-ttu-id="86f59-125">**Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.</span><span class="sxs-lookup"><span data-stu-id="86f59-125">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
+- <span data-ttu-id="86f59-126">**IsValid**: это поле содержит выражение, возвращающее значение типа `Boolean`.</span><span class="sxs-lookup"><span data-stu-id="86f59-126">**IsValid**: This field contains an expression that returns a value of the `Boolean` type.</span></span>
 
 ![Страница конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image1.gif)
 
-<span data-ttu-id="e0d2e-128">В этом случае выражение `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` возвращает новый список, содержащий две записи.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-128">In this case, the expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` returns a new list that contains two records.</span></span>
+<span data-ttu-id="86f59-128">В этом случае выражение `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` возвращает новый список, содержащий две записи.</span><span class="sxs-lookup"><span data-stu-id="86f59-128">In this case, the expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` returns a new list that contains two records.</span></span>
 
 ![Страница конструктора сопоставления моделей электронной отчетности с двумя записями](./media/er-functions-list-listjoin-image2.gif)
 
-<span data-ttu-id="e0d2e-130">Структура этого списка состоит из одного поля **Сумма** типа `Real`, потому что это поле является единственным полем, которое представлено в каждом аргументе вызываемой функции.</span><span class="sxs-lookup"><span data-stu-id="e0d2e-130">The structure of this list consists of a single **Amount** field of the `Real` type, because this field is the only field that is presented in every argument of the called function.</span></span>
+<span data-ttu-id="86f59-130">Структура этого списка состоит из одного поля **Сумма** типа `Real`, потому что это поле является единственным полем, которое представлено в каждом аргументе вызываемой функции.</span><span class="sxs-lookup"><span data-stu-id="86f59-130">The structure of this list consists of a single **Amount** field of the `Real` type, because this field is the only field that is presented in every argument of the called function.</span></span>
 
 ![Поле суммы страницы конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image3.gif)
 
-## <a name="additional-resources"></a><span data-ttu-id="e0d2e-132">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e0d2e-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="86f59-132">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="86f59-132">Additional resources</span></span>
 
-[<span data-ttu-id="e0d2e-133">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="e0d2e-133">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="86f59-133">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="86f59-133">List functions</span></span>](er-functions-category-list.md)
 
-[<span data-ttu-id="e0d2e-134">Отладка источников данных для выполняемого формата электронной отчетности для анализа потока и преобразования данных</span><span class="sxs-lookup"><span data-stu-id="e0d2e-134">Debug data sources of an executed ER format to analyze data flow and transformation</span></span>](er-debug-data-sources.md)
+[<span data-ttu-id="86f59-134">Отладка источников данных для выполняемого формата электронной отчетности для анализа потока и преобразования данных</span><span class="sxs-lookup"><span data-stu-id="86f59-134">Debug data sources of an executed ER format to analyze data flow and transformation</span></span>](er-debug-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
