@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SrmParameters
 audience: Application User
@@ -15,25 +14,25 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ccda3bd769a646e2390711883b8e40bec50e4d6a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833937"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020991"
 ---
-# <a name="procurement-and-sourcing-parameters-for-landed-cost"></a><span data-ttu-id="8371d-103">Параметры модуля "Закупки и источники" для стоимости на складе</span><span class="sxs-lookup"><span data-stu-id="8371d-103">Procurement and sourcing parameters for Landed cost</span></span>
+# <a name="procurement-and-sourcing-parameters-for-landed-cost"></a><span data-ttu-id="8294c-103">Параметры модуля "Закупки и источники" для стоимости на складе</span><span class="sxs-lookup"><span data-stu-id="8294c-103">Procurement and sourcing parameters for Landed cost</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8371d-104">На странице **Параметры модуля "Закупки и источники"** есть несколько настроек, которые особенно подходят при использовании модуля **Стоимость на складе**.</span><span class="sxs-lookup"><span data-stu-id="8371d-104">The **Procurement and sourcing parameters** page has a few settings that are especially relevant when you use the **Landed cost** module.</span></span> <span data-ttu-id="8371d-105">Используйте диалоговое окно **Обновление строк заказа**, которое открывается со страницы **Параметры модуля "Закупки и источники"**, чтобы указать, должны ли строки заказа на покупку автоматически обновляться при внесении изменений в заголовок заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="8371d-105">Use the **Update order lines** dialog box that is opened from the **Procurement and sourcing parameters** page to specify whether purchase order lines should automatically be updated when changes are made on the purchase order header.</span></span>
+<span data-ttu-id="8294c-104">На странице **Параметры модуля "Закупки и источники"** есть несколько настроек, которые особенно подходят при использовании модуля **Стоимость на складе**.</span><span class="sxs-lookup"><span data-stu-id="8294c-104">The **Procurement and sourcing parameters** page has a few settings that are especially relevant when you use the **Landed cost** module.</span></span> <span data-ttu-id="8294c-105">Используйте диалоговое окно **Обновление строк заказа**, которое открывается со страницы **Параметры модуля "Закупки и источники"**, чтобы указать, должны ли строки заказа на покупку автоматически обновляться при внесении изменений в заголовок заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="8294c-105">Use the **Update order lines** dialog box that is opened from the **Procurement and sourcing parameters** page to specify whether purchase order lines should automatically be updated when changes are made on the purchase order header.</span></span>
 
-<span data-ttu-id="8371d-106">Чтобы завершить эту настройку, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="8371d-106">To complete this setup, follow these steps.</span></span>
+<span data-ttu-id="8294c-106">Чтобы завершить эту настройку, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="8294c-106">To complete this setup, follow these steps.</span></span>
 
-1. <span data-ttu-id="8371d-107">Выберите **Закупки и источники \> Настройка \> Параметры модуля "Закупки и источники"**.</span><span class="sxs-lookup"><span data-stu-id="8371d-107">Go to **Procurement and sourcing \> Setup \> Procurement and sourcing parameters**.</span></span>
-1. <span data-ttu-id="8371d-108">На вкладке **Общее** выберите ссылку **Обновление строк заказа**.</span><span class="sxs-lookup"><span data-stu-id="8371d-108">On the **General** tab, select the **Update order lines** link.</span></span>
-1. <span data-ttu-id="8371d-109">В диалоговом окне **Обновление строк заказа** перечислены поля в заголовке заказа, которые также могут применяться при автоматическом обновлении к соответствующим полям в строках заказа.</span><span class="sxs-lookup"><span data-stu-id="8371d-109">The **Update order lines** dialog box lists the fields on the order header that can also apply automatic updates to related fields on the order lines.</span></span> <span data-ttu-id="8371d-110">Задайте в каждом поле в списке одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="8371d-110">Set each field in the list to one of the following values:</span></span>
+1. <span data-ttu-id="8294c-107">Выберите **Закупки и источники \> Настройка \> Параметры модуля "Закупки и источники"**.</span><span class="sxs-lookup"><span data-stu-id="8294c-107">Go to **Procurement and sourcing \> Setup \> Procurement and sourcing parameters**.</span></span>
+1. <span data-ttu-id="8294c-108">На вкладке **Общее** выберите ссылку **Обновление строк заказа**.</span><span class="sxs-lookup"><span data-stu-id="8294c-108">On the **General** tab, select the **Update order lines** link.</span></span>
+1. <span data-ttu-id="8294c-109">В диалоговом окне **Обновление строк заказа** перечислены поля в заголовке заказа, которые также могут применяться при автоматическом обновлении к соответствующим полям в строках заказа.</span><span class="sxs-lookup"><span data-stu-id="8294c-109">The **Update order lines** dialog box lists the fields on the order header that can also apply automatic updates to related fields on the order lines.</span></span> <span data-ttu-id="8294c-110">Задайте в каждом поле в списке одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="8294c-110">Set each field in the list to one of the following values:</span></span>
 
-    - <span data-ttu-id="8371d-111">**Всегда** — строки заказа должны обновляться автоматически при обновлении заголовка заказа.</span><span class="sxs-lookup"><span data-stu-id="8371d-111">**Always** – The order lines should automatically be updated when the order header is updated.</span></span>
-    - <span data-ttu-id="8371d-112">**Никогда** — строки заказа не должны никогда обновляться при обновлении заголовка заказа.</span><span class="sxs-lookup"><span data-stu-id="8371d-112">**Never** – The order lines should never be updated when the order header is updated.</span></span>
-    - <span data-ttu-id="8371d-113">**Запрос** — пользователю будет предложено указать, следует ли обновлять строки заказа.</span><span class="sxs-lookup"><span data-stu-id="8371d-113">**Prompt** – The user will be prompted to select whether the order lines should be updated.</span></span>
+    - <span data-ttu-id="8294c-111">**Всегда** — строки заказа должны обновляться автоматически при обновлении заголовка заказа.</span><span class="sxs-lookup"><span data-stu-id="8294c-111">**Always** – The order lines should automatically be updated when the order header is updated.</span></span>
+    - <span data-ttu-id="8294c-112">**Никогда** — строки заказа не должны никогда обновляться при обновлении заголовка заказа.</span><span class="sxs-lookup"><span data-stu-id="8294c-112">**Never** – The order lines should never be updated when the order header is updated.</span></span>
+    - <span data-ttu-id="8294c-113">**Запрос** — пользователю будет предложено указать, следует ли обновлять строки заказа.</span><span class="sxs-lookup"><span data-stu-id="8294c-113">**Prompt** – The user will be prompted to select whether the order lines should be updated.</span></span>

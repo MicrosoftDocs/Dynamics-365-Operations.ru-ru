@@ -15,54 +15,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51ffdb508f09ceaaefb458cd614b9c64604eb639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 40377ece3685c50a448bf48e1d001fb1ecbbff3e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797919"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028067"
 ---
-# <a name="save-task-guides-to-lcs-and-replay-them"></a><span data-ttu-id="91169-103">Сохранение проводников по задачам в LCS и их воспроизведение</span><span class="sxs-lookup"><span data-stu-id="91169-103">Save task guides to LCS and replay them</span></span>
+# <a name="save-task-guides-to-lcs-and-replay-them"></a><span data-ttu-id="9ad72-103">Сохранение проводников по задачам в LCS и их воспроизведение</span><span class="sxs-lookup"><span data-stu-id="9ad72-103">Save task guides to LCS and replay them</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="91169-104">**Сведения среды**</span><span class="sxs-lookup"><span data-stu-id="91169-104">**Environment details**</span></span> 
+<span data-ttu-id="9ad72-104">**Сведения среды**</span><span class="sxs-lookup"><span data-stu-id="9ad72-104">**Environment details**</span></span> 
 
-<span data-ttu-id="91169-105">Microsoft Dynamics 365 Human Resources, который был развернут с помощью Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="91169-105">Microsoft Dynamics 365 Human Resources, which was deployed via Microsoft Dynamics Lifecycle Services (LCS)</span></span>
+<span data-ttu-id="9ad72-105">Microsoft Dynamics 365 Human Resources, который был развернут с помощью Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="9ad72-105">Microsoft Dynamics 365 Human Resources, which was deployed via Microsoft Dynamics Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="91169-106">**Расход**</span><span class="sxs-lookup"><span data-stu-id="91169-106">**Issue**</span></span>
+<span data-ttu-id="9ad72-106">**Расход**</span><span class="sxs-lookup"><span data-stu-id="9ad72-106">**Issue**</span></span>
 
-<span data-ttu-id="91169-107">Клиент хочет сохранить новые записи задач в своем проекте LCS и затем воспроизводить сохраненные руководства по задачам.</span><span class="sxs-lookup"><span data-stu-id="91169-107">The customer wants to save new task recordings to his or her LCS project, and then replay the saved task guides.</span></span>
+<span data-ttu-id="9ad72-107">Клиент хочет сохранить новые записи задач в своем проекте LCS и затем воспроизводить сохраненные руководства по задачам.</span><span class="sxs-lookup"><span data-stu-id="9ad72-107">The customer wants to save new task recordings to the LCS project, and then replay the saved task guides.</span></span>
 
-<span data-ttu-id="91169-108">**Разрешение**</span><span class="sxs-lookup"><span data-stu-id="91169-108">**Resolution**</span></span>
+<span data-ttu-id="9ad72-108">**Приказ**</span><span class="sxs-lookup"><span data-stu-id="9ad72-108">**Resolution**</span></span>
 
-<span data-ttu-id="91169-109">Выполните эти действия для сохранения записей задач в LCS.</span><span class="sxs-lookup"><span data-stu-id="91169-109">Follow these steps to save a task recording to LCS.</span></span>
+<span data-ttu-id="9ad72-109">Выполните эти действия для сохранения записей задач в LCS.</span><span class="sxs-lookup"><span data-stu-id="9ad72-109">Follow these steps to save a task recording to LCS.</span></span>
 
-1. <span data-ttu-id="91169-110">Выполните вход в LCS, затем выберите проект.</span><span class="sxs-lookup"><span data-stu-id="91169-110">Sign in to LCS, and select the project.</span></span>
-2. <span data-ttu-id="91169-111">Выберите плитку **Средство моделирования бизнес-процессов**.</span><span class="sxs-lookup"><span data-stu-id="91169-111">Select the **Business process modeler** tile.</span></span>
-3. <span data-ttu-id="91169-112">Просмотрите эту страницу в обновленном средстве моделирования бизнес-процессов.</span><span class="sxs-lookup"><span data-stu-id="91169-112">View the page in the "Updated BPM experience."</span></span>
-4. <span data-ttu-id="91169-113">Выберите библиотеку, затем выберите **Копировать**.</span><span class="sxs-lookup"><span data-stu-id="91169-113">Select a library, and then select **Copy**.</span></span>
-5. <span data-ttu-id="91169-114">Введите имя для модели средства моделирования бизнес-процессов (BPM).</span><span class="sxs-lookup"><span data-stu-id="91169-114">Enter a name for the Business process modeler (BPM) model.</span></span>
-6. <span data-ttu-id="91169-115">Выполните вход в Human Resources из LCS.</span><span class="sxs-lookup"><span data-stu-id="91169-115">Sign in to Human Resources from LCS.</span></span>
-7. <span data-ttu-id="91169-116">В поле **Поиск** введите **справка**.</span><span class="sxs-lookup"><span data-stu-id="91169-116">In the **Search** field, enter **help**.</span></span> <span data-ttu-id="91169-117">Открывается справка Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="91169-117">Lifecycle Services Help is opened.</span></span>
-8. <span data-ttu-id="91169-118">Выберите кнопку **Обновить** для конфигурации справки Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="91169-118">Select the **Refresh** button for Lifecycle Services Help configuration.</span></span>
+1. <span data-ttu-id="9ad72-110">Выполните вход в LCS, затем выберите проект.</span><span class="sxs-lookup"><span data-stu-id="9ad72-110">Sign in to LCS, and select the project.</span></span>
+2. <span data-ttu-id="9ad72-111">Выберите плитку **Средство моделирования бизнес-процессов**.</span><span class="sxs-lookup"><span data-stu-id="9ad72-111">Select the **Business process modeler** tile.</span></span>
+3. <span data-ttu-id="9ad72-112">Просмотрите эту страницу в обновленном средстве моделирования бизнес-процессов.</span><span class="sxs-lookup"><span data-stu-id="9ad72-112">View the page in the "Updated BPM experience."</span></span>
+4. <span data-ttu-id="9ad72-113">Выберите библиотеку, затем выберите **Копировать**.</span><span class="sxs-lookup"><span data-stu-id="9ad72-113">Select a library, and then select **Copy**.</span></span>
+5. <span data-ttu-id="9ad72-114">Введите имя для модели средства моделирования бизнес-процессов (BPM).</span><span class="sxs-lookup"><span data-stu-id="9ad72-114">Enter a name for the Business process modeler (BPM) model.</span></span>
+6. <span data-ttu-id="9ad72-115">Выполните вход в Human Resources из LCS.</span><span class="sxs-lookup"><span data-stu-id="9ad72-115">Sign in to Human Resources from LCS.</span></span>
+7. <span data-ttu-id="9ad72-116">В поле **Поиск** введите **справка**.</span><span class="sxs-lookup"><span data-stu-id="9ad72-116">In the **Search** field, enter **help**.</span></span> <span data-ttu-id="9ad72-117">Открывается справка Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="9ad72-117">Lifecycle Services Help is opened.</span></span>
+8. <span data-ttu-id="9ad72-118">Выберите кнопку **Обновить** для конфигурации справки Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="9ad72-118">Select the **Refresh** button for Lifecycle Services Help configuration.</span></span>
 
-    <span data-ttu-id="91169-119">Должна появиться ваша новая библиотека BPM, и она должна быть активной.</span><span class="sxs-lookup"><span data-stu-id="91169-119">Your new BPM library should appear, and it should be active.</span></span>
+    <span data-ttu-id="9ad72-119">Должна появиться ваша новая библиотека BPM, и она должна быть активной.</span><span class="sxs-lookup"><span data-stu-id="9ad72-119">Your new BPM library should appear, and it should be active.</span></span>
 
-9. <span data-ttu-id="91169-120">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="91169-120">Close the page.</span></span>
-10. <span data-ttu-id="91169-121">Создайте запись задачи.</span><span class="sxs-lookup"><span data-stu-id="91169-121">Create a task recording.</span></span>
-11. <span data-ttu-id="91169-122">После завершения выберите **Сохранить файл в Lifecycle Services**.</span><span class="sxs-lookup"><span data-stu-id="91169-122">When you've finished, select **Save to Lifecycle Services**.</span></span>
+9. <span data-ttu-id="9ad72-120">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9ad72-120">Close the page.</span></span>
+10. <span data-ttu-id="9ad72-121">Создайте запись задачи.</span><span class="sxs-lookup"><span data-stu-id="9ad72-121">Create a task recording.</span></span>
+11. <span data-ttu-id="9ad72-122">После завершения выберите **Сохранить файл в Lifecycle Services**.</span><span class="sxs-lookup"><span data-stu-id="9ad72-122">When you've finished, select **Save to Lifecycle Services**.</span></span>
 
     ![Сохраните файл в Lifecycle Services.](media/task-guides.png)
 
-12. <span data-ttu-id="91169-124">Выберите библиотеку BMP и узел, в который требуется сохранить запись задачи.</span><span class="sxs-lookup"><span data-stu-id="91169-124">Select the BPM library and node to save the task recording to.</span></span>
+12. <span data-ttu-id="9ad72-124">Выберите библиотеку BMP и узел, в который требуется сохранить запись задачи.</span><span class="sxs-lookup"><span data-stu-id="9ad72-124">Select the BPM library and node to save the task recording to.</span></span>
 
-<span data-ttu-id="91169-125">Выполните следующие действия, чтобы воспроизвести руководство по задаче из LCS.</span><span class="sxs-lookup"><span data-stu-id="91169-125">Follow these steps to replay a task guide from LCS.</span></span>
+<span data-ttu-id="9ad72-125">Выполните следующие действия, чтобы воспроизвести руководство по задаче из LCS.</span><span class="sxs-lookup"><span data-stu-id="9ad72-125">Follow these steps to replay a task guide from LCS.</span></span>
 
-1. <span data-ttu-id="91169-126">Запустите регистратор задач.</span><span class="sxs-lookup"><span data-stu-id="91169-126">Start Task recorder.</span></span>
-2. <span data-ttu-id="91169-127">Выберите **Открыть из LCS**.</span><span class="sxs-lookup"><span data-stu-id="91169-127">Select **Open from LCS**.</span></span>
-3. <span data-ttu-id="91169-128">Выберите библиотеку и узел BPM, в которых сохранено руководство по задаче.</span><span class="sxs-lookup"><span data-stu-id="91169-128">Select the library and the BPM node that have the saved task guide.</span></span>
-4. <span data-ttu-id="91169-129">Откройте руководство по задаче.</span><span class="sxs-lookup"><span data-stu-id="91169-129">Open the task guide.</span></span>
+1. <span data-ttu-id="9ad72-126">Запустите регистратор задач.</span><span class="sxs-lookup"><span data-stu-id="9ad72-126">Start Task recorder.</span></span>
+2. <span data-ttu-id="9ad72-127">Выберите **Открыть из LCS**.</span><span class="sxs-lookup"><span data-stu-id="9ad72-127">Select **Open from LCS**.</span></span>
+3. <span data-ttu-id="9ad72-128">Выберите библиотеку и узел BPM, в которых сохранено руководство по задаче.</span><span class="sxs-lookup"><span data-stu-id="9ad72-128">Select the library and the BPM node that have the saved task guide.</span></span>
+4. <span data-ttu-id="9ad72-129">Откройте руководство по задаче.</span><span class="sxs-lookup"><span data-stu-id="9ad72-129">Open the task guide.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
