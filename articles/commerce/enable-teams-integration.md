@@ -2,11 +2,9 @@
 title: Включение интеграции Dynamics 365 Commerce и Microsoft Teams
 description: В этом разделе описывается, как включить интеграцию Microsoft Dynamics 365 Commerce и Microsoft Teams.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908403"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019843"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Включение интеграции Dynamics 365 Commerce и Microsoft Teams
 
@@ -39,9 +37,9 @@ ms.locfileid: "5908403"
 
 Чтобы зарегистрировать приложение Teams с вашим клиентом на портале Azure, выполните следующие действия.
 
-1. Следуйте указаниям из раздела [Краткое руководство: регистрация приложения на платформе удостоверений Майкрософт](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app), чтобы зарегистрировать приложение Teams с вашим клиентом на портале Azure.
+1. Следуйте указаниям из раздела [Краткое руководство: регистрация приложения на платформе удостоверений Майкрософт](/azure/active-directory/develop/quickstart-register-app), чтобы зарегистрировать приложение Teams с вашим клиентом на портале Azure.
 1. Скопируйте значение **ИД приложения (клиента)** со страницы **Обзор** для зарегистрированного приложения. Это значение будет использоваться, чтобы включить интеграцию Teams в Commerce Headquarters.
-1. Скопируйте значение сертификата, которое был введено при [добавлении сертификата](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) на шаге 1. Этот сертификат называется также открытым ключом или ключом приложения. Это значение будет использоваться, чтобы включить интеграцию Teams в Commerce Headquarters.
+1. Скопируйте значение сертификата, которое был введено при [добавлении сертификата](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) на шаге 1. Этот сертификат называется также открытым ключом или ключом приложения. Это значение будет использоваться, чтобы включить интеграцию Teams в Commerce Headquarters.
 
 Чтобы включить интеграцию Teams в Commerce Headquarters, выполните следующие действия.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a8eda003e4cd4cf0d43bb07c93bd8d68a2fb9e57
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792965"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019965"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Бесперебойное автономное переключение для операций подарочных сертификатов и кредитовых авизо
 
@@ -52,8 +52,8 @@ ms.locfileid: "5792965"
 
 ## <a name="related-topics"></a>Связанные разделы
 
-- [Функции POS в автономном режиме](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
-- [Операции POS в интерактивном и автономном режимах](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+- [Функции POS в автономном режиме](../pos-offline-functionality.md)
+- [Операции POS в интерактивном и автономном режимах](../pos-operations.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

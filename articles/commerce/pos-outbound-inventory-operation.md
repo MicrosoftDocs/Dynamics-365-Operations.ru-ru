@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795653"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022739"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Исходящая операция запасов в POS
 
@@ -71,7 +71,7 @@ ms.locfileid: "5795653"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Необходимое условие: добавление исходящей операции в макет экрана POS
 
-Прежде чем организация сможет использовать функцию исходящей операции, она должна настроить операцию POS **Исходящая операция** в одном или нескольких [макетах экрана POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Перед развертыванием новой операции в производственной среде необходимо тщательно проверить ее и обучить пользователей, чтобы использовать ее.
+Прежде чем организация сможет использовать функцию исходящей операции, она должна настроить операцию POS **Исходящая операция** в одном или нескольких [макетах экрана POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Перед развертыванием новой операции в производственной среде необходимо тщательно проверить ее и обучить пользователей, чтобы использовать ее.
 
 ## <a name="overview"></a>Обзор
 

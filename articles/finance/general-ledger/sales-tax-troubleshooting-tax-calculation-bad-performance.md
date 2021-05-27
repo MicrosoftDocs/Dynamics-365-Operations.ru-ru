@@ -2,11 +2,9 @@
 title: Производительность при расчете налога влияет на проводки
 description: В этой теме содержатся сведения об устранении неполадок, связанных с производительностью расчета налогов и его влиянием на проводки.
 author: shtao
-manager: beya
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7ff9d9b80172c3b337737b1cd53b4c56d1befe57
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947701"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020147"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Производительность при расчете налога влияет на проводки
 

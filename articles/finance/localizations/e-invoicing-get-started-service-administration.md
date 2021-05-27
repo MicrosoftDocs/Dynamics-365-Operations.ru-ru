@@ -2,7 +2,7 @@
 title: Начало работы с администрированием службы электронного выставления накладных
 description: В этой теме объясняется, как начать работать с модулем электронного выставления накладных.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840156"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980984"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Начало работы с администрированием службы электронного выставления накладных
 
@@ -33,10 +33,10 @@ ms.locfileid: "5840156"
 - Необходимо иметь доступ к учетной записи Microsoft Dynamics Lifecycle Services (LCS).
 - Необходим проект LCS, включающий версию 10.0.17 или более позднюю версию Microsoft Dynamics 365 Finance и Dynamics 365 Supply Chain Management. Кроме того, эти приложения должны быть развернуты в одном из следующих географических регионов Azure:
 
-    - Восточная часть США
-    - Западная часть США
-    - Северная Европа
-    - Западная Европа
+    - США
+    - Европа
+    - Великобритания
+    - Азия
 
 - Необходимо иметь доступ к учетной записи службы Dynamics 365 Regulatory Configuration Services (RCS).
 - Необходимо активировать функцию глобализации для вашей учетной записи RCS в управлении функциями. Дополнительные сведения см. в разделе [Regulatory Configuration Services (RCS) — функции глобализации](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ ms.locfileid: "5840156"
 
 1. Войдите в учетную запись LCS.
 2. Выберите плитку **Управление предварительными версиями функций**.
-3. В разделе **Общедоступные предварительные версии функций** выберите **Служба электронного выставления накладных**.
+3. В разделе **Общедоступные предварительные версии функций** выберите **Электронное выставление накладных**.
 4. Убедитесь, что для параметра **Предварительная версия функции включена** установлено значение **Да**.
-5. На панели мониторинга LCS выберите проект развертывания LCS. Должен быть выполнен проект LCS.
-7. На вкладке **Надстройки сред** выберите **Установить новую надстройку**.
-8. Выберите **Службы электронного выставления накладных**.
+5. На панели мониторинга проекта LCS выберите проект LCS.
+6. В проекте LCS на панели мониторинга среды LCS выберите проект развертывания LCS. Проект развертывания LCS должен выполняться.
+7. На вкладке **Интеграция Power Platform** в группе полей **Надстройки среды** выберите **Установить новую надстройку**.
+8. Выберите **Электронное выставление накладных**.
 9. В поле **Код приложения AAD** введите **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Это фиксированное значение.
 10. В поле **Код клиента AAD** введите код клиента вашей учетной записи подписки Azure.
 11. Ознакомьтесь с условиями и установите флажок.
@@ -65,10 +66,10 @@ ms.locfileid: "5840156"
 
     | География центра обработки данных Azure | Универсальный код ресурса (URI) конечной точки службы                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Восточная часть США                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Западная часть США                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Северная Европа                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Западная Европа                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | США              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Европа                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Великобритания             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Азия                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Убедитесь, что в поле **Код приложения** установлено значение **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Это значение является фиксированным значением.
 5. В поле **Код среды LCS** введите идентификатор вашей среды LCS.
@@ -152,12 +153,12 @@ ms.locfileid: "5840156"
 1. Перейдите в раздел **Администрирование организации \> Настройка \> Параметры электронных документов**.
 2. На вкладке **Служба отправки** в поле **URL конечной точки службы** введите соответствующую конечную точку службы для своего географического расположения Azure, как показано в следующей таблице.
 
-    | География центра обработки данных Azure | URL-адрес конечной точки службы                                                       |
+    | География центра обработки данных Azure | Универсальный код ресурса (URI) конечной точки службы                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Восточная часть США                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Западная часть США                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Северная Европа                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Западная Европа                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | США              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Европа                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Великобритания             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Азия                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. В поле **Среда** введите имя среды службы, опубликованной в модуле электронного выставления накладных.
 4. Выберите **Сохранить** и закройте страницу.

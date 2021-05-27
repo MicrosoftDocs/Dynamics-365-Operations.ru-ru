@@ -361,13 +361,11 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Представление актива
                   href: asset-management/objects/object-view.md
-                - name: Обзор атрибутов актива
+                - name: Обзор атрибута актива
                   href: asset-management/objects/object-specification-overview.md
             - name: Настройка запросов на обслуживание
               items:
-                - name: Запросы на обслуживание
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Состояния жизненного цикла запросов на обслуживание
+                - name: Состояния жизненного цикла запроса на обслуживание
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Типы запросов на обслуживание
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Устранение неполадок
           items:
+            - name: Управление затратами
+              items:
+                - name: Отсутствуют параметры поля при копировании групп номенклатурных моделей в другое юридическое лицо
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Отчет "Косвенные затраты в процессе" включает удаленные производственные заказы
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: 'Начисление покупки, разнесенное с нулевой суммой для поступления продукта нулевой стоимости'
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Физически полученные заказы на покупку не отображаются в отчете о закрытии запасов
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: На вкладке "Активные цены" страницы "Цена номенклатуры" отсутствует дата начала
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Управление запасами
+              items:
+                - name: Несколько проводок по запасам для номеров партий без параметра "При физическом обновлении"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Реверсирование приемки создает неожиданную открытую проводку
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: 'Не удается показать новые примечания, прикрепленные к журналу, в отчете по листу подбора'
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: Количество в запущенном карантинном заказе не обновляется при разделении заказа
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Поле "Дата последнего испытания" не обновляется при создании нескольких заказов для контроля качества
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: При разделении количества учета в двух единицах измерения используется минимум вместо номинального количества
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Сводное планирование
+              items:
+                - name: Непосредственно полученные утвержденные заказы обрабатываются в workflow-процессе рассмотрения
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Сводное планирование создает спланированные заказы для фантомных продуктов
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: 'Спланированный заказ на покупку создается, если покупка существует в диапазоне отрицательных дней'
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Не удается отправить себестоимость в записи прогноза спроса
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Невозможно удалить аналитику прогноза спроса на складе из строк прогноза
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Закупки
+              items:
+                - name: Невозможно выставить накладную по клиентскому заказу на продажу в компании VEL
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Невозможно добавить строку в заявку на покупку после запроса изменения
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Управление сведениями о продукте
+              items:
+                - name: Невозможно применить шаблон для создания выпущенного продукта
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Невозможно импортировать номенклатуру с помощью объекта "Выпущенные продукты V2"
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: В заказах на покупку не отображается переведенный текст продукта
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Управление производством
+              items:
+                - name: Параметры принципа очистки в строках спецификации не выполняются
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Номер партии очищается при выборе нового кода лота
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Последний выбор не учитывается при сбросе производственных заказов с помощью пакетного задания
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: 'Пользователи могут разукомплектовать строки материалов для продуктов, которые были приняты'
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Ошибка при разноске журнала приемки
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Склад в журнале ведомостей комплектации не обновляется в строке спецификации
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Управление ретробонусами
+              items:
+                - name: Сбой накопления ретробонусов клиентов с помощью группы бонусов номенклатуры
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Продажи и маркетинг
+              items:
+                - name: 'Системные администраторы не могут очистить блокировки заказов, поскольку они не авторизованы'
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Управление транспортировкой
+              items:
+                - name: Можно добавить только счет ГК в качестве кредитного счета в целях выверки
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Управление складом
               items:
+                - name: Ошибка возникает при выборе местонахождения при регистрации листа подбора
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: На упаковочной станции не отображаются примечания к продукту
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Профиль местонахождения не допускает отрицательный запас, но отрицательное количество в наличии разрешено'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Для нескольких заголовков работ в одном чеке печатается только одна этикетка
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Невозможно подтвердить отгрузку из-за проблемы с календарем
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Невозможно подтвердить отгрузку из-за незавершенной или пропущенной работы

@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801515"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020740"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Во время начального развертывания невозможно настроить группу безопасности для конструктора сайтов Commerce
 
@@ -38,7 +37,7 @@ ms.locfileid: "5801515"
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>Предоставьте сайту электронной коммерции пользователя в надлежащем клиенте
 
 1. Перейдите в раздел [порталу Azure](https://portal.azure.com/).
-1. В рамках клиента, для которого был предоставлен проект LCS для вашего сайта электронной коммерции, следуйте указаниям в разделе [Создание базовой группы и добавление участников с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+1. В рамках клиента, для которого был предоставлен проект LCS для вашего сайта электронной коммерции, следуйте указаниям в разделе [Создание базовой группы и добавление участников с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 1. Перейдите в раздел [LCS](https://lcs.dynamics.com/) и выполните вход, используя учетную запись, которая использует тот же клиент, что и только что созданная группа безопасности Azure AD. Учетная запись должна иметь доступ для просмотра группы безопасности Azure AD.
 1. Выполните шаги настройки для настройки сайта электронной коммерции. При подготовке компонентов электронной коммерции в диалоговом окне теперь группа безопасности должна отображаться как параметр.
 
@@ -47,6 +46,6 @@ ms.locfileid: "5801515"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Создание базовой группы и добавление участников с помощью Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[Создание базовой группы и добавление участников с помощью Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [Развертывание нового арендатора электронной коммерции](../deploy-ecommerce-site.md)
