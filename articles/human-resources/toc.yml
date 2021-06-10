@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 мая 2021 г.
+          href: hr-whats-new-2021-05-20.md
         - name: 3 мая 2021 г.
           href: hr-whats-new-2021-05-03.md
         - name: 19 апреля 2021 г.
@@ -785,8 +787,14 @@
           items:
             - name: Обзор управления производительностью
               href: hr-develop-performance-management-overview.md
-            - name: Управление навыками трудовых ресурсов
-              href: hr-develop-skills.md
+            - name: Навыки
+              items:
+                - name: Настройка навыков
+                  href: hr-develop-skills.md
+                - name: Ввод навыков
+                  href: hr-develop-enter-skills.md
+                - name: Сопоставление навыков
+                  href: hr-develop-map-skills.md
             - name: Добавление в журнал производительности
               href: hr-develop-add-performance-journal.md
             - name: Создание цели

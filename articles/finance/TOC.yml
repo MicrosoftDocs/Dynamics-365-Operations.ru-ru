@@ -72,6 +72,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.20 (июль 2021\_г.)"
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: "Finance 10.0.19 (июль 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (май 2021 г.)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: В закрытии года отсутствуют входящие сальдо
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Открытие шаблонов финансового журнала в Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Финансовая отчетность
           items:
             - name: Начало работы с финансовой отчетностью
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Добавление полей данных в налоговую интеграцию с помощью расширений
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Несколько регистрационных номеров НДС
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка среды для поиска справочника
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Несколько регистрационных номеров НДС
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Отчетность по нескольким регистрационным номерам НДС
+                      items:
+                        - name: Отчетность по нескольким регистрационным номерам НДС
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Отчетность Нидерландов
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Отчет ЕС по НДС
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
             - name: Австралия
@@ -2384,10 +2398,24 @@
                               href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
                             - name: Новое автономное средство GSTR для ANX-1 и регистрации покупок
                               href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
-                            - name: Создание данных отчета GSTR для возвратов налога
+                            - name: Создание данных отчета GSTR для налоговой отчетности
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Включение многопакетной обработки для отчетов GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Устранение неполадок GST
+                          items:
+                            - name: Неверная сумма налога после расчета
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Ошибки конфигурации налога
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Налог не рассчитан
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: 'Активация правил возмещения занимает больше времени, чем ожидалось'
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans или ваучер не создан
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Неверный код налоговой проводки
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Прямые налоги
                   items:
                     - name: Подоходный налог Индии
@@ -2842,8 +2870,12 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Интеграция Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Файл аудита (XML Auditfile Financieel, XAF)'
+                - name: Файл аудита (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Декларация НДС (Нидерланды)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Норвегия
               items:
                 - name: Обзор по Норвегии
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнений с базовыми значениями
+                    - name: Усовершенствование трассировки результатов созданных отчетов электронной отчетности для сравнения с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Автоматизация тестирования с помощью электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

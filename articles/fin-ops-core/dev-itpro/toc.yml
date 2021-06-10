@@ -14,7 +14,9 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для 10.0.19 (июль 2021 г.)
+                - name: Обновления платформы для версии 10.0.20 (июль 2021 г.)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Обновления платформы для 10.0.19 (июнь 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Обновления платформы для 10.0.18 (май 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Что нового и что изменилось в Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Удаленные или исключенные функции Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Руководство пользователя Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Адаптация проекта
@@ -1060,10 +1060,14 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Изменение юридического лица после настройки двойной записи
                       href: data-entities/dual-write/edit-legal-entity.md
-                    - name: Управление ошибками и уведомления оповещения
+                    - name: Управление ошибками и уведомления об оповещении
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Управление жизненным циклом приложений
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: 'Владелец группы, определенный пользователем'
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Удаление связи и повторная связь сред с двойной записью
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Сопоставление концепций между приложениями
                   items:
                     - name: Интегрированный справочник клиентов
@@ -1166,6 +1170,8 @@
               items:
                 - name: Обзор надстроек
                   href: power-platform/add-ins-overview.md
+            - name: Политики и связь
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Мобильная платформа
           items:
             - name: Ресурсы мобильных платформ

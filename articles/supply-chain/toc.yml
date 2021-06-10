@@ -72,7 +72,9 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (июль 2021 г.)
+                    - name: Supply Chain Management 10.0.20 (июль 2021 г.)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (июнь 2021 г.)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (май 2021 г.)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,13 +389,13 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Настройка заказов на работу
               items:
-                - name: 'Категории типов заданий обслуживания и типы заданий обслуживания, варианты типов заданий обслуживания, торговля заданий обслуживания, контрольные списки обслуживания'
+                - name: 'Типы, категории, варианты, торговля и контрольные списки заданий обслуживания'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Состояния жизненного цикла заказов на работу
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: Типы заказов на работу
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: Настройка заказа на работу по проекту
+                - name: Настройка проекта заказа на работу
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Уровень обслуживания и описание
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнений с базовыми значениями
+                    - name: Усовершенствование трассировки результатов созданных отчетов электронной отчетности для сравнения с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Автоматизация тестирования с помощью электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Версии разработки и категории продуктов разработки
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Управление изменениями в формулах и их ингредиентах
+              href: engineering-change-management/manage-formula-changes.md
             - name: Включение управления изменениями для существующих продуктов
               href: engineering-change-management/change-management-existing-products.md
             - name: Состояние жизненного цикла продукта и проводки
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Единая номерная серия для кодов заданий
               href: production-control/unified-job-ids.md
+            - name: Вызов потоков автоматизации процесса для создания заказов для контроля качества
+              href: production-control/process-automation-quality-orders.md
             - name: Дискретное производство
               items:
                 - name: Ведение справочника производства
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Как работники используют интерфейс выполнения производственного цеха
                           href: production-control/production-floor-execution-use.md
-                        - name: Стили элементов управления пользовательского интерфейса для выполнения производственного цеха
+                        - name: Стиль интерфейса выполнения производственного цеха
                           href: production-control/production-floor-execution-styles.md
                     - name: Настройка карты задания для устройств
                       href: production-control/config-job-card-device.md
@@ -3141,9 +3147,9 @@
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Сценарий 2: отгрузки консолидируются, когда политика консолидации отгрузок переопределяется на странице "Выпуск на склад"'
+                    - name: 'Случай 2: отгрузки консолидируются при переопределении политики консолидации отгрузок'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 'Сценарий 3: отгрузки консолидируются при использовании функции "Выпуск на склад" на рабочем месте планирования загрузки'
+                    - name: 'Сценарий 3: отгрузки консолидируются при выпуске на склад на рабочем месте планирования загрузки'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Случай 4: отгрузки консолидируются с помощью рабочего места консолидации отгрузок'
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Сканирование штрих-кодов с помощью камеры в мобильном приложении "Управление складом"
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Настройка полей для мобильного приложения "Управление складом"
+                    - name: Настройка полей для мобильного приложения Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Настройка мобильных устройств для работы склада
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Назначение значков и заголовков шагов
+                      href: warehousing/step-icons-titles.md
                     - name: Обработка событий приложения склада
                       href: warehousing/warehouse-app-events.md
-                    - name: Получение грузомест с помощью мобильного приложения "Управление складом"
+                    - name: Получение грузомест с помощью мобильного приложения Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3359,29 +3367,33 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Реверсирование приемки создает неожиданную открытую проводку
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'Не удается показать новые примечания, прикрепленные к журналу, в отчете по листу подбора'
+                - name: 'В отчете по листу подбора не отображаются новые примечания, прикрепленные к журналу'
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: Количество в запущенном карантинном заказе не обновляется при разделении заказа
                   href: troubleshooting/inventory/quantity-on-a-start.md
                 - name: Поле "Дата последнего испытания" не обновляется при создании нескольких заказов для контроля качества
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: При разделении количества учета в двух единицах измерения используется минимум вместо номинального количества
+                - name: При разделении количества учета в двух единицах измерения используется минимальное количество вместо номинального количества
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Сводное планирование
               items:
                 - name: Непосредственно полученные утвержденные заказы обрабатываются в workflow-процессе рассмотрения
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Невозможно отфильтровать номенклатуры сводного планирования по связанным значениям групп покрытия
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Сводное планирование создает спланированные заказы для фантомных продуктов
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: 'Спланированный заказ на покупку создается, если покупка существует в диапазоне отрицательных дней'
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Не удается отправить себестоимость в записи прогноза спроса
+                - name: Невозможно обновить прогнозируемые затраты на единицу измерения при импорте записей прогноза спроса
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Невозможно удалить аналитику прогноза спроса на складе из строк прогноза
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: 'Вам будет предложено сохранить параметры покрытия номенклатуры даже в том случае, если изменения не были внесены'
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Закупки
               items:
-                - name: Невозможно выставить накладную по клиентскому заказу на продажу в компании VEL
+                - name: Невозможно выставить накладную по клиентскому заказу на продажу
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Невозможно добавить строку в заявку на покупку после запроса изменения
                   href: troubleshooting/procurement/purchase-requisition.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: 'Пользователи могут разукомплектовать строки материалов для продуктов, которые были приняты'
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Ошибка при разноске журнала приемки
+                - name: Ошибка при выполнении разноски журнала "Приемка"
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Склад в журнале ведомостей комплектации не обновляется в строке спецификации
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3449,9 +3461,9 @@
                   href: troubleshooting/warehousing/wave-is-not-eligible.md
                 - name: Вес должен быть положительным
                   href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Работа не может быть отменена, поскольку она заблокирована'
+                - name: 'Невозможно отменить работу, поскольку она заблокирована'
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: 'Работа не может быть отменена, поскольку статус'
+                - name: Невозможно отменить работу из-за статуса
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
                 - name: Работа не заблокирована
                   href: troubleshooting/warehousing/work-is-not-blocked.md
