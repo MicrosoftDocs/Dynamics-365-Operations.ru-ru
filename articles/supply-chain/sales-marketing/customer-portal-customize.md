@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909008"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102718"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Настройка и использование клиентского портала
 
@@ -82,7 +82,7 @@ ms.locfileid: "5909008"
 1. После завершения добавления номенклатур нажмите **Далее** на странице **Номенклатуры**.
 1. На странице **Информация о заказе** дана сводка по заказу. Изучите содержимое заказа и сведения о поставке. Если все выглядит правильно, нажмите **Отправить**, чтобы отправить заказ.
 
-    ![Страница информации о заказе](media/customer-portal-order-submit.png "Страница информации о заказе")
+    ![Страница информации о выполненном заказе](media/customer-portal-order-submit.png "Страница информации о выполненном заказе")
 
 ### <a name="standard-data-setup"></a>Настройка стандартных данных
 

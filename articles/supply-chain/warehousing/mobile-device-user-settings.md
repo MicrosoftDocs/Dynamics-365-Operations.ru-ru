@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837473"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049300"
 ---
 # <a name="mobile-device-user-settings"></a>Параметры пользователя мобильного устройства
 
@@ -94,3 +94,8 @@ ms.locfileid: "5837473"
 
     - **Код модели устройства** — код модели устройства, такой как *Surface Book 2*.
     - **Описание** — можно ввести описание, которое поможет различать коды моделей.
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+- [Установка и подключение мобильного приложения "Управление складом"](install-configure-warehouse-management-app.md)
+- [Назначение значков и названий шагов для мобильного приложения Warehouse Management](step-icons-titles.md)

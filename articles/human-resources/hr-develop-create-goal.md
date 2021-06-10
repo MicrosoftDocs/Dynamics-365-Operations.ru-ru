@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794837"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055468"
 ---
 # <a name="create-a-goal"></a>Создание цели
 
@@ -29,8 +28,8 @@ ms.locfileid: "5794837"
 
 1. Перейдите в раздел "Все рабочие области" > "Самообслуживание сотрудников".
 2. Щелкните "Показать все цели"
-3. Щелкните "Создать".
-4. В поле "Имя" введите «Завершение проекта Contoso".
+3. Нажмите Создать.
+4. В поле "Имя" введите "Завершение проекта Contoso".
 5. В поле "Обзор" введите "Я закончу проект Contoso через 30 дней".
     * Цели могут применяться к субъекту, группе или даже корпорации. По умолчанию цели для сотрудников являются индивидуальными.  
 6. В поле "Категория цели" введите или выберите значение.

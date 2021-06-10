@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898068"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6086997"
 ---
 # <a name="finance-insights-home-page-preview"></a>Домашняя страница финансового анализа (предварительная версия)
 
@@ -123,10 +123,5 @@ ms.locfileid: "5898068"
 ## <a name="feedback-and-support"></a>Отзывы и поддержка
 
 Отправьте сообщение электронной почты по адресу [Аналитика платежей клиентов (предварительная версия)](mailto:fiap@microsoft.com), если вы хотите предоставить отзыв или вам нужна поддержка.
-
-## <a name="privacy-notice"></a>Уведомление о конфиденциальности
-
-Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
