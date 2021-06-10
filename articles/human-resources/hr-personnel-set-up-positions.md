@@ -8,64 +8,63 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d2e5b72fd34691f8104aea33b551a10b0bae9ca
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2cefab1101ff2dc9800342831443f1a7994701e8
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802487"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051793"
 ---
-# <a name="set-up-positions"></a><span data-ttu-id="71789-103">Настройка должностей</span><span class="sxs-lookup"><span data-stu-id="71789-103">Set up positions</span></span>
+# <a name="set-up-positions"></a><span data-ttu-id="29899-103">Настройка должностей</span><span class="sxs-lookup"><span data-stu-id="29899-103">Set up positions</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="71789-104">Должности являются важным элементом нижнего уровня организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="71789-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="71789-105">Позиция — это индивидуальный экземпляр должности.</span><span class="sxs-lookup"><span data-stu-id="71789-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="71789-106">Например, должность «Менеджер по продажам (восток)» — это одна из должностей, связанных с общей должностью, «Менеджер по продажам».</span><span class="sxs-lookup"><span data-stu-id="71789-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="71789-107">Должность существует в подразделении, и ей можно назначить только одного работника.</span><span class="sxs-lookup"><span data-stu-id="71789-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="71789-108">В этой задаче рассматриваются шаги, которые необходимо выполнить для создания должности.</span><span class="sxs-lookup"><span data-stu-id="71789-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="71789-109">Эта процедура предназначена для специалиста по управлению персоналом.</span><span class="sxs-lookup"><span data-stu-id="71789-109">This procedure is intended for Human Resources Specialists.</span></span>
+<span data-ttu-id="29899-104">Должности являются важным элементом нижнего уровня организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="29899-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="29899-105">Позиция — это индивидуальный экземпляр должности.</span><span class="sxs-lookup"><span data-stu-id="29899-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="29899-106">Например, должность «Менеджер по продажам (восток)» — это одна из должностей, связанных с общей должностью, «Менеджер по продажам».</span><span class="sxs-lookup"><span data-stu-id="29899-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="29899-107">Должность существует в подразделении, и ей можно назначить только одного работника.</span><span class="sxs-lookup"><span data-stu-id="29899-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="29899-108">В этой задаче рассматриваются шаги, которые необходимо выполнить для создания должности.</span><span class="sxs-lookup"><span data-stu-id="29899-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="29899-109">Эта процедура предназначена для специалиста по управлению персоналом.</span><span class="sxs-lookup"><span data-stu-id="29899-109">This procedure is intended for Human Resources Specialists.</span></span>
 
-1. <span data-ttu-id="71789-110">Щелкните "Управление трудовыми ресурсами".</span><span class="sxs-lookup"><span data-stu-id="71789-110">Click Workforce management.</span></span>
-2. <span data-ttu-id="71789-111">Щелкните "Открытые позиции".</span><span class="sxs-lookup"><span data-stu-id="71789-111">Click Open positions.</span></span>
-3. <span data-ttu-id="71789-112">Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="71789-112">Click New to open the drop dialog.</span></span>
-4. <span data-ttu-id="71789-113">В поле "Задание" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-113">In the Job field, enter or select a value.</span></span>
-    * <span data-ttu-id="71789-114">Должностные обязанности, должность и коэффициент занятости эквивалента полной занятости автоматически копируются из выбранного задания в должность.</span><span class="sxs-lookup"><span data-stu-id="71789-114">The Job description, title, and full-time equivalent employment factor are automatically copied from the selected job into the position.</span></span>  
-5. <span data-ttu-id="71789-115">Разрешить изменения задания.</span><span class="sxs-lookup"><span data-stu-id="71789-115">ResolveChanges the Job.</span></span>
-6. <span data-ttu-id="71789-116">Щелкните "Создать должность".</span><span class="sxs-lookup"><span data-stu-id="71789-116">Click Create position.</span></span>
-7. <span data-ttu-id="71789-117">В поле "Подразделение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-117">In the Department field, enter or select a value.</span></span>
-8. <span data-ttu-id="71789-118">В поле "Тип должности" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-118">In the Position type field, enter or select a value.</span></span>
-9. <span data-ttu-id="71789-119">В поле "Регион компенсации" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-119">In the Compensation region field, enter or select a value.</span></span>
-    * <span data-ttu-id="71789-120">Поле "Регион компенсации" определяет правила приемлемости компенсации и бюджеты фиксированных увеличений, которые применяются к сотруднику на данной должности.</span><span class="sxs-lookup"><span data-stu-id="71789-120">The Compensation region field determines the compensation eligibility rules and fixed increase budgets that apply to an employee in that position.</span></span>  
-10. <span data-ttu-id="71789-121">В поле "Доступна для назначения" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="71789-121">In the Available for assignment field, enter a date and time.</span></span>
-11. <span data-ttu-id="71789-122">Разверните раздел "Период должности".</span><span class="sxs-lookup"><span data-stu-id="71789-122">Expand the Position duration section.</span></span>
-    * <span data-ttu-id="71789-123">Период должности вводится по умолчанию на основании дат активации и выбытия, введенных ранее.</span><span class="sxs-lookup"><span data-stu-id="71789-123">Position duration is entered by default based on activation and retirement dates entered earlier</span></span>  
-12. <span data-ttu-id="71789-124">Разверните раздел "Отчитывается перед должностью".</span><span class="sxs-lookup"><span data-stu-id="71789-124">Expand the Reports to position section.</span></span>
-    * <span data-ttu-id="71789-125">При назначении работника на должность, подотчетную другой должности, создается связь непосредственного подчиненного между работниками, назначенными на две должности.</span><span class="sxs-lookup"><span data-stu-id="71789-125">When you assign a worker to a position that reports to another position, you create a direct reporting relationship between the workers who are assigned to the two positions.</span></span>  
-13. <span data-ttu-id="71789-126">Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="71789-126">Click New to open the drop dialog.</span></span>
-14. <span data-ttu-id="71789-127">В поле "Отчитывается перед" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-127">In the Reports to field, enter or select a value.</span></span>
-15. <span data-ttu-id="71789-128">Щелкните Создать.</span><span class="sxs-lookup"><span data-stu-id="71789-128">Click Create.</span></span>
-16. <span data-ttu-id="71789-129">Разверните раздел "Назначение работника".</span><span class="sxs-lookup"><span data-stu-id="71789-129">Expand the Worker assignment section.</span></span>
-17. <span data-ttu-id="71789-130">Разверните раздел "Отношения".</span><span class="sxs-lookup"><span data-stu-id="71789-130">Expand the Relationships section.</span></span>
-    * <span data-ttu-id="71789-131">Если ваша организация использует матричную иерархию или другую специальную иерархию, можно настроить типы иерархии должностей и затем добавить отношения подотчетности для должностей для каждого настроенного типа иерархии.</span><span class="sxs-lookup"><span data-stu-id="71789-131">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span>  
-18. <span data-ttu-id="71789-132">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="71789-132">Click Add.</span></span>
-19. <span data-ttu-id="71789-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="71789-133">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="71789-134">В поле "Имя иерархии" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-134">In the Hierarchy name field, enter or select a value.</span></span>
-21. <span data-ttu-id="71789-135">В поле "Отчитывается перед должностью" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-135">In the Reports to position field, enter or select a value.</span></span>
-22. <span data-ttu-id="71789-136">Разверните раздел "Заработная плата".</span><span class="sxs-lookup"><span data-stu-id="71789-136">Expand the Payroll section.</span></span>
-23. <span data-ttu-id="71789-137">В поле "Цикл оплаты" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-137">In the Pay cycle field, enter or select a value.</span></span>
-24. <span data-ttu-id="71789-138">В поле "Кем оплачивается" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-138">In the Paid by field, enter or select a value.</span></span>
-25. <span data-ttu-id="71789-139">В поле "Обычные часы за год" введите число.</span><span class="sxs-lookup"><span data-stu-id="71789-139">In the Annual regular hours field, enter a number.</span></span>
-    * <span data-ttu-id="71789-140">Это количество регулярно оплачиваемых часов, в течение которых работник на данной должности должен работать каждый год.</span><span class="sxs-lookup"><span data-stu-id="71789-140">This is the number of regularly paid hours that the worker in this position is expected to work each year.</span></span>  
-26. <span data-ttu-id="71789-141">Разверните раздел "Профсоюз".</span><span class="sxs-lookup"><span data-stu-id="71789-141">Expand the Labor union section.</span></span>
-27. <span data-ttu-id="71789-142">Сверните раздел "Профсоюз".</span><span class="sxs-lookup"><span data-stu-id="71789-142">Collapse the Labor union section.</span></span>
-28. <span data-ttu-id="71789-143">Разверните раздел "Финансовые аналитики".</span><span class="sxs-lookup"><span data-stu-id="71789-143">Expand the Financial dimensions section.</span></span>
-29. <span data-ttu-id="71789-144">В поле "Шаблон распределения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-144">In the Distribution template field, enter or select a value.</span></span>
-30. <span data-ttu-id="71789-145">В поле "Подразделение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="71789-145">In the Department field, enter or select a value.</span></span>
-31. <span data-ttu-id="71789-146">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71789-146">Click Save.</span></span>
+1. <span data-ttu-id="29899-110">Щелкните "Управление трудовыми ресурсами".</span><span class="sxs-lookup"><span data-stu-id="29899-110">Click Workforce management.</span></span>
+2. <span data-ttu-id="29899-111">Щелкните "Открытые позиции".</span><span class="sxs-lookup"><span data-stu-id="29899-111">Click Open positions.</span></span>
+3. <span data-ttu-id="29899-112">Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="29899-112">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="29899-113">В поле "Задание" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-113">In the Job field, enter or select a value.</span></span>
+    * <span data-ttu-id="29899-114">Должностные обязанности, должность и коэффициент занятости эквивалента полной занятости автоматически копируются из выбранного задания в должность.</span><span class="sxs-lookup"><span data-stu-id="29899-114">The Job description, title, and full-time equivalent employment factor are automatically copied from the selected job into the position.</span></span>  
+5. <span data-ttu-id="29899-115">Разрешить изменения задания.</span><span class="sxs-lookup"><span data-stu-id="29899-115">ResolveChanges the Job.</span></span>
+6. <span data-ttu-id="29899-116">Щелкните "Создать должность".</span><span class="sxs-lookup"><span data-stu-id="29899-116">Click Create position.</span></span>
+7. <span data-ttu-id="29899-117">В поле "Подразделение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-117">In the Department field, enter or select a value.</span></span>
+8. <span data-ttu-id="29899-118">В поле "Тип должности" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-118">In the Position type field, enter or select a value.</span></span>
+9. <span data-ttu-id="29899-119">В поле "Регион компенсации" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-119">In the Compensation region field, enter or select a value.</span></span>
+    * <span data-ttu-id="29899-120">Поле "Регион компенсации" определяет правила приемлемости компенсации и бюджеты фиксированных увеличений, которые применяются к сотруднику на данной должности.</span><span class="sxs-lookup"><span data-stu-id="29899-120">The Compensation region field determines the compensation eligibility rules and fixed increase budgets that apply to an employee in that position.</span></span>  
+10. <span data-ttu-id="29899-121">В поле "Доступна для назначения" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="29899-121">In the Available for assignment field, enter a date and time.</span></span>
+11. <span data-ttu-id="29899-122">Разверните раздел "Период должности".</span><span class="sxs-lookup"><span data-stu-id="29899-122">Expand the Position duration section.</span></span>
+    * <span data-ttu-id="29899-123">Период должности вводится по умолчанию на основании дат активации и выбытия, введенных ранее.</span><span class="sxs-lookup"><span data-stu-id="29899-123">Position duration is entered by default based on activation and retirement dates entered earlier</span></span>  
+12. <span data-ttu-id="29899-124">Разверните раздел "Отчитывается перед должностью".</span><span class="sxs-lookup"><span data-stu-id="29899-124">Expand the Reports to position section.</span></span>
+    * <span data-ttu-id="29899-125">При назначении работника на должность, подотчетную другой должности, создается связь непосредственного подчиненного между работниками, назначенными на две должности.</span><span class="sxs-lookup"><span data-stu-id="29899-125">When you assign a worker to a position that reports to another position, you create a direct reporting relationship between the workers who are assigned to the two positions.</span></span>  
+13. <span data-ttu-id="29899-126">Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="29899-126">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="29899-127">В поле "Отчитывается перед" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-127">In the Reports to field, enter or select a value.</span></span>
+15. <span data-ttu-id="29899-128">Щелкните Создать.</span><span class="sxs-lookup"><span data-stu-id="29899-128">Click Create.</span></span>
+16. <span data-ttu-id="29899-129">Разверните раздел "Назначение работника".</span><span class="sxs-lookup"><span data-stu-id="29899-129">Expand the Worker assignment section.</span></span>
+17. <span data-ttu-id="29899-130">Разверните раздел "Отношения".</span><span class="sxs-lookup"><span data-stu-id="29899-130">Expand the Relationships section.</span></span>
+    * <span data-ttu-id="29899-131">Если ваша организация использует матричную иерархию или другую специальную иерархию, можно настроить типы иерархии должностей и затем добавить отношения подотчетности для должностей для каждого настроенного типа иерархии.</span><span class="sxs-lookup"><span data-stu-id="29899-131">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span>  
+18. <span data-ttu-id="29899-132">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="29899-132">Click Add.</span></span>
+19. <span data-ttu-id="29899-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="29899-133">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="29899-134">В поле "Имя иерархии" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-134">In the Hierarchy name field, enter or select a value.</span></span>
+21. <span data-ttu-id="29899-135">В поле "Отчитывается перед должностью" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-135">In the Reports to position field, enter or select a value.</span></span>
+22. <span data-ttu-id="29899-136">Разверните раздел "Заработная плата".</span><span class="sxs-lookup"><span data-stu-id="29899-136">Expand the Payroll section.</span></span>
+23. <span data-ttu-id="29899-137">В поле "Цикл оплаты" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-137">In the Pay cycle field, enter or select a value.</span></span>
+24. <span data-ttu-id="29899-138">В поле "Кем оплачивается" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-138">In the Paid by field, enter or select a value.</span></span>
+25. <span data-ttu-id="29899-139">В поле "Обычные часы за год" введите число.</span><span class="sxs-lookup"><span data-stu-id="29899-139">In the Annual regular hours field, enter a number.</span></span>
+    * <span data-ttu-id="29899-140">Это количество регулярно оплачиваемых часов, в течение которых работник на данной должности должен работать каждый год.</span><span class="sxs-lookup"><span data-stu-id="29899-140">This is the number of regularly paid hours that the worker in this position is expected to work each year.</span></span>  
+26. <span data-ttu-id="29899-141">Разверните раздел "Профсоюз".</span><span class="sxs-lookup"><span data-stu-id="29899-141">Expand the Labor union section.</span></span>
+27. <span data-ttu-id="29899-142">Сверните раздел "Профсоюз".</span><span class="sxs-lookup"><span data-stu-id="29899-142">Collapse the Labor union section.</span></span>
+28. <span data-ttu-id="29899-143">Разверните раздел "Финансовые аналитики".</span><span class="sxs-lookup"><span data-stu-id="29899-143">Expand the Financial dimensions section.</span></span>
+29. <span data-ttu-id="29899-144">В поле "Шаблон распределения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-144">In the Distribution template field, enter or select a value.</span></span>
+30. <span data-ttu-id="29899-145">В поле "Подразделение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29899-145">In the Department field, enter or select a value.</span></span>
+31. <span data-ttu-id="29899-146">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="29899-146">Click Save.</span></span>
 
 
 
