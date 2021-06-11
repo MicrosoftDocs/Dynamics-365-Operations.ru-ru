@@ -2,7 +2,7 @@
 title: Начало работы с оптимизацией планирования
 description: Этот раздел описывает начало работы с функциями оптимизации планирования.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907675"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103601"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -58,7 +58,7 @@ ms.locfileid: "5907675"
 
 - Требуется использовать Supply Chain Management в среде с поддержкой LCS с высокой степенью доступности уровня 2 или выше (а не в среде OneBox) с версией Dynamics 365 Supply Chain Management 10.0.7 или более поздней. При попытке установить надстройку в среде OneBox установка не будет завершена, и вам придется отменить установку.
 
-- Система должна быть настроена для интеграции Power Platform. Дополнительные сведения см. в разделах [Предварительные условия для настройки надстроек](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) и [Настройка надстроек](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- Система должна быть настроена для интеграции Power Platform. Дополнительные сведения см. в разделе [Интеграция Microsoft Power Platform с приложениями Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Включение лицензии оптимизации планирования
 
