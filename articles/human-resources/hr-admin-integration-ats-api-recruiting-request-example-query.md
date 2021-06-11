@@ -7,35 +7,34 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3bba96988f3ccef9ef54c1dad2a4c63e829198f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 24c94aeb743aa1c9267b63472db2ac68badd0130
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789716"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057414"
 ---
-# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="54bc5-103">Пример запроса для запроса на набор персонала</span><span class="sxs-lookup"><span data-stu-id="54bc5-103">Example query for Recruiting request</span></span>
+# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="5b136-103">Пример запроса для запроса на набор персонала</span><span class="sxs-lookup"><span data-stu-id="5b136-103">Example query for Recruiting request</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="54bc5-104">В этой теме представлен пример запроса для сущности запроса на набор персонала в Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="54bc5-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="5b136-104">В этой теме представлен пример запроса для сущности запроса на набор персонала в Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="5b136-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="54bc5-105">Следующий запрос показывает, как можно использовать параметр запроса $expand в операции GET, чтобы извлечь указанную запись запроса на набор персонала и все связанные должности, необходимые навыки и требования к образованию для указанного запроса.</span><span class="sxs-lookup"><span data-stu-id="54bc5-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="54bc5-106">Пример отклика показывает запрос на набор персонала для двух должностей, а также необходимые навыки и образование для запрошенных должностей.</span><span class="sxs-lookup"><span data-stu-id="54bc5-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+<span data-ttu-id="5b136-105">Следующий запрос показывает, как можно использовать параметр запроса $expand в операции GET, чтобы извлечь указанную запись запроса на набор персонала и все связанные должности, необходимые навыки и требования к образованию для указанного запроса.</span><span class="sxs-lookup"><span data-stu-id="5b136-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="5b136-106">Пример отклика показывает запрос на набор персонала для двух должностей, а также необходимые навыки и образование для запрошенных должностей.</span><span class="sxs-lookup"><span data-stu-id="5b136-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
 
-<span data-ttu-id="54bc5-107">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="54bc5-107">**Request**</span></span>
+<span data-ttu-id="5b136-107">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="5b136-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruiting request entity ID>)?$expand=mshr_FK_HcmRecruitingRequestPositionEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestSkillEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestEducationEntity_RecruitingRequest
 ```
 
-<span data-ttu-id="54bc5-108">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="54bc5-108">**Response**</span></span>
+<span data-ttu-id="5b136-108">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="5b136-108">**Response**</span></span>
 
 ```json
 {
@@ -180,8 +179,8 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="54bc5-109">См. также</span><span class="sxs-lookup"><span data-stu-id="54bc5-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b136-109">См. также</span><span class="sxs-lookup"><span data-stu-id="5b136-109">See also</span></span>
 
-[<span data-ttu-id="54bc5-110">Введение в интерфейс API интеграции системы отслеживания кандидатов</span><span class="sxs-lookup"><span data-stu-id="54bc5-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="5b136-110">Введение в интерфейс API интеграции системы отслеживания кандидатов</span><span class="sxs-lookup"><span data-stu-id="5b136-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
