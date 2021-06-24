@@ -2,7 +2,7 @@
 title: Состояние денежной наличности (предварительная версия)
 description: В этой теме описывается, как функция прогнозирования движения денежных средств прогнозирует состояние наличных средств в организации в указанное время. Здесь также описываются параметры, доступные для отображения прогнозов для разных периодов.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123398"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186500"
 ---
 # <a name="cash-position-preview"></a>Состояние денежной наличности (предварительная версия)
 
@@ -48,6 +48,5 @@ ms.locfileid: "6123398"
 
 #### <a name="privacy-notice"></a>Уведомление о конфиденциальности
 Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

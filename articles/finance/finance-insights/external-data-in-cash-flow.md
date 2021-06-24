@@ -2,7 +2,7 @@
 title: Использование внешних данных в прогнозах движения денежных средств (предварительная версия)
 description: В этой теме описываются шаги настройки, которые необходимо выполнить, чтобы внешние данные могли быть введены или импортированы в прогнозы движения денежных средств.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897896"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186698"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Использование внешних данных в прогнозах движения денежных средств (предварительная версия)
 
@@ -57,9 +57,5 @@ ms.locfileid: "5897896"
 
 - Настройка внешнего источника прогноза движения денежных средств
 - Настройка юридического лица внешнего источника прогноза движения денежных средств
-
-#### <a name="privacy-notice"></a>Уведомление о конфиденциальности
-Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

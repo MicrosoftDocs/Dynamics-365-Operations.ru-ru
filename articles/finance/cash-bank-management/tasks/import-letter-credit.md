@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834748"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193937"
 ---
 # <a name="import-letter-of-credit"></a>Импортный аккредитив
 
@@ -128,7 +128,8 @@ ms.locfileid: "5834748"
 12. Закройте страницу.
 13. Закройте страницу.
 
-## <a name="verify-import-letter-of-credit-status"></a>Проверка статуса импортного аккредитива
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Проверка и печать статуса импортного аккредитива
+
 1. Перейдите в раздел "Управление банком и кассовыми операциями" > "Аккредитивы" > "Импортный аккредитив и импортное инкассо".
 2. В списке найдите и выберите требуемую запись.
 3. В списке перейдите по ссылке в выбранной строке.

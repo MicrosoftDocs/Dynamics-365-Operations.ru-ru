@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b72ccbcec1e3796917c041def19f3985668e7e1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ac31634844ea5d82f795b2262d17a6be3a926c2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807928"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190144"
 ---
 # <a name="procurement-catalogs-overview"></a>Обзор каталогов закупаемой продукции
 
@@ -66,8 +66,7 @@ ms.locfileid: "5807928"
 -   **Оба** — если каталог содержит категории продуктов с типом обновления по умолчанию **Статическое**, его необходимо обновлять вручную при обновлении этих категорий. Если каталог содержит категории продуктов с типом обновления по умолчанию **Динамический**, он автоматически обновляется при внесении изменений.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка иерархии категорий закупаемой продукции](tasks/set-up-procurement-category-hierarchy.md)
 

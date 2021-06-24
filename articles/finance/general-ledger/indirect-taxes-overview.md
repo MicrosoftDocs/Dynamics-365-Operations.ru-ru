@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826626"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188448"
 ---
 # <a name="sales-tax-overview"></a>Обзор налога
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826626"
 
 Этот раздел содержит обзор системы налогов. Она описывает элементы настройки налогов и как они работают вместе.
 
-<a name="overview"></a>Обзор
---------
+## <a name="overview"></a>Обзор
 
 Платформа налога поддерживает множество типов косвенных налогов, таких как налог на продажу, налог на добавленную стоимость (НДС), налог на товары и услуги (GST), основанные на единицах сборы и подоходный налог. Эти налоги рассчитываются и документируются во время проводок покупки и продажи. Периодически по ним необходимо отправлять налоговые отчеты и выплачивать налоги в налоговые органы. 
 

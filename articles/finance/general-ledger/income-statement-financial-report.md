@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ab5e7a2675705cc2265b7f894d9b12d4465aea1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838845"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187828"
 ---
 # <a name="income-statement-financial-report"></a>Финансовый отчет по отчету о прибылях
 
@@ -28,8 +28,7 @@ ms.locfileid: "5838845"
 
 В этой статье описывается отчет по умолчанию для отчетов о прибыли. Здесь также описываются строительные блоки, связанные с этим отчетом. 
 
-<a name="default-income-statement-report"></a>Отчет о прибылях по умолчанию
--------------------------------
+## <a name="default-income-statement-report"></a>Отчет о прибылях по умолчанию
 
 | Отчет по умолчанию             | Что он делает                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -57,8 +56,7 @@ ms.locfileid: "5838845"
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор финансовой отчетности](financial-reporting-getting-started.md)
 

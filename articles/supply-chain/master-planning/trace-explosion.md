@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839205"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189900"
 ---
 # <a name="use-tracing-for-explosion"></a>Использование трассировки для развертывания
 
@@ -38,8 +38,7 @@ ms.locfileid: "5839205"
 
 Вы можете просматривать информацию о фьючерсах и действия для выбранного заказа. На странице **Развертывание** отслеживание информации доступно на вкладке **Объяснение** в верхней области. Трассировка происходит при развертывании заказа. Чтобы начать трассировку для заказа щелкните **Обновить**, а затем установите флажок **Включить трассировку**. Можно использовать поле **Найти текст** для поиска конкретной информации в журнале. Результаты поиска будут выделены в дереве.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор сводных планов](master-plans.md)
 

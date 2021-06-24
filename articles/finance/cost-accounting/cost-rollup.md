@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815772"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189053"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Политика свертки затрат и расчет накладных расходов 
 
@@ -149,8 +149,7 @@ ms.locfileid: "5815772"
 | CC001                                | Итоговый         | **Услуги отдела кадров**        |
 | CC002                                | Итоговый         | **Финансовые услуги** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Как затраты проходит между местами возникновения затрат 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Как затраты проходит между местами возникновения затрат 
 
 Если вы хотите узнать, как затраты проходят между местами возникновения затрат в организации, можно создать элементы затрат типа **Вторичные** для каждого места возникновения затрат. Эти элементы затрат будут затем использоваться для переноса сальдо между местами возникновения затрат во время расчета накладных расходов.
 

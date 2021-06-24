@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826379"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193626"
 ---
 # <a name="customer-posting-profiles"></a>Профили разноски по клиенту
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826379"
 
 Профили разноски клиента управляют разноской проводок клиента в ГК.
 
-<a name="customer-posting-profiles"></a>Профили разноски по клиенту
--------------------------
+## <a name="customer-posting-profiles"></a>Профили разноски по клиенту
 
 Профили разноски клиентов позволяют назначить счета ГК и настройки документов всем клиентам, группе клиентов или отдельным клиентам. Эти настройки будут использоваться для создания заказов на продажу, накладных с произвольным текстом, наличных платежей, писем-напоминаний и процент-нот. Для некоторых проводок можно выбрать профиль разноски, который отличается от профилей разноски, созданных для проводок на этой странице, и имеет преимущество по отношению к ним. 
 
@@ -118,7 +117,6 @@ ms.locfileid: "5826379"
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Табличные ограничения**
 

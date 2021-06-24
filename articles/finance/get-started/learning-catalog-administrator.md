@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897268"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193363"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Каталог обучения для администраторов Dynamics 365 Finance
 
@@ -58,8 +58,9 @@ ms.locfileid: "5897268"
 
 ## <a name="migration-and-upgrade"></a>Миграция и обновление<a name="migration-and-upgrade"></a>
 
-| Содержимое | описание  | Формат | Длина    |
+| Содержимое | описание  | Форматировать | Длина    |
 |---------|--------------|--------|-----------|
+| [Обновление Dynamics AX 2012 до приложений Finance and Operations](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | Ознакомьтесь с наиболее важными элементами и рекомендациями по успешному обновлению решения Dynamics AX 2012 до приложений Finance and Operations. От первых шагов обнаружения основных архитектурных различий, начала процесса обновления и инструментов обновления кода и данных до лучших способов изменения ваших интеграций, аналитики и отчетности на основе новейших возможностей. | Бесплатный путь онлайн-обучения в произвольном темпе | 7 часов |
 | [Finance and Operations: обновление с 7. x до 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Присоединитесь к нам на нашем следующем техническом обсуждении, в течение которого мы рассмотрим процесс обновления с версии 7.X до версии 8.X. Будут обсуждаться различные сценарии и шаги, которые требуется выполнить для обновления кода и обновления данных. Кроме того, мы рассмотрим сценарии запросов расширяемости и способы их создания в соответствующих случаях. | Бесплатная запись веб-конференции | 61 минут |
 | [Выполнение обновления с 7.0 (RTW)/7.1 (выпуск 1611) до 7.2 (июль 2017 г.) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | В этом сеансе будет объяснено, как обновить приложение Dynamics 365 Finance and Operations v7.0 (RTW) и v7.1 (1611) до v7.2 (июль 2017). Мы делаем четкие различия между уже работающими клиентами и текущими проектами (еще не введенными в эксплуатацию). | Бесплатная запись веб-конференции | 58 минут |
 | [Обновление AX2012 до Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Это техническое обсуждение содержит обзор порядка обновления кода и данных с Dynamics AX 2012 до Dynamics 365 for Operations. | Бесплатная запись веб-конференции | 45 минут |

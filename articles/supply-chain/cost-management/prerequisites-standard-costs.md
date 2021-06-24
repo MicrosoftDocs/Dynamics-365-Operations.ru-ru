@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92f80ecc611e68210e24e59b696724e1bc9c3a06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f2e1620de804f42688ad8d05232e38178b5fb80
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809670"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187730"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Обзор предварительных требований для стандартных затрат
 
@@ -66,8 +66,7 @@ ms.locfileid: "5809670"
 Клиенты, желающие изменить свои существующие номенклатуры на складскую модель стандартных затрат, должны использовать страницу **Преобразования стандартной себестоимости**.
 
 
-<a name="related-topics"></a>Связанные разделы
---------
+## <a name="related-topics"></a>Связанные разделы
 
 [Обзор преобразования в стандартную себестоимость](standard-cost-conversion-overview.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980906"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184133"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980906"
 | **Заменена другой функцией?**   | Да |
 | **Затрагиваемые области продукта**         | Продукты Dynamics 365 Finance, Supply Chain Management и Project Operations|
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | Устаревший: с 01 апреля 2022 года планируется прекратить поддержку репозитория Microsoft Dynamics Lifecycle Services (LCS) в качестве параметра хранения для конфигураций электронной отчетности (ER). Новые конфигурации Microsoft ER будут опубликованы для загрузки только из глобального репозитория. Доступ к глобальному репозиторию осуществляется из продуктов Dynamics 365 и RCS. Дополнительные сведения см. в разделе [Импорт конфигураций ER из RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Состояние**                         | Устаревший: с 01 апреля 2022 года планируется прекратить поддержку репозитория Microsoft Dynamics Lifecycle Services (LCS) в качестве параметра хранения для конфигураций электронной отчетности (ER). Новые конфигурации Microsoft ER будут опубликованы для загрузки только из глобального репозитория. Доступ к глобальному репозиторию осуществляется из продуктов Dynamics 365 и RCS. Дополнительные сведения см. в разделе [Импорт конфигураций электронной отчетности из RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) и [Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.16
 

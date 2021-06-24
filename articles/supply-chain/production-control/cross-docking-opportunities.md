@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839157"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190096"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Кросс-докинг из производственных заказов в дебаркадеры отгрузки
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839157"
 
 В этом разделе описывается, как управлять процессом кросс-докинга материала, который принят из производственной линии в транспортный док отгрузки.
 
-<a name="introduction"></a>Приветствие
-------------
+## <a name="introduction"></a>Приветствие
 
 Кросс-докинг из производства в место отгрузки относится к производителям, которые производят большие объемы и в идеале хотят отгрузить готовую продукцию, как только она принята из производственной линии. Целью является отгрузить продукты в центры распределения, которые физически расположены рядом с желаемым местом клиента, а не создавать запасы на объекте производства.
 

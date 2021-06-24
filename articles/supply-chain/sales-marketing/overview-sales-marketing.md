@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188133"
 ---
 # <a name="sales-and-marketing-overview"></a>Обзор продаж и маркетинга
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810878"
 
 Можно использовать модуль "Продажи и маркетинг", чтобы получить, хранить и использовать различные типы данных о ходе продаж. Эти сведения включают исходную инициативу продаж, будущее последующее решение, и дополнительные продажи.
 
-<a name="marketing"></a>Маркетинг
----------
+## <a name="marketing"></a>Маркетинг
 
 Используйте маркетинговые кампании и мероприятия для поиска потенциальных клиентов и построения отношений с ними, чтобы начальное взаимодействие могло привести к продажам. Следующий поток процессов показывает бизнес-процесс маркетинга. [![Бизнес-процесс маркетинга](./media/marketing01.jpg)](./media/marketing01.jpg)
 

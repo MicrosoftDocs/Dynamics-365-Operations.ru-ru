@@ -2,7 +2,7 @@
 title: Оценка модели прогнозирования первоначальных платежей клиента (предварительная версия)
 description: В этой теме описываются шаги, которые можно предпринять для понимания модели прогнозирования платежей клиентов и оценки ее эффективности.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897920"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186746"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Оценка модели прогнозирования первоначальных платежей клиента (предварительная версия)
 
@@ -95,9 +95,5 @@ ms.locfileid: "5897920"
 ## <a name="for-more-information"></a>Дополнительные сведения
 
 Дополнительные сведения об оценке моделей прогнозирования см. в разделе [Результаты моделей машинного обучения](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Уведомление о конфиденциальности
-Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

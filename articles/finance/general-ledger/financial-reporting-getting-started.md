@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189005"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с Financial reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897044"
 
 В этом разделе описывается доступ к финансовой отчетности и использование возможностей финансовой отчетности. Он также включает в себя описание финансовых отчетов по умолчанию, которые предоставляются.
 
-<a name="accessing-financial-reporting"></a>Доступ к финансовой отчетности
------------------------------
+## <a name="accessing-financial-reporting"></a>Доступ к финансовой отчетности
 
 Меню **Финансовая отчетность** находится в следующих местах:
 

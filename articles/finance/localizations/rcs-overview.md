@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: В этом разделе представлен обзор возможностей службы Regulatory Configuration Service (RCS) и объясняется, как получить доступ к службе.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019402"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216570"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS обычно доступен в следующих регионах:
 
 Полный список регионов см. в [Dynamics 365 и Power Platform: доступность, расположение данных, язык и локализация](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>Компания по умолчанию RCS
+
+Функция времени разработки, используемая в RCS, используется совместно всеми компаниями. Нет функциональности, специфической для компании. Поэтому рекомендуется использовать одну компанию, **DAT**, со средой RCS.
+
+Однако в некоторых сценариях можно задать, чтобы форматы электронной отчетности использовали параметры, связанные с определенным юридическим лицом. Только в этих сценариях следует использовать переключатель компании по умолчанию. Например, см. раздел [Настройка формата электронной отчетности для использования параметров, указанных для юридического лица](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md).
+
 ## <a name="related-rcs-documentation"></a>Документация, связанная с RCS
 
-Дополнительные сведения о связанных компонентах см. в следующей документации:
+Дополнительные сведения о связанных компонентах см. в следующих темах:
+
+- **RCS:**
+
+    - [Создание конфигураций электронной отчетности в RCS и их отправка в глобальный репозиторий](rcs-global-repo-upload.md)
 
 - **Глобальный репозиторий:**
 
@@ -70,7 +80,20 @@ RCS обычно доступен в следующих регионах:
     - [Улучшенная фильтрация в глобальном репозитории](enhanced-filtering-global-repo.md)
     - [Загрузка конфигураций электронной отчетности из глобального репозитория](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [Прекращение использования конфигураций в глобальном репозитории](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)](rcs-lcs-repo-dep-faq.md)
 
 - **Функция глобализации:**
 
     - [Regulatory Configuration Service (RCS) — функции глобализации](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>Устранение неполадок регистрации в RCS
+
+При регистрации на RCS со страницы обслуживания может возникнуть проблема, связанная с Azure Active Directory (Azure AD). Полученное сообщение об ошибке указывает на то, что регистрация на RCS в данный момент отключена и должна быть включена, прежде чем можно будет завершить процесс регистрации.
+
+![Сообщение об ошибке при регистрации RCS](media/01_RCSSignUpError.jpg)
+
+Проблема возникает из-за того, что вы не можете регистрироваться на нерегламентированные подписки, и свойство `AllowAdHocSubscriptions` должно быть включено в клиенте. 
+
+- Если ИТ-отдел управляет клиентами Azure вашей организации, свяжитесь с этим подразделением, чтобы сообщить о проблеме.
+- Если вы отвечаете за управление вашими клиентами Azure, вы можете решить эти проблемы, выполнив шаги, указанные в разделе [Что такое регистрация самообслуживания для Azure Active Directory](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings).

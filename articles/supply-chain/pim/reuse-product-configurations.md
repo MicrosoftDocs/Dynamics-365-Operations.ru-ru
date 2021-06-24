@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812795"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189852"
 ---
 # <a name="reuse-product-configurations"></a>Повторное использование конфигураций продуктов
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812795"
 
 Можно указать, что требуется автоматически повторно использовать существующую конфигурацию продукта. Затем, когда пользователь завершает сеанс настройки, система проверяет, не существует ли имеющейся конфигурации, которая соответствует выбору пользователя. Если такая конфигурация найдена, используются ИД конфигурации, соответствующая спецификация и маршрут.
 
-<a name="requirements-for-reusing-configurations"></a>Требования к повторному использованию конфигураций
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>Требования к повторному использованию конфигураций
 
 Чтобы разрешить повторное использовании конфигураций, необходимо задать следующую информацию для компонентов и атрибутов на странице **Сведения о модели конфигурации продукта**:
 

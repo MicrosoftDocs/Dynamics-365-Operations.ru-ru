@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837185"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188766"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Распределения по бухгалтерским счетам и записи в журнале для накладных с произвольным текстом
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837185"
 
 Распределения по бухгалтерским счетам используются для определения способа учета сумм, например дохода, налога или начислений в накладной с произвольным текстом, С каждой суммой, подлежащей учету при регистрации накладной с произвольным текстом в журнале, будут связаны одно или несколько распределений по бухгалтерским счетам,
 
-<a name="accounting-distributions"></a>Распределение по бухгалтерским счетам
-------------------------
+## <a name="accounting-distributions"></a>Распределение по бухгалтерским счетам
 
 Можно использовать следующие кнопки на странице "Накладная с произвольным текстом", чтобы просматривать и по возможности изменять распределения по бухгалтерским счетам для каждой суммы в накладной с произвольным текстом.
 

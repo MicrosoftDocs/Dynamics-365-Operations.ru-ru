@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56069b1d2cf72eb29737b0aa7d066c998c0c423c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dbcdc852bf42038761b4ea19fd7fe7cbfc45f713
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833649"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187442"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Внесение ручных корректировок в базовый прогноз
 
@@ -73,8 +73,7 @@ ms.locfileid: "5833649"
 
 Можно также вносить корректировки в прогноз вручную на странице **Сведения о прогнозе спроса**, изменяя значения в строке **Прогноз** в разделе **Прогноз**.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Отслеживание точности прогноза](monitor-forecast-accuracy.md)
 

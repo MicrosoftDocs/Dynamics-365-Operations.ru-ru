@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 367b662a43b3c3255632f20aeb821b973b04d890
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833601"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187418"
 ---
 # <a name="explosion-of-a-bom-version"></a>Развертывание версии спецификации
 
@@ -36,8 +36,7 @@ ms.locfileid: "5833601"
 
 На следующей иллюстрации показан процесс развертывания спроса сводного планирования. ![Развертывание спроса с использованием версии спецификации](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Определение версии спецификации](master-plan-bom-version-determined.md)
 

@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796470"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193211"
 ---
 # <a name="open-url-in-pos"></a>Открытие URL-адреса в POS
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как можно настроить кнопку в POS-терминале розничной торговли, чтобы открыть URL-адрес. Эта функция не требует настройки кода, и ее может настроить пользователь, не имеющий роли разработчика. 
+В этой теме описывается, как можно настроить кнопку в POS-терминале Dynamics 365 Commerce, чтобы открыть URL-адрес. Эта функция не требует настройки кода, и ее может настроить пользователь, не имеющий роли разработчика. 
 
 Эта функция позволяет настроить кнопку в POS-терминале, используя конструктор сетки кнопок, для открытия URL-адреса. В настоящее время это поддерживается в следующих конфигурациях:
 
@@ -46,15 +46,15 @@ ms.locfileid: "5796470"
 
 Эта функция также позволяет указывать URL-адреса вне веб, чтобы открыть исходное приложение. Например, можно указать URL-адрес протоколов, таких как MailTo, SIP, IM или MSTEAMS, который затем может быть обработан соответствующим собственным приложением на главном устройстве. Чтобы активировать эту возможность, необходимо настроить URL-адрес с выбранным параметром **Открыть в новом окне**.
 
-- Для компьютеров Windows см. раздел [Экспорт или импорт ассоциаций приложений по умолчанию](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) для задания ассоциаций протоколов по умолчанию, если компьютер настраивается с помощью системы обслуживания образов развертывания и управления ими (DISM).
-- При использовании MDM, например Intune, для управления вашим компьютером, см. раздел [Политика CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Если вы являетесь разработчиком, создающим пользовательский веб-сайт, см. раздел [Запуск приложения по умолчанию для URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Для компьютеров Windows см. раздел [Экспорт или импорт ассоциаций приложений по умолчанию](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) для задания ассоциаций протоколов по умолчанию, если компьютер настраивается с помощью системы обслуживания образов развертывания и управления ими (DISM).
+- При использовании MDM, например Intune, для управления вашим компьютером, см. раздел [Политика CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Если вы являетесь разработчиком, создающим пользовательский веб-сайт, см. раздел [Запуск приложения по умолчанию для URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Удобное открытие в исходном приложении
 
 Windows, iOS и Android также позволяют открывать приложения более эффективно на основании ассоциации протокола приложения. Если приложение еще не настроено для обработки открытия из веб-браузера, может потребоваться, чтобы это сделал разработчик.
 
-- Для Windows см. раздел [Включить приложения для веб-сайтов с помощью обработчиков URI приложения](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Для Windows см. раздел [Включить приложения для веб-сайтов с помощью обработчиков URI приложения](/windows/uwp/launch-resume/web-to-app-linking).
 - Для iOS см. раздел [Универсальные ссылки для разработчиков](https://developer.apple.com/ios/universal-links/).
 - Для Android см. раздел [Обработка ссылок приложения Android](https://developer.android.com/training/app-links/).
 

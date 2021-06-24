@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fc2f6104bc8a79ea4e8b6d0061f4b135026de0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825262"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188205"
 ---
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
@@ -190,8 +190,7 @@ ms.locfileid: "5825262"
 5.  Создайте заказы на покупку для консолидированных строк заявки или для строк заявки на покупку в возможности консолидации.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание заявки на потребление](tasks/create-requisition-consumption.md)
 

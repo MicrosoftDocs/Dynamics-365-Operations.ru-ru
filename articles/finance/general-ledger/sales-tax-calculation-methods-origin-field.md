@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815364"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189381"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Методы расчета налога в поле "Основание"
 
@@ -52,8 +52,7 @@ ms.locfileid: "5815364"
 | Только один код налога с "Основание" = "Процент от валовой суммы" может использоваться для проводки. Если для проводки определено более одного такого кода налога, отображается ошибка с предупреждением о невозможности расчета налога. |
 
 
-<a name="percentage-of-sales-tax"></a>Процент от другого налога
------------------------
+## <a name="percentage-of-sales-tax"></a>Процент от другого налога
 
 При выборе в поле "Основание" значения "Процент от другого налога" налог рассчитывается как процент налога, выбранного в поле "Налог на налог". Расчет налога, выбранного в поле "Налог на налог", выполняется в первую очередь. Затем на основании суммы первого налога рассчитывается второй налог.
 ### <a name="example"></a>Пример
@@ -119,8 +118,7 @@ ms.locfileid: "5815364"
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Ставки налога на основе базы маржинальной прибыли и методов расчета](marginal-base-field.md)
 

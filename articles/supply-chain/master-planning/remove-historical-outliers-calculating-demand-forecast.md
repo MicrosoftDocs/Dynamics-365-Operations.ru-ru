@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2131ae11e634f9ced0d9696acb61d7b8a94c59cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df20a45707d3f6ff2ba963e3310194c1af830234
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841823"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187394"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса
 
@@ -39,8 +39,7 @@ ms.locfileid: "5841823"
 
 **Примечание.** Вы можете также создать запрос, который основан на существующем запросе. Выберите запрос для копирования и после этого щелкните **Дублировать**. В поле **Дата запроса** указывается версия. Вы можете использовать запрос "как есть" или можете щелкнуть **Изменить запрос**, чтобы изменить критерии. Вы можете также изменить имя и описание нового запроса.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор прогнозирования спроса](introduction-demand-forecasting.md)
 

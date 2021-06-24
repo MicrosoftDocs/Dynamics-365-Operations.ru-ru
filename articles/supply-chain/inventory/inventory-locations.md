@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4afbb4847a2d3175585ed270d8ecd8aac33c4b14
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c8d5459e37b5827b6a2ff07c892c2ff25b76ecd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813131"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187490"
 ---
 # <a name="inventory-locations"></a>Места хранения
 
@@ -59,8 +59,7 @@ ms.locfileid: "5813131"
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание нового макета склада](tasks/create-new-warehouse-layout.md)
 

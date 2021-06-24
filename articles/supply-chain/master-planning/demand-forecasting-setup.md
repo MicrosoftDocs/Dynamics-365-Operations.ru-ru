@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816540"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189724"
 ---
 # <a name="demand-forecasting-setup"></a>Настройка прогнозирования спроса
 
@@ -88,8 +88,7 @@ ms.locfileid: "5816540"
 - **Подсказка сезонности**: для сезонных данных введите подсказку для модели прогнозирования, чтобы повысить точность прогноза. Формат: целое число, представляющее количество сегментов, через которое повторяется схема спроса. Например, введите "6" для данных, которые повторяются каждые шесть месяцев.
 - **Размер тестового набора в процентах**: процент исторических данных для использования в качестве тестового набора при расчете точности прогноза. 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор прогнозирования спроса](introduction-demand-forecasting.md)
 

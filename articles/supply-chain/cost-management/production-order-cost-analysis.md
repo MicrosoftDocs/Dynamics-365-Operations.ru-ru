@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50df2a63584d3db0d3b91fabd224e12dffa809d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809646"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187706"
 ---
 # <a name="production-order-cost-analysis"></a>Анализ затрат по производственному заказу
 
@@ -55,8 +55,7 @@ ms.locfileid: "5809646"
 -   **Приемка номенклатуры в обработке** — в этом отчете перечисляются текущие производственные заказы и проводки по учету готовой номенклатуры на указанную дату проводки.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Общие источники отклонений цены производства от себестоимости](common-sources-of-production-variances.md)
 

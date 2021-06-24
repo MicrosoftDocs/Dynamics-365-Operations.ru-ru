@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813683"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189354"
 ---
 # <a name="delays"></a>Задержки
 
@@ -52,8 +52,7 @@ ms.locfileid: "5813683"
 
 На странице **Спланированный заказ** на вкладке **Задержки** имеется **Желаемая дата** для спланированного заказа. Требуемая дата спланированного заказа является базовой датой для задержек, которая является вычисляемой датой, которая равна значению **Запрошенная дата**, рассчитанному из значения **Чистые потребности**. Если спланированный заказ является строкой спецификации, строкой производства или строкой канбана, требуемая дата основывается на значении **Дата потребности**, и желаемая дата не будет отображаться на странице **Спланированный заказ**.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Параметры покрытия](coverage-settings.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841583"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188894"
 ---
 # <a name="product-related-translations-faq"></a>Вопросы и ответы по переводам, связанным с продуктом
 
@@ -29,8 +29,7 @@ ms.locfileid: "5841583"
 
 В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов. 
 
-<a name="what-product-related-data-can-be-translated"></a>Какие связанные с продуктом данные можно переводить?
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>Какие связанные с продуктом данные можно переводить?
 
 Можно переводить следующую связанную с продуктом информацию.
 -   Имена и описания продуктов.

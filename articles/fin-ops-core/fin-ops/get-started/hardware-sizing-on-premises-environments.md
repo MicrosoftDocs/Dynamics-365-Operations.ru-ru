@@ -2,7 +2,7 @@
 title: Требования к определению параметров оборудования для локальных сред
 description: Требования к определению параметров оборудования для локальных сред
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923488"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168737"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Требования к определению параметров оборудования для локальных сред
 
@@ -131,6 +131,8 @@ ms.locfileid: "5923488"
 ## <a name="sql-server-reporting-services"></a>Службы SQL Server Reporting Services
 
 В общедоступном выпуске можно развернуть только один узел SSRS. Отслеживайте узел SSRS при тестировании и увеличьте число ядер, доступных для SSRS, при необходимости. Убедитесь, что имеется предварительно настроенный дополнительный узел, доступный в виртуальном узле, отличном от виртуальной машины SSRS. Это важно при наличии проблемы с виртуальной машиной, на которой размещены службы SSRS, или виртуальным узлом. В этом случае их необходимо заменить.
+
+Начиная с версии 10.0.17 для достижения высокого уровня доступности можно настроить дополнительные узлы SSRS. Дополнительные сведения см. в разделе [Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Orchestrator среды
 

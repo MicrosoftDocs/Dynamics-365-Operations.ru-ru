@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825875"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190072"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Поддержка доски переноса канбана для сканеров штрих-кодов
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825875"
 
 Доска переноса канбана поддерживает ввод данных сканера из мини-приложения сканера штрих-кодов для выбора операции начала, завершения и очистки задания канбана.
 
-<a name="registration-modes"></a>Режимы регистрации
-------------------
+## <a name="registration-modes"></a>Режимы регистрации
 
 На экспресс-вкладке **Регистрация сканера** вы можете выбрать режим регистрации, который контролирует действие, когда вы сканируете номер карты канбана или вручную вводите номер в поле "Номер карты канбана".
 
@@ -42,8 +41,7 @@ ms.locfileid: "5825875"
 | Выбрать                | Регистрация номера карты канбана и автоматический выбор задания по ссылке в списке канбана. |
 
  
-<a name="registration-mode-select"></a>Выбор режима регистрации
-------------------------
+## <a name="registration-mode-select"></a>Выбор режима регистрации
 
 При использовании считывателя штрих-кода для выбора задания, режим отображения доски канбан меняется. В этом режиме действуют следующие условия:
 

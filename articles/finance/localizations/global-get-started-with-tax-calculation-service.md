@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060571"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216727"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Начало работы с Расчет налогов (предварительная версия)
 
@@ -58,7 +58,7 @@ ms.locfileid: "6060571"
 Шаги данного раздела не относятся к конкретному юридическому лицу. Эту процедуру необходимо выполнить только один раз, и ее можно выполнить в любом юридическом лице в RCS.
 
 1. Войдите в [RCS](https://marketing.configure.global.dynamics.com/).
-2. В Finance в рабочей области **Электронная отчетность** добавьте нового поставщика конфигурации. В качестве имени поставщика используйте название своей компании. Дополнительные сведения см. в [Создание поставщиков конфигураций и пометка их как активных](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. В рабочей области **Электронная отчетность** добавьте нового поставщика конфигурации. В качестве имени поставщика используйте название своей компании. Дополнительные сведения см. в [Создание поставщиков конфигураций и пометка их как активных](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Выберите только что созданного поставщика конфигурации, затем выберите **Установить активной**.
 4. Выберите поставщика конфигурации **Microsoft**, затем выберите **Репозитории**.
 5. В поле **Тип** выберите **Глобальный**.

@@ -2,7 +2,7 @@
 title: Улучшение модели прогнозирования (предварительная версия)
 description: В этой теме описываются функции, которые можно использовать для повышения эффективности моделей прогноза.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810037"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186650"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Улучшение модели прогнозирования (предварительная версия)
 
@@ -77,9 +77,5 @@ ms.locfileid: "5810037"
 В настоящее время фильтры не поддерживают сценарий прогноза платежей клиентов. Поэтому выберите **Пропустить этот шаг** и перейдите на сводную страницу.
 
 [![Модель фокусировки с фильтрами](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Уведомление о конфиденциальности
-Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

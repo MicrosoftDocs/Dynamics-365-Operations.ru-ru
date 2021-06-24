@@ -4,23 +4,23 @@ description: Невозможно подтвердить отгрузку, по�
 author: perlynne
 ms.date: 04/21/2021
 ms.topic: troubleshooting
-ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm
+ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm,WHSContainerCloseDiag_WHSShipConfirm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5339b9d800f7454e2a00c230a8d5deca3979c074
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 625003731485329b93f5f9454ccece580c889613
+ms.sourcegitcommit: c2c6d687a89bc1534c029109315c23e92865b63b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938537"
+ms.lasthandoff: 05/31/2021
+ms.locfileid: "6123827"
 ---
 # <a name="you-cant-confirm-a-shipment-because-the-quantity-exceeds-the-underdelivery-percentage"></a>Невозможно подтвердить отгрузку, поскольку количество превышает процент недопоставки
 
-Код ошибки: WAX1687
+Код ошибки: WAX1686
 
 ## <a name="symptoms"></a>Симптомы
 

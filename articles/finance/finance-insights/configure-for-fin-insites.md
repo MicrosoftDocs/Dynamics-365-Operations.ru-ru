@@ -1,8 +1,8 @@
 ---
-title: Конфигурация для финансового анализа (предварительная версия)
-description: В этой теме описываются этапы настройки, которые позволят системе использовать возможности, доступные в финансовом анализе.
+title: Конфигурация для Finance Insights — версии до 10.0.19
+description: В этой теме описываются этапы настройки, которые позволят системе использовать возможности, доступные в Finance Insights для версий до 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941234"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186428"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Конфигурация для финансового анализа (предварительная версия)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941234"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> Следующие процедуры настройки Finance Insights действительны для версий Microsoft Dynamics 365 Finance до 10.0.19. Чтобы настроить Finance Insights в версии 10.0.20 и позже, см. раздел [Настройка для Finance Insights (предварительная версия) — версии 10.0.20 и старше](configure-for-fin-insites-PubPrvw.md).
+
 Финансовый анализ сочетает в себе функции из Microsoft Dynamics 365 Finance с Microsoft Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме описываются этапы настройки, которые позволят системе использовать возможности, доступные в финансовом анализе.
 
 ## <a name="deploy-dynamics-365-finance"></a>Разверните Dynamics 365 Finance
@@ -38,7 +41,7 @@ ms.locfileid: "5941234"
 
 1. В Microsoft Dynamics Lifecycle Services (LCS) создайте или обновите среду Dynamics 365 Finance. Среде требуется версия приложения 10.0.11/Platform Update 35 или более поздней версии.
 2. Среда должна быть средой с высокой доступностью (HA) в песочнице. (Этот тип среды также известен как среда уровня 2.) Дополнительные сведения см. в разделе [Планирование среды](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Если используются демонстрационные данные компании Contoso, для использования функций прогнозирования платежей клиентов, прогнозов движения денежных средств и прогнозов бюджета потребуется дополнительный образец данных. 
+3. При настройке Finance Insights в среде песочницы, возможно, потребуется скопировать в эту среду производственные данные, чтобы прогнозы работали. Модель прогнозирования использует несколько лет данных для создания прогнозов. Демонстрационные данные Contoso не содержат достаточно исторических данных для адекватной тренировки прогнозной модели. 
 
 ## <a name="configure-dataverse"></a>Настроить Dataverse
 

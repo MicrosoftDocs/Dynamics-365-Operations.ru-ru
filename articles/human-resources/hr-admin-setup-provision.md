@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053667"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193732"
 ---
 # <a name="provision-human-resources"></a>Обеспечение Human Resources
 
@@ -56,7 +56,7 @@ ms.locfileid: "6053667"
 1. Выполните вход в [LCS](https://lcs.dynamics.com/Logon/Index) с помощью учетной записи, используемой для подписки на Управление персоналом.
 
    > [!NOTE]
-   > Для обеспечения успешной подготовки учетная запись, используемая для подготовки к работе со средой Human Resources, должна быть назначена как роли **Системный администратор**, так и роли **Системный настройщик** в среде Power Apps, связанной со средой Human Resources. См. [Настройка безопасности пользователя для ресурсов](https://docs.microsoft.com/power-platform/admin/database-security) для дополнительных сведений о назначении ролей безопасности пользователям в Power Platform.
+   > Для обеспечения успешной подготовки учетная запись, используемая для подготовки к работе со средой Human Resources, должна быть назначена как роли **Системный администратор**, так и роли **Системный настройщик** в среде Power Apps, связанной со средой Human Resources. См. [Настройка безопасности пользователя для ресурсов](/power-platform/admin/database-security) для дополнительных сведений о назначении ролей безопасности пользователям в Power Platform.
 
 2. Выберите знак "плюс" (**+**) для создания проекта.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812844"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190168"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Номенклатура номеров и названий вариантов продуктов
 
@@ -188,8 +188,7 @@ ms.locfileid: "5812844"
 
 Во время одного этапа процесса конфигурации система предлагает значение конфигурация в соответствии с номенклатурой. На этом этапе можно вручную изменить значение конфигурации. При сохранении конфигурации система проверяет, является ли значение конфигурации уникальным. Если введенное значение не является уникальным, вы получите сообщение об ошибке. Чтобы сохранить конфигурацию, необходимо ввести уникальное значение конфигурации.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание номенклатуры номера продукта для заранее определенных вариантов продукта](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
