@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.20 (июль 2021 г.)
+title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.20 (август 2021 года)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123422"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187634"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.20 (июль 2021 г.)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.20 (август 2021 года)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123422"
 В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.20. Эта версия имеет номер сборки 10.0.886 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** май 2021 г.
-- **Общая доступность выпуска (самостоятельное обновление):** июнь 2021 г.
+- **Общая доступность выпуска (самостоятельное обновление):** июль 2021 года
 - **Общая доступность выпуска (автоматическое обновление):** июль 2021 года
+
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 

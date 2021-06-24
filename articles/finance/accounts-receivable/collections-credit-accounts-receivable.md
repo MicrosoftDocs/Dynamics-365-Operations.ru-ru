@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814256"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189453"
 ---
 # <a name="collections-in-accounts-receivable"></a>Сборы в расчетах с клиентами
 
@@ -99,8 +99,7 @@ ms.locfileid: "5814256"
 
 Дополнительные сведения см. в разделе [Создание журнала списания для клиента](tasks/create-write-off-journal-customer.md)
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Обработка платежей, не обеспеченных денежным покрытием 
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Обработка платежей, не обеспеченных денежным покрытием 
 
 Вы можете обрабатывать платежи с недостаточным финансированием на странице "Сборы". При нажатии этой кнопки платеж отменяется. Если к клиенту применим штраф за необеспеченность денежными средствами, в журнале платежей создается проводка по накладным расходам. Сумма штрафа зависит от настроек автоматических накладных расходов. Автоматические взыскания, применимые к необеспеченным денежными средствами платежам, указаны выбранной на странице "Банковские счета" группой накладных расходов для соответствующего банковского счета.
 

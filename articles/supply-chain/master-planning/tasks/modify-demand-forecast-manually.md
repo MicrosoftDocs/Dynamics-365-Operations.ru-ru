@@ -1,5 +1,5 @@
 ---
-title: Изменение прогноза спроса вручную
+title: 'Руководство: изменение прогноза спроса вручную'
 description: В этом разделе описывается, как внести изменения в прогноз для номенклатуры
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889032"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224018"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Изменение прогноза спроса вручную
+# <a name="guide-modify-a-demand-forecast-manually"></a>Руководство: изменение прогноза спроса вручную
 
 [!include [banner](../../includes/banner.md)]
 
-В этой процедуре показано, как внести изменения в прогноз для номенклатуры. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для планировщика производства.
+В этой процедуре показано, как внести изменения в прогноз для номенклатуры. Эта процедура предназначена для планировщика производства.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Изменение прогноза для выбранной номенклатуры
 
@@ -36,9 +36,9 @@ ms.locfileid: "5889032"
 1. Заполните соответствующим образом остальные поля.
 1. На панели операций выберите **Сохранить**.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Изменение прогноза для одной или нескольких номенклатур Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Изменение прогноза для одной или нескольких номенклатур с помощью Microsoft Excel
 
-Чтобы изменить прогноз для одной или нескольких номенклатур Microsoft Excel:
+Чтобы изменить прогноз для одной или нескольких номенклатур с помощью Microsoft Excel:
 
 1. Выполните одно из следующих действий.
     - Откройте страницу **прогноз спроса** для любой номенклатуры (но не имеет значения, какой из них), как описано в предыдущем разделе.

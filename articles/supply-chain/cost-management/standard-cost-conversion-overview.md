@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821449"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187610"
 ---
 # <a name="standard-cost-conversion-overview"></a>Обзор преобразования стандартных затрат
 
@@ -92,8 +92,7 @@ ms.locfileid: "5821449"
 -   Проанализируйте складские перемещения прошлым числом. Используйте отчет **Стоимость запасов** для просмотра складских проводок прошлым числом, которые были введены после преобразования. Начальная и конечная даты для отчета должны соответствовать дате начала перехода и дате преобразования, минус один день. Критерий выбора отчета должен отражать преобразованные номенклатуры. В отчете отображаются складские перемещения, выполненные при стандартных затратах в переходный период.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Предварительные требования для преобразования к стандартной себестоимости](prerequisites-standard-cost-conversion.md)
 

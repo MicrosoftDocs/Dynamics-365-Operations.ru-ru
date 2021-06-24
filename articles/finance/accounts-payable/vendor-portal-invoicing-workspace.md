@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73f16b00f2af884387e0b135f3b220179eecad86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a3f4729a8a788f4f5b2b2e9923f515b86590b946
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822451"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188816"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Рабочая области выставления накладных при совместной работе с поставщиками
 
@@ -31,8 +31,7 @@ ms.locfileid: "5822451"
 Рабочая область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщика и для представления накладных в системе с использованием возможностей рабочего процесса.
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>Рабочая область выставления накладных по совместной работе с поставщиками
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>Рабочая область выставления накладных по совместной работе с поставщиками
 
 ### <a name="summary-tiles"></a>Плитки сводки
 

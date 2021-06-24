@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816516"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189700"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Создание статистического базового прогноза
 
@@ -67,8 +67,7 @@ ms.locfileid: "5816516"
 > [!NOTE]
 > Потенциально плоско выглядящий прогноз может быть следствием того, что исторические данные должны быть за более длинный исторический интервал (минимум 3 временных периодов для выявления шаблонов, например 3 года для месячного прогноза). Чтобы получить более качественный результат, можно попробовать изменить детализацию временного диапазона или увеличить диапазон времени.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка прогнозирования спроса](demand-forecasting-setup.md)
 

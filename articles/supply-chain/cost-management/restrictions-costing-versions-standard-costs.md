@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9d828e2413a20c4e61d162a31d3c2ed2b18718b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821497"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187682"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Ограничения на версии учета затрат для стандартных затрат
 
@@ -39,8 +39,7 @@ ms.locfileid: "5821497"
 
 Данные о затратах по номенклатуре для стандартных затрат можно скопировать в другую версию цены, которая содержит стандартные затраты или плановые затраты. Однако данные о затратах для плановых затрат невозможно скопировать в версию цены, содержащую стандартные затраты, поскольку ограничения, перечисленные раньше в этом разделе, не применяются по отношению к плановым затратам.
 
-<a name="related-topics"></a>Связанные разделы
---------
+## <a name="related-topics"></a>Связанные разделы
 
 [Обзор версий учета затрат](costing-versions.md)
 

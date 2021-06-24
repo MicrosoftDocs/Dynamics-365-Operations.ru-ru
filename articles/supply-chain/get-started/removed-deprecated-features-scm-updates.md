@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947552"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193238"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5947552"
 
 ### <a name="job-card-device"></a>Карта задания — устройство
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Причина устаревания/удаления** | [Устройство карты задания](../production-control/config-job-card-device.md) заменяется новым [интерфейсом выполнения производственного цеха](../production-control/production-floor-execution-configure.md). |
 | **Заменена другой функцией?**   | Да, [устройство карты задания](../production-control/config-job-card-device.md) заменяется новым [интерфейсом выполнения производственного цеха](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ ms.locfileid: "5947552"
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Warehousing (приложение для склада)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Начиная с апреля 2021 года *Dynamics 365 for Finance and Operations - Warehousing* (приложение для склада) устарело и не будет поддерживаться после апреля 2022 года. Теперь оно заменено *мобильным приложением управления складом*, которое было выпущено с версией 10.0.17 Supply Chain Management. Новое приложение является полной заменой, но использует ту же самую базовую платформу, что делает миграцию простой. Если необходимо, два приложения могут использоваться параллельно, чтобы пользователи постепенно привыкали в процессе обучения использованию нового приложения.<br><br>Дополнительные сведения о том, как настроить новое мобильное приложение управления складом, см. в темах [Мобильное приложение управления складом](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) и [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md). |
 | **Заменена другой функцией?**   | Да, заменено новым мобильным приложением управления складом. |
@@ -62,7 +62,7 @@ ms.locfileid: "5947552"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Поддержка Internet Explorer 11 для Dynamics 365 устарела
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Начиная с декабря 2020 года поддержка Microsoft Internet Explorer 11 всех продуктов Dynamics 365 устарела, и Internet Explorer 11 не будет поддерживаться после августа 2021 года.<br><br>Это повлияет на клиентов, использующих продукты Dynamics 365, которые разработаны для использования с помощью интерфейса Internet Explorer 11. После августа 2021 года Internet Explorer 11 не будет поддерживаться для подобных продуктов Dynamics 365. |
 | **Заменена другой функцией?**   | Мы рекомендуем пользователям переходить на Microsoft Edge.|
@@ -72,7 +72,7 @@ ms.locfileid: "5947552"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Для сценариев производства используйте встроенный механизм сводного планирования Supply Chain Management
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Для повышения производительности и минимизации нагрузки на базу данных SQL во время сводного планирования, встроенный механизм сводного планирования Supply Chain Management заменяется оптимизацией планирования. Оптимизация планирования позволяет быстро планировать даже в рабочие часы. Это позволяет планировщикам быстро реагировать на изменения в параметрах спроса или планирования. |
 | **Заменена другой функцией?**   | Да, оптимизация планирования заменит существующий встроенный механизм сводного планирования Supply Chain Management. |
@@ -84,7 +84,7 @@ ms.locfileid: "5947552"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Для сценариев распределения используйте встроенный механизм сводного планирования Supply Chain Management.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Для повышения производительности и минимизации нагрузки на базу данных SQL во время сводного планирования, встроенный механизм сводного планирования Supply Chain Management заменяется оптимизацией планирования. Оптимизация планирования позволяет быстро планировать даже в рабочие часы. Это позволяет планировщикам быстро реагировать на изменения в параметрах спроса или планирования. |
 | **Заменена другой функцией?**   | Да, оптимизация планирования заменит существующий встроенный механизм сводного планирования Supply Chain Management. |

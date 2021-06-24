@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822911"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188005"
 ---
 # <a name="overhead-calculation"></a>Расчет накладных расходов
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822911"
 
 В этом разделе описываются типовые процессы расчета и распределения накладных расходов.
 
-<a name="term-definition"></a>Определение термина
----------------
+## <a name="term-definition"></a>Определение термина
 
 Накладные расходы представляют собой затраты, понесенных с целью ведения бизнеса, которые, однако, нельзя отнести напрямую к какой-либо определенной деловой активности, продукту или услуге. Накладные расходы предоставляют важную поддержку для создания действий, создающих прибыль. Ниже приведены несколько примеров накладных расходов.
 

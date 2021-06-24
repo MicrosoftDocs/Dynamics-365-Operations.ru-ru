@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838378"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164854"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Создание заказов на перемещение из приложения склада
 
@@ -330,7 +330,6 @@ ms.locfileid: "5838378"
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Можно ли использовать грузоместо с физически отрицательным запасом в наличии?
 
-Эта функция поддерживает только положительные физические количества в наличии. Убедитесь, что на складе и в уровне статуса запасов имеются положительные физические количества в наличии, прежде чем назначать грузоместа заказу на перемещение.
-
+Эта функция поддерживает только положительные физические количества в наличии на уровне грузомест, но при назначении грузомест заказам на перемещения могут быть физически отрицательные количества в наличии на более высоких уровнях склада и статуса запасов.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
