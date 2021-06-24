@@ -15,76 +15,75 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afd771f3f2f0434aa3663a9f99512f0c31adbb78
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 76b20c895519edb7316c2b9a6b223a109a307e77
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826938"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189405"
 ---
-# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="6ea3b-103">Методы амортизации и соглашения по амортизации</span><span class="sxs-lookup"><span data-stu-id="6ea3b-103">Depreciation methods and conventions</span></span>
+# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="075b8-103">Методы амортизации и соглашения по амортизации</span><span class="sxs-lookup"><span data-stu-id="075b8-103">Depreciation methods and conventions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6ea3b-104">В этой статье представлен обзор поддерживаемых соглашений по амортизации и методы амортизации.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-104">This article provides an overview of the supported depreciation conventions and depreciation methods.</span></span>
+<span data-ttu-id="075b8-104">В этой статье представлен обзор поддерживаемых соглашений по амортизации и методы амортизации.</span><span class="sxs-lookup"><span data-stu-id="075b8-104">This article provides an overview of the supported depreciation conventions and depreciation methods.</span></span>
 
-<span data-ttu-id="6ea3b-105">Можно выбрать различные методы амортизации и соглашения.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="6ea3b-106">Назначение методов отнести амортизируемую стоимость основных средств к финансовым периодам.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="6ea3b-107">Общая цена приобретения основных средств, за вычетом ликвидационной стоимости, если она имеется.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
+<span data-ttu-id="075b8-105">Можно выбрать различные методы амортизации и соглашения.</span><span class="sxs-lookup"><span data-stu-id="075b8-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="075b8-106">Назначение методов отнести амортизируемую стоимость основных средств к финансовым периодам.</span><span class="sxs-lookup"><span data-stu-id="075b8-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="075b8-107">Общая цена приобретения основных средств, за вычетом ликвидационной стоимости, если она имеется.</span><span class="sxs-lookup"><span data-stu-id="075b8-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
 
-<span data-ttu-id="6ea3b-108">Если при использовании соглашений по амортизации будет изменена последняя дата начала амортизации для активов, который затем вызывает пропуск некоторых амортизаций, амортизации за последний год могут быть больше или меньше ожидаемых.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="6ea3b-109">Амортизация регулируется числом периодов амортизации, затронутых модификацией последней даты начала амортизации.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
+<span data-ttu-id="075b8-108">Если при использовании соглашений по амортизации будет изменена последняя дата начала амортизации для активов, который затем вызывает пропуск некоторых амортизаций, амортизации за последний год могут быть больше или меньше ожидаемых.</span><span class="sxs-lookup"><span data-stu-id="075b8-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="075b8-109">Амортизация регулируется числом периодов амортизации, затронутых модификацией последней даты начала амортизации.</span><span class="sxs-lookup"><span data-stu-id="075b8-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
 
-<span data-ttu-id="6ea3b-110">Например, если используется полугодовое соглашение по амортизации на три года, срок амортизации обычно составляет около 3,5 лет.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="6ea3b-111">При изменении последней даты начала амортизации в течение 3,5 лет в последнем году амортизации сдвигается число затронутых периодов.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="6ea3b-112">Если дата сдвигается на 3 месяцев, в последнем году сумма затрат составит 9 месяцев амортизации, когда обычно была бы стоимость 6 месяцев амортизации.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
+<span data-ttu-id="075b8-110">Например, если используется полугодовое соглашение по амортизации на три года, срок амортизации обычно составляет около 3,5 лет.</span><span class="sxs-lookup"><span data-stu-id="075b8-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="075b8-111">При изменении последней даты начала амортизации в течение 3,5 лет в последнем году амортизации сдвигается число затронутых периодов.</span><span class="sxs-lookup"><span data-stu-id="075b8-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="075b8-112">Если дата сдвигается на 3 месяцев, в последнем году сумма затрат составит 9 месяцев амортизации, когда обычно была бы стоимость 6 месяцев амортизации.</span><span class="sxs-lookup"><span data-stu-id="075b8-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
 
-<span data-ttu-id="6ea3b-113">Можно выбрать из следующих соглашений по амортизации.</span><span class="sxs-lookup"><span data-stu-id="6ea3b-113">You can select from the following depreciation conventions.</span></span>
-
-
--   <span data-ttu-id="6ea3b-114">Полугодие</span><span class="sxs-lookup"><span data-stu-id="6ea3b-114">Half year</span></span>
--   <span data-ttu-id="6ea3b-115">Полный месяц</span><span class="sxs-lookup"><span data-stu-id="6ea3b-115">Full month</span></span>
--   <span data-ttu-id="6ea3b-116">Середина квартала</span><span class="sxs-lookup"><span data-stu-id="6ea3b-116">Mid quarter</span></span>
--   <span data-ttu-id="6ea3b-117">Середина месяца (1 число месяца)</span><span class="sxs-lookup"><span data-stu-id="6ea3b-117">Mid month (1st of month)</span></span>
--   <span data-ttu-id="6ea3b-118">Середина месяца (15 число месяца)</span><span class="sxs-lookup"><span data-stu-id="6ea3b-118">Mid month (15th of month)</span></span>
--   <span data-ttu-id="6ea3b-119">Полгода (начало года)</span><span class="sxs-lookup"><span data-stu-id="6ea3b-119">Half year (start of year)</span></span>
--   <span data-ttu-id="6ea3b-120">Половина года (следующий год)</span><span class="sxs-lookup"><span data-stu-id="6ea3b-120">Half year (next year)</span></span>
-
-<span data-ttu-id="6ea3b-121">Можно выбрать один из следующих методов амортизации:</span><span class="sxs-lookup"><span data-stu-id="6ea3b-121">You can select from the following depreciation methods.</span></span>
--   <span data-ttu-id="6ea3b-122">Срок службы (прямолинейный метод)</span><span class="sxs-lookup"><span data-stu-id="6ea3b-122">Straight line service life</span></span>
--   <span data-ttu-id="6ea3b-123">Уменьшаемое сальдо</span><span class="sxs-lookup"><span data-stu-id="6ea3b-123">Reducing balance</span></span>
--   <span data-ttu-id="6ea3b-124">Ручная</span><span class="sxs-lookup"><span data-stu-id="6ea3b-124">Manual</span></span>
--   <span data-ttu-id="6ea3b-125">Множитель</span><span class="sxs-lookup"><span data-stu-id="6ea3b-125">Factor</span></span>
--   <span data-ttu-id="6ea3b-126">Себестоимость</span><span class="sxs-lookup"><span data-stu-id="6ea3b-126">Consumption</span></span>
--   <span data-ttu-id="6ea3b-127">Оставшийся срок службы прямолинейный метод</span><span class="sxs-lookup"><span data-stu-id="6ea3b-127">Straight line life remaining</span></span>
--   <span data-ttu-id="6ea3b-128">Уменьшаемое сальдо в 200%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-128">200% reducing balance</span></span>
--   <span data-ttu-id="6ea3b-129">Уменьшаемое сальдо в 175%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-129">175% reducing balance</span></span>
--   <span data-ttu-id="6ea3b-130">Уменьшаемый остаток в 150%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-130">150% reducing balance</span></span>
--   <span data-ttu-id="6ea3b-131">Уменьшаемое сальдо в 125%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-131">125% reducing balance</span></span>
+<span data-ttu-id="075b8-113">Можно выбрать из следующих соглашений по амортизации.</span><span class="sxs-lookup"><span data-stu-id="075b8-113">You can select from the following depreciation conventions.</span></span>
 
 
+-   <span data-ttu-id="075b8-114">Полугодие</span><span class="sxs-lookup"><span data-stu-id="075b8-114">Half year</span></span>
+-   <span data-ttu-id="075b8-115">Полный месяц</span><span class="sxs-lookup"><span data-stu-id="075b8-115">Full month</span></span>
+-   <span data-ttu-id="075b8-116">Середина квартала</span><span class="sxs-lookup"><span data-stu-id="075b8-116">Mid quarter</span></span>
+-   <span data-ttu-id="075b8-117">Середина месяца (1 число месяца)</span><span class="sxs-lookup"><span data-stu-id="075b8-117">Mid month (1st of month)</span></span>
+-   <span data-ttu-id="075b8-118">Середина месяца (15 число месяца)</span><span class="sxs-lookup"><span data-stu-id="075b8-118">Mid month (15th of month)</span></span>
+-   <span data-ttu-id="075b8-119">Полгода (начало года)</span><span class="sxs-lookup"><span data-stu-id="075b8-119">Half year (start of year)</span></span>
+-   <span data-ttu-id="075b8-120">Половина года (следующий год)</span><span class="sxs-lookup"><span data-stu-id="075b8-120">Half year (next year)</span></span>
+
+<span data-ttu-id="075b8-121">Можно выбрать один из следующих методов амортизации:</span><span class="sxs-lookup"><span data-stu-id="075b8-121">You can select from the following depreciation methods.</span></span>
+-   <span data-ttu-id="075b8-122">Срок службы (прямолинейный метод)</span><span class="sxs-lookup"><span data-stu-id="075b8-122">Straight line service life</span></span>
+-   <span data-ttu-id="075b8-123">Уменьшаемое сальдо</span><span class="sxs-lookup"><span data-stu-id="075b8-123">Reducing balance</span></span>
+-   <span data-ttu-id="075b8-124">Ручная</span><span class="sxs-lookup"><span data-stu-id="075b8-124">Manual</span></span>
+-   <span data-ttu-id="075b8-125">Множитель</span><span class="sxs-lookup"><span data-stu-id="075b8-125">Factor</span></span>
+-   <span data-ttu-id="075b8-126">Себестоимость</span><span class="sxs-lookup"><span data-stu-id="075b8-126">Consumption</span></span>
+-   <span data-ttu-id="075b8-127">Оставшийся срок службы прямолинейный метод</span><span class="sxs-lookup"><span data-stu-id="075b8-127">Straight line life remaining</span></span>
+-   <span data-ttu-id="075b8-128">Уменьшаемое сальдо в 200%</span><span class="sxs-lookup"><span data-stu-id="075b8-128">200% reducing balance</span></span>
+-   <span data-ttu-id="075b8-129">Уменьшаемое сальдо в 175%</span><span class="sxs-lookup"><span data-stu-id="075b8-129">175% reducing balance</span></span>
+-   <span data-ttu-id="075b8-130">Уменьшаемый остаток в 150%</span><span class="sxs-lookup"><span data-stu-id="075b8-130">150% reducing balance</span></span>
+-   <span data-ttu-id="075b8-131">Уменьшаемое сальдо в 125%</span><span class="sxs-lookup"><span data-stu-id="075b8-131">125% reducing balance</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="6ea3b-132">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="6ea3b-132">Additional resources</span></span>
---------
 
-[<span data-ttu-id="6ea3b-133">Амортизация ОС</span><span class="sxs-lookup"><span data-stu-id="6ea3b-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="6ea3b-134">Линейная амортизация в течение срока службы</span><span class="sxs-lookup"><span data-stu-id="6ea3b-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
+## <a name="additional-resources"></a><span data-ttu-id="075b8-132">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="075b8-132">Additional resources</span></span>
 
-[<span data-ttu-id="6ea3b-135">Амортизация с уменьшаемым остатком</span><span class="sxs-lookup"><span data-stu-id="6ea3b-135">Reduce balance depreciation</span></span>](reduce-balance-depreciation.md)
+[<span data-ttu-id="075b8-133">Амортизация ОС</span><span class="sxs-lookup"><span data-stu-id="075b8-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="6ea3b-136">Ручная амортизация</span><span class="sxs-lookup"><span data-stu-id="6ea3b-136">Manual depreciation</span></span>](manual-depreciation.md)
+[<span data-ttu-id="075b8-134">Линейная амортизация в течение срока службы</span><span class="sxs-lookup"><span data-stu-id="075b8-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
 
-[<span data-ttu-id="6ea3b-137">Коэффициент амортизации</span><span class="sxs-lookup"><span data-stu-id="6ea3b-137">Factor depreciation</span></span>](factor-depreciation.md)
+[<span data-ttu-id="075b8-135">Амортизация с уменьшаемым остатком</span><span class="sxs-lookup"><span data-stu-id="075b8-135">Reduce balance depreciation</span></span>](reduce-balance-depreciation.md)
 
-[<span data-ttu-id="6ea3b-138">Амортизация потребления</span><span class="sxs-lookup"><span data-stu-id="6ea3b-138">Consumption depreciation</span></span>](consumption-depreciation.md)
+[<span data-ttu-id="075b8-136">Ручная амортизация</span><span class="sxs-lookup"><span data-stu-id="075b8-136">Manual depreciation</span></span>](manual-depreciation.md)
 
-[<span data-ttu-id="6ea3b-139">Линейная амортизация с уменьшаемым остатком</span><span class="sxs-lookup"><span data-stu-id="6ea3b-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
+[<span data-ttu-id="075b8-137">Коэффициент амортизации</span><span class="sxs-lookup"><span data-stu-id="075b8-137">Factor depreciation</span></span>](factor-depreciation.md)
 
-[<span data-ttu-id="6ea3b-140">Амортизация с уменьшаемым остатком в 125%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="075b8-138">Амортизация потребления</span><span class="sxs-lookup"><span data-stu-id="075b8-138">Consumption depreciation</span></span>](consumption-depreciation.md)
 
-[<span data-ttu-id="6ea3b-141">Амортизация с уменьшаемым остатком в 150%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="075b8-139">Линейная амортизация с уменьшаемым остатком</span><span class="sxs-lookup"><span data-stu-id="075b8-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
 
-[<span data-ttu-id="6ea3b-142">Амортизация с уменьшаемым остатком в 175%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="075b8-140">Амортизация с уменьшаемым остатком в 125%</span><span class="sxs-lookup"><span data-stu-id="075b8-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="6ea3b-143">Амортизация с уменьшаемым остатком в 200%</span><span class="sxs-lookup"><span data-stu-id="6ea3b-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="075b8-141">Амортизация с уменьшаемым остатком в 150%</span><span class="sxs-lookup"><span data-stu-id="075b8-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+
+[<span data-ttu-id="075b8-142">Амортизация с уменьшаемым остатком в 175%</span><span class="sxs-lookup"><span data-stu-id="075b8-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+
+[<span data-ttu-id="075b8-143">Амортизация с уменьшаемым остатком в 200%</span><span class="sxs-lookup"><span data-stu-id="075b8-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
 
 
 
