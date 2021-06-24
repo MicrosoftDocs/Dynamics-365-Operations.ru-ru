@@ -94,7 +94,7 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (июль 2021 г.)
+                    - name: Commerce 10.0.20 (август 2021 г.)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (июнь 2021 г.)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Требования к управлению версиями компонентов Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Архитектура Commerce Scale Unit
+                - name: Архитектура консольной подсистемы Commerce
                   href: dev-itpro/retail-server-architecture.md
                 - name: Выбор топологии в магазине
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,7 +258,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Архитектура Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Архитектура публикации в интернет-магазинах
+                - name: Публикация канала интернет-магазина
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Содержимое Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: Поддержка платежей с помощью кошелька
                       href: wallets.md
+                    - name: Расширенные платежи при оформлении заказа в магазине
+                      href: dev-itpro/enhanced-sca.md
                     - name: Вопросы и ответы по платежам
                       href: dev-itpro/payments-retail.md
                 - name: Электронная почта и уведомления
@@ -772,9 +774,13 @@
                   href: tasks/use-continuity-program.md
                 - name: Включение уведомлений о возврате клиентов в POS-терминале
                   href: enable-customer-check-in.md
-            - name: Возвраты
+            - name: Возвраты товаров и денежных средств
               items:
-                - name: Связанные возвраты
+                - name: Создание возвратов в POS-терминале
+                  href: POS-returns.md
+                - name: 'Возврат продуктов, контролируемых по серийным номерам, в POS-терминале'
+                  href: POS-serial-returns.md
+                - name: Связанные возвраты денежных средств
                   href: dev-itpro/linked-refunds.md
                 - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
                   href: sell-return-outside-assortments.md
@@ -1230,6 +1236,8 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
@@ -1238,9 +1246,11 @@
               items:
                 - name: Локализация Commerce для Бразилии
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Настройка и развертывание локализации Commerce для Бразилии
+                  href: localizations/latam-bra-deployment.md
             - name: Восточная Европа
               items:
-                - name: Общие сведения
+                - name: Общее
                   items:
                     - name: Авансовые счета для Commerce для Восточной Европы
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Создание печатаемых форм накладных с произвольным текстом (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Разработка эффективных решений электронной отчетности
+                  items:
+                    - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Устранение проблем с производительностью в конфигурациях электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Управление бизнес-документами (BDM)
                   items:
                     - name: Обзор BDM
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: Вопросы и ответы по Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Расширяемость POS
+            - name: Расширяемость POS-терминала
               items:
                 - name: Макеты экрана POS
                   href: pos-screen-layouts.md

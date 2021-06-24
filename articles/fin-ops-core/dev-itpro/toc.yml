@@ -14,7 +14,7 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для версии 10.0.20 (июль 2021 г.)
+                - name: Обновления платформы для версии 10.0.20 (август 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Обновления платформы для 10.0.19 (июнь 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: Трассировка с помощью Trace Parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: Однопользовательское тестирование с помощью регистратора задач и пакета Performance SDK
+                - name: Однопользовательское тестирование с помощью пакета Performance SDK и регистратора задач
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Многопользовательское тестирование с помощью пакета Performance SDK с локальным контроллером тестирования
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Многопользовательское тестирование с помощью пакета Performance SDK и Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Многопользовательское тестирование с помощью пакета Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: Руководство по устранению неполадок при тестировании с помощью пакета Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Пакет Performance SDK и многопользовательское тестирование в локальных средах
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Создание пакетных заданий
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Включение автоматических повторов для пакетных заданий
+                  href: sysadmin/retryable-batch.md
                 - name: Копирование пакетного задания
                   href: sysadmin/copy-batch-job.md
                 - name: Активные периоды пакета
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Обновление AX 2012 — контрольный список перед обновлением для обновления данных
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Обновление AX 2012 — обновление данных в средах "песочниц" с использованием процесса DACPAC
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Обновление AX 2012 — репликация транзакций SQL
                   href: database/replication-setup.md
-                - name: Обновление AX 2012 — обновление данных в средах "песочницы"
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Обновление с AX 2012 — обновление данных в средах с самообслуживанием
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: Обновление AX 2012 — локальные среды
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Обновление AX 2012 — тестирование переключения

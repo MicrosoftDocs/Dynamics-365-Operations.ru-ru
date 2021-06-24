@@ -72,13 +72,11 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
-                    - name: "Finance 10.0.20 (июль 2021\_г.)"
+                    - name: Finance 10.0.20 (август 2021 г.)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: "Finance 10.0.19 (июль 2021\_г.)"
+                    - name: Finance 10.0.19 (июнь 2021 г.)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (май 2021 г.)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: "Finance 10.0.17 (апрель 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Удаленные или устаревшие функции
               items:
@@ -1216,6 +1214,8 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Конфигурация и администрирование
               items:
+                - name: Настройка Finance Insights для общедоступной предварительной версии
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
                 - name: Настройка Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Включение прогнозов платежей клиентов
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Электронное выставление накладных
                   items:
                     - name: Обзор электронного выставления накладных
@@ -1474,8 +1476,10 @@
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Выдача электронных накладных в Finance и Supply Chain Management
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Создание учетной записи хранения Azure и Key Vault
+                    - name: Создание учетной записи хранения Azure и хранилища ключей
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: Панель мониторинга управления использованием
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Начало работы
                       items:
                         - name: Начало работы с администрированием службы электронного выставления накладных
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: Неверный код налоговой проводки
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: Неправильные значения полей в отчете GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: Неправильное значение поля в журнале накладных или операции по накладной
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: Неверный счет учета в операции
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: Открытие конструктора для текущей конфигурации налога
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: Записи и поля не отображаются в отчете GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: Ошибка правила возмещения при выполнении сопоставления налога
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: Прямые налоги
                   items:
                     - name: Подоходный налог Индии
                       items:
-                        - name: Включение GST при расчете налоговых вычетов
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: Включение GST при расчете налоговых сборов
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Вопросы и ответы по налоговым порогам
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: TCS на продажу товаров
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: TCS Индии
+                          items:
+                            - name: TCS на продажу товаров
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: Включение GST при расчете налоговых сборов
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS Индии
+                          items:
+                            - name: 'Обзор индийского налога, удержанного из источника (TDS)'
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: Включение GST при расчете налоговых вычетов
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: Базовая настройка для TDS
+                              items:
+                                - name: Настройка параметров TDS
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: Настройка счетов ГК TDS
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: Настройка регистрационных номеров TDS для юридических лиц
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Настройка органов подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Настройка компонентов налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: Настройка кодов подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Настройка периодов сопоставления подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: Настройка кодов отчетности подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: Настройка кодов подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: Прикрепление налоговых кодов TDS к налоговым группам TDS и определение формулы для расчета TDS
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: Запись номеров концессионных сертификатов TDS
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: Настройка параметров TDS в модулях "Расчеты с поставщиками" и "Расчеты с клиентами"
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: Настройка графиков оплаты с распределением TDS
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: Настройка сборов по платежам для платежей в органы TDS
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'Настройка сведений о группе TDS, PAN и TAN для поставщиков и клиентов'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: Конструктор формул и пороговый лимит для расчета TDS
+                                  items: null
+                                - name: Конструктор формул для расчетов TDS
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: Пороговый лимит и пороговый лимит исключения
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: Расчет TDS в накладных
+                              items:
+                                - name: Расчет TDS в накладных
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: Расчет TDS в накладных с помощью журналов
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: Расчет накладных TDS с помощью формы заказа на покупку и формы заказа на продажу
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: Расчет TDS в накладных на странице "Накладная с произвольным текстом"
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: Функциональность разделения накладной
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: Расчет TDS в платежах и простых векселях
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: Расчет TDS во внутрихолдинговых проводках
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: Процесс сопоставления TDS
+                              items:
+                                - name: Расчет TDS в платежах и простых векселях
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: Расчет TDS во внутрихолдинговых проводках
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: Запуск периодического процесса сопоставления TDS
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: Сопоставление платежей TDS с поставщиками органов TDS и создание TDS challan
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: Просмотр разнесенных платежей TDS и проводок за период сопоставления TDS
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: Основные средства
                   items:
                     - name: Обзор основных средств Индии
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Перенос единиц основного капитала в ОС
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: TDS Индии
-                  items:
-                    - name: 'Обзор индийского налога, удержанного из источника (TDS)'
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: Базовая настройка для TDS
+                    - name: Запись и обновление номеров сертификатов и дат TDS
                       items:
-                        - name: Настройка параметров TDS
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: Настройка счетов ГК TDS
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: Настройка регистрационных номеров TDS для юридических лиц
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: Настройка органов подоходного налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Настройка компонентов налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: Настройка кодов подоходного налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Настройка периодов сопоставления подоходного налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: Настройка кодов отчетности подоходного налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: Настройка кодов подоходного налога для типа налога TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: Прикрепление налоговых кодов TDS к налоговым группам TDS и определение формулы для расчета TDS
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: Запись номеров концессионных сертификатов TDS
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: Настройка параметров TDS в модулях "Расчеты с поставщиками" и "Расчеты с клиентами"
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: Настройка графиков оплаты с распределением TDS
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: Настройка сборов по платежам для платежей в органы TDS
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'Настройка сведений о группе TDS, PAN и TAN для поставщиков и клиентов'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: Конструктор формул и пороговый лимит для расчета TDS
-                      items:
-                        - name: Конструктор формул для расчетов TDS
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: Пороговый лимит и пороговый лимит исключения
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: Расчет TDS в накладных
-                      items:
-                        - name: Расчет TDS в накладных
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: Расчет TDS в накладных с помощью журналов
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: Расчет накладных TDS с помощью формы заказа на покупку и формы заказа на продажу
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: Расчет TDS в накладных на странице "Накладная с произвольным текстом"
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: Функциональность разделения накладной
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: Расчет TDS в платежах и простых векселях
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: Расчет TDS во внутрихолдинговых проводках
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: Процесс сопоставления TDS
-                      items:
-                        - name: Расчет TDS в платежах и простых векселях
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: Расчет TDS во внутрихолдинговых проводках
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: Процесс сопоставления TDS
-                          items:
-                            - name: Запуск периодического процесса сопоставления TDS
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: Сопоставление платежей TDS с поставщиками органов TDS и создание TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: Просмотр разнесенных платежей TDS и проводок за период сопоставления TDS
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: Запись и обновление номеров сертификатов и дат TDS
-                          items:
-                            - name: Запись номеров возмещаемых сертификатов TDS
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: Обновление номеров и дат сертификатов для проводок TDS
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: Запись номеров возмещаемых сертификатов TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: Обновление номеров и дат сертификатов для проводок TDS
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Италия
               items:
                 - name: Обзор по Италии
@@ -4165,8 +4181,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Создание печатаемых форм накладных с произвольным текстом (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Разработка эффективных решений электронной отчетности
+                  items:
+                    - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: Устранение проблем с производительностью в конфигурациях электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Управление бизнес-документами (BDM)
                   items:
                     - name: Обзор BDM
