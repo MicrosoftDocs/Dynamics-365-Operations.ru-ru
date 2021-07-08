@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Обновления платформы для 10.0.18 (май 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Обновления платформы для 10.0.17 (апрель 2021 г.)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Предоставление хранилища объектов как Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Изменение данных в Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Операции перемещения баз данных
           items:
             - name: Обзор
