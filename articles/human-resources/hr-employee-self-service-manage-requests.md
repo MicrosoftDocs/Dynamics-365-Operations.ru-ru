@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057366"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303252"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Управление запросами на отпуска и отсутствие
 
@@ -34,11 +34,9 @@ ms.locfileid: "6057366"
 
 3. При необходимости просмотрите и утвердите запросы на отсутствие участников своей команды.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Предварительная версия) Усовершенствования в работе workflow-процесса запроса на отпуск
+## <a name="leave-request-workflow-experience-enhancements"></a>Усовершенствования в работе workflow-процесса запроса на отпуск
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Эта предварительная версия функции предоставляет следующие усовершенствования:
+Эта функция предоставляет следующие усовершенствования:
 
 - Можно выбрать несколько запросов на отпуск и выполнить одно и то же действие по отношению ко всем.
 - Лента в верхней части и кнопка нового workflow-процесса на странице отображает действия, которые можно сделать для запросов на отпуск.

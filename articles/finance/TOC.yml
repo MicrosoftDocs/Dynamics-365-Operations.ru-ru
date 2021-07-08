@@ -1182,7 +1182,7 @@
               href: general-ledger/trial-balance-financial-reports.md
             - name: Просмотр финансовых отчетов
               href: general-ledger/view-financial-reports.md
-            - name: Интерфейс конструктора отчетов
+            - name: Интерфейс Report Designer
               href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
             - name: Сочетания клавиш для конструктора финансовых отчетов
               href: general-ledger/financial-reporting-keyboard-shortcuts.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service — удаление среды RCS
+                      href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Электронное выставление накладных
@@ -1476,7 +1478,7 @@
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Выдача электронных накладных в Finance и Supply Chain Management
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Создание учетной записи хранения Azure и хранилища ключей
+                    - name: Создание учетной записи хранения Azure и Key Vault
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Панель мониторинга управления использованием
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Отчет ЕС по НДС
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Отчетность Соединенного Королевства
+                          items:
+                            - name: Подготовка к интеграции с MTD для НДС
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
             - name: Австралия
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Резервы безнадежной задолженности в модуле расчетов с клиентами
+                      href: localizations/rus-bad-debts.md
             - name: Саудовская Аравия
               items:
                 - name: Обзор по Саудовской Аравии
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: 'Настройка налоговых групп для НДС, удерживаемого с покупателя'
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Making Tax Digital для НДС
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Статистика по отчету о методах оплаты
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: США
@@ -3665,11 +3671,17 @@
               items:
                 - name: Язык формул
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Поддерживаемые типы данных для формул электронной отчетности
+                  items:
+                    - name: Простые типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Составные типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Функции
                   items:
                     - name: Контейнер
                       items:
-                        - name: Контейнерные функции
+                        - name: Функции контейнера
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Разработка форматов электронной отчетности для создания исходящих документов в различных форматах
               items:
+                - name: Разработка конфигурации для создания отчетов в формате OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для создания исходящих документов в формате Excel
                   items:
                     - name: Разработка конфигурации для создания документов в формате Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Пример создания отчетов в формате OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Динамическое добавление столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
@@ -4211,12 +4223,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Обновление приложения 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Обновление приложения 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Делегирование создания назначения электронной отчетности пользовательской фабрике назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                    - name: Реализация пользовательского места назначения для создаваемых документов
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Мобильное приложение

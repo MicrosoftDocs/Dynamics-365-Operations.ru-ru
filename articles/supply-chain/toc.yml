@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (май 2021 г.)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (апрель 2021 г.)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -234,7 +232,7 @@
                       href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Выдача электронных накладных в Finance и Supply Chain Management
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Создание учетной записи службы хранилища Azure и хранилища ключей
+                    - name: Создание учетной записи хранения Azure и Key Vault
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Панель мониторинга управления использованием
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Использование рабочей области управления затратами для мобильного приложения Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Глобальный учет запасов
+          items:
+            - name: Домашняя страница глобального учета запасов
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Начало работы с глобальным учетом запасов
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: 'Бизнес-документы, поддерживаемые глобальным учетом запасов'
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Включение Power BI для глобального учета запасов
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Соглашения
+              href: global-inventory-accounting/conventions.md
+            - name: Книга глобального учета запасов
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Управление затратами
           items:
             - name: Домашняя страница управления затратами
@@ -873,11 +885,17 @@
               items:
                 - name: Язык формул
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Поддерживаемые типы данных для формул электронной отчетности
+                  items:
+                    - name: Простые типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Составные типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Функции
                   items:
                     - name: Контейнер
                       items:
-                        - name: Контейнерные функции
+                        - name: Функции контейнера
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
@@ -1417,12 +1435,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Обновление приложения 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Обновление приложения 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Делегирование создания назначения электронной отчетности пользовательской фабрике назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Реализация пользовательского места назначения для создаваемых документов
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Управление запасами
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Допуск задержки (отрицательные дни)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Заявки на покупку
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Планирование производства
@@ -1603,11 +1627,13 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Исключение продуктов с определенными состояниями жизненного цикла продукта
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Методы пополнения и изменение количества
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Временные границы покрытия
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Утверждение спланированных заказов
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Утверждение спланированных заказов
+                - name: Утвержденные спланированные заказы
                   href: master-planning/planning-optimization/planned-order-firming.md
                 - name: Планирование с отрицательными количествами в наличии
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Импорт входящих ASN с помощью информационного объекта V2
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Кросс-докинг продуктов со склада приемки в магазины
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Настройка директивы местонахождения для размещения заказа на покупку
@@ -3211,10 +3239,12 @@
                       href: warehousing/cycle-counting.md
                     - name: Определение цикличного подсчета
                       href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                    - name: Частичный цикличный подсчет по ячейкам
+                    - name: Частичный подсчет циклов по местонахождениям
                       href: warehousing/partial-location-cycle-counting.md
-                    - name: Определение процесса частичного цикличного подсчета по местонахождениям
+                    - name: Определение процесса частичного подсчета циклов по местонахождениям
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Примеры сценариев подсчета циклов
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Задание очистки записей в наличии для управления складом
                       href: warehousing/onhand-cleanup.md
                     - name: Журналы запасов
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Устранение неполадок с работой склада
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Приложение склада
+              items:
+                - name: 'Установка, настройка и использование мобильных устройств'
+                  items:
+                    - name: Что нового и что изменилось в мобильном приложении Warehouse Management
+                      href: warehousing/whats-new-wma.md
+                    - name: Установка и подключение мобильного приложения Warehouse Management
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Установка и подключение приложения склада
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Сканирование штрих-кодов с помощью камеры в мобильном приложении Warehouse Management
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Устранение неполадок при подключении мобильного приложения Warehouse Management
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Настройка полей и меню для мобильных устройств
+                  items:
+                    - name: Настройка полей для мобильного приложения Warehouse Management
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Настройка мобильных устройств для работы склада
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Получение грузомест с помощью мобильного приложения Warehouse Management
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Настройка пункта меню мобильного устройства для предоставления обзора строк комплектации
+                      href: warehousing/pick-line-overview.md
+                    - name: Создание пункта меню мобильного устройства для консолидации грузомест
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Настройка отображения более старых партий на складе на мобильном устройстве
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Комплектация самой старой партии на мобильном устройстве
+                      href: warehousing/pick-oldest-batch.md
+                - name: Параметры пользователя мобильного устройства
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Обработка событий приложения склада
+                  href: warehousing/warehouse-app-events.md
+                - name: Настройка приложения склада
+                  items:
+                    - name: Структура руководства по процессу
+                      href: warehousing/process-guide-framework.md
+                    - name: Назначение значков и заголовков шагов
+                      href: warehousing/step-icons-titles.md
             - name: Настройка склада
               items:
                 - name: Конфигурация склада
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Печать этикеток волны
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Планирование печати этикеток во время волны
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Контейнеризация
                           href: warehousing/wave-containerization.md
+                        - name: Стратегии упаковки в контейнеры
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Автообновление отгрузок
                       href: warehousing/auto-update-shipment.md
                     - name: Создание профиля местонахождения
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Устранение неполадок конфигурации склада
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Установка и настройка мобильного приложения "Управление складом"
-                  items:
-                    - name: Установка и подключение мобильного приложения "Управление складом"
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Параметры пользователя мобильного устройства
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Установка и подключение приложения склада
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Сканирование штрих-кодов с помощью камеры в мобильном приложении "Управление складом"
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Настройка полей для мобильного приложения Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Настройка мобильных устройств для работы склада
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Назначение значков и заголовков шагов
-                      href: warehousing/step-icons-titles.md
-                    - name: Обработка событий приложения склада
-                      href: warehousing/warehouse-app-events.md
-                    - name: Получение грузомест с помощью мобильного приложения Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Настройка пункта меню мобильного устройства для предоставления обзора строк комплектации
-                      href: warehousing/pick-line-overview.md
-                    - name: Создание пункта меню мобильного устройства для консолидации грузомест
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Настройка отображения более старых партий на складе на мобильном устройстве
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Комплектация самой старой партии на мобильном устройстве
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Структура руководства по процессу
-                      href: warehousing/process-guide-framework.md
-                    - name: Устранение неполадок при подключении мобильного приложения "Управление складом"
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Обновление и миграция
                   items:
                     - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Сводное планирование
               items:
+                - name: При выполнении встроенного механизма сводного планирования выводится сообщение об ошибке
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Номенклатура не может иметь спецификацию или формулу
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Параметры для сводного плана не существуют
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: Спланированный производственный заказ необходимо запланировать до его утверждения
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Продукт заблокирован для проводок
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Выбранный номер формулы не утвержден для партионного заказа.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Код поставщика не авторизован для определенного продукта и даты
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Поставщик не указан при утверждении спланированных заказов
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Непосредственно полученные утвержденные заказы обрабатываются в workflow-процессе рассмотрения
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Невозможно отфильтровать номенклатуры сводного планирования по связанным значениям групп покрытия
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Управление складом
               items:
+                - name: Отмена поступлений продуктов не приводит к обновлению состояния проводок на "Зарегистрировано"
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Округление до десятичных знаков физически обновляемого количества неверно
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Физическое оставшееся количество в единице измерения должен быть отличен от нуля
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: Скомплектованное количество недостаточно для создания отборочной накладной
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: Количество превышает процент перепоставки во время создания отборочной накладной
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'Количество, которое вы пытаетесь обновить, превышает полученное или доставленное количество'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: Количество превышает процент недопоставки во время создания отборочной накладной
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Ошибка возникает при выборе местонахождения при регистрации листа подбора
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: На упаковочной станции не отображаются примечания к продукту

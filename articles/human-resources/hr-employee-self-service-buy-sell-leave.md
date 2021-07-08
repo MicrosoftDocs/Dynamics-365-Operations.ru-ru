@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052081"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271501"
 ---
 # <a name="buy-and-sell-leave"></a>Покупка и продажа отпуска
 
@@ -47,6 +47,12 @@ ms.locfileid: "6052081"
 3. Выберите **Отправить**, когда будете готовы отправить запрос.
 
 Ваши балансы будут автоматически обновляться или проходить через процесс утверждения перед обновлением. Это зависит от настройки политики покупки.
+
+
+## <a name="troubleshooting"></a>Устранение неполадок 
+
+Если рабочий процесс в запросе на покупку или продажу заканчивается неудачей, пользователи с привилегией **EssLeaveBuySellRequestApprover** могут проверить журнал сообщений для всех запросов на покупку и продажу. Для этого перейдите к пункту **Отпуск и отсутствие > Ссылка > Запросы на покупку и продажу отпуска > Журнал сообщений** (в верхнем левом углу). **Журнал сообщений** показывает пользователям, как были обработаны проводки, и связанную историю workflow-процесса.
+
 
 ## <a name="see-also"></a>См. также
 

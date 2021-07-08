@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103601"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301682"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -109,6 +109,8 @@ ms.locfileid: "6103601"
 
 - **Да** — оптимизация планирования используется для сводного планирования.
 - **Нет** — для сводного планирования используется встроенный механизм планирования Supply Chain Management.
+
+Этот параметр применяется для всех юридических лиц (компаний). Невозможно использовать оптимизацию планирования в некоторых юридических лицах и встроенном сводном планировании в других юридических лицах.
 
 > [!NOTE]
 > Если существующие пакетные задания планирования, созданные для встроенного механизма планирования Supply Chain Management, запускаются, а параметр **Использовать оптимизацию планирования** задан как **Да**, эти задания не будут работать

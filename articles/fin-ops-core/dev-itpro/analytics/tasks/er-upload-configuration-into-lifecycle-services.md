@@ -2,7 +2,7 @@
 title: Отправка конфигурации в Lifecycle Services
 description: В этом разделе описывается, как создать новую конфигурацию электронной отчетности (ER) и отправить ее в Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0211fea7af303fe1dd7dce26f887bed4ed3b0f1e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 41a8fcf2592bde4901aba703e0cd124b1155dac6
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744923"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270567"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Отправка конфигурации в Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может создать новую [конфигурацию электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) и отправить ее в [библиотеку ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> Использование LCS в качестве репозитория для конфигураций ER [устаревает](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Дополнительные сведения см. в [Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 В этом примере вам предстоит создать конфигурацию и отправить ее в LCS для демонстрационной компании под названием Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности являются общими для всех компаний. Для выполнения этих шагов необходимо сначала выполнить шаги в теме [Создание поставщиков конфигурации и установка их в качестве активных](er-configuration-provider-mark-it-active-2016-11.md). Также требуется доступ к LCS.
 

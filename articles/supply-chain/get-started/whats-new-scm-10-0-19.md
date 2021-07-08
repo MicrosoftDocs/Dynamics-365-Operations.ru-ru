@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.19 (июнь 2021 г.)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114983"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271457"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.19 (июнь 2021 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.19. Эта версия имеет номер сборки 10.0.837 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты в Microsoft Dynamics 365 Supply Chain Management версии 10.0.19. Эта версия имеет номер сборки 10.0.837 и доступна следующим образом:
 
 - **Выпуск предварительной версии:** апрель 2021 г.
 - **Общая доступность выпуска (самостоятельное обновление):** июнь 2021 г.
@@ -32,7 +31,7 @@ ms.locfileid: "6114983"
 
 В этой таблице перечислены функции в выпуске. Столбец *Функция* содержит ссылки на [план выпуска](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), где можно просмотреть официальные даты выпуска каждой функции. В столбце *Дополнительные сведения* представлены дополнительные сведения и/или ссылки на сопутствующую документацию.
 
-Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными.
+Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 | Область компонентов | Функция | Дополнительные сведения |
 |---|---|---|

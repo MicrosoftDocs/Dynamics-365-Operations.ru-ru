@@ -13,17 +13,16 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: e271bbae84605b4adace1809b53b7cbdb6932da0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 63121a9b5f1b062b7ca927f6b9eb1689ce8aa698
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020019"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270691"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Настройка аутентификации Azure Active Directory для входа на POS-терминал
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этой теме объясняется, как настроить Azure Active Directory (Azure AD) как метод аутентификации в POS-терминале Microsoft Dynamics 365 Commerce.
 

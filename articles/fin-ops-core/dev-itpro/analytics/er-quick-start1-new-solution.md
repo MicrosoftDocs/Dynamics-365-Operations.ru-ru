@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224042"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304401"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Создание нового решения ER для печати пользовательского отчета
 
@@ -185,7 +185,7 @@ ms.locfileid: "6224042"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Импорт новой конфигурации модели данных
 
-1. Загрузка файла [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) и сохранение его на локальном компьютере.
+1. Загрузка файла [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) и сохранение его на локальном компьютере.
 2. Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.
 3. В рабочей области **Электронная отчетность** выберите **Конфигурации отчетности**.
 4. На панели действий выберите пункт **Обмен** \> **Загрузить из XML-файла**.
@@ -300,7 +300,7 @@ ms.locfileid: "6224042"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Импорт новой конфигурации сопоставления модели
 
-1. Загрузка файла [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) и сохранение его на локальном компьютере.
+1. Загрузка файла [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) и сохранение его на локальном компьютере.
 2. Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.
 3. В рабочей области **Электронная отчетность** выберите **Конфигурации отчетности**.
 4. На панели действий выберите пункт **Обмен** \> **Загрузить из XML-файла**.
@@ -366,7 +366,7 @@ ms.locfileid: "6224042"
     2. Выберите **Добавить**.
     3. В диалоговом окне в поле **Имя** введите **\$ResultGroup**.
     4. Выберите **Изменить формулу**.
-    5. В [редакторе формул ER](general-electronic-reporting-formula-designer.md)в поле **Формула** введите **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** для использования [пути](er-formula-language.md#paths) связи "один ко многим" между таблицами KMCollection и KMQuestionResultGroup.
+    5. В [редакторе формул ER](general-electronic-reporting-formula-designer.md)в поле **Формула** введите **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** для использования [пути](er-formula-language.md#Paths) связи "один ко многим" между таблицами KMCollection и KMQuestionResultGroup.
     6. Выберите **Сохранить** и закройте редактор формул.
     7. Нажмите **ОК**, чтобы добавить новый вычисляемое поле.
 
@@ -547,7 +547,7 @@ ms.locfileid: "6224042"
 
 Платформа ER использует предопределенные шаблоны для создания отчетов в форматах Microsoft Office (книги Excel или документы Word). В процессе создания обязательного отчета шаблон заполняется необходимыми данными в соответствии с настроенным потоком данных. Поэтому сначала необходимо создать шаблон для пользовательского отчета. Этот шаблон должен быть создан в качестве рабочей книги Excel, структура которого представляет макет пользовательского отчета. Необходимо присвоить имя каждому объекту Excel, который планируется заполнить требуемыми данными.
 
-1. Загрузка файла [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) и сохранение его на локальном компьютере.
+1. Загрузка файла [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) и сохранение его на локальном компьютере.
 2. Откройте файл в Excel и проверьте структуру книги.
 
 Как показано на следующем рисунке, загруженный шаблон предназначен для печати указанных анкет, которые представляют вопросы анкеты вместе с соответствующими ответами.
@@ -572,7 +572,7 @@ ms.locfileid: "6224042"
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Импорт созданной конфигурации формата
 
-1. Загрузка файла [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) и сохранение его на локальном компьютере.
+1. Загрузка файла [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) и сохранение его на локальном компьютере.
 2. Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.
 3. В рабочей области **Электронная отчетность** выберите **Конфигурации отчетности**.
 4. На панели действий выберите пункт **Обмен** \> **Загрузить из XML-файла**.

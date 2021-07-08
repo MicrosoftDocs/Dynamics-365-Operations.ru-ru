@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f6edc848e1ed03f97e11cd4eb3fd1aaf4ee0c59
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056716"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303228"
 ---
 # <a name="request-time-off"></a>Запрос на отсутствие
 
@@ -59,8 +59,6 @@ ms.locfileid: "6056716"
 2. Для просмотра утвержденных запросов отсутствия выберите **Утвержденное отсутствие**. Для просмотра ожидающих запросов отсутствия выберите **Запросы отсутствия**.
 
 ## <a name="cancel-time-off-requests"></a>Отмена запросов на отгулы
-
-[!include [Preview feature](includes/preview-feature.md)]
 
 1. В рабочей области **Самообслуживания сотрудников** выберите **Просмотр отгулов** на плитке **Время отсутствия**.
 

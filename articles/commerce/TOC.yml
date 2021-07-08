@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (май 2021 г.)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (апрель 2021 г.)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Требования к управлению версиями компонентов Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Архитектура консольной подсистемы Commerce
+                - name: Консольная архитектура коммерции
                   href: dev-itpro/retail-server-architecture.md
                 - name: Выбор топологии в магазине
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Настройка и развертывание локализации Commerce для Бразилии
                   href: localizations/latam-bra-deployment.md
+                - name: Функции финансовых документов NFC-e в Commerce POS для Бразилии
+                  href: localizations/latam-bra-nfce.md
+                - name: Управление информацией по клиентам в POS для Бразилии
+                  href: localizations/latam-bra-customer-information.md
+                - name: Отмена и возврат документов NFC-e в Commerce POS для Бразилии
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: 'Отложенная регистрация документов NFC-e, выданных в автономном режиме нештатной ситуации'
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Разноска бразильских финансовых документов с помощью журналов операций розничной торговли в Commerce Headquarters
+                  href: localizations/latam-bra-retail-statements.md
             - name: Восточная Европа
               items:
                 - name: Общее
@@ -1458,11 +1466,17 @@
               items:
                 - name: Язык формул
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Поддерживаемые типы данных для формул электронной отчетности
+                  items:
+                    - name: Простые типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Составные типы данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Функции
                   items:
                     - name: Контейнер
                       items:
-                        - name: Контейнерные функции
+                        - name: Функции контейнера
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/commerce/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
@@ -2002,12 +2016,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Обновление приложения 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Обновление приложения 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Делегирование создания назначения электронной отчетности пользовательской фабрике назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
+                - name: Реализация пользовательского места назначения для создаваемых документов
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: Мобильное приложение Finance and Operations (Dynamics 365)

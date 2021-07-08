@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059481"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303472"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Начислить планы отпусков и отсутствий
 
@@ -104,11 +104,9 @@ ms.locfileid: "6059481"
 
 2. В **Управление отпуском** выберите **Аудит удаления начисления отпусков**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Предварительная версия) Аудит проводок начислений отпуска
+## <a name="leave-accrual-transaction-auditing"></a>Аудит проводок начислений отпуска
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Эта предварительная версия функции позволяет менеджерам отпусков и отсутствия понимать проводки по начислению отпусков и отсутствия, связанные с сальдо отгулов сотрудника для конкретного типа отпуска.
+Эта функция позволяет менеджерам отпусков и отсутствия понимать проводки по начислению отпусков и отсутствия, связанные с сальдо отгулов сотрудника для конкретного типа отпуска.
 
 Просмотр сведений о транзакции:
 
