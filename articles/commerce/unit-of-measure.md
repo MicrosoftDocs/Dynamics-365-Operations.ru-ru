@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271409"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350336"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Применение настроек единицы измерения
 
@@ -32,7 +32,7 @@ ms.locfileid: "6271409"
 
 В примере на следующем рисунке для продукта в Commerce Headquarters сконфигурирована единица измерения **шт** (штука).
 
-![Пример продукта, сконфигурированного с единицей измерения в модуле Commerce Headquarters](./media/Productunit-headquarters.PNG)
+![Пример продукта, сконфигурированного с единицей измерения в модуле Commerce Headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Поддержка применения и отображения единицы измерения доступна в Commerce версии 10.0.19.
@@ -54,11 +54,11 @@ ms.locfileid: "6271409"
 
 В примере на следующем рисунке страница сведения о продукте (PDP) содержит единицу измерения (**шт**) для продукта.
 
-![Пример PDP, отображающей единицу измерения](./media/Productunit-PDP.png)
+![Пример PDP, отображающей единицу измерения.](./media/Productunit-PDP.png)
 
 В примере на следующем рисунке модуль коллекции продуктов содержит единицу измерения (**шт**) для продукта.
 
-![Пример модуля коллекции продуктов, отображающего единицу измерения](./media/Productunit-productcollection.png)
+![Пример модуля коллекции продуктов, отображающего единицу измерения.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

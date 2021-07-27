@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350216"
 ---
 # <a name="work-with-fragments"></a>Работа с фрагментами 
 
@@ -45,7 +45,7 @@ ms.locfileid: "5793953"
 
 На следующем рисунке показано, как можно использовать фрагменты для централизации создания общих конфигураций модулей на сайте электронной коммерции.
 
-![Рисунок, показывающий, как можно использовать фрагменты для централизации создания общих конфигураций модулей на сайте электронной коммерции](./media/fragment-figure1.png)
+![Рисунок, показывающий, как можно использовать фрагменты для централизации создания общих конфигураций модулей на сайте электронной коммерции.](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Создание фрагмента
 
@@ -62,7 +62,7 @@ ms.locfileid: "5793953"
 1. В диалоговом окне **Сохранить как фрагмент** укажите имя фрагмента.
 1. Выберите **ОК**, чтобы сохранить конфигурацию модуля в виде фрагмента, который может быть добавлен к другим страницам.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Создание нового фрагмента
 
@@ -73,7 +73,7 @@ ms.locfileid: "5793953"
 1. Выберите тип модуля для фрагмента.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > При выборе универсального типа модуля-контейнера можно добиться большей гибкости, когда необходимо позднее выполнить обновление и настройку фрагмента.
 
@@ -88,14 +88,14 @@ ms.locfileid: "5793953"
 1. В области структуры слева или непосредственном в визуальном конструкторе страниц выберите контейнер или область, к которой можно добавить дочерние модули.
 1. Выберите многоточие (**...**) рядом с именем контейнера или ячейки.  В качестве альтернативы, если используется визуальный конструктор страниц, выберите символ "плюс" (**+**).  
 1. Выберите **Добавить фрагмент**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Если контейнер или слот не поддерживают новые дочерние модули, параметр **Добавить фрагмент** будет недоступен.
     
 1. В диалоговом окне **Выбрать фрагмент** найдите и выберите фрагмент, который требуется добавить. Если доступных фрагментов нет в списке, можно сначала создать фрагмент из типа модуля, поддерживаемого выбранным контейнером или слотом.
 1. Выберите желаемый фрагмент, чтобы добавить его в контейнер или слот на странице.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Модули, разрешенные в контейнере или в слоте, определяются шаблоном страницы или собственными определениями модулей.

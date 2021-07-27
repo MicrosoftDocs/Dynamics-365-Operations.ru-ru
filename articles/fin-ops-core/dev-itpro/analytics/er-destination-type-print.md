@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894012"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347932"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Назначение принтера
 
@@ -39,7 +39,7 @@ ms.locfileid: "5894012"
 1. Преобразовать исходящие документы электронной отчетности из форматов Microsoft Office в PDF
 2. Агент маршрутизации документов как назначение электронной отчетности для исходящих документов
 
-[![Включение функции места назначения ER принтера в управлении функциями](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Включение функции места назначения ER принтера в управлении функциями.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Применимость
 
@@ -55,7 +55,7 @@ ms.locfileid: "5894012"
 2. В поле **Имя принтера** выберите нужный сетевой принтер.
 3. Задайте для **Сохранить в архиве печати?** значение **Да** для сохранения созданных выходных данных в архиве печати, чтобы они были доступны для дальнейшей печати. Чтобы получить доступ к архивированным выходным данным позже, перейдите **Управление организацией** \> **Запросы и отчеты** \> **Архив отчетов**.
 
-[![Использование места назначения принтера](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Использование места назначения принтера.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > Параметр **Преобразовать в PDF** не должен быть включен при настройке места назначения **Принтер**. Преобразование PDF для печати выполняется даже в том случае, если этот параметр отключен.

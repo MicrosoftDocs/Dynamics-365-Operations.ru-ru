@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750626"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346504"
 ---
 # <a name="integrated-vendor-master"></a>Интегрированный справочник поставщиков
 
@@ -39,11 +39,11 @@ ms.locfileid: "5750626"
 
 Если вы не хотите хранить данные поставщиков в таблице **Организация/Контакт** в Dataverse, можно использовать новый дизайн поставщика.
 
-![Поток данных поставщика](media/dual-write-vendor-data-flow.png)
+![Поток данных поставщика.](media/dual-write-vendor-data-flow.png)
 
 Если вы хотите продолжить хранить данные поставщиков в таблице **Организация/Контакт** , можно использовать расширенный дизайн поставщика. Чтобы использовать расширенный дизайн поставщиков, необходимо настроить рабочие-процессы поставщиков в пакете решения с двойной записью. Дополнительные сведения см. в разделе [Переключение между макетами поставщиков](vendor-switch.md).
 
-![Поток расширенных данных поставщика](media/dual-write-vendor-detail.jpg)
+![Поток расширенных данных поставщика.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Если порталы Power Apps используются для самообслуживания поставщиков, сведения о поставщике могут непосредственно поступать в приложения Finance and Operations.

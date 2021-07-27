@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354573"
 ---
 # <a name="configure-task-management"></a>Настройка управления задачами
 
@@ -44,7 +44,7 @@ ms.locfileid: "5791711"
 
 На следующем рисунке показано, как настроить разрешения управления задачами для руководителей магазинов.
 
-![Настройка разрешения управления задачами для руководителей магазинов](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Настройка разрешения управления задачами для руководителей магазинов.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Настройка разрешений для сотрудников
 
@@ -78,7 +78,7 @@ ms.locfileid: "5791711"
 
 На следующем рисунке показана операция **управления задачами** на странице **Операции POS**.
 
-![Операция управления задачами на странице Операций POS](media/HQ-POS-Tasks-Notifications.png)
+![Операция управления задачами на странице Операций POS.](media/HQ-POS-Tasks-Notifications.png)
 
 Дополнительные сведения о настройке уведомлений POS см. в [Отображение уведомлений о заказах в POS-терминале](notifications-pos.md).
 
@@ -95,7 +95,7 @@ ms.locfileid: "5791711"
 
 На следующем рисунке показан пример плитки **Задачи** на домашней странице POS.
 
-![Плитка «задачи» на домашней странице POS](media/POS-home-screen-tasks-button-image.png)
+![Плитка «задачи» на домашней странице POS.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

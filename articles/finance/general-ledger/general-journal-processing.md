@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352866"
 ---
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
@@ -42,14 +42,14 @@ ms.locfileid: "5815580"
 
 Имя журнала может использоваться только для корректировок. В этом случае, вы можете указать, что только тип счета **книга учета** действителен по всем компаниям. 
 
-[![Типы счета управления журналом](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Типы счета управления журналом.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Имя журнала можно использовать только для специфического сегмента или для диапазона для счетов ГК. 
 
-[![Сегмент управления журналом](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Сегмент управления журналом.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Параметр **Автоматическое реверсирование** доступен в общих журналах. Например, вы имеете регулировку начисления, где фактический документ пока не был обработан, как показано в следующей иллюстрации.
-[![Реверсирование общего журнала](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Реверсирование общего журнала.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Надстройка Microsoft Excel для записи в журнале обеспечивает дополнительный уровень автоматизации и делает ввод данных легче. Действие **Открыть строки в Excel** доступно на страницах **Общий журнал** и **Ваучер журнала**. 
 

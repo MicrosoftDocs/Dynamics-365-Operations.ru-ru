@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354985"
 ---
 # <a name="maintenance-status"></a>Статус обслуживания
 
@@ -57,13 +57,13 @@ ms.locfileid: "5808624"
 
 На приведенном ниже снимке экрана активизированы кнопки **Год** и **Месяц**. Выбрав эти параметры **Группировать по**, вы получаете общий обзор ежемесячной рабочей нагрузки и пропускной способности, связанный с запросами на обслуживание и заказами на работу. 
 
-![Пример месячной рабочей нагрузки](media/13-controlling-and-reporting.png)
+![Пример месячной рабочей нагрузки.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Пример 2
 
 На приведенном ниже снимке экрана были добавлены сведения о функциональных местоположениях. Теперь можно сравнить рабочую нагрузку и пропускную способность между функциональными местоположениями, которые могут представлять географические местоположения, фабрики или рабочие области. 
 
-![Пример месячной нагрузки с функциональными местоположениями](media/14-controlling-and-reporting.png)
+![Пример месячной нагрузки с функциональными местоположениями.](media/14-controlling-and-reporting.png)
 
 
 

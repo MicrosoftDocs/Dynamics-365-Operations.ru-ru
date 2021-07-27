@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019478"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347448"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Вопросы и ответы по интеграции Dynamics 365 Commerce и Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "6019478"
 
 В Commerce Headquarters иерархия каждой организации связана с одной или несколькими целями. Убедитесь, что иерархия, которую вы хотите подготовить в Microsoft Teams, имеет связанную с ней цель **Отчетность розничной торговли**, как показано в следующем примере изображения. 
 
-![Пример цели организационной иерархии в Commerce Headquarters](media/d365-commerce-organization-hierarchies-purpose.png)
+![Пример цели организационной иерархии в центральном офисе Commerce.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Как разрешить работникам розничного магазина входить в Commerce POS, используя Azure Active Directory (Azure AD)?
 

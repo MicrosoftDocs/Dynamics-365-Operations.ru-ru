@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054364"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346306"
 ---
 # <a name="dataverse-tables"></a>Таблицы Dataverse
 
@@ -152,27 +152,27 @@ Microsoft Dynamics 365 Human Resources использует Dataverse для в�
 
 ### <a name="worker"></a>Рабочий
 
-![Рабочий](./media/HCMCommon-worker-entity-diagram.png)
+![Работник.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Работа и должность
 
-![Работа и должность](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Работа и должность.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Льготы
+### <a name="benefits"></a>Выгоды
 
-![Льготы](./media/HCMCommon-benefits-entity-diagram.png)
+![Выгоды.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Компенсация
 
-![Компенсация](./media/HCMCommon-compensation-entity-diagram.png)
+![Компенсация.](./media/HCMCommon-compensation-entity-diagram.png)
 
 ### <a name="leave"></a>Отпуск
 
-![Отпуск](./media/HCMCommon-leave-entity-diagram.png)
+![Отпуск.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Рабочий календарь
 
-![Рабочий календарь](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Рабочий календарь.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>См. также
 

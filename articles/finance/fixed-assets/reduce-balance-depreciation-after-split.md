@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826259"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356783"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Амортизация с уменьшаемым остатком после разделения
 
@@ -37,7 +37,7 @@ ms.locfileid: "5826259"
 - Амортизация первого финансового года равна 18 000 долларам США, месячная амортизация равняется 150 долларам США, а актив затем амортизируется до ноября 2019 года в сумме 738,75 долларов США.
 - В ноябре 2019 года 80 процентов актива разделяется на другие основные средства.
 
-[![Амортизация с уменьшаемым остатком после разделения](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Амортизация с уменьшаемым остатком после разделения.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Сумма для амортизации для исходного актива равна 1 822,25 долларов США. Эта сумма равна остаточной стоимости до разноски проводки разбиения (9 111,25 доллара США) плюс корректировка приобретения, которая создается при разноске проводки разбиения (-8 000 долларов США) плюс корректировка амортизации, созданная в ходе проводки разбиения (711 долларов США). Таким образом, амортизация за второй год равна (1 822,25 × 18 процентов) ÷ 12 = 27,33 доллара США.
 

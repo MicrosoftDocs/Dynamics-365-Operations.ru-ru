@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351641"
 ---
 # <a name="calculate-capacity-load"></a>Расчет максимальной мощности
 
@@ -53,7 +53,7 @@ ms.locfileid: "5821737"
 
 7. В группах **Группировать по...** щелкните соответствующие кнопки, чтобы отобразить необходимый уровень детализации для расчета. На снимке экрана ниже выбранные кнопки **Группировать по** выделяются синим цветом. Нажимайте кнопку, чтобы активировать или деактивировать ее.
 
-    ![Рисунок 1](media/01-capacity-planning.png)
+    ![Рисунок 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >Если требуется сосредоточиться только на планировании мощностей по запланированным заказам на работу, см. раздел [Расчет максимальной мощности по запланированным заказам на работу](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).

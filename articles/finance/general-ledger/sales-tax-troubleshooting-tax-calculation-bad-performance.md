@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020147"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352842"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Производительность при расчете налога влияет на проводки
 
@@ -36,7 +36,7 @@ ms.locfileid: "6020147"
 - Несколько сеансов обрабатывают один и тот же расчет налога на проводку одновременно.
 - Проводка имеет несколько строк, и представления обновляются в реальном времени. Например, поле **Рассчитанная сумма налога** на странице **Общий журнал** обновляется в реальном времени при изменении полей строки.
 
-   [![Поле рассчитанной суммы налога на странице ваучера журнала](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Поле рассчитанной суммы налога на странице ваучера журнала.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Если какое-либо из этих условий выполнено, отложите расчет налога.
 
@@ -53,11 +53,11 @@ ms.locfileid: "6020147"
 
 - Проводка приводит к тому, что система перестает отвечать на запросы до окончания сеанса. Поэтому проводка не может рассчитать результат налога. На следующем рисунке показано полученное окно сообщения "Сеанс завершен".
 
-    [![Сообщение о завершении сеанса](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Сообщение о завершении сеанса.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - Методы **TaxUncommitted** занимают больше времени, чем другие методы. Например, на следующем рисунке метод **TaxUncommitted::updateTaxUncommitted()** занимает 43 347,42 секунды, но другие методы занимают 0,09 секунды.
 
-    [![Продолжительность метода](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Продолжительность метода.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Настройка и вызов расчета налогов
 

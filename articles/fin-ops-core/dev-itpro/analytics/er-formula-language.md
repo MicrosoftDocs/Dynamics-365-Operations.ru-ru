@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223994"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355402"
 ---
 # <a name="electronic-reporting-formula-language"></a>Язык формул электронной отчетности
 
@@ -117,15 +117,15 @@ ms.locfileid: "6223994"
 
 Если путь структурированного источника данных начинается со знака @, это относительный путь. Вместо оставшейся части абсолютного пути иерархической структуры дерева отображается знак @. Следующая иллюстрация показывает пример. Здесь абсолютный путь `Ledger.'accountingCurrency()'` указывает на то, что стоимость валюты учета из источника данных **Главная книга** вводится в поле **AccountingCurrency** модели данных.
 
-![Пример абсолютного пути на странице конструктора сопоставления модели ER](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Пример абсолютного пути на странице конструктора сопоставления модели ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 В следующем примере показано, как используется относительный путь. Относительный путь `@.AccountNum` указывает на то, что поле **AccountNum** источника данных **Intrastat** (которое отображается на один уровень выше поля **AccountNum** в иерархическом дереве модели данных) используется для ввода номера учетной записи клиента или поставщика в поле **AccountNum**.
 
-![Пример относительного пути на странице конструктора сопоставления модели ER](./media/ER-FormulaLanguage-RelativePath1.png)
+![Пример относительного пути на странице конструктора сопоставления модели ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Оставшаяся часть абсолютного пути также отображается в [редакторе формул ER](general-electronic-reporting-formula-designer.md).
 
-![Оставшаяся часть абсолютного пути на странице конструктора формул ER](./media/ER-FormulaLanguage-RelativePath2.png)
+![Оставшаяся часть абсолютного пути на странице конструктора формул ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Дополнительные сведения см. в разделе [Использование относительного пути в привязках данных для моделей и форматов электронной отчетности](relative-path-data-bindings-er-models-format.md).
 

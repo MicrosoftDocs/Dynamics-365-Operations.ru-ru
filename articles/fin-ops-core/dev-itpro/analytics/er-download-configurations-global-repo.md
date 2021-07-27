@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351754"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893988"
 3. В разделе **Поставщики конфигурации** выберите плитку **Майкрософт**.
 3. На плитке **Майкрософт** выберите **Репозитории**.
 
-    ![Рабочая область электронной отчетности](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Рабочая область электронной отчетности.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. На странице **Репозиторий конфигураций** в сетке выберите существующий репозиторий типа **Глобальный**. Если этот репозиторий не отображается в сетке, выполните следующие действия.
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893988"
 
 5. Выберите **Открыть** для просмотра списка конфигураций электронной отчетности для выбранного репозитория.
 
-    ![Страница репозиториев конфигураций](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Страница репозиториев конфигураций.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Импорт одной конфигурации
 
@@ -63,7 +63,7 @@ ms.locfileid: "5893988"
     > [!NOTE]
     > Кнопка **Импорт** недоступна для версий конфигурации электронной отчетности, которые уже установлены в текущем экземпляре Finance.
 
-    ![Страница репозитория конфигурации](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Страница репозитория конфигурации.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Импорт отфильтрованных конфигураций
 
@@ -77,7 +77,7 @@ ms.locfileid: "5893988"
 4. На экспресс-вкладке **Конфигурации** выберите **Импорт**, чтобы загрузить отфильтрованные конфигурации из глобального репозитория в текущий экземпляр.
 5. На экспресс-вкладке **Конфигурации** выберите **Сброс фильтра** для очистки указанных условий выбора.
 
-    ![Страница репозитория конфигурации](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Страница репозитория конфигурации.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > В зависимости от параметров электронной отчетности конфигурации проверяются после импорта. Возможно, вы получите уведомление об обнаруженных проблемах несоответствия. Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации. Дополнительные сведения см. в списке связанных ресурсов для этой темы.

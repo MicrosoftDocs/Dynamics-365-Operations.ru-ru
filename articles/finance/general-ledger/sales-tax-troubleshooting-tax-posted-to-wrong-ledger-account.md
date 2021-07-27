@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020099"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343822"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Налог разносится на некорректный счет ГК в ваучере
 
@@ -30,26 +30,26 @@ ms.locfileid: "6020099"
 
 1. На странице **Проводки по ваучеру** выберите проводку, с которой необходимо работать, а затем выберите **Разнесенный налог**.
 
-    [![Кнопка разнесенного налога на странице проводки по ваучеру](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Кнопка разнесенного налога на странице проводки по ваучеру.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Проверьте значение в поле **Код налога**. В этом примере устанавливается значение **НДС 19**.
 
-    [![Поле налогового кода на странице разнесенного налога](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Поле налогового кода на странице разнесенного налога.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Проверка группы разноски главной книги по налоговому коду
 
 1. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые коды**.
 2. Найдите и выберите налоговый код, а затем проверьте значение в поле **Группа разноски главной книги**. В этом примере устанавливается значение **НДС**.
 
-    [![Поле группы разноски ГК на странице налоговых кодов](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Поле группы разноски ГК на странице налоговых кодов.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. Значение в поле **Группа разноски ГК** — это ссылка. Чтобы просмотреть сведения о конфигурации группы, выберите ссылку. Или же выберите и удерживайте (или щелкните правой кнопкой мыши) поле, а затем выберите **Просмотреть сведения**.
 
-    [![Команда просмотра сведений](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Команда просмотра сведений.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. В поле **Подлежащий оплате налог** проверьте правильность номера счета в соответствии с типом проводки. Если неправильный, выберите правильный счет для разноски. В этом примере налог заказа на продажу должен быть разнесен на счет уплачиваемого налога 222200.
 
-    [![Поле "Исходящий налог" на странице "Группы разноски ГК"](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Поле "Исходящий налог" на странице "Группы разноски ГК".](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     В следующей таблице приводятся сведения о каждом поле на странице **Группы разноски главной книги**.
 
@@ -71,11 +71,11 @@ ms.locfileid: "6020099"
 
 1. Для заказа на продажу добавьте точку останова в методах **Tax::saveAndPost()** и **Tax::post()**. Обратите внимание на значение **\_ledgerDimension**.
 
-    [![Пример кода заказа на продажу с точкой останова](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Пример кода заказа на продажу с точкой останова.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Для заказа на покупку добавьте точку останова в методах **TaxPost::saveAndPost()** и **TaxPost::postToTaxTrans()**. Обратите внимание на значение **\_ledgerDimension**.
 
-    [![Пример кода заказа на покупку с точкой останова](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Пример кода заказа на покупку с точкой останова.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Выполните следующий запрос SQL, чтобы найти отображаемое значение счета в базе данных на основе кода записи, сохраненного аналитикой главной книги.
 
@@ -83,7 +83,7 @@ ms.locfileid: "6020099"
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Отображаемое значение кода записи](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Отображаемое значение кода записи.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Проверьте стек вызовов, чтобы найти место, в котором назначено значение **_ledgerDimension**. Обычно значение берется из **TmpTaxWorkTrans**. В этом случае необходимо добавить точку останова в **TmpTaxWorkTrans::insert()** и **TmpTaxWorkTrans::update()**, чтобы найти, где было назначено значение.
 

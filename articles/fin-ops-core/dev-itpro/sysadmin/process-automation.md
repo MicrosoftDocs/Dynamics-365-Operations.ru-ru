@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: a8722adfe410f15bc379f9b550f0618c881f067d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: a861710e29962e1222d95bfa8c4ef7407bd3401d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343992"
 ---
 # <a name="process-automation"></a>Автоматизация процессов
 
@@ -36,7 +36,7 @@ ms.locfileid: "5920837"
 
 Одним из ключевых преимуществ автоматизации процессов является возможность видеть запланированную работу в простом представлении календаря.  Это представление позволяет видеть работу за неделю. Это представление будет отображаться в правой части страницы **Автоматизация процессов**. Оно будет заполнено запланированной работой для выбранных серий. 
 
-[![Календарь автоматизации процессов](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Календарь автоматизации процессов.](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Изменения вхождений
 

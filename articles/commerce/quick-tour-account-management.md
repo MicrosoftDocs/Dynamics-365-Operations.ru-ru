@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027971"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352068"
 ---
 # <a name="account-management-pages-overview"></a>Обзор страниц управления учетными записями
 
@@ -35,7 +36,7 @@ ms.locfileid: "6027971"
 
 На следующем рисунке показан пример целевой страницы управления учетными записями.
 
-![Пример целевой страницы управления учетной записью](./media/Account-Management.PNG)
+![Пример целевой страницы управления учетной записью.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Страница "Мой профиль"
 
@@ -43,7 +44,7 @@ ms.locfileid: "6027971"
 
 На следующем рисунке показан пример страницы **Мой профиль**, которая была создана с помощью библиотеки модулей.
 
-![Пример страницы "Мой профиль"](./media/Account-Management-MyProfile.PNG)
+![Пример страницы "Мой профиль".](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Страница адресов
 
@@ -51,7 +52,7 @@ ms.locfileid: "6027971"
 
 На следующем рисунке показан пример страницы **Адреса**.
 
-![Пример страницы адресов](./media/Account-Management-Address.png)
+![Пример страницы адресов.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Страницы истории заказов и сведений о заказе
 
@@ -59,11 +60,11 @@ ms.locfileid: "6027971"
 
 На следующем рисунке показан пример страницы **История заказов**.
 
-![Пример страницы истории заказов](./media/Account-Management-OrderHistory.PNG)
+![Пример страницы истории заказов.](./media/Account-Management-OrderHistory.PNG)
 
 На следующем рисунке показан пример страницы **Сведения о заказе**.
 
-![Пример страницы сведений о заказе](./media/Account-Management-OrderDetails.PNG)
+![Пример страницы сведений о заказе.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Страница программы лояльности
 
@@ -71,7 +72,7 @@ ms.locfileid: "6027971"
 
 Следующая иллюстрация показывает пример страницы **Программа лояльности**.
 
-![Пример страницы программы лояльности](./media/Account-Management-Loyalty.PNG)
+![Пример страницы программы лояльности.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Страница списка пожеланий
 
@@ -79,7 +80,7 @@ ms.locfileid: "6027971"
 
 Следующая иллюстрация показывает пример страницы **Список желаний**.
 
-![Пример страницы списка желаний](./media/Account-Management-Wishlist.PNG)
+![Пример страницы списка желаний.](./media/Account-Management-Wishlist.PNG)
 
 Дополнительные сведения о модулях управления учетными записями и способах их создания см. в разделе [Управление учетными записями](account-management.md).
 

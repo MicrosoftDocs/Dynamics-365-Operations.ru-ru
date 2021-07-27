@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354865"
 ---
 # <a name="manually-created-work-orders"></a>Созданные вручную заказы на работу
 
@@ -111,7 +111,7 @@ ms.locfileid: "5839567"
 
 На приведенном ниже рисунке показан пример диалогового окна **Создать связанный заказ на работу**.
 
-![Рисунок 1](media/03-work-orders.png)
+![Рисунок 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Если была настроена маска связанного заказа на работу в **Параметры управления активами** >  вкладка **Заказы на работу** > поле **Маска связанных заказов на работу**, коды заказов на работу будут созданы в соответствии с настройкой маски. Если не была настроена никакая маска связанного заказа на работу, то для связанных заказов на работу используется следующий доступный код заказа на работу.
@@ -137,7 +137,7 @@ ms.locfileid: "5839567"
 
 На приведенном ниже рисунке показан пример диалогового окна **Копировать заказ на работу**.
 
-![Рисунок 2](media/04-work-orders.png)
+![Рисунок 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Создание заказа на работу на основе запроса на обслуживание
@@ -157,7 +157,7 @@ ms.locfileid: "5839567"
 
 На приведенном ниже рисунке показан пример диалогового окна **Создание заказа на работу**.
 
-![Рисунок 3](media/05-work-orders.png)
+![Рисунок 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

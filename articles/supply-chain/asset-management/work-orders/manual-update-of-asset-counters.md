@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8b95975f5be9ef49eee2fd6c6ff1cbbde49c9336
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842257"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350602"
 ---
 # <a name="manual-update-of-asset-counters"></a>Ручное обновление счетчиков основных средств
 
@@ -54,7 +54,7 @@ ms.locfileid: "5842257"
 
 На приведенном ниже рисунке показан пример страницы **Счетчики актива**.
 
-![Рисунок 1](media/11-work-orders.png)
+![Рисунок 1.](media/11-work-orders.png)
 
 На странице **Счетчики актива** (**Управление активами** > **Запросы** > **Активы** > **Счетчики актива**), можно выполнять регистрацию счетчика на нескольких активах одновременно, при необходимости.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353898"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
@@ -38,7 +38,7 @@ ms.locfileid: "5907773"
 
 Контакты на порталах Power Apps хранятся в виде записей в таблице **Контакты** в Microsoft Dataverse. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
 
-![Диаграмма системы для контактов клиентского портала](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
+![Диаграмма системы для контактов клиентского портала.](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
 
 Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление таблицы **Контакт** в двойной записи.
 

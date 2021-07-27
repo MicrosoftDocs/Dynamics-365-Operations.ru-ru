@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799187"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349610"
 ---
 # <a name="create-a-default-customer"></a>Создание клиента по умолчанию
 
@@ -47,7 +47,7 @@ ms.locfileid: "5799187"
 
 На следующем рисунке показано несколько настроенных групп клиентов.
 
-![Группы клиентов](media/customer-groups.png)
+![Группы клиентов.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Создание адресной книги клиентов
 
@@ -63,7 +63,7 @@ ms.locfileid: "5799187"
 
 На следующем рисунке показан пример адресной книги.
 
-![Адресная книга](media/address-book.png)
+![Адресная книга.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Создание клиента по умолчанию
 
@@ -86,11 +86,11 @@ ms.locfileid: "5799187"
 
 На следующем рисунке показан пример создания клиента.
 
-![Создание клиента по умолчанию](media/default-customer-creation.png)
+![Создание клиента по умолчанию.](media/default-customer-creation.png)
 
 На следующем рисунке показана конфигурация клиента по умолчанию.
 
-![Пример конфигурации клиента](media/default-customer-configuration1.png)
+![Пример конфигурации клиента.](media/default-customer-configuration1.png)
 
 Большая часть значений по умолчанию на экране сведений клиента может остаться, но следует изменить два значения.
 
@@ -100,7 +100,7 @@ ms.locfileid: "5799187"
 
 На следующем рисунке показан пример конфигурации клиента.
 
-![Пример конфигурации клиента](media/default-customer-configuration2.png)
+![Пример конфигурации клиента.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

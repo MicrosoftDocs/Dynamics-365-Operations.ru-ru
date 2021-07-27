@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053499"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344672"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Оптимизация производительности с помощью задач автоматической очистки
 
@@ -41,23 +41,23 @@ Microsoft Dynamics 365 Human Resources может столкнуться с пр
 
 2. На панели **Поиск** введите **Очистка журнала пакетных заданий**.
 
-   ![Поиск очистки журнала пакетных заданий](media/talent-batch-history-cleanup-search-bar.png)
+   ![Поиск очистки журнала пакетных заданий.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. В поле **Горизонт истории (дни)** введите **30**.
 
-   ![Задание горизонта истории в 30 дней](media/talent-batch-history-cleanup-history-limit.png)
+   ![Задание горизонта истории в 30 дней.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Выберите **Выполнять в фоновом режиме**, затем выберите **Повторение**.
 
-   ![Задание повторения](media/talent-batch-history-cleanup-recurrence.png)
+   ![Задание повторения.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. В области **Определение повторения** задайте поля **Дата начала** и **Время начала** на нерабочее время или выходные, затем выберите **НЕТ ДАТЫ ОКОНЧАНИЯ**. 
 
-   ![Задание даты и времени начала повторения](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Задание даты и времени начала повторения.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. В области **ШАБЛОН ПОВТОРЕНИЯ** выберите **Дни** и задайте для параметра **ПОВТОРИТЬ ПОСЛЕ УКАЗАННОГО ИНТЕРВАЛА** значение **7**.
 
-   ![Задание еженедельного повторения очистки](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Задание еженедельного повторения очистки.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Нажмите **ОК**.
 

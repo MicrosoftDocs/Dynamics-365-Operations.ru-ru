@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222594"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349042"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Включение прогнозов платежей клиентов (предварительная версия)
 
@@ -51,7 +51,7 @@ ms.locfileid: "6222594"
 
     1. Перейти в раздел **Кредит и сбор задолженностей \> Настройка \> Финансовый анализ \> Параметры финансового анализа**.
 
-        [![Страница параметров финансового анализа перед настройкой функции](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Страница параметров финансового анализа перед настройкой функции.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. На странице **Параметры финансового анализа** на вкладке **Анализ платежей клиентов** выберите ссылку **Просмотр полей данных, используемых в модели прогнозирования**, чтобы открыть страницу **Поля данных для модели прогнозирования**. На ней можно просмотреть список полей по умолчанию, используемых для создания модели прогнозирования искусственного интеллекта (ИИ) для прогнозов платежей клиентов.
 
@@ -77,7 +77,7 @@ ms.locfileid: "6222594"
 
 После того как функция включена и настроена, а модель прогнозирования создана и работает, в разделе **Модель прогнозирования** страницы **Параметры финансового анализа** отображается точность модели, как показано на следующем рисунке.
 
-[![Точность модели прогнозирования на странице параметров финансового анализа](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Точность модели прогнозирования на странице параметров финансового анализа.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Сведения о выпуске
 
