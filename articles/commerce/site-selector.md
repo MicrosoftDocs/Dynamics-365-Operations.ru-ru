@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6e8eefe7afe385ca77eca6027638ff938e1356e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b69156ee79dbbe8cbb8f5eb5988a751f0488d8e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357746"
 ---
 # <a name="site-selector-module"></a>Модуль выбора сайта
 
@@ -37,7 +37,7 @@ ms.locfileid: "5791783"
 
 На следующем рисунке показан пример модуля выбора сайта, который указан в заголовке страницы сайта.
 
-![Пример модуля выбора сайтов в заголовке страницы сайта](./media/ecommerce-sitepicker.PNG)
+![Пример модуля выбора сайтов в заголовке страницы сайта.](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Свойства модуля выбора сайта
 

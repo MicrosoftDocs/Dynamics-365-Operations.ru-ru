@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355354"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Поддерживаемые составные типы данных для формул электронной отчетности
 
@@ -43,11 +43,11 @@ ms.locfileid: "6224110"
 
 На следующем рисунке показано, как добавляется источник данных **Системная информация(xInfo)** типа **Класс**, чтобы сделать экземпляр класса приложения **xInfo** и вызвать его метод **productName()** для получения имени текущего приложения. Имя текущего приложения извлекается во время выполнения путем выполнения привязки `xInfo.productName`, которая была настроена для поля **Имя программного обеспечения(SoftwareName)** модели данных электронной отчетности. Эта привязка вызывает метод `productName()` класса приложения **xInfo**, который представлен в текущем сопоставлении модели как источник данных **Системная информация(xInfo)**.
 
-[![Настройка источника данных типа класса на странице конструктора сопоставления модели электронной отчетности](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Настройка источника данных типа класса на странице конструктора сопоставления модели электронной отчетности.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 На следующем рисунке показано, как настроить формат электронной отчетности для помещения указанного имени приложения в создаваемые документы. Поле **Имя программного обеспечения(SoftwareName)** используемой модели данных было привязано к компоненту **Строка**, вложенному в XML-элемент **softwareUsed** формата электронной отчетности. Таким образом, имя текущего приложения помещается во время выполнения в XML-элемент **softwareUsed** созданного документа в формате XML.
 
-[![Настройка структуры электронного исходящего документа в конструкторе формата электронной отчетности](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Настройка структуры электронного исходящего документа в конструкторе формата электронной отчетности.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Контейнер
 
@@ -60,7 +60,7 @@ ms.locfileid: "6224110"
 
 На следующем рисунке показано, как поле **Точечный рисунок(Image)** типа *Контейнер* связывается с полем **Логотип** модели данных типа **Контейнер** в сопоставлении модели **Накладная по продаже**. Эта привязка делает эмблему компании доступной для любого формата электронной отчетности, который предназначен для определения корня **SalesInvoice** и который использует это сопоставление модели во время выполнения.
 
-[![Привязка поля типа контейнера в конструкторе сопоставления модели электронной отчетности](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Привязка поля типа контейнера в конструкторе сопоставления модели электронной отчетности.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Запись
 
@@ -109,7 +109,7 @@ ms.locfileid: "6224110"
 
 На следующем рисунке показано, как источник данных **ReportDataContract** типа *Объект* добавляется для передачи сведений о созданной накладной из исходного кода в сопоставление модели **Накладная по проекту**. Например, текст экземпляра накладной передается как часть контекста выполнения. Этот текст берется из исходного кода во время выполнения путем выполнения привязки `ReportDataContract.parmInvoiceInstanceText`, которая была настроена для поля **Примечание** в модели данных электронной отчетности. Эта привязка вызывает метод `parmInvoiceInstanceText()` класса приложения **PSAProjInvoiceContract**, который представлен в текущем сопоставлении модели как источник данных **ReportDataContract**.
 
-[![Настройка источника данных типа объекта на странице конструктора сопоставления модели электронной отчетности](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Настройка источника данных типа объекта на странице конструктора сопоставления модели электронной отчетности.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Чтобы узнать, как передать сведения о контексте выполнения из исходного кода в выполняемое решение электронной отчетности, см. раздел [Разработка артефактов приложений для вызова созданного отчета](er-quick-start1-new-solution.md#DevelopCustomCode).
 

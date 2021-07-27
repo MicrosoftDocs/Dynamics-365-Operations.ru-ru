@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188942"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350506"
 ---
 # <a name="routes-and-operations"></a>Маршруты и операции
 
@@ -45,7 +45,7 @@ ms.locfileid: "6188942"
 
 Простой маршрут является последовательным и имеет только одну начальную точку маршрута.  
 
-[![Простой маршрут](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Простой маршрут.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Если в параметрах управления производством включены только простые маршруты, при определении маршрута Supply Chain Management автоматически создает номера операций (10, 20, 30 и т. д.).
 
@@ -53,7 +53,7 @@ ms.locfileid: "6188942"
 
 Если включить в параметрах управления производством более сложные маршрутные сети, можно определить маршруты, которые имеют несколько начальных точек, и операции в которых могут выполняться параллельно.  
 
-[![Маршрутная сеть](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Маршрутная сеть.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Каждая операция может иметь только одну последующую операцию, а весь маршрут должен заканчиваться одной операцией.
@@ -64,7 +64,7 @@ ms.locfileid: "6188942"
 
 В некоторых случаях для выполнения операции требуется сочетание нескольких операционных ресурсов, имеющих различные характеристики. Например, для операции сборки могут потребоваться станок, инструмент и один работник на каждые два станка для наблюдения за операцией. Этот пример можно смоделировать с использованием параллельных операций, где одна операция назначается в качестве основной операции, а остальные являются дополнительными.  
 
-[![Маршрут с основной и дополнительными операциями](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Маршрут с основной и дополнительными операциями.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Как правило, основная операция представляет собой минимальный (ограничивающий) ресурс и определяет время выполнения для дополнительных операций. Однако во время планирования, которое включает ограничения по мощности, ресурсы, которые запланированы как для основной операции, так и для дополнительных операций, должны быть доступны и иметь свободную мощность в одно и то же время.  
 

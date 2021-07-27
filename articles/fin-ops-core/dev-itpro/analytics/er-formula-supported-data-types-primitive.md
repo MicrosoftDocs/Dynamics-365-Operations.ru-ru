@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224111"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355330"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Поддерживаемые примитивные типы данных для формул электронной отчетности
 
@@ -112,13 +112,13 @@ ms.locfileid: "6224111"
 
 На следующем рисунке показано, как можно добавить перечисление модели **CustVendCorrectiveReasonCode** к редактируемой модели данных электронной отчетности.
 
-[![Настройка перечисления модели в конструкторе модели данных электронной отчетности](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Настройка перечисления модели в конструкторе модели данных электронной отчетности.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 *Перечисление* моделей может использоваться в выражениях любого сопоставления модели электронной отчетности и формата электронной отчетности, которые были созданы в модели данных, в которой было введено *перечисление*.
 
 На следующем рисунке показано, как можно добавить перечисление формата **Список подкатегорий удержания с покупателей Natura** для редактируемого формата электронной отчетности.
 
-[![Настройка перечисления формата в конструкторе формата электронной отчетности](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Настройка перечисления формата в конструкторе формата электронной отчетности.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 *Перечисление* форматов может использоваться только в выражениях формата электронной отчетности, в котором было введено *перечисление*.
 
@@ -126,15 +126,15 @@ ms.locfileid: "6224111"
 
 - Перечисления приложений могут быть доступны с помощью источников данных **Dynamics 365 for Operations\Перечисление** и **Общие\Входные параметры пользователя**. На следующем рисунке показано, как можно добавить к редактируемому формату электронной отчетности источники данных **appenumNoYes** и **uipNoYes**, которые ссылаются на перечисление приложения **NoYes**.
 
-    [![Добавление источников данных перечислений приложения в конструкторе форматов электронной отчетности](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Добавление источников данных перечислений приложения в конструкторе форматов электронной отчетности.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Перечисления моделей данных могут быть доступны с помощью источников данных **Модель данных\Перечисление** и **Модель данных\Входные параметры пользователя перечисления**. На следующем рисунке показано, как можно добавить к редактируемому формату электронной отчетности источник данных **CustVendCorrectiveReasonCode**, который ссылается на перечисление модели данных **CustVendCorrectiveReasonCode**.
 
-    [![Добавление источников данных перечислений модели в конструкторе форматов электронной отчетности](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Добавление источников данных перечислений модели в конструкторе форматов электронной отчетности.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Перечисления форматов могут быть доступны с помощью источников данных **Формат\Перечисление** и **Формат\Входные параметры пользователя перечисления**. На следующем рисунке показано, как можно добавить к редактируемому формату электронной отчетности источник данных **NaturaReverseCharge**, который ссылается на перечисление формата **Подкатегории удержания с покупателей Natura**.
 
-    [![Добавление источников данных перечислений форматов в конструкторе форматов электронной отчетности](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Добавление источников данных перечислений форматов в конструкторе форматов электронной отчетности.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 Тип *перечисление* не имеет неявных преобразований. Однако можно использовать функцию преобразования [TEXT](er-functions-text-text.md) для преобразования типа *перечисление* в текстовую строку. Это преобразование не зависит от языка. Чтобы узнать, как можно связать значение типа *перечисление* с соответствующими метками для определенного языка, см. примеры использования функций [LISTOFFIELDS](er-functions-list-listoffields.md) и [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md).
 

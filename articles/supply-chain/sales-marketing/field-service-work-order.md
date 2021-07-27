@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345556"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5824974"
 
 В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Dynamics 365 Field Service с заказами на продажу в Dynamics 365 Supply Chain Management.
 
-[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
@@ -245,31 +245,31 @@ ms.locfileid: "5824974"
 
 Фильтр: (msdyn_systemstatus ne 690970005) and (msdyn_systemstatus ne 690970000) and (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Сопоставление шаблона в интеграции данных.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineEstimate
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
 
-[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Сопоставление шаблона в интеграции данных.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineUsed
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004))
 
-[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Сопоставление шаблона в интеграции данных.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineEstimate
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) and (msdyn_allocated eq true)
 
-[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Сопоставление шаблона в интеграции данных.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineUsed
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004) or (msdyn_allocated ne true))
 
-[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Сопоставление шаблона в интеграции данных.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

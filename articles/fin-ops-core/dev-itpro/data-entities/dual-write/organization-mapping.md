@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355306"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Организационная иерархия в Dataverse
 
@@ -37,7 +37,7 @@ ms.locfileid: "5750820"
 
 Бизнес-экосистема, состоящая из приложений Finance and Operations и Dataverse, будет по-прежнему иметь организационную иерархию. Эта организационная иерархия построена на приложениях Finance and Operations, но она доступна в Dataverse для целей информации и расширения. На следующей иллюстрации показана информация об иерархии организации, которая доступна в Dataverse в качестве одностороннего потока данных из приложений Finance and Operations в Dataverse.
 
-![Изображение архитектуры](media/dual-write-data-flow.png)
+![Изображение архитектуры.](media/dual-write-data-flow.png)
 
 Сопоставления таблицы организационной иерархии доступны для односторонней синхронизации данных из приложений Finance and Operations в Dataverse.
 

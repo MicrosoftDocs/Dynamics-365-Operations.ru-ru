@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750492"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350264"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Обновление структуры шаблона бизнес-документа 
 
@@ -58,7 +58,7 @@ ms.locfileid: "5750492"
 
     Новый шаблон открывается для редактирования во встроенном элементе управления Excel Online на странице редактора шаблонов.
 
-[![Использование рабочей области управления бизнес-документами для запуска редактирования шаблона бизнес-документа](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Использование рабочей области управления бизнес-документами для запуска редактирования шаблона бизнес-документа.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Просмотр текущей структуры редактируемого шаблона
 
@@ -68,7 +68,7 @@ ms.locfileid: "5750492"
 4. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 5. Обратите внимание, что в структуре шаблонов в Finance элемент **rptHeaderCompLogo** представляется в качестве дочернего элемента **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 
-[![Использование рабочей области управления бизнес-документами для просмотра текущей структуры редактируемого шаблона](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Использование рабочей области управления бизнес-документами для просмотра текущей структуры редактируемого шаблона.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Обновление структуры шаблона бизнес-документа путем удаления рисунка
 
@@ -85,7 +85,7 @@ ms.locfileid: "5750492"
 4. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 5. Обратите внимание, что элемент **rptHeaderCompLogo** больше не включен в структуру шаблонов в модуле Finance.
 
-[![Использование рабочей области управления бизнес-документами для удаления рисунка из шаблона бизнес-документа](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Использование рабочей области управления бизнес-документами для удаления рисунка из шаблона бизнес-документа.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Обновление структуры шаблона бизнес-документа путем добавления рисунка
 
@@ -97,7 +97,7 @@ ms.locfileid: "5750492"
 6. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 7. Обратите внимание, что новый рисунок теперь включен как элемент в структуру шаблона в модуле Finance.
 
-[![Использование рабочей области управления бизнес-документами для добавления рисунка в шаблон бизнес-документа](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Использование рабочей области управления бизнес-документами для добавления рисунка в шаблон бизнес-документа.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Связанные ссылки
 

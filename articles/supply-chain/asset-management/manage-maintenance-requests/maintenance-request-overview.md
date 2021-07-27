@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015886"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344252"
 ---
 # <a name="maintenance-requests"></a>Запросы на обслуживание
 
@@ -40,7 +40,7 @@ ms.locfileid: "6015886"
 
 Для просмотра запросов на обслуживание выберите **Управление активами** \> **Общее** \> **Запросы на обслуживание** \> **Все запросы на обслуживание**, **Активные запросы на обслуживание**, или **Мои запросы на обслуживание функционального местоположения**. На каждой странице списка отображается часть информации, связанной с запросом на обслуживание.
 
-![Просмотр запросов на обслуживание](media/01-manage-maintenance-requests.png)
+![Просмотр запросов на обслуживание.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Используйте страницу списка **Мои запросы на обслуживание функционального местоположения**, чтобы просмотреть список запросов на обслуживание, которые содержат либо функциональные местоположения, с которыми вы связаны как работник, либо активы, установленные в функциональных местоположениях, с которыми вы связаны как работник. (Для получения информации о том, как настроить функциональные местоположения для специалистов по обслуживанию, см. раздел [Специалисты и группы специалистов по обслуживанию](../setup-for-objects/workers-and-worker-groups.md).)
@@ -49,7 +49,7 @@ ms.locfileid: "6015886"
 
 Чтобы открыть представление сведений о записи, на странице списка **Все запросы на обслуживание** в представлении сетки выберите ссылку в столбце **Запрос на обслуживание**.
 
-![Просмотр сведений запроса на обслуживание](media/02-manage-maintenance-requests.png)
+![Просмотр сведений запроса на обслуживание.](media/02-manage-maintenance-requests.png)
 
 Кнопки на панели операций организованы на вкладках. В следующей таблице кратко описаны кнопки, связанные с «Управлением активами».
 

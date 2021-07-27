@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352672"
 ---
 # <a name="cloud-powered-search-overview"></a>Обзор поиска на облачной платформе
 
@@ -41,7 +41,7 @@ ms.locfileid: "5800429"
 
 На следующем рисунке показан пример типичных функций просмотра и поиска.
 
-![Целевая страница поиска](./media/SearchLanding.png)
+![Целевая страница поиска.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Сводка по аспектам навигации и выбора 
 
@@ -51,7 +51,7 @@ ms.locfileid: "5800429"
 
 На следующем рисунке показан пример использования аспектной навигации при поиске.
 
-![Сводка выбора](./media/ChoiceSummary.png)
+![Сводка выбора.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Иммерсивное автозаполнение
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce также поддерживает функциональ
 
 На следующем рисунке показан пример использования иммерсивного автозаполнения.
 
-![иммерсивное автозаполнение](./media/ImmersiveAutoSuggestUX.png)
+![иммерсивное автозаполнение.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Сорт
 
@@ -69,7 +69,7 @@ Dynamics 365 Commerce также поддерживает функциональ
 
 >[!NOTE]
 >Такие возможности поиска на основе облака доступны, начиная с версии 10.0.8. Убедитесь, что в пункте **Параметры Commerce > Параметры конфигурации** имеется запись "для ProductSearch.UseAzureSearch задано значение «true»". 
-![Параметры конфигурации для поиска на основе облака](./media/CloudPoweredSearchConfigurationParameters.png)
+![Параметры конфигурации для поиска на основе облака.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

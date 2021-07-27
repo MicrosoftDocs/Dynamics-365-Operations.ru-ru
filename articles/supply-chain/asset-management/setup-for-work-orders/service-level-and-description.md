@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808264"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356472"
 ---
 # <a name="service-level-and-description"></a>Уровень обслуживания и описание
 
@@ -45,7 +45,7 @@ ms.locfileid: "5808264"
 8. Чтобы задать время завершения для заказа на работу в дополнение к дате завершения, установите для параметра **Задать время завершения** значение **Да**. Затем введите время завершения в поле **Время завершения**. Если для параметра выбрано значение **Нет**, используется текущее время дня.
 9. Нажмите **Сохранить**.
 
-![Страница уровня обслуживания по заказу на работу](media/19-setup-for-work-orders.png)
+![Страница уровня обслуживания по заказу на работу.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Создание описания
 

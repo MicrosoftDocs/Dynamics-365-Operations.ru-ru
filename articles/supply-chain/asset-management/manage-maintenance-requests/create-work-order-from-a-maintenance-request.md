@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c360985509f8f1379ed4a9bd17b95f2d8c85340e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bc2422e395239560be580ec9dd1335d93b20aadc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808600"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354889"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Создание заказов на работу из запросов на обслуживание
 
@@ -50,7 +50,7 @@ ms.locfileid: "5808600"
 
 6. Выберите **Управление активами** \> **Общее** \> **Заказы на работу** \> **Все заказы на работу** и откройте новый заказ на работу.
 
-    ![Открыть новый заказ на работу](media/05-manage-maintenance-requests.png)
+    ![Открыть новый заказ на работу.](media/05-manage-maintenance-requests.png)
 
 
 

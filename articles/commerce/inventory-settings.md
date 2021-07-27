@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271313"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357866"
 ---
 # <a name="apply-inventory-settings"></a>Применение настроек запасов
 
@@ -68,15 +68,15 @@ Dynamics 365 Commerce предоставляет оценки доступнос
 
 В примере на следующем рисунке PDP показывает сообщение "в наличии" ("доступно").
 
-![Пример модуля PDP с информационным сообщением "в наличии"](./media/pdp-InStock.png)
+![Пример модуля PDP с информационным сообщением "в наличии".](./media/pdp-InStock.png)
 
 В примере на следующем рисунке PDP показывает сообщение "нет на складе".
 
-![Пример модуля PDP с информационным сообщением "нет на складе"](./media/pdp-outofstock.png)
+![Пример модуля PDP с информационным сообщением "нет на складе".](./media/pdp-outofstock.png)
 
 В примере на следующем рисунке PDP корзина показывает сообщение "в наличии&quot; (&quot;доступно").
 
-![Пример модуля корзины с информационным сообщением "в наличии"](./media/cart-instock.png)
+![Пример модуля корзины с информационным сообщением "в наличии".](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

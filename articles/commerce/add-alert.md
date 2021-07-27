@@ -2,7 +2,7 @@
 title: Модуль рекламного баннера
 description: В этом разделе описываются модули рекламного баннера, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796254"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479360"
 ---
 # <a name="promo-banner-module"></a>Модуль рекламного баннера
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 В этом разделе описываются модули рекламного баннера, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 
@@ -46,7 +47,7 @@ ms.locfileid: "5796254"
 
 На следующем рисунке показан пример рекламного баннера.
 
-![Пример модуля рекламного баннера](./media/ecommerce-Promobanner.PNG)
+![Пример модуля рекламного баннера.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Свойства модуля рекламного баннера
 
@@ -58,7 +59,11 @@ ms.locfileid: "5796254"
 | Разрешить закрытие             | **True** или **False**              | Если установлено значение **True**, клиент может закрыть оповещение. |
 | Показать карусельный флиппер     | **True** или **False**              | Значение, указывающее, следует ли показывать карусельные флипперы, чтобы клиенты могли вручную циклически переключать несколько элементов баннеров. |
 | Выравнивание текста            | **По правому краю**, **По левому краю** или **По центру** | Выравнивание текста в модуле рекламного баннера. |
-| Ссылка                      | URL-адрес                              | URL-адрес для необязательной ссылки. |
+| Связать                      | URL-адрес                              | URL-адрес для необязательной ссылки. |
+|Выравнивание текста             | **По правому краю**, **По левому краю** или **По центру** | Это свойство доступно в качестве расширения темы в теме Adventure Works. Оно позволяет пользователю задавать выравнивание текста в рекламном баннере. |
+
+> [!IMPORTANT]
+> Тема Adventure Works доступна в выпуске Dynamics 365 Commerce версии 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Добавление модуля рекламного баннера на страницу 
 
@@ -78,7 +83,6 @@ ms.locfileid: "5796254"
 
 > [!NOTE]
 > Рекламный баннер обычно используется в слоте заголовков страницы или слоте подзаголовка.
-
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

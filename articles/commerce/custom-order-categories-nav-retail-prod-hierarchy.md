@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937070"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349682"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Изменение порядка сортировки для сбытовых объектов
 
@@ -51,9 +51,9 @@ ms.locfileid: "5937070"
 
 Порядок отображения для иерархии навигации канала будет отражен в головном офисе для иерархии продукции Commerce и выпущенных продуктов по категориям.
 
-![Пользовательская сортировка иерархии продуктов с отрицательными значениями](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Пользовательская сортировка иерархии продуктов с отрицательными значениями.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Выпущенные продукты по категориям с настраиваемой сортировкой на основе иерархии продукции](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Выпущенные продукты по категориям с настраиваемой сортировкой на основе иерархии продукции.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Настройка порядка отображения категорий в иерархии навигации по каналам
 
@@ -77,11 +77,11 @@ ms.locfileid: "5937070"
 
 Порядок отображения для иерархии навигации канала отражается в главном офисе, каталоге и каналах торговли.
 
-![Навигационная иерархия канала с настраиваемой сортировкой](./media/ChannelNavCustomSorted.png)
+![Навигационная иерархия канала с настраиваемой сортировкой.](./media/ChannelNavCustomSorted.png)
 
-![Пользовательская сортировка иерархии навигации по каталогу, основанная на иерархии навигации канала](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Пользовательская сортировка иерархии навигации по каталогу, основанная на иерархии навигации канала.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS-терминал с настраиваемой сортировкой категорий](./media/POSChannelCategoriesCustomSorted.png)
+![POS-терминал с настраиваемой сортировкой категорий.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > По умолчанию функция настраиваемого порядка сортировки отключена. Чтобы узнать, как включить эту функцию и другие функции, см. раздел [Управление функциями](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

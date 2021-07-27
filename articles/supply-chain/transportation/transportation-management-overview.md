@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359517"
 ---
 # <a name="transportation-management-overview"></a>Обзор управления транспортировкой
 
@@ -67,17 +69,17 @@ ms.locfileid: "5807736"
 ## <a name="planning-transportation-in-supply-chain-management"></a>Планирование транспортировки в Supply Chain Management
 В модуле «Управление транспортировкой» планирование транспортировки может быть основано либо на заказах, либо на отгрузках, которые создаются на основе этих заказов. Отгрузки всегда существуют в некоторый момент времени, но они не являются необходимыми для планирования транспортировки. Заказы на перемещение являются частью исходящего сценария и могут планироваться вместе с заказами на продажу. 
 
-![Рисунок погрузки](./media/Load-drawing1-1024x477.jpg)
+![Рисунок погрузки.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Входящая транспортировка
 Если при заказе номенклатур у поставщика номенклатуры должны быть доставлены на ваш склад, может потребоваться организовать транспортировку номенклатур самостоятельно. Можно использовать Supply Chain Management для планирования транспортировки и оформления прихода входящей загрузки. На следующем рисунке показан бизнес-процесс планирования транспортировки входящей загрузки. 
 
-![Схема бизнес-процесса для транспортировки входящих загрузок](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Схема бизнес-процесса для транспортировки входящих загрузок.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Исходящая транспортировка
 Можно планировать и обрабатывать исходящую загрузку для отгрузки определенных номенклатур со склада компании клиенту. Можно использовать Supply Chain Management для планирования транспортировки и отгрузки исходящей загрузки. На следующем рисунке показан бизнес-процесс планирования и обработки исходящих загрузок для отгрузки. 
 
-![Планирование и обработка исходящих загрузок](./media/Planningandprocessingoutboundloads.jpg)
+![Планирование и обработка исходящих загрузок.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Формирование загрузок
 Supply Chain Management предоставляет стратегию построения загрузки, которая называется стратегией построения загрузки на основе объема. Эта стратегия позволяет использовать максимальные значения, определенные для высоты и веса в шаблоне загрузки, или переопределить параметры путем ввода новых значений. Для использования этой стратегии выберите ее в поле **Стратегия формирования загрузок** на экспресс-вкладке **Настройка** на странице **Рабочее место формирования загрузки**. Кроме того, можно добавить собственные стратегии формирования загрузок, создав новый класс в репозитории прикладных объектов (AOT).
