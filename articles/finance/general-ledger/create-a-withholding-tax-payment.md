@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffd426c893a93ffa02aa52a2d2bad39227f8dd35
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355115"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Создание платежа подоходного налога
 
@@ -37,7 +37,7 @@ ms.locfileid: "5832954"
 6. Выберите **Обновить** для разноски операции по платежу подоходного налога на счет сопоставления подоходного налога.
 7. Щелкните **OK**.
 
-![Параметры для платежа по подоходному налогу](media/withholding-tax-payment.png)
+![Параметры для платежа по подоходному налогу.](media/withholding-tax-payment.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

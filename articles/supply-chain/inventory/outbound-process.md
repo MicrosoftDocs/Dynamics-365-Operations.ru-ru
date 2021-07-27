@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: e9f9da7d6e3ede9816757fb57f0b802ce4d41360
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825947"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348813"
 ---
 # <a name="outbound-process-overview"></a>Обзор исходящих процессов
 
@@ -45,31 +47,31 @@ ms.locfileid: "5825947"
 
 Выберите **Расчеты с клиентами** \> **Настройка** \> **Параметры модуля расчетов с клиентами**, а затем на вкладке **Обновления** выберите значение в поле **Статус маршрута комплектации**.
 
-[![Поле "Статус маршрута комплектации" для заказов на продажу](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
+[![Поле "Статус маршрута комплектации" для заказов на продажу.](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
 Если в поле **Статус маршрута комплектации** установлено значение **Завершено**, процесс комплектации происходит автоматически в рамках процесса формирования листов комплектации. Если в этом поле установлено значение **Активировано**, строки листа комплектации необходимо обновить вручную.
 
 Эта же настройка применяется к заказам на перемещение. Выберите **Управление запасами** \> **Настройка** \> **Параметры модуля "Управление запасами и складами"**, а затем на вкладке **Транспортировка** выберите значение в поле **Статус маршрута комплектации**.
 
-[![Поле "Статус маршрута комплектации" для заказов на перемещение](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
+[![Поле "Статус маршрута комплектации" для заказов на перемещение.](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Завершение складских заказов на выпуск
 
 Выберите **Управление запасами** \> **Настройка** \> **Параметры модуля "Управление запасами и складами"**, а затем на вкладке **Общие** задайте параметр **Завершить складской заказ на выпуск**.
 
-[![Параметр "Завершить складской заказ на выпуск"](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
+[![Параметр "Завершить складской заказ на выпуск".](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
 Когда работник склада уменьшает количества в листе подбора, соответствующие количества складского заказа будут удалены из отгрузки. При обновлении листа подбора в некоторый момент времени оставшиеся количества передаются обратно в заказ, если для параметра **Завершить складской заказ на выпуск** установлено значение **Да**. Если для параметра **Завершить складской заказ на выпуск** задано значение **Нет**, оставшиеся количества остаются в качестве количества открытого заказа на выпуск и должны быть добавлены в новый лист подбора в рамках функции **Открытые заказы на выпуск**. 
 
-[![Команда "Открытые заказы на выпуск" в меню "Функции"](./media/open-output-order.png)](./media/open-output-order.png)
+[![Команда "Открытые заказы на выпуск" в меню "Функции".](./media/open-output-order.png)](./media/open-output-order.png)
 
-[![Меню "Функции" на странице "Открытые заказы на выпуск"](./media/open-output-order-function.png)](./media/open-output-order-function.png)
+[![Меню "Функции" на странице "Открытые заказы на выпуск".](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 
 ## <a name="reduce-quantity"></a>Уменьшить количество
 
 Третий параметр, который можно использовать в рамках процесса формирования листов комплектации, — это параметр **Уменьшить количество**. Значение этого параметра используется вместе с параметром **Резервирование**, который запускает процесс резервирования в рамках выпуска на склад.
 
-[![Параметр "Уменьшить количество"](./media/reduce-quantity.png)](./media/reduce-quantity.png)
+[![Параметр "Уменьшить количество".](./media/reduce-quantity.png)](./media/reduce-quantity.png)
 
 ## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Пример исходящего процесса для заказа на продажу
 
@@ -77,11 +79,11 @@ ms.locfileid: "5825947"
 
 Запасы, которые еще не зарезервированы, резервируются во время формирования листа комплектации. Отсутствующие в наличии запасы могут быть либо удалены из заказа на продажу, либо выпущены на склад для исходящей обработки позднее, когда запасы будут доступны для комплектации.
 
-[![Обновление листа комплектации](./media/update-picking-list.png)](./media/update-picking-list.png)
+[![Обновление листа комплектации.](./media/update-picking-list.png)](./media/update-picking-list.png)
 
 Как только все строки комплектации на странице **Регистрация отгрузочной накладной** будут скомплектованы, связанная с ними отгрузка будет завершена. После этого на основании скомплектованных запасов можно инициализировать процесс для создания отборочных накладных для заказов на продажу.
 
-[![Обновление исходящих отгрузок](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+[![Обновление исходящих отгрузок.](./media/outbound-shipments.png)](./media/outbound-shipments.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

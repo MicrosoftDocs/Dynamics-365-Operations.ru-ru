@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ba23b597b1d7d283b99638fb7d5d91da00afb09c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82357b7fe00b93715f44eb024ac78d7cc1adca84
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356109"
 ---
 # <a name="voucher-isnt-generated"></a>Ваучер не создан
 
@@ -26,14 +26,14 @@ ms.locfileid: "6018765"
 
 Если ваучер должна быть сформирован, но на странице **Проводки ваучера** не отображаются ваучеры, выполните действия, указанные в следующих разделах, в соответствии с требованиями для устранения проблемы.
 
-[![Страница проводок ваучера без ваучеров](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
+[![Страница проводок ваучера без ваучеров.](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
 
 ## <a name="check-the-tax-applicability"></a>Проверка применимости налога
 
 1. Перейдите **Налог** \> **Периодические задачи** \> **Записи журнала субкниги еще не переданы**.
 2. Если есть запись в журнале, выберите ее, а затем выберите **Перенести сейчас**.
 
-    [![Кнопка "Перенести сейчас" на странице "Записи журнала субкниги еще не переданы"](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
+    [![Кнопка "Перенести сейчас" на странице "Записи журнала субкниги еще не переданы".](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
 
 3. Снова откройте страницу **Проводки ваучера**, чтобы просмотреть, был ли создан данный ваучер.
 

@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5ac36f536003b9945ffbdcae12de2582e80634a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8642f7d92a9c0ca69ad4965fd3a8219e57278ed1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813371"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359181"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Обзор активных заданий обслуживания для заказа на работу
 
@@ -36,7 +36,7 @@ ms.locfileid: "5813371"
 
 На приведенном ниже рисунке показан пример страницы списка **Активные задания обслуживания для заказа на работу**.
 
-![Рисунок 1](media/23-work-orders.png)
+![Рисунок 1.](media/23-work-orders.png)
 
 Для краткого описания кнопок на странице списка **Активные задания обслуживания для заказа на работу** см. раздел [Введение в заказы на работу](../work-orders/introduction-to-work-orders.md), в которых описаны идентичные кнопки.
 

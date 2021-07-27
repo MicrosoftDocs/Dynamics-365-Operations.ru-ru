@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346554"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Обновление модели субъекта и глобальной адресной книги
 
@@ -89,7 +89,7 @@ ms.locfileid: "6112681"
 
 10. После развертывания проверьте наборы данных, поток данных и связанную службу фабрики данных.
 
-   ![Наборы данных, поток данных и связанная служба](media/data-factory-validate.png)
+   ![Наборы данных, поток данных и связанная служба.](media/data-factory-validate.png)
 
 11. Перейдите к **Управление**. В **Подключения** выберите **связанная служба**. Выберите **DynamicsCrmLinkedService**. В форме **Изменение связанной службы (Dynamics CRM)** введите следующие значения.
 
@@ -154,7 +154,7 @@ ms.locfileid: "6112681"
 
 7. В фабрике данных выполните шаблон, выбрав **Активировать сейчас**, как показано на следующем изображении. Этот процесс может занять несколько часов в зависимости от объема данных.
 
-    ![Активировать выполнение](media/data-factory-trigger.png)
+    ![Активировать выполнение.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Если имеются настройки для **Учетная запись**, **Контактное лицо** и **Поставщик**, требуется изменить шаблон.
@@ -164,7 +164,7 @@ ms.locfileid: "6112681"
     + Загрузите файл `FONewParty.csv` из хранилища BLOB-объектов Azure. Путь `partybootstrapping/output/FONewParty.csv`.
     + Преобразуйте файл `FONewParty.csv` в файл Excel и импортируйте файл Excel в приложение Finance and Operations. Если вам подходит импорт csv, можно напрямую импортировать файл CSV. Для выполнения импорта может потребоваться несколько часов, в зависимости от объема данных. Дополнительные сведения см. в разделе [Обзор заданий импорта и экспорта данных](../data-import-export-job.md).
 
-    ![Импорт записей стороны Datavers](media/data-factory-import-party.png)
+    ![Импорт записей стороны Datavers.](media/data-factory-import-party.png)
 
 9. В приложениях взаимодействия с клиентами включите следующие шаги подключаемого модуля:
 
@@ -199,7 +199,7 @@ ms.locfileid: "6112681"
 3. Фабрика данных выполняется на основе файлов CSV, разделенных запятыми. Если имеется значение поля с запятой, оно может повлиять на результаты. Необходимо удалить запятые.
 4. Вкладка **Мониторинг** содержит сведения обо всех шагах и обработанных данных. Выбор конкретного шага для его отладки.
 
-    ![Вкладка "Мониторинг"](media/data-factory-monitor.png)
+    ![Вкладка "Мониторинг".](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Дополнительные сведения о шаблоне
 

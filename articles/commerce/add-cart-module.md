@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797871"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346860"
 ---
 # <a name="cart-module"></a>Модуль корзины
 
@@ -35,11 +35,11 @@ ms.locfileid: "5797871"
 
 На следующем рисунке показан пример страницы корзины на сайте Fabrikam.
 
-![Пример модуля корзины на сайте Fabrikam](./media/cart2.PNG)
+![Пример модуля корзины на сайте Fabrikam.](./media/cart2.PNG)
 
 На следующем рисунке показан пример страницы корзины на сайте Fabrikam. В этом примере имеется сбор за обработку для элемента строки.
 
-![Пример модуля корзины со сбором за обслуживание для номенклатуры строки](./media/ecommerce-handling-fee.png)
+![Пример модуля корзины со сбором за обслуживание для номенклатуры строки.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Свойства и слоты модуля корзины
 

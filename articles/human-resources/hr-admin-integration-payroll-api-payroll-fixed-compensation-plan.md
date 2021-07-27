@@ -13,18 +13,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 227082358c59abddd63f4faa4536a8df270a4d80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24f8af4d691c3085c36018c574fa3b917a3d6953
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059096"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314221"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>План фиксированной компенсации зарплаты
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе представлены сведения и пример запроса для сущности плана фиксированной компенсации заработной платы в Dynamics 365 Human Resources.
+В этой теме описывается сущность плана фиксированной компенсации зарплаты для Dynamics 365 Human Resources.
+
+### <a name="description"></a>описание
+
+Эта сущность предоставляет план фиксированной компенсации, назначенный для данной должности сотрудника.
+
+Физическое имя: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Свойства
 
@@ -37,11 +43,11 @@ ms.locfileid: "6059096"
 | **Сущность плана фиксированной компенсации заработной платы**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Требуется<br>Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
 | **Частота платежей**<br>mshr_payfrequency<br>*Строка* | Только для чтения<br>Требуется |Частота выплаты сотруднику.  |
 | **Действительно до**<br>mshr_validto<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата, до которой действительна фиксированная компенсация сотрудника. |
-| **Код должности**<br>mshr_positionid<br>*Строка* | Только для чтения <br>Требуется | ИД разноски, связанный с сотрудником и соглашением о регистрации плана фиксированной компенсации. |
+| **Код должности**<br>mshr_positionid<br>*Строка* | Только для чтения <br>Требуется | Код должности, связанный с сотрудником и соглашением о регистрации плана фиксированной компенсации. |
 | **Валютное**<br>mshr_currency<br>*Строка* | Только для чтения <br>Требуется |Валюта, определенная для плана фиксированной компенсации   |
 | **Табельный номер**<br>mshr_personnelnumber<br>*Строка* | Только для чтения<br>Требуется |Уникальный табельный номер для сотрудника.  |
 
-**Запрос**
+## <a name="example-query"></a>Пример запроса
 
 **Запрос**
 
@@ -53,18 +59,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollfixedcompensationplanentities?$f
 
 ```json
 {
-            "mshr_planid": "GradeC",
-            "mshr_personnelnumber": "000041",
-            "mshr_payrate": 75200,
-            "mshr_positionid": "000276",
-            "mshr_validfrom": "2011-04-05T00:00:00Z",
-            "mshr_validto": "2154-12-31T00:00:00Z",
-            "mshr_payfrequency": "Annual",
-            "mshr_currency": "USD",
-            "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
-            "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
-            "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
-            "_mshr_fk_payroll_id_value": null
+    "mshr_planid": "GradeC",
+    "mshr_personnelnumber": "000041",
+    "mshr_payrate": 75200,
+    "mshr_positionid": "000276",
+    "mshr_validfrom": "2011-04-05T00:00:00Z",
+    "mshr_validto": "2154-12-31T00:00:00Z",
+    "mshr_payfrequency": "Annual",
+    "mshr_currency": "USD",
+    "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
+    "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
+    "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
+    "_mshr_fk_payroll_id_value": null
 }
 ```
+
+## <a name="see-also"></a>См. также
+
+[Введение API интеграции заработной платы](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

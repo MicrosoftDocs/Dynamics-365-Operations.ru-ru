@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5674eaf332114d7176a386cb5c5b1a9ea0dcd908
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9aa3f6ea2ccd549cd38cd896e72b0e994c1cdab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360163"
 ---
 # <a name="use-an-inventory-profile-in-documents-and-queries"></a>Использование профиля учета в документах и запросах
 [!include [banner](../includes/banner.md)]
@@ -109,7 +109,7 @@ ms.locfileid: "5836804"
 2. Выберите накладную поставщика, для которой нет обработанной счета-фактуры по накладным, а затем выберите **создать фактуру \> обновления фактуры**.
 3. На странице **Обновление фактуры** в верхней области в поле **вид деятельности** выберите вид деятельности, для которого необходимо обработать счета-фактуры. В нижней области отображаются накладные, имеющие выбранный вид деятельности.
 
-   ![Страница обновления счета-фактуры](media/14_Update_facture.png)
+   ![Страница обновления счета-фактуры.](media/14_Update_facture.png)
 
 Система сохраняет вид деятельности, который используется для разноски в поступления продуктов, накладные и счетов-фактур по накладным для заказа на покупку. Вы можете просмотреть вид деятельности в следующих местах:
 

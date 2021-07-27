@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963247"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357422"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Создание учетной записи хранилища в Azure и хранилища ключей
 
@@ -49,7 +49,7 @@ ms.locfileid: "5963247"
 5. Выберите **Добавить политику**, чтобы добавить сохраненную политику доступа.
 6. Задайте требуемые значения в полях **Идентификатор** и **Разрешения**. В поле **Разрешения** следует выбрать все разрешения.
 
-    ![Предоставление разрешения для хранилища BLOB-объектов](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Предоставление разрешения для хранилища BLOB-объектов.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Введите даты начала и окончания срока действия. Дата истечения срока действия должна быть в будущем.
 8. Выберите **ОК**, чтобы сохранить политику, затем сохраните изменения в контейнере.
@@ -57,7 +57,7 @@ ms.locfileid: "5963247"
 10. Щелкните контейнер правой кнопкой мыши и выберите **Получить подписанный URL-адрес**.
 11. В диалоговом окне **Подписанный URL-адрес** скопируйте и сохраните значение в поле **URI**. Это значение будет использоваться в следующей процедуре и будет называться *URI подписанного URL-адреса*.
 
-    ![Выбор и копирование значения URI](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![Выбор и копирование значения URI.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Настройка хранилища ключей для хранения URI учетной записи хранения
 
@@ -69,11 +69,11 @@ ms.locfileid: "5963247"
 6. Настройте политику доступа, чтобы предоставить модулю электронного выставления накладных уровень безопасного доступа для созданного вами секрета. Перейдите в раздел **Параметры \> Политика доступа** и выберите команду **Добавить политику доступа**.
 7. Задайте разрешения секрета для операций **Получить** и **Список**.
 
-    ![Предоставление доступа к службе](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Предоставление доступа к службе.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Задайте разрешения сертификата для операций **Получить** и **Список**.
 
-    ![Предоставление разрешения сертификата](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Предоставление разрешения сертификата.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. В поле **Выбрать доверителя** выберите **нет выбранных**.
 10. В диалоговом окне **Субъект** выберите субъект, добавив **Служба электронных накладных**.

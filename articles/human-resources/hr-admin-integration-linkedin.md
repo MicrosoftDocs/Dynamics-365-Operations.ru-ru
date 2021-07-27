@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055108"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360600"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Интеграция с LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ ms.locfileid: "6055108"
 
 5. На странице **Dynamics 365 Human Resources** выберите среду, с которой требуется связать LinkedIn Talent Hub, затем выберите пункт **Ссылка**.
 
-    ![Подключение LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![Подключение LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Можно привязывать только к средам, в которых ваша учетная запись пользователя имеет доступ администратора к среде Human Resources и к связанной среде Power Apps. Если на странице ссылки Human Resources отсутствуют среды, убедитесь, что у вас есть лицензированная среда Human Resources на клиенте, а пользователь, с которым вы выполнили вход на страницу ссылки, обладает правами администратора как в среде Human Resources, так и в среде Power Apps.
@@ -91,7 +91,7 @@ ms.locfileid: "6055108"
 
 6. Используйте раскрывающееся меню над списком, чтобы изменить представление с представления по умолчанию **Включенные пользователи** на **Пользователи приложения**.
 
-    ![Представление пользователей приложений](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Представление пользователей приложений.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. На панели инструментов выберите **Создать**.
 
@@ -163,7 +163,7 @@ ms.locfileid: "6055108"
     - В поле **Местоположение** введите местоположение, в котором будет базироваться сотрудник.
     - Введите или проверьте адрес электронной почты сотрудника.
 
-![Панель экспорта в HRIS в LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Панель экспорта в HRIS в LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Завершение подключения в модуле Human Resources
 

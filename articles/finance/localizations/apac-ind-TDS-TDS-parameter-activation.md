@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023536"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358250"
 ---
 # <a name="set-the-tds-parameters"></a>Настройка параметров TDS
 
@@ -34,13 +34,13 @@ ms.locfileid: "6023536"
 3. Установите для параметра **Накладная** значение **Да**, чтобы активировать поля, используемые для расчета и вычета TDS на уровне накладных.
 4. Установите для параметра **Платеж** значение **Да**, чтобы активировать поля, используемые для расчета и вычета TDS на уровне платежей.
 
-    [![Вкладка "Прямые налоги"](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Вкладка "Прямые налоги".](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. На вкладке **Номерные серии** найдите строку, в которой поле **Ссылка** задано как **Платеж подоходного налога**. В поле **Код номерной серии** для строки выберите код номерной серии. Код номерной серии используется для создания кодов ваучеров для периодического процесса сопоставления TDS.
 
     > [!NOTE]
     > Чтобы выполнить периодическое сопоставление TDS, перейдите **Налог \> Декларации \> Подоходный налог \> Платеж подоходного налога**.
 
-    [![Вкладка "Номерные серии"](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Вкладка "Номерные серии".](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. Закройте страницу.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017014"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358106"
 ---
 # <a name="inventory-visibility-add-in"></a>Надстройка видимости запасов
 
@@ -143,7 +143,7 @@ ms.locfileid: "6017014"
 
             Дополнительные сведения об этой переменной см. в разделе [Настройка интеграции контроля запасов](#setup-inventory-visibility-integration) далее в этой теме.
 
-        ![Триггер конфигурации](media/configuration-trigger.png "Триггер конфигурации")
+        ![Триггер конфигурации.](media/configuration-trigger.png "Триггер конфигурации")
 
     1. Выберите **Включить**.
 
@@ -157,7 +157,7 @@ ms.locfileid: "6017014"
 1. На странице среды прокрутите вниз до появления раздела **Надстройки среды** в разделе **Интеграция Power Platform**, где можно найти имя среды Dataverse.
 1. В разделе **Надстройки сред** выберите **Установить новую надстройку**.
 
-    ![Страница среды в LCS](media/inventory-visibility-environment.png "Страница среды в LCS")
+    ![Страница среды в LCS.](media/inventory-visibility-environment.png "Страница среды в LCS")
 
 1. Выберите ссылку **Установить новую надстройку**. Откроется список доступных надстроек.
 1. Выберите **Контроль запасов** в списке.
@@ -166,7 +166,7 @@ ms.locfileid: "6017014"
     - **Код приложения AAD (клиента)**
     - **Код арендатора AAD**
 
-    ![Страница настройки надстройки](media/inventory-visibility-setup.png "Страница настройки надстройки")
+    ![Страница настройки надстройки.](media/inventory-visibility-setup.png "Страница настройки надстройки")
 
 1. Примите условия, установив флажок **Условия**.
 1. Выберите **Установить**. Статус надстройки будет отображаться как **Установка**. После завершения обновите страницу, чтобы увидеть статус, измененный на **Установлено**.

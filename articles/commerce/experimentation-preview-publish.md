@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798971"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349312"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Предварительный просмотр и публикация эксперимента
 
 В этой теме описывается предварительный просмотр и публикация эксперимента в Dynamics 365 Commerce после [подключения эксперимента и изменения ваших вариаций](experimentation-connect-edit.md). На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах.
 
-[ ![Путь взаимодействия пользователя с экспериментами — предварительный просмотр и публикация](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Путь взаимодействия пользователя с экспериментами — предварительный просмотр и публикация.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Предварительный просмотр вариантов экспериментов
 Можно просмотреть вариации и продолжить их редактирование до тех пор, пока они не будут выглядеть так, как необходимо.

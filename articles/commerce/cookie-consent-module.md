@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796011"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352526"
 ---
 # <a name="cookie-consent-module"></a>Модуль согласия на получение файлов cookie
 
@@ -35,7 +35,7 @@ ms.locfileid: "5796011"
 Модуль согласия на файлы cookie может быть настроен на фрагменте заголовка страницы, чтобы его можно было применять при загрузке страницы. Модуль согласия на файлы cookie должен иметь четкое сообщение, которое информирует пользователя сайта об использовании файлов cookie на сайте и должна предоставить ссылку на страницу конфиденциальности этого сайта.
 
 На следующем рисунке показан пример сообщения о согласии на файлы cookie со ссылкой на страницу политики конфиденциальности сайта, которая отображается в заголовке страницы сайта.
-![Пример модуля получения согласия на файлы cookie](./media/ecommerce-cookieconsent.png)
+![Пример модуля получения согласия на файлы cookie.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Свойства модуля согласия на файлы cookie
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361418"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Продажа перспективному клиенту в случае двойной записи
 
@@ -33,7 +33,7 @@ ms.locfileid: "5754096"
 
 В интерфейсах приложения в реальном времени можно получить доступ к статусам обработки и сведениям о счете. Таким образом, можно упростить управление функциями, такими как хранение товаров, управление запасами и выполнение в Supply Chain Management без повторного создания предложений с расценками и заказов.
 
-![Поток данных при двойной записи в случае продажи перспективному клиенту](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Поток данных при двойной записи в случае продажи перспективному клиенту.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Сведения об интеграции клиентов и контактов см. в разделе [Интегрированный справочник клиентов](customer-mapping.md). Сведения об интеграции продукта см. в разделе [Единый подход к работе с продуктами](product-mapping.md).
 

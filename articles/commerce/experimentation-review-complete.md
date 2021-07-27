@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349288"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Повышение вариации и завершение эксперимента
 
 В этом разделе описывается, как повысить вариацию, которая дает наилучший результат в эксперименте, и как завершить эксперимент. На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах.
 
-[ ![Путь взаимодействия пользователя с экспериментами — проверка и завершение](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Путь взаимодействия пользователя с экспериментами — проверка и завершение.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 После [выполнения эксперимента](experimentation-run-monitor.md) и сбора необходимых данных для определения вариации, которую вы хотите использовать на своем веб-сайте, вы сможете повысить вариацию и завершить эксперимент.
 
