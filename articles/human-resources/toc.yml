@@ -355,6 +355,8 @@
           items:
             - name: Введение
               href: hr-admin-integration-ats-api-introduction.md
+            - name: Проверка подлинности между серверами для интеграции ATS
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Запрос на набор сотрудников и соответствующие объекты
               items:
                 - name: Запрос на набор сотрудников
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Создание и проверка объектов зарплаты
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Сотрудник зарплаты
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Адрес работника зарплаты
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: План фиксированной компенсации зарплаты
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Задание позиции зарплаты
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Позиция зарплаты
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Параметры интеграции зарплаты
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Объекты заработной платы
+              items:
+                - name: Сотрудник зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Адрес работника зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: План фиксированной компенсации зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: План переменной компенсации зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Позиция зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Задание позиции зарплаты
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Объекты отпусков и отсутствия
+              items:
+                - name: Остаток отпуска
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Тип отпуска
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Запрос на отпуск
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Наборы параметров
+              items:
+                - name: Пол
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Нет Да
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Тип премии
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Тип процесса
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Руководство пользователя
       items:
         - name: Обзор
@@ -599,6 +625,8 @@
           items:
             - name: Организация трудовых ресурсов
               href: hr-personnel-departments-jobs-positions.md
+            - name: Рабочая область управления персоналом
+              href: hr-personnel-personnel-management-workspace.md
             - name: Настройка компонентов должности
               href: hr-personnel-jobs.md
             - name: Определение подразделений
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Определение должностей
               href: hr-personnel-define-jobs.md
+            - name: Штатные единицы
+              href: hr-personnel-positions.md
             - name: Создание календаря рабочего времени
               href: hr-personnel-create-working-time-calendar.md
             - name: Найм кандидатов на должность
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Ограничение редактирования личных данных
               href: hr-employee-self-service-restrict-editing.md
+        - name: Использование системы бизнес-правил
+          items:
+            - name: Обзор системы бизнес-правил
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Архитектура системы бизнес-правил
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Элементы бизнес-правила
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Действия бизнес-правил
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Создание бизнес-правил
+              items:
+                - name: Обзор создания бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка свойств бизнес-правила
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Настройка задач, выполняемых вручную'
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка автоматизированных задач
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка процессов утверждения
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка шагов утверждения
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка рецензентов расходов
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Настройка решений, принимаемых вручную'
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Настройка решений, принимаемых по условию'
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка параллельных мероприятий
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка параллельных ветвей
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка бизнес-правил по строке
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Настройка пакетного задания обработки сообщения бизнес-правила как критического
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Делегирование рабочих элементов в бизнес-правиле
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Просмотр истории бизнес-правила
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: 'Настройка системы для отправки пользователям сообщения электронной почты, связанного с бизнес-правилом'
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Типы бизнес-правил
+              items:
+                - name: Создание типа бизнес-правила
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Контрольный список типов бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Создание категории бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Создание запроса для типа бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Создание нового типа бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Создание класса документов бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Создание класса SubmitToWorkflow
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Связывание класса документов workflow-процесса с типом бизнес-правил
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Отчет о типах бизнес-правил
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Вопросы и ответы по бизнес-правилам
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

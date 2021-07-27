@@ -2,7 +2,7 @@
 title: Вопросы и ответы по действиям персонала
 description: В этой статье содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054556"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333027"
 ---
 # <a name="personnel-actions-faq"></a>Вопросы и ответы по действиям персонала
 
@@ -51,7 +51,7 @@ ms.locfileid: "6054556"
 - **Отклонено** — запрос действия отклонен утверждающим лицом.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Можно ли удалить действие персонала?
-Да, можно удалить действия персонала, имеющие статус **Черновик**, **Ошибка**, **Сбой** или **Отменено**.
+Да, можно удалить действия персонала, имеющие статус **Черновик**, **Ошибка**, **Сбой** или **Отменено**. Удалить действия персонала со статусом **Завершено** можно только в том случае, если установлено **Разрешить удаление выполненных действий работника** как **Да** на странице **Общие параметры Human Resources**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Как быстрее всего проверить статус запроса действия персонала?
 Откройте любую страницу списка действий персонала и выберите действие персонала.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222620"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309673"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Конфигурация для общедоступной предварительной версии Finance Insights — версия 10.0.20 и более поздняя
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222620"
 Финансовый анализ сочетает в себе функции из Microsoft Dynamics 365 Finance с Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме объясняется, как настроить Dynamics 365 Finance версии 10.0.20, чтобы система могла использовать возможности, доступные в общедоступной предварительной версии Finance Insights.
 
 > [!NOTE]
-> Шаги конфигурации, описанные в данной теме, применимы только к Finance версии 10.0.20 и более поздним версиям. Чтобы настроить Finance Insights в версии 10.0.19 и более ранних, см. раздел [Настройка для Finance Insights — версии до 10.0.18](configure-for-fin-insites.md).
+> Шаги конфигурации, описанные в данной теме, применимы только к Finance версии 10.0.20 и более поздним версиям. Чтобы настроить Finance Insights в версии 10.0.19 и более ранних, см. раздел [Настройка для Finance Insights — версии до 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Развертывание Finance
 
@@ -748,6 +748,8 @@ finally {
 2. В разделе **Надстройки сред** выберите **Установить новую надстройку**.
 3. Выберите надстройку **Finance Insights**.
 4. Примите условия, затем выберите **Установить**.
+
+Установка надстройки может занять несколько минут.
 
 ## <a name="feedback-and-support"></a>Отзывы и поддержка
 
