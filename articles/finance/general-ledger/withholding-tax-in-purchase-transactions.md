@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816891"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356684"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Подоходный налог в проводках по покупкам
 
@@ -64,15 +64,15 @@ ms.locfileid: "5816891"
 
 Временная сумма подоходного налога доступна в поле **Скорректированный подоходный налог** на вкладке **Итоги** на странице **Заказ на покупку**.
 
-![Подоходный налог включается в заказ на покупку](media/withholding-tax-adjusted.png)
+![Подоходный налог включается в заказ на покупку.](media/withholding-tax-adjusted.png)
 
 Подоходный налог рассчитывается в пункте **Журнал платежей поставщикам**. Можно вручную скорректировать соответствующие коды подоходного налога, а также фактические суммы подоходного налога на вкладке **Подоходный налог** на странице **Сопоставление проводок**.
 
-![Удержание может быть скорректировано вручную на странице сопоставления проводок](media/withholding-tax-vendor-payment-tab.png)
+![Удержание может быть скорректировано вручную на странице сопоставления проводок.](media/withholding-tax-vendor-payment-tab.png)
 
 Расчетная сумма подоходного налога будет вычтена из платежа поставщику и разнесена на **Счет подоходного налога** в соответствующей операции.
 
-![Счет подоходного налога, показывающий соответствующую операцию](media/withholding-tax-adjusted.png)
+![Счет подоходного налога, показывающий соответствующую операцию.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

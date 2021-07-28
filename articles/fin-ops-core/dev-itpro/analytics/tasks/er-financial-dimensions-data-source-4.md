@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752396"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356303"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)
 
@@ -34,19 +34,19 @@ ms.locfileid: "5752396"
 2. В дереве разверните узел "Пример модели финансовых аналитик".
 3. В дереве выберите "Пример модели финансовых аналитик\Отчет журнала ГК".
 4. Щелкните Выполнить.
-![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run1.png)
+![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run1.png)
 5. В поле "Имя аналитики" введите или выберите значение.
     * Чтобы выбрать все аналитики в текущей компании, введите следующие сведения: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run2.png)
+![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run2.png)
 6. Разверните раздел "Записи для добавления".
 7. Щелкните "Фильтр".
 8. Выберите строку для таблицы "Журнал ГК" и поля "Номер партии журнала".
 9. В поле "Критерии" введите "00057".
 10. Нажмите кнопку "OК".
 11. Нажмите кнопку "OК".
-![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run3.png)
+![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run3.png)
     * Просмотрите созданные выходные данные. Для каждой проводки выбранной партии представлены финансовые аналитики из соответствующих аналитик. Выполните этот отчет и выберите другие аналитики, чтобы убедиться, что отчет не зависит от количества выбранных аналитик или числе аналитик, настроенных для данного экземпляра.  
-![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run4.png)
+![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

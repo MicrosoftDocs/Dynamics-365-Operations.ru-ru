@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023548"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361294"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Настройка кодов налоговой отчетности по подоходному налогу для налогов типа TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023548"
 
 1. Перейдите **Налог \> Настройка \> Подоходный налог \> Коды налоговой отчетности подоходного налога**.
 
-    [![Страница "Коды налоговой отчетности подоходного налога"](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Страница "Коды налоговой отчетности подоходного налога".](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. В поле **Тип налога** выберите **TDS**, чтобы задать коды налоговой отчетности по подоходному налогу для типа налога TDS.
 3. В поле **Компонент подоходного налога** выберите компонент TDS, для которого определяется код налоговой отчетности подоходного налога. В поле **Группа компонентов подоходного налога** отображается группа компонентов TDS, которая была задана для определяемого компонента TDS.

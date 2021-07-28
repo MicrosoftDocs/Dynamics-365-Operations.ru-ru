@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097267"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356520"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Управление запросами на отпуск в Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "6097267"
 
 - Запустите запрос на отпуск для вас. Например, отправьте сообщение с текстом "Взять отпуск" или "Я хотел бы взять отпуск на следующий четверг и пятницу", чтобы более точно указать, что требуется отпуск для типа отпуска. 
 
-  ![Начало запроса на отпуск в чате Teams](./media/hr-teams-leave-app-initiate.png)
+  ![Начало запроса на отпуск в чате Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - Чат-бот будет заполнять запрос на отпуска. Выберите **Запрос на отгул** и измените сведения для запроса.
 
@@ -69,11 +69,11 @@ ms.locfileid: "6097267"
 
    Если выбран отгул на половину дня, когда единица запроса отпуска равна дням, можно указать, следует ли запросить время отпуска с первой половины или второй половины дня, выбрав параметр **Определение половины дня** в меню **Дополнительные параметры**.
    
-   ![Определения половины дня](./media/HalfDayDefinitions.png)
+   ![Определения половины дня.](./media/HalfDayDefinitions.png)
 
 - Закончив редактирование сведений о запросе на отпуск, нажмите кнопку **Отправить**, чтобы отправить его на утверждение.
 
-  ![Отправить запрос на отпуск](./media/hr-teams-leave-app-submit.png)
+  ![Отправить запрос на отпуск.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Управление отпуском в Teams
 
@@ -93,7 +93,7 @@ ms.locfileid: "6097267"
 
 2. Введите день или дни, которые требуется взять отпуск, а затем нажмите кнопку **Добавить**.
 
-   ![Добавить отпуск для приложения отпусков Human Resources Teams](./media/TimeOffHours.png)
+   ![Добавить отпуск для приложения отпусков Human Resources Teams.](./media/TimeOffHours.png)
 
 3. Если применимо, введите код причины. Кроме того, необходимо ввести комментарии и добавить вложения.
 
@@ -123,7 +123,7 @@ ms.locfileid: "6097267"
 
 1. В рабочей группе или чате в Teams выберите кнопку Human Resources под окном чата.
 
-   ![Кнопка Human Resources под окном чата](./media/hr-teams-leave-app-chat-button.png)
+   ![Кнопка Human Resources под окном чата.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Выберите запрос отпуска, которым необходимо поделиться. Если требуется поделиться черновиком запроса отпуска, сначала выберите **Черновики**.
 
@@ -173,11 +173,11 @@ ms.locfileid: "6097267"
 
 В Teams проверьте **Язык приложения** в **Параметры**.
 
-![Параметры Teams](./media/hr-teams-leave-app-settings.png)
+![Параметры Teams.](./media/hr-teams-leave-app-settings.png)
 
 В модуле управления персоналом выберите **Параметры**, а затем выберите **Параметры пользователя**. Убедитесь, что поле **Язык** соответствует полю **Язык приложения** в Teams.
 
-![Параметры пользователя управления персоналом](./media/hr-teams-leave-app-user-options.png)
+![Параметры пользователя управления персоналом.](./media/hr-teams-leave-app-user-options.png)
 
 Если проблемы с переводом не устранены, сообщите нам о них. Сведения см. в разделе [Получение поддержки для приложений Finance and Operations или Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

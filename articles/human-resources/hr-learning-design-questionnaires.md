@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2427e866a1cff91ff0ceca6a71e8052b880c7e5c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4a1cd6460ed93ce46e561071aedee314bf4f088
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056884"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357127"
 ---
 # <a name="create-questionnaires"></a>Создание анкет
 
@@ -92,7 +92,7 @@ ms.locfileid: "6056884"
 ## <a name="questionnaire-components"></a>Компоненты анкеты
 Анкеты состоят из трех основных элементов: группы ответов, включающие ответы на вопросы с несколькими вариантами ответа, вопросы и сами анкеты. Можно дополнительно сгруппировать вопросы в анкете в группы результатов. Группы результатов позволяют классифицировать вопросы и предоставлять более глубокий анализ в анкете. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Группы ответов и ответы
 

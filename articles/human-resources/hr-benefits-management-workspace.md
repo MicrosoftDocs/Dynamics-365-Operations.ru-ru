@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193439"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353622"
 ---
 # <a name="benefits-management-workspace"></a>Рабочая область управления льготами
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193439"
 В этой теме описывается рабочее пространство **Управление льготами** в Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Для просмотра рабочей области **Управление льготами** необходимо сначала включить **(Предварительная версия) Рабочая область управления льготами** в управлении функциями. Дополнительные сведения о включении предварительных версий функций см. в разделе [Управление функциями](hr-admin-manage-features.md).<br><br>![Включение рабочей области управления льготами](./media/hr-benefits-management-workspace-enable.png)
+> Для просмотра рабочей области **Управление льготами** необходимо сначала включить **(Предварительная версия) Рабочая область управления льготами** в управлении функциями. Дополнительные сведения о включении предварительных версий функций см. в разделе [Управление функциями](hr-admin-manage-features.md).<br><br>![Включение рабочей области управления льготами.](./media/hr-benefits-management-workspace-enable.png)
 
 Рабочая область **Управление льготами** позволяет быстро просматривать льготы, требующие вашего внимания. На этой странице показано:
 
@@ -43,13 +43,13 @@ ms.locfileid: "6193439"
 - Работники с активными жизненными событиями
 - Работники с открытыми регистрациями, которые не выбрали планы
 
-![Рабочая область управления льготами](./media/hr-benefits-management-workspace.png)
+![Рабочая область управления льготами.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Просмотр элементов действия
 
 Можно просмотреть элементы действий, выбирая плитку или вкладку. При выборе вкладки можно просматривать и выбирать сотрудников прямо на странице рабочей области.
 
-![Элементы действия](./media/hr-benefits-management-workspace-action-items.png)
+![Элементы действия.](./media/hr-benefits-management-workspace-action-items.png)
 
 Если выбрать плитку, вы перейдете на страницу этой области. Например, при выборе любой из этих плиток отображается страница **Планы льгот работника**, отфильтрованная для сотрудников, по которым необходимо предпринять действие:
 
@@ -58,21 +58,21 @@ ms.locfileid: "6193439"
 - **Зарегистрированные для льгот**
 - **Новый сотрудник не зарегистрирован**
 
-![Планы льгот работника](./media/hr-benefits-management-workspace-plans.png)
+![Планы льгот работника.](./media/hr-benefits-management-workspace-plans.png)
 
 При выборе плиток **Активных жизненные события** или **Будущие жизненные события** открывается список активных или будущих жизненных событий.
 
-![Жизненные события](./media/hr-benefits-management-workspace-life-events.png)
+![Жизненные события.](./media/hr-benefits-management-workspace-life-events.png)
 
 ## <a name="processing"></a>Обрабатывается
 
 Для обработки допустимости регистрации, жизненных событий или обновления изменения ставки выберите соответствующий элемент на панели навигации.
 
-![Обрабатывается](./media/hr-benefits-management-workspace-processing.png)
+![Обрабатывается.](./media/hr-benefits-management-workspace-processing.png)
 
 Чтобы просмотреть результаты процесса, выберите **Результаты обработки** на странице.
 
-![Результаты обработки](./media/hr-benefits-management-workspace-process-results.png)
+![Результаты обработки.](./media/hr-benefits-management-workspace-process-results.png)
 
 Дополнительные сведения об обработке льгот см. в:
 
@@ -86,13 +86,13 @@ ms.locfileid: "6193439"
 
 Для просмотра других льготных периодов выберите его из раскрывающегося списка **Период**.
 
-![Изменить период](./media/hr-benefits-management-workspace-period.png)
+![Изменить период.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Просмотр дополнительных параметров
 
 Чтобы просмотреть дополнительные сведения и действия, которые можно выполнить, выберите **Ссылки**.
 
-![Ссылки](./media/hr-benefits-management-workspace-links.png)
+![Ссылки.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>См. также
 

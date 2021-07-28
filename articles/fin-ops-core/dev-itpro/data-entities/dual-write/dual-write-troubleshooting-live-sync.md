@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350796"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Устранение проблем с синхронизацией в режиме реального времени
 
@@ -73,21 +73,21 @@ ms.locfileid: "5748905"
 
 При создании данных в приложении Finance and Operations может быть получено сообщение об ошибке "Ошибочный запрос", которая напоминает следующий пример.
 
-![Пример сообщения об ошибке "Ошибочный запрос"](media/error_record_id_source.png)
+![Пример сообщения об ошибке "Ошибочный запрос".](media/error_record_id_source.png)
 
 Чтобы решить эту проблему, необходимо назначить правильную роль безопасности для рабочей группы сопоставленного подразделения Dynamics 365 Sales или Dynamics 365 Customer Service, чтобы включить отсутствующую привилегию.
 
 1. В приложении Finance and Operations найдите подразделение, сопоставленное в наборе подключений интеграции данных.
 
-    ![Сопоставление организации](media/mapped_business_unit.png)
+    ![Сопоставление организации.](media/mapped_business_unit.png)
 
 2. Выполните вход в среду приложения на основе модели в Dynamics 365, перейдите к пункту **Параметры \>Безопасность** и найдите рабочую группу сопоставленного подразделения.
 
-    ![Рабочая группа сопоставленного подразделения](media/setting_security_page.png)
+    ![Рабочая группа сопоставленного подразделения.](media/setting_security_page.png)
 
 3. Откройте страницу этой рабочей группы для редактирования, затем выберите **Управление ролями**, чтобы открыть диалоговое окно **Управление ролями группы**.
 
-    ![Кнопка "Управление ролями"](media/manage_team_roles.png)
+    ![Кнопка "Управление ролями".](media/manage_team_roles.png)
 
 4. Назначьте роль с привилегиями на чтение/запись для соответствующих таблиц, затем выберите **ОК**.
 

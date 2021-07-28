@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193985"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360528"
 ---
 # <a name="enter-skills"></a>Ввод навыков
 
@@ -45,17 +45,17 @@ ms.locfileid: "6193985"
 
 4. В области **Создать рабочий процесс** выберите **Навыки работников**.
 
-   [![Выберите рабочий процесс навыков работника](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Выберите рабочий процесс навыков работника.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. В диалоговом окне **Открыть этот файл?** выберите **Открыть**. По запросу введите свои учетные данные.
 
 6. В редакторе рабочих процессов выберите элемент рабочего процесса **Утверждение навыков** и перетащите его на холст.
 
-   [![Выберите элемент рабочего процесса утверждения навыков](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Выберите элемент рабочего процесса утверждения навыков.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Свяжите элемент **Начало** с элементом **Утверждение навыков 1**, затем свяжите элемент **Утвержденные навыков 1** с элементом **Конец**. Возможно, потребуется прокрутить список, чтобы увидеть элемент **Конец**. Его можно перетащить ближе к другим элементам.
 
-   [![Подключение элементов рабочего процесса](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Подключение элементов рабочего процесса.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Дважды щелкните элемент рабочего процесса **Утверждение навыков 1**, затем щелкните правой кнопкой мыши элемент **Шаг 1**. Щелкните правой кнопкой мыши элемент **Шаг 1**, затем выберите пункт **Свойства**.
 
@@ -65,7 +65,7 @@ ms.locfileid: "6193985"
 
 11. Выберите **Добавить условие**. После **Где** выберите **Навыки самообслуживания сотрудников**, затем выберите **Навыки самообслуживания сотрудников. Лицо**. После **является** выберите **поле**, а затем выберите **Отношение пользователя к сотруднику.Лицо**.
 
-    [![Укажите условие](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Укажите условие.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Выберите **Назначение** на левой панели навигации.
 
@@ -73,7 +73,7 @@ ms.locfileid: "6193985"
 
 14. На вкладке **Выбор иерархии** в поле **Тип иерархии:** выберите **Управленческая иерархия**.
 
-    [![Укажите управленческую иерархию](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Укажите управленческую иерархию.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Выберите **Закрыть**, выберите **Рабочий процесс** в модуле навигации холста, затем выберите **Сохранить и закрыть**.
 

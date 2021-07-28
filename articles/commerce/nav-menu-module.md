@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798761"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353116"
 ---
 # <a name="navigation-menu-module"></a>Модуль меню навигации
 
@@ -33,7 +33,7 @@ ms.locfileid: "5798761"
 Модуль меню навигации может быть добавлен в модуль заголовка страницы. В теме Fabrikam меню навигации отображаются два уровня по умолчанию. В начальной теме меню навигации отображаются три уровня по умолчанию. Чтобы изменить число уровней, в теме требуется расширение представления.
 
 На следующем рисунке показан пример меню навигации для сайта Fabrikam с двумя уровнями иерархии категорий и некоторыми статическими пунктами меню.
-![Пример модуля меню навигации](./media/ecommerce-header.png)
+![Пример модуля меню навигации.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Свойства модуля меню навигации
 
@@ -50,7 +50,7 @@ ms.locfileid: "5798761"
 | Корневое меню | строка | Это свойство может использоваться для определения текста для пользовательского корневого элемента, если свойство **Показать корневое меню** имеет значение **True**. |
 
 На следующем рисунке показан пример изображения категории, которое отображается в меню навигации для сайта Fabrikam.
-![Пример модуля меню навигации с изображениями категорий](./media/ecommerce-categoryimages.PNG)
+![Пример модуля меню навигации с изображениями категорий.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Добавление модуля меню навигации в модуль заголовка
 

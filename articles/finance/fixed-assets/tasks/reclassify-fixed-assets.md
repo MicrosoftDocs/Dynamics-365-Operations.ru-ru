@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbfb754459fad1f3b1509f4f9c65c20e0385b013
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: bf7e689d5b02178758a8f850b3cd735f70898dbc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356735"
 ---
 # <a name="reclassify-fixed-assets"></a>Переклассификация основных средств
 
@@ -45,7 +45,7 @@ ms.locfileid: "5944722"
 
 Следующие схема и процедура содержат пример процесса реклассификации. 
 
-[![Диаграмма, демонстрирующая процесс реклассификации](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
+[![Диаграмма, демонстрирующая процесс реклассификации.](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Выполните следующие действия, чтобы изменить классификацию основного средства:
 

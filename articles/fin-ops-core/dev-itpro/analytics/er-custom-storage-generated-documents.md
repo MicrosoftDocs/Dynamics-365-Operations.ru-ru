@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894132"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348172"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Указание пользовательского места хранения для созданных документов
 
@@ -39,7 +39,7 @@ ms.locfileid: "5894132"
 
 В текущей топологии [создайте новый формат ER](tasks/er-format-configuration-2016-11.md) для создания документов, для которых планируется добавить пользовательское хранилище. Можно также [импортировать существующий формат ER в эту топологию](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Страница конструктора форматов](media/er-extend-file-storages-format.png)
+![Страница конструктора форматов.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Формат ER, который вы создаете или импортируете, должен содержать хотя бы один из следующих элементов формата:
@@ -58,7 +58,7 @@ ms.locfileid: "5894132"
 3. В поле **Класс** укажите **Вложить файл**.
 4. В поле **Группа** укажите **Файл**.
 
-![Страница типов документов](media/er-extend-file-storages-document-type.png)
+![Страница типов документов.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Типы документов зависят от конкретной компании. Чтобы использовать формат ER с настроенным пунктом назначения в нескольких компаниях, необходимо настроить тип отдельный тип документов в каждой компании.
@@ -113,14 +113,14 @@ public DocuRef insertFile(
 - **Архив** — при использовании этого пункта назначения новая запись для запущенного формата ER будет создана в таблице ERFormatMappingRunJobTable. Поле **Архивировано** в этой записи имеет значение **False**. Если формат электронной отчетности успешно выполняется, созданный документ присоединяется к этой записи и возникает событие **AttachingFile()**. Тип документа, который выбран в этом месте назначения ER, определяет место хранения для прикрепленного файла (хранилище Microsoft Azure Storage или папка Microsoft SharePoint).
 - **Архив заданий** — при использовании этого пункта назначения новая запись для запущенного формата ER будет создана в таблице ERFormatMappingRunJobTable. Поле **Архивировано** в этой записи имеет значение **True**. Если формат электронной отчетности успешно выполняется, созданный документ присоединяется к этой записи и возникает событие **AttachingFile()**. Тип документа, который настроен в параметрах ER, определяет место хранения для прикрепленного файла (хранилище Azure Storage или папка SharePoint).
 
-![Страница параметров электронной отчетности](media/er-extend-file-storages-parameters.png)
+![Страница параметров электронной отчетности.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Настройка места назначения ER
 
 1. Настройте архивированное место назначения для одного из ранее упомянутых элементов (файл, папка, средство слияния или вложение) формата ER, который вы создали или импортировали. Указания см. в разделе [Электронная отчетность — Настройка мест назначений](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Используйте тип документа, который был добавлен ранее для сконфигурированного места назначения. (Например, в этом разделе это тип документа **FileX**.)
 
-![Диалоговое окно параметров места назначения](media/er-extend-file-storages-destination.png)
+![Диалоговое окно параметров места назначения.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Изменение исходного кода
 

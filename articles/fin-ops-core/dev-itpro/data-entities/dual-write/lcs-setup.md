@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359371"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
@@ -40,7 +40,7 @@ ms.locfileid: "6103577"
 
 2. Выберите кнопку **Приложение двойной записи**.
 
-    ![Интеграция Power Platform](media/powerplat_integration_step2.png)
+    ![Интеграция с Power Platform.](media/powerplat_integration_step2.png)
 
 3. Ознакомьтесь с условиями и выберите **Настроить**.
 
@@ -52,7 +52,7 @@ ms.locfileid: "6103577"
 
 7. Выберите **Связать со средой Power Platform** для создания связи между Dataverse и базами данных текущей среды. Это обычно занимает менее 5 минут.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Связать со средой Power Platform":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Связать со средой Power Platform.":::
 
 8. После завершения связывания отображается гиперссылка. Используйте ссылку для входа в область администрирования двойной записи в среде Finance and Operations. Отсюда можно настроить сопоставления сущностей.
 

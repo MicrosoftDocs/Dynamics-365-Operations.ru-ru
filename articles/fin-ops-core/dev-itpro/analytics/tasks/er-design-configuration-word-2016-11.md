@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944300"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359419"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Повторное использование конфигураций электронной отчетности с шаблонами Excel для формирования отчетов в формате Word
 
@@ -54,14 +54,14 @@ ms.locfileid: "5944300"
 5. Выберите **Конструктор**.
 6. На странице **Конструктор форматов** обратите внимание, что заголовок корневого элемента формата показывает, что в данный момент используется шаблон Excel.
 
-![Выбор существующей конфигурации](../media/er-design-configuration-word-2016-11-image01.gif)
+![Выбор существующей конфигурации.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Проверка загруженного шаблона Word
 
 1. В классическом приложении Word откройте файл шаблона **SampleVendPaymDocReport.docx**, который был загружен ранее.
 2. Проверьте, что шаблон содержит только макет документа, который требуется создать как выходные данные электронной отчетности.
 
-![Макет шаблона Word в классическом приложении](../media/er-design-configuration-word-2016-11-image02.png)
+![Макет шаблона Word в классическом приложении.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Замена шаблона Excel шаблоном Word и добавление пользовательской XML-части
 
@@ -84,7 +84,7 @@ ms.locfileid: "5944300"
 
 9. Обратите внимание, что заголовок корневого элемента формата показывает, что в данный момент используется шаблон Word.
 
-    ![Замена шаблона Excel шаблоном Word и добавление пользовательской XML-части](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Замена шаблона Excel шаблоном Word и добавление пользовательской XML-части.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. На вкладке **Формат** выберите **Вложения**.
 
@@ -110,7 +110,7 @@ ms.locfileid: "5944300"
 1. В классическом приложении Word откройте файл шаблона **SampleVendPaymDocReportBounded.docx**.
 2. Проверьте, что шаблон содержит макет документа, который требуется создать как выходные данные электронной отчетности. Элементы управления содержимым, которые используются в качестве заполнителей для данных, которые будут введены электронной отчетностью в этот шаблон в ходе выполнения, основаны на сопоставлениях, настроенных между элементами пользовательской XML-части **Отчет** и элементами управления содержимым документа Word.
 
-![Предварительный просмотр шаблона Word в классическом приложении](../media/er-design-configuration-word-2016-11-image04.png)
+![Предварительный просмотр шаблона Word в классическом приложении.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Отправка шаблона Word, где пользовательская XML-часть сопоставлена с элементами управления содержимым
 
@@ -144,7 +144,7 @@ ms.locfileid: "5944300"
 3. На странице **Платежи поставщикам** выберите все строки в сетке.
 4. Выберите **Статус платежа** \> **Нет**.
 
-    ![Платежи для обработки на странице платежей поставщикам](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Платежи для обработки на странице платежей поставщикам.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. На панели операций выберите **Создать платежи**.
 6. В появившемся диалоговом окне выполните следующие действия:
@@ -156,11 +156,11 @@ ms.locfileid: "5944300"
 7. В диалоговом окне **Параметры электронной отчетности** выберите **ОК**.
 8. Созданные выходные данные представлены в формате Word и содержат сведения об обработанных платежах. Проанализируйте созданные выходные данные.
 
-    ![Созданные выходные данные в формате Word](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Созданные выходные данные в формате Word.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Разработка новых конфигураций электронной отчетности для создания отчетов в формате Word](../er-design-configuration-word.md)
+- [Разработка конфигураций электронной отчетности для создания отчетов в формате Word](../er-design-configuration-word.md)
 - [Внедрение изображений и фигур в документы, создаваемые с помощью электронной отчетности](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

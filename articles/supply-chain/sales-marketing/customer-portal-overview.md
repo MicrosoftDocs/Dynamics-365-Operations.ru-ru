@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907847"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353946"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
@@ -63,7 +64,7 @@ ms.locfileid: "5907847"
 
 [Двойная запись](/powerapps/maker/portals/overview) — это готовая инфраструктура продукта, обеспечивающая взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
 
-![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
+![Зависимости клиентского портала.](media/customer-portal-elements.png "Зависимости клиентского портала")
 
 Клиентский портал выступает в качестве отправной точки для организаций, желающих использовать порталы Power Apps для создания внешнего веб-сайта, использующего данные из установки Supply Chain Management. Он помогает организациям объединять двойную запись, Supply Chain Management и порталы Power Apps.
 

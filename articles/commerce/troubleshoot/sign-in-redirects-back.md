@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020611"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350386"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Ссылка для входа перенаправляет обратно на сайт электронной коммерции
 
@@ -43,7 +43,7 @@ ms.locfileid: "6020611"
 1. Выберите приложение, которое было создано во время настройки Azure AD B2C.
 1. В разделе **URL-адрес ответа** убедитесь, что в списке имеются записи как для URL-адреса домена сайта, так и для URL-адреса, созданного в электронной коммерции, как показано в примере на следующем рисунке.
 
-    ![Записи URL-адресов ответа Azure AD B2C](media/aad-b2c-reply-url.jpg)
+    ![Записи URL-адресов ответа Azure AD B2C.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > URL-адрес домена сайта и созданный в электронной коммерции URL-адрес должны иметь допустимый формат URL-адреса, не включающий начальную и заключительную косую черту.

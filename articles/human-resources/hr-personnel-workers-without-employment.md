@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356592"
 ---
 # <a name="workers-without-employment"></a>Работники без трудоустройства
 
@@ -42,13 +42,13 @@ ms.locfileid: "6051721"
 
 2. На вкладке **Привилегии** отфильтруйте список **Привилегии** до **Ведение работников**.
 
-   [![Отфильтруйте список привилегий](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Отфильтруйте список привилегий.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. В столбце **Ссылки** выберите **Пункты меню отображения**.
 
 4. В **Пункты меню отображения** выберите **HcmWorkersWithoutEmployment**.
 
-   [![Выбрать форму](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Выбрать форму.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Установите разрешение **Удалить** как **Разрешить**.
 
@@ -56,6 +56,6 @@ ms.locfileid: "6051721"
 
 7. Выберите **Опубликовать все**.
 
-   [![Публикация изменений](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Публикация изменений.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

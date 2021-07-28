@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811445"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355163"
 ---
 # <a name="cost-element-dimensions"></a>Аналитики элемента затрат
 
@@ -63,7 +63,7 @@ ms.locfileid: "5811445"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Аналитики элементов затрат и членов аналитик элементов затрат
 Элементы затрат называются *аналитиками элемента затрат*. Отдельные значения аналитики называются *членами аналитики элемента затрат*. Например, вы имеете структуру плана счетов США (COA), которая служит основой для вашей предписанной законом отчетности. Этот план счетов COA используется как аналитика элемента затрат. Счета, которые являются элементами первичных затрат, представлены как члены аналитики элемента затрат в модуле учета затрат. Следующий снимок экрана показывает пример счетов ГК как аналитики элемента затрат со своими фактическими счетами ГК в качестве членов аналитики элемента затрат. 
 
-[![Снимок экрана счетов ГК как аналитики элемента затрат](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Снимок экрана счетов ГК как аналитики элемента затрат.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Импорт членов аналитика элемента затрат через соединители данных
 Чтобы упростить настройку членов аналитики элемента затрат в модуле учета затрат, можно использовать соединители данных, которые предварительно подготовлены или специально собраны, чтобы восстановить извлечь элементы первичных затрат из одной или нескольких исходных систем.

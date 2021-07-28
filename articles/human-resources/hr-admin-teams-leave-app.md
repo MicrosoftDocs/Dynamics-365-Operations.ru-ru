@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357369"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053571"
 
 Приложение Microsoft Dynamics 365 Human Resources в Microsoft Teams позволяет сотрудникам быстро запросить отпуск и просмотреть сведения о балансе времени в Microsoft Teams. Сотрудники могут взаимодействовать с ботом для запроса информации. Вкладка **Отгул** содержит более детальная информация. Кроме того, они могут отправлять пользователям сведения о предстоящих отгулах в рабочих группа и чатах вне приложения Human Resources.
 
-![Бот для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-bot.png)
+![Бот для приложения отпусков Human Resources Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Вкладка Отгул для приложения отпусков Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Вкладка Отгул для приложения отпусков Human Resources Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Карточка запроса отпуска в Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Карточка запроса отпуска в Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Установка и настройка
 
@@ -57,11 +57,11 @@ ms.locfileid: "6053571"
 
 4. На вкладке **Общие** установите для параметра **Включить уведомления для приложения Teams** значение **Да**.
 
-   ![Включение уведомлений приложения Teams в системных параметрах](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Включение уведомлений приложения Teams в системных параметрах.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Для включения уведомлений в Teams для всех пользователей выберите **Да** в ответ на запрос.
 
-   ![Включение уведомлений Teams для всех пользователей](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Включение уведомлений Teams для всех пользователей.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Включение и выключение уведомлений Teams для отдельных пользователей
 
@@ -77,7 +77,7 @@ ms.locfileid: "6053571"
 
 5. Установите для параметра **Включить уведомления для приложения Teams** значение **Да**, чтобы включить уведомления для пользователя, или значение **Нет**, чтобы отключить уведомления для пользователя.
 
-   ![Включение уведомлений приложения Teams в параметрах пользователя на вкладке рабочего процесса](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Включение уведомлений приложения Teams в параметрах пользователя на вкладке рабочего процесса.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Нажмите **Сохранить**.
 

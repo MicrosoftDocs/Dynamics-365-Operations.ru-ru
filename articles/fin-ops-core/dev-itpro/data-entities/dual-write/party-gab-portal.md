@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: a2ea914344341ee26138e853727c551bdd5d733e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833098"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358625"
 ---
 # <a name="using-power-portal-with-the-party-data-model"></a>Использование портала Power с моделью данных субъекта
 
@@ -28,11 +28,11 @@ ms.locfileid: "5833098"
 
 На этой диаграмме показано отношение таблиц **без** модели данных субъектов и глобальной адресной книги:
 
-   ![без модели субъектов](media/without-party-model.PNG)
+   ![без модели субъектов.](media/without-party-model.PNG)
 
 На этой диаграмме показано отношение таблиц **с** моделью данных субъектов и глобальной адресной книги:
 
-   ![с моделью субъектов](media/with-party-model.png)
+   ![с моделью субъектов.](media/with-party-model.png)
 
 ## <a name="create-a-new-table-permission"></a>Создание новых разрешений для таблицы
 

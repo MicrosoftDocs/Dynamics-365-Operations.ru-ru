@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed355ea684dcd0f4edcf8cf968ba17aec7940552
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ef78d68da25318583cfdb077c45d08a9efe0b2fe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353700"
 ---
 # <a name="expense-and-income-codes"></a>Коды расходов и доходов
 [!include [banner](../includes/banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "5816866"
 
 1.  Перейдите к **Налог** \> **Настройка** \> **Налог на прибыль** \> **Коды расходов**.
 
-    ![Страница коды расходов](media/1_Expense_codes.png)
+    ![Страница коды расходов.](media/1_Expense_codes.png)
 
 2.  В области действий выберите **Древовидное представление**, чтобы просмотреть коды расходов и доходов в виде дерева, а затем выберите **создать**, чтобы создать код.
 3.  В поле **Код расхода** введите код расходов или доходов. Код должен быть уникальным.
@@ -66,7 +66,7 @@ ms.locfileid: "5816866"
 
     Например, суммы для проводок ГК по **дебету 62.110** и по **кредиту 90.110**, где финансовая аналитика **ExpenseAndIncomeCode** установлена как **901010200** или оставлена пустой, будут назначены коду дохода **901010200** (**Выручка от продаж товаров**).
 
-    ![Страница связи кода расхода и главной книги, экспресс-вкладка Финансовые аналитики](media/2_Expense_code_and_ledger_relation.png)
+    ![Страница связи кода расхода и главной книги, экспресс-вкладка Финансовые аналитики.](media/2_Expense_code_and_ledger_relation.png)
 
 8.  На странице **связи кода расхода и главной книги** в заголовке установите следующие значения:
 

@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 46af1f346c2c482975d21c288c8b9dd3524accca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acec79eb0cb4e5981e81e8057b00ad9d88bb06c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821873"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351671"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "5821873"
 7. В поле **Вид запасов** укажите **Общие**.
 8. Нажмите **Сохранить**.
 
-![Страница профилей учета](media/1_Inventory_profiles.jpg)
+![Страница профилей учета.](media/1_Inventory_profiles.jpg)
 
 ### <a name="set-up-the-inventory-profile-and-owner-tracking-dimensions"></a>Настройка аналитик отслеживания профиля учета и владельца
 
@@ -78,7 +78,7 @@ ms.locfileid: "5821873"
 
 6. Нажмите **Сохранить**.
 
-![Страница групп аналитик отслеживания](media/2_Tracking_dimension_groups.jpg)
+![Страница групп аналитик отслеживания.](media/2_Tracking_dimension_groups.jpg)
 
 ### <a name="set-up-a-number-sequence-for-the-report-for-the-principal"></a>Настройка номерной серии для отчета для доверителя
 
