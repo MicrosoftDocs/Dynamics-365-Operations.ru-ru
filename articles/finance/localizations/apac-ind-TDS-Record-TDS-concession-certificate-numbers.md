@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023526"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358394"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Запишите номера сертификатов на предоставление налоговых льгот TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023526"
 2. В поле **Тип налога** выберите **TDS** для записи сертификатов на предоставление налоговых льгот для типа налога TDS.
 3. На вкладке **Обзор** нажмите сочетание клавиш **ALT+N**, чтобы создать строку.
 
-    [![Заголовок новой строки](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Заголовок новой строки.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. В поле **Код подоходного налога** выберите налоговый код TDS, для которого выпущены сертификаты на предоставление налоговых льгот для поставщиков. В поле **Имя подоходного налога** показано имя кода налога TDS.
 5. В полях **Начальная дата** и **Конечная дата** укажите период действия для сертификата на предоставление налоговых льгот, который использует налоговый код TDS для расчета TDS для поставщика на основе концессии.
@@ -50,6 +50,6 @@ ms.locfileid: "6023526"
 
 11. В поле **Сертификат** введите номер сертификата на предоставление налоговых льгот TDS.
 
-    [![Экспресс-вкладка сертификатов](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Экспресс-вкладка сертификатов.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Закройте страницу.

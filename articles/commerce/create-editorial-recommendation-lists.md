@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 00f7d076d745cb750dbfdd3a95130196edd888bc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 250b2a050acc384c6971fa7f7385681ef15f9a1f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352454"
 ---
 # <a name="manually-create-curated-recommendations"></a>Создание контролируемых рекомендаций вручную
 
@@ -47,7 +47,7 @@ ms.locfileid: "5795771"
 
 ## <a name="example-list"></a>Пример списка
 
-![Пример проверенного списка в серверной части](./media/examplecuratedrecolist.png)
+![Пример проверенного списка в серверной части.](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

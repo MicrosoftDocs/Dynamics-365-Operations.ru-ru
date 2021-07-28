@@ -2,7 +2,7 @@
 title: Настройка параметров Human Resources
 description: В этой теме описывается, как настроить параметры модуля, относящиеся к конкретной компании, в Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356544"
 ---
 # <a name="configure-human-resources-parameters"></a>Настройка параметров Human Resources
 
@@ -30,7 +30,7 @@ ms.locfileid: "6052417"
 
 Для задания параметров управления персоналом используются две страницы. Для параметров, которые являются общими для различных компаний, используется страница **Совместно используемые параметры управления персоналом**. Для параметров конкретной компании (иными словами, параметров, относящихся к одной компании) используется страница **Параметры Управления персоналом**.
 
-![Перейдите к параметрам управления персоналом](./media/hr-employee-self-service-human-resources-parameters.png)
+![Перейдите к параметрам управления персоналом.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 На странице **Параметры Управления персоналом** страницы разделены на шесть вкладок:
 
@@ -51,14 +51,15 @@ ms.locfileid: "6052417"
 
 Настройки на вкладке **Общее** определяют внешний вид информации об отсутствия, травмах и заболеваниях, а также новых работниках. Настройки на этой вкладке также определяют некоторые значения по умолчанию, предлагаемые вам в ходе работы. В частности, эта вкладка позволяет:
 
-- Выбрать цвет, который будет применяться к открытым проводкам отсутствия
-- Задать таблицу стилей для использования в отчетах
-- Включить интеграцию между курсами обучения и регистрацией отсутствия
+- Выбрать цвет, который будет применяться к открытым проводкам отсутствия.
+- Задать таблицу стилей для использования в отчетах.
+- Включить интеграцию между курсами обучения и регистрацией отсутствия.
 - Выбрать код отсутствия, который используется для управления этой интеграцией.
 - Указать длительность хранения случаев травм и заболеваний.
 - Задавать идентификационный номер по умолчанию, отображаемый при найме нового работника.
+- Указывается дата, которая используется для расчета лет работы. 
 
-![Вкладка "Общие"](./media/hr-setup-parameters-general.png)
+![Вкладка "Общие".](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Набор сотрудников
 
@@ -76,7 +77,7 @@ ms.locfileid: "6052417"
 
 Дополнительные сведения о планах компенсации см. в разделе [Обзор планов компенсационных выплат](hr-compensation-overview.md).
 
-![Вкладка "Компенсация"](./media/hr-setup-parameters-compensation.png)
+![Вкладка "Компенсация".](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Номерные серии
 
@@ -96,13 +97,13 @@ ms.locfileid: "6052417"
 > [!NOTE]
 > Количество отработанных часов не может превышать 1250, а длительность трудоустройства не может превышать 12 месяцев. Эти максимальные значения соответствуют федеральному законодательству США.
 
-![Вкладка "Номерные серии"](./media/hr-setup-parameters-number-sequences.png)
+![Вкладка "Номерные серии".](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 На вкладке FMLA настройте требования к доступности FMLA и трудозатраты FMLA. Дополнительные сведения см. в разделе [Настройка параметров отпусков и отгулов](hr-leave-and-absence-parameters.md).
 
-![Вкладка FMLA](./media/hr-setup-parameters-fmla.png)
+![Вкладка FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Самообслуживание сотрудника
 
@@ -115,7 +116,7 @@ ms.locfileid: "6052417"
 
 Дополнительные сведения о настройке самообслуживания сотрудников см. в разделе [Обзор самообслуживания сотрудников и менеджеров](hr-employee-manager-self-service-overview.md).
 
-![Вкладка самообслуживания сотрудников](./media/hr-setup-parameters-employee-self-service.png)
+![Вкладка самообслуживания сотрудников.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Портал самообслуживания менеджеров
 
@@ -129,13 +130,13 @@ ms.locfileid: "6052417"
 
 Дополнительные сведения о настройке самообслуживания менеджеров см. в разделе [Обзор самообслуживания сотрудников и менеджеров](hr-employee-manager-self-service-overview.md).
 
-![Вкладка самообслуживания менеджеров](./media/hr-setup-parameters-manager-self-service.png)
+![Вкладка самообслуживания менеджеров.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Управление льготами
 
 На вкладке управления льготами можно настроить параметры электронной почты для управления льготами. Дополнительные сведения о настройке и использовании управления льготами см. в разделе [Обзор управления льготами](hr-benefits-management-overview.md).
 
-![Вкладка управления льготами](./media/hr-setup-parameters-benefits-management.png)
+![Вкладка управления льготами.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Отпуск и отсутствие
 
@@ -145,7 +146,7 @@ ms.locfileid: "6052417"
 
 На вкладке **Методы оплаты** можно выбрать методы оплаты, поддерживаемые вашей организацией. Дополнительные сведения о настройке компенсации см. в разделе [Обзор планов компенсационных выплат](hr-compensation-overview.md).
 
-![Вкладка методов оплаты](./media/hr-setup-parameters-payment-methods.png)
+![Вкладка методов оплаты.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

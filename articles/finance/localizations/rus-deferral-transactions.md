@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e06ce6998e62e230ecee7ba28b86942b98fa306b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c6e3dd34737503ad9781f8f8a3f0121ba52f9fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360173"
 ---
 # <a name="receipt-of-deferrals"></a>Поступление РБП
 
@@ -39,7 +39,7 @@ ms.locfileid: "5840945"
 
     Для РБП создается проводка типа **Поступление**. Эта проводка имеет указанную дату поступления.
 
-    ![Страница Ваучера журнала](media/rus-deferral-transactions-01.png)
+    ![Страница Ваучера журнала.](media/rus-deferral-transactions-01.png)
 
 11. На панели операций выберите **Проверить** \> **Проверить** а затем **Разнести** \> **Разнести** для проверки и разноски журнала.
 12. Перейдите к **Главная книга** \> **Расходы будущих периодов** \> **Расходы будущих периодов** для просмотра создаваемых РБП. Для просмотра сведений о проводках на странице **Проводки по РБП**, на панели операций выберите **Модели РБП**, а затем выберите **Проводки**.

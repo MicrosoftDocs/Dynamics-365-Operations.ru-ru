@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360576"
 ---
 # <a name="payroll-integration-api-introduction"></a>Введение API интеграции заработной платы
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058568"
 
 В этом документе описывается API интеграции заработной платы Dynamics 365 Human Resources. API позволяет упростить сквозную интеграцию между модулями Human Resources и партнерскими системами расчета заработной платы. Интегрированный опыт начинает работать в модуле Human Resources с профилем сотрудника, зарплатой и вычетом, а также информацией о вкладе. При приеме на работу сотрудника и вводе требуемого профиля и информации о зарплате в Human Resources система заработной платы извлекает эту информацию для использования при обработке заработной платы. Все обновления, сделанные для сотрудника или информации о зарплате, также извлекаются для использования в последующих запусках платежей.
 
-![Поток интеграции зарплаты](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Поток интеграции зарплаты.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Для включения интеграции модуль Human Resources включает следующие компоненты:
 
@@ -60,7 +60,7 @@ ms.locfileid: "6058568"
 
 На следующей схеме показаны отношения внутри API. У нескольких типов есть внешние ключи для других, ранее существующих сущностей в модуле Human Resources, которые здесь не иллюстрируются. В этом документе приводятся сведения о сущностях, предназначенных специально для сценариев интеграции заработной платы. Однако в веб-API Dataverse для Human Resources имеется множество других сущностей, которые также могут быть связаны с интеграцией. Некоторые из этих сущностей упоминаются в отношениях внешнего ключа или свойствах навигации.
 
-![Модель данных API интеграции заработной платы](media/hr-admin-payroll-api-data-model.png)
+[![Модель данных API интеграции заработной платы.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Сотрудник заработной платы и связанные сущности
 
@@ -68,7 +68,8 @@ ms.locfileid: "6058568"
 
 - [Сотрудник зарплаты](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Адрес работника зарплаты](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [План фиксированной компенсации зарплаты](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [План фиксированной компенсации зарплаты](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [План переменной компенсации зарплаты.](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Задание позиции зарплаты](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Позиция зарплаты](hr-admin-integration-payroll-api-payroll-position.md)
 

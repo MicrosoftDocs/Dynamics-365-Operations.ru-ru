@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752922"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360266"
 ---
 # <a name="client-alert-notifications-by-email"></a>Оповещение клиентов с помощью уведомлений по электронной почте
 
@@ -36,7 +36,7 @@ ms.locfileid: "5752922"
 
 На следующем рисунке показано диалоговое окно **Создать правило генерации оповещений**, которое теперь включает параметр **Отправить сообщение электронной почты**.
 
-[![Диалоговое окно создания правила генерации оповещений, в котором для параметра "Отправить сообщение электронной почты" задано значение "Да"](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Диалоговое окно создания правила генерации оповещений, в котором для параметра "Отправить сообщение электронной почты" задано значение "Да".](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Если для параметра **Отправить сообщение электронной почты** установлено значение **Да**, уведомления с оповещениями будут продолжать доставляться из центра действий.
@@ -47,7 +47,7 @@ ms.locfileid: "5752922"
 
 На следующем рисунке показана структура оповещений, когда они получены по электронной почте.
 
-[![Основанные на шаблонах оповещения для создания записи, изменений полей и удаления шаблона](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Основанные на шаблонах оповещения для создания записи, изменений полей и удаления шаблона.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

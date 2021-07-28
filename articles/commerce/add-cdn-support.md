@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936838"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346836"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки содержимого (CDN)
 
@@ -74,11 +74,11 @@ ms.locfileid: "5936838"
 
 На следующем рисунке показано диалоговое окно **Добавление серверного пула** в службе Azure Front Door Service с введенным серверным именем узла.
 
-![Диалоговое окно добавления серверного пула](./media/CDN_BackendPool.png)
+![Диалоговое окно добавления серверного пула.](./media/CDN_BackendPool.png)
 
 На следующем рисунке показано диалоговое окно **Добавление серверного пула** в службе Azure Front Door Service со значениями балансировки нагрузки по умолчанию.
 
-![Диалоговое окно добавления серверного пула (продолжение)](./media/CDN_BackendPool_2.png)
+![Диалоговое окно добавления серверного пула (продолжение).](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Убедитесь, что отключены **Зонды работоспособности** при настройке вашей собственной службы Azure Front Door Service для Commerce.
@@ -107,13 +107,13 @@ ms.locfileid: "5936838"
 
 На следующем рисунке показано диалоговое окно **Конфигурация CNAME** в службе Azure Front Door Service.
 
-![Диалоговое окно конфигурации CNAME](./media/CNAME_Configuration.png)
+![Диалоговое окно конфигурации CNAME.](./media/CNAME_Configuration.png)
 
 Можно использовать службу Azure Front Door Service для управления сертификатом, или можно использовать собственный сертификат для пользовательского домена.
 
 На следующем рисунке показано диалоговое окно **HTTPS для личного домена** в службе Azure Front Door Service.
 
-![Диалоговое окно "HTTPS для личного домена"](./media/Custom_Domain_HTTPS.png)
+![Диалоговое окно "HTTPS для личного домена".](./media/Custom_Domain_HTTPS.png)
 
 Подробные инструкции по добавлению личного домена в Azure Front Door см. в разделе [Добавление личного домена в Front Door](/azure/frontdoor/front-door-custom-domain).
 

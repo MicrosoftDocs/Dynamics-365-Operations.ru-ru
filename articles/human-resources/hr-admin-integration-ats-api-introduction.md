@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055300"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357396"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Введение в интерфейс API интеграции системы отслеживания кандидатов
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055300"
 
 В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС). Целью API является обеспечение оптимизации интеграции между Dynamics 365 Human Resources и партнерскими системами ATS.
 
-![Поток интеграци ATS](media/hr-admin-integration-ats-api-introduction-flow.png)
+![Поток интеграци ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Интегрированный опыт начинается в модуле Human Resources, когда менеджер по найму создает запрос на прием на работу. Когда запрос активирован, ATS извлекает сведения о запросе для создания проекта набора персонала. Затем она следует конвейеру набора персонала, чтобы выбрать и нанять кандидата на должности. Наконец, ATS выполняет обратную интеграцию, отправляя запись выбранного кандидата в модуль Human Resources. Затем запись кандидата может пройти несколько проверок адаптации и рабочих процессов для создания записи сотрудника.
 
@@ -69,7 +69,7 @@ ms.locfileid: "6055300"
 
 На следующей схеме показаны отношения внутри API. У нескольких типов есть внешние ключи для других, ранее существующих сущностей в модуле Human Resources, которые здесь не иллюстрируются. В этом документе приводятся сведения о сущностях, предназначенных специально для сценариев интеграции набора персонала. Однако в веб-API Dataverse для Dynamics 365 Human Resources имеется множество других сущностей, которые также могут быть связаны с интеграцией. Например, можно также получить сведения о работниках, заданиях, должностях или других сущностях, не определенных здесь. Многие из этих сущностей упоминаются в отношениях внешнего ключа или свойствах навигации.
 
-![Модель данных API интеграции ATS](media/hr-admin-integration-ats-api-data-model.png)
+![Модель данных API интеграции ATS.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Запрос набора персонала и связанные сущности и наборы параметров
 

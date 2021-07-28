@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754606"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354453"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
@@ -54,11 +54,11 @@ ms.locfileid: "5754606"
 3. В диалоговом окне **Добавление нового элемента** в разделе **Артефакты операций** выберите шаблон **Ресурс**.
 4. Введите имя, которое будет использоваться для ссылки на отчет в метаданных X ++, и щелкните **Добавить**.
 
-    ![Диалоговое окно "Добавление нового элемента"](media/analytical-workspace-add.png)
+    ![Диалоговое окно "Добавление нового элемента".](media/analytical-workspace-add.png)
 
 5. Найдите PBIX-файл, содержащий определение аналитического отчета, а затем щелкните **Открыть**.
 
-    ![Диалоговое окно "Выбор файла ресурса"](media/analytical-workspace-select-resource.png)
+    ![Диалоговое окно "Выбор файла ресурса".](media/analytical-workspace-select-resource.png)
 
 Теперь, когда вы добавили PBIX-файл как ресурс Dynamics 365, можно внедрить отчеты в рабочие области и добавить прямые ссылки с помощью пунктов меню.
 
@@ -67,7 +67,7 @@ ms.locfileid: "5754606"
 
 На следующем рисунке показано, как выглядит форма **FMClerkWorkspace** в конструкторе в Microsoft Visual Studio.
 
-![Форма FMClerkWorkspace до изменений](media/analytical-workspace-definition-before.png)
+![Форма FMClerkWorkspace до изменений.](media/analytical-workspace-definition-before.png)
 
 Выполните следующие шаги для расширения определения формы для рабочей области **Управление резервированием**.
 
@@ -92,7 +92,7 @@ ms.locfileid: "5754606"
 
 На следующем рисунке показан дизайн после применения этих изменений.
 
-![FMClerkWorkspace после изменений](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace после изменений.](media/analytical-workspace-definition-after.png)
 
 Теперь, когда вы добавили элементы управления формой, которые будут использоваться для внедрения отчета рабочей области, необходимо определить размер родительского элемента управления, чтобы он соответствовал макету. По умолчанию обе страницы **Область фильтров** и **Вкладка** будут отображаться в отчете. Тем не менее, можно изменить видимость этих элементов управления в зависимости от целевого потребителя отчета.
 
@@ -142,7 +142,7 @@ ms.locfileid: "5754606"
 
 Вы выполнили задачу по добавлению бизнес-логики для инициализации внедренного элемента управления средством просмотра отчетов. На следующем рисунке показана рабочая область после применения этих изменений.
 
-![Отчет, внедренный в рабочую область](media/analytical-workspace-final.png)
+![Отчет, внедренный в рабочую область.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Вы можете получить доступ к существующему операционному представлению с помощью вкладок рабочей области под заголовком страницы.

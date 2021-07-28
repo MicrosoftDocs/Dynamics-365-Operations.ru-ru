@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355933"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5908116"
 
 Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных об организациях, контактах, продуктах, предложениях по продажам, заказах на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
-[![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Поток данных в решение "Перспективный клиент в наличные деньги".](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -119,11 +119,11 @@ ms.locfileid: "5908116"
 
 ### <a name="contact-to-contact"></a>Контакт в контакт
 
-![Сопоставление шаблона в интеграторе данных](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Сопоставление шаблона в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Контакт в клиента
 
-![Сопоставление шаблона в интеграторе данных](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Сопоставление шаблона в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Связанные разделы

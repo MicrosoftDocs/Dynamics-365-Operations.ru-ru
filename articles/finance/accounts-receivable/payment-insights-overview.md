@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359325"
 ---
 # <a name="customer-payment-insights-preview"></a>Аналитика платежей клиентов (предварительная версия)
 
@@ -47,11 +49,11 @@ ms.locfileid: "5822403"
 
 Анализ платежей клиентов (предварительная версия) также предоставляет сводное представление по ожидаемым платежам, которое помогает организациям понять общую сумму платежей, которую они могут ожидать от клиента в одном из трех сегментов: вовремя, поздно, очень поздно.
 
-[![Сводное представление о прогнозе платежей](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Сводное представление о прогнозе платежей.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Кроме того, каждой накладной назначается вероятность оплаты вовремя. Если вероятность оплаты составляет менее 50%, накладные помечаются красным кружком, чтобы указать на то, что для этих накладных, возможно, потребуется уделить внимание сбору. 
 
-[![Список вероятностей оплаты](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Список вероятностей оплаты.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Аналитика платежей клиентов (предварительная версия) также предоставляет контекстные сведения для объяснения прогноза, например, верхние коэффициенты, влияющие на прогнозы, текущее состояние бизнеса с клиентом и подробные сведения об историческом поведении платежей клиентов. Во многих компаниях процесс сбора был реактивным действием; процесс сбора не начинается, пока не наступит срок оплаты накладных. 
 

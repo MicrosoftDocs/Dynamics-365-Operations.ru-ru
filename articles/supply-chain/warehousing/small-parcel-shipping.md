@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358034"
 ---
 # <a name="small-parcel-shipping"></a>Отгрузка небольших посылок
 
@@ -274,7 +274,7 @@ Supply Chain Management не включает какие-либо механиз
 
     Этикетка отгрузки должна быть напечатана на принтере ZPL, который был выбран ранее. Она должна быть похожа на следующий пример.
 
-    ![Пример этикетки отгрузки](media/sps-label-example.png "Пример этикетки отгрузки")
+    ![Пример этикетки отгрузки.](media/sps-label-example.png "Пример этикетки отгрузки")
 
 1. Обратите внимание, что значения **Код манифеста контейнера** и **Итоговый фрахт** были добавлены как полученные от перевозчика.
 

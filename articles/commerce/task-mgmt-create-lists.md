@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: e7964181a739a8138011abca77d0321d819e0a98
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027632"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354501"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Создание списков задач и добавление задач
 
@@ -70,7 +70,7 @@ Commerce позволяет связывать задачи с отдельны�
 
 На следующем рисунке показан выбор ссылки на задачу в диалоговом окне **Изменить задачу**.
 
-![Выбор ссылки на задачу в диалоговом окне «Изменить задачу»](media/HQ-POS-Tasks-Linking.png)
+![Выбор ссылки на задачу в диалоговом окне «Изменить задачу».](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Настройка операции POS, чтобы она могла быть связана с задачей
 

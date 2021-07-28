@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fe278a13b664d22efbb7e7949f4eb63954344fd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bbf54254e99ed857dbc8e9ed5a7634f35247bf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344736"
 ---
 # <a name="inquiries-and-reports-with-agreements"></a>Запросы и отчеты с договорами
 [!include [banner](../includes/banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "5842301"
 
 1. На странице **Договоры продажи** выберите договор, а затем на вкладке **Договор продажи** в разделе **Связанные сведения** выберите **Сумма договора**, чтобы открыть страницу **Проводки клиента**.
 
-    ![Страница проводок по клиенту](media/14_Customer_transactions.png)
+    ![Страница проводок по клиенту.](media/14_Customer_transactions.png)
    
 2. В полях **Дата начала** и **Дата окончания** укажите период, для которого требуется проанализировать суммы договоров.
 3. В нижней части страницы в разделе **Итоги** просмотрите следующие сведения:
@@ -50,7 +50,7 @@ ms.locfileid: "5842301"
 
 1. На странице **Договоры покупки** выберите договор, а затем на вкладке **Договор покупки** в разделе **Связанные сведения** выберите **Сумма договора**, чтобы открыть страницу **Проводки по поставщику**.
 
-    ![Страница проводок по поставщику](media/15_Vendor_transactions.png)
+    ![Страница проводок по поставщику.](media/15_Vendor_transactions.png)
 
 2. Просмотрите суммы, как описано в предыдущем разделе данной темы, [Просмотр сумм договоров продажи](#sales-agreement-amounts).
 
@@ -116,7 +116,7 @@ ms.locfileid: "5842301"
 
 5. Нажмите **ОК**.
 
-    ![Страница акта сверки взаимных расчетов](media/16_Act_of_adjustment_(customers).png)
+    ![Страница акта сверки взаимных расчетов.](media/16_Act_of_adjustment_(customers).png)
 
     > [!NOTE]
     > Для просмотра проводок клиента, которые создали строку, выберите строку, а затем на панели операций выберите **Проводки**. 
@@ -125,7 +125,7 @@ ms.locfileid: "5842301"
     >
     > Щелкните **Печать** для печати отчета.
 
-![Проводки клиента, создавшие строку](media/17_Act_of_adjustment.png)
+![Проводки клиента, создавшие строку.](media/17_Act_of_adjustment.png)
 
 ### <a name="generate-an-act-of-adjustment-for-a-vendor"></a>Создание акта сверки взаимных расчетов с поставщиком
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358058"
 ---
 # <a name="quality-check"></a>Проверка качества
 
@@ -310,7 +310,7 @@ ms.locfileid: "5838234"
 
     На странице **Проверка качества**, которая отображается, нет полей ввода. На ней имеется только подтверждение (флажок) и кнопка меню (**≡**) в верхней части окна. (Кнопка меню иногда называется "гамбургер".) Для ускорения процесса проверки качества, когда палета проходит проверку качества, пользователь только подтверждает страницу **Проверка качества**.
 
-    ![Страница проверки качества](media/quality-check.png "Страница проверки качества")
+    ![Страница проверки качества.](media/quality-check.png "Страница проверки качества")
 
 1. Нажмите кнопку подтверждения, чтобы перейти с проверки качества для палеты 1 из строки 1.
 

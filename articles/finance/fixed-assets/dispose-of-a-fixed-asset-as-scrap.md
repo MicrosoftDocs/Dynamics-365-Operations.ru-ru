@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355618"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Списание основного средства в утиль
 
@@ -43,7 +43,7 @@ ms.locfileid: "5826283"
 Перед списанием ОС в утиль необходимо создать счета учета, связанные со стоимостью приобретения актива, амортизацией за текущий год, амортизацией за прошлый годы и остаточной стоимостью актива. Типы проводок с основными средствами перечисляются на странице **Профиль разноски основных средств**. Перейдите в раздел **Основные средства \> Настройка \> Профили разноски по ОС**, затем на экспресс-вкладке **Выбытие** выберите **Отходы** в поле над сеткой. На следующем рисунке показан список типов проводок с основными средствами на странице **Профили разноски по ОС**.
 
 
-[![Списание актива в утиль, рис. 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Списание актива в утиль, рис. 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 В следующем примере основное средство было приобретено 1 января 2018 г. и будет списано в утиль 31 марта 2019 г.
 
@@ -58,27 +58,27 @@ ms.locfileid: "5826283"
 
 В этом примере основное средство было приобретено и амортизировалось в течение 15 месяцев, с января 2018 г, по март 2019 г. Таким образом, остаточная стоимость актива равна 9 000,00 долларов США (24 000,00 – 15 000,00 долларов США).
 
-[![Пример амортизации основного средства](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Пример амортизации основного средства.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Для создания журнала выбытия перейдите в раздел **Основные средства \> Записи журнала \> Журнал "Основные средства"**, затем на панели операций выберите **Строки**. Выберите **Выбытие - демонтаж**, затем выберите код ОС. Для полного выбытия актива не вводите никакие значения в поле **Дебет** или **Кредит**.
 
-[![Журнал "Основные средства"](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Журнал "Основные средства".](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Проводка по списанию в утиль основного средства изменяет значения полей журнала основных средств следующими способами:
 
 - В разделе **Сальдо** значение поля **Статус** изменяется на **Списано**.
 - В разделе **Расход** в поле **Дата выбытия** устанавливается дата, когда актив был списан в утиль.
 
-[![Сведения из журнала ОС](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Сведения из журнала ОС.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 На следующем рисунке показано сальдо основного средства.
 
-[![Сальдо основного средства](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Сальдо основного средства.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 На следующем рисунке показан разнесенный ваучер.
 
-[![Остаточная стоимость](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Остаточная стоимость.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795389"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357770"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Включение рекомендаций «Выбрать похожие по виду»
 
@@ -68,7 +68,7 @@ ms.locfileid: "5795389"
 
 На следующем рисунке показана функция **покупать похожие образы** на странице **управления функциями** в Commerce Headquarters.
 
-![Функция "покупать похожие образы" на странице управления функциями в Commerce Headquarters](./media/enableshopsimilarlooks.png)
+![Функция "покупать похожие образы" на странице управления функциями в центральном офисе Commerce.](./media/enableshopsimilarlooks.png)
 
 После выполнения предыдущих задач POS-приложения автоматически расширяются с помощью контекстной области **покупать похожие продукты**. Если установить флажок **Показать больше**, пользователи POS-терминала могут быть направлены на специальную страницу "покупать похожие образы", которая может быть отфильтрована в дальнейшем.
 
@@ -88,7 +88,7 @@ ms.locfileid: "5795389"
 
 На следующем рисунке показан флажок **Включить ссылку "покупать похожие образы"** и кнопка **покупать похожие образы** на примере PDP в конструкторе сайтов.
 
-![Флажок Включить ссылку "покупать похожие образы" и кнопка "покупать похожие образы" на примере PDP в конструкторе сайтов](./media/SSLecomtooling.png)
+![Флажок Включить ссылку "покупать похожие образы" и кнопка "покупать похожие образы" на примере PDP в конструкторе сайтов.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

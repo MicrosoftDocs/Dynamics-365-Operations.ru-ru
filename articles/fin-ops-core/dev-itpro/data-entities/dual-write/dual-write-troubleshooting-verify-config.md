@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748857"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350772"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
 
@@ -39,11 +39,11 @@ ms.locfileid: "5748857"
 
 + Если у вас есть права администратора в приложении Finance and Operations, перейдите к пункту **Рабочие области \> Управление данными** и выберите плитку **Двойная запись**. Если отображаются сведения о связанных средах и список выполняемых сопоставлений таблиц, двойная запись настроена.
 
-    ![Проверка подключения приложения Finance and Operations при наличии прав администратора](media/verify_fin_ops_1.png)
+    ![Проверка подключения приложения Finance and Operations при наличии прав администратора.](media/verify_fin_ops_1.png)
 
 + Если у вас нет прав администратора, вы получите сообщение об ошибке *Невозможно записать данные в объект \<entity name\>*. В примере на следующем рисунке невозможно создать строку клиента в приложении Finance and Operations, так как настроена двойная запись, но отсутствуют ссылочные данные группы клиентов и условий оплаты в Dataverse.
 
-    ![Проверка подключения приложения Finance and Operations при отсутствии прав администратора](media/verify_fin_ops_2.png)
+    ![Проверка подключения приложения Finance and Operations при отсутствии прав администратора.](media/verify_fin_ops_2.png)
 
 Сведения об устранении проблем при создании данных в приложениях Finance and Operations см. в разделе [Устранение проблем с синхронизацией в режиме реального времени](dual-write-troubleshooting-live-sync.md).
 
@@ -51,7 +51,7 @@ ms.locfileid: "5748857"
 
 Если при создании данных вы видите столбец **Компания** на страницах в Dataverse, двойная запись настроена.
 
-![Проверка подключения Dataverse](media/verify_cds.png)
+![Проверка подключения Dataverse.](media/verify_cds.png)
 
 Сведения об устранении проблем при создании данных в Dataverse см. в разделе [Устранение проблем с синхронизацией в режиме реального времени](dual-write-troubleshooting-live-sync.md).
 

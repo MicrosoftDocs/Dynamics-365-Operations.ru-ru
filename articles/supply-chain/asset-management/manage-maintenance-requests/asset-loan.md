@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813395"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354937"
 ---
 # <a name="asset-loans"></a>Предоставление активов в кредит
 
@@ -44,7 +44,7 @@ ms.locfileid: "5813395"
 
 Чтобы просмотреть список всех активов, которые вы одолжили другим местопложениям или клиентам, выберите **Управление активами** \> **Общее** \> **Предоставление активов в кредит** \> **Все предоставленные в кредит активы**. Если для актива установлен флажок **Завершено**, актив был зарегистрирован как возвращенный вашей компании.
 
-![Управление запросами на обслуживание](media/06-manage-maintenance-requests.png)
+![Управление запросами на обслуживание.](media/06-manage-maintenance-requests.png)
 
 На странице **Активные предоставления актива в кредит** можно просмотреть список всех кредитных активов, которые еще не возвращены вашей компании.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352920"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Шаблоны данных с несколькими листами
 
@@ -32,13 +32,13 @@ ms.locfileid: "5750572"
 
 Если вы добавите второй объект **Склады**, не выходя из формы **Добавить файл**, поле подстановки листа позволит выбрать лист **Склады** без необходимости повторной отправки файла. Единственная причина отправить новый файл существовала бы, если бы данные **Склады** были в другом файле.
 
-![Несколько листов](./media/AddFileMultipleWorkSheets.png)
+![Несколько листов.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Исправление сопоставления листов и объектов
 
 Сопоставление листа с информационным объектом в задании импорта можно исправить из сетки. Столбец **Лист** в сетке отображает листы из файла, которые были сопоставлены. В раскрывающемся меню можно выбрать другой лист. Если выбранный лист уже сопоставлен объекту в проекте данных, система запрашивает подтверждение изменения. Рекомендуется исправить все сопоставления в сетке.
 
-![Обновление сопоставления листов](./media/UpdateMappings.png)
+![Обновление сопоставления листов.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Изменение сопоставления на новый файл
 

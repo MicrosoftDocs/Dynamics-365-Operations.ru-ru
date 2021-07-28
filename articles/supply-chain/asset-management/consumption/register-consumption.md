@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346234"
 ---
 # <a name="register-consumption"></a>Регистрация потребления
 
@@ -54,7 +54,7 @@ ms.locfileid: "5837905"
 
 На следующем снимке экрана показан пример регистраций времени и номенклатуры в заказе на работу в пункте **Журналы заказов на работу**.
 
-![Рисунок 1](media/01-consumption.png)
+![Рисунок 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Разбиение часов по заказам на работу с несколькими заданиями заказа на работу
@@ -73,13 +73,13 @@ ms.locfileid: "5837905"
 
 6. Введите количество разделяемых рабочих часов в поле **Часы**.
 
-    ![Рисунок 2](media/02-consumption.png)
+    ![Рисунок 2.](media/02-consumption.png)
 
 7. Щелкните **OK**.
 
 *Пример:* на следующем снимке экрана показаны строки журнала для заказа на работу, содержащего три задания по заказу на работу. Первая строка, содержащая три рабочих часа, была разделена, и один рабочий час регистрируется для каждого задания заказа на работу. После создания трех строк регистрации времени вы решаете, что нужно делать с исходной строкой регистрации часов (первая строка в примере). Ее можно сохранить как есть или удалить. 
 
-![Рисунок 3](media/03-consumption.png)
+![Рисунок 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Финансовые аналитики в регистрациях потребления
 

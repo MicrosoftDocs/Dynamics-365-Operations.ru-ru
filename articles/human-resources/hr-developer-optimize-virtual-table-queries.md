@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054916"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346282"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Оптимизация запросов виртуальных таблиц Dataverse
 
@@ -50,13 +50,13 @@ ms.locfileid: "6054916"
 - **Превышено время ожидания запроса**: возможно превышение времени ожидания запроса и возвращена следующая ошибка: "Получен маркер для вызова Finance and Operations, но Finance and Operations вернул ошибку типа InternalServerError".
 - **Непредвиденная ошибка**: запрос мог бы вернуть тип ошибки 400 со следующим сообщением: "произошла непредвиденная ошибка".
 
-  ![Ошибка типа 400 в HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Ошибка типа 400 в HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Регулирование количества запросов**: запрос может чрезмерно использовать ресурсы сервера и быть подвергнутым регулировке. В этом случае запрос возвращает следующую ошибку: "Получен маркер для вызова Finance and Operations, но Finance and Operations вернул ошибку типа 429". Дополнительные сведения о регулировании в Human Resources см. в [Регулирование количества вопросов и ответов. Вопросы и ответы](./hr-admin-integration-throttling-faq.md).
 
-  ![Ошибка типа 429 в HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Ошибка типа 429 в HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>Ограничение числа столбцов, включенных в запрос данных
 
@@ -96,7 +96,7 @@ OData-Version: 4.0
 2. В окне **Получение данных** введите **Common Data Service** в поле поиска, выберите соединитель **Common Data Service** и нажмите кнопку **подключить**.
 3. В поле **URL-адрес сервера** в окне Common Data Service введите URI организации для вашей среды Dataverse и нажмите кнопку **ОК**.
   
-   ![Введите URI для вашей среды Dataverse](./media/PowerBIDataverseURLSetup.png)
+   ![Введите URI для вашей среды Dataverse.](./media/PowerBIDataverseURLSetup.png)
   
 4. В окне навигатора разверните узел **Сущности**.
 5. В поле поиска введите **mshr_hcmworkerbaseentity** и выберите сущность.
@@ -113,7 +113,7 @@ OData-Version: 4.0
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Обновление запроса в расширенном редакторе для редактора Power Query](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Обновление запроса в расширенном редакторе для редактора Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Выберите **Готово**.
 
@@ -138,7 +138,7 @@ OData-Version: 4.0
 
 Можно использовать [монитор Power Apps](/powerapps/maker/monitor-overview), чтобы убедиться, что в запрос включаются только нужные столбцы для получения данных для Power App. Можно просмотреть URL-адрес, созданный для операции GetRows, чтобы гарантировать, что выбранные для приложения столбцы будут оптимальными для получения данных.
 
-![Используйте монитор Power Apps для анализа операции GetData](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Используйте монитор Power Apps для анализа операции GetData.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Фильтрация запроса данных
 

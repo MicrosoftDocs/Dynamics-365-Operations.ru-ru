@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: af19a3abd78d543d82f7a8d017e2dc413115a6d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 679c2453068695caca03ac9618573eba0686b863
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347328"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>Вариант "Сохранить для следующего платежа" не отображается
 
@@ -34,9 +34,9 @@ ms.locfileid: "6018442"
 
 На следующем рисунке показан пример страницы оформления заказа, которая включает флажок **Сохранить для следующего платежа**.
 
-![Флажок "Сохранить для следующего платежа" в Модуле платежа](media/payment-module-save-payment.jpg)
+![Флажок "Сохранить для следующего платежа" в Модуле платежа.](media/payment-module-save-payment.jpg)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>Убедитесь, что соединитель платежей Dynamics 365 для Adyen правильно настроен в Commerce headquarters
 
@@ -46,7 +46,7 @@ ms.locfileid: "6018442"
 1. Выберите интернет-магазин.
 1. На экспресс-вкладке **счета оплаты** убедитесь, что в поле **Разрешить сохранение информации о платеже в электронной коммерции** задано значение **Истина**.
 
-![Разрешить сохранение сведений о платежах в поле электронной коммерции в Commerce headquarters](media/payment-connector-save-payment.jpg)
+![Разрешить сохранение сведений о платежах в поле электронной коммерции в центральном офисе Commerce.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 804885e6a416fd865933e59f11691768bf1abde4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3d2aff88880f27d50f3795e97aadf95a86a90cab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813323"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344600"
 ---
 # <a name="work-order-report"></a>Отчет по заказу на работу
 
@@ -42,11 +42,11 @@ ms.locfileid: "5813323"
 
 На следующем рисунке показан пример настройки параметров отчета.
 
-![Рисунок 1](media/20-work-orders.png)
+![Рисунок 1.](media/20-work-orders.png)
 
 На следующем рисунке показан пример отчета по заказу на работу, который создается на основе этой настройки.
 
-![Рисунок 2](media/21-work-orders.png)
+![Рисунок 2.](media/21-work-orders.png)
 
 
 

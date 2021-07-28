@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356568"
 ---
 # <a name="understand-date-and-time-fields"></a>Сведения о полях даты и времени
 
@@ -36,13 +36,13 @@ ms.locfileid: "6051745"
 
 При отображении данных в поле **Дата и время** Human Resources корректирует дату и время на основе часового пояса, заданного в форме **Параметры пользователя** (**Общие > Настройка > Параметры пользователя**). Сведения о дате и времени, вводимые в поле, могут не совпадать со сведениями, записанными в базу данных.
 
-[![Форма "Параметры пользователя"](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Форма "Параметры пользователя".](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Общие сведения о полях даты и времени в формах 
 
 Данные **Дата и время**, отображаемые на экране, не будут совпадать с данными, хранящимися в базе данных, если часовой пояс пользователя не установлен в значение времени в формате UTC. Данные в полях **Дата и время** всегда хранятся в формате UTC.
 
-[![Время в формате UTC формы работника](./media/worker-form.png)](./media/worker-form.png)
+[![UTC формы работника.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Общие сведения о полях даты и времени в базе данных 
 
@@ -52,7 +52,7 @@ ms.locfileid: "6051745"
   
 В приведенном ниже примере занятость сотрудника 000724 становится активной в то же время, независимо от часового пояса. Сотрудник будет активным 30.04.2019 в часовом поясе GMT, что совпадает с 01.05.2019 в часовом поясе GMT+12:00. Они ссылаются на один и тот же момент времени, а не на конкретную дату. 
 
-[![Время в формате GMT формы работника](./media/worker-form2.png)](./media/worker-form2.png)
+[![GMT формы работника.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Данные даты и времени в платформе управления данными, Excel, Dataverse и Power BI 
 
@@ -68,27 +68,27 @@ ms.locfileid: "6051745"
 
 **Human Resources, когда установлен часовой пояс пользователя UTC**
 
-[![Форма сотрудника, заданная для времени в формате UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Форма сотрудника, заданная для времени в формате UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources, когда установлен часовой пояс пользователя GMT +12:00** 
 
-[![Форма сотрудника, заданная для времени в формате GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Форма сотрудника, заданная для времени в формате GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel через OData**
 
-[![Excel через OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel через OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **Промежуточное хранение DMF**
 
-[![Промежуточное хранение DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![Промежуточное хранение DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Экспорт DMF**
 
-[![Экспорт DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![Экспорт DMF.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel через Dataverse**
 
-[![Excel через Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel через Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>См. также
 

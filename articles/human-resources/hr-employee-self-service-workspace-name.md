@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0339f5ef5bf5655d0471394539aee56437bb26f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d3fbcdfde48af0b14237ead22a4b94e73e5aa4df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055660"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357151"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Изменение имени рабочей области самообслуживания сотрудников
 
@@ -37,7 +37,7 @@ ms.locfileid: "6055660"
 
 3. В поле **Отображаемое имя** выберите **Самообслуживание**.
 
-   ![Изменение имени рабочей области самообслуживания сотрудников на самообслуживание](./media/hr-employee-self-service-workspace-name.png)
+   ![Изменение имени рабочей области самообслуживания сотрудников на самообслуживание.](./media/hr-employee-self-service-workspace-name.png)
 
 4. Нажмите **Сохранить**.
 

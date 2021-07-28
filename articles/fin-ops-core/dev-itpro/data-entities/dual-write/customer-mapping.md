@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350919"
 ---
 # <a name="integrated-customer-master"></a>Интегрированный справочник клиентов
 
@@ -36,7 +36,7 @@ ms.locfileid: "5748931"
 
 *Клиент* — это хорошо определенная концепция в приложениях. Таким образом, интеграция данных клиентов просто включает в себя согласование концепции клиента между двумя приложениями. На следующем рисунке показан поток данных клиентов.
 
-![Поток данных клиентов](media/dual-write-customer-data-flow.png)
+![Поток данных клиентов.](media/dual-write-customer-data-flow.png)
 
 Клиенты могут быть широко классифицированы на два типа: коммерческие/организационные клиенты и потребители/конечные пользователи. Эти два типа клиентов хранятся и обрабатываются по-разному в Finance and Operations и Dataverse.
 

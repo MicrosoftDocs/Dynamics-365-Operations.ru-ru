@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347670"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Разработка интерфейса выполнения производственного цеха
 
@@ -32,7 +32,7 @@ ms.locfileid: "5814688"
 
 Каждая вкладка разделена на четыре раздела, как показано на следующем рисунке.
 
-![Макет вкладки](media/pfe-tab-layout.png "Макет вкладки")
+![Макет вкладки.](media/pfe-tab-layout.png "Макет вкладки")
 
 На рисунке показаны следующие элементы:
 
@@ -47,7 +47,7 @@ ms.locfileid: "5814688"
 
 1. Выберите **Разработка вкладок** на панели операций, чтобы открыть страницу **Разработка вкладок**.
 
-    ![Страница разработки вкладок](media/pfe-design-tabs.png "Страница разработки вкладок")
+    ![Страница разработки вкладок.](media/pfe-design-tabs.png "Страница разработки вкладок")
 
 1. На панели операций выберите **Создать**.
 
@@ -67,7 +67,7 @@ ms.locfileid: "5814688"
 
 1. Перейдите в раздел **Управление производством \> Настройка \> Выполнение производства \> Настройка выполнения производственного цеха**.
 
-    ![Настроить управление производственным участком](media/pfe-config-prod-floor-execution.png "Настроить управление производственным участком")
+    ![Настроить управление производственным участком.](media/pfe-config-prod-floor-execution.png "Настроить управление производственным участком")
 
 1. На экспресс-вкладке **Выбор вкладки** выберите **Добавить**.
 
