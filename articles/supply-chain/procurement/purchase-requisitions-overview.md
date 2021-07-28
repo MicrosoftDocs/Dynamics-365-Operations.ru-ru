@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188205"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349802"
 ---
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
@@ -47,7 +49,7 @@ ms.locfileid: "6188205"
 
 Следующая схема показывает статусы, назначаемые заявке на покупку и строкам заявки на покупку по мере прохождения ими workflow-процесса.  
 
-[![Статусы заголовка и строк заявки на покупку](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Статусы заголовка и строк заявки на покупку.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Заголовок заявки на покупку и отношения статуса строки
 
@@ -179,7 +181,7 @@ ms.locfileid: "6188205"
 
 Процесс консолидации спроса начинается с момента утверждения заявки на покупку в workflow-процессе и, если в организации настроен бюджетный контроль, записи резервирований бюджета и предварительных бюджетных обязательств. В следующей диаграмме показана схема процесса консолидации спроса.  
 
-[![Поток процесса для консолидации спроса](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Поток процесса для консолидации спроса.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Чтобы консолидировать утвержденные строки заявки на покупку, выполните следующие действия.
 

@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3bf7fa6dcdc8e159dd783921b89eb0e2e24b309e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: d2bb1ef5f28b3f6f7b72c757b5c13dfe7493a199
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894656"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353702"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 
@@ -74,7 +74,7 @@ ms.locfileid: "5894656"
     11. Нажмите **ОК**.
     12. Проверьте ячейки, которые создаются из имен в шаблоне Excel.
 
-        ![Ячейки сопоставления формата](media/rus-format-designer-mapping.jpg)
+        ![Ячейки сопоставления формата.](media/rus-format-designer-mapping.jpg)
 
     13. Закройте страницу.
 
@@ -116,7 +116,7 @@ ms.locfileid: "5894656"
     1. На вкладке **Сопоставление** разверните контейнер **Вычисления**, разверните вычисляемое поле **\$Значения** и выберите элемент **Текст**.
     2. В списке ячеек формата Excel выберите ячейку **АктивВнеОбАНематАктПояснения**, затем выберите **Привязать**.
 
-        ![Текстовая строка сопоставления формата](media/rus-format-designer-mapping-text-string.jpg)
+        ![Текстовая строка сопоставления формата.](media/rus-format-designer-mapping-text-string.jpg)
 
     3. На вкладке **Сопоставление** выберите элемент **Значение**.
     4. В списке ячеек формата Excel выберите ячейку **АктивВнеОбАНематАктСумОтч**, затем выберите **Привязать**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352946"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Функция ER GETENUMVALUEBYNAME
 
@@ -62,7 +62,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 На следующем рисунке показано перечисление **ReportDirection** введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.
 
-![Доступные значения для перечисления модели данных](./media/ER-data-model-enumeration-values.PNG)
+![Доступные значения для перечисления модели данных.](./media/ER-data-model-enumeration-values.PNG)
 
 Следующая иллюстрация показывает эти детали:
 
@@ -70,7 +70,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - Выражение `$IsArrivals` разработано для использования модели на основе перечисления для источника данных **$Direction** в качестве параметра этой функции.
 - Значение этого выражения сравнения — **TRUE**.
 
-![Пример перечисления модели данных](./media/ER-data-model-enumeration-usage.PNG)
+![Пример перечисления модели данных.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Пример 2
 
@@ -78,14 +78,14 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 На следующем рисунке источник данных **TransType** вводится в сопоставлении модели. Этот источник данных относится к перечислению приложения **LedgerTransType**.
 
-![Источник данных сопоставления модели, ссылающийся на перечисление приложения](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Источник данных сопоставления модели, ссылающийся на перечисление приложения.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 На следующем рисунке показан источник данных **TransTypeList**, настроенный в сопоставлении модели. Этот источник данных настроен на основе перечисления приложения **TransType**. Функция `LISTOFFIELDS` используется для того, чтобы вернуть все значения перечисления в виде списка записей, содержащих поля. Таким образом предоставляются сведения о каждом значении перечисления.
 
 > [!NOTE]
 > Поле **EnumValue** настроено для источника данных **TransTypeList** с помощью выражения `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Это поле возвращает значение перечисления для каждой записи в данном списке.
 
-![Источник данных сопоставления модели, который возвращает все значения перечисления выбранного перечисления в виде списка записей](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Источник данных сопоставления модели, который возвращает все значения перечисления выбранного перечисления в виде списка записей.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 На следующем рисунке показан источник данных **VendTrans**, настроенный в сопоставлении модели. Этот источник данных возвращает записи проводок поставщика из таблицы приложения **VendTrans**. Тип книги учета каждой проводки определяется значением поля **TransType**.
 
@@ -94,11 +94,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 >
 > Поле **TransTypeTitle** связано с полем **LedgerType** модели данных, которое позволяет использовать эту информацию в любом формате электронной отчетности, который использует модель данных в качестве источника данных.
 
-![Источник данных сопоставления модели, который возвращает проводки поставщика](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Источник данных сопоставления модели, который возвращает проводки поставщика.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 На следующем рисунке показано, как можно использовать [отладчик источников данных](er-debug-data-sources.md) для проверки настроенного сопоставления модели.
 
-![Проверка настроенного сопоставления модели с помощью отладчика источника данных](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Проверка настроенного сопоставления модели с помощью отладчика источника данных.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Поле **LedgerType** модели данных предоставляет метки типов проводок, как и ожидается.
 

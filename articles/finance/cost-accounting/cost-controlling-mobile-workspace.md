@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: df727f3e66691409b98d2f74f78329b03e638959
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897944"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355211"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Мобильная рабочая область управления затратами
 
@@ -70,7 +70,7 @@ ms.locfileid: "5897944"
 
     При выборе ссылки отображается карта для каждого элемента затрат. На каждой карточке отображаются следующее суммы: фактическая, бюджетная, отклонение от бюджета, отклонение от бюджета в процентах, пересмотренный бюджет, отклонение от пересмотренного бюджета и отклонение от пересмотренного бюджета в процентах.
     
-    [![Карточка для элемента затрат](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![Карточка для элемента затрат.](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Необходимые условия
 Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
@@ -125,7 +125,7 @@ ms.locfileid: "5897944"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-[![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Просмотр производительности центра затрат с помощью мобильной рабочей области управления затратами
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b306fec702f608d00c3459cecd957eb251361c0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e94deffb928704ff96491174a7bf31a823c7a38d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187586"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357079"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Сводное планирование для покрытия объекта, склад не является обязательным
 
@@ -41,7 +41,7 @@ ms.locfileid: "6187586"
 -   Отношения пополнения определяются для склада. Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**. На вкладке **Сводное планирование** см. группу поля **Главный склад**.
 -   Тип заказа по умолчанию задается как производство, заказу на покупку или канбан. Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**. Выберите номенклатуру и после этого щелкните **План &gt; Параметры заказа по умолчанию**. В форме **Параметры заказа по умолчанию** см. поле **Тип заказа по умолчанию**.
 
-![Спрос для склада покрытия узла необязательный](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+![Спрос для склада покрытия узла необязательный.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 

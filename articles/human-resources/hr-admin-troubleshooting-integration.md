@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357297"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -37,7 +37,7 @@ ms.locfileid: "6053403"
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Параметры по умолчанию для пользователя приложения Talent](media/DynamicsApplicationUser.png)
+![Параметры по умолчанию для пользователя приложения Talent.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Синхронизируются все данные или только некоторые информационные объекты?
 
@@ -57,7 +57,7 @@ ms.locfileid: "6053403"
 
 Для данных, которые расположены в Finance, но не существуют в Human Resources, свяжите две системы вместе с помощью **Настроить ссылки** в Human Resources.
 
-![Сопоставление финансовых аналитик](media/MapFinancialDimensions.png)
+![Сопоставление финансовых аналитик.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Иногда при импорте сотрудников они перемещаются в неактивных работников в Finance. Почему?
 
@@ -71,14 +71,14 @@ ms.locfileid: "6053403"
 
 С помощью функции "Расширенный запрос" можно фильтровать и формировать исходные данные перед передачей их в место назначения.
 
-![Расширенный запрос активных работников](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Расширенный запрос активных работников.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Можно ли указать поля, которые передаются в Finance, для конкретной сущности?
 
 Поля можно добавлять или удалять из задачи интеграции. Не все поля данных, которые существуют в таблице Dataverse, будет заполняться из Human Resources.
 Дополнительные данные могут заполняться через Power Apps.
 
-![Добавление полей в задачу интеграции и удаление полей из задачи интеграции](media/SpecifyFieldsIncludedInIntegration.png)
+![Добавление полей в задачу интеграции и удаление полей из задачи интеграции.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Я настроил интеграцию как пакетное задание, но Human Resources потерял подключение к системе назначения. Как можно отправить этот же набор изменений в систему назначения?
 
@@ -126,21 +126,21 @@ ms.locfileid: "6053403"
 
 1. Запишите индекс задачи из интегратора данных (в этом примере это "9").
 
-    ![Запись индекса задачи из интегратора данных](media/CaptureTaskIndex.png)
+    ![Запись индекса задачи из интегратора данных.](media/CaptureTaskIndex.png)
 
 2. Отследите время выполнения проекта.
 
-    ![Отслеживание времени выполнения проекта](media/CaptureTimeOfExecution.png)
+    ![Отслеживание времени выполнения проекта.](media/CaptureTimeOfExecution.png)
 
 3. В Finance укажите индекс — 1. В этом примере проект с суффиксом "8" и временем выполнения проекта с индексом "0" совпадает со времени выполнения на этапе 2.
 
-    ![Определение индекса](media/IdentifyIndex.png)
+    ![Определение индекса.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>После интеграции Human Resources и Finance я не вижу свои данные Human Resources в Finance. Что делать?
 
 Интеграция с Finance осуществляется в два этапа. Во-первых убедитесь, что данные Human Resources обновлены и доступны в Dataverse. Это синхронизация почти в реальном времени, и ее можно проверить в Power Apps, просмотрев данные в таблицах данных.
 
-![Данные в Dataverse](media/DataInCDS.png)
+![Данные в Dataverse.](media/DataInCDS.png)
 
 Если данные не отображаются должным образом в Dataverse, убедитесь, что сущность поддерживается в интеграции. Чтобы включить дополнительные данные в Dataverse, изменение будет требоваться со стороны корпорации Майкрософт.
 
@@ -165,7 +165,7 @@ ms.locfileid: "6053403"
 
 Обновите информационные объекты в Finance, перейдя в **Управление данными \> Параметры структуры \> Параметры объекта \> Обновить список объектов**. Данная процедура займет несколько минут, затем вы должны увидеть эти сопоставления. Эта проблема возникает при создании новых проектов.
 
-![Отсутствует сопоставление полей](media/MissingFieldMapping.png)
+![Отсутствует сопоставление полей.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

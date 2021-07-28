@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f0e26c63635179dc4c145f8d08e85fd110d9caac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 63363678cb34af97781830d36d94fac1a7415394
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817781"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360882"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
 
@@ -35,7 +35,7 @@ ms.locfileid: "5817781"
 
 Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных для организаций, контактов, продуктов, предложений по продажам, заказов на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
-[![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Поток данных в решение "Перспективный клиент в наличные деньги".](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -189,23 +189,23 @@ Sales не поддерживает налог на уровне заголов�
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Заказы на продажу (из Supply Chain Management в Sales) — напрямую: OrderHeader
 
-[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Сопоставление шаблона в интеграции данных.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Заказы на продажу (из Supply Chain Management в Sales) — напрямую: OrderLine
 
-[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Сопоставление шаблона в интеграции данных.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Заказы на продажу (из Sales в Supply Chain Management) — напрямую: OrderHeader
 
-[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Сопоставление шаблона в интеграции данных.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Заказы на продажу (из Sales в Supply Chain Management) — напрямую: OrderLine
 
-[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Сопоставление шаблона в интеграции данных.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
+[Продажа перспективному клиенту](prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

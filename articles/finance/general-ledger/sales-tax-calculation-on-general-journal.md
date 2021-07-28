@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937314"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358841"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Расчет налога для строк общих журналов
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "5937314"
 
 На следующей схеме показано правило в графическом виде.
 
-![Возможные направления налога для счетов "Проект"](media/Sales-Tax-Direction-Vendor.jpg)
+![Возможные направления налога для счетов "Проект".](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Счет типа "Поставщик"
 
@@ -73,7 +73,7 @@ ms.locfileid: "5937314"
 
 На следующей схеме показано правило в графическом виде.
 
-![Возможные направления налога для счетов "Поставщик"](media/Sales-Tax-Direction-Vendor.jpg)
+![Возможные направления налога для счетов "Поставщик".](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Счет типа "Клиент"
 
@@ -89,7 +89,7 @@ ms.locfileid: "5937314"
 
 На следующей схеме показано правило в графическом виде.
 
-![Возможные направления налога для счетов "Клиент"](media/Sales-Tax-Direction-Customer.jpg)
+![Возможные направления налога для счетов "Клиент".](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Счет типа "Книга учета"
 
@@ -103,7 +103,7 @@ ms.locfileid: "5937314"
 
 На следующей схеме показано правило в графическом виде.
 
-![Возможные направления налога для счетов "Книга учета"](media/Sales-Tax-Direction-Ledger.jpg)
+![Возможные направления налога для счетов "Книга учета".](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Переопределение направления налога
 
@@ -115,7 +115,7 @@ ms.locfileid: "5937314"
 
 В этом разделе описывается порядок расчета знака суммы налога.
 
-![Страница налоговых проводок](media/sales-tax-amount-sign.jpg)
+![Страница налоговых проводок.](media/sales-tax-amount-sign.jpg)
 
 В следующей таблице показано универсальное правило для определения направления налога и знака сумм налога во временной таблице налогов.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351257"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Параметры реализации сети доставки содержимого
 
@@ -40,7 +40,7 @@ ms.locfileid: "6021898"
 
 На следующем рисунке показан обзор архитектуры Commerce.
 
-![Обзор архитектуры Commerce](media/Commerce_CDN-Option_ComparisonModels.png)
+![Обзор архитектуры Commerce.](media/Commerce_CDN-Option_ComparisonModels.png)
 
 Дополнительные сведения о настройке экземпляра Azure Front Door для сайта Commerce см. в разделе [Добавление поддержки CDN](add-cdn-support.md).
 
@@ -54,7 +54,7 @@ ms.locfileid: "6021898"
 
 На следующем рисунке показана архитектура экземпляра Azure Front Door, предоставляемой Commerce.
 
-![Экземпляр Azure Front Door, предоставленный Commerce](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![Экземпляр Azure Front Door, предоставленный Commerce.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>Использование принадлежащего клиенту экземпляра Azure Front Door
 
@@ -66,7 +66,7 @@ ms.locfileid: "6021898"
 
 На следующем рисунке показана инфраструктура Commerce, которая включает в себя принадлежащий клиенту экземпляр Azure Front Door.
 
-![Инфраструктура Commerce, которая включает в себя принадлежащий клиенту экземпляр Azure Front Door](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![Инфраструктура Commerce, которая включает в себя принадлежащий клиенту экземпляр Azure Front Door.](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>Использование внешней службы CDN
 
@@ -78,7 +78,7 @@ ms.locfileid: "6021898"
 
 На следующем рисунке показана инфраструктура Commerce, которая включает внешнюю службу CDN.
 
-![Инфраструктура Commerce, которая включает внешнюю службу CDN](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![Инфраструктура Commerce, которая включает внешнюю службу CDN.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

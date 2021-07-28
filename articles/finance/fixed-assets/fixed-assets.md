@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897996"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355564"
 ---
 # <a name="fixed-assets-home-page"></a>Домашняя страница основных средств
 
@@ -30,7 +32,7 @@ ms.locfileid: "5897996"
 
 Для ОС можно настроить и ввести сведения о приобретении, а затем управлять основными средствами путем их амортизации и задавая порог капитализации для амортизации. Вы можете рассчитывать корректировки стоимости основных средств, а также учитывать их выбытие. При использовании главной книги с основными средствам вы можете видеть текущую стоимость всех основных средств. Порядок обработки ОС должен соответствовать как международным, так и принятым в конкретных стране или регионе правилам учета ОС. Требования к ОС могут содержать правила записи проводок приобретения и реализации, амортизации, жизненного цикла, а также повышения/понижения стоимости ОС. Функции ОС отвечают большинству из указанных требований.
 
-[![Бизнес-процесс](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Бизнес-процесс.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

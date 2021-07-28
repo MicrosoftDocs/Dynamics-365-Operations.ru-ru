@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055012"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361241"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Создание приложения для повторяющегося экспорта данных
 
@@ -63,13 +63,13 @@ ms.locfileid: "6055012"
 
 Готовое приложение логики будет похоже на следующее.
 
-![Обзор приложения логики](media/integration-logic-app-overview.png)
+![Обзор приложения логики.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Шаг 1. Создание проекта экспорта данных в Human Resources
 
 В Human Resources создайте проект экспорта данных, экспортирующий работников. Назовите проект **Export Workers** и убедитесь , что для параметра **Создать пакет данных** установлено значение **Да**. Добавьте один объект (**Работник**) в проект и выберите формат, в котором выполняется экспорт. (Формат Microsoft Excel используется в данном учебнике.)
 
-![Экспорт проекта данных о работниках](media/integration-logic-app-export-workers-project.png)
+![Экспорт проекта данных о работниках.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Помните название проекта экспорта данных. Это потребуется при создании приложения логики на следующем шаге.
@@ -80,12 +80,12 @@ ms.locfileid: "6055012"
 
 1. На портале Azure создайте приложение логики.
 
-    ![Страница создания приложения логики](media/integration-logic-app-creation-1.png)
+    ![Страница создания приложения логики.](media/integration-logic-app-creation-1.png)
 
 2. В Logic Apps Designer начнем с чистого приложения логики.
 3. Добавьте [Триггер расписания повторения](/azure/connectors/connectors-native-recurrence) для запуска приложения логики каждые 24 часа (или в соответствии с выбранным расписанием).
 
-    ![Диалоговое окно повторения](media/integration-logic-app-recurrence-step.png)
+    ![Диалоговое окно повторения.](media/integration-logic-app-recurrence-step.png)
 
 4. Вызовите DMF REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage), чтобы запланировать экспорт пакета данных.
 
@@ -97,7 +97,7 @@ ms.locfileid: "6055012"
         > [!NOTE]
         > Служба Human Resources еще не предоставляет соединитель, который предоставляет все API REST, которые составляют пакет DMF REST API, например, **ExportToPackage**. Вместо этого необходимо вызывать API с помощью необработанных запросов HTTPS через HTTP с соединителем Azure AD. Этот разъем использует Azure Active Directory (Azure AD) для аутентификации и авторизации в Human Resources.
 
-        ![HTTP с соединителем Azure AD](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP с соединителем Azure AD.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Выполните вход в среду Human Resources с помощью HTTP с соединителем Azure AD.
     3. Настройте запрос HTTP **POST** для вызова DMF REST API **ExportToPackage**.
@@ -116,21 +116,21 @@ ms.locfileid: "6055012"
             }
             ```
 
-        ![Вызов действия запроса HTTP](media/integration-logic-app-export-to-package-step.png)
+        ![Вызов действия запроса HTTP.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Возможно, потребуется переименовать каждый шаг, чтобы он более был более значимым, чем имя по умолчанию, **Вызвать HTTP-запрос**. Например, можно переименовать этот шаг **ExportToPackage**.
 
 5. [Инициализируйте переменную](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) для хранения статуса выполнения запроса **ExportToPackage**.
 
-    ![Инициализация действия переменной](media/integration-logic-app-initialize-variable-step.png)
+    ![Инициализация действия переменной.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Подождите, пока статус выполнения экспорта данных станет **Успешно**.
 
     1. Добавьте [цикл Until](/azure/logic-apps/logic-apps-control-flow-loops#until-loop), который повторяется до тех пор, пока значение переменной **ExecutionStatus** не будет выполнено **Успешно**.
     2. Добавьте действие **Задержка**, которое ждет пять секунд, прежде чем оно будет опрашивать текущее состояние выполнения экспорта.
 
-        ![Контейнер цикла Until](media/integration-logic-app-until-loop-step.png)
+        ![Контейнер цикла Until.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Установите предельное число **15**, чтобы подождать максимум 75 секунд (15 итераций по 5 секунд), чтобы завершить экспорт. Если экспорт занимает больше времени, скорректируйте количество предельных значений.        
@@ -146,9 +146,9 @@ ms.locfileid: "6055012"
             > [!NOTE]
             > Возможно, потребуется ввести значение **Состав запроса** либо в представлении кода, либо в редакторе функций конструктора.
 
-        ![Вызов действия запроса HTTP 2](media/integration-logic-app-get-execution-status-step.png)
+        ![Вызов действия запроса HTTP 2.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Определение действия переменной](media/integration-logic-app-set-variable-step.png)
+        ![Определение действия переменной.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Значение действия **Задать переменную** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) будет отличаться от значения для значения состава **Вызвать HTTP-запрос 2**, даже если в конструкторе будет показаны значения тем же образом.
@@ -161,7 +161,7 @@ ms.locfileid: "6055012"
         - **URL-адрес запроса:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Состав запроса:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Действие GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Действие GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Загрузите экспортированный пакет.
 
@@ -173,7 +173,7 @@ ms.locfileid: "6055012"
             > [!NOTE]
             > Возможно, потребуется ввести значение **URI** либо в представлении кода, либо в редакторе функций конструктора.
 
-        ![Действие HTTP GET](media/integration-logic-app-download-file-step.png)
+        ![Действие HTTP GET.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Этот запрос не требует дополнительной аутентификации, так как URL-адрес, возвращаемый API **GetExportedPackageUrl**, включает токен подписей общего доступа, который предоставляет доступ для загрузки файла.
@@ -187,7 +187,7 @@ ms.locfileid: "6055012"
         - **Имя файла:** worker\_package.zip
         - **Содержимое файла:** содержимое предыдущего шага (динамическое содержимое)
 
-        ![Действие создания файла](media/integration-logic-app-create-file-step.png)
+        ![Действие создания файла.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Шаг 3. Проверка приложения логики
 
@@ -197,7 +197,7 @@ ms.locfileid: "6055012"
 
 На следующем рисунке показано, как будет выглядеть Logic Apps Designer, когда все этапы приложения логики выполняются успешно.
 
-![Приложение логики успешно выполнено](media/integration-logic-app-successful-run.png)
+![Приложение логики успешно выполнено.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Сводка
 

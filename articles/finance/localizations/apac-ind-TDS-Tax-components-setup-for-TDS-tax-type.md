@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358178"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Настройка компонентов налога для типа налога TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023533"
 
 1. Перейдите **Налог \> Настройка \> Подоходный налог \> Компоненты подоходного налога**.
 
-    [![Страница "Компоненты подоходного налога"](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Страница "Компоненты подоходного налога".](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. В поле **Тип налога** выберите **TDS**, чтобы настроить компоненты подоходного налога для типа налога TDS.
 3. На панели операций выберите **Создать** для создания строки.
@@ -50,7 +50,7 @@ ms.locfileid: "6023533"
 
     Например, если пороговое значение исключения — 5000, то TDS рассчитывается для конкретной строки накладной, если сумма по строке накладной превышает 5000 (иными словами, если это 5001 или более).
 
-    [![Страница «Порог»](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Страница «Порог».](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Сумма порога исключения должна быть меньше или равна сумме порога.
@@ -66,6 +66,6 @@ ms.locfileid: "6023533"
 
 14. Нажмите **ОК**, чтобы скопировать и создать компоненты TDS для другой группы компонентов TDS на странице **Компоненты подоходного налога**.
 
-    [![Диалоговое окно "Копирование компонентов подоходного налога"](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Диалоговое окно "Копирование компонентов подоходного налога".](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Закройте страницу.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 13482ab7b9ee6303138a7a5e82dce78138e0b8ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357321"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Оптимизация производительности путем планирования пакетных заданий на нерабочие часы
 
@@ -51,11 +51,11 @@ Microsoft Dynamics 365 Human Resources может столкнуться с пр
 
 3. Выберите **Выполнять в фоновом режиме**, затем выберите **Повторение**.
 
-   ![Задание повторения](media/talent-batch-history-cleanup-recurrence.png)
+   ![Задание повторения.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. В области **Определение повторения** задайте значения **Дата начала** и **Время начала**, чтобы они приходились на нерабочее время или выходные. Выберите **Без даты окончания**. 
 
-   ![Задание даты и времени начала повторения](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Задание даты и времени начала повторения.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Нажмите **ОК**.
 

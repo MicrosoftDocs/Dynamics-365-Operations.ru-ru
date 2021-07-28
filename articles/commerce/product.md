@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792347"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352140"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Добавление рекомендаций по продуктам в POS
 
@@ -39,7 +39,7 @@ ms.locfileid: "5792347"
 
     - Если сотрудник магазина открывает страницу **Сведения о продукте** при просмотре предыдущих проводок в разных каналах, служба рекомендаций предлагает дополнительные номенклатуры, которые часто приобретаются вместе.
 
-    [![Рекомендации на странице "Сведения о продукте"](./media/proddetails.png)](./media/proddetails.png)
+    [![Рекомендации на странице "Сведения о продукте".](./media/proddetails.png)](./media/proddetails.png)
 
 2. На странице **Проводка**:
 
@@ -48,7 +48,7 @@ ms.locfileid: "5792347"
     > [!NOTE]
     > Для отображения рекомендаций на странице **Проводка** предприятие розничной торговли должно обновить макет экрана в Dynamics 365 Commerce. Элемент управления **Рекомендации** необходимо перетащить на страницу **Проводка**.
 
-    [![Рекомендации на странице "Проводки"](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Рекомендации на странице "Проводки".](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Настройка Commerce для включения рекомендаций POS
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102814"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359541"
 ---
 # <a name="trade-allowance-management"></a>Управление торговыми скидками
 
@@ -59,7 +59,7 @@ ms.locfileid: "6102814"
 
 Фонды, назначаемые договорам о торговых скидках, учитываются на странице **Средства**. Чтобы открыть страницу **Средства**, выберите **Продажи и маркетинг** \> **Торговые скидки** \> **Средства** \> **Средства**.
 
-![Страница "Средства"](./media/trade-allowance-management-funds-page.png "Страница &quot;Средства&quot;")
+![Страница "Средства".](./media/trade-allowance-management-funds-page.png "Страница &quot;Средства&quot;")
 
 На странице **Средства** можно просмотреть сведения о поощрительных фондах.
 
@@ -75,9 +75,9 @@ ms.locfileid: "6102814"
 
 Договоры о торговых скидках учитываются на странице **Договоры о ценовых скидках**. Чтобы открыть страницу **Договоры о ценовых скидках**, выберите **Продажи и маркетинг** \> **Торговые скидки** \> **Договоры о ценовых скидках**.
 
-![Страница "Договоры о ценовых скидках"](./media/trade-allowance-management-agreements-page.png "Страница &quot;Договоры о ценовых скидках&quot;")
+![Страница "Договоры о ценовых скидках".](./media/trade-allowance-management-agreements-page.png "Страница &quot;Договоры о ценовых скидках&quot;")
 
-#### <a name="header"></a>Заголовок
+#### <a name="header"></a>Верхний колонтитул
 
 Выберите **Заголовок**, чтобы переключиться на представление "Заголовок".
 
@@ -103,7 +103,7 @@ ms.locfileid: "6102814"
 
 Если выбрать событие сбыта и затем перейти на вкладку **Суммы**, вы увидите сведения о событии.
 
-![Строки договора о ценовых скидках](./media/trade-allowance-management-agreements-lines.png "Строки договора о ценовых скидках")
+![Строки договора о ценовых скидках.](./media/trade-allowance-management-agreements-lines.png "Строки договора о ценовых скидках")
 
 В разделе **Строки торговой скидки** можно указать диапазоны количеств или сумм, на которые должен выйти клиент, чтобы получить вознаграждения.
 

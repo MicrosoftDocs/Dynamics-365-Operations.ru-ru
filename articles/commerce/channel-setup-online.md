@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936952"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351184"
 ---
 # <a name="set-up-an-online-channel"></a>Настройка канала онлайн-торговли
 
@@ -55,11 +55,11 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показано создание нового интернет-канала.
 
-![Новый интернет-канал](media/channel-setup-online-1.png)
+![Новый интернет-канал.](media/channel-setup-online-1.png)
 
 На следующем рисунке показан пример интернет-канала.
 
-![Пример интернет-канала](media/channel-setup-online-2.png)
+![Пример интернет-канала.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Настройка языков
 
@@ -75,7 +75,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показаны варианты настройки **Режимы поставки**, **Способы оплаты** и **Назначение группы выполнения** на вкладке **Настройка**.
 
-![Дополнительные действия по настройке интернет-канала](media/channel-setup-online-3.png)
+![Дополнительные действия по настройке интернет-канала.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Настройка способов оплаты
 
@@ -90,7 +90,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример способы наличной оплаты.
 
-![Пример способов оплаты](media/channel-setup-retail-5.png)
+![Пример способов оплаты.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Настройка способов поставки
 
@@ -104,7 +104,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример режима поставки.
 
-![Настройка способов поставки](media/channel-setup-retail-7.png)
+![Настройка способов поставки.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Настройка назначения группы выполнения
 
@@ -118,7 +118,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример настройки назначения группы выполнения.
 
-![Настройка назначения группы выполнения](media/channel-setup-retail-9.png)
+![Настройка назначения группы выполнения.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

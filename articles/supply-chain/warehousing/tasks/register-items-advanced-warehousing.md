@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358010"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
 
@@ -53,14 +53,14 @@ ms.locfileid: "5830842"
 1. Задайте в поле **Номер счета** значение *1001*.
 1. Задайте в поле **Номер** номер заказа на покупку, указанного для данного упражнения.
 
-    ![Журнал прихода номенклатуры](../media/item-arrival-journal-header.png "Журнал прихода номенклатуры")
+    ![Журнал прихода номенклатуры.](../media/item-arrival-journal-header.png "Журнал прихода номенклатуры")
 
 1. Выберите **ОК**, чтобы создать заголовок журнала.
 1. В разделе **Строки журнала** выберите **Добавить строку** и введите следующие данные:
     - **Номер номенклатуры** — задан *M9200*. Параметры **Сайт**, **Склад** и **Количество** устанавливаются на основе данных проводки запасов на 10 палет (1000 шт.).
     - **Местоположение** — установлено значение *001*. В этом указанном местоположении не отслеживаются грузоместа.
 
-    ![Строка журнала поступления номенклатур](../media/item-arrival-journal-line.png "Строка журнала поступления номенклатур")
+    ![Строка журнала поступления номенклатур.](../media/item-arrival-journal-line.png "Строка журнала поступления номенклатур")
 
     > [!NOTE]
     > Поле **Дата** определяет дату, когда количество в наличии этой номенклатуры будет зарегистрировано в запасах.  

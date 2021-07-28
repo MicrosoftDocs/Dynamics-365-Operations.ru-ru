@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355981"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Просмотр, управление и утверждение спланированных заказов
 
@@ -65,7 +65,7 @@ ms.locfileid: "6304375"
 
 На следующем рисунке показано, как можно использовать значение **Статус**, которое назначено для каждого спланированного заказа для реализации рабочего процесса утверждения. Для реализации процесса утверждения вручную скорректируйте значение **Статус** для каждого спланированного заказа, как описано в предыдущем разделе.
 
-![Поток спланированного заказа](media/approved-planned-orders-1.png)
+![Поток спланированного заказа.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > Рекомендуется утверждать любые измененные спланированные заказы. В противном случае изменения будут проигнорированы и перезаписаны при следующем выполнении планирования.

@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350893"
 ---
 # <a name="dual-write-overview"></a>Обзор двойной записи
 
@@ -37,7 +37,7 @@ ms.locfileid: "5754120"
 
 Двойная запись обеспечивает тесно связанную двунаправленную интеграцию между приложениями Finance and Operations и Dataverse. Любые изменения данных в приложениях Finance and Operations вызывают запись в Dataverse, а любые изменения данных в Dataverse вызывают записи в приложения Finance and Operations. Этот автоматизированный поток данных обеспечивает интегрированное взаимодействие с пользователем через приложения.
 
-![Связь данных между приложениями](media/dual-write-overview.jpg)
+![Связь данных между приложениями.](media/dual-write-overview.jpg)
 
 Двойная запись имеет два аспекта: *инфраструктуры* и *приложение*.
 

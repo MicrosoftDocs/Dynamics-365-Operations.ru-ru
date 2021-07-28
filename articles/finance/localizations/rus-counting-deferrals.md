@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 1125879fdf8451c57d546e5689dbfe36a08b4344
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d290061c7da4978d8dff7d0330eab5ff808d6074
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840955"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354993"
 ---
 # <a name="deferrals-counting-russia"></a>Инвентаризация РБП (Россия)
 
@@ -198,7 +198,7 @@ ms.locfileid: "5840955"
     8. В поле **Сумма РБП** выберите сумму РБП в валюте по умолчанию.
     9. Закройте страницу **Строка журнала инвентаризации РБП**.
 
-    ![Страница строки журнала инвентаризации РБП](media/rus-counting-deferrals-01.jpg)
+    ![Страница строки журнала инвентаризации РБП.](media/rus-counting-deferrals-01.jpg)
 
 5. Чтобы распечатать отчет **Акт инвентаризации (ИНВ-11)**, выполните следующие действия:
 

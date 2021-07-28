@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353996"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Вызов потоков автоматизации процессов для создания заказов контроля качества
 
@@ -30,7 +30,7 @@ ms.locfileid: "6115213"
 
 Обзор этой функции и ее возможностей см. в следующем видеоролике: [Использование RPA для создания заказов контроля качества в Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Параметры автоматизации с RPA](media/rpa-automation-options.png "Параметры автоматизации с RPA")
+![Параметры автоматизации с RPA.](media/rpa-automation-options.png "Параметры автоматизации с RPA")
 
 Шаблон решения Power Automate включает поток автоматизации в облаке и поток локальной автоматизации, который автоматизирует создание заказов контроля качества в Supply Chain Management.
 
@@ -38,7 +38,7 @@ ms.locfileid: "6115213"
 
 Параметры решения включаются для настройки автоматизации для конкретного варианта использования в производственном оборудовании.
 
-![Создать заказ для контроля качества](media/rpa-create-quality-roder.png "Создать заказ для контроля качества")
+![Создать заказ для контроля качества.](media/rpa-create-quality-roder.png "Создать заказ для контроля качества")
 
 Чтобы получить подробные пошаговые инструкции по загрузке, установке и использованию образца решения для автоматизации создания заказа контроля качества, см. раздел [Автоматизация создания заказа контроля качества в Dynamics 365 Supply Chain Management с помощью роботизированной автоматизации процессов с использованием Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

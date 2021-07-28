@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2bada42073e46c69101e6d31f3328a2eeb95f880
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2921cb22bedf04db1c8d11a382b979b3c63e6683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349984"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Просмотр разнесенных платежей TDS и проводок для периода сопоставления TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023531"
 
 1. Перейдите в раздел **Налог \> Косвенные налоги \> Подоходный налог \> Периоды сопоставления подоходного налога**.
 
-    [![Страница периодов сопоставления подоходного налога](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
+    [![Страница периодов сопоставления подоходного налога.](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
 
 2. На странице **Периоды сопоставления подоходного налога** выберите **Платежи подоходного налога**, чтобы открыть страницу **Платежи подоходного налога**, на которой можно просмотреть сопоставления TDS, сделанные для конкретного периода сопоставления TDS.
 

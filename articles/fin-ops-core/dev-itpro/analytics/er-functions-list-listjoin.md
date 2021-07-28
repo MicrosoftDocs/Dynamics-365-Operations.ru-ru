@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027923"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353738"
 ---
 # <a name="listjoin-er-function"></a>Функция STRINGJOIN электронной отчетности
 
@@ -66,15 +66,15 @@ LISTJOIN (list 1 [, list 2, …, list N])
 - **Сумма**: это поле содержит выражение, возвращающее значение типа `Real`.
 - **IsValid**: это поле содержит выражение, возвращающее значение типа `Boolean`.
 
-![Страница конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image1.gif)
+![Страница конструктора сопоставления модели электронной отчетности.](./media/er-functions-list-listjoin-image1.gif)
 
 В этом случае выражение `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` возвращает новый список, содержащий две записи.
 
-![Страница конструктора сопоставления моделей электронной отчетности с двумя записями](./media/er-functions-list-listjoin-image2.gif)
+![Страница конструктора сопоставления моделей электронной отчетности с двумя записями.](./media/er-functions-list-listjoin-image2.gif)
 
 Структура этого списка состоит из одного поля **Сумма** типа `Real`, потому что это поле является единственным полем, которое представлено в каждом аргументе вызываемой функции.
 
-![Поле суммы страницы конструктора сопоставления модели электронной отчетности](./media/er-functions-list-listjoin-image3.gif)
+![Поле суммы страницы конструктора сопоставления модели электронной отчетности.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

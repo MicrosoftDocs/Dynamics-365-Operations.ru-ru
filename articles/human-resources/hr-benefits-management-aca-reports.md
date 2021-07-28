@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353670"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Создание отчетов ACA в управлении льготами
 
@@ -48,11 +48,11 @@ ms.locfileid: "6052273"
 
 1. В рабочей области **Управление льготами** выберите **Группа покрытия по закону США о доступном медицинском обслуживании**.
 
-    ![Выбор группы покрытия по закону США о доступном медицинском обслуживании](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Выбор группы покрытия по закону США о доступном медицинском обслуживании.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Выберите **Создать**, чтобы создать новую группу по закону США о доступном медицинском обслуживании, или **Редактировать**, чтобы изменить существующую группу.
 
-    ![Выбор создания или редактирования](./media/hr-benefits-management-aca-new.png)
+    ![Выбор создания или редактирования.](./media/hr-benefits-management-aca-new.png)
 
 3. Задайте следующие поля.
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052273"
     | Группа действительна с | Первая дата, когда эта запись является действительной. |
     | Группа действительна по | Последняя дата, когда эта запись является действительной. Если срок окончания действия отсутствует, введите **Никогда**. |
 
-    ![Создание группы покрытия](./media/hr-benefits-management-aca-new-group.png)
+    ![Создание группы покрытия.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Нажмите **Сохранить**.
 
@@ -77,11 +77,11 @@ ms.locfileid: "6052273"
 2. Выберите группу, которой требуется назначить сотрудников.
 3. Выберите **Массовое назначение**.
 
-    ![Выбор массового назначения](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Выбор массового назначения.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Выберите сотрудников в списке, затем выберите **Назначить**.
 
-    ![Назначение выбранных сотрудников в группу](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Назначение выбранных сотрудников в группу.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Поддержка нескольких версий вариантов покрытия
 
@@ -111,12 +111,12 @@ ms.locfileid: "6052273"
 2. Выберите сотрудника в списке.
 3. На вкладке **Занятость** в разделе **Дополнительная информация** выберите **Покрытие по закону США о доступном медицинском обслуживании**.
 
-    ![Изменение параметров для одного сотрудника](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Изменение параметров для одного сотрудника.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Выберите **Правка**.
 5. Для каждого месяца, требующего изменений, установите флажок **Переопределить значение по умолчанию**, затем измените другие значения, если это необходимо.
 
-    ![Переопределение значений по умолчанию](./media/hr-benefits-management-aca-override-default.png)
+    ![Переопределение значений по умолчанию.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Нажмите **Сохранить**.
 
@@ -131,7 +131,7 @@ ms.locfileid: "6052273"
 3. Выберите **Правка**.
 4. Установите для параметра **Отчетность по закону США о доступном медицинском обслуживании** значение **Да**.
 
-    ![Отчетность по покрытию здравоохранения](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Отчетность по покрытию здравоохранения.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Нажмите **Сохранить**.
 
@@ -147,23 +147,23 @@ ms.locfileid: "6052273"
     > [!NOTE]
     > При печати форм 1095-C для более чем 500 сотрудников вы получите несколько файлов PDF. Рекомендуется увеличить значение поля **Максимальный размер файла в мегабайтах** на странице **Параметры управления документами** на **150**. (Чтобы быстро открыть эту страницу, можно использовать поле поиска на панели переходов.)
     >
-    > ![Изменение максимального размера файла](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Изменение максимального размера файла.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Чтобы проверить состояние отчетов и просмотреть их, используйте поле поиска на панели переходов, чтобы открыть страницу **Задания электронной отчетности**.
 
-    ![Поиск страницы заданий электронной отчетности](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Поиск страницы заданий электронной отчетности.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Выберите отчет для просмотра, затем выберите команду **Показать файлы**.
 
-    ![Отображение файлов](./media/hr-benefits-management-aca-show-files.png)
+    ![Отображение файлов.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Выберите **Открыть**.
 
-    ![Открытие файла](./media/hr-benefits-management-aca-open-file.png)
+    ![Открытие файла.](./media/hr-benefits-management-aca-open-file.png)
 
 6. На панели уведомлений, которая отображается в нижней части окна браузера, откройте ZIP-файл, затем выберите отчет. Можно просмотреть или напечатать PDF-файл.
 
-    ![Образец формы 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Образец формы 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Просмотр информации о покрытии ACA
 
@@ -178,7 +178,7 @@ ms.locfileid: "6052273"
 1. В рабочей области **Управление льготами** выберите **Покрытие сотрудников по закону США о доступном медицинском обслуживании**.
 2. В поле **Имя группы** выберите группу.
 
-    ![Просмотр покрытия ACA](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Просмотр покрытия ACA.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Если какие-либо значения по умолчанию для группы покрытия Affordable Care были переопределены, рядом со значением, которое было изменено, появляется звездочка. Если значения для всех 12 месяцев одинаковы и не были переопределены, значение указывается в столбце **Все 12 месяцев**.
 
@@ -198,11 +198,11 @@ ms.locfileid: "6052273"
 
 Если необходимо сообщить о покрытых лицах, поскольку вы предоставляете покрытие с самостоятельным страхованием, вы можете просматривать иждивенцев, которые покрываются в планах льгот, помеченных как **Подлежащие отчетности ACA**. В области действий выберите **Просмотреть покрытие по иждивенцам**.
 
-![Просмотр покрытия иждивенцев](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Просмотр покрытия иждивенцев.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Отображаются сведения о покрытии для иждивенцев сотрудника.
 
-![Покрытие иждивенца](./media/hr-benefits-management-aca-dependents.png)
+![Покрытие иждивенца.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > На этой странице отображаются только те планы льгот, которые помечены как **Подлежащие отчетности по ACA**.

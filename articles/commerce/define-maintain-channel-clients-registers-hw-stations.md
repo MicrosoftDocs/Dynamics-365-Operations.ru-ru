@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349560"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Подключение периферийных устройств к POS
 
@@ -78,7 +78,7 @@ Cloud POS — это POS на основе браузера. Поскольку 
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS с подключенными периферийными устройствами
 
-[![Традиционная фиксированная POS](./media/traditional-300x279.png)](./media/traditional.png)
+[![Традиционная фиксированная POS.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Для подключения MPOS к периферийным устройствам POS в сценарии традиционной фиксированной POS сначала перейдите в регистр и назначьте ему профиль оборудования. Регистры POS находятся в разделе **Retail и Commerce** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Регистры**. 
 
@@ -97,7 +97,7 @@ Cloud POS — это POS на основе браузера. Поскольку 
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS или Cloud POS с автономной станцией оборудования
 
-[![Общие периферийные устройства](./media/shared-300x254.png)](./media/shared.png)
+[![Общие периферийные устройства.](./media/shared-300x254.png)](./media/shared.png)
 
 В этом сценарии автономная станция оборудования совместно используется клиентами MPOS и Cloud POS. Для этого сценария требуется создать профиль станции оборудования, чтобы указать пакет загрузки, порт и профиль оборудования, который использует станция оборудования. Профиль станции оборудования находится в разделе **Retail и Commerce** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Профили POS** &gt; **Профили станции оборудования**. 
 

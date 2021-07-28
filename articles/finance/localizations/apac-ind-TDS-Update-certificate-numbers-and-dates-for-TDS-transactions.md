@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023534"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360230"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Обновление номеров сертификатов и дат для проводок TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023534"
 
 1. Перейдите **Налог \> Декларации \> Подоходный налог \> Обновление сертификата**.
 
-    [![Страница «Обновление сертификата»](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Страница «Обновление сертификата».](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. На странице **Обновление сертификата** в разделе **Выбор** в поле **Тип налога** выберите **TDS**.
 3. В поле **Номер сертификата** выберите номер сертификата TDS клиента или поставщика.
@@ -60,4 +60,4 @@ ms.locfileid: "6023534"
 8. Выберите **Обновить**, чтобы обновить поля **Номер сертификата** и **Дата сертификата** для проводок TDS в нижней сетке.
 10. Перейдите **Налог \> Косвенные налоги \> Подоходный налог \> Подлежащий возмещению сертификат** и выберите **Запрос** для просмотра обновленных строк проводок с новыми номерами сертификатов на странице **Проводки сертификата**.
 
-    [![Страница "Проводки сертификата"](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Страница "Проводки сертификата".](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
