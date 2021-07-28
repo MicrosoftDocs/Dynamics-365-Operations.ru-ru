@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754302"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344056"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Определения строк в конструкторе финансовых отчетов
 
@@ -158,7 +158,7 @@ ms.locfileid: "5754302"
 
 1. В конструкторе отчетов выберите редактируемое определение строки.
 2. Выберите ячейки, которые форматировать. Чтобы выбрать несколько ячеек, удерживайте клавишу Ctrl, пока вы выбираете ячейки.
-3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы сделать отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ](media/indent.gif "Увеличить отступ") на панели инструментов.
+3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы сделать отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ.](media/indent.gif "Увеличить отступ") на панели инструментов.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Отрегулируйте столбцы, когда вы конструируете отчеты
 

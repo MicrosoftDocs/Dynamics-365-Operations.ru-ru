@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745697"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343942"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Настройка справочной системы для приложений Finance and Operations
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745697"
 
 Приложения Finance and Operations включают концептуальные обзоры и другие разделы, опубликованные на сайте [https://docs.microsoft.com/dynamics365](/dynamics365/). К этому содержимому можно получить доступ в области встроенной в продукт **справки**. На следующем рисунке показаны части справочной системы.
 
-[![Архитектура справки](./media/help-architecture.png)](./media/help-architecture.png)
+[![Архитектура справки.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Система встроенной в продукт справки извлекает статьи с docs.microsoft.com и других подключенных веб-сайтов. Он также извлекает проводники по задачам, которые хранятся в Средстве моделирования бизнес-процессов (BPM) в Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ ms.locfileid: "5745697"
 > - Для настройки Справки необходимо войти с помощью учетной записи в том же владельце, что и владелец, в котором развернуто приложение.
 > - Невозможно подключить библиотеку LCS из экземпляра приложения, выполняемого на локальном виртуальном жестком диске (VHD).
 
-[![Форма "Системные параметры" с настройками системы справки](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Форма "Системные параметры" с настройками системы справки.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Чтобы настроить проводники по задачам для решения, выполните следующие действия на странице **Системные параметры**.
 
 > [!IMPORTANT]
 > При первом открытии вкладки **Справка** необходимо подключиться к службами Lifecycle Services. Необходимо выбрать на ссылку в середине формы, дождаться подключения, закрыть диалоговое окно, затем выбрать **ОК**, чтобы перейти на страницу **Системные параметры**.
 >
-> [![Подключение к LCS](./media/connect-to-lcs-crop-1024x365.png "Подключение к LCS")](./media/connect-to-lcs-crop.png)
+> [![Подключить к LCS](./media/connect-to-lcs-crop-1024x365.png "Подключить к LCS".](./media/connect-to-lcs-crop.png)
 
 1. Выберите проект Lifecycle Services для подключения.
 2. Выберите библиотеки BPM (в пределах выбранного проекта), из которых требуется извлечь записи задач.

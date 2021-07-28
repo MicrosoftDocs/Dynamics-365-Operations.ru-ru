@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349336"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Эксперименты в Dynamics 365 Commerce
 Используйте эксперименты в Dynamics 365 Commerce для подтверждения гипотез об эффективности страниц электронной коммерции и принятия решений относительно надежности, управляемой данными. Commerce поддерживает тестирование A/B на страницах, модулях и фрагментах и позволяет измерять влияние предложенных изменений на веб-сайт.
@@ -39,7 +39,7 @@ ms.locfileid: "5798995"
 ## <a name="experimentation-lifecycle"></a>Жизненный цикл экспериментирования
 Настройка эксперимента, создание вариаций и запуск эксперимента являются итеративным процессом. На следующей схеме показан жизненный цикл экспериментов в модуле Commerce и в сторонней службе. 
 
-[ ![Жизненный цикл экспериментирования](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Жизненный цикл экспериментирования.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Дополнительные сведения о каждом шаге процесса экспериментов см. в следующих разделах.
 - [Определение гипотезы и определение метрик для эксперимента](experimentation-identify.md)

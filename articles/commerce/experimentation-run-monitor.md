@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792543"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349264"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Запуск и контроль эксперимента
 
@@ -28,7 +28,7 @@ ms.locfileid: "5792543"
 
 На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах.
 
-[ ![Путь взаимодействия пользователя с экспериментами — запуск и контроль](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Путь взаимодействия пользователя с экспериментами — запуск и контроль.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 После публикации вариаций выполняются все этапы, необходимые для выполнения эксперимента в модуле Commerce. Следующим шагом является определение вариации, которая будет отображаться для каждого пользователя при запросе страницы. Сторонняя служба выполняет эту определение, но сначала необходимо активировать эксперимент внутри службы. Так как шаги по активации эксперимента могут различаться в зависимости от службы, необходимо следовать инструкциям, прилагаемым к службе или поставщику услуг. Если эксперимент не активирован, пользователи будут видеть только версию страницы по умолчанию (никакие вариации не будут отображаться).
 

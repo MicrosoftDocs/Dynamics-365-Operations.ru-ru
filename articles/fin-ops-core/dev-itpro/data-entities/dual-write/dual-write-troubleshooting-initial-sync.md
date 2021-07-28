@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941063"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350820"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Устранение неполадок при начальной синхронизации
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941063"
 
 После включения шаблонов сопоставления статус сопоставлений должно быть **Выполняется**. Если статус **Не выполняется**, при первоначальной синхронизации произошли ошибки. Для просмотра ошибок выберите вкладку **Сведения о начальной синхронизации** на странице **Двойная запись**.
 
-![Ошибка на вкладке сведений о начальной синхронизации](media/initial_sync_status.png)
+![Ошибка на вкладке сведений о начальной синхронизации.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Выполнение начальной синхронизации невозможно: 400 Неправильный запрос
 
@@ -85,7 +85,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 1. Выполните вход в приложение Finance and Operations.
 2. На странице **Приложения Azure Active Directory** удалите клиент **DtAppID** и добавьте его снова.
 
-![Клиент DtAppID в списке приложений Azure AD](media/aad_applications.png)
+![Клиент DtAppID в списке приложений Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Ошибки ссылки на себя или циклических ссылок во время первоначальной синхронизации
 
@@ -115,11 +115,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. Выполните поиск **primarycontactperson**, чтобы найти столбец источника **PrimaryContactPersonId**.
     3. Выберите **Действия**, затем выберите **Удалить**.
 
-        ![Удаление столбца PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Удаление столбца PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Повторите эти шаги для удаления столбца **InvoiceVendorAccountNumber**.
 
-        ![Удаление столбца InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Удаление столбца InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Сохраните изменения в сопоставлении.
 
@@ -129,11 +129,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. Выберите таблицу **Vendors V2**.
     3. На панели операций выберите **Параметры**, затем выберите **Отслеживание изменений**.
 
-        ![Выбор параметра отслеживания изменений](media/selfref_options.png)
+        ![Выбор параметра отслеживания изменений.](media/selfref_options.png)
 
     4. Выберите **Отключить отслеживание изменений**.
 
-        ![Выбор "Отключить отслеживание изменений"](media/selfref_tracking.png)
+        ![Выбор "Отключить отслеживание изменений".](media/selfref_tracking.png)
 
 3. Выполните начальную синхронизацию для сопоставления **Поставщики V2 (msdyn\_vendors)**. Начальная синхронизация должна успешно работать без ошибок.
 4. Выполните начальную синхронизацию для составления **Контакты CDS V2 (контакты)**. Необходимо синхронизировать это сопоставление, если следует синхронизировать столбце основного контакта в таблице "поставщики", так как начальная синхронизация также должна быть выполнена для строк контактов.
@@ -162,11 +162,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. Выполните поиск **contactperson**, чтобы найти столбец источника **ContactPersonID**.
     3. Выберите **Действия**, затем выберите **Удалить**.
 
-        ![Удаление столбца ContactPersonID](media/cust_selfref3.png)
+        ![Удаление столбца ContactPersonID.](media/cust_selfref3.png)
 
     4. Повторите эти шаги для удаления столбца **InvoiceAccount**.
 
-        ![Удаление столбца InvoiceAccount](media/cust_selfref4.png)
+        ![Удаление столбца InvoiceAccount.](media/cust_selfref4.png)
 
     5. Сохраните изменения в сопоставлении.
 
@@ -176,11 +176,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     2. Выберите таблицу **Клиенты V3**.
     3. На панели операций выберите **Параметры**, затем выберите **Отслеживание изменений**.
 
-        ![Выбор параметра отслеживания изменений](media/selfref_options.png)
+        ![Выбор параметра отслеживания изменений.](media/selfref_options.png)
 
     4. Выберите **Отключить отслеживание изменений**.
 
-        ![Выбор "Отключить отслеживание изменений"](media/selfref_tracking.png)
+        ![Выбор "Отключить отслеживание изменений".](media/selfref_tracking.png)
 
 3. Выполните начальную синхронизацию для составления **Клиенты V3 (Организации)**. Начальная синхронизация должна успешно работать без ошибок.
 4. Выполните начальную синхронизацию для составления **Контакты CDS V2 (контакты)**.
@@ -196,7 +196,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         На следующей иллюстрации показан проект, который обновляет **CustomerAccount** и **ContactPersonId**.
 
-        ![Проект интеграции данных для обновления CustomerAccount и ContactPersonId](media/cust_selfref6.png)
+        ![Проект интеграции данных для обновления CustomerAccount и ContactPersonId.](media/cust_selfref6.png)
 
     2. Добавьте критерии компании в фильтр со стороны Dataverse, так что в приложении Finance and Operations будут обновляться только строки, отвечающие условиям фильтра. Чтобы добавить фильтр, выберите кнопку фильтра. Затем, в диалоговом окне **Изменение запроса** можно добавить запрос фильтра, например **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
         Если не ввести запрос фильтра для **\_msdyn\_company\_value**, то все строки будут синхронизированы.
 
-        ![Добавление запроса фильтра](media/cust_selfref7.png)
+        ![Добавление запроса фильтра.](media/cust_selfref7.png)
 
     Исходная синхронизация строк теперь завершена.
 

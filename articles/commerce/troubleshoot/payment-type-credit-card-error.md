@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5be19949e9d1dbc43fdd3e6def119effa50a34d0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d6813a642aefa59e20a7c77ddcf53ce7d3625eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347352"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>Ошибка "Тип оплаты должен быть кредитной картой" на странице заказа на продажу
 
@@ -32,9 +32,9 @@ ms.locfileid: "6018418"
 
 При открытии страницы заказа на продажу после синхронизации заказа появляется следующее сообщение об ошибке: "Тип оплаты должен быть кредитной картой, так как указан номер кредитной карты".
 
-![Ошибка "Тип оплаты должен быть кредитной картой"](media/payment-type-must-be-credit-card.jpg)
+![Ошибка "Тип оплаты должен быть кредитной картой".](media/payment-type-must-be-credit-card.jpg)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="set-the-payment-type-in-commerce-headquarters"></a>Настройка типа платежа в Commerce headquarters
 

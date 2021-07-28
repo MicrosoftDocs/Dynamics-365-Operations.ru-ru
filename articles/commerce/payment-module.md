@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352332"
 ---
 # <a name="payment-module"></a>Модуль платежа
 
@@ -46,9 +46,9 @@ ms.locfileid: "5804487"
 
 На следующем рисунке показан пример модулей подарочных сертификатов, лояльности и платежей Adyen на странице оформления заказа.
 
-![Пример модулей подарочных сертификатов, баллов по программе лояльности и платежей Adyen на странице оформления заказа](./media/ecommerce-payments.PNG)
+![Пример модулей подарочных сертификатов, баллов по программе лояльности и платежей Adyen на странице оформления заказа.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Соединитель платежей Dynamics 365 для PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector для PayPal
 
 В выпуске Commerce 10.0.14 модуль платежей также интегрируется с соединителем платежей Dynamics 365 для PayPal. Дополнительные сведения о настройке этого соединителя платежей см. в разделе [Соединитель платежей Dynamics 365 для PayPal](paypal.md).
  
@@ -59,10 +59,10 @@ ms.locfileid: "5804487"
 Соединителю платежей PayPal не требуется модуль адреса выставления счетов, поскольку вся информация, связанная с выставлением счетов, обрабатывается в рамках интернет-кадра iFrame PayPal. Однако требуются модули адреса отгрузки и параметров доставки.
 
 На следующем рисунке показан пример двух модулей платежей на странице оформления заказа, одна настроена с помощью соединителя платежей Adyen, а другая с помощью соединителя платежей PayPal.
-![Пример модулей платежей Adyen и PayPal на странице оформления заказа](./media/ecommerce-paypal.png)
+![Пример модулей платежей Adyen и PayPal на странице оформления заказа.](./media/ecommerce-paypal.png)
 
 На следующем рисунке показан пример интернет-кадра iframe для PayPal, вызванный с помощью кнопки PayPal. 
-![Пример интернет-кадра iFrame Paypal на странице оформления заказа](./media/ecommerce-paypal-iframe.png)
+![Пример интернет-кадра iFrame Paypal на странице оформления заказа.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Свойства модуля платежа
 
@@ -76,7 +76,7 @@ ms.locfileid: "5804487"
 |Основной платеж|  **True** или **False** | Если установлено значение **True**, все сообщения об ошибках будут создаваться из основного соединителя платежей на странице оформления заказа. Если настроены оба соединителя платежей Adyen и PayPal, установите Adyen в значение **True**, которое было добавлено в выпуске Commerce 10.0.14.|
 
 На следующем рисунке показан пример значения **Поддерживаемые типы платежных средств**, равного "PayPal", в конфигурации соединителя платежей в Commerce Headquarters.
-![Пример поддерживаемых типов платежных средств в Commerce Headquarters](./media/ecommerce-paymenttendertypes.png)
+![Пример поддерживаемых типов платежных средств в Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Адрес выставления счета
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350032"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Включение отсроченного расчета налога для журналов
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ ms.locfileid: "5823724"
 1. Перейдите в раздел **Главная книга \> Настройка главной книги \> Параметры главной книги**.
 2. На вкладке **Налог** на экспресс-вкладке **Общие** задайте для параметра **Отсроченный расчет налога** значение **Да**.
 
-![Изображение параметров главной книги](media/delayed-tax-calculation-gl.png)
+![Изображение параметров главной книги.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Включите Отсроченный расчет налога на уровне наименование журнала
 
 1. Перейдите в раздел **Главная книга \> Настройка журнала \> Наименования журналов**.
 2. На экспресс-вкладке **Общее** в разделе **Налог** задайте для параметра **Отсроченный расчет налога** значение **Да**.
 
-![Изображение наименований журналов](media/delayed-tax-calculation-journal-name.png)
+![Изображение наименований журналов.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Включите Отсроченный расчет налога на уровне заголовка журнала
 
@@ -61,7 +61,7 @@ ms.locfileid: "5823724"
 3. Выберите название журнала.
 4. На вкладке **Настройка** установите для параметра **Отсроченный расчет налога** значение **Да**.
 
-![Изображение страницы общего журнала](media/delayed-tax-calculation-journal-header.png)
+![Изображение страницы общего журнала.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

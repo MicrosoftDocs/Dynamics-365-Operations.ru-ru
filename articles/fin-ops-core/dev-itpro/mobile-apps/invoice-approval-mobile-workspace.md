@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c3414d6ef5f2df62f37f1ef2e7e2ff43ce040e5e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ac56dd8f6ecda669f32b298649da45634c5d83c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752258"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360776"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Мобильная рабочая область "Утверждения накладных"
 
@@ -72,7 +72,7 @@ ms.locfileid: "5752258"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-    [![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Утверждение накладных с помощью мобильной рабочей области утверждения накладных
 1.  На мобильном устройстве выберите рабочую область **Утверждения накладных**.

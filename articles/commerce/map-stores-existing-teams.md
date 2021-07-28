@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020227"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346700"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Сопоставление магазинов и рабочих групп, если имеются готовые рабочие группы в Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "6020227"
 
 В следующем примере изображения показана группа **Экспорт сопоставления Teams** в Commerce с выделенными элементами **Добавить объект** и экспортированными заголовками CSV-файла.
 
-![Группа экспорта сопоставлений Teams в Commerce с выделенными элементами добавления объектов и экспортированными заголовками CSV-файла](media/d365-commerce-data-mgmt-export-entity.png)
+![Группа экспорта сопоставлений Teams в Commerce с выделенными элементами добавления объектов и экспортированными заголовками CSV-файла.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > После выполнения описанных выше шагов выполните шаги из раздела [Синхронизация управления задачами между Microsoft Teams и POS-терминалом](synchronize-tasks-teams-pos.md) для синхронизации управления задачами. 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753612"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348052"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Подавлять элементы управления содержимым Word в сформированных отчетах
 
@@ -63,7 +63,7 @@ ms.locfileid: "5753612"
     > [!NOTE]
     > Повторяющийся элемент управления содержимым помечается ключом **SummaryLines**, совпадающим с полем пользовательской XML-части, которой он сопоставлен.
 
-    ![Макет шаблона Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Макет шаблона Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Выбор существующей конфигурации отчета электронной отчетности
 
@@ -98,7 +98,7 @@ ms.locfileid: "5753612"
 7. Нажмите **ОК**.
 8. В диалоговом окне **параметров электронной отчетности** нажмите кнопку **ОК** и проанализируйте созданные выходные данные.
 
-    ![Платежи для обработки на странице платежей поставщикам](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Платежи для обработки на странице платежей поставщикам.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Выходные данные представлены в формате Word и содержат раздел "Сводка".
 
@@ -149,7 +149,7 @@ ms.locfileid: "5753612"
 
 9. Для сохранения изменений в изменяемом формате выберите **Сохранить**.
 
-    ![Созданные выходные данные в формате Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Созданные выходные данные в формате Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Выполните измененный формат для создания выходных данных Word
 
@@ -163,7 +163,7 @@ ms.locfileid: "5753612"
 8. В диалоговом окне **Параметры электронной отчетности** в поле **подавление раздела сводки** выберите **Да**.
 9. Нажмите кнопку **ОК** и проанализируйте созданные выходные данные.
 
-    ![Созданные выходные данные в формате Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Созданные выходные данные в формате Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Обратите внимание, что выходные данные не содержат раздел "Сводка", так как он был подавлен.
 

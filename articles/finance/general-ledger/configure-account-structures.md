@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8d4d3ebed7cf3f006672454e086fc0f918f2418d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193814"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360672"
 ---
 # <a name="configure-account-structures"></a>Настройка структур счета
 
@@ -65,7 +65,7 @@ ms.locfileid: "6193814"
 
 Раздел **Подробные сведения о допустимых значениях** поможет создать критерии с помощью **Операторов**, например: начинается с, находится между, включает и многие другие.
 
-[![Разрешить значения](./media/account.png)](./media/account.png) 
+[![Разрешить значения.](./media/account.png)](./media/account.png) 
 
 При отсутствии других возможных значений для выбора в соответствии с настройкой структуры счета разрешенные значения будут по умолчанию равны странице записи журнала или распределение по бухгалтерским счетам.
 

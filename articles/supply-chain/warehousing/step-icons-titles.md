@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049372"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344503"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Назначение значков и названий шагов для мобильного приложения Warehouse Management
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049372"
 
 На следующем рисунке показано, как будут отображаться значки и названия шагов в мобильном приложении Warehouse Management.
 
-![Пример значка шага и названия шага в мобильном приложении Warehouse Management](media/step-icon-example.png "Пример значка шага и названия шага в мобильном приложении Warehouse Management")
+![Пример значка шага и названия шага в мобильном приложении Warehouse Management.](media/step-icon-example.png "Пример значка шага и названия шага в мобильном приложении Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Включение этой функции в системе
 
@@ -350,13 +350,13 @@ ms.locfileid: "6049372"
 
 Следующая иллюстрация показывает этот поток задач.
 
-![Схема потока задач](media/step-icons-example-task-flow.png "Схема потока задач")
+![Схема потока задач.](media/step-icons-example-task-flow.png "Схема потока задач")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Создание класса шага для страницы ввода контейнера
 
 Страница ввода контейнера позволяет работнику сканировать или вводить идентификатор контейнера.
 
-![Страница ввода контейнера](media/step-icons-example-container-input.png "Страница ввода контейнера")
+![Страница ввода контейнера.](media/step-icons-example-container-input.png "Страница ввода контейнера")
 
 На странице ввода контейнера имя элемента управления для поля ввода будет `ContainerId`. Поскольку это имя элемента управления не отображается в [списке кодов шагов](#step-ids-classes), вы не найдете существующего шага, основанного на нем. Поэтому необходимо создать класс шага, представляющий этот шаг. Рассмотрим пример:
 
@@ -382,7 +382,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Страница ввода веса позволяет сотруднику ввести вес.
 
-![Страница ввода веса](media/step-icons-example-weight-input.png "Страница ввода веса")
+![Страница ввода веса.](media/step-icons-example-weight-input.png "Страница ввода веса")
 
 На странице ввода веса имя элемента управления поля ввода равно `Weight`, которое находится в [списке кодов шагов](#step-ids-classes). Таким образом, если значок и заголовок шага, заданные в классе `WHSMobileAppStepWeight`, являются приемлемыми для вас, вам не придется ничего изменять для этого шага.
 

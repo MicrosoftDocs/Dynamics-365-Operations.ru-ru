@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346578"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Настройка сопоставления для столбцов статуса заказа на продажу
 
@@ -100,7 +100,7 @@ ms.locfileid: "5750722"
 1. В браузере перейдите к `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Замените **\<test-name\>** ссылкой вашей компании на Sales.
 2. На открытой странице найдите **organizationid** и запишите значение.
 
-    ![Поиск organizationid](media/sales-map-orgid.png)
+    ![Поиск organizationid.](media/sales-map-orgid.png)
 
 3. В Sales откройте консоль браузера и запустите следующий сценарий. Используйте значение **organizationid** из шага 2.
 
@@ -119,33 +119,33 @@ ms.locfileid: "5750722"
     );
     ```
 
-    ![Код JavaScript в консоли браузера](media/sales-map-script.png)
+    ![Код JavaScript в консоли браузера.](media/sales-map-script.png)
 
 4. Убедитесь, что для атрибута **IsSOPIntegrationEnabled** установлено значение **true**. Для проверки значения используйте URL-адрес из шага 1.
 
-    ![IsSOPIntegrationEnabled со значением true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled со значением true.](media/sales-map-integration-enabled.png)
 
 Для включения атрибута **isIntegrationUser** выполните следующие шаги.
 
 1. В Sales перейдите в раздел **Параметр \> Настройка \> Настроить систему**, выберите пункт **Таблица пользователя** и откройте **Форма \> Пользователь**.
 
-    ![Открытие формы пользователя](media/sales-map-user.png)
+    ![Открытие формы пользователя.](media/sales-map-user.png)
 
 2. В обозревателе полей найдите **Пользовательский режим интеграции** и дважды щелкните его, чтобы добавить в форму. Сохраните изменение.
 
-    ![Добавление столбца пользовательского режима интеграции в форму](media/sales-map-field-explorer.png)
+    ![Добавление столбца пользовательского режима интеграции в форму.](media/sales-map-field-explorer.png)
 
 3. В Sales перейдите к разделу **Параметр \> Безопасность \> Пользователи** и измените представление с **Разрешенные пользователи** на **Пользователи приложения**.
 
-    ![Изменение представления с разрешенных пользователей на пользователей приложения](media/sales-map-enabled-users.png)
+    ![Изменение представления с разрешенных пользователей на пользователей приложения.](media/sales-map-enabled-users.png)
 
 4. Выберите две записи для **DualWrite IntegrationUser**.
 
-    ![Список пользователей приложения](media/sales-map-user-mode.png)
+    ![Список пользователей приложения.](media/sales-map-user-mode.png)
 
 5. Измените значение столбца **Пользовательский режим интеграции** на **Да**.
 
-    ![Изменение значение столбца пользовательского режима интеграции](media/sales-map-user-mode-yes.png)
+    ![Изменение значение столбца пользовательского режима интеграции.](media/sales-map-user-mode-yes.png)
 
 Заказы на продажу теперь сопоставлены.
 

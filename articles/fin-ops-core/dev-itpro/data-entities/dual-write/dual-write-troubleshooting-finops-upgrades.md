@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350868"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Устранение неполадок при обновлениях приложений Finance and Operations
 
@@ -68,7 +68,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 *Отсутствует исходное поле \<field name\> в схеме.*
 
-![Пример сообщения об ошибке об отсутствующем исходном столбце](media/error_missing_field.png)
+![Пример сообщения об ошибке об отсутствующем исходном столбце.](media/error_missing_field.png)
 
 Чтобы устранить проблему, сначала необходимо выполнить следующие действия, чтобы убедиться в наличии столбцов в таблице.
 

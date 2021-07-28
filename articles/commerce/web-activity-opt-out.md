@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 25464c89352f44a77a96dee6ad2f633b7a55669e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350288"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Отказ от сбора событий веб-активности
 [!include [banner](includes/banner.md)]
@@ -40,7 +40,7 @@ Dynamics 365 Commerce позволяет администраторам сайт
 1. В клиенте HQ на странице **все клиенты** выполните поиск и выберите клиента.
 1. На странице сведения о клиенте на экспресс-вкладке **Retail** в разделе **Безопасность** установите для параметра **не отслеживать веб-активность** значение **Да**.
 
-    ![Параметры конфиденциальности](media/Disablepersonalizationpart2.png)
+    ![Параметры конфиденциальности.](media/Disablepersonalizationpart2.png)
 
 1. Выберите **Сохранить** и закройте страницу.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fd92ab2646031a488352e1a0d250c21d1527eaa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357247"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Создание пользовательских ссылок на портале самообслуживания менеджеров
 
@@ -38,11 +38,11 @@ ms.locfileid: "6051337"
 
 2. В области **Настройка ссылок для руководителей** можно добавлять, изменять и удалять ссылки. Можно также сгруппировать ссылки вместе, чтобы они отображались в группе на портале самообслуживания менеджеров.
 
-   ![Настройка пользовательских ссылок на портале самообслуживания менеджеров](./media/hr-employee-manager-self-service-custom-links-setup.png)
+   ![Настройка пользовательских ссылок на портале самообслуживания менеджеров.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
 3. Чтобы просмотреть ссылки, перейдите на вкладку **Моя группа** в модуле самообслуживания сотрудников.
 
-   ![Просмотр пользовательских ссылок на портале самообслуживания менеджеров](./media/hr-employee-manager-self-service-custom-links-view.png)
+   ![Просмотр пользовательских ссылок на портале самообслуживания менеджеров.](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>См. также
 

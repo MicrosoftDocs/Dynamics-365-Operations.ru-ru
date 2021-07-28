@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344766"
 ---
 # <a name="electronic-invoicing-overview"></a>Обзор электронного выставления накладных
 
@@ -98,7 +100,7 @@ ms.locfileid: "5839988"
 
 На следующем рисунке показано, как данные передаются в функцию электронного выставления накладных и из нее.
 
-![Поток данных для модуля электронного выставления накладных](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Поток данных для модуля электронного выставления накладных.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Уведомление о конфиденциальности
 Для включения и использования электронного выставления накладных может потребоваться отправка ограниченных данных, которые включают код налоговой регистрации организации. Они будут переданы сторонним агентствам, которые уполномочены налоговыми органами для целей отправки электронных накладных в этот налоговый орган в заранее определенных форматах, требуемых для интеграции с этими веб-службами правительственных учреждений. На данные, импортируемые из этих внешних систем в данную веб-службу Dynamics 365, распространяется наше [заявление о конфиденциальности](https://go.microsoft.com/fwlink/?LinkId=512132). Дополнительные сведения см. в разделах "Уведомление о конфиденциальности" в документации по компонентам, относящимся к конкретной стране.

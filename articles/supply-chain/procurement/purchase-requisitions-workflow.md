@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188181"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353476"
 ---
 # <a name="purchase-requisition-workflow"></a>Документооборот заявок на закупку
 
@@ -51,7 +51,7 @@ ms.locfileid: "6188181"
 -   **Агент по закупкам** — пользователь, который выполняет проверку закупаемой продукции и может утвердить документ.
 -   **Менеджер инициатора запроса** — пользователь, который выполняет организационную проверку и может утвердить документ.
 
-![Процесс проверки workflow-процесса заявки на покупку](./media/purchreqworkflowoverview_submission.gif)  
+![Процесс проверки workflow-процесса заявки на покупку.](./media/purchreqworkflowoverview_submission.gif)  
 В этом примере бизнес-процесс для заявки на покупку состоит из следующих шагов.
 
 1.  Составитель направляет заявку на покупку на рассмотрение.
@@ -74,7 +74,7 @@ ms.locfileid: "6188181"
 -   **Менеджер подразделения** — пользователь, который проверяет расходы и может утвердить документ.
 -   **Менеджер группы** — пользователь, который выполняет проверку подписывания и может утвердить документ.
 
-![Процесс проверки workflow-процесса строки заявки на покупку](./media/purchreqlineworkflowoverview.gif)  
+![Процесс проверки workflow-процесса строки заявки на покупку.](./media/purchreqlineworkflowoverview.gif)  
 В этом примере бизнес-процесс для строк заявки на покупку состоит из следующих шагов.
 
 1.  Составитель направляет заявку на покупку на рассмотрение. Каждая строка передается проверяющему, заданному для нее в workflow-процессе.

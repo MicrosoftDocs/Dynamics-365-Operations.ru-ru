@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830132"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352720"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Взвешенное среднее с физической стоимостью и маркировкой
 
@@ -65,7 +65,7 @@ ms.locfileid: "5830132"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип прямого сопоставления без параметра "Включать физическую стоимость". 
 
-![DS взвешенного среднего без Включать физическую стоимость](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![DS взвешенного среднего без Включать физическую стоимость.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -99,7 +99,7 @@ ms.locfileid: "5830132"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип сводного сопоставления без параметра "Включать физическую стоимость". 
 
-![SS взвешенного среднего без Включать физическую стоимость](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![SS взвешенного среднего без Включать физическую стоимость.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -128,7 +128,7 @@ ms.locfileid: "5830132"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип прямого сопоставления с параметром "Включать физическую стоимость". 
 
-![DS взвешенного среднего с Включать физическую стоимость](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![DS взвешенного среднего с Включать физическую стоимость.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -161,7 +161,7 @@ ms.locfileid: "5830132"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор складской модели с средневзвешенным значением и принцип сводного сопоставления без параметра "Включать физическую стоимость". 
 
-![SS взвешенного среднего с Включать физическую стоимость](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![SS взвешенного среднего с Включать физическую стоимость.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -209,7 +209,7 @@ ms.locfileid: "5830132"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенной стоимостью и маркировкой. 
 
-![Взвешенное среднее с маркировкой](./media/weightedaveragewithmarking.gif) 
+![Взвешенное среднее с маркировкой.](./media/weightedaveragewithmarking.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.

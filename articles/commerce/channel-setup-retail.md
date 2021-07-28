@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937542"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346066"
 ---
 # <a name="set-up-a-retail-channel"></a>Настройка канала розничной торговли
 
@@ -50,11 +50,11 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показано создание нового канала розничной торговли.
 
-![Новый канал розничной торговли](media/channel-setup-retail-1.png)
+![Новый канал розничной торговли.](media/channel-setup-retail-1.png)
 
 На следующем рисунке показан пример канала розничной торговли.
 
-![Пример канала розничной торговли](media/channel-setup-retail-2.png)
+![Пример канала розничной торговли.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Другие параметры
 
@@ -64,7 +64,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример конфигурации настройки канала розничной торговли.
 
-![Пример конфигурации канала розничной торговли](media/channel-setup-retail-3.png)
+![Пример конфигурации канала розничной торговли.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Дополнительная настройка канала
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показаны дополнительные параметры настройки канала розничной торговли на вкладке **Настройка**.
 
-![Настройка канала](media/channel-setup-retail-4.png)
+![Настройка канала.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Настройка способов оплаты
 
@@ -89,7 +89,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример способы наличной оплаты.
 
-![Пример способов оплаты](media/channel-setup-retail-5.png)
+![Пример способов оплаты.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Настройка декларирования наличности
 
@@ -98,7 +98,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример способы декларирования наличности.
 
-![Настройка декларирования наличности](media/channel-setup-retail-6.png)
+![Настройка декларирования наличности.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Настройка способов поставки
 
@@ -112,7 +112,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример режима поставки.
 
-![Настройка способов поставки](media/channel-setup-retail-7.png)
+![Настройка способов поставки.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Настройка приходного/расходного счета
 
@@ -129,7 +129,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример счета приходного/расходного счета.
 
-![Настройка приходных/расходных счетов](media/channel-setup-retail-8.png)
+![Настройка приходных/расходных счетов.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Настройка разделов
 
@@ -155,7 +155,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример настройки назначения группы выполнения.
 
-![Настройка назначений группы выполнения](media/channel-setup-retail-9.png)
+![Настройка назначений группы выполнения.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Настройка сейфов
 

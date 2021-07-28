@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0e4bba6524f225d614ffdab370f2a1993cb3a29
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fe3a1b0c278839069ebd3d047f8052e9da25203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348589"
 ---
 # <a name="view-and-export-field-descriptions"></a>Просмотр и экспорт описаний полей
 
@@ -43,7 +43,7 @@ ms.locfileid: "5754688"
 
 На следующем рисунке показано описание поля, которое отображается при наведении указателя мыши на поле **Блокир. номенкл. при инвентаризации**.
 
-[![Пример описания поля](./media/field-description.png)](./media/field-description.png)
+[![Пример описания поля.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Использование страницы "Описания полей" для просмотра и экспорта справки поля
 

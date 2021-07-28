@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907699"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348765"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Переход на оптимизацию планирования для сводного планирования
 
@@ -65,7 +65,7 @@ ms.locfileid: "5907699"
 
 В следующей блок-схеме обобщены сведения, приведенные в этом разделе, чтобы можно было быстро выяснить, следует ли запросить исключение. Если требуется запросить исключение, заполните и отправьте [Анкету Переход на оптимизацию планирования и исключение](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Блок-схема исключения](media/exception-diagram.png "Блок-схема исключения")
+![Блок-схема исключения.](media/exception-diagram.png "Блок-схема исключения")
 
 > [!NOTE]
 > Исключение можно запросить только для тех клиентов, которые в настоящее время включают или будут включать рабочую среду, а не только для клиентов с средами "песочницы". Если необходимо отключить ошибку исключения оптимизации планирования в среде песочницы "инфраструктура как услуга" (IaaS), выполните запрос SQL, заданный в разделе [Среда песочницы](#faq-sandbox).

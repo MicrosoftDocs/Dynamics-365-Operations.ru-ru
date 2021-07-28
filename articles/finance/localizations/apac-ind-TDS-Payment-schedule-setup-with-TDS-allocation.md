@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023546"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358418"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Настройка графиков оплаты с распределением TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023546"
 
 1. Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Графики платежей**.
 
-    [![Страница графиков оплаты](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![Страница графиков оплаты.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. В области действий выберите **Создать**, чтобы создать график оплаты, и введите требуемые сведения.
 3. В поле **Распределение** выберите способ, который будет использоваться для распределения оплаты для графика оплаты:

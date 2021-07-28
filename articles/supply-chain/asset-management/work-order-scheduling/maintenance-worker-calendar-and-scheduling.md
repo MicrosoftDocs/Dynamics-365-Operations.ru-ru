@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354140"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Календарь специалистов по обслуживанию и планирование
 
@@ -32,7 +32,7 @@ ms.locfileid: "5808144"
 
 На следующем снимке экрана показан пример специалиста по обслуживанию, который связан с ресурсом, использующим календарь рабочего времени "Производство".
 
-![Рисунок 1](media/01-work-order-scheduling.png)
+![Рисунок 1.](media/01-work-order-scheduling.png)
 
 Настройка календаря для инструментов и активов не требуется в связи с планированием заказов на работу. Предполагается, что средства и активы доступны 24 часа в день для обслуживания.
 

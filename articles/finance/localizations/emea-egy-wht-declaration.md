@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022819"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349881"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Декларация подоходного налога для Египта (EG-00005)
 
@@ -103,7 +103,7 @@ ms.locfileid: "6022819"
 2. На вкладке **подоходный налог** в поле **Сопоставление формата декларации подоходного налога** выберите **Excel декларации подоходного налога (EG)**. Если оставить это поле пустым, стандартный налоговый отчет будет создан в формате SSRS.
 
 
-![Форма декларации](media/egypt-wht-declaration-setup1.png)
+![Форма декларации.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Создание форм декларации подоходного налога
 Процесс подготовки и отправки формы декларации подоходного налога за конкретный период основан на проводках по подоходному налогу, разнесенных в ходе задания по сопоставлению и разноске платежа. Дополнительные сведения о глобальном подоходном налоге см. в разделе [глобальный подоходный налог](../general-ledger/global-withholding-tax-overview.md).

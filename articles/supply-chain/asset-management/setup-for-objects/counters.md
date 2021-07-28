@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e119eee82b1438dd8c3ccbaf2d54962b59fe6ae3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47fd386875e3000d579890ae58a462b643ef1876
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360930"
 ---
 # <a name="counters"></a>Счетчики
 
@@ -62,7 +62,7 @@ ms.locfileid: "5808408"
 
 Когда типы активов добавляются к типу счетчика в разделе **Счетчики**, этот счетчик автоматически добавляется к типам активов на экспресс-вкладке **Счетчики** в [типах активов](../setup-for-objects/object-types.md).
 
-![Рисунок 1](media/071-setup-for-objects.png)
+![Рисунок 1.](media/071-setup-for-objects.png)
 
 
 
