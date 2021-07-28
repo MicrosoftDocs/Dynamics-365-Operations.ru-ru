@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 06859fc123e53ad58120bae6f936176176009ee1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944445"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345722"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Настройка электронной отчетности (ER) для загрузки данных в Power BI
 
@@ -53,12 +53,12 @@ Microsoft Power BI представляет собой набор програм
 1. На странице **Параметры управления документами** настройте доступ к SharePoint Server, который будет использоваться в компании, в которую вы выполнили вход (компания DEMF в этом примере).
 2. Протестируйте подключение к SharePoint Server, чтобы убедиться, что вы получили доступ.
 
-    [![Страница параметров управления документами](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
+    [![Страница параметров управления документами.](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. Откройте настроенный сайт SharePoint. Создайте новую папку, в которой ER будет хранить файлы Excel с бизнес-данными, которые требуются отчетам Power BI как наборы данных Power BI.
 4. На странице **Типы документов** создайте новый тип документа, который будет использоваться для получения доступа к папке SharePoint, только что созданной. Введите **Файл** в поле **Группа** и **SharePoint** в поле **Местоположение**, затем введите адрес папки SharePoint.
 
-    [![Страница типов документов](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
+    [![Страница типов документов.](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
 ## <a name="configure-er-parameters"></a>Настройка параметров ER
 1. В рабочей области **Электронная отчетность** нажмите ссылку **Параметры электронной отчетности**.
@@ -68,23 +68,23 @@ Microsoft Power BI представляет собой набор програм
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Использование модели данных ER в качестве источника данных
 Необходимо иметь модель данных ER в качестве источника бизнес-данных, которые будут использоваться в отчетах Power BI. Эта модель данных загружается из репозитория конфигураций ER. Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](download-electronic-reporting-configuration-lcs.md) или просмотрите руководство по задаче **ER Импорт конфигурации из Lifecycle Services** . Выбор **Интрастат** как модель данных, которая будет загружена из выбранного репозитория конфигураций ER. (В этом примере используется версия 1 модели.) Затем можно получить доступ к конфигурации модели ER **Интрастат** на странице **Конфигурации**.
 
-[![Конфигурация модели Интрастат ER на странице конфигурации](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Конфигурация модели Интрастат ER на странице конфигурации.](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Создание конфигурации формата ER
 Необходимо создать новую конфигурацию формата ER, которая использует модель данных **Интрастат** в качестве источника бизнес-данных. Эта конфигурация формата должна создавать выходные результаты в виде электронных документов в формате OpenXML (файл Excel). Для получения дополнительных сведений просмотрите руководство по задаче **ER Создание конфигурации для отчетов в формате OPENXML**. Назовите новую конфигурацию **Мероприятия импорта или экспорта**, как показано на следующем рисунке. Используйте Excel-файл [Данные ER — сведения импорта и экспорта](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) в качестве шаблона при проектировании формат ER. (Сведения о том, как импортировать шаблон формата см. в руководстве по задаче.)
 
-[![Конфигурация мероприятий импорта и экспорта](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
+[![Конфигурация мероприятий импорта и экспорта.](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
 Для изменения конфигурации формата **Мероприятия импорта или экспорта** выполните следующие действия.
 
 1. Выберите **Конструктор**.
 2. На вкладке **Формат** задайте имя элемента файла для данного формата **Выходной файл Excel**.
 
-    [![Элемент выходного файла Excel](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
+    [![Элемент выходного файла Excel.](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
 
 3. На вкладке **Сопоставление** укажите имя файла Excel, который будет создавать каждый раз при выполнении этого формата. Настройте связанное выражение для возврата значения **Данные импорта и экспорта** (расширения имени файла XLSX будет добавлено автоматически).
 
-    [![Конструктор форматов](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
+    [![Конструктор форматов.](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
 
 4. Добавьте новый элемент источника данных для данного формата. (Это перечисление необходимо для дальнейшего связывания данных.)
 
@@ -92,19 +92,19 @@ Microsoft Power BI представляет собой набор програм
     2. Выберите **Перечисление модели данных** как тип источника данных.
     3. Задайте ссылку на перечисление модели данных **Направление**.
 
-    [![direction_enum](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
+    [![direction_enum.](./media/ger-power-bi-format-configuration-mapping-added-enum-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-added-enum.png)
 
 5. Завершите привязку элементов модели данных **Интрастат** и элементов созданного формата, как показано на следующем рисунке.
 
-    [![Завершение привязки](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
+    [![Завершение привязки.](./media/ger-power-bi-format-configuration-mapping-details-1024x454.png)](./media/ger-power-bi-format-configuration-mapping-details.png)
 
 После выполнения формат ER создает выходной результат в формате Excel. Он отправляет сведения проводок Интрастат в выходной результат и делит их как проводки, которые описывают мероприятия импорта или мероприятия экспорта. Нажмите **Выполнить**, чтобы проверить новый формат ER для списка проводок Интрастат на странице **Интрастат** (**Налог** &gt; **Декларации** &gt; **Внешняя торговля** &gt; **Интрастат**).
 
-[![Страница Интрастат](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
+[![Страница Интрастат.](./media/ger-power-bi-format-test-run-transactions-1024x322.png)](./media/ger-power-bi-format-test-run-transactions.png)
 
 Создается следующий выходной результат. Файла называется **Сведения об импорте и экспорте.xlsx**, как указано в настройках формата.
 
-[![Import and export details.xlsx](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
+[![Import and export details.xlsx.](./media/ger-power-bi-format-test-run-output-1024x472.png)](./media/ger-power-bi-format-test-run-output.png)
 
 ## <a name="configure-the-er-destination"></a>Настройка места назначения ER
 Необходимо настроить платформу ER для отправки выходного результата новой конфигурации формата ER особенным способом.
@@ -126,35 +126,35 @@ Microsoft Power BI представляет собой набор програм
 1. На странице **Конфигурации** (**Управление организацией** &gt; **Электронная отчетность** &gt; **Конфигурации**) в дереве конфигураций выберите конфигурацию **Мероприятия импорта или экспорта**, созданную ранее.
 2. Измените статус версии 1.1 с **Черновик** на **Завершено**, чтобы этот формат стал доступным для использования.
 
-    [![Настройка действий импорта/экспорта на странице конфигурации](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Настройка действий импорта/экспорта на странице конфигурации.](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Выберите завершенную версию конфигурации **Мероприятия импорта или экспорта**, затем нажмите **Выполнить**. Обратите внимание, что настроенное место назначения применяется к выходному результату, создаваемому в формате Excel.
 4. Задайте для параметра **Пакетная обработка** значение **Да**, чтобы выполнить этот отчет в режиме, не требующем участия пользователя.
 5. Нажмите **Повторение** для планирования необходимого повторения этого пакетного выполнения. Повторение определяет, как часто обновленные данные будут перемещаться в Power BI.
 
-    [![Диалоговое окно параметров электронной отчетности](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
+    [![Диалоговое окно параметров электронной отчетности.](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
 6. После настройки задание выполнения отчета ER можно найти на странице **Пакетные задания** (**Администрирование системы &gt; Запросы &gt; Пакетные задания**).
 
-    [![Страница пакетных заданий](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
+    [![Страница пакетных заданий.](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
 7. Когда это задание запускается впервые, место назначения создает новый файл Excel с настроенным именем в выбранной папке SharePoint. При каждом последующем выполнении этой задачи место назначения создает новую версию этого файла Excel.
 
-    [![Новая версия файла Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+    [![Новая версия файла Excel.](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Создание набора данных Power BI с помощью выходного результата формата ER
 1. Выполните вход в Power BI и откройте существующую группу Power BI (рабочую область) или создайте новую группу. Нажмите **Добавить** под полем **Файлы** в разделе **Импорт или подключение с данными** или нажмите значок "плюс" (**+**) рядом с **Наборы данных** в левой области.
 
-    [![Создание набора данных](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
+    [![Создание набора данных.](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
 2. Выберите вариант **SharePoint — сайты рабочих групп**, а затем введите путь к SharePoint Server, который вы используете (`https://ax7partner.litware.com` в нашем примере).
 3. Перейдите к папке **/Shared Documents/GER data/PowerBI** и выберите файл Excel, созданный в качестве источника данных для нового набора данных Power BI.
 
-    [![Выбор файла Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
+    [![Выбор файла Excel.](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
 
 4. Щелкните **Подключить**, затем щелкните **Импорт**. Новый набор данных создается, основанный на выбранном файле Excel. Набор данных можно также добавить автоматически к вновь созданной панели мониторинга.
 
-    [![Набор данных на панели мониторинга](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
+    [![Набор данных на панели мониторинга.](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
 5. Настройте график обновления для данного набора данных, чтобы использовать принудительное периодическое обновление. Периодические обновления обеспечивает потребление новых бизнес-данных, поступающих путем периодического выполнения отчета с новыми версиями файла Excel, созданных в SharePoint Server.
 
@@ -168,17 +168,17 @@ Microsoft Power BI представляет собой набор програм
 
 3. Сохраните отчет Power BI как **Отчет со сведениями об импорте и экспорте**.
 
-    [![Отчет со сведениями об импорте и экспорте](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
+    [![Отчет со сведениями об импорте и экспорте.](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
     Обратите внимание, что карта показывает страны или регионы, упоминаемые в файле Excel (Австрия и Швейцария в этом примере). Эти страны или регионы покрашены, чтобы показать пропорции сумм по накладным для каждого.
 
 4. Обновите список проводок Интрастат. Проводки экспорта из Италии добавляются.
 
-    [![Список проводок Интрастат](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
+    [![Список проводок Интрастат.](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)
 
 5. Подождите следующего запланированного выполнения отчета ER и следующего запланированного обновления набора данных Power BI. Затем просмотрите отчет Power BI (выберите отображение только проводок импорта). На обновленной карте теперь отображается Италия.
 
-    [![Обновленная карта](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+    [![Обновленная карта.](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Доступ к отчету Power BI в Finance
 Настройка интеграции с Power BI. Для получения дополнительных сведений см. раздел [Настройка интеграции Power BI для рабочих областей](configure-power-bi-integration.md).
@@ -187,7 +187,7 @@ Microsoft Power BI представляет собой набор програм
 2. Выберите созданный вами отчет Power BI **Сведения об импорте и экспорте**, чтобы показать этот отчет как пункт действий на выбранной странице.
 3. Нажмите на пункт действия, чтобы открыть страницу, на которой отображается отчет, созданный в Power BI.
 
-    [![Отчет со сведениями об импорте и экспорте, созданный в Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Отчет со сведениями об импорте и экспорте, созданный в Power BI.](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

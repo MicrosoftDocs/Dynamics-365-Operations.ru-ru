@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 73b3aa19e2987c664d98effba118d1741b8c2685
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ba8313eee5bd4f599dc9f4e7f6bfd6d9347583
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838707"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346423"
 ---
 # <a name="fixed-assets-and-intangible-assets-registers"></a>Регистры основных средств и нематериальных активов
 [!include [banner](../includes/banner.md)]
@@ -173,7 +173,7 @@ ms.locfileid: "5838707"
 14. Создайте журнал налоговых регистров для второго месяца 2019 года. Расчет всех регистров.
 15. В регистре **расчета себестоимости товаров** должны отобразиться следующие сведения:
 
-    ![Автоматически создается снимок экрана описания компьютера](media/1_Goods_cost_calculation.png)
+    ![Автоматически создается снимок экрана описания компьютера.](media/1_Goods_cost_calculation.png)
 
 ## <a name="the-fa--information-about-object-register"></a><a name="register-information-fixed"></a>ОС — сведения о регистре объектов
 

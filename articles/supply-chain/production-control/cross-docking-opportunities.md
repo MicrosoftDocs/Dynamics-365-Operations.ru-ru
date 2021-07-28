@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347694"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Кросс-докинг из производственных заказов в дебаркадеры отгрузки
 
@@ -42,7 +42,7 @@ ms.locfileid: "6190096"
 -   Если для двери уже назначен прицеп, водителю грузовика будет сказано загрузить продукт непосредственно в прицеп.
 -   При отсутствии запланированного мероприятия по перемещению продукта, водителю погрузчика будет сказано отвезти продукт в местоположение на внутреннем складе (5).
 
-[![рациональный кросс-докинг](./media/scenario1.png)](./media/scenario1.png)
+[![рациональный кросс-докинг.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Настройка кросс докинга
 Кросс-докинг настраивается в **политиках работы**. Политика работы включает тип заказа на выполнение работ, местоположение и продукт. В следующем примере кросс-докинг настраивается для продукта X и местоположения Y.

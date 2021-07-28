@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 89fe41d7ce57b584be34b156696b4044c4571afe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347280"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Возврат по заказу на возврат отклонен
 
@@ -34,9 +34,9 @@ ms.locfileid: "6020764"
 
 Данные авторизации платежа будут включать следующее сообщение об ошибке: "Adyen gateway SendRequest() failed with status 'InternalServerError'.22144; Empty response returned from Adyen.(22001);"
 
-![Ошибка отклонения возврата по заказу на возврат](media/refund-order-decline.jpg)
+![Ошибка отклонения возврата по заказу на возврат.](media/refund-order-decline.jpg)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="enable-blind-returns-in-adyen"></a>Включить возвраты вслепую в Adyen
 

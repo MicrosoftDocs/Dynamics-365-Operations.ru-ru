@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.custom: intro-internal
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 459d8d6a979556eb1f56cfb37ceb74a95f4a3bb2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: d4bbcff45fc256ecc48bb4fe73a9e1af735edbe0
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890819"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339024"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -158,6 +159,7 @@ ms.locfileid: "5890819"
 - [Налоговые регистры для движения денежных средств](rus-cash-flow-tax-registers.md)
 - [Регистры номинальных расходов](rus-rated-expenses-registers.md)
 - [Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей](rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md)
+- [Резервы безнадежной задолженности в модуле расчетов с клиентами](rus-bad-debts.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

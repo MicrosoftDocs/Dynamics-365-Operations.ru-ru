@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343732"
 ---
 # <a name="container-packing-strategies"></a>Стратегии упаковки в контейнеры
 
@@ -251,7 +252,7 @@ ms.locfileid: "6292769"
 1. Выберите политику **По умолчанию** в списке.
 1. На панели операций выберите **Правка**.
 1. На экспресс-вкладке **поля консолидации** в списке **Выбранные поля** выберите строку, где поле **Имя поля** установлено на значение *Номер заказа*.
-1. Выберите кнопку **Удалить** ![Стрелка влево](media/backward-button.png), чтобы переместить поле в список **Оставшиеся поля**.
+1. Нажмите кнопку **Удалить** ![ Стрелка влево.](media/backward-button.png) чтобы переместить поле в список **Оставшиеся поля**.
 1. На панели операций выберите **Сохранить**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Настрого физических аналитик для продукта

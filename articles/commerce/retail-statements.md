@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791929"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345014"
 ---
 # <a name="retail-statements"></a>Журналы операций розничной торговли
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791929"
 
 На следующем рисунке представлен процесс разноски отчета. В ходе этого процесса проводки, записанные в POS, передаются клиенту с помощью планировщик Commerce. После получения клиентом проводок можно создать, рассчитать и разнести отчет о проводках для магазина.
 
-[![Процесс разноски отчетов](./media/retail-statements.png)](./media/retail-statements.png)
+[![Процесс разноски отчетов.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Создание и разноска отчетов
 

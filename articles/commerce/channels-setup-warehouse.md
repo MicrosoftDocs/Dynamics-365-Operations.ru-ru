@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800503"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345992"
 ---
 # <a name="warehouse-set-up"></a>Настройка складов
 
@@ -45,7 +45,7 @@ ms.locfileid: "5800503"
 
 На следующем рисунке показан пример сайта склада.
 
-![Пример: сайт склада](media/warehouse-site.png)
+![Пример: сайт склада.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse&quot;></a>Настройка склада
 
@@ -98,7 +98,7 @@ ms.locfileid: "5800503"
     
 На следующем рисунке показана настройка местонахождения запасов склада "Сан-Франциско".
 
-![Пример настройки местонахождения запасов](media/warehouse-inventory-locations.png)
+![Пример настройки местонахождения запасов.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Завершение настройки склада
 
@@ -121,7 +121,7 @@ ms.locfileid: "5800503"
 
 На следующем рисунке показаны данные для настроенного склада.
 
-![Пример настроенного склада](media/warehouse-sample.png)
+![Пример настроенного склада.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

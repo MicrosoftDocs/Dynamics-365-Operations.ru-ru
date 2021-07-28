@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348028"
 ---
 # <a name="archive-er-destination-type"></a>Тип места назначения ER архива
 
@@ -30,7 +30,7 @@ ms.locfileid: "5894036"
 
 Этот параметр можно использовать для отправки созданного документа в папку Microsoft SharePoint или хранилище Microsoft Azure. Задайте для параметра **Включено** значение **Да** для отправки выходных данных в место назначения, которое определяется выбранным типом документа. Для выбора доступны только типы, в которых для группы задано значение **Файл**. [Типы](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) документов определяются в разделе **Управление организацией** \> **Управление документами** \> **Типы документов**. Конфигурация для мест назначения электронной отчетности аналогична конфигурации системы управления документами.
 
-[![Страница типов документов](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Страница типов документов.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 Расположение определяет, где сохранен файл. После включения места назначения **Архив** результаты можно сохранить в архиве заданий. Можно просмотреть результаты в пункте **Управление организацией** \> **Электронная отчетность** \> **Архивированные задания электронной отчетности**.
 
@@ -41,7 +41,7 @@ ms.locfileid: "5894036"
 
 Можно сохранить файл в указанной папке SharePoint. Чтобы задать сервер SharePoint по умолчанию, перейдите **Управление организацией** \> **Управление документами** \> **Параметры правления документами**. На вкладке **SharePoint** настройте папку SharePoint. Затем ее можно выбрать в качестве папки, в которой будет сохранены выходные данные ER. Местонахождение **SharePoint** должно быть выбрано для этого типа документа.
 
-[![Выбор папки SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Выбор папки SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Хранилище Azure
 

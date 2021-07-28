@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344278"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Интеграция Dynamics 365 Supply Chain Management (управление активами) с Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ ms.locfileid: "5908575"
     1. На экспресс-вкладке **Строки контрольного списка обслуживания** выберите строку, которую необходимо связать с руководством.
     1. На экспресс-вкладке **Связанные руководства** выберите **Добавить руководство**.
 
-        ![Связывание руководства со строкой контрольного списка обслуживания](media/am-guides-integration-add-guide.png "Связывание руководства со строкой контрольного списка обслуживания")
+        ![Связывание руководства со строкой контрольного списка обслуживания.](media/am-guides-integration-add-guide.png "Связывание руководства со строкой контрольного списка обслуживания")
 
     1. В поле **Имя** выберите руководство, а затем выберите **Сохранить**.
 
-        ![Выберите руководство в поле "Имя"](media/am-guides-integration-select-guide.png "Выберите руководство в поле &quot;Имя&quot;")
+        ![Выберите руководство в поле "Имя".](media/am-guides-integration-select-guide.png "Выберите руководство в поле &quot;Имя&quot;")
 
 1. Связывание шаблона контрольного списка обслуживания с типом задания:
 
     1. [Создайте тип задания обслуживания](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) или выберите существующий тип.
     1. В области действий выберите **Значения по умолчанию для типа заданий обслуживания**.
 
-        ![Кнопка "Значения по умолчанию для типа заданий обслуживания"](media/am-guides-integration-job-defaults.png "Кнопка &quot;Значения по умолчанию для типа заданий обслуживания&quot;")
+        ![Кнопка "Значения по умолчанию для типа заданий обслуживания".](media/am-guides-integration-job-defaults.png "Кнопка &quot;Значения по умолчанию для типа заданий обслуживания&quot;")
 
     1. Создайте строку, а затем выберите **Сохранить**.
 
-        ![Создайте строку](media/am-guides-integration-add-line.png "Создайте строку")
+        ![Создайте строку.](media/am-guides-integration-add-line.png "Создайте строку")
 
     1. В области действий выберите **Контрольный список обслуживания**.
 
-        ![Кнопка "Контрольный список обслуживания"](media/am-guides-integration-maintenance-checklist.png "Кнопка &quot;Контрольный список обслуживания&quot;")
+        ![Кнопка "Контрольный список обслуживания".](media/am-guides-integration-maintenance-checklist.png "Кнопка &quot;Контрольный список обслуживания&quot;")
 
     1. На экспресс-вкладке **Строки контрольного списка обслуживания** добавьте строку, а затем измените значение в поле **Тип** на **Шаблон**.
 
-        ![Изменение значения типа](media/am-guides-integration-checklist-lines.png "Изменение значения типа")
+        ![Изменение значения типа.](media/am-guides-integration-checklist-lines.png "Изменение значения типа")
 
     1. На экспресс-вкладке **Сведения по строке** в поле **Шаблон** выберите шаблон, с которым связано данное руководство, а затем выберите **Сохранить**.
 
-        ![Выбор шаблона](media/am-guides-integration-checklist-line-details.png "Выбор шаблона")
+        ![Выбор шаблона.](media/am-guides-integration-checklist-line-details.png "Выбор шаблона")
 
 1. [Создайте заказ на работу](work-orders/manually-created-workorders.md#create-work-order), а затем выберите тип задания обслуживания, которое использует шаблон контрольного списка обслуживания, с которым связано руководство. Руководство будет автоматически связано с этим заказом на работу.
 
-    ![Выберите тип задания обслуживания](media/am-guides-integration-create-work-order.png "Выберите тип задания обслуживания")
+    ![Выберите тип задания обслуживания.](media/am-guides-integration-create-work-order.png "Выберите тип задания обслуживания")
 
 1. Просмотр руководства, связанного с заказом на работу и работниками:
 
@@ -95,11 +95,11 @@ ms.locfileid: "5908575"
     1. [Откройте контрольный список обслуживания](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) для заказа на работу.
     1. Выберите строку контрольного списка для просмотра связанного руководства.
 
-        ![Руководство, связанное со строкой контрольного списка](media/am-guides-integration-show-guide.png "Руководство, связанное со строкой контрольного списка")
+        ![Руководство, связанное со строкой контрольного списка.](media/am-guides-integration-show-guide.png "Руководство, связанное со строкой контрольного списка")
 
     1. Откройте руководство в HoloLens.
 
-        ![Откройте руководство в HoloLens](media/am-guides-integration-hololens-select.png "Откройте руководство в HoloLens")
+        ![Откройте руководство в HoloLens.](media/am-guides-integration-hololens-select.png "Откройте руководство в HoloLens")
 
 > [!NOTE]
 > Можно также связать руководство непосредственно в контрольном списке обслуживания заказа на работу или в типе задания.

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 04ffa8e56b72727c079db07f38bfae675ae2abb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344964"
 ---
 # <a name="search-results-module"></a>Модуль результатов поиска
 
@@ -38,7 +38,7 @@ ms.locfileid: "6117141"
 
 На следующем рисунке показан пример страницы результатов поиска для категории на сайте Fabrikam.
 
-![Пример страницы результатов поиска на сайте Fabrikam](./media/SimpleCategoryLandingDressCategory.png)
+![Пример страницы результатов поиска на сайте Fabrikam.](./media/SimpleCategoryLandingDressCategory.png)
 
 ## <a name="search-results-module-properties"></a>Свойства модуля результатов поиска
 

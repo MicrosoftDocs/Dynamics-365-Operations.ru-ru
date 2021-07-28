@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345794"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Определения дерева отчетности в финансовых отчетах
 
@@ -170,23 +170,23 @@ ms.locfileid: "5866310"
 - Единицы отчетности с самым низким уровнем детализации ("Внутренние продажи", "Автоматические продажи", "Обслуживание клиентов" и "Операции") представляют подразделения в финансовых данных. Эти единицы отчетности — в заштрихованной области диаграммы.
 - Общие единицы более высокого уровня суммируют информацию от подробных единиц.
 
-[![Структура сводного отчета Contoso — пример 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Структура сводного отчета Contoso — пример 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Структура единиц отчетности — пример 2
 
 На следующей схеме представлено дерево отчетности, которое имеет организационную структуру, разделенную на бизнес-функции.
 
-[![Структура сводного отчета Contoso — пример 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Структура сводного отчета Contoso — пример 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Пример вставки единиц отчетности из диалогового окна аналитик
 
 На следующем рисунке показан пример диалогового окна **Вставить единицы отчетности из аналитик**. Например, в результате будет возвращена комбинация бизнес-единиц, центров затрат и подразделений.
 
-[![Вставить элементы аналитической структуры](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Вставить элементы аналитической структуры.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 Полученное определение дерева отчетности сортируется по подразделению, затем — по центру затрат, а затем — по подразделению. Аналитикой для пятой единицы отчетности является **Бизнес-единица = \[001\], центр затрат =\[\], подразделение = \[022\]**. Она определяет единицу отчетности для счетов, которые относятся к бизнес-единице 001 и подразделению 022.
 
-[![Иллюстрация аналитической структуры](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Иллюстрация аналитической структуры.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Примеры свертки данных
 
@@ -194,11 +194,11 @@ ms.locfileid: "5866310"
 
 #### <a name="example-1"></a>Пример 1
 
-[![Свертка по нескольким компаниям](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Свертка по нескольким компаниям.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Пример 2
 
-[![Свертка подразделений между компаниями](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Свертка подразделений между компаниями.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

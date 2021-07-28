@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345746"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности (ER)
 
@@ -80,7 +80,7 @@ ms.locfileid: "5893209"
 
 Разработанные в среде разработки конфигурации электронной отчетности можно [отправлять](#data-persistence-consideration) в тестовую среду для оценки конфигурации (надлежащей интеграции в процесс, правильности результатов и быстродействия) и контроля качества, например правильность прав доступа на основе ролей и разделение обязанностей. Функции, которые включают обмен конфигурациями ER, можно использовать для этой цели. Проверенные конфигурации электронной отчетности можно либо отправлять в LCS, чтобы поделиться ими с подписчикам службы, или их можно [импортировать](#data-persistence-consideration) в рабочую среду для внутреннего использования.
 
-![Жизненный цикл конфигурации электронной отчетности](./media/ger-configuration-lifecycle.png)
+![Жизненный цикл конфигурации электронной отчетности.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Вопрос сохранения данных
 

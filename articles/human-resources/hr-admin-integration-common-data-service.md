@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344696"
 ---
 # <a name="configure-dataverse-integration"></a>Настройка интеграции с Dataverse
 
@@ -48,15 +48,15 @@ ms.locfileid: "6052465"
 
 1. В экземпляре Human Resources, для которого необходимо просмотреть или настроить параметры интеграции с Dataverse, выберите плитку **Администрирование системы**.
 
-    [![Плитка администрирования системы](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Плитка администрирования системы.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Выберите вкладку **Ссылки**.
 
-    [![Вкладка ссылок](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Вкладка ссылок.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. В **Интеграции** выберите **конфигурация Dataverse**.
 
-    [![Ссылка на конфигурацию Dataverse](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Ссылка на конфигурацию Dataverse.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Включение и выключение интеграции между Human Resources и Dataverse
 
@@ -67,7 +67,7 @@ ms.locfileid: "6052465"
 
 - Чтобы отключить интеграцию, установите для параметра значение **Нет**.
 
-[![Включение или отключение интеграции Dataverse](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Включение или отключение интеграции Dataverse.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Настоятельно рекомендуется отключить интеграцию Dataverse при выполнении задач переноса данных. Большие объемы передачи данных могут значительно повлиять на производительность системы. Например, отправка 2000 работников может занять несколько часов, если интеграция включена, и менее одного часа при отключении. Представленные в этом примере номера предназначены только для демонстрационных целей. Точное количество времени, необходимое для импорта записей, может сильно различаться в зависимости от многих факторов.
@@ -98,7 +98,7 @@ ms.locfileid: "6052465"
 
 - Чтобы удалить связь записи Human Resources и строки Dataverse выберите таблицу в поле **Таблица Dataverse**, затем выберите **Удалить информацию отслеживания**.
 
-[![Очистка информации отслеживания](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Очистка информации отслеживания.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Чтобы выполнить полную синхронизацию таблицы после очистки отслеживания, см. следующую процедуру.
 
@@ -116,7 +116,7 @@ ms.locfileid: "6052465"
 
 2. Выберите **Синхронизировать**.
 
-[![Выполнение полной синхронизации](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Выполнение полной синхронизации.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>См. также
 

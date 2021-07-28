@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219795"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346602"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Интеграция закупок между Supply Chain Management и Field Service
 
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет над
 
 На следующем рисунке показаны таблицы в обеих системах и они сопоставляются друг с другом. Заказы на покупку в Field Service ссылаются на строку *счета*, тогда как заказы на покупку в Supply Chain Management ссылаются на строку *поставщика*. Для разрешения интеграции двойная запись использует ссылку, чтобы связать строки *поставщика* со строками *счетов*. Дополнительные сведения см. в разделе [Интегрированный справочник поставщиков](vendor-mapping.md).
 
-![Сопоставления для закупки](media/scm-field-service-tables.png)
+![Сопоставления для закупки.](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Необходимые условия
 

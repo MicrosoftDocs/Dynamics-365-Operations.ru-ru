@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944373"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345698"
 ---
 # <a name="electronic-reporting-er-overview"></a>Обзор электронной отчетности (ER)
 
@@ -101,7 +103,7 @@ ms.locfileid: "5944373"
 
 На следующем рисунке показаны потоки данных для этих форматов.
 
-[![Поток данных для компонентов исходящего формата](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Поток данных для компонентов исходящего формата.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Для запуска одной конфигурации формата ER и создания исходящего электронного документа необходимо определить сопоставление конфигурации формата.
 
@@ -115,7 +117,7 @@ ms.locfileid: "5944373"
 
 На следующем рисунке показаны потоки данных для этих форматов.
 
-[![Поток данных для компонентов входящего формата](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Поток данных для компонентов входящего формата.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Чтобы запустить одну конфигурацию формата ER для импорта данных из входящего электронного документа, необходимо определить сопоставление конфигурации формата и точку интеграции сопоставления модели. Можно использовать то же сопоставление модели и назначения вместе с различными форматами для другого типа входящих документов.
 
@@ -290,7 +292,7 @@ ms.locfileid: "5944373"
 
 Список конфигураций электронной отчетности для Finance постоянно обновляется. Откройте [глобальный репозиторий](er-download-configurations-global-repo.md) для просмотра списка конфигураций электронной отчетности, которые в настоящее время поддерживаются. На экспресс-вкладке **Сведения о прекращении поддержки** можно просмотреть сведения о конфигурациях, которые больше не обслуживаются или не поддерживаются. 
 
-![Содержимое глобального репозитория на странице репозитория конфигураций](./media/er-overview-03.gif)
+![Содержимое глобального репозитория на странице репозитория конфигураций.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

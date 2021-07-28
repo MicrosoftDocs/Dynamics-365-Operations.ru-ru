@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346724"
 ---
 # <a name="media-gallery-module"></a>Модуль коллекции мультимедиа
 
@@ -41,7 +41,7 @@ ms.locfileid: "6271288"
 
 В примере на следующем рисунке в поле "купить" в PDP размещаются изображения продуктов с помощью модуля галереи мультимедиа.
 
-![Пример поля покупки на странице сведений о продукте, где хранятся изображения продуктов с помощью модуля галереи мультимедиа](./media/ecommerce-pdp-buybox.PNG)
+![Пример поля покупки на странице сведений о продукте, где хранятся изображения продуктов с помощью модуля галереи мультимедиа.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Свойства галереи мультимедиа
 
@@ -59,11 +59,11 @@ ms.locfileid: "6271288"
 
 На следующем рисунке показан пример модуля галереи мультимедиа, в котором доступны параметры полноэкранного и масштабного отображения.
 
-![Пример модуля галереи мультимедиа, в котором доступны параметры полноэкранного и масштабного отображения](./media/ecommerce-media-zoom.png)
+![Пример модуля галереи мультимедиа, в котором доступны параметры полноэкранного и масштабного отображения.](./media/ecommerce-media-zoom.png)
 
 На следующем рисунке показан пример модуля галереи мультимедиа, в котором были обработаны изображения (то есть, указанные изображения не зависят от кода продукта или контекста страницы).
 
-![Пример модуля галереи мультимедиа с обработанными изображениями](./media/ecommerce-media-curated.PNG)
+![Пример модуля галереи мультимедиа с обработанными изображениями.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Взаимодействие Commerce Scale Unit
 
