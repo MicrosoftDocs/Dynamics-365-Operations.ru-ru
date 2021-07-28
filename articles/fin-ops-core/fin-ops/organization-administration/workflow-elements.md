@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747159"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348561"
 ---
 # <a name="workflow-elements"></a>Элементы workflow-процесса
 
@@ -60,7 +60,7 @@ ms.locfileid: "5747159"
 
 Workflow-процесс может быть создан для обработки или документов, или строковых элементов в документе. Например, вы создали workflow-процесс утверждения для табелей. (Мы будем называть данный workflow-процесс как *workflow-процесс документов*.) Можно добавить элемент *workflow-процесс по строке* к данному workflow-процессу документов. Когда выполняется элемент строкового элемента, каждый строковый элемент в документе отправляется для обработки. Можно указать, что все элементы строки должны обрабатываться одним workflow-процессом по строке, а также можно указать, что каждую элемент строки должны обрабатываться отдельным workflow-процессом по строке. Предположим, что сотрудник предоставил табель, похожий на следующий рисунок.
 
-![Workflow-процесс с номенклатурами строк](./media/workflow_lineitemworkflow.gif)
+![Workflow-процесс с номенклатурами строк.](./media/workflow_lineitemworkflow.gif)
 
 В этом сценарии имеет смысл создать следующие workflow-процессы по строке:
 

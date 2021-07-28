@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361050"
 ---
 # <a name="maintenance-rounds"></a>Циклы обслуживания
 
@@ -80,7 +80,7 @@ ms.locfileid: "5825742"
 
 На приведенном ниже рисунке изображен пример цикла обслуживания, содержащего три актива.
 
-![Рисунок 1](media/13-preventive-maintenance.png)
+![Рисунок 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Запланировать циклы обслуживания
@@ -106,9 +106,9 @@ ms.locfileid: "5825742"
 
 Два приведенных выше рисунка показывают плановые задания в диалоговом окне **Запланировать циклы обслуживания** и строки графика обслуживания, созданные в разделе **Все планы обслуживания** на основе этого запланированного задания.
 
-![Рисунок 2](media/14-preventive-maintenance.png)
+![Рисунок 2.](media/14-preventive-maintenance.png)
 
-![Рисунок 3](media/15-preventive-maintenance.png)
+![Рисунок 3.](media/15-preventive-maintenance.png)
 
 - Когда заказы на работу создаются вручную по активам, которые покрываются гарантией поставщика, отображается диалоговое окно, чтобы пользователь знал о гарантии. После этого создание заказа на работу может быть отменено. Проверка гарантийных отношений пропускается для автоматически создаваемых заказов на работу.  
 - Можно настроить пакетное задание на экспресс-вкладке **Выполнять в фоновом режиме**, чтобы запланировать циклы с регулярными интервалами.  

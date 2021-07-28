@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38386087a74a0881867df89bbe26453dff740be3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803713"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350312"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Программа проверки согласованности проводок розничной торговли
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803713"
 
 На следующей диаграмме представлен процесс разноски с использованием программы проверки согласованности проводок.
 
-![Процесс разноски журнала операций с проверкой согласованности проводок](./media/validchecker.png "Процесс разноски журнала операций с проверкой согласованности проводок розничной торговли")
+![Процесс разноски журнала операций с проверкой согласованности проводок.](./media/validchecker.png "Процесс разноски журнала операций с проверкой согласованности проводок розничной торговли")
 
 Процесс пакетной обработки **Проверить проводки магазина** проверяет согласованность таблиц проводок Commerce для следующих сценариев.
 

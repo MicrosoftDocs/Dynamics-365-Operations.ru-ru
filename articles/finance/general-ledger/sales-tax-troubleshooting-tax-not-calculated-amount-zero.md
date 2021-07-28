@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020123"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352818"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Налог не рассчитан или сумма налога равна нулю
 
@@ -32,17 +32,17 @@ ms.locfileid: "6020123"
 
 1. В строке проводки на экспресс-вкладке **Сведения строки** на вкладке **Настройка** в разделе **Налог** убедитесь, что выбраны правильные налоговые группы в полях **Налоговая группа номенклатур** и **Налоговая группа**. Если правильные налоговые группы не выбраны, выберите их.
 
-    [![поля "Налоговая группа номенклатур" и "Налоговая группа"](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![поля "Налоговая группа номенклатур" и "Налоговая группа".](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые группы**.
 3. Выберите подходящую налоговую группу, а затем на экспресс-вкладке **Настройка** запишите налоговый код в поле **Налоговый код**.
 
-    [![Страница налоговых групп](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![Страница налоговых групп.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые группы номенклатур**.
 5. Выберите подходящую налоговую группу номенклатур, а затем на экспресс-вкладке **Настройка** убедитесь, что налоговый код в поле **Налоговый код** совпадает с налоговым кодом налоговой группы.
 
-    [![Страница налоговых групп номенклатур](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Страница налоговых групп номенклатур.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Если налоговые коды не совпадают, обновите налоговый код для одной из групп.
 
@@ -53,12 +53,12 @@ ms.locfileid: "6020123"
 1. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые группы**.
 2. Выберите подходящую налоговую группу, а затем на экспресс-вкладке **Настройка** убедитесь, что флажок **Освобождается** снят. Если этот флажок установлен, снимите его.
 
-    [![Флажок "Освобождается" на странице налоговых групп](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Флажок "Освобождается" на странице налоговых групп.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые коды**.
 4. Выберите соответствующий налоговый код, а затем убедитесь, что значение ставки налога в поле **Значение** не равно 0 (нулю). Если равно 0, обновите поле так, чтобы оно было настроено на правильную налоговую ставку.
 
-    [![Поле значения на странице значений налогового кода](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Поле значения на странице значений налогового кода.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Определите, является ли ноль правильной суммой налога
 
@@ -67,7 +67,7 @@ ms.locfileid: "6020123"
 1. Перейдите в раздел **Главная книга** \> **Настройка главной книги** \> **Параметры главной книги**.
 2. На вкладке **Налог** в поле **Метод расчета** убедитесь, что выбрано **Итого**.
 
-    [![Поле метода расчета на странице параметров главной книги](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Поле метода расчета на странице параметров главной книги.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Перейдите в раздел **Налог** \> **Косвенные налоги** \> **Налог** \> **Налоговые коды**.
 4. Выберите соответствующий налоговый код, выберите **Расчет** \> **База маржинальной прибыли** и убедитесь, что база маржинальной прибыли задана как **Чистая сумма сальдо по накладной** или **Общая сумма накладной, включая все прочие налоги**. Дополнительные сведения см. в разделе [Общая сумма накладной, включая все прочие налоги](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

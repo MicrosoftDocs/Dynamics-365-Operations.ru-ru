@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358557"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Диагностика безопасности для записей задач
 
@@ -39,7 +39,7 @@ ms.locfileid: "5745773"
 
 4. В поле **ИД пользователя** выберите пользователя. Если у пользователя отсутствуют разрешения на доступ к некоторым пунктам меню, поле **Отсутствующие разрешения** будет обновлено на **Да**.
   
-  ![Страница сведения о пункте меню "Безопасность"](../media/Security-Menu-Item-Details.png)
+  ![Страница сведения о пункте меню "Безопасность".](../media/Security-Menu-Item-Details.png)
 
 5. Выберите **Добавить ссылку**, чтобы просмотреть список объектов безопасности, включая роли, обязанности и привилегии, которые предоставляют отсутствующее разрешение.
 6. Выберите объект безопасности из списка.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359467"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого Power BI анализа учета затрат
 
@@ -42,11 +42,11 @@ ms.locfileid: "5754272"
 3. Найдите набор данных для содержимого Power BI **Анализ учета затрат**.
 4. Откройте страницу безопасности.
 
-    ![Открытие страницы безопасности](./media/CA-picture-1.png)
+    ![Открытие страницы безопасности.](./media/CA-picture-1.png)
 
 5. Роль **Контроллер объектов затрат** уже создана. Добавьте других членов, являющихся частью организационной иерархии уровня доступа модуля "Учет затрат".
 
-    ![Добавление членов](./media/CA-picture-2.png)
+    ![Добавление членов.](./media/CA-picture-2.png)
 
 Пользователи, которые будут добавлены к роли **Контроллер объектов затрат**, будут видеть только данные, которые им разрешено просматривать, в соответствии с определениями в организационной иерархии уровня доступа модуля "Учет затрат".
 

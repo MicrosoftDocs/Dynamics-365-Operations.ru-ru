@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271109"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350578"
 ---
 # <a name="message-processor-messages"></a>Сообщения обработчика сообщений
 
@@ -88,15 +88,15 @@ ms.locfileid: "6271109"
 
 1. В [Power Automate](https://preview.flow.microsoft.com) создайте новый автоматический облачный поток для триггера потока **Когда бизнес-событие происходит — FIN & Ops (Dynamics 365)**, за которым следуют шаги **Анализ JSON** и **Отправить сообщение электронной почты**, как показано на следующем рисунке.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Автоматизированный облачный поток Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Автоматизированный облачный поток Power Automate.":::
 
 1. На шаге **Когда бизнес-событие происходит** можно найти или ввести **Экземпляр** концентратора, затем **Категория**, а затем **Бизнес-событие** *Сообщение обработчика сообщений обработано*, как показано на следующем рисунке.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Шаг Power Automate — Когда бизнес-событие происходит":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Шаг Power Automate — Когда бизнес-событие происходит.":::
 
 1. Для шага **Анализ JSON** введите **Схема**, определяющую расширенные поля. Можно использовать параметр *Загрузка схемы* на странице **Каталог бизнес-событий** в Supply Chain Management или начать с вставки текста схемы примера. Этот пример текста приведен на следующем рисунке.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Шаг Power Automate — Анализ JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Шаг Power Automate — Анализ JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ ms.locfileid: "6271109"
 
 1. В шаге **Отправить сообщение электронной почты** можно выбрать отдельные поля или начать, вставив пример текста сообщения электронной почты в поле **Текст**. Этот пример приведен на следующем рисунке.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Шаг Power Automate — Отправка сообщения электронной почты":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Шаг Power Automate — Отправка сообщения электронной почты.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

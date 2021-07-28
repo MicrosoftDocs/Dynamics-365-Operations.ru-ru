@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053691"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360157"
 ---
 # <a name="copy-an-instance"></a>Копирование экземпляра
 
@@ -71,11 +71,11 @@ ms.locfileid: "6053691"
 
 4. В области задач **Копирование экземпляра** выберите экземпляр, который требуется перезаписать, и нажмите кнопку **Копировать**. Дождитесь обновления значения поля **Статус копирования** до **Завершено**.
 
-   ![[Выберите экземпляр для перезаписи](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Выберите экземпляр для перезаписи.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Выберите **Power Platform** и выполните вход в центр администрирования Microsoft Power Platform.
 
-   ![[Выберите Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Выберите Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Выберите среду Power Apps для копирования, а затем выберите **Копировать**.
 

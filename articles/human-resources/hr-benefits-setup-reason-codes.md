@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056356"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360552"
 ---
 # <a name="set-up-reason-codes"></a>Настройка кодов причин
 
@@ -56,15 +56,15 @@ Dynamics 365 Human Resources использует коды причин, что�
 
 1. Выберите **Коды причин** для получения сведений о статусе миграции.
 
-   [![Коды оснований](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Коды оснований.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Выберите код причины, для которого не удалось выполнить миграцию.
 
-   [![Статус миграции кода причины](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Статус миграции кода причины.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Выберите **Перенести код причины**.
 
-   [![Мигрировать код основания](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Мигрировать код основания.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. В области **Миграция кода причины льготы** имеются два параметра для сопоставления с кодом причины управления персоналом:
 
@@ -73,10 +73,10 @@ Dynamics 365 Human Resources использует коды причин, что�
      > Можно использовать существующий код причины в модуле "Управление персоналом" только в том случае, если еще не выполнена миграция другого кода причины модуля управления льготами.
    - Чтобы создать новый код причины в модуле "Управление персоналом", введите новое значение в поле **Создать код причины**, затем введите описание в поле **Создать описание**.
 
-   [![Сопоставление с кодом причины в модуле "Управление персоналом"](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Сопоставление с кодом причины в модуле "Управление персоналом".](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 После того как коды причин переносятся в модуль "Управление персоналом", параметр использования их в модуле "Управление льготами" автоматически устанавливается значение **Да**.
 
-[![Использование кода причин в управлении льготами](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Использование кода причин в управлении льготами.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

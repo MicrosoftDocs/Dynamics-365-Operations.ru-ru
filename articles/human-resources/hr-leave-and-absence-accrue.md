@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: f15deae8a2b457548606616dd540f71a505f727a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303472"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357103"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Начислить планы отпусков и отсутствий
 
@@ -123,7 +123,7 @@ ms.locfileid: "6303472"
 - Сведения о периоде начисления и курсах
 - Любые изменения, внесенные в конфигурации планов отпусков
 
-![Отображение аудита проводок начислений отпуска](media/hr-leave-and-absence-accrue-audit.png)
+![Отображение аудита проводок начислений отпуска.](media/hr-leave-and-absence-accrue-audit.png)
 
 ## <a name="see-also"></a>См. также
 

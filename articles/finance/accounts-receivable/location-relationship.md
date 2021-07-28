@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 406f87b5aaa5917fb075daca453e24f452611826
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359717"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Добавить расположение и типы отношений субъектов 
 
@@ -32,25 +32,25 @@ ms.locfileid: "5817253"
 
 -  Добавить посредством страницы **Адрес и контактная информация**. Новая роль будет сохранена в таблице **LogisticsLocationRole** под типом = 0, что означает, что роль не является системной ролью, определенной в перечислении **LogisticsLocationRoleType** и ее расширениях. Пользователь будет иметь возможность использовать эту роль при создании адреса или контактной информации.
 
-    ![Цель адреса и контактной информации](media/Address-Contact.PNG)
+    ![Цель адреса и контактной информации.](media/Address-Contact.PNG)
 
 -  Добавьте его в расширение перечисления **LogisticsLocationRoleType** и задайте его заполнение во время синхронизации базы данных.
 
     1.  Создайте расширение для перечисления **LogisticsLocationRoleType** и добавьте новую роль в расширении. 
   
-        ![Расширение для перечисления LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Расширение для перечисления LogisticsLocationRoleType.](media/Logistics.PNG)
 
     2. Создание нового файла ресурса для новой роли, а затем назначение значения для его свойств.
      
-     ![Новый файл ресурса](media/Resource.PNG)
+     ![Новый файл ресурса.](media/Resource.PNG)
         
     3.  Создайте класс совокупности данных и обеспечьте метод обработчика для заполнения новой роли. 
 
-        ![Заполнение данными](media/Dirdata.PNG)
+        ![Заполнение данными.](media/Dirdata.PNG)
 
     4.  Чтобы проверить заполнение новой роли местоположения, можно создать исполнимый класс, готовый к выполнению и вызвать DirDataPopulation::insertLogisticsLocationRoles() в Main(). После завершения этого процесса должна появиться новая роль, заполняемая в таблице **LogisticsLocationRole** символом \> 0. Новая роль в отобразится на странице **адреса и контактной информации цели**.
 
-        ![Вставить новое местонахождение](media/InsertNewLocation.PNG)
+        ![Вставить новое местонахождение.](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>Добавить типы отношений субъектов 
 
@@ -58,7 +58,7 @@ ms.locfileid: "5817253"
 
 -   Добавить через страницу **типы отношений**. Новое отношение будет сохранен в **DirRelationshipTypeTable** с типом системы = 0.
 
-    ![Типы отношений](media/Relationship.PNG)
+    ![Типы отношений.](media/Relationship.PNG)
 
 -  Добавьте его в расширение перечисления **DirSystemRelationshipType** и задайте его заполнение во время синхронизации базы данных.
 
@@ -66,11 +66,11 @@ ms.locfileid: "5817253"
 
     2. Создайте инициализатор для этого нового типа. Несколько примеров можно найти в коде ядра, один из них —**DirRelationshipTypeChildInitialize**. Это класс инициализации для типа отношения субъектов «дочерний». Можно начать с инициализатора путем копирования и вставки этого кода и последующего обновления выделенной области.
     
-    ![Инициализатор DirRelationshipChild](media/DirRelationship.PNG)
+    ![Инициализатор DirRelationshipChild.](media/DirRelationship.PNG)
 
     3.  Чтобы проверить заполнение нового типа связи, можно создать исполнимый класс, готовый к выполнению и вызвать DirDataPopulation::insertDirRelationshipTypes() в Main(). Должен появиться новый тип отношения **DirRelationshipTypeTable**, и новый тип отношения будет доступен на странице **Типы отношений**.
 
-        ![Исполняемый класс](media/Runnable.PNG)
+        ![Исполняемый класс.](media/Runnable.PNG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

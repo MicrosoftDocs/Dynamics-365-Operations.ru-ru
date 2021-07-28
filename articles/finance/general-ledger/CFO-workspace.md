@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823844"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360720"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Добавление финансовых аналитик в рабочую область финансового директора
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823844"
 11. Изменение значение в поле **Направление кросс-фильтра** на **Один**.
 12. Выберите и **Активировать связь**, и **Предполагать целостность данных**, выберите **ОК**, а затем выберите **Закрыть**.
 
-    [![Создание связи](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Создание связи.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. В списке **Поля** вы должны видеть таблицу и доступные финансовые аналитики. Перетащите нужные финансовые аналитики на фильтры уровня отчета.
 14. Сохраните изменения.
 15. В репозитории прикладных объектов (AOT) щелкните свой проект правой кнопкой мыши и выберите **Синхронизировать**.
 16. Соберите проект, а затем откройте приложение для просмотра результатов.
 
-    [![Готовая рабочая область](./media/workspace.png)](./media/workspace.png)
+    [![Готовая рабочая область.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

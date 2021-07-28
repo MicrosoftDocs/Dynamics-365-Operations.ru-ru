@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354621"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Синхронизация оценок продуктов в Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ ms.locfileid: "5791688"
 
 На следующем рисунке показан пример сведений о подзаданиях в Commerce.
 
-![Сведения о подзадании RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Сведения о подзадании RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Если подзадание **RetailProductRating** не удается найти, возможно, вы уже запустили задание **Синхронизация оценок продуктов** и задание **1040 CDX** перед инициализацией планировщика Commerce. В этом случае выполните следующие шаги, чтобы выполнить задание **Полная синхронизация данных**.
@@ -83,7 +83,7 @@ ms.locfileid: "5791688"
 
 На следующем рисунке показан пример конфигурации пакетного задания в Commerce.
 
-![Конфигурация пакетного задания синхронизации оценок продуктов](media/rnr-hq-batchjob-recurrence.png)
+![Конфигурация пакетного задания синхронизации оценок продуктов.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Проверка того, что пакетное задание для синхронизации оценок продукта прошло успешно
 
@@ -95,7 +95,7 @@ ms.locfileid: "5791688"
 
 На следующем рисунке показан пример сведений пакетного задания в Commerce, когда запланировано выполнение пакетного задания с интервалом два часа.
 
-![Сведения о пакетном задании синхронизации оценки продукта](media/rnr-hq-batchjob-status-checking.png)
+![Сведения о пакетном задании синхронизации оценки продукта.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Обеспечение доступности оценок продукта на POS-терминале
 
@@ -113,15 +113,15 @@ ms.locfileid: "5791688"
 
 На следующем рисунке показан пример настройки параметров Commerce для включения оценок продуктов в POS-терминале.
 
-![Конфигурация параметров Commerce для оценок продуктов на POS-терминале](media/rnr-hq-enable-ratings-in-pos.png)
+![Конфигурация параметров Commerce для оценок продуктов на POS-терминале.](media/rnr-hq-enable-ratings-in-pos.png)
 
 На следующем рисунке приведен пример оценок продуктов в POS-терминале.
 
-![Оценки продуктов в POS-терминале](media/rnr-pos-catalog-ratings.png)
+![Оценки продуктов в POS-терминале.](media/rnr-pos-catalog-ratings.png)
 
 На следующем рисунке приведен пример оценок продуктов в каналах центра обработки вызовов.
 
-![Рейтинги продуктов в канале центра обработки вызовов](media/rnr-call-center-ratings.png)
+![Рейтинги продуктов в канале центра обработки вызовов.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 20483ed35f8794d3553c34a88fefb462d93bc771
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94cea79e791b8b1461d576c443f121f14d13c3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836824"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349858"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "5836824"
 
 В поле **Заголовок документа** автоматически задается заголовок договора.
 
-![Страница платежей поставщикам](media/10_Vendor_payments.png)
+![Страница платежей поставщикам.](media/10_Vendor_payments.png)
 
 У проводки для контрагента будет ссылка на номер договора.
 
@@ -65,7 +65,7 @@ ms.locfileid: "5836824"
 
     В поле **Заголовок документа** автоматически задается заголовок договора.
 
-    ![Страница накладной с произвольным текстом](media/11_Free_text_invoice.png)
+    ![Страница накладной с произвольным текстом.](media/11_Free_text_invoice.png)
 
 3. Укажите другие сведения и разнесите накладную.
 
@@ -77,7 +77,7 @@ ms.locfileid: "5836824"
 
     В поле **Заголовок документа** автоматически задается заголовок договора.
 
-    ![Страница Ваучера журнала](media/12_Journal_voucher.png)
+    ![Страница Ваучера журнала.](media/12_Journal_voucher.png)
 
 4. Укажите другие сведения, а затем на панели операций выберите **Разнести**, чтобы разнести проводку.
 
@@ -90,7 +90,7 @@ ms.locfileid: "5836824"
 1. Перейдите в раздел **Расчеты с клиентами \> Клиенты \> Все клиенты**.
 2. На вкладке **Сбор** в разделе **Сопоставление** выберите **Сопоставление фактур с оплатами**.
 
-    ![Страница сопоставлений фактур с оплатами](media/13_Facture_and_payment_settlement.png)
+    ![Страница сопоставлений фактур с оплатами.](media/13_Facture_and_payment_settlement.png)
 
 3. В верхней и нижней областях установите следующие параметры, чтобы выбрать проводки:
 
