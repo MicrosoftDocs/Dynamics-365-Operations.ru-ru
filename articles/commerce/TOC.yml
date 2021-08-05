@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (июнь 2021 г.)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (май 2021 г.)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Настройка пользовательских страниц для входа пользователей
                   href: custom-pages-user-logins.md
+                - name: Включение автоматического связывания записей идентификации и счетов клиентов
+                  href: identity-record-linking.md
                 - name: Настройка нескольких клиентов B2C в среде Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Домены в Dynamics 365 Commerce
@@ -1022,6 +1022,8 @@
                   items:
                     - name: Обзор темы Adventure Works
                       href: adventure-works-theme.md
+                    - name: Установка темы Adventure Works
+                      href: install-adventure-works.md
             - name: Управление цифровыми активами
               items:
                 - name: Обзор управления цифровыми активами

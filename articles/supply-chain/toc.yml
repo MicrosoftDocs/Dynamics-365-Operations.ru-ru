@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (июнь 2021 г.)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18 (май 2021 г.)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Создание заказа на покупку для разового поставщика
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Создание заказа на выпуск покупки при создании заказа на покупку
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Создание заказа на выпуск покупки из договора покупки
+                - name: Применение договора покупки при создании заказа на покупку
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Создание заказа на возврат покупки
                   href: procurement/tasks/create-purchase-return-order.md

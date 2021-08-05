@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Обновления платформы для 10.0.19 (июнь 2021 г.)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Обновления платформы для 10.0.18 (май 2021 г.)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Вопросы и ответы по плановому обслуживанию в средах самообслуживания
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Непрерывность бизнес-процессов и аварийное восстановление
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Завершение адаптации Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute и Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Применение обновлений и расширений к Commerce Scale Unit (облако)
                   href: deployment/Update-retail-channel.md
+                - name: Автоматическое обновление Commerce Scale Unit (облако)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Инициализация Commerce Scale Unit (облако)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Миграция каналов на другое Commerce Scale Unit
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Планирование локальных развертываний и подготовка к ним
                       href: deployment/plan-onprem-deployment.md
+                    - name: 'Программное обеспечение, поддерживаемое Microsoft Dynamics 365 Finance + Operations (on-premises)'
+                      href: deployment/onprem-compatibility.md
                     - name: Требования к определению параметров оборудования
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Проверка подлинности в Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Настройка односерверных сред разработки
                   href: dev-tools/configure-developer-vm.md
-                - name: Создание новых пользователей на компьютерах для разработки
-                  href: dev-tools/enable-development-machine.md
                 - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Переименование локальных сред для доступа к Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Субъект и глобальная адресная книга
                       href: data-entities/dual-write/party-gab.md
-                    - name: Использование портала Power с моделью данных субъекта
+                    - name: Использование порталов Microsoft Power Apps с моделью данных субъекта
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Обновление модели субъекта и глобальной адресной книги
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Обновление AX 2012 — ввод в эксплуатацию
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Обновление с AX 2012 — вопросы и ответы по обновлению данных
+                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Изменения, влияющие на процесс обновления с AX 2012'
                   items:
                     - name: Настройка разделителя плана счетов как уникального

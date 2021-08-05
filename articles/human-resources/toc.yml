@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 июля 2021 г.
+          href: hr-whats-new-2021-07-12.md
         - name: 22 июня 2021 г.
           href: hr-whats-new-2021-06-22.md
         - name: 20 мая 2021 г.
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Вопросы и ответы по вводу в эксплуатацию
           href: hr-admin-go-live-faq.md
+        - name: Вопросы и ответы по объединению инфраструктуры Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Ресурсы документации
           items:
             - name: Система справки
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Обработка планов компенсационных выплат
               href: hr-compensation-process.md
+            - name: Пометка сотрудника как готового к оплате
+              href: hr-compensation-payroll.md
         - name: Управление льготами
           items:
             - name: Управление льготами
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Настройка типов событий жизненного цикла
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Создание типов планов
+                    - name: Обзор типов планов
                       href: hr-benefits-setup-plan-types.md
                     - name: Настройка кодов причин
                       href: hr-benefits-setup-reason-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Просмотр календарей группы и компании
               href: hr-employee-self-service-calendar.md
+            - name: Настройка роли менеджера отсутствия
+              href: hr-configure-absence-manager.md
             - name: Управление политиками покупки и продажи отпусков
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Создание рабочих процессов для покупок и продаж
