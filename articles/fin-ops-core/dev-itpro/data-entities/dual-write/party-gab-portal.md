@@ -1,6 +1,6 @@
 ---
-title: Использование портала Power с моделью данных субъекта
-description: В этой теме описываются изменения в веб-ролях портала Power из-за модели данных субъекта в двойной записи.
+title: Использование порталов Microsoft Power Apps с моделью данных субъекта
+description: В этой теме описываются изменения в веб-ролях для порталов Microsoft Power Apps из-за модели данных субъекта в двойной записи.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358625"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542571"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Использование портала Power с моделью данных субъекта
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Использование порталов Microsoft Power Apps с моделью данных субъекта
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ ms.locfileid: "6358625"
 
     Необходимо создать три новых разрешения:
 
-    + Подключение от контакта к субъекту
-    + Подключение от субъекта к организации
-    + Подключение от организации к заказу
+    + Подключение таблиц **Контакт** к **Субъект**
+    + Подключение таблиц **Субъект** к **Учетная запись**
+    + Подключение таблиц **Учетная запись** к **Заказ**
 
 4. Создайте и сохраните новое разрешение для подключения контакта к субъекту, задав следующие параметры:
 
-    + **Имя**: Подключение субъекта к организации (или по вашему выбору)
+    + **Имя**: подключение таблиц **Субъект** к **Учетная запись** (или по вашему выбору)
     + **Имя таблицы**: msdyn_contactforparty
     + **Веб-сайт**: Клиентский портал
     + **Область действия**: контакт

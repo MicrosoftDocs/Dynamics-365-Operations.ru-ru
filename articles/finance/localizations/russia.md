@@ -2,7 +2,7 @@
 title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: kfend
-ms.date: 04/13/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d4bbcff45fc256ecc48bb4fe73a9e1af735edbe0
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 5a42e11e21e46be9c5be642f5834d08386dbe710
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339024"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646501"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -160,6 +160,7 @@ ms.locfileid: "6339024"
 - [Регистры номинальных расходов](rus-rated-expenses-registers.md)
 - [Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей](rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md)
 - [Резервы безнадежной задолженности в модуле расчетов с клиентами](rus-bad-debts.md)
+- [Расчет регистров налоговых активов и налоговых обязательств](rus-calculation-tax-asset-tax-liability-registers.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

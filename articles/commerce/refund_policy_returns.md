@@ -2,7 +2,7 @@
 title: Создание и обновление политик возврата и возмещения для канала
 description: В этой теме объясняется, как настроить политику возврата и возмещения для канала.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345116"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558305"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Создание и обновление политик возврата и возмещения для канала
 
@@ -36,12 +36,21 @@ ms.locfileid: "6345116"
 
 ## <a name="enable-return-policy"></a>Включить политику возврата
 
-Чтобы включить функцию политики возврата канала, выполните следующие действия:
+Чтобы включить функцию политики возврата для канала в Commerce headquarters, выполните следующие действия.
 
 1. Откройте рабочую область **Управление функциями** в Dynamics 365 Commerce.
 1. В списке имен найдите функцию **Включить политики возврата канала**.
 1. Выберите **Включить**.
-1. На странице **График распределения** выполните задание **1110** (Глобальная конфигурация), чтобы распределить изменение функции. 
+1. На странице **График распределения** выполните задание **1110** (Глобальная конфигурация), чтобы распределить изменение функции.
+
+## <a name="initialize-the-commerce-scheduler"></a>Инициализация планировщика Commerce
+
+После включения функции **Включение политик возврата для канала** необходимо инициализировать планировщик Commerce, чтобы гарантировать добавление новых изменений базы данных функций через синхронизацию Commerce Data Exchange (CDX). 
+
+Чтобы инициализировать планировщик Commerce в Commerce headquarters, выполните следующие шаги.
+
+- Перейдите к **Retail и Commerce \> Настройка Headquarters \> Планировщик Commerce \> Инициализация планировщика Commerce**. Либо можно выполнить поиск "Инициализация планировщика Commerce".
+- В диалоговом окне **Инициализация планировщика Commerce** убедитесь, что параметр **Удалить существующую конфигурацию** имеет значение **Нет**, затем выберите **ОК**.
 
 ## <a name="configure-return-policy"></a>Настройка политики возврата
 

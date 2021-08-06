@@ -2,7 +2,7 @@
 title: Настройка параметров приемлемости личных контактов
 description: Настройка параметров допустимости для личных контактов в Microsoft Dynamics 365 Human Resources. Личные контакты могут быть бенефициарами или иждивенцами.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d85677973f67f0c68de6c5ede62c142524939833
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 071523e2a1e9de6f0ed2b77e4ad6802efb0073f7
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054412"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558257"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Настройка параметров приемлемости личных контактов
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой статье показано, как настроить типы личных контактов для использования в Microsoft Dynamics 365 Human Resources. Личные контакты могут быть бенефициарами или иждивенцами. 
+В этой теме показано, как настроить типы личных контактов, которые можно использовать в льготах в Microsoft Dynamics 365 Human Resources. Личные контакты — это лица, которые будут охвачены вашими планами (иждивенцы) или которые получат выгоду от ваших планов (бенефициары). Иждивенцами, как правило, являются супруги или дети. Бенефициарами могут быть супруги, дети, трасты или родители.
 
 1. В рабочей области **Управление льготами** в **Настройка** выберите **Параметры допустимости личных контактов**.
 

@@ -2,7 +2,7 @@
 title: Настройка финансовых отчетов в Excel (Россия)
 description: В этом разделе приводится пошаговое описание процесса создания конфигурации электронной отчетности (ER), которая содержит шаблон для создания финансового отчета в формате Excel.
 author: Anasyash
-ms.date: 09/24/2020
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d2bb1ef5f28b3f6f7b72c757b5c13dfe7493a199
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 05693b68beff95598250a12c9737f3b4a1b0e6da
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353702"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641020"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 
@@ -102,7 +102,7 @@ ms.locfileid: "6353702"
 
         Вычисляемое поле **Calculations.'\$Values'** содержит значение ячейки финансового отчета с кодом, равным значению "Входной параметр".
 
-        Дополнительные сведения о модели финансовых отчетов см. в разделе [Настройка электронной отчетности для использования результатов расчетов финансового отчета](rus-financial-reports.md#configure-er-to-use-the-results-of-financial-report-calculations).
+        Дополнительные сведения о модели финансовых отчетов см. в разделе [Финансовая отчетность (Россия)](rus-financial-reports.md).
 
 6. Свяжите рассчитанные значения ячеек финансового отчета с элементами ячеек формата электронной отчетности:
 
@@ -125,7 +125,7 @@ ms.locfileid: "6353702"
 
 ## <a name="run-the-financial-report-format"></a>Выполнение формат финансового отчета
 
-Можно настроить функцию электронных сообщений для выполнения любой конфигурации электронной отчетности. Дополнительные сведения см. в разделе [Настройка электронных сообщений для создания финансового отчета и сохранения результатов](rus-financial-reports.md#configure-electronic-messages-to-generate-the-financial-report-and-store-the-results).
+Можно настроить функцию электронных сообщений для выполнения любой конфигурации электронной отчетности.
 
 Для запуска формата электронной отчетности, который основан на модели **Модель финансовых отчетов**, выполните следующие действия.
 

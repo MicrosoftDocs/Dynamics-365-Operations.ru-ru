@@ -2,7 +2,7 @@
 title: Запрос на отсутствие
 description: Запрос на отсутствие в Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da04e3f93f381fbe25c7e1ed117b7ce10e8b04e9
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357199"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639566"
 ---
 # <a name="request-time-off"></a>Запрос на отсутствие
 
@@ -41,6 +41,8 @@ ms.locfileid: "6357199"
 5. При необходимости введите данные **Комментарий**.
 
 6. Выберите **Отправить**, когда будете готовы отправить запрос. В противном случае выберите **Сохранить черновик**.
+
+Сотрудники, отправляющие новый запрос отпуска, могут выбирать различные типы отпусков для создания своего запроса на отпуск. Однако все типы отпусков, выбранные как часть одного запроса отпуска, должны иметь одинаковые единицы измерения отпуска. Сотрудники могут просматривать единицу измерения отпуска для каждого типа отпуска в форме **Запрос отгула**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Добавление вложения к существующему запросу
 

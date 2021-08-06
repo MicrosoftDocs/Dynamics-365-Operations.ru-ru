@@ -1,7 +1,7 @@
 ---
 title: Анализатор источника учета
 description: Эта статья представляет информацию об Анализаторе источника учета, который можно использовать для подробного анализа сведений об источнике за учетными записями ГК.
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820939"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661045"
 ---
 # <a name="accounting-source-explorer"></a>Анализатор источника учета
 
@@ -46,8 +46,10 @@ ms.locfileid: "5820939"
 
 В случае этих документов также можно перейти к фактическому документу-источнику из анализатора источника учета.
 
-
-
-
+> [!NOTE]
+> В версии 10.0.20 кнопка **Обновить** предоставляет два дополнительных диапазона для ограничения начального запроса, который выполняется для ввода данных на странице. Эти дополнительные диапазоны также доступны в версии 10.0.19 как обновление службы. Следующие поля были добавлены:
+>
+> - Из ваучера, В ваучер
+> - Со счета ГК, На счет ГК
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

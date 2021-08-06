@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afa64474e8eaf4c7b73e4f76d85e379f77b570a7
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: c7b7f71cf084a05bb0278f5df4ddb022ef3d640f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111575"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560058"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources (20 мая 2021 г.)
 
@@ -70,7 +70,7 @@ ms.locfileid: "6111575"
 | Рабочая область управления льготами | [Рабочая область управления льготами (предварительная версия)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Рабочая область управления льготами](hr-benefits-management-workspace.md) |
 | Улучшения системы workflow-процесса отпуска и отсутствия | [Улучшения системы workflow-процесса отпуска и отсутствия](https://go.microsoft.com/fwlink/?linkid=2147528) | [Запрос на отгул](hr-employee-self-service-request-time-off.md)|
 | Включить упрощенную интеграцию зарплаты (API интеграции зарплаты) | [Включение упрощенной интеграции с поставщиками зарплаты](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [API интеграции зарплаты](hr-admin-integration-payroll-api-introduction.md)|
-| Аудит проводок начислений отпуска | - | [Аудит проводок начислений отпуска](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Аудит проводок начислений отпуска | - | [Аудит проводок начислений отпуска](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>Скоро
 

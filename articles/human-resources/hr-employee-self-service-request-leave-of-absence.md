@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056332"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639422"
 ---
 # <a name="request-a-leave-of-absence"></a>Запрос на отсутствие
 
@@ -49,9 +49,13 @@ ms.locfileid: "6056332"
 
 2. Для просмотра своих запросов об отсутствии выберите **Просмотр отсутствия**.
 
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Импорт запросов на отпуск из других систем или старых систем
+
+Чтобы импортировать запросы на отпуск из другой системы, необходимо пройти обычный рабочий процесс, чтобы создать соответствующие проводки отпусков. В качестве альтернативы можно импортировать банковские проводки отпусков и запросы отпусков в завершенном состоянии. Обратите внимание, что банковские проводки отпусков не создаются автоматически, если импортируются только запросы на отпуск.
+
 ## <a name="see-also"></a>См. также
 
-[Приостановка отпуска](hr-leave-and-absence-suspend-leave.md)
+[Приостановить отпуск](hr-leave-and-absence-suspend-leave.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

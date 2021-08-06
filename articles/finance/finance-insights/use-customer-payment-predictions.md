@@ -2,7 +2,7 @@
 title: Использование прогнозов платежей клиентов (предварительная версия)
 description: В этом разделе рассматриваются необходимые условия и описываются основные шаги, необходимые для использования пробной версии финансового анализа.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 144de66678beea64b9f96239b519a19926d87ab5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355636"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638326"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Использование прогнозов платежей клиентов (предварительная версия)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме объясняется, как использовать прогнозы платежей клиентов. Перед тем как использовать эту функцию, убедитесь, что для нее выполнены шаги настройки. Дополнительные сведения см. в разделе [Включение прогнозов платежей клиентов](enable-cust-paymnt-prediction.md).
 

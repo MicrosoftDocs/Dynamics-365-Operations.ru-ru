@@ -2,7 +2,7 @@
 title: Вопросы и ответы по сбросу киоска данных
 description: В этой теме представлены ответы на некоторое часто задаваемые вопросы о сбросе киоска данных.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266617"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638275"
 ---
 # <a name="data-mart-resets-faq"></a>Вопросы и ответы по сбросу киоска данных
 
@@ -37,6 +37,9 @@ ms.locfileid: "6266617"
 
 - База данных приложения была восстановлена.
 - Вы открыли запрос в службу поддержки, а специалист службы технической поддержки дал вам инструкцию выполнить сброс киоска данных в рамках шага устранения неполадок.
+ 
+> [!NOTE]
+> Процесс сброса киоска данных зависит от количества проводок главной книги и бюджетных проводок в базе данных. В зависимости от количества проводок в системе, перезапуск киоска данных может быть выполнен всего за 15 минут или это может занять до четырех часов. Однако если сброс занимает больше четырех часов, рекомендуется обратиться в службу поддержки.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Когда сброс киоска данных не нужен?
 

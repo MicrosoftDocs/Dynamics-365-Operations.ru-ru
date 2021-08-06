@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350796"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542523"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Устранение проблем с синхронизацией в режиме реального времени
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Эта тема предоставляет информацию по устранению неполадок для интеграции двойной записи между приложениями Finance and Operations и Dataverse. А именно, в нем содержатся сведения об устранении неполадок при синхронизации в режиме реального времени.
 
@@ -81,7 +79,7 @@ ms.locfileid: "6350796"
 
     ![Сопоставление организации.](media/mapped_business_unit.png)
 
-2. Выполните вход в среду приложения на основе модели в Dynamics 365, перейдите к пункту **Параметры \>Безопасность** и найдите рабочую группу сопоставленного подразделения.
+2. Выполните вход в среду в приложении для взаимодействия с клиентами, перейдите к пункту **Параметры \> Безопасность** и найдите рабочую группу сопоставленного подразделения.
 
     ![Рабочая группа сопоставленного подразделения.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ ms.locfileid: "6350796"
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Не удается создать полезную нагрузку для объекта CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Сбой создания полезной нагрузки с ошибкой Недопустимый URI: URI пуст."}\],"isErrorCountUpdated":true}*
 
-Вот как выглядит эта ошибка в приложении на основе модели в Dynamics 365:
+Вот как выглядит эта ошибка в приложении для взаимодействия с клиентами:
 
 *Возникла непредвиденная ошибка в коде независимого разработчика. (ErrorType = ClientError) Непредвиденное исключение от подключаемого модуля (Выполнить): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: не удалось обработать учетную запись объекта - (Сбой попытки подключения, так как подключенная стороне не предоставляет правильный ответ в течение некоторого периода времени, или сбой установленного подключения из-за отсутствия ответа от хост-компьютера*
 
@@ -125,6 +123,5 @@ ms.locfileid: "6350796"
 
 3. Убедитесь, что столбец **externalenvironmentURL** имеет правильный URL-адрес Dataverse или приложения. Удалите все дубликаты строк, которые указывают на неправильный URL-адрес Dataverse. Удалите соответствующие строки в таблицах DUALWRITEPROJECTFIELDCONFIGURATION и DUALWRITEPROJECTCONFIGURATION.
 4. Остановите сопоставление таблиц, а затем перезапустите его
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

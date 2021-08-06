@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314293"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538862"
 ---
 # <a name="payroll-employee"></a>Сотрудник зарплаты
 
@@ -32,15 +32,19 @@ ms.locfileid: "6314293"
 
 Эта сущность предоставляет информацию о сотруднике. Перед использованием этой сущности необходимо задать [параметры интеграции зарплаты](hr-admin-integration-payroll-api-parameters.md).
 
+>[!IMPORTANT] 
+>Поля **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** и **NameValidTo** больше не будут доступны для этой сущности. Это нужно, чтобы гарантировать, что имеется только одна дата вступления в силу для резервного копирования источника данных для этой сущности, которая будет **HcmEmployment** с полями **EmploymentStartDate** и **EmploymentEndDate**.
+
+>Эти поля будут доступны в **DirPersonNameHistoricalEntity**, которая была выпущена в обновлении платформы 43. Имеется отношение OData из **PayrollEmployeeEntity** в **DirPersonNameHistoricalEntity** в поле **Физическое лицо**. Кроме того, сущность **DirPersonNameHistoricalEntity** может быть непосредственно запрошена через OData с использованием общего имени, **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Свойства
 
 | Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
 | --- | --- | --- |
 | **Табельный номер**<br>mshr_personnelnumber<br>*Строка* | Только для чтения<br>Требуется | Уникальный табельный номер для сотрудника. |
 | **Основное поле**<br>mshr_primaryfield<br>*Строка* | Требуется<br>Создано системой |  |
-| **Фамилия**<br>mshr_lastname<br>*Строка* | Только чтение<br>Требуется | Фамилия сотрудника. |
 | **Код информации о компании**<br>mshr_legalentityID<br>*Строка* | Только для чтения<br>Требуется | Указывает юридическое лицо (компанию). |
-| **Действительно с**<br>mshr_namevalidfrom<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата, с которой действительны сведения о сотруднике.  |
 | **Род**<br>mshr_gender<br>[набор параметров mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Только для чтения<br>Требуется | Пол сотрудника. |
 | **Код сущности заработной платы сотрудника**<br>mshr_payrollemployeeentityid<br>*GUID* | Требуется<br>Создано системой | Создаваемое системой значение GUID для уникальной идентификации сотрудника. |
 | **Дата начала трудоустройства**<br>mshr_employmentstartdate<br>*Смещение даты и времени* | Только для чтения<br>Требуется | Дата начала занятости сотрудника. |
@@ -50,8 +54,6 @@ ms.locfileid: "6314293"
 | **Действительно до**<br>mshr_namevalidto<br>*Смещение даты и времени* |  Только для чтения<br>Требуется | Дата, до которой действительны сведения о сотруднике. |
 | **Дата рождения**<br>mshr_birthdate<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата рождения сотрудника |
 | **Идентификационный номер для**<br>mshr_identificationnumber<br>*Строка* | Только для чтения <br>Требуется |Идентификационный номер, определенный для сотрудника.  |
-| **Имя**<br>mshr_firstname<br>*Строка* | Только для чтения<br>Требуется | Имя сотрудника. |
-| **Отчество**<br>mshr_middlename<br>*Строка* | Только для чтения<br>Требуется |Отчество сотрудника.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Пример запроса для заработной платы сотрудника
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",
