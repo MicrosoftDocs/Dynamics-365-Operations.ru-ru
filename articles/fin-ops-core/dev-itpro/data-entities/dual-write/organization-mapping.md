@@ -4,24 +4,17 @@ description: Эта тема описывает интеграцию орган�
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355306"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542595"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Организационная иерархия в Dataverse
 
@@ -45,32 +38,17 @@ ms.locfileid: "6355306"
 
 Информация о продукте содержит все сведения, имеющие отношение к продукту и его определению, такие как аналитики продукта или аналитики отслеживания и хранения. Как показано в следующей таблице, для синхронизации продуктов и связанных сведений создается коллекция сопоставлений таблиц.
 
-Приложения Finance and Operations | Другие приложения Dynamics 365 | описание
+Приложения Finance and Operations | Приложения для взаимодействия с клиентами     | описание
 -----------------------|--------------------------------|---
-Цели организационной иерархии | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы цели организационной иерархии.
-Тип организационной иерархии | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы типа организационной иерархии.
-Организационная иерархия — опубликованная версия | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы опубликованной организационной иерархии.
-Операционная единица | msdyn_internalorganizations |
-Юридические лица | msdyn_internalorganizations |
-Юридические лица | cdm_companies | Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании).
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[Юридические лица](mapping-reference.md#102) | cdm_companies | Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании).
+[Юридические лица](mapping-reference.md#142) | msdyn_internalorganizations |
+[Операционная единица](mapping-reference.md#143) | msdyn_internalorganizations |
+[Организационная иерархия — опубликованная версия](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы опубликованной организационной иерархии.
+[Цели организационной иерархии](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы цели организационной иерархии.
+[Тип организационной иерархии](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию таблицы типа организационной иерархии.
 
 ## <a name="internal-organization"></a>Внутренняя организация
 
-Сведения о внутренней организации в Dataverse поступают из двух таблиц, **операционная единица** и **юридические лица**.
-
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
-
+Сведения о внутренней организации в Dataverse поступают из двух таблиц, **Операционная единица** и **Юридические лица**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

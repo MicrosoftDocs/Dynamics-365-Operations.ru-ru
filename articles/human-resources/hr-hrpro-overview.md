@@ -2,7 +2,7 @@
 title: Обзор
 description: В руководстве пользователя Dynamics 365 Human Resources содержатся инструкции по настройке Human Resources, настройке компенсации и льгот для сотрудников, а также по управлению персоналом.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338062"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639518"
 ---
 # <a name="overview"></a>Обзор
 
@@ -99,9 +99,10 @@ ms.locfileid: "6338062"
 [Назначение работников плану отпусков](hr-leave-and-absence-enroll.md)</br>
 [Начисление планов отпусков и отсутствий](hr-leave-and-absence-accrue.md)</br>
 [Просмотр аналитики для отпусков и отсутствий](hr-leave-and-absence-analytics.md)</br>
-[Управление запросами на отпуска и отсутствия](hr-employee-self-service-manage-requests.md)</br>
-[Запрос на отсутствие](hr-employee-self-service-request-time-off.md)</br>
+[Управление запросами на отпуска и отсутствие](hr-employee-self-service-manage-requests.md)</br>
+[Запрос на отгул](hr-employee-self-service-request-time-off.md)</br>
 [Просмотр календарей группы и компании](hr-employee-self-service-calendar.md)</br>
+[Настройка роли менеджера по отсутствию](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>Развитие сотрудников
 

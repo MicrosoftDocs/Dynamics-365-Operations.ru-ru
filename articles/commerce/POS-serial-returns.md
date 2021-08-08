@@ -12,17 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7a067994828f3df577c0dc4146d26ac81990d4ac
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: e53c8ceb91a007775fa74f0c9598a65745f01cec
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129827"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638105"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Возврат продуктов с контролируемыми серийными номерами в POS-терминале
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этой теме описываются возможности для проверки номенклатур с серийными номерами как части процесса возврата в приложении POS-терминала Microsoft Dynamics 365 Commerce.
 

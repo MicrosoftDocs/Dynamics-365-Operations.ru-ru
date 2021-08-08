@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337937"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647214"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -77,10 +77,9 @@ ms.locfileid: "6337937"
 -   [Создание заказа на покупку из заказа на продажу](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Создание заказа на покупку для разового поставщика](tasks/create-purchase-order-one-time-supplier.md)
 -   [Создание заказа на покупку с графиком поставки](tasks/create-purchase-order-delivery-schedule.md)
--   [Создание заказа на возврат покупок](tasks/create-purchase-return-order.md)
--   [Создание заказа на выпуск покупки из договора покупки](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Создание заказа на выпуск покупки при создании заказа на покупку](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [Создать новый заказ пополнения коносамента](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [Создание заказа на возврат покупки](tasks/create-purchase-return-order.md)
+-   [Применение договора покупки при создании заказа на покупку](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Создание заказа пополнения консигнационных запасов](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Цены и скидки
 -   [Договоры покупки](purchase-agreements.md)
