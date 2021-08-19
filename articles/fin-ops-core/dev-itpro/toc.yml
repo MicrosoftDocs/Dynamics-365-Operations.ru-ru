@@ -14,9 +14,11 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для версии 10.0.20 (август 2021 г.)
+                - name: "Обновления платформы для версии 10.0.21 (октябрь 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-21.md
+                - name: "Обновления платформы для версии 10.0.20 (август 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Обновления платформы для 10.0.19 (июнь 2021 г.)
+                - name: "Обновления платформы для версии 10.0.19 (июнь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Удаленные или устаревшие функции
               items:
@@ -446,6 +448,8 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: 'Сценарии, выполняемые перед развертыванием и после развертывания локального агента'
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Конфигурации развертывания для локального агента
+                      href: deployment/onprem-localagent-options.md
                     - name: Обновление локального агента
                       href: lifecycle-services/update-local-agent.md
                 - name: Устранение неполадок
