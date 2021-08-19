@@ -94,9 +94,11 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (август 2021 г.)
+                    - name: "Commerce 10.0.21 (октябрь 2021\_г.)"
+                      href: get-started/whats-new-commerce-10-0-21.md
+                    - name: "Commerce 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (июнь 2021 г.)
+                    - name: "Commerce 10.0.19 (июнь 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-19.md
                 - name: Удаленные или устаревшие функции
                   items:
@@ -514,10 +516,18 @@
                       href: cash-denominations.md
                     - name: Настройка обработки кредитных карт
                       href: tasks/configure-credit-card-processing.md
-                    - name: Пропуск диалогового окна "изменение срока" в POS
+                    - name: Пропуск диалогового окна "Сдача" в POS
                       href: dev-itpro/skip-change-due.md
-                    - name: Соединитель платежей Adyen
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector для Adyen
+                      items:
+                        - name: Обзор Dynamics 365 Payment Connector для Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Настройка Dynamics 365 Payment Connector для Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Вопросы и ответы по Dynamics 365 Payment Connector для Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Устранение неполадок с Dynamics 365 Payment Connector для Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Строгая проверка подлинности клиентов (SCA) с помощью соединителя Adyen
@@ -664,9 +674,9 @@
                       href: personalized-recommendations.md
                     - name: Отказ от персонализированных рекомендаций
                       href: personalization-gdpr.md
-                - name: Включение рекомендаций «Выбрать похожие по виду»
+                - name: Включение рекомендаций "Выбрать похожие по виду"
                   href: shop-similar-looks.md
-                - name: Включение рекомендаций «Выбрать похожие по описанию»
+                - name: Включение рекомендаций "Выбрать похожие по описанию"
                   href: shop-similar-description.md
                 - name: Опыт использования POS
                   items:
@@ -1182,6 +1192,10 @@
               items:
                 - name: Создание отчетов канала продаж через интернет
                   href: generate-reports.md
+            - name: Таргетинг
+              items:
+                - name: 'Определение целевой аудитории по устройствам, рынкам и геолокации'
+                  href: targeting-overview.md
             - name: Эксперименты
               items:
                 - name: Эксперименты в Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Локализация Commerce для России
                   href: localizations/rus-commerce-localization.md
+                - name: Настройка локализации Commerce для России
+                  href: localizations/rus-commerce-setup.md
+                - name: Предоплаты в Commerce для России
+                  href: localizations/rus-commerce-prepayments.md
             - name: Швеция
               items:
                 - name: Функциональность контрольно-кассовой машины
