@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b8610c483fa42d91d5b346550aae5b874649c727
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed9aaca259bc81546045a1cddae368665d5b7e6c6335dccd769965e1c28dbf77
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735736"
 ---
 > [!IMPORTANT]
 > Эта функция доступна в обновлении платформы Platform update 15 (7.0.4841) для Finance and Operations или более поздней версии. Это обновление сейчас доступно только для некоторых клиентов. Оно будет доступно для всех пользователей в июне 2018 года.
