@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a42e11e21e46be9c5be642f5834d08386dbe710
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: c3a7837932b53886a2d35d440234c9f25e20f1dd82b2a76f84f897d2917a00f7
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646501"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7011995"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -153,6 +153,7 @@ ms.locfileid: "6646501"
 - [Отчетность по РБП](rus-reporting-deferrals.md)
 
 ## <a name="tax-accounting"></a>Налоговый учет
+- [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md)
 - [Коды расходов и доходов](rus-expense-and-income-codes.md)
 - [Регистры налога на активы](rus-assets-tax-registers.md)
 - [Налоговый регистр расходов будущих периодов](rus-deferred-expenses-register.md)
@@ -161,6 +162,8 @@ ms.locfileid: "6646501"
 - [Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей](rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md)
 - [Резервы безнадежной задолженности в модуле расчетов с клиентами](rus-bad-debts.md)
 - [Расчет регистров налоговых активов и налоговых обязательств](rus-calculation-tax-asset-tax-liability-registers.md)
+- [Налоговые регистры перемещения товаров](rus-goods-movement-tax-registers.md)
+- [Другие налоговые регистры](rus-other-tax-registers.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

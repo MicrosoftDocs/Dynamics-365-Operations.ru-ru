@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5004cb2ce2b601c51c641c2e9d6d2c4788729af9
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f9d67aaa66d1110b829bac07b1afbb220066eea834b94108bfaee1500eeaecf6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773449"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.7 (январь 2020 г.)
 

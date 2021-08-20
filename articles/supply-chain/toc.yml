@@ -72,9 +72,11 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20 (август 2021 г.)
+                    - name: "Supply Chain Management 10.0.21 (октябрь 2021\_г.)"
+                      href: get-started/whats-new-scm-10-0-21.md
+                    - name: "Supply Chain Management 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (июнь 2021 г.)
+                    - name: "Supply Chain Management 10.0.19 (июнь 2021\_г.)"
                       href: get-started/whats-new-scm-10-0-19.md
                 - name: Удаленные или устаревшие функции
                   items:
@@ -1601,9 +1603,11 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Начало работы с оптимизацией планирования
                   href: master-planning/planning-optimization/get-started.md
+                - name: Процедура выпуска и история выпусков оптимизации планирования
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Анализ соответствия оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: 'Параметры, не используемые при оптимизации планирования'
+                - name: 'Параметры, не используемые в оптимизации планирования'
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Временные границы покрытия
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Чистые потребности и информация об источниках потребности в оптимизации планирования
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Утверждение спланированных заказов
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Утвержденные спланированные заказы
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Взаимодействие с клиентами внутренней цепочки поставок
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Чистые потребности и информация об источниках потребности во встроенном сводном планировании
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Прогнозирование
               items:
                 - name: Прогнозирование спроса и поставок
@@ -1967,7 +1975,9 @@
                   href: procurement/request-quotations.md
                 - name: Создание запроса предложения
                   href: procurement/tasks/create-request-quotation.md
-                - name: 'Создание заявки, которая использует запрос предложения'
+                - name: Запечатывание предложений для запросов предложений
+                  href: procurement/sealed-bidding.md
+                - name: 'Создание заявки, связанной с запросом предложения'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Создание метода оценки для запросов предложений
                   href: procurement/tasks/create-scoring-method-rfqs.md
@@ -2279,8 +2289,10 @@
               href: engineering-change-management/engineering-change-management.md
             - name: Готовность продукта
               href: engineering-change-management/product-readiness.md
-            - name: Структура выпуска продукта
+            - name: Выпуск структур продуктов
               href: engineering-change-management/release-product-structure.md
+            - name: Создание вариантов для продуктов разработки
+              href: engineering-change-management/engineering-variants.md
             - name: Вопросы и ответы по управлению изменениями разработки
               href: engineering-change-management/change-management-faq.md
         - name: Управление производством
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: Установка и настройка модуля "Управление ретробонусами"
               items:
+                - name: Включение модуля "Управление ретробонусами" для вашей системы
+                  href: rebate-management/rebate-management-enable.md
                 - name: Параметры управления ретробонусами
                   href: rebate-management/rebate-management-parameters.md
                 - name: Workflow-процессы сделок в управлении ретробонусами
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Обработка, проверка и разноска ретробонусов'
               href: rebate-management/process-review-post.md
+            - name: Управление вычетами с помощью рабочего места удержаний
+              href: rebate-management/deduction-workbench.md
         - name: Продажи и маркетинг
           items:
             - name: Обзор продаж и маркетинга
@@ -3055,8 +3071,10 @@
               href: landed-cost/estimate-manage-landed-costs.md
             - name: Обработка в пути
               href: landed-cost/in-transit-processing.md
-            - name: Обработка проводок переплаты/недоплаты
+            - name: Обработка проводок переприхода/недоприхода
               href: landed-cost/over-under-transactions.md
+            - name: Обновление отслеживания для размещения
+              href: landed-cost/update-tracking-putaway.md
             - name: Запросы о стоимости на складе
               href: landed-cost/landed-cost-inquiries.md
             - name: Отчеты о стоимости на складе
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: 'Комплектация кластера, управляемая системой'
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Комплектация с превышением для заказов на продажу и заказов на перемещение
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Настройка различных аналитик для упаковки и хранения
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Подтверждение партии и грузоместа
@@ -3509,7 +3529,13 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Управление складом
               items:
-                - name: Отмена поступлений продуктов не приводит к обновлению состояния проводок на "Зарегистрировано"
+                - name: 'Невозможно подтвердить отгрузку, так как клиент заблокирован'
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: 'Невозможно подтвердить отгрузку, так как строки загрузки имеют нулевое количество'
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: 'Невозможно обновить строку загрузки, так как выпущенное количество будет отрицательным'
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
+                - name: Отмена поступлений продуктов не приводит изменению состояния проводок на "Зарегистрировано"
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Округление до десятичных знаков физически обновляемого количества неверно
                   href: troubleshooting/warehousing/decimal-rounding-of-quantity.md

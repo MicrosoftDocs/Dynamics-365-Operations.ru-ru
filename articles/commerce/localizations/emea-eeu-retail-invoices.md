@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f79208b2508ed3879aa626389564b10a1d78c165
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38d1708f6b113c4915b208941e1ebab70b07323f7523d742c54f3acb32b40569
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750692"
 ---
 # <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
 
