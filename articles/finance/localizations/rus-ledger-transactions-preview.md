@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d202ba85b64357cd84b365654e0b812d39845152
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 085d7de336ededbed17050bb34061374465d6cd08b0f2375cfe268279b38a195
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781154"
 ---
 # <a name="preview-ledger-transactions-russia"></a>Предварительный просмотр проводок ГК (Россия)
 
