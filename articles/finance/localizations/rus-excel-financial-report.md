@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 05693b68beff95598250a12c9737f3b4a1b0e6da
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: e60fc30adccd61ee76a1f3b1b205437f77a72cb2694e585a281c3f1dc66c8a8f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722650"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 

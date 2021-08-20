@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726415"
 ---
 # <a name="define-channel-attributes"></a>Определение атрибутов канала
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791591"
 ## <a name="define-channel-product-attribute"></a>Определите атрибут продукта канала.
 1. Перейдите в раздел "Retail и Commerce" > "Настройка канала" > "Категории каналов и атрибуты продуктов".
 2. В дереве выберите "Contoso Retail\Fashion\Houston".
-3. Щелкните "Изменить".
+3. Выберите Изменить.
 4. В поле "Иерархия категорий" введите или выберите значение.
     * Навигационная иерархия будет использоваться для перемещения продукта внутри ваших каналов.  
 5. Разверните раздел "Группа атрибутов".

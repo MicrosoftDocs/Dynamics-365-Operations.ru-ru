@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cb3725760c060a6a1aa4e35b2de65bf7b2e05002
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3d2947f8490de53340808d52a606383f092ee1d2b125ff6d5f6607717838b2a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717445"
 ---
 # <a name="inventory-cost-structure"></a>Структура стоимости запасов
 [!include [banner](../includes/banner.md)]

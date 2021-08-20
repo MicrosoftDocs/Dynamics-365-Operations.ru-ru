@@ -2,7 +2,7 @@
 title: Определение зависимости конфигураций электронной отчетности от других компонентов
 description: В этой теме описывается, как создать конфигурацию электронной отчетности (ER) и указать ее зависимость от других программных компонентов.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717602"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Определение зависимости конфигураций электронной отчетности от других компонентов
 
@@ -138,5 +138,8 @@ ms.locfileid: "5755114"
     * Обратите внимание, что конфигурация сопоставления "Пример сопоставления" модели была загружена вместе с выбранной конфигурацией модели данных. Эти файлы загружаются вместе, потому что "Пример сопоставления" был определен как реализующий выбранную модель данных, а также потому что он применим к приложению. Конфигурация "Пример сопоставления (альтернативный)" не была загружена, потому что условие по требуемой версии приложение не выполняется.   
     * Если войти в Finance and Operations, зарегистрировать того же поставщика, открыть тот же проект LCS и загрузить ту же конфигурацию модели данных, загрузится конфигурация "Пример сопоставления (альтернативный)", тогда как конфигурация "Пример сопоставления" будет пропущена.  
 
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+[Управление жизненным циклом конфигураций электронной отчетности (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

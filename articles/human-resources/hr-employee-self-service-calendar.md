@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744234"
 ---
 # <a name="view-team-and-company-calendars"></a>Просмотр календарей группы и компании
 
@@ -47,7 +47,7 @@ ms.locfileid: "6639398"
 
 Пользователи, не имеющие роли менеджера отсутствия, могут просматривать запросы отгулов в своем календаре. Выполните следующие шаги для доступа к календарю отпусков.
 
-1. В рабочей области **Самообслуживание сотрудников** выберите **Менеджер отсутствия**, затем **Календарь менеджера отсутствия**.
+1. В рабочей области **Самообслуживание сотрудников** выберите **Управление отпусками**, затем **Календарь менеджера отсутствия**.
 
 2. В поле **Дата** введите требуемые даты.
 

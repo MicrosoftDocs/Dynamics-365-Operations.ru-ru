@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f69b3ac904d5230fd83a77059157635d928699c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7037fdd7ecb604efeb1afb75bcfe97f675e52f353dac557b77a25dfceb371c3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727944"
 ---
 # <a name="calculate-depreciation-for-russia"></a>Расчет амортизации для России
 

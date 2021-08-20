@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82e372ebee1d13d6a94f853f5d87fc0edbcbcad3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 870fddd21670d731e5a8a2590a0b1f95b77438ff66c0743ae50efcc5d18bf448
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727942"
 ---
 # <a name="ledger-translation-russia"></a>Трансляция счетов (Россия)
 

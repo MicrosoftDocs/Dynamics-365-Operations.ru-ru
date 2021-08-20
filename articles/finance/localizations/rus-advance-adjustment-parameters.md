@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 5152612b5c12f7920c005e609c4e85835d5ceaa1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c44bfbaa58943f595bb3d39a5b1d249bb39c52b50ef519a2ed7df960391c392
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739914"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 

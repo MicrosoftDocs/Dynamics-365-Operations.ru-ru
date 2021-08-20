@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e08297bdaf9ceb1ff1d97293c835736908e72b2e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3d654bb701515d974b1c5ed3c0a065689d2f36831abf451739b0d6187a7dc835
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741479"
 ---
 # <a name="dispose-of-deferrals-russia"></a>Выбытие РБП (Россия)
 

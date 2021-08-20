@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 744a09961f1c4d29ef4b6418030c8082b86774f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec59aca2ca07c2581c3991eeb6b2125e644bdd13ec405076b6659f0741a4db91
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742852"
 ---
 # <a name="set-up-dimension-control-for-settlements-russia"></a>Настройка контроля аналитик для сопоставлений (Россия)
 [!include [banner](../includes/banner.md)]

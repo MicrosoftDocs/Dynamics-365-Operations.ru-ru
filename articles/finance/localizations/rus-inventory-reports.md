@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 50a6c6f9bc1bbbf69db8520e1357edbb824da9a0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9c44e56ffb5e6ea5f2ec7e285f46ee49ec6535afa83c1269fb7ee95480f1ccf2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717441"
 ---
 # <a name="inventory-reports"></a>Отчеты о запасах
 [!include [banner](../includes/banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d9c3a1a5e1ed4df5eca21e7907a63d2d0f8a2705
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c797acd6f9625b2e33920329ed6732c704db6f9cbf97e3835a527c6c5ad9e3c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725037"
 ---
 # <a name="set-up-deferrals-russia"></a>Настройка расходов будущих периодов (Россия)
 

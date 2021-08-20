@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c7a6bcbccd9ea8c50fbf56ba080d2004dfa05087
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713812"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Обзор обновления журнала амортизации
 
@@ -51,10 +51,10 @@ ms.locfileid: "6339825"
 Вариант 2. **Существующая определяемая пользователем номерная серия** — этот вариант позволяет вам определить номерную серию, которая будет использоваться для обновления. Рекомендуется использовать этот вариант, если требуется сложная конфигурация номерной серии. Для использования номерной серии следует изменить класс обновления ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans, указав следующую информацию:
 
 -   **Код номерной серии** — код номерной серии.
-    -   Постоянное имя: **NumberSequenceExistingCode **
+    -   Постоянное имя: **NumberSequenceExistingCode**
     -   Значение по умолчанию: отсутствует, это необходимо обновить с кодом номерной серии.
 -   **Общая номерная серия** — логическое значение, чтобы определить область действия номерной серии. Используйте значение «true» для общих номерных серий во всех компаниях и «false» для области действия в пределах конкретной компании. При использовании значения «false» номерная серия с указанным именем должна существовать в каждой компании, содержащей проводки журнала амортизации. Общие номерные серии существуют в каждом разделе, содержащем проводки журнала амортизации.
-    -   Постоянное имя: **NumberSequenceExistingIsShared **
+    -   Постоянное имя: **NumberSequenceExistingIsShared**
     -   Значение по умолчанию: true
 
 Эти параметры расположены в начале класса ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 

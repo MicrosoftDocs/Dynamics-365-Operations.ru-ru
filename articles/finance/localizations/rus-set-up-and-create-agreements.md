@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2f9eac128e1d3c1e500556237f6af80f229a7d3b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 483b2df0d9f9cf73e60c69eb55a8f401aa35f734e2c3c23efd8ff78a85f3ac11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722648"
 ---
 # <a name="set-up-and-create-agreements"></a>Настройка и создание договоров
 [!include [banner](../includes/banner.md)]

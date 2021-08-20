@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e97cb4c5a100a063cc0d9668902e0b5cad43017d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf6fc2973e42a2ced954c4f62f1232b5c11ca87662ceca573dcb668803146dd9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744268"
 ---
 # <a name="primary-forms-for-nvfa-working-clothes-and-special-riggings-russia"></a>Основные формы для МОС, спецодежды и спецоснастки (Россия)
 
