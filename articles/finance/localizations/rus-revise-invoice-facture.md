@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a69dc6b95ab47db76cf6517b912605ac8dea18d8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e589c6dc4bd877f78623d2aee31296bba11887811ee43ee915fcd114f197d23b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761208"
 ---
 # <a name="revision-factures-and-corrective-factures"></a>Пересмотр счетов-фактур и корректирующие счета-фактуры
 

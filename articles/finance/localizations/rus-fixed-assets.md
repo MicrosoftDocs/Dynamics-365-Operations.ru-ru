@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dc8f93368f7a44dc52eada409a9678db1f19e823
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2f00402bbdea1041fde1c3ffdd6d828251afbee8f228592fa86565d61e2410b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715902"
 ---
 # <a name="fixed-assets-russia"></a>Основные средства (Россия)
 

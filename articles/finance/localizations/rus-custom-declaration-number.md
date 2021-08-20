@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a709b1257835a846257f04b3060ff14375de8717
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6db2c6166ca1c7862f708b7893dc774213077ba5d81b92691f8d082976b3c5f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781679"
 ---
 # <a name="customs-declaration-numbers"></a>Номера таможенных деклараций
 [!include [banner](../includes/banner.md)]

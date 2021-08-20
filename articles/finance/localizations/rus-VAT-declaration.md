@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 124dbfa2943fd086477ec0ea06a4afd19aec04f9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: d68c2966d291ef0bf412f33950df5c0b8827a9a2bb380856ac454aceaafb1e4f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779349"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 

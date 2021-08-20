@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 711ab539fde83904ec625515911aea85b821cf31
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fac4d77e662b26be038b9e5af98649aff228538339006e8e501c2f7c27b5844
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729530"
 ---
 # <a name="credit-note-corrections-russia"></a>Корректировки кредит-нот (Россия)
 

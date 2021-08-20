@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d4c66474143d6a9721b83d43a3b41c46ffabab9b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 208a29282ce48f03f872b0399598fedda2d2f53dc4dc669c1a12eedd31da5798
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717447"
 ---
 # <a name="inventory-adjustment-wizard"></a>Мастер корректировки запасов
 

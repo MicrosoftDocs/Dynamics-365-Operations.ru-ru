@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 159361f1f646b5bbd11f6eaf07c365134c0bb272
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 72b15ceb3e19ef9bb223b37fceecb3344749470fd21ecd5260fdfc9ec86a1d87
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717442"
 ---
 # <a name="inventory-profile-overview"></a>Обзор профиля учета
 [!include [banner](../includes/banner.md)]

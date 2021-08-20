@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 328740cbe252875c06f4d8e171e21cd70262ada8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1119d101f463ae839ffa474335d4bb15127d2f30b9b2f251f04a8a9830e0f25
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714425"
 ---
 # <a name="correspondence-of-accounts"></a>Корреспонденция счетов
 

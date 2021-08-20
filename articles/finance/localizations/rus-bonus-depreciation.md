@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c296b1f3f0ecf0cbb873ab8dce9ee3a713842884
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1987262116c112396b97a156e45a07a4621ea046596594e80aa4679ac78f3f56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750267"
 ---
 # <a name="depreciation-bonuses-russia"></a>Амортизационные премии (Россия)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e995a3fb7f87db2aed676d12ca4b4732eb3e96c5e52b702890d53cd1840d7cb1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775202"
 ---
 # <a name="budget-planning"></a>Бюджетное планирование
 
@@ -53,12 +53,12 @@ Julia использует следующий шаблон Excel для подг
 
 [![Шаблон Excel.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-## <a name="exercise-1-configuration&quot;></a>Упражнение 1. Конфигурация
+## <a name="exercise-1-configuration"></a>Упражнение 1. Конфигурация
 
-### <a name=&quot;task-1-create-organizational-hierarchy&quot;></a>**Задача 1. Создание организационной иерархии**
+### <a name="task-1-create-organizational-hierarchy"></a>**Задача 1. Создание организационной иерархии**
 Поскольку весь процессе составления бюджета происходит в финансовом отделе, Julia должна создать очень простую организационную иерархию, состоящую только из финансового отдела. 
 
-1.1. Перейдите в организационным иерархиям (&quot;Администрирование организации&quot; &gt; &quot;Организации&quot; &gt; &quot;Организационные иерархии") и нажмите кнопку "Создать".
+1.1. Перейдите в организационным иерархиям ("Администрирование организации" &gt; "Организации" &gt; "Организационные иерархии") и нажмите кнопку "Создать".
 
 ![Организационные иерархии.](./media/screenshot3.png) 
 

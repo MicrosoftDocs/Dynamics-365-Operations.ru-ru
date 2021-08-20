@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 732a3c5f1eb5c63b995c9c5be9a8fa2a4a5571a7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c97e32a8a01f13c039076175af9f9223e053f10fda5248ae717570bf994a4b34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728700"
 ---
 # <a name="set-up-an-inventory-profile"></a>Настройка профиля учета 
 [!include [banner](../includes/banner.md)]

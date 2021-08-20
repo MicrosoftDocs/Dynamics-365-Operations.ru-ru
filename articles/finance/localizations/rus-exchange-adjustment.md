@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 7a4ef89b303f7725877dcf4c594e54a537791e25
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ebe5302fc382df3a0268dc87d91ecf19c8ceddc5b30e754006778bedaa0b2de8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723739"
 ---
 # <a name="exchange-adjustment"></a>Курсовая разница
 

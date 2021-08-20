@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: acec79eb0cb4e5981e81e8057b00ad9d88bb06c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 94b4417168becb2459b4535d00d9d59f11bf1b30a0f71ccd0b26feaf6b85af49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742854"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6fb6bb3d7ef847f1ac25e523cf825d26d0666e11
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d083c6474572cfd3d94abc6afb61238010d09a67c96cbb0c7bce4eb131e98a0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727940"
 ---
 # <a name="cash---local-primary-forms-and-unified-reports"></a>Наличные деньги — локальные основные формы и унифицированные отчеты
 [!include [banner](../includes/banner.md)]

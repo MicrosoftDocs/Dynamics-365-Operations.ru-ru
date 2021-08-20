@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c667efcfccae1238026cf56550360313a9cfff26
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7e7b07437beb65edf589691e18648833ced3dc438a4c14d6d925f608a59efa06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776456"
 ---
 # <a name="accounts-payable-debt-tax-registers-and-debt-write-offs"></a>Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей
 

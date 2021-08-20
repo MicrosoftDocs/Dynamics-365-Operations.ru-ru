@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3135751a0863beb2a537bb22aaa62d23a95cd42f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13918a227f24b078b5ff45395e79a64c08094a412bbfc7cf0c96f5e9b774503a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713700"
 ---
 # <a name="register-goods-shipped-to-customers-russia"></a>Регистрация товаров, отгруженных клиентам (Россия)
 
