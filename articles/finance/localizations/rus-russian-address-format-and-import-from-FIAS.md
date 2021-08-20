@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b0435fad48f97247dcdc928db53066a9de7cd1ee
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 24a9560195727ba50f53cf6ca6a975b0e11cd3cc713f722aa93fa2f3dc0d8c12
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754154"
 ---
 # <a name="russian-address-formats"></a>Российские форматы адреса
 [!include [banner](../includes/banner.md)]
