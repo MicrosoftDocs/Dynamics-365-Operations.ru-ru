@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2cd96b6eafe88e83846fd0b19d9007fbf9d65dd7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f40b284cd68b770694d169999d72803f536bd1772f3cc3cd9684aaa80e7ae3fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756216"
 ---
 # <a name="set-up-and-process-payment-orders-for-russia"></a>Настройка и обработка платежных поручений для России
 

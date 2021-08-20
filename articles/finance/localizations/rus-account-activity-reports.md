@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 675064d02c614c569f646d8d53c5c0ffb1f2e116
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 10cf13d8bd764de3531923d396cf8eaff9a440bd69c13f240dd79b2f02db1777
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757034"
 ---
 # <a name="account-activity-reports"></a>Отчеты по обороту по счету
 [!include [banner](../includes/banner.md)]

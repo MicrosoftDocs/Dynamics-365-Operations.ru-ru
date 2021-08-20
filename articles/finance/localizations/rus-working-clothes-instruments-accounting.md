@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cd352d45f23142a49b5eb971213381d0e9d17929
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60c39dccc633567c86fc8efd5ef1b33306d4bbb5fcee21d91682f074c5b124ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764206"
 ---
 # <a name="working-clothesspecial-rigging-accounting-russia"></a>Учет рабочей одежды и специальной оснастки (Россия)
 

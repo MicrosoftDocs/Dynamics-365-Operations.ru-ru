@@ -3,7 +3,6 @@ title: Функция электронной отчетности Base64StringTo
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности Base64StringToContainer.
 author: NickSelin
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772040"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Функция электронной отчетности Base64StringToContainer
 
 [!include [banner](../includes/banner.md)]
 
-[Функция](er-formula-language.md#functions) `BASE64STRINGTOCONTAINER` преобразует заданный ввод типа *Строка* в элемент данных типа *[Контейнер](er-functions-category-container.md)*.
+[Функция](er-formula-language.md#Functions) `BASE64STRINGTOCONTAINER` преобразует заданный ввод типа *Строка* в элемент данных типа *[Контейнер](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>Синтаксис
 

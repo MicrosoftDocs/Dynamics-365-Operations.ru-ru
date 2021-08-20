@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e78a6de6d3e436b22376eac24c40cb82e3e8b5df
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 98da20f633f99ae7b01f8fafbcf40d9e6077a801c001496623fcd3953b68ef4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187985"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760619"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 

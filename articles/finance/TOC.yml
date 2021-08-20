@@ -72,9 +72,11 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (август 2021 г.)
+                    - name: "Finance 10.0.21 (октябрь 2021\_г.)"
+                      href: get-started/whats-new-changed-10-0-21.md
+                    - name: "Finance 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (июнь 2021 г.)
+                    - name: "Finance 10.0.19 (июнь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-19.md
             - name: Удаленные или устаревшие функции
               items:
@@ -1164,10 +1166,12 @@
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
                 - name: Параметры реверсирования в журналах и строках
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
-                - name: В закрытии года отсутствуют входящие сальдо
+                - name: При закрытии года отсутствуют входящие сальдо
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Открытие шаблонов финансового журнала в Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Почему невозможно сторнировать проводку?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Финансовая отчетность
           items:
             - name: Начало работы с финансовой отчетностью
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Создание нового компонента электронного выставления накладных
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Начало работы с электронным выставлением накладных для Бразилии
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных для Египта
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных для Мексики
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Использование службы электронных накладных для импорта накладных поставщиков
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Настройка электронного выставления накладных
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Вопросы и ответы по электронному выставлению накладных
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Начало работы с расчетом налогов
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: Логика применимости налога и определения налоговой группы
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Поддержка функций налогов для заказов на перемещение
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Расчет налога в дополнение к цене, когда активировано включение налога в цену'
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Добавление полей данных в налоговые конфигурации
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Добавление полей данных в налоговую интеграцию с помощью расширений
@@ -1528,6 +1540,10 @@
                       items:
                         - name: Отчетность по нескольким регистрационным номерам НДС
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Отчетность во Франции
+                          items:
+                            - name: Декларация по НДС
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Отчетность Нидерландов
                           items:
                             - name: Декларация по НДС
@@ -1544,6 +1560,8 @@
               items:
                 - name: Обзор по Австралии
                   href: localizations/australia.md
+                - name: Форматы банковских файлов для банков Австралии
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Отчет по деловым операциям (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Добавление полей отчета и создание BAS
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: Настройка кодов основания для отчета BAS
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Схема отчетности по срокам оплаты
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Австрия
               items:
                 - name: Обзор по Австрии
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: 'Возможности Finance and Operations, предоставляемые 21Vianet в Китае'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Выбор групп счетов для китайских типов ваучеров
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Сравнение спецификаций
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Китайская иерархия плана счетов
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Декларация по НДС (Чешская Республика)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Символы банка для банковских счетов
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: Внутренний НДС (ЕС)
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Закрытие на конец года
                   href: localizations/emea-cze-hun-year-end.md
             - name: Дания
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Создание декларации Интрастат ЕС
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Французский Интрастат
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Итальянский Интрастат
-                      href: localizations/emea-ita-intrastat.md
                 - name: Отчеты по журналам запасов
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Крайние сроки выпуска накладных
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Французские переводные и простые векселя
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Французский Интрастат
+                  href: localizations/emea-fra-intrastat.md
                 - name: Коды NAF и Siret
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: Настройка кодов NAF и Siret
@@ -2134,10 +2158,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: Амортизация RB/SL
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Настройка способа платежа
+                - name: Настройка способа оплаты
                   href: localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Обновление способа платежа для клиента
+                - name: Обновление способа оплаты для клиента
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Декларация по НДС
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: Отчет DAS-2
                   href: localizations/emea-fra-das2-report.md
             - name: Германия
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Электронная передача декларации НДС (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Немецкий Интрастат
+                  href: localizations/emea-deu-intrastat.md
                 - name: Декларация НДС для Германии
                   href: localizations/emea-de-vat-declaration.md
                 - name: Отчет по электронным накладным клиентов
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Настройка электронных налоговых деклараций
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: 'Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж'
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Венгрия
               items:
                 - name: Обзор по Венгрии
@@ -2612,11 +2642,13 @@
                   href: localizations/emea-ita-exil-separate-account-credit.md
                 - name: Сортировка строк накладной по продаже по отборочной накладной
                   href: localizations/emea-ita-exil-invoicing-packing-slips.md
-                - name: Разноска счетов-фактур с нулевыми суммами
+                - name: Разноска накладных с нулевыми суммами
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Повышение удобства использования банковских данных
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Различные сборы за килограмм в декларации Интрастата
+                - name: Итальянский Интрастат
+                  href: localizations/emea-ita-intrastat.md
+                - name: Накладные расходы на килограмм в декларации Интрастат
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Письма о намерениях — выставление накладных обычным экспортерам
                   href: localizations/emea-ita-exil-intent-letter.md
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Стандартный файл налогового аудита (SAF-T) для Литвы
                   href: localizations/emea-ltu-saf-t.md
+                - name: Настройка документов перемещения для перемещения товаров в компании
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Малайзия
               items:
                 - name: Обзор по Малайзии
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Разделение курсовой разницы для расчетов с поставщиками и расчетов с клиентами
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: Настройка и использование кодов PKWiU для Польши
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'Декларация по НДС с ККМ (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Подготовка к отчетности JPK-V7M
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: Отчетность JPK-V7M
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Сведения о специфических бизнес-сценариях в отчете JPK-V7M
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'Обзор декларации по НДС с регистрами (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: Подготовка к отчетности JPK-V7M
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: Отчетность JPK-V7M
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Сведения о специфических бизнес-сценариях в отчете JPK-V7M
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Катар
               items:
                 - name: Обзор по Катару
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Налоговый учет
                   items:
+                    - name: Создание налоговых регистров и журнала налоговых регистров
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Коды расходов и доходов
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Регистры налога на активы
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Расчет регистров налоговых активов и налоговых обязательств
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Налоговые регистры движения товаров
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Другие налоговые регистры
+                      href: localizations/rus-other-tax-registers.md
             - name: Саудовская Аравия
               items:
                 - name: Обзор по Саудовской Аравии
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Отчет по исходящему НДС
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: Средний НДС для проводок покупки
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Подоходный налог
                   href: localizations/apac-tha-withholding-tax.md
             - name: Объединенные Арабские Эмираты (ОАЭ)
