@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d9aa3f6ea2ccd549cd38cd896e72b0e994c1cdab
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 963d742f2e7cca3373b0093d1ee56a50e423b3464f409c997544eea7f239198b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782186"
 ---
 # <a name="use-an-inventory-profile-in-documents-and-queries"></a>Использование профиля учета в документах и запросах
 [!include [banner](../includes/banner.md)]
