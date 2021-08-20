@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c42f99cd5a1d55cfa784404650d6d18a425757f7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6c00f8eac7ebaafe22b6f9335815417c996b768572475f161a6e600a04b858a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765628"
 ---
 # <a name="turnover-balance-statement-reports"></a>Отчеты по оборотно-сальдовой ведомости
 [!include [banner](../includes/banner.md)]

@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 26 июля 2021 г.
+          href: hr-whats-new-2021-07-26.md
         - name: 12 июля 2021 г.
           href: hr-whats-new-2021-07-12.md
         - name: 22 июня 2021 г.
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21 января 2021 г.
           href: hr-whats-new-2021-01-21.md
-        - name: 2 декабря 2020 г.
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 октября 2020 г.
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 октября 2020 г.
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 сентября 2020 г.
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 сентября 2020 г.
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 сентября 2020 г.
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 августа 2020 г.
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 августа 2020 г.
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 июля 2020 г.
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 июля 2020 г.
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 июня 2020 г.
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 июня 2020 г.
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 мая 2020 г.
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 мая 2020 г.
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 мая 2020 г.
-          href: hr-whats-new-2020-05-01.md
-        - name: Архивы «Что нового» за 2020 г.
+        - name: Архивы "Что нового" за 2020 г.
           items:
+            - name: 2 декабря 2020 г.
+              href: hr-whats-new-2020-12-02.md
+            - name: 22 октября 2020 г.
+              href: hr-whats-new-2020-10-22.md
+            - name: 6 октября 2020 г.
+              href: hr-whats-new-2020-10-06.md
+            - name: 26 сентября 2020 г.
+              href: hr-whats-new-2020-09-26.md
+            - name: 16 сентября 2020 г.
+              href: hr-whats-new-2020-09-16.md
+            - name: 3 сентября 2020 г.
+              href: hr-whats-new-2020-09-03.md
+            - name: 20 августа 2020 г.
+              href: hr-whats-new-2020-08-20.md
+            - name: 6 августа 2020 г.
+              href: hr-whats-new-2020-08-06.md
+            - name: 23 июля 2020 г.
+              href: hr-whats-new-2020-07-23.md
+            - name: 8 июля 2020 г.
+              href: hr-whats-new-2020-07-08.md
+            - name: 25 июня 2020 г.
+              href: hr-whats-new-2020-06-23.md
+            - name: 11 июня 2020 г.
+              href: hr-whats-new-2020-06-11.md
+            - name: 28 мая 2020 г.
+              href: hr-whats-new-2020-05-28.md
+            - name: 14 мая 2020 г.
+              href: hr-whats-new-2020-05-14.md
+            - name: 1 мая 2020 г.
+              href: hr-whats-new-2020-05-01.md
             - name: 13 апреля 2020 г.
               href: hr-whats-new-2020-04-13.md
             - name: 3 апреля 2020 г.
@@ -465,7 +467,7 @@
                   href: hr-admin-integration-payroll-api-payroll-position.md
                 - name: Задание позиции зарплаты
                   href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Объекты отпусков и отсутствия
+            - name: 'Объекты, связанные с отпусками и отсутствиями'
               items:
                 - name: Остаток отпуска
                   href: hr-admin-integration-payroll-api-leave-balance.md
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Запрос на отпуск
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: 'Объекты, связанные со льготами'
+              items:
+                - name: План льгот работников на зарплате
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Наборы параметров
               items:
                 - name: Пол
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Тип процесса
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Тип покрытия плана льгот
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Статус плана сотрудника со льготами
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Руководство пользователя
       items:
         - name: Обзор
