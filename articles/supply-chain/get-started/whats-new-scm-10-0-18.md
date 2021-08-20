@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773569"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.18 (май 2021 г.)
 
@@ -37,9 +37,11 @@ ms.locfileid: "6019234"
 
 - Автоматический выпуск заказов на покупку (усовершенствование для [Выполнение склада с единицами масштабирования в облаке](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Дополнительные сведения см. в разделе [Рабочие нагрузки управления складом для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Улучшение производительности запасов в масштабе предприятия и архивирование](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Для получения дополнительной информации см. [Архивирование проводок по запасам](../inventory/archive-inventory-transactions.md)
+- [Создание и просмотр сертификатов для интерфейса совместной работы с поставщиками](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Дополнительные сведения см. в разделе [Управление сертификацией поставщиков](../../finance/public-sector/manage-vendor-certification.md).
 
-- [управление ретробонусами](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Дополнительные сведения см. в разделе [Обзор модуля управления ретробонусами](../rebate-management/rebate-management-overview.md)
+- [Улучшение производительности запасов в масштабе предприятия и архивирование](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Для получения дополнительной информации см. [Архивирование проводок по запасам](../inventory/archive-inventory-transactions.md).
+
+- [Управление ретробонусами](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Дополнительные сведения см. в разделе [Обзор модуля управления ретробонусами](../rebate-management/rebate-management-overview.md).
 
 - [Политика настройки экспорта информационных объектов продаж](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

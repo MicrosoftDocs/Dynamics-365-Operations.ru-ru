@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c0326700890e2121b6e7fb87617e4035a6b3f37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8a98e10160beb58cd616e30ba192904ade212be663cb3c889226a6ccf0e8fb2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774213"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 

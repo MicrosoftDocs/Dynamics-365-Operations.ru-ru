@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a117925478a3bd31a126f52bdf2eed3b08b2a043
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0de4707d3ed58cf2a09a9b52daf8b68ea76371f0c9cf0eb9a004d8f56cd92b15
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769680"
 ---
 # <a name="company-divisions-russia"></a>Подразделения компании (Россия)
 
