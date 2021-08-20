@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a94cea79e791b8b1461d576c443f121f14d13c3c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 426d311ae438dddee948cb5b7a0220942d679dc131e970ddc8b7e99f4287918e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744919"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]
