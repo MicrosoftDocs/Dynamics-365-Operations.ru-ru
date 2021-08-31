@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Архитектура Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Публикация канала интернет-магазина
+                - name: Публикация каталога интернет-магазина
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Содержимое Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Загрузка конфигураций электронной отчетности в Commerce
+                  items:
+                    - name: Загрузка конфигураций из RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Импорт конфигураций из RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Глобальный репозиторий (GR)
+                  items:
+                    - name: Импорт конфигураций из GR
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Импорт обновленных версий конфигураций электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Улучшенная фильтрация для поиска конфигураций в GR
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Отправка конфигураций в GR
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: Совместное использование конфигураций в GR
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
@@ -1315,6 +1335,12 @@
                 - name: Функциональность контрольно-кассовой машины
                   href: localizations/emea-fra-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Финансовый архив и проверка целостности данных
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Переход с устаревших функциональных возможностей для Франции
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Рекомендации по развертыванию контрольно-кассовых машин (устарело)
                   href: localizations/emea-fra-deployment.md
             - name: Германия
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: Локализация Commerce для России
                   href: localizations/rus-commerce-localization.md
+                - name: Упрощенный формат адреса клиента в Commerce POS для России
+                  href: localizations/rus-simplified-address.md
                 - name: Настройка локализации Commerce для России
                   href: localizations/rus-commerce-setup.md
                 - name: Предоплаты в Commerce для России
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Импорт конфигураций (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: Функции глобализации в RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: Загрузка конфигураций электронной отчетности в Commerce
-                      items:
-                        - name: Загрузка конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Импорт конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Глобальный репозиторий (GR)
-                      items:
-                        - name: Импорт конфигураций из GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Импорт обновленных версий конфигураций электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Улучшенная фильтрация для поиска конфигураций в GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Отправка конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Совместное использование конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
@@ -1942,7 +1946,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Использование штрихкода для формирования изображений штрихкода
+                    - name: Использование ШТРИХ-КОДА для создания изображений штрих-кода
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Открытие данных объекта в Excel и его обновление с помощью надстройки Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание функции открытия в Excel
+            - name: Вопросы и ответы по функции открытия в Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Добавление шаблонов в меню открытия строк в Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Настройка Azure Key Vault для безопасного управления ключами
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: Создание обработчика подключаемого модуля конвейера запросов
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: Разработка действий с данными
                   items:
                     - name: Обзор действий с данными
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Настройка и включение соединителей
                       href: e-commerce-extensibility/connectors.md
+                - name: Производительность
+                  items:
+                    - name: Настройка кэширования страниц
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Кэш экземпляра действий с данными
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Телеметрия и аналитики
                   items:
                     - name: Средство ведения журнала телеметрии

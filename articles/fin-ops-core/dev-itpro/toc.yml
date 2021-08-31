@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Получение статуса операции
                       href: database/api/v1/reference-get-status.md
-                    - name: Запуск и остановка сред
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Демонстрационные данные
           items:
             - name: Обзор демонстрационных данных
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Непрерывность бизнес-процессов и аварийное восстановление
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Завершение адаптации Azure Resource Manager
+                - name: Завершение процесса адаптации Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Завершение процесса адаптации Azure Resource Manager для проектов LCS для государственных организаций США
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute и Finance and Operations
                   href: deployment/expressroute.md
                 - name: Архитектура Finance and Operations
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS для партнеров
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Интерфейсы RESTful API
+                  items:
+                    - name: Запуск и остановка сред
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Получение метаданных среды
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Получение истории среды
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Получение ZIP-файла сертификата RSAT среды
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Что нового и что изменилось в Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Руководство пользователя Lifecycle Services
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Устранение неполадок
                       items:
-                        - name: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Общие рекомендации по устранению неполадок
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Устранение неполадок при начальной настройке
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Устранение неполадок при начальной синхронизации
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Устранение неполадок с двойной записью в приложениях Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Устранение неполадок с синхронизацией в режиме реального времени
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Устранение неполадок с двойной записью в приложениях Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Устранение неполадок с субъектом и глобальной адресной книгой
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: 'Устранение неполадок, связанных с поддержкой решений'
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: 'Устранение неполадок, связанных с обновлениями приложений Finance and Operations'
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Общие рекомендации по устранению неполадок
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Вопросы и ответы по двойной записи
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Виртуальные объекты

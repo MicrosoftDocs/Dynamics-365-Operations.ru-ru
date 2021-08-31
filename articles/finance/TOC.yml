@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Открытие шаблонов финансового журнала в Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Сбой разноски журнала из-за дисбаланса
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Почему невозможно сторнировать проводку?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Финансовая отчетность
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: Загрузка конфигураций электронной отчетности в Finance
+                      items:
+                        - name: Загрузка конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Импорт конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Глобальный репозиторий (GR)
+                      items:
+                        - name: Импорт конфигураций из GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Импорт обновленных версий конфигураций электронной отчетности
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Улучшенная фильтрация для поиска конфигураций в GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Отправка конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Совместное использование конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Электронное выставление накладных
                   items:
                     - name: Обзор электронного выставления накладных
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Обзор расчета налогов
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Начало работы с расчетом налогов
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Логика применимости налога и определения налоговой группы
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Поддержка функций налогов для заказов на перемещение
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Расчет налога в дополнение к цене, когда активировано включение налога в цену'
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Добавление полей данных в налоговые конфигурации
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Добавление полей данных в налоговую интеграцию с помощью расширений
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Настройка среды для поиска справочника
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Несколько регистрационных номеров НДС
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Отчетность по нескольким регистрационным номерам НДС
+                    - name: Настройка
                       items:
+                        - name: Начало работы с расчетом налогов
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Настройка среды для поиска справочника
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Определение
+                      items:
+                        - name: Логика применимости налога и определения налоговой группы
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Расчет
+                      items:
+                        - name: 'Расчет налога в ценах, когда активировано включение налога в цену'
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Правила округления при расчете налога
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Несколько регистрационных номеров НДС
+                      items:
+                        - name: Несколько регистрационных номеров НДС
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Отчетность по нескольким регистрационным номерам НДС
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Отчетность во Франции
+                        - name: Отчетность Франции
                           items:
                             - name: Декларация по НДС
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Отчетность Нидерландов
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Отчет ЕС по НДС
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Отчетность Швейцарии
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Отчетность Соединенного Королевства
                           items:
                             - name: Подготовка к интеграции с MTD для НДС
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Включение расчета налогов для заказа на перемещение
+                      items:
+                        - name: Поддержка функций налогов для заказов на перемещение
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Расширение
+                      items:
+                        - name: Добавление полей данных в налоговые конфигурации
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Добавление полей данных в налоговую интеграцию с помощью расширений
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
             - name: Австралия
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Настройка параметров NF-e для финансового учреждения
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 — обновления макета и проверки в электронном финансовом документе (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — цифровая платформа промежуточных продаж для NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 — налоговые льготы и правила налогового освобождения для NF-e/NFC-e
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Налоговые проводки
                           items:
-                            - name: GST TDS по оплате товаров и услуг
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Проводки по покупке
                               items:
                                 - name: Приобретение у незарегистрированных поставщиков
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: Авансовые платежи поставщика с удержанием с покупателя
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: GST TDS по оплате товаров и услуг
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: GST TCS по оплате товаров и услуг
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Проводки по продажам
                               items:
                                 - name: Продажи налогооблагаемых товаров потребителям
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Перенос основных средств
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Унифицированные формы печати для основных средств
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Запросы и отчеты
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Малоценные основные средства и спецодежда
                       items:
                         - name: Малоценные основные средства (МОС) (Россия)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Учет рабочей одежды и специальной оснастки (Россия)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Унифицированные формы печати для основных средств
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Расчеты с поставщиками и клиентами
                   items:
                     - name: Корректировки кредит-нот (Россия)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Швейцарские QR-векселя
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: Декларация по НДС
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Таиланд
               items:
                 - name: Обзор по Таиланду
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Импорт конфигураций (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: Функции глобализации в RCS
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: Загрузка конфигураций электронной отчетности в Finance
-                      items:
-                        - name: Загрузка конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Импорт конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Глобальный репозиторий (GR)
-                      items:
-                        - name: Импорт конфигураций из GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Импорт обновленных версий конфигураций электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Улучшенная фильтрация для поиска конфигураций в GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Отправка конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Совместное использование конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
@@ -4181,7 +4203,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Изменение и выполнение форматов для использования файлов управления документами
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Использование штрихкода для формирования изображений штрихкода
+                    - name: Использование ШТРИХ-КОДА для создания изображений штрих-кода
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка источников данных ПОИСКА для использования параметров для приложения электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Открытие данных объекта в Excel и его обновление с помощью надстройки Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Создание функции открытия в Excel
+            - name: Вопросы и ответы по функции открытия в Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Добавление шаблонов в меню открытия строк в Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

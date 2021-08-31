@@ -2,7 +2,7 @@
 title: Домашняя страница Finance
 description: В этом разделе представлен список разделов справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779430"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394571"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -35,14 +35,16 @@ ms.locfileid: "6779430"
     :::column:::
         - [Расчеты с поставщиками](accounts-payable/accounts-payable.md) 
         - [Расчеты с клиентами](accounts-receivable/accounts-receivable.md)
+        - [Аренда активов](asset-leasing/asset-leasing-homepage.md)
         - [Бюджетирование](budgeting/budgeting-overview.md) 
-        - [Управление банком и кассовыми операциями](cash-bank-management/cash-bank-management.md)
+        - [Управление банками и кассами](cash-bank-management/cash-bank-management.md)
         - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
         - [Управление расходами](/dynamics365/project-operations/prod-exp/expense-management)
         - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
         - [Управление и учет по проектам](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Государственный сектор](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ ms.locfileid: "6779430"
 - [Блог по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Блог по Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Проводники по задачам
-Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
 
 ### <a name="videos"></a>Видео
 
