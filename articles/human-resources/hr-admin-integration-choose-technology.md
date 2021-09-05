@@ -1,8 +1,8 @@
 ---
 title: Выбор технологии интеграции данных
-description: В этой статье приводятся сведения об интеграции с данными, управляемыми модулем Human Resources. В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
-author: andreabichsel
-ms.date: 02/28/2020
+description: В этой теме приводятся сведения об интеграции с данными, управляемыми модулем Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720476"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414722"
 ---
 # <a name="choose-a-data-integration-technology"></a>Выбор технологии интеграции данных
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720476"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-В этой статье приводятся сведения для интеграции с данными, управляемыми Dynamics 365 Human Resources. В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
+В этой теме приводятся сведения для интеграции с данными, управляемыми Dynamics 365 Human Resources. В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
 
 ## <a name="data-integration-background"></a>Вводные сведения об интеграции данных
 
 Бизнес-данные являются ключевым активом, который делает вашу компанию уникальной. Данные вашей компании являются очень ценными. Отношения между данными, собранными в бизнесе, можно использовать для улучшения бизнес-процессов и бизнес-аналитики во всей организации. Мы стремимся обеспечивать простой, защищенный и стабильный доступ к бизнес-данным, независимо от системы, из которой они получены.
 
-Исторически интеграция данных между несколькими системами была сложной.
-Корпорация Майкрософт предпринимает шаги для упрощения интеграции данных, а большой шаг к этой цели реализован с помощью [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Исторически интеграция данных между несколькими системами была сложной. Корпорация Майкрософт предпринимает шаги для упрощения интеграции данных, а большой шаг к этой цели реализован с помощью [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources делает Dataverse предпочтительным общим интерфейсом для данных Human Resources. Со временем предполагается, что все наиболее важные данные, управляемые модулем Human Resources, будут представлены в Dataverse. Мы рекомендуем использовать Dataverse в качестве технологии, выбранной для большинства систем интеграции приложений.
 
@@ -47,7 +46,7 @@ Human Resources делает Dataverse предпочтительным общи
 
 ### <a name="dataverse-tables"></a>Таблицы Dataverse
 
-Dataverse — является предпочтительным общедоступным интерфейсом данных для модуля Human Resources. Он выросло из платформы Dynamics 365 XRM, которая используется решениями [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
+Dataverse — является предпочтительным общедоступным интерфейсом данных для модуля Human Resources. Оно выросло из платформы Dynamics 365 XRM, которая используется решениями [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
 
 Dataverse предоставляет платформу и API для информационных таблиц. При развертывании модуля Human Resources он соединяется с экземпляром Dataverse. Объекты для данных модуля Human Resources развертываются в этом экземпляре Dataverse. Таблицы и их данные доступны для любого приложения, которое может подключиться к экземпляру Dataverse. Модуль Human Resources синхронизирует данные с таблицами Dataverse и из этих таблиц.
 

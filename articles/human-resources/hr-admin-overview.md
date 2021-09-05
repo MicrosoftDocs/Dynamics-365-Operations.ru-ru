@@ -1,8 +1,8 @@
 ---
 title: Обзор администрирования
-description: Руководство администратора поможет выполнить настройку, управление и устранение неполадок Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: В этой теме представлен список разделов справки и другие ресурсы для настройки, управления и устранения неполадок в Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765622"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393579"
 ---
 # <a name="administration-overview"></a>Обзор администрирования
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765622"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Руководство администратора поможет выполнить настройку, управление и устранение неполадок Dynamics 365 Human Resources.
+В этой теме представлен список разделов справки и другие ресурсы для настройки, управления и устранения неполадок в Dynamics 365 Human Resources.
 
 - [Требования к системе](hr-admin-system-requirements.md)
 
@@ -95,6 +95,15 @@ ms.locfileid: "6765622"
   - [Human Resources отсутствует в списке приложений Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [Варианты отчетности](hr-admin-troubleshooting-reporting.md)
   - [Вопросы и ответы по интеграции](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+### <a name="elearning-courses"></a>Курсы eLearning
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Human Resources на сайте Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Видео
+
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>См. также
 

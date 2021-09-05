@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763701"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388941"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Создание и обновление политик возврата и возмещения для канала
 
@@ -42,15 +42,6 @@ ms.locfileid: "6763701"
 1. В списке имен найдите функцию **Включить политики возврата канала**.
 1. Выберите **Включить**.
 1. На странице **График распределения** выполните задание **1110** (Глобальная конфигурация), чтобы распределить изменение функции.
-
-## <a name="initialize-the-commerce-scheduler"></a>Инициализация планировщика Commerce
-
-После включения функции **Включение политик возврата для канала** необходимо инициализировать планировщик Commerce, чтобы гарантировать добавление новых изменений базы данных функций через синхронизацию Commerce Data Exchange (CDX). 
-
-Чтобы инициализировать планировщик Commerce в Commerce headquarters, выполните следующие шаги.
-
-- Перейдите к **Retail и Commerce \> Настройка Headquarters \> Планировщик Commerce \> Инициализация планировщика Commerce**. Либо можно выполнить поиск "Инициализация планировщика Commerce".
-- В диалоговом окне **Инициализация планировщика Commerce** убедитесь, что параметр **Удалить существующую конфигурацию** имеет значение **Нет**, затем выберите **ОК**.
 
 ## <a name="configure-return-policy"></a>Настройка политики возврата
 

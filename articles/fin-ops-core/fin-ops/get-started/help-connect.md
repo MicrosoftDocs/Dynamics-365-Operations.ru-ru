@@ -2,7 +2,7 @@
 title: Настройка справочной системы для приложений Finance and Operations
 description: В этом разделе приводятся сведения о компонентах системы справки для некоторых приложений Microsoft Dynamics 365.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714531"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343820"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Настройка справочной системы для приложений Finance and Operations
 
@@ -54,7 +54,7 @@ ms.locfileid: "6714531"
 > [!IMPORTANT]
 > При первом открытии вкладки **Справка** необходимо подключиться к службами Lifecycle Services. Необходимо выбрать на ссылку в середине формы, дождаться подключения, закрыть диалоговое окно, затем выбрать **ОК**, чтобы перейти на страницу **Системные параметры**.
 >
-> [![Подключить к LCS](./media/connect-to-lcs-crop-1024x365.png "Подключить к LCS".](./media/connect-to-lcs-crop.png)
+> [![Подключение к LCS](./media/connect-to-lcs-crop-1024x365.png "Подключение к LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Выберите проект Lifecycle Services для подключения.
 2. Выберите библиотеки BPM (в пределах выбранного проекта), из которых требуется извлечь записи задач.

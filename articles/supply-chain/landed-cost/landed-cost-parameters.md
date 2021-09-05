@@ -1,6 +1,6 @@
 ---
 title: Настройка параметров стоимости на складе
-description: В этом разделе описывается, как настроить общую информацию и параметры конфигурации, используемые в модуле "Стоимость на складе" для разноски, обновления статуса, номерных серий и поведения.
+description: В этой теме описывается, как настроить общую информацию и параметры конфигурации, используемые в модуле "Стоимость на складе" для разноски, обновления статуса, номерных серий и поведения.
 author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 138ef5b3fc210a6a717200d0c41422ea901373c1dfbf1a53cd558603c11277ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b6678b2579db00a9f8884786fdaacd027fab744
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747993"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403984"
 ---
 # <a name="landed-cost-parameters-setup"></a>Настройка параметров стоимости на складе
 

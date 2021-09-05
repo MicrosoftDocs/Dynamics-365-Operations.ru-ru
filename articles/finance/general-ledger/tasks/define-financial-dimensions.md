@@ -1,6 +1,6 @@
 ---
 title: Определение финансовых аналитик
-description: В этом руководстве показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.
+description: В этой процедуре показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.
 author: aprilolson
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1786bd141259f7c1ef273b6e9975a15d6e431da98ed3c891cefe5c0c4584f1bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed6dad64032c03e638c2090471af825dd18560a1
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729614"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394470"
 ---
 # <a name="define-financial-dimensions"></a>Определение финансовых аналитик
 
 [!include [banner](../../includes/banner.md)]
 
-В этом руководстве показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.  В данном руководстве используется демонстрационная компания USMF.
+В этой процедуре показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.  В данном руководстве используется демонстрационная компания USMF.
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Создание финансовой аналитики с основой на объекте

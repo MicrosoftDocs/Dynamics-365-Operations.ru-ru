@@ -1,6 +1,6 @@
 ---
 title: Создание счета ГК
-description: В этом руководстве описано добавление счета ГК в существующий план счетов.
+description: В этой процедуре описано, как добавлять счет ГК в существующий план счетов.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729638"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394644"
 ---
 # <a name="create-a-main-account"></a>Создание счета ГК
 
 [!include [banner](../../includes/banner.md)]
 
-В этом руководстве описано добавление счета ГК в существующий план счетов. В данной записи используется демонстрационная компания USMF.  
+В этой процедуре описано, как добавлять счет ГК в существующий план счетов. В данной записи используется демонстрационная компания USMF.  
 
 1. Выберите **Область переходов > Модули > Главная книга > План счетов > Счета > Счета ГК**.
 2. Нажмите кнопку **Создать**.

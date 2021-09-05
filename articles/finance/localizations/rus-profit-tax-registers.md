@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.dyn365.ops.version: ''
 ms.search.validFrom: ''
-ms.openlocfilehash: db99667332d02819c7677594cc93e292bfcbb091f913187a67646592b195bcb5
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: a788350b480708f5b5f6dc9a512ede05f6376bfc
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012131"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344486"
 ---
 # <a name="create-tax-registers-and-the-tax-register-journal"></a>Создание налоговых регистров и журнала налоговых регистров
 

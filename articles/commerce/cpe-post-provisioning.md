@@ -2,7 +2,7 @@
 title: Настройка среды оценки Dynamics 365 Commerce
 description: В этой теме объясняется, как настроить ознакомительную среду Microsoft Dynamics 365 Commerce после ее предоставления.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742448"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416487"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Настройка среды оценки Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ ms.locfileid: "6742448"
 Для выполнения проверочных проводок на сайте можно использовать следующие данные пробной кредитной карты:
 
 - **Номер карты:** 4111-1111-1111-1111
-- **Дата окончания срока действия:** 10/20
+- **Дата окончания срока действия:** 10/30
 - **Контрольный код карты (CVV):** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ ms.locfileid: "6742448"
 После завершения этапов подготовки и конфигурации вы можете начать использовать ознакомительную среду. Используйте URL-адрес конструктора сайтов Commerce, чтобы перейти к взаимодействию разработки. Используйте URL-адрес сайта Commerce, чтобы перейти к взаимодействию с сайтом клиента Retail.
 
 Чтобы настроить дополнительные функции для ознакомительной среды Commerce, см. [Настройка дополнительных функций для ознакомительной среды Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Ознакомительные среды Commerce поставляются с предварительно загруженным клиентом Azure Active Directory (Azure AD) B2C для демонстрационных целей. Настройка собственного клиента Azure AD B2C не является необходимым для ознакомительных сред. Однако, если настроить среду оценки для использования собственного клиента Azure AD B2C, следует добавить ``https://login.commerce.dynamics.com/_msdyn365/authresp`` как URL-адрес ответа в приложении Azure AD B2C через портал Azure.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -159,6 +162,8 @@ ms.locfileid: "6742448"
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Настройка клиента B2C в модуле Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

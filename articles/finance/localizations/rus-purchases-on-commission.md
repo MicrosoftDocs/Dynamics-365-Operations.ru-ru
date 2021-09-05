@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 907c3a3f3f227e412864a8c3eeb6eaefe3b2586b019258f01d589cfbf25bbb49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2385d0a07440761daca44759413c46b5a2bf3637
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766264"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345313"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]

@@ -2,7 +2,7 @@
 title: Локализация Commerce для России
 description: В этой теме представлен обзор локализации Microsoft Dynamics 365 Commerce для России.
 author: akviklis@microsoft.com
-ms.date: 08/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-6-23
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 71ec85fd3ff7cd2ca0b85206638272f57ad4d9043de8e2634fee2a27220e833a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 890521752dd49c7ffa9dd010294afcb0afc73ef7
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768479"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344424"
 ---
 # <a name="commerce-localization-for-russia"></a>Локализация Commerce для России
 
@@ -93,11 +93,13 @@ ms.locfileid: "6768479"
 
 ### <a name="eastern-europe-specific-pos-features"></a>Функции POS для Восточной Европы
 
+
 Следующие функции POS для Восточной Европы активируются после настройки локализации Commerce для России:
 
 - Платежи наличными клиента в соответствии с требованиями модуля управления кассами розничного магазина.
 - Наличные оплаты с использованием журналов мелких наличных денег в центральном офисе Commerce.
 - Розничные проводки, объединенные по определенным критериям или разнесенные отдельно.
+
 
 Дополнительные сведения см. в разделе [Управление мелкими наличными деньгами для Commerce для Восточной Европы](emea-eeu-petty-cash-for-retail.md).
 

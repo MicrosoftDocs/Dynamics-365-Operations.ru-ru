@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773545"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384667"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
 
@@ -41,8 +41,8 @@ ms.locfileid: "6773545"
 | Запасы и логистика | [Функции поиска для полей введения к документу и подписи к документу на странице предложения по продажам](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Эта функция добавляет функциональность подстановки для полей **Введение к документу** и **Подпись к документу** на странице **Предложения по продажам**.<br><br>По умолчанию эта функция включена. |
 | Запасы и логистика | [Выполнение склада с пограничными единицами масштабирования на настраиваемом оборудовании](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Развертывание пограничных единиц измерения на настраиваемом оборудовании с помощью LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Производство | [Выполнение производства с пограничными единицами масштабирования на настраиваемом оборудовании](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Планирование | [Планирование неограниченной мощности для оптимизации планирования](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Эта функция включает планирование мощностей с неограниченной мощностью для оптимизации планирования. Без этой функции запланированные производственные заказы получают время упреждения из времени упреждения запасов выпущенных продуктов, независимо от временных границ планирования. |
-| Планирование | Подтверждение спланированного заказа на основе запроса | [Утверждение спланированных заказов](../master-planning/planning-optimization/planned-order-firming.md) |
+| Планирование | [Планирование неограниченной мощности для оптимизации планирования](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Планирование без ограничений по мощности](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Планирование | Подтверждение спланированного заказа на основе запроса | [Утвержденные спланированные заказы](../master-planning/planning-optimization/planned-order-firming.md) |
 | Управление сведениями о продукте | [Улучшения страницы предложений вариантов](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Создание заранее определенных вариантов продукта](../pim/tasks/create-predefined-product-variants.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Улучшения функций, включенные в данный выпуск

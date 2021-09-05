@@ -1,8 +1,8 @@
 ---
 title: Настройка параметров приемлемости личных контактов
-description: Настройка параметров допустимости для личных контактов в Microsoft Dynamics 365 Human Resources. Личные контакты могут быть бенефициарами или иждивенцами.
-author: andreabichsel
-ms.date: 06/25/2021
+description: В этой теме объясняется настройка параметров допустимости для личных контактов в Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50f290bbf53c70a7b33d061aaa80a9a1b3583d2c0fc2bb15f31f877b611187cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd0ba4b609aaf05d37b120eaea71095a589bcc0a
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423370"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Настройка параметров приемлемости личных контактов
 

@@ -1,5 +1,5 @@
 ---
-title: Обзор моментальных снимков (предварительная версия)
+title: Обзор моментальных снимков
 description: В этой теме описывается функция создания моментальных снимков, которая позволяет сохранить прогноз движения денежных средств для анализа или сравнения с фактическими результатами позже. При создании прогноза движения денежных средств можно сохранить этот прогноз как "моментальный снимок". Затем эти снимки можно использовать для редактирования счетов, которые были включены в прогноз, или для сравнения прогноза в снимке с фактическими значениями.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc7bfbf88acca3f74b2cc57e5caf38cea43a833f12e6ec40eebcb9b249b059
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcaaa9fe13e36bbe71e29d82c9f22a4fff9248ef
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765036"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386571"
 ---
-# <a name="snapshots-overview-preview"></a>Обзор моментальных снимков (предварительная версия)
+# <a name="snapshots-overview"></a>Обзор моментальных снимков
 
 [!include [banner](../includes/banner.md)]
 

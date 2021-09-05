@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753803"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384643"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Установка и подключение приложения склада
 
@@ -136,7 +136,7 @@ ms.locfileid: "6753803"
 | ConnectionName | Укажите имя параметра подключения. Оно может содержать до 20 знаков. Поскольку это значение является уникальным идентификатором для параметра подключения, убедитесь, что он уникален в списке. Если на устройстве уже существует подключение с таким именем, оно будет переопределено настройками из импортированного файла. |
 | ActiveDirectoryClientAppId | Указание кода клиента, для которого была создана заметка во время настройки Azure AD в разделе [Создание приложения веб-службы в Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Укажите корневой URL-адрес Supply Chain Management. |
-| ActiveDirectoryTenant | Укажите клиент Azure AD, используемый с сервером Supply Chain Management. Это значение имеет форму `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Рассмотрим пример: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Укажите доменное имя Azure AD, используемое с сервером Supply Chain Management. Это значение имеет форму `https://login.windows.net/<your-Azure-AD-domain-name>`. Рассмотрим пример: `https://login.windows.net/contosooperations.onmicrosoft.com`. Дополнительные сведения о получении доменного имени Azure AD см. в разделе [Поиск важных кодов для пользователя](/partner-center/find-ids-and-domain-names). |
 | Организация | Укажите юридическое лицо в Supply Chain Management, к которому должно подключаться приложение. |
 | ConnectionType | (Необязательно) Укажите, должен ли параметр подключения использовать сертификат или секрет клиента для подключения к среде. Допустимыми значениями являются *"certificate"* и *"clientsecret"*. Значение по умолчанию равно *"certificate"*.<p>**Примечание:** секреты клиента невозможно импортировать.</p> |
 | IsEditable | (Необязательно) Укажите, должен ли пользователь приложения иметь возможность редактирования параметров подключения. Допустимыми значениями являются *"true"* и *"false"*. Значение по умолчанию равно *"true"*. |
@@ -248,7 +248,7 @@ ms.locfileid: "6753803"
         > [!NOTE]
         > Не завершайте это значение символом косой черты (/).
 
-    - **Клиент Active Directory** — введите клиент Azure AD, используемый с сервером Supply Chain Management. Это значение имеет форму `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Рассмотрим пример: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Клиент Active Directory** — введите доменное имя Azure AD, используемое с сервером Supply Chain Management. Это значение имеет форму `https://login.windows.net/<your-Azure-AD-domain-name>`. Рассмотрим пример: `https://login.windows.net/contosooperations.onmicrosoft.com`. Дополнительные сведения о получении доменного имени Azure AD см. в разделе [Поиск важных кодов для пользователя](/partner-center/find-ids-and-domain-names).
 
         > [!NOTE]
         > Не завершайте это значение символом косой черты (/).

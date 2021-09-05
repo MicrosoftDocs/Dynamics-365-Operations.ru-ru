@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738277"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343485"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Повышение производительности подсистемы планирования
 
@@ -70,7 +70,7 @@ ms.locfileid: "6738277"
 
 При отправке этого в подсистему он разделяется на восемь заданий, как показано на следующем рисунке (выберите изображение, чтобы увеличить его).
 
-[![Задания механизма планирования](media/scheduling-engine-jobs.png "Задания механизма планирования".](media/scheduling-engine-jobs-large.png)
+[![Задания механизма планирования](media/scheduling-engine-jobs.png "Задания механизма планирования.")](media/scheduling-engine-jobs-large.png)
 
 Стандартная связь между двумя заданиями — это `FinishStart`, что означает, что время завершения одного задания должно предшествовать времени начала другого задания. Так как эта настройка должна выполняться тем же ресурсом, который позже выполнит процесс, существуют ограничения `OnSameResource` между ними. Между заданиями для первичной и вторичной операции для 10 имеются связи `StartStart` и `FinishFinish`, что означает, что задания должны начинаться и заканчиваться одновременно, и существуют ограничения `NotOnSameResource`, которые не допускают один и тот же ресурс для первичной и вторичной операций.
 

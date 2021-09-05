@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751106"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344986"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Анализ соответствия оптимизации планирования
 
@@ -51,6 +51,9 @@ ms.locfileid: "6751106"
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Обзор возможных результатов анализа пригодности
 
 В следующей таблице показаны различные результаты, которые могут быть показаны после анализа пригодности. Знаки решетки (_\#_) будут заменены номером, указывающим число записей с указанной проблемой. Поддерживаемые функции или предварительны версии функций доступны в версии 10.0.9 или более поздней (если только в столбце "Ожидаемая доступность" не указан номер более поздней версии).
+
+> [!NOTE]
+> Некоторые несоответствия не могут быть обнаружены при анализе соответствия оптимизации планирования. Дополнительные сведения см. в разделе [Различия между классическим сводным планированием и оптимизацией планирования](planning-optimization-differences-with-built-in.md).
 
 | Функция | Проблема в списке | Пояснение | Ожидаемая доступность |
 | --- | --- | --- | --- |
@@ -106,7 +109,11 @@ ms.locfileid: "6751106"
 
 [Начало работы с оптимизацией планирования](get-started.md)
 
-[Просмотр журнала плана и журналов планирования](plan-history-logs.md)
+[Различия между классическим сводным планированием и оптимизацией планирования](planning-optimization-differences-with-built-in.md)
+
+[Параметры, не используемые в оптимизации планирования](not-used-parameters.md)
+
+[Просмотр истории плана и журналов планирования](plan-history-logs.md)
 
 [Применение фильтров к плану](plan-filters.md)
 

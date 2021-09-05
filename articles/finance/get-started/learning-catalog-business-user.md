@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 75fbf177cd74739b35e72f2cae56a6c46fe69540145f16c80766b3ec260e8d0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc4067ff395042ec30bdb6a846d12509a1436256
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713764"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402552"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Каталог учебных курсов для пользователей Dynamics 365 Finance
 
@@ -32,6 +32,7 @@ ms.locfileid: "6713764"
 | [Значение Microsoft Dynamics 365 и Power Platform для бизнеса](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Вы заинтересованы в изучении бизнес-приложений? Возможно, вы не знаете, как начать работать с приложениями Microsoft Dynamics 365 и Power Platform? Узнайте, как мощь бизнес-приложений может способствовать преобразованию бизнеса. | Бесплатный путь онлайн-обучения в произвольном темпе | 8 часов |
 | [Основы Dynamics 365 и Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Вы заинтересованы в изучении бизнес-приложений? Начните с этого учебного пути, чтобы узнать, как используются приложения Dynamics 365. Узнайте о концепциях облака, Power Platform и о том, как начать работу с приложениями Dynamics 365. | Бесплатный путь онлайн-обучения в произвольном темпе | 5.5 часов   |
 | [Начало работы с приложениями Finance and Operations](/learn/paths/get-started-finance-operations/) | Узнайте, как приложения Finance and Operations поддерживают предприятия для управления глобальными финансовыми системами, рабочими бизнес-процессами и оптимизированными цепочками поставок, чтобы предоставить сотрудникам возможность быстро принимать обоснованные решения.   В качестве первого шага по работе с приложениями Finance and Operations необходимо ознакомиться с его возможностями и функциями, независимо от вашей желаемой роли. | Бесплатный путь онлайн-обучения в произвольном темпе | 2 часов |
+| [Начало работы с Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | С помощью Dynamics 365 Intelligent Order Management клиенты могут управлять оркестрацией заказов посредством выполнения. Эти возможности позволяют организациям оркестрировать потоки заказов между различными платформами и приложениями. | Бесплатный модуль онлайн-обучения в произвольном темпе | 30 минут |
 | [Курс MB-900T01-A: Основы Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Этот курс познакомит учащегося с функциональными возможностями и ценностью для бизнеса Dynamics 365. Курс охватывает приложения Dynamics 365, а также Power Platform, концепции облака, модель безопасности и вопросы лицензирования. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 1 день |
 
 ## <a name="core-platform-knowledge"></a>Основные сведения о платформе<a name="core-platform-knowledge"></a>

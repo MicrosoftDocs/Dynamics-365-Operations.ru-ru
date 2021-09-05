@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3a7837932b53886a2d35d440234c9f25e20f1dd82b2a76f84f897d2917a00f7
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: f3e58901804ef2495d9c0372f893ce041ee4b8ce
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7011995"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344308"
 ---
 # <a name="russia-overview"></a>Обзор по России
 

@@ -1,8 +1,8 @@
 ---
 title: Обработка приемлемости регистрации
-description: В этой статье объясняется, как выполнить процесс допустимости регистрации.
-author: andreabichsel
-ms.date: 04/06/2020
+description: В этой теме объясняется, как выполнить процесс допустимости регистрации.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782080"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417492"
 ---
 # <a name="process-enrollment-eligibility"></a>Обработка приемлемости регистрации
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой статье объясняется, как выполнить процесс допустимости регистрации.
+В этой теме объясняется, как выполнить процесс допустимости регистрации.
 
 1. В рабочей области **Управление льготами** в **Обработка** выберите **Обработка допустимости регистрации**.
 
@@ -53,11 +53,11 @@ ms.locfileid: "6782080"
 
 ## <a name="view-process-results"></a>Просмотр результатов обработки
 
-В этой статье объясняется, как просматривать результаты обработки применимости.
+В этой теме объясняется, как просматривать результаты обработки применимости.
 
 1.  В рабочей области **Управление льготами** в **Обработка** выберите **Результаты обработки**.
 
-2.  В форме **Результаты обработки** указываются следующие поля:
+2.  На странице **Результаты обработки** указываются следующие поля:
 
    | Поле | описание |
    | --- | --- |
