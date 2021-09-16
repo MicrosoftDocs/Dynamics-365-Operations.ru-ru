@@ -6,6 +6,8 @@
           href: index.md
         - name: Начало работы
           items:
+            - name: Описание службы
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: Перед покупкой
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Регистрация на ознакомительные подписки
@@ -72,6 +74,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.22 (ноябрь 2021\_г.)"
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: "Finance 10.0.21 (октябрь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: "Finance 10.0.20 (август 2021\_г.)"
@@ -1168,8 +1172,12 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: При закрытии года отсутствуют входящие сальдо
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Как настроить балансирование финансовых аналитик?
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: Открытие шаблонов финансового журнала в Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Финансовые аналитики по умолчанию в финансовых журналах
+                  href: general-ledger/dimension-default-values.md
                 - name: Сбой разноски журнала из-за дисбаланса
                   href: general-ledger/posting-fail-imbalance.md
                 - name: Почему невозможно сторнировать проводку?
@@ -1472,17 +1480,17 @@
               items:
                 - name: Обзор служб глобализации
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory Configuration Service (RCS)
                   items:
-                    - name: Обзор Regulatory Configuration Service
+                    - name: Обзор Regulatory Configuration Service (RCS)
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service — функции глобализации
+                    - name: Regulatory Configuration Service (RCS) — функции глобализации
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
+                    - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service (RCS) и их отправка в глобальный репозиторий
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service — удаление среды RCS
+                    - name: Regulatory Configuration Service (RCS) — удаление среды RCS
                       href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
+                    - name: Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: Загрузка конфигураций электронной отчетности в Finance
                       items:
@@ -1550,6 +1558,8 @@
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Определение
                       items:
+                        - name: Модель данных для расчета налога
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: Логика применимости налога и определения налоговой группы
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Расчет
@@ -1574,6 +1584,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Отчет ЕС по НДС
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Отчетность Швеции
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Отчетность Швейцарии
                           items:
                             - name: Декларация по НДС
@@ -2690,6 +2704,8 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: Итальянский Интрастат
                   href: localizations/emea-ita-intrastat.md
+                - name: Разноска поступлений и отправок для Интрастат
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: Накладные расходы на килограмм в декларации Интрастат
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Письма о намерениях — выставление накладных обычным экспортерам
@@ -2982,6 +2998,8 @@
               items:
                 - name: Обзор по Оману
                   href: localizations/oman.md
+                - name: Декларация НДС для Омана (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Нидерланды
               items:
                 - name: Обзор по Нидерландам
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Отчет о налоговых платежах для Швеции
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: Декларация по НДС для Швеции
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: Шведский Интрастат
+                  href: localizations/emea-swe-intrastat.md
             - name: Швейцария
               items:
                 - name: Обзор по Швейцарии
@@ -3420,6 +3442,28 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: 'Настройка налоговых групп для НДС, удерживаемого с покупателя'
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: Отчетность Соединенного Королевства
+                  items:
+                    - name: Making Tax Digital (MTD) для НДС
+                      items:
+                        - name: Подача заявлений на возврат НДС Making Tax Digital (MTD) в Соединенном Королевстве
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: Подготовка среды к взаимодействию с веб-службой HMRC MTD для НДС
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: Авторизация среды Finance для взаимодействия с веб-службой HMRC MTD
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Тестирование взаимодействия с песочницей MTD для НДС
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Подача заявления на возврат НДС в веб-службу HMRC MTD
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: Контрольный список для настройки электронных сообщений для MTD для НДС
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: Создание декларации по НДС в бумажном формате (отчет НДС 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: Особенности настройки НДС для деклараций в Соединенном Королевстве
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Получение информации о платежах и обязательствах по НДС из HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: Статистика по отчету о методах оплаты
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: США
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Импорт конфигураций (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: Обзор Regulatory Configuration Service (RCS)
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: Загрузка конфигураций электронной отчетности в Finance
+                      items:
+                        - name: Загрузка конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Импорт конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Глобальный репозиторий (GR)
+                      items:
+                        - name: Импорт конфигураций из GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Импорт обновленных версий конфигураций электронной отчетности
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Улучшенная фильтрация для поиска конфигураций в GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Отправка конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Совместное использование конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
@@ -4207,6 +4275,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка источников данных ПОИСКА для использования параметров для приложения электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка сопоставлений моделей
@@ -4275,6 +4345,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка зависящих от действия назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Настройка назначений электронной отчетности, относящиеся к записи управления печатью'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка ссылки на формат электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Автоматическая проверка созданных отчетов
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: Обновление приложения 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: Обновление приложения 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
@@ -4333,6 +4407,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+                - name: 'Изменение кода, чтобы разрешить пользователям настраивать и использовать именованные назначения ER'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: Мобильное приложение
           items:
             - name: Домашняя страница мобильного приложения

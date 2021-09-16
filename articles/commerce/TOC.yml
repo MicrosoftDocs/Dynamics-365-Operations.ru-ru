@@ -6,6 +6,8 @@
           href: index.md
         - name: Начало работы
           items:
+            - name: Описание службы
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Перед покупкой
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: Обновления службы с одной версией
@@ -94,6 +96,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.22 (ноябрь 2021\_г.)"
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: "Commerce 10.0.21 (октябрь 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce 10.0.20 (август 2021\_г.)"
@@ -254,8 +258,12 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Устранение неполадок Commerce Data Exchange
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: Сортировка пакетов Commerce Data Exchange по первичному индексу
+                      href: CDX-package-sort.md
                 - name: Архитектура Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Автономная реализация и устранение неполадок Commerce
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Публикация каталога интернет-магазина
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Содержимое Retail Channel Performance Power BI
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: Синхронизация оценок продуктов
                   href: sync-product-ratings.md
+                - name: Включение публикации оценок и отзывов вручную модератором
+                  href: manual-publish-rating-reviews.md
+                - name: Вопросы и ответы по оценкам и отзывам
+                  href: ratings-reviews-faq.md
             - name: Управление запасами
               items:
                 - name: Запасы
@@ -754,6 +766,8 @@
                   href: multiple-pickup-modes.md
                 - name: Обработка самовывоза заказа клиентом в POS
                   href: process-order-pickup-POS.md
+                - name: Включение поиска заказов для оформления заказов клиентами-гостями
+                  href: order-lookup-guest.md
             - name: Заказы на продажу
               items:
                 - name: Создание заказов центра обработки вызовов
@@ -1146,6 +1160,8 @@
                       href: order-confirmation-module.md
                     - name: Модуль подарочных сертификатов
                       href: add-giftcard.md
+                    - name: Модуль поиска заказов
+                      href: order-lookup-module.md
                 - name: Модули поиска магазинов
                   items:
                     - name: Модуль карты
@@ -1174,6 +1190,8 @@
                       href: nav-menu-module.md
                     - name: Модуль выбора сайта
                       href: site-selector.md
+                    - name: Модуль выбора страны или региона
+                      href: country-region-picker-module.md
                 - name: Модули поиска
                   items:
                     - name: Модуль результатов поиска
@@ -1196,6 +1214,8 @@
               items:
                 - name: 'Определение целевой аудитории по устройствам, рынкам и геолокации'
                   href: targeting-overview.md
+                - name: Настройка географического обнаружения и перенаправления
+                  href: geo-detection-redirection.md
             - name: Эксперименты
               items:
                 - name: Эксперименты в Dynamics 365 Commerce
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Определенные пользователем профили сертификатов для розничных магазинов
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: Regulatory Configuration Service (RCS)
               items:
-                - name: Обзор Regulatory Configuration Service
+                - name: Обзор Regulatory Configuration Service (RCS)
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service — функции глобализации
+                - name: Regulatory Configuration Service (RCS) — функции глобализации
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service и их отправка в глобальный репозиторий
+                - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service (RCS) и их отправка в глобальный репозиторий
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service — устаревание хранилища Lifecycle Services
+                - name: Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Загрузка конфигураций электронной отчетности в Commerce
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Импорт конфигураций из RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Глобальный репозиторий (GR)
-                  items:
-                    - name: Импорт конфигураций из GR
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Импорт обновленных версий конфигураций электронной отчетности
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Улучшенная фильтрация для поиска конфигураций в GR
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Отправка конфигураций в GR
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: Совместное использование конфигураций в GR
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Прекращение использования конфигураций в глобальном репозитории RCS
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Глобальный репозиторий (GR)
+                      items:
+                        - name: Импорт конфигураций из GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Импорт обновленных версий конфигураций электронной отчетности
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Улучшенная фильтрация для поиска конфигураций в GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Отправка конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Совместное использование конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
@@ -1888,6 +1908,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Импорт конфигураций (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: Обзор Regulatory Configuration Service (RCS)
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: Загрузка конфигураций электронной отчетности в Commerce
+                      items:
+                        - name: Загрузка конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: Импорт конфигураций из RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Глобальный репозиторий (GR)
+                      items:
+                        - name: Импорт конфигураций из GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Импорт обновленных версий конфигураций электронной отчетности
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Улучшенная фильтрация для поиска конфигураций в GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Отправка конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Совместное использование конфигураций в GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Краткие руководства по началу работы
               items:
                 - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
@@ -1944,6 +1988,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: Изменение и выполнение форматов для использования файлов управления документами
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: Использование ШТРИХ-КОДА для создания изображений штрих-кода
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Настройка источников данных ПОИСКА для использования параметров для приложения электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Использование ШТРИХ-КОДА для создания изображений штрих-кода
@@ -2014,6 +2064,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Настройка зависящих от действия назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Настройка назначений электронной отчетности, относящиеся к записи управления печатью'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка ссылки на формат электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Автоматическая проверка созданных отчетов
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: Обновление приложения 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: Обновление приложения 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
@@ -2072,6 +2126,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Изменение кода, чтобы разрешить пользователям настраивать и использовать именованные назначения ER'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
         - name: Мобильное приложение Finance and Operations (Dynamics 365)
           items:
             - name: Домашняя страница мобильного приложения
@@ -2456,10 +2512,6 @@
               items:
                 - name: Архитектура Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Предстоящие изменения в Retail SDK
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: Разработка и изменения ALM между версиями 10.0.10 и 10.0.13
-                  href: dev-itpro/dev-changes-10-13.md
                 - name: Настройка конвейера сборки для пакета SDK независимой упаковки
                   href: dev-itpro/build-pipeline.md
                 - name: Объединение систем сборки для Commerce и Finance and Operations
@@ -2586,8 +2638,6 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: Создание API расширения Retail Server (Retail SDK версии 10.0.11 и более поздние версии)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Создание нового API расширения Retail Server (Retail SDK версии 10.0.11 и более ранние версии)
-                  href: dev-itpro/retail-server-extension.md
                 - name: Прокси Typescript и C# в Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Использование интерфейсов API Retail Server во внешних приложениях
@@ -2704,6 +2754,8 @@
                   href: troubleshoot/pickup-store-missing.md
                 - name: Невозможно извлечь номенклатуры без запасов
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: 'На страницах результатов поиска и категорий отображается уточнение оценок, если не включено решение оценок и отзывов'
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: Устранение неполадок с пакетом SDK
               items:
                 - name: Настройка среды разработки электронной коммерции для отладки в виртуальной машине Retail Server уровня 1

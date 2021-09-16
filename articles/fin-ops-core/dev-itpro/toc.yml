@@ -10,10 +10,12 @@
           items:
             - name: Что нового и что изменилось в приложениях Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Что нового и что изменилось в выпусках Platform update
+            - name: Что нового и что изменилось в выпусках обновления платформы
               items:
-                - name: Что нового и что изменилось на домашней странице обновлений платформы
+                - name: Что нового и что изменилось на домашней странице обновления платформы
                   href: get-started/whats-new-home-page.md
+                - name: "Обновления платформы для версии 10.0.22 (ноябрь 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: "Обновления платформы для версии 10.0.21 (октябрь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Обновления платформы для версии 10.0.20 (август 2021\_г.)"
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: Язык программирования X++
               items:
-                - name: X++ и функции отладчика
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Требования Visual Studio 2017 к X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Отладка кода X++
-                  href: dev-tools/debug-xpp.md
-                - name: Классы EventHandlerResult в сценариях с запросами и ответами
-                  href: dev-tools/event-handler-result-class.md
-                - name: Написание бизнес-логики на языках C# и X++ Source Code
-                  href: dev-tools/write-business-logic.md
-                - name: Изменения в X++ и компиляторе X++
-                  href: dev-tools/programming-language-support.md
-                - name: Поставщик LINQ для C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Написание правил рекомендаций
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Свойства обозревателя приложений
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Поддержка языка X++
+                  items:
+                    - name: Требования Visual Studio 2017 к X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Отладка кода X++
+                      href: dev-tools/debug-xpp.md
+                    - name: Классы EventHandlerResult в сценариях с запросами и ответами
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Написание бизнес-логики на языках C# и X++ Source Code
+                      href: dev-tools/write-business-logic.md
+                    - name: Поставщик LINQ для C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Написание правил рекомендаций
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Свойства обозревателя приложений
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: Справочник по языку X++
                   items:
                     - name: Обзор справочника по языку X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Библиотеки
                           href: dev-ref/xpp-library-objects.md
-                        - name: События
+                        - name: События и делегаты
                           href: dev-ref/xpp-events.md
                     - name: Выбор данных и манипуляции с данными в X++
                       items:
@@ -906,9 +906,11 @@
               href: dev-tools/date-effectivity.md
             - name: Разработка для независимых поставщиков программного обеспечения
               items:
+                - name: Домашняя страница разработки в ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Привязка модулей X++ к пакетам с использованием ISV Studio
                   href: dev-tools/isv-studio-solutions.md
-                - name: Лицензирование для независимых поставщиков программного обеспечения
+                - name: Лицензирование ISV
                   href: dev-tools/isv-licensing.md
                 - name: Локальное лицензирование для независимых поставщиков программного обеспечения
                   href: dev-tools/isv-licensing-on-prem.md
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Учебник по запросам
               href: lifecycle-services/querycookbook.md
+            - name: Подписки с истекшим сроком действия и удаление данных
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Обзор Dynamics 365 Translation Service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Рекомендации по первоначальной синхронизации
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Ограничения для синхронизации в реальном времени
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Настройка двойной записи из Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Включение двойной записи для существующих приложений Finance and Operations
