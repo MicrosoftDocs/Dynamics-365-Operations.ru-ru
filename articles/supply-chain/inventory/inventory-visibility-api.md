@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343640"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474660"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
@@ -46,6 +46,9 @@ ms.locfileid: "7343640"
 
 Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
 Микрослужба видимости запасов развернута в Microsoft Azure Service Fabric, в нескольких географических регионах и в нескольких странах/регионах. В настоящее время отсутствует центральная конечная точка, которая может автоматически перенаправлять запрос в соответствующие географический регион и страну/регион. Поэтому необходимо вставить фрагменты данных в URL-адрес, используя следующий шаблон:
@@ -54,22 +57,26 @@ ms.locfileid: "7343640"
 
 Краткое наименование географического региона можно найти в среде Microsoft Dynamics Lifecycle Services (LCS). В следующей таблице перечислены географические регионы, которые сейчас доступны.
 
-| Регион Azure | Краткое название региона |
-|---|---|
-| Восточная Австралия | eau |
-| Юго-восточная Австралия | seau |
-| Центральная Канада | cca |
-| Восточная Канада | eca |
-| Северная Европа | neu |
-| Западная Европа | weu |
-| Восточная часть США | eus |
-| Западная часть США | wus |
-| Южная часть Соединенного Королевства | suk |
-| Западная часть Соединенного Королевства | wuk |
+| Регион Azure        | Краткое название региона |
+| ------------------- | ----------------- |
+| Восточная Австралия      | eau               |
+| Юго-восточная Австралия | seau              |
+| Центральная Канада      | cca               |
+| Восточная Канада         | eca               |
+| Северная Европа        | neu               |
+| Западная Европа         | weu               |
+| Восточная часть США             | eus               |
+| Западная часть США             | wus               |
+| Южная часть Соединенного Королевства            | suk               |
+| Западная часть Соединенного Королевства             | wuk               |
+| Восточная Япония          | ejp               |
+| Западная Япония          | wjp               |
+| Южная Бразилия        | sbr               |
+| Юго-центральный регион США    | scus              |
 
 Номер остров — это место развертывания среды LCS в Service Fabric. В настоящее время невозможно получить эту информацию со стороны пользователя.
 
-Корпорация Майкрософт создала интерфейс пользователя Power Apps, чтобы можно было получить полную конечную точку микрослужбы. Дополнительные сведения см. в [Поиск конечной точки службы](inventory-visibility-power-platform.md#get-service-endpoint).
+Корпорация Майкрософт создала интерфейс пользователя Power Apps, чтобы можно было получить полную конечную точку микрослужбы. Дополнительные сведения см. в [Поиск конечной точки службы](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Аутентификация
 
@@ -80,66 +87,66 @@ ms.locfileid: "7343640"
 1. Выполните вход на портал Azure и используйте его, чтобы найти значения `clientId` и `clientSecret` для вашего приложения Dynamics 365 Supply Chain Management.
 1. Получите токен Azure AD (`aadToken`), отправив HTTP-запрос со следующими свойствами:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Метод:** `GET`
-    - **Содержимое основной части (данные формы):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Метод:** `GET`
+   - **Содержимое основной части (данные формы):**
 
-        | Ключ | значение |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | ресурс | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Ключ           | значение                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | ресурс      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    В ответе должен быть получен маркер Azure AD (`aadToken`). Она должна быть похожа на следующий пример.
+   В ответе должен быть получен маркер Azure AD (`aadToken`). Она должна быть похожа на следующий пример.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Сформулируйте запрос в формате JavaScript (JSON), который напоминает следующий пример.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Обратите внимание на следующие аспекты:
+   Обратите внимание на следующие аспекты:
 
-    - Значение `client_assertion` должно быть токеном Azure AD (`aadToken`), полученным на предыдущем шаге.
-    - Значение `context` должно быть идентификатором среды, в которой требуется развернуть надстройку.
-    - Установите все остальные значения, как показано в примере.
+   - Значение `client_assertion` должно быть токеном Azure AD (`aadToken`), полученным на предыдущем шаге.
+   - Значение `context` должно быть идентификатором среды LCS, в которой требуется развернуть надстройку.
+   - Установите все остальные значения, как показано в примере.
 
 1. Отправьте запрос HTTP со следующими свойствами:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Метод:** `POST`
-    - **Заголовок HTTP:** включите версию API. (Ключ — `Api-Version`, и значение — `1.0`.)
-    - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Метод:** `POST`
+   - **Заголовок HTTP:** включите версию API. (Ключ — `Api-Version`, и значение — `1.0`.)
+   - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
 
-    В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример:
+   В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример:
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 В последующих разделах будет использоваться `$access_token` для представления маркера, который был выбран на последнем шаге.
 
@@ -160,6 +167,9 @@ ms.locfileid: "7343640"
 | `quantities` | Это количество, на которое должно быть уменьшено количество в наличии. Например, если на полку добавлено 10 новых книг, это значение будет равно `quantities:{ shelf:{ received: 10 }}`. Если с полки убраны или проданы три книги, это значение будет равно `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Источник данных для аналитик, используемых в разноске события изменения и запроса. Если указан источник данных, можно использовать настраиваемые аналитики из указанного источника данных. С помощью конфигурации аналитик видимость запасов может сопоставлять пользовательские аналитики с общими аналитиками по умолчанию. Если значение `dimensionDataSource` не указано, в запросах могут использоваться только универсальные [базовые аналитики](inventory-visibility-configuration.md#data-source-configuration-dimension). |
 | `dimensions` | Динамическая пара "ключ-значение". Значения сопоставляются с некоторыми аналитиками в Supply Chain Management. Однако можно также добавить пользовательские аналитики (например, _Источник_), чтобы указать, поступает ли событие из модуля Supply Chain Management или из внешней системы. |
+
+> [!NOTE]
+> Параметры `SiteId` и `LocationId` создают [конфигурацию раздела](inventory-visibility-configuration.md#partition-configuration). Поэтому при создании событий изменения запасов в наличии необходимо задать их в аналитиках, установить или переопределить количества в наличии или создать события резервирования.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Создание одного события изменения в наличии
 
@@ -201,6 +211,9 @@ Body:
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId&quot;: &quot;Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ Body:
 }
 ```
 
-В следующем примере показано содержимое текста примера без `dimensionDataSource`.
+В следующем примере показано содержимое текста примера без `dimensionDataSource`. В этом случае `dimensions` будет [базовой аналитикой](inventory-visibility-configuration.md#data-source-configuration-dimension). Если `dimensionDataSource` установлен, то `dimensions` могут быть либо аналитиками источника данных, либо базовыми аналитиками.
 
 ```json
 {
@@ -219,9 +232,9 @@ Body:
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId&quot;: &quot;11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ Body:
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ Body:
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ Body:
 Для использования API *Резервирование* необходимо открыть функцию резервирование и выполнить настройку резервирования. Дополнительные сведения см. в [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Создание одного события резервирования
+
+Можно выполнить резервирование для других параметров источника данных. Чтобы настроить этот тип резервирования, сначала укажите источник данных в параметре `dimensionDataSource`. Затем в параметре `dimensions` задайте аналитики в соответствии с параметрами аналитик в целевом источнике данных.
+
+При вызове API резервирования можно контролировать проверку резервирования путем указания логического параметра `ifCheckAvailForReserv` в тексте запроса. Значение `True` означает, что проверка является обязательной, а значение `False` означает, что проверка не является обязательной. Значение по умолчанию — `True`.
+
+Если необходимо отменить резервирование или отказаться от указанного количества запасов, установите отрицательное значение количества и задайте для параметра `ifCheckAvailForReserv` значение `False` для пропуска проверки.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+В части этого запроса `dimensionDataSource` по-прежнему является опциональным параметром. Если оно не задано, `filters` будет рассматриваться как *Базовая аналитика*. Имеется четыре обязательных поля для `filters`: `organizationId`, `productId`, `siteId` и `locationId`.
+
+- `organizationId` должно содержать только одно значение, но все еще является массивом.
+- `productId` может содержать одно или несколько значений. Если оно является пустым массивом, будут возвращаться все продукты.
+- `siteId` и `locationId` используются в Видимости запасов для секционирования.
+
+Параметр `groupByValues` должен соответствовать вашей конфигурации для индексирования. Дополнительные сведения см. в [Конфигурация иерархии индекса продуктов](./inventory-visibility-configuration.md#index-configuration).
+
+Этот параметр `returnNegative` определяет, содержат ли результаты отрицательные значения.
 
 В следующем примере показано содержимое текста примера.
 
@@ -484,7 +522,24 @@ Body:
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+В следующих примерах показано, как запросить все продукты на конкретном сайте и в местонахождении.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Пример URL-адреса GET. Этот запрос GET в точности совпадает с приведенным ранее примером POST.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

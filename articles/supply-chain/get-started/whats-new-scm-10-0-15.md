@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751154"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471820"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "6751154"
 
 Этот выпуск содержит следующие функции. Перейдите по ссылке на [план выпуска](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<br> - Дополнительные сведения см. в разделе [Облачные и пограничные единицы масштабирования для рабочих нагрузок производства и управления складом](../cloud-edge/cloud-edge-landing-page.md).
+- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<br> - Дополнительные сведения см. [Единицы масштабирования в распределенной гибридной топологии](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Создать и обработать заказы на перемещение из приложения склада](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Дополнительные сведения см. в разделе [Создание заказов на перемещение из приложения склада](../warehousing/create-transfer-order-from-warehouse-app.md).
 

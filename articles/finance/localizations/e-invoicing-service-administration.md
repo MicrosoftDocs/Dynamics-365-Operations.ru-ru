@@ -2,7 +2,7 @@
 title: Компоненты администрирования электронного выставления накладных
 description: В этой теме приводятся сведения о компонентах, которые относятся к администрированию электронного выставления накладных.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721734"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463889"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Компоненты администрирования электронного выставления накладных
 
@@ -31,14 +31,14 @@ ms.locfileid: "6721734"
 
 ## <a name="azure"></a>Azure
 
-Используйте Microsoft Azure для создания секретов для хранилища ключей и учетной записи хранения. Затем используйте эти секреты в конфигурации электронного выставления накладных.
+Используйте Microsoft Azure для создания секретов для хранилища ключей и настройки учетной записи хранения. Затем используйте секреты хранилища ключей и маркер SAS учетной записи хранения в конфигурации электронного выставления накладных.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Используйте Microsoft Dynamics Lifecycle Services (LCS), чтобы включить микрослужбы для вашего проекта развертывания LCS.
+Используйте Microsoft Dynamics Lifecycle Services (LCS), чтобы включить надстройку "Электронное выставление счетов" для вашего проекта развертывания LCS.
 
 > [!NOTE]
-> При установке микрослужбы в LCS требуется как минимум виртуальная машина уровня 2. Дополнительные сведения о планирования среды см. в разделе [Планирование среды](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> При установке надстроек в LCS требуется как минимум **Среда уровня 2**. Дополнительные сведения о планирования среды см. в разделе [Планирование среды](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Службы Regulatory Configuration Services
@@ -53,20 +53,21 @@ Dynamics 365 Regulatory Configuration Services (RCS) — это интерфей
 
 Прежде чем можно будет использовать RCS для настройки электронных накладных, необходимо настроить RCS для обеспечения связи с электронным выставлением накладных. Эту настройку можно выполнить на вкладке **Электронное выставление накладных** на странице **Параметры электронной отчетности**.
 
-#### <a name="service-endpoint"></a>Конечная точка службы
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Конечная точка службы
 
 Электронное выставление накладных доступно в нескольких географических регионах центра обработки данных Azure. В приведенной ниже таблице содержится список доступности по регионам.
 
-| География центров обработки данных Azure |
-|----------------------------|
-| США              |
-| Европа                     |
-| Великобритания             |
-| Азия                       |
+
+| География центра обработки данных Azure | Универсальный код ресурса (URI) конечной точки службы                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Соединенные штаты              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Европа                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Соединенное Королевство             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Азия                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Среды службы
 
-Среды службы — это логические разделы, создаваемые для поддержки выполнения функций электронного выставления накладных в модуле электронного выставления накладных. Секреты безопасности и цифровые сертификаты, а также руководство (т. е., разрешения доступа) должны быть настроены на уровне среды службы.
+Среды службы — это логические разделы, создаваемые для поддержки выполнения функций глобализации в модуле электронного выставления накладных. Секреты безопасности и цифровые сертификаты, а также руководство (т. е., разрешения доступа) должны быть настроены на уровне среды службы.
 
 Клиенты могут создавать столько сред служб, сколько необходимо. Все среды службы, которые создает клиент, независимы друг от друга.
 
@@ -84,8 +85,8 @@ Dynamics 365 Regulatory Configuration Services (RCS) — это интерфей
 
 Служба электронного выставления накладных отвечает за хранение всех ваших деловых данных в ресурсах Azure, принадлежащих вашей компании. Для обеспечения правильной работы службы и того, что все деловые данные, необходимые для модуля электронного выставления накладных и создаваемые ими, были доступны должным образом, необходимо создать два основных ресурса Azure:
 
-- Учетная запись хранилища Azure (хранилище BLOB-объектов), в которой будут храниться электронные накладные
-- Azure Key Vault, в котором будут храниться сертификаты и универсальный код ресурса (URI) учетной записи хранилища
+- Учетная запись хранения Azure (хранилище BLOB-объектов), которая будет хранить электронные документы, включая электронные накладные, результаты преобразований документов и отклики от внешних веб-служб.
+- Azure Key Vault, в котором будут храниться сертификаты и универсальный код ресурса (URI) учетной записи хранилища (маркер SAS).
 
 
 Учетная запись Key Vault и хранилища клиента должна быть выделена специально для использования с электронным выставлением накладных. Дополнительные сведения см. в разделе [Создание учетной записи хранения Azure и Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Dynamics 365 Regulatory Configuration Services (RCS) — это интерфей
 
 Конечная точка службы — это URL-адрес, по которому расположен модуль электронного выставления накладных. Прежде чем можно будет выпускать электронные накладные, необходимо настроить конечную точку службы в Finance и Supply Chain Management, чтобы разрешить связь со службой.
 
-Чтобы настроить конечную точку для службы, перейдите в раздел **Администрирование организации \> Настройка \> Параметр электронных документов** на вкладке **Службы отправки** в поле **URL-адрес электронного выставления накладных**, введите URL-адрес, как описано в таблице, описанной в разделе **Конечная точка службы**.
+Чтобы настроить конечную точку для службы, перейдите в раздел **Администрирование организации \> Настройка \> Параметры электронных документов** на вкладке **Электронное выставление накладных** в поле **URL-адрес конечной точки**, введите соответствующий URL-адрес из таблицы в разделе [Конечная точка службы](#svc-endpoint-uris) выше в этом разделе.
 
 #### <a name="environments"></a>Среды
 
 Имя среды, введенное в Finance и Supply Chain Management, относится к имени среды, созданной в RCS и опубликованной в модуле электронного выставления накладных.
 
-Среда должна быть настроена на вкладке **Службы отправки** страницы **Параметры электронных документов**, чтобы каждый запрос на выпуск электронных накладных содержал среду, в которой модуль электронного выставления накладных может определить, какая функция электронного выставления накладных должна обработать запрос.
+Среда должна быть настроена на вкладке **Электронное выставление накладных** на странице **Параметры электронных документов**. Таким образом, каждый запрос на выпуск электронных накладных содержит среду, в которой электронное выставление накладных может определить, какая электронная накладная должна обработать запрос.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

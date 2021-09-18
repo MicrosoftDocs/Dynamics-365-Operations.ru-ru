@@ -1,8 +1,8 @@
 ---
 title: Настройка периодов ожидания
 description: В Microsoft Dynamics 365 Human Resources дни ожидания определяют этап для использования в планах льгот.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732593"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431073"
 ---
 # <a name="configure-waiting-periods"></a>Настройка периодов ожидания
 
@@ -38,7 +38,7 @@ ms.locfileid: "6732593"
    | --- | --- |
    | **Код ожидания** | Уникальный идентификатор для периода ожидания. |
    | **Описание** | Описание периода ожидания. |
-   | **Метод ожидания** | Выберите соответствующий метод ожидания из раскрывающегося списка значений. Доступны параметры нетто, текущий месяц, текущий квартал, текущий год и текущая неделя. |
+   | **Метод ожидания** | Выберите соответствующий метод ожидания из раскрывающегося списка значений. Доступны параметры **Чистый**, **текущий месяц**, **текущий квартал**, **текущий год** и **текущая неделя**. |
    | **Месяцы** | Ввод количества месяцев, добавляемых в способ ожидания для расчета даты ожидания. |
    | **Дни** | Ввод количества дней, добавляемых в способ ожидания для расчета даты ожидания. |
    | **День ожидания** | Выбор дня ожидания, используемого для расчета даты ожидания. |

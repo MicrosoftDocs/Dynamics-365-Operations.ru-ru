@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765249"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473485"
 ---
 # <a name="ratings-and-reviews-overview"></a>Обзор оценок и отзывов
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе рассматриваются оценки и отзывы в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Оценки и отзывы важны для клиентов электронной коммерции, желающих знать, как другие клиенты воспринимают продукт. Они также могут помочь потребителям принять решение о покупке. В Dynamics 365 Commerce решение оценки и отзывов позволяет розничным продавцам собирать отзывы о продуктах и рейтинги от клиентов. Розничные магазины могут затем показывать средние оценки и сведения об отзывах на веб-сайте электронной коммерции.
 

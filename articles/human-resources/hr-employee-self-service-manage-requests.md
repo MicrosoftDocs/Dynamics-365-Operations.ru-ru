@@ -1,8 +1,8 @@
 ---
 title: Управление запросами на отпуска и отсутствия
 description: Просмотр и утверждение запросов на отпуск и отсутствие в Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0033196c445a59482798e89913bbb40303462e2b
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769667"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431298"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Управление запросами на отпуска и отсутствие
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Управляйте запросами на отсутствие в рабочей области **Самообслуживание сотрудника** в Dynamics 365 Human Resources. Запросы могут представлять собой простые запросы на один день или запросы на несколько дней, включающие в себя несколько типов отпусков и отсутствий. Если workflow-процесс не включен, запросы утверждаются автоматически. Когда включен workflow-процесс, утверждение может происходить автоматически или требовать подписи, в зависимости от конфигурации workflow-процесса.
+Управляйте запросами на отсутствие в рабочей области **Самообслуживание сотрудника** в Dynamics 365 Human Resources. Запросы могут представлять собой простые запросы на один день или запросы на несколько дней, включающие в себя несколько типов отпусков и отсутствий. Если workflow-процесс не включен, запросы утверждаются автоматически. Когда включен рабочий процесс, утверждение может происходить автоматически или требовать подписи, в зависимости от конфигурации рабочий процесса.
 
 1. В рабочей области **Самообслуживание сотрудников** выберите **Моя группа**.
 

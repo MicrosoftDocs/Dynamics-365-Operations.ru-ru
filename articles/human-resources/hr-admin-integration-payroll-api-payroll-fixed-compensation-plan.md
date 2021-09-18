@@ -2,7 +2,7 @@
 title: План фиксированной компенсации зарплаты
 description: В этом разделе представлены сведения и пример запроса для сущности плана фиксированной компенсации заработной платы в Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429245"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>План фиксированной компенсации зарплаты
 
@@ -34,18 +34,27 @@ ms.locfileid: "6738399"
 
 ## <a name="properties"></a>Свойства
 
-| Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
+| Свойство</br>**Физическое имя**</br>**_Вид_** | Использование | описание |
 | --- | --- | --- |
-| **Код сотрудника**<br>mshr_fk_employee_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ:mshr_Employee_id of mshr_payrollemployeeentity entity  | Код сотрудника |
-| **Ставка зарплаты**<br>mshr_payrate<br>*Десятичн.* | Только для чтения<br>Требуется | Ставка оплаты, определенная в плане фиксированной компенсации. |
-| **Код плана**<br>mshr_planid<br>*Строка* | Только для чтения<br>Требуется |Определение плана компенсации.  |
-| **Действительно с**<br>mshr_validfrom<br>*Смещение даты и времени* |  Только для чтения<br>Требуется |Дата, с которой действительна фиксированная компенсация сотрудника.  |
-| **Сущность плана фиксированной компенсации заработной платы**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Требуется<br>Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
-| **Частота платежей**<br>mshr_payfrequency<br>*Строка* | Только для чтения<br>Требуется |Частота выплаты сотруднику.  |
-| **Действительно до**<br>mshr_validto<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата, до которой действительна фиксированная компенсация сотрудника. |
-| **Код должности**<br>mshr_positionid<br>*Строка* | Только для чтения <br>Требуется | Код должности, связанный с сотрудником и соглашением о регистрации плана фиксированной компенсации. |
-| **Валютное**<br>mshr_currency<br>*Строка* | Только для чтения <br>Требуется |Валюта, определенная для плана фиксированной компенсации   |
-| **Табельный номер**<br>mshr_personnelnumber<br>*Строка* | Только для чтения<br>Требуется |Уникальный табельный номер для сотрудника.  |
+| **Код плана**</br>mshr_planid</br>*Строка* | Только для чтения | Определение плана компенсации.  |
+| **Табельный номер**</br>mshr_personnelnumber</br>*Строка* | Только для чтения | Уникальный табельный номер для сотрудника. |
+| **Ставка зарплаты**</br>mshr_payrate</br>*Десятичное* | Только для чтения | Ставка оплаты, определенная в плане фиксированной компенсации. |
+| **Код должности**</br>mshr_positionid</br>*Строка* | Только для чтения | Код должности, связанный с сотрудником и соглашением о регистрации плана фиксированной компенсации. |
+| **Действительно с**</br>mshr_validfrom</br>*Смещение даты и времени* |  Только для чтения | Дата, с которой действительна фиксированная компенсация сотрудника.  |
+| **Действительно до**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой действительна фиксированная компенсация сотрудника. |
+| **Частота платежей**</br>mshr_payfrequency</br>*Строка* | Только для чтения | Частота выплаты сотруднику.  |
+| **Валютное**</br>mshr_currency</br>*Строка* | Только для чтения | Валюта, определенная для плана фиксированной компенсации. |
+| **Сущность плана фиксированной компенсации заработной платы**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
+
+## <a name="relations"></a>Связи
+
+|Значение свойства | Связанный объект | Свойство навигации | Тип сбора |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Пример запроса
 

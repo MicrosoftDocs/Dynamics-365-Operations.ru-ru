@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344296"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474996"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Обзор надстройки видимости запасов
 
@@ -31,22 +31,20 @@ ms.locfileid: "7344296"
 
 Можно интегрировать отображение запасов с несколькими системами сторонних производителей, установив параметры конфигурации для стандартизованных складских аналитик и настроив типы проводок. Отображение запасов также поддерживает настраиваемую расширяемость, используя настраиваемые рассчитанные количества.
 
-## <a name="supported-features"></a>Поддерживаемые функции
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Интеграция видимости запасов с Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Интеграция видимости запасов с Dynamics 365 Supply Chain Management
+Интегрированное решение извлекает данные инвентаризации из Dynamics 365 Supply Chain Management и непрерывно отслеживает изменения запасов. Дополнительные сведения см. в разделе [Установка и настройка отображения запасов](inventory-visibility-setup.md) и [Настройка отображения запасов](inventory-visibility-configuration.md).
 
-Интегрированное решение извлекает данные инвентаризации из Dynamics 365 Supply Chain Management и непрерывно отслеживает изменения запасов. Дополнительные сведения см. в разделе [Настройка видимости запасов](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Получить глобальное представление запасов
 
-### <a name="get-a-global-view-of-inventory"></a>Получить глобальное представление запасов
-
-Интегрированное решение позволяет определять собственные источники данных и централизовать данные запасов. Дополнительные сведения см. в разделе [Конфигурация видимости запасов](inventory-visibility-configuration.md).
+Интегрированное решение позволяет определять собственные источники данных и централизовать данные запасов. Дополнительные сведения см. в разделе [Настройка отображения запасов](inventory-visibility-configuration.md).
 
 Существуют два способа просмотра запасов:
 
 - Отправка запроса через высокопроизводительный API-интерфейс. Этот интерфейс API может возвращать данные о запасах практически в реальном времени непосредственно из кэшированного экземпляра. Контракты и образцы можно найти в [общедоступных API отображения запасов](inventory-visibility-api.md).
 - Просмотр списка необработанных запасов в наличии. Этот список периодически синхронизируется с кэшированным экземпляром и отображается в Dataverse. Дополнительные сведения см. в разделе [Приложение видимости запасов](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Предварительные резервирования
+## <a name="soft-reservations"></a>Предварительные резервирования
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

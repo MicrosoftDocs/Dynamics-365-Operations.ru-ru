@@ -1,8 +1,8 @@
 ---
 title: Настройка функции расширенного входа для MPOS и Cloud POS
 description: В этом разделе описываются параметры настройки расширенного входа для Cloud POS и Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748554"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478679"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Настройка функциональности расширенного входа для MPOS и Cloud POS
 
@@ -58,6 +58,8 @@ ms.locfileid: "6748554"
 Чтобы удалить расширенный вход, назначенный работнику, найдите работника с помощью операции **Расширенный вход**. Выберите работника, а затем выберите **Отменить**. Все учетные данные расширенного входа, связанные с этим работником, будут удалены.
 
 ## <a name="extending-extended-logon"></a>Расширение расширенного входа
+
+Расширенный вход в систему позволяет использовать только пять значащих символов в качестве уникального идентификатора по умолчанию. Например, если настроить две карты с кодами "1234567" и "1234578", они будут считаться "12345". Для поддержки большего количества символов можно создать расширение. Для получения подробных инструкций см. раздел [расширение функциональности расширенного входа в систему для MPOS и Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Услугу входа в систему можно расширить, чтобы обеспечить поддержку дополнительных устройств расширенного входа, например сканеров ладони. Дополнительные сведения см. в документации по расширяемости POS.
 

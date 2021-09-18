@@ -1,8 +1,8 @@
 ---
 title: Покупка и продажа отпуска
-description: В Dynamics 365 Human Resources можно отправлять запросы на покупку и продажу отпуска, используя политики покупки и продажи отпуска, настроенные вашей компанией.
-author: andreabichsel
-ms.date: 08/20/2020
+description: В этом разделе описывается, как отправлять запросы на покупку и продажу отпуска в Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1225bcfd0c7c9dfecde2aec54983fca8a298f1cf92d2929d8b1fbe2bdf05e5f9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 716afdc4e52c3e4a0432b987cb82077012d4d0c2
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779742"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431518"
 ---
 # <a name="buy-and-sell-leave"></a>Покупка и продажа отпуска
 
@@ -51,7 +51,7 @@ ms.locfileid: "6779742"
 
 ## <a name="troubleshooting"></a>Устранение неполадок 
 
-Если рабочий процесс в запросе на покупку или продажу заканчивается неудачей, пользователи с привилегией **EssLeaveBuySellRequestApprover** могут проверить журнал сообщений для всех запросов на покупку и продажу. Для этого перейдите к пункту **Отпуск и отсутствие > Ссылка > Запросы на покупку и продажу отпуска > Журнал сообщений** (в верхнем левом углу). **Журнал сообщений** показывает пользователям, как были обработаны проводки, и связанную историю workflow-процесса.
+Если рабочий процесс в запросе на покупку или продажу заканчивается неудачей, пользователи с привилегией **EssLeaveBuySellRequestApprover** могут проверить журнал сообщений для всех запросов на покупку и продажу. Для этого перейдите к пункту **Отпуск и отсутствие > Ссылки > Запросы на покупку и продажу отпуска > Журнал сообщений** (в верхнем левом углу). **Журнал сообщений** показывает пользователям, как были обработаны проводки, и связанную историю workflow-процесса.
 
 
 ## <a name="see-also"></a>См. также

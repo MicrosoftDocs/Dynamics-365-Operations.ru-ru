@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760522"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474611"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.17 (апрель 2021 г.)
 
@@ -99,10 +99,6 @@ ms.locfileid: "6760522"
 
 Недавно были добавлены или существенно обновлены следующие разделы справки. Они не обязательно связаны с новыми функциями, добавленными для данного выпуска, как это перечислено в предыдущем разделе, но они могут помочь эффективнее использовать существующие функции.
 
-### <a name="cost-management"></a>Управление затратами
-
-- [Устранение неполадок при управлении затратами](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Управление активами
 
 - [Настройка мобильной рабочей области управления активами](../asset-management/set-up-asset-management-mobile.md)
@@ -111,11 +107,9 @@ ms.locfileid: "6760522"
 
 - [Настройка фильтров продуктов для складских проводок](../warehousing/filters-and-filter-codes.md)
 
-- [Частичный цикличный подсчет по ячейкам](../warehousing/partial-location-cycle-counting.md)
+- [Частичный подсчет циклов по местонахождениям](../warehousing/partial-location-cycle-counting.md)
 
 - [Группировка строк комплектации](../warehousing/pick-line-grouping.md)
-
-- [Устранение неполадок операций с запасами](../inventory/troubleshoot-inventory-operations.md)
 
 - [Слоттинг на складе](../warehousing/warehouse-slotting.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712057"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474924"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.16 (февраль 2021 г.)
 
@@ -54,32 +54,8 @@ ms.locfileid: "6712057"
 - [Цены продажи на основе атрибутов для конфигурации продукта на основе ограничений](../pim/attribute-based-product-configurator.md)
 - [Автоматическое распределение накладных расходов](../procurement/automatic-charges-allocation.md)
 - [Обзор опасных материалов](../pim/hazmat-overview.md) (и связанные темы)
-- [Переход на оптимизацию планирования для сводного планирования](../master-planning/new-master-planning-engine.md)
+- [Миграция на оптимизацию планирования для сводного планирования](../master-planning/new-master-planning-engine.md)
 - [Улучшения cXML покупки](../procurement/purchasing-cxml-enhancements.md)
-- [Устранение неполадок управления затратами](../cost-management/troubleshoot-costmanagement.md)
-- [Устранение неполадок входящих операций склада](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Устранение неполадок формирования загрузок и отгрузок](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Устранение неполадок сводного планирования](../master-planning/troubleshoot-masterplanning.md)
-- [Устранение неполадок исходящих операций склада](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Устранение неполадок частичных отпусков и частичных отгрузок](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Устранение неполадок конфигуратора продуктов](../pim/troubleshooting-productconfigurator.md)
-- [Устранение неполадок в информации о продукте](../pim/troubleshooting-productinformation.md)
-- [Устранение неполадок в workflow-процессах закупок и источников](../procurement/troubleshoot-procurementworkflows.md)
-- [Устранение неполадок с заказами на покупку](../procurement/troubleshoot-purchaseorders.md)
-- [Устранение неполадок с ценами, скидками, договорами и ретробонусами](../procurement/troubleshooting-pricediscountagreements.md)
-- [Устранение неполадок с поступлением продуктов и выставлением счетов](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Устранение неполадок дискретного производства](../production-control/troubleshoot-discretemanufacturing.md)
-- [Устранение неполадок комплектации и упаковки](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Устранение неполадок непрерывного производства](../production-control/troubleshoot-processmanufacturing.md)
-- [Устранение неполадок резервирования в модуле "Управление складом"](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Устранение неполадок с заказами на продажу](../sales-marketing/troubleshooting-sales.md)
-- [Устранение неполадок с предложениями по продаже](../sales-marketing/troubleshooting-salesquotation.md)
-- [Устранение неполадок обновления и миграция на расширенное управление складом](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Устранение неполадок подключения мобильного приложения управления складом](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Устранение неполадок конфигурации склада](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Устранение неполадок пополнения склада](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Устранение неполадок настройки склада](../warehousing/troubleshoot-warehouse-setup.md)
-- [Устранение неполадок работы склада](../warehousing/troubleshoot-warehouse-work.md)
 - [Кластеры размещения](../warehousing/putaway-clusters.md)
 - [Стратегии пополнения](../warehousing/replenishment-strategies.md)
 - [Разделение работ](../warehousing/work-split.md)

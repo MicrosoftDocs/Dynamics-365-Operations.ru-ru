@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384667"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474900"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
 
@@ -67,7 +67,6 @@ ms.locfileid: "7384667"
 | Управление сведениями о продукте | [Управление единицей измерения](../pim/tasks/manage-unit-measure.md)<br><br>[Расчеты модели конфигурации продукта](../pim/config-model-calculations.md) |
 | Управление производством | [Единая номерная серия для кодов заданий](../production-control/unified-job-ids.md) |
 | Управление транспортировкой | [Классы LTL](../transportation/ltl-class.md)<br><br>[Коды NMFC](../transportation/nmfc-codes.md) |
-| Управление складом | [Устранение неполадок в иерархиях складских партий и последовательного резервирования](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
 | Управление складом, создание и обработка волн | [Создание и обработка волны](../warehousing/wave-processing.md)<br><br>[Параметры склада для обработки волны](../warehousing/wave-warehouse-parameters.md)<br><br>[Шаблоны волны](../warehousing/wave-templates.md)<br><br>[Распределение волны](../warehousing/wave-allocation-method.md)<br><br>[Планирование создания работы во время волны](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[Контейнеризация](../warehousing/wave-containerization.md)<br><br>[Уведомления о выполнении волны](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
