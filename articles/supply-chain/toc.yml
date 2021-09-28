@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: "Supply Chain Management 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: "Supply Chain Management 10.0.19 (июнь 2021\_г.)"
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Планирование без ограничений по мощности
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Планирование с выбором ресурсов на основе возможностей
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Маркировка запасов с оптимизацией планирования
                   href: master-planning/planning-optimization/marking.md
                 - name: Внутрихолдинговое планирование
@@ -2017,7 +2017,9 @@
                   href: procurement/request-quotations.md
                 - name: Создание запроса предложения
                   href: procurement/tasks/create-request-quotation.md
-                - name: 'Создание заявки, которая использует запрос предложения'
+                - name: Запечатывание предложений для запросов предложений
+                  href: procurement/sealed-bidding.md
+                - name: 'Создание заявки, связанной с запросом предложения'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Создание метода оценки для запросов предложений
                   href: procurement/tasks/create-scoring-method-rfqs.md

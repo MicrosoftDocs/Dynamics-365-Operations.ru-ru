@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: "Commerce 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: "Commerce 10.0.19 (июнь 2021\_г.)"
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Создание коммерческих соглашений с помощью правил ценообразования категорий
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Отсрочка точного расчета цены и скидки
+                  href: delayed-price-calculation.md
             - name: Рекомендации
               items:
                 - name: Обзор рекомендаций по продуктам
@@ -1328,9 +1328,11 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Разноска бразильских финансовых документов с помощью журналов операций розничной торговли в Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector для Adyen в Commerce POS для Бразилии
+                  href: localizations/latam-bra-adyen.md
             - name: Восточная Европа
               items:
-                - name: Общее
+                - name: Общие
                   items:
                     - name: Авансовые счета для Commerce для Восточной Европы
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2436,9 +2438,9 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Основные действия с данными
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: API вызова Retail Server
+                    - name: Вызов API Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
-                    - name: API вызова расширения Retail Server
+                    - name: Вызов API расширения Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: Расширенные действия с данными
                   items:
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Настройка конвейера сборки для пакета SDK независимой упаковки
                   href: dev-itpro/build-pipeline.md
-                - name: Объединение систем сборки для Commerce и Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Перенос Retail SDK из Visual Studio 2015 в Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Примеры расширяемости Retail SDK
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Расширяемость Hardware Station
               items:
-                - name: Hardware Station и расширяемость
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Интеграция POS с новым оборудованием
                   href: dev-itpro/hardware-device-extension.md
             - name: Расширяемость Retail Server

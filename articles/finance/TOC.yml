@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: "Finance 10.0.20 (август 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: "Finance 10.0.19 (июнь 2021\_г.)"
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Автоматизация процесса сборов
                   href: accounts-receivable/collections-process-automate.md
+                - name: Настройка параметров автоматизации процесса сборов
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Настройка управления кредитом
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Информация о настройке управления кредитом
@@ -1635,7 +1635,9 @@
                 - name: Отчет по НДС
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Отчет по зарубежным службам
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Отчет Интрастат
+                  href: localizations/emea-aut-intrastat.md
                 - name: Пошлины по покупке
                   href: localizations/emea-aut-purchase-duties.md
             - name: Бахрейн
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Настройка и ведение PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Годовой отчет по НДС для внутренних продаж
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Бразилия
               items:
                 - name: Обзор по Бразилии
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Электронные накладные
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: Дополнение к путевому листу (Carta de Porte) (версия 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Электронные отчеты по счетам ГК
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Ввод кодов регистрации налога для мексиканских юридических лиц
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Коды регистрации поставщиков
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Оман
-              items:
-                - name: Обзор по Оману
-                  href: localizations/oman.md
-                - name: Декларация НДС для Омана (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Нидерланды
               items:
                 - name: Обзор по Нидерландам
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Новая Зеландия
+              items:
+                - name: Форма декларации GST101A для Новой Зеландии (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Норвегия
               items:
                 - name: Обзор по Норвегии
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Электронные накладные клиентов в Норвегии
                   href: localizations/emea-nor-e-invoices.md
+            - name: Оман
+              items:
+                - name: Обзор по Оману
+                  href: localizations/oman.md
+                - name: Декларация НДС для Омана (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Польша
               items:
                 - name: Обзор по Польше
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: Подготовка среды к взаимодействию с веб-службой HMRC MTD для НДС
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Авторизация среды Finance для взаимодействия с веб-службой HMRC MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Тестирование взаимодействия с песочницей MTD для НДС
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Подача заявления на возврат НДС в веб-службу HMRC MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Контрольный список для настройки электронных сообщений для MTD для НДС
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Создание декларации по НДС в бумажном формате (отчет НДС 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Особенности настройки НДС для деклараций в Соединенном Королевстве
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Тестирование взаимодействия с песочницей MTD для НДС
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Авторизация среды Finance для взаимодействия с веб-службой HMRC MTD
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Подача заявления на возврат НДС в веб-службу HMRC MTD
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Получение информации о платежах и обязательствах по НДС из HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Особенности настройки НДС для деклараций в Соединенном Королевстве
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Создание декларации по НДС в бумажном формате (отчет НДС 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Статистика по отчету о методах оплаты
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: США
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Разработка формата электронной отчетности для разбивки создаваемых документов в Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для создания отчетов в формате Word
                   items:
                     - name: Разработка конфигураций электронной отчетности для создания отчетов в формате Word

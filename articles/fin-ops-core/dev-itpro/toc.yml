@@ -1007,7 +1007,11 @@
                 - name: Вопросы и ответы по окну планового обслуживания
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Мониторинг и диагностика
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Инструменты мониторинга и диагностики
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Использование Azure Data Explorer для запроса журналов необработанных данных
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Перезапуск служб среды
               href: lifecycle-services/restart-environment-services.md
             - name: Сообщение о сбое производства
