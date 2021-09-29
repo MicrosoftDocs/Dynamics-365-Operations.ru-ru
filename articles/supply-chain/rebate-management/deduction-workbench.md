@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 04d7c1de85978f7915246fd835a0866cefb6de310bba240ebcadc57089e10521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735119"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500410"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Управление вычетами в рабочем месте вычетов
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 В этом разделе описывается, как использовать рабочее место вычетов для обработки платежей клиентов, включающих вычеты.
 

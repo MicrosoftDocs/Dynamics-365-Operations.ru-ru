@@ -13,17 +13,16 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-8-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 868dee8689a3e445deafbf939965a3cfd045e665
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: fcc8fbd2057cb769659fbb1f341e50bac679fd40
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7351404"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488102"
 ---
 # <a name="simplified-customer-address-format-in-commerce-pos-for-russia"></a>Упрощенный формат адреса клиента в Commerce POS для России
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 В этой теме описывается упрощенный российский формат адреса и объясняется, как включить его в POS Microsoft Dynamics 365 Commerce для России.
 

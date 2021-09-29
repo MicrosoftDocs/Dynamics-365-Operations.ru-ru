@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 596324b4bf6f342439e44d21e8b770ca35be0425
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: f7178d78c1862f8098a9ad849b17423cc7f63156
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471772"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500059"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "7471772"
 | Версия | Номер сборки | Доступность автоматического обновления | Подробности |
 |---|---|---|---|
 | 10.0.22 | 10.0.995 | Ноябрь 2021 г. | [Предварительная версия Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |
-| 10.0.21 | 10.0.960 | 2021 октября | [Предварительная версия Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
+| 10.0.21 | 10.0.960 | 2021 октября | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.21](whats-new-scm-10-0-21.md) |
 | 10.0.20 | 10.0.886 | Август 2021 г. | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.20](whats-new-scm-10-0-20.md) |
 | 10.0.19 | 10.0.837 | 2021 июня | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19](whats-new-scm-10-0-19.md) |
 | 10.0.18 | 10.0.793 | 2021 мая | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.18](whats-new-scm-10-0-18.md) |

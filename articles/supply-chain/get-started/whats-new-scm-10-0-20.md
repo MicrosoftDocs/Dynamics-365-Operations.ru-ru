@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773521"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506839"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.20 (август 2021 г.)
 
@@ -38,6 +38,7 @@ ms.locfileid: "6773521"
 | Запасы&nbsp;и&nbsp;логистика | [Улучшение производительности сведений о заказе на продажу](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Эта функция повышает быстродействие пользовательского интерфейса при открытии заказов на продажу, особенно в заказах, включающих много строк. |
 | Производство | [Вызов потоков автоматизации процессов для создания заказов контроля качества](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Вызов потоков автоматизации процессов для создания заказов контроля качества](../production-control/process-automation-quality-orders.md ) |
 | Производство | [Улучшенный интерфейс выполнения производственного цеха для производства](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Настройка интерфейса выполнения производственного цеха](../production-control/production-floor-execution-configure.md) |
+| Планирование | [Планирование неограниченной мощности для оптимизации планирования](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Планирование без ограничений по мощности](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Управление сведениями о продукте | [Управление изменениями в формулах и их ингредиентах](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Управление изменениями в формулах и их ингредиентах](../engineering-change-management/manage-formula-changes.md) |
 | Управление сведениями о продукте | [Проверки готовности продукта](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [Готовность продукта](../engineering-change-management/product-readiness.md) |
 

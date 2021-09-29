@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744806"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500287"
 ---
 # <a name="goods-in-transit-processing"></a>Обработка товаров в пути
 
@@ -148,8 +148,6 @@ ms.locfileid: "6744806"
 Стоимость на складе добавляет новый тип заказа на работу с именем *Товары в пути* на страницу **Шаблоны работ**. Этот тип заказа на работу должен быть сконфигурирован таким же образом, как и [шаблоны работы заказа на покупку](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Разрывы заголовка работы
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Шаблоны работ, которые имеют тип заказа на работу *товары в пути*, могут быть настроены так, чтобы разделять заголовки работ. На странице **Шаблоны работ** выполните одно из следующих действий:
 

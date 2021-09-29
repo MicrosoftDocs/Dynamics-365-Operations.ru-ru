@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471868"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484080"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.22 (ноябрь 2021 г.)
 
@@ -34,7 +34,7 @@ ms.locfileid: "7471868"
 
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
-| Планирование | [Поддержка планирования оптимизации для распределения ресурсов на основе возможностей](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Планирование без ограничений по мощности](../master-planning/planning-optimization/infinite-capacity-planning.md) | Управление функциями (*Планирование неограниченной мощности для оптимизации планирования*) |
+| Планирование | [Поддержка планирования оптимизации для распределения ресурсов на основе возможностей](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Планирование с выбором ресурсов на основе возможности](../master-planning/planning-optimization/capability-based-scheduling.md) | Управление функциями (*Планирование неограниченной мощности для оптимизации планирования*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Улучшения функций, включенные в данный выпуск
 

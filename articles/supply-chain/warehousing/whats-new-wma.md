@@ -1,27 +1,39 @@
 ---
 title: Что нового или что изменено в мобильном приложении Warehouse Management
 description: В этой теме перечислены новые и измененные функции для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386107"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485630"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового или что изменено в мобильном приложении Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Версия 2.0.10.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+
+- Добавлена анимации при прокрутке через списки и страницы.
+- Текст на странице ошибки подключения теперь переносится правильно.
+- Поля со списком без значений по умолчанию теперь отображаются правильно.
+- Сведения в области подзаголовка теперь отображаются только на странице полных сведений.
+- Пустые поля ввода больше не отображаются в карточке сведений.
+- Значения подтверждения больше не дублируются в карточке сведений.
+- Исправлены различные проблемы, из-за которых система перестала отвечать.
 
 ## <a name="version-2090"></a>Версия 2.0.9.0
 

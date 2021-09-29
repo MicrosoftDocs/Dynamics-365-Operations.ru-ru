@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345274"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500608"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Коды оснований для проведения инвентаризации запасов
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Коды оснований позволяют анализировать результаты процесса инвентаризации и любых несоответствий, возникающих во время этого процесса. Можно указать причину для выполнения инвентаризации, например сломанная палета или корректировка запасов, которая основана на образцах запасов. В то же время можно использовать функцию корректировки для разноски значения корректировок запасов в наличии на соответствующий корр. счет на основе причины каждой корректировки запасов.
 
@@ -42,8 +41,6 @@ ms.locfileid: "7345274"
 - Должны ли коды причин управлять разноской финансового корр. счета?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Включение функций кода причин в системе
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Если в системе не отображаются все возможности, описанные в этом разделе, вероятно, вам придется включить функцию *разноски корректировок запасов в наличии, используя настраиваемые коды причин, связанные с корр. счетами*. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 

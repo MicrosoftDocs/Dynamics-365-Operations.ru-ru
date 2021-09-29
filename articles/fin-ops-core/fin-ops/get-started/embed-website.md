@@ -2,7 +2,7 @@
 title: Внедрение сторонних приложений
 description: В этой теме описывается, как внедрить сторонние приложения для расширения функциональных возможностей продукта.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345418"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488242"
 ---
 # <a name="embed-third-party-apps"></a>Внедрение сторонних приложений
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Многие клиенты используют ряд приложений для работы в своем бизнесе. Некоторыми из этих приложений являются веб-приложения сторонних производителей, работающие в сочетании с приложениями Finance and Operations. Чтобы обеспечить более гладкое взаимодействие с пользователем, можно использовать функцию **Приложения полной страницы** для встраивания этих приложений сторонних производителей непосредственно в свои приложения Finance and Operations (при условии, что сторонние приложения допускают внедрение). Таким образом, пользователи могут получить доступ к веб-сайтам и приложениям, которые им необходимы, без переключения вкладок или окон.
 

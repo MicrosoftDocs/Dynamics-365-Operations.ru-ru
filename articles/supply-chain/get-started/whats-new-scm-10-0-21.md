@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management выпуска 10.0.21 (октябрь 2021 г.)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.21 (октябрь 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391216"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500563"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Предварительная версия Dynamics 365 Supply Chain Management выпуска 10.0.21 (октябрь 2021 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.21 (октябрь 2021 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Supply Chain Management выпуска 10.0.21. Эта версия имеет номер сборки 10.0.960 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты в Microsoft Dynamics 365 Supply Chain Management версии 10.0.21. Эта версия имеет номер сборки 10.0.960 и доступна следующим образом:
 
 - **Выпуск предварительной версии:** август 2021 г.
 - **Общая доступность выпуска (самостоятельное обновление):** сентябрь 2021 г.
@@ -46,13 +45,14 @@ ms.locfileid: "7391216"
 
 В этой таблице перечислены функции в выпуске. Столбец *Функция* содержит ссылки на [план выпуска](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), где можно просмотреть официальные даты выпуска каждой функции. В столбце *Дополнительные сведения* представлены дополнительные сведения и/или ссылки на сопутствующую документацию.
 
-Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными.
+Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 | Область компонентов | Функция | Дополнительные сведения |
 |---|---|---|
-| Запасы&nbsp;и&nbsp;логистика | [Надстройка глобального учета запасов для Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Домашняя страница глобального учета запасов](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Запасы&nbsp;и&nbsp;логистика | [Надстройка глобального учета запасов для Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Домашняя страница глобального учета запасов](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Разноска корректировок запасов в наличии с помощью кодов, связанных с корр. счетами](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Коды оснований для инвентаризации запасов](../warehousing/reason-codes-for-counting-journals.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Политика экспорта данных, на которые ссылаются предложения по продаже](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Выберите, будут ли изменения в данных предложения приводить к включению этих предложений (или строк) в следующий добавочный экспорт. Добавочные экспорты будут выполняться быстрее, если не включать такие предложения или строки.<br><br>Эта функция добавляет параметр, который называется **пропускать ссылочные данные предложения по продажам во время отслеживания изменений** на странице **Параметры модуля расчетов с клиентами**. |
+| Запасы&nbsp;и&nbsp;логистика | Запечатанное предложение <!-- KFM: Add RP link when available --> | [Запечатывание предложений для запросов предложений](../procurement/sealed-bidding.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Предварительное резервирования для надстройки видимости запасов](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Резервирования видимости запасов](../inventory/inventory-visibility-reservations.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Усовершенствования вычета и учете в двух единицах измерения для управления ретробонусами](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Управление вычетами в рабочем месте вычетов](../rebate-management/deduction-workbench.md )<br><br>[Обработка, проверка и разноска ретробонусов](../rebate-management/process-review-post.md)<br><br>[Сделки в управлении ретробонусами](../rebate-management/rebate-management-deals.md) |

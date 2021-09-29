@@ -2,7 +2,7 @@
 title: Настройка роли менеджера по отсутствию
 description: В этой теме объясняется, как настроить роль менеджера отсутствия для управления отпусками сотрудников.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732353"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485762"
 ---
 # <a name="configure-the-absence-manager-role"></a>Настройка роли менеджера по отсутствию
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 В некоторых организациях менеджеры пользователей не могут управлять отпуском для своей рабочей группы. Вместо этого менеджер отсутствия может обрабатывать этот процесс для членов рабочей группы в нескольких отделах и рабочих группах. Менеджеры по отсутствию имеют следующие возможности для управления отпуском:
 
@@ -38,7 +36,7 @@ ms.locfileid: "6732353"
 
 1. В рабочей области **Администрирование системы** выберите **Управление функциями**.
 
-2. На вкладке **Управление функциями** включите функцию **(Предварительная версия) Менеджер отсутствия для управления отсутствием**.
+2. На вкладке **Управление функциями** включите функцию **Менеджер отсутствия для управления отсутствием**.
 
 ## <a name="define-a-custom-hierarchy"></a>Определение пользовательской иерархии
 

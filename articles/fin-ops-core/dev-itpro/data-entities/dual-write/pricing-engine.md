@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481323"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485742"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Синхронизация по требованию с механизмом ценообразования Supply Chain Management
 
@@ -60,6 +60,7 @@ Microsoft Dynamics 365 Supply Chain Management включает в себя ме
 + Настройка накладных расходов и распределения расходов в Supply Chain Management не воспроизводится в Sales.
 + В ценах не учитывается специальная розничная цена, указанная в столбце **Канал розничной торговли** на странице строки заказа на продажу в Supply Chain Management.
 + Скидки, которые определены в разделе **Управление торговыми скидками** Supply Chain Management не рассматриваются.
++ Цены не учитывают соглашения по продажам.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

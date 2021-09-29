@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736679"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484057"
 ---
 # <a name="demand-forecasting-overview"></a>Обзор прогнозирования спроса
 
@@ -34,7 +34,9 @@ ms.locfileid: "6736679"
 Чтобы создать базовый прогноз, сводка проводок за прошлые периоды передается службе Microsoft Azure Machine Learning, размещенной в Azure. Поскольку этот сервис не находится в общем доступе пользователей, его легко настроить в соответствии с отраслевыми требованиями. Можно воспользоваться Supply Chain Management для визуализации, корректировки прогноза и просмотра ключевых показателей эффективности, характеризующих точность прогноза.
 
 > [!NOTE]
-> Студия машинного обучения Microsoft Azure (классическая) необходима для создания прогноза с машинным обучением. По состоянию на январь 2021 года она доступна в восточной Японии, центрально-южной части США, Юго-Восточной Азии, центрально-западная части США и Западной Европе. Обновленные сведения о текущей доступности см. в разделе [Продукты Azure по регионам.](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Студия машинного обучения Microsoft Azure (классическая) необходима для создания прогноза с машинным обучением. По состоянию на 1 декабря 2021 годы вы не сможете создавать новые ресурсы студии машинного обучения (классической). Однако вы сможете продолжать использовать существующие ресурсы студии машинного обучения (классической) до 31 августа 2024 года. Для получения обновленных сведений см. раздел [Студия машинного обучения Azure](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> Dynamics 365 Supply Chain Management версии 10.0.23 и более поздней поддерживает новую Студию машинного обучения Azure.
 
 ## <a name="key-features-of-demand-forecasting"></a>Ключевые функции прогнозирования спроса
 

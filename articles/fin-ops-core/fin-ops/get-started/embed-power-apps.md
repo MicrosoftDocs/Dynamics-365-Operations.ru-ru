@@ -2,7 +2,7 @@
 title: Внедрение приложений на основе холста из Power Apps
 description: В этом разделе описывается, как внедрить приложения на основе холста из Microsoft Power Apps в клиент для расширения функциональных возможностей продукта.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344537"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488062"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Внедрение приложений на основе холста из Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps — это служба, которая позволяет разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и Интернета без необходимости написания кода. Приложения Finance and Operations поддерживают интеграцию с Power Apps. Приложения на основе холста, разработанные вами, вашей организации или более широкой экосистемой, можно внедрить в приложения Finance and Operations для расширения функциональности продукта. Например, можно создать приложение на основе холста из Power Apps, которое дополняет приложение Finance and Operations информацией, извлеченной из другой системы.
 
