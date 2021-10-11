@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Управление контрактом по роялти
               href: accounts-payable/royalty-contract.md
+            - name: Ссылка на исходные накладные в кредит-нотах (накладных поставщиков)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Платежи и сопоставления
               items:
                 - name: Централизованные платежи для расчетов с поставщиками
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Обзор моментальных снимков
                   href: finance-insights/payment-snapshots.md
+            - name: Вопросы и ответы по устранению неполадок Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Управление и учет по проектам
           items:
             - name: Обзор управления и учета по проектам
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Отчетность по нескольким регистрационным номерам НДС
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Отчетность Австрии
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Отчетность Франции
                           items:
                             - name: Декларация по НДС
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Отчет по зарубежным службам
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Отчет Интрастат
+                - name: Австрийский Интрастат
                   href: localizations/emea-aut-intrastat.md
                 - name: Пошлины по покупке
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Декларация по НДС
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Бахрейн
               items:
                 - name: Обзор по Бахрейну
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Квартальный отчет по НДС
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Отчет по черному списку
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Дата обеспечения и финансовый журнал
                   href: localizations/emea-ita-competence-date.md
                 - name: Амортизация основных средств
@@ -3801,6 +3809,8 @@
           items:
             - name: Обзор электронной отчетности
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Компоненты электронной отчетности
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Конфигурации
               items:
                 - name: Создание конфигураций
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка глобальной адресной книги
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Настройка адреса
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Вопросы и ответы по адресным книгам
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка адресных книг

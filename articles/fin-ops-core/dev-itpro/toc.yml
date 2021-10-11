@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: "Обновления платформы для версии 10.0.20 (август 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: "Обновления платформы для версии 10.0.19 (июнь 2021\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Настройка сопоставлений объектов и полей
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Руководство по настройке двойной записи
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Работа с несколькими сопоставлениями объектов
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Изменение юридического лица после настройки двойной записи

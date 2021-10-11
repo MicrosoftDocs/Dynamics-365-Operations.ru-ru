@@ -1649,8 +1649,10 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Различия между встроенным сводным планированием и оптимизацией планирования
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: 'Параметры, не используемые при оптимизации планирования'
+                - name: 'Параметры, не используемые в оптимизации планирования'
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: График поставок
+                  href: master-planning/supply-schedule.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Сводное планирование с прогнозом спроса
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Просмотр исходящего запланированного внутрихолдингового спроса
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Взаимодействие с клиентами внутренней цепочки поставок
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Чистые потребности и информация об источниках потребности во встроенном сводном планировании
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Прогнозирование
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Мобильные рабочие области утверждения заказов на покупку
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Проверить несоответствия в ценах внутрихолдингового заказа
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Регистрация поступления товаров по заказу на покупку
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Создание заказа на покупку
               items:
                 - name: Создавать заказы на покупку вручную
@@ -2725,17 +2729,73 @@
               items:
                 - name: Моделирование цены
                   href: sales-marketing/price-simulation.md
-                - name: Массовое создание предложений по продажам
+                - name: Массовое создание предложений по продаже
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Создание и изменение предложений по продаже
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Внутрихолдинговая торговля
+              items:
+                - name: Настройка внутрихолдинговой торговли
+                  items:
+                    - name: Настройка внутрихолдинговой торговли
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Внутрихолдинговые параметры
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Настройка поставщиков, клиентов и номенклатур для внутрихолдинговой торговли'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Настройка накладных расходов для внутрихолдинговых заказов
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Настройка параметров для разноски внутрихолдингового заказа
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Синхронизация внутрихолдинговой информации
+                  items:
+                    - name: Синхронизация внутрихолдинговых цен и скидок
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Синхронизация внутрихолдинговых накладных расходов
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Синхронизация внутрихолдинговой информации по клиенту
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Синхронизация внутрихолдинговых кодов методов обработки
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Внутрихолдинговые заказы на продажу и накладные
+                  items:
+                    - name: Создание внутрихолдинговых заказов на покупку и продажу в нескольких компаниях
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Внутрихолдинговые заказы и заказы на возврат
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Создание внутрихолдингового заказа на продажу для внутреннего использования
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Создание внутрихолдингового заказа на продажу для внешнего клиента и выставление накладной по нему
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Внутрихолдинговые резервирования
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Изменение или удаление исходного внутрихолдингового заказа на продажу
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Изменение внутрихолдинговых заказов
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Внутрихолдинговые номера партий и серийные номера
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Внутрихолдинговые отборочные накладные
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Автоматическая регистрация платежей для внутрихолдинговых накладных клиентов
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Внутрихолдинговые заказы на покупку
+                  items:
+                    - name: Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Проверить несоответствия в ценах внутрихолдингового заказа
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Внутрихолдинговые конвертации валют
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Внутрихолдинговое сводное планирование
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Возвраты
               items:
                 - name: Возвраты продаж
                   href: warehousing/sales-returns.md
             - name: Комиссия
               items:
-                - name: Регистрация комиссий продаж
+                - name: Регистрация комиссий за продажи
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Настройка правил комиссий за продажи
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Установка и настройка модуля "Стоимость на складе"
               items:
+                - name: Включение модуля "Стоимость на складе" для системы
+                  href: landed-cost/landed-cost-enable.md
                 - name: Параметры модуля "Стоимость на складе"
                   href: landed-cost/landed-cost-parameters.md
                 - name: Параметры закупок и источников в модуле "Стоимость на складе"
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Распределение по срокам комплектации запасов директивы местонахождения
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Привязка
+                      href: warehousing/anchoring.md
                     - name: Исходящая сортировка
                       href: warehousing/outbound-sorting.md
                     - name: Поместить на стену — поместить в магазин
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Комплектация самой старой партии на мобильном устройстве
                       href: warehousing/pick-oldest-batch.md
+                - name: Глобальные параметры мобильного устройства
+                  href: warehousing/mobile-device-parameters.md
                 - name: Параметры пользователя мобильного устройства
                   href: warehousing/mobile-device-user-settings.md
                 - name: Обработка событий приложения склада

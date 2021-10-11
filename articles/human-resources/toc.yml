@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 сентября 2021 г.
+          href: hr-whats-new-2021-09-20.md
         - name: 06 сентября 2021 г.
           href: hr-whats-new-2021-09-06.md
         - name: 23 августа 2021 г.
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Сброс застрявших пакетных заданий
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Сброс синхронизации Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Аналитические отчеты не обновляются
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Невозможно создать среду в центре администрирования Power Apps
@@ -485,6 +489,12 @@
               items:
                 - name: План льгот работников на зарплате
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Другие объекты
+              items:
+                - name: Журнал имен сотрудников
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Курс конвертации
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Наборы параметров
               items:
                 - name: Пол
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Настройка глобальной адресной книги
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Настройка адреса
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Вопросы и ответы по адресным книгам
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Настройка адресных книг
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: Отчетность ACA
                   href: hr-benefits-management-aca-reports.md
+                - name: Отчет о льготах
+                  href: hr-benefits-statement.md
             - name: Определение программ льгот и управление ими
               href: hr-benefits-manage-program.md
             - name: Политики прав на льготы
