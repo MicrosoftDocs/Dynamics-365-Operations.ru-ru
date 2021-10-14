@@ -1,7 +1,7 @@
 ---
 title: Настройка внешнего каталога для электронных закупок с внешними заказами
 description: В этом разделе описывается использование внешнего каталога или каталога внешних заказов для сбора информации о ценовых предложениях от поставщика и добавления этой информации в заявку.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb81929538ac93ba970e1a8f0a21a2787efb0b65e827d1b90d231860d4f6662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764091"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566920"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Настройка внешнего каталога для электронных закупок с внешними заказами
 

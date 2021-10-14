@@ -1,7 +1,7 @@
 ---
 title: Цены продажи подписки
 description: При создании подписки цена продажи извлекается из настройки цены продажи, созданной в форме "Цена продажи (подписка)".
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59e9084c1b1a2d27ac7a813dd412ebf49011252a199742b31af7c3c328c5ffd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712942"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569993"
 ---
-# <a name="subscription-sales-prices"></a>Цены продажи подписки   
+# <a name="subscription-sales-prices"></a>Цены продажи подписки
 
 [!include [banner](../includes/banner.md)]
-
 
 При создании подписки цена продажи извлекается из настройки цены продажи, созданной в форме **Цена продажи (подписка)**.
 
@@ -33,14 +32,14 @@ ms.locfileid: "6712942"
 
 Если код периода и валюта одинаковы для подписки и для цены продажи, цены продажи подписки выбираются на основе приоритетов, указанных в следующей таблице. Отсутствие знака в ячейке соответствуют пустому полю, знак "Х" указывает значение, равное значению в подписке, из которой создается проводка.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,7 +119,6 @@ ms.locfileid: "6712942"
 </tbody>
 </table>
 
-
 Когда создается сбор по подписке, в качестве цены продажи подписки выбирается цена продажи с наивысшим уровнем детализации (как показано в приведенной выше таблице).
 
 ## <a name="update-and-index-subscription-sales-prices"></a>Обновление и индексирование цен продажи подписки
@@ -135,15 +133,15 @@ ms.locfileid: "6712942"
 
 Необходимо настроить цены продажи подписки в EUR 500 для нового проекта 9030. В форме **Цена продажи (подписка)** можно создать строки цены продажи подписки, как указано в следующей таблице.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -174,14 +172,14 @@ ms.locfileid: "6712942"
 
 Затем создайте следующие подписки.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -226,14 +224,14 @@ ms.locfileid: "6712942"
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -274,15 +272,15 @@ ms.locfileid: "6712942"
 
 Позже вы решили, что необходимо указать цены продажи для категории SubCat1 для проекта 9030. Поэтому вы создаете новую строку цены продажи с ценой продажи EUR 550 для комбинации проекта 9030 и категории SubCat1. Теперь для проекта 9030 имеется две строки цены продажи подписки, как показано в следующей таблице.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,19 +315,18 @@ ms.locfileid: "6712942"
 </tbody>
 </table>
 
-
 Вы повторяете описанную выше процедуру для создания сборов по подписке для обеих подписок в группе подписок Sub1. В следующей таблице показаны проводки, созданные для каждой подписки, которая относится к группе подписок.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -367,16 +364,10 @@ ms.locfileid: "6712942"
 </tbody>
 </table>
 
-
 В первой проводке для подписки 00020\_135 цена продажи EUR 550 извлекается из цены продажи подписки, настроенной для комбинации конкретного проекта и категории. Во второй проводке для подписки 00021\_135 в качестве цены продажи подписки для проекта используется цена продажи 500, поскольку для комбинации проекта 9030 и категории SubCat2 не настроена цена.
 
 ## <a name="see-also"></a>См. также
 
 [Обновление и индексирование цен продажи подписки](update-and-index-subscription-sales-prices.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722639"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559591"
 ---
 # <a name="payroll-position-job"></a>Задание позиции зарплаты
 
@@ -34,16 +34,22 @@ ms.locfileid: "6722639"
 
 ## <a name="properties"></a>Свойства
 
-| Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
+| Свойство</br>**Физическое имя**</br>**_Тип_** | Использование | Описание |
 | --- | --- | --- |
-| **Код задания**<br>mshr_jobid<br>*Строка* | Только для чтения<br>Требуется |ИД задания. |
-| **Действительно с**<br>mshr_validto<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата, начиная с которой действует связь должности и задания. |
-| **Действительно до**<br>mshr_validto<br>*Смещение даты и времени* | Только для чтения <br>Требуется | Дата, до которой действует связь задания и должности.  |
-| **Код должности**<br>mshr_positionid<br>*Строка* | Только для чтения<br>Требуется | Код должности. |
-| **Основное поле**<br>mshr_primaryfield<br>*Строка* | Требуется<br>Создано системой |  |
-| **Значение идентификатора задания должности**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |ИД задания, связанный с должностью.|
-| **Значение идентификатора План фиксированной компенсации**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | ИД плана фиксированной компенсации, связанный с должностью. |
-| **ИД сущности задания позиции заработной платы**<br>mshr_payrollpositionjobentityid<br>*Guid* | Требуется<br>Создано системой. | Создаваемое системой значение GUID для уникальной идентификации задания.  |
+| **Код должности**</br>mshr_positionid</br>*Строка* | Только для чтения | Код должности. |
+| **Действительно с**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Это дата, начиная с которой действует связь должности и задания. |
+| **Действительно до**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой действует связь задания и должности. |
+| **Код задания**</br>mshr_jobid</br>*Строка* | Только для чтения | ИД задания. |
+| **Основное поле**</br>mshr_primaryfield</br>*Строка* | Создано системой | Основное поле. |
+| **ИД сущности задания позиции заработной платы**</br>mshr_payrollpositionjobentityid</br>*Guid* | Создано системой. | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее работу. |
+
+## <a name="relations"></a>Связи
+
+| Значение свойства | Связанный объект | Свойство навигации | Тип сбора |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Неприменимо |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Пример запроса
 
