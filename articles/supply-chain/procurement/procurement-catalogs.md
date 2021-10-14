@@ -1,7 +1,7 @@
 ---
 title: Обзор каталогов закупаемой продукции
 description: В этой статье на высоком уровне описывается, как специалисты по закупкам могут настроить и вести каталоги закупаемой продукции. Каталоги закупаемой продукции определяют номенклатуры и услуги, которые сотрудники компании могут заказывать для внутреннего пользования.
-author: kamaybac
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ed639b6cb2e49cdd6afb4b259d04044facf691b1122eac4fb2694b0946025d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9160df7f7d5641ab9bdd10dc37b9ff7f9eaf6ddc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730306"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570463"
 ---
 # <a name="procurement-catalogs-overview"></a>Обзор каталогов закупаемой продукции
 

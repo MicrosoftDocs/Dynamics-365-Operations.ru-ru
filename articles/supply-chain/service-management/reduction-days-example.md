@@ -1,7 +1,7 @@
 ---
 title: Пример дней сокращения
 description: Пример дней сокращения.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727806"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567951"
 ---
-# <a name="reduction-days-example"></a>Пример дней сокращения 
+# <a name="reduction-days-example"></a>Пример дней сокращения
 
 [!include [banner](../includes/banner.md)]
-
 
 Вы создали проводку по подписке клиента на обслуживание, как указано в следующей таблице.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ ms.locfileid: "6727806"
 </tbody>
 </table>
 
-
 Клиент уведомил, что в течение двух дней (10 и 11 марта) сервисное обслуживание не потребуется. Вы соглашаетесь уменьшить подписку на эти два дня.
 
 Вы создаете новую проводку типа **Дни сокращения**, как описано в следующей таблице.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ ms.locfileid: "6727806"
 </tbody>
 </table>
 
-
 При выставлении счета за операции марта 2011 года цена продажи евро 200 уменьшается на сумму 12,90 EUR. Сумма к оплате за операцию по подписке составляет, таким образом, 187,10 EUR, и по двум операциям выставляется счет на общую сумму 187,10 EUR.
 
 ## <a name="see-also"></a>См. также
 
 [Уменьшение дней в сборах по подписке](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

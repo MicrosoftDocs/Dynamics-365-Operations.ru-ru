@@ -1,7 +1,7 @@
 ---
 title: Выборка номенклатуры управления качеством
 description: В этой теме описывается, как настроить выборку номенклатур.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,19 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfdffc1ff0e0541cfad5669d0787abfafbd424ddf0807c61b957e7f330f21af7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ea749c470ab1d80f1f3974596a2cd4a1f5b7b32d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717324"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578496"
 ---
 # <a name="quality-management-item-sampling"></a>Выборка номенклатуры управления качеством
+
+[!include [banner](../includes/banner.md)]
 
 Выборка номенклатур используется как часть сопоставления контроля качества. Она определяет сумму текущих физических запасов, которые необходимо проверить. Выборочный контроль может быть основан на фиксированных количествах, на процентном объеме или на полном грузоместе.
 

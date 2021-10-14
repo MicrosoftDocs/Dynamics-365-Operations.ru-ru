@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386346"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594839"
 ---
 # <a name="model-management-lifecycle"></a>Жизненный цикл управления моделями
 
@@ -32,4 +32,4 @@ ms.locfileid: "7386346"
 
 Так как модель ИИ базируется на доступных данных по накладным и по клиентам, важно, чтобы среда песочницы была последней копией рабочих данных. Можно начать обучение модели, следуя шагам в разделе [Использование прогнозов платежей клиентов](use-customer-payment-predictions.md). После переобучения модели оцените результаты, как описано в разделе [Оценка модели прогнозирования первоначальных платежей клиента](evaluate-payment-prediction.md). Используйте информацию в разделе [Улучшение модели прогнозирования](improve-model.md), чтобы поэкспериментировать с сочетаниями возможностей и фильтров, которые могут помочь улучшить модель.
 
-После получения удовлетворительных результатов обучения следуйте шагам в [Распределение модели ИИ](https://docs.microsoft.com/ai-builder/distribute-model) для переноса модели в рабочую среду.
+После получения удовлетворительных результатов обучения следуйте шагам в [Распределение модели ИИ](/ai-builder/distribute-model) для переноса модели в рабочую среду.

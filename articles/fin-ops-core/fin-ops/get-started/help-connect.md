@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343820"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594865"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Настройка справочной системы для приложений Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343820"
 
 ## <a name="help-architecture"></a>Архитектура справки
 
-Приложения Finance and Operations включают концептуальные обзоры и другие разделы, опубликованные на сайте [https://docs.microsoft.com/dynamics365](/dynamics365/). К этому содержимому можно получить доступ в области встроенной в продукт **справки**. На следующем рисунке показаны части справочной системы.
+Приложения Finance and Operations включают концептуальные обзоры и другие разделы, опубликованные на сайте [документации по Microsoft Dynamics 365](/dynamics365/). К этому содержимому можно получить доступ в области встроенной в продукт **справки**. На следующем рисунке показаны части справочной системы.
 
 [![Архитектура справки.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "7343820"
 ## <a name="adding-task-guides"></a>Добавление проводники по задачам
 
 > [!NOTE]
-> Вкладка **Проводники по задачам** в настоящее время недоступна в Human Resources или Commerce. <!--We are currently working to enable this functionality in a future release.--> Тем не менее, проводники по задачам в разделе начала работы в Human Resources остаются доступными для работы с основными функциями. Процедурная справка для Human Resources и Commerce доступна также на сайте [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> Вкладка **Проводники по задачам** в настоящее время недоступна в Human Resources или Commerce. <!--We are currently working to enable this functionality in a future release.--> Тем не менее, проводники по задачам в разделе начала работы в Human Resources остаются доступными для работы с основными функциями. Процедурная справка для Human Resources и Commerce доступна также на сайте [документации Microsoft Dynamics 365](/dynamics365/).
 
 На странице **Системные параметры** системные администраторы могут настроить доступ к соответствующим библиотекам проводников по задаче для реализации.
 

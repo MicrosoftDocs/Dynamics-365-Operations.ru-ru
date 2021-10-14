@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774977"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557400"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Домашняя страница глобального учета запасов
 
@@ -41,13 +41,16 @@ ms.locfileid: "6774977"
 
 Глобальный учет запасов в настоящее время доступен в следующих географических регионах Azure:
 
-- США
+- Соединенные штаты
 - Европа
 - Соединенное Королевство
 - Австралия
 - Канада
+- Южная Америка
 
 При попытке установить надстройку из другого региона Microsoft Dynamics Lifecycle Services (LCS) отобразит сообщение о том, что данный географический регион не поддерживается. Глобальный учет запасов не поддерживает локальное развертывание Supply Chain Management.
+
+Если у вас имеются какие-либо проблемы с включением глобального учета запасов в одном из поддерживаемых географических регионов, отправьте письмо по электронной почте с идентификатором среды в [рабочую группу глобального учета запасов](mailto:GlobalInvAccount@microsoft.com) для проверки.
 
 ## <a name="licensing"></a>Лицензирование
 

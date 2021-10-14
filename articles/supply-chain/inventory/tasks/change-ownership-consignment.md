@@ -1,7 +1,7 @@
 ---
 title: Изменение владельца консигнационных запасов на основе производственного спроса
 description: Эта процедура показывает порядок изменения владельца запасов коносамента с поставщика на юридическое лицо, когда имеется спрос на запасы в производстве.
-author: perlynne
+author: yufeihuang
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f31397c980f1f46f22979cf0b754eeaf4baf3e6eb7cafc53a6a9acdc482743e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e735a9003f2859ed173f399525297506ec458e8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780610"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565839"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Изменение владельца консигнационных запасов на основе производственного спроса
 

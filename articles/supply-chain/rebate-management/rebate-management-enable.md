@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8da7c6c63f950204631c99a04aaa01c00e445fd82cea7c36993674d2827a0c0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b44f53927c1811160a86a8200f3210daaef583fc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742060"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572729"
 ---
 # <a name="turn-on-the-rebate-management-module-for-your-system"></a>Включение модуля управления ретробонусами в системе
 
 [!include [banner](../includes/banner.md)]
 
-Прежде чем использовать модуль **Управление ретробонусами**, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+Прежде чем использовать модуль Управление ретробонусами, она должна быть включена в системе. Администраторы могут использовать параметры [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения при необходимости. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Общий AP и AR*
 - **Название функции:** *Управление ретробонусами*

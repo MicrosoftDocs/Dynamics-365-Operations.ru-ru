@@ -1,7 +1,7 @@
 ---
 title: Обзор интеграции с Microsoft Dynamics 365 Field Service
 description: Этот раздел содержит обзор интеграции с Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761766"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566463"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Обзор интеграции с Microsoft Dynamics 365 Field Service
 
@@ -58,7 +58,7 @@ Supply Chain Management обеспечивает синхронизацию би
 - Проекты Supply Chain Management, связанные с заказами на работу Dynamics 365 Field Service
 - Заказы на выполнение работ Dynamics 365 Field Service со ссылкой на проекты Supply Chain Management применяют этот номер проекта к заказу на продажу, чтобы обеспечить выставление накладных из проекта. 
 
-![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/FSv2overview.png)
+![Синхронизация бизнес-процессов между Supply Chain Management и Field Service, включая информацию о запасах и проекте.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Второй этап интеграции между Field Service и Supply Chain Management включает синхронизацию со следующими шаблонами:
 - Склады (из Supply Chain Management в Field Service) — склады из Supply Chain Management в Field Service [Расширенный запрос] 

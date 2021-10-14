@@ -1,7 +1,7 @@
 ---
 title: Обзор опасных материалов
 description: В этой теме представлен обзор функций, которые относятся к обработке и документированию опасных материалов во время управления информацией о продуктах и управления складом.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cf95a3d9551174d09df84ab970b8dc415386f12c4aa234b14552f6f8f2bdfd5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 22e1b0838160378f3ff9484faaf87c9aec6e8964
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745606"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570689"
 ---
 # <a name="hazardous-materials-overview"></a>Обзор опасных материалов
 
