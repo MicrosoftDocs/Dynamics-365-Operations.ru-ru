@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343868"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595211"
 ---
 # <a name="email-er-destination-type"></a>Тип места назначения ER электронной почты
 
@@ -75,7 +75,7 @@ ms.locfileid: "7343868"
 >
 > Когда назначение электронной почты предлагается для изменения во [время выполнения](electronic-reporting-destinations.md#security-considerations), поле **От** отображается только пользователям, имеющим привилегию безопасности `ERFormatDestinationSenderEmailMaintain`, **Сохранить адрес электронной почты отправителя для места назначения формата ER**.
 >
-> Если поле **От** настроено на использование адреса электронной почты, отличного от текущего пользователя, разрешение **Отправить как** или **Отправить от имени** должно быть корректно [настроено](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) заранее. В противном случае во время выполнения будет создано следующее исключение: "Не удалось отправить электронную почту как \<from email account\> из учетной записи \<current user account\>, проверьте разрешения "Отправить как" для \<from email account\>".
+> Если поле **От** настроено на использование адреса электронной почты, отличного от текущего пользователя, разрешение **Отправить как** или **Отправить от имени** должно быть корректно [настроено](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) заранее. В противном случае во время выполнения будет создано следующее исключение: "Не удалось отправить электронную почту как \<from email account\> из учетной записи \<current user account\>, проверьте разрешения "Отправить как" для \<from email account\>".
 
 Можно настроить поле **От**, чтобы вернуть несколько адресов электронной почты. В этом случае первый адрес в списке используется как адрес отправителя электронной почты.
 

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 3d7ace6cdc62da8142b117f687e6cc9662fc4e6637f08c41bcacd3b6ea6d8104
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5ed97db24048753fee2dbb683342cc2f3f4d5ae
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736902"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595421"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 
@@ -44,8 +44,8 @@ ms.locfileid: "6736902"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col>
+<col>
 </colgroup>
 <thead>
 <tr class="header">
@@ -77,8 +77,8 @@ ms.locfileid: "6736902"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col>
+<col>
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,8 +110,8 @@ ms.locfileid: "6736902"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col>
+<col>
 </colgroup>
 <thead>
 <tr class="header">
@@ -152,8 +152,8 @@ ms.locfileid: "6736902"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col>
+<col>
 </colgroup>
 <thead>
 <tr class="header">
