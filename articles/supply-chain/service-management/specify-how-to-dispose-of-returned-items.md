@@ -1,7 +1,7 @@
 ---
 title: Определение порядка списания возврата
 description: Определение порядка списания возврата.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722255"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571337"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Определение порядка списания возврата 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Определение порядка списания возврата
 
 [!include [banner](../includes/banner.md)]
-
 
 При обработке заказа на возврат следует указать код причины, чтобы определить, почему продукт возвращается. Необходимо также указать код расстановки и действие метода обработки, чтобы указать, что следует сделать с возвращаемым продуктом.
 
@@ -35,9 +34,9 @@ ms.locfileid: "6722255"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ ms.locfileid: "6722255"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ ms.locfileid: "6722255"
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Выберите код метода обработки для карантинного заказа
 
-1.  Щелкните **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.
-
-2.  Для существующего карантинного заказа выберите действие из поля **Код метода обработки** на вкладке **Обзор**.
-
-
+1. Выберите **Управление запасами** \> **Периодические операции** \> **Управление качеством** \> **Карантинные заказы**.
+1. Для существующего карантинного заказа выберите действие из поля **Код метода обработки** на вкладке **Обзор**.
 
 ## <a name="see-also"></a>См. также
 
 [Карантинный заказ (форма)](/dynamicsax-2012//quarantine-order-form)
 
 [Коды методов обработки (форма)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

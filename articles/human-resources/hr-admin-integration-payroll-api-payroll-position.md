@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741461"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559370"
 ---
 # <a name="payroll-position"></a>Позиция зарплаты
 
@@ -32,22 +32,29 @@ ms.locfileid: "6741461"
 
 Эта сущность предоставляет информацию, связанную с должностью, для указанного сотрудника.
 
-Физическое имя: 
+Физическое имя: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Свойства
 
-| Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
+| Свойство</br>**Физическое имя**</br>**_Тип_** | Использование | Описание |
 | --- | --- | --- |
-| **Обычные часы за год**<br>annualregularhours<br>*Десятичн.* | Только для чтения<br>Требуется | Обычные часы за год, определенные для данной должности.  |
-| **ИД сущности Сведения о заработной плате для должностей**<br>payrollpositiondetailsentityid<br>*Guid* | Требуется<br>Создано системой. | Создаваемое системой значение GUID для уникальной идентификации должности.  |
-| **Основное поле**<br>mshr_primaryfield<br>*Строка* | Требуется<br>Создано системой |  |
-| **Значение идентификатора задания должности**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |ИД задания, связанный с должностью.|
-| **Значение идентификатора План фиксированной компенсации**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | ИД плана фиксированной компенсации, связанный с должностью. |
-| **ИД цикли оплаты**<br>mshr_primaryfield<br>*Строка* | Только для чтения<br>Требуется | Цикл оплаты, определенный для данной должности. |
-| **Оплачивается юридическим лицом**<br>paidbylegalentity<br>*Строка* | Только для чтения<br>Требуется | Юридическое лицо, определенное в должности, ответственной за осуществление платежа. |
-| **Код должности**<br>mshr_positionid<br>*Строка* | Только для чтения<br>Требуется | Код должности. |
-| **Действительно до**<br>validto<br>*Смещение даты и времени* | Только для чтения<br>Требуется |Дата, начиная с которой будут действительны сведения о должности.  |
-| **Действительно с**<br>validfrom<br>*Смещение даты и времени* | Только для чтения<br>Требуется |Дата, до которой будут действительны сведения о должности.  |
+| **Код должности**</br>mshr_positionid</br>*Строка* | Только для чтения | Код должности. |
+| **ИД цикли оплаты**</br>mshr_paycycleid</br>*Строка* | Только для чтения | Цикл оплаты, который определен для данной должности. |
+| **Обычные часы за год**</br>annualregularhours</br>*Десятичное* | Только для чтения | Обычные часы за год, которые определены для данной должности. |
+| **Оплачивается юридическим лицом**</br>paidbylegalentity</br>*Строка* | Только для чтения | Юридическое лицо, которое определено в должности и ответственное за осуществление платежа. |
+| **Действительно до**</br>validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой будут действительны сведения о должности. |
+| **Действительно с**</br>validfrom</br>*Смещение даты и времени* | Только для чтения | Дата, с которой будут действительны сведения о должности. |
+| **Основное поле**</br>mshr_primaryfield</br>*Строка* | Создано системой | Основное поле. |
+| **ИД сущности Сведения о заработной плате для должностей**</br>payrollpositiondetailsentityid</br>*Guid* | Требуется</br>Создано системой. | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее должность. |
+
+## <a name="relations"></a>Связи
+
+| Значение свойства | Связанный объект | Свойство навигации | Тип сбора |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Неприменимо |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Неприменимо |
 
 ## <a name="example-query"></a>Пример запроса
 

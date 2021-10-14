@@ -1,7 +1,7 @@
 ---
 title: Прогнозы запасов
 description: В этой теме описываются функции прогноза поставок и спроса, которые могут использоваться для создания прогнозов запасов в Microsoft Dynamics 365 Supply Chain Management.
-author: crytt
+author: ChristianRytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475092"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577560"
 ---
 # <a name="inventory-forecasts"></a>Прогнозы запасов
 

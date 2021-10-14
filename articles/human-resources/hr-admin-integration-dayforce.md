@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414592"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559469"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
@@ -64,7 +64,6 @@ ms.locfileid: "7414592"
 
 > [!NOTE]
 > Пакет данных, переданный в конечную точку SFTP, шифруется с помощью уникального для пакета ключа. Ключ находится в хранилище ключей Azure Key Vault, доступном только для по Ceridian. Невозможно расшифровать и проверить содержимое пакета данных. Если необходимо изучить содержимое пакета данных, необходимо экспортировать проект данных "Экспорт интеграции зарплаты" вручную, загрузить его и затем открыть. При экспорте вручную шифрование или передача пакетов не применяются.
-> Для экземпляров, когда файлы интеграции отправляются из среды UAT или "песочницы" Dynamics 365 Human Resources в среду тестирования Ceridian Dayforce, можно использовать следующий URL-адрес хранилища ключей: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Настройка данных 
 

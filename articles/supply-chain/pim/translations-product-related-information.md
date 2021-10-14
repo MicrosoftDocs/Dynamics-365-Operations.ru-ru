@@ -1,7 +1,7 @@
 ---
 title: Вопросы и ответы по переводам, связанным с продуктом
 description: В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов.
-author: cvocph
+author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29c191a3dcdb13ba54be3077d7e24706673bc14be659d39595e199fff0176930
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758504"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570506"
 ---
 # <a name="product-related-translations-faq"></a>Вопросы и ответы по переводам, связанным с продуктом
 

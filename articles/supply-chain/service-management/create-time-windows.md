@@ -1,7 +1,7 @@
 ---
 title: Создание окон времени
-description: Окна времени можно использовать для оптимизации планирования строк заказа на обслуживание.
-author: ShylaThompson
+description: В этой теме приводится процедура, в которой показано, как создавать окна времени.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e88277181a00479af85561f078803ec495a94a50ef1cbd4059f594709b47a7d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775539"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571434"
 ---
-# <a name="create-time-windows"></a>Создание окон времени   
+# <a name="create-time-windows"></a>Создание окон времени
 
 [!include [banner](../includes/banner.md)]
 
 Окна времени можно использовать для оптимизации планирования строк заказа на обслуживание.
 
-1. Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Соглашения на обслуживание** \> **Окно времени**.
+1. Выберите **Управление сервисным обслуживанием** \> **Настройка** \> **Соглашения на обслуживание** \> **Окно времени**.
 2. Нажмите комбинацию клавиш **Alt+N**, чтобы создать новое окно времени.
 3. В поле **Окно времени** введите имя для окна времени.
 4. В поле **Описание** введите описание для окна времени.

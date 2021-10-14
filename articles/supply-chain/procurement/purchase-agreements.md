@@ -1,7 +1,7 @@
 ---
 title: Договоры покупки
 description: Эта статья представляет информацию о договорах покупки. Договор покупки представляет собой контракт, по которому организация обязана приобрести указанное количество или объем продукции с использованием нескольких заказов на покупку. Взамен этого обязательства покупатель получает специальные цены и скидки.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: affbbf0666704b435c31cccdf8ed8205917e56bb64378aa856ad34134685f7f5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4911bd891c081892e52bda4bcc87984b3fb189b2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780182"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570505"
 ---
 # <a name="purchase-agreements"></a>Договоры покупки
 

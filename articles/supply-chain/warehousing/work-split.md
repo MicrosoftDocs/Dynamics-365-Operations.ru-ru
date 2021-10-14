@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781814"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579888"
 ---
 # <a name="work-split"></a>Разделение работ
+
+[!include [banner](../includes/banner.md)]
 
 Функция разделения работ позволяют разделять коды крупных работ (т. е., заказы на работу, содержащие несколько строк) на несколько кодов меньших работ, которые затем можно назначить нескольким складским сотрудникам. Таким образом, один и тот же номер создания работы может быть скомплектован сразу нескольким складским работникам.
 

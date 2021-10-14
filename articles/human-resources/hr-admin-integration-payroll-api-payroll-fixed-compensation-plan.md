@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429245"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559347"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>План фиксированной компенсации зарплаты
 
@@ -42,8 +42,8 @@ ms.locfileid: "7429245"
 | **Код должности**</br>mshr_positionid</br>*Строка* | Только для чтения | Код должности, связанный с сотрудником и соглашением о регистрации плана фиксированной компенсации. |
 | **Действительно с**</br>mshr_validfrom</br>*Смещение даты и времени* |  Только для чтения | Дата, с которой действительна фиксированная компенсация сотрудника.  |
 | **Действительно до**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой действительна фиксированная компенсация сотрудника. |
-| **Частота платежей**</br>mshr_payfrequency</br>*Строка* | Только для чтения | Частота выплаты сотруднику.  |
-| **Валютное**</br>mshr_currency</br>*Строка* | Только для чтения | Валюта, определенная для плана фиксированной компенсации. |
+| **Частота платежей**</br>mshr_payfrequency</br>*Строка* | Только для чтения | Код [частоты выплат компенсаций](hr-admin-integration-payroll-api-compensation-pay-frequency.md) для данной ставки зарплаты. |
+| **Валюта**</br>mshr_currency</br>*Строка* | Только для чтения | Валюта, определенная для плана фиксированной компенсации. |
 | **Сущность плана фиксированной компенсации заработной платы**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
 
 ## <a name="relations"></a>Связи
