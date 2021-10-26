@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Создание нового коммерческого соглашения
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Повышение производительности очистки истории продаж
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Управление сервисным обслуживанием
           items:
             - name: Обзор управления сервисным обслуживанием
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Продажи и маркетинг
               items:
+                - name: 'Не удается выполнить задание очистки журнала обновлений продаж, или имеются проблемы с производительностью'
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Номенклатура набора не поддерживается во внутрихолдинговом процессе
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: 'Невозможно отменить внутрихолдинговый заказ на покупку, связанный с заказом на продажу'

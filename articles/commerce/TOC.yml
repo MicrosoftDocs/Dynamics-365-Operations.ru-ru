@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Связанные возвраты денежных средств
                   href: dev-itpro/linked-refunds.md
+                - name: Обработка несвязанных возвратов денежных средств с помощью Dynamics 365 Commerce Payment Connector для Adyen
+                  href: dev-itpro/unlinked-refunds.md
                 - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
                   href: sell-return-outside-assortments.md
                 - name: Настройка и обработка обмена по заказу на возврат
