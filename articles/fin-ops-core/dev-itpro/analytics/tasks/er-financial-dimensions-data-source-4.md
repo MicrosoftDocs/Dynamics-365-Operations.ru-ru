@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743221"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605313"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)
 
@@ -37,16 +37,16 @@ ms.locfileid: "6743221"
 ![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run1.png)
 5. В поле "Имя аналитики" введите или выберите значение.
     * Чтобы выбрать все аналитики в текущей компании, введите следующие сведения: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run2.png)
+![Параметры электронного отчета слайд, выдвижной список имен аналитик.](../media/er-financial-dimensions-guides-run2.png)
 6. Разверните раздел "Записи для добавления".
 7. Щелкните "Фильтр".
 8. Выберите строку для таблицы "Журнал ГК" и поля "Номер партии журнала".
 9. В поле "Критерии" введите "00057".
 10. Нажмите кнопку "OК".
 11. Нажмите кнопку "OК".
-![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run3.png)
+![Выдвижной список параметров электронной отчетности, раздел включаемых отчетов.](../media/er-financial-dimensions-guides-run3.png)
     * Просмотрите созданные выходные данные. Для каждой проводки выбранной партии представлены финансовые аналитики из соответствующих аналитик. Выполните этот отчет и выберите другие аналитики, чтобы убедиться, что отчет не зависит от количества выбранных аналитик или числе аналитик, настроенных для данного экземпляра.  
-![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run4.png)
+![Выходные данные, создаваемые конфигурациями электронной отчетности.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

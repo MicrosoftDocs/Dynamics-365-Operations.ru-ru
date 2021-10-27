@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 091c953146850166ef1c93749d9bc2ec0b6a80fe58bdcb3c3d3b00bf45e7b0fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761838"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645790"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -40,7 +40,7 @@ ms.locfileid: "6761838"
 
 ## <a name="availability"></a>Доступность
 
-Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Европа", "Соединенное Королевство", "Австралия" и "Азиатско-Тихоокеанский регион". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается.
+Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Европа", "Соединенное Королевство", "Австралия", "Азиатско-Тихоокеанский регион" и "Япония". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается. Дополнительные сведения о географических регионах Azure и соответствующих регионах см. в разделе [Географические регионы Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Обратите внимание, что оптимизация планирования не поддерживает локальное развертывание Dynamics 365 Supply Chain Management.
 

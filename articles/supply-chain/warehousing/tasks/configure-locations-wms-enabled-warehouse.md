@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574121"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599356"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Настройка мест хранения на складе, на котором включена система управления складом
 
@@ -33,7 +33,7 @@ ms.locfileid: "7574121"
 2. Нажмите кнопку **Создать**.
 3. В поле **Склад** введите значение.
 4. В поле **Имя** введите значение.
-5. В поле **Сайт** введите значение.
+5. В поле **Сайт** выберите или введите существующее значение сайта.
 6. Разверните раздел **Склад**.
 7. Установите параметр **Использовать процессы управления складом** в значение "Да". Эта настройка позволяет запускать сложные комплексные процессы управления складом с использованием складских работ и мобильных устройств.
 8. Закройте страницу.

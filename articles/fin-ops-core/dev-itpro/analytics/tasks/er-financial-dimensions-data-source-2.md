@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 921077cb3bc2d01c418f653194e948a2f29cc90dbd562d022ca69aa083a6ef54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713902"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605413"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 2. Сопоставление модели)
 
@@ -56,14 +56,14 @@ ms.locfileid: "6713902"
 21. Выберите "Да" в поле "Запросить счет ГК".
     * Установите для параметра "Запросить счет ГК", чтобы разрешить пользователям выбирать счет ГК как часть списка аналитик.   Если задано значение "Нет", счет ГК не будет включен в список аналитик и будет включен параметр "Счет ГК является обязательным". Если для параметра "Счет ГК является обязательным" задано значение "Да", включите счет ГК в список аналитик независимо от значения, выбранного пользователем.  
 22. Нажмите кнопку "OК".
-![Страница конструктора сопоставления модели электронной отчетности.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Раскрывающийся список свойств источника данных подробных сведений о финансовой аналитике.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. В дереве выберите узел "Dynamics 365 for Operations\Записи таблиц".
 24. Щелкните "Добавить корень".
 25. В поле "Имя" введите "LedgerJournal".
 26. Выберите "Да" в поле "Запросить запрос".
 27. В поле "Таблица" введите "LedgerJournalTable".
 28. Нажмите кнопку "OК".
-![Страница конструктора сопоставления модели электронной отчетности.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Страница конструктора сопоставления модели, тип источника данных записей таблицы.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Сопоставление элементов модели данных с добавленными источниками данных
 1. В дереве разверните узел "Журнал".
@@ -94,7 +94,7 @@ ms.locfileid: "6713902"
 25. В дереве выберите узел "LedgerJournal\<Связи\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Счет ГК и аналитики".
 26. В дереве выберите узел "Журнал\Проводки\Данные аналитик".
 27. Щелкните "Связать".
-![Страница конструктора сопоставления модели электронной отчетности.](../media/er-financial-dimensions-guides-model-mapping3.png)
+![Страница конструктора сопоставления моделей, вкладка сопоставления, дерево структуры источников данных.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. В дереве выберите узел "LedgerJournal\<Связи\LedgerJournalTrans\Debit(AmountCurDebit)".
 29. В дереве выберите "Журнал\Проводка\Дебет".
 30. Щелкните "Связать".
@@ -144,7 +144,7 @@ ms.locfileid: "6713902"
 3. Щелкните "Изменить статус".
 4. Щелкните "Завершить".
 5. Нажмите кнопку "OК".
-![Страница конструктора сопоставления модели электронной отчетности.](../media/er-financial-dimensions-guides-model-mapping5.png)
+![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

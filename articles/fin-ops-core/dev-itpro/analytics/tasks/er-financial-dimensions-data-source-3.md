@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773796"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605193"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 3. Разработка отчета)
 
@@ -92,7 +92,7 @@ ms.locfileid: "6773796"
 59. Щелкните "Добавить атрибут".
 60. В поле "Имя" введите "Описание".
 61. Нажмите кнопку "OК".
-![Страница конструктора операций электронной отчетности.](../media/er-financial-dimensions-guides-format1.png)
+![Дерево страницы конструктора форматов.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Сопоставление элементов отчета с источниками данных
 1. Перейдите на вкладку "Сопоставление".
@@ -141,7 +141,7 @@ ms.locfileid: "6773796"
 44. Щелкните "Связать".
 45. Нажмите кнопку Сохранить.
 46. Закройте страницу.
-![Страница конструктора операций электронной отчетности.](../media/er-financial-dimensions-guides-format2.png)
+![Страница конструктора форматов, элементы отчета, сопоставленные источникам данных.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-8-2
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2b49a59c924e2f3c51fccb3ee4615cac1d01e32c
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: ff1df4f1b4b7da22891b607ea2d1233a143a9780
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512904"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612349"
 ---
 # <a name="fiscal-printer-integration-sample-for-russia"></a>Пример интеграции фискальных принтеров для России
 
@@ -145,6 +145,15 @@ ms.locfileid: "7512904"
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). В следующих разделах описывается, как использовать предыдущую версию пакета Retail SDK для включения примера.
+
+#### <a name="adjust-package-sources-in-nugetconfig"></a>Настройка источников пакетов в nuget.config
+
+1. Откройте файл **RetailSDK\\src\\nuget.config**.
+1. Добавьте следующую строку в конец раздела **packageSources**.
+
+    ``` xml
+    <add key="dynamics365-commerce" value="https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/nuget/v3/index.json" />
+    ```        
 
 #### <a name="copy-sample-files-to-retail-sdk"></a>Копирование файлов примера в пакет Retail SDK
 

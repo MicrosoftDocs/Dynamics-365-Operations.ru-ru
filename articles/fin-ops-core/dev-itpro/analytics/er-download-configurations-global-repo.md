@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724425"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605339"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724425"
     > [!NOTE]
     > Кнопка **Импорт** недоступна для версий конфигурации электронной отчетности, которые уже установлены в текущем экземпляре Finance.
 
-    ![Страница репозитория конфигурации.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Страница репозитория конфигураций, экспресс-вкладка конфигураций.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Импорт отфильтрованных конфигураций
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724425"
 4. На экспресс-вкладке **Конфигурации** выберите **Импорт**, чтобы загрузить отфильтрованные конфигурации из глобального репозитория в текущий экземпляр.
 5. На экспресс-вкладке **Конфигурации** выберите **Сброс фильтра** для очистки указанных условий выбора.
 
-    ![Страница репозитория конфигурации.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Страница репозитория конфигураций, экспресс-вкладка версий, кнопка импорта.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > В зависимости от параметров электронной отчетности конфигурации проверяются после импорта. Возможно, вы получите уведомление об обнаруженных проблемах несоответствия. Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации. Дополнительные сведения см. в списке связанных ресурсов для этой темы.
