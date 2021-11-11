@@ -74,12 +74,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: "Finance 10.0.22 (ноябрь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: "Finance 10.0.21 (октябрь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: "Finance 10.0.20 (август 2021\_г.)"
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -240,7 +240,11 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Параметры настройки для автоматизации накладных поставщиков
                   href: accounts-payable/vnd-invoice-set-up-options.md
-                - name: Отправка накладных в систему рабочего процесса и сопоставление строк поступления продуктов
+                - name: Обзор автоматического применения предоплат к накладным поставщиков
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Создание строк накладных при импорте накладных поставщиков
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
+                - name: Отправка накладных в систему workflow-процессов и сопоставление строк поступления продуктов
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Просмотр результатов автоматизации обработки накладных поставщиков
                   href: accounts-payable/view-automated-vendor-invoice.md
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Профили разноски по поставщикам
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Даты накладной поставщика
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Утверждения накладных на мобильном устройстве
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Планирование плана счетов
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Планирование локального плана счетов
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Сопоставление проводок между счетами ГК
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Настройка псевдонима счета ГК
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Создание налогового платежа
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Округление сопоставления налогов на основе настроенных десятичных знаков валюты
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Создание налоговых проводок по документам
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Настройка групп разноски ГК для налога
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных для Мексики
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Начало работы с электронным выставлением накладных для Саудовской Аравии
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: Использование службы электронных накладных для импорта накладных поставщиков
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Настройка электронного выставления накладных
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Логика применимости налога и определения налоговой группы
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Использование параметров налоговой инспекции для настройки расчета скидок по оплате
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Расчет
                       items:
                         - name: 'Расчет налога в ценах, когда активировано включение налога в цену'
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Отчет ЕС по НДС
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Отчетность Испании
+                          items:
+                            - name: 'Немедленное предоставление информации по НДС (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: Отчетность Швеции
                           items:
                             - name: Декларация по НДС
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Отчетность Соединенного Королевства
                           items:
-                            - name: Подготовка к интеграции с MTD для НДС
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: Декларация по НДС
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Включение расчета налогов для заказа на перемещение
                       items:
                         - name: Поддержка функций налогов для заказов на перемещение
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Печать сведений о налогах в документах заказов на перемещение
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Расширение
                       items:
                         - name: Добавление полей данных в налоговые конфигурации
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Добавление полей данных в налоговую интеграцию с помощью расширений
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Настройка налоговых конфигураций для поиска справочника
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Вопросы и ответы по расчету налогов
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
             - name: Австралия
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Годовой отчет по НДС для внутренних продаж
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Бельгийский Интрастат
+                  href: localizations/emea-bel-intrastat.md
             - name: Бразилия
               items:
                 - name: Обзор по Бразилии
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Что нового и что изменилось для индийской локализации
                   items:
+                    - name: Что нового и что изменилось в версиях 10.0.20 — 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Что нового и что изменилось в версиях 10.0.15 — 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Что нового и что изменилось в версии 10.0.14
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: Обновление номеров и дат сертификатов для проводок TDS
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Индонезия
+              items:
+                - name: Обзор по Индонезии
+                  href: localizations/indonesia.md
+                - name: Декларация по НДС для Индонезии
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Италия
               items:
                 - name: Обзор по Италии
@@ -3022,13 +3056,15 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Файл аудита (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
-                - name: Декларация НДС (Нидерланды)
+                - name: Декларация по НДС (Нидерланды)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Нидерландский Интрастат
+                  href: localizations/emea-nl-intrastat.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Новая Зеландия
               items:
-                - name: Форма декларации GST101A для Новой Зеландии (NZ-00003)
+                - name: Форма декларации налога с продаж GST101A для Новой Зеландии (NZ-00003)
                   href: localizations/apac-nzl-gst-declaration.md
             - name: Норвегия
               items:
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Распределение накладных расходов банковского документа для отгрузки
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Электронные накладные клиентов в Саудовской Аравии
+                  href: localizations/emea-sau-e-invoices.md
             - name: Сингапур
               items:
                 - name: Обзор по Сингапуру
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: Внутренний НДС (ЕС)
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Испанский Интрастат
+                  href: localizations/emea-esp-intrastat.md
                 - name: Разовые клиенты
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Печать чеков в испанском формате
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: 'Настройка налоговых групп для НДС, удерживаемого с покупателя'
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Отчетность Соединенного Королевства
+                - name: Making Tax Digital (MTD) для НДС
                   items:
-                    - name: Making Tax Digital (MTD) для НДС
-                      items:
-                        - name: Подача заявлений на возврат НДС Making Tax Digital (MTD) в Соединенном Королевстве
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Подготовка среды к взаимодействию с веб-службой HMRC MTD для НДС
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Контрольный список для настройки электронных сообщений для MTD для НДС
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Тестирование взаимодействия с песочницей MTD для НДС
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Авторизация среды Finance для взаимодействия с веб-службой HMRC MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Подача заявления на возврат НДС в веб-службу HMRC MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Получение информации о платежах и обязательствах по НДС из HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Особенности настройки НДС для деклараций в Соединенном Королевстве
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Создание декларации по НДС в бумажном формате (отчет НДС 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Подача заявлений на возврат НДС Making Tax Digital (MTD) в Соединенном Королевстве
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Подготовка среды к взаимодействию с веб-службой HMRC MTD для НДС
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: Контрольный список для настройки электронных сообщений для MTD для НДС
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Тестирование взаимодействия с песочницей MTD для НДС
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Авторизация среды Finance для взаимодействия с веб-службой HMRC MTD
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: Подача заявления на возврат НДС в веб-службу HMRC MTD
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Получение информации о платежах и обязательствах по НДС из HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Особенности настройки НДС для деклараций в Соединенном Королевстве
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Создание декларации по НДС в бумажном формате (отчет НДС 100)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Статистика по отчету о методах оплаты
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: США
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Обновление приложения 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Обновление приложения 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: 'Изменение кода, чтобы разрешить пользователям настраивать и использовать именованные назначения ER'
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Реализация настраиваемого источника электронной отчетности для входящих документов
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Мобильное приложение
           items:
             - name: Домашняя страница мобильного приложения

@@ -14,12 +14,12 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновления платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для версии 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: "Обновления платформы для версии 10.0.22 (ноябрь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: "Обновления платформы для версии 10.0.21 (октябрь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: "Обновления платформы для версии 10.0.20 (август 2021\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Бизнес-события
-          items:
-            - name: Обзор бизнес-событий
-              href: business-events/home-page.md
-            - name: Бизнес-события приложения
-              href: business-events/app-business-events.md
-            - name: Бизнес-события бизнес-правила
-              href: business-events/business-events-workflow.md
-            - name: Пакетные бизнес-события
-              href: business-events/system-business-events.md
-            - name: Оповещения как бизнес-события
-              href: business-events/alerts-business-events.md
-            - name: Бизнес-события в Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Документация для разработчиков бизнес-событий
-              href: business-events/business-events-dev-doc.md
-            - name: Устранение неполадок с бизнес-событиями
-              href: business-events/troubleshooting.md
-            - name: Варианты использования для бизнес-событий
-              href: business-events/potential-use-cases.md
-            - name: Учебники
-              items:
-                - name: Бизнес-события и Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Бизнес-события и сетка событий Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Бизнес-события и служебная шина Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Бизнес-события и утверждения workflow-процессов
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Бизнес-события и Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Бизнес-события и центры событий Azure
-                  href: business-events/how-to/event-hub.md
-                - name: Бизнес-события при закрытии финансового периода
-                  href: business-events/how-to/period-close.md
         - name: Непрерывная поставка
           items:
             - name: Домашняя страница непрерывной поставки
@@ -592,7 +556,7 @@
               items:
                 - name: Поддержка языка X++
                   items:
-                    - name: Требования Visual Studio 2017 к X++
+                    - name: Требования Visual Studio к X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: Отладка кода X++
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Свойства обозревателя приложений
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: Атрибут SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: Справочник по языку X++
                   items:
                     - name: Обзор справочника по языку X++
@@ -1038,6 +1004,10 @@
           items:
             - name: Интеграция Microsoft Power Platform с Finance and Operations
               href: power-platform/overview.md
+            - name: Включение интеграции Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: Проверка подлинности и авторизация
+              href: power-platform/authentication-and-authorization.md
             - name: Двойная запись
               items:
                 - name: Домашняя страница двойной записи
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Изменение юридического лица после настройки двойной записи
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Приостановка двойной записи для обслуживания
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Управление ошибками и уведомления об оповещении
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Управление жизненным циклом приложений
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Коды ошибок для проверки работоспособности сопоставлений таблиц
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Вопросы и ответы по двойной записи
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Виртуальные объекты
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Управление жизненным циклом приложений
                   href: power-platform/application-lifecycle-management.md
-                - name: Ссылка администратора Finance and Operations и Dataverse
+                - name: Настройка виртуальных объектов Dataverse
                   href: power-platform/admin-reference.md
+                - name: Включение виртуальных объектов Dataverse
+                  href: power-platform/enable-virtual-entities.md
                 - name: Порталы Power Apps с Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Вопросы и ответы по виртуальным объектам Finance and Operations
                   href: power-platform/faq.md
+            - name: Бизнес-события
+              items:
+                - name: Обзор бизнес-событий
+                  href: business-events/home-page.md
+                - name: Бизнес-события приложения
+                  href: business-events/app-business-events.md
+                - name: Бизнес-события workflow-процесса
+                  href: business-events/business-events-workflow.md
+                - name: Пакетные бизнес-события
+                  href: business-events/system-business-events.md
+                - name: Оповещения как бизнес-события
+                  href: business-events/alerts-business-events.md
+                - name: 'События, инициируемые изменением данных'
+                  href: business-events/data-events.md
+                - name: Бизнес-события в Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Документация для разработчиков бизнес-событий
+                  href: business-events/business-events-dev-doc.md
+                - name: Устранение неполадок с бизнес-событиями
+                  href: business-events/troubleshooting.md
+                - name: Варианты использования для бизнес-событий
+                  href: business-events/potential-use-cases.md
+                - name: Учебники
+                  items:
+                    - name: Бизнес-события и Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Бизнес-события и сетка событий Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Бизнес-события и служебная шина Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Бизнес-события и утверждения workflow-процессов
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Бизнес-события и Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Бизнес-события и центры событий Azure
+                      href: business-events/how-to/event-hub.md
+                    - name: Бизнес-события при закрытии финансового периода
+                      href: business-events/how-to/period-close.md
             - name: Надстройки
               items:
                 - name: Обзор надстроек
@@ -1582,7 +1596,9 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Отмена выполняемого пакетного задания
                   href: sysadmin/batch-abort.md
-            - name: Помощник по оптимизации
+                - name: OData API пакета
+                  href: sysadmin/batch-odata-api.md
+            - name: Советник по оптимизации
               items:
                 - name: Обзор помощника по оптимизации
                   href: sysadmin/optimization-advisor-overview.md
