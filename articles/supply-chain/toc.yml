@@ -74,12 +74,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: "Supply Chain Management 10.0.22 (ноябрь 2021\_г.)"
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: "Supply Chain Management 10.0.21 (октябрь 2021\_г.)"
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: "Supply Chain Management 10.0.20 (август 2021\_г.)"
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Сводное планирование с коммерческими соглашениями о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 'Параметры даты и времени, используемые при оптимизации планирования'
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Допуск задержки (отрицательные дни)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка глобальной адресной книги
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка адреса
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Вопросы и ответы по адресным книгам
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка адресных книг
@@ -2427,19 +2431,7 @@
                       href: production-control/release-production-orders.md
                     - name: Приемка производственных заказов
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Настройка и использование интерфейса выполнения производственного цеха
-                      items:
-                        - name: Настройка интерфейса выполнения производственного цеха
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Разработка интерфейса выполнения производственного цеха
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Как работники используют интерфейс выполнения производственного цеха
-                          href: production-control/production-floor-execution-use.md
-                        - name: Стиль интерфейса выполнения производственного цеха
-                          href: production-control/production-floor-execution-styles.md
-                    - name: Настройка карты задания для устройств
+                    - name: Настройка карты заданий для устройств
                       href: production-control/config-job-card-device.md
                     - name: Приемка с устройства карты задания
                       href: production-control/report-finished-job-device.md
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Разноски по производству
                       href: cost-management/production-posting.md
+            - name: Настройка и использование интерфейса выполнения производственного цеха
+              items:
+                - name: Настройка интерфейса выполнения производственного цеха
+                  href: production-control/production-floor-execution-configure.md
+                - name: Разработка интерфейса выполнения производственного цеха
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
+                  href: production-control/production-floor-execution-setup.md
+                - name: Как работники используют интерфейс выполнения производственного цеха
+                  href: production-control/production-floor-execution-use.md
+                - name: Стиль интерфейса выполнения производственного цеха
+                  href: production-control/production-floor-execution-styles.md
         - name: Управление ретробонусами
           items:
             - name: Обзор модуля "Управление ретробонусами"
@@ -3389,8 +3393,12 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Настройка мобильных устройств для работы склада
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Настройте названий шагов и инструкций для мобильного приложения Warehouse Management
+                    - name: Настройка названий шагов и инструкций для мобильного приложения Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Настройка продвигаемых полей для шагов на мобильном устройстве
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Настройка переключений для шагов в пунктах меню мобильного устройства
+                      href: warehousing/warehouse-app-detours.md
                     - name: Получение грузомест с помощью мобильного приложения Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Глобальные параметры мобильного устройства
                   href: warehousing/mobile-device-parameters.md
+                - name: Учетные записи пользователей мобильного устройства
+                  href: warehousing/mobile-device-work-users.md
                 - name: Параметры пользователя мобильного устройства
                   href: warehousing/mobile-device-user-settings.md
                 - name: Обработка событий приложения склада
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Управление складом
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: При настройке подключения к приложению не найдена привязка доверия для пути сертификации
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: При обновлении и переходе на систему управления складом не найдена привязка доверия для пути сертификации
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Запрос автоматического резервирования номера партии появляется даже при наличии доступных запасов
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Невозможно разблокировать работу по комплектации из-за незаконченной работы по пополнению
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: 'Не удается переместить запасы в местоположение, управляемое грузоместом'
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: При настройке подключения к приложению не найдена привязка доверия для пути сертификации
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Не удается найти профиль кластера
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Невозможно обработать корректировку уведомления о поставке
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Невозможно отменить резервирование запасов по строке заказа на продажу
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: При обновлении и переходе на систему управления складом не найдена привязка доверия для пути сертификации
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: 'Невозможно подтвердить отгрузку, так как клиент заблокирован'
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: 'Невозможно подтвердить отгрузку, так как строки загрузки имеют нулевое количество'
