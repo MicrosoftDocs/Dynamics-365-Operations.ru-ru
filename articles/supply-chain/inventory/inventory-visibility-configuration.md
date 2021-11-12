@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474684"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678479"
 ---
 # <a name="configure-inventory-visibility"></a>Настройка видимости запасов
 
@@ -366,16 +366,12 @@ ms.locfileid: "7474684"
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Конфигурация резервирования (необязательно)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Конфигурация резервирования требуется, если нужно использовать функцию "предварительное резервирование". Конфигурация состоит из двух фундаментальных частей:
 
 - Сопоставление предварительного резервирования
 - Иерархия предварительного резервирования
 
 ### <a name="soft-reservation-mapping"></a>Сопоставление предварительного резервирования
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 При резервировании может возникнуть необходимость узнать, доступны ли в данный момент запасы в наличии для резервирования. Проверка связана с вычисляемой мерой, которая представляет собой формулу вычисления комбинации физических мер.
 
@@ -446,8 +442,6 @@ ms.locfileid: "7474684"
 > При вызове API резервирования можно контролировать проверку резервирования путем указания логического параметра `ifCheckAvailForReserv` в тексте запроса. Значение `True` означает, что проверка является обязательной, а значение `False` означает, что проверка не является обязательной. Значение по умолчанию — `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Иерархия предварительного резервирования
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Иерархия резервирования описывает последовательность аналитик, которая должна быть указана при выполнении резервирования. Это функционирует так же, как и иерархия индексов продуктов для запросов в наличии.
 
@@ -747,8 +741,6 @@ ms.locfileid: "7474684"
 В этом разделе описывается конфигурация резервирования по умолчанию.
 
 #### <a name="reservation-mapping"></a>Сопоставление резервирования
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 В следующей таблице показано сопоставление резервирования по умолчанию.
 

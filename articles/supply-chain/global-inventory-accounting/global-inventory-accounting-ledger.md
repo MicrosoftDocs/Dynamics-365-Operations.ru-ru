@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e956bac61df4b694ef347b804fed139e9e22e6f95d1bac7ea483a07946cb110f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722447"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678891"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Книга глобального учета запасов
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Глобальный учет запасов имеет свой собственный набор книг. Каждый раз, когда проводка, связанная с запасами, обрабатывается для соответствующего юридического лица, система может учитывать эту проводку в любом количестве книг глобального учета запасов по мере необходимости.
 

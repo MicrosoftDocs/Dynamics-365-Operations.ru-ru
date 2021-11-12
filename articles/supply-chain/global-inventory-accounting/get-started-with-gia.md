@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773304"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678867"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Начало глобального учета запасов
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Глобальный учет запасов позволяет выполнить несколько учетов запасов в настроенных книгах глобального учета запасов. Каждую книгу глобального учета запасов следует связать с *соглашением*. Соглашение — это совокупность следующих типов политик учета:
 
@@ -60,9 +60,9 @@ ms.locfileid: "6773304"
 1. В диалоговом окне **Настройка среды Power Platform** установите флажок, а затем выберите **Настройка**. Обычно программа установки занимает от 60 до 90 минут.
 1. После завершения настройки среды Microsoft Power Platform страница отобразит название среды. Кроме того, в разделе **Интеграция Power Platform** отображается сообщение "Настройка среды Power Platform завершена". Для глобального учета запасов не требуется приложение с двойной записью.
 
-Дополнительные сведения см. в разделе [Настройка после развертывания среды](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Дополнительные сведения см. в разделе [Включение после развертывания среды](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Настройка Dataverse
+### <a name="set-up-dataverse"></a>Настроить Dataverse
 
 Перед настройкой Dataverse добавьте в свой клиент принципы служб глобального учета запасов, выполнив следующие действия.
 

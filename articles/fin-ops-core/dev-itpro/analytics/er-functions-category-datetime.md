@@ -2,7 +2,7 @@
 title: Список функций ER в категории даты и времени
 description: В этой теме содержится информация о функциях даты и времени, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760058"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647271"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Список функций ER в категории даты и времени
 
@@ -31,8 +31,9 @@ ms.locfileid: "6760058"
 
 | Функция | Описание |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Эта функция возвращает значение *DateTime*, которое является указанным числом дней до или после указанной даты начала. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Эта функция возвращает значение *строки*, которое представляет заданное значение даты в виде текста в указанном формате и в дополнительно указанной культуре. |
+| [AddDays](er-functions-datetime-adddays.md) | Эта функция возвращает значение *[DateTime](er-formula-supported-data-types-primitive.md#datetime)*, которое является указанным числом дней до или после указанной даты начала. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Эта функция возвращает значение *DateTime*, которое преобразуется из заданного значения даты/времени в значение даты/времени другого часового пояса. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Эта функция возвращает значение *[строки](er-formula-supported-data-types-primitive.md#string)*, которое представляет заданное значение даты в виде текста в указанном формате и в дополнительно указанной культуре. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Эта функция возвращает значение *строки*, которое представляет заданное значение даты/времени в виде текста в указанном формате и в дополнительно указанной культуре. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Эта функция возвращает значение *DateTime*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной культуре в значение даты/времени. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Эта функция возвращает значение *DateTime*, которое преобразуется из заданного значения даты в значение даты/времени в формате UTC (Greenwich Mean Time \[GMT\]). |

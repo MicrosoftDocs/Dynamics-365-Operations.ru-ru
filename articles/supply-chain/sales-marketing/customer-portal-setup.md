@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
+ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572657"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648386"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Установка, настройка и обновление клиентского портала
 
@@ -41,7 +41,7 @@ ms.locfileid: "7572657"
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Необходимая настройка для включения клиентского портала
 
-Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Убедитесь, что следующие сопоставления таблиц активированы в двойной записи:
 

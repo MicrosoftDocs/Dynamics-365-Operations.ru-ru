@@ -2,7 +2,7 @@
 title: Ссылки на исходные накладные в кредит-нотах
 description: В этой теме объясняется, как настроить и напечатать исходные номера накладных в соответствующих кредит-нотах.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723855"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700363"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Ссылки на исходные накладные в кредит-нотах
 
@@ -95,5 +95,10 @@ ms.locfileid: "6723855"
 > [!NOTE]
 > Убедитесь, что печатаемые форматы документов правильно настроены, в предположении, что будут распечатаны ссылки на исходные накладные.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Ссылки на исходные накладные в дебит-нотах
+
+По умолчанию для кредит-нот могут быть указаны ссылки на исходные накладные. Например, можно ввести ссылки при внесении отрицательных (уменьшающих) исправлений исходных накладных.
+
+Для ввода ссылок при выполнении положительных (повышающих) исправлений исходных накладных необходимо включить функцию **Ссылки на исходные накладные в дебит-нотах** в рабочей области **Управление функциями**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

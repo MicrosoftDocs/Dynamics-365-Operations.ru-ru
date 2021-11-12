@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 131d88c51755a433a874ac0fe086b3eaa48f161c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3e0840944b7619f870194f6c16e15672bb888546
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572801"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678551"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Вызов потоков автоматизации процессов для создания заказов контроля качества
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 12/1/2021 -->
 
 Организации имеют увеличивающую потребность в автоматизации стандартных бизнес-процессов, обеспечивают более удобное взаимодействие с персоналом и используют различные сигналы данных и системы для автоматического ведения бизнес-процессов. Используя роботизированную автоматизацию процессов (RPA) и Microsoft Power Automate, компании могут использовать интерфейс без написания кода для автоматизации повторяющихся процессов, тем самым получая эффективность и точность работы.
 

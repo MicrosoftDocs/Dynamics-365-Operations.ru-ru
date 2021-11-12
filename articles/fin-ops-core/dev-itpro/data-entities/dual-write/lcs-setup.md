@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416659"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675305"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
@@ -28,8 +28,8 @@ ms.locfileid: "7416659"
 
 Необходимо завершить интеграцию Power Platform, как описано в следующих темах:
 
-+ [Интеграция Power Platform — включение в ходе развертывания среды](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Интеграция Power Platform — настройка после развертывания среды](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Интеграция Power Platform — включение в ходе развертывания среды](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Интеграция Power Platform — включение после развертывания среды](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Настройка двойной записи для новых сред Dataverse
 

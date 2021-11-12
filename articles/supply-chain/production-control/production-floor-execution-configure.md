@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576936"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647197"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Настройка интерфейса выполнения производственного цеха
 
@@ -74,6 +74,12 @@ ms.locfileid: "7576936"
 Эта функция делает возможным добавление поля поиска в список заданий. Работники могут найти конкретное задание путем ввода кода задания или поиска всех заданий для конкретного заказа, вводя код заказа. Работники могут ввести код с помощью клавиатуры или путем сканирования штрих-кода. Если вы хотите использовать ее, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Поиск заданий для интерфейса выполнения производственного цеха
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Включить отчетность по сопутствующим и побочным продуктам
+
+С помощью этой функции работники используют интерфейс выполнения производственного цеха для отчета о ходе выполнения заказов партий. Этот отчет включает отчетность по сопутствующим и побочным продуктам. Чтобы эта функция была доступна, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Отчет о сопутствующих и побочных продуктах из интерфейса выполнения производственного цеха
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Работа с конфигурациями интерфейса выполнения производственного цеха
 

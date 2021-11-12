@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575179"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678917"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Обзор надстройки видимости запасов
 
@@ -45,8 +45,6 @@ ms.locfileid: "7575179"
 - Просмотр списка необработанных запасов в наличии. Этот список периодически синхронизируется с кэшированным экземпляром и отображается в Dataverse. Дополнительные сведения см. в разделе [Приложение видимости запасов](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Предварительные резервирования
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Предварительное резервирование применяется, когда предприятие должно зарезервировать определенное количество продуктов для поддержки, например, выполнения заказа на продажу, чтобы избежать перепродажи. Когда заказ на продажу создается и подтверждается в Supply Chain Management или других системах управления заказами, запрос на резервирование количества передается в видимость запасов. Видимость запасов позволяет резервировать продукты, имеющие сведения об аналитике, и отдельные типы складских проводок. (Дополнительные сведения см. в разделе [Приложение видимости запасов](inventory-visibility-power-platform.md).) После успешного резервирования количества возвращается код резервирования. Этот код резервирования можно использовать для обратной связи с исходным заказом в Supply Chain Management или в других системах управления заказами.
 

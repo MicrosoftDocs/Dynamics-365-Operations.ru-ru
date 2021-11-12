@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485630"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655393"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового или что изменено в мобильном приложении Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20110"></a>Версия 2.0.11.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+
+- Добавлена поддержка для продвигаемых полей.
+- Добавлена поддержка навигации аппаратной клавиатуры.
+- Улучшены специальные возможности.
+- Расширенные сведения о карточках.
+- Улучшены переключения для шагов пунктов меню.
+- Незначительные улучшения пользовательского интерфейса.
+- Исправлена проблема, которая может привести к сбою приложения при сканировании штрихкодов.
+- Исправлены различные проблемы, из-за которых система перестала отвечать.
 
 ## <a name="version-20100"></a>Версия 2.0.10.0
 
