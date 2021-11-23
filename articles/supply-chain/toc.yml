@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Корректировка себестоимости запасов в наличии
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Отчет о стоимости запасов по складам
+                - name: Отчеты о стоимости запасов
                   href: cost-management/inventory-value-report-storage.md
+                - name: Примеры и логика отчетов о стоимости запасов
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Хранилище отчетов о распределении запасов по срокам
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Примеры и логика отчетов о распределении запасов по срокам
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Планирование с выбором ресурсов на основе возможностей
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Планирование на основе приоритетов
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Маркировка запасов с оптимизацией планирования
                   href: master-planning/planning-optimization/marking.md
                 - name: Внутрихолдинговое планирование
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Выполнение резервного запаса для номенклатур
                   href: master-planning/safety-stock-replenishment.md
+                - name: Использование журнала резервного запаса для обновления минимального покрытия номенклатур
+                  href: master-planning/safety-stock-journal.md
                 - name: Задержки
                   href: master-planning/delays.md
                 - name: Отмена задания сводного планирования
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Вызов потоков автоматизации процесса для создания заказов для контроля качества
               href: production-control/process-automation-quality-orders.md
+            - name: Интеграция со сторонними системами управления производством
+              href: production-control/mes-integration.md
             - name: Дискретное производство
               items:
                 - name: Ведение справочника производства
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Стиль интерфейса выполнения производственного цеха
                   href: production-control/production-floor-execution-styles.md
+                - name: Настройка интерфейса выполнения производственного цеха
+                  href: production-control/production-floor-execution-customize.md
         - name: Управление ретробонусами
           items:
             - name: Обзор модуля "Управление ретробонусами"

@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Вызов простого формата экспорта электронной отчетности для создания отчета в Excel
               href: general-ledger/electronic-messaging-example.md
-        - name: Управление расходами
-          items:
-            - name: Обзор управления расходами
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Новый взгляд на отчеты по расходам
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Планирование управления расходами
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Параметры управления расходами
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Мобильная рабочая область управления расходами
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Настройка workflow-процессов для управления расходами
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Workflow-процесс управления расходами
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Управление делегированием расходов
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Обработка чеков по расходам
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Импорт и ведение проводок по кредитным картам
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Распределения по отчету по расходам
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Внутрихолдинговые расходы
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Определение политик расходов
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Просмотр отчета по расходам
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Разноска отчета по расходам
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Отчеты по расходам и использование нескольких утверждающих лиц
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: Возмещение НДС в модуле Управление расходами
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Суточные правила
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Заявки на командировки
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Личные расходы в отчете о расходах
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Основные средства
           items:
             - name: Домашняя страница основных средств
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Настройка и администрирование
               items:
-                - name: Настройка Finance Insights для общедоступной предварительной версии
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Настройка Finance Insights для закрытой предварительной версии
+                - name: Настройка Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Включение прогнозов платежей клиентов
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Вопросы и ответы по устранению неполадок Finance Insights
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Управление и учет по проектам
-          items:
-            - name: Обзор управления и учета по проектам
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Внутрихолдинговое выставление накладных
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Настройка внутрихолдингового выставления накладных по проектам
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: Настройка стандартной стоимости труда и расходов
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Создание и применение условий удержания оплаты поставщику
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: Настройка и использование платежей поставщику после получения оплаты от клиента
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Начисления затрат по проекту в поступлениях покупок
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Выставление накладных по проекту
-              href: accounts-payable/project-invoicing.md
-            - name: Контракты по проектам
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: Создание расширенных контрактов для выставления счетов на основе хода выполнения
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Прогнозы и бюджеты по проекту
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Создание прогнозных моделей для бюджетов проектов
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Перенос бюджетов проектов в конце финансового года
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Заказы на продажу по проекту
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Заказы на покупку по проекту
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Предложения по проекту
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Подтверждение, обновление и отправка предложения по проекту'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Передача предложения в проект
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Ресурсы проекта
-              items:
-                - name: Обзор ресурсов проектов
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Настройка ресурсов проектов
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Управление компетенциями ресурсов
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Создание нового проекта
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Настройка ценообразования на основе ролей
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Создание проектной группы
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Синхронизация емкости ресурсов
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Производительность планирования ресурсов проекта
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: Настройка ролей в шаблонах структурной декомпозиции работ
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Обеспечение ресурсов для запланированных ресурсов
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Получение номенклатур в заказе на покупку из потребности в номенклатуре
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: Структурные декомпозиции работ
-              items:
-                - name: Обзор структурных декомпозиций работ
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Интеграция Microsoft Project Client
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Обзор мобильных приложений Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Мобильная рабочая область регистрации времени по проектам
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Мобильное приложение Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Табели учета рабочего времени проекта на мобильном устройстве
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Реализация настраиваемых полей для мобильного приложения табеля учета рабочего времени проекта
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Гранты по проекту
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Удаление оценки проекта
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Государственный сектор
           items:
             - name: Домашняя страница государственного сектора
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Настройка параметров NF-e для финансового учреждения
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: Перемещение XML-файлов NF-e как вложений
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 — обновления макета и проверки в электронном финансовом документе (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — цифровая платформа промежуточных продаж для NF-e
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Просмотр проводок по сопоставлению
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Финансовая причина
+                  href: localizations/emea-financial-reason.md
             - name: Финляндия
               items:
                 - name: Обзор по Финляндии
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Повышение удобства использования банковских данных
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Итальянский Интрастат
-                  href: localizations/emea-ita-intrastat.md
-                - name: Разноска поступлений и отправок для Интрастат
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: Интрастат
+                  items:
+                    - name: Итальянский Интрастат
+                      href: localizations/emea-ita-intrastat.md
+                    - name: Разноска поступлений и отправок для Интрастат
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: Формат файла (ИТ) Интрастат
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Накладные расходы на килограмм в декларации Интрастат
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Письма о намерениях — выставление накладных обычным экспортерам
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Налоговые отчеты
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Польский Интрастат
+                  href: localizations/emea-pol-intrastat.md
                 - name: Настройка номерных серий по складу
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Стандартный файл аудита
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Относительный путь в привязке данных
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: Разработка выражений для вызова методов классов приложений
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: Использование решений электронной отчетности в Finance
               items:
                 - name: Настройка платформы

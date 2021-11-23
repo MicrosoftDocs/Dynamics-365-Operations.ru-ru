@@ -2,7 +2,7 @@
 title: Домашняя страница Finance
 description: В этом разделе представлен список разделов справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394571"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753729"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -41,12 +41,10 @@ ms.locfileid: "7394571"
         - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Управление расходами](/dynamics365/project-operations/prod-exp/expense-management)
         - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
-        - [Управление и учет по проектам](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Государственный сектор](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ ms.locfileid: "7394571"
 
 ### <a name="countryregion-functionality"></a>Функциональность страны/региона
 
-Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) справки.
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
-Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
+Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая следующее:
+
+   - Приобретение
+   - Заказ 
+   - Получение
+   - Выставление накладных
+   - Оплата товаров и услуг, приобретаемых организацией 
+    
+Дополнительные сведения о возможностях управления покупками, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 

@@ -1272,7 +1272,7 @@
               href: store-performance-information.md
             - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Настройка Microsoft Clarity в Dynamics 365 Commerce
+            - name: Настройка Microsoft Clarity в Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: Глобализация
           items:
@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Retail SDK
               items:
+                - name: Миграция в Commerce SDK
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Архитектура Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Настройка конвейера сборки для пакета SDK независимой упаковки
