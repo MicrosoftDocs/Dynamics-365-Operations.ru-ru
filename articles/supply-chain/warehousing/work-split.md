@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579888"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778265"
 ---
 # <a name="work-split"></a>Разделение работ
 
@@ -33,7 +33,7 @@ ms.locfileid: "7579888"
 
 Прежде чем можно будет использовать функцию разделения работ, необходимо включить эту функцию и ее обязательные функции в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функций и их включения, если это требуется.
 
-Прежде всего включите требуемую функцию *Блокирование работы на уровне организации*, если она еще не включена. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+Прежде всего включите требуемую функцию *Блокирование работы на уровне организации*, если она еще не включена. В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова. Однако эта функция по прежнему указана в области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) следующим образом:
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *Блокировка работ для всей организации*

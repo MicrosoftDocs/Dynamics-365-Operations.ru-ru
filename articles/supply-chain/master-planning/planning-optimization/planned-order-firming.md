@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764844"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778529"
 ---
 # <a name="firm-planned-orders"></a>Утверждение спланированных заказов
 
@@ -39,7 +39,7 @@ ms.locfileid: "6764844"
 
 Параллельное подтверждение помогает ускорить процесс подтверждения путем параллельного выполнения в нескольких потоках. Этот подход может быть полезен, если подтверждено много спланированных заказов.
 
-Чтобы эта функция была доступна в системе, перейдите [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Параллельное подтверждение спланированных заказов*.
+Чтобы эта функция была доступна в системе, перейдите [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Параллельное подтверждение спланированных заказов*. (В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Включение подтверждения спланированного заказа с фильтрацией
 
@@ -51,7 +51,7 @@ ms.locfileid: "6764844"
 
 Автоматическое подтверждение позволяет подтверждать спланированные заказы в рамках процесса сводного планирования в переделах временной границы подтверждения. Автоматическое подтверждение всегда поддерживается для механизма планирования, встроенного в Supply Chain Management. Однако, чтобы использовать его в оптимизации планирования, необходимо включить функцию.
 
-Чтобы эта функция была доступна в системе, перейдите [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Автоматическое подтверждение для оптимизации планирования*.
+Чтобы эта функция была доступна в системе, перейдите [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Автоматическое подтверждение для оптимизации планирования*. (В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 
 ## <a name="manually-firm-planned-orders"></a>Подтверждение спланированных заказов вручную
 

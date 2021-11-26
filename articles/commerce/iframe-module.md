@@ -2,7 +2,7 @@
 title: Модуль iFrame
 description: В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767298"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754022"
 ---
 # <a name="iframe-module"></a>Модуль iFrame
 
@@ -66,7 +66,10 @@ ms.locfileid: "6767298"
 1. Задайте другие свойства, такие как **Заголовок** и **Высота**, как требуется.
 1. Выберите **Сохранить**, выберите **Завершить редактирование** для возврата страницы, затем нажмите кнопку **Опубликовать**, чтобы опубликовать ее.
 1. Перейдите на страницу маркетинга на своем сайте. Вы увидите, что видео отображается в модуле iFrame.
- 
+
+> [!NOTE]
+> Поскольку в модуле iFrame размещается внешнее содержимое, авторы сайта должны гарантировать, что содержимое, размещенное в модуле iFrame, не нарушает политики ограничения содержимого на соответствующем рынке. Если на странице, использующей модуль iFrame, имеется нарушение содержимого, автор сайта может удалить модуль iFrame, открыв страницу в конструкторе сайтов, выбрав команду **Удалить модуль** в слоте модуля iFrame, а затем сохранив и повторно опубликовав страницу.
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор библиотеки модулей](starter-kit-overview.md)

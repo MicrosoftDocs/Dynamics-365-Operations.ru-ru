@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576120"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778215"
 ---
 # <a name="replenishment-over-location-capacity"></a>Пополнение сверх объема местонахождения
 
@@ -32,7 +32,7 @@ ms.locfileid: "7576120"
 
 Чтобы эта функция была доступна, включите следующие функции в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (в указанном порядке):
 
-1. Блокировка работы для всей организации
+1. Блокировка работы для всей организации (В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
 1. Пополнение сверх объема местонахождения
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Настройка функции для примера сценария

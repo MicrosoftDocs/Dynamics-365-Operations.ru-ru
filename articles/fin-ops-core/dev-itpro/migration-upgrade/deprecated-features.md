@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753034"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Удаленные или устаревшие функции в предыдущих выпусках
 
@@ -84,7 +84,7 @@ ms.locfileid: "6745184"
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело: с 1 октября 2020 года планируется прекратить поддержку метода **setUtcString()**. Разработчики должны использовать вместо этого метод **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Отчет черного списка (IT) — Справочник по функциям IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Отчет списка блокировки (IT) — Справочник по функциям IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

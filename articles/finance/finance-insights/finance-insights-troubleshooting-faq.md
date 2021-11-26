@@ -2,7 +2,7 @@
 title: Устранение проблем настройки Finance Insights
 description: В этой теме перечислены проблемы, которые могут возникать при использовании возможностей Finance Insights. Здесь также объясняется, как решить эти проблемы.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512898"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752625"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Устранение проблем настройки Finance Insights
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме перечислены проблемы, которые могут возникать при использовании возможностей Finance Insights. Здесь также объясняется, как решить эти проблемы.
 
@@ -53,6 +54,12 @@ ms.locfileid: "7512898"
 
 1. Если используется предварительная версия Finance Insights, удалите проект интеграции данных, связанный с шаблоном **Результаты анализа платежей клиентов (из CDS в Fin and Ops)**.
 2. Выполните шаги, описанные в разделе [Создание проекта средства интеграции данных](create-data-integrate-project.md). Используйте шаблоны **Результаты анализа платежей клиентов (из CDS в Fin and Ops 10.0.17 и новее)**.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Симптом: при попытке открыть AI Builder с помощью ссылок на странице настройки прогнозов платежей клиента, почему я получаю следующее сообщение об ошибке: "Извините, было отключено"?
+
+### <a name="resolution"></a>Решение
+
+Пользователи Dynamics 365 Finance должны иметь учетную запись пользователя Microsoft Power Apps в среде, и эта учетная запись должна иметь роль настройщика системы. Системный администратор Microsoft Power Apps может создать учетную запись пользователя и назначить ей роль. Затем можно перейти на сайт <https://make.preview.powerapps.com/>, войти с помощью учетной записи пользователя и снова попробовать ссылки.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Симптом: почему на вкладке прогноза денежных средств в рабочей области прогноза движения денежных средств не отображаются никакие данные?
 

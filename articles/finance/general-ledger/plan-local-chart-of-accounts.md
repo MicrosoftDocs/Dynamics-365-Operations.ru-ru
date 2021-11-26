@@ -1,7 +1,7 @@
 ---
 title: Планирование локального плана счетов
 description: В этой теме приводятся сведения, которые помогут спланировать план счетов, если имеются потребности для регламентных/локальных требованиях для вашей организации.
-author: veneva
+author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a99e4ef3355188f574930c1d885e53fcb3134ad1
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725183"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798304"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Планирование локального плана счетов
 

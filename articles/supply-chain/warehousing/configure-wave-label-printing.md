@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344182"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778091"
 ---
 # <a name="wave-label-printing"></a>Печать этикеток волны
 
@@ -53,7 +53,7 @@ ms.locfileid: "7344182"
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Включение функции печати этикеток волны
 
-Прежде чем использовать функцию *Печать этикеток волны*, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
+В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова. Однако эта функция по прежнему указана в области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) следующим образом:
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *Печать этикеток волны*

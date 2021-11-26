@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576960"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777748"
 ---
 # <a name="configure-job-card-for-devices"></a>Настроить карту заданий для устройств
 
@@ -34,19 +34,19 @@ ms.locfileid: "7576960"
 
 Чтобы эта функция была доступна, включите следующие функции в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (в указанном порядке):
 
-1. Грузоместо для приемки добавлено в устройство карты задания
+1. Грузоместо для приемки добавлено в устройство карты задания (в Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 1. Включение автоматического создания номерного знака при приемке на устройстве карты задания
 
 ### <a name="print-label"></a>Печать этикетки
 
 Чтобы эта функция была доступна, включите следующие функции в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (в указанном порядке):
 
-1. Грузоместо для приемки добавлено в устройство карты задания
+1. Грузоместо для приемки добавлено в устройство карты задания (в Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 1. Печать этикетки с устройства карты задания
 
 ### <a name="allow-locking-of-touch-screen"></a>Разрешить блокировку сенсорного экрана
 
-Чтобы эта функция была доступна, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Если вы хотите использовать ее, убедитесь, что следующая функция включена в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Функция для блокировки устройства карты задания и терминала карты задания для дезинфекции
 

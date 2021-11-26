@@ -1,8 +1,8 @@
 ---
 title: Создание календаря рабочего времени
 description: Определите календарь рабочего времени, праздники и отсутствие в Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/01/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 351e5b8fb8d8f9cc2a7c6f9e93a9095a5871a83152b83eb504d9e155ffbcb8fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09449b832c403b0f711c3827ad20fc5aa618fbc4
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740775"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731501"
 ---
 # <a name="create-a-working-time-calendar"></a>Создание календаря рабочего времени
 
@@ -64,7 +64,7 @@ ms.locfileid: "6740775"
 
 Нерабочее время можно добавлять или изменять отдельно от календаря рабочего времени.
 
-1. На странице **Администрирование организации** щелкните **Нерабочее время**.
+1. На странице **Администрирование организации** выберите **НЕРАБОЧЕЕ ВРЕМЯ**.
 
 2. Выберите **Создать** и введите имя и диапазон времени для нерабочего времени.
 

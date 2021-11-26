@@ -1,7 +1,7 @@
 ---
 title: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
 description: Это руководство поможет настроить определение периода распределения по срокам, распределить сальдо клиента по срокам и просмотреть сальдо в списке "Сальдо с распределением по срокам" и на странице "Сборы".
-author: mikefalkner
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2468beea898de6367c655b54d89c1faab1e4435506bd21019c970af32d215729
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713290"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753568"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Настройка и создание сведений о распределении по срокам для расчетов с клиентами
 

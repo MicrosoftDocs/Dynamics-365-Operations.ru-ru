@@ -1,8 +1,8 @@
 ---
-title: Настройка среды для поиска справочника
-description: В этом разделе объясняется, как настроить среду для использования функции поиска основных данных для Расчет налогов.
+title: Включение подстановки основных данных для конфигурации расчета налога
+description: В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700412"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749518"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Настройка среды для поиска справочника
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Включение подстановки основных данных для конфигурации расчета налога 
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе объясняется, как настроить среду для использования функции поиска основных данных для Расчет налогов.
+В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов. Раскрывающийся список доступен для выбора значений в конфигурации расчета налогов для таких полей , как **Счет поставщика**, **Код номенклатуры** и **Условия поставки**. Эти значения берутся из связанной среды Microsoft Dynamics 365 Finance, использующей источник данных Microsoft Dataverse.
 
 1. Настройте интеграцию Microsoft Power Platform в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в [Microsoft Power Platform интеграция — Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). После выполнения этого шага появится название среды Microsoft Power Platform в разделе **Интеграция Power Platform**.
 2. Перейдите в [центр администрирования Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) и выберите имя среды. Предоставлен URL-адрес среды.

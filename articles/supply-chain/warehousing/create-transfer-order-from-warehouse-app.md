@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746827"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777823"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Создание заказов на перемещение из приложения склада
 
@@ -36,7 +36,7 @@ ms.locfileid: "6746827"
 1. Затем включите функцию *Создание заказов на перемещение из приложения склада*, которая указана как:
     - **Модуль** — Управление складом
     - **Имя функции** — создание и обработка заказов на перемещение из приложения склада
-1. Чтобы автоматизировать обработку исходящих отгрузок, необходимо также включить функцию [Подтверждение исходящих отгрузок из пакетных заданий](confirm-outbound-shipments-from-batch-jobs.md). Эта функция указана следующим образом:
+1. Чтобы автоматизировать обработку исходящих отгрузок, необходимо также включить функцию [Подтверждение исходящих отгрузок из пакетных заданий](confirm-outbound-shipments-from-batch-jobs.md). В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
     - **Модуль** — Управление складом
     - **Название функции** — подтвердить исходящие отгрузки из пакетных заданий
 

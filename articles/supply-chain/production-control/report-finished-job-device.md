@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569295"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778239"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Приемка с устройства карты задания
 
@@ -218,7 +218,7 @@ ms.locfileid: "7569295"
 
 Для использования описанных в этом разделе функций необходимо включить в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) следующие функции (в этом порядке):
 
-1. Грузоместо для приемки добавлено в устройство карты задания
+1. Грузоместо для приемки добавлено в устройство карты задания (в Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 1. Включение автоматического создания номерного знака при приемке на устройстве карты задания
 1. Печать этикетки с устройства карты задания
 

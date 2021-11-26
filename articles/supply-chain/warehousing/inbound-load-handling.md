@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577848"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778067"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Складская обработка входящих загрузок для заказов на покупку
 
@@ -267,7 +267,7 @@ Microsoft Dynamics 365 Supply Chain Management поддерживает неск
 
 1. Откройте рабочую область **Управление функциями**. (Полные сведения о поиске и использовании этой рабочей области см. в разделе [Обзор управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Включите функцию _Связать складские проводки заказа на покупку с загрузкой_, которая указана следующим образом:
+1. Убедитесь, что функция _Связать складские проводки заказа на покупку с загрузкой_ включена. В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова. Однако эта функция по прежнему указана в области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) следующим образом:
 
     - **Модуль:** _Управление складом_
     - **Название компонента:** _Связать складские проводки заказа на покупку с загрузкой_

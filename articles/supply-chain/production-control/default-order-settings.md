@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579432"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778115"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Параметры заказа по умолчанию для аналитик и вариантов продуктов
 
@@ -188,7 +188,7 @@ ms.locfileid: "7579432"
 
 ### <a name="enable-the-strict-validation-option"></a>Включение параметра строгой проверки
 
-Прежде чем использовать параметр строгой проверки, он должна быть включен в системе. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения их при необходимости. В этой статье функция указана следующим образом:
+В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
 
 - **Модуль** - *Управление сведениями о продукте*
 - **Название функции** - *Строгая проверка количества по умолчанию*

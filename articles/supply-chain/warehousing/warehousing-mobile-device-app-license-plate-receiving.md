@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576048"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777610"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Получение грузоместа через мобильное приложение управление складом
 
@@ -77,7 +77,7 @@ ms.locfileid: "7576048"
 - **Отображать подробную сводку** — во время получения грузоместа работники увидят дополнительную страницу, которая показывает полные сведения ASN.
 - **Пропустить сводку** — сотрудники не будут видеть полные сведения ASN. Работники склада не смогут задавать код метода обработки или добавлять исключения в ходе процесса приемки.
 
-Чтобы эта функция была доступна в вашей системе, необходимо включить функцию *Управление отображением страницы сводки получения на мобильном устройстве* в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы эта функция была доступна в вашей системе, функция *Управление отображением страницы сводки получения на мобильном устройстве* должна быть включена в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Блокировать использование грузомест, отправленных по заказам на перемещение, на складах, отличных от склада назначения.
 
