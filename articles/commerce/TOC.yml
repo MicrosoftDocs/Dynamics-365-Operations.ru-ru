@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Руководство по внедрению Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Приложения Finance and Operations во Франции
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Получение поддержки
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Обновление и поддержка N-1
@@ -1272,8 +1268,10 @@
               href: store-performance-information.md
             - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Настройка Microsoft Clarity в Dynamics 36 Commerce
+            - name: Настройка Microsoft Clarity в Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Аналитика Commerce (предварительная версия)
+              href: commerce-analytics.md
         - name: Глобализация
           items:
             - name: Обзор финансовой интеграции для канала Commerce
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Управление информацией по клиентам для России
                   href: localizations/rus-customer-information.md
+            - name: Саудовская Аравия
+              items:
+                - name: Создание QR-кодов и их печать в чеках для Саудовской Аравии
+                  href: localizations/emea-sau-qr-code.md
             - name: Швеция
               items:
                 - name: Функциональность контрольно-кассовой машины
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Рекомендации по отладке для разработки Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: Проверка страниц сайта электронной коммерции на предмет утечек памяти
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: Миграция в Commerce SDK

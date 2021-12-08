@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Приложения Finance and Operations во Франции
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Что нового и что изменилось
               items:
                 - name: Что нового и что изменилось в приложениях Finance and Operations
@@ -2147,7 +2143,7 @@
               items:
                 - name: Настройка сведений о ресурсах для проекта
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Отправка и утверждение бюджетов проектов
+                - name: Создание и отправка workflow-процесса бюджета проекта
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Отправка и утверждение версий бюджетов проектов
                   href: procurement/tasks/submit-approve-project-budget-revision.md

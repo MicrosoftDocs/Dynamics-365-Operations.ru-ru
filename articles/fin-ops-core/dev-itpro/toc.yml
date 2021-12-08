@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: Расширение и настройка справки и совместная работа над ней
                   href: help/contributor-guide.md
+            - name: 'Вопросы, связанные с развертыванием'
+              items:
+                - name: Параметры развертывания национального и локального облаков для Dynamics 365 Finance и Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance и Supply Chain Management в облаке сообщества для государственных организаций (GCC) США
+                  href: deployment/us-gcc-deployment.md
+                - name: 'Finance и Supply Chain Management, предоставляемые компанией 21Vianet в Китае'
+                  href: deployment/china-local-deployment.md
+                - name: Приложения Finance and Operations во Франции
+                  href: deployment/france-local-deployment.md
         - name: Разработка и настройка
           items:
             - name: Домашняя страница модуля разработки и настройки
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Обновление модели субъекта и глобальной адресной книги
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Просмотр данных субъекта
+                      href: data-entities/dual-write/view-party.md
                     - name: Интеграция примечаний
                       href: data-entities/dual-write/notes-integration.md
                     - name: Ссылка на сопоставление
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Создание пакетных заданий
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Включение автоматических повторов для пакетных заданий
+                - name: Включение повторов для пакетных заданий
                   href: sysadmin/retryable-batch.md
                 - name: Копирование пакетного задания
                   href: sysadmin/copy-batch-job.md

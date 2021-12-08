@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Приложения Finance and Operations во Франции
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Что нового и что изменилось
               items:
                 - name: Что нового и что изменилось в приложениях Finance and Operations
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Отчет по срокам оплаты по клиентам
               href: accounts-receivable/customer-aging.md
+            - name: Хранилище данных по распределению клиента по срокам оплаты
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Создание журнала списания для клиента
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Управление произвольными примечаниями
@@ -1476,6 +1474,10 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Отчетность Германии
+                          items:
+                            - name: Декларация по НДС
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Отчетность Нидерландов
                           items:
                             - name: Декларация по НДС
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Корректировки амортизации для дополнительных приобретений во второй год
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Декларация по НДС
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Электронная передача декларации НДС (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Немецкий Интрастат
                   href: localizations/emea-deu-intrastat.md
-                - name: Декларация НДС для Германии
+                - name: Отчет по НДС
                   href: localizations/emea-de-vat-declaration.md
                 - name: Отчет по электронным накладным клиентов
                   href: localizations/emea-deu-e-invoices.md
