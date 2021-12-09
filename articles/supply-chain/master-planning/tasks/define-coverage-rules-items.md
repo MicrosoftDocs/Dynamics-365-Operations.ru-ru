@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567231"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860621"
 ---
 # <a name="define-coverage-rules-for-items"></a>Определение правил покрытия для номенклатур
 
@@ -113,6 +113,7 @@ ms.locfileid: "7567231"
 1. В поле **Время покупки** введите значение "5".
 1. Нажмите **Сохранить**.
 
-
+> [!NOTE]
+> Для произведенных номенклатур используется **Время производственного цикла**, если для номенклатуры не указан маршрут. Если с номенклатурой связан активный маршрут, сводное планирование будет планировать заказ и рассчитывать его даты согласно времени маршрута и мощности ресурсов (если применимо).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

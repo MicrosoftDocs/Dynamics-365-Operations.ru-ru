@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781472"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817369"
 ---
 # <a name="dual-write-overview"></a>Обзор двойной записи
 
@@ -68,11 +68,7 @@ ms.locfileid: "7781472"
 + Возможность поиска сведений о запасах в наличии и их доступности
 + Опыт от проекта до оплаты
 + Способность обрабатывать несколько адресов и ролей с помощью концепции субъекта
-+ Управление одним источником для пользователей
-+ Интегрированные каналы для розничной торговли и маркетинга
-+ Видимость в рекламных акциях и скидках
-+ Функции запросов на обслуживание
-+ Упрощенные операции по обслуживанию
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Основные причины для использования двойной записи
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752625"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827061"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Устранение проблем настройки Finance Insights
 
@@ -70,3 +70,26 @@ ms.locfileid: "7752625"
 Сначала необходимо настроить и включить прогнозы движения денежных средств и счета денежных средств. Дополнительные сведения см. в разделе [Прогноз движения денежных средств](../cash-bank-management/cash-flow-forecasting.md). Если эта настройка завершена, но ожидаемые результаты не видны, см. раздел [Устранение неполадок настройки прогноза движения денежных средств](../cash-bank-management/cash-flow-forecasting-tsg.md) для получения дополнительной информации.
 
 Затем убедитесь, что функция прогнозов движения денежных средств в Finance Insights (**Управление банком и кассовыми операциями \> Настройка \> Finance Insights \> Прогнозы движения денежных средств**) включена, и обучение модели ИИ завершено. Если обучение не было завершено, выберите **Сделать прогноз**, чтобы начать процесс обучения модели.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Симптом: почему не видна кнопка установки новой надстройки в службе Microsoft Dynamics Lifecycle Services?
+
+### <a name="resolution"></a>Решение
+
+Во-первых, убедитесь, что роль **Менеджер среды** или **Владелец проекта** назначена выполнившему вход пользователю в поле **Роль безопасности проекта** в службе Microsoft Dynamics Lifecycle Services (LCS). Для установки новых надстроек требуется одна из этих ролей безопасности проекта.
+
+Если вам назначена правильная роль безопасности проекта, то, возможно, придется обновить окно браузера, чтобы увидеть кнопку **Установить новую надстройку**.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Симптом: надстройка Finance Insights не устанавливается. Почему так?
+
+### <a name="resolution"></a>Решение
+
+Следующие шаги должны быть выполнены.
+
+- Убедитесь, что у вас есть доступ **Системный администратор** и **Настройщик системы** в центре администрирования портала Power.
+- Убедитесь, что Dynamics 365 Finance или эквивалентная лицензия применяется к пользователю, устанавливающему надстройку.
+- Убедитесь, что следующее приложение Azure AD зарегистрировано в Azure AD: 
+
+  | Заявление                  | Код приложения           |
+  | ---------------------------- | ---------------- |
+  | Микрослужбы Microsoft Dynamics ERP CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

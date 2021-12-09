@@ -2,19 +2,19 @@
 title: Описание службы для приложений Finance and Operations
 description: В этой теме содержится описание службы для приложений Finance and Operations.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581824"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825408"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Описание службы для приложений Finance and Operations
 
@@ -50,7 +50,7 @@ ms.locfileid: "7581824"
 
 ### <a name="customer-activities"></a>Пользовательские мероприятия
 
-Клиенты взаимодействуют с партнерами и [Microsoft FastTrack](/dynamics365/fasttrack/), используя структуру [Success by Design](/dynamics365/fasttrack/success-by-design-overview) и средства и шаблоны рекомендаций, предоставляемые в [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) для реализации их решения. Общие мероприятия включают в себя следующее:
+Клиенты взаимодействуют с партнерами и [Microsoft FastTrack](/dynamics365/fasttrack/), используя [Руководство по внедрению Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), структуру [Success by Design](/dynamics365/fasttrack/success-by-design-overview) и средства и шаблоны рекомендаций, предоставляемые в [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) для реализации их решения. Общие мероприятия включают в себя следующее:
 
 - Удостоверение пользователя и управление безопасностью
 - Определение, разработка и работа с бизнес-процессами

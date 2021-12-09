@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678867"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860517"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Начало глобального учета запасов
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Глобальный учет запасов позволяет выполнить несколько учетов запасов в настроенных книгах глобального учета запасов. Каждую книгу глобального учета запасов следует связать с *соглашением*. Соглашение — это совокупность следующих типов политик учета:
 
