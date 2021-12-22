@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Что нового и что изменилось в выпусках обновления платформы
               items:
-                - name: Что нового и что изменилось на домашней странице обновления платформы
+                - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для версии 10.0.23
+                - name: "Обновления платформы для версии 10.0.24 (февраль 2022\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: "Обновления платформы для версии 10.0.23 (январь 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: "Обновления платформы для версии 10.0.22 (ноябрь 2021\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: "Обновления платформы для версии 10.0.21 (октябрь 2021\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Обзор Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Настройка экспорта в Azure Data Lake
+            - name: Обзор экспорта в Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Установка надстройки экспорта в Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: Приложения Finance and Operations в Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Использование одного и того же экземпляра AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
+                    - name: Обновление экземпляра SQL Server для сред Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Локальный агент
                   items:
                     - name: Совместимость AD FS с Microsoft 365
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Интеграция Microsoft Power Platform
           items:
-            - name: Интеграция Microsoft Power Platform с Finance and Operations
+            - name: Обзор
               href: power-platform/overview.md
             - name: Включение интеграции Power Platform
               href: power-platform/enable-power-platform-integration.md

@@ -92,7 +92,9 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: "Commerce 10.0.24 (февраль 2022\_г.)"
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: "Commerce 10.0.23 (январь 2022\_г.)"
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: "Commerce 10.0.22 (ноябрь 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,9 +546,11 @@
                       href: duplicate-payment-protection.md
                     - name: Обзор платежей многоканального взаимодействия
                       href: omni-channel-payments.md
+                    - name: Несколько доступных способов оплаты для самовывоза из магазина
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Платежи по заказам Commerce многоканального взаимодействия
                       href: dev-itpro/commerce-payments.md
-                    - name: Архивирование транзакционных данных с использованием кредитных карт
+                    - name: Архивирование данных проводок по кредитной карте
                       href: dev-itpro/archive-cc-data.md
                     - name: Обработка кредитных карт без Hardware Station
                       href: dev-itpro/cnp-pos.md
@@ -814,6 +818,10 @@
           items:
             - name: Управление клиентами в магазинах
               href: customer-mgmt-stores.md
+            - name: Режим создания асинхронных клиентов
+              href: async-customer-mode.md
+            - name: Преобразование асинхронных клиентов в синхронных клиентов
+              href: convert-async-to-sync.md
             - name: Отношения с клиентами
               items:
                 - name: Обзор отношений с клиентами
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Разноска бразильских финансовых документов с помощью журналов операций розничной торговли в Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Функции финансовых документов CF-e и интеграции с SAT в Commerce POS для Бразилии
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: Dynamics 365 Payment Connector для Adyen в Commerce POS для Бразилии
                   href: localizations/latam-bra-adyen.md
             - name: Восточная Европа
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Поддержка обновления и N-1 для Индии
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Создание QR-кодов и их печать в чеках
+                - name: Создание QR-кодов и их печать в чеках для Индии
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Интеграция налога на товары и услуги (GST) для сайтов электронной коммерции
+                  href: localizations/apac-ind-e-commerce.md
             - name: Италия
               items:
                 - name: Пример интеграции фискальных принтеров для Италии
@@ -1616,6 +1628,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: Функции для работы со списками

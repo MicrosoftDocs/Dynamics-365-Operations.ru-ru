@@ -4,6 +4,8 @@
     - name: Что нового
       items:
         - name: Что нового и что изменилось в Human Resources
+          href: hr-whats-new-2021-11-29.md
+        - name: 29 ноября 2021 г.
           href: hr-admin-whats-new.md
         - name: 5 октября 2021 г.
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Обработка изменений рейтинга
                       href: hr-benefits-process-rate-changes.md
+                - name: Выбор льгот сотрудника
+                  href: employee-select-benefits-ess.md
                 - name: Отчетность ACA
                   href: hr-benefits-management-aca-reports.md
                 - name: Отчет о льготах

@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (февраль)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (январь)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: "Finance 10.0.22 (ноябрь 2021\_г.)"
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: "Finance 10.0.21 (октябрь 2021\_г.)"
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Обзор бюджетирования
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Доступные бюджетные средства
+              href: budgeting/budget-funds-available.md
             - name: Прогнозирование должности
               href: budgeting/position-forecasting.md
             - name: Документы обоснования бюджетного планирования
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Настройка электронного выставления накладных
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Ссылка администратора подключаемого модуля Power Platform
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Вопросы и ответы по электронному выставлению накладных
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Расчет налогов
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Начало работы с расчетом налогов
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Настройка налоговых кодов
+                          href: localizations/set-up-tax-codes.md
+                        - name: Настройка налоговых групп
+                          href: localizations/set-up-tax-groups.md
+                        - name: Настройка налоговых групп номенклатур
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Импорт и экспорт расчетов налогов
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Настройка среды для поиска справочника
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Определение
@@ -2594,6 +2606,8 @@
               items:
                 - name: Обзор по Индонезии
                   href: localizations/indonesia.md
+                - name: Нумерация и выставление накладных для налоговых накладных
+                  href: localizations/apac-idn-invoicing.md
                 - name: Декларация по НДС для Индонезии
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Италия
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Электронные накладные клиентов
                   href: localizations/emea-ita-e-invoices.md
+                - name: Электронные накладные поставщиков
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Годовой налоговый отчет
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Отслеживаемость платежа
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: Отчет по НДС
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Возврат НДС с прямой отправкой в Altinn
+                  items:
+                    - name: Обзор возврата НДС с прямой отправкой в Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Регистрация точки интеграции на веб-портале ID-porten
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Подготовка среды к взаимодействию с веб-службами ID-porten и Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Контрольный список для настройки электронных сообщений для возврата НДС
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Авторизация среды Finance для взаимодействия с веб-службами ID-Porten и Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Подача заявления на возврат НДС в веб-службу Altinn
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Стандартный файл налогового аудита (SAF-T) для Норвегии
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Электронные накладные клиентов в Норвегии
@@ -3831,6 +3861,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
                     - name: List
                       items:
                         - name: Функции для работы со списками
