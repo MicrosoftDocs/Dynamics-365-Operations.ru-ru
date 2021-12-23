@@ -2,7 +2,7 @@
 title: Что нового и что изменилось в Human Resources
 description: Каждые две недели мы предлагаем новый выпуск Microsoft Dynamics 365 Human Resources. В темах, перечисленных здесь, подробно описываются изменения, сделанные за каждую неделю.
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641195"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902541"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Что нового и что изменилось в Human Resources
 
@@ -40,6 +40,7 @@ ms.locfileid: "7641195"
 
 Чтобы выяснить новые или измененные функции в каждом двухнедельном выпуске Human Resources, см. следующие темы:
 
+[29 ноября 2021 г.](hr-whats-new-2021-11-29.md)<br>
 [5 октября 2021 г.](hr-whats-new-2021-10-04.md)</br>
 [20 сентября 2021 г.](hr-whats-new-2021-09-20.md)</br>
 [6 сентября 2021 г.](hr-whats-new-2021-09-06.md)</br>

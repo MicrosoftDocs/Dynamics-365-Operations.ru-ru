@@ -2,7 +2,7 @@
 title: Настройка среды оценки Dynamics 365 Commerce
 description: В этой теме объясняется, как настроить ознакомительную среду Microsoft Dynamics 365 Commerce после ее предоставления.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416487"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913735"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Настройка среды оценки Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ ms.locfileid: "7416487"
 1. Выберите среду из списка.
 1. Щелкните **Войти в среду** в сведениях о среде с правой стороны. Вы будете отправлены в Commerce Headquarters.
 1. Убедитесь, что выбрано юридическое лицо **USRT** (верхний правый угол).
+2. Перейдите в раздел **Параметры Commerce > Параметры конфигурации** и убедитесь, что запись для **ProductSearch.UseAzureSearch** установлена в значение **true**. Если эта запись отсутствует, можно добавить эту запись и выполнить **База данных канала > Полная синхронизация** для Commerce Scale Unit, связанной с веб-сайтом электронной коммерции.
 
 Во время действий после подготовки в модуле Commerce Headquarters убедитесь, что всегда выбрано юридическое лицо **USRT**.
 
@@ -105,6 +106,12 @@ ms.locfileid: "7416487"
     1. Выберите запись.
     1. В области действий щелкните вкладку **Пакетное задание**, выберите **Изменить статус**.
     1. Выберите **Отменяется**, затем выберите **ОК**.
+
+1. Если статус задания — **Отложено**, выполните следующие шаги:
+
+    1. Выберите запись.
+    1. В области действий щелкните вкладку **Пакетное задание**, выберите **Изменить статус**.
+    1. Выберите **Ожидание**, затем выберите **ОК**.
 
 Кроме того, можно установить интервал повторения равным одной (1) минуте для следующих заданий:
 

@@ -2,7 +2,7 @@
 title: Включение подстановки основных данных для конфигурации расчета налога
 description: В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749518"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867360"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Включение подстановки основных данных для конфигурации расчета налога 
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов. Раскрывающийся список доступен для выбора значений в конфигурации расчета налогов для таких полей , как **Счет поставщика**, **Код номенклатуры** и **Условия поставки**. Эти значения берутся из связанной среды Microsoft Dynamics 365 Finance, использующей источник данных Microsoft Dataverse.
+В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов. Раскрывающийся список доступен для выбора значений в конфигурации расчета налогов для таких полей , как **Юридическое лицо**, **Счет поставщика**, **Код номенклатуры** и **Условия поставки**. Эти значения берутся из связанной среды Microsoft Dynamics 365 Finance, использующей источник данных Microsoft Dataverse.
+
+> [!NOTE] 
+> Функция подстановки основных данных в расчете налога является дополнительной функциональностью. Можно пропустить следующие шаги, если отключить функцию **Поддержка источника данных налоговой службы Dataverse** в Regulatory Configuration Service (RCS). Однако в этом случае раскрывающийся список не будет доступен в конфигурации расчета налогов.
 
 1. Настройте интеграцию Microsoft Power Platform в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в [Microsoft Power Platform интеграция — Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). После выполнения этого шага появится название среды Microsoft Power Platform в разделе **Интеграция Power Platform**.
 2. Перейдите в [центр администрирования Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) и выберите имя среды. Предоставлен URL-адрес среды.

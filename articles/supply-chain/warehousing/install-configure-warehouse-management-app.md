@@ -1,7 +1,7 @@
 ---
 title: Установка и подключение мобильного приложения управления складом
 description: В этом разделе описан порядок установки мобильного приложения управления складом на каждом из мобильных устройств и его настройки для подключения к среде Microsoft Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647633"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902004"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Установка и подключение мобильного приложения управления складом
 

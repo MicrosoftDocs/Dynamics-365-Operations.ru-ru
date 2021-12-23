@@ -1,7 +1,7 @@
 ---
 title: Амортизация с уменьшаемым остатком в 125%
-description: Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 125%.
-author: saraschi2
+description: Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 125 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68afee1840707a74ca3a0ac9643c2a23761da8da6d2e85e6b79d48bee4aad27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744997"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883526"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 125%
 
 [!include [banner](../includes/banner.md)]
 
-Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 125%.
+Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 125 %.
 
 После настройки профиля амортизации ОС и выбора значения **Уменьшаемое сальдо в 125%** в поле **Метод** на странице **Методы амортизации** процент амортизации ОС, назначенных профилю амортизации, одинаков во все периоды амортизации. Этот процент рассчитывается на основе срока службы актива. Например, если срок службы актива составляет пять лет, проценты будут рассчитаны как 25 процентов (125% ÷ 5).
 

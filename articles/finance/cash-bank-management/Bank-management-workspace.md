@@ -1,7 +1,7 @@
 ---
 title: Рабочая область управления банками
-description: В этой теме содержится информация о рабочей области управления банками. В этой рабочей области отображаются сведения, которые связаны с банковскими счетами компании, представление сводки и страница аналитики. Представление сводки показывает сводные плитки, сведения о банковском счете, диаграмму сальдо и связанные данные. Страницы аналитики использует возможности Microsoft Power BI для отображения визуальных объектов, которые относятся к сальдо банковского счета.
-author: saraschi2
+description: В этой теме содержится информация о рабочей области управления банками. Эта рабочая область показывает сведения, которые связаны с банковскими счетами компании.
+author: roschlom
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18171dd17165268fe0f7ac0cf7b3b225f679b9b6b7aeafb7789e837059cf5d79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755722"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883345"
 ---
 # <a name="bank-management-workspace"></a>Рабочая область управления банками
 

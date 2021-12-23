@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647271"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890785"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Список функций ER в категории даты и времени
 
@@ -37,8 +37,8 @@ ms.locfileid: "7647271"
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Эта функция возвращает значение *строки*, которое представляет заданное значение даты/времени в виде текста в указанном формате и в дополнительно указанной культуре. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Эта функция возвращает значение *DateTime*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной культуре в значение даты/времени. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Эта функция возвращает значение *DateTime*, которое преобразуется из заданного значения даты в значение даты/времени в формате UTC (Greenwich Mean Time \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Эта функция возвращает значение *Date*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной культуре в значение даты. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Эта функция возвращает *целочисленное* значение числа дней между 1 января и указанной датой. |
+| [DateValue](er-functions-datetime-datevalue.md) | Эта функция возвращает значение *[Date](er-formula-supported-data-types-primitive.md#date)*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной культуре в значение даты. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Эта функция возвращает *[целочисленное](er-formula-supported-data-types-primitive.md#integer)* значение числа дней между 1 января и указанной датой. |
 | [Дни](er-functions-datetime-days.md) | Эта функция возвращает *целочисленное* значение числа дней между одной указанной датой и второй указанной датой. |
 | [Now](er-functions-datetime-now.md) | Эта функция возвращает значение *DateTime*, которое представляет текущую дату и время сервера приложения. |
 | [NullDate](er-functions-datetime-nulldate.md) | Эта функция возвращает значение *Date*, которое представляет **нулевую** дату (1 января 1900 года). |
@@ -46,6 +46,7 @@ ms.locfileid: "7647271"
 | [SessionNow](er-functions-datetime-sessionnow.md) | Эта функция возвращает значение *DateTime*, которое представляет текущую дату и время сеанса приложения. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Эта функция возвращает значение *Date*, которое представляет текущую дату сеанса приложения. |
 | [Сегодня](er-functions-datetime-today.md) | Эта функция возвращает значение *Date*, которое представляет текущую дату сервера приложения. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Эта функция возвращает *целое* значение, представляющее неделю года. |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

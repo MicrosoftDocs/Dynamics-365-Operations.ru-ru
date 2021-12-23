@@ -1,7 +1,7 @@
 ---
 title: Передача основного средства
 description: В этом руководстве по задаче показано, как переместить финансовые сведения для журнала основных средств из одного набора финансовых аналитик в новый набор финансовых аналитик.
-author: saraschi2
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirm
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c307568ab1cc064c27fa8d3e24756f564947e4716aaed1c280019c1283da1c93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e573386ddbb97bf60e2e501ba92b225f8716c73a
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765700"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883370"
 ---
 # <a name="transfer-a-fixed-asset"></a>Передача основного средства
 
 [!include [banner](../../includes/banner.md)]
 
-В этом руководстве по задаче показано, как переместить финансовые сведения для журнала основных средств из одного набора финансовых аналитик в новый набор финансовых аналитик.  В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.
+В этом руководстве по задаче показано, как переместить финансовые сведения для журнала основных средств из одного набора финансовых аналитик в новый набор финансовых аналитик.  
 
 1. В области перехода, перейдите к **Модули > Фиксированные активы > Фиксированные активы > Фиксированные активы**.
 2. Найдите в списке основное средство для переноса и выберите его.

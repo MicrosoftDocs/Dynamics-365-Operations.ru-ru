@@ -2,7 +2,7 @@
 title: Начало работы с электронным выставлением накладных для Мексики
 description: В этой теме приводятся сведения, которые помогут приступить к работе с электронным выставлением накладных для Мексики.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742161"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881599"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Начало работы с электронным выставлением накладных для Мексики
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742161"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Перед выполнением шагов, описанных в этой теме, необходимо выполнить шаги из раздела [Приступая к работе с модулем электронного выставления накладных](e-invoicing-get-started.md).
+Перед выполнением шагов, описанных в этой теме, необходимо выполнить шаги из раздела [Приступая к работе с администрированием службы электронных накладных](e-invoicing-get-started-service-administration.md) и [Начало работы с электронным выставлением накладных](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Настройка Cadena XSLT
+
+Чтобы добавить схему Cadena XSLT к функции глобализации для обработки CFDI, выполните следующие действия.
+
+1. Загрузите схему с [веб-сайта SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Упакуйте схему в ZIP-файл.
+3. Сохраните файл XSLT в учетную запись хранения Azure, настроенную в среде службы для нового контейнера.
 
 ## <a name="rcs-setup"></a>Настройка RCS
 
@@ -127,6 +135,17 @@ ms.locfileid: "6742161"
 
 > [!NOTE]
 > Выполните те же шаги для обновления URL-адреса для действия **Вызов мексиканской службы PAC** для настроек функций **Отмена** и **Запрос отмены**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Настройка пути для схемы Cadena XLST
+
+1. На странице **Настройка версии функции** на вкладке **Переменные** выберите имя переменной **DigitalSignatureXSLT**.
+2. В поле **Значения** введите: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    где: <RelativePath> = папка\\папка\\имя файла с двойными обратными косыми чертами, ContainerName должно обозначать контейнер, используемый для службы.
+   
+    Примером переменной может быть:
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Назначение черновой версии для среды выставления электронных накладных
 

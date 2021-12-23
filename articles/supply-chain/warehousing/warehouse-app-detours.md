@@ -1,22 +1,22 @@
 ---
 title: Настройка переключений для шагов в пунктах меню мобильного устройства
 description: В этом разделе описывается, как настроить переключения для пунктов меню, чтобы работники могли приостановить выполнение текущей задачи, выполнить другую задачу и вернуться к исходной задаче без потери информации.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9e0529367a761b79530f40e2853b6f4a6faac3cf
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 536fe2fa8819129f14e31ff966ab2349f836f0f7
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860854"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902129"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Настройка переключений для шагов в пунктах меню мобильного устройства
 
