@@ -1,8 +1,8 @@
 ---
 title: Настройка и ведения журнала базы данных
 description: Можно отслеживать изменения в таблицах и полях в Dynamics 365 Human Resources с помощью журнала базы данных.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781665"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924828"
 ---
 # <a name="configure-and-manage-database-logging"></a>Настройка и ведения журнала базы данных
 
@@ -93,14 +93,14 @@ ms.locfileid: "6781665"
 Чтобы настроить очистку журнала базы данных, сделайте следующее: 
 
 1. Перейдите к пункту **Администрирование системы > Ссылки > База данных > Журнал базы данных**. Выберите **Очистить журнал**.
-
-2. Выберите метод выбора журналов для удаления, введя один из следующих вариантов:
+2. В заголовке **Записи для добавления** выберите **Фильтр**.
+3. Выберите метод, который будет использоваться для выбора журналов для удаления. Введите один из следующих вариантов:
 
    - Код(ID) таблицы
    - Тип журнала
    - Дата и время создания
 
-3. Используйте вкладку **Очистка журнала базы данных** для определения времени выполнения задачи очистки журнала. По умолчанию журналы базы данных доступны в течение 30 дней.
+4. Используйте вкладку **Очистка журнала базы данных** для определения времени выполнения задачи очистки журнала. По умолчанию журналы базы данных доступны в течение 30 дней.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
