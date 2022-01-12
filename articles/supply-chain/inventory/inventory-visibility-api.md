@@ -2,7 +2,7 @@
 title: Общедоступные интерфейсы API видимости запасов
 description: В этой теме описываются открытые API, предоставляемые видимостью запасов.
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678795"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920126"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
@@ -41,8 +41,8 @@ ms.locfileid: "7678795"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Получить | [Запрос с использованием метода POST](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | Должность | [Запрос с использованием метода GET](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Должность | [Запрос с использованием метода POST](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | Получить | [Запрос с использованием метода GET](#query-with-get-method) |
 
 Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Запрос в наличии
 
-API _Запрос в наличии_ используется для получения текущих данных запасов в наличии для вашей продукции.
+Используйте API _Запрос в наличии_ для получения текущих данных запасов в наличии для вашей продукции. В настоящее время API поддерживает запросы до 100 отдельных номенклатур по значению `ProductID`. В каждом запросе также может быть указано несколько значений `SiteID` и `LocationID`. Максимальное ограничение определяется как `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Запрос с использованием метода POST
 
@@ -551,7 +551,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 Пример URL-адреса GET. Этот запрос GET в точности совпадает с приведенным ранее примером POST.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

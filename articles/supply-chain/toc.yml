@@ -4,6 +4,34 @@
       items:
         - name: Домашняя страница Dynamics 365 Supply Chain Management
           href: index.md
+        - name: Что нового и что изменилось
+          items:
+            - name: Что нового и что изменилось в приложениях Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Что нового и что изменилось в Supply Chain Management
+              items:
+                - name: Что нового и что изменилось на домашней странице Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (февраль 2022 г.)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (январь 2022 г.)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: "Supply Chain Management 10.0.22 (ноябрь 2021\_г.)"
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: "Supply Chain Management 10.0.21 (октябрь 2021\_г.)"
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Удаленные или устаревшие функции
+              items:
+                - name: Домашняя страница удаленных или устаревших функций
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Удаленные или устаревшие функции в предыдущих выпусках
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: 'Функции AX 2012, реализация которых была отложена'
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Начало работы
           items:
             - name: Описание службы
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Что нового и что изменилось
-              items:
-                - name: Что нового и что изменилось в приложениях Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Что нового и что изменилось в Supply Chain Management
-                  items:
-                    - name: Что нового и что изменилось на домашней странице Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (февраль 2022 г.)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (январь 2022 г.)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: "Supply Chain Management 10.0.22 (ноябрь 2021\_г.)"
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: "Supply Chain Management 10.0.21 (октябрь 2021\_г.)"
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Удаленные или устаревшие функции
-                  items:
-                    - name: Домашняя страница удаленных или устаревших функций
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Удаленные или устаревшие функции в предыдущих выпусках
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Функции AX 2012, реализация которых была отложена'
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ресурсы документации
               items:
                 - name: Система справки
@@ -1617,9 +1617,11 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Общедоступные интерфейсы API видимости запасов
                   href: inventory/inventory-visibility-api.md
-        - name: Бизнес-аналитика Интернета вещей
+                - name: Советы по видимости запасов
+                  href: inventory/inventory-visibility-tips.md
+        - name: Бизнес-аналитика IoT
           items:
-            - name: Домашняя страница бизнес-аналитики Интернета вещей
+            - name: Домашняя страница бизнес-аналитики IoT
               href: iot/iot-intelligence-home-page.md
             - name: Настройка ресурсов Azure
               href: iot/iot-azure-setup.md
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Сводное планирование
               items:
+                - name: Система не может найти спланированный заказ при работе с несколькими заказами
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: Развертывание спецификации по-разному работает для утвержденных и расчетных производственных заказов
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: Значение задержки не обновляется при перепланировании спланированного заказа

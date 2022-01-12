@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 58b23058582c949a757ec5c141e218b36833ec21e72c35db89762017dc26ae19
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752950"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927412"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Конфигурация для общедоступной предварительной версии Finance Insights — версия 10.0.20 и более поздняя
 
@@ -39,7 +40,7 @@ ms.locfileid: "6752950"
 
 1. В Microsoft Dynamics Lifecycle Services (LCS) создайте или обновите среду Finance. Среде требуется версия 10.0.20 или более поздней версии приложений Finance and Operations.
 2. Среда должна быть средой с высокой доступностью (HA) в песочнице. (Этот тип среды также известен как среда уровня 2.) Дополнительные сведения см. в разделе [Планирование среды](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. При настройке Finance Insights в среде песочницы, возможно, потребуется скопировать в эту среду производственные данные, чтобы прогнозы работали. Модель прогнозирования использует несколько лет данных для создания прогнозов. Демонстрационные данные Contoso не содержат достаточно исторических данных для адекватной тренировки прогнозной модели. 
+3. При настройке Finance Insights в среде песочницы, возможно, потребуется скопировать в эту среду производственные данные, чтобы прогнозы работали. Модель прогнозирования использует несколько лет данных для создания прогнозов. Демонстрационные данные Contoso не содержат достаточно исторических данных для адекватного обучения прогнозной модели. 
 
 ## <a name="configure-dataverse"></a>Настроить Dataverse
 

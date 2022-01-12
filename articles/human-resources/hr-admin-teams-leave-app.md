@@ -2,7 +2,7 @@
 title: Приложение Human Resources в Teams
 description: Эта тема знакомит с приложением Microsoft Dynamics 365 Human Resources в Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913497"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924730"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -41,6 +41,21 @@ ms.locfileid: "7913497"
 Сведения об управлении разрешениями приложений в Teams см. в разделе [Управление политиками разрешений приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Если требуется, чтобы пользователи могли просматривать календарь отпусков и отсутствия в приложении, необходимо включить **Календарь отпусков и отсутствия в Teams** в управлении функциями. Дополнительные сведения о включении функций см. в разделе [Управление функциями](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Обновление приложения
+>[!NOTE]
+> Начиная с 20 декабря 2021 года, службы ботов приложения Human Resources, размещенные в клиенте Microsoft, будут выведены из работы. Это не повлияет на актуальное расширение (версия 1.1.5), которое доступно для установки. Основное влияние будет на устаревшее расширение (версия 1.1.4). В этой версии чат-бот перестанет работать. Вкладка **Отгул** будет продолжать работать в обоих расширениях.
+
+Для версии 1.1.4 чат-бот перестает отвечать на любые сообщения. Например, **Войти**, **Просмотреть сальдо** и **Посмотреть отгул**. Приложение должно быть обновлено вручную до последней версии. Дополнительные сведения см. в разделе [Обновление приложений в Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+
+Чтобы выполнить обновление до версии 1.1.5, выполните следующие действия:
+1. В Microsoft Teams перейдите в пункт **Приложения**.
+2. Найдите приложение **Human Resources**.
+3. Выберите **Обновить**.
+
+Версию приложения Human Resources можно проверить, перейдя на вкладку **Сведения** или перейдя в раздел **Личные приложения**. 
+
+![Вкладка **Сведения** приложения Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Включение уведомлений для приложения Human Resources в Teams
 

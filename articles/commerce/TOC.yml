@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: "Commerce 10.0.22 (ноябрь 2021\_г.)"
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: "Commerce 10.0.21 (октябрь 2021\_г.)"
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -842,7 +840,7 @@
           items:
             - name: Обзор журналов операций
               href: retail-statements.md
-            - name: Программа проверки согласованности проводок
+            - name: Проверка проводок магазина для расчета журнала операций
               href: valid-checker.md
             - name: Отключение правил в программе проверки согласованности проводок
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Настройка финансовой интеграции для канала Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Пример настройки конвейера сборки для финансовой интеграции
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Определенные пользователем профили сертификатов для розничных магазинов
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
                   href: localizations/emea-aut-fi-sample.md
+                - name: Пример рекомендаций по развертыванию для финансовой интеграции для Австрии (устарело)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Бразилия
               items:
                 - name: Локализация Commerce для Бразилии
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Пример интеграции службы финансовой регистрации для Чешской Республики
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Пример рекомендаций по развертыванию для финансовой интеграции для Чешской Республики (устарело)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Польша
                   items:
                     - name: Пример интеграции фискальных принтеров для Польши
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Управление информацией по клиентам для Польши
                       href: localizations/emea-pol-customer-information.md
+                    - name: Пример рекомендаций по развертыванию для финансовой интеграции для Польши (устарело)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Франция
               items:
                 - name: Функциональность контрольно-кассовой машины
@@ -1380,6 +1386,8 @@
               items:
                 - name: Пример интеграции службы финансовой регистрации для Германии
                   href: localizations/emea-deu-fi-sample.md
+                - name: Пример рекомендаций по развертыванию для финансовой интеграции для Германии (устарело)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Индия
               items:
                 - name: Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Управление информацией по клиентам для Италии
                   href: localizations/emea-ita-customer-information.md
+                - name: Пример рекомендаций по развертыванию для финансовой интеграции для Италии (устарело)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Мексика
               items:
                 - name: Глобальные электронные накладные CFDI для Мексики
@@ -1407,6 +1417,8 @@
                 - name: Функциональность контрольно-кассовой машины
                   href: localizations/emea-nor-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Рекомендации по развертыванию контрольно-кассовых машин (устарело)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Россия
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Пример интеграции с блоком управления для Швеции
                   href: localizations/emea-swe-fi-sample.md
+                - name: Пример рекомендаций по развертыванию для интеграции с блоком управления для Швеции (устарело)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Пример интеграции Retail POS c блоками управления (предыдущие версии)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Отчетность и интеграция Power BI
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Создание обработчика подключаемого модуля конвейера запросов
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Компонент изображения
+                      href: e-commerce-extensibility/image-component.md
                 - name: Разработка действий с данными
                   items:
                     - name: Обзор действий с данными
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Загрузка образцов и пакетов с GitHub и NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Настройка агента сборки Visual Studio 2017 для создания Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Вопросы и ответы по Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Расширяемость POS-терминала

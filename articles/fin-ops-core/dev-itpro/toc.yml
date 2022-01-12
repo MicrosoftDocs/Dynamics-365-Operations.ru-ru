@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Файлы базы переводов
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Расширение Azure DevOps (общедоступная предварительная версия)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Интеграция Microsoft Power Platform
           items:
             - name: Обзор
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Копирование пакетного задания
                   href: sysadmin/copy-batch-job.md
+                - name: Планирование партий на основе приоритета
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Активные периоды пакета
                   href: sysadmin/activeperiod.md
                 - name: Поддержка летнего времени для активных периодов пакета
