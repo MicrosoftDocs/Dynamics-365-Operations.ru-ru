@@ -2,7 +2,7 @@
 title: Разработка конфигурации для создания документов в формате Excel
 description: В этой теме описывается, как создавать формат электронной отчетности (ER) для заполнения шаблона Excel, а затем создание исходящих документов в формате Excel.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943620"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952660"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Разработка конфигурации для создания документов в формате Excel
 
@@ -379,7 +379,7 @@ ms.locfileid: "7943620"
     2. Используйте электронную отчетность для создания второй книги Excel (книги B) из Finance, содержащей необходимые сведения. 
     3. Задайте ссылку на книгу B в книге A сразу после создания книги B.
 
-- Для отключения функции используйте параметр, отличный от EPPlus. 
+- Отключите функцию **Включить использование библиотеки EPPlus в платформе электронной отчетности** для использования параметра, отличного от EPPlus. 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

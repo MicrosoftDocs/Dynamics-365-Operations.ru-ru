@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920126"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952635"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
@@ -48,6 +48,8 @@ ms.locfileid: "7920126"
 
 > [!NOTE]
 > Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
@@ -249,7 +251,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Создание нескольких событий изменения
 
-Этот API может создавать несколько записей одновременно. Единственным различием между этим API и [API одного события](#create-one-onhand-change-event) являются значения `Path` и `Body`. Для этого API `Body` предоставляет массив записей.
+Этот API может создавать несколько записей одновременно. Единственным различием между этим API и [API одного события](#create-one-onhand-change-event) являются значения `Path` и `Body`. Для этого API `Body` предоставляет массив записей. Максимальное число записей — 512, что означает, что API-интерфейс массовой обработки изменений запасов в наличии может поддерживать до 512 событий изменения за раз.
 
 ```txt
 Path:

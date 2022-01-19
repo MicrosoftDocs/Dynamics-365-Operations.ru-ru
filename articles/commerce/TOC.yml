@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Настройка Azure Key Vault для безопасного управления ключами
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Создание обработчика подключаемого модуля конвейера запросов
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Компонент изображения
                       href: e-commerce-extensibility/image-component.md
                 - name: Разработка действий с данными

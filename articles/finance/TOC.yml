@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Включение прогнозирования движения денежных средств
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Внешние данные в прогнозах движения денежных средств
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Включение предложений по бюджету
                   href: finance-insights/enable-budget-proposal.md
                 - name: Создание проекта средства интеграции данных
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Состояние денежной наличности
                   href: finance-insights/cash-position.md
-                - name: Прогноз движения денежных средств
+                - name: Прогноз наличности
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Использование внешних данных в прогнозах движения денежных средств
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Прогнозы платежей клиентов
                   href: finance-insights/payment-insights-overview.md
                 - name: Использование прогнозов платежей клиентов
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных для Саудовской Аравии
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Настройка прямой интеграции итальянской FatturaPA с SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Использование службы электронных накладных для импорта накладных поставщиков
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Настройка электронного выставления накладных
@@ -1512,6 +1514,10 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Отчетность Норвегии
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Включение расчета налогов для заказа на перемещение
                       items:
                         - name: Поддержка функций налогов для заказов на перемещение
@@ -1557,7 +1563,7 @@
                 - name: Отчет по НДС
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Отчет по зарубежным службам
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Австрийский Интрастат
                   href: localizations/emea-aut-intrastat.md
                 - name: Пошлины по покупке
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Методы амортизации основных средств
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Импорт информационного объекта золотого налога Китая
+                - name: Импорт файлов золотого налога Китая
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Модель ежемесячной средней стоимости
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Отчет о налоговых платежах для Финляндии
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Финский Интрастат
+                  href: localizations/emea-fin-intrastat.md
             - name: Франция
               items:
                 - name: Обзор по Франции
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Декларация по НДС для Индонезии
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Отчет по подоходному налогу для Индонезии
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Италия
               items:
                 - name: Обзор по Италии

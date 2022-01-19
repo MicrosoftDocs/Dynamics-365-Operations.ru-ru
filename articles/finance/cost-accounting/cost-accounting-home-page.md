@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741592"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952554"
 ---
 # <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
 
@@ -38,7 +38,7 @@ ms.locfileid: "6741592"
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Настройка базовых объектов (eLearning)](https://mbspartner.microsoft.com/Home) (требуется учетная запись CustomerSource)  |[Аналитики элементов затрат](cost-elements.md)  |
+|  [Начало работы с учетом затрат (Learn)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Аналитики элементов затрат](cost-elements.md)  |
 |  [Иерархия аналитик](dimension-hierarchy.md)  |[Определение единиц управления затратами](./tasks/define-cost-control-units.md)| 
 | [Базы распределения](allocation-bases.md)|[Создание и назначение политик распределения затрат единицам управления затратами](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Управление источником данных для книги учета затрат](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Обработка и трассировка исходных данных](./tasks/process-trace-source-data.md)     | 
