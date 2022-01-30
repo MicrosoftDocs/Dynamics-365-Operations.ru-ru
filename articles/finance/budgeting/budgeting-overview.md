@@ -3,7 +3,7 @@ title: Домашняя страница бюджетирования
 description: В этом разделе представлен обзор компонентов функции бюджетирования, инструментов бюджетирования и возможностей отчетности в Microsoft Dynamics 365 Finance.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: index-page
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4cd874cc7e95d09f5109f7ee4cf480158bce845bf9dbcbab1293f2982dbfabe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750444"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983960"
 ---
 # <a name="budgeting-home-page"></a>Домашняя страница бюджетирования
 

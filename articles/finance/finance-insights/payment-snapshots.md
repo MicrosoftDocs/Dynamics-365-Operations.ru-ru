@@ -3,7 +3,7 @@ title: Обзор моментальных снимков
 description: В этой теме описывается функция создания моментальных снимков, которая позволяет сохранить прогноз движения денежных средств для анализа или сравнения с фактическими результатами позже. При создании прогноза движения денежных средств можно сохранить этот прогноз как "моментальный снимок". Затем эти снимки можно использовать для редактирования счетов, которые были включены в прогноз, или для сравнения прогноза в снимке с фактическими значениями.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752775"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983525"
 ---
 # <a name="snapshots-overview"></a>Обзор моментальных снимков
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Моментальные снимки позволяют организациям изменять и сохранять сведения о состоянии денежных средств и прогнозах денежных средств в конкретный момент времени. Можно сравнить моментальный снимок с фактическими финансовыми данными, проверить расхождение и использовать эту информацию для улучшения прогнозов движения денежных средств со временем. Более конкретно, моментальные снимки могут использоваться следующими способами:
 

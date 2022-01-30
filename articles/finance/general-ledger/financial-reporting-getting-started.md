@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486978"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983985"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с финансовой отчетностью 
 
@@ -148,7 +146,7 @@ ms.locfileid: "7486978"
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Обновление версии Financial Reporting посредством интегрированной установки
 
-Приложения Finance and Operations обновляются каждый месяц. Однако Financial Reporting не всегда обновляется с этим периодом. Более того, у клиентов есть больше вариантов выбора, когда они реализуют обновления для приложений Finance and Operations. Обновления Financial Reporting устанавливаются автоматически. Финансовая отчетность имеет назначенную версию, которая потребляется в клиентской среде при реализации обновления службы, при инициации времени простоя или при нахождении среды клиента в режиме обслуживания. Этот процесс называется *интегрированная установка* или *сверка*, так как все реализации клиентов настроены на одну и ту же версию Financial Reporting.
+Приложения для финансов и операций обновляются каждый месяц. Однако Financial Reporting не всегда обновляется с этим периодом. Более того, у клиентов есть больше вариантов выбора, когда они реализуют обновления для приложений для финансов и операций. Обновления Financial Reporting устанавливаются автоматически. Финансовая отчетность имеет назначенную версию, которая потребляется в клиентской среде при реализации обновления службы, при инициации времени простоя или при нахождении среды клиента в режиме обслуживания. Этот процесс называется *интегрированная установка* или *сверка*, так как все реализации клиентов настроены на одну и ту же версию Financial Reporting.
 
 Изменения, которые выпускаются в каждой версии, можно найти в разделе [Что нового и что изменилось в Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Обновления платформы и исправления ошибок можно найти в разделе "Дополнительные ресурсы" в нижней части страницы для каждого выпуска.
 

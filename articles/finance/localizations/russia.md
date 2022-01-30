@@ -3,22 +3,21 @@ title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: kfend
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f3e58901804ef2495d9c0372f893ce041ee4b8ce
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 8e17c5fcf643f24893331e91a3ad66b76df9e38b
+ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344308"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8018395"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -113,7 +112,7 @@ ms.locfileid: "7344308"
 - [Проводки через посредников](rus-transactions-through-intermediary.md)
   - [Покупки по комиссии](rus-purchases-on-commission.md)
   - [Продажи по комиссии](rus-sales-on-commission.md)
-
+- [Локальные отчеты и основные формы модуля расчетов с поставщиками и расчетов с клиентами](rus-local-reports-primary-forms-ar-ap.md)
 
 ## <a name="inventory"></a>Запасы
 - [Товары в пути от поставщика](rus-goods-transit-vendor.md)

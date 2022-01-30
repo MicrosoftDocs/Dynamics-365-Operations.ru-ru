@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920281"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985919"
 ---
 # <a name="sales-history-cleanup-performance-improvements"></a>Повышение производительности очистки истории продаж
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.24 -->
 
 Периодическое пакетное задание **Очистка истории обработки продаж** может занять много времени, если она редко выполняется в средах с большим объемом обновлений продаж. В этих ситуациях функция *Улучшения производительности очистки истории продаж* может помочь сократить длительность выполнения и повысить надежность.
 

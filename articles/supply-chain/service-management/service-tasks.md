@@ -3,24 +3,23 @@ title: Обзор задач сервисного обслуживания
 description: Задачи обслуживания используются для описания задачи, которая должна быть выполнена в ходе заказа на обслуживание. Эта информация будет видна и специалистам, и клиентам.
 author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4dd44b3cfe1d88f19b960b1a0c3d2ab90a4e6c04
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567879"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982492"
 ---
 # <a name="service-tasks-overview"></a>Обзор задач сервисного обслуживания
 

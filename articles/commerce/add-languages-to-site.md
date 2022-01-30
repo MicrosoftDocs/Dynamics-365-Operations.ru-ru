@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06c28e078a09cfadda6cbb0565bcaf8564681efaae8f57817922afb07ff4e6b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725442"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964562"
 ---
 # <a name="add-languages-to-your-site"></a>Добавление языков на сайт
 
@@ -164,8 +164,6 @@ ms.locfileid: "6725442"
 [Работа с переопределением файлов CSS](css-override-files.md)
 
 [Добавление значка сайта](add-favicon.md)
-
-[Добавление приветственного сообщения](add-welcome-message.md)
 
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 

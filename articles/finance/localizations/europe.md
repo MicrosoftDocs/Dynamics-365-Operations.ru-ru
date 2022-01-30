@@ -1,24 +1,23 @@
 ---
 title: Обзор по Европе
 description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c5e57bb115e27880c2fee888be4ab02c51462a
-ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7792617"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982102"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -94,6 +93,7 @@ ms.locfileid: "7792617"
   - [Создание и отправка отчета по НДС](tasks/create-submit-vat-report.md)
   - [Просмотр проводок по сопоставлению для Восточной Европы](emea-transactions-settlement-form.md)
   - [Дата налоговой точки (дата зачета НДС)](emea-tax-point-date.md)
+  - [Дата регистрации НДС поставщика](emea-date-vendor-VAT-register.md)
 - [Расширение функции финансовых причин](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

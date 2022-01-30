@@ -3,22 +3,21 @@ title: Обзор клиентского портала для Dynamics 365 Supp
 description: В этой теме представлен клиентский портал и объясняется, кто должен его использовать и как он функционирует.
 author: Henrikan
 ms.date: 06/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c1383ee3c8e72f630d29a557de4150cdd3aa905f
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 04a1a06dce79259e35ce66dda469e9b157d7ed1c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937512"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983246"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
@@ -43,7 +42,7 @@ ms.locfileid: "7937512"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
+Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения для финансов и операций](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
 
 ## <a name="who-should-use-it"></a>Кто должен его использовать?
 
@@ -63,7 +62,7 @@ ms.locfileid: "7937512"
 
 [Порталы Power Apps](/powerapps/maker/portals/overview) — это функция, позволяющая пользователям создавать внешние веб-сайты, на которое могут входить пользователи, находящиеся за пределами организации. Для создания порталов практически не требуется программирования. Клиентский портал — это один из многих [шаблонов портала Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) от корпорации Майкрософт.
 
-[Двойная запись](/powerapps/maker/portals/overview) — это готовая инфраструктура продукта, обеспечивающая взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
+[Двойная запись](/powerapps/maker/portals/overview) — это готовый инфраструктурный продукт, обеспечивающий взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями для финансов и операций. Двойная запись обеспечивает двунаправленную интеграцию между приложениями для финансов и операций и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
 
 ![Зависимости клиентского портала.](media/customer-portal-elements.png "Зависимости клиентского портала")
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 8284ccd7ac383c53960f7fd6a1333aeb0e7e6f3c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945799"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969020"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Внешние данные в прогнозах движения денежных средств
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Внешние данные можно вводить или импортировать в прогнозы движения денежных средств. В этой теме описываются шаги настройки, которые относятся к использованию внешних данных и позволяют включить внешние данные для включения в прогноз движения денежных средств.
 

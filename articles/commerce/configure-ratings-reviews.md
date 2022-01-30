@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473557"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968110"
 ---
 # <a name="configure-ratings-and-reviews"></a>Настройка оценок и отзывов
 
@@ -87,9 +87,17 @@ ms.locfileid: "7473557"
 
 [Управление оценками и отзывами](manage-reviews.md)
 
-[Настройка модулей оценок и отзывов на страницах сведений о продукте](ratings-reviews-modules.md)
-
 [Синхронизация оценок продуктов в Dynamics 365 Retail](sync-product-ratings.md)
+
+[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
+
+[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
+
+[Настройка проверки подлинности между службами](service-to-service-auth.md)
+
+[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
+
+[Модули оценок и отзывов](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

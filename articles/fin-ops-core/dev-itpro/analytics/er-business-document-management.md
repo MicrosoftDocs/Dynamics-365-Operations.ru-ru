@@ -3,24 +3,23 @@ title: Обзор управления бизнес-документами
 description: В этой теме приводятся сведения об использовании функции управления бизнес-документами в среде ER.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753084"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986259"
 ---
 # <a name="business-document-management-overview"></a>Обзор управления бизнес-документами
 
@@ -408,7 +407,7 @@ ms.locfileid: "6753084"
 
 Это известная проблема, связанная с перенаправлением Microsoft 365. Она происходит при первом входе в Microsoft 365. Чтобы обойти эту проблему, нажмите кнопку **Назад** в браузере, чтобы вернуться на предыдущую страницу.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Понятно, как редактировать шаблон с помощью Microsoft 365 в первом сеансе приложения и как использовать шаблон во втором сеансе приложения и настраивать шаблон, чтобы увидеть, как изменения влияют на созданный бизнес-документ. Можно ли использовать классическое приложение Office аналогичным образом?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Понятно, как редактировать шаблон с помощью Microsoft 365 в первом сеансе приложения и как использовать шаблон во втором сеансе приложения и настроить шаблон, чтобы увидеть, как изменения влияют на созданный бизнес-документ. Можно ли использовать классическое приложение Office аналогичным образом?
 
 Да, можно. В первом сеансе приложения выберите **Открыть в классическом приложении**. Ваш шаблон будет сохранен во временном хранилище файлов и открыт в настольном приложении Office. Затем выполните следующие шаги для предварительного просмотра изменений шаблона в созданном бизнес-документе:
 

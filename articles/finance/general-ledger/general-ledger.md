@@ -3,7 +3,7 @@ title: Обзор главной книги и финансовой отчетн
 description: Используйте главную книгу для определения финансовых записей юридического лица и управления ими.
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143807b6076d2b798de26d2ebd2cf7a40a8fdf89fdc8387acfbb79cecb44e3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715126"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985270"
 ---
 # <a name="general-ledger-home-page"></a>Домашняя страница главной книги
 
@@ -61,7 +61,7 @@ ms.locfileid: "6715126"
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance и для операций](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в Dynamics 365.
 

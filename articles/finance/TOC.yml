@@ -4,6 +4,30 @@
       items:
         - name: Домашняя страница Dynamics 365 Finance
           href: index.md
+        - name: Что нового и что изменилось
+          items:
+            - name: Что нового и что изменилось в приложениях Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Что нового и что изменилось в Finance
+              items:
+                - name: Что нового и что изменилось на домашней странице Finance
+                  href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.24 (февраль)
+                  href: get-started/whats-new-changed-10-0-24.md
+                - name: Finance 10.0.23 (январь)
+                  href: get-started/whats-new-changed-10-0-23.md
+            - name: Удаленные или устаревшие функции
+              items:
+                - name: Домашняя страница удаленных или устаревших функций
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Удаленные или устаревшие функции в Dynamics 365 Finance
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Удаленные или устаревшие функции в предыдущих выпусках
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
+            - name: 'Функции AX 2012, реализация которых была отложена'
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
         - name: Начало работы
           items:
             - name: Описание службы
@@ -62,32 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Что нового и что изменилось
-              items:
-                - name: Что нового и что изменилось в приложениях Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Что нового и что изменилось в Finance
-                  items:
-                    - name: Что нового и что изменилось на домашней странице Finance
-                      href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.24 (февраль)
-                      href: get-started/whats-new-changed-10-0-24.md
-                    - name: Finance 10.0.23 (январь)
-                      href: get-started/whats-new-changed-10-0-23.md
-                    - name: "Finance 10.0.22 (ноябрь 2021\_г.)"
-                      href: get-started/whats-new-changed-10-0-22.md
-            - name: Удаленные или устаревшие функции
-              items:
-                - name: Домашняя страница удаленных или устаревших функций
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Удаленные или устаревшие функции в Dynamics 365 Finance
-                  href: get-started/removed-deprecated-features-finance.md
-                - name: Удаленные или устаревшие функции в предыдущих выпусках
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: 'Функции AX 2012, реализация которых была отложена'
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Ресурсы документации
               items:
                 - name: Система справки
@@ -836,6 +834,8 @@
                   href: asset-leasing/set-up-lease-books.md
                 - name: Создание группы аренды
                   href: asset-leasing/create-lease-group.md
+                - name: Тип суммы платежа
+                  href: asset-leasing/Payment-amount-type.md
                 - name: 'Настройка ставок, привязанная к индексу'
                   href: asset-leasing/set-up-index-rate-types.md
                 - name: Настройка типов расходов
@@ -1460,6 +1460,8 @@
                           href: localizations/tax-calculation-import-export-feature.md
                         - name: Настройка среды для поиска справочника
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                        - name: Перенос параметров налогов из службы расчета налогов в Finance
+                          href: localizations/global-master-data-sync-tax-calculation-service-finance.md
                     - name: Определение
                       items:
                         - name: Модель данных для расчета налога
@@ -1491,7 +1493,7 @@
                         - name: Отчетность Германии
                           items:
                             - name: Декларация по НДС
-                              href: /localizations/emea-deu-vat-declaration-germany.md
+                              href: localizations/emea-deu-vat-declaration-germany.md
                         - name: Отчетность Нидерландов
                           items:
                             - name: Декларация по НДС
@@ -1502,6 +1504,8 @@
                           items:
                             - name: 'Немедленное предоставление информации по НДС (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
+                            - name: Декларация по НДС
+                              href: localizations/emea-esp-vat-declaration-spain.md
                         - name: Отчетность Швеции
                           items:
                             - name: Декларация по НДС
@@ -1536,6 +1540,8 @@
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
+            - name: Поиск по нормативным объявлениям
+              href: localizations/search-for-regulatory-updates.md
             - name: Австралия
               items:
                 - name: Обзор по Австралии
@@ -1754,6 +1760,8 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Расчет процентов и штрафов по платежам клиентов
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+                - name: Настройка номеров банковских счетов для Бразилии
+                  href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
                 - name: Налоги
                   items:
                     - name: Обзор налогов Бразилии
@@ -1782,6 +1790,8 @@
                       href: localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
                     - name: 'Процесс дополнения и восстановления ICMS-ST, а также декларация для состояний RS, SC и SP'
                       href: localizations/latam-bra-complement-restitution.md
+                    - name: Базовые изменения в налоговых расчетах ICMS-DIF для продуктов от поставщиков из других штатов
+                      href: localizations/latam-brazil-basis-change-ICMS-DIF-tax-calculation-products-suppliers-other-states.md
                     - name: Настройка кодов корректировки для налогов IPI
                       href: localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
                     - name: Основные средства PIS и COFINS
@@ -1812,7 +1822,7 @@
               items:
                 - name: Обзор по Китаю
                   href: localizations/china.md
-                - name: 'Возможности Finance and Operations, предоставляемые 21Vianet в Китае'
+                - name: 'Finance and Operations, предоставляемое компанией 21Vianet в Китае'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: Выбор групп счетов для китайских типов ваучеров
                   href: localizations/apac-chn-account-groups-selection.md
@@ -1884,6 +1894,8 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Декларация по НДС (Чешская Республика)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Чешский Интрастат
+                  href: localizations/emea-cze-intrastat.md
                 - name: Символы банка для банковских счетов
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: Внутренний НДС (ЕС)
@@ -1916,6 +1928,8 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Настройка формата платежной квитанции
                   href: localizations/tasks/set-up-payment-slip-format.md
+                - name: Датский Интрастат
+                  href: localizations/emea-dnk-intrastat.md
             - name: Египет
               items:
                 - name: Обзор по Египту
@@ -1938,6 +1952,8 @@
                   href: localizations/emea-est-personal-info.md
                 - name: Отчет по НДС
                   href: localizations/emea-est-vat-statement-details.md
+                - name: Эстонский Интрастат
+                  href: localizations/emea-est-intrastat.md
             - name: Европа
               items:
                 - name: Обзор по Европе
@@ -2084,6 +2100,8 @@
                       href: localizations/emea-vat-reporting.md
                     - name: Создание и отправка отчета по НДС
                       href: localizations/tasks/create-submit-vat-report.md
+                    - name: Дата регистрации НДС поставщика
+                      href: localizations/emea-date-vendor-vat-register.md
                 - name: Просмотр проводок по сопоставлению
                   href: localizations/emea-transactions-settlement-form.md
                 - name: Финансовая причина
@@ -2872,6 +2890,8 @@
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: Сведения для отчета по НДС
                   href: localizations/emea-lva-vat-statement-details.md
+                - name: Латвийский Интрастат
+                  href: localizations/emea-lva-intrastat.md
             - name: Литва
               items:
                 - name: Обзор по Литве
@@ -3060,6 +3080,8 @@
                       href: localizations/emea-pol-vdek-reporting.md
                     - name: Сведения о специфических бизнес-сценариях в отчете JPK-V7M
                       href: localizations/emea-pol-vdek-scenarios.md
+                - name: Условия оплаты в отчете по коммерческим проводкам
+                  href: localizations/emea-pol-payment-terms-report.md
             - name: Катар
               items:
                 - name: Обзор по Катару
@@ -3356,6 +3378,8 @@
                   href: localizations/emea-esp-report-340.md
                 - name: Отчет по декларации 347
                   href: localizations/emea-esp-declaration-347-report.md
+                - name: Декларация по НДС 303
+                  href: localizations/emea-esp-vat-declaration-spain.md
                 - name: Циклы продажи и покупки
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Специальные записи и открывающие ведомости
@@ -3466,6 +3490,8 @@
           items:
             - name: Обзор Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
+            - name: Выпуск инфраструктуры 10.0.25
+              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
             - name: Настройка Human Resources
               items:
                 - name: Настройка параметров Human Resources
@@ -3473,7 +3499,7 @@
                 - name: Настройка общих параметров Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка workflow-процессов управления персоналом
-                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
                 - name: Сведения о полях даты и времени
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Управление персоналом
@@ -4723,7 +4749,7 @@
               items:
                 - name: Создание поставщиков валютных курсов
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: Создание поставщиков валютных курсов в Finance and Operations 8.0
+                - name: Создание поставщиков валютных курсов в Finance and Operations версии 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Сопоставление проводок с помощью CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md

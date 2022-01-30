@@ -3,7 +3,7 @@ title: Компоненты электронной отчетности
 description: В этой теме описываются компоненты электронной отчетности (ER).
 author: nselin
 ms.date: 09/28/2021
-ms.topic: ''
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de8bccf5a8a9bb81be51658010ad4c2ef67aabb2
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 6356fdaee4c6298dd87ef965fcd91937144cd529
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562257"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985742"
 ---
 # <a name="electronic-reporting-components"></a>Компоненты электронной отчетности
 

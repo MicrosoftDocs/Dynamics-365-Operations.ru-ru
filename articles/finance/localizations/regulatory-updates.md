@@ -2,22 +2,22 @@
 title: Нормативные обновления
 description: В этом разделе представлен список запланированных и выпущенных нормативных обновлений для Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772753"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016108"
 ---
 # <a name="regulatory-updates"></a>Нормативные обновления
 
@@ -71,7 +71,7 @@ ms.locfileid: "6772753"
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
-- Все запланированные и выпущенных нормативные обновления [Lifecycle Service — поиск проблем](https://lcs.dynamics.com/Logon/Index) (необходим вход).
+- Дополнительные сведения обо всех запланированных и выпущенных нормативных обновлениях для конкретных стран/регионов см. в разделе [Поиск нормативных обновлений для конкретной страны/региона](search-for-regulatory-updates.md). (Необходим вход.)
 - Список локализаций, которые поддерживаются, см. в [руководстве по международной доступности](https://aka.ms/dynamics_365_international_availability_deck).
 
 

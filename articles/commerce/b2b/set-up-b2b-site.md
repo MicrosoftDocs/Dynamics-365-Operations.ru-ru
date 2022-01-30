@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891393"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983325"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Настройка сайта электронной коммерции B2B
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Сайты электронной коммерции бизнес-бизнес (B2B) предоставляют некоторые ключевые возможности, которые оптимизируют рабочий процесс для пользователей B2B. В этом разделе описывается, как настроить сайт электронной коммерции B2B в Microsoft Dynamics 365 Commerce. Он проходит через модули и настройки сайта, которые должны быть настроены для включения сценариев, связанных с B2B.
 

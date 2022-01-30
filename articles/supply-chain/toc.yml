@@ -16,10 +16,6 @@
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (январь 2022 г.)
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: "Supply Chain Management 10.0.22 (ноябрь 2021\_г.)"
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: "Supply Chain Management 10.0.21 (октябрь 2021\_г.)"
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -3513,7 +3509,7 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Обновление и миграция
                   items:
-                    - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
+                    - name: Обновление процессов управления складом Microsoft Dynamics AX 2012 до Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Разработка модуля Supply Chain Management
           items:

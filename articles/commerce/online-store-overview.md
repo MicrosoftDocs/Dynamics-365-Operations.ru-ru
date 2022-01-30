@@ -3,25 +3,24 @@ title: Обзор сайта электронной коммерции
 description: В этом разделе представлен обзор поддержки для сайтов электронной коммерции в Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8d1b563b08cce1d7b56c0ab5ebc06d1c900f281e1ceb961721978ba8718eba8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741120"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984577"
 ---
 # <a name="e-commerce-site-overview"></a>Обзор сайта электронной коммерции
 

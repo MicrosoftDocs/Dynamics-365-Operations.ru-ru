@@ -2,23 +2,22 @@
 title: Обзор управления техническими изменениями (содержит видео)
 description: В этой теме представлен обзор управления техническими изменениями, который помогает в планировании и управлении версиями продуктов, а также в управлении жизненными циклами продуктов и техническими изменениями.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952606"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985220"
 ---
 # <a name="engineering-change-management-overview"></a>Обзор управления техническими изменениями
 
@@ -39,9 +38,9 @@ ms.locfileid: "7952606"
 - Запросы на инженерное изменение, поддерживаемые рабочими процессами
 - Заказы на инженерное изменение, поддерживаемые рабочими процессами
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Предыдущее видео ([Возможности управления изменениями в Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), который доступен на YouTube.
+Предыдущее видео ([Возможности управления изменениями в Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) включено в [список воспроизведения для финансов и операций](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), который доступен на YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Включение функций управления изменениями в проектировании в системе
 
@@ -71,7 +70,9 @@ ms.locfileid: "7952606"
 
 1. Если также необходимо использовать аналитику версий, установите флажок **Аналитика продукта — версия**. (Этот флажок находится ниже по списку, он не вложен в узел **Управление технологическими изменениями**.)
 1. Выключите режим обслуживания, как описано в разделе [Режим обслуживания](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Выполните синхронизацию базы данных, чтобы убедиться, что конфигурационные ключи правильно включены.
+1. База данных должна быть синхронизирована, чтобы убедиться, что конфигурационные ключи правильно включены. Выполните одно из следующих действий в зависимости от типа среды, с которой вы работаете:
+    - **Для сред уровня 1 (разработка)**: откройте проект в Microsoft Visual Studio, затем выберите **Dynamics 365 \> Синхронизация базы данных \> Синхронизировать**.
+    - **В средах уровня 2 (и выше)**: синхронизация базы данных выполняется автоматически после перевода среды в режим обслуживания и вывода из него, поэтому этот шаг можно пропустить.
 
 > [!IMPORTANT]
 > Начиная с апреля 2022, ключи лицензии для **Управление изменениями разработки** и **Аналитика продукта — версия** будут включены по умолчанию для всех новых установок, но их по-прежнему можно отключить, если это необходимо.

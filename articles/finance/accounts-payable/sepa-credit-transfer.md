@@ -3,7 +3,7 @@ title: Обзор кредитных переводов SEPA
 description: В этой статье приводятся общие сведения о кредитных переводах ISO 20022, которые включают единую зону платежей в евро (SEPA) и любые другие электронные платежи для поставщиков. Кредитный перевод SEPA — это особый вид платежа (в евро) одной компании или физического лица другой компании или физическому лицу. В разделе также объясняется, как настроить и отправить файл платежа кредитного перевода.
 author: sunfzam
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bc62f6912433d698024b20e61f54b9a6aea2bbb
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594775"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984035"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Обзор кредитных переводов SEPA
 

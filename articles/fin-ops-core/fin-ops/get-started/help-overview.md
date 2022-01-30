@@ -1,9 +1,9 @@
 ---
 title: Система справки (содержит видео)
-description: Этот раздел содержит обзор справочной системы для приложений Finance and Operations.
+description: Этот раздел содержит обзор справочной системы для приложений для финансов и операций.
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937538"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984442"
 ---
 # <a name="help-system"></a>Система справки
 
@@ -50,7 +50,7 @@ ms.locfileid: "7937538"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Получение уведомлений об изменениях через RSS-канал
 
-Чтобы подписаться на RSS-канал для всех обновлений, которые сделаны в содержимом docs.microsoft.com в приложениях Finance and Operations, используйте следующую ссылку:
+Чтобы подписаться на RSS-канал для всех обновлений, которые сделаны в содержимом docs.microsoft.com в приложениях для финансов и операций, используйте следующую ссылку:
 
 [RSS-канал](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

@@ -3,7 +3,7 @@ title: Обзор прямого дебетования SEPA
 description: Единая зона платежей в евро (SEPA) настраивается европейской комиссией и определяет, что все электронные платежи считается внутренними, независимо от страны или региона, где находятся лицо, бизнес или организация. Нет никакой разницы между внутренними и международными платежами. SEPA включает 28 стран-членов Европейского союза (ЕС), а также Исландию, Лихтенштейн, Норвегию, Швейцарию, Монако и Сан-Марино. SEPA помогает формировать единый рынок для платежных проводок в пределах Европейского экономического союза (EEA). Наконец, как ожидается, SEPA уменьшит число форматов платежей, с которыми должны работать банки организации и лица.
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 888c65cde11ed144ddeee68d6476a3acad0cb592768c470356ebc2098b596838
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763246"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984386"
 ---
 # <a name="sepa-direct-debit-overview"></a>Обзор прямого дебетования SEPA
 

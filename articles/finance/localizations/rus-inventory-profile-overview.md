@@ -3,22 +3,21 @@ title: Обзор профиля учета
 description: В этом разделе приводятся сведения о профиле учета, который предназначен для реализации и учета передвижений и запасов в наличии в связи с деятельностью.
 author: v-nadyuz
 ms.date: 05/11/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 72b15ceb3e19ef9bb223b37fceecb3344749470fd21ecd5260fdfc9ec86a1d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fdeca8d68f7c522bdde89913355a83592d6fef4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717442"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982779"
 ---
 # <a name="inventory-profile-overview"></a>Обзор профиля учета
 [!include [banner](../includes/banner.md)]
