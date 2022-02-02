@@ -96,8 +96,6 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: "Commerce 10.0.23 (январь 2022\_г.)"
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: "Commerce 10.0.22 (ноябрь 2021\_г.)"
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Домашняя страница удаленных или устаревших функций
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Реализация проектов Finance and Operations Commerce
+                - name: Реализация проектов Commerce Finance and Operations
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Включение публикации оценок и отзывов вручную модератором
                   href: manual-publish-rating-reviews.md
+                - name: Импорт и экспорт оценок и отзывов
+                  href: import-export-reviews.md
+                - name: Настройка проверки подлинности между службами
+                  href: service-to-service-auth.md
                 - name: Вопросы и ответы по оценкам и отзывам
                   href: ratings-reviews-faq.md
             - name: Управление запасами
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Добавление значка сайта
                       href: add-favicon.md
-                    - name: Добавление приветственного сообщения
-                      href: add-welcome-message.md
                     - name: Добавление уведомления об авторском праве
                       href: add-copyright-notice.md
                     - name: Добавление языков
@@ -2762,7 +2762,7 @@
                   href: dev-itpro/payment-connector-package.md
             - name: Расширяемость сторонних решений для электронной коммерции
               items:
-                - name: Настройка интерактивных магазинов
+                - name: Настройка онлайн-магазинов
                   href: dev-itpro/configure-online-store.md
                 - name: Настройка поставщиков проверки подлинности
                   href: dev-itpro/configure-authentication-providers.md
