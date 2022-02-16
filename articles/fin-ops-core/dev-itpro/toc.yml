@@ -1,10 +1,10 @@
-- name: Разработка и администрирование приложений Finance and Operations
+- name: Разработка и администрирование приложений финансов и операций
   items:
-    - name: Разработка и администрирование приложений Finance and Operations
+    - name: Разработка и администрирование приложений финансов и операций
       items:
         - name: Документация по приложению Finance and Operations
           href: ../fin-ops/index.md
-        - name: Разработка и администрирование приложений Finance and Operations
+        - name: Разработка и администрирование приложений финансов и операций
           href: index.md
         - name: Что нового и что изменилось
           items:
@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Что нового и что изменилось в выпусках обновления платформы
               items:
-                - name: Что нового и что изменилось на домашней странице обновления платформы
+                - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: "Обновления платформы для версии 10.0.25 (апрель 2022\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "Обновления платформы для версии 10.0.24 (февраль 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: "Обновления платформы для версии 10.0.23 (январь 2022\_г.)"
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Удаление пакета
                   href: deployment/uninstall-deployable-package.md
+                - name: Выполнение пользовательских скриптов X++ без простоев
+                  href: deployment/run-custom-scripts.md
                 - name: Устранение неполадок приложений пакета
                   href: deployment/deployable-package-troubleshooting.md
             - name: Развертывание пользовательской справки
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: Фильтрация SysTest с помощью атрибутов классов и методов
                   href: perf-test/systest-filtering.md
+                - name: Атрибут SysTestRow для проверки нескольких значений
+                  href: perf-test/systest-row.md
                 - name: Библиотека приемочного тестирования
                   items:
                     - name: Ресурсы библиотеки приемочного тестирования

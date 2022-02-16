@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (апрель)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (февраль)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (январь)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Видео
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Глоссарий
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Регистрация накладной поставщика в журнале накладных
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Применение платежа к журналу накладных
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Аудит накладных и ключевых данных в модуле расчетов с поставщиками
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Политики трехсторонней проверки соответствия
@@ -1034,8 +1036,10 @@
                   href: general-ledger/one-voucher.md
                 - name: Один ваучер — Вопросы и ответы
                   href: general-ledger/one-voucher-faq.md
-                - name: Сопоставления книги учета
+                - name: Сопоставления ГК
                   href: general-ledger/ledger-settlements.md
+                - name: Зависимость между сопоставлением ГК и закрытием года
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Закрытие периода
               items:
                 - name: Закрытие ГК в конце периода
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Вопросы и ответы по мероприятиям на конец года
                   href: general-ledger/faq-year-end-activities.md
-            - name: Налог
-              items:
-                - name: Обзор налога
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: Ставки налога на основе маржинальной базы и методов расчета
-                  href: general-ledger/marginal-base-field.md
-                - name: Налоговые платежи и правила округления
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: Методы расчета налога в поле "Основание"
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Расчет налога для строк общих журналов
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: Расчет и корректировка налога по накладной поставщика
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Включение отложенного расчета налогов в журнале
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: Создание налогового платежа
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Округление сопоставления налогов на основе настроенных десятичных знаков валюты
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: Создание налоговых проводок по документам
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Настройка групп разноски ГК для налога
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Настройка налоговых органов
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Настройка налоговых кодов
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Настройка налоговых групп и налоговых групп номенклатур
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Настройка кодов налоговой отчетности
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Поддержка двойной валюты для налога
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: Отчет о спецификации налога по проводкам ГК
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: Настройка периодов сопоставления налогов
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Просмотр разнесенных проводок налога
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: Печать отчета о налоговых платежах по коду
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: Устранение неполадок с налогами
-                  items:
-                    - name: Налог не рассчитан или сумма налога равна нулю
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: Расчет налога влияет на транзакции
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: Неправильное значение поля в TaxTrans
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: Запись TaxTrans не создана
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: Налог разносится на некорректный счет ГК в операции
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: Операция не создана
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Подоходный налог
-              items:
-                - name: Настройка подоходного налога
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Глобальный подоходный налог
-                  items:
-                    - name: Обзор глобального подоходного налога
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Настройка глобального подоходного налога
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Подоходный налог в проводках по покупкам
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Подоходный налог в проводках по продажам
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Создание платежа подоходного налога
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Рабочее место аудита
               items:
                 - name: Правила политики аудита
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Вопросы и ответы по расчету налогов
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Налог
+              items:
+                - name: Налог
+                  items:
+                    - name: Обзор налога
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: Ставки налога на основе маржинальной базы и методов расчета
+                      href: general-ledger/marginal-base-field.md
+                    - name: Налоговые платежи и правила округления
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: Методы расчета налога в поле "Основание"
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Расчет налога для строк общих журналов
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: Расчет и корректировка налога по накладной поставщика
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Включение отложенного расчета налогов в журнале
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: Создание налогового платежа
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Округление сопоставления налогов на основе настроенных десятичных знаков валюты
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: Создание налоговых проводок по документам
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: Настройка групп разноски ГК для налога
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: Настройка налоговых органов
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: Настройка налоговых кодов
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: Настройка налоговых групп и налоговых групп номенклатур
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Настройка кодов налоговой отчетности
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: Поддержка двойной валюты для налога
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: Отчет о спецификации налога по проводкам ГК
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: Настройка периодов сопоставления налогов
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Просмотр разнесенных проводок налога
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: Печать отчета о налоговых платежах по коду
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: Устранение неполадок с налогами
+                      items:
+                        - name: Налог не рассчитан или сумма налога равна нулю
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: Расчет налога влияет на транзакции
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: Неправильное значение поля в TaxTrans
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: Запись TaxTrans не создана
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: Налог разносится на некорректный счет ГК в операции
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: Операция не создана
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Подоходный налог
+                  items:
+                    - name: Настройка подоходного налога
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Глобальный подоходный налог
+                      items:
+                        - name: Обзор глобального подоходного налога
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Настройка глобального подоходного налога
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Подоходный налог в проводках по покупкам
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Подоходный налог в проводках по продажам
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Создание платежа подоходного налога
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Нормативные обновления
               href: localizations/regulatory-updates.md
             - name: Поиск по нормативным объявлениям
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Отчеты по обороту по счету
                       href: localizations/rus-account-activity-reports.md
+                    - name: Федеральный стандарт учета 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: Разрешение хранения российских документов учета в местах назначения электронной отчетности
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Подотчетные лица
                   items:
                     - name: Обзор подотчетных лиц России
@@ -3204,10 +3214,12 @@
                           href: localizations/rus-fa-inquiries-reports.md
                     - name: Малоценные основные средства и спецодежда
                       items:
-                        - name: Малоценные основные средства (МОС) (Россия)
+                        - name: Малоценные основные средства (NVFA) (Россия)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Учет рабочей одежды и специальной оснастки (Россия)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Интеграция основных средств с модулем "Управление активами"
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Расчеты с поставщиками и клиентами
                   items:
                     - name: Корректировки кредит-нот (Россия)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Продажи по комиссии
                           href: localizations/rus-sales-on-commission.md
+                    - name: Локальные отчеты и основные формы модуля расчетов с поставщиками и расчетов с клиентами
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Запасы
                   items:
                     - name: Товары в пути от поставщика
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Настройка поставщиков для отчета по форме 1099
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Обзор Human Resources
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Выпуск инфраструктуры 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: Настройка Human Resources
-              items:
-                - name: Настройка параметров Human Resources
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка общих параметров Human Resources
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка workflow-процессов управления персоналом
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Сведения о полях даты и времени
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Управление персоналом
-              items:
-                - name: Организация трудовых ресурсов
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка компонентов должности
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Определение подразделений
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Добавление подразделения в иерархию
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Определение должностей
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Создание календаря рабочего времени
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: Вопросы и ответы по действиям с персоналом
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Использование бизнес-правил для управления сведениями о сотрудниках
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Изменение отношений подотчетности для должности
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Ввод сведений о работнике
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Одалживание номенклатур работникам
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Создание одалживаемых номенклатур
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Управление одалживаемыми номенклатурами
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Разработка плана преемственности
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Ввод табелей учета рабочего времени проекта
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Проекты по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Создание проекта по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка должностей
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка информации о травмах и заболеваниях
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Ведение сведений о травмах и заболеваниях сотрудников
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Найм кандидатов
-              items:
-                - name: Управление процессами набора сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Проекты по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Создание проектов по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Ввод кандидата и данных заявления вручную
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Разработка и открытие заявок на должность
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Настройка должностей
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Прием на работу кандидатов через набор сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Прием на работу действующих сотрудников через набор сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Определение и развертывание средств выбора кандидатов
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Настройка планов компенсационных выплат
-              items:
-                - name: Обзор планов компенсационных выплат
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка сеток компенсаций
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Разработка структуры и плана компенсации
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Создание планов фиксированной компенсации
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Создание планов переменной компенсации
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Включение сотрудников в план фиксированной компенсации
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Включение сотрудников в план переменной компенсации
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Определение процесса компенсации и расчет результатов
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Обработка планов компенсационных выплат
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Управление льготами
-              items:
-                - name: Определение программ льгот и управление ими
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Политики прав на льготы
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Процесс работы с правами на льготы
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Определение правил и политик проверки прав на льготы
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Реализация программы льгот сотрудника
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Создание новых льгот
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Регистрация работников для льгот
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Управление датами окончания срока действия льгот
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: Создание отчетов ACA
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Развитие сотрудников
-              items:
-                - name: Обзор управления производительностью
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Управление навыками трудовых ресурсов
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Добавление в журнал производительности
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Создание цели
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Создание оценки производительности
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Создание курсов
-              items:
-                - name: Настройка учебных курсов
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Обзор анкет
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Разработка анкет
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Распределение и планирование анкет
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Распределение анкет с помощью планирования
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Просмотр результатов анкетирования
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Анализ результатов анкетирования
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Создание открытого вопроса
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Создание закрытого вопроса
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Создание зависимого вопроса
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Безопасность и соответствие рабочего места (США)
-              items:
-                - name: Проверка формы I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Подтверждение права на трудоустройство по форме I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Настройка типов документов по форме I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Соответствие требованиям закона о защите прав нетрудоспособных граждан США
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Управление проживанием работников
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Отчетность и интеграция Power BI
           items:
             - name: Отчетность и аналитика с Power BI
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,6 +4043,8 @@
                   items:
                     - name: Создание конфигураций для импорта данных из внешнего XML-файла
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: Импорт данных из выбранных вручную файлов в пакетном режиме
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка импорта данных в пакетном режиме из найденных файлов SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Импорт файлов в формате XML
@@ -4269,8 +4123,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
                         - name: Разработка отчетов
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                        - name: Формирование отчетов
+                        - name: Выполнение отчетов
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Группировка записей, выполнение инвентаризации и суммирования с помощью источников данных GROUPBY'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Использование полученных выходных данных в качестве источника данных для подсчета и суммирования
                       items:
                         - name: Создание форматов
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: Обновление приложения 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Обновление приложения 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
@@ -4533,9 +4391,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
             - name: Система бизнес-правил
               items:
-                - name: Обзор системы бизнес-правил
+                - name: Обзор системы workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/finance/toc.json
-                - name: Архитектура системы бизнес-правил
+                - name: Архитектура системы workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/finance/toc.json
                 - name: Элементы бизнес-правила
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/finance/toc.json
@@ -4591,11 +4449,11 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/finance/toc.json
                     - name: Создание класса SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/finance/toc.json
-                    - name: Связывание класса документов workflow-процесса с типом бизнес-правил
+                    - name: Связывание класса документов workflow-процесса с типом workflow-процесса
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/finance/toc.json
-                - name: Отчет о типах бизнес-правил
+                - name: Отчет о типах workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/finance/toc.json
-                - name: Вопросы и ответы по бизнес-правилам
+                - name: Вопросы и ответы по workflow-процессам
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: Оповещения
               items:
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Сопоставление проводок с помощью CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Разработка и администрирование приложений Finance and Operations
+    - name: Разработка и администрирование приложений финансов и операций
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

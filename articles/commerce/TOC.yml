@@ -92,6 +92,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce 10.0.25 (апрель 2022\_г.)"
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: "Commerce 10.0.24 (февраль 2022\_г.)"
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: "Commerce 10.0.23 (январь 2022\_г.)"
@@ -124,8 +126,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Видео
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: Глоссарий
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
@@ -1936,6 +1936,8 @@
                   items:
                     - name: Создание конфигураций для импорта данных из внешнего XML-файла
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: Импорт данных из выбранных вручную файлов в пакетном режиме
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка импорта данных в пакетном режиме из найденных файлов SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Импорт файлов в формате XML
@@ -2014,7 +2016,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
                         - name: Разработка отчетов
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
-                        - name: Формирование отчетов
+                        - name: Выполнение отчетов
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
                     - name: Использование полученных выходных данных в качестве источника данных для подсчета и суммирования
                       items:
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: Обновление приложения 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: Обновление приложения 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
                   items:
                     - name: Подписка на событие для запроса ответа от обработчика подписки
@@ -2278,9 +2282,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/commerce/toc.json
             - name: Система бизнес-правил
               items:
-                - name: Обзор системы бизнес-правил
+                - name: Обзор системы workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Архитектура системы бизнес-правил
+                - name: Архитектура системы workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/commerce/toc.json
                 - name: Элементы бизнес-правила
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/commerce/toc.json
@@ -2336,11 +2340,11 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/commerce/toc.json
                     - name: Создание класса SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/commerce/toc.json
-                    - name: Связывание класса документов workflow-процесса с типом бизнес-правил
+                    - name: Связывание класса документов workflow-процесса с типом workflow-процесса
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/commerce/toc.json
-                - name: Отчет о типах бизнес-правил
+                - name: Отчет о типах workflow-процессов
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/commerce/toc.json
-                - name: Вопросы и ответы по бизнес-правилам
+                - name: Вопросы и ответы по workflow-процессам
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/commerce/toc.json
             - name: Оповещения
               items:
@@ -2384,6 +2388,8 @@
               items:
                 - name: Commerce для ИТ-профессионалов и разработчиков
                   href: dev-itpro/dev-retail-home-page.md
+                - name: Модернизация технологического стека в магазине Commerce (технический документ)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Настройка локальной среды разработки
                   href: dev-itpro/setup-local-dev-env.md
             - name: Расширяемость канала продаж через Интернет
@@ -2820,7 +2826,7 @@
               items:
                 - name: Настройка среды разработки электронной коммерции для отладки в виртуальной машине Retail Server уровня 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Разработка и администрирование приложений Finance and Operations
+    - name: Разработка и администрирование приложений финансов и операций
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

@@ -1,6 +1,8 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Вывод Dynamics 365 Talent из эксплуатации
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: Домашняя страница Dynamics 365 Talent
+      href: ./index.md
     - name: Начало работы
       items:
         - name: Начало работы с Talent
