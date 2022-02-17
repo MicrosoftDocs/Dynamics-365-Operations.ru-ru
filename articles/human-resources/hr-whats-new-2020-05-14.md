@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754145"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063755"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (14 мая 2020 г.)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3244. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
 
 ## <a name="platform-changes"></a>Изменения платформы
 
-Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений Finance and Operations (май 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
+Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений для Финансы и операции (май 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Убедитесь, что списки выбора Dataverse соответствуют перечислениям Отпуск (436343)
 

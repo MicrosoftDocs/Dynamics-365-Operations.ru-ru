@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 46f7358684502a4bf05854fbcb5cca9a1eb2c87c
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 65bf91faba049b3fed4d80e020d77b82e48cceb6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548063"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069003"
 ---
 # <a name="benefit-statement"></a>Выписка по льготам
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 В отчете **Выписка по льготам** предоставляется выписка по льготам, в которых сотрудник в настоящее время зарегистрирован. Доступ к отчету может получить только сам сотрудник или администратор льгот. **Выписка по льготам** представляет собой список зарегистрированных льгот сотрудника, параметров покрытия, затрат и всех зарегистрированных иждивенцев или бенефициаров. Отчет может быть распечатан для одного сотрудника или нескольких сотрудников.
 

@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964714"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075458"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Ввод кандидата и данных заявления вручную
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов Human Resources в инфраструктуре Finance.  
+
 
 В этой процедуре показано ведение информации о кандидатах и их заявлениях вручную. Можно вводить и обновлять личные данные, даты и время собеседований, рекомендации, компетенции и запросы на удобства кандидатов. Также можно обновлять статус заявлений кандидатов о приеме на работу и создавать письма или сообщений электронной почты для отправки кандидатам. При создании записи кандидата в глобальной адресной создается запись о лице для этого кандидата. Компания **USMF** с демонстрационными данными используется для создания этой процедуры.
 

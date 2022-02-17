@@ -1,6 +1,6 @@
 ---
-title: Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
-description: В этой теме объясняется, как можно определить, настроена ли двойная запись в приложениях Finance and Operations и в Dataverse.
+title: Проверка конфигурации двойной записи в Finance and Operations и Dataverse
+description: В этой теме объясняется, как можно определить, настроена ли двойная запись в приложениях Финансы и операции и в Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,36 +9,36 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782635"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062808"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в приложениях Finance and Operations и Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в Finance and Operations и Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Эта тема предоставляет информацию по устранению неполадок для интеграции двойной записи между приложениями Finance and Operations и Dataverse. Конкретно, в ней объясняется, как можно определить, настроена ли двойная запись в приложениях Finance and Operations и в Dataverse.
 
-## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Проверка настройки двойной записи в приложении Finance and Operations
+Эта тема предоставляет информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse. Конкретно, в ней объясняется, как можно определить, настроена ли двойная запись в приложениях Финансы и операции и в Dataverse.
+
+## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Проверка конфигурации двойной записи в приложении Финансы и операции
 
 Чтобы определить, возникают ли ошибки, отображаемые при попытке сохранить строки для обновления, в результате двойной записи, сначала убедитесь, что двойная запись настроена.
 
-+ Если у вас есть права администратора в приложении Finance and Operations, перейдите к пункту **Рабочие области \> Управление данными** и выберите плитку **Двойная запись**. Если отображаются сведения о связанных средах и список выполняемых сопоставлений таблиц, двойная запись настроена.
++ Если у вас есть права администратора в приложении Финансы и операции, перейдите к пункту **Рабочие области \> Управление данными** и выберите плитку **Двойная запись**. Если отображаются сведения о связанных средах и список выполняемых сопоставлений таблиц, двойная запись настроена.
 
-    ![Проверка подключения приложения Finance and Operations при наличии прав администратора.](media/verify_fin_ops_1.png)
+    ![Проверка подключения приложения Финансы и операции при отсутствии прав администратора.](media/verify_fin_ops_1.png)
 
-+ Если у вас нет прав администратора, вы получите сообщение об ошибке *Невозможно записать данные в объект \<entity name\>*. В примере на следующем рисунке невозможно создать строку клиента в приложении Finance and Operations, так как настроена двойная запись, но отсутствуют ссылочные данные группы клиентов и условий оплаты в Dataverse.
++ Если у вас нет прав администратора, вы получите сообщение об ошибке *Невозможно записать данные в объект \<entity name\>*. В примере на следующем рисунке невозможно создать строку клиента в приложении Финансы и операции, так как настроена двойная запись, но отсутствуют ссылочные данные группы клиентов и условий оплаты в Dataverse.
 
-    ![Проверка подключения приложения Finance and Operations при отсутствии прав администратора.](media/verify_fin_ops_2.png)
+    ![Проверка подключения приложения Финансы и операции при отсутствии прав администратора.](media/verify_fin_ops_2.png)
 
-Сведения об устранении проблем при создании данных в приложениях Finance and Operations см. в разделе [Устранение проблем с синхронизацией в режиме реального времени](dual-write-troubleshooting-live-sync.md).
+Сведения об устранении проблем при создании данных в приложениях Финансы и операции см. в разделе [Устранение проблем с синхронизацией в режиме реального времени](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Проверка настройки двойной записи в Dataverse
 

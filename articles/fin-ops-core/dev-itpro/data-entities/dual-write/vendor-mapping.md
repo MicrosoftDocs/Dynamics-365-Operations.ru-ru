@@ -1,6 +1,6 @@
 ---
-title: Интегрированный справочник поставщиков
-description: Эта тема описывает интеграцию данных поставщика между приложениями Finance and Operations и Dataverse.
+title: Интегрированный мастер поставщиков
+description: Эта тема описывает интеграцию данных поставщиков между приложениями Finance and Operations и Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782485"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063170"
 ---
 # <a name="integrated-vendor-master"></a>Интегрированный справочник поставщиков
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Термин *поставщик* относится к организации поставщика или к отдельному уполномоченному лицу, поставляющему товары или услуги для бизнеса. Хотя *поставщик* является устоявшейся концепцией в приложениях Microsoft Dynamics 365 Supply Chain Management, концепция поставщика не существует в приложениях для взаимодействия с клиентами. Однако можно перегрузить таблицу **Организация/Контакт**, чтобы сохранить сведения о поставщике. В интегрированном сводном поставщике представлена явная концепция поставщика в приложениях для взаимодействия с клиентами. Можно либо использовать новый дизайн поставщика, либо хранить данные поставщика в таблице **Организация/Контакт**. Двойная запись поддерживает оба подхода.
 
@@ -37,7 +37,7 @@ ms.locfileid: "7782485"
 ![Поток расширенных данных поставщика.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Если порталы Power Apps используются для самообслуживания поставщиков, сведения о поставщике могут непосредственно поступать в приложения Finance and Operations.
+> Если порталы Power Apps используются для самообслуживания поставщиков, сведения о поставщике могут непосредственно поступать в приложения Финансы и операции.
 
 ## <a name="templates"></a>Шаблоны
 

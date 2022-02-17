@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413419"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071118"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этом разделе содержатся ответы на часто задаваемые вопросы, связанные с тем, какие данные синхронизируются в случае интеграции Dynamics 365 Human Resources с Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ ms.locfileid: "7413419"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Как можно настроить двунаправленную интеграцию?
 
-Нет, сейчас интеграция односторонняя (из Human Resources в Finance and Operations). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
+Нет, в настоящее время интеграция работает в одну сторону (из Human Resources в Финансы и операции). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Можно ли разрешить удаление записи как часть моей интеграции?
 
@@ -116,7 +119,7 @@ ms.locfileid: "7413419"
 
 - Передача данных привела к извлечению дублирующихся записей в источнике (Dataverse).
 
-- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и соответствуют требованиям Finance and Operations.
+- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и обеспечьте соответствие требованиям Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Если имеются ошибки выполнения и код сотрудника не синхронизируется, как найти старое задание, которое содержит сбойную запись сотрудника?
 
