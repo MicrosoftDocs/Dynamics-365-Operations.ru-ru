@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964969"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075381"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Прием кандидата через набор сотрудников
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов Human Resources в инфраструктуре Finance.  
+
 
 Эта процедура позволяет специалисту по найму принять на работу кандидата, подавшего заявление через конкретный проект по набору сотрудников. При приеме кандидата на работу через проект по набору сотрудников создается новая запись работника, и статус записи кандидата изменяется на **Принят на работу**. Компания **USMF** с демонстрационными данными используется для создания этой процедуры.
 

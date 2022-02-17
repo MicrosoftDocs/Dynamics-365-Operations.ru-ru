@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46ae85fc4f4f305d1ff8063b43aeef51d043742f9860940add0e0dbca02413d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750468"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069306"
 ---
 # <a name="find-information-by-using-lookups"></a>Поиск сведений с использованием подстановки
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Многие поля имеют списки подстановки, которые помогают легко найти правильное или требуемое значение. Ряд улучшений был добавлен в списки подстановок, чтобы сделать эти элементы управления более удобными и повысить производительность работы пользователей. В этом разделе вы узнаете об этих новых возможностях поиска и получите некоторые полезные советы по оптимальному использованию списков подстановки в системе.
 

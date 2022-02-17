@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781400"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063680"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этой теме объясняется, как включить двойную запись из Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ ms.locfileid: "7781400"
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Связать со средой Power Platform.":::
 
-8. После завершения связывания отображается гиперссылка. Используйте ссылку для входа в область администрирования двойной записи в среде Finance and Operations. Отсюда можно настроить сопоставления сущностей.
+8. После завершения связывания отображается гиперссылка. Используйте ссылку для входа в область администрирования двойной записи в среде Финансы и операции. Отсюда можно настроить сопоставления сущностей.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Настройка двойной записи для существующей среды Dataverse
 
 Для настройки двойной записи существующей среды Dataverse необходимо создать [запрос в службу поддержки](../../lifecycle-services/lcs-support.md) Майкрософт. Запрос должен включать следующее:
 
-+ Код вашей среды Finance and Operations.
++ Код среды Финансы и операции.
 + Имя вашей среды из Lifecycle Services.
 + Код организации Dataverse или код среды Power Platform из центра администрирования Power Platform. В запросе запросите, чтобы идентификатор был экземпляром, используемым для интеграции Power Platform.
 
 > [!NOTE]
-> Невозможно удалить связь среды с помощью LCS. Чтобы отменить связь среды, откройте рабочую область **Интеграция данных** в среде Finance and Operations, затем выберите **Удалить ссылку**.
+> Невозможно удалить связь среды с помощью LCS. Чтобы отменить связь среды, откройте рабочую область **Интеграция данных** в среде Финансы и операции, затем выберите **Удалить ссылку**.
 
 ## <a name="linking-mismatch"></a>Несоответствие ссылок
 

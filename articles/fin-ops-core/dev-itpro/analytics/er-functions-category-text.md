@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647568"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075508"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Список функций ER в категории текста
 
@@ -35,6 +35,7 @@ ms.locfileid: "7647568"
 | [Объединить](er-functions-text-concatenate.md) | Эта функция возвращает все указанные строки текста как значение *Строка* после того, как они были объединены в одну строку. |
 | [Формат](er-functions-text-format.md) | Эта функция возвращает указанную строку как *строковое* значение после ее форматирования путем замены любых вхождений **%N** *n*-ным аргументом. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Эта функция выполняет поиск определенного значения *Enum* в указанном источнике данных перечисления, используя имя перечисления, указанное как значение *строка*. При обнаружении значения *Enum* функция возвращает его. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Эта функция выполняет поиск конкретной метки для возврата значения *[Строка](er-formula-supported-data-types-primitive.md#string)*, представляющего преобразование указанной метки на указанном языке. |
 | [GuidValue](er-functions-text-guidvalue.md) | Эта функция преобразует заданный ввод типа *Строка* в элемент данных типа *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Эта функция анализирует данные в формате JavaScript Object Notation (JSON), к которому осуществляется доступ по специальному пути и извлекает скалярное значение на основании указанного идентификатора. Затем она возвращает извлеченное скалярное значение как *строковое* значение. |
 | [По левому краю](er-functions-text-left.md) | Эта функция возвращает *строковое* значение, которое представляет указанное число символов от начала указанной строки. |

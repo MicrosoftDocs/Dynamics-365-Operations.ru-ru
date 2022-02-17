@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: ca747215a8dfb85237365880ad5bdd49e57ec949
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944696"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076870"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Пример интеграции службы финансовой регистрации для Германии
 
@@ -248,7 +248,7 @@ ms.locfileid: "7944696"
 
 ## <a name="set-up-fiscal-integration-for-germany"></a>Настройка финансовой интеграции для Германии
 
-Образец интеграции службы финансовой регистрации для Германии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции службы финансовой регистрации для Германии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Германии (устаревшая версия)](emea-deu-fi-sample-sdk.md).
@@ -411,7 +411,7 @@ ms.locfileid: "7944696"
 
 ## <a name="design-of-extensions"></a>Разработка расширений
 
-Образец интеграции службы финансовой регистрации для Германии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции службы финансовой регистрации для Германии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Германии (устаревшая версия)](emea-deu-fi-sample-sdk.md). Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.

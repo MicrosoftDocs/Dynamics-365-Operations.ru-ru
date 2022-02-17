@@ -1,6 +1,6 @@
 ---
 title: Общие рекомендации по устранению неполадок
-description: Эта тема предоставляет общая информацию по устранению неполадок для интеграции двойной записи между приложениями Finance and Operations и Dataverse.
+description: Эта тема предоставляет общую информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781182"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062346"
 ---
 # <a name="general-troubleshooting"></a>Общие рекомендации по устранению неполадок
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Эта тема предоставляет общая информацию по устранению неполадок для интеграции двойной записи между приложениями Finance and Operations и Dataverse.
+
+Эта тема предоставляет общую информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse.
 
 > [!IMPORTANT]
 > Для некоторых вопросов, связанных с этим разделом, может потребоваться роль системного администратора или учетные данные администратора клиента Microsoft Azure Active Directory (Azure AD). В разделе для каждого выпуска объясняется, требуются ли конкретная роль или учетные данные.
@@ -44,37 +44,37 @@ ms.locfileid: "7781182"
 2. Найдите журналы трассировки, для которых в столбце **Имя типа** указано значение **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Дважды щелкните элемент, чтобы просмотреть полный журнал, а затем на экспресс-вкладке **Выполнение** просмотрите текст **Блок сообщений**.
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Включение режима отладки для устранения проблем с синхронизацией приложений Finance and Operations в режиме реального времени
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Включение режима отладки для устранения проблем с синхронизацией приложений Финансы и операции в режиме реального времени
 
 **Роль, требуемая для просмотра ошибок:** системный администратор
 
-Ошибки двойной записи, возникающие в Dataverse, могут проявляться в приложении Finance and Operations. Чтобы включить подробное протоколирование ошибок, выполните следующие действия:
+Ошибки двойной записи, возникающие в Dataverse, могут проявляться в приложении Финансы и операции. Чтобы включить подробное протоколирование ошибок, выполните следующие действия:
 
-1. Для всех конфигураций проектов в приложении Finance and Operations есть флаг **IsDebugMode** в таблице **DualWriteProjectConfiguration**.
-2. Откройте **DualWriteProjectConfiguration** с помощью надстройки Excel. Чтобы использовать надстройку, включите режим конструктора в надстройке Finance and Operations Excel и добавьте **DualWriteProjectConfiguration** на лист. Дополнительные сведения см. в разделе [Просмотр и обновление данных сущностей с помощью Excel](../../office-integration/use-excel-add-in.md).
+1. Для всех конфигураций проектов в приложении Финансы и операции есть флаг **IsDebugMode** в таблице **DualWriteProjectConfiguration**.
+2. Откройте **DualWriteProjectConfiguration** с помощью надстройки Excel. Чтобы использовать надстройку, включите режим конструктора в надстройке Финансы и операции Excel и добавьте **DualWriteProjectConfiguration** на лист. Дополнительные сведения см. в разделе [Просмотр и обновление данных сущностей с помощью Excel](../../office-integration/use-excel-add-in.md).
 3. Установите для **IsDebugMode** в проекте значение **Да**.
 4. Выполните сценарий, создающий ошибки.
 5. Подробные журналы хранятся в таблице **DualWriteErrorLog**.
 6. Для поиска данных в обозревателе таблиц используется следующая ссылка: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` с заменой `999` при необходимости.
 7. Снова обновите после [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), которое доступно для обновлений платформы 37 и более поздних версий. Если это исправление установлено, в режиме отладки будут записаны дополнительные журналы.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Проверка ошибок синхронизации на виртуальной машине для приложения Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Проверка ошибок синхронизации на виртуальной машине для приложения Финансы и операции
 
 **Роль, требуемая для просмотра ошибок:** системный администратор
 
 1. Выполните вход в Microsoft Dynamics Lifecycle Services (LCS).
 2. Откройте проект LCS, который вы выбрали для выполнения тестирования двойной записи.
 3. Выберите плитку **Размещенные в облаке среды**.
-4. Используйте удаленный рабочий стол для входа в виртуальную машину для приложения Finance and Operations. Используйте локальную учетную запись, отображаемую в LCS.
+4. Используйте удаленный рабочий стол для входа в виртуальную машину для приложения Финансы и операции. Используйте локальную учетную запись, отображаемую в LCS.
 5. Откройте средство просмотра событий.
 6. Выберите **Журналы приложений и служб \> Microsoft \> Dynamics \> AX-DualWriteSync \> Операционные**.
 7. Просмотрите список недавних ошибок.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Удаление связи и связывание с другой средой Dataverse из приложения Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Как отвязать среду Dataverse от приложения Финансы и операции и привязать другую среду
 
-**Роль, необходимая для отмены связи со средой:** системный администратор для приложения Finance and Operations или Dataverse.
+**Роль, необходимая для отмены связи со средой:** системный администратор для приложения Финансы и операции или Dataverse.
 
-1. Выполните вход в приложение Finance and Operations.
+1. Войдите в приложение Финансы и операции.
 2. Выберите **Рабочие области \> Управление данными** и выберите плитку **Двойная запись**.
 3. Выберите все запущенные отображения, затем выберите **Остановить**.
 4. Выберите **Удалить связь со средой**.

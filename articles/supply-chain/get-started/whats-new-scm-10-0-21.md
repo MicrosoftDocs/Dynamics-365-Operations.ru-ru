@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777945"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075307"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.21 (октябрь 2021 г.)
 
@@ -39,7 +39,6 @@ ms.locfileid: "7777945"
 | Запасы&nbsp;и&nbsp;логистика | [Разноска корректировок запасов в наличии с помощью кодов, связанных с корр. счетами](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Коды оснований для инвентаризации запасов](../warehousing/reason-codes-for-counting-journals.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Политика экспорта данных, на которые ссылаются предложения по продаже](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Выберите, будут ли изменения в данных предложения приводить к включению этих предложений (или строк) в следующий добавочный экспорт. Добавочные экспорты будут выполняться быстрее, если не включать такие предложения или строки.<br><br>Эта функция добавляет параметр, который называется **пропускать ссылочные данные предложения по продажам во время отслеживания изменений** на странице **Параметры модуля расчетов с клиентами**. |
 | Запасы&nbsp;и&nbsp;логистика | [Запечатанное предложение](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Запечатывание предложений для запросов предложений](../procurement/sealed-bidding.md) |
-| Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Предварительное резервирования для надстройки видимости запасов](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Резервирования видимости запасов](../inventory/inventory-visibility-reservations.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Усовершенствования вычета и учете в двух единицах измерения для управления ретробонусами](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Управление вычетами в рабочем месте вычетов](../rebate-management/deduction-workbench.md )<br><br>[Обработка, проверка и разноска ретробонусов](../rebate-management/process-review-post.md)<br><br>[Сделки в управлении ретробонусами](../rebate-management/rebate-management-deals.md) |
 | Запасы&nbsp;и&nbsp;логистика | [Инструкции для шагов приложения склада](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Настройте названий шагов и инструкций для мобильного приложения Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
@@ -138,9 +137,9 @@ ms.locfileid: "7777945"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.21 приложений Finance and Operations (октябрь 2021 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.21 приложений для финансов и операций (октябрь 2021 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 

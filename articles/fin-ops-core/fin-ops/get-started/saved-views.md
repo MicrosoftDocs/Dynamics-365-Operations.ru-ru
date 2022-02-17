@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487849"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065714"
 ---
 # <a name="saved-views"></a>Сохраненные представления
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Введение
 
@@ -212,7 +215,7 @@ ms.locfileid: "7487849"
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Как включить сохраненные представления в моей среде?
 
 > [!NOTE]
-> Функция **Сохраненные представления** должна быть включена в системе персонализации в Finance and Operations. Если персонализация для всей среды отключена, представления будут отключены даже при выполнении указанных ниже шагов. 
+> Функция **Сохраненные представления** должна быть включена в системе персонализации в Финансы и операции. Если персонализация для всей среды отключена, представления будут отключены даже при выполнении указанных ниже шагов. 
 
 Можно включать и выключать функцию **Сохраненные представления** с помощью управления функциями в любой среде. После включения сохраненные представления будут включены во всех последующих сеансах пользователей.
 

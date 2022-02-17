@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f74692ffe8afbdeea7519ac8bdfbbe54105b9ccee83031a9b1c223be78fc12e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770416"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063012"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (18 февраля 2020 г.)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.2903. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 
 ## <a name="platform-update-32"></a>Обновление платформы update 32 
 
-Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для Finance and Operations (февраль 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для Финансы и операции (февраль 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Значения поиска запоминаются при изменении параметров просмотра в упрощенной форме сотрудника (383833)
 

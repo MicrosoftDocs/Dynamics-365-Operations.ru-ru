@@ -2,7 +2,7 @@
 title: Устранение проблем настройки Finance Insights
 description: В этой теме перечислены проблемы, которые могут возникать при использовании возможностей Finance Insights. Здесь также объясняется, как решить эти проблемы.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968844"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064874"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Устранение проблем настройки Finance Insights
 
@@ -92,3 +92,25 @@ ms.locfileid: "7968844"
   | ---------------------------- | ---------------- |
   | Микрослужбы Microsoft Dynamics ERP CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Признак: ошибка, "Не удалось найти никаких данных для выбранного диапазона фильтров. Выберите другие диапазоны фильтрации и повторите попытку". 
+
+### <a name="resolution"></a>Решение
+
+Проверьте настройку интегратора данных, чтобы убедиться в том, что она работает ожидаемым образом и передает данные из AI Builder обратно в Finance.  
+Дополнительные сведения см. в [Создание проекта интеграции данных](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Признак: не удалось выполнить обучение прогнозирования платежа клиента и есть состояния ошибки AI Builder "В прогнозировании должно быть только 2 отдельных значения результатов для обучения модели. Сопоставьте два результата и повторите обучение", "Сбой отчета по обучению: IsNotMinRequiredDistinctNonNullValues".
+
+### <a name="resolution"></a>Решение
+
+Эта ошибка указывает на то, что в прошлом году не было достаточно исторических проводок, представляющих каждую категорию, описанную в категориях **Вовремя**, **С опозданием** и **Очень поздно**. Чтобы устранить эту ошибку, необходимо настроить проводки **Очень поздно**. Если корректировка периода проводки **Очень поздно** не устранила ошибку, **Прогнозы платежа клиента** не является оптимальным решением для использования в целях обучения, годе требуются данные в каждой категории.
+
+Дополнительные сведения о корректировке категорий **Вовремя**, **С опозданием** и **Очень поздно** см. в разделе [Включение прогнозов платежей клиентов](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Признак: не удалось выполнить обучение модели
+
+### <a name="resolution"></a>Решение
+
+Для обучения модели **Прогноз движения денежных средств** требуются данные, охватывающие более одного года и содержащие более 100 проводок. Эти проводки должны влиять на счета денежных средств, включенные в настройку прогноза движения денежных средств.
+
+Для **прогнозов платежей клиентов** требуется не менее 100 проводок по накладным клиентов и платежей в течение последних шести-девяти месяцев для создания прогнозов.  

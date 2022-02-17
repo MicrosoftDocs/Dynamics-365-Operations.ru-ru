@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5783bfa494570a928b0db64664e9b63c82aa7091eb93d15f3e1bc57e93642780
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713720"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066251"
 ---
 # <a name="example-query-for-recruiting-request"></a>Пример запроса для запроса на набор персонала
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

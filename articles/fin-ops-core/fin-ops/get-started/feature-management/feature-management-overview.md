@@ -15,16 +15,19 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984467"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068017"
 ---
 # <a name="feature-management-overview"></a>Обзор управления компонентами
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Функции добавляются и обновляются в каждом выпуске. Опыт управления функциями предоставляет рабочую область, в которой можно просматривать список функций, которые были поставлены в каждом выпуске. Затем можно использовать рабочее пространство для просмотра документации по функциям и включения или отключения функций.
 

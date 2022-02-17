@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902004"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069387"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Установка и подключение мобильного приложения управления складом
 
@@ -143,6 +143,10 @@ ms.locfileid: "7902004"
 Сертификаты могут использоваться в качестве секретов, чтобы предоставить удостоверение приложения при запросе токена. Открытая часть сертификата загружается в регистрацию приложения на портале Azure, в то время как полный сертификат должен быть развернут на каждом устройстве, где установлено мобильное приложение управления складом. Ваша организация несет ответственность за управление сертификатом с точки зрения ротации и т.д. Можно использовать самозаверяющие сертификаты, но всегда следует использовать сертификаты, которые не могут быть экспортированы.
 
 Сертификат необходимо сделать доступным локально на каждом устройстве, где выполняется мобильное приложение управления складом. Сведения об управлении сертификатами для устройств под управлением Intune если используется Intune, см. раздел [Использование сертификатов для проверки подлинности в Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования
+
+Для запуска мобильного приложения Warehouse Management для работы с облачной или пограничной единицей масштабирования требуется несколько дополнительных шагов. Инструкции см. в разделе [Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Настройка приложения путем импортирования параметров подключения
 
@@ -306,5 +310,6 @@ ms.locfileid: "7902004"
 
 - [Параметры пользователя мобильного устройства](mobile-device-user-settings.md)
 - [Назначение значков и названий шагов для мобильного приложения Warehouse Management](step-icons-titles.md)
+- [Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

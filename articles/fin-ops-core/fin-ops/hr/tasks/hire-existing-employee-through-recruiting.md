@@ -9,19 +9,23 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964916"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074921"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Прием на работу действующих сотрудников через набор сотрудников
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов Human Resources в инфраструктуре Finance.  
+
 
 Иногда открытые позиции могут заполняться кандидатами, которые уже являются сотрудниками организации. Эта процедура демонстрирует шаги приема на работу существующего сотрудника посредством процесса набора сотрудников. В этой процедуре проект по набору сотрудников уже настроен, и существующий сотрудник уже подал заявление в проект по набору сотрудников. Компания **USMF** с демонстрационными данными используется для создания этой процедуры.
 

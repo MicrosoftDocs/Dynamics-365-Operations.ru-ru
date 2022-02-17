@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924874"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063270"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Разделенный пакет оркестрации приложений с двойной записью
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ранее в составе единого пакета оркестрации приложений с двойной записью был один пакет, содержащий следующие решения:
 
 - Заметки Dynamics 365
-- Общая привязка Dynamics 365 Finance and Operations
-- Сопоставления сущностей двойной записи Dynamics 365 Finance and Operations
+- Общая привязка Dynamics 365 Finance и Operations
+- Сопоставления сущностей с двойной записью Dynamics 365 Finance и Operations
 - Приложение управления активами Dynamics 365
 - Управление активами Dynamics 365
 - Общие HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Dynamics 365 Finance и операции Common
 - Компания Dynamics 365
 - Валютные курсы
 - Field Service Common
@@ -51,7 +51,7 @@ ms.locfileid: "7924874"
 | Уникальное имя                           | Отображаемое имя                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Компания Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance и операции Common |
 | CurrencyExchangeRates                 | Валютные курсы                    |
 | msdyn_DualWriteAppCoreMaps            | Сопоставления сущностей базовых приложений с двойной записью   |
 | msdyn_DualWriteAppCoreAnchor          | Привязка базовых приложений с двойной записью        |

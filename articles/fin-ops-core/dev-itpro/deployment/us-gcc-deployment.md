@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817448"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062294"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance и Dynamics 365 Supply Chain Management в облаке правительственного сообщества США (GCC)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Выберите продукты Microsoft Dynamics 365 United States (US) Government, доступные квалифицированным государственным и частным организациям. Эти организации ограничены следующими типами:
 
@@ -38,9 +38,9 @@ ms.locfileid: "7817448"
 
 ## <a name="environment-deployment"></a>Развертывание среды
 
-После выполнения проекта адаптации можно просмотреть дополнительные возможности LCS, описанные в разделе [Lifecycle Services (LCS) для клиентов приложений Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Затем перейдите к развертыванию среды.
+После выполнения проекта адаптации можно просмотреть дополнительные возможности LCS, описанные в разделе [Lifecycle Services (LCS) для клиентов приложений Финансы и операции](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Затем перейдите к развертыванию среды.
 
-- Чтобы развернуть управляемые корпорацией Майкрософт среды через службу LCS, следуйте указаниям в разделе [Lifecycle Services (LCS) для клиентов приложений Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Чтобы развернуть управляемые корпорацией Майкрософт среды через службу LCS, следуйте указаниям в разделе [Lifecycle Services (LCS) для клиентов приложений Финансы и операции](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Для сред, размещенных в облаке, см. раздел [Развертывание сред разработки и доступ к ним](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Также необходимо выполнить процесс адаптации Resource Manager для ваших соединителей, как описано в разделе [Завершение процесса адаптации Azure Resource Manager для проектов Lifecycle Services для государственных организаций США](arm-onbarding-us-goverment.md).
 
 > [!NOTE]

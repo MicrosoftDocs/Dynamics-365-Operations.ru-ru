@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-8-2
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ff1df4f1b4b7da22891b607ea2d1233a143a9780
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: c004b5d7c4355d12e148bd1b0686b49738974887
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612349"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076950"
 ---
 # <a name="fiscal-printer-integration-sample-for-russia"></a>Пример интеграции фискальных принтеров для России
 
@@ -141,7 +141,7 @@ ms.locfileid: "7612349"
 
 ### <a name="configure-channel-components"></a>Настройка компонентов канала
 
-Пример интеграции финансового принтера для России является частью пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\AtolFiscalPrinterSample** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.31](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.31/src/FiscalIntegration/AtolFiscalPrinterSample)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Пример интеграции финансового принтера для России является частью пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\AtolFiscalPrinterSample** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.31](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.31/src/FiscalIntegration/AtolFiscalPrinterSample)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). В следующих разделах описывается, как использовать предыдущую версию пакета Retail SDK для включения примера.

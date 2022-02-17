@@ -1,5 +1,5 @@
 ---
-title: Что нового и что изменилось на домашней странице приложений Finance and Operations
+title: Домашняя страница «Что нового и что изменилось в приложениях Финансы и операции»
 description: Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних приложениях Finance and Operations.
 author: josaw1
 ms.date: 02/14/2020
@@ -17,30 +17,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759193"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075232"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Что нового и что изменилось на домашней странице приложений Finance and Operations
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Домашняя страница «Что нового и что изменилось в приложениях Финансы и операции»
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Выпуски приложения
 
-Чтобы просмотреть новые или измененные функции в каждом выпуске приложения Finance and Operations, см. следующие разделы:
+Чтобы просмотреть новые или измененные функции в каждом выпуске приложения Финансы и операции, см. следующие разделы:
 
-- **Finance:** [Что нового и что изменилось в Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance:** [Что нового и что изменилось в Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
+- **Human Resources (объединенная инфраструктура):** [Новые возможности и изменения в Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management:** [Что нового и что изменилось в Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Что нового и что изменилось в Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>Автономные приложения
+
+Чтобы просмотреть новые или измененные функции в отдельном Dynamics 365 Human Resources, см. следующий раздел:
+
 - **Управление персоналом:** [Что нового и что изменилось в Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Обновления платформы
 
-Сведения о новинках и изменениях в обновлениях платформы для приложений Finance and Operations см. в следующих разделах:
+Сведения о новинках и изменениях в обновлениях платформы для приложений Финансы и операции см. в следующих разделах:
 
 - [Что нового и что изменилось в выпусках Platform update](../../dev-itpro/get-started/whats-new-home-page.md)
 

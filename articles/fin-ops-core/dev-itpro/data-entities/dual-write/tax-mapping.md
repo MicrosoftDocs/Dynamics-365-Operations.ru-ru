@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d1e74bbbeba019ca48dd823b58251643e96edd0c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782218"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063195"
 ---
 # <a name="integrated-tax"></a>Интегрированный налог
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Данные настройки налога определяют настройку для как косвенных налогов (НДС, GST, налог), так и подоходного налога. В нем описывается правило расчета налогов, налоговая ставка, налоговый учет, сопоставление и другие концепции.
 
@@ -28,7 +28,7 @@ ms.locfileid: "7782218"
 
 Данные налога включают коллекцию сопоставлений таблиц, которые работают совместно во время взаимодействия данных клиентов, как показано в следующей таблице.
 
-| Приложения Finance and Operations | Приложения для взаимодействия с клиентами | описание |
+| Приложения Finance and Operations | Приложения для взаимодействия с клиентами | Описание |
 |-----------------------------|-----------------------------------|-------------|
 [Налоговая группа номенклатур](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [Налоговые органы](mapping-reference.md#193) | msdyn_taxauthorities | |

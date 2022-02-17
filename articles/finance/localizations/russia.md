@@ -2,7 +2,7 @@
 title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: kfend
-ms.date: 07/20/2021
+ms.date: 02/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e17c5fcf643f24893331e91a3ad66b76df9e38b
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 890106ac96124141f4149784f93d0b2411949480
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018395"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087854"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -34,6 +34,9 @@ ms.locfileid: "8018395"
 - [Трансляция ГК](rus-ledger-translation-procedure.md)
 - [Отчеты по оборотно-сальдовой ведомости](rus-turnover-balance-statement-reports.md)
 - [Отчеты по обороту по счету](rus-account-activity-reports.md)
+- [Технический документ: Dynamics 365 Finance и Dynamics 365 Supply Chain Management – Федеральный стандарт бухгалтерского учета 27-2021 в России](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=cc7a904b-d553-43b3-94fd-58fa02e4f702&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)
+- [Включение назначений электронной отчетности для хранения российских документов учета](rus-enable-er-destinations-ru-accounting-documents.md)
+
 
 ## <a name="advance-holders"></a>Подотчетные лица
 

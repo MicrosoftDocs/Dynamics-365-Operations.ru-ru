@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937485"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062498"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 При использовании готовой реализации пользователи не могут самостоятельно регистрироваться для сайтов, созданных с помощью клиентского портала. Чтобы войти в систему и использовать сайт, пользователи должны быть приглашены администратором. Корпорация Майкрософт преднамеренно запретила пользователям выполнять самостоятельную регистрацию.
 
@@ -33,7 +33,7 @@ ms.locfileid: "7937485"
 ## <a name="video"></a>Видео
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Видео [Приглашение клиентов для регистрации и использование портала клиента](https://youtu.be/drGUYHX9QIQ) (см. выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный в YouTube.
+Видео [Приглашение клиентов для регистрации и использование портала клиента](https://youtu.be/drGUYHX9QIQ) (см. выше) включено в [список воспроизведения Финансы и операции](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный в YouTube.
 
 ## <a name="prerequisite-setup"></a>Необходимые условия настройки
 

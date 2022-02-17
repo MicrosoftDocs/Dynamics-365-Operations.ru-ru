@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740916"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070017"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенный синтаксис фильтрации и запросов
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора **matches** на панели фильтров или в фильтрах заголовков столбцов сетки.
 
@@ -119,9 +122,9 @@ ms.locfileid: "6740916"
 <td>Две последовательные двойные кавычки (<strong>""</strong>) ищут строки без значения для текущего столбца.</td>
 </tr>
 <tr>
-<td>(<span class="code">Запрос Finance and Operations</span>) (запрос Finance and Operations между скобками)</td>
+<td>(<span class="code">Запрос Финансы и операции</span>) (Запрос Финансы и операции между скобками)</td>
 <td>Поиск согласно введенному запросу</td>
-<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Finance and Operations.</td>
+<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Финансы и операции.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        как пример синтаксиса для условия фильтра по полю из корневого источника данных, а также по полю из другого источника данных (для страницы "Все клиенты")</td>
 </tr>

@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965072"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075483"
 ---
 # <a name="manage-recruiting-processes"></a>Управление процессами набора сотрудников
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов Human Resources в инфраструктуре Finance.  
+
 
 Этот раздел описывает принципиальную схему, которую специалисты по набору персонала могут использовать для того, чтобы отслеживать шаги в процессе приема на работу, включая усилия по рекламе открытых позиций и приему заявителей, отслеживанию данных заявителя и заявления, собеседованию с заявителями и выбору одного или больше кандидатов на заполнение открытых позиций в вашей организации.
 

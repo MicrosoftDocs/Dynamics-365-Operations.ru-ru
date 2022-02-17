@@ -2,7 +2,7 @@
 title: Главная страница Finance Insights
 description: Finance Insights предоставляет настраиваемые и расширяемые модели для точного и рационального прогнозирования движения денежных средств в компании, прогнозирования получения платежей для невыполненных расчетов и создания бюджетного предложения, которое может ускорить процесс создания бюджета. Все эти функции основаны на интеллектуальных моделях машинного обучения.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968819"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087301"
 ---
 # <a name="finance-insights-home-page"></a>Главная страница Finance Insights
 
@@ -37,10 +37,6 @@ Finance Insights предоставляет настраиваемые и рас
 
 В этом разделе перечисляются требования для использования Finance Insights. Везде, где это возможно, предоставляются ссылки на источники дополнительной информации.
 
-### <a name="legal-requirements"></a>Юридические требования
-
-Для подачи заявки на участие в программе предварительных версий заполните [Соглашение по предварительной версии Finance Insights для Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
-
 ### <a name="system-requirements"></a>Требования к системе
 
 Для использования предварительной версии Finance Insights требуется среда уровня 2 (несколько ящиков). Фоновые сведения о средах см. в разделе [Планирование среды](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -48,6 +44,10 @@ Finance Insights предоставляет настраиваемые и рас
 ### <a name="version-requirements"></a>Требования к версии
 
 Эта тема применима в Microsoft Dynamics 365 Finance версии 10.0.21 и более поздних версий.
+
+### <a name="license-requirements"></a>Требования к лицензированию
+
+В Finance Insights для создания финансовых прогнозов используются кредиты AI Builder. Все необходимые лицензии для этого продукта включены в лицензию клиента. Каждому клиенту Dynamics 365 Finance предоставляется 20 000 кредитов AI Builder каждый месяц. Если требуются дополнительные кредиты для бизнес-требований, их можно купить непосредственно в AI Builder.
 
 ### <a name="historical-data-requirements"></a>Требования к историческим данным
 

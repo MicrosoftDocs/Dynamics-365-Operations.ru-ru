@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414672"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069154"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Настройка виртуальных таблиц Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources — это виртуальный источник данных в Microsoft Dataverse. Он предоставляет полные операции создания, чтения, обновления и удаления (CRUD) в Dataverse и Microsoft Power Platform. Данные для виртуальных таблиц хранятся не в Dataverse, а в базе данных приложения.
 
@@ -119,10 +122,10 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 4. В разделе **Центр работоспособности решений** выберите значок **Расширенный поиск** в верхнем правом углу страницы приложения.
 
-5. На странице **Расширенный поиск** в раскрывающемся списке **Найти** выберите **Конфигурации виртуальных источников данных Finance and Operations**.
+5. На странице **Расширенный поиск** в раскрывающемся списке **Найти** выберите **Конфигурации виртуальных источников данных Финансы и операции**.
 
    > [!NOTE]
-   > Установка приложения виртуальной таблицы с предыдущего шага установки может занять несколько минут. Если **Конфигурации виртуальных источников данных Finance and Operations** недоступны в списке, подождите минуту и обновите список.
+   > Установка приложения виртуальной таблицы с предыдущего шага установки может занять несколько минут. Если **Конфигурации виртуальных источников данных Финансы и операции** недоступны в списке, подождите минуту и обновите список.
 
 6. Выберите **Результаты**.
 

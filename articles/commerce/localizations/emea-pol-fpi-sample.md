@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 1b3d7d59494b215ae47f710e200e7e0c57e4ca29
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944873"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076844"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Пример интеграции фискальных принтеров для Польши
 
@@ -97,7 +97,7 @@ ms.locfileid: "7944873"
 
 ## <a name="set-up-fiscal-integration-for-poland"></a>Настройка финансовой интеграции для Польши
 
-Образец интеграции финансового принтера для Польши базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Posnet** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции финансового принтера для Польши базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Posnet** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Польши (устаревшая версия)](emea-pol-fpi-sample-sdk.md).
@@ -220,7 +220,7 @@ ms.locfileid: "7944873"
 
 ## <a name="design-of-extensions"></a>Разработка расширений
 
-Образец интеграции финансового принтера для Польши базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Posnet** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции финансового принтера для Польши базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Posnet** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Польши (устаревшая версия)](emea-pol-fpi-sample-sdk.md). Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.

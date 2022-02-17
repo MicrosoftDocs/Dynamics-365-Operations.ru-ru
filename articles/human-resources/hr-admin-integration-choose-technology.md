@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414722"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065049"
 ---
 # <a name="choose-a-data-integration-technology"></a>Выбор технологии интеграции данных
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этой теме приводятся сведения для интеграции с данными, управляемыми Dynamics 365 Human Resources. В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
 
@@ -68,7 +71,7 @@ Dataverse предоставляет платформу и API для инфор
 
 ### <a name="dmfdixf-entities"></a>Объекты DMF/DIXF
 
-Модуль Human Resources, в основном построенный на той же платформе, что и приложения Finance and Operations, предоставляет [платформу управления данными (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF также называется структурой импорта-экспорта данных (DIXF). Модуль Human Resources предоставляет набор информационных объектов, которые можно использовать для импорта и экспорта данных модуля Human Resources. Хотя таблицы Dataverse являются предпочтительным интерфейсом интеграции данных для Human Resources, DMF-объекты все еще полезны в некоторых обстоятельствах, например:
+Модуль Human Resources, в основном построенный на той же платформе, что и приложения Финансы и операции, предоставляет [платформу управления данными (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF также называется структурой импорта-экспорта данных (DIXF). Модуль Human Resources предоставляет набор информационных объектов, которые можно использовать для импорта и экспорта данных модуля Human Resources. Хотя таблицы Dataverse являются предпочтительным интерфейсом интеграции данных для Human Resources, DMF-объекты все еще полезны в некоторых обстоятельствах, например:
 
 - Таблицы Dataverse еще не доступны.
 
@@ -111,7 +114,7 @@ BYOD подходит для систем отчетности, интеграц
 
 ### <a name="odata-enabled-entities"></a>Объекты, поддерживающие OData
 
-Для большинства объектов DMF также разрешен доступ с помощью службы управления Human Resources (OData). Документация, предоставляемая для [службы OData Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata), применяется к Human Resources, за исключением создания собственных объектов, предоставляемых OData.
+Для большинства объектов DMF также разрешен доступ с помощью службы управления Human Resources (OData). Документация, предоставляемая для [службы OData Финансы и операции](/dynamics365/unified-operations/dev-itpro/data-entities/odata), применяется к Human Resources, за исключением создания собственных объектов, предоставляемых OData.
 
 Хотя реализация Dataverse и OData, предоставляемая Dataverse (посредством [Веб-API Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))), является предпочтительной по отношению к службе данных Human Resources, служба данных Human Resources в настоящее время обладает более полным покрытием объектов для данных Human Resources.
 
