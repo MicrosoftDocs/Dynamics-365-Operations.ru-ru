@@ -2,30 +2,36 @@
 title: Добавление языков на сайт
 description: В этой теме объясняется, как добавить поддержку дополнительных языков на сайте Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415177"
 ---
 # <a name="add-languages-to-your-site"></a>Добавление языков на сайт
+
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как добавить поддержку дополнительных языков на сайте Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Веб-сайт можно локализовать на любой язык, поддерживаемый Commerce. (Список поддерживаемых языков отображается далее в этом разделе.) Чтобы добавить язык на веб-сайте, необходимо сначала добавить его в интернет-магазин, связанный с вашим сайтом.
 
@@ -165,9 +171,8 @@ ms.locfileid: "7964562"
 
 [Добавление значка сайта](add-favicon.md)
 
+[Добавление приветственного сообщения](add-welcome-message.md)
+
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

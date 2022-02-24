@@ -2,12 +2,15 @@
 title: Соглашение на использование оценок и отзывов
 description: В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968011"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415246"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Решение оценок и отзывов — это омниканальное решение, которое можно сделать доступным в Dynamics 365 Commerce с помощью Microsoft Dynamics Lifecycle Services (LCS). LCS — это портал администрирования, который используется в розничных магазинах для управления средами от подготовки до выведения из эксплуатации.
 
@@ -41,7 +46,7 @@ ms.locfileid: "7968011"
 1. Установите для параметра **Включить службу оценок и отзывов** значение **Да**.
 1. В поле **Группа безопасности AAD для модератора оценок и отзывов (код объекта группы безопасности)** введите идентификатор группы безопасности Microsoft Azure Active Directory (Azure AD), включающий модераторов оценок и отзывов.
 
-    ![Соглашение на использование оценок и отзывов.](media/LCS_RnR_Preference.png)
+    ![Соглашение на использование оценок и отзывов](media/LCS_RnR_Preference.png)
 
 1. Завершите процесс инициализации электронной коммерции.
 
@@ -58,13 +63,4 @@ ms.locfileid: "7968011"
 
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
 
-[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
 
-[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
-
-[Настройка проверки подлинности между службами](service-to-service-auth.md)
-
-[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

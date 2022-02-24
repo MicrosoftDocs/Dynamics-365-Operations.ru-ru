@@ -1,31 +1,37 @@
 ---
-title: Настройка канала онлайн-торговли
+title: Настройка интернет-канала
 description: В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 02/04/2022
+manager: annbe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092120"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4415389"
 ---
-# <a name="set-up-an-online-channel"></a>Настройка канала онлайн-торговли
+# <a name="set-up-an-online-channel"></a>Настройка интернет-канала
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Dynamics 365 Commerce поддерживает несколько розничных каналов. Эти розничные каналы включают в себя интернет-магазины, центры обработки вызовов и розничные магазины (также называются физическими магазинами). Интернет-магазины дает возможность покупать продукты не только в розничных магазинах торговца, но и в интернет-магазине.
 
@@ -52,23 +58,19 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показано создание нового интернет-канала.
 
-![Новый интернет-канал.](media/channel-setup-online-1.png)
+![Новый интернет-канал](media/channel-setup-online-1.png)
 
 На следующем рисунке показан пример интернет-канала.
 
-![Пример интернет-канала.](media/channel-setup-online-2.png)
-
-## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Назначение канала для Commerce Scale Unit
-
-Новый канал должен быть назначен для Commerce Scale Unit. Инструкции см. в разделе [Настройка каналов для использования Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
+![Пример интернет-канала](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Настройка языков
 
-Если сайт электронной коммерции поддерживает несколько языков, разверните раздел **Языки** и добавьте дополнительные языки по мере необходимости.
+Если веб-узел электронной коммерции поддерживает несколько языков, разверните раздел **Языки** и добавьте дополнительные языки по мере необходимости.
 
 ## <a name="set-up-payment-account"></a>Настрое счета оплаты
 
-В разделе **Счет оплаты** можно добавить стороннего поставщика платежа. Информацию о настройках соединителя платежей Ayden см. в разделе [Соединитель платежей Dynamics 365 для Adyen](./dev-itpro/adyen-connector.md).
+В разделе **Счет оплаты** можно добавить стороннего поставщика платежа. Информацию о настройках соединителя платежей Ayden см. в разделе [Соединитель платежей Dynamics 365 для Adyen](../retail/dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Дополнительная настройка канала
 
@@ -76,7 +78,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показаны варианты настройки **Режимы поставки**, **Способы оплаты** и **Назначение группы выполнения** на вкладке **Настройка**.
 
-![Дополнительные действия по настройке интернет-канала.](media/channel-setup-online-3.png)
+![Дополнительные действия по настройке интернет-канала](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Настройка способов оплаты
 
@@ -91,7 +93,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример способы наличной оплаты.
 
-![Пример способов оплаты.](media/channel-setup-retail-5.png)
+![Пример способов оплаты](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Настройка способов поставки
 
@@ -105,7 +107,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример режима поставки.
 
-![Настройка способов поставки.](media/channel-setup-retail-7.png)
+![Настройка способов поставки](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Настройка назначения группы выполнения
 
@@ -119,7 +121,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 На следующем рисунке показан пример настройки назначения группы выполнения.
 
-![Настройка назначения группы выполнения.](media/channel-setup-retail-9.png)
+![Настройка назначения группы выполнения](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -131,7 +133,4 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 [Настройка канала центра обработки вызовов](channel-setup-callcenter.md)
 
-[Соединитель платежей Dynamics 365 для Adyen](./dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Соединитель платежей Dynamics 365 для Adyen](../retail/dev-itpro/adyen-connector.md)

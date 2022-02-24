@@ -2,12 +2,15 @@
 title: Модуль карусели
 description: В этом разделе описываются модули карусели, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721063"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415165"
 ---
 # <a name="carousel-module"></a>Модуль карусели
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули карусели, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модуль карусели используется для помещения во вращающийся карусельный баннер нескольких рекламных элементов (включая форматированные изображения), которые могут просматривать клиенты. Например, розничный продавец может использовать модуль карусели на домашней странице для демонстрации нескольких новых продуктов или рекламных акций.
 
@@ -40,7 +45,7 @@ ms.locfileid: "6721063"
 
 На следующем рисунке показан пример модуля карусели, используемый на главной странице. Этот модуль карусели содержит несколько элементов блоков содержимого.
 
-![Пример модуля карусели.](./media/Hero.PNG)
+![Пример модуля карусели](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Свойства модуля карусели
 
@@ -81,6 +86,3 @@ ms.locfileid: "6721063"
 [Модуль блока содержимого](add-hero-module.md)
 
 [Модуль видеопроигрывателя](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

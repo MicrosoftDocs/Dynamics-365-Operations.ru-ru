@@ -2,12 +2,15 @@
 title: Модуль рекламного баннера
 description: В этом разделе описываются модули рекламного баннера, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718788"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415153"
 ---
 # <a name="promo-banner-module"></a>Модуль рекламного баннера
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули рекламного баннера, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модули рекламного баннера используются для отображения на странице встроенных информационных сообщений. Они могут использоваться для отображения рекламных акций на уровне всего сайта, которые появляются на всех страницах сайта электронной коммерции. 
 
@@ -46,7 +51,7 @@ ms.locfileid: "6718788"
 
 На следующем рисунке показан пример рекламного баннера.
 
-![Пример модуля рекламного баннера.](./media/ecommerce-Promobanner.PNG)
+![Пример модуля рекламного баннера](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Свойства модуля рекламного баннера
 
@@ -58,11 +63,7 @@ ms.locfileid: "6718788"
 | Разрешить закрытие             | **True** или **False**              | Если установлено значение **True**, клиент может закрыть оповещение. |
 | Показать карусельный флиппер     | **True** или **False**              | Значение, указывающее, следует ли показывать карусельные флипперы, чтобы клиенты могли вручную циклически переключать несколько элементов баннеров. |
 | Выравнивание текста            | **По правому краю**, **По левому краю** или **По центру** | Выравнивание текста в модуле рекламного баннера. |
-| Связать                      | URL-адрес                              | URL-адрес для необязательной ссылки. |
-|Выравнивание текста             | **По правому краю**, **По левому краю** или **По центру** | Это свойство доступно в качестве расширения темы в теме Adventure Works. Оно позволяет пользователю задавать выравнивание текста в рекламном баннере. |
-
-> [!IMPORTANT]
-> Тема Adventure Works доступна в выпуске Dynamics 365 Commerce версии 10.0.20.
+| Ссылка                      | URL-адрес                              | URL-адрес для необязательной ссылки. |
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Добавление модуля рекламного баннера на страницу 
 
@@ -83,6 +84,7 @@ ms.locfileid: "6718788"
 > [!NOTE]
 > Рекламный баннер обычно используется в слоте заголовков страницы или слоте подзаголовка.
 
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор библиотеки модулей](starter-kit-overview.md)
@@ -94,6 +96,3 @@ ms.locfileid: "6718788"
 [Модуль блока содержимого](add-hero-module.md)
 
 [Модуль видеопроигрывателя](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,23 +1,25 @@
 ---
 title: Обработка ретробонусов для оплаты
 description: В этой процедуре демонстрируется, как преобразовывать утвержденные и обработанные ретробонусы клиентов в кредит-ноты.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce813f0f5d9aa750828b524dd9fdf9b4a9f0854
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b1d32d94daef570e37a1a36d948fe18cd4041e46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572489"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966163"
 ---
 # <a name="process-rebates-for-payment"></a>Обработка ретробонусов для оплаты
 
@@ -48,6 +50,3 @@ ms.locfileid: "7572489"
     * Обратите внимание, что к сальдо клиента была добавлена проводка на отрицательную сумму, соответствующую суммарной величине ретробонусов, без ссылки на накладную.   
 15. Щелкните "Отмена".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

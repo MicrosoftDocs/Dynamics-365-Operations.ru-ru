@@ -1,26 +1,29 @@
 ---
 title: Проверка работоспособности для периферийных устройств и услуг POS-терминалов
 description: В этом разделе представлен обзор операции проверки работоспособности в POS-терминале.
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779880"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4415362"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Проверка работоспособности для периферийных устройств и услуг POS-терминалов
 
@@ -80,6 +83,3 @@ Microsoft Dynamics 365 Commerce версии 10.0.10 и более поздни�
 ## <a name="related-articles"></a>Связанные статьи
 
 [Триггеры и вывод на печать в Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

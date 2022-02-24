@@ -1,10 +1,12 @@
 ---
 title: Отчет о движении основных средств
 description: В этом разделе описывается использование отчета о движении основных средств.
-author: moaamer
+author: saraschi2
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969161"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Отчет о движении основных средств
 
@@ -28,7 +30,7 @@ ms.locfileid: "7883601"
 
 Отчет **Движение основных средств** предоставляет в удобном для восприятии формате Microsoft Excel подробные данные об основных средствах, которые могут потребоваться для закрытия периода, финансовых отчетов и налоговой отчетности. Отчет включает в себя начальное и конечное сальдо для основных средств, вместе с изменениями оценки для периода, а также все новые приобретения и выбытия активов, произошедшие во время периода. Данные собираются для отдельных основных средств, а также приводятся сводные значения для групп основных средств и юридического лица.
 
-Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Этот отчет доступен в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, или в качестве исправления для Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.). Три исправления должно применяться для сред, в которых установлена версия от июля 2017 г.:
 
@@ -64,6 +66,3 @@ ms.locfileid: "7883601"
 |           Выбытие: ликвидационная стоимость            |                                                                                               Ликвидационная стоимость для журнала основных средств с выбытием — проводка ликвидации.                                                                                               |
 |           Выбытие: прибыль/убыток            |                                                                                 Сумма прибыли или убытка, которая вычисляется как часть проводки выбытия для журнала основных средств.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

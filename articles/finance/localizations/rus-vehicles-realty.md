@@ -2,23 +2,26 @@
 title: Транспортные средства и недвижимость как основные средства (Россия)
 description: В этом разделе описан порядок настройки и использования транспортных средств и недвижимости в качестве основных средств для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3bc49523dff91a53551fd4aa7d24eea0acd8f13e38830d94075e8c29707cbb3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d98fd4ce7e1c706f4e235263cff2fd9f2c125b13
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774210"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408500"
 ---
 # <a name="vehicles-and-realty-as-fixed-assets-russia"></a>Транспортные средства и недвижимость как основные средства (Россия)
 
@@ -43,6 +46,3 @@ ms.locfileid: "6774210"
 5. В поле **Дата удаления из регистра** выберите дату, когда следует удалить актив из налогового реестра.
 
 Дополнительные сведения об амортизации активов см. в разделе [Расчет амортизации (Россия)](rus-depreciation-calculation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

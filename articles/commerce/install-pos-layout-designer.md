@@ -2,13 +2,16 @@
 title: Установка конструктора макетов POS
 description: Можно использовать конструктор одним щелчком, чтобы создать различные макеты Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, касс, кассиров и менеджеров.
 author: athinesh99
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d7143833bb4a98ac976ea46a1b4b21dad2f2e5841b5e142de7583b4ce6bad38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415227"
 ---
 # <a name="install-the-pos-layout-designer"></a>Установка конструктора макетов POS
 
@@ -40,7 +43,7 @@ ms.locfileid: "6738728"
 5. После установки на странице **Войти** введите свое имя пользователя и пароль Commerce и щелкните **Войти**, чтобы запустить конструктор.
 6. После проверки учетных данных и запуска конструктора можно разработать собственный макет или изменить существующий макет.
 
-    [![Макет в конструкторе одним щелчком.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Макет в конструкторе одним щелчком](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Устранение неполадок установки конструктора макета
 
@@ -60,6 +63,3 @@ ms.locfileid: "6738728"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка, установка и активация Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

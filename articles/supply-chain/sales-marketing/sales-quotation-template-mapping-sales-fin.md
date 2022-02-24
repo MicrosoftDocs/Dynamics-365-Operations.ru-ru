@@ -1,44 +1,47 @@
 ---
 title: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Supply Chain Management
 description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061992"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527346"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
 Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных для организаций, контактов, продуктов, предложений по продажам, заказов на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
-[![Поток данных в решение "Перспективный клиент в наличные деньги".](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Шаблон и задачи
 
@@ -60,8 +63,8 @@ ms.locfileid: "8061992"
 
 | Прод.        | Управление цепочкой поставок     |
 |--------------|----------------------------|
-| Цитаты       | Заголовок предложения по продаже Dataverse |
-| QuoteDetails | Строки предложения по продаже Dataverse  |
+| Цитаты       | Заголовок предложения по продаже CDS |
+| QuoteDetails | Строки предложения по продаже CDS  |
 
 ## <a name="entity-flow"></a>Поток объектов
 
@@ -130,16 +133,13 @@ ms.locfileid: "8061992"
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Сопоставление шаблона в интеграторе данных, QuoteHeader.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Сопоставление шаблона в интеграторе данных](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Сопоставление шаблона в интеграторе данных, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Сопоставление шаблона в интеграторе данных](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Продажа перспективному клиенту](prospect-to-cash.md)
+[Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

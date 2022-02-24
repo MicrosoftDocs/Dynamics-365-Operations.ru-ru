@@ -2,9 +2,11 @@
 title: Работа с группами публикаций
 description: В этой теме описывается функция групп публикации в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,18 +16,21 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717680"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969884"
 ---
 # <a name="work-with-publish-groups"></a>Работа с группами публикаций
+
 
 [!include [banner](includes/banner.md)]
 
 В этой теме описывается функция групп публикации в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Веб-сайты электронной коммерции постоянно пополняются новым контентом в течение всего года. Обновления часто публикуются партиями об оживленных событиях электронной коммерции, таких как праздники, сезонные маркетинговые кампании или рекламные запуски. Эти обновления часто требуют, чтобы группы контента веб-сайта (для примеров, страниц, изображений, фрагментов и шаблонов) были поэтапными, проверенными и опубликованными одновременно за одно действие.
 
@@ -149,6 +154,3 @@ ms.locfileid: "6717680"
 [Обзор шаблонов и макетов](templates-layouts-overview.md)
 
 [Настройка навигации по сайту](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

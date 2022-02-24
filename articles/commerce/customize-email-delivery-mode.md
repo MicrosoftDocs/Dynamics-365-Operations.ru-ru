@@ -2,28 +2,32 @@
 title: Настройка транзакционных писем по способу доставки
 description: В этом разделе описывается, как настроить пользовательские шаблоны электронной почты для особых типов уведомлений и способов поставки в Microsoft Dynamics 365 Commerce.
 author: stuharg
+manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749915"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594993"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Настройка транзакционных писем по режиму доставки
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>Настройка транзакционных писем по способу доставки
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 В этом разделе описывается, как настроить пользовательские шаблоны электронной почты для особых типов уведомлений и способов поставки в Microsoft Dynamics 365 Commerce.
 
@@ -69,6 +73,3 @@ ms.locfileid: "6749915"
 [Создание заказов центра обработки вызовов](tasks/create-call-center-orders.md)
 
 [Изменение режима доставки в POS](pos-change-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

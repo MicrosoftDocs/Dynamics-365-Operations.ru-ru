@@ -2,30 +2,35 @@
 title: Модуль блока текста
 description: В этом разделе описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723319"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415173"
 ---
-# <a name="text-block-module"></a>Модуль текстового блока
+# <a name="text-block-module"></a>Модуль блока текста
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модуль блока текста — это модуль, который используется для добавления текстового содержимого. Это содержимое может быть информационным или рекламным.
 
@@ -42,7 +47,7 @@ ms.locfileid: "6723319"
 
 На следующем рисунке показан пример модуля блока текста, используемый на главной странице.
 
-![Пример модуля блока текста.](./media/ecommerce-textblock.PNG)
+![Пример модуля блока текста](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Свойства модуля блока текста
 
@@ -84,6 +89,3 @@ ms.locfileid: "6723319"
 
 [Модуль видеопроигрывателя](add-video-player.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

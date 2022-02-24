@@ -1,10 +1,12 @@
 ---
 title: Специалисты и группы специалистов по обслуживанию
 description: В этом разделе описываются специалисты и группы специалистов по обслуживанию в «Управлении активами».
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750132"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017400"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Специалисты и группы специалистов по обслуживанию
 
@@ -61,6 +63,3 @@ ms.locfileid: "6750132"
 6. Если группа ресурсов должна быть связана с выбранной группой специалистов по обслуживанию, выберите **Копировать из группы ресурсов**. В поле **Группа** выберите группу ресурсов для копирования параметров календаря. Затем в поле **Группа специалистов** выберите группу специалистов для копирования параметров календаря группы ресурсов. Этот шаг актуален только в том случае, если вы хотите, чтобы специалисты по обслуживанию использовали календарь, связанный с ресурсом (рабочим центром) во время планирования заказа на работу.
 
     Поле на экспресс-вкладке **Подробно** показывает количество специалистов по обслуживанию, которые были связаны с выбранной группой специалистов по обслуживанию.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

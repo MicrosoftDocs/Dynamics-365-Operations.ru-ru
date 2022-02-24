@@ -2,30 +2,37 @@
 title: Обзор оценок и отзывов
 description: В этом разделе рассматриваются оценки и отзывы в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982260"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415340"
 ---
 # <a name="ratings-and-reviews-overview"></a>Обзор оценок и отзывов
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе рассматриваются оценки и отзывы в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Оценки и отзывы важны для клиентов электронной коммерции, желающих знать, как другие клиенты воспринимают продукт. Они также могут помочь потребителям принять решение о покупке. В Dynamics 365 Commerce решение оценки и отзывов позволяет розничным продавцам собирать отзывы о продуктах и рейтинги от клиентов. Розничные магазины могут затем показывать средние оценки и сведения об отзывах на веб-сайте электронной коммерции.
 
@@ -35,7 +42,7 @@ ms.locfileid: "7982260"
 
 На следующем рисунке показано, как будет работать решение оценок и отзывов в Dynamics 365 Commerce.
 
-![Оценки и отзывы в Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Оценки и отзывы в Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 Решение оценок и отзывов в Dynamics 365 Commerce использует службы Azure Cognitive Services, которые предлагают автоматическое модерирование бранных слов на 40 языках. Поскольку утверждение человеком не является обязательным, затраты на модерирование снижаются. Система также предлагает средства модератора, которые могут быть использованы для реагирования на проблемы клиентов, обратной связи и запросов на удаление, а также для обработки запросов данных от пользователей.
 
@@ -52,14 +59,3 @@ ms.locfileid: "7982260"
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
 
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
-
-[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
-
-[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
-
-[Настройка проверки подлинности между службами](service-to-service-auth.md)
-
-[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

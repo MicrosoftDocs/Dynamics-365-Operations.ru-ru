@@ -2,23 +2,26 @@
 title: Инвентаризация РБП (Россия)
 description: В этом разделе описывается, как проводится инвентаризация расходов будущих периодов (РБП).
 author: anasyash
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9cde3f6eb6693b64c8a8866837978d6ddb23fbad4ebaa4b3dbe145845a25fd44
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7706132fc8f590b15bbdba0c9a6b32818fb8c6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408587"
 ---
 # <a name="deferrals-counting-russia"></a>Инвентаризация РБП (Россия)
 
@@ -198,7 +201,7 @@ ms.locfileid: "6772731"
     8. В поле **Сумма РБП** выберите сумму РБП в валюте по умолчанию.
     9. Закройте страницу **Строка журнала инвентаризации РБП**.
 
-    ![Страница строки журнала инвентаризации РБП.](media/rus-counting-deferrals-01.jpg)
+    ![Страница строки журнала инвентаризации РБП](media/rus-counting-deferrals-01.jpg)
 
 5. Чтобы распечатать отчет **Акт инвентаризации (ИНВ-11)**, выполните следующие действия:
 
@@ -212,6 +215,3 @@ ms.locfileid: "6772731"
     4. На панели операций выберите **Печать**, чтобы открыть диалоговое окно **Инвентаризация РБП**.
     5. В поле **Код модели** выберите код модели Расхода будущего периода.
     6. Выберите **OK** для печати **Акта инвентаризации (ИНВ-11)** с помощью шаблона Excel для номера выбранной модели.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

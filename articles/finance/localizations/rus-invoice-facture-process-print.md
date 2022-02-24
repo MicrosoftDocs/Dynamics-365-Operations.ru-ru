@@ -2,23 +2,26 @@
 title: Обработка и печать счетов-фактур
 description: В этом разделе приводятся сведения о работе со счетами-фактурами по накладным.
 author: anasyash
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 7d1efab567e8f6ae8c7f5aba1088b69043c10bd2cd933847db6add35c4b52861
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14692681eafe9120ba7689d8dc9fc1475ffa4578
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717439"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408557"
 ---
 # <a name="invoice-factures-processing-and-printing"></a>Обработка и печать счетов-фактур
 
@@ -219,6 +222,3 @@ ms.locfileid: "6717439"
 В верхней части страницы отображаются сведения о счете-фактуре. Эти сведения включают номер счета-фактуры, дату регистрации, дату счета-фактуры, сумму (включая и исключая налог), сумму налога, валюту и счет по накладной.
 
 В нижней части страницы отображаются сведения о строках накладной. Эти сведения включают номер накладной, код номенклатуры, категорию, наименование продукта, цену, количество единиц, сумма в валюте проводки и цену. На вкладке **Обзор** отображается сумма налога по строкам, а на вкладке **Аналитики продукта** отображаются сведения об узле, складе и другой информации об аналитике продукта.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

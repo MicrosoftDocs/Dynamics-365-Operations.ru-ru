@@ -1,10 +1,12 @@
 ---
 title: Уровни обслуживания активов
 description: В этом разделе описываются уровни обслуживания активов в «Управлении активами».
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83b195add44927d847491e6394e72637323117b3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723607"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021637"
 ---
 # <a name="asset-service-levels"></a>Уровни обслуживания активов
 
@@ -50,6 +52,3 @@ ms.locfileid: "6723607"
 
 > [!NOTE]
 > Если вы измените запись уровня обслуживания актива на странице **Уровни обслуживания актива** после того, как вы уже использовали ее в заказе на работу, уровень обслуживания запросов на обслуживание и заказов на работу не обновляется соответствующим образом.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Вопросы и ответы по workflow-процессу
 description: В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065588"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797399"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
 
@@ -48,9 +47,9 @@ ms.locfileid: "8065588"
     - В будущих обновлениях мы добавим сообщение центра уведомлений, чтобы пользователю был назначен рабочий элемент рабочего процесса. 
 - Добавление уведомлений в рабочие процессы
     - Сообщения центра уведомлений могут быть созданы для конкретного пользователя, например, сообщение, созданное из рабочего процесса в X++.
-    - [В workflow-процессах есть бизнес-события](../../dev-itpro/business-events/business-events-workflow.md), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
+    - [В workflow-процессах есть бизнес-события](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
 
-В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [Бизнес-события рабочего процесса](../../dev-itpro/business-events/business-events-workflow.md) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.
+В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события workflow-процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Почему редактор workflow-процесса не может запускаться в AD FS?
 При работе в рамках Active Directory Federation Services (AD FS) в обновленной среде у редактора рабочего процесса могут возникнуть проблемы с запуском. Если это так, убедитесь,что URL-адрес "https://dynamicsaxworkfloweditor/" добавлен к свойству **Microsoft Dynamics 365 for Operations On-premises — Рабочий процесс — собственное приложение** в настройках ADFS.
@@ -60,6 +59,3 @@ ms.locfileid: "8065588"
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Что такое функция улучшенной обработки ошибок рабочего процесса?
 Функция улучшенной обработки ошибок рабочего процесса в версии 10.0.13 добавляет коды ошибок для различения различных классов ошибок рабочих процессов. Отображаемые сообщения об ошибках будут в основном похожи с небольшими различиями, чтобы сделать их более понятными.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

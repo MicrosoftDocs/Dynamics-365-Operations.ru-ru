@@ -1,24 +1,26 @@
 ---
 title: Настройка номерных серий с использованием мастера
 description: В этой теме поясняется, как настроить все требуемые номерные серии одновременно с помощью мастера.
-author: SunilGarg
+author: sericks007
+manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7388a835147e1e8242463fee98c57c300d062877
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 684983d1ea54264cc378ded8e9dca3cf9ec2c901
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777576"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799040"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Настройка номерных серий с использованием мастера
 
@@ -36,6 +38,3 @@ ms.locfileid: "7777576"
 4. Выберите **Далее**.
 5. Выберите **Готово**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Обзор заявки на покупку
 description: В этой теме описывается workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2174"
-- intro-internal
+ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982910"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020087"
 ---
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
@@ -49,7 +49,7 @@ ms.locfileid: "7982910"
 
 Следующая схема показывает статусы, назначаемые заявке на покупку и строкам заявки на покупку по мере прохождения ими workflow-процесса.  
 
-[![Статусы заголовка и строк заявки на покупку.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Статусы заголовка и строк заявки на покупку](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Заголовок заявки на покупку и отношения статуса строки
 
@@ -181,7 +181,7 @@ ms.locfileid: "7982910"
 
 Процесс консолидации спроса начинается с момента утверждения заявки на покупку в workflow-процессе и, если в организации настроен бюджетный контроль, записи резервирований бюджета и предварительных бюджетных обязательств. В следующей диаграмме показана схема процесса консолидации спроса.  
 
-[![Поток процесса для консолидации спроса.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Поток процесса для консолидации спроса](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Чтобы консолидировать утвержденные строки заявки на покупку, выполните следующие действия.
 
@@ -192,7 +192,8 @@ ms.locfileid: "7982910"
 5.  Создайте заказы на покупку для консолидированных строк заявки или для строк заявки на покупку в возможности консолидации.
 
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+<a name="additional-resources"></a>Дополнительные ресурсы
+--------
 
 [Создание заявки на потребление](tasks/create-requisition-consumption.md)
 
@@ -200,6 +201,3 @@ ms.locfileid: "7982910"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

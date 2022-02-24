@@ -2,13 +2,16 @@
 title: Частичный подсчет циклов местонахождений
 description: Планы подсчета циклов регулируют фактические операции подсчета. Можно запросить, чтобы только конкретные продукты и варианты продуктов подчитывались вместо всех запасов в наличии в местонахождении.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778442"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666754"
 ---
 # <a name="partial-location-cycle-counting"></a>Частичный подсчет циклов местонахождений
 
@@ -46,7 +49,7 @@ ms.locfileid: "6778442"
 Для процесса подсчета частичных циклов дата и время для поля **Последний цикличный подсчет** не обновляются для местонахождения, даже если подсчитываются все номенклатуры в наличии в данном местонахождении. Частичный цикличный подсчет не учитывает параметр **Дней между цикличными подсчетами** на странице **Планы подсчета циклов**. Частичный цикличный подсчет не поддерживает одновременный подсчет нескольких номенклатур в одном местонахождении. Функция частичного цикличного подсчета может приводить к многократным подсчетам в одном местонахождении для номенклатуры, когда выполняется команда **Обработать план подсчета циклов**. Чтобы избежать возникновения такой ситуации, необходимо указать фильтры в поле **Выбрать местоположения**.
 
 > [!NOTE]
-> Мобильное приложение управления складом не предоставляет кнопки **Добавить НЗ или номенклатуру** при использовании процесса частичного подсчета циклов.
+> Приложение склада не предоставляет кнопки **Добавить НЗ или номенклатуру** при использовании процесса частичного подсчета циклов.
 
 ## <a name="example"></a>Пример
 
@@ -59,6 +62,3 @@ ms.locfileid: "6778442"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Цикличный подсчет](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

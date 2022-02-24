@@ -2,26 +2,26 @@
 title: Домашняя страница локального развертывания
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: sericks007
-ms.date: 07/01/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "55651"
-- intro-internal
+ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712576"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679352"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -33,21 +33,18 @@ ms.locfileid: "6712576"
 - [Обзор локального развертывания](on-premises-overview.md)
 - [Планирование локальных развертываний и подготовка к ним](plan-onprem-deployment.md)
 - [Требования к системе для локальных развертываний](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Программное обеспечение, поддерживаемое Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [Требования к определению параметров оборудования для локальных сред](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Покупка Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Сравнение характеристик облачной и локальной версий](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Адаптация
 - [Настройка локальных проектов в Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Настройка и развертывание локальных сред (Platform update 41 и более поздние версии)](setup-deploy-on-premises-pu41.md)
-- [Настройка и развертывание локальных сред (Platform update с 12 по 40)](setup-deploy-on-premises-pu12.md)
+- [Настройка и развертывание локальных сред (Platform update 12 и более поздние версии)](setup-deploy-on-premises-pu12.md)
 - [Установка сетевых принтеров в локальных средах](../analytics/install-network-printer-onprem.md)
 - [Настройка служб SQL Server Reporting Services для локальных развертываний](../analytics/configure-ssrs-on-premises.md)
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Работа в локальном развертывании
-- [Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Настройка управления документами](../../fin-ops/organization-administration/configure-document-management.md)
 - [Импорт конфигураций электронной отчетности (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Создание, публикация и печать документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
@@ -59,10 +56,10 @@ ms.locfileid: "6712576"
 - [Повторное использование одного экземпляра AD FS для нескольких сред](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [Возможности Commerce, которые доступны в локальных развертываниях](../../../commerce/retail-onprem.md)
+- [Возможности Commerce, которые доступны в локальных развертываниях](../../../retail/retail-onprem.md)
 - [Действия по установке для компонентов канала розничной торговли в локальной среде](deploy-retail-onprem.md)
-- [Настройка, установка и активация Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
-- [Настройка и установка Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Настройка, установка и активация Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Настройка и установка Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Обновить
 - [Процесс обновления на месте для локальных сред](../migration-upgrade/on-prem-upgrade.md)
@@ -75,6 +72,3 @@ ms.locfileid: "6712576"
 - [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и локальные выпуски](../migration-upgrade/on-prem-version-update-policy.md)
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

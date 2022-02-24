@@ -2,24 +2,27 @@
 title: Настройка канала для использования навигационной иерархии канала
 description: В этом разделе описывается, как настроить канал для использования навигационной иерархии канала в Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714000"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415142"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Настройка канала для использования навигационной иерархии канала
 
@@ -45,7 +48,7 @@ ms.locfileid: "6714000"
 
 На следующем рисунке показано, как настроить канал для использования навигационной иерархии канала.
 
-![Пример конфигурации канала.](media/configure-channel-hierarchy-1.png)
+![Пример конфигурации канала](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Задать метаданные атрибута
 
@@ -61,7 +64,7 @@ ms.locfileid: "6714000"
 
 На следующем рисунке показан пример набора атрибутов продукта канала, настроенных в узле категории канала.
 
-![Атрибуты канала в узле категории каналов.](media/configure-channel-hierarchy-2.png)
+![Атрибуты канала в узле категории каналов](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Публикация изменений
 
@@ -74,13 +77,10 @@ ms.locfileid: "6714000"
 
 На следующем рисунке показано, как опубликовать обновления канала.
 
-![Опубликовать обновления канала.](media/configure-channel-hierarchy-3.png)
+![Опубликовать обновления канала](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание навигационной иерархии канала](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

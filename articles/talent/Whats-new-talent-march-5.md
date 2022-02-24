@@ -80,6 +80,3 @@ ms.locfileid: "4527298"
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Обновление платформы 24 для Finance and Operations
 Дополнительные сведения об обновлении платформы 24 для Finance and Operations см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

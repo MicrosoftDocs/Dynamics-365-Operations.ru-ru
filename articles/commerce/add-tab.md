@@ -2,12 +2,15 @@
 title: Модуль вкладок
 description: В этом разделе описываются модули вкладок, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723295"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415182"
 ---
 # <a name="tab-module"></a>Модуль вкладок
 
@@ -28,13 +31,15 @@ ms.locfileid: "6723295"
 
 В этом разделе описываются модули вкладок, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Обзор
+
 Модули вкладок являются модулями, аналогичными контейнерам, которые используются для упорядочивания информации на странице сайта на вкладках. Они могут использоваться на любой странице, где должны быть представлены данные на вкладках.
 
 Внутри каждого модуля вкладок можно добавить один или несколько модулей элементов вкладок. Каждый модуль элементов вкладок представляет собой одну вкладку. В каждом модуле элемента вкладок можно добавить один или несколько модулей. Нет никаких ограничений на типы модулей, которые могут быть добавлены в модуль элемента вкладок.
 
 На следующем рисунке показан пример модуля вкладок на странице сайта. В этом примере выбрана вкладка **Отгрузка**.
 
-![Пример модуля вкладок.](./media/ecommerce-tab.PNG)
+![Пример модуля вкладок](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Свойства модуля вкладок
 
@@ -79,6 +84,3 @@ ms.locfileid: "6723295"
 [Модуль гармошек](add-accordion.md)
 
 [Модуль текстового блока](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

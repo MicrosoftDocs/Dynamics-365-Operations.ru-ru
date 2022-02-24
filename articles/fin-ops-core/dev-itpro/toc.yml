@@ -1,29 +1,27 @@
-- name: Разработка и администрирование приложений финансов и операций
+- name: Разработка и администрирование приложений Finance and Operations
   items:
-    - name: Разработка и администрирование приложений финансов и операций
+    - name: Разработка и администрирование приложений Finance and Operations
       items:
-        - name: Документация по приложению Finance and Operations
+        - name: Документация по приложениям Finance and Operations
           href: ../fin-ops/index.md
-        - name: Разработка и администрирование приложений финансов и операций
+        - name: Разработка и администрирование приложений Finance and Operations
           href: index.md
         - name: Что нового и что изменилось
           items:
             - name: Что нового и что изменилось в приложениях Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Что нового и что изменилось в выпусках обновления платформы
+            - name: Что нового и что изменилось в выпусках Platform update
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: "Обновления платформы для версии 10.0.25 (апрель 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: "Обновления платформы для версии 10.0.24 (февраль 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "Обновления платформы для версии 10.0.23 (январь 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-23.md
+                - name: "Обновления платформы для 10.0.16 (февраль 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-16.md
+                - name: "Обновления платформы для 10.0.15 (январь 2021\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-15.md
+                - name: "Обновления платформы для 10.0.14 (ноябрь 2020\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Удаленные или устаревшие функции
               items:
-                - name: Домашняя страница удаленных или устаревших функций
-                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Удаленные или устаревшие функции платформы
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Удаленные или устаревшие функции в предыдущих выпусках
@@ -32,6 +30,40 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+        - name: Бизнес-события
+          items:
+            - name: Обзор бизнес-событий
+              href: business-events/home-page.md
+            - name: Бизнес-события приложения
+              href: business-events/app-business-events.md
+            - name: Бизнес-события бизнес-правила
+              href: business-events/business-events-workflow.md
+            - name: Оповещения как бизнес-события
+              href: business-events/alerts-business-events.md
+            - name: Бизнес-события в Microsoft Flow
+              href: business-events/business-events-flow.md
+            - name: Документация для разработчиков бизнес-событий
+              href: business-events/business-events-dev-doc.md
+            - name: Устранение неполадок с бизнес-событиями
+              href: business-events/troubleshooting.md
+            - name: Варианты использования для бизнес-событий
+              href: business-events/potential-use-cases.md
+            - name: Учебники
+              items:
+                - name: Бизнес-события и Microsoft Flow
+                  href: business-events/how-to/how-to-flow.md
+                - name: Бизнес-события и сетка событий Azure
+                  href: business-events/how-to/how-to-eventgrid.md
+                - name: Бизнес-события и служебная шина Azure
+                  href: business-events/how-to/how-to-servicebus.md
+                - name: Бизнес-события и утверждения workflow-процессов
+                  href: business-events/how-to/how-to-workflow.md
+                - name: Бизнес-события и Microsoft Forms Pro
+                  href: business-events/how-to/FormsPro.md
+                - name: Бизнес-события и центры событий Azure
+                  href: business-events/how-to/event-hub.md
+                - name: Бизнес-события при закрытии финансового периода
+                  href: business-events/how-to/period-close.md
         - name: Непрерывная поставка
           items:
             - name: Домашняя страница непрерывной поставки
@@ -48,7 +80,7 @@
               href: dev-tools/version-models-build.md
         - name: Интеграция данных
           items:
-            - name: Интеграция между приложениями Finance and Operations и сторонними службами
+            - name: Выбор стратегии интеграции данных (импорта/экспорта)
               href: data-entities/integration-overview.md
             - name: Регулирование на основе приоритетов
               hreF: data-entities/priority-based-throttling.md
@@ -90,62 +122,182 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Создание записей с использованием шаблонов записей
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Интегратор данных
+                - name: Интеграция данных с помощью Common Data Service
                   items:
-                    - name: Настройка сценария продажи перспективному клиенту
+                    - name: Обзор интеграции данных с помощью Common Data Service
+                      href: data-entities/data-integration-cds.md
+                    - name: Интеграция двойной записи
                       items:
-                        - name: Продажа перспективному клиенту
-                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
-                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales
-                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations
-                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations
-                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
-                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
-                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Настройка интеграции с Field Service
+                        - name: Домашняя страница двойной записи
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Что нового и что изменилось в двойной записи
+                          href: data-entities/dual-write/whats-new-dual-write.md
+                        - name: Обзор двойной записи
+                          href: data-entities/dual-write/dual-write-overview.md
+                        - name: Настройка двойной записи
+                          items:
+                            - name: Требования к системе для двойной записи
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Руководство по настройке двойной записи
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Рекомендации по первоначальной синхронизации
+                              href: data-entities/dual-write/initial-sync-guidance.md
+                            - name: Настройка двойной записи из Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                            - name: Включение двойной записи для существующих приложений Finance and Operations
+                              items:
+                                - name: Включение двойной записи для существующих приложений Finance and Operations
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Системные требования и необходимые условия
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Порядок использования мастера двойной записи для связи между средами
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Включение сопоставления объектов для двойной записи
+                                  href: data-entities/dual-write/enable-entity-map.md
+                            - name: Миграция типа данных валюты для двойной записи
+                              href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Настройка сопоставления для полей статуса заказа на продажу
+                              href: data-entities/dual-write/sales-status-map.md
+                            - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
+                        - name: Управление двойной записью
+                          items:
+                            - name: Настройка сопоставлений объектов и полей
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Работа с несколькими сопоставлениями объектов
+                              href: data-entities/dual-write/multiple-entity-maps.md
+                            - name: Изменение юридического лица после настройки двойной записи
+                              href: data-entities/dual-write/edit-legal-entity.md
+                            - name: Управление ошибками и уведомления оповещения
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Управление жизненным циклом приложений
+                              href: data-entities/dual-write/app-lifecycle-management.md
+                        - name: Сопоставление концепций между приложениями
+                          items:
+                            - name: Интегрированный справочник клиентов
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Интеграция с поставщиками
+                              items:
+                                - name: Интегрированный справочник поставщиков
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Переключение между вариантами дизайна поставщиков
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Карточки постоянного клиента и баллы поощрения
+                              href: data-entities/dual-write/loyalty-mapping.md
+                            - name: Интеграция продуктов
+                              items:
+                                - name: Единый подход к работе с продуктами
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Интегрированные сайты и склады
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Интеграция компании
+                              items:
+                                - name: Понятие компании в Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Начальная загрузка данных компании
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Организационная иерархия в Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Финансовая и налоговая информация
+                              items:
+                                - name: Доступ к финансовым и налоговым ссылочным данным
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Интегрированная книга учета
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Интегрированный налоговый справочник
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Продажа перспективному клиенту в случае двойной записи
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
+                            - name: Внутренние активы для обслуживания
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Интегрированный работник, задание и должность'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Наличие запасов
+                              href: data-entities/dual-write/inventory-availability.md
+                        - name: Поддержка двойной записи
+                          items:
+                            - name: Поддержка решений Field Service и решений Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Устранение неполадок
+                              items:
+                                - name: Проверка настройки двойной записи в приложениях Finance and Operations и Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Устранение неполадок при начальной настройке
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Устранение неполадок при начальной синхронизации
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Устранение неполадок в работе модуля двойной записи в приложениях Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Устранение неполадок с синхронизацией в режиме реального времени
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: 'Устранение неполадок, связанных с поддержкой решений'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: 'Устранение неполадок, связанных с обновлениями приложений Finance and Operations'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Общие рекомендации по устранению неполадок
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Вопросы и ответы во двойной записи
+                          href: data-entities/dual-write/dual-write-faq.md
+                    - name: Интеграция с Power Platform
                       items:
-                        - name: Обзор настройки интеграции с Field Service
-                          href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
-                          href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
-                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
-                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Синхронизация перемещений и корректировок запасов Field Service с Finance and Operations
-                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Синхронизация сведений об уровне запасов Finance and Operations с Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Синхронизация продуктов с единицами измерения складского учета Finance and Operations с Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Синхронизация списка проектов Finance and Operations с Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Синхронизация складов Finance and Operations с Field Service
-                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Синхронизация заказов на выполнение работ с проектом из Field Service в Finance and Operations
-                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Настройка интеграции Project Service Automation
-                      items:
-                        - name: Обзор Project Service Automation
-                          href: /dynamics365/project-operations/prod-pma/PSA-integration
-                        - name: Параметры интеграции Project Service Automation
-                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                        - name: Синхронизация контрактов по проекту и проектов
-                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                        - name: Синхронизация задач проекта
-                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                        - name: Синхронизация категорий расходов по проекту
-                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                        - name: Синхронизация оценок для проекта с прогнозами по проекту
-                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                        - name: Синхронизация фактических данных проекта с журналом интеграции проекта
-                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Настройка сценария продажи перспективному клиенту
+                          items:
+                            - name: Продажа перспективному клиенту
+                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                            - name: Синхронизация организаций напрямую из Sales с клиентами в Finance and Operations
+                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                            - name: Синхронизация продуктов напрямую из Finance and Operations с продуктами в Sales
+                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                            - name: Синхронизация контактов напрямую из Sales с контактами или клиентами в Finance and Operations
+                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                            - name: Синхронизация заголовков и строк предложений по продаже напрямую из Sales с Finance and Operations
+                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                            - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
+                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                            - name: Синхронизация заголовков и строк накладных по продаже напрямую из Finance and Operations с Sales
+                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                        - name: Настройка интеграции с Field Service
+                          items:
+                            - name: Обзор настройки интеграции с Field Service
+                              href: ../../supply-chain/sales-marketing/field-service.md
+                            - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
+                              href: ../../supply-chain/sales-marketing/field-service-product.md
+                            - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
+                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                            - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
+                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                            - name: Синхронизация перемещений и корректировок запасов из Field Service с Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                            - name: Синхронизация сведений об уровне запасов из Finance and Operations с Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                            - name: Синхронизация продуктов с единицами измерения складского учета из Finance and Operations с Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                            - name: Синхронизация списка проектов из Finance and Operations с Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                            - name: Синхронизация складов из Finance and Operations с Field Service
+                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                            - name: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
+                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                        - name: Настройка интеграции Project Service Automation
+                          items:
+                            - name: Обзор Project Service Automation
+                              href: ../../finance/project-management/PSA-integration.md
+                            - name: Параметры интеграции Project Service Automation
+                              href: ../../finance/project-management/PSA-parameters.md
+                            - name: Синхронизация контрактов по проекту и проектов
+                              href: ../../finance/project-management/project-contracts-templates.md
+                            - name: Синхронизация задач проекта
+                              href: ../../finance/project-management/project-tasks-template.md
+                            - name: Синхронизация категорий расходов по проекту
+                              href: ../../finance/project-management/project-categories-templates.md
+                            - name: Синхронизация оценок для проекта с прогнозами по проекту
+                              href: ../../finance/project-management/project-estimates-templates.md
+                            - name: Синхронизация фактических данных проекта с журналом интеграции проекта
+                              href: ../../finance/project-management/project-actuals-templates.md
             - name: Использование внешних веб-служб
               href: data-entities/consume-external-web-service.md
             - name: Электронные сообщения
@@ -186,12 +338,8 @@
               items:
                 - name: Обзор заданий импорта и экспорта данных
                   href: data-entities/data-import-export-job.md
-                - name: Синхронизация даты и времени в заданиях импорта
-                  href: data-entities/data-synchronize-date-and-time.md
-                - name: Импорт ваучеров с помощью объекта "Общий журнал"
+                - name: Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Оптимизация переноса данных для приложений Finance and Operations
-                  href: sysadmin/optimize-data-migration.md
             - name: Разработка с использованием информационных объектов
               items:
                 - name: Принципы и рекомендации по разработке для информационных объектов
@@ -232,16 +380,14 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Обзор экспорта в Azure Data Lake
-              href: data-entities/Azure-Data-Lake-GA-version-overview.md
-            - name: Установка надстройки экспорта в Azure Data Lake
+            - name: Обзор Azure Data Lake
+              href: data-entities/azure-data-lake-overview.md
+            - name: Настройка экспорта в Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: Приложения Finance and Operations в Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Предоставление хранилища объектов как Data Lake
               href: data-entities/entity-store-data-lake.md
-            - name: Изменение данных в Azure Data Lake
-              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Операции перемещения баз данных
           items:
             - name: Обзор
@@ -326,14 +472,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: 'Устранение неполадок сред, развернутых с помощью дистанционного развертывания'
                       href: deployment/troubleshoot-newinfrastructure.md
-                    - name: Вопросы и ответы по плановому обслуживанию в средах самообслуживания
-                      href: deployment/plannedmaintenance-selfservice.md
-                    - name: Непрерывность бизнес-процессов и аварийное восстановление
-                      href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Завершение процесса адаптации Azure Resource Manager
+                - name: Завершение адаптации Azure Resource Manager
                   href: deployment/arm-onboarding.md
-                - name: Завершение процесса адаптации Azure Resource Manager для проектов LCS для государственных организаций США
-                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute и Finance and Operations
                   href: deployment/expressroute.md
                 - name: Архитектура Finance and Operations
@@ -342,8 +482,6 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Применение обновлений и расширений к Commerce Scale Unit (облако)
                   href: deployment/Update-retail-channel.md
-                - name: Автоматическое обновление Commerce Scale Unit (облако)
-                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Инициализация Commerce Scale Unit (облако)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Миграция каналов на другое Commerce Scale Unit
@@ -360,8 +498,6 @@
                       href: deployment/on-premises-overview.md
                     - name: Планирование локальных развертываний и подготовка к ним
                       href: deployment/plan-onprem-deployment.md
-                    - name: Поддерживаемое программное обеспечение Microsoft Dynamics 365 Finance + Operations (on-premises)
-                      href: deployment/onprem-compatibility.md
                     - name: Требования к определению параметров оборудования
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Проверка подлинности в Dynamics 365 Finance + Operations (on-premises)
@@ -370,15 +506,13 @@
                   items:
                     - name: Настройка локальных проектов в LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Настройка и развертывание локальных сред (Platform update 41 и более поздние версии)
-                      href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Настройка и развертывание локальных сред (Platform update с 12 по 40)
+                    - name: Настройка и развертывание локальных сред
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Действия по установке для компонентов канала Retail в локальной среде
                       href: deployment/deploy-retail-onprem.md
                     - name: Разработка и развертывание пользовательских моделей в локальных средах
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Операции среды
+                - name: Обслуживание среды
                   items:
                     - name: Применение обновлений к локальному развертыванию
                       href: deployment/apply-updates-on-premises.md
@@ -388,8 +522,6 @@
                       href: user-interface/client-disconnected.md
                     - name: Настройка в локальных развертываниях только для пакетных и интерактивных узлов AOS
                       href: deployment/onprem-batchonly.md
-                    - name: Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)
-                      href: deployment/onprem-SSRSHA.md
                     - name: Настройка прокси-серверов для локальных сред
                       href: deployment/onprem-reverseproxy.md
                     - name: Локальная диагностика
@@ -406,16 +538,12 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Использование одного и того же экземпляра AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
-                    - name: Обновление экземпляра SQL Server в средах Microsoft Dynamics 365 Finance + Operations (on-premises)
-                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Локальный агент
                   items:
-                    - name: Совместимость AD FS Microsoft 365
+                    - name: Совместимость AD FS с Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: 'Сценарии, выполняемые перед развертыванием и после развертывания локального агента'
                       href: lifecycle-services/pre-post-scripts.md
-                    - name: Конфигурации развертывания для локального агента
-                      href: deployment/onprem-localagent-options.md
                     - name: Обновление локального агента
                       href: lifecycle-services/update-local-agent.md
                 - name: Устранение неполадок
@@ -432,8 +560,6 @@
                   href: deployment/install-deployable-package.md
                 - name: Удаление пакета
                   href: deployment/uninstall-deployable-package.md
-                - name: Выполнение пользовательских скриптов X++ без простоев
-                  href: deployment/run-custom-scripts.md
                 - name: Устранение неполадок приложений пакета
                   href: deployment/deployable-package-troubleshooting.md
             - name: Развертывание пользовательской справки
@@ -462,16 +588,6 @@
                   href: help/language-locale.md
                 - name: Расширение и настройка справки и совместная работа над ней
                   href: help/contributor-guide.md
-            - name: 'Вопросы, связанные с развертыванием'
-              items:
-                - name: Параметры развертывания национального и локального облаков для Dynamics 365 Finance и Dynamics 365 Supply Chain Management
-                  href: deployment/deployment-options-geo.md
-                - name: Finance и Supply Chain Management в облаке сообщества для государственных организаций (GCC) США
-                  href: deployment/us-gcc-deployment.md
-                - name: 'Finance и Supply Chain Management, предоставляемые компанией 21Vianet в Китае'
-                  href: deployment/china-local-deployment.md
-                - name: Приложения Finance and Operations во Франции
-                  href: deployment/france-local-deployment.md
         - name: Разработка и настройка
           items:
             - name: Домашняя страница модуля разработки и настройки
@@ -488,6 +604,8 @@
                   href: dev-tools/access-instances.md
                 - name: Настройка односерверных сред разработки
                   href: dev-tools/configure-developer-vm.md
+                - name: Создание новых пользователей на компьютерах для разработки
+                  href: dev-tools/enable-development-machine.md
                 - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Переименование локальных сред для доступа к Azure DevOps
@@ -514,10 +632,6 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Создание подключения к Lifecycle Services (LCS) в Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
-                - name: Обновление задач проверки подлинности подключений LCS в MSAL в Azure Pipelines
-                  href: dev-tools/pipeline-lcs-connection-update.md
-                - name: Обновление размещенного Azure Pipeline для новых пакетов NuGet
-                  href: dev-tools/pipeline-nuget-split.md
                 - name: Обновление устаревшего процесса продаж в Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Пример приложения для управления автопарком
@@ -547,7 +661,7 @@
                     - name: Обзор создания моделей и элементов модели данных
                       href: dev-tools/create-data-model-elements.md
                     - name: Правила именования для расширений
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: extensibility/NamingGuidelines.md
                     - name: Отключение настройки моделей и отказ от функций
                       href: dev-tools/lock-models.md
                 - name: Отчет об анализе настройки
@@ -570,24 +684,22 @@
                   href: dev-tools/update-development-tools.md
             - name: Язык программирования X++
               items:
-                - name: Поддержка языка X++
-                  items:
-                    - name: Требования Visual Studio к X++
-                      href: dev-tools/developer-tools-vs2017.md
-                    - name: Отладка кода X++
-                      href: dev-tools/debug-xpp.md
-                    - name: Классы EventHandlerResult в сценариях с запросами и ответами
-                      href: dev-tools/event-handler-result-class.md
-                    - name: Написание бизнес-логики на языках C# и X++ Source Code
-                      href: dev-tools/write-business-logic.md
-                    - name: Поставщик LINQ для C#
-                      href: dev-tools/linq-provider-c.md
-                    - name: Написание правил рекомендаций
-                      href: dev-tools/author-best-practice-rules.md
-                    - name: Свойства обозревателя приложений
-                      href: dev-ref/application-explorer-aot-properties.md
-                    - name: Атрибут SysSetupConfigAttribute
-                      href: dev-tools/syssetupconfigattribute.md
+                - name: X++ и функции отладчика
+                  href: dev-tools/new-x-debugger-features.md
+                - name: Отладка кода X++
+                  href: dev-tools/debug-xpp.md
+                - name: Классы EventHandlerResult в сценариях с запросами и ответами
+                  href: dev-tools/event-handler-result-class.md
+                - name: Написание бизнес-логики на языках C# и X++ Source Code
+                  href: dev-tools/write-business-logic.md
+                - name: Изменения в X++ и компиляторе X++
+                  href: dev-tools/programming-language-support.md
+                - name: Поставщик LINQ для C#
+                  href: dev-tools/linq-provider-c.md
+                - name: Написание правил рекомендаций
+                  href: dev-tools/author-best-practice-rules.md
+                - name: Свойства обозревателя приложений
+                  href: dev-ref/application-explorer-aot-properties.md
                 - name: Справочник по языку X++
                   items:
                     - name: Обзор справочника по языку X++
@@ -632,7 +744,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Библиотеки
                           href: dev-ref/xpp-library-objects.md
-                        - name: События и делегаты
+                        - name: События
                           href: dev-ref/xpp-events.md
                     - name: Выбор данных и манипуляции с данными в X++
                       items:
@@ -696,6 +808,60 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Системные таблицы
                   href: dev-ref/system-tables.md
+                - name: Системные классы
+                  items:
+                    - name: Список системных классов
+                      href: dev-ref/system-classes/toc.yml
+                    - name: 'Системные классы, сгруппированные по алфавиту'
+                      items:
+                        - name: Классы A
+                          href: dev-ref/a-classes.md
+                        - name: Классы B
+                          href: dev-ref/b-classes.md
+                        - name: Классы C
+                          href: dev-ref/c-classes.md
+                        - name: Классы D
+                          href: dev-ref/d-classes.md
+                        - name: Классы E
+                          href: dev-ref/e-classes.md
+                        - name: Классы F
+                          href: dev-ref/f-classes.md
+                        - name: Классы G
+                          href: dev-ref/g-classes.md
+                        - name: Классы H
+                          href: dev-ref/h-classes.md
+                        - name: Классы I
+                          href: dev-ref/i-classes.md
+                        - name: Классы J
+                          href: dev-ref/j-classes.md
+                        - name: Классы K
+                          href: dev-ref/k-classes.md
+                        - name: Классы L
+                          href: dev-ref/l-classes.md
+                        - name: Классы M
+                          href: dev-ref/m-classes.md
+                        - name: Классы N
+                          href: dev-ref/n-classes.md
+                        - name: Классы O
+                          href: dev-ref/o-classes.md
+                        - name: Классы P
+                          href: dev-ref/p-classes.md
+                        - name: Классы Q
+                          href: dev-ref/q-classes.md
+                        - name: Классы R
+                          href: dev-ref/r-classes.md
+                        - name: Классы S
+                          href: dev-ref/s-classes.md
+                        - name: Классы T
+                          href: dev-ref/t-classes.md
+                        - name: Классы U
+                          href: dev-ref/u-classes.md
+                        - name: Классы V
+                          href: dev-ref/v-classes.md
+                        - name: Классы W
+                          href: dev-ref/w-classes.md
+                        - name: Классы X
+                          href: dev-ref/x-classes.md
             - name: Расширяемость
               items:
                 - name: Домашняя страница расширяемости
@@ -836,11 +1002,13 @@
               items:
                 - name: Трассировка с помощью Trace Parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: Однопользовательское тестирование с помощью пакета Performance SDK и регистратора задач
+                - name: Однопользовательское тестирование с помощью регистратора задач и пакета Performance SDK
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Многопользовательское тестирование с помощью пакета Performance SDK
-                  href: perf-test/perfsdk-multi-user-testing.md
-                - name: Руководство по устранению неполадок при тестировании с помощью пакета Performance SDK
+                - name: Многопользовательское тестирование с помощью пакета Performance SDK и локального контроллера тестирования
+                  href: perf-test/multi-user-testing-local-test-controller.md
+                - name: Многопользовательское тестирование с помощью пакета Performance SDK и Azure DevOps
+                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Руководство по устранению неполадок при однопользовательском или многопользовательском тестировании с помощью пакета Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Пакет Performance SDK и многопользовательское тестирование в локальных средах
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -854,12 +1022,10 @@
                   href: perf-test/testing-validation.md
                 - name: Проекты тестирования в Visual Studio
                   href: perf-test/testing-support.md
-                - name: 'Развертывание и использование среды, поддерживающей непрерывную сборку и автоматизацию тестирования'
+                - name: 'Развертывание сред, поддерживающих непрерывную сборку и автоматизацию тестирования'
                   href: perf-test/continuous-build-test-automation.md
                 - name: Фильтрация SysTest с помощью атрибутов классов и методов
                   href: perf-test/systest-filtering.md
-                - name: Атрибут SysTestRow для проверки нескольких значений
-                  href: perf-test/systest-row.md
                 - name: Библиотека приемочного тестирования
                   items:
                     - name: Ресурсы библиотеки приемочного тестирования
@@ -886,16 +1052,10 @@
                       href: perf-test/atl-faq.md
             - name: Даты вступления в силу
               href: dev-tools/date-effectivity.md
-            - name: Разработка для независимых поставщиков программного обеспечения
-              items:
-                - name: Домашняя страница разработки в ISV
-                  href: dev-tools/isv-dev-home-page.md
-                - name: Привязка модулей X++ к пакетам с использованием ISV Studio
-                  href: dev-tools/isv-studio-solutions.md
-                - name: Лицензирование ISV
-                  href: dev-tools/isv-licensing.md
-                - name: Локальное лицензирование для независимых поставщиков программного обеспечения
-                  href: dev-tools/isv-licensing-on-prem.md
+            - name: Лицензирование для независимых поставщиков программного обеспечения
+              href: dev-tools/isv-licensing.md
+            - name: Локальное лицензирование для независимых поставщиков программного обеспечения
+              href: dev-tools/isv-licensing-on-prem.md
         - name: Общий регламент по защите данных (GDPR)
           items:
             - name: Обзор общего регламента по защите данных
@@ -928,18 +1088,12 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS для партнеров
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Интерфейсы RESTful API
-                  items:
-                    - name: Запуск и остановка сред
-                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
-                    - name: Получение метаданных среды
-                      href: lifecycle-services/api/v1/reference-environment-metadata.md
-                    - name: Получение истории среды
-                      href: lifecycle-services/api/v1/reference-environment-history.md
-                    - name: Получение ZIP-файла сертификата RSAT среды
-                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Что нового и что изменилось в Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
+                - name: Известные проблемы
+                  href: lifecycle-services/known-issues.md
+                - name: Удаленные или исключенные функции Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Руководство пользователя Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Адаптация проекта
@@ -989,11 +1143,9 @@
                 - name: Вопросы и ответы по окну планового обслуживания
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Мониторинг и диагностика
-              items:
-                - name: Инструменты мониторинга и диагностики
-                  href: lifecycle-services/monitoring-diagnostics.md
-                - name: Использование Azure Data Explorer для запроса журналов необработанных данных
-                  href: lifecycle-services/azure-data-explorer.md
+              href: lifecycle-services/monitoring-diagnostics.md
+            - name: Отчет по анализу влияния
+              href: lifecycle-services/impact-analysis-report.md
             - name: Перезапуск служб среды
               href: lifecycle-services/restart-environment-services.md
             - name: Сообщение о сбое производства
@@ -1006,8 +1158,6 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Учебник по запросам
               href: lifecycle-services/querycookbook.md
-            - name: Подписки с истекшим сроком действия и удаление данных
-              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Обзор Dynamics 365 Translation Service
@@ -1018,230 +1168,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Файлы базы переводов
                   href: lifecycle-services/use-translation-service-tm.md
-                - name: Расширение Azure DevOps (общедоступная предварительная версия)
-                  href: lifecycle-services/dts-devops-extension.md
         - name: Интеграция Microsoft Power Platform
           items:
-            - name: Обзор
+            - name: Интеграция Microsoft Power Platform с Finance and Operations
               href: power-platform/overview.md
-            - name: Включение интеграции Power Platform
-              href: power-platform/enable-power-platform-integration.md
-            - name: Проверка подлинности и авторизация
-              href: power-platform/authentication-and-authorization.md
-            - name: Двойная запись
-              items:
-                - name: Домашняя страница двойной записи
-                  href: data-entities/dual-write/dual-write-home-page.md
-                - name: Что нового и что изменилось в двойной записи
-                  href: data-entities/dual-write/whats-new-dual-write.md
-                - name: Обзор двойной записи
-                  href: data-entities/dual-write/dual-write-overview.md
-                - name: Настройка двойной записи
-                  items:
-                    - name: Требования к системе для двойной записи
-                      href: data-entities/dual-write/dual-write-system-req.md
-                    - name: Руководство по настройке двойной записи
-                      href: data-entities/dual-write/connection-setup.md
-                    - name: Рекомендации по первоначальной синхронизации
-                      href: data-entities/dual-write/initial-sync-guidance.md
-                    - name: Ограничения для синхронизации в реальном времени
-                      href: data-entities/dual-write/sync-limits.md
-                    - name: Настройка двойной записи из Lifecycle Services
-                      href: data-entities/dual-write/lcs-setup.md
-                    - name: Включение двойной записи для существующих приложений Finance and Operations
-                      items:
-                        - name: Включение двойной записи для существующих приложений Finance and Operations
-                          href: data-entities/dual-write/enable-dual-write.md
-                        - name: Системные требования и необходимые условия
-                          href: data-entities/dual-write/requirements-and-prerequisites.md
-                        - name: Порядок использования мастера двойной записи для связи между средами
-                          href: data-entities/dual-write/link-your-environment.md
-                        - name: Включение сопоставления объектов для двойной записи
-                          href: data-entities/dual-write/enable-entity-map.md
-                    - name: Разделенный пакет оркестрации приложений с двойной записью
-                      href: data-entities/dual-write/separated-solutions.md
-                    - name: Миграция типа данных валюты для двойной записи
-                      href: data-entities/dual-write/currrency-decimal-places.md
-                    - name: Настройка сопоставления для полей статуса заказа на продажу
-                      href: data-entities/dual-write/sales-status-map.md
-                    - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
-                      href: data-entities/dual-write/filtering-intercompany-orders.md
-                - name: Управление двойной записью
-                  items:
-                    - name: Настройка сопоставлений объектов и полей
-                      href: data-entities/dual-write/customizing-mappings.md
-                    - name: Руководство по настройке двойной записи
-                      href: data-entities/dual-write/custom-best-practices.md
-                    - name: Работа с несколькими сопоставлениями объектов
-                      href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Изменение юридического лица после настройки двойной записи
-                      href: data-entities/dual-write/edit-legal-entity.md
-                    - name: Приостановка двойной записи для обслуживания
-                      href: data-entities/dual-write/pause-for-maintenance.md
-                    - name: Управление ошибками и уведомления об оповещении
-                      href: data-entities/dual-write/errors-and-alerts.md
-                    - name: Управление жизненным циклом приложений
-                      href: data-entities/dual-write/app-lifecycle-management.md
-                    - name: 'Владелец группы, определенный пользователем'
-                      href: data-entities/dual-write/user-specified-team-owner.md
-                    - name: Удаление связи и повторная связь сред с двойной записью
-                      href: data-entities/dual-write/relink-environments.md
-                - name: Сопоставление концепций между приложениями
-                  items:
-                    - name: Интегрированный справочник клиентов
-                      href: data-entities/dual-write/customer-mapping.md
-                    - name: Интеграция с поставщиками
-                      items:
-                        - name: Интегрированный справочник поставщиков
-                          href: data-entities/dual-write/vendor-mapping.md
-                        - name: Переключение между вариантами дизайна поставщиков
-                          href: data-entities/dual-write/vendor-switch.md
-                    - name: Карточки постоянного клиента и баллы поощрения
-                      href: data-entities/dual-write/loyalty-mapping.md
-                    - name: Интеграция продуктов
-                      items:
-                        - name: Единый подход к работе с продуктами
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Интегрированные сайты и склады
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                    - name: Интеграция компании
-                      items:
-                        - name: Понятие компании в Dataverse
-                          href: data-entities/dual-write/company-data.md
-                        - name: Инициализация данных компании
-                          href: data-entities/dual-write/bootstrap-company-data.md
-                    - name: Организационная иерархия в Dataverse
-                      href: data-entities/dual-write/organization-mapping.md
-                    - name: Финансовая и налоговая информация
-                      items:
-                        - name: Доступ к финансовым и налоговым ссылочным данным
-                          href: data-entities/dual-write/finance-tax-reference.md
-                        - name: Интегрированная книга учета
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Интегрированный налоговый справочник
-                          href: data-entities/dual-write/tax-mapping.md
-                    - name: Интеграция закупаемой продукции в Supply Chain Management с Field Service
-                      href: data-entities/dual-write/scm-field-service-procurement.md
-                    - name: Синхронизация с ядром ценообразования Supply Chain Management по запросу
-                      href: data-entities/dual-write/pricing-engine.md
-                    - name: '"Перспективный клиент в наличные деньги" в случае двойной записи'
-                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                    - name: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
-                      href: data-entities/dual-write/commerce-pricing.md
-                    - name: Внутренние активы для обслуживания
-                      href: data-entities/dual-write/in-house-assets.md
-                    - name: Наличие запасов
-                      href: data-entities/dual-write/inventory-availability.md
-                    - name: 'Интегрированный работник, задание и должность'
-                      href: data-entities/dual-write/integrated-hr.md
-                    - name: Субъект и глобальная адресная книга
-                      href: data-entities/dual-write/party-gab.md
-                    - name: Использование порталов Microsoft Power Apps с моделью данных субъекта
-                      href: data-entities/dual-write/party-gab-portal.md
-                    - name: Обновление модели субъекта и глобальной адресной книги
-                      href: data-entities/dual-write/upgrade-party-gab.md
-                    - name: Просмотр данных субъекта
-                      href: data-entities/dual-write/view-party.md
-                    - name: Интеграция примечаний
-                      href: data-entities/dual-write/notes-integration.md
-                    - name: Ссылка на сопоставление
-                      href: data-entities/dual-write/mapping-reference.md
-                - name: Поддержка двойной записи
-                  items:
-                    - name: Поддержка решений Field Service и Project Service Automation
-                      href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: Перенос перспективного клиента в данные наличных денег из средства интеграции данных в двойную запись
-                      href: data-entities/dual-write/migrate-prospect-to-cash.md
-                    - name: Устранение неполадок
-                      items:
-                        - name: Общие рекомендации по устранению неполадок
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Устранение неполадок при начальной настройке
-                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                        - name: Устранение неполадок при начальной синхронизации
-                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Устранение неполадок с синхронизацией в режиме реального времени
-                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Устранение проблем с двойной записью в приложениях Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                        - name: Устранение неполадок с субъектом и глобальной адресной книгой
-                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
-                        - name: 'Устранение неполадок, связанных с поддержкой решений'
-                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Устранение проблем с обновлением приложений Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Проверка конфигурации двойной записи в Finance and Operations и Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                        - name: Коды ошибок для проверки работоспособности сопоставлений таблиц
-                          href: data-entities/dual-write/table-map-health-check.md
-                - name: Вопросы и ответы по двойной записи
-                  href: data-entities/dual-write/dual-write-faq.md
-            - name: Виртуальные объекты
-              items:
-                - name: Обзор виртуальных объектов
-                  href: power-platform/virtual-entities-overview.md
-                - name: Моделирование объектов
-                  href: power-platform/entity-modeling.md
-                - name: Управление жизненным циклом приложений
-                  href: power-platform/application-lifecycle-management.md
-                - name: Настройка виртуальных объектов Dataverse
-                  href: power-platform/admin-reference.md
-                - name: Включение виртуальных объектов Dataverse
-                  href: power-platform/enable-virtual-entities.md
-                - name: Порталы Power Apps с Finance and Operations
-                  href: power-platform/power-portal-reference.md
-                - name: Вопросы и ответы по виртуальным объектам Finance and Operations
-                  href: power-platform/faq.md
-            - name: Бизнес-события
-              items:
-                - name: Обзор бизнес-событий
-                  href: business-events/home-page.md
-                - name: Управление конечными точками бизнес-событий
-                  href: business-events/managing-business-event-endpoints.md
-                - name: Бизнес-события приложения
-                  href: business-events/app-business-events.md
-                - name: Бизнес-события бизнес-правила
-                  href: business-events/business-events-workflow.md
-                - name: Пакетные бизнес-события
-                  href: business-events/system-business-events.md
-                - name: Оповещения как бизнес-события
-                  href: business-events/alerts-business-events.md
-                - name: 'События, инициируемые изменением данных'
-                  href: business-events/data-events.md
-                - name: Бизнес-события в Power Automate
-                  href: business-events/business-events-flow.md
-                - name: Документация для разработчиков бизнес-событий
-                  href: business-events/business-events-dev-doc.md
-                - name: Устранение неполадок с бизнес-событиями
-                  href: business-events/troubleshooting.md
-                - name: Варианты использования для бизнес-событий
-                  href: business-events/potential-use-cases.md
-                - name: Учебники
-                  items:
-                    - name: Бизнес-события и Power Automate
-                      href: business-events/how-to/how-to-flow.md
-                    - name: Бизнес-события и сетка событий Azure
-                      href: business-events/how-to/how-to-eventgrid.md
-                    - name: Бизнес-события и служебная шина Azure
-                      href: business-events/how-to/how-to-servicebus.md
-                    - name: Бизнес-события и очередь служебной шины Azure
-                      href: business-events/how-to/how-to-servicebus-queue.md
-                    - name: Бизнес-события и утверждения бизнес-правил
-                      href: business-events/how-to/how-to-workflow.md
-                    - name: Бизнес-события и Microsoft Forms Pro
-                      href: business-events/how-to/FormsPro.md
-                    - name: Бизнес-события и центры событий Azure
-                      href: business-events/how-to/event-hub.md
-                    - name: Подписка на события в Dataverse
-                      href: business-events/how-to/how-to-dataverse-events.md
-                    - name: Бизнес-события при закрытии финансового периода
-                      href: business-events/how-to/period-close.md
-            - name: Надстройки
-              items:
-                - name: Обзор надстроек
-                  href: power-platform/add-ins-overview.md
-            - name: Политики и связь
-              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+            - name: Моделирование объектов
+              href: power-platform/entity-modeling.md
+            - name: Управление жизненным циклом приложений
+              href: power-platform/application-lifecycle-management.md
+            - name: Ссылка администратора Finance and Operations и Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Порталы Power Apps с Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Вопросы и ответы по виртуальным объектам Finance and Operations
+              href: power-platform/faq.md
         - name: Мобильная платформа
           items:
             - name: Ресурсы мобильных платформ
@@ -1474,26 +1414,18 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Использование Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
-            - name: Поддержка тестовых случаев в Regression Suite Automation Tool
-              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Проверка ожидаемых значений
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Контрольные примеры цепочки
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Производные контрольные примеры
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Обновление файлов параметров
-              href: perf-test/rsat/rsat-upgrade-parameter-files.md
-            - name: Учебник Regression Suite Automation Tool
-              href: perf-test/rsat/rsat-tutorial.md
-            - name: 'Настройка пользователей, не являющихся администраторами'
-              href: perf-test/rsat/rsat-configure-nonadmin.md
+            - name: Учебник Regression Suite Automation Tool и другие функции
+              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Рекомендации
               href: perf-test/rsat/rsat-best-practices.md
             - name: Независимые от данных испытания с помощью Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Запуск Regression Suite Automation Tool (RSAT) с параллельным выполнением
-              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Устранение неполадок
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Выпуск решений с использованием Lifecycle Services
@@ -1532,18 +1464,16 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Поддержка
           items:
-            - name: Получение поддержки по Finance and Operations и Lifecycle Services
+            - name: Поддержка Finance and Operations и Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Обзор вариантов поддержки Dynamics 365
-              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Получение поддержки по Finance and Operations, предоставляемому компанией 21Vianet в Китае'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+            - name: Поддержка Finance and Operations на базе 21Vianet в Китае
               href: lifecycle-services/21vianet-support.md
-            - name: Настройка технической поддержки приложений Finance and Operations
+            - name: Настройка технической поддержки для приложений Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Управление поддержкой приложений Finance and Operations
+            - name: Управление поддержкой для приложений Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
-            - name: Поддержка и мониторинг производства
-              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Администрирование системы
           items:
             - name: Домашняя страница администрирования системы
@@ -1560,8 +1490,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Экспорт пользователей B2B в Azure AD
               href: sysadmin/implement-b2b.md
-            - name: Ведение данных
-              href: sysadmin/DataMaintenancePortal.md
             - name: Безопасность
               items:
                 - name: Безопасность на основе ролей
@@ -1578,8 +1506,6 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Управление сеансами пользователей
                   href: sysadmin/user-session-management.md
-                - name: Блокировка доступа по местонахождению с помощью условного доступа Azure AD
-                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Импорт пользователей в пакетном режиме
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Настройка разделения обязанностей
@@ -1598,8 +1524,6 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Обеспечение соответствия требованиям лицензионного соглашения пользователя
               href: sysadmin/stay-compliant-user-license-requirement.md
-            - name: Просмотр статуса лицензии независимого поставщика программного обеспечения
-              href: sysadmin/view-isv-license-status.md
             - name: Автоматизация процессов
               href: sysadmin/process-automation.md
             - name: Пакетная обработка
@@ -1610,29 +1534,25 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Создание пакетных заданий
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Включение повторов для пакетных заданий
-                  href: sysadmin/retryable-batch.md
                 - name: Копирование пакетного задания
                   href: sysadmin/copy-batch-job.md
-                - name: Планирование партий на основе приоритета
-                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Активные периоды пакета
                   href: sysadmin/activeperiod.md
                 - name: Поддержка летнего времени для активных периодов пакета
                   href: sysadmin/batch-active-period-dst.md
                 - name: Роль безопасности пакетного диспетчера
                   href: sysadmin/runby.md
+                - name: Пакетное задание для обработки дефрагментации индекса SQL
+                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Настройка пакетных оповещений
                   href: sysadmin/alerts.md
                 - name: Улучшенные формы пакетов
                   href: sysadmin/enhanced-forms.md
                 - name: Очистка журнала пакетных заданий
                   href: sysadmin/batch-history-cleanup.md
-                - name: Отмена выполняемого пакетного задания
+                - name: Прерывание выполняемого пакетного задания
                   href: sysadmin/batch-abort.md
-                - name: OData API пакета
-                  href: sysadmin/batch-odata-api.md
-            - name: Советник по оптимизации
+            - name: Помощник по оптимизации
               items:
                 - name: Обзор помощника по оптимизации
                   href: sysadmin/optimization-advisor-overview.md
@@ -1666,10 +1586,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Обновление AX 2012 — контрольный список перед обновлением для обновления данных
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Обновление AX 2012 — репликация транзакций SQL
-                  href: database/replication-setup.md
-                - name: Обновление с AX 2012 — обновление данных в средах с самообслуживанием
-                  href: migration-upgrade/data-upgrade-self-service.md
+                - name: Обновление AX 2012 — обновление данных в средах "песочниц" с использованием процесса DACPAC
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Обновление AX 2012 — обновление данных в средах "песочницы"
+                  href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Обновление AX 2012 — локальные среды
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Обновление AX 2012 — тестирование переключения
@@ -1682,12 +1602,12 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Обновление AX 2012 — ввод в эксплуатацию
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: Обновление с AX 2012 — вопросы и ответы по обновлению данных
-                  href: migration-upgrade/upgrade-faq.md
                 - name: 'Изменения, влияющие на процесс обновления с AX 2012'
                   items:
                     - name: Настройка разделителя плана счетов как уникального
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
+                    - name: Обновление журналов с одним ваучером и переоценок в валюте
+                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Модель данных планирования ресурсов проекта
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Изменения подсистемы бизнес-правил
@@ -1700,7 +1620,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Миграция данных из AX 2009
               items:
-                - name: Перенос данных из AX 2009 в Finance and Operations
+                - name: Миграция данных из AX 2009 в Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: "Миграция с AX 2009\_— установка средства переноса данных"
                   href: migration-upgrade/install-dmt.md

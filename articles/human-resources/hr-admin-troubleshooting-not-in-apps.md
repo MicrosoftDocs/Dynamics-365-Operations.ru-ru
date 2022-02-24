@@ -1,34 +1,32 @@
 ---
 title: Human Resources отсутствует в списке приложений Microsoft Dynamics 365
-description: В этой теме объясняется, что делать, если Microsoft Dynamics 365 Human Resources не указано в среди приложений Microsoft Dynamics 365.
-author: twheeloc
-ms.date: 08/19/2021
+description: В этой статье объясняется, что делать, если клиент не видит приложение Microsoft Dynamics 365 Human Resources среди приложений Microsoft Dynamics 365.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420220"
 ---
-# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Приложение Human Resources отсутствует в списке приложений Microsoft Dynamics 365
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources отсутствует в списке приложений Microsoft Dynamics 365
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-**Проблема**
+**Выдать**
 
 Клиент не видит Dynamics 365 Human Resources среди приложений Microsoft Dynamics 365.
 
@@ -42,11 +40,11 @@ ms.locfileid: "8069688"
 
 3. На вкладке **Безопасность** на вкладке **Роли среды** выберите **Создатель среды**.
 
-    ![Вкладка ролей среды.](media/environment-roles.png)
+    ![Вкладка ролей среды](media/environment-roles.png)
 
 4. На вкладке **Пользователи** добавьте пользователя или вашу организацию.
 
-    ![Вкладка пользователей.](media/environment-maker.png)
+    ![Вкладка пользователей](media/environment-maker.png)
 
 5. Нажмите **Сохранить**.
 
@@ -54,9 +52,6 @@ ms.locfileid: "8069688"
 
 7. Выберите **Синхронизация**, чтобы обновить приложения пользователя.
 
-    ![Кнопка "Синхронизация".](media/get-more.png)
+    ![Кнопка "Синхронизация"](media/get-more.png)
 
     По завершении синхронизации Human Resources появится на домашней странице.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Импорт обновленных версий конфигураций электронной отчетности
 description: В этом разделе описан порядок импорта обновленных версий конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734896"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679518"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Импорт обновленных версий конфигураций электронной отчетности
 
@@ -28,7 +30,7 @@ ms.locfileid: "6734896"
 
 [Репозитории](general-electronic-reporting.md#Repository) электронной отчетности (ER) служат для совместного использования [конфигураций ER](general-electronic-reporting.md#Configuration). Можно [импортировать](download-electronic-reporting-configuration-lcs.md) конфигурации ER из других репозиториев в экземпляр Microsoft Dynamics 365 Finance. При импорте конфигураций ER [поставщики конфигурации](general-electronic-reporting.md#Provider) могут публиковать новые [версии](general-electronic-reporting.md#component-versioning) репозиториев, чтобы их можно было использовать совместно.
 
-В этом разделе описан порядок импорта обновленных версий конфигураций электронной отчетности из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+В этом разделе описан порядок импорта обновленных версий конфигураций электронной отчетности из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Просмотр доступных обновленных версий
 
@@ -41,11 +43,11 @@ ms.locfileid: "6734896"
 2. Перейдите в раздел **Управление организацией** \> **Рабочие области** \> **Электронная отчетность**.
 3. На странице **Конфигурации локализации** в разделе **Связанные ссылки** выберите плитку **Импорт обновлений версий конфигураций**.
 
-    ![Страница локализации конфигураций.](./media/er-download-updated-versions-global-repo1.png)
+    ![Страница локализации конфигураций](./media/er-download-updated-versions-global-repo1.png)
 
 4. В диалоговом окне **Импорт обновлений версий конфигураций электронной отчетности** в поле **режим работы** выберите **Отображать только доступные обновления**. Затем выберите **OK**. 
 
-    ![В поле режим прогона задано отображение только доступных обновлений.](./media/er-download-updated-versions-global-repo2.png)
+    ![В поле режим прогона задано отображение только доступных обновлений](./media/er-download-updated-versions-global-repo2.png)
 
 5. Проверьте полученное сообщение. Эти сообщения предоставляют следующие сведения о конфигурациях ER в текущем экземпляре Finance и о том, как они сравниваются с содержимым глобального репозитория:
 
@@ -72,14 +74,14 @@ ms.locfileid: "6734896"
 4. В диалоговом окне **Импорт обновлений версий конфигураций электронной отчетности** в поле **Режим прогона** выберите **Импорт последних обновлений** для импорта последних версий конфигураций ER из глобального репозитория в текущий экземпляр Finance.
 5. Чтобы запланировать пакетное задание для импорта, на экспресс-вкладке **Выполнять в фоновом режиме** установите для параметра **Пакетная обработка** значение **Да**. Если необходимо периодически повторять импорт, настройте необходимые повторения.
 
-    ![В поле режима прогона задан импорт последних обновлений.](./media/er-download-updated-versions-global-repo5.png)
+    ![В поле режима прогона задан импорт последних обновлений](./media/er-download-updated-versions-global-repo5.png)
 
 6. Нажмите **ОК**.
 7. Чтобы узнать, какие версии конфигурации были импортированы, выполните одно из следующих действий:
 
     - Если вы запускаете импорт в интерактивном режиме вместо использования пакетного задания, проверьте полученное сообщение.
 
-        ![Сообщения, полученные в ходе интерактивного выполнения импорта.](./media/er-download-updated-versions-global-repo6.png)
+        ![Сообщения, полученные в ходе интерактивного выполнения импорта](./media/er-download-updated-versions-global-repo6.png)
 
     - Если выполняется импорт в пакетном режиме, выполните следующие действия:
 
@@ -87,7 +89,7 @@ ms.locfileid: "6734896"
         2. Найдите и выберите задание **Импорт обновлений версий конфигураций электронной отчетности**, затем на панели операций на вкладке **Пакетное задание** выберите **Журнал пакетных заданий** для просмотра журнала заданий.
         3. На странице **Журнал пакетных заданий** выберите **Журнал**. Затем в полученном сообщении выберите ссылку **Сведения о сообщении** для просмотра журнала заданий.
 
-        ![Журнал заданий.](./media/er-download-updated-versions-global-repo7.png)
+        ![Журнал заданий](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Не рекомендуется планировать повторяющееся пакетное задание, чтобы импортировать обновленные версии конфигураций ER непосредственно из глобального репозитория в производственную среду, так как импортированные версии сразу будут доступны для использования. Вместо этого такой подход следует использовать для развертывания версий конфигураций ER в среде "песочницы". Затем их можно оценить в среде "песочницы" перед их развертыванием в производственной среде.
@@ -96,6 +98,3 @@ ms.locfileid: "6734896"
 
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

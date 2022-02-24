@@ -2,13 +2,16 @@
 title: Добавление логотипа
 description: В этом разделе описывается, как добавить логотип для своего сайта в Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964587"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415186"
 ---
 # <a name="add-a-logo"></a>Добавление логотипа
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как добавить логотип для своего сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Когда вы создаете свой сайт, одна из первых вещей, которые вы, вероятно, хотите сделать, это добавить вашу компанию или логотип бренда в заголовок сайта. Интернет-библиотека моделей Dynamics 365 Commerce содержит модуль, который делает эту задачу легкой.
 
@@ -61,12 +66,11 @@ ms.locfileid: "7964587"
 
 [Добавление значка сайта](add-favicon.md)
 
+[Добавление приветственного сообщения](add-welcome-message.md)
+
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

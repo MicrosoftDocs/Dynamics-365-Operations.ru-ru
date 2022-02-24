@@ -2,12 +2,15 @@
 title: Модуль согласия на файлы cookie
 description: В этом разделе описываются модули согласия на получение файлов cookie, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750746"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415137"
 ---
-# <a name="cookie-consent-module"></a>Модуль согласия на получение файлов cookie
+# <a name="cookie-consent-module"></a>Модуль согласия на файлы cookie
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули согласия на получение файлов cookie, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модуль согласия на прием файлов cookie запрашивает у пользователей сайта разрешение на файлы cookie для любой функции или модуля, отслеживающего файлы cookie браузера. Разрешение необходимо при первом просмотре сайта пользователем в новом сеансе веб-браузера. Когда согласие получено, оно отслеживается, и пользователю сайта не выдается повторный запрос на согласие. Дополнительные сведения см. в разделе [Соответствие файлов cookie](cookie-compliance.md).
 
@@ -35,7 +40,7 @@ ms.locfileid: "6750746"
 Модуль согласия на файлы cookie может быть настроен на фрагменте заголовка страницы, чтобы его можно было применять при загрузке страницы. Модуль согласия на файлы cookie должен иметь четкое сообщение, которое информирует пользователя сайта об использовании файлов cookie на сайте и должна предоставить ссылку на страницу конфиденциальности этого сайта.
 
 На следующем рисунке показан пример сообщения о согласии на файлы cookie со ссылкой на страницу политики конфиденциальности сайта, которая отображается в заголовке страницы сайта.
-![Пример модуля получения согласия на файлы cookie.](./media/ecommerce-cookieconsent.png)
+![Пример модуля получения согласия на файлы cookie](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Свойства модуля согласия на файлы cookie
 
@@ -57,6 +62,3 @@ ms.locfileid: "6750746"
 [Модуль верхнего колонтитула](author-header-module.md) 
 
 [Соответствие файлов cookie](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

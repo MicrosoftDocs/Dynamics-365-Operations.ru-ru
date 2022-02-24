@@ -1,10 +1,12 @@
 ---
 title: Расширенный синтаксис фильтрации и запросов
-description: В этой теме описываются параметры фильтрации и запросов для диалога "Расширенный фильтр/сортировка" и оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
+description: В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070017"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798679"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенный синтаксис фильтрации и запросов
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора **matches** на панели фильтров или в фильтрах заголовков столбцов сетки.
 
@@ -122,9 +121,9 @@ ms.locfileid: "8070017"
 <td>Две последовательные двойные кавычки (<strong>""</strong>) ищут строки без значения для текущего столбца.</td>
 </tr>
 <tr>
-<td>(<span class="code">Запрос Финансы и операции</span>) (Запрос Финансы и операции между скобками)</td>
+<td>(<span class="code">Запрос Finance and Operations</span>) (запрос Finance and Operations между скобками)</td>
 <td>Поиск согласно введенному запросу</td>
-<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Финансы и операции.</td>
+<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        как пример синтаксиса для условия фильтра по полю из корневого источника данных, а также по полю из другого источника данных (для страницы "Все клиенты")</td>
 </tr>
@@ -243,6 +242,3 @@ ms.locfileid: "8070017"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

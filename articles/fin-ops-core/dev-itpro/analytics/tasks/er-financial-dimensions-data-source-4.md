@@ -1,10 +1,12 @@
 ---
 title: Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)
-description: В этой теме описывается, как настроить модель электронной отчетности (ER) для использования финансовых аналитик в качестве источника данных для отчетов электронной отчетности. (Часть 4)
+description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: fb7f49310aa25ff7c17ab4bcd50e1842be84fe2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605313"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684747"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)
 
@@ -34,19 +36,16 @@ ms.locfileid: "7605313"
 2. В дереве разверните узел "Пример модели финансовых аналитик".
 3. В дереве выберите "Пример модели финансовых аналитик\Отчет журнала ГК".
 4. Щелкните Выполнить.
-![Страница конфигураций электронной отчетности.](../media/er-financial-dimensions-guides-run1.png)
+![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run1.png)
 5. В поле "Имя аналитики" введите или выберите значение.
     * Чтобы выбрать все аналитики в текущей компании, введите следующие сведения: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Параметры электронного отчета слайд, выдвижной список имен аналитик.](../media/er-financial-dimensions-guides-run2.png)
+![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run2.png)
 6. Разверните раздел "Записи для добавления".
 7. Щелкните "Фильтр".
 8. Выберите строку для таблицы "Журнал ГК" и поля "Номер партии журнала".
 9. В поле "Критерии" введите "00057".
 10. Нажмите кнопку "OК".
 11. Нажмите кнопку "OК".
-![Выдвижной список параметров электронной отчетности, раздел включаемых отчетов.](../media/er-financial-dimensions-guides-run3.png)
+![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run3.png)
     * Просмотрите созданные выходные данные. Для каждой проводки выбранной партии представлены финансовые аналитики из соответствующих аналитик. Выполните этот отчет и выберите другие аналитики, чтобы убедиться, что отчет не зависит от количества выбранных аналитик или числе аналитик, настроенных для данного экземпляра.  
-![Выходные данные, создаваемые конфигурациями электронной отчетности.](../media/er-financial-dimensions-guides-run4.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![Страница конфигураций электронной отчетности](../media/er-financial-dimensions-guides-run4.png)

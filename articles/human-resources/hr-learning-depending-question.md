@@ -1,31 +1,29 @@
 ---
 title: Создание вопроса, зависящего от ответа на предыдущий вопрос
 description: Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f28f75a902121f23c92a919b539517dbdb191447
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066733"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420311"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Создание вопроса, зависящего от ответа на предыдущий вопрос
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -33,31 +31,28 @@ ms.locfileid: "8066733"
 
 
 ## <a name="find-the-existing-questionnaire"></a>Поиск существующей анкеты
-1. Перейдите в раздел **Анкета** > **Дизайн** > **Анкеты**.
+1. Перейдите в раздел "Анкета" > "Дизайн" > "Анкеты".
 2. Выберите в списке анкету WorkFH.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Добавление всех вопросов и подвопросов в анкету
-1. Щелкните **Вопросы**.
-2. Нажмите кнопку **Создать**.
-3. В поле **Вопрос** выберите вопрос номер 00016.
+1. Щелкните "Вопросы".
+2. Щелкните "Создать".
+3. В поле "Вопрос" выберите вопрос номер 00016.
 4. В списке найдите и выберите требуемую запись.
 5. В списке перейдите по ссылке в выбранной строке.
-6. Нажмите кнопку **Сохранить**.
+6. Нажмите кнопку "Сохранить".
 7. Закройте страницу.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Установка параметра "Последовательность анкеты" в значение "Зависимый" и создание зависимости между вопросом и соответствующим предыдущим вопросом
-1. Выберите **Изменить**.
-2. Разверните раздел **Настройка**.
-3. В поле **Порядок вопросов** выберите "Зависимый".
-4. Щелкните вопрос **Зависимый**.
+1. Щелкните "Изменить".
+2. Разверните раздел "Настройка".
+3. В поле "Порядок вопросов" выберите "Зависимый".
+4. Щелкните "Зависимый запрос".
 5. В дереве выберите "Вопросы\Поясните, почему вы дали такой ответ на предыдущий вопрос?".
-6. В поле **Ведущий вопрос** выберите вопрос 00009.
+6. В поле "Ведущий вопрос" выберите вопрос 00009.
 7. В списке перейдите по ссылке в выбранной строке.
-8. В поле **Ответ** введите порядковый идентификатор ответа того варианта ответа, от которого должен зависеть вопрос. Например, для первого варианта ответа введите 1.
-9. Нажмите кнопку **Сохранить**.
+8. В поле "Ответ" введите порядковый идентификатор ответа того варианта ответа, от которого должен зависеть вопрос. Например, для первого варианта ответа введите 1.
+9. Нажмите кнопку Сохранить.
 10. В дереве выберите "Вопросы\Я получаю достойную оплату за свою работу".
     * Обратите внимание, что дерево вопроса обновилось, чтобы отразить зависимость.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

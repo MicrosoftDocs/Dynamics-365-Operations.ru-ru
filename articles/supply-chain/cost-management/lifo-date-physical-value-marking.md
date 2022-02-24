@@ -2,9 +2,11 @@
 title: Дата LIFO с физической стоимостью и маркировкой
 description: 'Дата ЛИФО — это складская модель, основанная на принципе ЛИФО. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки. При использовании ЛИФО: если перед расходом отсутствует приход, расход сопоставляется с любой приемкой после даты расхода. Несколько расходов с одинаковой датой можно сопоставить в последовательности "последний расход - последний приход".'
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567567"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967641"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Дата LIFO с физической стоимостью и маркировкой
 
@@ -55,9 +57,7 @@ ms.locfileid: "7567567"
 
 Новая текущая средняя себестоимость отражает среднее финансово обновленных проводок для USD 15,00. 
 
-Следующая иллюстрация показывает влияния складской модели даты LIFO, когда параметр **Включать физическую стоимость** не используется. 
-
-![Дата LIFO без параметра "Включать физическую стоимость".](./media/lifodatewithoutincludephysicalvalue.gif) 
+Следующая иллюстрация показывает влияния складской модели даты LIFO, когда параметр **Включать физическую стоимость** не используется. ![Дата LIFO с Включать физическую стоимость](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 
@@ -92,9 +92,7 @@ ms.locfileid: "7567567"
 
 Новая текущая средняя себестоимость отражает среднее финансово обновленных проводок для USD 20,00. 
 
-Следующая иллюстрация показывает влияния складской модели LIFO, когда используется параметр **Включать физическую стоимость**. 
-
-![Дата LIFO с параметром "Включать физическую стоимость".](./media/lifodatewithincludephysicalvalue.gif) 
+Следующая иллюстрация показывает влияния складской модели LIFO, когда используется параметр **Включать физическую стоимость**. ![Дата LIFO с Включать физическую стоимость](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 
@@ -140,7 +138,7 @@ ms.locfileid: "7567567"
 
 Новое скользящее среднее значение себестоимости отражает среднее значение по проводкам, обновленным финансово и физически, равное 27,50 долларов США. 
 
-На следующей иллюстрации показан результат выбора складской модели LIFO при использовании пометки приходов и расходов. ![Дата LIFO с маркировкой.](./media/lifodatewithmarking.gif) 
+На следующей иллюстрации показан результат выбора складской модели LIFO при использовании пометки приходов и расходов. ![Дата LIFO с маркировкой](./media/lifodatewithmarking.gif) 
 
 **Ключ к схеме**
 
@@ -158,6 +156,3 @@ ms.locfileid: "7567567"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

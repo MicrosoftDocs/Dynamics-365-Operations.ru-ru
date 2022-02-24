@@ -1,41 +1,45 @@
 ---
 title: Обзор интеграции с Microsoft Dynamics 365 Field Service
 description: Этот раздел содержит обзор интеграции с Microsoft Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062683"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528907"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Обзор интеграции с Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Supply Chain Management обеспечивает синхронизацию бизнес-процессов между Dynamics 365 Supply Chain Management и Dynamics 365 Field Service. Варианты интеграции настраиваются с помощью расширяемых шаблонов интегратора данных и службы Microsoft Dataverse для обеспечения синхронизации бизнес-процессов.
-Стандартные шаблоны можно использовать для создания настраиваемых проектов интеграции, где дополнительные стандартные и настраиваемые столбцы, а также таблицы, могут быть сопоставлены для настройки интеграции и соответствия определенным бизнес-требованиям. 
+Supply Chain Management обеспечивает синхронизацию бизнес-процессов между Dynamics 365 Supply Chain Management и Dynamics 365 Field Service. Варианты интеграции настраиваются с помощью расширяемых шаблонов интегратора данных и службы Common Data Service для обеспечения синхронизации бизнес-процессов.
+Стандартные шаблоны можно использовать для создания настраиваемых проектов интеграции, где дополнительные стандартные и настраиваемые поля, а также объекты, могут быть сопоставлены для настройки интеграции и соответствия определенным бизнес-требованиям. 
 
 Интеграция Field Service строится на основе существующей функциональности продажи перспективному клиенту.
 
-![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/field-service-integration.png)
+![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/field-service-integration.png)
 
-Первый этап интеграции между Field Service и Supply Chain Management направлен на то, чтобы счета за заказы на выполнение работ и соглашения в Field Service можно было выставлять в Supply Chain Management. Поддерживаемый поток начинается в Field Service, где информация из заказов на выполнение работ синхронизируется с Supply Chain Management в виде заказов на продажу. В Supply Chain Management выставляются накладные по заказам на продажу для создания документов накладных. Кроме того, информация из накладных договора в Field Service синхронизируется с Supply Chain Management. Интегратор данных Microsoft Dynamics 365 синхронизирует данные с помощью настраиваемых проектов. Стандартные шаблоны можно использовать для создания настраиваемых проектов интеграции, где дополнительные стандартные и настраиваемые столбцы, а также таблицы, могут быть сопоставлены для настройки интеграции и соответствия определенным требованиям.
+Первый этап интеграции между Field Service и Supply Chain Management направлен на то, чтобы счета за заказы на выполнение работ и соглашения в Field Service можно было выставлять в Supply Chain Management. Поддерживаемый поток начинается в Field Service, где информация из заказов на выполнение работ синхронизируется с Supply Chain Management в виде заказов на продажу. В Supply Chain Management выставляются накладные по заказам на продажу для создания документов накладных. Кроме того, информация из накладных договора в Field Service синхронизируется с Supply Chain Management. Интегратор данных Microsoft Dynamics 365 синхронизирует данные с помощью настраиваемых проектов. Стандартные шаблоны можно использовать для создания настраиваемых проектов интеграции, где дополнительные стандартные и настраиваемые поля, а также объекты, могут быть сопоставлены для настройки интеграции и соответствия определенным требованиям.
 
 Первый этап интеграции между Field Service и Supply Chain Management включает синхронизацию следующих элементов:
 
@@ -57,7 +61,7 @@ Supply Chain Management обеспечивает синхронизацию би
 - Проекты Supply Chain Management, связанные с заказами на работу Dynamics 365 Field Service
 - Заказы на выполнение работ Dynamics 365 Field Service со ссылкой на проекты Supply Chain Management применяют этот номер проекта к заказу на продажу, чтобы обеспечить выставление накладных из проекта. 
 
-![Синхронизация бизнес-процессов между Supply Chain Management и Field Service, включая информацию о запасах и проекте.](./media/FSv2overview.png)
+![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Второй этап интеграции между Field Service и Supply Chain Management включает синхронизацию со следующими шаблонами:
 - Склады (из Supply Chain Management в Field Service) — склады из Supply Chain Management в Field Service [Расширенный запрос] 
@@ -81,6 +85,3 @@ Supply Chain Management обеспечивает синхронизацию би
 - Field Service (версия 8.2.0.286) или более поздняя в Dynamics 365 9.1.x - выпущено в ноябре 2018 г.
 - Решение "Перспективный клиент в наличные деньги" (P2C) для Dynamics 365, версия 1.15.0.1 или более новая версия. Это решение можно загрузить с сайта [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Решение "интеграции Field Service, проект и запасы" для Dynamics 365, версия 2.0.0.0 или более новая. Это решение можно загрузить с сайта [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

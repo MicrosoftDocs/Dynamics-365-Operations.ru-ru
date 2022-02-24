@@ -1,10 +1,12 @@
 ---
 title: Ответственные специалисты по обслуживанию
 description: В этом разделе описан порядок настройки ответственных специалистов по обслуживанию в «Управлении активами».
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerResponsible
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d68c9e6de6e9d62d1dea95c747b17900d343e7324857dcfc083d48e5c1006b0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 137ed393f28131262584d5a2ae414092b124ea0e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731303"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021963"
 ---
 # <a name="responsible-maintenance-workers"></a>Ответственные специалисты по обслуживанию
 
@@ -50,7 +52,4 @@ ms.locfileid: "6731303"
 
 На следующем рисунке показан пример страницы **Ответственные специалисты по обслуживанию**.
 
-![Страница ответственных специалистов по обслуживанию.](media/08-setup-for-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Страница ответственных специалистов по обслуживанию](media/08-setup-for-requests.png)

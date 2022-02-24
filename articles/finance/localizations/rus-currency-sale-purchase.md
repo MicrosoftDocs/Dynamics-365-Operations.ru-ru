@@ -2,22 +2,25 @@
 title: Продажи, покупки и переводы в иностранной валюте
 description: Этот раздел описывает функциональные возможности для регистрации проводок для продажи, покупки и перевода валюты.
 author: anasyash
+manager: AnnBe
 ms.date: 02/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9ec7fe4d5d06b4a1da10c2ec3f42cc06f2c590848ffedca8ab8c0afe0788cade
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ef50fc6d17b8054cdf08df9a9b2033dc00fabc1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408585"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажи, покупки и переводы в иностранной валюте
 
@@ -92,7 +95,7 @@ Dynamics 365 Finance позволяет выполнять следующие з
 2. Создайте банковский счет или выберите существующий.
 3. На экспресс-вкладке **Управление платежами** в полях **Шаблон поручения (продажа валюты)** и **Шаблон поручения (покупка валюты)** выберите шаблон Microsoft Word.
 
-Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](./rus-local-settings-requisites-bank-module.md).
+Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-local-settings-requisites-bank-module).
 
 ### <a name="set-up-a-number-sequence"></a>Настройка номерной серии
 
@@ -387,6 +390,3 @@ Dynamics 365 Finance позволяет выполнять следующие з
 4. Выберите **Разнести**. Создается проводка разницы валютных курсов. Счета ГК для курсовой разницы иностранной валюты берутся из счетов **Реализованная прибыль** и **Реализованный убыток**, которые указаны в настройке параметров иностранной валюты.
 5. Можно просмотреть проводки, которые будут созданы. На страницы **Банковские группы** выберите **Проводки**.
 6. Имеется возможность разноски отмены сопоставления проводок. На странице **Банковские группы** выберите **Функции \> Редактирование сопоставленных проводок**, отметьте проводки, затем выберите **Сторнировать**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

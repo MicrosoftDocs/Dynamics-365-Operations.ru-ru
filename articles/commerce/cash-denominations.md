@@ -2,9 +2,11 @@
 title: Настройка номиналов денежных знаков для терминала POS
 description: Можно определить в бэк-офисе номиналы банкнот и монет, которые будут использоваться кассирами, продавцами и менеджерами в магазине из POS.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ff4eb5bc7c5e2c0192a5349219301b26e479ac6be978eb05063b68f348b4e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743466"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961567"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Настройка номиналов денежных знаков для терминала POS
 
@@ -33,7 +35,7 @@ ms.locfileid: "6743466"
 
 Номиналы настраиваются для каждого магазина на странице **Настроить** \> **Декларирование наличности** в свойствах магазина.
 
-![Параметр декларирования наличности.](./media/image1-denomination.png)
+![Параметр декларирования наличности](./media/image1-denomination.png)
 
 Чтобы определить номинал:
 
@@ -41,7 +43,7 @@ ms.locfileid: "6743466"
 1. Укажите тип (монета или банкнота).
 1. Укажите сумму (значение).
 
-![Страница декларирования наличности по номиналам.](./media/image2-denomination.png)
+![Страница декларирования наличности по номиналам](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Настройка профиля функциональности
 
@@ -49,6 +51,3 @@ ms.locfileid: "6743466"
 
 - **Больше или равно сумме к выплате** — по умолчанию POS будет только отображать номиналы банкнот, которые больше суммы к выплате, что позволяет принять оплату одним нажатием. Например, если сумма к уплате составляет 75 рублей, в POS отобразятся следующие номиналы: 100, 500, 1000 и 5000 рублей. При нажатии любой их этих сумм она автоматически будет принята в уплату за покупку. 5-, 10- и 50-рублевые банкноты не отображаются, поскольку эти суммы меньше суммы к уплате.
 - **Все номиналы** — выберите этот вариант, чтобы в POS всегда отображались все номиналы, независимо от суммы к выплате. Это означает, что пользователь может использовать сочетание банкнот для достижения суммы к выплате. Например если сумма к уплате составляет 60 рублей, пользователь может выбрать 50 рублей и 10 рублей для совершения продажи.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Унифицированные формы печати для основных средств (Россия)
 description: В этом разделе содержатся сведения об унифицированных формах печати основных средств для Microsoft Dynamics 365 Finance для России.
 author: v-oloski
+manager: AnnBe
 ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4fa132769a530afd3b5fac38f23b8dbf9af76c72df74a246a16b8307bb7dec1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d4156e1cc94ed2c52ebace9e198f48ceaa036b7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718202"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962564"
 ---
 # <a name="unified-printing-forms-for-fixed-assets-russia"></a>Унифицированные формы печати для основных средств (Россия)
 
@@ -80,11 +82,11 @@ ms.locfileid: "6718202"
 1. Перейдите в раздел **Основное средство (Россия)** \> **Общие** \> **Основные средства**.
 2. Выберите вкладку **Основные средства**, затем в области действий выберите **Документы** \> **Документы** \> **Карточка учета (\#FA6)**.
 
-  ![Выбор карточки учета ОС.](media/RUS-Selection-of-FA6-inventory-card.png) 
+  ![Выбор карточки учета ОС](media/RUS-Selection-of-FA6-inventory-card.png) 
 
 3. Щелкните **Создать** в списке страницы карточки учета (\#FA-6) для создания карточки учета для модели стоимости.
 
- ![Карточка учета основных средств.](media/RUS-FA6-inventory-card.png)
+ ![Карточка учета основных средств](media/RUS-FA6-inventory-card.png)
 
 
 После создания записи можно напечатать унифицированную форму с этого списка страниц.
@@ -123,7 +125,4 @@ ms.locfileid: "6718202"
 
 Чтобы напечатать документы, созданные из запросов, выберите **Основные средства (Россия)** \> **Запросы** \> **Документы**. Выделите документ для печати, затем выберите **Печать**.
 
-![Печать унифицированных форм из запросов.](media/RUS-Print-unified-forms.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Печать унифицированных форм из запросов](media/RUS-Print-unified-forms.png)

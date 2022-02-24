@@ -2,30 +2,36 @@
 title: Настройка организационных иерархий
 description: В этом разделе описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746024"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415199"
 ---
 # <a name="set-up-organization-hierarchies"></a>Настройка организационных иерархий
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Перед созданием каналов необходимо подтвердить настройку организационных иерархий.
 
@@ -54,7 +60,7 @@ ms.locfileid: "6746024"
 
 На следующем рисунке показан пример организационной иерархии, созданной для вымышленного набора магазинов "Adventure Works".
 
-![Пример организационное иерархии.](media/organizational-hierarchies.png)
+![Пример организационное иерархии](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Добавление организаций в иерархию
 
@@ -67,7 +73,7 @@ ms.locfileid: "6746024"
 
 На следующем рисунке показано юридическое лицо, добавленное в корень иерархии, и четыре места возникновения затрат, добавленные для каналов "Торговый центр", "Торговая точка", "Интернет" и "Центр обработки вызовов". Затем можно добавить каналы розничной торговли, центра обработки вызовов и интернет-каналы.
 
-![Пример конструктора иерархий.](media/hierarchy-designer.png)
+![Пример конструктора иерархий](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -82,6 +88,3 @@ ms.locfileid: "6746024"
 [Обзор каналов](channels-overview.md)
 
 [Необходимые условия для настройки каналов](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

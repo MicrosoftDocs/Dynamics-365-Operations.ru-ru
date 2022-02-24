@@ -1,24 +1,26 @@
 ---
 title: Создание заказа на покупку
 description: В этой теме показано, как создать заказ на покупку вручную.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4e4a89c5341fd683a0a022ad7c2d4bcbd72981
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5a3da6b70054fac878ba6266017bffe75f634f61
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579528"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016636"
 ---
 # <a name="create-a-purchase-order"></a>Создание заказа на покупку
 
@@ -71,6 +73,3 @@ ms.locfileid: "7579528"
 
 2. Нажмите **ОК**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

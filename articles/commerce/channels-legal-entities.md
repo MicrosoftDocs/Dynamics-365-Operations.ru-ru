@@ -2,30 +2,36 @@
 title: Создание юридических лиц
 description: В этом разделе описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740439"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415202"
 ---
 # <a name="create-legal-entities"></a>Создание юридических лиц
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
+
+## <a name="overview"></a>Обзор
 
 Юридическое лицо — это организация, имеющая зарегистрированную или узаконенную правовую структуру. Юридические лица могут заключать юридические соглашения и обязаны подготавливать отчетность по результатам своей деятельности.
 
@@ -44,7 +50,7 @@ ms.locfileid: "6740439"
 1. В поле **Страна/регион** введите или выберите значение.
 1. Нажмите **ОК**. 
 
-   ![Создание юридического лица.](media/legal-entities.png)
+   ![Создание юридического лица](media/legal-entities.png)
 
 1. В разделе **Общее** укажите следующие общие сведения о юридическом лице: 
    1. Введите Краткое наименование, если Краткое наименование необходимо. Краткое наименование — это альтернативное имя, которое можно использовать для поиска этого юридического лица. 
@@ -67,7 +73,7 @@ ms.locfileid: "6740439"
 
 На следующем рисунке показаны сведения с примером юридического лица.
 
-![Общий раздел юридического лица.](media/legal-entities-general.png)
+![Общий раздел юридического лица](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -80,6 +86,3 @@ ms.locfileid: "6740439"
 [Обзор каналов](channels-overview.md)
 
 [Необходимые условия для настройки каналов](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,32 +1,30 @@
 ---
-title: Запуск процесса компенсации
-description: В этом разделе объясняется, как решить проблему, когда клиент безуспешно пытается запустить процесс компенсации в Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/19/2021
+title: Запуска процесса компенсации
+description: В этой статье объясняется, как решить проблему, когда клиент безуспешно пытается запустить процесс компенсации в Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420187"
 ---
 # <a name="run-the-compensation-process"></a>Запуска процесса компенсации
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Расход**
 
@@ -42,13 +40,10 @@ ms.locfileid: "8065409"
 
 - Настройка:
 
-    - [Планы компенсационных выплат](/dynamics365/unified-operations/talent/compensation-plans)
-    - [Создание планов фиксированной компенсации](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Создание планов переменной компенсации](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Планы компенсационных выплат](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
+    - [Создание планов фиксированной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Создание планов переменной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Процесс:
 
-    - [Обработка компенсаций](/dynamics365/unified-operations/talent/process-compensation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    - [Обработка компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)

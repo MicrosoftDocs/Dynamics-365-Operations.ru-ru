@@ -2,12 +2,15 @@
 title: Повышение вариации и завершение эксперимента
 description: В этом разделе описывается, как повысить успешную вариацию и завершить эксперимент в Dynamics 365 Commerce.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738754"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4415381"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Повышение вариации и завершение эксперимента
 
 В этом разделе описывается, как повысить вариацию, которая дает наилучший результат в эксперименте, и как завершить эксперимент. На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах.
 
-[ ![Путь взаимодействия пользователя с экспериментами — проверка и завершение.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Путь взаимодействия пользователя с экспериментами — проверка и завершение](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 После [выполнения эксперимента](experimentation-run-monitor.md) и сбора необходимых данных для определения вариации, которую вы хотите использовать на своем веб-сайте, вы сможете повысить вариацию и завершить эксперимент.
 
@@ -58,6 +61,3 @@ ms.locfileid: "6738754"
 
 ## <a name="previous-step"></a>Предыдущий шаг
 [Запуск эксперимента и контроль за ним](experimentation-run-monitor.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

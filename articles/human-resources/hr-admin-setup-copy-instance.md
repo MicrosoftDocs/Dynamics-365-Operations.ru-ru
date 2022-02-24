@@ -2,12 +2,15 @@
 title: Копирование экземпляра
 description: Можно использовать Microsoft Dynamics Lifecycle Services (LCS) для копирования базы данных Microsoft Dynamics 365 Human Resources в среду в песочнице.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060839"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527845"
 ---
 # <a name="copy-an-instance"></a>Копирование экземпляра
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Можно использовать Microsoft Dynamics Lifecycle Services (LCS) для копирования базы данных Microsoft Dynamics 365 Human Resources в среду в песочнице. При наличии другой среды-песочницы можно также скопировать базу данных из этой среды в целевую среду-песочницу.
 
@@ -38,9 +39,9 @@ ms.locfileid: "8060839"
 
 - Вы должны быть администратором в целевой среде, чтобы можно было войти в систему после копирования экземпляра.
 
-- При копировании базы данных Human Resources не копируются элементы (приложения или данные), содержащиеся в среде Microsoft Power Apps. Сведения о способе копирования элементов в среде Power Apps см. в разделе [Копирование среды](/power-platform/admin/copy-environment). Среда Power Apps, которую требуется перезаписывать, должна быть средой песочницы. Чтобы изменить производственную среду Power Apps на среду песочницы, необходимо быть глобальным администратором клиента. Дополнительные сведения об изменении среды Power Apps см. в разделе [Переключение экземпляра](/dynamics365/admin/switch-instance).
+- При копировании базы данных Human Resources не копируются элементы (приложения или данные), содержащиеся в среде Microsoft Power Apps. Сведения о способе копирования элементов в среде Power Apps см. в разделе [Копирование среды](https://docs.microsoft.com/power-platform/admin/copy-environment). Среда Power Apps, которую требуется перезаписывать, должна быть средой песочницы. Чтобы изменить производственную среду Power Apps на среду песочницы, необходимо быть глобальным администратором клиента. Дополнительные сведения об изменении среды Power Apps см. в разделе [Переключение экземпляра](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Если экземпляр копируется в среду "песочницы" и требуется интегрировать среду "песочницы" с Dataverse, необходимо повторно применить настраиваемые поля к таблицам Dataverse. См. раздел [Применение настраиваемых полей к Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Если экземпляр копируется в среду "песочницы" и требуется интегрировать среду "песочницы" с Common Data Service, необходимо повторно применить настраиваемые поля к сущностям Common Data Service. См. раздел [Применение настраиваемых полей к Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Результаты копирования базы данных Human Resources
 
@@ -52,9 +53,9 @@ ms.locfileid: "8060839"
 
 - Документы в хранилище BLOB-объектов Microsoft Azure не копируются из одной среды в другую. В результате все документы и шаблоны, которые прикрепляются, не будут скопированы и останутся в исходной среде.
 
-- Все пользователи, кроме тех, у кого есть роль безопасности "системный администратор", и другие учетные записи пользователей внутренних служб, будут недоступны. Пользователь с правами администратора может удалять или заменять данные до того, как другие пользователи смогут вернуться в систему.
+- Все пользователи, кроме администратора и других учетных записей пользователей внутренних служб, будут недоступны. Пользователь с правами администратора может удалять или заменять данные до того, как другие пользователи смогут вернуться в систему.
 
-- Пользователь с ролью безопасности "системный администратор" должен выполнить необходимые изменения конфигурации, такие как повторное подключение конечных точек интеграции к отдельным службам или URL-адресам.
+- Пользователь-администратор должен выполнить необходимые изменения конфигурации, такие как повторное подключение конечных точек интеграции к отдельным службам или URL-адресам.
 
 ## <a name="copy-the-human-resources-database"></a>Копирование базы данных Human Resources
 
@@ -71,15 +72,15 @@ ms.locfileid: "8060839"
 
 4. В области задач **Копирование экземпляра** выберите экземпляр, который требуется перезаписать, и нажмите кнопку **Копировать**. Дождитесь обновления значения поля **Статус копирования** до **Завершено**.
 
-   ![[Выберите экземпляр для перезаписи.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Выберите экземпляр для перезаписи](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Выберите **Power Platform** и выполните вход в центр администрирования Microsoft Power Platform.
 
-   ![[Выберите Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Выберите Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Выберите среду Power Apps для копирования, а затем выберите **Копировать**.
 
-7. После завершения процесса копирования выполните вход в целевой экземпляр и включите интеграцию Dataverse. Для получения дополнительных сведений и инструкций см. раздел [Настройка интеграции Dataverse](./hr-admin-integration-common-data-service.md).
+7. После завершения процесса копирования выполните вход в целевой экземпляр и включите интеграцию Common Data Service. Для получения дополнительных сведений и инструкций см. раздел [Настройка интеграции Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Элементы данных и статусы
 
@@ -111,7 +112,7 @@ ms.locfileid: "8060839"
 
 Также при копировании экземпляра изменяются следующие статусы:
 
-- Все пользователи, кроме тех, у кого есть роль безопасности "системный администратор", **отключены**.
+- Все пользователи, кроме администраторов задаются как **Отключено**.
 
 - Все пакетные задания, за исключением некоторых системных заданий, устанавливаются в значение **Удержание**.
 
@@ -121,11 +122,11 @@ ms.locfileid: "8060839"
 
 Все пользователи, не являющиеся администраторами в целевой среде песочницы, отключены для защиты от нежелательного входа в среду песочницы. Администраторы могут повторно включить пользователей, если это необходимо.
 
-## <a name="apply-custom-fields-to-dataverse"></a>Применение настраиваемых полей к Dataverse
+## <a name="apply-custom-fields-to-common-data-service"></a>Применение настраиваемых полей к Common Data Service
 
-Если экземпляр копируется в среду "песочницы" и требуется интегрировать среду "песочницы" с Dataverse, необходимо повторно применить настраиваемые поля к таблицам Dataverse.
+Если экземпляр копируется в среду "песочницы" и требуется интегрировать среду "песочницы" с Common Data Service, необходимо повторно применить настраиваемые поля к сущностям Common Data Service.
 
-Для каждого настраиваемого поля, доступного для таблиц Dataverse, выполните следующие шаги:
+Для каждого настраиваемого поля, доступного для сущностей Common Data Service, выполните следующие шаги:
 
 1. Перейдите в настраиваемое поле и выберите **Правка**.
 
@@ -139,9 +140,9 @@ ms.locfileid: "8060839"
 
 6. Снова выберите **Применить изменения**.
 
-Процесс отмены выбора, применения изменений, повторного выбора и повторного применения изменений приводит к изменению схемы в Dataverse, чтобы включить в нее настраиваемые поля.
+Процесс отмены выбора, применения изменений, повторного выбора и повторного применения изменений приводит к изменению схемы в Common Data Service, чтобы включить в нее настраиваемые поля.
 
-Дополнительные сведения о настраиваемых полях см. в разделе [Создание настраиваемых полей и работа с ними](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
+Дополнительные сведения о настраиваемых полях см. в разделе [Создание настраиваемых полей и работа с ними](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
 ## <a name="see-also"></a>См. также
 
@@ -149,6 +150,3 @@ ms.locfileid: "8060839"
 [Удаление экземпляра](hr-admin-setup-remove-instance.md)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

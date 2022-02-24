@@ -2,9 +2,11 @@
 title: Массовое закрытие финансовых периодов
 description: В этой теме демонстрируется, как заблокировать период или закрыть период на постоянной основе одновременно для нескольких юридических лиц.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751285"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968737"
 ---
 # <a name="mass-financial-period-close"></a>Массовое закрытие финансовых периодов
 
@@ -39,6 +41,3 @@ ms.locfileid: "6751285"
 11. Выберите **Обновить статус периода** и задайте статус **Заблокировано**, **Открытый** или **Закрытый на постоянной основе**. **Открытый** означает, что период можно разнести при условии, что у пользователя есть доступ. **Заблокировано** означает, что разноска в период невозможна, но период может быть повторно открыт. **Закрытый на постоянной основе** означает, что период закрыт и его открытие невозможно. Разноска корректировок невозможна. Не рекомендуется задавать период как **Закрытый на постоянной основе**, пока не будут сделаны все корректировки и аудиты.  
 12. Выберите **Обновить**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

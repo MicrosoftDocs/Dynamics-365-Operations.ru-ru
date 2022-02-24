@@ -2,8 +2,11 @@
 title: Список функций ER в категории текста
 description: В этой теме содержится информация о функциях текста, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
-ms.date: 09/09/2021
+manager: kfend
+ms.date: 04/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075508"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686035"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Список функций ER в категории текста
 
@@ -35,14 +38,12 @@ ms.locfileid: "8075508"
 | [Объединить](er-functions-text-concatenate.md) | Эта функция возвращает все указанные строки текста как значение *Строка* после того, как они были объединены в одну строку. |
 | [Формат](er-functions-text-format.md) | Эта функция возвращает указанную строку как *строковое* значение после ее форматирования путем замены любых вхождений **%N** *n*-ным аргументом. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Эта функция выполняет поиск определенного значения *Enum* в указанном источнике данных перечисления, используя имя перечисления, указанное как значение *строка*. При обнаружении значения *Enum* функция возвращает его. |
-| [GetLabelText](er-functions-text-getlabeltext.md) | Эта функция выполняет поиск конкретной метки для возврата значения *[Строка](er-formula-supported-data-types-primitive.md#string)*, представляющего преобразование указанной метки на указанном языке. |
 | [GuidValue](er-functions-text-guidvalue.md) | Эта функция преобразует заданный ввод типа *Строка* в элемент данных типа *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Эта функция анализирует данные в формате JavaScript Object Notation (JSON), к которому осуществляется доступ по специальному пути и извлекает скалярное значение на основании указанного идентификатора. Затем она возвращает извлеченное скалярное значение как *строковое* значение. |
 | [По левому краю](er-functions-text-left.md) | Эта функция возвращает *строковое* значение, которое представляет указанное число символов от начала указанной строки. |
 | [Len](er-functions-text-len.md) | Эта функция возвращает *целочисленное* значение, которое представляет число символов указанной строки. |
 | [Lower](er-functions-text-lower.md) | Эта функция возвращает указанную строку текста в качестве *строкового* значения после того, как она была преобразована в буквы нижнего регистра. |
-| [Mid](er-functions-text-mid.md) | Эта функция возвращает *[строковое](er-formula-supported-data-types-primitive.md#string)* значение, которое представляет указанное число символов из указанной строки, начиная с указанного положения. |
-| [NewGUID](er-functions-text-newguid.md) | Эта функция возвращает только что созданное значение *[GUID](er-formula-supported-data-types-primitive.md#guid)*. |
+| [Mid](er-functions-text-mid.md) | Эта функция возвращает *строковое* значение, которое представляет указанное число символов из указанной строки, начиная с указанного положения. |
 | [NumberFormat](er-functions-text-numberformat.md) | Эта функция возвращает значение *строки*, которое представляет заданное число в указанном формате и в дополнительно указанной культуре. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Эта функция возвращает указанное число в качестве *строкового* значения после того, как оно было преобразовано в текст (т.е. преобразовано в строки текста) на указанном языке. |
 | [PadLeft](er-functions-text-padleft.md) | Эта функция возвращает *строковое* значение указанной длины, в которой в начало указанной строки добавлены один или несколько экземпляров указанных символов. |
@@ -61,6 +62,3 @@ ms.locfileid: "8075508"
 [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 
 [Язык формул электронной отчетности](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

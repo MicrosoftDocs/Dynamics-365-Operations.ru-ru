@@ -1,8 +1,6 @@
-- name: Вывод Dynamics 365 Talent из эксплуатации
-  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
   items:
-    - name: Домашняя страница Dynamics 365 Talent
-      href: ./index.md
     - name: Начало работы
       items:
         - name: Начало работы с Talent
@@ -38,7 +36,7 @@
               href: whats-new-talent-october-8-2019.md
             - name: 1 октября 2019 г.
               href: whats-new-talent-october-1-2019.md
-            - name: Архивы "Что нового" за 2019 г.
+            - name: Архивы «Что нового» за 2019 г.
               items:
                 - name: 17 сентября 2019 г.
                   href: whats-new-talent-september-17-2019.md
@@ -153,7 +151,7 @@
         - name: Экспорт данных из Attract и Onboard
           href: attract-onboard-export-data.md
         - name: Внедрение приложений на основе холста из Power Apps
-          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Получение поддержки по Talent
           href: talent-support.md
     - name: Набор персонала для организации с помощью Attract

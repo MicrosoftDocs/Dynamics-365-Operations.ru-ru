@@ -1,32 +1,33 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (24 марта 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 24 марта 2020 года.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061419"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526930"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (24 марта 2020 г.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3073. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
 
@@ -58,7 +59,7 @@ ms.locfileid: "8061419"
 
 - **Функция предварительного просмотра управления льготами** — дополнительные сведения, включая известные проблемы, см. в разделе [Обзор управления преимуществами](hr-benefits-management-overview.md).
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Решение Dataverse теперь доступно со следующими изменениями:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Решение Common Data Service теперь доступно со следующими изменениями:
 
 | описание | Изменение |
 | --- | --- |
@@ -70,12 +71,12 @@ ms.locfileid: "8061419"
 | Новые объекты настройки переменной компенсации | <ul><li>**Тип плана переменной компенсации**</li><li>**План переменной компенсации**</li><li>**Положения о передаче прав на льготы**</li><li>**Уровень плана переменной компенсации**</li></ul> |
 | Новый объект **Занятость по календарю работников** | <ul><li>Добавлено **Объект рабочего календаря**</li></ul> |
 | Новый объект **Сведения о позиции зарплаты** | <ul><li>Добавлено **Сведения о позиции зарплаты**</li></ul> |
-| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Dataverse, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
+| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Common Data Service, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
 
 > [!NOTE]
-> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Dataverse. Обновления финансовых аналитик в данный момент не синхронизируются из Dataverse в модуль Human Resources.
+> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Common Data Service. Обновления финансовых аналитик в данный момент не синхронизируются из Common Data Service в модуль Human Resources.
 
-В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Dataverse для модуля Human Resources:
+В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Common Data Service для модуля Human Resources:
 
 1.  Перейдите к [Центру администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -118,8 +119,6 @@ ms.locfileid: "8061419"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

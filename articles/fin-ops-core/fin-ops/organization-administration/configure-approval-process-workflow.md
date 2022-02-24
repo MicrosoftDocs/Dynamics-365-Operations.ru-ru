@@ -2,9 +2,11 @@
 title: Настройка процессов утверждения в workflow-процессе
 description: Используйте следующую процедуру для настройки свойств для процесса утверждения.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070810"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798937"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Настройка процессов утверждения в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Используйте следующую процедуру для настройки свойств для процесса утверждения.
 
@@ -184,6 +183,3 @@ ms.locfileid: "8070810"
 1. В редакторе workflow-процесс, дважды щелкните процесс утверждения. Редактор workflow-процесс отображает шаги процесса утверждения.
 2. Для добавления шага утверждения, перетащите шаг из зоны **Элементы workflow-процесса** на холст.
 3. Для настройки стадии утверждения см. раздел [Настройка этапов утверждения в workflow-процессе](configure-approval-step-workflow.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

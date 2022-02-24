@@ -1,14 +1,17 @@
 ---
 title: Включение Azure Data Lake Storage в среде Dynamics 365 Commerce
-description: В этом разделе приводятся инструкции по подключению решения Azure Data Lake Storage 2 поколения к хранилище объектов среды Dynamics 365 Commerce. Это обязательный шаг перед включением рекомендаций по продукту.
+description: В этой теме объясняется, как включить и проверить Azure Data Lake Storage для среды Dynamics 365 Commerce, что является необходимым условием для включения рекомендаций по продукту.
 author: bebeale
-ms.date: 08/31/2020
+manager: AnnBe
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,41 +19,44 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466300"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415149"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Включение Azure Data Lake Storage в среде Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе приводятся инструкции по подключению решения Azure Data Lake Storage 2 поколения к хранилище объектов среды Dynamics 365 Commerce. Это обязательный шаг перед включением рекомендаций по продукту.
+В этой теме объясняется, как включить и проверить Azure Data Lake Storage для среды Dynamics 365 Commerce, что является необходимым условием для включения рекомендаций по продукту.
 
-В решении Dynamics 365 Commerce данные, необходимые для расчета рекомендаций, продуктов и проводок, суммируются в хранилище объектов среды. Чтобы сделать эти данные доступными другим службам Dynamics 365, таким как анализ данных, бизнес-аналитика и персонализированные рекомендации, необходимо подключить среду к принадлежащему заказчику решению Azure Data Lake Storage 2 поколения.
+## <a name="overview"></a>Обзор
 
-После выполнения описанных выше действий все данные клиентов в хранилище объектов среды автоматически отражаются в решении клиента Azure Data Lake Storage 2 поколения. Когда функции рекомендаций включены через рабочую область управления функциями в Commerce headquarters, стеку рекомендаций будет предоставлен доступ к тому же решению Azure Data Lake Storage 2 поколения.
+В решении Dynamics 365 Commerce все сведения о продуктах и проводках отслеживаются в хранилище объектов среды. Чтобы сделать эти данные доступными другим службам Dynamics 365, таким как анализ данных, бизнес-аналитика и персонализированные рекомендации, необходимо подключить среду к принадлежащему заказчику решению Azure Data Lake Storage Gen 2.
 
-Во время всего процесса данные клиентов остаются защищенными и управляются ими.
+После настройки Azure Data Lake Storage в среде все необходимые данные будут зеркально отражены из хранилища объектов, а также защищены и будут управляться клиентом.
+
+Если в среде также включены рекомендации по продукту или персонализированные рекомендации, то в стеке рекомендаций по продукту будет предоставлен доступ к выделенной папке в Azure Data Lake Storage, чтобы извлечь данные клиента и вычислить рекомендации на их основе.
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Хранилище объектов среды Dynamics 365 Commerce должно быть подключено к учетной записи хранилища Azure Data Lake 2 поколения и сопутствующим службам.
+У клиентов должны быть настроены Azure Data Lake Storage в подписке Azure, которая им принадлежит. Этот раздел не охватывает покупку подписки Azure или настройки учетной записи хранения с Azure Data Lake Storage.
 
-Дополнительные сведения о Azure Data Lake Storage 2 поколения и как его настроить см. в разделе [Официальная документация по Azure Data Lake Storage](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Дополнительные сведения о Azure Data Lake Storage см. в разделе [Официальная документация по Azure Data Lake Storage](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Шаги конфигурации
 
-В этом разделе описываются этапы настройки, необходимые для включения Azure Data Lake Storage 2 поколения в среде в соответствии с рекомендациями по продуктам.
-Более подробное описание шагов, необходимых для включения Azure Data Lake Storage 2 поколения, см. в разделе [Предоставление хранилища объектов как Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+В этом разделе описываются этапы настройки, необходимые для включения Azure Data Lake Storage в среде в соответствии с рекомендациями по продуктам.
+Более подробное описание шагов, необходимых для включения Azure Data Lake Storage, см. в разделе [Предоставление хранилища объектов как Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Включение Azure Data Lake Storage в среде
 
 1. Выполните вход на портал операционных отделов организации для среды.
 1. Выполните поиск **Системные параметры** и перейдите на вкладку **Подключения данных**. 
 1. Установите для **Разрешить интеграцию с Data Lake** значение **Да**.
+1. Установите для **Постепенное обновление Data Lake** значение **Да**.
 1. Затем введите следующие необходимые сведения:
     1. **Код приложения** // **Секретный ключ приложения** // **DNS-имя** — требуется для подключения к KeyVault, где хранится секретный ключ Azure Data Lake Storage.
     1. **Имя секрета — имя секрета**, хранящееся в KeyVault и используемое для аутентификации в Azure Data Lake Storage.
@@ -58,7 +64,7 @@ ms.locfileid: "7466300"
 
 На следующем рисунке показан пример конфигурации Azure Data Lake Storage.
 
-![Пример конфигурации Azure Data Lake Storage.](./media/exampleADLSConfig1.png)
+![Пример конфигурации Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Проверка подключения Azure Data Lake Storage
 
@@ -66,7 +72,7 @@ ms.locfileid: "7466300"
 1. Проверьте подключение к Azure Data Lake Storage с помощью ссылки **Проверка хранилища Azure**.
 
 > [!NOTE]
-> Если какой-либо из вышеперечисленных проверка завершилась неудачно, проверьте правильность всех добавленных данных KeyVault и повторите попытку.
+> Если проверка завершилась неудачно, проверьте правильность всех добавленных данных KeyVault, а затем повторите попытку.
 
 После успешного выполнения проверки подключения необходимо включить автоматическое обновление для хранилища объектов.
 
@@ -78,7 +84,7 @@ ms.locfileid: "7466300"
 
 На следующем рисунке показан пример хранилища объектов с включенным автоматическим обновлением.
 
-![Пример хранилища объектов с включенным автоматическим обновлением.](./media/exampleADLSConfig2.png)
+![Пример хранилища объектов с включенным автоматическим обновлением](./media/exampleADLSConfig2.png)
 
 Теперь Azure Data Lake Storage настроено для среды. 
 
@@ -109,6 +115,3 @@ ms.locfileid: "7466300"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

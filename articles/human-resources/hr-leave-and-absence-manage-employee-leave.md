@@ -2,12 +2,15 @@
 title: Управление отпусками сотрудников
 description: Управление отпусками сотрудников в Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 07/16/2021
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067385"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420330"
 ---
 # <a name="manage-employee-leave"></a>Управление отпусками сотрудников
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Вы можете управлять отпусками сотрудников, используя типы отпусков. Сюда входят истечение срока действия отпусков и корректировка сальдо по типу отпуска. 
 
@@ -47,16 +45,14 @@ ms.locfileid: "8067385"
 
 При корректировке сальдо отпусков для сотрудника можно включить код основания и комментарий. 
 
-Теперь при наведении указателя на любое сальдо отпуска отображаются следующие сведения:
-
-- **Доступно** — значение **Итог в этом году** за вычетом значения **Взято в этом году**.
-- **Итог в этом году** — все начисления, корректировки и переносы для этого года.
-- **Взято в этом году** — все утвержденные отгулы.
+>[!IMPORTANT]
+>Просмотр дополнительной информации о сальдо отпусков возможен в предварительной версии. Необходимо включить ее в среде **Песочница**. Дополнительные сведения о включении функций предварительной версии см. в разделе [Управление функциями](hr-admin-manage-features.md).<br>
+>При наведении указателя на любой сальдо отпуска теперь можно увидеть:<br>
+>- **Доступно** : итог этого года — взять в этом году
+>- **Итог в этом году**: все начисления, корректировки и переносы для этого года
+>- **Взято в этом году**: все утвержденные отгулы
 
 ## <a name="see-also"></a>См. также
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Управление запросами на отпуска и отсутствие](hr-employee-self-service-manage-requests.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

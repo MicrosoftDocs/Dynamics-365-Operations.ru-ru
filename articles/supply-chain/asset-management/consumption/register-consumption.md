@@ -1,10 +1,12 @@
 ---
 title: Регистрация потребления
 description: В этом разделе описывается, как регистрировать потребление в управлении активами.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765593"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020789"
 ---
 # <a name="register-consumption"></a>Регистрация потребления
 
@@ -54,7 +56,7 @@ ms.locfileid: "6765593"
 
 На следующем снимке экрана показан пример регистраций времени и номенклатуры в заказе на работу в пункте **Журналы заказов на работу**.
 
-![Рисунок 1.](media/01-consumption.png)
+![Рисунок 1](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Разбиение часов по заказам на работу с несколькими заданиями заказа на работу
@@ -73,13 +75,13 @@ ms.locfileid: "6765593"
 
 6. Введите количество разделяемых рабочих часов в поле **Часы**.
 
-    ![Рисунок 2.](media/02-consumption.png)
+    ![Рисунок 2](media/02-consumption.png)
 
 7. Щелкните **OK**.
 
 *Пример:* на следующем снимке экрана показаны строки журнала для заказа на работу, содержащего три задания по заказу на работу. Первая строка, содержащая три рабочих часа, была разделена, и один рабочий час регистрируется для каждого задания заказа на работу. После создания трех строк регистрации времени вы решаете, что нужно делать с исходной строкой регистрации часов (первая строка в примере). Ее можно сохранить как есть или удалить. 
 
-![Рисунок 3.](media/03-consumption.png)
+![Рисунок 3](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Финансовые аналитики в регистрациях потребления
 
@@ -92,6 +94,3 @@ ms.locfileid: "6765593"
 >[!NOTE]
 >Для всех трех типов регистрации проверяется комбинация финансовых аналитик, и недопустимые комбинации остаются пустыми. Это стандартная настройка для других приложений Finance and Operations.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

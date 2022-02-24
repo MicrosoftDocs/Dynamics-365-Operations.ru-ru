@@ -1,10 +1,12 @@
 ---
 title: Типы заказов на работу
 description: В этом разделе описываются типы заказов на работу в модуле "Управление активами".
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d77effbfe329a449318d6942918245917f22cdc23defadcb5e85f02c6c786f6d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9111ffa552059883696cf8248a02dfe70bc12ee7
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754736"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021537"
 ---
 # <a name="work-order-types"></a>Типы заказов на работу
 
@@ -48,7 +50,4 @@ ms.locfileid: "6754736"
 
 8. Нажмите **Сохранить**.
 
-![Типы заказов на выполнение работ.](media/16-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Типы заказов на работу](media/16-setup-for-work-orders.png)

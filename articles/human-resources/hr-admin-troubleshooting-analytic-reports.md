@@ -1,32 +1,30 @@
 ---
 title: Устранение неполадок аналитических отчетов
-description: В этой теме объясняется, как устранять неполадки и выявлять проблемы, если изменения данных клиента не отображаются ни в одной из рабочих областей клиента.
-author: twheeloc
-ms.date: 08/19/2021
+description: В этой статье объясняется, что делать, если изменения данных клиента не отображаются ни в одной из рабочих областей клиента.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6ea04c06858cc98b0e233b9133d9dfbebfe59fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 99d9eb3a16e6470820a2eb0a19c1d50e89bd3d36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067737"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420273"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Устранение неполадок аналитических отчетов
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Выдать**
 
@@ -44,7 +42,4 @@ ms.locfileid: "8067737"
 1. Найдите в списке задание **Развертывание измерения**.
 1. Выберите **Изменить** в верхней части страницы, и задайте для запланированной даты и времени запуска значение, которое обновит аналитики ближе к текущему времени.
 
-![Пакетные задания.](media/batch-jobs.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Пакетные задания](media/batch-jobs.png)

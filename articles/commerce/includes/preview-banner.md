@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 4ec95a08a5c51299ab45bbb35bfb51f110c49857242993cce2b27637260d09f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19f995f043b09ccee6ebf7f37c1c37b387436c6b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715490"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459784"
 ---
 > [!IMPORTANT]
-> Часть или вся функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](../../fin-ops-core/fin-ops/get-started/one-version.md).
+> Часть или вся функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version).

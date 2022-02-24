@@ -2,25 +2,28 @@
 title: Домашняя страница модуля Supply Chain Management
 description: На этой странице представлен список разделов справки и другие ресурсы для функций Supply Chain Management.
 author: kamaybac
-ms.date: 09/15/2021
+manager: tfehr
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487872"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459822"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -62,6 +65,7 @@ ms.locfileid: "7487872"
 
 В этих кратких видеороликах представлены новые функции Supply Chain Management, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.).
 
+- [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg) 
 - [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -80,12 +84,13 @@ ms.locfileid: "7487872"
 - **Сводное планирование:**
   - [Расширение функций прогнозирования спроса](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Сводное планирование — советы и рекомендации по устранению проблем с производительностью](https://youtu.be/7v8BPmEs9Dg)
-  - [Настройка производительности MRP](https://youtu.be/RLXybx20B5o)
+  - [Помогите! MRP работает медленно!](https://youtu.be/RLXybx20B5o)
 - **Управление сведениями о продукте:**
   - [Конфигуратор продукции в Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Управление складом:**
   - [Эффективное использование системы управления складом](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства](https://www.youtube.com/embed/QUxXUrN-7n4)
+  - [Метки в новой системе управления складом Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+  - [Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Видеоролики по управлению производством:**
   - [Операции субподряда и мероприятий производства](https://youtu.be/y1jrd3A_k70)
 - **Видеоролики по управлению транспортировкой:**
@@ -93,16 +98,13 @@ ms.locfileid: "7487872"
 
 ## <a name="blogs"></a>Блоги
 
-В [блоге группы исследований производства Dynamics AX](/archive/blogs/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
+В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
 ## <a name="white-papers"></a>Технические документы
 
-- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](/dynamics/s-e/)
+- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
 - [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).

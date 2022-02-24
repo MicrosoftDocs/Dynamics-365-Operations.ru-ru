@@ -2,23 +2,26 @@
 title: Регистрация товаров, отгруженных клиентам (Россия)
 description: В этой теме объясняется, как зарегистрировать отгрузку и передачу прав собственности для товаров, которые транспортируются клиенту.
 author: kfend
+manager: tfehr
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 13918a227f24b078b5ff45395e79a64c08094a412bbfc7cf0c96f5e9b774503a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edf0e3fefb6593b8f3f5aaf8773714c0ee7c947f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713700"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408589"
 ---
 # <a name="register-goods-shipped-to-customers-russia"></a>Регистрация товаров, отгруженных клиентам (Россия)
 
@@ -235,6 +238,3 @@ ms.locfileid: "6713700"
   - **Дебет**: себестоимость проданных товаров, по которым выставлена накладная; **Кредит**: заказ на продажу, корр. счет товаров отгруженных
   - **Дебет**: корр. счет уплаты (налог); **Кредит**: исходящий налог
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

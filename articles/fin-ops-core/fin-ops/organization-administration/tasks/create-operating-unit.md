@@ -2,9 +2,11 @@
 title: Создание операционной единицы
 description: Операционная единица — это организация, используемая для разделения управления экономическими ресурсами и операционными процессами в бизнесе.
 author: sericks007
+manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759001"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796738"
 ---
 # <a name="create-an-operating-unit"></a>Создание операционной единицы
 
@@ -39,6 +41,3 @@ ms.locfileid: "6759001"
     + Введите сведения о способах связи, например адреса электронной почты, URL-адреса и номера телефона. Для ввода новой записи щелкните "Создать". Для изменения существующей записи щелкните **Дополнительные параметры > Дополнительно**.   
 6. При необходимости измените **Номер операционной единицы**. Обратите внимание на то, что этот номер является уникальным идентификатором для записи **Субъект** и не может совпадать с любой другой операционной единицей.
 7. Нажмите **Сохранить**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

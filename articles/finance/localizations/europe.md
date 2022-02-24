@@ -1,23 +1,26 @@
 ---
 title: Обзор по Европе
 description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982102"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512219"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -38,7 +41,6 @@ ms.locfileid: "7982102"
 - [Отчетность отчета ЕС по НДС](emea-eu-sales-list.md)
 - [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
-- [Руководство по финансам (глобализация) относительно воздействия Брексит](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
 - [Выбытие ОС для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Создание документа перемещения для внутреннего перемещения запасов](tasks/transfer-document-internal-inventory-transfer.md)
@@ -63,7 +65,6 @@ ms.locfileid: "7982102"
 - [Обработка накладных](emea-invoice-processing.md)
 - [Выпуск сертификата записи ЕС](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Поддерживаемые стандарты для выставления накладных в электронном виде](emea-oioubl-standards-electronic-invoicing.md)
-- [Принудительное создание электронных накладных](emea-eur-forced-einvoices.md)
 - [Ссылка на исходную накладную (Восточная Европа)](tasks/ee-00004-original-invoice-reference.md)
 - [Поиск субъекта по коду НДС](tasks/eur-00015-party-search-vat-id.md)
 - [Инструмент создания ссылки на платеж](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -93,13 +94,8 @@ ms.locfileid: "7982102"
   - [Создание и отправка отчета по НДС](tasks/create-submit-vat-report.md)
   - [Просмотр проводок по сопоставлению для Восточной Европы](emea-transactions-settlement-form.md)
   - [Дата налоговой точки (дата зачета НДС)](emea-tax-point-date.md)
-  - [Дата регистрации НДС поставщика](emea-date-vendor-VAT-register.md)
-- [Расширение функции финансовых причин](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Обзор электронной отчетности](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

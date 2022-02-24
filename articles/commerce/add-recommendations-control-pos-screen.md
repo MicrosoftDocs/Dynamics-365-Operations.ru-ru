@@ -2,13 +2,16 @@
 title: Добавление рекомендаций на экран проводки
 description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -16,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731015"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415122"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводок
+# <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводки
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +46,7 @@ ms.locfileid: "6731015"
 6. После входа отображается страница, аналогичная приведенной ниже. Макет будет отличаться в зависимости от настроек, которые были сделаны в хранилище.
 
 
-    [![Конструктор макета.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Конструктор макета](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Выберите параметр отображения
 
@@ -58,11 +61,11 @@ ms.locfileid: "6731015"
 1. Уменьшите высоту области подробных сведений о строках проводки, чтобы ее высота была равна высоте панели клиента слева.
 
 
-    [![Высота области сведений строк проводок уменьшена.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Высота области сведений строк проводок уменьшена](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Из левого меню перетащите элемент управления рекомендаций в зону между областью сведений строки проводки и сеткой кнопок в нижней центральной части экрана проводок. Измените размер элемента управления, чтобы он помещался в этой области.
 
-    [![Элемент управления рекомендаций добавлен к макету.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Элемент управления рекомендаций добавлен к макету](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Нажмите кнопку **X**, чтобы сохранить конструктор макетов и выйти из него.
@@ -77,13 +80,13 @@ ms.locfileid: "6731015"
 
 2. Щелкните **Настройка**.
 
-    [![Диалоговое окно "Настройка" — элемент управления вкладки.](./media/pic-5.png)](./media/pic-5.png)
+    [![Диалоговое окно "Настройка" — элемент управления вкладки](./media/pic-5.png)](./media/pic-5.png)
 
 3. Нажмите **Создать вкладку**.
 4. Найдите новую вкладку, которая была добавлена. Может потребоваться выполнить прокрутку вниз.
 5. В раскрывающемся списке **Содержание** выберите **Рекомендуемые продукты**.
 
-    [![Выбор рекомендуемых продуктов в поле содержания.](./media/pic-6.png)](./media/pic-6.png)
+    [![Выбор рекомендуемых продуктов в поле содержания](./media/pic-6.png)](./media/pic-6.png)
 
 6. В **Метка** введите имя для вкладки рекомендаций. Например, введите "Рекомендуемые продукты".
 7. В поле **Изображение** выберите изображение, которое должно появляться на вкладке.
@@ -116,6 +119,3 @@ ms.locfileid: "6731015"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

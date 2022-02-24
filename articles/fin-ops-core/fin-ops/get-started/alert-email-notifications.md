@@ -1,24 +1,26 @@
 ---
 title: Оповещение клиентов с помощью уведомлений по электронной почте
 description: В этом разделе представлена информация о том, как настроить правила, которые отправляют по электронной почте уведомления о предопределенных событиях.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 4e2205ba3bdf5ec2a4e6d9390007eaf1098293c3dd2a5b2ff1b3c73c7de5a83f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734622"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798631"
 ---
 # <a name="client-alert-notifications-by-email"></a>Оповещение клиентов с помощью уведомлений по электронной почте
 
@@ -36,7 +38,7 @@ ms.locfileid: "6734622"
 
 На следующем рисунке показано диалоговое окно **Создать правило генерации оповещений**, которое теперь включает параметр **Отправить сообщение электронной почты**.
 
-[![Диалоговое окно создания правила генерации оповещений, в котором для параметра "Отправить сообщение электронной почты" задано значение "Да".](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Диалоговое окно создания правила генерации оповещений, в котором для параметра "Отправить сообщение электронной почты" задано значение "Да"](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Если для параметра **Отправить сообщение электронной почты** установлено значение **Да**, уведомления с оповещениями будут продолжать доставляться из центра действий.
@@ -47,7 +49,4 @@ ms.locfileid: "6734622"
 
 На следующем рисунке показана структура оповещений, когда они получены по электронной почте.
 
-[![Основанные на шаблонах оповещения для создания записи, изменений полей и удаления шаблона.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[![Основанные на шаблонах оповещения для создания записи, изменений полей и удаления шаблона](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)

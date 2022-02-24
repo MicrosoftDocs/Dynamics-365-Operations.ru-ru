@@ -2,9 +2,11 @@
 title: Что нового и что изменилось в версии приложения Dynamics AX 7.0.1 (май 2016 г.)
 description: В этой статье описываются новые и измененные компоненты в приложении Microsoft Dynamics AX версии 7.0.1. Эта версия была выпущена в мае 2016 г. и имеет номер сборки 7.0.1265.23014.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748272"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797172"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Что нового и что изменилось в версии приложения Dynamics AX 7.0.1 (май 2016 г.)
 
@@ -76,7 +78,7 @@ ms.locfileid: "6748272"
 </tr>
 <tr>
 <td>Поддерживать спецификации, содержащие номенклатуры с различными аналитиками продукта одной номенклатуры.</td>
-<td>При использовании одной или нескольких аналитик продукта в производстве могут возникать ситуации, когда требуется произвести номенклатуру, основанную на другом варианте той же номенклатуры. Дополнительные сведения см. в <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">этом блоге</a>.</td>
+<td>При использовании одной или нескольких аналитик продукта в производстве могут возникать ситуации, когда требуется произвести номенклатуру, основанную на другом варианте той же номенклатуры. Дополнительные сведения см. в <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">этом блоге</a>.</td>
 </tr>
 <tr>
 <td>Производственные заказы с циклическими структурами на первом уровне своих спецификаций исключаются из расчета уровня спецификации при планировании материальных ресурсов.</td>
@@ -104,6 +106,3 @@ ms.locfileid: "6748272"
 [Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md)
 
 [Новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

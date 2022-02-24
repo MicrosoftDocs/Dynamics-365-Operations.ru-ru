@@ -1,10 +1,12 @@
 ---
 title: Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 3. Разработка отчета)
-description: В этой теме описывается, как настроить модель электронной отчетности (ER) для использования финансовых аналитик в качестве источника данных для отчетов электронной отчетности. (Часть 3)
+description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605193"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684795"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 3. Разработка отчета)
 
@@ -92,7 +94,7 @@ ms.locfileid: "7605193"
 59. Щелкните "Добавить атрибут".
 60. В поле "Имя" введите "Описание".
 61. Нажмите кнопку "OК".
-![Дерево страницы конструктора форматов.](../media/er-financial-dimensions-guides-format1.png)
+![Страница конструктора операций электронной отчетности](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Сопоставление элементов отчета с источниками данных
 1. Перейдите на вкладку "Сопоставление".
@@ -141,8 +143,5 @@ ms.locfileid: "7605193"
 44. Щелкните "Связать".
 45. Нажмите кнопку Сохранить.
 46. Закройте страницу.
-![Страница конструктора форматов, элементы отчета, сопоставленные источникам данных.](../media/er-financial-dimensions-guides-format2.png)
+![Страница конструктора операций электронной отчетности](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

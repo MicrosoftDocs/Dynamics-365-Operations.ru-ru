@@ -44,5 +44,3 @@ ms.locfileid: "4462324"
 - Обновления поддержки браузеров (LinkedIn больше не поддерживает Internet Explorer 11 с 1 июля 2020 года)
 
 Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter в Attract](attract-linkedin-recruiter.md).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

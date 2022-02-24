@@ -2,22 +2,25 @@
 title: Регистрация проводок со ссылками на договоры
 description: В этой разделе представлены сведения о регистрации проводок договоров.
 author: v-nadyuz
+manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 426d311ae438dddee948cb5b7a0220942d679dc131e970ddc8b7e99f4287918e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c413c0d609506568ef7dfe819b3b6ed09866d53
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744919"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408537"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]
@@ -43,7 +46,7 @@ ms.locfileid: "6744919"
 
 В поле **Заголовок документа** автоматически задается заголовок договора.
 
-![Страница платежей поставщикам.](media/10_Vendor_payments.png)
+![Страница платежей поставщикам](media/10_Vendor_payments.png)
 
 У проводки для контрагента будет ссылка на номер договора.
 
@@ -65,7 +68,7 @@ ms.locfileid: "6744919"
 
     В поле **Заголовок документа** автоматически задается заголовок договора.
 
-    ![Страница накладной с произвольным текстом.](media/11_Free_text_invoice.png)
+    ![Страница накладной с произвольным текстом](media/11_Free_text_invoice.png)
 
 3. Укажите другие сведения и разнесите накладную.
 
@@ -77,7 +80,7 @@ ms.locfileid: "6744919"
 
     В поле **Заголовок документа** автоматически задается заголовок договора.
 
-    ![Страница Ваучера журнала.](media/12_Journal_voucher.png)
+    ![Страница Ваучера журнала](media/12_Journal_voucher.png)
 
 4. Укажите другие сведения, а затем на панели операций выберите **Разнести**, чтобы разнести проводку.
 
@@ -90,7 +93,7 @@ ms.locfileid: "6744919"
 1. Перейдите в раздел **Расчеты с клиентами \> Клиенты \> Все клиенты**.
 2. На вкладке **Сбор** в разделе **Сопоставление** выберите **Сопоставление фактур с оплатами**.
 
-    ![Страница сопоставлений фактур с оплатами.](media/13_Facture_and_payment_settlement.png)
+    ![Страница сопоставлений фактур с оплатами](media/13_Facture_and_payment_settlement.png)
 
 3. В верхней и нижней областях установите следующие параметры, чтобы выбрать проводки:
 
@@ -126,6 +129,3 @@ ms.locfileid: "6744919"
 - [Договоры](rus-agreements.md)
 - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
 - [Запросы и отчеты с договорами](rus-inquiries-reports-agreements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Подготовка метаданных для конкретного приложения для RCS и ER
 description: В этом разделе описана процедура подготовки метаданных конкретного приложения для службы Regulatory Configuration Service (RCS) и электронной отчетности (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735606"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680202"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Подготовка метаданных для конкретного приложения для RCS и ER
 
@@ -278,6 +280,3 @@ ms.locfileid: "6735606"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 Кроме того, можно воспроизвести руководство по задаче **Подготовка метаданных приложения, которые могут использоваться в RCS** в приложении, а также руководства по задачам **Доступ к метаданным приложения с помощью конфигурации электронной отчетности** и **Доступ к метаданным приложения с помощью подключенных приложений** в RCS Эти руководства по задачам можно загрузить со страницы [Руководства по задачам электронной отчетности для Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

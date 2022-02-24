@@ -2,13 +2,16 @@
 title: Управление категориями продуктов и продуктами
 description: В этом разделе описывается, как директора по сбыту могут использовать категории продуктов для управления отношениями между иерархией продуктов Commerce и сведениями о выпущенных продуктах.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743992"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415205"
 ---
 # <a name="manage-product-categories-and-products"></a>Управление категориями продуктов и продуктами
 
@@ -35,17 +38,17 @@ ms.locfileid: "6743992"
 
 В усовершенствованной структуре категорий продуктов свойств продуктов логически разделены на основании их применимости внутри группы, чтобы отразить структуру формы сведений о выпущенном продукте.
 
-![Поля группируются в зависимости от области применимости свойств.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Поля группируются в зависимости от области применимости свойств](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Можно переключаться между управлением свойствами, связанными с конкретным юридическим лицом, по всем юридическим лицам и управлением ими для конкретного юридического лица.
 
 Чтобы управлять свойствами во всех юридических лицах, выберите **Просмотр для всех юридических лиц** (или **Изменение для всех юридических лиц**).
 
-![Просмотр/изменение для всех юридических лиц.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Просмотр/изменение для всех юридических лиц](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Чтобы управлять свойствами для конкретного юридического лица, выберите **Просмотр для конкретного юридического лица** (или **Изменение для конкретного юридического лица**).
 
-![Просмотр/изменение для конкретного юридического лица.](media/ToggleToEditForAllLegalEntities.PNG)
+![Просмотр/изменение для конкретного юридического лица](media/ToggleToEditForAllLegalEntities.PNG)
 
 Кроме того, в улучшенной структуре категорий продуктов директор по сбыту может теперь также определить значения по умолчанию для дополнительного набора свойства продуктов на уровне отдельных категорий. Затем при создании продуктов они наследуют значения по умолчанию для своих свойств продукта на основе связи этих свойств с отдельной категорией из иерархии продуктов. Эти наследуемые свойства продуктов также могут быть изменены для каждого продукта в соответствии с индивидуальными бизнес-требованиями.
 
@@ -53,7 +56,4 @@ ms.locfileid: "6743992"
 
 Можно использовать эту новую улучшенную структуру свойств продукта для выбора того, какие обновленные свойства продукта должны принудительно передаваться в соответствующие продукты. На странице **Иерархия продуктов Commerce** в области действий выберите **Категория**, затем выберите **Обновить продукты** для открытия диалогового окна **Обновить продукты**.
 
-![Диалоговое окно обновления продуктов.](media/NewUpdateProductsEnhancedView.PNG)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Диалоговое окно обновления продуктов](media/NewUpdateProductsEnhancedView.PNG)

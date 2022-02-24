@@ -2,23 +2,26 @@
 title: Корректировки кредит-нот (Россия)
 description: В этой теме приводятся сведения о создании исправлений кредит-нот в расчетах с клиентами и в расчетах с поставщиками.
 author: anasyash
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 2fac4d77e662b26be038b9e5af98649aff228538339006e8e501c2f7c27b5844
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 067fdcd49a08862939cece7defd83dffb883d4cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729530"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408586"
 ---
 # <a name="credit-note-corrections-russia"></a>Корректировки кредит-нот (Россия)
 
@@ -85,6 +88,3 @@ ms.locfileid: "6729530"
 
 ### <a name="post-vendor-invoices-as-credit-corrections"></a>Разноска накладных поставщика как коррекций кредита
 На странице **Открытые накладные поставщиков** вы можете создавать и разносить накладные поставщика в качестве корректировок по кредитам для проводок номенклатур возврата. Процедура похожа на процедуру разноски сторнированной проводки для кредит-ноты по заказу на покупку ранее в этой теме.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

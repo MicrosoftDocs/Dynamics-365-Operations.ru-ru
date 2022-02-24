@@ -2,8 +2,11 @@
 title: Функция ER DATEVALUE
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности DATEVALUE.
 author: NickSelin
-ms.date: 09/08/2021
+manager: kfend
+ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 43e65055b0803ed330a19568f9565c3fae488ab2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485582"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682421"
 ---
 # <a name="datevalue-er-function"></a>Функция ER DATEVALUE
 
 [!include [banner](../includes/banner.md)]
 
-Функция `DATEVALUE` возвращает значение *[Дата](er-formula-supported-data-types-primitive.md#date)*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной [культуре](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) в значение даты. Сведения о поддерживаемых форматах см. в разделах [стандартный](/dotnet/standard/base-types/standard-date-and-time-format-strings) и [настраиваемый](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Функция `DATEVALUE` возвращает значение *Date*, которое преобразуется из текстового значения в указанном формате и в дополнительно указанной [культуре](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) в значение даты. Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
 
 ## <a name="syntax-1"></a>Синтаксис 1
 
@@ -41,17 +44,17 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Аргументы
 
-`text`: *[Строка](er-formula-supported-data-types-primitive.md#string)*
+`text`: *Строка*
 
 Текст, представляющий значение для формата.
 
 `format`: *Строка*
 
-Формат указанного текста. Сведения о поддерживаемых форматах см. в разделах [стандартный](/dotnet/standard/base-types/standard-date-and-time-format-strings) и [настраиваемый](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Формат указанного текста.
 
 `culture`: *Строка*
 
-Культура, используемая для форматирования указанного текста. Сведения о поддерживаемых культурах см. в разделе [Культура](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
+Культура, используемая для форматирования указанного текста.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -76,6 +79,3 @@ DATEVALUE (text, format, culture)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции даты и времени](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
 title: Настройка интеграции с Dayforce
-description: В этой теме описываются требуемые шаги настройки, необходимые для интеграции между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce.
-author: twheeloc
-ms.date: 08/19/2021
+description: Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этой статье. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067084"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420165"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этом разделе. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
+Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этой статье. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
 
 При использовании службы, например Dayforce, для выполнения оплаты, необходимо включить интеграцию в Human Resources. Интеграция требует определенных данных из Human Resources. Таким образом необходимо убедиться, что данные, отображаемые в Dayforce, настроены в Human Resources таким образом, чтобы поддерживать интеграцию. Интеграция использует следующие широкие категории данных:
 
@@ -38,7 +36,7 @@ ms.locfileid: "8067084"
 - Данные о заработной плате, например циклы оплаты, периоды оплаты и коды начисления зарплаты
 - Данные о работнике
 
-В этой теме описываются шаги, которые необходимо выполнить, чтобы включить интеграцию и объясняются типы данных и сведения о конфигурации, необходимые для интеграции.
+В этой статье описываются шаги, которые необходимо выполнить, чтобы включить интеграцию. Здесь также объясняются типы данных и сведения о конфигурации, которые необходимы для интеграции.
 
 ## <a name="enable-the-integration"></a>Включение интеграции
 
@@ -53,10 +51,10 @@ ms.locfileid: "8067084"
 
 При включении интеграции создаются пакет экспорта данных и файлы, и задается значение частоты. Можно изменить эту частоту, как требуется.
 
-Дополнительные сведения об учетных записях хранилища Azure и строке подключения хранилища Azure см. в следующих разделах Azure:
+Дополнительные сведения об учетных записях хранилища Azure и строке подключения хранилища Azure см. в следующих статьях Azure:
 
-- [Об учетных записях хранилища Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Настройка строки подключения хранилища Azure](/azure/storage/common/storage-configure-connection-string)
+- [Об учетных записях хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Настройка строки подключения хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Технические сведения о включении интеграции зарплаты
 
@@ -124,12 +122,12 @@ Dayforce создает следующие вычеты на основе вли
 | Только вклад          | Вычет работодателя будет создан.             |
 | Удержание и вклад | Создаются вычеты сотрудников и работодателя. |
 
-Дополнительные сведения о том, как определять и управлять программами льгот, см. в следующих разделах:
+Дополнительные сведения о том, как определять и управлять программами льгот, см. в следующих статьях:
 
-- [Реализация программы льгот сотрудника](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Создание новой льготы](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Определение правил и политик проверки прав на льготы](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Регистрация и удаление льгот для работников](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Реализация программы льгот сотрудника](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Создать новую льготу](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Определение правил и политик проверки прав на льготы](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Регистрация и удаление льгот для работников](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Компенсация 
 
@@ -137,24 +135,24 @@ Dayforce создает следующие вычеты на основе вли
 
 Dayforce использует сведения о компенсации для расчета почасовой или годовой ставки сотрудника. Требуются планы фиксированной компенсации и преобразования ставки оплаты. Сотрудники должны быть связаны с планом фиксированной компенсации.
 
-Дополнительные сведения о планах компенсации см. в следующих разделах:
+Дополнительные сведения о планах компенсации см. в следующих статьях:
 
-- [Создание планов фиксированной компенсации](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Создание планов переменной компенсации](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Разработка структуры и планов зарплаты/компенсации](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Обработка компенсаций](/dynamics365/unified-operations/talent/process-compensation)
-- [Определение процесса компенсации и расчет результатов](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Включение сотрудника в план фиксированных компенсаций](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Включение сотрудника в план переменных компенсаций](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Создание планов фиксированной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Создание планов переменной компенсации](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Разработка структуры и планов зарплаты/компенсации](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Обработка компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [Определение процесса компенсации и расчет результатов](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Включение сотрудника в план фиксированных компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Включение сотрудника в план переменных компенсаций](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Должности 
 
-Должностные обязанности — это набор задач и обязанностей, которые возлагаются на занимающее эту задание лицо. Дополнительные сведения см. в следующих разделах:
+Должностные обязанности — это набор задач и обязанностей, которые возлагаются на занимающее эту задание лицо. Дополнительные сведения см. в следующих статьях:
 
-- [Настройка компонентов должности](/dynamics365/unified-operations/talent/create-job)
-- [Определение новых заданий](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Настройка компонентов должности](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [Определение новых должностей](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
-##### <a name="positions"></a>Должности
+##### <a name="positions"></a>Позиции
 
 Позиция — это индивидуальный экземпляр должности. Например, должность "Менеджер по продажам (восток)" — это одна из должностей, связанных с должностными обязанностями "Менеджер по продажам". Должность существует в отделе. Только один работник может быть связан с каждой должностью.
 
@@ -174,19 +172,19 @@ Dayforce использует сведения о компенсации для 
 
 Если несколько должностей в одном отделе связаны с одними и теми же должностными обязанностями, они объединяются в одну должность в Dayforce.
 
-Дополнительные сведения см. в следующих разделах:
+Дополнительные сведения см. в следующих статьях:
 
-- [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Настройка должностей](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Настройка должностей](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Отделы
 
 Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки.
 
-Дополнительные сведения см. в следующих разделах:
+Дополнительные сведения см. в следующих статьях:
 
-- [Создание подразделения и связывание его с иерархией подразделений](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Определение новых подразделений](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Создание подразделения и связывание его с иерархией подразделений](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Определение новых подразделений](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Циклы оплаты и платежные периоды
 
@@ -678,6 +676,3 @@ Dayforce использует следующие сведения:
 
 Сотрудники могут объявить несколько идентификационных номеров для типа идентификатора **Паспорт**. Тем не менее только запись текущего активного паспорта интегрируется в Dayforce. Если срок действия всех записей паспорта истек, в Dayforce интегрируется тот, который был выдан последним.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

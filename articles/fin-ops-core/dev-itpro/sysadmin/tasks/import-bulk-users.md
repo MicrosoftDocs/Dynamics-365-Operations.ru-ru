@@ -2,9 +2,11 @@
 title: Импорт пользователей из Azure Active Directory
 description: Эта процедура используется системными администраторами для импорта вручную выбранных пользователей или для импорта большого числа пользователей из Azure Active Directory.
 author: peakerbl
+manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748296"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679822"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Импорт пользователей из Azure Active Directory
 
@@ -56,6 +58,3 @@ ms.locfileid: "6748296"
 ## <a name="run-in-a-sandbox-environment"></a>Запуск в песочнице
 1. Выберите **Пакетный импорт**.
 2. Нажмите **ОК**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

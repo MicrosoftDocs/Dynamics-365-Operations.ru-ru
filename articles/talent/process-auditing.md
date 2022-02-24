@@ -61,6 +61,3 @@ ms.locfileid: "4462394"
 |История заявлений о приеме на работу | Заявления на должность (msdyn_JobapplicatonId)<br></br>Состояние (msdyn_status) <br></br>Причина состояния (msdyn_statusreason) <br></br>Причина отклонения (msdyn_rejectionreason) |
 | История открытия должностей | Открытие должности (msdyn_JobopeningId) <br></br>Состояние (msdyn_jobopeningstatus) <br></br>Причина состояния (msdyn_jobopeningstatusreason) |
 | История кандидатов | Кандидат (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

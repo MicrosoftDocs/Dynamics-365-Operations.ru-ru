@@ -2,28 +2,29 @@
 title: Рабочее место формирования загрузки
 description: В этой теме описывается, как работать с рабочим местом формирования загрузок.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574865"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646429"
 ---
 # <a name="load-building-workbench"></a>Рабочее место формирования загрузки
-
-[!include [banner](../../includes/banner.md)]
 
 Рабочее место формирования загрузок позволяет применять стратегии создания загрузок при создании загрузок.
 
@@ -66,6 +67,3 @@ ms.locfileid: "7574865"
 1. Проверьте предложенные загрузки и предлагаемые строки загрузки.
 1. В области действий выберите **Создать загрузки** для создания загрузок на основе строк исходного документа на экспресс-вкладке **Предложенные строки загрузки**.
 1. Закройте страницу **Рабочее место формирования загрузки**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

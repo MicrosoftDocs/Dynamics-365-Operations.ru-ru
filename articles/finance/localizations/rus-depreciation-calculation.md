@@ -2,23 +2,26 @@
 title: Расчет амортизации для России
 description: В этом разделе описывается расчет амортизации для основных средств в России.
 author: anasyash
+manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7037fdd7ecb604efeb1afb75bcfe97f675e52f353dac557b77a25dfceb371c3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f575a19f0244bc0694f67738f2c9402b8b033d9a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727944"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408581"
 ---
 # <a name="calculate-depreciation-for-russia"></a>Расчет амортизации для России
 
@@ -98,6 +101,3 @@ ms.locfileid: "6727944"
 
 - [Настройка амортизации (Россия)](rus-depreciation-setup.md)
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

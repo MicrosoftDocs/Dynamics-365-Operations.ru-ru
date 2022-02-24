@@ -2,23 +2,26 @@
 title: Настройка должностных лиц (Россия)
 description: В этой теме поясняется, как производится настройка должностных лиц в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OfficialsTable_RU
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4672c270c3f8cd374fa2784ee9f8493a97ff75c79453d21f330bc7b115a9fd06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f66e4aefe7d3481f98da97a388fa983d05a47a6c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728702"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408544"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]
@@ -112,6 +115,3 @@ ms.locfileid: "6728702"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

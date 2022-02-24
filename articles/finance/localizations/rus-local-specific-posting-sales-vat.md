@@ -2,9 +2,11 @@
 title: Специфическая локальная разноска исходящего НДС
 description: В этом разделе рассматриваются определенные параметры разнесения проводок расчетов по налогу на добавленную стоимость (НДС) в соответствии с российским законодательством.
 author: anasyash
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3ee9b7a7f3b0e19ec2fb5b6e03a2b291336cefce373c773b5b72f397c16cbab1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 24b14b32ba79c2e6538292b041b0188a4c2c62a2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781677"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962542"
 ---
 # <a name="local-specific-posting-of-sales-vat"></a>Специфическая локальная разноска исходящего НДС 
 
@@ -30,7 +32,7 @@ ms.locfileid: "6781677"
 2. Налоговые коды объединяются в налоговые группы и налоговые группы номенклатур.
 3. При выполнении проводки покупки или продажи будут указаны налоговые группы и налоговые группы номенклатур. Система определяет, какие налоги (налоговых коды) включаются и в налоговую группу, и в налоговую группу номенклатур. Она также рассчитывает налоги и генерирует проводки учета для них при разнесении операции.
 
-Дополнительные сведения см. в разделе [Обзор косвенных налогов](../general-ledger/indirect-taxes-overview.md).
+Дополнительные сведения см. в разделе [Обзор косвенных налогов](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview).
 
 ## <a name="posting-of-vat-payable-in-russia"></a>Разнесение НДС, уплачиваемого в России
 В следующей таблице приводится пример записей учета для продаж товаров и услуг в России.
@@ -83,6 +85,3 @@ ms.locfileid: "6781677"
 
 > [!NOTE]
 > Счета в поле **Тип разноски** должны иметь значение **Налог**. Если счета не имеют этого значения, его можно добавить на вкладке **Проверка разноски** на странице **Счета ГК**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

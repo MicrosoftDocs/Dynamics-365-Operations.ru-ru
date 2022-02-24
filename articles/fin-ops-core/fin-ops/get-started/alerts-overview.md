@@ -1,24 +1,26 @@
 ---
-title: Обзор оповещений (содержит видео)
+title: Обзор оповещений
 description: В этой теме представлены общие сведения об оповещениях. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984976"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798598"
 ---
 # <a name="alerts-overview"></a>Обзор оповещений
 
@@ -77,15 +79,12 @@ ms.locfileid: "7984976"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Видео [Использование оповещений для отслеживания отфильтрованных данных](https://youtu.be/ZYKMcv6kl9s) (показанное выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
+Видео [Использование оповещений для отслеживания отфильтрованных данных](https://youtu.be/ZYKMcv6kl9s) (показанное выше) включено в список воспроизведения [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
 
 ### <a name="alert-rule-options"></a>Параметры правила оповещения
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Видео [Параметры правил оповещения](https://youtu.be/cpzimwOjicM) (показано выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на сайте YouTube.
+Видео [Параметры правил оповещения](https://youtu.be/cpzimwOjicM) (показано выше) включено в список воспроизведения [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на сайте YouTube.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

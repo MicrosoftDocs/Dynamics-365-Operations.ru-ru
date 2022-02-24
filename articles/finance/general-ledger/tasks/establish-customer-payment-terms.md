@@ -2,9 +2,11 @@
 title: Определение условий оплаты для клиентов
 description: Эта процедура определяет настройку скидки по оплате и срока выполнения.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec16ba09cc7c942119bab1d992856c3ffcd5c628
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766976"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968562"
 ---
 # <a name="establish-customer-payment-terms"></a>Определение условий оплаты для клиентов
 
@@ -54,6 +56,3 @@ ms.locfileid: "6766976"
 26. В поле **Счет ГК для скидок поставщика** введите счет ГК, на который будет разноситься скидка по оплате по накладным поставщиков.
 27. Нажмите кнопку **Сохранить**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

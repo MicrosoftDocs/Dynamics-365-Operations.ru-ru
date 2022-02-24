@@ -1,35 +1,33 @@
 ---
 title: Обработка жизненных событий
 description: Во время жизненного цикла сотрудников в Microsoft Dynamics 365 Human Resources каждый сотрудник может столкнуться с различными изменениями жизненных событий.
-author: twheeloc
-ms.date: 08/23/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420191"
 ---
 # <a name="process-life-events"></a>Обработка жизненных событий
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Во время жизненного цикла сотрудников в Microsoft Dynamics 365 Human Resources каждый сотрудник может столкнуться с различными изменениями жизненных событий. Например, свадьба, изменение трудоустройства или изменение иждивенца/бенефициара. Для использования жизненных событий необходимо включить жизненные события на странице **параметров льгот**, настроить типы жизненных событий, а также настроить параметры жизненных событий для типов планов.
+Во время жизненного цикла сотрудников в Microsoft Dynamics 365 Human Resources каждый сотрудник может столкнуться с различными изменениями жизненных событий. Например, свадьба, изменение трудоустройства или изменение иждивенца/бенефициара. Для использования жизненных событий необходимо включить жизненные события в форме параметров льгот, настроить типы жизненных событий, а также настроить параметры жизненных событий для типов планов.
 
 Прежде чем обрабатывать жизненные события, необходимо запустить открытую регистрацию как минимум один раз во время найма на работу. В США открытая регистрация обычно выполняется раз в год. За пределами США открытая регистрация может выполняться во время найма. Работнику не нужно выбирать план льгот для обработки жизненных событий, но они должны быть включены в открытую обработку регистрации. 
 
@@ -59,6 +57,3 @@ ms.locfileid: "8069663"
    4. Нажмите **ОК**. Процесс будет выполнен с заданными вами параметрами.
 
 4. Нажмите **ОК**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

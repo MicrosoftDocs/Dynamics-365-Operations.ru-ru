@@ -1,10 +1,12 @@
 ---
 title: Субподряды на основе мероприятий
 description: В этом разделе подробно описывается использование субподрядных мероприятий в производственном потоке для бережливого производства.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule, PlanActivityServiceDetails, PlanActivityServiceWizard
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 010b934821eaf04dc93d803d03a8fbd198de91a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566800"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966538"
 ---
 # <a name="activity-based-subcontracting"></a>Субподряды на основе мероприятий
 
@@ -103,6 +105,3 @@ Supply Chain Management теперь поддерживает расчет сп�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

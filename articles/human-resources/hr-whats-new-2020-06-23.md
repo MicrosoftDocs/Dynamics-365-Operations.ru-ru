@@ -1,32 +1,33 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (25 июня 2020 г.)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 23 июня 2020 года.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a89c0febbe2e4adca1508f106ffa7b84b5f14e2c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061134"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528725"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (23 июня 2020 г.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3347. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 
@@ -74,7 +75,7 @@ ms.locfileid: "8061134"
 
 ## <a name="human-resources-application-in-teams"></a>Приложение Human Resources в Teams
 
-Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](./hr-admin-teams-leave-app.md). 
+Сотрудники могут просматривать и запрашивать время отсутствия на работе в Microsoft Teams. Они могут взаимодействовать с ботом для создания запросов на отпуск. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Объекты платформы управления данными (ДМФ) для управления льготами
  
@@ -117,15 +118,13 @@ ms.locfileid: "8061134"
 
 Новый параметр будет доступен в **параметрах Human Resources**, чтобы обновить имя рабочей области самообслуживания сотрудников на самообслуживание.
 
-## <a name="checklist-entities-included-in-dataverse"></a>Сущности контрольного списка, включенные в Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>Сущности контрольного списка, включенные в Common Data Service
 
-Сущности контрольного списка для адаптации, увольнения, переходов и бизнес-процессов в скором времени будут доступны в Dataverse.
+Сущности контрольного списка для адаптации, увольнения, переходов и бизнес-процессов в скором времени будут доступны в Common Data Service.
 
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

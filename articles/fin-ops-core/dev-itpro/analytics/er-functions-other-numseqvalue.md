@@ -2,8 +2,11 @@
 title: Функция ER NUMSEQVALUE
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности NUMSEQVALUE.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53040d1f4b3c8089fab264a524309df909a90ed5e617bd86658704b286fabb34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b513d04bfeb3a37aa0b1703d0fdde040885a5159
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758248"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680598"
 ---
 # <a name="numseqvalue-er-function"></a>Функция ER NUMSEQVALUE
 
@@ -102,6 +105,3 @@ NUMSEQVALUE (number sequence code, scope type, scope ID)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Другие функции (характерные для конкретных бизнес-доменов)](er-functions-category-other.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

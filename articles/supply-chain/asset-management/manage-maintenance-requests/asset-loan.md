@@ -1,10 +1,12 @@
 ---
 title: Предоставление активов в кредит
 description: В этом разделе описывается, как зарегистрировать предоставленные в кредит активы в управлении активами.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752858"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022340"
 ---
 # <a name="asset-loans"></a>Предоставление активов в кредит
 
@@ -44,7 +46,7 @@ ms.locfileid: "6752858"
 
 Чтобы просмотреть список всех активов, которые вы одолжили другим местопложениям или клиентам, выберите **Управление активами** \> **Общее** \> **Предоставление активов в кредит** \> **Все предоставленные в кредит активы**. Если для актива установлен флажок **Завершено**, актив был зарегистрирован как возвращенный вашей компании.
 
-![Управление запросами на обслуживание.](media/06-manage-maintenance-requests.png)
+![Управление запросами на обслуживание](media/06-manage-maintenance-requests.png)
 
 На странице **Активные предоставления актива в кредит** можно просмотреть список всех кредитных активов, которые еще не возвращены вашей компании.
 
@@ -55,6 +57,3 @@ ms.locfileid: "6752858"
 3. В поле **Возвращено** введите дату и время.
 4. Нажмите **ОК**.
 5. Обновите страницу списка **Активные предоставления активов в кредит** и обратите внимание, что кредитный актив больше не отображается в списке.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

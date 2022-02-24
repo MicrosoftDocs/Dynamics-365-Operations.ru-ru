@@ -1,10 +1,12 @@
 ---
 title: Определение зависимости конфигураций электронной отчетности от других компонентов
-description: В этой теме описывается, как создать конфигурацию электронной отчетности (ER) и указать ее зависимость от других программных компонентов.
+description: Чтобы выполнить следующие действия, необходимо сначала выполнить действия в проводнике по задаче "Электронная отчетность — Управление конфигурациями сопоставлений модели", а также иметь доступ к Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-ms.date: 07/23/2021
+manager: AnnBe
+ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717602"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681981"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Определение зависимости конфигураций электронной отчетности от других компонентов
 
@@ -137,9 +139,3 @@ ms.locfileid: "6717602"
 26. В дереве разверните "Пример модели данных".
     * Обратите внимание, что конфигурация сопоставления "Пример сопоставления" модели была загружена вместе с выбранной конфигурацией модели данных. Эти файлы загружаются вместе, потому что "Пример сопоставления" был определен как реализующий выбранную модель данных, а также потому что он применим к приложению. Конфигурация "Пример сопоставления (альтернативный)" не была загружена, потому что условие по требуемой версии приложение не выполняется.   
     * Если войти в Finance and Operations, зарегистрировать того же поставщика, открыть тот же проект LCS и загрузить ту же конфигурацию модели данных, загрузится конфигурация "Пример сопоставления (альтернативный)", тогда как конфигурация "Пример сопоставления" будет пропущена.  
-
-## <a name="additional-resources"></a>Дополнительные ресурсы
-
-[Управление жизненным циклом конфигураций электронной отчетности (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

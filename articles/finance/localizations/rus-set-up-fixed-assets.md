@@ -2,23 +2,26 @@
 title: Настройка основных средств (Россия)
 description: В этом разделе описывается настройка основных средств для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 02/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e4a1ac2b47ad98d68bc3bc0a7be92192436897e7c96321bd78c2701b796a0012
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3100f9bf4b6c070f3970e3fd545772ac694ca438
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408529"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 
@@ -202,6 +205,3 @@ ms.locfileid: "6735436"
 15. На вкладке **Документ** выберите код анализа и настройте номерные серии для документов по ОС.
 16. На вкладке **Финансовые аналитики** выберите коды финансовой аналитики для проводок с основными средствами.
 17. На вкладке **Номерные серии** выберите номерную серию для параметров **Инвентарный номер ОС**, **Штрих-код**, **Переоценка ОС**, **Инвентаризация ОС**, **Перемещение ОС**, **Списание по состоянию** и **Номер журнала регистров налога на имущество**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Настройка разделителя плана счетов как уникального
 description: В этой теме объясняется, как не допускается одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя.
 author: panolte
-ms.date: 09/17/2021
+manager: AnnBe
+ms.date: 03/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,18 +16,23 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500511"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020112"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Настройка разделителя плана счетов как уникального
 
 [!include [banner](../includes/banner.md)]
 
 В Microsoft Dynamics AX 2012 можно использовать одинаковые разделителя для вашего плана счетов и значений аналитик. В текущих версиях Finance and Operations не допускается одинаковый разделитель для плана счетов и значений аналитик. Если имеется дублирующий разделитель, его можно изменить после обновления. 
+
+Эта функция доступна в следующих версиях:
+- Finance and Operations версии 8.0
+- Finance and Operations версии 7.1, KB 4094701, Невозможно ввести финансовые аналитики, когда значения аналитики содержат разделитель плана счетов
+- Finance and Operations версии 7.2, KB 4092967 Невозможно выбрать подпроект как аналитику, когда формат подпроекта содержит разделитель аналитики
 
 ## <a name="update-delimiter"></a>Обновление разделителя
 Если имеется конфликт с планом счетов, можно изменить разделитель плана счетов и формат кода проекта/подпроекта. Никакие другие разделители аналитики изменить невозможно. 
@@ -34,6 +41,3 @@ ms.locfileid: "7500511"
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Как определить, требуется ли в вашей среде обновление разделителей 
 В случае конфликта разделители в обновленной среде возможна неустойчивая работа при вводе значений в элементе управление сегментированным вводом или элементе управления вводом аналитики. Это означает, что необходимо будет всегда использовать поиск с подстановкой или всплывающее меню при вводе комбинаций счета и аналитики.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

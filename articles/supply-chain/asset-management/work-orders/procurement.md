@@ -1,10 +1,12 @@
 ---
 title: Закупки
 description: В этом разделе описываются закупки в "Управлении активами".
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743658"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020212"
 ---
 # <a name="procurement"></a>Закупки
 
@@ -36,7 +38,7 @@ ms.locfileid: "6743658"
 
 На приведенном ниже рисунке показан пример страницы списка **Заявка на покупку заказа на работу**.
 
-![Рисунок 1.](media/08-work-orders.png)
+![Рисунок 1](media/08-work-orders.png)
 
 
 На странице списка **Покупка по заказу на работу** (**Управление активами** > **Общее** > **Закупки** > **Покупка по заказу на работу**) отображается список заказов на покупку, имеющих отношение к заказам на работу. При выборе задания заказа на работу на этой странице можно использовать кнопки в группе **Показать** на вкладке **Покупка по заказу на работу** для выполнения различных действий:
@@ -47,7 +49,7 @@ ms.locfileid: "6743658"
 
 На приведенном ниже рисунке показан пример страницы списка **Покупка по заказу на работу**.
 
-![Рисунок 2.](media/09-work-orders.png)
+![Рисунок 2](media/09-work-orders.png)
 
 
 На странице **Покупка по заказу на работу** и на странице списка **Заявка на покупку заказа на работу** символ, связанный с контролем даты поставки, отображается в правой части каждой строки. Если символом является восклицательный знак в красном круге, поставка соответствующего заказа на покупку или заявки на закупку может быть задержана.
@@ -93,10 +95,7 @@ ms.locfileid: "6743658"
 
 На приведенном ниже рисунке показан пример страницы **заказ на покупку** с фокусировкой на **номер мероприятия**.
 
-![Рисунок 3.](media/10-work-orders.png)
+![Рисунок 3](media/10-work-orders.png)
 
 Аналогичным образом, чтобы просмотреть или ввести номер мероприятия, связанного со строкой заявки на покупку по заказу на работу, на странице списка **Заявка на покупку по заказу на работу** выберите запись заявки на покупку, а затем в столбце **Заявка на покупку** выберите ссылку для заявки на покупку. Поле **Номер мероприятия** можно найти на вкладке **проект** экспресс-вкладки **Сведения по строке**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,37 +2,35 @@
 title: Оптимизация запланированных пакетных заданий BYOD
 description: В этой теме объясняется, как оптимизировать производительность, когда вы используете функцию использования собственной базы данных (BYOD) с Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067787"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420223"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Оптимизация запланированных пакетных заданий BYOD
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-В этой теме объясняется, как оптимизировать производительность, когда вы используете функцию использования собственной базы данных (BYOD). Дополнительные сведения о BYOD см. в разделе [Использование собственной базы данных (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+В этой теме объясняется, как оптимизировать производительность, когда вы используете функцию использования собственной базы данных (BYOD). Дополнительные сведения о BYOD см. в разделе [Использование собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Вопросы производительности при экспорте данных
 
-После публикации сущностей в целевой базе данных можно использовать функцию экспорта в рабочей области **Управление данными** для перемещения данных. Функция экспорта позволяет определить задание перемещения данных, которое содержит один или несколько сущностей. Дополнительные сведения об экспорте данных см. в разделе [Обзор заданий импорта и экспорта данных](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+После публикации сущностей в целевой базе данных можно использовать функцию экспорта в рабочей области **Управление данными** для перемещения данных. Функция экспорта позволяет определить задание перемещения данных, которое содержит один или несколько сущностей. Дополнительные сведения об экспорте данных см. в разделе [Обзор заданий импорта и экспорта данных](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
 
 Страницу **Экспорт** можно использовать для экспорта данных в другие целевые форматы данных, такие как файл значений с разделителями-запятыми (CSV). Эта страница также поддерживает базы данных SQL в качестве другого места назначения.
 
@@ -63,7 +61,7 @@ ms.locfileid: "8067787"
 
 При добавлении сущности для экспорта данных можно выполнить либо инкрементную принудительную отправку (экспорт), либо полную принудительную отправку. При полной принудительной отправке все существующие записи удаляются из сущности в базе данных BYOD. Затем вставляется текущий набор записей из сущности Human Resources.
 
-Для выполнения инкрементной принудительной отправки необходимо включить отслеживание изменений для каждой из сущностей на странице **Сущности**. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Для выполнения инкрементной принудительной отправки необходимо включить отслеживание изменений для каждой из сущностей на странице **Сущности**. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 При выборе инкрементной принудительной отправки первая отправка всегда является полной. SQL отслеживает изменения с первой полной принудительной отправки. Когда вставляется новая запись или когда запись обновляется или удаляется, это изменение отражается в целевой сущности.
 
@@ -90,20 +88,11 @@ ms.locfileid: "8067787"
 
 **Проблема:** при выполнении полной принудительной отправки для сущности вы видите большой набор записей в BYOD при использовании инструкции **select**. Однако при выполнении инкрементной принудительной отправки отображаются только несколько записей в BYOD. Кажется, что инкрементная принудительная отправка удалила все записи и были добавлены только измененные записи в BYOD.
 
-**Решение:** таблицы отслеживания изменений SQL могут быть не в ожидаемом состоянии. В случае такого типа рекомендуется отключить отслеживание изменений для сущности, а затем снова его включить. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
-
-### <a name="staging-tables-arent-clearing"></a>Не очищаются промежуточные таблицы
-
-**Вопрос:** при использовании промежуточного хранения для проекта промежуточные таблицы не удаляются правильно. После этого данные в таблицах продолжают расти, что приведет к проблемам с производительностью.
-
-**Решение:** в промежуточных таблицах сохраняется семь дней ведения журнала. Данные журнала старше семи дней автоматически очищаются из промежуточных таблиц пакетным заданием **Очистка промежуточного импорта/экспорта**. Если это задание зависает, таблицы не будут очищены должным образом. Перезапуск этого пакетного задания приведет к продолжению процесса автоматического удаления промежуточных таблиц.
+**Решение:** таблицы отслеживания изменений SQL могут быть не в ожидаемом состоянии. В случае такого типа рекомендуется отключить отслеживание изменений для сущности, а затем снова его включить. Дополнительные сведения см. в разделе [Включение отслеживания изменений для сущностей](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="see-also"></a>См. также
 
-[Обзор управления данными](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Использование своей собственной базы данных (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Обзор заданий импорта и экспорта данных](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
-[Включение отслеживания изменений для объектов](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Обзор управления данными](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
+[Использование своей собственной базы данных (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
+[Обзор заданий импорта и экспорта данных](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
+[Включение отслеживания изменений для объектов](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)

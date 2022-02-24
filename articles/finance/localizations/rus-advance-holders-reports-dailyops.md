@@ -2,25 +2,28 @@
 title: Авансовые отчеты с бюджетным контролем (Россия)
 description: В этом разделе показано, как создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 71ae9fc9ad77cf0b75fcff3f5690fe08ec0a23a62915499614a4246ca6987751
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ede6df7778945d64e7e011ae5ae88b517f820f5a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736904"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408511"
 ---
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 
@@ -58,6 +61,3 @@ ms.locfileid: "6736904"
 ## <a name="accounting-distributions-and-subledger-journals"></a>Распределения по бухгалтерским счетам и журналам субкниги
 
 Строки журнала субкниги — это записи ГК, разнесенные в главную книгу с помощью общего журнала. Можно создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков. Перед разноской сведения о поставщике в главной книге можно просмотреть или изменить журналы субкниги с помощью метода распределения. Этот метод позволяет распределить суммы разноски между несколькими финансовыми аналитиками. В зависимости от разрешений пользователя можно также изменить номер счета ГК или значения финансовых аналитик по умолчанию. Распределения служат в качестве интерфейса в журналы субкниги и содержат только одну сторону учетной записи.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

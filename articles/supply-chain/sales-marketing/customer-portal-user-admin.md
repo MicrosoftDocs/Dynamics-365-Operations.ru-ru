@@ -1,28 +1,30 @@
 ---
-title: Создание пользователей клиентского портала и управление ими (содержит видео)
+title: Создание пользователей клиентского портала и управление ими
 description: В этой теме объясняется, как создавать учетные записи пользователей клиентского портала и задавать для них разрешения.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062498"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528301"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Создание пользователей клиентского портала и управление ими
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 При использовании готовой реализации пользователи не могут самостоятельно регистрироваться для сайтов, созданных с помощью клиентского портала. Чтобы войти в систему и использовать сайт, пользователи должны быть приглашены администратором. Корпорация Майкрософт преднамеренно запретила пользователям выполнять самостоятельную регистрацию.
 
@@ -33,38 +35,38 @@ ms.locfileid: "8062498"
 ## <a name="video"></a>Видео
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Видео [Приглашение клиентов для регистрации и использование портала клиента](https://youtu.be/drGUYHX9QIQ) (см. выше) включено в [список воспроизведения Финансы и операции](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный в YouTube.
+Видео [Приглашение клиентов для регистрации и использование портала клиента](https://youtu.be/drGUYHX9QIQ) (см. выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный в YouTube.
 
 ## <a name="prerequisite-setup"></a>Необходимые условия настройки
 
-Контакты на порталах Power Apps хранятся в виде записей в таблице **Контакты** в Microsoft Dataverse. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
+Контакты на порталах Power Apps хранятся в виде записей в объекте **Контакты** в Common Data Service. Затем двойная запись синхронизирует эти записи в Microsoft Dynamics 365 Supply Chain Management в соответствии с требованиями.
 
-![Диаграмма системы для контактов клиентского портала.](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
+![Диаграмма системы для контактов клиентского портала](media/customer-portal-contacts.png "Диаграмма системы для контактов клиентского портала")
 
-Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление таблицы **Контакт** в двойной записи.
+Прежде чем приступить к приглашению новых клиентов, убедитесь, что вы включили сопоставление объекта **Контакт** в двойной записи.
 
 ## <a name="the-invitation-process"></a>Процесс приглашения
 
-Чтобы пригласить существующего контакта на клиентский портал, выполните шаги, указанные в разделе [Приглашение контактов на свои порталы](/powerapps/maker/portals/configure/invite-contacts) в документации по порталам Power Apps.
+Чтобы пригласить существующего контакта на клиентский портал, выполните шаги, указанные в разделе [Приглашение контактов на свои порталы](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) в документации по порталам Power Apps.
 
-Прежде чем пригласить клиента на присоединение к клиентскому порталу, убедитесь, что [запись контакта](/powerapps/maker/portals/configure/configure-contacts) клиента доступна и настроена следующим образом:
+Прежде чем пригласить клиента на присоединение к клиентскому порталу, убедитесь, что [запись контакта](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) клиента доступна и настроена следующим образом:
 
 1. В поле **Компания** укажите юридическое лицо, к которому должен относиться клиент в Supply Chain Management.
 2. В поле **Счет клиента** укажите номер счета клиента в Supply Chain Management.
 
 После создания контакта его можно просмотреть в Supply Chain Management.
 
-Дополнительные сведения см. в разделе [Настройка контакта для использования на портале](/powerapps/maker/portals/configure/configure-contacts) в документации по порталам Power Apps.
+Дополнительные сведения см. в разделе [Настройка контакта для использования на портале](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) в документации по порталам Power Apps.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Готовые веб-роли и разрешения таблиц
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Готовые веб-роли и разрешения объектов
 
-Роли пользователей на порталах Power Apps определяются [веб-ролями](/powerapps/maker/portals/configure/create-web-roles) и [разрешениями таблиц](/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
+Роли пользователей на порталах Power Apps определяются [веб-ролями](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [разрешениями объектов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Клиентский портал содержит несколько готовых веб-ролей. Можно создавать новые роли, а также изменять или удалять существующие роли.
 
 ### <a name="out-of-box-web-roles"></a>Готовые веб-роли
 
 В этом разделе описываются веб-роли, обеспечиваемые с помощью клиентского портала.
 
-Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений таблиц для порталов](/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
+Дополнительные сведения об изменении готовых пользовательских ролей см. в разделе [Создание веб-ролей для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) и [Добавление безопасности на основе записей с помощью разрешений объектов для порталов](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) в документации по порталам Power Apps.
 
 #### <a name="administrator"></a>Администратор
 
@@ -94,6 +96,3 @@ ms.locfileid: "8062498"
 
 > [!NOTE]
 > Даже если Sam и Jane являются контактами, работающими у клиента X, они могут видеть только те заказы, которые разместили они, и ничего другого. Хотя у May в системе может быть заказ, она не видит этот заказ на клиентском портале, поскольку она является неавторизованным пользователем. (Кроме того, ей необходимо разместить заказ через другой канал, отличный от клиентского портала.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

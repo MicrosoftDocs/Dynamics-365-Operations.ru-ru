@@ -2,29 +2,34 @@
 title: Настройка управления задачами
 description: В этом разделе описывается, как настроить функции управления задачами в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730811"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415303"
 ---
 # <a name="configure-task-management"></a>Настройка управления задачами
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить функции управления задачами в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Прежде чем руководители и сотрудники Dynamics 365 Commerce смогут использовать функции управления задачами в модуле Commerce, необходимо настроить управление задачами. Этапы настройки включают предоставление разрешений руководителям и сотрудникам, распространение разрешений на клиентов POS-терминалов, настройку уведомлений POS и настройку плитки **задачи** на домашней странице приложения POS.
 
@@ -44,7 +49,7 @@ ms.locfileid: "6730811"
 
 На следующем рисунке показано, как настроить разрешения управления задачами для руководителей магазинов.
 
-![Настройка разрешения управления задачами для руководителей магазинов.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Настройка разрешения управления задачами для руководителей магазинов](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Настройка разрешений для сотрудников
 
@@ -78,7 +83,7 @@ ms.locfileid: "6730811"
 
 На следующем рисунке показана операция **управления задачами** на странице **Операции POS**.
 
-![Операция управления задачами на странице Операций POS.](media/HQ-POS-Tasks-Notifications.png)
+![Операция управления задачами на странице Операций POS](media/HQ-POS-Tasks-Notifications.png)
 
 Дополнительные сведения о настройке уведомлений POS см. в [Отображение уведомлений о заказах в POS-терминале](notifications-pos.md).
 
@@ -95,7 +100,7 @@ ms.locfileid: "6730811"
 
 На следующем рисунке показан пример плитки **Задачи** на домашней странице POS.
 
-![Плитка «задачи» на домашней странице POS.](media/POS-home-screen-tasks-button-image.png)
+![Плитка «задачи» на домашней странице POS](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -106,6 +111,3 @@ ms.locfileid: "6730811"
 [Назначение списков задач магазинам или сотрудникам](task-mgmt-assign-lists.md)
 
 [Управление задачами в POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Отчеты по подотчетным лицам
 description: В этом разделе описываются отчеты по подотчетным лицам, которые доступны для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 10/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: d5ed97db24048753fee2dbb683342cc2f3f4d5ae
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 2d4e219100bb415bc756b19a4d160c2b1a606c31
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595421"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408550"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 
@@ -44,8 +47,8 @@ ms.locfileid: "7595421"
 
 <table>
 <colgroup>
-<col>
-<col>
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -77,8 +80,8 @@ ms.locfileid: "7595421"
 
 <table>
 <colgroup>
-<col>
-<col>
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,8 +113,8 @@ ms.locfileid: "7595421"
 
 <table>
 <colgroup>
-<col>
-<col>
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -152,8 +155,8 @@ ms.locfileid: "7595421"
 
 <table>
 <colgroup>
-<col>
-<col>
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -213,8 +216,5 @@ ms.locfileid: "7595421"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Отчет служб SQL Server Reporting Services](/dynamics/s-e/)
+[Отчет служб SQL Server Reporting Services](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

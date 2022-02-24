@@ -2,24 +2,27 @@
 title: Домены в Dynamics 365 Commerce
 description: В этом разделе описывается, как обрабатываются домены в Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733999"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517363"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Домены в Dynamics 365 Commerce
 
@@ -38,7 +41,7 @@ ms.locfileid: "6733999"
 
 На следующем рисунке показан экран LCS подготовки электронной коммерции с выделенным полем **Поддерживаемые имена узлов**. 
 
-![Экран LCS подготовки электронной коммерции с выделенным полем **Поддерживаемые имена узлов**.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Экран LCS подготовки электронной коммерции с выделенным полем **Поддерживаемые имена узлов**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Если подготовка уже выполнена, можно создать запрос на обслуживание для добавления дополнительных доменов в среду. Чтобы создать запрос на обслуживание в LCS, в вашей среде перейдите к пункту **Поддержка \> Проблемы поддержки** и выберите **Отправить инцидент**.
 
@@ -56,7 +59,7 @@ ms.locfileid: "6733999"
 
 На следующем рисунке показано диалоговое окно **Настройка сайта** для сайта с именем "по умолчанию" при первом обращении к сайту в конструкторе сайтов.
 
-![Диалоговое окно **Настройка сайта**.](./media/Domains_SetupyoursiteScreen.png)
+![Диалоговое окно **Настройка сайта**](./media/Domains_SetupyoursiteScreen.png)
 
 Поле **Выберите домен** позволяет сопоставить одно из поддерживаемых имен узла, предоставленных для вашего сайта в LCS, сайту в конструкторе сайтов.
 
@@ -79,11 +82,11 @@ ms.locfileid: "6733999"
 
 На следующем рисунке показано диалоговое окно **Создание URL-адреса** в конструкторе сайтов с выбранным примером URL-пути. 
 
-![Диалоговое окно **Создание URL-адреса** в конструкторе сайтов.](./media/Domains_PageSetup2a.png)
+![Диалоговое окно **Создание URL-адреса** в конструкторе сайтов](./media/Domains_PageSetup2a.png)
 
 На следующем рисунке показана страница **URL-адреса** в конструкторе сайтов с выбранным примером URL-адреса в списке.
 
-![Параметр выполнения потока пользователей в потоке политик.](./media/Domains_URLsInSiteBuilder2a.png)
+![Параметр выполнения потока пользователей в потоке политик](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Домены в конструкторе сайтов
 
@@ -151,7 +154,7 @@ ms.locfileid: "6733999"
 
   [Развертывание нового клиента электронной коммерции](deploy-ecommerce-site.md)
 
-  [Настройка канала интернет-магазина](./channel-setup-online.md)
+  [Настройка канала интернет-магазина](online-stores.md)
 
   [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ ms.locfileid: "6733999"
   [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
   [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

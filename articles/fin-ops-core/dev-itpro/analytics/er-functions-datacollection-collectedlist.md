@@ -2,8 +2,11 @@
 title: Функция ER COLLECTEDLIST
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности COLLECTEDLIST.
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b744a2bad1f463bcc8d278b48739208689f3529da91090e76d34871c534f873
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d02f9ac4697a4d65417e522bffb5f40ebfdc237a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744466"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681240"
 ---
 # <a name="collectedlist-er-function"></a>Функция ER COLLECTEDLIST
 
@@ -74,6 +77,3 @@ COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, conditi
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции сбора данных](er-functions-category-data-collection.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

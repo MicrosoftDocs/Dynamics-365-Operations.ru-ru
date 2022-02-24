@@ -1,10 +1,12 @@
 ---
 title: Содержимое Power BI "Менеджер по методикам"
-description: В этом разделе описывается, что входит в содержимое Power BI "Менеджер по методикам".
-author: kfend
+description: В этом разделе описывается, что входит в содержимое Power BI "Менеджер по методикам". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, используемых для построения содержимого.
+author: KimANelson
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500229"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685713"
 ---
 # <a name="practice-manager-power-bi-content"></a>Содержимое Power BI "Менеджер по методикам"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, что входит в содержимое **Менеджер по методикам** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
+В этом разделе описывается, что входит в содержимое Microsoft Power BI **Менеджер по методикам**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -115,6 +117,3 @@ ms.locfileid: "7500229"
 | Ключевое агрегированное измерение       | Поле               | описание |
 |---------------------------------|---------------------|-------------|
 | Плановые затраты по выполненным действиям | Sum(TotalCostPrice) | Общая себестоимость в оценках для всех типов проводок проекта с выполненными задачами. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

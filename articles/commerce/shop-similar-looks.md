@@ -2,13 +2,16 @@
 title: Включение рекомендаций "покупать похожие образы"
 description: В этом разделе описывается, как включить рекомендации по продуктам «покупать похожие образы» в Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722008"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415311"
 ---
-# <a name="enable-shop-similar-looks-recommendations"></a>Включение рекомендаций «Выбрать похожие по виду»
+# <a name="enable-shop-similar-looks-recommendations"></a>Включение рекомендаций "покупать похожие образы"
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как включить рекомендации по продуктам «покупать похожие образы» в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Функция рекомендаций "покупать похожие образы" в Dynamics 365 Commerce использует возможности искусственного интеллекта и машинного обучения (ИИ-ML) для предоставления пользователям рекомендаций по визуально похожим продуктам для клиентов. Благодаря созданию рекомендаций "покупать похожие образы" для всех каналов розничной Commerce предприятия розничной торговли могут повысить уровень удовлетворенности клиентов, помогая клиентам легко находить то, что им нужно.
 
@@ -68,7 +73,7 @@ ms.locfileid: "6722008"
 
 На следующем рисунке показана функция **покупать похожие образы** на странице **управления функциями** в Commerce Headquarters.
 
-![Функция "покупать похожие образы" на странице управления функциями в центральном офисе Commerce.](./media/enableshopsimilarlooks.png)
+![Функция "покупать похожие образы" на странице управления функциями в Commerce Headquarters](./media/enableshopsimilarlooks.png)
 
 После выполнения предыдущих задач POS-приложения автоматически расширяются с помощью контекстной области **покупать похожие продукты**. Если установить флажок **Показать больше**, пользователи POS-терминала могут быть направлены на специальную страницу "покупать похожие образы", которая может быть отфильтрована в дальнейшем.
 
@@ -88,7 +93,7 @@ ms.locfileid: "6722008"
 
 На следующем рисунке показан флажок **Включить ссылку "покупать похожие образы"** и кнопка **покупать похожие образы** на примере PDP в конструкторе сайтов.
 
-![Флажок Включить ссылку "покупать похожие образы" и кнопка "покупать похожие образы" на примере PDP в конструкторе сайтов.](./media/SSLecomtooling.png)
+![Флажок Включить ссылку "покупать похожие образы" и кнопка "покупать похожие образы" на примере PDP в конструкторе сайтов](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -111,6 +116,3 @@ ms.locfileid: "6722008"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

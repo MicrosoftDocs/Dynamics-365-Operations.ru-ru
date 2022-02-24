@@ -1,10 +1,12 @@
 ---
 title: Отправка заказа на работу
 description: В этом разделе описывается, как отправлять заказы на работу в модуле "Управление активами".
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetScheduledExecution
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87f67f4db143fabbfae926e30e7e5d97ac6af0f6fa5469218e4ab3605aa44dcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4b05dfe351bb61dc47c9c2bfe30831ab7b0a16
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778732"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016864"
 ---
 # <a name="dispatch-work-order"></a>Отправка заказа на работу
 
@@ -52,11 +54,8 @@ ms.locfileid: "6778732"
 
 На рисунке, приведенном ниже, показан пример выбора диспетчеризации в диалоговом окне **Планирование заказа на работу**.
 
-![Рисунок 1.](media/04-work-order-scheduling.png)
+![Рисунок 1](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Если необходимо удалить график в заказе на работу, выберите заказ на работу в разделе **Все заказы на работу**, и затем нажав **Удалить расписание** на вкладке **Общие**. Не забудьте вручную обновить состояние жизненного цикла заказа на работу, если удалили расписание.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -113,5 +113,3 @@ ms.locfileid: "4462297"
 ## <a name="see-also"></a>См. также
 
 [Прекращение использования приложений Dynamics 365 Talent: Attract и Dynamics 365 Talent: Onboard](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

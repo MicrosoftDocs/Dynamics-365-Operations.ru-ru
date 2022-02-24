@@ -2,12 +2,15 @@
 title: Модуль навигации
 description: В этом разделе описываются модули навигации, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720020"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517168"
 ---
-# <a name="breadcrumb-module"></a>Модуль иерархической навигации
+# <a name="breadcrumb-module"></a>Модуль навигации
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули навигации, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модули навигации используются для дополнительной навигации по страницам сайта. Обычно они отображаются в верхней части страницы, под заголовком. Хотя модули навигации могут быть добавлены на любую страницу, они чаще всего используются на страницах сведений о продуктах (PDP), чтобы показать иерархию категорий продуктов и обеспечить быстрый способ перемещения по сайту. Модуль навигации можно также использовать для отображения ссылки "Назад к результатам", когда пользователи открывают PDP из поиска или со страницы списка. Таким образом пользователи могут быстро вернуться на страницу отфильтрованного списка для продолжения покупок.
 
@@ -37,7 +42,7 @@ ms.locfileid: "6720020"
 
 На следующем рисунке показан пример модуля навигации, который показывает иерархию категорий в PDP.
 
-![Пример модуля навигации.](./media/ecommerce-breadcrumb.PNG)
+![Пример модуля навигации](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Параметры модуля навигации
 
@@ -90,6 +95,3 @@ ms.locfileid: "6720020"
 [Модуль поля покупки](add-buy-box.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,28 @@
 title: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
 description: В этой теме описывается, как использовать механизм ценообразования Microsoft Dynamics 365 Commerce для создания предложений с расценками продаж в Dynamics 365 Sales.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: shajain
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-11-03
+ms.openlocfilehash: fad5c21d75db62b85efe803f1667dd3f9164a5fc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416763"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594926"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
 
@@ -24,7 +33,7 @@ ms.locfileid: "7416763"
 
 Механизм ценообразования Dynamics 365 Commerce поддерживает большинство сценариев ценообразования "бизнеса-потребитель" (B2C), таких как ценообразование на уровне магазина, ценообразование на основе предпочтений и лояльности, скидки за комплект, скидки за количество и пороговые скидки. Механизм ценообразования использует сложные правила для определения наилучшей цены для данного предложения или заказа.
 
-Когда вы используете [двойную запись](./dual-write-overview.md), у вас имеются три вариант для потребностей в ценообразовании. Можно использовать статические цены, поступающие из прайс-листа в Dynamics 365 Sales, модуль ценообразования в Dynamics 365 Supply Chain Management или модуль ценообразования в Dynamics 365 Commerce. Среди этих вариантов механизм ценообразования Commerce лучше всего подходит для сценариев B2C.
+Когда вы используете [двойную запись](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), у вас имеются три вариант для потребностей в ценообразовании. Можно использовать статические цены, поступающие из прайс-листа в Dynamics 365 Sales, модуль ценообразования в Dynamics 365 Supply Chain Management или модуль ценообразования в Dynamics 365 Commerce. Среди этих вариантов механизм ценообразования Commerce лучше всего подходит для сценариев B2C.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Использование механизма ценообразования Commerce в Sales
 
@@ -35,7 +44,7 @@ ms.locfileid: "7416763"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-- Прежде чем можно будет использовать механизм ценообразования Commerce в Sales, необходимо выполнить шаги в разделе [Продажа перспективному клиенту в случае двойной записи](./dual-write-prospect-to-cash.md).
+- Прежде чем можно будет использовать механизм ценообразования Commerce в Sales, необходимо выполнить шаги в разделе [Продажа перспективному клиенту в случае двойной записи](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
 - Необходимо отключить оценку коммерческого соглашения для ручного ввода, выполнив следующие шаги:
 
     1. В своей среде Commerce перейдите в раздел **Расчеты с клиентами \> Настройка \> Параметры модуля расчетов с клиентами**.
@@ -43,7 +52,4 @@ ms.locfileid: "7416763"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Продажа перспективному клиенту в случае двойной записи](./dual-write-prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Продажа перспективному клиенту в случае двойной записи](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)

@@ -2,26 +2,29 @@
 title: Модуль сведений о самовывозе
 description: В этом разделе описывается модуль сведений о самовывозе, а также описывается, как добавить его на страницы оформления заказа в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764569"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665356"
 ---
-# <a name="pickup-information-module"></a>Информационный модуль отправки
+# <a name="pickup-information-module"></a>Модуль сведений о самовывозе
 
 [!include [banner](includes/banner.md)]
 
@@ -40,7 +43,7 @@ ms.locfileid: "6764569"
 
 На следующем рисунке показан пример выбора временного интервала с помощью модуля сведений о самовывозе на странице оформления заказа.
 
-![Пример модуля сведений о самовывозе на странице оформления заказа.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Пример модуля сведений о самовывозе на странице оформления заказа](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Свойства модуля
 
@@ -56,7 +59,7 @@ ms.locfileid: "6764569"
 
 На следующем рисунке показан пример страницы оформления заказа электронной коммерции, которая включает временные интервалы для номенклатур строк с самовывозом.
 
-![Пример страницы оформления заказа электронной коммерции, которая включает временные интервалы для номенклатур строк с самовывозом.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Пример страницы оформления заказа электронной коммерции, которая включает временные интервалы для номенклатур строк с самовывозом](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -67,6 +70,3 @@ ms.locfileid: "6764569"
 [Модуль подтверждения заказа](order-confirmation-module.md)
 
 [Модуль сведений о заказе](account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Малоценные основные средства (МОС) (Россия)
 description: В этом разделе содержатся сведения о ведении малоценных основных средств (МОС) для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 11/06/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9344966cf41f2ef250ea4d96faff2c0519690e5a5c32bf656cb4cb620aa78418
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcd606042ba5cb644105241ffcbba1de67c5745d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772733"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962528"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 
@@ -197,6 +199,3 @@ ms.locfileid: "6772733"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Учет рабочей одежды и специальной оснастки (Россия)](rus-working-clothes-instruments-accounting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

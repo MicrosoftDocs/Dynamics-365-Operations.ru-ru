@@ -94,6 +94,3 @@ ms.locfileid: "4527194"
 С обновлением платформы Platform update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам при наступлении события.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Создание юридического лица
 description: Юридическое лицо - это организация, которая определяется посредством регистрации в органе власти.
 author: sericks007
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759049"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796762"
 ---
 # <a name="create-a-legal-entity"></a>Создание юридического лица
 
@@ -43,6 +45,3 @@ ms.locfileid: "6759049"
 15. Разверните раздел **Налоговая регистрация**. В разделе **Налоговая регистрация** введите регистрационные номера, которые используются для отчета в налоговые органы.
 16. Разверните раздел **Налог по форме 1099**. В разделе **Налог по форме 1099** введите сведения 1099 для юридического лица.  
 17. Нажмите кнопку **Сохранить**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

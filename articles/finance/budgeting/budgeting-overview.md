@@ -1,28 +1,28 @@
 ---
 title: Домашняя страница бюджетирования
 description: В этом разделе представлен обзор компонентов функции бюджетирования, инструментов бюджетирования и возможностей отчетности в Microsoft Dynamics 365 Finance.
-author: panolte
-ms.date: 04/29/2021
-ms.topic: overview
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/09/2017
+ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "106043"
-- intro-internal
+ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983960"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962918"
 ---
 # <a name="budgeting-home-page"></a>Домашняя страница бюджетирования
 
@@ -30,11 +30,12 @@ ms.locfileid: "7983960"
 
 В этом разделе представлен обзор компонентов функции бюджетирования, инструментов бюджетирования и возможностей отчетности. 
 
-## <a name="components-of-budgeting-functionality"></a>Компоненты функциональности бюджетирования
+<a name="components-of-budgeting-functionality"></a>Компоненты функциональности бюджетирования
+-------------------------------------
 
 Цикл планирования ресурсов для компании обычно состоит из мероприятий планирования, бюджетирования и прогнозирования.
 
-[![Компоненты функциональности бюджетирования.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Компоненты функциональности бюджетирования](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Процессы как для долгосрочного стратегического планирования, так и для планирования годового бюджета поддерживаются через документ бюджетного плана. Документы бюджетного плана тесно интегрированы с Microsoft Excel. Пользователи могут настроить неограниченное число денежных и количественных сценариев, а также определить организационную иерархию бюджетирования для поддержки как нисходящего, так и восходящего методов бюджетирования. После определения и утверждения бюджета в приложении бюджетный план преобразовывается в запись регистра бюджета. Записи регистра бюджета содержат инструменты для ведения бюджета и отслеживания сумм с помощью кодов бюджета. Записи регистра бюджета позволяют пересматривать первоначальные бюджеты, выполнять переводы и переносить суммы бюджета из предыдущего года. На основании установленного бюджета компания может включить бюджетный контроль. Уровень контроля зависит от уровня организационной культуры и зрелости организации. Организации с низким уровнем зрелости могут оставить бюджет без изменений и в большей степени действовать реактивно, а не проактивно, если бюджет не соответствует ожиданиям. Другие организации могут включить политики бюджетного контроля, которые не дают пользователям совершать покупки, если средства бюджета недоступны.
 
@@ -48,7 +49,7 @@ ms.locfileid: "7983960"
 -   [Шаблоны бюджетного планирования для Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Инструменты бюджетирования
-[![Инструменты бюджетирования.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Инструменты бюджетирования](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Доступны дополнительные возможности планирования и бюджетирования, интегрированные с бюджетами ГК.
 
@@ -69,6 +70,3 @@ ms.locfileid: "7983960"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,6 +84,3 @@ ms.locfileid: "4529668"
 ### <a name="print-performance-reviews"></a>Печать оценок производительности
 
 Сотрудники, менеджеры и специалисты отдела кадров смогут распечатать обзор производительности сотрудников.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

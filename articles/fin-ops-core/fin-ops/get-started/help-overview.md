@@ -1,50 +1,47 @@
 ---
-title: Система справки (содержит видео)
-description: Этот раздел содержит обзор справочной системы для приложений для финансов и операций.
+title: Система справки
+description: Этот раздел содержит обзор справочной системы для приложений Finance and Operations.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070509"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695147"
 ---
 # <a name="help-system"></a>Система справки
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Пользователи следующих приложений могут получить контекстно-зависимую справку и другое содержимое, основанное на одной системе справки:
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 Во всех этих приложениях можно открыть справку для конкретного продукта из панели **Справка**.
 
-![Область справки.](./media/help-pane-ops-help.png)
+![Область справки](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Справка на docs.microsoft.com
 
-Сайт docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) является источником по умолчанию для проектной документации для перечисленных выше приложений. Этот сайт содержит следующие возможности:
+Сайт docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) является источником по умолчанию для проектной документации для перечисленных выше приложений. Этот сайт содержит следующие возможности:
 
 - **Доступ к самому последнему содержимому** — сайт предоставляет Microsoft более быстрый и гибкий способ создания, доставки и обновления документации по продуктам. Поэтому он обеспечивает простой доступ к самой последней технической информации.
 - **Содержимое, написанное специалистами** — содержимое на сайте открыто для вкладов от участников сообщества, как внутри, так и за пределами Microsoft.
@@ -53,20 +50,9 @@ ms.locfileid: "8070509"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Получение уведомлений об изменениях через RSS-канал
 
-Чтобы подписаться на RSS-канал для всех обновлений, которые сделаны в содержимом docs.microsoft.com в приложениях для финансов и операций, используйте следующую ссылку:
+Чтобы подписаться на RSS-канал для всех обновлений, которые относятся к содержимому docs.microsoft.com, используйте следующую ссылку:
 
-[RSS-канал](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> RSS-канал возвращает список последних 100 тем, которые были обновлены последними. Список не сортируется по дате.  
-
-В качестве альтернативы можно подписаться на RSS-канал по приложению:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Талант](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[RSS-канал](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>Оставить нам отзыв
 
@@ -76,7 +62,7 @@ ms.locfileid: "8070509"
 
 2. Введите текст комментария, затем выберите **Отправить отзыв**.
 
-    ![Опубликовать комментарий.](./media/feedback.png)
+    ![Опубликовать комментарий](./media/feedback.png)
 
 > [!NOTE]
 > Если необходимо отправить отзыв по документации, необходимо войти с учетной записью GitHub. Дополнительные сведения см. в разделе [Настройка и управление вашим профилем GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -89,7 +75,7 @@ ms.locfileid: "8070509"
 
 Видео [Как внести вклад в документацию по Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (показано выше) включено в канал Microsoft Dynamics 365 на YouTube.
 
-Дополнительные сведения см. в [руководстве для участников по документам](/contribute), которое публикуется рабочей группой, которая создала сайт docs.microsoft.com.
+Дополнительные сведения см. в [руководстве для участников по документам](https://docs.microsoft.com/contribute), которое публикуется рабочей группой, которая создала сайт docs.microsoft.com.
 
 > [!NOTE]
 > В настоящее время мы принимаем материалы только на английском языке.
@@ -100,11 +86,11 @@ ms.locfileid: "8070509"
 
 Microsoft выпустила библиотеки проводника по задачам для версий продуктов через выпуск Dynamics 365 for Finance and Operations от Декабрь 2017. В разделе [Доступ к проводникам по задачам в области "Справка"](#accessing-task-guides-from-the-help-pane) в этом разделе поясняется, как найти правильные проводники по задачам для продукта.
 
-![Представление чтения руководства по задаче.](./media/task-guide-ops.png)
+![Представление чтения руководства по задаче](./media/task-guide-ops.png)
 
 Чтобы приступить к управляемому, интерактивному взаимодействию с пользователем, выберите **Запустить проводник по задаче** в нижней части области **Справка**. Черный указатель показывает, где можно перейти в первую очередь. Следуйте инструкциям, которые отображаются в пользовательском интерфейсе, и введите данные, когда это потребуется.
 
-![Инструкция шага руководства по задаче.](./media/task-guide-step-1-ops.png)
+![Инструкция шага руководства по задаче](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Данные, вводимые при воспроизведении проводника по задаче, являются реальными. Если вы находитесь в производственной среде, данные будут вводиться в компанию, которая используется в данный момент.
@@ -117,7 +103,7 @@ Microsoft выпустила библиотеки проводника по за
 
 Для доступа к содержимому справки нажмите кнопку **Справка** (**?**), а затем выберите **Справка**. Также можно нажать сочетание клавиш **Ctrl+Shift+?**. В обоих случаях появится область **Справка**. С помощью области **справки** можно получить доступ к концептуальным разделам или проводникам по задачам, которые относятся к используемой в данный момент области продукта.
 
-![Область справки.](./media/help-pane-ops-help.png)
+![Область справки](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Доступ к разделов справки из области "Справка"
 
@@ -134,13 +120,13 @@ Microsoft выпустила библиотеки проводника по за
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 После выполнения системным администратором этих шагов вы можете открыть область **справки** и перейти на вкладку **Проводники по задачам**. Вы увидите проводники по задачам, относящиеся к странице, на которой вы в данный момент находитесь. Если руководства по задачам не найдены, можно ввести ключевые слова для уточнения поиска. После выбора проводника по задаче в области **Справка** в области **Справка** отобразятся пошаговые инструкции, и вы сможете воспроизвести проводника по задаче.
 
-![Представление чтения руководства по задаче.](./media/task-guide-ops.png)
+![Представление чтения руководства по задаче](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Где находятся переведенные проводники по задачам для библиотек Microsoft?
 
@@ -171,14 +157,10 @@ On the **System parameters** page, follow these steps:
 | Сайт | описание |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Этот сайт предоставляет всю документацию по продуктам для Dynamics 365 или ссылки на нее. |
-| [Microsoft Learn](/learn/) | Этот сайт является бесплатным сайтом электронного обучения Microsoft. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Этот сайт является бесплатным сайтом электронного обучения Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Этот сайт предоставляет совместное рабочее пространство на основе облака, которое клиенты и их партнеры могут использовать для управления проектами от предварительной продажи до реализации и выполнения операций. Он полезен на всех стадиях реализации. |
 | [Блог поддержки](https://aka.ms/AXSupportBlog) | Этот сайт предоставляет подсказки и рекомендации группы поддержки. |
 | [Docs.microsoft.com/предыдущие версии](/previous-versions/dynamics/) | Этот сайт размещает содержимое из предыдущих выпусков. |
 | [Сообщество Dynamics](https://community.dynamics.com/) | Этот сайт включает блоги, форумы и видео. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Этот сайт предоставляет сведения об оценке и продажах. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Этот сайт размещает ресурсы обучения, можно загрузить отчеты и документы, и является основным сайтом поддержки для владельцев планов обслуживания. Может потребоваться план обслуживания для доступа к некоторым ресурсам на сайте. |

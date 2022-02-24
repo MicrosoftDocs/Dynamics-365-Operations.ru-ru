@@ -2,9 +2,11 @@
 title: Содержимое Power BI "Обучение"
 description: В этом разделе описывается содержимое Power BI "Обучение".
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742346"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685257"
 ---
 # <a name="learning-power-bi-content"></a>Содержимое Power BI "Обучение"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое **Обучение** для Microsoft Power BI.
+В этом разделе описывается содержимое Microsoft Power BI **Обучение**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, включенные в содержимое Power BI
 
@@ -60,6 +62,3 @@ ms.locfileid: "6742346"
 | Занимаемая должность         | Должность, название и эквивалент полной занятости (FTE)                  | План курса, участники курса |
 | Имя сотрудника    | Имя, фамилия и ФИО                             | Участники курса |
 | Должность сотрудника   | Должность и дата трудового стажа                                         | Участники курса |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

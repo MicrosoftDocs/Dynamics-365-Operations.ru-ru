@@ -1,37 +1,40 @@
 ---
 title: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management
 description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061317"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528931"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Dynamics 365 Field Service с заказами на продажу в Dynamics 365 Supply Chain Management.
 
-[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
@@ -59,13 +62,13 @@ ms.locfileid: "8061317"
 
 | **Field Service** | **Управление цепочкой поставок** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Заголовки заказов на продажу Dataverse |
-| msdyn_workorderservices | Строки заказа на продажу Dataverse   |
-| msdyn_workorderproducts | Строки заказа на продажу Dataverse   |
+| msdyn_workorders        | Заголовки заказов на продажу CDS |
+| msdyn_workorderservices | Строки заказа на продажу CDS   |
+| msdyn_workorderproducts | Строки заказа на продажу CDS   |
 
 ## <a name="entity-flow"></a>Поток объектов
 
-Заказы на выполнение работ создаются в Field Service. Если заказы на выполнение работ включают только продукты, поддерживаемые извне, и если значение **Статус заказа на выполнение работ** отличается от **Открыто — Не запланировано** и **Закрыт — Отменен**, заказы на выполнение работ могут быть синхронизированы с Supply Chain Management через проект интеграции данных Microsoft Dataverse. Обновления заказов на выполнение работ синхронизируются как заказы на продажу в Supply Chain Management. Эти обновления включают в себя информацию о типе источника и статус.
+Заказы на выполнение работ создаются в Field Service. Если заказы на выполнение работ включают только продукты, поддерживаемые извне, и если значение **Статус заказа на выполнение работ** отличается от **Открыто — Не запланировано** и **Закрыт — Отменен**, заказы на выполнение работ могут быть синхронизированы с Supply Chain Management через проект интеграции данных Common Data Service. Обновления заказов на выполнение работ синхронизируются как заказы на продажу в Supply Chain Management. Эти обновления включают в себя информацию о типе источника и статус.
 
 ## <a name="estimated-versus-used"></a>Ожидаемые и использованные
 
@@ -245,31 +248,28 @@ ms.locfileid: "8061317"
 
 Фильтр: (msdyn_systemstatus ne 690970005) and (msdyn_systemstatus ne 690970000) and (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Сопоставление шаблонов в интеграции данных из заказов на работу в заказы на продажу (из Field Service в Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineEstimate
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
 
-[![Сопоставление шаблонов в интеграции данных из заказов на работу в заказы на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineUsed
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004))
 
-[![Сопоставление шаблонов в интеграции данных из заказов на работу в заказы на продажу (из Field Service в Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineEstimate
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) and (msdyn_allocated eq true)
 
-[![Сопоставление шаблонов в интеграции данных из заказов на работу в заказы на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Заказы на работу с заказами на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineUsed
 
 Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004) or (msdyn_allocated ne true))
 
-[![Сопоставление шаблонов в интеграции данных из заказов на работу в заказы на продажу (из Field Service в Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)

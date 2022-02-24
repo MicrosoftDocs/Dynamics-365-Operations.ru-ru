@@ -2,9 +2,11 @@
 title: Устранение неполадок бюджетирования должностей
 description: Эта статься содержит ответы на вопросы, которые могут возникнуть при настройке бюджетирования должностей. Он включает часто задаваемые вопросы о создании элементов бюджетных затрат, групп компенсации и сеток компенсации.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726070"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017625"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Устранение неполадок бюджетирования должностей
 
@@ -28,7 +30,8 @@ ms.locfileid: "6726070"
 
 Эта статься содержит ответы на вопросы, которые могут возникнуть при настройке бюджетирования должностей. Он включает часто задаваемые вопросы о создании элементов бюджетных затрат, групп компенсации и сеток компенсации. 
 
-## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Почему я не могу найти страницу прогнозируемой должности в модуле "Управление персоналом"?
+<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Почему я не могу найти страницу прогнозируемой должности в модуле "Управление персоналом"?
+---------------------------------------------------------------
 
 Прогнозируемые должности перенесены в модуль "Бюджетирование".
 
@@ -60,6 +63,3 @@ ms.locfileid: "6726070"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

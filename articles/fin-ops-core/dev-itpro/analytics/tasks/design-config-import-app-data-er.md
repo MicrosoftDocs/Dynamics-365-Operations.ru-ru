@@ -2,9 +2,11 @@
 title: Разработка конфигураций электронной отчетности для анализа входящих документов
 description: В этой процедуре показано, как разработать конфигурации электронной отчетности для анализа входящего электронного документа.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446a4676ad00c93d691d3048408c32d7ad373d2d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756389"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682101"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Разработка конфигураций электронной отчетности для анализа входящих документов
 
@@ -111,6 +113,3 @@ ms.locfileid: "6756389"
     * Выберите "Обзор" и выберите файл Response4.xml.
 16. Нажмите ОК.
     * Просмотрите созданные выходные данные. Тип ответа теперь должным образом распознан как равный файлу Response1.xml.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

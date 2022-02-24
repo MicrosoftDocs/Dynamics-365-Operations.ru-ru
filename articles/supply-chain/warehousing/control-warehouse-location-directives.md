@@ -2,9 +2,11 @@
 title: Контроль работы склада с шаблонами работы и директивами для мест хранения
 description: В этой теме рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
 author: perlynne
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fdedd3011bc707de785a5993244643347848d14
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770152"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970439"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Контроль работы склада с шаблонами работы и директивами для мест хранения
 
@@ -73,7 +75,4 @@ ms.locfileid: "6770152"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - Видео: [Подробные сведения о конфигурации управления складом](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Тема справки: [Работа с директивами местонахождения](create-location-directive.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- Тема справки: [Создание директив местонахождения](create-location-directive.md)

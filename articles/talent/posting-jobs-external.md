@@ -102,6 +102,3 @@ Attract передает следующую информацию в Broadbean:
 [Создание, утверждение и публикация вакансий в Attract](./creating-jobs-attract.md)
 
 [Включение интеграции Broadbean в Microsoft Dynamics 365 Talent — Attract](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

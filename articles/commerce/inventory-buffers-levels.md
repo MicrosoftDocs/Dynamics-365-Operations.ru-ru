@@ -2,28 +2,33 @@
 title: Настройка буферов запасов и уровней запасов
 description: В этой теме объясняется, как настроить буферы запасов и уровни запасов, которые определяют сообщения о доступности запасов на сайта Microsoft Dynamics 365 Commerce.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415266"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Настройка буферов запасов и уровней запасов
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как настроить буферы запасов и уровни запасов, которые определяют сообщения о доступности запасов на сайта Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Центральный офис Dynamics 365 Commerce хранит данные о запасах и различные каналы, такие как приложения POS, витрины магазина электронной коммерции и другие настраиваемые интегрированные приложения, которые извлекают и помещают запасы в асинхронном режиме. Таким образом, доступные значения запасов, полученные через страницу запасов в наличии в центральном офисе Commerce через интерфейс пользователя POS и через API доступности запасов для электронной коммерции, не всегда 100-процентно точны в реальном времени.
 
@@ -144,6 +149,3 @@ ms.locfileid: "6727541"
 [Применение настроек запасов](inventory-settings.md)
 
 [Расчет наличия запасов для розничных каналов](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

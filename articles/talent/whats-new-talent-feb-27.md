@@ -141,6 +141,3 @@ ms.locfileid: "4529146"
     9. На странице **Задача сопоставления** выберите новый столбец в качестве источника для создания еще одного сопоставления для HIERARCHYTYPENAME.
 
         [![Сопоставление](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

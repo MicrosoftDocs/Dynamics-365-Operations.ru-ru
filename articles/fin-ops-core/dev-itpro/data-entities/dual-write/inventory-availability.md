@@ -1,20 +1,29 @@
 ---
 title: Доступность запасов в двойной записи
 description: В этой теме приводятся сведения о порядке проверки доступности запасов в случае двойной записи.
-author: RamaKrishnamoorthy
+author: yijialuan
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: ramasri
+ms.search.industry: ''
+ms.author: riluan
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782537"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839557"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Доступность запасов в двойной записи
 
@@ -57,12 +66,55 @@ ms.locfileid: "7782537"
 - Запросы запасов в наличии CDS (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Шаблоны
-
 Для доступа к данным запасов в наличии доступны следующие шаблоны.
 
-Приложения Finance and Operations | Приложения для взаимодействия с клиентами     | описание
+Приложения Finance and Operations | Приложение для взаимодействия с клиентами | описание 
 ---|---|---
-[Записи CDS запасов в наличии](mapping-reference.md#145) | msdyn_inventoryonhandentries |
-[Запросы CDS запасов в наличии](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
+[Записи CDS запасов в наличии](#145) | msdyn_inventoryonhandentries |
+[Запросы CDS запасов в наличии](#147) | msdyn_inventoryonhandrequests |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Записи запасов в наличии CDS (msdyn_inventoryonhandentries)
+
+Этот шаблон синхронизирует данные между приложениями Finance and Operations и Dataverse.
+
+Поле Finance and Operations | Тип сопоставления | Поле взаимодействия с клиентами | Значение по умолчанию
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Запросы запасов в наличии CDS (msdyn_inventoryonhandrequests)
+
+Этот шаблон синхронизирует данные между приложениями Finance and Operations и Dataverse.
+
+Поле Finance and Operations | Тип сопоставления | Поле взаимодействия с клиентами | Значение по умолчанию
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

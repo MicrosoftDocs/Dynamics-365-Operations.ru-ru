@@ -1,10 +1,12 @@
 ---
 title: Целевые объекты
 description: В этой теме объясняется, как получить обзор целевых объектов в модуле "Управление активами".
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb22c5b604f9bc7aacad014385b036e78d9110e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772576"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017220"
 ---
 # <a name="target-entities"></a>Целевые объекты
 
@@ -34,13 +36,13 @@ ms.locfileid: "6772576"
 
 2. В разделе **Импорт/экспорт** щелкните **Информационные объекты**. 
 
-    ![Рисунок 1.](media/01-data-management.png)
+    ![Рисунок 1](media/01-data-management.png)
 
 3. На странице **Целевые объекты** выполните поиск по слову "управление активами" в фильтре и нажмите клавишу ВВОД, чтобы просмотреть список сущностей, связанных с модулем "Управление активами".
 
     На следующем рисунке показаны некоторые из объектов модуля "Управление активами".
 
-   ![Рисунок 2.](media/02-data-management.png)
+   ![Рисунок 2](media/02-data-management.png)
 
 4. Выберите объект и щелкните **Изменить целевое сопоставление**.
 
@@ -48,8 +50,5 @@ ms.locfileid: "6772576"
 
     На приведенном ниже рисунке визуально показаны поля, связанные с объектом типа актива.
 
-    ![Рисунок 3.](media/03-data-management.png)
+    ![Рисунок 3](media/03-data-management.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

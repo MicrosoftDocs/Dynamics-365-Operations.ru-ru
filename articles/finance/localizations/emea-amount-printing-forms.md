@@ -2,24 +2,27 @@
 title: Обновление способа отображения сумм в отчетах и документах
 description: В этом разделе представлена информация о том, как обновить способ отображения сумм в отчетах и других документах для Эстонии, Латвии, Литвы, Польши, Чехии, Венгрии и России.
 author: anasyash
-ms.date: 01/18/2022
+manager: AnnBe
+ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Currency
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 264254
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 678c7ac288e7754809ad51cc609e1aaa011776ee
-ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8007594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4408597"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Обновление способа отображения сумм в отчетах и документах
 
@@ -47,10 +50,7 @@ ms.locfileid: "8007594"
    |    <strong>Сокращенное наименование единиц (группа полей краткого имени)</strong>    |                                                                                         Введите код ISO для идентификации валюты. Например, введите LTL для определения литовских литов.                                                                                         |
    |   <strong>Сокращенное наименование частей (группа полей краткого имени)</strong>    |                                                                                               Введите обозначение субединицы валюты. Например, введите "Центы".                                                                                               |
    |       <strong>Соединительный союз "и" между единицами и частями</strong>       |                                     Установите этот флажок для печати союза «и» между единицами и частями валюты. Например, в накладных или отчетах сумма 100,20 литов будет отображаться как «100 литов и 20 центов».                                      |
-   |       <strong>Род</strong>       |  Выберите **Мужской**, **Женский** или **Нейтральный**. Этот параметр может влиять на текст склонения суммы, которая отображается в тексте на локальном языке по кассовому ордеру. Например, при настройке значения **Пол** для валюты EUR как **Нейтральный**, сумма 1,01 EUR записывается на чешском языке в кассовый ордер как *Jedno euro 01 cent*.  |
+   |       <strong>Род</strong>       |  Выберите **Мужской**, **Женский** или **Нейтральный**. Этот параметр может влиять на текст склонения суммы, которая отображается в тексте на локальном языке по кассовому ордеру. Например, при настройке значения **Пол** для валюты EUR как **Нейтральный**, сумма 1,01 EUR записывается на чешском языке в кассовый ордер как *Едно евро 01 цент*.  |
 
 5. Нажмите **Сохранить**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

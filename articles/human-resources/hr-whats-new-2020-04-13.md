@@ -1,32 +1,33 @@
 ---
 title: Что нового или что изменилось в Dynamics 365 Human Resources (13 апреля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 13 апреля 2020 года.
-author: andreabichsel
-ms.date: 04/13/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 4/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5af74329fa741a443932a1007a6c2ef6abd3445
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062219"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Что нового или что изменилось в Dynamics 365 Human Resources (13 апреля 2020 г.)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3136. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 
@@ -42,9 +43,9 @@ ms.locfileid: "8062219"
 
 Теперь можно изменить дату окончания регистрации без получения ошибки "Необходимо заполнить поле базиса даты начисления".
 
-## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>Объект занятости не синхронизируется с Dataverse (430834)
+## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>Объект занятости не синхронизируется с Common Data Service (430834)
 
-Это изменение исправляет вопрос, в котором данные о приеме на работу не синхронизировались с Dataverse после добавления финансовых аналитик. 
+Это изменение исправляет вопрос, в котором данные о приеме на работу не синхронизировались с Common Data Service после добавления финансовых аналитик. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>Удаление множественного родителя для объекта интервала времени рабочего календаря (431775)
 
@@ -93,8 +94,6 @@ ms.locfileid: "8062219"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,28 @@
 title: Политики консолидации отгрузок
 description: В этом разделе представлен обзор функциональных возможностей, обеспечивающих гибкую настройку политик консолидации отгрузок.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577968"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654228"
 ---
 # <a name="shipment-consolidation-policies"></a>Политики консолидации отгрузок
-
-[!include [banner](../includes/banner.md)]
 
 Процесс консолидации отгрузок, использующий политики консолидации отгрузок, позволяет использовать автоматическую консолидацию отгрузок во время автоматического и ручного запуска на склад. Автоматизированная консолидация, которая была доступна до того, как была введена эта функция, имела жестко запрограммированные поля и была основана на поле **Консолидировать отгрузку перед запуском на склад**, которое было задано для склада.
 
@@ -134,6 +135,3 @@ ms.locfileid: "7577968"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка политик консолидации отгрузок](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

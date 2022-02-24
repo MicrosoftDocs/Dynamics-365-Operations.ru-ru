@@ -2,30 +2,36 @@
 title: Настройка склада
 description: В этом разделе описывается, как настроить склад для использования с новым каналом в Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415230"
 ---
 # <a name="warehouse-set-up"></a>Настройка складов
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить склад для использования с новым каналом в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Для каждого канала Commerce необходим настроенный склад, который должен быть связан с ним. Следующие процедуры обеспечивают минимальную конфигурацию, необходимую для настройки склада для канала Commerce. Дополнительные сведения о настройке склада см. в [Обзор управления складом](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -45,9 +51,9 @@ ms.locfileid: "6734027"
 
 На следующем рисунке показан пример сайта склада.
 
-![Пример: сайт склада.](media/warehouse-site.png)
+![Пример: сайт склада](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse&quot;></a>Настройка склада
+## <a name="set-up-a-warehouse"></a>Настройка склада
 
 Чтобы настроить склад, выполните следующие шаги.
 
@@ -61,14 +67,14 @@ ms.locfileid: "6734027"
     - Если требуется настроить **Транзитный склад**, сначала необходимо выполнить следующие действия для создания дополнительного склада, где для этого **Тип** устанавливается значение **Транзит**.
 1. На панели операций выберите **Сохранить**.
 
-## <a name=&quot;set-up-inventory-aisles&quot;></a>Настройка складских проходов
+## <a name="set-up-inventory-aisles"></a>Настройка складских проходов
 
 Чтобы настроить складские проходы, выполните следующие действия.
 
 1. В области переходов выберите **Модули \> Розничная торговля и коммерция \> Настройка канала \> Настройка местонахождения \> Складские проходы**.
 1. В области действий выберите **Создать**.
 1. В раскрывающемся списке **Склад** выберите склад, который был создан ранее.
-1. В поле **Проход** введите имя (например, &quot;Def").
+1. В поле **Проход** введите имя (например, "Def").
 1. В поле **Имя** введите имя (например, "Default aisle").
 1. На панели операций выберите **Сохранить**.
 
@@ -98,7 +104,7 @@ ms.locfileid: "6734027"
     
 На следующем рисунке показана настройка местонахождения запасов склада "Сан-Франциско".
 
-![Пример настройки местонахождения запасов.](media/warehouse-inventory-locations.png)
+![Пример настройки местонахождения запасов](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Завершение настройки склада
 
@@ -121,7 +127,7 @@ ms.locfileid: "6734027"
 
 На следующем рисунке показаны данные для настроенного склада.
 
-![Пример настроенного склада.](media/warehouse-sample.png)
+![Пример настроенного склада](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -141,6 +147,3 @@ ms.locfileid: "6734027"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

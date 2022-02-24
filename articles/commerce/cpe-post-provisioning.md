@@ -1,31 +1,36 @@
 ---
-title: Настройка среды оценки Dynamics 365 Commerce
+title: Настройка ознакомительной среды Dynamics 365 Commerce
 description: В этой теме объясняется, как настроить ознакомительную среду Microsoft Dynamics 365 Commerce после ее предоставления.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913735"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415131"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Настройка среды оценки Dynamics 365 Commerce
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Настройка ознакомительной среды Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как настроить ознакомительную среду Microsoft Dynamics 365 Commerce после ее предоставления.
+
+## <a name="overview"></a>Обзор
 
 Выполните процедуры в этой теме только после того, как ваша ознакомительная среда Commerce была создана. Для получения информации о том, как предоставить ознакомительную среду Commerce, см. в [Обеспечение ознакомительной среды Commerce](provisioning-guide.md).
 
@@ -39,7 +44,6 @@ ms.locfileid: "7913735"
 1. Выберите среду из списка.
 1. Щелкните **Войти в среду** в сведениях о среде с правой стороны. Вы будете отправлены в Commerce Headquarters.
 1. Убедитесь, что выбрано юридическое лицо **USRT** (верхний правый угол).
-2. Перейдите в раздел **Параметры Commerce > Параметры конфигурации** и убедитесь, что запись для **ProductSearch.UseAzureSearch** установлена в значение **true**. Если эта запись отсутствует, можно добавить эту запись и выполнить **База данных канала > Полная синхронизация** для Commerce Scale Unit, связанной с веб-сайтом электронной коммерции.
 
 Во время действий после подготовки в модуле Commerce Headquarters убедитесь, что всегда выбрано юридическое лицо **USRT**.
 
@@ -107,12 +111,6 @@ ms.locfileid: "7913735"
     1. В области действий щелкните вкладку **Пакетное задание**, выберите **Изменить статус**.
     1. Выберите **Отменяется**, затем выберите **ОК**.
 
-1. Если статус задания — **Отложено**, выполните следующие шаги:
-
-    1. Выберите запись.
-    1. В области действий щелкните вкладку **Пакетное задание**, выберите **Изменить статус**.
-    1. Выберите **Ожидание**, затем выберите **ОК**.
-
 Кроме того, можно установить интервал повторения равным одной (1) минуте для следующих заданий:
 
 * Задание обработки уведомления по электронной почте о заказе розничной торговли
@@ -135,7 +133,7 @@ ms.locfileid: "7913735"
 Для выполнения проверочных проводок на сайте можно использовать следующие данные пробной кредитной карты:
 
 - **Номер карты:** 4111-1111-1111-1111
-- **Дата окончания срока действия:** 10/30
+- **Дата окончания срока действия:** 10/20
 - **Контрольный код карты (CVV):** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ ms.locfileid: "7913735"
 После завершения этапов подготовки и конфигурации вы можете начать использовать ознакомительную среду. Используйте URL-адрес конструктора сайтов Commerce, чтобы перейти к взаимодействию разработки. Используйте URL-адрес сайта Commerce, чтобы перейти к взаимодействию с сайтом клиента Retail.
 
 Чтобы настроить дополнительные функции для ознакомительной среды Commerce, см. [Настройка дополнительных функций для ознакомительной среды Commerce](cpe-optional-features.md).
-
-> [!NOTE]
-> Ознакомительные среды Commerce поставляются с предварительно загруженным клиентом Azure Active Directory (Azure AD) B2C для демонстрационных целей. Настройка собственного клиента Azure AD B2C не является необходимым для ознакомительных сред. Однако, если настроить среду оценки для использования собственного клиента Azure AD B2C, следует добавить ``https://login.commerce.dynamics.com/_msdyn365/authresp`` как URL-адрес ответа в приложении Azure AD B2C через портал Azure.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -162,15 +157,10 @@ ms.locfileid: "7913735"
 
 [Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Настройка клиента B2C в модуле Commerce](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

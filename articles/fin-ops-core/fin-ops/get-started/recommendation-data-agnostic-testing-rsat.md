@@ -2,9 +2,11 @@
 title: Независимые от данных испытания с помощью Regression Suite Automation Tool
 description: В этом разделе обсуждаются рекомендации по независимым от данных испытаниям с помощью Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763418"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798210"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Независимые от данных испытания с помощью Regression Suite Automation Tool
 
@@ -30,7 +32,7 @@ ms.locfileid: "6763418"
 - Структура ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Пирамида классификации тестов.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Пирамида классификации тестов](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Обзор
 -   **Структура SysTest** — структура SysTest является надежной для написания модульных тестов. Поскольку модульные тесты обычно тестируют метод или функцию, они всегда должны быть независимыми от данных и зависеть только от входных данных, которые предоставляются как часть тестирования.
@@ -42,11 +44,8 @@ ms.locfileid: "6763418"
     - Введите уникальные коды, такие как номера накладных, с помощью номерной серии или с помощью таких функций Microsoft Excel, как =ТЕКСТ(СЕГОДНЯ(),"ДД.ММ.ГГГГ ч:мм"). Эта функция обеспечит уникальный номер каждую минуту, что позволяет отслеживать время, когда произошло это действие. Это может использоваться для переменных, таких как номера поступления продуктов и номера накладных поставщиков. Эти тесты продолжают работать с одной и той же базой данных снова и снова, не требуя восстановления.
     - Всегда устанавливайте для параметра **Режим редактирования** среды значение **Чтение** или **Редактирование** в первом тестовом случае, поскольку параметр по умолчанию имеет значение **Авто**. Параметры **Авто** всегда используют предыдущую настройку и могут привести к ненадежным испытаниям. 
  
-    [![Страница параметров, вкладка производительности.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Страница параметров, вкладка производительности](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Выполняйте проверку только после фильтрации по конкретной проводке вместо универсальной проверки. Например, для количества записей выполните фильтрацию по номеру проводки или дате проводки, чтобы исключить все другие проводки из проверки. 
     - При проверке сальдо клиента или проверке бюджета сначала сохраните сумму, затем добавьте сумму проводки, чтобы проверить ожидаемый результат вместо проверки фиксированной ожидаемой суммы. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

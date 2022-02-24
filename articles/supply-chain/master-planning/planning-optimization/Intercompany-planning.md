@@ -2,13 +2,16 @@
 title: Внутрихолдинговое планирование
 description: В этой теме описывается внутрихолдинговое планирование и объясняется, как настроить внутрихолдинговое планирование с оптимизацией планирования в Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777919"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672204"
 ---
 # <a name="intercompany-planning"></a>Внутрихолдинговое планирование
 
@@ -45,8 +48,8 @@ ms.locfileid: "6777919"
 
 Чтобы использовать внутрихолдинговое планирование, необходимо подготовить систему следующим образом:
 
-1. Соответствующие продукты должны быть выпущены во всех соответствующих компаниях. Дополнительные сведения см. в [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
-1. Нисходящий спрос должен покрываться покупками от поставщика, у которого есть внутрихолдинговая связь с вышестоящей компанией и соответствующие складские аналитики по умолчанию (сайт и склад) для клиента. Дополнительные сведения см. в [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
+1. Соответствующие продукты должны быть выпущены во всех соответствующих компаниях. Дополнительные сведения см. в разделе [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
+1. Нисходящий спрос должен покрываться покупками от поставщика, у которого есть внутрихолдинговая связь с вышестоящей компанией и соответствующие складские аналитики по умолчанию (сайт и склад) для клиента. Дополнительные сведения см. в разделе [Настройка и использование внутрихолдинговой торговли в Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) в Microsoft Learn.
 1. Сводный план в вышестоящей компании должен включать запланированный нисходящий спрос, а соответствующая компания и сводный план должны быть указаны в нижестоящих планах.
 
 ## <a name="include-planned-downstream-demand"></a>Включить спланированный нижестоящий спрос
@@ -76,7 +79,7 @@ ms.locfileid: "6777919"
 
 На следующем рисунке показано, как этот пример может отображаться на странице **Многоуровневая информация об источниках потребности** для спланированного производственного заказа.
 
-![Внутрихолдинговый пример, в котором участвуют две компании.](media/IntercompanyPlanning1.png)
+![Внутрихолдинговый пример, в котором участвуют две компании](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Внутрихолдинговый пример, в котором участвуют три компании
 
@@ -84,7 +87,4 @@ ms.locfileid: "6777919"
 
 На следующем рисунке показано, как этот пример может отображаться на странице **Многоуровневая информация об источниках потребности** для спланированного производственного заказа.
 
-![Внутрихолдинговый пример, в котором участвуют три компании.](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Внутрихолдинговый пример, в котором участвуют три компании](media/IntercompanyPlanning2.png)

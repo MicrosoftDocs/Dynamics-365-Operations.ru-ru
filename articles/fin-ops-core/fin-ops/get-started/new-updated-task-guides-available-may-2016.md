@@ -2,9 +2,11 @@
 title: Новые или обновленные руководства по задачам (май 2016 г.)
 description: В этой статье перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (май 2016 г. — все языки) от Майкрософт для Microsoft Dynamics AX. Новая библиотека начала работы не была выпущена.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 38c50dd80a68c5ccdab59f6da039cbd209f06067addce341a931ddb1d127438e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fda3942621a849e7aa1095dddd004ba458933af7
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713316"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796588"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Новые или обновленные руководства по задачам (май 2016 г.)
 
@@ -191,6 +193,3 @@ ms.locfileid: "6713316"
 [Новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
 
 [Новые или обновленные руководства по задачам (ноябрь 2016 г.)](new-task-guides-november-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

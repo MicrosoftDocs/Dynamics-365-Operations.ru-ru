@@ -88,6 +88,3 @@ ms.locfileid: "4462382"
 ## <a name="export-to-excel"></a>Экспорт в Excel
 
 Для просмотра данных отчета в Excel можно щелкнуть меню параметров (три точки) на визуальном элементе и выбрать **Экспорт базовых данных** Экспортированные данные экспортируются как отфильтрованные с учетом разрешений пользователя в Attract. Дополнительные сведения см. в разделе [Экспорт данных из визуальных элементов](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,29 +2,40 @@
 title: Продажа перспективному клиенту в случае двойной записи
 description: В этом разделе приводятся сведения о продаже перспективному клиенту в случае двойной записи.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781799"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959609"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Продажа перспективному клиенту в случае двойной записи
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 Важной целью большинства компаний является преобразование перспективных клиентов в клиентов и последующее построение долговременных деловых отношений с этими клиентами. В приложениях Microsoft Dynamics 365 обработка перспективных клиентов осуществляется с помощью предложений с расценками или рабочих процессов обработки заказов, и финансовые средства выверяются и опознаются. Интеграция продажи перспективному клиенту с двойной записью создает рабочий процесс, который принимает предложение с расценками и заказ, исходящий из Dynamics 365 Sales или Dynamics 365 Supply Chain Management, и делает предложение с расценками и заказ доступными в обоих приложениях.
 
 В интерфейсах приложения в реальном времени можно получить доступ к статусам обработки и сведениям о счете. Таким образом, можно упростить управление функциями, такими как хранение товаров, управление запасами и выполнение в Supply Chain Management без повторного создания предложений с расценками и заказов.
 
-![Поток данных при двойной записи в случае продажи перспективному клиенту.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Поток данных при двойной записи в случае продажи перспективному клиенту](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Сведения об интеграции клиентов и контактов см. в разделе [Интегрированный справочник клиентов](customer-mapping.md). Сведения об интеграции продукта см. в разделе [Единый подход к работе с продуктами](product-mapping.md).
 
@@ -61,7 +72,6 @@ ms.locfileid: "7781799"
 + Столбцы **Условия фрахта**, **Условия поставки**, **Способ доставки** и **Режим доставки** не являются частью сопоставлений по умолчанию. Чтобы сопоставить эти столбцы, необходимо настроить преобразование значений, характерное для данных в организациях, между которыми синхронизируется таблица.
 
 Если используется также решение Field Service, обязательно снова включите параметр **Быстрое создание строки предложения**. Повторное включение этого параметра позволяет продолжить создание строк предложения с помощью функции быстрого создания.
-
 1. Перейдите к приложению Dynamics 365 Sales.
 2. Выберите значок настройки на верхней панели навигации.
 3. Выберите **Дополнительные параметры**.
@@ -113,25 +123,40 @@ ms.locfileid: "7781799"
 
 | Приложения Finance and Operations | Приложения для взаимодействия с клиентами | описание |
 |-----------------------------|-----------------------------------|-------------|
-[Все продукты](mapping-reference.md#138) | msdyn_globalproducts | |
-[Клиенты V3](mapping-reference.md#101) | счета | |
-[Клиенты V3](mapping-reference.md#116) | контакты | |
-[Контакты V2](mapping-reference.md#221) | msdyn_contactforparties | |
-[Заголовки заказов на продажу CDS](mapping-reference.md#217) | salesorders | |
-[Строки заказа на продажу CDS](mapping-reference.md#216) | salesorderdetails | |
-[Заголовок предложения по продаже CDS](mapping-reference.md#215) | предложения | |
-[Строки предложения по продаже CDS](mapping-reference.md#214) | quotedetails | |
-[Выпущенные продукты V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Заголовки накладной заказа на продажу V2](mapping-reference.md#118) | накладные | Таблица заголовков счетов на продажу v2 в приложении Finance and Operations содержит накладные для заказов на продажу и накладных с произвольным текстом. Фильтр применяется в Dataverse для двойной записи, которая отфильтровывает все документы накладных с произвольным текстом. |
-[Строки накладной заказа на продажу V2](mapping-reference.md#117) | invoicedetails | |
-[Коды происхождения заказов на продажу](mapping-reference.md#186) | msdyn_salesorderorigins | |
+| Заголовки накладной заказа на продажу V2    | накладные                          | Таблица заголовков счетов на продажу v2 в приложении Finance and Operations содержит накладные для заказов на продажу и накладных с произвольным текстом. Фильтр применяется в Dataverse для двойной записи, которая отфильтровывает все документы накладных с произвольным текстом. |
+| Строки накладной заказа на продажу V2      | invoicedetails                    |             |
+| Заголовки заказов на продажу CDS     | salesorders                       |             |
+| Строки заказа на продажу CDS       | salesorderdetails                 |             |
+| Коды происхождения заказов на продажу    | msdyn\_salesorderorigins          |             |
+| Заголовок предложения по продаже CDS  | предложения                            |             |
+| Строки предложения по продаже CDS   | quotedetails                      |             |
 
-Сведения о прайс-листах см. в разделе [Единый подход к работе с продуктами](product-mapping.md).
+Ниже приведены соответствующие сопоставления базовых таблиц для продажи перспективному клиенту:
+
++ [Клиенты V3 -> организации](customer-mapping.md#customers-v3-to-accounts)
++ [Контакты CDS V2 -> контакты](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [Клиенты V3 -> контакты](customer-mapping.md#customers-v3-to-contacts)
++ [Выпущенные продукты V2 -> msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Все продукты -> msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [Прайс-лист](product-mapping.md)
 
 ## <a name="limitations"></a>Ограничения
-
 - Заказы на возврат не поддерживаются.
 - Кредит-ноты не поддерживаются.
-- Финансовые аналитики должны быть настроены для справочника, например клиента и поставщика. Когда клиент добавляется в предложение с расценками или заказ на продажу, финансовые аналитики, связанные с записью клиента, автоматически перетекают в заказ. В настоящее время двойная запись не включает данные финансовых аналитик для справочника.
+- Финансовые аналитики должны быть настроены для справочника, например клиента и поставщика. Когда клиент добавляется в предложение с расценками или заказ на продажу, финансовые аналитики, связанные с записью клиента, автоматически перетекают в заказ. В настоящее время двойная запись не включает данные финансовых аналитик для справочника. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

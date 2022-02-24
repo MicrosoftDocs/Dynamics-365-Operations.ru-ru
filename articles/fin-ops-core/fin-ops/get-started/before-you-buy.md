@@ -2,9 +2,11 @@
 title: Перед покупкой
 description: Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/30/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874592"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798557"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -42,7 +44,7 @@ ms.locfileid: "7874592"
 - [Требования к системе для локальных развертываний](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Локальные развертывания не поддерживаются ни в какой открытой облачной инфраструктуре, включая Microsoft Azure. Однако они поддерживаются для работы в [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) и [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
+> Локальные развертывания не поддерживаются ни в какой открытой облачной инфраструктуре, включая Microsoft Azure.
 
 Дополнительные сведения см. в разделе [Варианты развертывания](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -86,11 +88,8 @@ ms.locfileid: "7874592"
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Шаг 4. Изучите FastTrack и запланируйте развертывание
 
-Microsoft FastTrack for Dynamics 365 — это служба успеха клиентов, предназначенная для эффективного и плавного перехода на Dynamics 365, чтобы вы могли быстрее оценить коммерческую ценность. При участии в программе FastTrack вы получите руководство по рекомендациям и тому, как запланировать успешное развертывание. Здесь вы также узнаете о способах включить новых пользователей и расширить возможности — все в удобном для вас темпе. Кроме того, вы получите доступ к техническим ресурсам Майкрософт, которые позволят вам максимально эффективно использовать Dynamics 365. Дополнительные сведения см. в [Microsoft FastTrack](/dynamics365/fasttrack/).
+Microsoft FastTrack for Dynamics 365 — это служба успеха клиентов, предназначенная для эффективного и плавного перехода на Dynamics 365, чтобы вы могли быстрее оценить коммерческую ценность. При участии в программе FastTrack вы получите руководство по рекомендациям и тому, как запланировать успешное развертывание. Здесь вы также узнаете о способах включить новых пользователей и расширить возможности — все в удобном для вас темпе. Кроме того, вы получите доступ к техническим ресурсам Майкрософт, которые позволят вам максимально эффективно использовать Dynamics 365. Дополнительные сведения см. в [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Обновление с Dynamics AX 2012 или миграция с AX 2009
 
 Если вы клиент, который выполняет обновление с Microsoft Dynamics AX 2012 или мигрирует с Microsoft Dynamics AX 2009, вы можете иметь право на более длительный период действия пробной версии. Для получения дополнительных сведений обратитесь по адресу <daxcf@microsoft.com>.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

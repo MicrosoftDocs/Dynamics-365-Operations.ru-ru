@@ -143,6 +143,3 @@ ms.locfileid: "4529170"
 
 ![Преобразование поля "Пол"](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Изменение форматов для формирования документов, содержащих данные приложений
-description: В этой теме описано, как разработать конфигурации электронной отчетности для создания электронного документа и обновления данных приложений.
+description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 3. Изменение модели и сопоставления)".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752419"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684555"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Изменение форматов для формирования документов, содержащих данные приложений
 
@@ -147,6 +149,3 @@ ms.locfileid: "6752419"
 46. Закройте страницу.
 47. Закройте страницу.
 48. Закройте страницу.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

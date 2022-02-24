@@ -2,24 +2,26 @@
 title: Обзор подотчетных лиц России
 description: В этой теме рассматривается регистрация и настройка подотчетных лиц для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba1432763c4f63160bf9b02571b1e3a01050b56dbe2eb0e873e3ef089a06382d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74628cb40e9d9ad1eefd231570c4d40a1f543b4b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773707"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408509"
 ---
 # <a name="russia-advance-holders-overview"></a>Обзор подотчетных лиц России
 [!include [banner](../includes/banner.md)]
@@ -149,6 +151,3 @@ ms.locfileid: "6773707"
 ## <a name="set-up-the-advance-holder"></a>Настройка подотчетного лица
 
 [Обзор подотчетных лиц](emea-advance-holders.md#create-an-advance-holder)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

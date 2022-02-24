@@ -2,9 +2,11 @@
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
+manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014541"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 
@@ -33,23 +35,23 @@ ms.locfileid: "7471820"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-Этот выпуск содержит следующие функции. Перейдите по ссылке на [план выпуска](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
+Этот выпуск содержит следующие функции. Некоторые из вышеперечисленных функций все еще являются предварительными версиями, в то время как другие могут уже быть общедоступными. Перейдите по ссылке на [план выпуска](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), чтобы просмотреть официальные даты выпуска для каждой функции.
 
-- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<br> - Дополнительные сведения см. [Единицы масштабирования в распределенной гибридной топологии](../cloud-edge/cloud-edge-landing-page.md).
+- Управление облачными и пограничными единицами измерения с помощью рабочих нагрузок для выполнения производства и склада<br> - Дополнительные сведения см. в разделе [Облачные и пограничные единицы масштабирования для рабочих нагрузок производства и управления складом](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Создать и обработать заказы на перемещение из приложения склада](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Дополнительные сведения см. в разделе [Создание заказов на перемещение из приложения склада](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Создать и обработать заказы на перемещение из приложения склада](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Дополнительные сведения см. в разделе [Создание заказов на перемещение из приложения склада](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Поля ответа на запрос предложения по умолчанию для предложений поставщиков](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Дополнительные сведения см. в разделе [Обзор запросов предложений](../procurement/request-quotations.md).
+- [Поля ответа на запрос предложения по умолчанию для предложений поставщиков](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Дополнительные сведения см. в разделе [Обзор запросов предложений](../procurement/request-quotations.md).
 
-- [Надстройка для управления изменениями в проектировании для Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Дополнительные сведения см. в разделе [Обзор управления техническими изменениями](../engineering-change-management/product-engineering-overview.md).
+- [Надстройка для управления изменениями в проектировании для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Дополнительные сведения см. в разделе [Обзор управления техническими изменениями](../engineering-change-management/product-engineering-overview.md).
 
-- [Руководства с использованием смешанной реальности для производства](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Дополнительные сведения см. в разделе [Предоставление руководств с использованием смешанной реальности для работников на производстве](../production-control/instruction-guides-in-production-overview.md).
+- [Руководства с использованием смешанной реальности для производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Дополнительные сведения см. в разделе [Предоставление руководств с использованием смешанной реальности для работников на производстве](../production-control/instruction-guides-in-production-overview.md).
 
-- [Новое взаимодействие с пользователем для выполнения производственного цеха](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Дополнительные сведения см. в разделе [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md).
+- [Новое взаимодействие с пользователем для выполнения производственного цеха](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Дополнительные сведения см. в разделе [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md).
 
-- [Обработка событий приложения склада](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Дополнительные сведения см. в разделе [Обработка событий приложения склада](../warehousing/warehouse-app-events.md).
+- [Обработка событий приложения склада](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Дополнительные сведения см. в разделе [Обработка событий приложения склада](../warehousing/warehouse-app-events.md).
 
-- [Сохраненные представления для страницы выпущенных продуктов](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Дополнительные сведения см. в разделе [Сохраненные представления](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Сохраненные представления для страницы выпущенных продуктов](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Дополнительные сведения см. в разделе [Сохраненные представления](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - Документ "Сертификат о происхождении USMCA"<br> - Дополнительные сведения см. в разделе [Сертификация происхождения USMCA](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +71,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 включает обно
 
 Интересуетесь предстоящими и недавно выпущенными возможностями наших бизнес-приложений и платформ?
 
-Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
+Ознакомьтесь с разделом [Dynamics 365: план выпуска волны 2 за 2020 год](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Мы собрали в одном документе все сведения, чтобы вы могли использовать их для планирования.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
@@ -81,6 +83,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 включает обно
 Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

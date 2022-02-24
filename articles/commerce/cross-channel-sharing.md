@@ -2,30 +2,35 @@
 title: Включение и использование общего доступа в нескольких каналах
 description: В этом разделе описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742424"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4415367"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Включение и использование общего доступа в нескольких каналах
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Межканальный общий доступ позволяет розничным продавцам повторно использовать содержимое между несколькими каналами сайта и делиться таким содержимым. Эта возможность полезна, когда каналы сайта имеют совместимый базовый язык или если у них много общих элементов содержимого.
 
@@ -48,15 +53,15 @@ ms.locfileid: "6742424"
 1. Перейдите к **Параметры сайта \> Функции**.
 1. Установите для параметра функции **Между каналами** значение **Вкл.**
 
-    ![Параметр "Между каналами" со значением "Вкл" в конструкторе сайта Commerce.](./media/enabling-cross-channel-sharing.png)
+    ![Параметр "Между каналами" со значением "Вкл." в конструкторе сайта Commerce](./media/enabling-cross-channel-sharing.png)
 
 После включения межканального общего доступа сведения о разных каналах будут отображаться в разделе **Каналы** в пункте **Параметры сайта \> Функции**, как показано в примере на следующем рисунке.
 
-![Сведения о каналах, видимые после включения межканального общего доступа.](./media/channels-cross-channel.png)
+![Сведения о каналах, видимые после включения межканального общего доступа](./media/channels-cross-channel.png)
 
 Кроме того, после включения межканального общего доступа поле **Канал** в правом верхнем углу конструктора сайтов Commerce будет включать в себя вариант **Интернет-магазина с несколькими каналами**, который можно использовать для управления межканальным содержимым, как показано на следующем рисунке.
 
-![Параметр "Интернет-магазин с несколькими каналами" в поле "Каналы" после включения межканального общего доступа.](./media/cross-channel-dropdown.png)
+![Параметр "Интернет-магазин с несколькими каналами" в поле "Каналы" после включения межканального общего доступа](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Создание и использование содержимого между каналами
 
@@ -132,6 +137,3 @@ ms.locfileid: "6742424"
 [Состояния и жизненный цикл документа](document-states-overview.md)
 
 [Работа с группами публикаций](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

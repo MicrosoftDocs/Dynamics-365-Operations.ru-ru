@@ -1,10 +1,12 @@
 ---
 title: Разработка конфигураций электронной отчетности для импорта данных из внешних файлов в формате CSV
-description: Используйте эту процедуру для разработка конфигураций электронной отчетности для импорта данных в приложение Finance and Operations из внешнего файла в формате CSV.
+description: Используйте эту процедуру для разработка конфигураций электронной отчетности (ER) для импорта данных в приложение Finance and Operations из внешнего файла в формате CSV.
 author: NickSelin
+manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747279"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682053"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Разработка конфигураций электронной отчетности для импорта данных из внешних файлов в формате CSV
 
@@ -122,6 +124,3 @@ ms.locfileid: "6747279"
     * Просмотрите выходные данные в формате XML, представляющем данные, которые были импортированы из выбранного файла, а затем перенесены в модель данных. Обратите внимание, что были обработаны все 7 строк импортированного CSV-файла. Заголовки содержащих полей в строке 1 пропущены, 4 проводки проанализированы верно, а 2 проводки распознаны как недопустимые.
 3. Закройте страницу.
 4. Закройте страницу.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: Функция ER SPLITLIST
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SPLITLIST.
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776130"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680350"
 ---
 # <a name="splitlist-er-function"></a>Функция ER SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776130"
 
 Функция `SPLITLIST` разделяет список на подсписки (или пакеты), каждый из которых содержит указанное число записей. Затем она возвращает результат в качестве нового значения *Список записей*, которое состоит из пакетов.
 
-## <a name="syntax-1"></a>Синтаксис 1
+## <a name="syntax"></a>Синтаксис
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Синтаксис 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Аргументы
@@ -48,10 +45,6 @@ SPLITLIST (list, number, on-demand reading flag)
 `number`: *Целочисленный*
 
 Максимальное количество записей на один пакет.
-
-`on-demand reading flag`: *Логический*
-
-*Логическое* значение, которое указывает, должны ли при необходимости создаваться элементы вложенных списков.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -71,8 +64,6 @@ SPLITLIST (list, number, on-demand reading flag)
 
     Номер текущего пакета в возвращенном списке.
 
-Если флаг чтения по запросу имеет значение **True**, вложенные списки создаются после запроса, что позволяет уменьшить потребление памяти, но может привести к ухудшению производительности, если элементы не используются последовательно.
-
 ## <a name="example"></a>Пример
 
 На следующем рисунке источник данных **Строки** создается как список записей, содержащий три записи. Этот список разделяется на пакеты, каждый из которых содержит до двух записей.
@@ -90,6 +81,3 @@ SPLITLIST (list, number, on-demand reading flag)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции для работы со списками](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

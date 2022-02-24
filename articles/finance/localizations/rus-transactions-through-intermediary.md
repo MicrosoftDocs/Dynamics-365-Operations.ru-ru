@@ -2,22 +2,25 @@
 title: Проводки через посредников
 description: В этой теме приводятся сведения о функциях для бухгалтерских сделок через посредника, выполненных агентом.
 author: v-nadyuz
+manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 94b4417168becb2459b4535d00d9d59f11bf1b30a0f71ccd0b26feaf6b85af49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583b9b141e088475bd49bb8b10479651b9006ec9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742854"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408591"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]
@@ -63,7 +66,7 @@ ms.locfileid: "6742854"
 7. В поле **Вид запасов** укажите **Общие**.
 8. Нажмите **Сохранить**.
 
-![Страница профилей учета.](media/1_Inventory_profiles.jpg)
+![Страница профилей учета](media/1_Inventory_profiles.jpg)
 
 ### <a name="set-up-the-inventory-profile-and-owner-tracking-dimensions"></a>Настройка аналитик отслеживания профиля учета и владельца
 
@@ -78,7 +81,7 @@ ms.locfileid: "6742854"
 
 6. Нажмите **Сохранить**.
 
-![Страница групп аналитик отслеживания.](media/2_Tracking_dimension_groups.jpg)
+![Страница групп аналитик отслеживания](media/2_Tracking_dimension_groups.jpg)
 
 ### <a name="set-up-a-number-sequence-for-the-report-for-the-principal"></a>Настройка номерной серии для отчета для доверителя
 
@@ -86,6 +89,3 @@ ms.locfileid: "6742854"
 2. На вкладке **Номерные серии** в поле **Код номерной серии** выберите код номерной серии для ссылки **Код отчета**.
 
 Дополнительные сведения см. в разделах [Покупки по комиссии](rus-purchases-on-commission.md) и [Продажи по комиссии](rus-sales-on-commission.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

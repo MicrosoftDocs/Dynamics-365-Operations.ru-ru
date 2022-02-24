@@ -1,25 +1,27 @@
 ---
 title: Мобильная рабочая область совместной работы с поставщиками
 description: В этой теме содержится информация о мобильной рабочей области "Совместная работа с поставщиками". Эта рабочая область помогает вашим поставщикам быть в курсе заказов на покупку, отправленных им на утверждение. Они также могут просмотреть сведения о новых и обновленных заказах на покупку и контактах.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: henrikan
+ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577032"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020844"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Мобильная рабочая область совместной работы с поставщиками
 
@@ -57,7 +59,7 @@ ms.locfileid: "7577032"
 Предварительные условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management
-Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -77,7 +79,7 @@ ms.locfileid: "7577032"
 <td>KB 3216943 — двоичное обновление, необходимое, если у вас используется обновление платформы 3. Для установки этого обновления системный администратор должен выполнить следующие задачи.
 <ol>
 <li>Загрузите KB 3216943 из службы Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Установите двоичное обновлением, которое поставляется в виде пакета развертывания. О том, как применить пакет развертывания, см.в разделе <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Применение пакета развертывания</a>.</li>
+<li>Установите двоичное обновлением, которое поставляется в виде пакета развертывания. О том, как применить пакет развертывания, см.в разделе <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Применение пакета развертывания</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -85,14 +87,14 @@ ms.locfileid: "7577032"
 <td>Системный администратор</td>
 <td>KB 4013633 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Запасы в наличии</strong>. Для установки KB 4013633 системный администратор должен выполнить следующие задачи.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из LCS</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Загрузите исправление метаданных из LCS</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Установите исправление метаданных</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Примените готовый к развертыванию пакет</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Мобильная рабочая область <strong>Совместная работа с поставщиками</strong> должна быть опубликована.</td><td>Системный администратор</td>
-<td>См. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
+<td>См. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Публикация мобильной рабочей области</a>.</td>
 </tr>
 <tr class="even">
 <td>Пользователь поставщика должен иметь доступ к веб-интерфейсу совместной работы с поставщиками в веб-клиенте и должен настроить пользователя совместной работы с поставщиками.</td><td>Специалисты по закупкам и системный администратор</td>
@@ -120,12 +122,12 @@ ms.locfileid: "7577032"
 4.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 5.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-    [![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Использование мобильной рабочей области "Совместная работа с поставщиками"
 При выборе рабочей области **Совместная работа с поставщиками** вы увидите следующие параметры.
 
-![Мобильная рабочая область совместной работы с поставщиками.](./media/vendor-collaboration-mobile-app.png)
+![Мобильная рабочая область совместной работы с поставщиками](./media/vendor-collaboration-mobile-app.png)
 
 Рабочая область **Совместная работа с поставщиками** содержит следующие страницы.
 
@@ -167,6 +169,3 @@ ms.locfileid: "7577032"
 
 ### <a name="open-confirmed-orders"></a>Открытие подтвержденных заказов
 Когда заказ на покупку подтвержден клиентом (т .е. статус заказа на покупку изменен на **Подтверждено**), этот заказ отображается в открытых подтвержденных заказах. Он будет оставаться в этом списке, пока не будет зарегистрирован как полученный клиентом.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

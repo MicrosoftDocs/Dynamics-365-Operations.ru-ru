@@ -1,34 +1,36 @@
 ---
-title: Обзор клиентского портала для Dynamics 365 Supply Chain Management (содержит видео)
+title: Обзор клиентского портала для Dynamics 365 Supply Chain Management
 description: В этой теме представлен клиентский портал и объясняется, кто должен его использовать и как он функционирует.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 50bdbe6c5f5d23f49bdf8040f2c7811a28da3f32
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062017"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529586"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="what-is-the-customer-portal"></a>Что такое клиентский портал?
 
 Современные системы цепочки поставок основаны на интеграции. Они требуют интеграции запасов, спроса клиентов и отделов продаж вместо того, чтобы размещать их в отдельных системах. Клиентский портал помогает организациям, которые работают под управлением Microsoft Dynamics 365 Supply Chain Management, воспользоваться преимуществами такой интеграции и более эффективно информировать своих клиентов.
 
-Клиентский портал — это шаблон [порталов Power Apps](/powerapps/maker/portals/overview), с помощью которого компании могут создать внешний сайт бизнес-бизнес (B2B) для сценариев, связанных с обработкой заказов на продажу. В шаблоне используется [двойная запись](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md), Supply Chain Management и порталы Power Apps, позволяющие внешним корпоративным клиентам просматривать и создавать данные из среды Dynamics 365 своей компании.
+Клиентский портал — это шаблон [порталов Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview), с помощью которого компании могут создать внешний сайт бизнес-бизнес (B2B) для сценариев, связанных с обработкой заказов на продажу. В шаблоне используется [двойная запись](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), Supply Chain Management и порталы Power Apps, позволяющие внешним корпоративным клиентам просматривать и создавать данные из среды Dynamics 365 своей компании.
 
 У шаблона клиентского портала есть все возможности настройки, характерные для функции порталов Power Apps. Шаблон можно легко изменить, чтобы представить бренд компании, добавить функции и изменить взаимодействие с пользователем. Все готовые функции в шаблоне могут быть изменены нужным образом.
 
@@ -42,31 +44,28 @@ ms.locfileid: "8062017"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения для финансов и операций](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
+Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
 
 ## <a name="who-should-use-it"></a>Кто должен его использовать?
 
 Клиентский портал предназначен для компаний, которые используют Supply Chain Management и обладают следующими характеристиками:
 
 - Они хотят создать внешний сайт, который связывает информацию об обработке заказов (например, статус заказа или сведения о счете) непосредственно из своей системы Supply Chain Management со своими корпоративными клиентами.
-- Они переходят с Dynamics AX 2012 на Supply Chain Management и ранее пользовались [порталом самообслуживания клиентов AX 2012](/dynamicsax-2012/appuser-itpro/about-the-customer-self-service-portal).
+- Они переходят с Dynamics AX 2012 на Supply Chain Management и ранее пользовались [порталом самообслуживания клиентов AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-the-customer-self-service-portal).
 
 Следующие типы организаций **не слишком подходят** для реализации клиентского портала:
 
-- Компании, желающие создать веб-сайт для некорпоративных клиентов. В этих компаниях следует рассмотреть вариант создания [веб-сайта электронной коммерции Dynamics 365 Commerce](../../commerce/create-ecommerce-site.md).
+- Компании, желающие создать веб-сайт для некорпоративных клиентов. В этих компаниях следует рассмотреть вариант создания [веб-сайта электронной коммерции Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/create-ecommerce-site).
 - Компании, уже использующие существующие сайты порталов Power Apps для аналогичных целей. Эти компании не получат никаких дополнительных преимуществ от клиентского портала. Клиентский портал предоставляется в виде шаблона, который выступает в качестве основы и отправной точки для клиентов, желающих соединить двойную запись, Supply Chain Management и порталы Power Apps. Если сайт, предназначенный для этой цели, уже настроен, использование шаблона клиентского портала для повторного развертывания этого сайта может быть не очень выгодно.
 
 ## <a name="how-does-it-work"></a>Как это работает?
 
 Клиентский портал предоставляется в виде шаблона порталов Power Apps. Он зависит от порталов Power Apps и двойной записи.
 
-[Порталы Power Apps](/powerapps/maker/portals/overview) — это функция, позволяющая пользователям создавать внешние веб-сайты, на которое могут входить пользователи, находящиеся за пределами организации. Для создания порталов практически не требуется программирования. Клиентский портал — это один из многих [шаблонов портала Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) от корпорации Майкрософт.
+[Порталы Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) — это функция, позволяющая пользователям создавать внешние веб-сайты, на которое могут входить пользователи, находящиеся за пределами организации. Для создания порталов практически не требуется программирования. Клиентский портал — это один из многих [шаблонов портала Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) от корпорации Майкрософт.
 
-[Двойная запись](/powerapps/maker/portals/overview) — это готовый инфраструктурный продукт, обеспечивающий взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями для финансов и операций. Двойная запись обеспечивает двунаправленную интеграцию между приложениями для финансов и операций и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
+[Двойная запись](https://docs.microsoft.com/powerapps/maker/portals/overview) — это готовый продукт инфраструктуры, обеспечивающий взаимодействие практически в режиме реального времени между приложениями на основе модели в Dynamics 365 и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Common Data Service. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от объектов, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих объектов должна быть включена двойная запись.
 
-![Зависимости клиентского портала.](media/customer-portal-elements.png "Зависимости клиентского портала")
+![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
 
 Клиентский портал выступает в качестве отправной точки для организаций, желающих использовать порталы Power Apps для создания внешнего веб-сайта, использующего данные из установки Supply Chain Management. Он помогает организациям объединять двойную запись, Supply Chain Management и порталы Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

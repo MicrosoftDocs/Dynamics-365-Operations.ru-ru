@@ -85,6 +85,3 @@ Attract с надстройкой Comprehensive Hiring Add-On предназна
 
 - Ваш коллега работает с пробной версией или лицензией для Attract с надстройкой Comprehensive Hiring Add-On, в то время как вы работаете в базовой версии Attract.
 - У вас есть Attract с надстройкой Comprehensive Hiring Add-On, но вам не назначены правильные роли для использования всех функций. Дополнительные сведения см. в разделе [Безопасность и управление ролями в Attract](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

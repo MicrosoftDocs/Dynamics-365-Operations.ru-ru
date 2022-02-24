@@ -1,10 +1,12 @@
 ---
 title: Выверка фрахта в модуле "Управление транспортировкой"
 description: В этой теме описывается процесс выверки фрахта.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574913"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014516"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Выверка фрахта в модуле "Управление транспортировкой"
 
@@ -35,13 +37,13 @@ ms.locfileid: "7574913"
 
 Фрахтовые ставки рассчитываются механизмом ставок, связанным с соответствующим перевозчиком. При подтверждении загрузки создается вексель фрахта и в него передаются фрахтовые ставки. Фрахтовые ставки распределяются как накладные расходы для соответствующего документа-источника (заказ на покупку, заказ на продажу или заказ на перемещение) в зависимости от настройки, используемой для стандартного процесса выставления накладных. Процесс выверки фрахта (который также называется процессом сопоставления) можно запустить сразу после поступления накладной фрахта от перевозчика. Накладную можно получить в электронном или бумажном формате. Если накладная поступает в бумажном формате, можно создать электронную накладную с помощью векселя фрахта в качестве шаблона.
 
-[![Процесс выверки фрахта.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Процесс выверки фрахта](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Выверка вручную
 
 Если фрахт выверяется вручную, необходимо сопоставить каждую строку накладной со строкой или строками векселя фрахта для загрузки, по которой выставляется накладная. Это сопоставление выполняется на странице **Сопоставление векселя фрахта с накладной**. Если сумма в строке накладной не соответствует сумме векселя фрахта, необходимо выбрать причину для разницы выверки. Если существует несколько причин для выверки, можно разделить несоответствующую сумму между ними. Причина выверки определяет способ разноски сумм разницы в главной книге. При учитывается выверка всей суммы накладной, она направляется на утверждение, после чего выполняется разноска журнала. В следующем примере показано, как создать накладную фрахта и выполнить выверку фрахта.
 
-[![Задачи выверки фрахта.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Задачи выверки фрахта](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Автоматическая выверка
 
@@ -103,6 +105,3 @@ ms.locfileid: "7574913"
 1. Сопоставление Inv1 и Inv2 с FB одной за другой. FB полностью сопоставлена.
 
 Как показано в этом примере, сопоставление накладных по фрахту с отрицательными суммами должно выполняться только вручную. Это гарантирует, что всегда можно будет сопоставить накладные по фрахту с отрицательными суммами со счетами по фрахту без полного сопоставления, поскольку это позволяет управлять последовательностью сопоставления.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

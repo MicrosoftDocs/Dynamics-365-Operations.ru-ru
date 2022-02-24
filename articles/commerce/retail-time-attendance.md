@@ -2,13 +2,16 @@
 title: Планирование управления временем и присутствием в Retail
 description: В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Dynamics 365 Commerce.
 author: aamirallaqaband
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762676"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415356"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Планирование управления временем и присутствием в Retail
 
@@ -38,9 +41,9 @@ ms.locfileid: "6762676"
 
 ### <a name="plan-worker-schedules"></a>Планирование расписаний работника
 
-- Примените профили, воспользовавшись планировщиком работы. Дополнительные сведения см. в разделе [Применение профиля с помощью планировщика работы](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
+- Примените профили, воспользовавшись планировщиком работы. Дополнительные сведения см. в разделе [Применение профиля с помощью планировщика работы](https://technet.microsoft.com/library/aa551234.aspx).
 
-Сведения об этапах настройки см. в разделе [Настройка времени и посещаемости](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
+Сведения об этапах настройки см. в разделе [Настройка времени и посещаемости](https://technet.microsoft.com/library/aa496971.aspx).
 
 ### <a name="commerce-specific-configuration"></a>Конфигурация, относящаяся к Commerce
 
@@ -97,7 +100,7 @@ ms.locfileid: "6762676"
         </tbody>
         </table>
 
-        [![Состояния часов.](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Состояния часов](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Просмотрите сообщение конфигурации и убедитесь, что время текущего действия указано верно.
 - Регистрационный журнал:
@@ -135,7 +138,4 @@ ms.locfileid: "6762676"
 - Массовый уход
 - Регистрация отсутствия
 
-Дополнительные сведения о том, как обрабатывать регистрацию времени и посещаемости, см. в разделе [Обработка регистраций времени и посещаемости](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Дополнительные сведения о том, как обрабатывать регистрацию времени и посещаемости, см. в разделе [Обработка регистраций времени и посещаемости](https://technet.microsoft.com/library/aa573180.aspx).

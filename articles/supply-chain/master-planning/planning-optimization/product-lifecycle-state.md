@@ -2,13 +2,16 @@
 title: Исключение продуктов, имеющих определенные состояния жизненного цикла продукта
 description: В этой теме объясняется, как исключать продукты на основе их состояния жизненного цикла при использовании функции оптимизации планирования.
 author: ChristianRytt
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 030bdea7c03dd5eb3347c1d43acd1aeabdf566602872dd8ef5aab6d16b06f503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 371d98eefa482fc3e430f2f0977ddffb9dd0d30e
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739043"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645100"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Исключение продуктов, имеющих определенные состояния жизненного цикла продукта
 
@@ -39,6 +42,3 @@ ms.locfileid: "6739043"
 Дополнительные сведения о состояниях жизненного цикла продуктов см. в разделе [Обзор состояний жизненного цикла продуктов](../../pim/product-lifecycle.md).
 
 Подробные сведения, включающие шаги по использованию состояний жизненного цикла продукта для исключения продуктов из сводного планирования и расчетов на уровне спецификации, см. в разделе [Создание состояния жизненного цикла продукта для исключения продуктов из сводного планирования](../../pim/tasks/exclude-products-master-planning.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

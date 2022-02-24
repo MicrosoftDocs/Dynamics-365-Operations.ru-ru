@@ -2,9 +2,11 @@
 title: Выбор определений моделей данных при создании форматов
 description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного".
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e6c8df735976ca0f7805fe3e06f141d38abf12faf02ff66195339147aa5405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720840"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684219"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Выбор определений моделей данных при создании форматов
 
@@ -96,6 +98,3 @@ ms.locfileid: "6720840"
     * Обратите внимание, что теперь только один корневой элемент доступен для сопоставления с источниками данных приложения. При создании хотя бы одного сопоставления модели только корневые элементы модели, сопоставленные источникам данных приложения, могут быть выбраны в качестве определения модели при добавлении формата электронной отчетности.   
 5. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

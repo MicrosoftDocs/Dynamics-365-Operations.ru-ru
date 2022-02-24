@@ -1,30 +1,31 @@
 ---
 title: Создание планов льгот работников
-description: В этой теме описывается, как создавать, выбирать и подтверждать планы льгот работника в Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/23/2021
+description: Можно создать планы льгот работника в Microsoft Dynamics 365 Human Resources, чтобы выбрать планы льгот для сотрудников и подтвердить выбор плана льгот.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 701bc6f1bb3ef684b163c32032e1094c8ae4deb0
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417500"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420193"
 ---
 # <a name="create-worker-benefit-plans"></a>Создание планов льгот работников
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Можно создать планы льгот работника в Microsoft Dynamics 365 Human Resources, чтобы выбрать планы льгот для сотрудников и подтвердить выбор плана льгот. Обычно сотрудники самостоятельно выбирают планы льгот, используя дистанционное обслуживание сотрудников, а затем администратор льгот подтверждает выбор. 
 
@@ -48,6 +49,3 @@ ms.locfileid: "7417500"
    | Планы | Экспресс-вкладка "Планы" содержит планы, отвечающие заданным критериям фильтрации. Соответствующие параметры конфигурации, которые были установлены сотрудниками отдела кадров, и выбранные сотрудниками регистрации, включаются в каждую строку. Поле квалификации указывает, имеется ли конфликт проверки с выбранным планом. |
 
 4. Нажмите **Сохранить**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

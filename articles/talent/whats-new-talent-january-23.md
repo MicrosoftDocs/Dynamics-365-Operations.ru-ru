@@ -53,6 +53,3 @@ ms.locfileid: "4462300"
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Обновление платформы 23 для Finance and Operations
 Исправления мелких ошибок были включены в состав обновления платформы 23 для Finance and Operations. Дополнительные сведения см. в разделе [Что нового и что изменилось в Dynamics 365 Finance and Operations, обновление платформы 23 (январь 2019 г.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

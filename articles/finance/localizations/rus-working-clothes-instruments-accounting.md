@@ -1,24 +1,27 @@
 ---
 title: Учет рабочей одежды и специальной оснастки (Россия)
-description: Эта тема содержит сведения о ведении спецодежды и спецоснастки для России.
+description: Эти разделы содержат сведения о ведении спецодежды и спецоснастки для России.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9047d14db95cce6ec1d50971332d154d72528bec
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: da8e95cbec6a238b865c975a353a9ef7263084e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404121"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408522"
 ---
 # <a name="working-clothesspecial-rigging-accounting-russia"></a>Учет рабочей одежды и специальной оснастки (Россия)
 
@@ -255,6 +258,3 @@ ms.locfileid: "7404121"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Малоценные основные средства (МОС) (Россия)](rus-not-valuable-assets.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

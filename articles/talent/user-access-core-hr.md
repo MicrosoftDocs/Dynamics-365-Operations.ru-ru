@@ -46,6 +46,3 @@ ms.locfileid: "4462335"
 **Долгосрочное решение**
 
 Майкрософт планирует автоматическое назначение соответствующих прав на приложения Onboard и Attract при добавлении пользователя в Human Resources.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

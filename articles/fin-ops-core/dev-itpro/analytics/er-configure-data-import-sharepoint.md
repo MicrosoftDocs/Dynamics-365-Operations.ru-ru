@@ -2,9 +2,11 @@
 title: Настройка импорта данных из SharePoint
 description: В этой теме объясняется, как импортировать данные из Microsoft SharePoint.
 author: NickSelin
-ms.date: 01/05/2022
+manager: AnnBe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074774"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680910"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Настройка импорта данных из SharePoint
 
@@ -47,13 +49,13 @@ ms.locfileid: "8074774"
 - Конфигурация модели электронной отчетности, **Модель платежей по форме 1099**
 - Конфигурации формата электронной отчетности, **Формат для импорта проводок поставщиков из Excel**
 
-![Конфигурации электронной отчетности для импорта данных из SharePoint.](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![Конфигурации электронной отчетности для импорта данных из SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Образец входящего файла для импорта данных
 
 - Файл Excel **1099import data.xlsx**, с транзакциями поставщика, которые должны быть импортированы.
 
-![Образец файла Excel для импорта из SharePoint.](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Образец файла Excel для импорта из SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Формат для импорта проводок поставщика выбран в качестве сопоставление модели по умолчанию. Таким образом, если выполнить сопоставление модели **Модель платежей по форме 1099** и это сопоставления модели типа **К месту назначения**, сопоставление модели выполняет этот формат, чтобы импортировать данные из внешних файлов. Затем эти данные используются для обновления таблицы приложения.
@@ -68,7 +70,7 @@ ms.locfileid: "8074774"
      - Источник импорта файлов (основной) (пример показан на снимке экрана ниже)
      - Источник импорта файлов (альтернативный)
 
-    ![Источник импорта файлов (основной).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Источник импорта файлов (основной)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (Необязательно) Создайте следующие папки, в которых будут храниться файлы после импорта. 
 
@@ -87,7 +89,7 @@ ms.locfileid: "8074774"
 |Предупреждение SP             |Хранилище файлов                |SharePoint     |Папка для файлов с предупреждениями|
 |Ошибка SP             |Хранилище файлов                |SharePoint     |Папка для файлов с ошибками|
 
-![Настройка SharePoint — новый тип документа.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![Настройка SharePoint — новый тип документа](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>Настроить источники электронной отчетности для формата электронной отчетности
 1. Перейдите в раздел **Управление организацией** \> **Электронная отчетность** \> **Источник электронной отчетности**.
@@ -96,7 +98,7 @@ ms.locfileid: "8074774"
 4. Измените значение параметра **Сортировать файлы перед импортом** на **Не сортировать**, если существует несколько файлов для импорта и не важен порядок импорта
 5. Выберите все папки SharePoint, которые были созданы ранее.
 
-    [![Настройка источника файлов электронной отчетности.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![Настройка источника файлов электронной отчетности](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - *Источник* электронной отчетности определяется индивидуально для каждой компании приложения. Напротив, *Конфигурации* электронной отчетности используются совместно несколькими компаниями.
@@ -114,7 +116,7 @@ ms.locfileid: "8074774"
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Импорт данных из файлов Excel, которые находятся в папке SharePoint
 1. В SharePoint необходимо отправить файл Microsoft Excel **1099import data.xlsx**, содержащий транзакции поставщика, в папку SharePoint **Источник импорта файлов (основной)**, созданную ранее.
 
-    [![Содержимое SharePoint — файл Microsoft Excel для импорта.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![Содержимое SharePoint — файл Microsoft Excel для импорта](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. На странице **Состояния файлов для источников** выберите **Обновить** для обновления страницы. Файл Excel, отправленный в SharePoint, появился на этой странице со статусом **Готово**. На данный момент поддерживаются следующие статусы:
 
@@ -124,19 +126,19 @@ ms.locfileid: "8074774"
     - **Сбой** — назначается автоматически отчетом по электронной отчетности, когда импорт файла завершается с ошибками или исключениями.
     - **Заблокировано** — назначается вручную пользователем на этой странице. Этот статус означает, что файл не будут импортированы в данный момент. Этот статус используется для откладывания некоторых файлов импорта.
 
-    [![Обновленная страница состояния файла электронной отчетности для выбранных источников.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Обновленная страница состояния файла электронной отчетности для выбранных источников](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Импорт данных из файлов SharePoint
 1. Откройте дерево конфигурации электронной отчетности, выберите **Модель платежей по форме 1099** и разверните список компонентов модели электронной отчетности.
 2. Выберите имя сопоставления модели, чтобы открыть список сопоставлений модели конфигурации выбранной модели электронной отчетности.
 
-    [![Страница конфигурации.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Страница конфигурации](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Выберите **Выполнить** для выполнения сопоставления выбранной модели электронной отчетности. Так как источники файла для формата электронной отчетности были сконфигруированы, можно изменять настройку параметра **Источник файла**, если требуется. Если сохранить настройку этого параметра, файлы .xslx импортируются из конфигурируемых источников (в данном примере, папки SharePoint).
 
     В этом примере импортируется только один файл. Тем не менее если имеется множественные файлы, они будут выбраны для импорта в том порядке, в котором они были добавлены в папку SharePoint. Каждое выполнения формата электронной отчетности импортирует один выбранный файл.
 
-    [![Импорт из SharePoint и выполнение сопоставления модели электронной отчетности.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Импорт из SharePoint и выполнение сопоставления модели электронной отчетности](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. Сопоставление модели может запускаться [автоматически](#limitations) в пакетном режиме. В этом случае каждый раз, когда пакетное задание будет выполнять этот формат электронной отчетности, будет импортироваться один файл из конфигурированных источников файлов.
 
@@ -144,11 +146,11 @@ ms.locfileid: "8074774"
 
 5. Введите идентификатор ваучера, например **V-00001**, а затем выберите **OK**.
 
-    [![Запустить сопоставление моделиэлектронной отчетности.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![Запустить сопоставление моделиэлектронной отчетности](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. На странице **Состояния файлов для источников** выберите **Обновить** для обновления страницы.
 
-    [![Страница состояния файла электронной отчетности для выбранных источников.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Страница состояния файла электронной отчетности для выбранных источников](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. В разделе **Файлы** просмотрите список файлов. Раздел **Журналы источников для формата импорта** содержит журнал импорта файлов Excel. Так как этот файл был успешно завершен, он помечается как **Удалено** в папке SharePoint.
 8. Проверьте папку SharePoint **Источник импорта файлов (основной)**. Файлы Excel, которые были успешно импортированы, были удалены из этой папки.
@@ -157,12 +159,12 @@ ms.locfileid: "8074774"
 
     транзакции поставщика, которые были импортированы из файлов Excel на сайте SharePoint для ваучера **V-00001**, будут показаны на странице.
 
-    [![Страница проводок поставщика по форме 1099.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![Страница проводок поставщика по форме 1099](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>Подготовить файл Excel к импорту
 1. Открытие файла Excel, который использовался ранее. В строке 1 столбца 3 добавьте код поставщика, который не существует в приложении. Добавьте дополнительную дополнительную ложную информацию поставщика в строку.
 
-    [![Образец файла Microsoft Excel для импорта из SharePoint.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Образец файла Microsoft Excel для импорта из SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Отправьте обновленный файл Excel, содержащий транзакции поставщиков, в папку SharePoint **Источник импорта файлов (основной)**.
 3. Откройте дерево конфигурации электронной отчетности, выберите **Модель платежей по форме 1099** и разверните список компонентов модели электронной отчетности.
@@ -170,7 +172,7 @@ ms.locfileid: "8074774"
 5. Выберите **Конструктор**.
 6. На вкладке **Проверки** необходимо изменить действие после проверки для правила проверки, которое было настроено для оценки наличия счета поставщика, который был импортирован в приложении. Обновите значение поля **Действия после проверки** на **Остановить выполнение**, сохранить изменения и закрыть страницу.
 
-    [![Страница конструктора сопоставления модели электронной отчетности.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![Страница конструктора сопоставления модели электронной отчетности](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Сохраните изменения и закройте конструктор сопоставления модели электронной отчетности.
 8. Выберите **Выполнить** для выполнения сопоставления модифицированной модели электронной отчетности.
@@ -178,11 +180,11 @@ ms.locfileid: "8074774"
 
     В окне Infolog содержатся уведомления о том, что в папке SharePoint находится файл, который содержит неверный код поставщика и не может быть импортирован.
 
-    [![Готовое сопоставление модели электронной отчетности.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Готовое сопоставление модели электронной отчетности](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. На странице **Состояния файла для источников** выберите **Обновить** и затем в разделе **Файлы** просмотрите список файлов.
 
-    [![Страница состояния файла электронной отчетности для выбранных источников.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![Страница состояния файла ER для выбранных источников](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    Раздел **Журналы источников для формата импорта** указывает, что произошла ошибка при импорте и файл до сих пор находится в папке SharePoint для файлов с ошибками (флажок **Удален** не установлен). Если исправить этот файл на сайте SharePoint, добавив правильный код поставщика, затем переместить его в папку SharePoint источника импорта файлов (основного), можно импортировать этот файл еще раз.
 
@@ -192,11 +194,11 @@ ms.locfileid: "8074774"
 
 ## <a name=""></a><a name="limitations">Ограничения</a>
 
-В версиях Dynamics 365 Finance до версии 10.0.25 интерфейс пользователя (UI) платформы ER не предлагает возможности начать новое пакетное задание, которое будет выполнять сопоставление модели для импорта данных в автоматическом режиме. Вместо этого необходимо разработать новую логику, чтобы настроенное сопоставление модели электронной отчетности можно было вызывать из пользовательского интерфейса приложения для импорта данных из входящих файлов. Для разработки этой логики требуется определенное проектирование. 
+Платформа электронной отчетности не предлагает возможности запуска нового пакетного задания, которое будет выполнять сопоставление модели в автоматическом режиме для импорта данных. Для этого необходимо разработать новую логику, чтобы настроенное сопоставление модели электронной отчетности можно было вызывать из пользовательского интерфейса приложения для импорта данных из входящих файлов. Поэтому требуются некоторые технологические работы. 
 
-Для получения дополнительных сведений о соответствующем API электронной отчетности см. раздел [Код для выполнения сопоставления формата для импорта данных](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) в теме [Изменения в API платформы электронной отчетности для Application update 7.3](er-apis-app73.md). Просмотрите код в классе `BankImport_RU` модели `Application Suite`, чтобы увидеть, как можно реализовать пользовательскую логику. Класс `BankImport_RU` расширяет класс `RunBaseBatch`. В частности, проверьте метод `runER()`, в котором объект `ERIModelMappingDestinationRun` создается в качестве средства для выполнения сопоставления модели электронной отчетности.
+Для получения дополнительных сведений о соответствующем API электронной отчетности см. раздел [Код для выполнения сопоставления формата для импорта данных](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) в теме [Изменения в API платформы электронной отчетности для Application update 7.3](er-apis-app73.md).
 
-В Finance версии 10.0.25 и новее пользовательский интерфейс платформы электронной отчетности не содержит возможности запуска нового пакетного задания, которое будет выполнять сопоставление модели для импорта данных в автоматическом режиме. Дополнительные сведения об этом процессе см. в разделе [Импорт данных в пакетном режиме из выбранных вручную файлов](er-configure-data-import-batch.md).
+Просмотрите код в классе `BankImport_RU` модели `Application Suite`, чтобы увидеть, как можно реализовать пользовательскую логику. Этот класс расширяет класс `RunBaseBatch`. В частности, проверьте метод `runER()`, в котором объект `ERIModelMappingDestinationRun` создается в качестве средства для выполнения сопоставления модели электронной отчетности.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -204,10 +206,3 @@ ms.locfileid: "8074774"
 
 [Изменения в API платформы электронной отчетности для Application update 7.3](er-apis-app73.md)
 
-[Изменения в API платформы электронной отчетности для Application update 10.0.23](er-apis-app10-0-23.md)
-
-[Изменения в API платформы электронной отчетности для Application update 10.0.25](er-apis-app10-0-25.md)
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

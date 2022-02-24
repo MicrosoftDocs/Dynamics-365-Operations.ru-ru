@@ -2,9 +2,11 @@
 title: Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022
 description: В этой процедуре показано, как создать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022.
 author: mrolecki
+manager: AnnBe
 ms.date: 01/17/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964549"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022
 
@@ -47,6 +49,3 @@ ms.locfileid: "6752106"
     3.    В поле **Имя файла** введите значение. Так как в этом примере платеж производится в ЕВРО, созданный файл будет SEPA-совместимым. Перенос кредита ISO20022, а также другие форматы платежей поставщикам могут также использоваться для создания платежей в других валютах.
     4.    В поле **Банковский счет** введите или выберите значение.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

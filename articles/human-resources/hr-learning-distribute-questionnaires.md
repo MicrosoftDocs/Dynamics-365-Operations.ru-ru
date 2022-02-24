@@ -1,39 +1,37 @@
 ---
-title: Распространение и планирование анкет
-description: В этом разделе объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить.
-author: twheeloc
-ms.date: 10/28/2021
+title: Распределение и планирование анкет
+description: В этой статье объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069537"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420303"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Распространение и планирование анкет
+# <a name="distribute-and-schedule-questionnaires"></a>Распределение и планирование анкет
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-В этом разделе объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить. 
+В этой статье объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить. 
 
 Существует несколько способов распределить анкету:
 
--   Пометить анкету как **Активная**. Анкета будет доступна всем сотрудникам до тех пор, пока группа анкет не будет настроена для ограничения доступа к анкете.
+-   Пометить анкету как активную. Анкета будет доступна всем сотрудникам до тех пор, пока группа анкет не будет настроена для ограничения доступа к анкете.
 -   Присвоить права на группу анкет. После этого анкета станет доступна всем членам выбранной группы.
 -   Создать запланированные опросы. Анкета будет доступна только определенному сотруднику.
 -   Создать график. Анкета станет доступна нескольким людям.
@@ -133,6 +131,3 @@ ms.locfileid: "8069537"
 Анкеты могут быть сделаны доступными для всех пользователей сети, либо для всех пользователей в сети.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

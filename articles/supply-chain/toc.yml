@@ -4,36 +4,8 @@
       items:
         - name: Домашняя страница Dynamics 365 Supply Chain Management
           href: index.md
-        - name: Что нового и что изменилось
-          items:
-            - name: Что нового и что изменилось в приложениях Finance and Operations
-              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Что нового и что изменилось в Supply Chain Management
-              items:
-                - name: Что нового и что изменилось на домашней странице Supply Chain Management
-                  href: get-started/whats-new-home-page.md
-                - name: "Supply Chain Management 10.0.25 (апрель 2022\_г.)"
-                  href: get-started/whats-new-scm-10-0-25.md
-                - name: "Supply Chain Management 10.0.24 (февраль 2022\_г.)"
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: "Supply Chain Management 10.0.23 (январь 2022\_г.)"
-                  href: get-started/whats-new-scm-10-0-23.md
-            - name: Удаленные или устаревшие функции
-              items:
-                - name: Домашняя страница удаленных или устаревших функций
-                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
-                  href: get-started/removed-deprecated-features-scm-updates.md
-                - name: Удаленные или устаревшие функции в предыдущих выпусках
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-            - name: 'Функции AX 2012, реализация которых была отложена'
-              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
-              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Начало работы
           items:
-            - name: Описание службы
-              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Перед покупкой
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Регистрация на ознакомительные подписки
@@ -88,6 +60,34 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
+                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Приложения Finance and Operations во Франции
+                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Что нового и что изменилось
+              items:
+                - name: Что нового и что изменилось в приложениях Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Что нового и что изменилось в Supply Chain Management
+                  items:
+                    - name: Что нового и что изменилось на домашней странице Supply Chain Management
+                      href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.16 (февраль 2021 г.)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (январь 2021 г.)
+                      href: get-started/whats-new-scm-10-0-15.md
+                    - name: "Supply Chain Management 10.0.14 (ноябрь 2020\_г.)"
+                      href: get-started/whats-new-scm-10-0-14.md
+                - name: Удаленные или устаревшие функции
+                  items:
+                    - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Удаленные или устаревшие функции в предыдущих выпусках
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Функции AX 2012, реализация которых была отложена'
+                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
+                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ресурсы документации
               items:
                 - name: Система справки
@@ -104,6 +104,8 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Видео
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Глоссарий
+                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
@@ -152,16 +154,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Сохраненные представления
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Стандартные сохраненные представления для Supply Chain Management
-                  href: get-started/saved-views-scm.md
                 - name: Возможности сетки
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Внедрение приложений на основе холста из Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Внедрение сторонних приложений
-                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Поиск сведений с использованием подстановки
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Изменение даты для сеанса
@@ -176,8 +174,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Архитектура приложений Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack
-                  href: /dynamics365/fasttrack/
+                - name: Microsoft FastTrack for Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Адаптация проекта реализации
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Планирование среды
@@ -204,86 +202,6 @@
           items:
             - name: Ресурсы по глобализации
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Службы глобализации
-              items:
-                - name: Обзор служб глобализации
-                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
-                  items:
-                    - name: Обзор Regulatory Configuration Service (RCS)
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) — функции глобализации
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Создание конфигураций электронной отчетности в Regulatory Configuration Service (RCS) и их отправка в глобальный репозиторий
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services
-                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Загрузка конфигураций электронной отчетности в Supply Chain Management
-                      items:
-                        - name: Загрузка конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Импорт конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Глобальный репозиторий (GR)
-                      items:
-                        - name: Импорт конфигураций из GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Импорт обновленных версий конфигураций электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Улучшенная фильтрация для поиска конфигураций в GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Отправка конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Совместное использование конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Электронное выставление накладных
-                  items:
-                    - name: Обзор электронного выставления накладных
-                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Компоненты администрирования электронного выставления накладных
-                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка электронного выставления накладных в службах Regulatory Configuration Services (RCS)
-                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Выдача электронных накладных в Finance и Supply Chain Management
-                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Создание учетной записи хранения Azure и Key Vault
-                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Панель мониторинга управления использованием
-                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Начало работы
-                      items:
-                        - name: Начало работы с администрированием службы электронного выставления накладных
-                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Начало работы с электронным выставлением накладных
-                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Начало работы с электронным выставлением накладных для Бразилии
-                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Начало работы с электронным выставлением накладных для Египта
-                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Начало работы с электронным выставлением накладных для Мексики
-                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Настройка электронного выставления накладных
-                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Вопросы и ответы по электронному выставлению накладных
-                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Расчет налогов
-                  items:
-                    - name: Обзор расчета налогов
-                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Начало работы с расчетом налогов
-                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Поддержка функций налогов для заказов на перемещение
-                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Добавление полей данных в налоговые конфигурации
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Добавление полей данных в налоговую интеграцию с помощью расширений
-                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Несколько регистрационных номеров НДС
-                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка среды для поиска справочника
-                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Нормативные обновления
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: Индия
@@ -298,24 +216,14 @@
                   items:
                     - name: Товары в пути от поставщика
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Распределенная гибридная топология
+        - name: Облако и граница
           items:
-            - name: Единицы масштабирования в распределенной гибридной топологии
+            - name: Облачные и пограничные единицы масштабирования для производственных рабочих нагрузок и рабочих нагрузок управления складом
               href: cloud-edge/cloud-edge-landing-page.md
-            - name: Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD
-              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Рабочие нагрузки управления складом для облачных и пограничных единиц масштабирования
               href: cloud-edge/cloud-edge-workload-warehousing.md
-            - name: Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования
-              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
-            - name: Заказы на склад для облачных и пограничных единиц масштабирования
-              href: cloud-edge/cloud-edge-warehouse-order.md
-            - name: Корректировка запасов склада
-              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
-            - name: Сообщения обработчика сообщений
-              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Управление активами
           items:
             - name: Обзор управления активами
@@ -381,11 +289,13 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Представление актива
                   href: asset-management/objects/object-view.md
-                - name: Обзор атрибута актива
+                - name: Обзор атрибутов актива
                   href: asset-management/objects/object-specification-overview.md
             - name: Настройка запросов на обслуживание
               items:
-                - name: Состояния жизненного цикла запроса на обслуживание
+                - name: Запросы на обслуживание
+                  href: asset-management/setup-for-maintenance-requests/requests.md
+                - name: Состояния жизненного цикла запросов на обслуживание
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Типы запросов на обслуживание
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -407,13 +317,13 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Настройка заказов на работу
               items:
-                - name: 'Типы, категории, варианты, торговля и контрольные списки заданий обслуживания'
+                - name: 'Категории типов заданий обслуживания и типы заданий обслуживания, варианты типов заданий обслуживания, торговля заданий обслуживания, контрольные списки обслуживания'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Состояния жизненного цикла заказов на работу
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: Типы заказов на работу
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: Настройка проекта заказа на работу
+                - name: Настройка заказа на работу по проекту
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Уровень обслуживания и описание
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -453,11 +363,9 @@
               items:
                 - name: 'Прогнозы, заказы на работу и проекты'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
-                - name: 'Выставление счетов за обслуживание по основным средствам, принадлежащим заказчику'
-                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Интеграция управления активами с основными средствами
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
-            - name: Профилактическое и оперативное обслуживание
+            - name: Профилактическое и реактивное обслуживание
               items:
                 - name: Обзор профилактического обслуживания
                   href: asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
@@ -531,14 +439,10 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Статус обслуживания
                   href: asset-management/controlling-and-reporting/maintenance-status.md
-            - name: Управление активами из мобильного приложения
-              items:
-                - name: Настройка мобильной рабочей области управления активами
-                  href: asset-management/set-up-asset-management-mobile.md
-                - name: Использование мобильной рабочей области управления активами
-                  href: asset-management/asset-management-mobile-workspace.md
             - name: Интеграция управления активами с Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
+            - name: Мобильная рабочая область управления активами
+              href: asset-management/asset-management-mobile-workspace.md
         - name: Управление данными
           items:
             - name: Целевые объекты
@@ -617,20 +521,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Использование рабочей области управления затратами для мобильного приложения Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Глобальный учет запасов
-          items:
-            - name: Домашняя страница глобального учета запасов
-              href: global-inventory-accounting/global-inventory-accounting-home.md
-            - name: Начало работы с глобальным учетом запасов
-              href: global-inventory-accounting/get-started-with-gia.md
-            - name: 'Бизнес-документы, поддерживаемые глобальным учетом запасов'
-              href: global-inventory-accounting/business-documents-supported.md
-            - name: Включение Power BI для глобального учета запасов
-              href: global-inventory-accounting/enable-power-bi-for-gia.md
-            - name: Соглашения
-              href: global-inventory-accounting/conventions.md
-            - name: Книга глобального учета запасов
-              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Управление затратами
           items:
             - name: Домашняя страница управления затратами
@@ -709,10 +599,8 @@
                   href: cost-management/inventory-close.md
                 - name: Корректировка себестоимости запасов в наличии
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Отчеты о стоимости запасов
+                - name: Отчет о стоимости запасов по складам
                   href: cost-management/inventory-value-report-storage.md
-                - name: Примеры и логика отчетов о стоимости запасов
-                  href: cost-management/inventory-value-report-examples.md
                 - name: Хранилище отчетов о распределении запасов по срокам
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Примеры и логика отчетов о распределении запасов по срокам
@@ -753,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Пакет содержимого Power BI по управлению затратами
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Устранение неполадок при управлении затратами
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Отчетность и интеграция Power BI
           items:
             - name: Отчетность и аналитика с Power BI
@@ -811,7 +701,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Запуск агента маршрутизации документов в качестве службы Windows
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Доступные отчеты SQL Server Reporting Services
+                - name: Доступные отчеты служб отчетности SQL Server
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Установка шаблонов дизайна отчетов
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/supply-chain/toc.json
@@ -861,19 +751,17 @@
               items:
                 - name: Создание конфигураций
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Определение зависимости конфигураций электронной отчетности от других компонентов
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Подготовка компонентов решения электронной отчетности
                   items:
                     - name: Проектирование модели данных для конкретного домена
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Подготовка метаданных для конкретного приложения
                       items:
-                        - name: Подготовка метаданных приложения в электронной отчетности для использования в RCS
+                        - name: (Электронная отчетность) Подготовка метаданных приложения для использования в RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Доступ к метаданным приложения в RCS с помощью конфигурации электронной отчетности
+                        - name: (RCS) Доступ к метаданным приложения с помощью конфигурации электронной отчетности
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Доступ к метаданным приложения в RCS с помощью подключенных приложений
+                        - name: (RCS) Доступ к метаданным приложения с помощью подключенных приложений
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Определение сопоставлений моделей и выбор источников данных
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -885,7 +773,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Проверка подготовленного решения электронной отчетности в целевом приложении
                       items:
-                        - name: Импорт конфигураций из RCS
+                        - name: (Электронная отчетность) Импорт конфигураций из RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Создание электронных документов для платежей с помощью конфигурации формата
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
@@ -901,20 +789,8 @@
               items:
                 - name: Язык формул
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Поддерживаемые типы данных для формул электронной отчетности
-                  items:
-                    - name: Простые типы данных
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Составные типы данных
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Функции
                   items:
-                    - name: Контейнер
-                      items:
-                        - name: Функции контейнера
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Base64StringToContainer
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Дата и время
                       items:
                         - name: Функции даты и времени
@@ -923,7 +799,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/supply-chain/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: DateTimeFormat
+                        - name: Datetimeformat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: DateTimeValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
@@ -945,10 +821,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Today
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: WeekNum
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: Функции для работы со списками
@@ -975,8 +847,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/supply-chain/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ListDistinct
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListOfFields
@@ -1005,22 +875,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Contains
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: EndsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: StartsWith
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ValueInLarge
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Математические
                       items:
                         - name: Математические функции
@@ -1116,7 +978,7 @@
                         - name: CurCredRef
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Balance
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365supply-chain/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Sum
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetCurrentCompany
@@ -1145,8 +1007,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Тип: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Контейнер: Base64StringToContainer'
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Дата и время: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Дата и время: DateToDateTime'
@@ -1171,48 +1031,78 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Текст: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Разработка форматов электронной отчетности для создания исходящих документов в различных форматах
+            - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Выбор определений моделей данных при создании форматов
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Расширенные параметры фильтрации для поиска конфигураций в глобальном репозитории
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
+            - name: (Электронная отчетность) Источники данных из разных компаний в электронной отчетности
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Разработка форматов электронной отчетности для создания исходящих электронных документов в различных форматах
               items:
-                - name: Разработка конфигураций для создания исходящих документов в формате Excel
-                  items:
-                    - name: Разработка конфигурации для создания документов в формате Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Пример создания отчетов в формате OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Динамическое добавление столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
-                      items:
-                        - name: Разработка форматов для динамического добавления столбцов в отчеты Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Разработка конфигураций для создания отчетов в формате Word
-                  items:
-                    - name: Разработка конфигураций электронной отчетности для создания отчетов в формате Word
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Повторное использование конфигураций электронной отчетности с шаблонами Excel для создания отчетов в формате Word
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Подавление элементов управления содержимым Word в созданных отчетах
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/supply-chain/toc.json
+                - name: (Электронная отчетность) Разработка конфигурации для создания отчетов в формате OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
+                - name: (Электронная отчетность) Разработка конфигураций для создания отчетов в формате Word
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Разработка конфигураций для заполнения шаблонов в формате PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Внедрение изображений и фигур
+            - name: Внедрение изображений и фигур
+              items:
+                - name: (Электронная отчетность) Внедрение изображений и фигур в создаваемые документы
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Пример внедрения изображений и фигур
                   items:
-                    - name: Внедрение изображений и фигур в создаваемые документы
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Пример внедрения изображений и фигур
-                      items:
-                        - name: Разработка конфигураций для создания отчетов в форматах Office с внедренными изображениями
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Предварительный просмотр конфигураций для создания отчетов в форматах Office с внедренными изображениями
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Создание отчетов в форматах Office с внедренными изображениями
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Подавление символов спецификации в созданных файлах
-                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Разработка конфигураций для создания отчетов в форматах Office с внедренными изображениями
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Предварительный просмотр конфигураций для создания отчетов в форматах Office с внедренными изображениями
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Создание отчетов в форматах Office с внедренными изображениями
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Определение зависимости конфигураций электронной отчетности от других компонентов
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Разработка решения электронной отчетности для использования финансовых аналитик
+              items:
+                - name: Разработка моделей данных для использования финансовых аналитик как источников данных
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Сопоставление моделей для использования финансовых аналитик как источников данных
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Разработка отчетов для использования финансовых аналитик как источников данных
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Выполнение отчетов, использующих финансовые аналитики как источники данных'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Разработка форматов электронной отчетности для выполнения подсчета и суммирования с использованием информации из созданных выходных данных
+              items:
+                - name: Создание форматов для выполнения подсчета и суммирования
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка формата для подсчета и суммирования
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Использование вычислений для создания выходных данных подсчета и суммирования
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Выполнение форматов для подсчета и суммирования
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Динамическое добавление столбцов в отчеты Excel качестве горизонтально разворачивающихся диапазонов
+              items:
+                - name: Разработка форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Использование файлов управления документами в выходных данных формата
+              items:
+                - name: Подготовка моделей данных для использования файлов управления документами в выходных данных электронной отчетности
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Расширение моделей данных для использования файлов управления документами в выходных данных электронной отчетности
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Создание форматов для использования файлов управления документами в выходных данных электронной отчетности
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Изменение и выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
             - name: Обновление данных приложения с помощью электронной отчетности
               items:
                 - name: Создание электронных документов и обновление данных приложения
@@ -1235,8 +1125,6 @@
                   items:
                     - name: Создание конфигураций для импорта данных из внешнего XML-файла
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Импорт данных из выбранных вручную файлов в пакетном режиме
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка импорта данных в пакетном режиме из найденных файлов SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Импорт файлов в формате XML
@@ -1245,150 +1133,52 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Настройка форматов электронной отчетности для импорта файлов формата XML с дополнительными атрибутами
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Поддержка параметризованных вызовов источников данных электронной отчетности для рассчитанного типа поля
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: Жизненный цикл конфигурации
               items:
                 - name: Управление жизненным циклом конфигураций
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Lifecycle Services (LCS)
+                - name: Отправка конфигураций в Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Импорт конфигураций из Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Загрузка конфигураций из Lifecycle Services
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Импорт конфигураций
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Загрузка конфигураций электронной отчетности из репозитория RCS
                   items:
-                    - name: Отправка конфигураций в LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Импорт конфигураций из LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Загрузка конфигураций из LCS
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Импорт конфигураций (LBD)
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service (RCS)
-                  items:
-                    - name: Обзор Regulatory Configuration Service (RCS)
-                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Загрузка конфигураций электронной отчетности в Supply Chain Management
-                      items:
-                        - name: Загрузка конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Импорт конфигураций из RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Глобальный репозиторий (GR)
-                      items:
-                        - name: Импорт конфигураций из GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Импорт обновленных версий конфигураций электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Улучшенная фильтрация для поиска конфигураций в GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Отправка конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Совместное использование конфигураций в GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Прекращение использования конфигураций в глобальном репозитории RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Краткие руководства по началу работы
-              items:
-                - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Создание нового решения электронной отчетности для печати пользовательского отчета
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка решения электронной отчетности для создания пользовательского электронного документа
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Загрузка конфигураций из репозитория электронной отчетности для типа RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Импорт конфигураций из RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Учебники
               items:
-                - name: Использование источников данных
+                - name: Применение ОБЪЕДИНЕНИЯ к источникам данных для получения данных из таблиц в разных приложениях
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Настройка форматов электронной отчетности для использования параметров, указанных для юридического лица'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка параметров формата электронной отчетности для юридического лица
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Отложенное выполнение элементов формата электронной отчетности
                   items:
-                    - name: Использование ОБЪЕДИНЕНИЯ для получения данных из нескольких таблиц
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование необработанного XML-кода для добавления содержимого
-                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Поддержка параметризованных вызовов источников данных ВЫЧИСЛЯЕМЫХ ПОЛЕЙ
-                      items:
-                        - name: Улучшение взаимодействия с пользователями и удобство в обслуживании
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Повышение производительности доступа к данным
-                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Источники данных электронной отчетности в нескольких компаниях
-                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование источников данных ФИНАНСОВЫХ АНАЛИТИК
-                      items:
-                        - name: Проектирование моделей данных
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Сопоставление моделей для использования финансовых аналитик
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Разработка отчетов
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Выполнение отчетов
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование полученных выходных данных в качестве источника данных для подсчета и суммирования
-                      items:
-                        - name: Создание форматов
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Настройка формата для подсчета и суммирования
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Создание выходных данных для подсчета и суммирования
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Выполнение форматов для подсчета и суммирования
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование отношения ДОКУМЕНТЫ для работы с файлами управления документами
-                      items:
-                        - name: Подготовка моделей данных
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Расширение моделей данных для использования файлов управления документами
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Создание форматов
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Выполнение форматов для использования файлов управления документами
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Изменение и выполнение форматов для использования файлов управления документами
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование ШТРИХ-КОДА для создания изображений штрих-кода
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка источников данных ПОИСКА для использования параметров для приложения электронной отчетности
-                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
-                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Отладка источников данных
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка сопоставлений моделей
-                  items:
-                    - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Управление несколькими производными сопоставлениями для одного корня модели
-                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка форматов
-                  items:
-                    - name: Выбор определений моделей при создании форматов
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Настройка форматов электронной отчетности для использования параметров, указанных для юридического лица'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка параметров формата электронной отчетности для юридического лица
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Отложенное выполнение элементов формата электронной отчетности
-                      items:
-                        - name: Отложенное выполнение элемента последовательности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Отложенное выполнение XML-элемента
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Разработка многоязычных отчетов
-                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Сжатие больших исходящих документов
-                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Проверка настроенных компонентов электронной отчетности
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Относительный путь в привязке данных
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Использование решений электронной отчетности в Supply Chain Management
+                    - name: Отложенное выполнение элемента последовательности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Отложенное выполнение XML-элемента
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Использование решений для электронной отчетности в Finance and Operations
               items:
                 - name: Настройка платформы
                   items:
                     - name: Настройка платформы для электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Резервное копирование и восстановление шаблонов электронной отчетности
-                      items:
-                        - name: Хранение резервных копий шаблонов электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Очистка миграции электронной отчетности
-                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/supply-chain/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Создание поставщиков конфигураций и пометка их как активных
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Назначения
@@ -1411,19 +1201,15 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Настройка назначений
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка зависящих от действия назначений
-                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: 'Настройка назначений электронной отчетности, относящиеся к записи управления печатью'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка ссылки на формат электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Автоматическая проверка созданных отчетов
                   items:
                     - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Усовершенствование трассировки результатов созданных отчетов электронной отчетности для сравнения с базовыми значениями
+                    - name: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнений с базовыми значениями
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Автоматизация тестирования с помощью электронной отчетности
+                    - name: Автоматизация проверки с помощью электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Автоматизация бизнес-процессов с помощью конфигураций электронной отчетности
                   items:
@@ -1431,56 +1217,24 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Создание печатаемых форм накладных с произвольным текстом (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Разработка эффективных решений электронной отчетности
+                - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Управление бизнес-документами
                   items:
-                    - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Устранение проблем с производительностью в конфигурациях электронной отчетности
-                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Управление бизнес-документами (BDM)
-                  items:
-                    - name: Обзор BDM
+                    - name: Обзор управления бизнес-документами
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Создание пользовательского интерфейса документов в BDM
+                    - name: Новый пользовательский интерфейс для документов в управлении бизнес-документами
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Редактирование шаблонов бизнес-документов в BDM
-                      items:
-                        - name: Добавление новых полей в шаблон бизнес-документа в Microsoft Excel
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Обновление структуры шаблона бизнес-документа
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Добавление новых полей в шаблон бизнес-документа в Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: API платформы электронной отчетности
               items:
-                - name: Расширение списка встроенных функций
+                - name: Расширение списка функций электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Изменения API
-                  items:
-                    - name: Обновление приложения 7.3
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.11
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.17
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.19
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.23
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Обновление приложения 10.0.25
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Изменения в API платформы электронной отчетности для Application update 7.3
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Определение расположения пользовательского хранилища для создаваемых документов
-                  items:
-                    - name: Подписка на событие для запроса ответа от обработчика подписки
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Делегирование создания назначения электронной отчетности пользовательской фабрике назначений
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Реализация пользовательского места назначения для создаваемых документов
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Инициирование значений источника данных типа USER INPUT PARAMETER из исходного кода
-                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Изменение кода, чтобы разрешить пользователям настраивать и использовать именованные назначения ER'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
         - name: Управление запасами
           items:
             - name: Обзор управления запасами
@@ -1493,46 +1247,24 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Управление качеством
               items:
-                - name: Обзор управления качеством и несоответствием
+                - name: Обзор управления качеством
+                  href: inventory/enable-quality-management.md
+                - name: Процессы управления качеством
                   href: inventory/quality-management-processes.md
-                - name: Включение и настройка управления качеством и несоответствием
-                  items:
-                    - name: Включение управления качеством и несоответствием
-                      href: inventory/enable-quality-management.md
-                    - name: Инструменты тестирования управления качеством
-                      href: inventory/quality-test-instruments.md
-                    - name: Тесты управления качеством
-                      href: inventory/quality-tests.md
-                    - name: Переменные тестирования управления качеством
-                      href: inventory/quality-test-variables.md
-                    - name: Группы тестирования управления качеством
-                      href: inventory/quality-test-groups.md
-                    - name: Группы номенклатур управления качеством
-                      href: inventory/quality-groups.md
-                    - name: Выборочный контроль номенклатур управления качеством
-                      href: inventory/quality-item-sampling.md
-                    - name: Сопоставления контроля качества
-                      href: inventory/quality-associations.md
-                    - name: 'Работники, ответственные за утверждение несоответствий'
-                      href: inventory/quality-responsible-workers.md
-                    - name: Типы проблем с несоответствием
-                      href: inventory/quality-problem-types.md
-                    - name: Карантинные зоны несоответствия
-                      href: inventory/quality-quarantine-zones.md
-                    - name: Типы диагностики несоответствия
-                      href: inventory/quality-diagnostic-types.md
-                    - name: Операции несоответствия
-                      href: inventory/quality-operations.md
-                    - name: Расходы по операциям несоответствия
-                      href: inventory/quality-charges.md
-                - name: Работа с заказами для контроля качества
-                  href: inventory/quality-orders.md
+                - name: Управление качеством для складских процессов
+                  href: inventory/quality-management-for-warehouses-processes.md
+                - name: Управление несоответствием
+                  href: inventory/enable-nonconformance-management.md
+                - name: Настройка предварительных условий для управления
+                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
+                - name: Создание и обработка соответствия
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Карантинные заказы
+                  href: inventory/quarantine-orders.md
+                - name: Настройка заказов для контроля качества
+                  href: inventory/tasks/set-up-quality-orders.md
                 - name: Контроль качества товаров
                   href: inventory/tasks/inspect-quality-goods.md
-                - name: Создание и обработка несоответствия
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Работа с карантинными заказами
-                  href: inventory/quarantine-orders.md
                 - name: Блокировка запасов
                   href: inventory/inventory-blocking.md
                 - name: Создание и ведение блокировки запасов
@@ -1605,31 +1337,15 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Отслеживание скользящей средней себестоимости на складскую аналитику
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
-            - name: Архивация складских проводок
-              href: inventory/archive-inventory-transactions.md
             - name: Надстройка видимости запасов
-              items:
-                - name: Обзор надстройки видимости запасов
-                  href: inventory/inventory-visibility.md
-                - name: Установка и настройка видимости запасов
-                  href: inventory/inventory-visibility-setup.md
-                - name: Настройка видимости запасов
-                  href: inventory/inventory-visibility-configuration.md
-                - name: Использование приложения видимости запасов
-                  href: inventory/inventory-visibility-power-platform.md
-                - name: Резервирования видимости запасов
-                  href: inventory/inventory-visibility-reservations.md
-                - name: Общедоступные интерфейсы API видимости запасов
-                  href: inventory/inventory-visibility-api.md
-                - name: Советы по видимости запасов
-                  href: inventory/inventory-visibility-tips.md
+              href: inventory/inventory-visibility.md
         - name: Бизнес-аналитика IoT
           items:
             - name: Домашняя страница бизнес-аналитики IoT
               href: iot/iot-intelligence-home-page.md
             - name: Настройка ресурсов Azure
               href: iot/iot-azure-setup.md
-            - name: Форматы схем сообщений для центра IoT
+            - name: Форматы схем сообщений для центра Интернета вещей
               href: iot/iot-schema-format.md
             - name: Установка надстройки в LCS
               href: iot/iot-lcs-setup.md
@@ -1651,64 +1367,32 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Начало работы с оптимизацией планирования
                   href: master-planning/planning-optimization/get-started.md
-                - name: Процедура выпуска и история выпусков оптимизации планирования
-                  href: master-planning/planning-optimization/release-process.md
                 - name: Анализ соответствия оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Различия между встроенным сводным планированием и оптимизацией планирования
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: 'Параметры, не используемые в оптимизации планирования'
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: График поставок
-                  href: master-planning/supply-schedule.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Сводное планирование с прогнозом спроса
                   href: master-planning/planning-optimization/demand-forecast.md
-                - name: Сводное планирование с коммерческими соглашениями о покупке
+                - name: Сводное планирование с торговыми договорами о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: 'Параметры даты и времени, используемые при оптимизации планирования'
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Допуск задержки (отрицательные дни)
-                  href: master-planning/planning-optimization/delay-tolerance.md
-                - name: Заявки на покупку
-                  href: master-planning/planning-optimization/purchase-requisitions.md
-                - name: Планирование производства
-                  href: master-planning/planning-optimization/production-planning.md
-                - name: Планирование без ограничений по мощности
-                  href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Планирование с выбором ресурсов на основе возможностей
-                  href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Планирование на основе приоритетов
-                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Маркировка запасов с оптимизацией планирования
                   href: master-planning/planning-optimization/marking.md
                 - name: Внутрихолдинговое планирование
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Исключение продуктов с определенными состояниями жизненного цикла продукта
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Методы пополнения и изменение количества
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
-                - name: Временные границы покрытия
-                  href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Чистые потребности и информация об источниках потребности в оптимизации планирования
-                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Утверждение спланированных заказов
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Утвержденные спланированные заказы
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Упрощенные спланированные заказы
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Автоматическое подтверждение при оптимизации планирования
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Планирование с отрицательными количествами в наличии
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Просмотр истории плана и журналов планирования
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Отмена задания планирования
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Сообщения по действию
-                  href: master-planning/action-messages.md
                 - name: Устранение неполадок оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Расширяемость оптимизации планирования
@@ -1733,14 +1417,14 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Выполнение резервного запаса для номенклатур
                   href: master-planning/safety-stock-replenishment.md
-                - name: Использование журнала резервного запаса для обновления минимального покрытия номенклатур
-                  href: master-planning/safety-stock-journal.md
                 - name: Задержки
                   href: master-planning/delays.md
                 - name: Отмена задания сводного планирования
                   href: master-planning/cancel-master-planning-job.md
                 - name: Использование трассировки для развертывания
                   href: master-planning/trace-explosion.md
+                - name: Сообщения по действию
+                  href: master-planning/action-messages.md
                 - name: Мониторинг выполнения сводного планирования
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Создание графика для сайта
@@ -1749,8 +1433,6 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: Календари и сводное планирование
                   href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Устранение ошибки подсистемы планирования "Не удалось найти достаточную емкость"
-                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Повышение производительности сводного планирования
                   href: master-planning/master-planning-performance.md
                 - name: Повышение производительности подсистемы планирования
@@ -1777,40 +1459,34 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Просмотр исходящего запланированного внутрихолдингового спроса
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Чистые потребности и информация об источниках потребности во встроенном сводном планировании
-                  href: master-planning/net-requirements-built-in-master-planning.md
-            - name: Прогнозирование
+                - name: Взаимодействие с клиентами внутренней цепочки поставок
+                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+            - name: Прогнозирование спроса
               items:
-                - name: Прогнозирование спроса и поставок
-                  items:
-                    - name: Прогнозы запасов
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Руководство: изменение прогноза спроса вручную'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
-                - name: Прогнозирование спроса
-                  items:
-                    - name: Обзор прогнозирования спроса
-                      href: master-planning/introduction-demand-forecasting.md
-                    - name: Настройка прогнозирования спроса
-                      href: master-planning/demand-forecasting-setup.md
-                    - name: Создание статистического базового прогноза
-                      href: master-planning/generate-statistical-baseline-forecast.md
-                    - name: Внесение ручной корректировки в базовый прогноз
-                      href: master-planning/manual-adjustments-baseline-forecast.md
-                    - name: Авторизация скорректированного прогноза
-                      href: master-planning/authorize-adjusted-forecast.md
-                    - name: Импорт исторических данных для прогнозов спроса
-                      href: master-planning/import-historical-data.md
-                    - name: Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса
-                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                    - name: Отслеживание точности прогноза
-                      href: master-planning/monitor-forecast-accuracy.md
-                    - name: 'Руководство: создание базового прогноза'
-                      href: master-planning/tasks/create-baseline-forecast.md
-                - name: Сводное планирование с прогнозом
-                  items:
-                    - name: Ключи сокращения прогноза
-                      href: master-planning/reduction-keys.md
+                - name: Обзор прогнозирования спроса
+                  href: master-planning/introduction-demand-forecasting.md
+                - name: Настройка прогнозирования спроса
+                  href: master-planning/demand-forecasting-setup.md
+                - name: Импорт исторических данных для прогнозов спроса
+                  href: master-planning/import-historical-data.md
+                - name: Создание статистического базового прогноза
+                  href: master-planning/generate-statistical-baseline-forecast.md
+                - name: Внесение ручной корректировки в базовый прогноз
+                  href: master-planning/manual-adjustments-baseline-forecast.md
+                - name: Авторизация скорректированного прогноза
+                  href: master-planning/authorize-adjusted-forecast.md
+                - name: Отслеживание точности прогноза
+                  href: master-planning/monitor-forecast-accuracy.md
+                - name: Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса
+                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                - name: Ключи сокращения
+                  href: master-planning/reduction-keys.md
+                - name: Создание базового прогноза
+                  href: master-planning/tasks/create-baseline-forecast.md
+                - name: Изменение прогноза спроса вручную
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Устранение неполадок со сводным планированием
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Мобильное приложение
           items:
             - name: Домашняя страница мобильного приложения
@@ -1826,7 +1502,7 @@
                 - name: Управление затратами
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Управление расходами
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Запасы в наличии
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Утверждения накладных
@@ -1834,11 +1510,11 @@
                 - name: Моя группа
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Обзор мобильных приложений Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Регистрация времени проекта
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Утверждение заказа на покупку
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Заказы на продажу
@@ -1855,7 +1531,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Открытие данных объекта в Excel и его обновление с помощью надстройки Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Вопросы и ответы по функции открытия в Excel
+            - name: Создание функции открытия в Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Добавление шаблонов в меню открытия строк в Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1901,17 +1577,15 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка глобальной адресной книги
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка адреса
-                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Вопросы и ответы по адресным книгам
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка адресных книг
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
             - name: Система бизнес-правил
               items:
-                - name: Обзор системы workflow-процессов
+                - name: Обзор системы бизнес-правил
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Архитектура системы workflow-процессов
+                - name: Архитектура системы бизнес-правил
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Элементы бизнес-правила
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/supply-chain/toc.json
@@ -1931,8 +1605,6 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Настройка шагов утверждения
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Настройка рецензентов расходов
-                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Настройка решений, принимаемых вручную'
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Настройка решений, принимаемых по условию'
@@ -1967,11 +1639,11 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Создание класса SubmitToWorkflow
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Связывание класса документов workflow-процесса с типом workflow-процесса
+                    - name: Связывание класса документов бизнес-правил с типом бизнес-правил
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Отчет о типах workflow-процессов
+                - name: Отчет о типах бизнес-правил
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Вопросы и ответы по workflow-процессам
+                - name: Вопросы и ответы по бизнес-правилам
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: Оповещения
               items:
@@ -2013,8 +1685,10 @@
           items:
             - name: Обзор закупок и источников
               href: procurement/procurement-sourcing-overview.md
-            - name: Бизнес-правило модуля "Закупки и источники"
+            - name: Workflow-процесс закупок и источников
               href: procurement/procurement-sourcing-workflows.md
+            - name: Устранение неполадок в workflow-процессах закупок и источников
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Каталоги закупаемой продукции
               items:
                 - name: Обзор каталогов закупаемой продукции
@@ -2035,9 +1709,7 @@
                   href: procurement/request-quotations.md
                 - name: Создание запроса предложения
                   href: procurement/tasks/create-request-quotation.md
-                - name: Запечатывание предложений для запросов предложений
-                  href: procurement/sealed-bidding.md
-                - name: 'Создание заявки, связанной с запросом предложения'
+                - name: 'Создание заявки, которая использует запрос предложения'
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Создание метода оценки для запросов предложений
                   href: procurement/tasks/create-scoring-method-rfqs.md
@@ -2055,15 +1727,13 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Мобильные рабочие области утверждения заказов на покупку
                   href: procurement/purchase-order-mobile-workspace.md
-                - name: Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
-                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                - name: Проверить несоответствия в ценах внутрихолдингового заказа
-                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Регистрация поступления товаров по заказу на покупку
-                  href: procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Устранение неполадок с заказами на покупку
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Создание заказа на покупку
               items:
-                - name: Создавать заказы на покупку вручную
+                - name: Создание заказов на покупку вручную
                   href: procurement/purchase-order-creation.md
                 - name: Создание заказа на покупку
                   href: procurement/tasks/create-purchase-order.md
@@ -2071,7 +1741,9 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Создание заказа на покупку для разового поставщика
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Применение договора покупки при создании заказа на покупку
+                - name: Создание заказа на выпуск покупки при создании заказа на покупку
+                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
+                - name: Создание заказа на выпуск покупки из договора покупки
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Создание заказа на возврат покупки
                   href: procurement/tasks/create-purchase-return-order.md
@@ -2091,6 +1763,8 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Ретробонусы поставщика
                   href: procurement/vendor-rebates.md
+                - name: 'Устранение неполадок с ценами, скидками, договорами и ретробонусами'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Политики закупок
               items:
                 - name: Обзор политик закупок
@@ -2103,11 +1777,13 @@
               items:
                 - name: Поступление продуктов по заказам на покупку
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: Обзор накладных поставщика
+                - name: Обзор счетов поставщиков
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Устранение неполадок с поступлением продуктов и выставлением счетов
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Управление поставщиками и совместная работа с ними
               items:
-                - name: Настройка и ведение сотрудничества с поставщиками
+                - name: Настройка и ведение совместной работы с поставщиками
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: Ведение пользователей совместной работы с поставщиками
                   href: procurement/manage-vendor-collaboration-users.md
@@ -2125,14 +1801,8 @@
                   href: procurement/vendor-onboarding.md
                 - name: Совместная работа с внешними поставщиками
                   href: procurement/vendor-collaboration-work-external-vendors.md
-                - name: Управление сертификацией поставщиков
-                  href: ../finance/public-sector/manage-vendor-certification.md
-                - name: Запросы категорий от поставщиков
-                  href: procurement/category-requests-from-vendors.md
                 - name: Совместная работа с клиентами
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
-                - name: Настройка сведений о банковском счете поставщика
-                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: Импорт каталогов поставщиков
                   href: procurement/vendor-catalogs-import.md
                 - name: Настройка внешнего каталога для PunchOut eProcurement
@@ -2155,12 +1825,10 @@
               items:
                 - name: Настройка сведений о ресурсах для проекта
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Создание и отправка workflow-процесса бюджета проекта
+                - name: Отправка и утверждение бюджетов проектов
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Отправка и утверждение версий бюджетов проектов
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-            - name: Вопросы и ответы по закупкам
-              href: procurement/procurement-faq.md
         - name: Управление сведениями о продукте
           items:
             - name: Обзор сведений о продуктах
@@ -2185,8 +1853,6 @@
                   href: pim/tasks/create-product-master.md
                 - name: Создание заранее определенных вариантов продукта
                   href: pim/tasks/create-predefined-product-variants.md
-                - name: Управление единицами измерения
-                  href: pim/tasks/manage-unit-measure.md
                 - name: Преобразование единиц измерения для вариантов продукта
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Создание выпущенного продукта для одной компании
@@ -2243,8 +1909,6 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Использование конструктора формул
                   href: production-control/formula-designer.md
-                - name: Переопределение принципа резервирования по умолчанию для материалов в производстве
-                  href: production-control/override-default-reservation-principle.md
                 - name: Добавление вариантов продуктов в заказы на покупку с использованием весов вариантов
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Создание заказа на продажу для настраиваемого продукта
@@ -2255,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Расчет спецификаций
                   href: cost-management/bom-calculations.md
+                - name: Устранение неполадок с информацией о продукте
+                  href: pim/troubleshooting-productinformation.md
             - name: Конфигурация продукта
               items:
                 - name: Обзор конфигурации продукта
@@ -2285,8 +1951,6 @@
                   items:
                     - name: Настройка модели конфигурации продукта
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: Расчеты модели конфигурации продукта
-                      href: pim/config-model-calculations.md
                     - name: Вопросы и ответы по расчету модели конфигурации продукта
                       href: pim/calculate-product-configuration-models.md
                     - name: Правило конфигурации
@@ -2317,8 +1981,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Передача данных для моделей продукта
                       href: pim/tasks/transfer-data-product-models.md
-            - name: Вопросы и ответы по управлению сведениями о продукте
-              href: pim/product-information-faq.md
+                - name: Устранение неполадок с конфигуратором продукции
+                  href: pim/troubleshooting-productconfigurator.md
         - name: Управление изменениями разработки
           items:
             - name: Обзор управления изменениями разработки
@@ -2337,22 +2001,14 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Версии разработки и категории продуктов разработки
               href: engineering-change-management/engineering-versions-product-category.md
-            - name: Управление изменениями в формулах и их ингредиентах
-              href: engineering-change-management/manage-formula-changes.md
-            - name: Включение управления изменениями для существующих продуктов
-              href: engineering-change-management/change-management-existing-products.md
             - name: Состояние жизненного цикла продукта и проводки
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Управление изменениями в продуктах разработки
               href: engineering-change-management/engineering-change-management.md
             - name: Готовность продукта
               href: engineering-change-management/product-readiness.md
-            - name: Выпуск структур продуктов
+            - name: Структура выпуска продукта
               href: engineering-change-management/release-product-structure.md
-            - name: Создание вариантов для продуктов разработки
-              href: engineering-change-management/engineering-variants.md
-            - name: Вопросы и ответы по управлению изменениями разработки
-              href: engineering-change-management/change-management-faq.md
         - name: Управление производством
           items:
             - name: Обзор производственного процесса
@@ -2361,12 +2017,6 @@
               href: production-control/mixed-mode-plan.md
             - name: Управление работой по субподряду в производстве
               href: production-control/manage-subcontract-work-production.md
-            - name: Единая номерная серия для кодов заданий
-              href: production-control/unified-job-ids.md
-            - name: Вызов потоков автоматизации процесса для создания заказов для контроля качества
-              href: production-control/process-automation-quality-orders.md
-            - name: Интеграция со сторонними системами управления производством
-              href: production-control/mes-integration.md
             - name: Дискретное производство
               items:
                 - name: Ведение справочника производства
@@ -2377,12 +2027,12 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Функциональность конструктора спецификаций
                       href: production-control/bom-designer-functionality.md
-                    - name: Переопределение принципа резервирования по умолчанию для материалов в производстве
-                      href: production-control/override-default-reservation-principle.md
                     - name: Искусственные номенклатуры
                       href: production-control/phantom-items.md
                     - name: Расчет спецификаций
                       href: cost-management/bom-calculations.md
+                    - name: Управление единицей измерения
+                      href: pim/tasks/manage-unit-measure.md
                     - name: Параметры производства модуля "Управление производством"
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: Операционные ресурсы
@@ -2447,7 +2097,17 @@
                       href: production-control/release-production-orders.md
                     - name: Приемка производственных заказов
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Настройка карты заданий для устройств
+                    - name: Настройка и использование интерфейса выполнения производственного цеха
+                      items:
+                        - name: Настройка интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Разработка интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-tabs.md
+                        - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Как работники используют интерфейс выполнения производственного цеха
+                          href: production-control/production-floor-execution-use.md
+                    - name: Настройка карты задания для устройств
                       href: production-control/config-job-card-device.md
                     - name: Приемка с устройства карты задания
                       href: production-control/report-finished-job-device.md
@@ -2501,6 +2161,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Группы гибкого графика работы
                       href: production-control/time-attendance-flex-groups.md
+                - name: Устранение неполадок дискретного производства
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Бережливое производство
               items:
                 - name: Обзор бережливого производства
@@ -2527,7 +2189,7 @@
                       href: production-control/job-scheduling.md
                 - name: Управление заданиями канбана
                   items:
-                    - name: Поддержка доски переноса канбана для сканеров штрих-кодов
+                    - name: Поддержка доски переноса канбана для сканеров штрихкодов
                       href: production-control/kanban-transfer-board-support-barcode-scanner.md
                     - name: Обратная связь производства
                       href: production-control/production-feedback.md
@@ -2653,46 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Разноски по производству
                       href: cost-management/production-posting.md
-            - name: Настройка и использование интерфейса выполнения производственного цеха
-              items:
-                - name: Настройка интерфейса выполнения производственного цеха
-                  href: production-control/production-floor-execution-configure.md
-                - name: Разработка интерфейса выполнения производственного цеха
-                  href: production-control/production-floor-execution-tabs.md
-                - name: Настройка устройства для запуска интерфейса выполнения производственного цеха
-                  href: production-control/production-floor-execution-setup.md
-                - name: Как работники используют интерфейс выполнения производственного цеха
-                  href: production-control/production-floor-execution-use.md
-                - name: Стиль интерфейса выполнения производственного цеха
-                  href: production-control/production-floor-execution-styles.md
-                - name: Настройка интерфейса выполнения производственного цеха
-                  href: production-control/production-floor-execution-customize.md
-        - name: Управление ретробонусами
-          items:
-            - name: Обзор модуля "Управление ретробонусами"
-              href: rebate-management/rebate-management-overview.md
-            - name: Установка и настройка модуля "Управление ретробонусами"
-              items:
-                - name: Включение модуля "Управление ретробонусами" для вашей системы
-                  href: rebate-management/rebate-management-enable.md
-                - name: Параметры управления ретробонусами
-                  href: rebate-management/rebate-management-parameters.md
-                - name: Workflow-процессы сделок в управлении ретробонусами
-                  href: rebate-management/rebate-management-workflows.md
-                - name: Принципы сокращения ретробонусов
-                  href: rebate-management/rebate-reduction-principle.md
-                - name: Статусы ретробонусов
-                  href: rebate-management/rebate-statuses.md
-                - name: Группы управления ретробонусами
-                  href: rebate-management/rebate-management-groups.md
-                - name: Настройка разноски управления ретробонусами
-                  href: rebate-management/rebate-management-posting.md
-            - name: Сделки в управлении ретробонусами
-              href: rebate-management/rebate-management-deals.md
-            - name: 'Обработка, проверка и разноска ретробонусов'
-              href: rebate-management/process-review-post.md
-            - name: Управление вычетами с помощью рабочего места удержаний
-              href: rebate-management/deduction-workbench.md
+                - name: Устранение неполадок непрерывного производства
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Продажи и маркетинг
           items:
             - name: Обзор продаж и маркетинга
@@ -2731,8 +2355,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Подтверждение заказов на продажу
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: Вопросы и ответы по заказам на продажу
-                  href: sales-marketing/sales-orders-faq.md
+                - name: Устранение неполадок с заказами на продажу
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Договоры продажи
               items:
                 - name: Обзор договоров продажи
@@ -2755,62 +2379,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Создание и изменение предложений по продаже
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Внутрихолдинговая торговля
-              items:
-                - name: Настройка внутрихолдинговой торговли
-                  items:
-                    - name: Настройка внутрихолдинговой торговли
-                      href: sales-marketing/intercompany-trade-set-up.md
-                    - name: Внутрихолдинговые параметры
-                      href: sales-marketing/intercompany-parameters.md
-                    - name: 'Настройка поставщиков, клиентов и номенклатур для внутрихолдинговой торговли'
-                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
-                    - name: Настройка накладных расходов для внутрихолдинговых заказов
-                      href: sales-marketing/intercompany-set-up-charges.md
-                    - name: Настройка параметров для разноски внутрихолдингового заказа
-                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
-                - name: Синхронизация внутрихолдинговой информации
-                  items:
-                    - name: Синхронизация внутрихолдинговых цен и скидок
-                      href: sales-marketing/intercompany-sync-prices-discounts.md
-                    - name: Синхронизация внутрихолдинговых накладных расходов
-                      href: sales-marketing/intercompany-sync-charges.md
-                    - name: Синхронизация внутрихолдинговой информации по клиенту
-                      href: sales-marketing/intercompany-synch-customer-information.md
-                    - name: Синхронизация внутрихолдинговых кодов методов обработки
-                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
-                - name: Внутрихолдинговые заказы на продажу и накладные
-                  items:
-                    - name: Создание внутрихолдинговых заказов на покупку и продажу в нескольких компаниях
-                      href: sales-marketing/intercompany-orders-in-several-companies.md
-                    - name: Внутрихолдинговые заказы и заказы на возврат
-                      href: sales-marketing/intercompany-orders-and-return-orders.md
-                    - name: Создание внутрихолдингового заказа на продажу для внутреннего использования
-                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
-                    - name: Создание внутрихолдингового заказа на продажу для внешнего клиента и выставление накладной по нему
-                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
-                    - name: Внутрихолдинговые резервирования
-                      href: sales-marketing/intercompany-reservations.md
-                    - name: Изменение или удаление исходного внутрихолдингового заказа на продажу
-                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
-                    - name: Изменение внутрихолдинговых заказов
-                      href: sales-marketing/intercompany-change-orders.md
-                    - name: Внутрихолдинговые номера партий и серийные номера
-                      href: sales-marketing/intercompany-batch-serial-numbers.md
-                    - name: Внутрихолдинговые отборочные накладные
-                      href: sales-marketing/intercompany-packing-slips.md
-                    - name: Автоматическая регистрация платежей для внутрихолдинговых накладных клиентов
-                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
-                - name: Внутрихолдинговые заказы на покупку
-                  items:
-                    - name: Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
-                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
-                    - name: Проверить несоответствия в ценах внутрихолдингового заказа
-                      href: sales-marketing/intercompany-check-price-discrepancies.md
-                - name: Внутрихолдинговые конвертации валют
-                  href: sales-marketing/intercompany-currency-conversions.md
-                - name: Внутрихолдинговое сводное планирование
-                  href: sales-marketing/intercompany-master-scheduling.md
+                - name: Устранение неполадок с предложениями по продаже
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Возвраты
               items:
                 - name: Возвраты продаж
@@ -2835,8 +2405,6 @@
               href: sales-marketing/trade-allowance.md
             - name: Создание нового коммерческого соглашения
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Повышение производительности очистки истории продаж
-              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Управление сервисным обслуживанием
           items:
             - name: Обзор управления сервисным обслуживанием
@@ -3121,10 +2689,6 @@
               href: transportation/tasks/load-template.md
             - name: Профили оценки
               href: transportation/tasks/setup-a-rating-profile.md
-            - name: Классы LTL
-              href: transportation/ltl-class.md
-            - name: Коды NMFC
-              href: transportation/nmfc-codes.md
             - name: Настройка индекса топлива перевозчика
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Настройка способа доставки транспортировки
@@ -3143,58 +2707,6 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Настройка ограничений по транспортировке для номенклатуры
               href: transportation/tasks/set-up-transportation-constraints-item.md
-        - name: Стоимость на складе
-          items:
-            - name: Обзор модуля "Стоимость на складе"
-              href: landed-cost/landed-cost-overview.md
-            - name: Сравнение модуля "Стоимость на складе" с модулем "Управление транспортировкой"
-              href: landed-cost/landed-cost-vs-tms.md
-            - name: Установка и настройка модуля "Стоимость на складе"
-              items:
-                - name: Включение модуля "Стоимость на складе" для системы
-                  href: landed-cost/landed-cost-enable.md
-                - name: Параметры модуля "Стоимость на складе"
-                  href: landed-cost/landed-cost-parameters.md
-                - name: Параметры закупок и источников в модуле "Стоимость на складе"
-                  href: landed-cost/landed-cost-procurement-parameters.md
-                - name: Настройка статуса поездки
-                  href: landed-cost/voyage-status-setup.md
-                - name: Настройка контейнера отгрузки
-                  href: landed-cost/shipping-container-setup.md
-                - name: Настройка сведений о доставке
-                  href: landed-cost/delivery-information-setup.md
-                - name: Настройка пути с пересадками
-                  href: landed-cost/multi-leg-journey-setup.md
-                - name: Настройка сведений об отгрузке
-                  href: landed-cost/shipping-information-setup.md
-                - name: Настройка значений параметров учета затрат
-                  href: landed-cost/costing-parameters-setup.md
-                - name: Описания по умолчанию для главной книги
-                  href: landed-cost/defult-descriptions.md
-            - name: 'Параметры поставщика, добавленные в модуль "Стоимость на складе"'
-              href: landed-cost/vendors-landed-cost-settings.md
-            - name: 'Работа с поездками, контейнерами и фолио'
-              items:
-                - name: Управление поездками
-                  href: landed-cost/manage-voyages.md
-                - name: Управление контейнерами отгрузки
-                  href: landed-cost/manage-shipping-containers.md
-                - name: Управление фолио
-                  href: landed-cost/manage-folios.md
-            - name: 'Отслеживание входящих поездок и поездок, связанных с контейнерами отгрузки'
-              href: landed-cost/inbound-tracking.md
-            - name: Оценка стоимости на складе и управление ей
-              href: landed-cost/estimate-manage-landed-costs.md
-            - name: Обработка в пути
-              href: landed-cost/in-transit-processing.md
-            - name: Обработка проводок переприхода/недоприхода
-              href: landed-cost/over-under-transactions.md
-            - name: Обновление отслеживания для размещения
-              href: landed-cost/update-tracking-putaway.md
-            - name: Запросы о стоимости на складе
-              href: landed-cost/landed-cost-inquiries.md
-            - name: Отчеты о стоимости на складе
-              href: landed-cost/landed-cost-reports.md
         - name: Управление складом
           items:
             - name: Обзор управления складом
@@ -3207,8 +2719,6 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Импорт входящих ASN с помощью информационного объекта V2
-                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Кросс-докинг продуктов со склада приемки в магазины
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Настройка директивы местонахождения для размещения заказа на покупку
@@ -3219,22 +2729,26 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Кластеры размещения
                   href: warehousing/putaway-clusters.md
-                - name: Управление качеством для складских процессов
-                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Проверка качества
                   href: warehousing/quality-check.md
+                - name: Устранение неполадок со входящими складскими операциями
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Исходящие складские операции
               items:
-                - name: Гибкая политика резервирования аналитик на уровне склада
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                - name: Выпуск на склад
-                  href: warehousing/release-to-warehouse-process.md
+                - name: Резервирование в модуле "Управление складом"
+                  items:
+                    - name: Гибкая политика резервирования аналитик на уровне склада
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Устранение неполадок резервирований в модуле "Управление складом"
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Частичный отпуск и частичная отгрузка
                   items:
                     - name: Частичная отгрузка загрузки транспорта
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Пакетный выпуск частично зарезервированных заказов на перемещение
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Устранение неполадок с частичным отпуском и частичной отгрузкой
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Комплектация и упаковка
                   items:
                     - name: Настройка комплектации кластера
@@ -3243,10 +2757,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: 'Комплектация кластера, управляемая системой'
                       href: warehousing/system-directed-cluster-pick.md
-                    - name: Комплектация с превышением для заказов на продажу и заказов на перемещение
-                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
-                    - name: Настройка различных аналитик для упаковки и хранения
-                      href: warehousing/packing-vs-storage-dimensions.md
+                    - name: Настройка контейнеризации
+                      href: warehousing/tasks/set-up-containerization.md
                     - name: Подтверждение партии и грузоместа
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Включение печати меток грузомест
@@ -3271,14 +2783,14 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Распределение по срокам комплектации запасов директивы местонахождения
                       href: warehousing/location-directive-inventory-picking-aging.md
-                    - name: Привязка
-                      href: warehousing/anchoring.md
                     - name: Исходящая сортировка
                       href: warehousing/outbound-sorting.md
                     - name: Поместить на стену — поместить в магазин
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Визуализация исходящей рабочей нагрузки
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Устранение неполадок комплектации и упаковки
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Пополнение
                   items:
                     - name: Обзор пополнения
@@ -3295,18 +2807,24 @@
                       href: warehousing/replenishment-strategies.md
                     - name: Пополнение сверх объема местонахождения
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Устранение неполадок с пополнением склада
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Формирование загрузок и отгрузок
                   items:
                     - name: Подтверждение и перемещение
                       href: warehousing/confirm-and-transfer.md
-                    - name: Подтвердить исходящие отгрузки из пакетных заданий
+                    - name: Подтверждение исходящих отгрузок из пакетных заданий
                       href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Расширенное формирование загрузок во время волны
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Правило выпуска на склад
                       href: warehousing/release-to-warehouse-rule.md
-                    - name: Отгрузка небольших посылок
-                      href: warehousing/small-parcel-shipping.md
+                    - name: Группировка шаблонов волны
+                      href: warehousing/wave-template-grouping.md
+                    - name: Повторная печать и аннулирование этикеток волны
+                      href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Устранение неполадок с формированием загрузок и отгрузками
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Политики консолидации отгрузок
                   items:
                     - name: Политики консолидации отгрузок
@@ -3315,18 +2833,16 @@
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Случай 2: отгрузки консолидируются при переопределении политики консолидации отгрузок'
+                    - name: 'Сценарий 2: отгрузки консолидируются, когда политика консолидации отгрузок переопределяется на странице "Выпуск на склад"'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 'Сценарий 3: отгрузки консолидируются при выпуске на склад на рабочем месте планирования загрузки'
+                    - name: 'Сценарий 3: отгрузки консолидируются при использовании функции "Выпуск на склад" на рабочем месте планирования загрузки'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Случай 4: отгрузки консолидируются с помощью рабочего места консолидации отгрузок'
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 'Случай 5: отгрузки консолидируются вручную на странице консолидации отгрузок'
                       href: warehousing/consolidate-shipments-manual-form.md
-                - name: Создание и обработка волны
-                  href: warehousing/wave-processing.md
-                - name: Повторная печать и аннулирование этикеток волны
-                  href: warehousing/reprint-and-void-wave-labels.md
+                - name: Устранение неполадок с исходящими складскими операциями
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Между складскими операциями
               items:
                 - name: Политики работы склада
@@ -3341,8 +2857,6 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: Отложенная обработка работ склада
                       href: warehousing/deferred-put.md
-                    - name: Отложенная обработка операции перемещения запасов вручную
-                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Кросс-докинг
                   items:
                     - name: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
@@ -3361,12 +2875,10 @@
                       href: warehousing/cycle-counting.md
                     - name: Определение цикличного подсчета
                       href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                    - name: Частичный подсчет циклов по местонахождениям
+                    - name: Частичный цикличный подсчет по ячейкам
                       href: warehousing/partial-location-cycle-counting.md
-                    - name: Определение процесса частичного подсчета циклов по местонахождениям
+                    - name: Определение процесса частичного цикличного подсчета по местонахождениям
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                    - name: Примеры сценариев подсчета циклов
-                      href: warehousing/cycle-counting-scenarios.md
                     - name: Задание очистки записей в наличии для управления складом
                       href: warehousing/onhand-cleanup.md
                     - name: Журналы запасов
@@ -3383,70 +2895,14 @@
                       href: warehousing/work-line-details.md
                     - name: Позиционирование грузоместа в местонахождении
                       href: warehousing/location-license-plate-positioning.md
-                    - name: Изменение пула работ в работе
+                    - name: Изменить пул работ в работе
                       href: warehousing/change-work-pool-on-work.md
-                    - name: Консолидация номенклатур — использование местонахождения
+                    - name: Консолидации номенклатур — использование местонахождения
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Устранение неполадок с работой склада
+                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: Разделение работ
                       href: warehousing/work-split.md
-                    - name: Интерфейс транспортно-складского оборудования (MHAX)
-                      href: warehousing/mhax.md
-            - name: Приложение склада
-              items:
-                - name: 'Установка, настройка и использование мобильных устройств'
-                  items:
-                    - name: Что нового и что изменилось в мобильном приложении Warehouse Management
-                      href: warehousing/whats-new-wma.md
-                    - name: Установка и подключение мобильного приложения Warehouse Management
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Установка и подключение приложения склада
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Поддержка мобильных устройств чтения штрих-кодов
-                      href: warehousing/mobile-barcode-support.md
-                    - name: Сканирование штрих-кодов с помощью камеры в мобильном приложении Warehouse Management
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Настройка полей и меню для мобильных устройств
-                  items:
-                    - name: Настройка полей для мобильного приложения Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Настройка мобильных устройств для работы склада
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Настройка названий шагов и инструкций для мобильного приложения Warehouse Management
-                      href: warehousing/mobile-app-titles-instructions.md
-                    - name: Настройка продвигаемых полей для шагов на мобильном устройстве
-                      href: warehousing/warehouse-app-promoted-fields.md
-                    - name: Настройка переключений для шагов в пунктах меню мобильного устройства
-                      href: warehousing/warehouse-app-detours.md
-                    - name: Получение грузомест с помощью мобильного приложения Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Настройка пункта меню мобильного устройства для предоставления обзора строк комплектации
-                      href: warehousing/pick-line-overview.md
-                    - name: Создание пункта меню мобильного устройства для консолидации грузомест
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Настройка отображения более старых партий на складе на мобильном устройстве
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Комплектация самой старой партии на мобильном устройстве
-                      href: warehousing/pick-oldest-batch.md
-                - name: Глобальные параметры мобильного устройства
-                  href: warehousing/mobile-device-parameters.md
-                - name: Учетные записи пользователей мобильного устройства
-                  href: warehousing/mobile-device-work-users.md
-                - name: Параметры пользователя мобильного устройства
-                  href: warehousing/mobile-device-user-settings.md
-                - name: Обработка событий приложения склада
-                  href: warehousing/warehouse-app-events.md
-                - name: Расширение процессов мобильных устройств склада
-                  items:
-                    - name: Структура руководства по процессу
-                      href: warehousing/process-guide-framework.md
-                    - name: Назначение значков и названий шагов
-                      href: warehousing/step-icons-titles.md
             - name: Настройка склада
               items:
                 - name: Конфигурация склада
@@ -3459,36 +2915,14 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Работа с директивами местонахождения
                       href: warehousing/create-location-directive.md
-                    - name: Настройка фильтров продуктов для складских проводок
-                      href: warehousing/filters-and-filter-codes.md
                     - name: Лимиты хранения местонахождения
                       href: warehousing/location-stocking-limits.md
-                    - name: Создание и обработка волны
-                      items:
-                        - name: Пример настройки обработки волны
-                          href: warehousing/tasks/configure-wave-processing.md
-                        - name: Параметры склада для обработки волны
-                          href: warehousing/wave-warehouse-parameters.md
-                        - name: Шаблоны волны
-                          href: warehousing/wave-templates.md
-                        - name: Коды шагов волны
-                          href: warehousing/wave-step-codes.md
-                        - name: Группирование шаблонов волны
-                          href: warehousing/wave-template-grouping.md
-                        - name: Распределение волны
-                          href: warehousing/wave-allocation-method.md
-                        - name: Планирование создания работы во время волны
-                          href: warehousing/configure-wave-schedule-work-creation.md
-                        - name: Уведомления о выполнении волны
-                          href: warehousing/wave-execution-notifications.md
-                        - name: Печать этикеток волны
-                          href: warehousing/configure-wave-label-printing.md
-                        - name: Планирование печати этикеток во время волны
-                          href: warehousing/configure-task-based-wave-label-printing.md
-                        - name: Контейнеризация
-                          href: warehousing/wave-containerization.md
-                        - name: Стратегии упаковки в контейнеры
-                          href: warehousing/container-packing-strategy-overview.md
+                    - name: Коды шагов волны
+                      href: warehousing/wave-step-codes.md
+                    - name: Настройка обработки волн
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Настройка и использование печати этикеток волны
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Автообновление отгрузок
                       href: warehousing/auto-update-shipment.md
                     - name: Создание профиля местонахождения
@@ -3513,14 +2947,52 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Макет маршрутизации документов для наклеек грузомест
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Штрих-коды и QR-коды GS1
-                      href: warehousing/gs1-barcodes.md
+                    - name: Поддержка мобильных устройств чтения штрих-кодов
+                      href: warehousing/mobile-barcode-support.md
                     - name: Настройка склада для заказов на перемещение
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Устранение неполадок конфигурации склада
+                      href: warehousing/troubleshoot-warehouse-configuration.md
+                - name: Установка и настройка приложения склада
+                  items:
+                    - name: Установка и подключение приложения склада
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Сканирование штрих-кодов с помощью камеры в приложении склада
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Настройка имен полей в приложении склада
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Настройка мобильных устройств для работы склада
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Обработка событий приложения склада
+                      href: warehousing/warehouse-app-events.md
+                    - name: Получение грузомест с помощью приложения склада
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Настройка пункта меню мобильного устройства для предоставления обзора строк комплектации
+                      href: warehousing/pick-line-overview.md
+                    - name: Создание пункта меню мобильного устройства для консолидации грузомест
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Настройка отображения более старых партий на складе на мобильном устройстве
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Комплектация самой старой партии на мобильном устройстве
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Структура руководства по процессу
+                      href: warehousing/process-guide-framework.md
+                    - name: Устранение неполадок при подключении приложения склада
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Обновление и миграция
                   items:
-                    - name: Обновление процессов управления складом Microsoft Dynamics AX 2012 до Finance and Operations
+                    - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Устранение неполадок обновления и миграция на расширенное управление складом
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Устранение неполадок при настройке склада
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Разработка модуля Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта
@@ -3529,395 +3001,9 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Расширение информационных объектов запасов в наличии
               href: inventory/extend-on-hand-entities.md
-        - name: Устранение неполадок
-          items:
-            - name: Управление затратами
-              items:
-                - name: Несоответствия отчета о распределении запасов по срокам
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Предупреждения и ошибки при изменении статуса периода ГК без закрытия запасов
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Функциональные разрывы между отчетами о стоимости запасов/устаревании и их версиями хранилищ
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: 'Конфликт обновления, когда методом оценки запасов является или стандартная себестоимость, или скользящее среднее'
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Отсутствуют параметры поля при копировании групп номенклатурных моделей в другое юридическое лицо
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Отчет "Косвенные затраты в процессе" включает удаленные производственные заказы
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: 'Начисление покупки, разнесенное с нулевой суммой для поступления продукта нулевой стоимости'
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Физически полученные заказы на покупку не отображаются в отчете о закрытии запасов
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: На вкладке "Активные цены" страницы "Цена номенклатуры" отсутствует дата начала
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Управление запасами
-              items:
-                - name: Не удается найти раскрывающиеся диалоговое окно "Рабочий процесс" для журналов запасов
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: 'Бизнес-правило журнала запасов никогда не завершается, в результате чего журнал не может быть обработан'
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: 'Журнал запасов заблокирован, а пакетное задание бизнес-правила не работает'
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Единица измерения и количество в единицах измерения неправильно работают в журнале запасов
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: 'Условия бизнес-правила журнала запасов применяются на уровне журнала, а не на уровне строки'
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Панель фильтра на странице списка запасов в наличии не работает должным образом
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Максимальное число десятичных знаков в единицах складского учета равно 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Несколько проводок по запасам для номеров партий без параметра "При физическом обновлении"
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Реверсирование приемки создает неожиданную открытую проводку
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: 'В отчете по листу подбора не отображаются новые примечания, прикрепленные к журналу'
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: Количество в запущенном карантинном заказе не обновляется при разделении заказа
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Поле "Дата последнего испытания" не обновляется при создании нескольких заказов для контроля качества
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: При разделении количества учета в двух единицах измерения используется минимальное количество вместо номинального количества
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Сводное планирование
-              items:
-                - name: Система не может найти спланированный заказ при работе с несколькими заказами
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: Развертывание спецификации по-разному работает для утвержденных и расчетных производственных заказов
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: Значение задержки не обновляется при перепланировании спланированного заказа
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Обновление спланированных заказов занимает много времени
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Спланированные заказы создаются для имеющихся в наличии запасов с производственными заказами
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Планирование производства не учитывает резервное время
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: 'Сводное планирование распределяет больше мощности, чем доступно'
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Не удалось найти достаточную мощность
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: При выполнении встроенного механизма сводного планирования появляется сообщение об ошибке
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Номенклатура не может иметь спецификацию или формулу
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Параметры для сводного плана не существуют
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: Спланированный производственный заказ необходимо запланировать до его утверждения
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Продукт заблокирован для проводок
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Выбранный номер формулы не утвержден для партионного заказа.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Код поставщика не авторизован для определенного продукта и даты
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Поставщик не указан при утверждении спланированных заказов
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Непосредственно полученные утвержденные заказы обрабатываются в workflow-процессе рассмотрения
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Невозможно отфильтровать номенклатуры сводного планирования по связанным значениям групп покрытия
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Сводное планирование создает спланированные заказы для фантомных продуктов
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: 'Спланированный заказ на покупку создается, если покупка существует в диапазоне отрицательных дней'
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: Невозможно обновить прогнозируемые затраты на единицу измерения при импорте записей прогноза спроса
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Невозможно удалить аналитику прогноза спроса на складе из строк прогноза
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: 'Вам будет предложено сохранить параметры покрытия номенклатуры даже в том случае, если изменения не были внесены'
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Закупки
-              items:
-                - name: Одно или несколько распределений по бухгалтерским счетам имеют излишнее или недостаточное распределение
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Действие заказа на покупку можно выполнить только для полностью распределенных номеров строк
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Невозможно изменить срок действия утвержденного поставщика
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Отмененные заказы на покупку отображаются в списке черновиков в рабочей области
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Невозможно разнести проводки на приостановленный счет ГК
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Отмена остатка поставки переводит заказ на покупку в подтвержденное состояние
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Невозможно консолидировать несколько поступлений продуктов в один заказ на покупку
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Скидка по оплате и налоговая группа по умолчанию не подставляются из счета в накладной
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Наименование поставки не синхронизируется после изменения адреса поставки для заказа на покупку
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Во время разноски накладной поставщика возникает исключение
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Импортированные заказы на покупку содержат неверные номера строк
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Максимальное ограничение договора на покупку не действует в отношении заявки на закупку
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: При подтверждении заказа на покупку происходит ошибка "Не задана ссылка на объект"
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Распределения по бухгалтерским счетам имеют излишнее или недостаточное распределение
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Невозможно добавить поле "Единица измерения цены" на страницу договора покупки
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Заказы на покупку не отражают языковые параметры юридического лица
-                  href: troubleshooting/procurement/po-language.md
-                - name: Чек по заказу на покупку включает не все сборы
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Цены за единицу в заказах на покупку не рассчитываются на основе преобразования единиц измерения
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Параметр "Выполнить разноску на счет накл. расходов в ГК" не включен
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Ошибка при повторной отправке заказа на покупку в бизнес-правило после изменения
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Проблемы при конвертации валюты в коммерческом соглашении
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Условия коммерческого соглашения не применяются к строкам импортированного заказа
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Торговые соглашения можно создавать из отклоненных запросов предложений
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Ретробонус поставщика не накапливается на основе накладных
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: Код ваучера поступления продукта используется даже без создания ваучера
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Невозможно выставить накладную по клиентскому заказу на продажу
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Невозможно добавить строку в заявку на покупку после запроса изменения
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Управление сведениями о продукте
-              items:
-                - name: Невозможно удалить выпущенный продукт
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: При расчете моделей конфигурации продукта неверно округляются целочисленные значения
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Текст номенклатуры перезаписывается при настройке продукта в строке заказа на продажу
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Невозможно применить шаблон для создания выпущенного продукта
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Невозможно импортировать номенклатуру с помощью объекта "Выпущенные продукты V2"
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: В заказах на покупку не отображается переведенный текст продукта
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Управление производством
-              items:
-                - name: Ошибка backflush-расчета себестоимости при склада
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Не удается завершить производственный заказ из-за ошибки значения consumptionCost в спецификации
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Невозможно вставить спецификацию и маршрут при создании нового производственного заказа
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: Ранее выполнявшиеся задания завершаются при создании отчета о частичном количестве по последнему заданию
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Невозможно полностью зарезервировать номенклатуру RM при запуске производственного заказа
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: Сбой при изменении приемки — отсутствующее количество
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Ошибка при выполнении разноски журнала "Приемка"
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Ошибка при изменении статуса производственного заказа с "Приемка" на "Окончание"
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Производственные заказы не отображаются на странице маркировки
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: После изменения имени работника в адресной книге имя ресурса не обновляется
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Ошибка общего количества товаров при попытке завершить производственный заказ
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Невозможно отследить серийные номера готовых товаров относительно потребленных товаров
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: 'Невозможно зарезервировать или освободить работу, так как в данный момент процессы используются'
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Параметры принципа очистки в строках спецификации не выполняются
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Номер партии очищается при выборе нового кода лота
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Последний выбор не учитывается при сбросе производственных заказов с помощью пакетного задания
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: 'Пользователи могут разукомплектовать строки материалов для продуктов, которые были приняты'
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Ошибка при выполнении разноски журнала "Приемка"
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Склад в журнале ведомостей комплектации не обновляется в строке спецификации
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Управление ретробонусами
-              items:
-                - name: Сбой накопления ретробонусов клиентов с помощью группы бонусов номенклатуры
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Продажи и маркетинг
-              items:
-                - name: 'Не удается выполнить задание очистки журнала обновлений продаж, или имеются проблемы с производительностью'
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Номенклатура набора не поддерживается во внутрихолдинговом процессе
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: 'Невозможно отменить внутрихолдинговый заказ на покупку, связанный с заказом на продажу'
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Невозможно удалить резервирования при отмене заказа
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: 'Если существуют два коммерческих соглашения с пересекающимися датами, всегда выбирается только одно из них'
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Невозможно изменить количество продажи для номенклатуры Услуги в строке предложения по продажам
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: При изменении местонахождения в заголовке заказа на продажу налоговая информация не обновляется
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Невозможно уменьшить количество при отмене заказа на продажу
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: 'Системные администраторы не могут очистить блокировки заказов, поскольку у них нет таких прав'
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Управление транспортировкой
-              items:
-                - name: Можно добавить только счет ГК в качестве кредитного счета в целях выверки
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Управление складом
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: При настройке подключения к приложению не найдена привязка доверия для пути сертификации
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: При обновлении и переходе на систему управления складом не найдена привязка доверия для пути сертификации
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Проблемы с обработкой после установки рабочей нагрузки склада единицы масштабирования
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Запрос автоматического резервирования номера партии появляется даже при наличии доступных запасов
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Невозможно разблокировать работу по комплектации из-за незаконченной работы по пополнению
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Невозможно отменить отборочную накладную после ее разноски из заказа на продажу
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: 'Не удается переместить грузоместо, если серийный номер имеет пустой выпуск и допускается пустой приход'
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: 'Не удается переместить запасы в местоположение, управляемое грузоместом'
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Не удается найти профиль кластера
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Невозможно обработать корректировку уведомления о поставке
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Ошибка подтверждения отгрузки после создания заказа на перемещение для серийной номенклатуры
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: 'При прямой поставке невозможно выполнить обработку для склада, на котором включена система управления складом'
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Типы запасов смешиваются при использовании профиля управления доком
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: При выборе нескольких SKU не вычисляются действия директивы нескольких местонахождений
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Работа комплектации не создается сразу при выпуске исходящей загрузки
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: При сканировании ИД грузоместа в мобильном приложении появляется ошибка "Недопустимое грузоместо"
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Не допускается указывать владельца запасов при обработке перемещений в приложении склада
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Система не может обновить количество запасов из-за недостаточности проводок
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Невозможно выбрать изменение статуса запасов в столбце "Тип работы"
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: При сканировании в мобильном приложении появляется ошибка "Недопустимое грузоместо" или "Ошибка местонахождения"
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Недопустимое количество по грузоместу при регистрации входящих заказов
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Ошибка спецификации грузоместа при подтверждении отгрузки по заказу на перемещение
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Одна из строк уже загружается
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: При обработке разных местонахождений возникает ошибка веса загрузки и обновление отменяется
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: 'Использование смешанных грузомест не работает для любого метода обработки, за исключением кредита'
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Для доступа к эмулятору приложения для мобильных устройств можно использовать только роль администратора
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Проблемы при переходе от базовых к расширенным складским процессам
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: 'Для кластера не хватает работы, если используется управляемый системой подбор кластеров'
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: Статус заказа остается частично выпущенным даже после выставления накладной по заказу на продажу
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Не удается использовать мобильное приложение Warehouse Management для частичной комплектации
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Включение изменения статуса запасов для работы с неполным объемом
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Печать уведомления о поставке или содержимого упаковки по складу или по месту
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: Недопустимое количество при комплектации работ с несколькими грузоместами в одном местонахождении
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Недопустимое количество при раздельной комплектации нескольких партий
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Невозможно выпустить частично отгруженную загрузку на склад
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Система не может выполнить резервирование, поскольку доступное в запасах количество равно 0,00'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Невозможно создать строку загрузки для заказа на возврат из-за недопустимых складских аналитик
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Невозможно выпустить заказ на продажу с исходящими складскими операциями
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: 'Отгрузка для загрузки подтверждена, но строки не разнесены'
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Шаблоны слоттинга не учитывают запасы в наличии для номенклатур выше партии
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Невозможно выпустить загрузку для частичного количества с иерархией резервирования выше партии
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Неподтвержденные заказы на покупку подтверждаются после обновления поступлений продуктов
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Невозможно отменить резервирование запасов по строке заказа на продажу
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: 'Невозможно подтвердить отгрузку, так как клиент заблокирован'
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: 'Невозможно подтвердить отгрузку, так как строки загрузки имеют нулевое количество'
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: 'Невозможно обновить строку загрузки, так как выпущенное количество будет отрицательным'
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Отмена поступлений продуктов не приводит изменению состояния проводок на "Зарегистрировано"
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Округление до десятичных знаков физически обновляемого количества неверно
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Физическое оставшееся количество в единице измерения должен быть отличен от нуля
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: Скомплектованное количество недостаточно для создания отборочной накладной
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: Количество превышает процент перепоставки во время создания отборочной накладной
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: 'Количество, которое вы пытаетесь обновить, превышает полученное или доставленное количество'
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: Количество превышает процент недопоставки во время создания отборочной накладной
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Ошибка возникает при выборе местонахождения при регистрации листа подбора
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: На упаковочной станции не отображаются примечания к продукту
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: 'Профиль местонахождения не допускает отрицательный запас, но отрицательное количество в наличии разрешено'
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Для нескольких заголовков работ в одном чеке печатается только одна этикетка
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Невозможно подтвердить отгрузку из-за проблемы с календарем
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Невозможно подтвердить отгрузку из-за незавершенной или пропущенной работы
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: 'Невозможно подтвердить отгрузку, так как номенклатуры не были скомплектованы'
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: 'Невозможно подтвердить отгрузку, так как имеется нулевое количество'
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: 'Невозможно подтвердить отгрузку, так как количество превышает процент перепоставки'
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: 'Невозможно подтвердить отгрузку, так как количество превышает процент недопоставки'
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Последняя закрытая строка работы должна быть размещением
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Поля веса в строках загрузки не соответствуют полям веса при загрузке
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Волна не подлежит очистке
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Вес должен быть положительным
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: 'Невозможно отменить работу, поскольку она заблокирована'
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Невозможно отменить работу из-за статуса
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Работа не заблокирована
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Работа остается заблокированной
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: 'Невозможно отменить работу, выполняемую пользователем'
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Разработка и администрирование приложений финансов и операций
+    - name: Разработка и администрирование приложений Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
-    - name: Dynamics 365 Human Resources
-      href: ../human-resources/index.md

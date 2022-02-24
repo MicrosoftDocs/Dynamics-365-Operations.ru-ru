@@ -1,28 +1,28 @@
 ---
 title: Обзор заказа на покупку
 description: В этой статье приводятся общие сведения о заказах на покупку и ссылки на дополнительные статьи, связанные с различными стадиями хода выполнения заказа на покупку.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "93083"
-- intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982312"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022239"
 ---
 # <a name="purchase-order-overview"></a>Обзор заказа на покупку
 
@@ -43,7 +43,7 @@ ms.locfileid: "7982312"
 -   [Создание заказов на покупку](purchase-order-creation.md)
 -   [Утверждение и подтверждение заказов на покупку](purchase-order-approval-confirmation.md)
 -   [Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
--   [Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Типы заказов на покупку
 Есть три типа заказов на покупку: При создании заказа на покупку необходимо указать тип. Можно настроить тип заказа по умолчанию для новых заказов на странице **Параметры модуля "Закупки и источники"**.
@@ -78,7 +78,8 @@ ms.locfileid: "7982312"
 -   **Подтверждено** — этот статус присваивается после подтверждения заказа. Обычно этот статус является последним статусом утверждения, который назначается заказу.
 
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+<a name="additional-resources"></a>Дополнительные ресурсы
+--------
 
 [Создание заказов на покупку](purchase-order-creation.md)
 
@@ -86,10 +87,7 @@ ms.locfileid: "7982312"
 
 [Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
 
-[Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

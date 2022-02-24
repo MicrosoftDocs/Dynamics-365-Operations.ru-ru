@@ -1,10 +1,12 @@
 ---
 title: Мобильная рабочая группа "Моя группа"
-description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал.
+description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Пользователь может также отсылать благодарности лицам в рамках цепочки их отчетности.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767120"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680978"
 ---
-# <a name="my-team-mobile-workspace"></a>Мобильная рабочая область «Моя группа»
+# <a name="my-team-mobile-workspace"></a>Мобильная рабочая группа "Моя группа"
 
 [!include [banner](../includes/banner.md)]
 
@@ -78,7 +80,7 @@ ms.locfileid: "6767120"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-[![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Просмотр участников группы с помощью мобильной рабочей области "Моя группа"
 1.  В мобильном приложении выберите рабочую область **Моя группа**. Отображается список участников группы. В списке также отображаются должность каждого участника группы и прямые подчиненные этого участника.
@@ -95,6 +97,3 @@ ms.locfileid: "6767120"
 1.  Выберите **Отправить благодарность**. 
 1. Введите текст благодарности, который необходимо отправить. 
 1. Выберите **Готово**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

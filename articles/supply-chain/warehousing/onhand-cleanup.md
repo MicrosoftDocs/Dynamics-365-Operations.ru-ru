@@ -2,9 +2,11 @@
 title: Задание очистки записей в наличии для управления складом
 description: В этом разделе описываются задания очистки записей в наличии, которые помогают повысить производительность системы, определяя и удаляя связанные, но ненужные записи.
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d839ed861a24f6ef7267c85e942c275586b4a8c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565104"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014491"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Задание очистки записей в наличии для управления складом
-
-[!include [banner](../includes/banner.md)]
 
 Количество запросов, используемых для расчета запасов в наличии, зависит от количества записей в задействованных таблицах. Одним из способов улучшения производительности является уменьшение количества записей, которые должна учитывать база данных.
 
@@ -62,6 +62,3 @@ ms.locfileid: "7565104"
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *максимальное время выполнения для задания очистки записей "в наличии" для управления складом*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

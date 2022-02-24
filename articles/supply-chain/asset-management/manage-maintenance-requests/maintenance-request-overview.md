@@ -1,29 +1,34 @@
 ---
 title: Запросы на обслуживание
 description: В этом разделе содержится обзор управления запросами на обслуживание в «Управлении активами»
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985261"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019637"
 ---
 # <a name="maintenance-requests"></a>Запросы на обслуживание
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 Запросы на обслуживание — это заметки или декларации, которые создаются для уведомления менеджера или планировщика о том, что активу может потребоваться обслуживание или ремонт, но без создания заказа на работу. Если содержимое запроса на обслуживание считается действительным, на основе запроса на обслуживание может быть создан заказ на работу.
 
@@ -39,7 +44,7 @@ ms.locfileid: "7985261"
 
 Для просмотра запросов на обслуживание выберите **Управление активами** \> **Общее** \> **Запросы на обслуживание** \> **Все запросы на обслуживание**, **Активные запросы на обслуживание**, или **Мои запросы на обслуживание функционального местоположения**. На каждой странице списка отображается часть информации, связанной с запросом на обслуживание.
 
-![Просмотр запросов на обслуживание.](media/01-manage-maintenance-requests.png)
+![Просмотр запросов на обслуживание](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Используйте страницу списка **Мои запросы на обслуживание функционального местоположения**, чтобы просмотреть список запросов на обслуживание, которые содержат либо функциональные местоположения, с которыми вы связаны как работник, либо активы, установленные в функциональных местоположениях, с которыми вы связаны как работник. (Для получения информации о том, как настроить функциональные местоположения для специалистов по обслуживанию, см. раздел [Специалисты и группы специалистов по обслуживанию](../setup-for-objects/workers-and-worker-groups.md).)
@@ -48,7 +53,7 @@ ms.locfileid: "7985261"
 
 Чтобы открыть представление сведений о записи, на странице списка **Все запросы на обслуживание** в представлении сетки выберите ссылку в столбце **Запрос на обслуживание**.
 
-![Просмотр сведений запроса на обслуживание.](media/02-manage-maintenance-requests.png)
+![Просмотр сведений запроса на обслуживание](media/02-manage-maintenance-requests.png)
 
 Кнопки на панели операций организованы на вкладках. В следующей таблице кратко описаны кнопки, связанные с «Управлением активами».
 
@@ -67,6 +72,3 @@ ms.locfileid: "7985261"
 | Отправить кредитный актив                  | Выберите кредитный актив, который должен быть временной заменой актива, выбранного в выбранном запросе на обслуживание. |
 | Возврат кредитного актива                | Регистрация кредитных активов как возвращенных. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

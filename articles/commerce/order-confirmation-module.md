@@ -2,30 +2,35 @@
 title: Модуль подтверждения заказа
 description: В этом разделе описываются модули подтверждения заказа, а также описывается, как использовать их в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733854"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4415401"
 ---
 # <a name="order-confirmation-module"></a>Модуль подтверждения заказа
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули подтверждения заказа, а также описывается, как использовать их в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 После размещения заказа можно использовать модуль подтверждения заказа для отображения подробных сведений подтверждения заказа. Здесь отображается код подтверждения заказа, контактная информация заказа и другие сведения о заказе, такие как купленные номенклатуры, вариантах самовывоза и методе отгрузки.
 
@@ -82,6 +87,3 @@ ms.locfileid: "6733854"
 [Модуль сведений о самовывозе](pickup-info-module.md)
 
 [Модуль подарочных сертификатов](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

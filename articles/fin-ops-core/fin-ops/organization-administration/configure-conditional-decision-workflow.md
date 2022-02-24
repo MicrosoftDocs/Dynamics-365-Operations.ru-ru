@@ -2,9 +2,11 @@
 title: Настройка условных решений в workflow-процессе
 description: Используйте следующую процедуру для настройки свойств условного решения.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070966"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798888"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Настройка условных решений в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Используйте следующую процедуру для настройки свойств условного решения.
 
@@ -53,6 +52,3 @@ ms.locfileid: "8070966"
     2. Выберите запись в области **Проверка условия** формы.
     3. Щелкните **Тест**. Система оценит запись и определит, соответствует ли она определенным вами условиям.
     4. Щелкните **OK** или **Отмена** для возврата к форме **Свойства**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

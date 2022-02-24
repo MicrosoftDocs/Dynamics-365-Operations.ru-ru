@@ -1,10 +1,12 @@
 ---
 title: Доступ к метаданным приложения с помощью конфигурации электронной отчетности
-description: В этой теме описывается, как пользователь службы Regulatory Configuration Service может создать новое сопоставление модели электронной отчетности с помощью метаданных.
+description: В этом разделе описывается, как пользователь службы Regulatory Configuration Service (RCS) может создать новое сопоставление модели электронной отчетности (ER) с помощью метаданных в Finance and Operations.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754350"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682173"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Доступ к метаданным приложения с помощью конфигурации электронной отчетности
 
@@ -123,6 +125,3 @@ ms.locfileid: "6754350"
 > [!NOTE]
 > Этот способ получения сведений о метаданных приложения является единственным доступным методом для локально развернутых приложений (то есть, когда используются локальные бизнес-данные (LBD) или локальная модель развертывания).
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

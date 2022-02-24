@@ -2,30 +2,36 @@
 title: Создание клиента по умолчанию
 description: В этом разделе описывается, как создать клиента по умолчанию для использования при создании канала в Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720967"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415152"
 ---
 # <a name="create-a-default-customer"></a>Создание клиента по умолчанию
+
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как создать клиента по умолчанию для использования при создании канала в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 При создании канала необходимо предоставить клиента по умолчанию. После создания группы клиентов и адресной книги клиентов можно легко создать клиента по умолчанию.
 
@@ -47,7 +53,7 @@ ms.locfileid: "6720967"
 
 На следующем рисунке показано несколько настроенных групп клиентов.
 
-![Группы клиентов.](media/customer-groups.png)
+![Группы клиентов](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Создание адресной книги клиентов
 
@@ -63,16 +69,16 @@ ms.locfileid: "6720967"
 
 На следующем рисунке показан пример адресной книги.
 
-![Адресная книга.](media/address-book.png)
+![Адресная книга](media/address-book.png)
 
-## <a name="create-a-default-customer&quot;></a>Создание клиента по умолчанию
+## <a name="create-a-default-customer"></a>Создание клиента по умолчанию
 
 Чтобы клиента по умолчанию, выполните следующие действия.
 
 1. В области переходов выберите **Модули \> Retail и Commerce \> Клиенты \> Все клиенты**.
 1. В области действий выберите **Создать**.
-1. В раскрывающемся списке **Тип** выберите &quot;Человек&quot;.
-1. В раскрывающемся списке **Счет клиента** выберите или введите номер счета (например, &quot;100001").
+1. В раскрывающемся списке **Тип** выберите "Человек".
+1. В раскрывающемся списке **Счет клиента** выберите или введите номер счета (например, "100001").
 1. В раскрывающемся списке **Имя** выберите или введите имя (например, "по умолчанию").
 1. В раскрывающемся списке **Отчество** выберите или введите имя (например, "розница").
 1. В раскрывающемся списке **Фамилия** выберите или введите имя (например, "клиент").
@@ -86,11 +92,11 @@ ms.locfileid: "6720967"
 
 На следующем рисунке показан пример создания клиента.
 
-![Создание клиента по умолчанию.](media/default-customer-creation.png)
+![Создание клиента по умолчанию](media/default-customer-creation.png)
 
 На следующем рисунке показана конфигурация клиента по умолчанию.
 
-![Пример конфигурации клиента.](media/default-customer-configuration1.png)
+![Пример конфигурации клиента](media/default-customer-configuration1.png)
 
 Большая часть значений по умолчанию на экране сведений клиента может остаться, но следует изменить два значения.
 
@@ -100,13 +106,10 @@ ms.locfileid: "6720967"
 
 На следующем рисунке показан пример конфигурации клиента.
 
-![Пример конфигурации клиента.](media/default-customer-configuration2.png)
+![Пример конфигурации клиента](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор каналов](channels-overview.md)
 
 [Необходимые условия для настройки каналов](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Отказ от персонализированных рекомендаций
 description: В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772945"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415210"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Отказ от персонализированных рекомендаций
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Во время создания учетной записи новые клиенты автоматически настраиваются для получения персонализированных рекомендаций. Однако предоставляет Dynamics 365 Commerce различные способы, позволяющие пользователям отказаться от получения этих рекомендаций и ограничить обработку личных данных. Прошедшие аутентификацию пользователи, которые отказываются от получения персонализированных рекомендаций, сразу перестанут видеть персонализированные списки. Кроме того, все личные данные, собранные для персонализации, будут удалены из персонализированных моделей рекомендаций.
 
@@ -44,11 +49,11 @@ ms.locfileid: "6772945"
 1. На домашней странице бэк-офиса найдите **всех клиентов**.
 1. Выполните поиск и выберите клиента, а затем выберите экспресс-вкладку **Розничная торговля**.
 
-    ![Экспресс-вкладка "Розничная торговля".](./media/Disablepersonalizationpart1.png)
+    ![Экспресс-вкладка "Розничная торговля"](./media/Disablepersonalizationpart1.png)
 
 1. В области **Безопасность** задайте для параметра **Отключить персонализацию** значение **Да**.
 
-    ![Параметры конфиденциальности.](./media/Disablepersonalizationpart2.png)
+    ![Параметры конфиденциальности](./media/Disablepersonalizationpart2.png)
 
 1. Выберите **Сохранить** и закройте страницу.
 
@@ -99,6 +104,3 @@ ms.locfileid: "6772945"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

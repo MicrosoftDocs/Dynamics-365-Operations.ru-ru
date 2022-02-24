@@ -1,10 +1,12 @@
 ---
 title: Подготовка метаданных приложения для использования в RCS
-description: В этой теме описывается, как создать новую конфигурацию отчетности, которая содержит метаданные приложения.
+description: Шаги в этом разделе описывают, как пользователь может создать новую конфигурацию электронной отчетности (ER), которая содержит метаданные приложения для разработки конфигураций сопоставления модели ER в службе Regulatory Configuration Service (RCS).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750582"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684099"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Подготовка метаданных приложения для использования в RCS
 [!include [banner](../../includes/banner.md)]
@@ -78,6 +80,3 @@ ms.locfileid: "6750582"
 3.    Щелкните **OK**. 
     
 Созданная конфигурация метаданных ER была сохранена в виде файла XML, который может быть импортирован в RCS и использоваться в качестве источника сведений о метаданных для бизнес-домена внешней торговли. На основе этих сведений можно указать сопоставление между метаданными приложения и моделью данных ER.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

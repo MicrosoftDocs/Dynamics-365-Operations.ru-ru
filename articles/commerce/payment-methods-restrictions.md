@@ -2,13 +2,16 @@
 title: Ограничение способов оплаты для возвратов без чека
 description: В этой теме описывается, как определенные типы платежа могут быть ограничены для возмещения, если возврат производится без чека.
 author: rapraj
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415231"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Ограничение способов оплаты для возвратов без чека
 
@@ -38,7 +41,7 @@ ms.locfileid: "6773846"
 3. Настройте способы оплаты для магазина. Свяжите способы оплаты с каждым магазином, а затем введите параметры для каждого способа оплаты, характерные для конкретного магазина.
 4. Настройте способы платежа картами для магазинов. Завершите настройку карты для любого карточного способа оплаты, используемого в магазине.
 
-![Настройка магазина.](media/NoReceiptReturns1.png "Настройка розничного магазина") 
+![Настройка магазина](media/NoReceiptReturns1.png "Настройка розничного магазина") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Ограничение способов оплаты для возвратов без чека
@@ -49,15 +52,12 @@ ms.locfileid: "6773846"
 
 Если для параметра **Ограничить возврат денежных средств без чека** установлено значение **Да**, выбранный способ платежа не будет разрешен для возврата денежных средств. 
 
-![Способ оплаты в магазине.](media/NoReceiptReturns3.png "Способ оплаты розничного магазина") 
+![Способ оплаты в магазине](media/NoReceiptReturns3.png "Способ оплаты розничного магазина") 
 
 > [!NOTE]
 > Когда кассир выбирает способ оплаты, который ограничен для возврата денежных средств без чека, отображается сообщение для проверки приемлемых методов оплаты.
 
-![Допустимые способы оплаты.](media/NoReceiptReturns4.png "Допустимые способы оплаты") 
+![Допустимые способы оплаты](media/NoReceiptReturns4.png "Допустимые способы оплаты") 
 
 Если в проводке имеется как возврат с чеком, так и возврат без чека, условия ограничения не накладываются, поскольку проводка будет workflow-процессом возврата с чеком. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

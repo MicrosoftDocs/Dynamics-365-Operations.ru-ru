@@ -2,9 +2,11 @@
 title: Курсовая разница
 description: В данном разделе содержится информация об учете банковской курсовой разницы для России.
 author: anasyash
+manager: kfend
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: ebe5302fc382df3a0268dc87d91ecf19c8ceddc5b30e754006778bedaa0b2de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a19f7645640c2809540846979d97f8646e24b92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723739"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962558"
 ---
 # <a name="exchange-adjustment"></a>Курсовая разница
 
@@ -72,6 +74,3 @@ ms.locfileid: "6723739"
 
 > [!NOTE]
 > Если столбец **Тип проводки книги учета** не отображается, щелкните правой кнопкой мыши в любом месте в строке сетки, отображающем имена столбцов, выберите **Добавить столбцы**, затем выберите **Тип проводки книги учета**, затем выберите **Вставить**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

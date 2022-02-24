@@ -1,32 +1,34 @@
 ---
 title: Ресурсы по глобализации
 description: В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о функциональности и предложениях, относящихся к конкретным странам и регионам.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747523"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685061"
 ---
 # <a name="globalization-resources"></a>Ресурсы по глобализации
 
 ## <a name="local-and-regional-deployments"></a>Локальные и региональные развертывания
 Если правительственные нормативные документы требуют, чтобы данные хранились или обслуживались не так, как в других странах или регионах, возможно, что при развертывании необходимо учитывать требования для конкретной страны или региона. Примите во внимание следующие ресурсы, которые могут иметь отношение к вам:
 
-[Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае](../deployment/china-local-deployment.md)
+[Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Локализация и нормативные компоненты
 
@@ -53,14 +55,15 @@ ms.locfileid: "6747523"
 
 #### <a name="regulatory-updates"></a>Нормативные обновления
 -   [Нормативные обновления](../../../finance/localizations/regulatory-updates.md)
+-   [Портал локализации](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (обновляется еженедельно)
 -   [Поиск проблем в Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (обновляется ежедневно)
 
-#### <a name="communication-and-alerts"></a>Сообщения и оповещения
+#### <a name="communication-and-alerts"></a>Сообщения и предупреждения
 -   [Отслеживание законов и информирование об их изменениях](regulatory-watch-communication.md)
 -   [Отправка оповещений о функциях, связанных с законодательством конкретных стран/регионов](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Планы выпусков Dynamics 365
-[Планы выпусков Dynamics 365](/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
+[Планы выпусков Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Что нового в приложениях Finance and Operations
 На [домашней странице "Что нового и что изменилось в Finance and Operations"](../../fin-ops/get-started/whats-new-changed.md) перечислены функции, включенные в конкретные выпуски приложений Finance and Operations.
@@ -130,6 +133,3 @@ ms.locfileid: "6747523"
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

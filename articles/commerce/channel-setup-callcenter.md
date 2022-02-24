@@ -2,24 +2,27 @@
 title: Настройка канала центра обработки вызовов
 description: В этом разделе описывается, как создать канал центра обработки вызовов в Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744542"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4415390"
 ---
 # <a name="set-up-a-call-center-channel"></a>Настройка канала центра обработки вызовов
 
@@ -54,11 +57,11 @@ ms.locfileid: "6744542"
 
 На следующем рисунке показано создание нового канала центра обработки вызовов.
 
-![Новый канал центра обработки вызовов.](media/channel-setup-callcenter-1.png)
+![Новый канал центра обработки вызовов](media/channel-setup-callcenter-1.png)
 
 На следующем рисунке показан пример канала центра обработки вызовов.
 
-![Пример канала центра обработки вызовов.](media/channel-setup-callcenter-2.png)
+![Пример канала центра обработки вызовов](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Дополнительная настройка канала
 
@@ -66,7 +69,7 @@ ms.locfileid: "6744542"
 
 На следующем рисунке показаны варианты настройки **Режимы поставки** и **Способы оплаты** на вкладке **Настройка**.
 
-![Дополнительные действия по настройке канала центра обработки вызовов.](media/channel-setup-callcenter-3.png)
+![Дополнительные действия по настройке канала центра обработки вызовов](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Настройка способов оплаты
 
@@ -81,7 +84,7 @@ ms.locfileid: "6744542"
 
 На следующем рисунке показан пример способы наличной оплаты.
 
-![Пример способов оплаты.](media/channel-setup-callcenter-payments.png)
+![Пример способов оплаты](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Настройка способов поставки
 
@@ -97,7 +100,7 @@ ms.locfileid: "6744542"
 
 На следующем рисунке показан пример режима поставки.
 
-![Настройка способов поставки.](media/channel-setup-retail-7.png)
+![Настройка способов поставки](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Настройка пользователей канала
 
@@ -133,6 +136,3 @@ ms.locfileid: "6744542"
 [Настройка оповещений о мошенничестве и работа с ними](set-up-fraud-alerts.md)
 
 [Настройка программ непрерывности для центров обработки вызовов](set-up-continuity-program.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

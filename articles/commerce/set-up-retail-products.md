@@ -2,13 +2,16 @@
 title: Настройка розничных продуктов
 description: В этой статье описывается, как настроить продукты в Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 14f18cb18a068983579d64fa37668be898fe0252fb0759603b7d0a14ec0e0181
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415315"
 ---
 # <a name="set-up-retail-products"></a>Настройка розничных продуктов
 
@@ -37,6 +40,3 @@ ms.locfileid: "6745266"
 4. **Добавьте продукты в ассортименты.** Ассортимент представляет набор продуктов, которые вы предлагаете в ваших каналах торговли. Можно определить один или несколько ассортиментов, каждый продукт может быть назначен одному или нескольким ассортиментам. Чтобы назначить продукты каналам, нужно назначить им ассортименты. При создании ассортимента продукты, которые еще не были предоставлены юридическим лицам, можно добавить в ассортимент. Однако чтобы продукты стали доступны для каналов, их нужно предоставить юридическим лицам.
 5. **Добавьте продукты к иерархиям навигации.** Прежде чем продукты можно будет просматривать по Интернету или в пункте продажи (POS), их необходимо классифицировать в навигационной иерархии Commerce.
 6. **Добавьте продукты в каталоги.** Хотя этот шаг необязателен для пункта продаж (POS), интернет-магазины требуют, чтобы продукты были включены по крайней мере в один каталог.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

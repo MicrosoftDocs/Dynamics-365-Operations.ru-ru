@@ -2,13 +2,16 @@
 title: Исходящая операция запасов в POS
 description: В этом разделе описываются возможности исходящие операции с запасами в POS-терминале.
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581146"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415124"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Исходящая операция запасов в POS
 
@@ -71,7 +74,7 @@ ms.locfileid: "7581146"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Необходимое условие: добавление исходящей операции в макет экрана POS
 
-Прежде чем организация сможет использовать функцию исходящей операции, она должна настроить операцию POS **Исходящая операция** в одном или нескольких [макетах экрана POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Перед развертыванием новой операции в производственной среде необходимо тщательно проверить ее и обучить пользователей, чтобы использовать ее.
+Прежде чем организация сможет использовать функцию исходящей операции, она должна настроить операцию POS **Исходящая операция** в одном или нескольких [макетах экрана POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Перед развертыванием новой операции в производственной среде необходимо тщательно проверить ее и обучить пользователей, чтобы использовать ее.
 
 ## <a name="overview"></a>Обзор
 
@@ -116,7 +119,7 @@ ms.locfileid: "7581146"
 
 ### <a name="over-delivery-shipping-validations"></a>Проверки отгрузки перепоставки
 
-Проверки выполняются в процессе выполнения для строк документа. Они включают проверки на перепоставку. Если пользователь пытается отправить больше запасов, чем было заказано в заказе на перемещение, но либо перепоставка не настроена, либо отправленное количество превышает допуск по перепоставке, настроенный для строки заказа на перемещение, пользователь получает сообщение об ошибке и не может отправить избыточное количество.
+Проверки выполняются в процессе получения для строк документа. Они включают проверки на перепоставку. Если пользователь пытается получить больше запасов, чем было заказано в заказе на покупку, но либо перепоставка не настроена, либо полученное количество превышает допуск по перепоставке, настроенный для строки заказа на покупку, пользователь получает сообщение об ошибке и не может получить избыточное количество.
 
 ### <a name="underdelivery-close-lines"></a>Строки закрытия недопоставки
 
@@ -190,6 +193,3 @@ ms.locfileid: "7581146"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Входящая операция с запасами в POS](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

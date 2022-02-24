@@ -2,9 +2,11 @@
 title: Взвешенное среднее по дате
 description: Взвешенное среднее по дате - это складская модель, основанная на принципе средневзвешенного значения, когда расход из запасов оценивается как среднее значение номенклатур, которые получены в запасы в каждый отдельный день в периоде закрытия запасов.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572033"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963746"
 ---
 # <a name="weighted-average-date"></a>Взвешенное среднее по дате
 
@@ -39,7 +41,7 @@ ms.locfileid: "7572033"
 
 Во время закрытия запасов расчет выполняется ежедневно в течение периода закрытия, как показано на следующем рисунке. 
 
-![Модель ежедневного расчета взвешенного среднего по дате.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Модель ежедневного расчета взвешенного среднего по дате](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Складские проводки выбытия запасов, такие как заказы на продажу, журналы запасов и производственные заказы осуществляются по оценочной себестоимости на дату разноски. Эта оценочная себестоимость также называется скользящей средней себестоимостью. На дату закрытия склада система анализирует складские проводки за предыдущие периоды, предыдущие дни и текущий день. Данный анализ служит для определения используемого принципа закрытия:
 
@@ -72,7 +74,7 @@ ms.locfileid: "7572033"
 -   2b. Финансовый расход запасов обновлен на количество равное 2 при затратах 10,00 долл. США на каждую единицу.
 -   3. Выполнено закрытие запасов с использованием метода прямого сопоставления для сопоставления финансового прихода запасов с финансовым расходом запасов.
 
-![Прямое сопоставление взвешенного среднего по дате без параметра "Включать физическую стоимость".](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Прямое сопоставление взвешенного среднего по дате без параметра "Включать физическую стоимость"](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ на рисунке:**
 
@@ -126,7 +128,7 @@ ms.locfileid: "7572033"
 
 На следующей иллюстрации показана эта серия проводок с результатами использования складской модели взвешенного среднего и принципа суммарного сопоставления, но без использования параметра **Включать физическую стоимость**. 
 
-![Суммарное сопоставление взвешенного среднего по дате без параметра "Включать физическую стоимость".](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Суммарное сопоставление взвешенного среднего по дате без параметра "Включать физическую стоимость"](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ на рисунке**
 
@@ -175,7 +177,7 @@ ms.locfileid: "7572033"
 
 Новое скользящее среднее значение себестоимости отражает среднее значение по проводкам, обновленным финансово и физически, равное 27,50 долларов США. Нижеследующая иллюстрация показывает эту серию проводок и влияние использования складской модели со средневзвешенной стоимостью по дате и маркировкой.
 
-![Взвешенное среднее по дате с маркировкой.](./media/weightedaveragedatewithmarking.gif) 
+![Взвешенное среднее по дате с маркировкой](./media/weightedaveragedatewithmarking.gif) 
 
 **Ключ на рисунке:**
 
@@ -193,6 +195,3 @@ ms.locfileid: "7572033"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

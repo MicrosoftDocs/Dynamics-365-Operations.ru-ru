@@ -1,32 +1,33 @@
 ---
 title: Удаление экземпляра
-description: В этом разделе содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/11/2021
+description: В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393505"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420277"
 ---
 # <a name="remove-an-instance"></a>Удаление экземпляра
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-В этой теме содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
+В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Удаление тестовой среды
 
@@ -41,7 +42,7 @@ ms.locfileid: "7393505"
 
 ## <a name="remove-a-production-environment"></a>Удаление производственной среды
 
-В этой теме предполагается, что вы приобрели Human Resources в соответствии с соглашением поставщика облачных решений (CSP) или архитектуры предприятия (EA). 
+В этой статье предполагается, что вы приобрели Human Resources в соответствии с соглашением поставщика облачных решений (CSP) или архитектуры предприятия (EA). 
 
 Так как в одна среда Human Resources содержится в одной среде Power Apps, существуют две возможности. Первый вариант включает в себя удаление всей среды Power Apps; второй вариант включает в себя удаление только Human Resources. Первый вариант предпочтителен, если среда Power Apps была создана специально в целях подготовки Human Resources, и вы только начали реализацию или не имеете никаких установленных интеграций. Второй вариант подходит при наличии установившейся среды Power Apps, заполненной богатыми данными, которое используются в Power Apps и Power Automate.
 
@@ -80,10 +81,7 @@ ms.locfileid: "7393505"
 
 1. Следуйте указаниям раздела [Восстановление среды Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Обратитесь в службу поддержки, чтобы восстановить среду Human Resources. Для получения дополнительных см. [Получение поддержки](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+2. Обратитесь в службу поддержки, чтобы восстановить среду Human Resources. Для получения дополнительных см. [Получение поддержки](hr-admin-troubleshooting-support.md).
 
 > [!Warning]
 > Среды Power Apps сохраняются только в течение семи дней после удаления. Среду следует восстанавливать в течение семи дней.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

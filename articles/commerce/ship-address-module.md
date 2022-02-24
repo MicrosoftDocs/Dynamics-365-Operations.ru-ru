@@ -2,30 +2,35 @@
 title: Модуль адреса доставки
 description: В этом разделе описываются модуль адреса доставки, а также описывается, как настраивать его в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765202"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4415399"
 ---
 # <a name="shipping-address-module"></a>Модуль адреса доставки
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модуль адреса доставки, а также описывается, как настраивать его в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модуль адреса доставки позволяет клиентам добавлять или выбирать адрес доставки для заказа во время потока оформления заказа. Если клиент вошел в систему, отображаются все адреса, ранее сохраненные для этого клиента, и клиент может выбрать один из этих адресов. Клиент также может добавить новый адрес. Модуль адреса доставки используется для всех номенклатур в заказе, для которых требуется доставка.
 
@@ -37,7 +42,7 @@ ms.locfileid: "6765202"
 
 На следующем рисунке показан пример нового модуля адреса доставки на странице оформления заказа.
 
-![Пример модуля адреса доставки на странице оформления заказа.](./media/ecommerce-shippingaddress.PNG)
+![Пример модуля адреса доставки на странице оформления заказа](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Свойства модуля
 
@@ -45,8 +50,6 @@ ms.locfileid: "6765202"
 |---------------|--------|-------------|
 | Заголовок | Текст заголовка и метка заголовка (**H1**, **H2**, **H3**, **H4**, **H5** или **H6**) | Необязательный заголовок для модуля адреса доставки. |
 | Показать тип адрес | **True** или **False** | Если для этого дополнительного свойства установлено значение **Истина**, будет показан тип адреса, например, **домашний** или **Рабочий**. Если тип адреса не указан, адрес будет автоматически сохранен как **Тип**=**другой**. |
-| Включить автоматическое предложение| **True** или **False** | Если для этого дополнительного свойства установлено значение **True**, будут предоставлены автоматические варианты адресов. Эти предложения основаны на Картах Bing. Сведения о том, как настроить интеграцию Карт Bing для вашего сайта, см. в разделе [модуль выбора магазина](store-selector.md). Эта функция доступна в Commerce версии 10.0.15.|
-|Параметры автоматического предложения| Номер| Если включены автоматические предложения адресов, можно указать дополнительные параметры, такие как максимальное число предлагаемых вариантов.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Добавление модуля адреса доставки на страницу оформления заказа и задание необходимых свойств
 
@@ -64,13 +67,8 @@ ms.locfileid: "6765202"
 
 [Модуль параметров доставки](delivery-options-module.md)
 
-[Информационный модуль отправки](pickup-info-module.md)
+[Модуль сведений о самовывозе](pickup-info-module.md)
 
 [Модуль сведений о заказе](order-confirmation-module.md)
 
 [Модуль подарочных сертификатов](add-giftcard.md)
-
-[Модуль выбора магазина](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

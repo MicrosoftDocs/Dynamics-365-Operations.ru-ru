@@ -2,30 +2,35 @@
 title: Настройка оценок и отзывов
 description: В этом разделе описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415140"
 ---
 # <a name="configure-ratings-and-reviews"></a>Настройка оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Оценки и обзоры на веб-сайтах электронной коммерции помогают пользователям изучить продукты перед принятием решения о покупке, показывая им, что другие клиенты думают об этих продуктах. Для веб-сайтов электронной коммерции оценки и обзоры также являются механизмом сбора отзывов клиентов о продуктах. 
 
@@ -44,7 +49,7 @@ ms.locfileid: "7968110"
 
 На следующем рисунке показано, как выглядит эта конфигурация в Dynamics 365 Commerce.
 
-![Настройка сайта для отображения оценок и отзывов.](media/rnr-eCommerce-site-appsettings.png)
+![Настройка сайта для отображения оценок и отзывов](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Связывание рейтинга продукта с разделом отзывов на странице PDP
 
@@ -58,7 +63,7 @@ ms.locfileid: "7968110"
 
 На следующем рисунке показано, как выглядит эта конфигурация в Dynamics 365 Commerce.
 
-![Связывание рейтинга продукта с разделом отзывов на странице PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Связывание рейтинга продукта с разделом отзывов на странице PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Настройка ссылки на страницу конфиденциальности и политики
 
@@ -73,7 +78,7 @@ ms.locfileid: "7968110"
 
 На следующем рисунке показано, как выглядит эта конфигурация в Dynamics 365 Commerce.
 
-![Настройка ссылки на страницу конфиденциальности и политики.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Настройка ссылки на страницу конфиденциальности и политики](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Настройка модулей оценок и отзывов на страницах сведений о продукте
 
@@ -87,17 +92,6 @@ ms.locfileid: "7968110"
 
 [Управление оценками и отзывами](manage-reviews.md)
 
+[Настройка модулей оценок и отзывов на страницах сведений о продукте](ratings-reviews-modules.md)
+
 [Синхронизация оценок продуктов в Dynamics 365 Retail](sync-product-ratings.md)
-
-[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
-
-[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
-
-[Настройка проверки подлинности между службами](service-to-service-auth.md)
-
-[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
-
-[Модули оценок и отзывов](ratings-reviews-modules.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

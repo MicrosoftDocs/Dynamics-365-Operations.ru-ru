@@ -2,26 +2,29 @@
 title: Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce
 description: В этой теме объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728299"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415133"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций среды оценки Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -133,17 +136,17 @@ ms.locfileid: "6728299"
 
 | Наименование маркера | Маркер |
 |-------------------|-------|
-| Порядковый номер      | %salesid% |
+| Номер приказа      | %salesid% |
 | Имя клиента   | %customername% |
-| Адрес доставки  | %deliveryaddress% |
+| Адрес поставки  | %deliveryaddress% |
 | Адрес выставления счета   | %customeraddress% |
-| Кассовый ордер за дату        | %shipdate% |
+| Дата заказа        | %shipdate% |
 | Способ поставки     | %modeofdelivery% |
 | Скидка          | %discount% |
 | Налог         | %tax% |
 | Итог по заказу       | %total% |
 
-#### <a name="sales-line"></a>Строка продаж
+#### <a name="sales-line"></a>Строка продажи
 
 Следующие маркеры заменяются значениями для каждого продукта в заказе.
 
@@ -157,7 +160,7 @@ ms.locfileid: "6728299"
 | Наименование продукта:           | %lineproductname% |
 | описание            | %lineproductdescription% |
 | Количество               | %linequantity% |
-| Цена за единицу в строке        | %lineprice% (проверить) |
+| Цена за единицу в строке        | %lineprice% (verify) |
 | Итого по номенклатуре строки        | %linenetamount% |
 | скидка по строке          | %linediscount% |
 | Дата отгрузки              | %lineshipdate% |
@@ -177,13 +180,10 @@ ms.locfileid: "6728299"
 
 [Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

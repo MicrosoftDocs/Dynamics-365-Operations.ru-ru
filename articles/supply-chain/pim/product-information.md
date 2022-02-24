@@ -2,31 +2,35 @@
 title: Обзор сведений о продуктах
 description: В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам.
 author: t-benebo
+manager: tfehr
 ms.date: 06/01/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063324"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527394"
 ---
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам. 
 
@@ -55,7 +59,7 @@ ms.locfileid: "8063324"
 
 Определение продукта можно создать в Supply Chain Management. Его также можно импортировать из систем управления жизненным циклом продуктов (PLM), управления данными о продуктах (PDM) или управления информацией о продуктах (PIM). При использовании нескольких экземпляров Supply Chain Management один из экземпляров обычно используется в качестве справочника данных по продуктам для всех остальных экземпляров. Такой подход обеспечивается большим набором информационных объектов, которые делают возможным экспорт и импорт данных определений продуктов из одного экземпляра в другой.
 
-Для поддержки распределения данных о продуктов по нескольким экземпляров Supply Chain Management позволяет использовать Microsoft Dataverse. Определения продуктов можно экспортировать из экземпляра Supply Chain Management в Microsoft Dataverse. Определения продуктов затем можно использовать для заполнения других бизнес-приложений, таких как Dynamics 365 Sales, данными о продуктах.
+Для поддержки распределения данных о продуктов по нескольким экземпляров Supply Chain Management позволяет использовать Common Data Service. Определения продуктов можно экспортировать из экземпляра Supply Chain Management в Common Data Service. Определения продуктов затем можно использовать для заполнения других бизнес-приложений, таких как Dynamics 365 Sales, данными о продуктах.
 
 Обратите внимание, что в динамических, гибких организациях информация о продуктах изменяется каждый день. Таким образом, ведение точных и актуальных данных о продуктах является важнейшим бизнес-процессом само по себе.
 
@@ -92,6 +96,3 @@ ms.locfileid: "8063324"
 ### <a name="manually-creating-a-new-released-product"></a>Создание нового выпущенного продукта вручную
 
 Вы можете вручную создать выпущенный продукт в рамках одной процедуры, в зависимости от бизнес-процессов организации и правил, определяющих, может ли использоваться эта функция. Эта функция позволяет создать новый продукт и автоматически выпустить его в текущее юридическое лицо. Чтобы создать новый продукт, щелкните **Выпущенные продукты** в рабочей области **Обслуживание выпущенного продукта** или на странице списка **Используемый продукт**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

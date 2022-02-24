@@ -2,9 +2,11 @@
 title: Определение расположений пользовательского хранилища для создаваемых документов
 description: В этом разделе объясняется, как расширить список местоположения хранения для документов, которые формируются форматами электронной отчетности (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594917"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680766"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Определение расположений пользовательского хранилища для создаваемых документов
 
@@ -27,7 +29,7 @@ ms.locfileid: "7594917"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Разверните топологию, которая поддерживает непрерывную сборку. Дополнительные сведения см. в разделе [Развертывание топологий, которые поддерживают непрерывное построение и автоматизацию тестирования](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Необходим доступ к этой топологии для одной из следующих ролей:
+Разверните топологию, которая поддерживает непрерывную сборку. Дополнительные сведения см. в разделе [Развертывание топологий, которые поддерживают непрерывное построение и автоматизацию тестирования](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Необходим доступ к этой топологии для одной из следующих ролей:
 
 - Разработчик электронной отчетности
 - Консультант по функциональным возможностям электронной отчетности
@@ -41,7 +43,7 @@ ms.locfileid: "7594917"
 
 Чтобы создать документы, для которых планируется добавить пользовательское место хранения, [импортируйте](er-download-configurations-global-repo.md) конфигурацию формата электронной отчетности **Движение основных средств** в текущую топологию.
 
-![Страница репозитория конфигурации.](./media/er-custom-storage-generated-files-import-format.png)
+![Страница репозитория конфигурации](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Выполнение отчета о движении основных средств
 
@@ -52,7 +54,7 @@ ms.locfileid: "7594917"
 5. В поле **Сопоставление формата** выберите **Движение основных средств**.
 6. Нажмите **ОК**.
 
-![Диалоговое окно времени выполнения для отчета о движении основных средств.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Диалоговое окно времени выполнения для отчета о движении основных средств](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 В Microsoft Excel просмотрите исходящий документ, который создан и доступен для загрузки. Такое поведение является [поведением по умолчанию](electronic-reporting-destinations.md#default-behavior) для формата электронной отчетности, для которого не настроены [места назначения](electronic-reporting-destinations.md), и который выполняется в интерактивном режиме.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Измените существующий класс `AssetRollForwardService` и напишите код для настройки пользовательской фабрики назначения для средства выполнения отчетов. Обратите внимание, что при создании пользовательской фабрики назначения параметр, управляемый приложением, который определяет целевую папку, передается. Таким образом, эта целевая папка используется для хранения созданных файлов.
 
     > [!NOTE] 
-    > Убедитесь, что указанная папка (**c:\\0** в данном примере) присутствует в локальной файловой системе сервера, на котором запущена служба AOS. В противном случае во время выполнения будет создано исключение [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception).
+    > Убедитесь, что указанная папка (**c:\\0** в данном примере) присутствует в локальной файловой системе сервера, на котором запущена служба AOS. В противном случае во время выполнения будет создано исключение [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1).
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 - [Домашняя страница расширяемости](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

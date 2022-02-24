@@ -1,24 +1,26 @@
 ---
 title: Отгрузка заказов как прямых поставок
 description: В этом разделе показано, как создать прямую поставку для заказа на продажу.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572449"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966113"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Отгрузка заказов как прямых поставок
 
@@ -79,6 +81,3 @@ ms.locfileid: "7572449"
     - Страница прямой поставки является по сути рабочим местом, где специалист по закупкам просматривает все строки заказа на продажу, которые должны быть поставлены напрямую, и где можно разрешить создание соответствующих заказов на покупку. Кроме того, они могут просмотреть открытые заказы прямой поставки и подтвержденные заказы на вкладках "Подтверждение" и "Поставка".  
     - После создания заказа с прямой поставкой он автоматически перемещается на вкладку "Подтверждение". Можно подтвердить заказ прямо на этой странице. Когда покупка подтверждена, она автоматически переместится на вкладку "Поставка", откуда можно зарегистрировать ее поступление.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

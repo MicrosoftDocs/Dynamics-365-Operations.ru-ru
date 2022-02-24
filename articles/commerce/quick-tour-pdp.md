@@ -2,38 +2,43 @@
 title: Обзор страниц сведений о продукте
 description: В этом разделе представлен обзор страниц сведений о продукте (PDP) в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 01/23/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986209"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415343"
 ---
-# <a name="product-details-pages-overview"></a>Обзор страниц сведений о продуктах
+# <a name="product-details-pages-overview"></a>Обзор страниц сведений о продукте
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе представлен обзор страниц сведений о продукте (PDP) в Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Обзор
+
 Страница PDP предоставляет подробные сведения о продукте, и клиенты могут выбирать параметры продукта, такие как размер, стиль и цвет. Страница PDP должна показать все сведения о продукте, необходимые клиенту для принятия решения о покупке.
 
 Следующая иллюстрация показывает пример страницы сведений о продукте.
 
-![Пример страницы сведений о продукте.](./media/pdp.PNG)
+![Пример страницы сведений о продукте](./media/pdp.PNG)
 
-## <a name="header-and-footer-modules"></a>Модули верхнего и нижнего колонтитулов
+## <a name="header-and-footer-modules"></a>Модули заголовка и нижнего колонтитула
 
 В верхней части страницы PDP имеется заголовок, отображающий все категории продуктов и другие страницы, которые предприятие розничной торговли хочет, чтобы они просматривались пользователями. В нижней части страницы находится нижний колонтитул, содержащий быстрые ссылки на различные разделы, которые могут интересовать клиентов.
 
@@ -83,6 +88,3 @@ ms.locfileid: "7986209"
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
 
 [Страница сведений о расширении возможностей страницы продукта](enrich-product-page.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

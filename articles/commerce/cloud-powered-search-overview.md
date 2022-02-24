@@ -2,29 +2,36 @@
 title: Обзор поиска на облачной платформе
 description: В этой теме содержится обзор поиска на облачной платформе в Microsoft Dynamics 365 Commerce.
 author: ashishmsft
+manager: annbe
 ms.date: 06/29/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983677"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415115"
 ---
 # <a name="cloud-powered-search-overview"></a>Обзор поиска на облачной платформе
+
 
 [!include [banner](includes/banner.md)]
 
 В этой теме содержится обзор поиска на облачной платформе в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Возможность обнаружения продукта позволяет пользователям быстро и легко находить продукты путем просмотра категорий, поиска и фильтрации. Предприятия розничной торговли считают обнаружение продукта основным средством для взаимодействия с клиентами по всем каналам.
 
@@ -40,7 +47,7 @@ ms.locfileid: "7983677"
 
 На следующем рисунке показан пример типичных функций просмотра и поиска.
 
-![Целевая страница поиска.](./media/SearchLanding.png)
+![Целевая страница поиска](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Сводка по аспектам навигации и выбора 
 
@@ -50,7 +57,7 @@ ms.locfileid: "7983677"
 
 На следующем рисунке показан пример использования аспектной навигации при поиске.
 
-![Сводка выбора.](./media/ChoiceSummary.png)
+![Сводка выбора](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Иммерсивное автозаполнение
 
@@ -60,7 +67,7 @@ Dynamics 365 Commerce также поддерживает функциональ
 
 На следующем рисунке показан пример использования иммерсивного автозаполнения.
 
-![иммерсивное автозаполнение.](./media/ImmersiveAutoSuggestUX.png)
+![иммерсивное автозаполнение](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Сорт
 
@@ -68,13 +75,10 @@ Dynamics 365 Commerce также поддерживает функциональ
 
 >[!NOTE]
 >Такие возможности поиска на основе облака доступны, начиная с версии 10.0.8. Убедитесь, что в пункте **Параметры Commerce > Параметры конфигурации** имеется запись "для ProductSearch.UseAzureSearch задано значение «true»". 
-![Параметры конфигурации для поиска на основе облака.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Параметры конфигурации для поиска на основе облака](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор целевой страницы категории и страницы результатов поиска по умолчанию](category-search-page-overview.md)
 
 [Управление метаданными SEO](manage-seo-metadata.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
