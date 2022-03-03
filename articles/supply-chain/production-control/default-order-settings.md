@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778115"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102772"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Параметры заказа по умолчанию для аналитик и вариантов продуктов
 
@@ -186,12 +186,9 @@ ms.locfileid: "7778115"
 
 Строгая проверка применяется к значениям **Стандартное количество заказа**, указанным на экспресс-вкладках **Заказ на покупку**, **Запасы** и **Заказ на продажу** на странице **Параметры заказа по умолчанию**. На каждой экспресс-вкладки есть параметр **Несколько**, который используется для подтверждения значения **Стандартное количество заказа**, указанного для этой экспресс-вкладки.
 
-### <a name="enable-the-strict-validation-option"></a>Включение параметра строгой проверки
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Включение или отключение параметра строгой проверки
 
-В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
-
-- **Модуль** - *Управление сведениями о продукте*
-- **Название функции** - *Строгая проверка количества по умолчанию*
+Для использования строгой проверки в системе должна быть включена функция *Строгая проверка количества в заказах по умолчанию*. В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, вы можете включать или выключать эту функцию, перейдя к пункту [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и выполнив поиск функции *Строгая проверка количества в заказах по умолчанию*.
 
 ### <a name="set-the-validation-option"></a>Настройка параметра проверки
 

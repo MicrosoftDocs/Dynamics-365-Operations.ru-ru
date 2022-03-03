@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5f9379877e77f2824cd2dec9a1e68390b4eee8ba502e4011f0a8838b1974e3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769956"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323801"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Разработка конфигураций электронной отчетности для подавления символов метки порядка байтов в созданных файлах
 
 [!include [banner](../includes/banner.md)]
 
-Можно разработать [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md) для создания исходящих документов. Для создания документов в виде текстовых файлов или XML-файлов решение должно содержать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент [формата](general-electronic-reporting.md#FormatComponentOutbound) электронной отчетности. Чтобы задать [кодировку символов](/windows/win32/intl/character-sets), представляющую набор символов в создаваемых файлах, формат электронной отчетности должен содержать элемент формата **Common\\File**. Чтобы настроить компонент формата электронной отчетности, откройте [черновую](general-electronic-reporting.md#component-versioning) версию конфигурации электронной отчетности в конструкторе форматов электронной отчетности и добавьте элемент **Common\\File**. В поле **Кодировка** укажите кодировку исходящих файлов, которая генерируется во время выполнения с помощью данного компонента.
+Можно разработать [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md) для создания исходящих документов. Для создания документов в виде текстовых файлов или XML-файлов решение должно содержать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент формата электронной отчетности. Чтобы задать [кодировку символов](/windows/win32/intl/character-sets), представляющую набор символов в создаваемых файлах, формат электронной отчетности должен содержать элемент формата **Common\\File**. Чтобы настроить компонент формата электронной отчетности, откройте [черновую](general-electronic-reporting.md#component-versioning) версию конфигурации электронной отчетности в конструкторе форматов электронной отчетности и добавьте элемент **Common\\File**. В поле **Кодировка** укажите кодировку исходящих файлов, которая генерируется во время выполнения с помощью данного компонента.
 
 > [!NOTE]
 > Если формат содержит недопустимое имя кодировки, при сохранении изменений в настройках формата создается ошибка.

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737983"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323933"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Подавлять элементы управления содержимым Word в сформированных отчетах
 
 [!include [banner](../includes/banner.md)]
 
-Чтобы создавать отчеты как документы Microsoft Word, необходимо разработать шаблон для отчетов в качестве документа Word. Этот шаблон должен содержать элементы управления содержимым Word в качестве заполнителей для данных, которые будут заполнены во время выполнения. Чтобы использовать документ Word, созданный в качестве шаблона для ваших отчетов, можно [настроить](er-design-configuration-word.md) новое [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md). Решение должно включать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент [формата](general-electronic-reporting.md#FormatComponentOutbound) электронной отчетности. Этот формат электронной отчетности должен быть настроен на использование шаблона, разработанного для создания отчетов.
+Чтобы создавать отчеты как документы Microsoft Word, необходимо разработать шаблон для отчетов в качестве документа Word. Этот шаблон должен содержать элементы управления содержимым Word в качестве заполнителей для данных, которые будут заполнены во время выполнения. Чтобы использовать документ Word, созданный в качестве шаблона для ваших отчетов, можно [настроить](er-design-configuration-word.md) новое [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md). Решение должно включать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент формата электронной отчетности. Этот формат электронной отчетности должен быть настроен на использование шаблона, разработанного для создания отчетов.
 
 В версии Dynamics 365 Finance 10.0.6 или более поздней можно настроить формулы в формате электронной отчетности, чтобы подавить некоторые элементы управления содержимым Word в создаваемых документах.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867314"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323883"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Разработка новых конфигураций электронной отчетности для создания отчетов в формате Word
 
@@ -28,7 +28,7 @@ ms.locfileid: "7867314"
 
 ![Образец шаблона для контрольного отчета в классическом приложении Word.](./media/er-design-configuration-word-image1.png)
 
-Чтобы использовать документ Word в качестве шаблона для отчетов в формате Word, можно настроить новое [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md). Это решение должно включать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент [формата](general-electronic-reporting.md#FormatComponentOutbound) электронной отчетности.
+Чтобы использовать документ Word в качестве шаблона для отчетов в формате Word, можно настроить новое [решение](er-quick-start1-new-solution.md) [электронной отчетности (ER)](general-electronic-reporting.md). Это решение должно включать [конфигурацию](general-electronic-reporting.md#Configuration) электронной отчетности, которая содержит компонент формата электронной отчетности.
 
 > [!NOTE]
 > При создании новой конфигурации формата электронной отчености для создания отчетов в формате Word необходимо либо выбрать **Word** в качестве типа формата в раскрывающемся диалоговом окне **Создать конфигурацию**, либо оставить поле **Тип формата** пустым.

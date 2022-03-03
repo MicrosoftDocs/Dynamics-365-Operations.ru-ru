@@ -2,11 +2,9 @@
 title: Задание очистки записей в наличии для управления складом
 description: В этом разделе описываются задания очистки записей в наличии, которые помогают повысить производительность системы, определяя и удаляя связанные, но ненужные записи.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014491"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103871"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Задание очистки записей в наличии для управления складом
+
+[!include [banner](../includes/banner.md)]
 
 Количество запросов, используемых для расчета запасов в наличии, зависит от количества записей в задействованных таблицах. Одним из способов улучшения производительности является уменьшение количества записей, которые должна учитывать база данных.
 
@@ -58,7 +58,7 @@ ms.locfileid: "5014491"
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Включение параметра максимального времени выполнения
 
-По умолчанию параметр **Максимальное время выполнения** недоступен. Если его необходимо использовать, в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) включите соответствующую функцию в своей системе. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+Параметр **Максимальное время выполнения** доступен только в том случае, если включена функция *Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом*. В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать или выключать эту функцию, выполняя поиск функции *Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Модуль:** *Управление складом*
-- **Имя функции:** *максимальное время выполнения для задания очистки записей "в наличии" для управления складом*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

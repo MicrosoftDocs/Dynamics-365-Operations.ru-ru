@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7978c7b326ef1b62f76711ac187c28539eb1f449
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798329"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103948"
 ---
 # <a name="inventory-value-reports"></a>Отчеты о стоимости запасов
 
@@ -53,12 +53,9 @@ ms.locfileid: "7798329"
 > [!NOTE]
 > Отчет **Сохраненный отчет о стоимости запасов** не включает промежуточные итоги, определенные в макете отчета. Он также не включает сальдо главной книги, даже если эти сальдо определены в макете отчета. Выверка в главную книгу должна выполняться с использованием пробных балансов. Однако стандартный отчет **Стоимость запасов** включает эти промежуточные суммы и сальдо.
 
-## <a name="turn-on-the-inventory-value-report-storage-feature"></a>Включение функции сохраненного отчета о стоимости запасов
+## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Включение или отключение функции сохраненного отчета о стоимости запасов
 
-Стандартный **Отчет о стоимости запасов** включается по умолчанию. Однако если вы хотите создать расширенный отчет **Сохранный отчет о стоимости запасов**, необходимо включить эту функцию в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
-
-- **Модуль:** *Управление затратами*
-- **Имя функции:** *Сохраненный отчет о стоимости запасов*
+В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Сохраненные отчеты о стоимости запасов* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Определение конфигураций отчета о стоимости запасов
 

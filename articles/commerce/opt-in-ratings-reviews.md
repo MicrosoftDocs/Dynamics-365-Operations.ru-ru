@@ -2,15 +2,12 @@
 title: Соглашение на использование оценок и отзывов
 description: В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415246"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311937"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Решение оценок и отзывов — это омниканальное решение, которое можно сделать доступным в Dynamics 365 Commerce с помощью Microsoft Dynamics Lifecycle Services (LCS). LCS — это портал администрирования, который используется в розничных магазинах для управления средами от подготовки до выведения из эксплуатации.
 
@@ -44,9 +39,9 @@ ms.locfileid: "4415246"
 1. Выполните шаги раздела [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md).
 1. Пока вы все еще находитесь в LCS, перейдите к пункту **Настройка развертывания Retail \> Другие параметры**.
 1. Установите для параметра **Включить службу оценок и отзывов** значение **Да**.
-1. В поле **Группа безопасности AAD для модератора оценок и отзывов (код объекта группы безопасности)** введите идентификатор группы безопасности Microsoft Azure Active Directory (Azure AD), включающий модераторов оценок и отзывов.
+1. В поле **Группа безопасности AAD для модератора оценок и отзывов** введите идентификатор группы безопасности Microsoft Azure Active Directory (Azure AD), включающий модераторов оценок и отзывов.
 
-    ![Соглашение на использование оценок и отзывов](media/LCS_RnR_Preference.png)
+    ![Соглашение на использование оценок и отзывов.](media/LCS_RnR_Preference_2.png)
 
 1. Завершите процесс инициализации электронной коммерции.
 
@@ -63,4 +58,13 @@ ms.locfileid: "4415246"
 
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
 
+[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
+
+[Настройка проверки подлинности между службами](service-to-service-auth.md)
+
+[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

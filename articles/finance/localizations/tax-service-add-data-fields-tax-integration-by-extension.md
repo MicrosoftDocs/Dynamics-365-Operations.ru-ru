@@ -2,7 +2,7 @@
 title: Добавление полей данных в налоговую интеграцию с помощью расширений
 description: В этой теме объясняется, как использовать расширения X++ для добавления полей данных в налоговую интеграцию.
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721666"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323526"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Добавление полей данных в налоговую интеграцию с помощью расширения
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-В этом коде `_destination` — это объект-оболочка, который используется для создания запроса POST, и `_source` является объектом `TaxIntegrationLineObject`. 
+В этом коде `_destination` — это объект-оболочка, который используется для создания запроса POST, и `_source` является объектом `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> * Определите ключ, который используется в форме запроса как `private const str`.
-> * Задайте поле в методе `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` с помощью метода `SetField`. Второй параметр должен иметь тип данных `string`. Если тип данных отличается от `string`, преобразуйте его в `string`.
+> Определите ключ, который используется в форме запроса как **private const str**. Эта строка должна точно совпадать с именем меры, добавленным в теме [Добавление полей данных в налоговые конфигурации](tax-service-add-data-fields-tax-configurations.md).
+> Задайте поле в методе **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** с помощью метода **SetField**. Второй параметр должен иметь тип данных **строка**. Если тип данных отличается от **строка**, преобразуйте его.
+> Если расширен **перечислимый тип** X++ , обратите внимание на различие между его значением, меткой и именем.
+> 
+>   - Значение перечисления является целым числом.
+>   - Метка перечисления может различаться в различных предпочитаемых языках. Не используйте **enum2Str**, чтобы преобразовать тип перечисления в строку.
+>   - Рекомендуется имя перечисления, так как оно является фиксированным. **enum2Symbol** может использоваться для преобразования перечисления в его имя. Значение перечисления, добавляемое в конфигурацию налога, должно точно совпадать с именем перечисления.
+
+## <a name="model-dependency"></a>Зависимость модели
+
+Для успешной сборки проекта добавьте следующие ссылочные модели в зависимости модели:
+
+- ApplicationPlatform
+- ApplicationSuite
+- Механизм начисления налогов
+- Аналитики, если используется финансовая аналитика
+- Другие необходимые модели, упоминаемые в коде
+
+## <a name="validation"></a>Проверка
+
+После выполнения предыдущих шагов можно выполнить проверку изменений.
+
+1. В модуле Finance перейдите в модуль **Расчеты с поставщиками** и добавьте **&debug=vs%2CconfirmExit&** в URL-адрес. Например, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Последней символ **&** важен.
+2. Откройте страницу **Заказ на покупку** и выберите **Создать**, чтобы создать заказ на покупку.
+3. Установите значение для настраиваемого поля, затем выберите **Налог**. Файл для устранения неполадок с префиксом **TaxServiceTroubleshootingLog** загружается автоматически. Этот файл содержит сведения о проводках, которые разносятся в службу расчета налогов. 
+4. Проверяет, есть ли добавленное настраиваемое поле в разделе **Входные данные JSON службы расчета налога**, и правильно ли его значение. Если это значение неверно, проверьте шаги данного документа.
+
+Пример файла:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Приложение
 
-В этом приложении представлен полный пример кода для интеграции финансовых аналитик (**Центр затрат** и **Проект**) на уровне строки.
+В этом приложении представлен полный пример кода для интеграции финансовых аналитик, **Центр затрат** и **Проект** на уровне строки.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

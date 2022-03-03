@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069387"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103421"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Установка и подключение мобильного приложения управления складом
 
@@ -39,12 +39,9 @@ ms.locfileid: "8069387"
 - Windows 10 (универсальная платформа Windows \[UWP\]), обновление за октябрь 2018 года 1809 (сборка 10.0.17763) или более поздней версии
 - Android 4.4 или более поздняя версия
 
-## <a name="turn-on-the-feature"></a>Включение функции
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Включение или отключение функций мобильного приложения Warehouse Management в Supply Chain Management
 
-Прежде чем использовать приложение, соответствующая функция должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
-
-- **Модуль:** *Управление складом*
-- **Название компонента:** *Параметры пользователя, значки и названия шагов для нового приложения склада*
+Чтобы использовать мобильное приложение Warehouse Management, в системе должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Получение мобильного приложения управления складом
 

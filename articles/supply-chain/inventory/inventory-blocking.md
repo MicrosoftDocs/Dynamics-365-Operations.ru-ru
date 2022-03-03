@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b6169362c9e8cb3a9ace2f300dd9d80aa9cd085
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568887"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103546"
 ---
 # <a name="inventory-blocking"></a>Блокировка запасов
 
@@ -96,13 +96,11 @@ ms.locfileid: "7568887"
 
 Обратите внимание на разницу между статусом проводки и аналитиками между двумя случаями. По этой причине рекомендуется включить параметр **Зарезервировать заказанную номенклатуру**.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Отключение ожидаемых приходов из заказов для контроля качества, образцы для которых берутся из функции заблокированных запасов
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Система предоставляет функцию, которая отключает ожидаемые приходы из таких заказов для контроля качества, что позволяет упростить складские проводки в случае, если заказы контроля качества с выборкой из запасов заблокированы в результате статуса запасов. Так как ожидаемый приход сразу блокируется блокировкой статуса запасов, это изменение не приводит к сокращению запасов в наличии.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+По умолчанию эта функция отключена. Администраторы могут включать или выключать, выполнив поиск функции *Отключить ожидаемые приходы из заказов контроля качества с выборкой из блокированных запасов* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

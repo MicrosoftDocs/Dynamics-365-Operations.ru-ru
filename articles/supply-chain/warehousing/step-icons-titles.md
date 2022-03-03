@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902200"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103321"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Назначение значков и названий шагов для мобильного приложения Warehouse Management
 
@@ -27,12 +27,9 @@ ms.locfileid: "7902200"
 
 ![Пример значка шага и названия шага в мобильном приложении Warehouse Management.](media/step-icon-example.png "Пример значка шага и названия шага в мобильном приложении Warehouse Management")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Включение этой функции в системе
+## <a name="turn-this-feature-on-or-off"></a>Включение или отключение этой функции
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [Управление компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
-
-- **Модуль:** *Управление складом*
-- **Название компонента:** *Параметры пользователя, значки и названия шагов для нового приложения склада*
+Чтобы использовать функциональность, описанную в этой теме, для системы должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Идентификаторы, классы и значки стандартных шагов
 

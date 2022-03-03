@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778481"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103923"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Подтвердить исходящие отгрузки из пакетных заданий
 
@@ -25,12 +25,9 @@ ms.locfileid: "7778481"
 
 В этом разделе описывается, как настроить пакетное задание, которое автоматически подтверждает исходящие отгрузки по заказу на перемещение для готовых нагрузок в отгрузку. Описываемое здесь пакетное задание применяется только к отгрузкам заказа на перемещение, а не к заказам на продажу.
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Включите функцию "Подтвердить исходящие отгрузки из пакетных заданий"
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Включение или отключение функции "Подтвердить исходящие отгрузки из пакетных заданий"
 
-В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
-
-- **Модуль** - *Управление складом*
-- **Название функции** - *Подтвердить исходящие отгрузки из пакетных заданий*
+Для использования описанных в этой теме функций в системе должна быть включена функция *Подтвердить исходящие отгрузки из пакетных заданий*. В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Подтвердить исходящие отгрузки из пакетных заданий* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="process-outbound-shipments"></a>Обработка исходящих отгрузок
 

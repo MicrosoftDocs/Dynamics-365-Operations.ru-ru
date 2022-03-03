@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730615"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323648"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Поддерживаемые примитивные типы данных для формул электронной отчетности
 
@@ -101,7 +101,7 @@ ms.locfileid: "6730615"
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Перечисление
 
-Примитивный тип данных *перечисление* представляет собой список литералов. Можно использовать перечисления, определенные в [исходном коде](../dev-ref/xpp-data-primitive.md#enum) приложения. Можно также представить собственные перечисления в [модели данных](general-electronic-reporting.md#data-model-and-model-mapping-components) электронной отчетности и компонентах [формата](general-electronic-reporting.md#FormatComponentOutbound) электронной отчетности.
+Примитивный тип данных *перечисление* представляет собой список литералов. Можно использовать перечисления, определенные в [исходном коде](../dev-ref/xpp-data-primitive.md#enum) приложения. Можно также представить собственные перечисления в модели данных электронной отчетности и компонентах формата электронной отчетности.
 
 *Перечисление* приложений может использоваться в выражениях с любым сопоставлением модели электронной отчетности и формата электронной отчетности.
 

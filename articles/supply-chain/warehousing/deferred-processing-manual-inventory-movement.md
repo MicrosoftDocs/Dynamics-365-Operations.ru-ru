@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777674"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102747"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Отложенная обработка перемещения запасов вручную
 
@@ -32,10 +32,10 @@ ms.locfileid: "7777674"
 
 Чтобы эти функции были доступны, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Необходимо включить их в следующем порядке:
 
-1. Блокировка работы для всей организации (В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
-1. Обработка событий приложения склада
-1. Отложенные операции складирования
-1. Отложенная обработка операции перемещения запасов вручную
+1. *Блокировка работы для всей организации*<br>(В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
+1. *Обработка событий приложения склада*<br>(В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию.)
+1. *Отложенные операции складирования*
+1. *Отложенная обработка операции перемещения запасов вручную*<br>(В Supply Chain Management версии 10.0.25 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
 
 ## <a name="configure-the-work-processing-policies"></a>Настройка политик обработки работ
 
