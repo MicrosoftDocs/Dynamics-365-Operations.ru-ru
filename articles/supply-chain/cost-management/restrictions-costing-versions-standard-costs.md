@@ -2,11 +2,9 @@
 title: Ограничения на версии учета затрат для стандартных затрат
 description: В этом разделе рассматриваются ограничения, которые применяются в отношении версии цены для стандартных затрат.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -18,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2028cdabde3d01de16050b38893ec9e42353ae542be7a0cd7362cf62e9315170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748795"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Ограничения на версии учета затрат для стандартных затрат
 
@@ -41,8 +39,7 @@ ms.locfileid: "4963796"
 
 Данные о затратах по номенклатуре для стандартных затрат можно скопировать в другую версию цены, которая содержит стандартные затраты или плановые затраты. Однако данные о затратах для плановых затрат невозможно скопировать в версию цены, содержащую стандартные затраты, поскольку ограничения, перечисленные раньше в этом разделе, не применяются по отношению к плановым затратам.
 
-<a name="related-topics"></a>Связанные разделы
---------
+## <a name="related-topics"></a>Связанные разделы
 
 [Обзор версий учета затрат](costing-versions.md)
 
@@ -50,3 +47,6 @@ ms.locfileid: "4963796"
 
 [Подготовка к поддержке стандартных затрат по произведенной номенклатуре](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

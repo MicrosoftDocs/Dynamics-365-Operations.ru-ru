@@ -2,36 +2,30 @@
 title: Работа с переопределением файлов CSS
 description: В этой теме описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415241"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799501"
 ---
 # <a name="work-with-css-override-files"></a>Работа с переопределением файлов CSS
-
 
 [!include [banner](includes/banner.md)]
 
 В этой теме описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Постоянные стили сайта, как правило, должны быть обработаны через тему сайта. Темы обеспечивают основы CSS и настройки стиля для модулей на любой странице вашего сайта. Темы создаются с помощью онлайн-пакета средств разработки Dynamics 365 Commerce (SDK), и они развернуты на ваших веб-сайтах через Lifecycle Services Microsoft Dynamics (LCS). Возможности отладки тем и конфигурации интерфейса модуля в SDK помогают разработчикам сайтов создавать настраиваемые и связанные пакеты дизайна сайта. Когда эти пакеты дизайна развертываются на сайте, авторы сайта могут сосредоточиться на создании, редактировании и публикации контента вместо разработки сайта.
 
@@ -114,3 +108,6 @@ ms.locfileid: "4415241"
 [Добавление языков на сайт](add-languages-to-site.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

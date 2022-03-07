@@ -2,34 +2,29 @@
 title: Управление задачами в POS
 description: В этом разделе описывается управление задачами в приложении POS Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772114"
 ---
 # <a name="task-management-in-pos"></a>Управление задачами в POS
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается управление задачами в приложении POS Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Приложение POS Dynamics 365 Commerce содержит функции управления задачами, которые позволяют руководителям и работникам магазинов управлять задачами и обновлять статус задач. Работники магазина могут получить доступ к задачам, выбирая плитку **задачи** на домашней странице POS или выбирая уведомления о задачах. По умолчанию работники магазина переносятся на вкладку **Мои задачи**, где они могут просматривать назначенные им задачи. Однако они могут легко переключаться на **просроченные задачи**, **Открытые задачи** и **Списки задач**.
 
@@ -49,11 +44,11 @@ ms.locfileid: "4415300"
 
 На следующем рисунке показана вкладка **мои задачи** в приложении Commerce POS.
 
-![Вкладка «мои задачи» в приложении Commerce POS](media/POS-task-management.png)
+![Вкладка «мои задачи» в приложении Commerce POS.](media/POS-task-management.png)
 
 На следующем рисунке показана вкладка **Списки задач**.
 
-![Вкладка «Списки задач» в приложении Commerce POS](media/POS-task-lists-management.png)
+![Вкладка «Списки задач» в приложении Commerce POS.](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -64,3 +59,6 @@ ms.locfileid: "4415300"
 [Создание списков задач и добавление задач](task-mgmt-create-lists.md)
 
 [Назначение списков задач магазинам или сотрудникам](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

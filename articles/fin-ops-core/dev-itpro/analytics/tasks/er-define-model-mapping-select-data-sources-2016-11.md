@@ -1,12 +1,10 @@
 ---
 title: Определение сопоставлений моделей электронной отчетности и выбор источников данных для них
-description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может выбрать источники данных для модели данных электронной отчетности.
+description: В этой теме описывается, как системный администратор или разработчик электронной отчетности может выбрать источники данных для модели данных электронной отчетности.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 69fb025b273aca6a0cf7733732f2849686eaa470ded6804a10b793cff9837562
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717553"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Определение сопоставлений моделей электронной отчетности и выбор источников данных для них
 
@@ -157,3 +155,6 @@ ms.locfileid: "4682125"
 71. Закройте страницу.
 72. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

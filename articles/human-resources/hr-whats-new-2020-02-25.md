@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (25 февраля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 25 февраля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5048c94543d0ee35bbc0f210a86a5d58ae901510
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526818"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463774"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (25 февраля 2020 г.)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -55,15 +57,15 @@ ms.locfileid: "4526818"
 
 Это изменение устраняет проблему, в которой в обзор производительности добавляются дополнительные участники утверждения.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Назначение должности сотрудника не создается в Common Data Service при выборе в диалоговом окне нового работника (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Назначение должности сотрудника не создается в Dataverse при выборе в диалоговом окне нового работника (413479)
 
-Это изменение исправляет проблему при найме нового сотрудника и назначении нового сотрудника на должность через диалоговое окно **Новый сотрудник**. Теперь назначение должности отражается в Common Data Service.
+Это изменение исправляет проблему при найме нового сотрудника и назначении нового сотрудника на должность через диалоговое окно **Новый сотрудник**. Теперь назначение должности отражается в Dataverse.
 
 ## <a name="coming-soon"></a>Скоро
 
-### <a name="updated-common-data-service-solution"></a>Обновленное решение Common Data Service
+### <a name="updated-dataverse-solution"></a>Обновленное решение Dataverse
 
-Новое решение Common Data Service будет доступно в ближайшее время со следующими изменениями:
+Новое решение Dataverse будет доступно в ближайшее время со следующими изменениями:
 
 | Описание | Изменение |
 | ----------------------------------------- | --- |
@@ -74,9 +76,9 @@ ms.locfileid: "4526818"
 | Новые объекты настройки переменной компенсации | **Тип плана переменной компенсации**</br>**План переменной компенсации**</br>**Положения о передаче прав на льготы**</br>**Уровень плана переменной компенсации** |
 | Новый объект **Занятость по календарю работников** | Добавлено **Объект рабочего календаря** |
 | Новый объект **Сведения о позиции зарплаты** | Добавлено **Сведения о позиции зарплаты** |
-| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Common Data Service. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
+| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Dataverse. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
 
-В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Common Data Service для модуля Human Resources:
+В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Dataverse для модуля Human Resources:
 
 1.  Перейдите к [Центру администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -106,3 +108,5 @@ ms.locfileid: "4526818"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,26 @@
 title: Обзор системы бизнес-правил
 description: В этой теме описывается система рабочих процессов.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5b9fbb47f2ba4601a275423db3c072d61d460ece3204e2f8ee995e1c2febe230
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797004"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715947"
 ---
 # <a name="workflow-system-overview"></a>Обзор системы бизнес-правил
 
@@ -41,7 +41,7 @@ ms.locfileid: "4797004"
 
 workflow-процесс представляет бизнес-процесс. Он определяет потоки, или перемещения, документа по системе, показывая, кто должен выполнить задачу, принять решение или утвердить документ. Например, на следующем рисунке показан workflow-процесс для отчетов о расходах.
 
-![Workflow-процесс с элементами, назначенными пользователям](./media/workflow_user.gif)
+![Workflow-процесс с элементами, назначенными пользователям.](./media/workflow_user.gif)
 
 Для прояснения этого workflow-процесса предположим, что Сэм подает отчет о расходах на сумму USD 7000. В этом случае Иван должен рассмотреть приходы, направленные ему Сэмом. Затем Фрэнк и Сью должны утвердить отчет о расходах. Теперь предположим, что Сэм подает отчет о расходах на сумму 11 000 USD. В этом случае Иван должен рассмотреть чеки, а Фрэнк, Сью и Анна должны утвердить отчет о расходах.
 
@@ -71,3 +71,6 @@ workflow-процесс представляет бизнес-процесс. О
 + [Настройка параллельных ветвей в workflow-процессе](configure-parallel-branch-workflow.md)
 + [Настройка бизнес-правил по строке](configure-line-item-workflow.md)
 + [Вопросы и ответы по рабочим процессам](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

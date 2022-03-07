@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712178"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018741"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Прекращение поддержки конфигураций в глобальном репозитории RCS
 
@@ -45,7 +45,7 @@ ms.locfileid: "6712178"
 2. Установите для параметра **Отменить** значение **Да**.
 3. Нажмите кнопку **ОК**, чтобы прекратить настройку. При сохранении изменений поле **Дата прекращения поддержки** будет заполнено.
 
-![Сведения о прекращении поддержки конфигурации.](media/Discontinue-details-2.png)
+![Сведения о прекращении поддержки конфигурации](media/Discontinue-details-2.png)
   
 В любое время можно вернуть конфигурацию к **Общий** или скорректировать сведения о прекращении поддержки. При совместном использовании конфигурации укажите дату **Поддерживается до** и все остальные сведения, связанные с прекращением поддержки, чтобы указать планы для будущей отмены поддержки.
 

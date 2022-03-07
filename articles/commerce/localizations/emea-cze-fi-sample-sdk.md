@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: adafde2123afdc793a6ef4edf8fa16b857c55bf8
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 18126f53dc314eca3e874e914346b860d7138109
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076944"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7945022"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Рекомендации по развертыванию для примера интеграции службы финансовой регистрации для Чешской Республики (устаревшая версия)
 
@@ -155,7 +155,7 @@ ms.locfileid: "8076944"
 
 ## <a name="design-of-extensions"></a>Разработка расширений
 
-Образец интеграции службы финансовой регистрации для Чешской Республики базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md). Дополнительные сведения о разработке решения финансовой интеграции см. в разделе [Обзор разработки примера финансовой интеграции](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Образец интеграции службы финансовой регистрации для Чешской Республики базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md). Дополнительные сведения о разработке решения финансовой интеграции см. в разделе [Обзор разработки примера финансовой интеграции](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 ### <a name="commerce-runtime-extension-design"></a>Разработка расширения Commerce Runtime
 

@@ -2,7 +2,7 @@
 title: Общедоступные интерфейсы API видимости запасов
 description: В этой теме описываются открытые API, предоставляемые видимостью запасов.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,18 +10,18 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062119"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474660"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 В этой теме описываются открытые API, предоставляемые видимостью запасов.
 
@@ -41,15 +41,13 @@ ms.locfileid: "8062119"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Должность | [Запрос с использованием метода POST](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand | Получить | [Запрос с использованием метода GET](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Получить | [Запрос с использованием метода POST](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Должность | [Запрос с использованием метода GET](#query-with-get-method) |
 
 Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
-> 
-> Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
@@ -83,8 +81,6 @@ ms.locfileid: "8062119"
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Аутентификация
 
 Маркер безопасности платформы используется для вызова открытых API видимости запасов. Таким образом, необходимо создать _Маркер Azure Active Directory (Azure AD)_ с помощью приложения Azure AD. Затем необходимо использовать маркер Azure AD, чтобы получить _маркер доступа_ из службы безопасности.
-
-Корпорация Майкрософт представила готовую коллекцию токенов получения *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
 Чтобы получить маркер службы безопасности, выполните следующие действия.
 
@@ -135,7 +131,7 @@ ms.locfileid: "8062119"
    - Значение `context` должно быть идентификатором среды LCS, в которой требуется развернуть надстройку.
    - Установите все остальные значения, как показано в примере.
 
-1. Получите токен доступа (`access_token`), отправив HTTP-запрос со следующими свойствами:
+1. Отправьте запрос HTTP со следующими свойствами:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Метод:** `POST`
@@ -152,8 +148,7 @@ ms.locfileid: "8062119"
    }
    ```
 
-> [!IMPORTANT]
-> При использовании коллекции запросов *Postman* для вызова общедоступных интерфейсов API видимости запасов необходимо добавить маркер носителя для каждого запроса. Чтобы найти маркер носителя, выберите вкладку **Авторизация** в URL-адресе запроса, выберите тип **Маркер носителя** и скопируйте токен доступа, который был извлечен на последнем шаге. В последующих разделах этой темы токен `$access_token` будет использоваться для представления токена, который был выбран на последнем шаге.
+В последующих разделах будет использоваться `$access_token` для представления маркера, который был выбран на последнем шаге.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Создание событий изменения в наличии
 
@@ -251,7 +246,7 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Создание нескольких событий изменения
 
-Этот API может создавать несколько записей одновременно. Единственным различием между этим API и [API одного события](#create-one-onhand-change-event) являются значения `Path` и `Body`. Для этого API `Body` предоставляет массив записей. Максимальное число записей — 512, что означает, что API-интерфейс массовой обработки изменений запасов в наличии может поддерживать до 512 событий изменения за раз.
+Этот API может создавать несколько записей одновременно. Единственным различием между этим API и [API одного события](#create-one-onhand-change-event) являются значения `Path` и `Body`. Для этого API `Body` предоставляет массив записей.
 
 ```txt
 Path:
@@ -377,6 +372,8 @@ Body:
 
 ## <a name="create-reservation-events"></a>Создание событий резервирования
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Для использования API *Резервирование* необходимо открыть функцию резервирование и выполнить настройку резервирования. Дополнительные сведения см. в [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Создание одного события резервирования
@@ -478,7 +475,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Запрос в наличии
 
-Используйте API _Запрос в наличии_ для получения текущих данных запасов в наличии для вашей продукции. В настоящее время API поддерживает запросы до 100 отдельных номенклатур по значению `ProductID`. В каждом запросе также может быть указано несколько значений `SiteID` и `LocationID`. Максимальное ограничение определяется как `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+API _Запрос в наличии_ используется для получения текущих данных запасов в наличии для вашей продукции.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Запрос с использованием метода POST
 
@@ -511,7 +508,7 @@ Body:
 
 - `organizationId` должно содержать только одно значение, но все еще является массивом.
 - `productId` может содержать одно или несколько значений. Если оно является пустым массивом, будут возвращаться все продукты.
-- `siteId` и `locationId` используются для секционирования в видимости запасов. Вы можете указать более одного значения `siteId` и `locationId` в запросе *Запрос в наличии*. В текущем выпуске необходимо указать оба значения `siteId` и `locationId`.
+- `siteId` и `locationId` используются в Видимости запасов для секционирования.
 
 Параметр `groupByValues` должен соответствовать вашей конфигурации для индексирования. Дополнительные сведения см. в [Конфигурация иерархии индекса продуктов](./inventory-visibility-configuration.md#index-configuration).
 
@@ -553,7 +550,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand
+    /api/environment/{environmentId}/onhand/indexquery
 Method:
     Get
 Headers:
@@ -570,7 +567,7 @@ Query(Url Parameters):
 Пример URL-адреса GET. Этот запрос GET в точности совпадает с приведенным ранее примером POST.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

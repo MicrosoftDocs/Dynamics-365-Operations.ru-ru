@@ -1,12 +1,10 @@
 ---
 title: Безопасность пользователя портала поставщика
 description: В этой статье описывается порядок настройки безопасности для внешних поставщиков, которые используют портал поставщиков. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c99107483bd5f6901cd87897151b107d2e1fe12f277032f379b739fa10ad84c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771379"
 ---
 # <a name="vendor-portal-user-security"></a>Безопасность пользователей портала поставщика
 
@@ -42,10 +40,12 @@ ms.locfileid: "5018198"
 
 Если одному и тому же человеку требуется доступ к порталу поставщика для нескольких учетных записей поставщиков (для разных юридических лиц, например), каждая из учетных записей пользователей этого человека должна быть связана с одним и тем же зарегистрированным контактным лицом. Роль **Поставщик (внешний)** включает все основные возможности, которые необходимы для использования функциональности, доступной на портале поставщика. Такая настройка позволяет гарантировать, что пользовательский интерфейс, который будет видеть внешний пользователь, будет ориентирован исключительно на предполагаемый сценарий его использования.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

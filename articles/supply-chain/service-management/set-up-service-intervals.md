@@ -1,10 +1,12 @@
 ---
-title: Настройка интервалов сервисного обслуживания
-description: В этом разделе описывается, как настроить интервалы сервисного обслуживания. Интервал обслуживания определяет частоту, с которой строки заказа на обслуживание создаются для строк соглашения на обслуживание при автоматическом создании заказов на обслуживание.
-author: kamaybac
+title: Настройка интервалов обслуживания
+description: Интервал обслуживания определяет частоту, с которой строки заказа на обслуживание создаются для строк соглашения на обслуживание при автоматическом создании заказов на обслуживание.
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 815da6b24de401ad11febb0b0564738ce6967a9c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567855"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991673"
 ---
 # <a name="set-up-service-intervals"></a>Настройка интервалов обслуживания  
 
@@ -51,6 +53,3 @@ ms.locfileid: "7567855"
 ## <a name="related-topics"></a>Связанные разделы
 
 [Интервалы обслуживания](service-intervals.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

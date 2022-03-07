@@ -1,31 +1,30 @@
 ---
 title: Создание календаря рабочего времени
 description: Определите календарь рабочего времени, праздники и отсутствие в Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/01/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09449b832c403b0f711c3827ad20fc5aa618fbc4
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420222"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731501"
 ---
 # <a name="create-a-working-time-calendar"></a>Создание календаря рабочего времени
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Календарь рабочего времени в Dynamics 365 Human Resources отображает дни и часы, которые сотрудники работают в вашей организации. Когда сотрудник отправит запрос об отсутствии, ему не придется беспокоиться о праздниках и нерабочих днях.
 
@@ -65,7 +64,7 @@ ms.locfileid: "4420222"
 
 Нерабочее время можно добавлять или изменять отдельно от календаря рабочего времени.
 
-1. На странице **Администрирование организации** щелкните **Нерабочее время**.
+1. На странице **Администрирование организации** выберите **НЕРАБОЧЕЕ ВРЕМЯ**.
 
 2. Выберите **Создать** и введите имя и диапазон времени для нерабочего времени.
 
@@ -75,3 +74,6 @@ ms.locfileid: "4420222"
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Настройка типов отпусков и отсутствий](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

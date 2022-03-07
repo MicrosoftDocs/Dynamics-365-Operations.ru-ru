@@ -2,28 +2,19 @@
 title: Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов
 description: В этой теме объясняется, как выполнить фильтрацию внутрихолдинговых заказов, чтобы не синхронизировались сущности заказов и строк заказов.
 author: negudava
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: negudava
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796614"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782561"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов
 
@@ -35,34 +26,37 @@ ms.locfileid: "4796614"
 
 1. Расширьте таблицу **Заголовки заказов на продажу CDS**, добавив ссылку на столбец **IntercompanyOrder**. Этот столбец заполняется только во внутрихолдинговых заказах. Столбец **IntercompanyOrder** доступен в таблице **SalesTable**.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовков заказов на продажу CDS":::
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовков заказов на продажу CDS.":::
 
 2. После развертывания пункта **Заголовки заказов на продажу CDS** столбец **IntercompanyOrder** доступен в сопоставлении. Примените фильтр, имеющий `INTERCOMPANYORDER == ""` в качестве строки запроса.
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Диалоговое окно изменения запроса для заголовков заказов на продажу CDS":::
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Диалоговое окно изменения запроса для заголовков заказов на продажу CDS.":::
 
 3. Расширьте таблицу **Строки заказов на продажу CDS**, добавив ссылку на столбец **IntercompanyInventTransId**. Этот столбец заполняется только во внутрихолдинговых заказах. Столбец **InterCompanyInventTransId** доступен в таблице **SalesLine**.
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для строк заказов на продажу CDS":::
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для строк заказов на продажу CDS.":::
 
 4. После развертывания пункта **Строки заказов на продажу CDS** столбец **IntercompanyInventTransId** доступен в сопоставлении. Примените фильтр, имеющий `INTERCOMPANYINVENTTRANSID == ""` в качестве строки запроса.
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Диалоговое окно изменения запроса для строк заказов на продажу CDS":::
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Диалоговое окно изменения запроса для строк заказов на продажу CDS.":::
 
 5. Повторите шаги 1 и 2, чтобы расширить таблицу **Заголовок счета на продажу V2** и добавить запрос фильтра. В этом случае используйте `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` в качестве строки запроса для фильтра.
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовка счета на продажу V2":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовка счета на продажу V2.":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Диалоговое окно изменения запроса для заголовка счета на продажу V2":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Диалоговое окно изменения запроса для заголовка счета на продажу V2.":::
 
 6. Повторите шаги 3 и 4, чтобы расширить таблицу **Строки счета на продажу V2** и добавить запрос фильтра. В этом случае используйте `INTERCOMPANYINVENTTRANSID == ""` в качестве строки запроса для фильтра.
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Диалоговое окно изменения запроса для строк счета на продажу V2":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Диалоговое окно изменения запроса для строк счета на продажу V2.":::
 
 7. Таблица **Предложения с расценками** не имеет внутрихолдинговой связи. Если кто-то создает предложение с расценками для одного из внутрихолдинговых клиентов, можно использовать столбец **CustGroup**, чтобы поместить всех этих клиентов в одну группу клиентов. Можно расширить заголовок и строки, добавив столбец **CustGroup**, а затем отфильтровать, чтобы группа не включалась.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовка предложения с расценками на продажу CDS":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="Страница сопоставления исходных данных с целевыми для заголовка предложения с расценками на продажу CDS.":::
 
 8. После того как сущность **Предложения с расценками** расширена, примените фильтр, имеющий `CUSTGROUP != "<company>"` в качестве строки запроса.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Диалоговое окно изменения запроса для заголовка предложения с расценками на продажу CDS":::
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Диалоговое окно изменения запроса для заголовка предложения с расценками на продажу CDS.":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

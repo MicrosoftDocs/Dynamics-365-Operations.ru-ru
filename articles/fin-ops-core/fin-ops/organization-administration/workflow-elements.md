@@ -2,11 +2,9 @@
 title: Элементы workflow-процесса
 description: В этом разделе описываются различные элементы, которые составляют workflow-процесс.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797584"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070458"
 ---
 # <a name="workflow-elements"></a>Элементы workflow-процесса
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этом разделе описываются различные элементы, которые составляют workflow-процесс.
 
@@ -62,7 +63,7 @@ ms.locfileid: "4797584"
 
 Workflow-процесс может быть создан для обработки или документов, или строковых элементов в документе. Например, вы создали workflow-процесс утверждения для табелей. (Мы будем называть данный workflow-процесс как *workflow-процесс документов*.) Можно добавить элемент *workflow-процесс по строке* к данному workflow-процессу документов. Когда выполняется элемент строкового элемента, каждый строковый элемент в документе отправляется для обработки. Можно указать, что все элементы строки должны обрабатываться одним workflow-процессом по строке, а также можно указать, что каждую элемент строки должны обрабатываться отдельным workflow-процессом по строке. Предположим, что сотрудник предоставил табель, похожий на следующий рисунок.
 
-![Workflow-процесс с номенклатурами строк](./media/workflow_lineitemworkflow.gif)
+![Workflow-процесс с номенклатурами строк.](./media/workflow_lineitemworkflow.gif)
 
 В этом сценарии имеет смысл создать следующие workflow-процессы по строке:
 
@@ -89,3 +90,6 @@ Workflow-процесс может быть создан для обработк
 ### <a name="subworkflow"></a>Вспомогательный workflow-процесс
 
 *Вспомогательный workflow-процесс* — это workflow-процесс, запускаемый в рамках другого workflow-процесса.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

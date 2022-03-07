@@ -1,7 +1,7 @@
 ---
 title: Основные понятия управления сборами
 description: В разделе описываются ключевые понятия модуля управления сборами.
-author: JodiChristiansen
+author: mikefalkner
 ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba64910498732855303e14d3884618597d21510d
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 7f23f3668bfc344b2964c1b0062a5ed1174df05c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753954"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835396"
 ---
 # <a name="collections-management-key-concepts"></a>Основные понятия управления сборами
 

@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfec44bc1c767dff1109c4ecd4e2862443fb1d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 611cc49d2373247da141d2fafc149d05f3bd13b0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006118"
 ---
 # <a name="configure-credit-card-processing"></a>Настройка обработки кредитных карт
 

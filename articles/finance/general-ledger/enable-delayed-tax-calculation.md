@@ -2,11 +2,9 @@
 title: Включение отсроченного расчета налога для журналов
 description: В этом разделе объясняется, как включить функцию Отсроченный расчет налога, чтобы повысить производительность расчетов налога, когда число строк журнала является огромным.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4ea79747e8e7c078baa6e270ecebf88c4832e079
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968812"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823724"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Включение отсроченного расчета налога для журналов
 [!include [banner](../includes/banner.md)]
@@ -64,3 +62,6 @@ ms.locfileid: "4968812"
 4. На вкладке **Настройка** установите для параметра **Отсроченный расчет налога** значение **Да**.
 
 ![Изображение страницы общего журнала](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

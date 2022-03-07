@@ -2,11 +2,9 @@
 title: Создание структур счетов
 description: В этом руководства рассказывается о создании структуры счета.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aece2b79633802d28ba3b4fd8b51788e26c17a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968598"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815172"
 ---
 # <a name="create-account-structures"></a>Создание структур счетов
 
@@ -60,3 +58,6 @@ ms.locfileid: "4968598"
 29. В области **Панель операций** щелкните **Активировать**.
 30. Нажмите кнопку **Активировать**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
 description: В этом разделе описан порядок загрузки конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679566"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605339"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описан порядок загрузки [конфигураций электронной отчетности (ER)](general-electronic-reporting.md#Configuration) из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+В этом разделе описан порядок загрузки [конфигураций электронной отчетности (ER)](general-electronic-reporting.md#Configuration) из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Откройте репозиторий конфигураций
 
@@ -42,7 +40,7 @@ ms.locfileid: "4679566"
 3. В разделе **Поставщики конфигурации** выберите плитку **Майкрософт**.
 3. На плитке **Майкрософт** выберите **Репозитории**.
 
-    ![Рабочая область электронной отчетности](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Рабочая область электронной отчетности.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. На странице **Репозиторий конфигураций** в сетке выберите существующий репозиторий типа **Глобальный**. Если этот репозиторий не отображается в сетке, выполните следующие действия.
 
@@ -54,7 +52,7 @@ ms.locfileid: "4679566"
 
 5. Выберите **Открыть** для просмотра списка конфигураций электронной отчетности для выбранного репозитория.
 
-    ![Страница репозиториев конфигураций](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Страница репозиториев конфигураций.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Импорт одной конфигурации
 
@@ -65,7 +63,7 @@ ms.locfileid: "4679566"
     > [!NOTE]
     > Кнопка **Импорт** недоступна для версий конфигурации электронной отчетности, которые уже установлены в текущем экземпляре Finance.
 
-    ![Страница репозитория конфигурации](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Страница репозитория конфигураций, экспресс-вкладка конфигураций.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Импорт отфильтрованных конфигураций
 
@@ -79,7 +77,7 @@ ms.locfileid: "4679566"
 4. На экспресс-вкладке **Конфигурации** выберите **Импорт**, чтобы загрузить отфильтрованные конфигурации из глобального репозитория в текущий экземпляр.
 5. На экспресс-вкладке **Конфигурации** выберите **Сброс фильтра** для очистки указанных условий выбора.
 
-    ![Страница репозитория конфигурации](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Страница репозитория конфигураций, экспресс-вкладка версий, кнопка импорта.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > В зависимости от параметров электронной отчетности конфигурации проверяются после импорта. Возможно, вы получите уведомление об обнаруженных проблемах несоответствия. Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации. Дополнительные сведения см. в списке связанных ресурсов для этой темы.
@@ -90,3 +88,6 @@ ms.locfileid: "4679566"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

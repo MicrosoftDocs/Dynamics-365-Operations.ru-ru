@@ -1,12 +1,10 @@
 ---
 title: Создание поставщиков конфигураций и пометка их как активных
-description: В этой теме поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать поставщика конфигурации для электронной отчетности.
+description: В этой теме поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать поставщика конфигурации.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9428ff1f53928f104df4736911ce34756128da44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682005"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359443"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Создание поставщиков конфигураций и пометка их как активных
 
@@ -43,4 +41,7 @@ ms.locfileid: "4682005"
 1. Выберите поставщика Litware, Inc.
 2. Выберите **Установить активные**.
 
-![Страница рабочей области электронной отчетности](../media/GER-Task-ActiveProvider-1.png)
+![Страница рабочей области электронной отчетности.](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

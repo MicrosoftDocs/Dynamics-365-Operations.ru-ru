@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15680deb0eab763ba68f2897139c915d1f8a6a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 143c1ab33547119ceab0a4fba165669bc8b22bf4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207587"
 ---
 # <a name="add-a-logo"></a>Добавление логотипа
 
@@ -74,3 +73,6 @@ ms.locfileid: "4415186"
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

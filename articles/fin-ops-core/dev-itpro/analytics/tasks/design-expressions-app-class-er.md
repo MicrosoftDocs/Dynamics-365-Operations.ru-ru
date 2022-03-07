@@ -1,12 +1,11 @@
 ---
 title: Разработка выражений электронной отчетности для вызова методов классов приложений
-description: В этом руководстве описывается повторное использование существующей логики в конфигурациях электронной отчетности (ER) путем вызова требуемых методов классов приложения в выражениях ER.
+description: В этой теме описывается повторное использование существующей логики в конфигурациях электронной отчетности путем вызова требуемых методов классов приложения.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 11b4d185703731d8491ad10bdeedea40ce811f5d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682029"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564102"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Разработка выражений электронной отчетности для вызова методов классов приложений
 
@@ -157,3 +156,6 @@ ms.locfileid: "4682029"
 2. Нажмите кнопку "OК".
     * Просмотрите выходные данные в формате XML, представляющем данные, которые были импортированы из выбранного файла, а затем перенесены в модель данных. Обратите внимание, что были обработаны только 3 строки импортированного TXT-файла. Недопустимый код IBAN в строке 4 был пропущен, и отобразилось сообщение об ошибке в журнале Infolog.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

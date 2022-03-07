@@ -1,7 +1,7 @@
 ---
 title: Workflow-процесс поставщика
 description: Изменение информации о поставщике и использование workflow-процесса для ее утверждения.
-author: sunfzam
+author: mikefalkner
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 48d81c727de29a285e5e33672e8f6d2eccef6249
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: e5aef18a7f541c6a0d4abf9d4461d1dd9cd27880
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753930"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810278"
 ---
 # <a name="vendor-workflow"></a>Workflow-процесс поставщика
 

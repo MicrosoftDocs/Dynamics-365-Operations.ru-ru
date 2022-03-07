@@ -2,24 +2,25 @@
 title: Обзор расчета налогов
 description: В этом разделе объясняется общий объем и функции Расчета налогов.
 author: wangchen
-ms.date: 11/17/2021
-ms.topic: overview
+ms.date: 10/15/2021
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105445"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647065"
 ---
 # <a name="tax-calculation-overview"></a>Обзор расчета налогов
 
@@ -63,21 +64,6 @@ ms.locfileid: "8105445"
 
 > [!NOTE]
 > Расчет налога не поддерживает более раннюю версию Dynamics 365, например, Dynamics AX 2012 или локальное развертывание Dynamics 365.
-
-## <a name="versions"></a>Версии
-Рекомендуется импортировать и настроить конфигурацию расчета налогов, используя версию, соответствующую вашей версии Finance или Supply Chain Management.
-
-| Версия Finance или Supply Chain Management | Версия конфигурации налогов               |
-| --------------- | --------------------------------------- |
-| 10.0.18         | Конфигурация налога — Европа 30.12.82     |
-| 10.0.19         | Конфигурации расчета налогов 36.38.193 |
-| 10.0.20         | Конфигурации расчета налогов 40.43.208 |
-| 10.0.21         | Конфигурации расчета налогов 40.48.215 |
-| 10.0.22         | Конфигурации расчета налогов 40.48.215 |
-| 10.0.23         | Конфигурации расчета налогов 40.50.221 |
-| 10.0.24         | Конфигурации расчета налогов 40.50.225 |
-| 10.0.25         | Конфигурации расчета налогов 40.50.225 |
-
 
 ## <a name="data-flow"></a>Поток данных
 
@@ -183,10 +169,6 @@ ms.locfileid: "8105445"
 - Япония
 - Малайзия
 - Сингапур
-
-Следующие страны/регионы для основного адреса юридического лица поддерживаются в версии 10.0.24:
-
-- Мексика
 
 ## <a name="related-resources"></a>Связанные ресурсы
 

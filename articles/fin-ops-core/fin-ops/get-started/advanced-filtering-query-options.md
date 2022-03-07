@@ -1,12 +1,10 @@
 ---
 title: Расширенный синтаксис фильтрации и запросов
-description: В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
+description: В этой теме описываются параметры фильтрации и запросов для диалога "Расширенный фильтр/сортировка" и оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798679"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744107"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенный синтаксис фильтрации и запросов
 
@@ -242,3 +240,6 @@ ms.locfileid: "4798679"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

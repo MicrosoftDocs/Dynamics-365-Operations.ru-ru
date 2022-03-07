@@ -2,11 +2,9 @@
 title: Разрешение пользователям получать сообщения электронной почты, связанные с workflow-процессом
 description: Систему можно настроить для отправки сообщений электронной почты пользователям при возникновении событий, связанных с workflow-процессами.
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2c6fe79fe3daca0cf9f6651a6b59c85be80c2f12021b9b7078fd23bf53571a34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799012"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749468"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Разрешение пользователям получать сообщения электронной почты, связанные с workflow-процессом
 
@@ -41,3 +39,6 @@ ms.locfileid: "4799012"
 
 > [!NOTE]
 > Шаблоны электронной почты бизнес-правил будут поступать из шаблонов электронной почты системы или шаблонов электронной почты организации в зависимости от того, является ли бизнес-правило системным (не зависящим от компании) или организационным (заданным компанией).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Разбиение созданных файлов XML по их размеру и количеству содержимого
 description: В этой теме представлена информация о разбиении созданных файлов на основе размера файла и количества этого товара.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9b0c8d215d1932a4c897488cb9c6ed7fa2127d82
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682879"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944349"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Разбиение созданных файлов XML по их размеру и количеству содержимого
 
@@ -40,10 +38,13 @@ ms.locfileid: "4682879"
 
 Для получения дополнительных сведений об этой функции воспроизведите проводник по задаче **файлы ER Split XML на основе размера файла или количества элементов содержания**, который является частью бизнес-процесса **7.5.4.3 компонентов ИТ-службы/решения приобретения/разработки (10677)** и может быть загружено из [Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=874684). Этот проводник по задаче описывает процесс настройки формата ER для разбиения созданных файлов в зависимости от ограничений на размер файла и количество элемент содержимого. Загрузите следующие файлы для завершения проводника по задаче:
 
-- [Конфигурация модели ER — XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Конфигурация формата ER — XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Конфигурация модели ER — XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
+- [Конфигурация формата ER — XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
 
 [Конструктор формул в электронной отчетности (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

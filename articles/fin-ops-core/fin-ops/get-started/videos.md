@@ -2,11 +2,9 @@
 title: Видео
 description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями Finance and Operations, которые доступны на YouTube и других сайтах.
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797883"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881744"
 ---
 # <a name="videos"></a>Видео 
 
@@ -86,12 +84,12 @@ ms.locfileid: "4797883"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Видео для Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Управление бизнес-документами
+- [Создание нового бизнес-документа с помощью Управления бизнес-документами](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Настройка приложения
 - [Добавить настраиваемые поля](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Внедрение Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>Расходы
-- [Опыт работы с расходами](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Финансовая отчетность
 - [Поиск версии конструктора отчетов](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -111,12 +109,15 @@ ms.locfileid: "4797883"
 ### <a name="revenue-recognition"></a>Признание выручки
 - [Как использовать признание выручки](https://youtu.be/v3amIsiqvoo)
 
-### <a name="tax-engine"></a>Механизм начисления налога
+### <a name="tax-engine"></a>Механизм начисления налогов
 
-- [Обзор механизма начисления налога](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [Обзор механизма начисления налогов](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Видео для Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Управление бизнес-документами
+- [Создание нового бизнес-документа с помощью Управления бизнес-документами](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Затраты
 - [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +168,6 @@ ms.locfileid: "4797883"
 [Технические вопросы по FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) — технические сведения и рекомендации, которые помогают клиентам и партнерам получить подробную информацию в конкретной области.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Настройка штрих-кодов
 description: В этой статье описывается, как использовать штрих-коды в Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 86a29935974fbe30947c089d161f024428230b51
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1c395caedfce7efa0a087ff6944052958c72327e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969784"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804193"
 ---
 # <a name="set-up-bar-codes"></a>Настройка штрих-кодов
 
@@ -46,3 +44,6 @@ ms.locfileid: "4969784"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка масок штрихкодов](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Шаблоны загрузок
 description: В этом разделе описывается, как настроить шаблоны загрузки, и как связать шаблон загрузки с новой загрузкой.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 175c8017b14cc298cdaa00031f8450015a747786
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646428"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831514"
 ---
 # <a name="load-templates"></a>Шаблоны загрузок
 
@@ -54,3 +51,6 @@ ms.locfileid: "4646428"
 1. В области действий на вкладке **Поставки и спрос** в группе **Добавить** выберите **В новую загрузку**.
 1. В диалоговом окне **Шаблон загрузки** в поле **Код шаблона загрузки** выберите шаблон для применения.
 1. Выберите **ОК**, чтобы применить шаблон.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

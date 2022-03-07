@@ -1,12 +1,10 @@
 ---
 title: Ключевые показатели эффективности актива
 description: В этом разделе описываются ключевые показатели эффективности активов в "Управлении активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778756"
 ---
 # <a name="asset-kpis"></a>Ключевые показатели эффективности актива
 
@@ -84,8 +82,11 @@ ms.locfileid: "5021788"
 
 На рисунке, приведенном ниже, показан снимок экрана для расчета ключевых показателей эффективности по четырем активам.
 
-![Снимок периода расчета КПЭ для четырех активов](media/11-controlling-and-reporting.png)
+![Снимок периода расчета КПЭ для четырех активов.](media/11-controlling-and-reporting.png)
 
 - Имеется возможность выбирать несколько активов в разделе **Все активы** и нажать кнопку **КПЭ активов** на вкладке **Общее**. Затем нажмите кнопку **ОК** в диалоговом окне **Расчет ключевых показателей эффективности активов**, чтобы рассчитать ключевые показатели эффективности для выбранных активов.  
 - Результаты вычисления ключевых показателей эффективности могут включать или не включать [регистрации простоя из-за обслуживания](../work-orders/maintenance-downtime.md), в зависимости от настройки и использования кодов причин простоя из-за обслуживания. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

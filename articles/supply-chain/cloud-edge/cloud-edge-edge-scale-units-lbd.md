@@ -1,38 +1,34 @@
 ---
-title: Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD
+title: Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD (предварительная версия)
 description: В этой теме объясняется, как подготавливать локальные пограничные единицы масштабирования с помощью пользовательского оборудования и развертывания на основе локальных бизнес-данных (LBD).
 author: cabeln
-ms.date: 01/24/2022
+ms.date: 04/22/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024550"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678989"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>Развертывание пограничных единиц масштабирования на пользовательском оборудовании с помощью LBD (предварительная версия)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 Пограничные единицы масштабирования играют важную роль в распределенной гибридной топологии для управления цепочкой поставок. В гибридной топологии можно распределить рабочие нагрузки между облачным центром Supply Chain Management и дополнительными единицами масштабирования в облаке или на пограничном уровне.
 
 Пограничные единицы масштабирования могут быть развернуты путем создания локальных бизнес-данных (LBD) [в локальной среде](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md), а затем настроены для функционирования в качестве единицы масштабирования в распределенной гибридной топологии для управления цепочкой поставок. Это достигается путем связывания локальной среды LBD со средой Supply Chain Management в облаке, которая была настроена для работы в качестве концентратора.  
 
+В настоящее время пограничные единицы масштабирования — используются как предварительная версия. Таким образом, среду этого типа можно использовать только в соответствии с [условиями предварительной версии](https://aka.ms/scmcnepreviewterms).
+
 В этой теме описывается, как настроить локальную среду LBD в качестве пограничной единицы масштабирования и затем связать ее с концентратором.
-
-## <a name="infrastructure-considerations"></a>Особенности инфраструктуры
-
-Пограничные единицы масштабирования выполняются в локальных средах, поэтому требования инфраструктуры очень похожи. Однако имеются некоторые различия, которые следует отметить:
-
-- Пограничные единицы масштабирования не используют Financial Reporting, поэтому они не требуют наличия узлов Financial Reporting.
-- Рабочие нагрузки производства и склада не требуют значительной вычислительной мощности, поэтому подумайте о масштабировании ваших вычислительных мощностей для узлов AOS.
 
 ## <a name="deployment-overview"></a>Обзор развертывания
 
@@ -40,9 +36,11 @@ ms.locfileid: "8024550"
 
 1. **Включите слот LBD в проекте LBD в Microsoft Dynamics Lifecycle Services (LCS).**
 
+    Во время предварительной версии, пограничная единица масштабирования LBD относятся к существующим клиентам LBD. Дополнительный ограниченный 60-дневный слот "песочницы" LBD будет предоставляться только в особых ситуациях для клиентов.
+
 1. **Установка и развертывание среды LBD с *пустой* базой данных.**
 
-    LCS можно использовать для развертывания среды LBD с последней топологией и пустой базой данных. Дополнительные сведения см. в разделе [Настройка и развертывание среды LBD с пустой базой данных](#set-up-deploy) далее в этой теме. Следует использовать версию Supply Chain Management 10.0.21 или новее в средах концентратора и единицы масштабирования.
+    LCS можно использовать для развертывания среды LBD с последней топологией и пустой базой данных. Дополнительные сведения см. в разделе [Настройка и развертывание среды LBD с пустой базой данных](#set-up-deploy) далее в этой теме. Следует использовать версию Supply Chain Management 10.0.19 с обновлением платформы 43 или новее в средах концентратора и единицей масштабирования.
 
 1. **Отправка целевых пакетов в активы проекта LBD в LCS.**
 
@@ -62,7 +60,7 @@ ms.locfileid: "8024550"
 
 На этом шаге создается функциональная среда LBD. Однако среда не обязательно должна иметь одинаковую версию приложения и платформы в качестве среды концентратора. Кроме того, еще не хватает настроек, и она не может работать в качестве единицы масштабирования.
 
-1. Следуйте инструкциям по [установке и развертыванию локальных сред (обновление платформы 41 и новее)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Следует использовать версию Supply Chain Management 10.0.21 или новее в средах концентратора и единицы масштабирования. Кроме того, необходимо использовать сценарии инфраструктуры версии 2.12.0 или более поздней. 
+1. Следуйте инструкциям по [установке и развертыванию локальных сред (обновление платформы 41 и новее)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Следует использовать версию Supply Chain Management 10.0.19 с обновлением платформы 43 или новее в средах концентратора и единицей масштабирования.
 
     > [!IMPORTANT]
     > Ознакомьтесь с оставшейся частью данного раздела **перед** выполнением шагов, описанных в этом разделе.
@@ -77,50 +75,9 @@ ms.locfileid: "8024550"
     > Этот сценарий удалит все конфигурации, которые не требуются для развертывания пограничных единиц масштабирования.
 
 1. Настройте базу данных, содержащую пустые данные, как описано в разделе [Настройка баз данных](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). Для этого шага используйте пустой файл data.bak.
-1. После выполнения шага [Настройка баз данных](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) выполните следующий сценарий для конфигурирования базы данных оркестратора ALM единицы масштабирования.
+1. Настройте скрипт, выполняемый перед развертыванием. Дополнительные сведения см. в разделе [Сценарии, выполняемые перед развертыванием и после развертывания локального агента](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
-    > [!NOTE]
-    > Не настраивайте базу данных Financial Reporting на шаге [Настройка баз данных](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb).
-
-    ```powershell
-    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
-    ```
-
-    Сценарий Initialize-Database.ps1 выполняет следующие действия:
-
-    1. Создайте пустую базу данных с именем **ScaleUnitAlmDb**.
-    2. Сопоставьте пользователей с ролями базы данных на основе следующей таблицы.
-
-        | Пользователь            | Тип | Роль базы данных |
-        |-----------------|------|---------------|
-        | svc-LocalAgent$ | gMSA | db\_owner     |
-
-1. Продолжайте следовать инструкциям по [установке и развертыванию локальных сред (обновление платформы 41 и новее)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
-1. После завершения шага [Настройка службы AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) выполните следующие действия:
-
-    1. Создайте новое приложение службы федерации Active Directory (AD FS), которое позволит службе оркестрации ALM обмениваться данными с сервером Application Object Server (AOS).
-
-        ```powershell
-        # Host URL is your DNS record\host name for accessing the AOS
-        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
-        ```
-
-    1. Создайте новое приложение Azure Active Directory (Azure AD), которое позволит службе оркестрации ALM обмениваться данными со службой управления единицей масштабирования.
-
-        ```powershell
-        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
-        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
-                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
-                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
-        ```
-
-1. Продолжайте следовать инструкциям по [установке и развертыванию локальных сред (обновление платформы 41 и новее)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Когда необходимо ввести конфигурацию для локального агента, убедитесь, что включены функции Edge Scale Unit и указаны все необходимые параметры.
-
-    ![Включение функций Edge Scale Unit.](media/EnableEdgeScaleUnitFeatures.png "Включение функций Edge Scale Unit.")
-
-1. Перед развертыванием среды из LCS настройте скрипт, выполняемый перед развертыванием. Дополнительные сведения см. в разделе [Сценарии, выполняемые перед развертыванием и после развертывания локального агента](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
-
-    1. Скопируйте скрипт Configure-CloudAndEdge.ps1 из папки **ScaleUnit** в разделе **Сценарии инфраструктуры** в папку **Scripts** в общей папке хранилища файлов агента, которая была настроена в среде. Типичным путем является \\\\lbdiscsi01\\agent\\Scripts.
+    1. Скопируйте содержимое папки **ScaleUnit** в разделе **Сценарии инфраструктуры** в папку **Scripts** в общей папке хранилища файлов агента, которая была настроена в среде. Типичным путем является \\\\lbdiscsi01\\agent\\Scripts.
     2. Создайте сценарий **PreDeployment.ps1**, который будет вызывать сценарии с использованием обязательных параметров. Сценарий, выполняемый перед развертыванием, должен быть помещен в папку **Scripts** в общем ресурсе хранилища файлов агента. В противном случае он не может быть выполнен. Типичным путем является \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1.
 
         Содержимое сценария PreDeployment.ps1 будет аналогичным в следующем примере.
@@ -129,7 +86,7 @@ ms.locfileid: "8024550"
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
+        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
         ```
 
         > [!NOTE]
@@ -144,75 +101,6 @@ ms.locfileid: "8024550"
         >   - @#
 
 1. Разверните среду, используя последнюю доступную базовую топологию.
-1. После того как ваша среда развернута, выполните следующие действия:
-
-    1. Выполните следующие команды SQL в бизнес-базе данных (AXDB).
-
-        ```sql
-        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
-        delete from NumberSequenceTable
-        delete from NumberSequenceReference
-        delete from NumberSequenceScope
-        delete from FeatureManagementMetadata
-        delete from FeatureManagementState
-        delete from SysFeatureStateV0
-        ```
-
-    1. Увеличьте значение одновременных максимальных пакетных сеансов до значения, которое больше 4.
-
-        ```sql
-        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
-        ```
-
-    1. Убедитесь, что в бизнес-базе данных включено отслеживание изменений (AXDB).
-
-        1. Откройте SQL Server Management Studio (SSMS).
-        1. Выберите и удерживайте (или щелкните правой кнопкой мыши) вашу базу бизнес-данных (AXDB), затем выберите **Свойства**.
-        1. В появившемся окне выберите **Отслеживание изменений** и затем задайте следующие значения:
-
-            - **Отслеживание изменений:** *Истина*
-            - **Период хранения:** *7*
-            - **Единицы удержания:** *дни*
-            - **Автоматическая очистка:** *Истина*
-
-    1. Добавьте код приложения AD FS, созданный ранее (с помощью сценария Create-ADFSServerApplicationForEdgeScaleUnits.ps1), в таблицу приложений Azure AD в вашей единице масштабирования. Этот шаг можно выполнить вручную с помощью пользовательского интерфейса (UI). Кроме того, можно выполнить его в базе данных, используя следующий сценарий.
-
-        ```sql
-        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
-
-        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
-        BEGIN
-            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
-            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
-        END
-        ```
-
-## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>Настройка Azure Key Vault и приложения Azure AD для обеспечения взаимодействия между единицами масштабирования
-
-1. После развертывания среды создайте дополнительное приложение Azure AD для обеспечения доверенного обмена данными между концентратором и единицей масштабирования.
-
-    ```powershell
-    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
-                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
-                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
-    ```
-
-1. После создания приложения необходимо создать секрет клиента и сохранить сведения в Azure Key Vault. Кроме того, необходимо предоставить доступ к созданному приложению Azure AD, чтобы оно могло извлечь секреты, хранящиеся в этом хранилище ключей. Для удобства следующий сценарий автоматически выполнит все необходимые действия.
-
-    ```powershell
-    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
-                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
-                                         -SubscriptionName '<Any subscription within your tenant>' `
-                                         -ResourceGroupName '<Any resource group within your subscription>' `
-                                         -KeyVaultName '<Any key vault within your resource group>' `
-                                         -Location '<Any Azure location where Azure Key Vault is available>' `
-                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
-    ```
-
-    > [!NOTE]
-    > Если не существует ни одного хранилища ключей с указанным значением **KeyVaultName**, оно автоматически создается сценарием.
-
-1. Добавьте только что созданный код приложения Azure AD (при использовании сценария Create-SpokeToHubAADApplication.ps1) в таблицу приложений Azure AD в концентраторе. Этот шаг можно выполнить вручную с помощью пользовательского интерфейса.
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Отправка целевых пакетов в активы проекта LBD в LCS
 
@@ -228,13 +116,122 @@ ms.locfileid: "8024550"
 1. Обслуживание среды LBD с объединенным пакетом приложения/платформы, который был отправлен на предыдущем шаге.
 1. Обслуживание среды LBD с настраиваемым развертываемым пакетом, который был отправлен на предыдущем шаге.
 
-    ![Применение обновлений в LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Применение обновлений в LCS")
+    ![Выбор Поддержка > Применение обновлений в LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Выбор Поддержка > Применение обновлений в LCS")
 
     ![Выбор вашего пакета настройки.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Выбор вашего пакета настройки")
 
 ## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Назначение пограничной единицы масштабирования LBD концентратору
 
-Настройка и управление пограничной единицей масштабирования осуществляется с помощью портала управления единицами масштабирования. Дополнительные сведения см. в разделе [Управление единицами масштабирования и рабочими нагрузками с помощью портала диспетчера единиц масштабирования](./cloud-edge-landing-page.md#scale-unit-manager-portal).
+Хотя пограничные единицы масштабирования все еще находятся в предварительной версии, необходимо использовать [средства развертывания и настройки единиц масштабирования](https://github.com/microsoft/SCMScaleUnitDevTools), доступные в GitHub, чтобы присвоить пограничную единицу масштабирования LBD концентратору. Этот процесс позволяет конфигурации LBD работать в качестве пограничной единицы масштабирования и связывает ее с концентратором. Процесс аналогичен настройке одноблочной среды разработки.
+
+1. Загрузите последнюю версию [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) и распакуйте содержимое файла.
+1. Создайте копию файла `UserConfig.sample.xml` и присвойте ей имя `UserConfig.xml`.
+1. Создайте приложение Microsoft Azure Active Directory (Azure AD) в вашем клиенте Azure AD, как упоминалось в [руководстве по развертыванию для единиц масштабирования и рабочих нагрузок](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations).
+    1. После создания перейдите в форму приложений Azure AD (SysAADClientTable) в своем концентраторе.
+    1. Создайте новую запись и задайте **Идентификатор клиента** для идентификатора созданного приложения. Задайте **Имя** как *ScaleUnits* и **Идентификатор пользователя** как *Администратор*.
+
+1. Создайте приложение службы федерации Active Directory (AD FS), как упоминалось в [руководстве по развертыванию для единиц масштабирования и рабочих нагрузок](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations).
+    1. После создания перейдите в форму приложений Azure AD (SysAADClientTable) в своей пограничной единице масштабирования.
+    1. Создайте новую запись и задайте **Идентификатор клиента** для идентификатора созданного приложения. Задайте **Идентификатор пользователя** как *Администратор*.
+
+1. Измените файл `UserConfig.xml`.
+    1. В разделе `InterAOSAADConfiguration` введите данные ранее созданного приложения Azure AD.
+        - В элементе `AppId` введите идентификатор приложения Azure.
+        - В элементе `AppSecret` введите секрет приложения Azure.
+        - Элемент `Authority` должен содержать URL-адрес, указывающий администратора безопасности для вашего клиента.
+
+        ```xml
+        <InterAOSAADConfiguration>
+            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
+            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
+            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
+        </InterAOSAADConfiguration>
+        ```
+
+    1. В разделе `ScaleUnitConfiguration` для первого `ScaleUnitInstance` измените раздел `AuthConfiguration`.
+        - В элементе `AppId` введите идентификатор приложения Azure.
+        - В элементе `AppSecret` введите секрет приложения Azure.
+        - Элемент `Authority` должен содержать URL-адрес, указывающий администратора безопасности для вашего клиента.
+
+        ```xml
+        <AuthConfiguration>
+            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
+            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
+            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
+        </AuthConfiguration>
+        ```
+
+    1. Кроме того, для того же `ScaleUnitInstance` задайте следующие значения:
+        - В элементе `Domain` укажите URL-адрес концентратора. Например: `https://cloudhub.sandbox.operations.dynamics.com/`
+        - Убедитесь, что в элементе `EnvironmentType` задано значение `LCSHosted`.
+
+    1. В разделе `ScaleUnitConfiguration` для второго `ScaleUnitInstance` измените раздел `AuthConfiguration`.
+        - В элементе `AppId` введите идентификатор приложения AD FS.
+        - В элементе `AppSecret` введите секрет приложения ADFS.
+        - Элемент `Authority` должен содержать URL-адрес своего экземпляра AD FS.
+
+        ```xml
+        <AuthConfiguration>
+            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
+            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
+            <Authority>https://adfs.contoso.com/adfs</Authority>
+        </AuthConfiguration>
+        ```
+
+    1. Кроме того, для того же `ScaleUnitInstance` задайте следующие значения:
+        - В элементе `Domain` укажите URL-адрес пограничной единицы масштабирования. Например: https://ax.contoso.com/
+        - Убедитесь, что в элементе `EnvironmentType` задано значение LBD.
+        - В элементе `ScaleUnitId` введите то же значение, которое указано для `InstanceId` при настройке сценария `Configure-CloudandEdge.ps1`, выполняемого перед развертыванием.
+
+        > [!NOTE]
+        > Если не используется идентификатор по умолчанию (@A), обязательно обновите ScaleUnitId для каждой ConfiguredWorkload в разделе "Рабочие нагрузки".
+
+1. Откройте PowerShell и перейдите к папке, содержащей файл `UserConfig.xml`.
+
+1. Запустите этот инструмент с помощью этой команды.
+
+    ```powershell
+    .\CLI.exe
+    ```
+
+    > [!NOTE]
+    > После каждого действия снова потребуется запустить инструмент.
+
+1. В инструменте выберите **2. Подготовка сред для установки рабочей нагрузки**. Затем выполните следующие шаги:
+    1. Выберите **1. Подготовьте концентратор**.
+    1. Выберите **2. Подготовить единицу масштабирования**.
+
+    > [!NOTE]
+    > Если эта команда не выполняется из чистой установки, и происходит сбой, выполните следующие действия:
+    >
+    > - Уделите все папки из папки `aos-storage` (кроме `GACAssemblies`).
+    > - Выполните следующую команду SQL в бизнес-базе данных (AXDB):
+    >
+    > ```sql 
+    > delete from storagefoler
+    > ```
+
+1. Выполните следующие команды SQL в бизнес-базе данных (AXDB):
+
+    ```sql
+    delete from FEATUREMANAGEMENTMETADATA
+    delete from FEATUREMANAGEMENTSTATE
+    delete from NUMBERSEQUENCESCOPE
+    ```
+
+1. Убедитесь, что в бизнес-базе данных включено отслеживание изменений (AXDB).
+    1. Запустите SQL Server Management Studio (SSMS).
+    1. Щелкните правой кнопкой мыши бизнес-базу данных (AXDB) и выберите свойства.
+    1. В открывшемся окне выберите **Отслеживание изменений** и выполните следующие настройки:
+
+        - **Отслеживание изменений:** *Истина*
+        - **Период хранения:** *7*
+        - **Единицы удержания:** *дни*
+        - **Автоматическая очистка:** *Истина*
+
+1. В инструменте выберите **3. Установка рабочих нагрузок**. Затем выполните следующие шаги:
+    1. Выберите **1. Установка в концентраторе**.
+    1. Выберите **2. Установка в единице масштабирования**.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -1,27 +1,25 @@
 ---
 title: Обновление бюджетного планирования
-description: Существуют значительные различия между планированием бюджета в Microsoft Dynamics AX 2012 и Dynamics 365 Finance. Некоторые компоненты не были обновлены и поэтому для них требуется изменение конфигурации. В этом разделе объясняется, что требует изменения конфигурации, а также приводится описание новых возможностей, которые необходимо учесть после завершения обновления.
-author: ryansandness
-manager: AnnBe
+description: В этом разделе объясняется, что требует изменения конфигурации, а также приводится описание новых возможностей, которые необходимо учесть после завершения обновления.
+author: panolte
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 27332703ac4943ef41a2cb2a70d86e2d9dfdf1ee
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681006"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745243"
 ---
 # <a name="upgrade-budget-planning"></a>Обновление бюджетного планирования
 
@@ -162,3 +160,6 @@ ms.locfileid: "4681006"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

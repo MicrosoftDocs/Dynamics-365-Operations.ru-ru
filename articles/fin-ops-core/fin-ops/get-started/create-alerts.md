@@ -1,26 +1,24 @@
 ---
 title: Создание правил оповещения
-description: В этом разделе представлена информация о предупреждениях и объясняется, как создать правило генерации оповещений, чтобы получать уведомления о событиях, таких как наступление даты или определенного изменения.
-author: tjvass
-manager: AnnBe
+description: В этой теме представлены сведения об оповещениях и объясняется, как создавать правило генерации оповещений.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736206"
 ---
 # <a name="create-alert-rules"></a>Создание правил оповещения
 
@@ -102,3 +100,8 @@ ms.locfileid: "4798435"
     ```
 2. Создайте оповещение из формы SysTableBrowser.
 
+### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Для изменения статуса пакета не работают оповещения на основе изменений
+Оповещения на основе изменений не работает при изменении статуса пакета, поскольку оно отключено из соображений производительности. Вместо этого следует настроить функцию **Пакетные оповещения**. Дополнительные сведения см. в разделе [Настройка оповещений для расширенных форм пакета](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

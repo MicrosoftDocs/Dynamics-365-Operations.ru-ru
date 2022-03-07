@@ -1,36 +1,31 @@
 ---
-title: Работа с предустановками стилей
+title: Работа с предустановленными стилями
 description: В этом разделе описывается, как работать с предустановками стилей в построителе сайтов Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415306"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964861"
 ---
-# <a name="work-with-style-presets"></a>Работа с предустановками стилей
+# <a name="work-with-style-presets"></a>Работа с предустановленными стилями
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как работать с предустановками стилей в построителе сайтов Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Предустановка стиля представляет собой сохраненный набор всех значений настраиваемого стиля для темы сайта. Она может использоваться для немедленного изменения оформления сайта с помощью построителя сайтов. Предустановки стилей позволяют авторам построителя сайтов Commerce быстро изменять, просматривать и активировать набор значений стилей на своем сайте без необходимости использовать каскадные таблицы стилей (CSS) или развертывать темы. Стили шрифтов, стили кнопок и цвета узла являются типичными примерами переменных стиля, которыми можно управлять через предустановки стилей.
 
@@ -121,10 +116,11 @@ ms.locfileid: "4415306"
 
 [Добавление значка сайта](add-favicon.md)
 
-[Добавление приветственного сообщения](add-welcome-message.md)
-
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
 
 [Добавление кода скрипта на страницы сайта для поддержки телеметрии](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

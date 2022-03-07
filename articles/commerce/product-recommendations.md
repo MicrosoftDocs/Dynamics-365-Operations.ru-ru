@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415111"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231040"
 ---
 # <a name="product-recommendations-overview"></a>Обзор рекомендаций по продуктам
 
@@ -88,3 +87,6 @@ Microsoft Dynamics 365 Commerce может использоваться для �
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

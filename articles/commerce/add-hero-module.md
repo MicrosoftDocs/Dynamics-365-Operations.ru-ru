@@ -2,15 +2,12 @@
 title: Модуль блока содержимого
 description: В этом разделе описываются модули блока содержимого, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726447"
 ---
 # <a name="content-block-module"></a>Модуль блока содержимого
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули блока содержимого, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модуль блока содержимого используется для рекламы продуктов или рекламных акций с помощью комбинации изображений и текста. Например, розничный продавец может добавить модуль блока содержимого на домашнюю страницу сайта электронной коммерции для продвижения нового продукта и привлечения внимания клиентов.
 
@@ -52,15 +46,15 @@ ms.locfileid: "4415176"
 
 На следующем рисунке показан пример модуля блока содержимого с макетом главного имиджевого баннера.
 
-![Пример модуля главного имиджевого баннера](./media/Hero.PNG)
+![Пример модуля главного имиджевого баннера.](./media/Hero.PNG)
 
 На следующем рисунке показан пример модуля блока содержимого с макетом содержания.
 
-![Примеры модулей компонентов](./media/Feature.PNG)
+![Примеры модулей компонентов.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Свойства модуля блока содержимого
 
-| Имя свойства  | Значения | Описание |
+| Имя свойства  | Значения | описание |
 |----------------|--------|-------------|
 | Изображение          | Файл изображения | Изображение может использоваться для демонстрации продукта или рекламной акции. Можно отправить изображение в коллекцию изображений или использовать существующее изображение. |
 | Заголовок        | Текст заголовка и метка заголовка (**H1**, **H2**, **H3**, **H4**, **H5** или **H6**) | Каждый модуль главного имиджевого баннера может иметь заголовок. По умолчанию для заголовка используется тег заголовков **H2**. Однако тег можно изменить для соответствия требованиям к специальным возможностям. |
@@ -107,3 +101,6 @@ ms.locfileid: "4415176"
 [Модуль текстового блока](add-content-rich-block.md)
 
 [Модуль видеопроигрывателя](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

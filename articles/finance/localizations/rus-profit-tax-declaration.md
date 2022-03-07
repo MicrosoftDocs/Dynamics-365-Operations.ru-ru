@@ -2,26 +2,23 @@
 title: Декларация по налогу на прибыль
 description: В данном разделе содержится информация о декларации по налогу на прибыль для России.
 author: anasyash
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 368f28e95b74d41d0f1aef435a246254b4610539
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9759e1145a404b98e2e253219f444fdc24808b8c9bd8d1a2545d06fe9db3397
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717435"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 
@@ -50,7 +47,7 @@ ms.locfileid: "4408540"
     - Сопоставление моделей финансовых отчетов (RU)
     - Формат декларации налога на прибыль 5.08 (RU)
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Отправьте настройки пакета управления данными.
 
@@ -78,7 +75,7 @@ ms.locfileid: "4408540"
     > [!NOTE]
     > Сортировка ячеек финансового отчета, которые загружены из пакета, по столбцу **Описание**. Таким образом, ячейки на странице отображаются в том же порядке, в котором они отображаются в печатной версии декларации.
 
-    Дополнительные сведения о настройке финансовых отчетов для России см. в разделе [Финансовая отчетность (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-financial-reports).
+    Дополнительные сведения о настройке финансовых отчетов для России см. в разделе [Финансовая отчетность (Россия)](./rus-financial-reports.md).
 
 5. Выберите пункты **Налог** \> **Запросы и отчеты** \> **Электронные сообщения** \> **Электронные сообщения** и проверьте обработку импортированных электронных сообщений. Большая часть данных, которые были импортированы, представлена только на русском языке.
 
@@ -111,7 +108,7 @@ ms.locfileid: "4408540"
     3. Задайте для параметра **Показать диалоговое окно** значение **Да**.
     4. В поле **Сопоставление формата** выберите конфигурацию электронной отчетности **Формат декларации налога на прибыль 5.08 (RU)**, загруженную ранее.
 
-Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](https://docs.microsoft.com/dynamics365/finance/general-ledger/electronic-messaging).
+Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](../general-ledger/electronic-messaging.md).
 
 ### <a name="generate-a-profit-tax-declaration-in-electronic-format"></a>Создание декларации налога на прибыль в электронном формате
 
@@ -146,3 +143,6 @@ ms.locfileid: "4408540"
 14. Для просмотра созданного отчета выберите **Вложения** (символ скрепки) в верхнем правом углу страницы. Затем выберите **Открыть**, чтобы открыть файл.
 
 Необходимо также вручную отправить созданный файл в специальное программное обеспечение независимых разработчиков для предварительного просмотра данных, обновления данных и передачи файлов декларации налога на прибыль в налоговые органы по каналам связи.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

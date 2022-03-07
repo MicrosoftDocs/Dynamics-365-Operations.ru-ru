@@ -2,11 +2,9 @@
 title: Настройка разделения обязанностей
 description: Можно настроить правила для разделения задач, которые должны выполняться разными пользователями.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
-ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
+ms.openlocfilehash: e25fee324ce95cd04b86ee0e4e6a56cfacb61a53
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4826402"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745749"
 ---
 # <a name="set-up-segregation-of-duties"></a>Настройка разделения обязанностей
 
@@ -42,3 +40,6 @@ ms.locfileid: "4826402"
 
 > [!IMPORTANT] 
 > При создании правила соответствие правилам разделения обязанностей не проверяется. Можно создать правило, которое создает конфликт для существующих ролей. Существующие назначения ролей пользователей также могут конфликтовать с новым правилом. После создания или изменения правила необходимо выполнить проверку соответствия. Дополнительные сведения см. в разделе [Выявление и разрешение конфликтов в разделении обязанностей](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

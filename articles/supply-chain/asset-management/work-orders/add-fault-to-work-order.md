@@ -1,12 +1,10 @@
 ---
 title: Добавление ошибки в заказ на работу
 description: В этом разделе описывается добавление регистраций неисправностей в заказы на работу в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761076"
 ---
 # <a name="add-fault-to-work-order"></a>Добавление ошибки в заказ на работу
 
@@ -52,7 +50,7 @@ ms.locfileid: "5019312"
 
 Иллюстрация ниже показывает пример регистрации неисправностей.
 
-![Рисунок 1](media/19-work-orders.png)
+![Рисунок 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Просмотр неисправностей активов
@@ -79,3 +77,6 @@ ms.locfileid: "5019312"
 >[!NOTE]
 >Чтобы напечатать отчет об ошибке для нескольких активов или типов активов, выберите **Управление активами** > **Отчеты** > **Активы** > **Ошибка актива**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

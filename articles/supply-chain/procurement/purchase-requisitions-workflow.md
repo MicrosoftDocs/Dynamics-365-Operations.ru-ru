@@ -1,12 +1,10 @@
 ---
 title: Документооборот заявок на закупку
 description: Бизнес-процесс переносит заявки на покупку во время проверки, начиная со статуса "Черновик", заканчивая финальным статусом "Утверждено". После отправки заявки на покупку на рассмотрение запускается бизнес-процесс. После того, как заявка на покупку утверждена, для строк заявки на покупку может создаваться заказ на покупку, который отправляется поставщику для выполнения заказа.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021988"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569465"
 ---
 # <a name="purchase-requisition-workflow"></a>Документооборот заявок на закупку
 
@@ -53,7 +51,7 @@ ms.locfileid: "5021988"
 -   **Агент по закупкам** — пользователь, который выполняет проверку закупаемой продукции и может утвердить документ.
 -   **Менеджер инициатора запроса** — пользователь, который выполняет организационную проверку и может утвердить документ.
 
-![Процесс проверки workflow-процесса заявки на покупку](./media/purchreqworkflowoverview_submission.gif)  
+![Процесс проверки workflow-процесса заявки на покупку.](./media/purchreqworkflowoverview_submission.gif)  
 В этом примере бизнес-процесс для заявки на покупку состоит из следующих шагов.
 
 1.  Составитель направляет заявку на покупку на рассмотрение.
@@ -76,7 +74,7 @@ ms.locfileid: "5021988"
 -   **Менеджер подразделения** — пользователь, который проверяет расходы и может утвердить документ.
 -   **Менеджер группы** — пользователь, который выполняет проверку подписывания и может утвердить документ.
 
-![Процесс проверки workflow-процесса строки заявки на покупку](./media/purchreqlineworkflowoverview.gif)  
+![Процесс проверки workflow-процесса строки заявки на покупку.](./media/purchreqlineworkflowoverview.gif)  
 В этом примере бизнес-процесс для строк заявки на покупку состоит из следующих шагов.
 
 1.  Составитель направляет заявку на покупку на рассмотрение. Каждая строка передается проверяющему, заданному для нее в workflow-процессе.
@@ -107,8 +105,7 @@ ms.locfileid: "5021988"
 
 Для использования одного из рецензентов расхода, которого вы настраиваете в workflow-процессе, вы должны задать для параметра **Тип участника** значение **Участники расходов** в свойствах **Назначение** для соответствующего элемента workflow-процесса.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание заявки на потребление](tasks/create-requisition-consumption.md)
 
@@ -120,3 +117,6 @@ ms.locfileid: "5021988"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

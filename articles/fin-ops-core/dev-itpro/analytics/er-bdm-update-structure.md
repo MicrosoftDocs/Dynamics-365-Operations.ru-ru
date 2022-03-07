@@ -2,11 +2,9 @@
 title: Обновление структуры шаблона бизнес-документа
 description: В этой теме объясняется, как обновить структуру шаблона бизнес-документа с помощью функции управления бизнес-документами.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775294"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Обновление структуры шаблона бизнес-документа 
 
@@ -60,7 +58,7 @@ ms.locfileid: "4728097"
 
     Новый шаблон открывается для редактирования во встроенном элементе управления Excel Online на странице редактора шаблонов.
 
-[![Использование рабочей области управления бизнес-документами для запуска редактирования шаблона бизнес-документа](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Использование рабочей области управления бизнес-документами для запуска редактирования шаблона бизнес-документа.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Просмотр текущей структуры редактируемого шаблона
 
@@ -70,7 +68,7 @@ ms.locfileid: "4728097"
 4. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 5. Обратите внимание, что в структуре шаблонов в Finance элемент **rptHeaderCompLogo** представляется в качестве дочернего элемента **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 
-[![Использование рабочей области управления бизнес-документами для просмотра текущей структуры редактируемого шаблона](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Использование рабочей области управления бизнес-документами для просмотра текущей структуры редактируемого шаблона.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Обновление структуры шаблона бизнес-документа путем удаления рисунка
 
@@ -87,7 +85,7 @@ ms.locfileid: "4728097"
 4. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 5. Обратите внимание, что элемент **rptHeaderCompLogo** больше не включен в структуру шаблонов в модуле Finance.
 
-[![Использование рабочей области управления бизнес-документами для удаления рисунка из шаблона бизнес-документа](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Использование рабочей области управления бизнес-документами для удаления рисунка из шаблона бизнес-документа.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Обновление структуры шаблона бизнес-документа путем добавления рисунка
 
@@ -99,10 +97,13 @@ ms.locfileid: "4728097"
 6. В области **Структура шаблона** разверните **Отчет \> Накладная \> rptHeader \> rptHeaderPart1**.
 7. Обратите внимание, что новый рисунок теперь включен как элемент в структуру шаблона в модуле Finance.
 
-[![Использование рабочей области управления бизнес-документами для добавления рисунка в шаблон бизнес-документа](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Использование рабочей области управления бизнес-документами для добавления рисунка в шаблон бизнес-документа.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Связанные ссылки
 
 [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 
 [Обзор управления бизнес-документами](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

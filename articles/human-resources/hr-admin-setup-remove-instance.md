@@ -2,7 +2,7 @@
 title: Удаление экземпляра
 description: В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e6d1eff32b6f925541760f0c0408238f3c4d947
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420277"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466864"
 ---
 # <a name="remove-an-instance"></a>Удаление экземпляра
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
 
@@ -85,3 +87,6 @@ ms.locfileid: "4420277"
 
 > [!Warning]
 > Среды Power Apps сохраняются только в течение семи дней после удаления. Среду следует восстанавливать в течение семи дней.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

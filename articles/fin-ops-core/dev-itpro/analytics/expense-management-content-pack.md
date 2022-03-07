@@ -2,11 +2,9 @@
 title: Содержимое Power BI для управления расходами
 description: В этой теме описывается, что входит в пакет содержимого Power BI для управления расходами.
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769906"
 ---
 # <a name="expense-management-power-bi-content"></a>Содержимое Power BI для управления расходами
 
@@ -43,7 +41,7 @@ ms.locfileid: "5016460"
 Все суммы показаны в валюте компании. Отображаются данные для всех компаний, но при необходимости можно добавить фильтр компаний. 
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое Power BI Expense Admin Dashboard.pbix и Expense Personal Dashboard.pbix можно найти в библиотеке общих средств Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Содержимое Power BI Expense Admin Dashboard.pbix и Expense Personal Dashboard.pbix можно найти в библиотеке общих средств Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Содержимое доступно из рабочей области управления расходами как внедренное содержимое Power BI. Любому ответственному за расходы доступны личные расходы, и только клерки и менеджеры расчетов с поставщиками имеют доступ к содержимому администраторов для просмотра данных о расходах для всех пользователей.
 
 ## <a name="refreshing-the-power-bi-content"></a>Обновление содержимого Power BI
@@ -93,3 +91,6 @@ ms.locfileid: "5016460"
 | Статистические данные по сотрудникам | Отчеты о расходах по типам затрат            |
 |                     | Личные расходы                       |
 |                     | Отчеты о расходах по группам статистики     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

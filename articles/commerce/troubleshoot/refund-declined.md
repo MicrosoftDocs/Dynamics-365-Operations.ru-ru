@@ -5,6 +5,7 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5961e77de1de5dc23454fc1a6e16f8c0b4e7cc6a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738632"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801563"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Возврат по заказу на возврат отклонен
 
@@ -34,9 +35,9 @@ ms.locfileid: "6738632"
 
 Данные авторизации платежа будут включать следующее сообщение об ошибке: "Adyen gateway SendRequest() failed with status 'InternalServerError'.22144; Empty response returned from Adyen.(22001);"
 
-![Ошибка отклонения возврата по заказу на возврат.](media/refund-order-decline.jpg)
+![Ошибка отклонения возврата по заказу на возврат](media/refund-order-decline.jpg)
 
-## <a name="resolution"></a>Решение
+## <a name="resolution"></a>Приказ
 
 ### <a name="enable-blind-returns-in-adyen"></a>Включить возвраты вслепую в Adyen
 

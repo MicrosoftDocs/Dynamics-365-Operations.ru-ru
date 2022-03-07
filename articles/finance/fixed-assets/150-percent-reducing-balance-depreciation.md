@@ -1,10 +1,12 @@
 ---
 title: Амортизация с уменьшаемым остатком в 150%
-description: Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 150 %.
-author: moaamer
+description: Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 150 %.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4edc868b76d466c41be8036b962730db90eeb68a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249445"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 150%
 
 [!include [banner](../includes/banner.md)]
 
-Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 150 %.
+Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 150 %.
 
 После настройки профиля амортизации ОС и выбора значения **Уменьшаемое сальдо в 150%** в поле **Метод** на странице **Профили амортизации** процент амортизации ОС, назначенных профилю амортизации, одинаков во все периоды амортизации. Этот процент рассчитывается на основе срока службы актива. Например, если срок службы актива составляет пять лет, проценты будут рассчитаны как 30 процентов (150% ÷ 5). 
 
@@ -64,7 +66,7 @@ ms.locfileid: "7883320"
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Пример амортизации с уменьшаемым остатком в 150%
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Стоимость приобретения               | 11,000 |
 | Ликвидационная стоимость                  | 1,000  |

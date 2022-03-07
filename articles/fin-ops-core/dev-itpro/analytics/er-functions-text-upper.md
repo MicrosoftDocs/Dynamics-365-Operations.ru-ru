@@ -2,7 +2,9 @@
 title: Функция ER UPPER
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности UPPER.
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3742f490fb87d156e3b3dcebabdcebb85ab76f5d0afd9a60806497d32e5746e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fb89ca48c0035e672b2de6820d6ef08d36c02af
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729814"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559997"
 ---
 # <a name="upper-er-function"></a>Функция ER UPPER
 

@@ -3,27 +3,25 @@ title: Обзор налога, удерживаемого в источнике
 description: В этой теме приводятся подробные сведения о налоге, удерживаемом в источнике (TDS), для Индии. В документации по TDS описываются функции этой возможности.
 author: kailiang
 ms.date: 03/19/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "15721"
-- intro-internal
+ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d33faaff8be4821005b8772875eb91f0afe26cb0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 28ee843036e11bd37b97a065ce53d2eb860c79d9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983911"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023551"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Обзор налога, удерживаемого в источнике (TDS), для Индии
 

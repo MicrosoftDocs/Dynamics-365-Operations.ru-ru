@@ -2,11 +2,8 @@
 title: Функция ER DATETIMEFORMAT
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности DATETIMEFORMAT.
 author: NickSelin
-manager: kfend
-ms.date: 01/04/2021
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90bd2900434b1be509f72ec82375e52ea32bc424
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4825381"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485554"
 ---
 # <a name="datetimeformat-er-function"></a>Функция ER DATETIMEFORMAT
 
 [!include [banner](../includes/banner.md)]
 
-Функция `DATETIMEFORMAT` возвращает значение *строки*, которое представляет заданное значение даты/времени в виде текста в указанном формате и в дополнительно указанной [культуре](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+Функция `DATETIMEFORMAT` возвращает значение типа *[Строка](er-formula-supported-data-types-primitive.md#string)*, которое представляет заданное значение даты/времени в виде текста в указанном формате и в дополнительно указанной [культуре](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Сведения о поддерживаемых форматах см. в разделах [стандартный](/dotnet/standard/base-types/standard-date-and-time-format-strings) и [настраиваемый](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Синтаксис 1
 
@@ -44,20 +41,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>Аргументы
 
-`datetime`: *DateTime*
+`datetime`: *[Дата и время](er-formula-supported-data-types-primitive.md#datetime)*
 
 Значение даты/времени, представляющее дату и время для формата.
 
 `format`: *Строка*
 
-Формат строки вывода.
+Формат строки вывода. Сведения о поддерживаемых форматах см. в разделах [стандартный](/dotnet/standard/base-types/standard-date-and-time-format-strings) и [настраиваемый](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
-> В строке форматирования учитывается регистр при использовании стандартного или пользовательского формата. Например, [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) спецификатор формата "d" возвращает дату, используя короткий шаблон даты, в то время как стандартный спецификатор формата "D" возвращает дату, используя полный шаблон даты. Кроме того, [пользовательский](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) спецификатор формата "M" возвращает месяц от 1 до 12, в то время как пользовательский спецификатор формата "m" возвращает минуты от 0 до 59.
+> В строке форматирования учитывается регистр при использовании стандартного или пользовательского формата. Например, [стандартный](/dotnet/standard/base-types/standard-date-and-time-format-strings) спецификатор формата "d" возвращает дату, используя короткий шаблон даты, в то время как стандартный спецификатор формата "D" возвращает дату, используя полный шаблон даты. Кроме того, [пользовательский](/dotnet/standard/base-types/custom-date-and-time-format-strings) спецификатор формата "M" возвращает месяц от 1 до 12, в то время как пользовательский спецификатор формата "m" возвращает минуты от 0 до 59.
 
 `culture`: *Строка*
 
-Культура для форматирования.
+Культура для форматирования. Сведения о поддерживаемых культурах см. в разделе [Культура](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -86,3 +83,6 @@ DATETIMEFORMAT (datetime, format, culture)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции даты и времени](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

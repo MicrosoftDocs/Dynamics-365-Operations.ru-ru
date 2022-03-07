@@ -1,12 +1,10 @@
 ---
-title: Настройка имен полей приложения в приложении склада
-description: В этом разделе описывается, как определить и настроить имена полей и приоритеты приложения склада в Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+title: Настройка полей для мобильного приложения "Управление складом"
+description: В этой теме описывается, как определить и настроить имена полей и приоритеты для полей, отображаемых в мобильном приложении "Управление складом".
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -15,24 +13,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963443"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902304"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Настройка имен полей приложения в приложении склада
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Настройка полей для мобильного приложения "Управление складом"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, как определить и настроить имена полей и приоритеты приложения склада в Dynamics 365 Supply Chain Management. 
+В этой теме описывается, как определить и настроить имена полей и приоритеты для полей, отображаемых в мобильном приложении "Управление складом".
 
 > [!NOTE]
-> Этот раздел относится к функциям в модуле "Управление складом". Он не применяется к функциям в модуле "Управление запасами". Warehousing — это приложение, которое можно использовать для выполнения задач на складе. Можно определить и настроить имена полей, которые используются в приложении, а также настроить приоритет, который должен быть назначен именам полей. В этом разделе описывается, как определить и настроить эти имена полей и приоритеты приложения склада, а также как они используются в приложении Warehousing. Подробные сведения о порядке настройки подключения к Warehousing см. в руководстве [Обзор установки и настройки приложения склада](install-configure-warehousing-app.md).
+> Этот раздел относится к функциям в модуле "Управление складом". Он не применяется к функциям в модуле "Управление запасами". Мобильное приложение "Управление складом" — это приложение, которое можно использовать для выполнения задач на складе. Можно определить и настроить имена полей, которые используются в приложении, а также настроить приоритет, который должен быть назначен именам полей. В этой теме описывается, как определить и настроить эти имена полей и приоритеты мобильного приложения "Управление складом", а также как они используются.
 
 ## <a name="configure-warehouse-app-field-names"></a>Настройка имен полей в приложении склада
 
@@ -139,7 +137,9 @@ ms.locfileid: "4963443"
 
 Оставшиеся метаданные, например, местоположение, не будут отображаться на странице задачи, но будет отображаться на странице сведений. Чтобы получить дополнительные сведения и посмотреть примеры интерфейса пользователя, см. запись блога [Представляем Finance and Operations — Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор установки и настройки приложения склада](install-configure-warehousing-app.md)
+[Установка и подключение мобильного приложения "Управление складом"](../warehousing/install-configure-warehouse-management-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

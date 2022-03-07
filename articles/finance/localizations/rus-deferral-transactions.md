@@ -2,26 +2,23 @@
 title: Приход РБП
 description: В этом разделе объясняется, как создавать и разносить проводки поступления для РБП, которые были созданы вручную. В нем также объясняется, как реверсировать проводки поступления.
 author: anasyash
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2c9b68253e559f6bcd85633e954966185b27fdaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e4750f28e64635c446850a411f13ccfed605c45981a999c9c35e3205d8cf3e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750265"
 ---
 # <a name="receipt-of-deferrals"></a>Поступление РБП
 
@@ -42,7 +39,7 @@ ms.locfileid: "4408582"
 
     Для РБП создается проводка типа **Поступление**. Эта проводка имеет указанную дату поступления.
 
-    ![Страница Ваучера журнала](media/rus-deferral-transactions-01.png)
+    ![Страница Ваучера журнала.](media/rus-deferral-transactions-01.png)
 
 11. На панели операций выберите **Проверить** \> **Проверить** а затем **Разнести** \> **Разнести** для проверки и разноски журнала.
 12. Перейдите к **Главная книга** \> **Расходы будущих периодов** \> **Расходы будущих периодов** для просмотра создаваемых РБП. Для просмотра сведений о проводках на странице **Проводки по РБП**, на панели операций выберите **Модели РБП**, а затем выберите **Проводки**.
@@ -60,3 +57,6 @@ ms.locfileid: "4408582"
 5. В поле **Дата сторно** выберите дату реверсирования. Все проводки, созданные на эту дату, реверсируются.
 6. Установите флажок **По всем моделям**, чтобы реверсировать проводки, созданные с помощью налоговой модели учета и базовой модели учета.
 7. Выберите **ОК**, чтобы реверсировать проводку.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

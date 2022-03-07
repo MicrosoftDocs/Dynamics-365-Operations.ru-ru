@@ -2,9 +2,11 @@
 title: Один ваучер с несколькими записями клиента или поставщика
 description: В этом разделе содержится обзор того, что происходит при разноске одного ваучера с несколькими записями клиентов или поставщиков. Эта функция не будет поддерживаться в будущих версиях Microsoft Dynamics 365 Finance, поэтому не рекомендуется использовать этот метод разноски из-за влияния учета на обработку сопоставления.
 author: abruer
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01fd382a97f86e93e4ab91759d35c65fae7447c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972015"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Один ваучер с несколькими записями клиента или поставщика
 
@@ -208,6 +210,8 @@ ms.locfileid: "6737049"
 | ARP-00001   | 403300-002-023- | Скидка по оплате по клиенту | 2.00      |            |
 | ARP-00001   | 130100-002-     | Сальдо по клиенту       |           | 2.00       |
 
+### 
+
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Один ваучер с взаимозачетом для нескольких клиентов и поставщиков
 Взаимозачет может быть полезен, когда организация производит закупки и продажи внутри одной компании. Вместо оплаты накладных поставщика и ожидания получения платежа за накладные клиента производится взаимозачет накладных поставщика и клиента. Проводка взаимозачета сопоставляется с неуплаченными сальдо. 
 
@@ -228,6 +232,3 @@ ms.locfileid: "6737049"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

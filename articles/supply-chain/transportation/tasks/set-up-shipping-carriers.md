@@ -1,25 +1,27 @@
 ---
 title: Настройка перевозчиков
 description: В этой теме показано, как настроить перевозчика и задать сведений, такие как услуга, режим отгрузки, платежное средство за транспортировку, ограничения по транспортировке и ставка транспортировки.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c1ec19288f01ceb0bb3021cf549af1c38746785c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233591"
 ---
 # <a name="set-up-shipping-carriers"></a>Настройка перевозчиков
 

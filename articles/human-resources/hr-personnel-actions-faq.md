@@ -2,7 +2,7 @@
 title: Вопросы и ответы по действиям персонала
 description: В этой статье содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
@@ -10,21 +10,23 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 6d52e7e5203a4c311afb56259e9e1800ee0e5161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420233"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467128"
 ---
 # <a name="personnel-actions-faq"></a>Вопросы и ответы по действиям персонала
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой статье содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом. К примерам задач, для которых могут потребоваться действий персонала, относится создание новых должностей, изменение значений имеющихся должностей, прием на работу новых работников, перевод работников, изменение компенсации работников, изменение назначений должности или увольнение работников.
 
@@ -92,3 +94,6 @@ ms.locfileid: "4420233"
 - Дата в заголовке для вступления в силу действия **Прием на работу работника** является датой, введенной в поле **Дата приема сотрудника на работу** для работника.
 - Дата в заголовке для вступления в силу действия **Перенести работника** является датой, введенной в поле **Назначить дату начала** для работника.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

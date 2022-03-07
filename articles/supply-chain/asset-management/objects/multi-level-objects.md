@@ -1,12 +1,10 @@
 ---
 title: Многоуровневые активы
 description: В этом разделе объясняется, как создавать и удалять многоуровневые активы.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4da57c3849095909226db53c23b3c25301acdc
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021330"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769619"
 ---
 # <a name="multi-level-assets"></a>Многоуровневые активы
 
@@ -61,3 +59,6 @@ ms.locfileid: "5021330"
 
 > [!NOTE]
 > Если вы не можете удалить актив с помощью этой процедуры, другой способ выполнения удаления — настроить для этой цели состояние жизненного цикла актива. Например, можно настроить состояние жизненного цикла **Списано** или **Удалено** на странице **Состояния жизненного цикла активов**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

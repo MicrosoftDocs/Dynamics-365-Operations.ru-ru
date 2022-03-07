@@ -1,7 +1,7 @@
 ---
 title: Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Field Service
 description: В этом разделе описываются шаблоны и базовая задача, которые используются для синхронизации продуктов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f765a6f0cbdc99604e0b0191e1cb6a200546769b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359589"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Field Service
 

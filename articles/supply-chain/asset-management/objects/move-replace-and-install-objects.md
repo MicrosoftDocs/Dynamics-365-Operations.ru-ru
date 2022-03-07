@@ -1,12 +1,10 @@
 ---
 title: Перемещение, замена и установка активов
 description: В этом разделе объясняется, как перемещать, заменять и устанавливать активы в «Управлении активами».
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectReplace, EntAssetObjectInstallLookup, EntAssetObjectMove, EntAssetObjectTableEditSubObjects
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 022ffc59b1b64913fedaf550f3fdb32141a94031
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769643"
 ---
 # <a name="move-replace-and-install-assets"></a>Перемещение, замена и установка активов
 
@@ -90,3 +88,6 @@ ms.locfileid: "5020287"
 4. В поле **Функциональное местоположение** выберите новое местоположение.
 5. По умолчанию, в поле **Действует с** автоматически задаются текущая дата и время. Тем не менее, можно выбрать другую дату и время, с которого установка в структуру актива действительна.
 6. Нажмите **ОК**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

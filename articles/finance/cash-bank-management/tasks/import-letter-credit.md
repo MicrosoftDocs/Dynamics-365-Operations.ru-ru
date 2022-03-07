@@ -2,9 +2,11 @@
 title: Импортный аккредитив
 description: Эта процедура содержит указания по импорту аккредитива.
 author: kweekley
+manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76dedb12eef0f8282f04f680cab51a8ccf3e8221
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743129"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009551"
 ---
 # <a name="import-letter-of-credit"></a>Импортный аккредитив
 
@@ -128,8 +130,7 @@ ms.locfileid: "6743129"
 12. Закройте страницу.
 13. Закройте страницу.
 
-## <a name="verify-import-letter-of-credit-status-and-printing"></a>Проверка и печать статуса импортного аккредитива
-
+## <a name="verify-import-letter-of-credit-status"></a>Проверка статуса импортного аккредитива
 1. Перейдите в раздел "Управление банком и кассовыми операциями" > "Аккредитивы" > "Импортный аккредитив и импортное инкассо".
 2. В списке найдите и выберите требуемую запись.
 3. В списке перейдите по ссылке в выбранной строке.
@@ -183,6 +184,3 @@ ms.locfileid: "6743129"
     * Проверьте, что в отчете есть проводки с номером банковского документа, кредитным лимитом, использованной суммой и суммой сальдо кредита.  
 8. Закройте страницу.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Создание заказа на возврат покупки
 description: В этой процедуре показано, как создать заказ на возврат покупки с помощью действия "Кредит-нота" для копирования строк из документа накладной поставщика в новый заказ на покупку.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017067"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569417"
 ---
 # <a name="create-a-purchase-return-order"></a>Создание заказа на возврат покупки
 
@@ -67,3 +65,6 @@ ms.locfileid: "5017067"
 4. В поле **Поступление продуктов** введите значение. Это поле используется для ввода ссылки, которая будет использоваться как ваучер для журнала поступления продуктов.  
 5. Щелкните **OK**. Товары зарегистрированы как отгруженные по заказу на возврат покупок, и журнал поступления продуктов создан. Можно использовать действие "Поступление продуктов" для просмотра журналов, созданных с заказом на покупку, чтобы узнать, что было получено или возвращено и когда.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,13 @@
 title: Управление обновлениями стандартных затрат
 description: Управлять обновлениями данных по стандартным затратам можно, используя два разных подхода — подход на основе одной версии или подход на основе двух версий.
 author: AndersGirke
+manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice, InventParameters
+ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -15,13 +17,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
+ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678674"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024678"
 ---
 # <a name="manage-standard-cost-updates"></a>Управление обновлениями стандартных затрат
 
@@ -49,6 +51,3 @@ ms.locfileid: "7678674"
 - **Нет** — никакие финансовые аналитики не разносятся в проводках по переоценке. Если ваша структура счетов включает необходимую финансовую аналитику, то процесс переоценки все равно выполняется, но он будет создавать записи учета, не имеющие финансовых аналитик. В этом случае пользователи будут сначала получать предупреждающее сообщение, чтобы при необходимости можно было отменить переоценку.
 - **Таблица** — финансовые аналитики номенклатуры разносятся по проводкам переоценки. Этот параметр используется по умолчанию и согласуется с исходным поведением системы без включения функции *Параметры задания значений по умолчанию для финансовых аналитик для переоценки стандартной себестоимости запасов*.
 - **Разноска** — финансовые аналитики проводок, которые переоцениваются, разносятся в проводках по переоценке. По умолчанию финансовые аналитики из счета запасов исходной проводки будут использоваться как для счета запасов, так и для счета переоценки.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Создание новых пользователей
 description: Пользователи — это сотрудники внутри вашей организации либо внешние клиенты или поставщики, которым требуется доступ к системе для выполнения своей работы.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
-ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4878665"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595394"
 ---
 # <a name="create-new-users"></a>Создание новых пользователей
 
@@ -31,10 +29,10 @@ ms.locfileid: "4878665"
 Сведения о приобретении и лицензировании для приложений Finance and Operations см. в [руководстве по лицензированию Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Назначение лицензии пользователю
-Администраторы системы могут [назначать лицензии пользователям](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) из [центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Администраторы системы могут [назначать лицензии пользователям](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) из [центра администрирования Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Добавление внешнего пользователя в Azure AD и назначение лицензии 
-Внешние пользователи должны быть представлены в каталоге клиента (Azure Active Directory (Azure AD)), чтобы им можно было назначить лицензии. Эти внешние пользователи должны быть добавлены к клиенту в Azure AD в качестве гостевых пользователей, а затем им назначаются соответствующие лицензии. Требование для приложений Finance and Operations состоит в том, что компания гостевого пользователя должна использовать Azure AD. Дополнительные сведения см. в разделе [Добавление пользователей сотрудничества Azure Active Directory B2B на портале Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Внешние пользователи должны быть представлены в каталоге клиента (Azure Active Directory (Azure AD)), чтобы им можно было назначить лицензии. Эти внешние пользователи должны быть добавлены к клиенту в Azure AD в качестве гостевых пользователей, а затем им назначаются соответствующие лицензии. Требование для приложений Finance and Operations состоит в том, что компания гостевого пользователя должна использовать Azure AD. Дополнительные сведения см. в разделе [Добавление пользователей сотрудничества Azure Active Directory B2B на портале Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Импорт новых пользователей из Azure AD 
 1. Перейдите в раздел **Администрирование системы** \> **Пользователь** \> **Пользователи**.
@@ -59,7 +57,7 @@ ms.locfileid: "4878665"
 7. В поле **Компания** выберите начальную компанию по умолчанию для пользователя. 
 8. Нажмите **Сохранить**.
 
-Значения для поставщика удостоверений и кода телеметрии будут обновлены на основе вызова [Microsoft Graph](https://docs.microsoft.com/graph/overview) при сохранении пользовательской записи. Идентификатор телеметрии основан на коде объекта пользователя/идентификаторе безопасности (SID) в Azure AD.
+Значения для поставщика удостоверений и кода телеметрии будут обновлены на основе вызова [Microsoft Graph](/graph/overview) при сохранении пользовательской записи. Идентификатор телеметрии основан на коде объекта пользователя/идентификаторе безопасности (SID) в Azure AD.
 
 > [!NOTE]
 > После добавления пользователя необходимо назначить требуемые роли и организации. Дополнительные сведения см. в разделе [Назначение пользователей для ролей безопасности](assign-users-security-roles.md). В зависимости от условий, может также потребоваться связать пользователя с **Физическим лицом** и обновить **Параметры пользователя**, такие как язык.
@@ -81,3 +79,6 @@ ms.locfileid: "4878665"
 Дополнительные параметры для реализации пользователей B2B см. в разделе [Экспорт пользователей B2B в Azure AD](../implement-b2b.md).
 
 Сведения о предварительно настроенных системных учетных записях см. в разделе [Предварительно настроенные системные учетные записи](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

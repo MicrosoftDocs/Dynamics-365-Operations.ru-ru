@@ -2,11 +2,9 @@
 title: Шаблоны спецификаций
 description: В шаблоне спецификации имеется стандартизированный список компонентов объектов сервисного обслуживания, которые регулярно обслуживаются.
 author: ShylaThompson
-manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 70b514aeed48180bb1b14be8b3d95d55d44d2ca8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965788"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824341"
 ---
 # <a name="template-boms"></a>Шаблоны спецификаций    
 
@@ -133,3 +131,6 @@ ms.locfileid: "4965788"
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

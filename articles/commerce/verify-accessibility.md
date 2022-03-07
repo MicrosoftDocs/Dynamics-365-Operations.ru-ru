@@ -2,36 +2,30 @@
 title: Проверка доступности контента страницы
 description: В этой теме описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4415364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748456"
 ---
 # <a name="verify-page-content-accessibility"></a>Проверка доступности контента страницы
-
 
 [!include [banner](includes/banner.md)]
 
 В этой теме описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 После того, как вы закончите менять страницу, вы должны убедиться, что контент доступен для всех в Интернете. В инструментах разработки Commerce вы можете легко проверить специальные возможности контента страницы с помощью интегрированной службы [Microsoft Accessibility Insights](https://accessibilityinsights.io/). Эта служба проверяет содержимое страницы в соответствии с последними руководящими принципами [Специальные возможности World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility).
 
@@ -85,3 +79,8 @@ ms.locfileid: "4415364"
 [Расширение возможностей страницы продукта](enrich-product-page.md)
 
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
+
+[Создание динамических страниц электронной коммерции на основе параметров URL-адреса](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

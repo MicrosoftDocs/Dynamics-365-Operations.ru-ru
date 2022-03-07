@@ -2,11 +2,9 @@
 title: Разбор входящих документов в формате Excel
 description: В этом теме приводятся сведения о разработке форматов электронной отчетности (ER) для разбора содержимого входящих файлов Microsoft Excel.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6e27806d3b94eb485705cec539a4849b81fbba91
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d4ebad1b800abe77871bfa3e550a95f1fe2bfcc4692301cf79fb8b98a0b3f233
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772921"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Разбор входящих документов в формате Excel
 
@@ -46,3 +44,6 @@ ms.locfileid: "4685795"
 | Описание содержания    | Хранилище файлов                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Конфигурация модели ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,26 @@
 title: Обзор подотчетных лиц
 description: Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 Finance.
 author: LizaGolub
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: 262574
+ms.custom:
+- "262574"
+- intro-internal
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ddc3b9ec0b7e1980cef97a97184d2639bc62901a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa2d0a09f0136be5e2f020e6a9f4e15f33f348b0
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408503"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337171"
 ---
 # <a name="advance-holders-overview"></a>Обзор подотчетных лиц
 
@@ -81,7 +80,7 @@ ms.locfileid: "4408503"
 
 ### <a name="create-an-advance-holder"></a>Создание подотчетного лица
 
-Перед создания подотчетного лица у вас уже должны быть настроены работники. Дополнительные сведения см. в разделе [Ввод сведений о работнике (руководство по задаче)](../../fin-and-ops/hr/tasks/enter-worker-information.md). 
+Перед создания подотчетного лица у вас уже должны быть настроены работники. Дополнительные сведения см. в разделе [Ввод сведений о работнике (руководство по задаче)](../../human-resources/hr-personnel-enter-worker-information.md). 
 
 1. Выберите **Расчеты с поставщиками** \> **Подотчетные лица** \> **Подотчетные лица**.
 
@@ -158,3 +157,6 @@ ms.locfileid: "4408503"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

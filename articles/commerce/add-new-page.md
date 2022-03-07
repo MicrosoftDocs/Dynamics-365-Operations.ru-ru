@@ -2,36 +2,30 @@
 title: Добавление новой страницы сайта
 description: В этом разделе описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415184"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090727"
 ---
 # <a name="add-a-new-site-page"></a>Добавление новой страницы сайта
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Следующим шагом после создания шаблонов и фрагментов для сайта является начало создания страниц, использующих их. Чтобы приступить к работе, необходимо выбрать шаблон или макет, имя страницы и URL-адрес страницы.
 
@@ -39,11 +33,11 @@ ms.locfileid: "4415184"
 
 Для новой страницы можно использовать либо шаблон, либо макет. Для получения дополнительных сведений см. раздел [Обзор шаблонов и макетов](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Имя страницы
+## <a name="specify-the-page-name"></a>Укажите имя страницы
 
-Имя страницы должно быть уникальным для страницы. Оно должно быть описательным, чтобы можно было легко найти его, и другие люди знали, для чего предназначена страница. Выберите имя страницы тщательно, так как позднее оно не может быть изменено.
+Имя страницы должно быть уникальным для сайта и должно быть описательным, чтобы его можно было легко найти и понять, для чего предназначена страница. Можно переименовать страницу позже, отредактировав ее, а затем выбрав символ "перо" рядом с именем страницы в области свойств.
 
-## <a name="page-url"></a>URL-адрес страницы
+## <a name="specify-the-page-url"></a>Укажите URL-адрес страницы
 
 Имеется возможность ввести URL-адрес для новой страницы. При создании страницы можно ввести строку, которая будет использоваться для формирования полного URL-адреса. Эта строка называется относительным URL-адресом или динамическим URL-адресом. Затем полный URL-адрес создается на основе динамического URL-адреса, и ему назначается новая страница. Можно изменить динамический URL-адрес позже, прежде чем опубликовать страницу. Дополнительные сведения см. в разделе [Создание URL-адреса страницы](create-page-URL.md).
 
@@ -90,4 +84,9 @@ ms.locfileid: "4415184"
 
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
 
-[Проверка специальных возможностей контента страницы](verify-accessibility.md)
+[Проверка доступности контента страницы](verify-accessibility.md)
+
+[Создание динамических страниц электронной коммерции на основе параметров URL-адреса](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

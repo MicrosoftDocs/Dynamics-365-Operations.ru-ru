@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: a5e627fcd8d25558d766cdf4d3b7c8d9c8544fb5476a978859e9e3ac83f6475c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718228"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023549"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Настройка групп компонентов подоходного налога для налогов типа TDS
 
@@ -31,7 +31,7 @@ ms.locfileid: "6718228"
 
 1. Перейдите **Налог \> Настройка \> Подоходный налог \> Группы компонентов подоходного налога**.
 
-    [![Страница "Группы компонентов подоходного налога".](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![Страница "Группы компонентов подоходного налога"](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. В поле **Тип налога** выберите **TDS**, чтобы настроить группы компонентов подоходного налога для типа налога TDS.
 3. На панели операций выберите **Создать** для создания строки.

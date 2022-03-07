@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f575a19f0244bc0694f67738f2c9402b8b033d9a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72dcd002d1a8e8999d7c3e34f40d855b5d05dde1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240555"
 ---
 # <a name="calculate-depreciation-for-russia"></a>Расчет амортизации для России
 
@@ -101,3 +100,6 @@ ms.locfileid: "4408581"
 
 - [Настройка амортизации (Россия)](rus-depreciation-setup.md)
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

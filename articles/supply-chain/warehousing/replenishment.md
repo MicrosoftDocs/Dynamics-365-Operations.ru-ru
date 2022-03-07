@@ -2,29 +2,28 @@
 title: Обзор пополнения
 description: В этой теме описываются стратегии пополнения, доступные для складов, использующих функциональные возможности, предусмотренные в модуле "Управление складом".
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 481656e9273c6dbaa04f50decb4614c74709b2b2f98d424ed9e1ea4c831b9c5f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723439"
 ---
 # <a name="replenishment-overview"></a>Обзор пополнения
 
@@ -79,3 +78,6 @@ ms.locfileid: "4654132"
 |   Директивы для мест хранения   |                                                       Директивы местонахождений являются обязательными для направления работы в местонахождения, в которых требуется пополнение, и местонахождения, из которых берутся запасы.                                                        |
 |     Шаблоны работ      |                                                   Шаблоны работы типа <strong>Пополнение</strong> являются обязательными для создания работы пополнения, чтобы запасы можно было переместить в нужные местонахождения.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

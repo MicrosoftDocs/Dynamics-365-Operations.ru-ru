@@ -2,11 +2,9 @@
 title: Навигационный поиск
 description: Этот раздел описывает порядок использования функции поиска для навигации к страницам.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799117"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344406"
 ---
 # <a name="navigation-search"></a>Навигационный поиск
 
@@ -36,7 +34,7 @@ ms.locfileid: "4799117"
 > [!NOTE]
 > Поле **Поиск** помогает находить страницы и переходить к ним. С его помощью невозможно найти определенные данные или действия.
 
-[![поле-поиска](media/navigation-search.png "Поле поиска")
+![поле поиска.](media/navigation-search.png "Поле поиска")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Быстрый переход на определенную страницу
 
@@ -62,3 +60,6 @@ ms.locfileid: "4799117"
 ## <a name="development"></a>Разработка
 
 С точки зрения разработки функцию навигационного поиска легко использовать, поскольку отсутствует задержка между развертыванием пунктов меню и их способностью отображаться в результатах поиска. Пока пункты меню связаны с областью перехода или панелью мониторинга, они автоматически становятся доступны для поиска.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

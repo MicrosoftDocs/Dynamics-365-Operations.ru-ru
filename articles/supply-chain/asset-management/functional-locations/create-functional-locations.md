@@ -1,12 +1,10 @@
 ---
 title: Создание функциональных местоположений
 description: В этом разделе объясняется, как создавать функциональные местоположения в управлении активами.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767541"
 ---
 # <a name="create-functional-locations"></a>Создание функциональных местоположений
 
@@ -131,3 +129,6 @@ ms.locfileid: "5018229"
 
 >[!NOTE]
 >Если вы не можете удалить функциональное местоположение, вместо этого вы можете выполнить удаление, настроив для этой цели состояние жизненного цикла функционального местоположения. Например, можно настроить стадию "Списано" или "Удалено", которая не должна быть активной стадией, в форме **Состояния жизненного цикла функционального местоположения**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

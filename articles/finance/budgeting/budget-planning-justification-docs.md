@@ -2,11 +2,9 @@
 title: Документы обоснования бюджетного плана
 description: Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ca0c291b5d446325f6be6b6bed612bd26e7c640
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 546c1e430f97416a4d3ee085781a0972d4c5a6a6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827514"
 ---
 # <a name="budget-planning-justification-documents"></a>Документы обоснования бюджетного плана
 
@@ -71,3 +69,6 @@ ms.locfileid: "5019211"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

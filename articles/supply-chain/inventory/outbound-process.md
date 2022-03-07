@@ -1,9 +1,9 @@
 ---
 title: Обзор исходящих процессов
 description: В этой теме приведен обзор исходящего процесса в модуле "Управление запасами".
-author: yufeihuang
+author: perlynne
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 85012ada693a98652325a142ba4649a9a826b22b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982387"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348813"
 ---
 # <a name="outbound-process-overview"></a>Обзор исходящих процессов
 

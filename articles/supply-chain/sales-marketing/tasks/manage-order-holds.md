@@ -1,24 +1,26 @@
 ---
 title: Управление удержаниями заказов
 description: В этой процедуре показано, как заблокировать заказы на продажу клиента, как работать с извлеченными удержаниями заказов и как снять блокировку заказов.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 938b21b66b7b61452be104936877278a3bc120f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 27a5149812a8e478dae1d2385e6c139c9f635202
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010755"
 ---
 # <a name="manage-order-holds"></a>Управление удержаниями заказов
 
@@ -67,6 +69,3 @@ ms.locfileid: "7566300"
     - Действие **Очистить и отправить** применяется только при использовании функции центра обработки вызовов.  
 8. Нажмите кнопку **Снять удержания**. Удержание теперь снято из заказа и удалено из списка активных удержаний. Для просмотра всех удержаний или их подмножества в соответствии с конкретным статусом измените значение в поле "Показать".     
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

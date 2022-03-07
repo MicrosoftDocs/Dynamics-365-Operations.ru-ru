@@ -1,38 +1,38 @@
 ---
 title: Домашняя страница основных средств
-description: Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование.
-author: ShylaThompson
-manager: AnnBe
+description: В этом разделе представлены ресурсы, которые могут помочь в использовании основных средств в Microsoft Dynamics 365 Finance.
+author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: roschlom
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969085"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674859"
 ---
 # <a name="fixed-assets-home-page"></a>Домашняя страница основных средств
 
 [!include [banner](../includes/banner.md)]
 
-Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование. 
+В этом разделе представлены ресурсы, которые могут помочь в использовании основных средств в Microsoft Dynamics 365 Finance. Основные средства — это имеющие стоимость объекты, которыми владеет человек или организация. К ним относятся здания, транспортные средства, земля и оборудование. 
 
 Для ОС можно настроить и ввести сведения о приобретении, а затем управлять основными средствами путем их амортизации и задавая порог капитализации для амортизации. Вы можете рассчитывать корректировки стоимости основных средств, а также учитывать их выбытие. При использовании главной книги с основными средствам вы можете видеть текущую стоимость всех основных средств. Порядок обработки ОС должен соответствовать как международным, так и принятым в конкретных стране или регионе правилам учета ОС. Требования к ОС могут содержать правила записи проводок приобретения и реализации, амортизации, жизненного цикла, а также повышения/понижения стоимости ОС. Функции ОС отвечают большинству из указанных требований.
 
-[![Бизнес-процесс](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Бизнес-процесс.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
@@ -40,7 +40,7 @@ ms.locfileid: "4969085"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](/dynamics365/release-plans/), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="blogs"></a>Блоги
 
@@ -60,3 +60,6 @@ ms.locfileid: "4969085"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

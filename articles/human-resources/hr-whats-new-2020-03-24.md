@@ -1,8 +1,8 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (24 марта 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 24 марта 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 22c5e83a7f180a340e98b81a197daa95d3569cc3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526930"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463702"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (24 марта 2020 г.)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -59,7 +61,7 @@ ms.locfileid: "4526930"
 
 - **Функция предварительного просмотра управления льготами** — дополнительные сведения, включая известные проблемы, см. в разделе [Обзор управления преимуществами](hr-benefits-management-overview.md).
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Решение Common Data Service теперь доступно со следующими изменениями:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Решение Dataverse теперь доступно со следующими изменениями:
 
 | описание | Изменение |
 | --- | --- |
@@ -71,12 +73,12 @@ ms.locfileid: "4526930"
 | Новые объекты настройки переменной компенсации | <ul><li>**Тип плана переменной компенсации**</li><li>**План переменной компенсации**</li><li>**Положения о передаче прав на льготы**</li><li>**Уровень плана переменной компенсации**</li></ul> |
 | Новый объект **Занятость по календарю работников** | <ul><li>Добавлено **Объект рабочего календаря**</li></ul> |
 | Новый объект **Сведения о позиции зарплаты** | <ul><li>Добавлено **Сведения о позиции зарплаты**</li></ul> |
-| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Common Data Service, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
+| Новый объект **Заголовок** | <ul><li>Добавлен **Заголовок**</li></ul>Новый объект **Заголовок** включен в Dataverse, но не упоминается в сущностях **Должностное положение** или **Должность** в данный момент. |
 
 > [!NOTE]
-> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Common Data Service. Обновления финансовых аналитик в данный момент не синхронизируются из Common Data Service в модуль Human Resources.
+> Финансовые аналитики для должностей и трудоустройства обеспечивают однонаправленную интеграцию для обновлений из модуля Human Resources в Dataverse. Обновления финансовых аналитик в данный момент не синхронизируются из Dataverse в модуль Human Resources.
 
-В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Common Data Service для модуля Human Resources:
+В течение следующих нескольких недель эти изменения объекта будут доступны во всех средах. Чтобы вручную установить последнюю версию решения Dataverse для модуля Human Resources:
 
 1.  Перейдите к [Центру администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -122,3 +124,5 @@ ms.locfileid: "4526930"
 [Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

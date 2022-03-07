@@ -1,21 +1,23 @@
 ---
 title: Интеграция закупок между Supply Chain Management и Field Service
 description: В этой теме описывается, как интеграция двойной записи поддерживает создание и обновления заказов на покупку из Supply Chain Management и Field Service.
-author: RamaKrishnamoorthy
+author: RichardLuan
 ms.date: 11/11/2020
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783291"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219795"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Интеграция закупок между Supply Chain Management и Field Service
 
@@ -29,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет над
 
 На следующем рисунке показаны таблицы в обеих системах и они сопоставляются друг с другом. Заказы на покупку в Field Service ссылаются на строку *счета*, тогда как заказы на покупку в Supply Chain Management ссылаются на строку *поставщика*. Для разрешения интеграции двойная запись использует ссылку, чтобы связать строки *поставщика* со строками *счетов*. Дополнительные сведения см. в разделе [Интегрированный справочник поставщиков](vendor-mapping.md).
 
-![Сопоставления для закупки.](media/scm-field-service-tables.png)
+![Сопоставления для закупки](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Необходимые условия
 

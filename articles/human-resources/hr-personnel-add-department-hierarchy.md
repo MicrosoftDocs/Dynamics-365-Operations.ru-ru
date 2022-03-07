@@ -2,7 +2,7 @@
 title: Создание подразделений и включение их в иерархию подразделений
 description: Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 723e46f98545e80551da9f79b6aeffc3eca48830
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420175"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466022"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Создание подразделений и включение их в иерархию подразделений
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки.
 
@@ -54,3 +56,6 @@ ms.locfileid: "4420175"
 
 ## <a name="steps-for-creating-a-department"></a>Шаги для создания подразделения
 Описание пошаговой процедуры создания нового подразделения см. в статье [Определение новых подразделений](../fin-and-ops/hr/tasks/define-new-departments.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

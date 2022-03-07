@@ -1,7 +1,7 @@
 ---
 title: Опасные материалы в продуктах, заказах, отгрузках и загрузках
 description: В этой теме объясняется, как задать свойства опасных материалов для выпущенных продуктов, как разместить лимиты запасов для опасных номенклатур и как включать опасные материалы в заказ на продажу, отгрузку или загрузку.
-author: t-benebo
+author: dasani-madipalli
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 0bf4ff2188d98adb0052e40a77ff899d4da28063b042947bf124042dfa3fb8cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758528"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Опасные материалы в продуктах, заказах, отгрузках и загрузках
 

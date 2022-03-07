@@ -2,26 +2,23 @@
 title: Регистр отсроченных расходов
 description: Этот раздел обеспечивает информацию, как создать и настроить расходы будущих периодов.
 author: Akroshkina
-manager: anasyash
-ms.date: 11/11/2020
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 87c6843613e4a4dbdea10fd0d18b0766af1f2e04
-ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
+ms.openlocfilehash: 03c0d2b101143d00bf1fa1556fe7f8704437b312
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4515149"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386601"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 
@@ -44,7 +41,7 @@ ms.locfileid: "4515149"
 
 ## <a name="deferrals-setup"></a>Настройка расходов будущих периодов
 
-Дополнительные сведения о настройке расходов будущих периодов см. в разделе [Настройка расходов будущих периодов (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-set-up-deferrals).
+Дополнительные сведения о настройке расходов будущих периодов см. в разделе [Настройка расходов будущих периодов (Россия)](./rus-set-up-deferrals.md).
 
 ### <a name="set-up-deferral-creation-when-you-sell-fixed-assets"></a>Настройка создания РБП при продаже основных средств
 
@@ -92,7 +89,7 @@ ms.locfileid: "4515149"
 
 ### <a name="set-up-the-deferrals-register"></a>Настройка регистра для расходов будущих периодов
 
-Настройте регистр РБП, следуя указаниям в журнале регистров налога на прибыль. В поле **Тип регистра** выберите **Расходы будущих периодов**.
+Настройте регистр РБП, следуя указаниям в теме [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md#create-a-tax-register). В поле **Тип регистра** выберите **Расходы будущих периодов**.
 
 ### <a name="examples"></a>Примеры
 
@@ -288,3 +285,6 @@ ms.locfileid: "4515149"
 
 17. Утвердите журнал, затем создайте журнал налоговых регистров для двух месяцев 2019 календарного года.
 18. Рассчитайте регистры. В регистре **Расходы будущих периодов** должна отобразиться та же строка, которая была показана в регистре **Расходы будущих периодов** за один месяц. Однако в поле **Сумма месяцев** будет установлено значение **2,00** вместо **1,00**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

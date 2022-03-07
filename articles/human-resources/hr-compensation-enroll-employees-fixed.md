@@ -2,28 +2,27 @@
 title: Включение сотрудника в план фиксированных компенсаций
 description: Менеджер по компенсациям и льготам может назначить сотрудников планам фиксированной компенсации для управления их базовой заработной платой.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3029e52a7cc1fb6dfda390f5d892c89f1eda8509
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1858987430c60f93c47750d2703024b1676cb4916092519f3440685964c6aa55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732521"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Включение сотрудника в план фиксированных компенсаций
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Менеджер по компенсациям и льготам может назначить сотрудников планам фиксированной компенсации для управления их базовой заработной платой. Эта процедура предполагает, что фиксированный план создан и активен и что правила приемлемости для плана заданы. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Чтобы начать процедуру, перейдите в раздел "Управление персоналом" > "Работники" > "Сотрудники" > "Компенсация" > "Фиксированный план".
 
@@ -39,3 +38,6 @@ ms.locfileid: "4420224"
     * Если план фиксированной компенсации является пошаговым планом, выберите шаг, содержащий правильную ставку оплаты для сотрудника. Если план фиксированной компенсации является ступенчатым или ленточным планом, введите ставку оплаты для сотрудника. Ставка оплаты будет утверждена согласно настроек допуска для плана, а также минимальной и максимальной опорных точек для уровня компенсации задания.  
 8. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

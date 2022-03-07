@@ -1,28 +1,29 @@
 ---
 title: Обзор налога
 description: Этот раздел содержит обзор системы налогов. Она описывает элементы настройки налогов и как они работают вместе.
-author: kailiang
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/28/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13111"
-- intro-internal
+ms.search.scope: Core, Operations, Retail
+ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983936"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447254"
 ---
 # <a name="sales-tax-overview"></a>Обзор налога
 
@@ -30,13 +31,14 @@ ms.locfileid: "7983936"
 
 Этот раздел содержит обзор системы налогов. Она описывает элементы настройки налогов и как они работают вместе.
 
-## <a name="overview"></a>Обзор
+<a name="overview"></a>Обзор
+--------
 
 Платформа налога поддерживает множество типов косвенных налогов, таких как налог на продажу, налог на добавленную стоимость (НДС), налог на товары и услуги (GST), основанные на единицах сборы и подоходный налог. Эти налоги рассчитываются и документируются во время проводок покупки и продажи. Периодически по ним необходимо отправлять налоговые отчеты и выплачивать налоги в налоговые органы. 
 
 На следующей диаграмме представлены объекты настройки налога и их связи.
 
-[![Диаграмма с обзором объектов настройки налога.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Диаграмма с обзором объектов настройки налога](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Для каждого налога, который должна выплачивать компания, необходимо определить налоговый код. Налоговый код хранит налоговые ставки и правила расчета налога. 
 
@@ -95,6 +97,3 @@ ms.locfileid: "7983936"
 Если в качестве способа оплаты используется чек, датированный будущим числом, то при создании платежа банковский счет не очищается. В некоторых странах НДС становится "реализованной" задолженностью, когда платеж очищает банк, то есть чек, датированный будущим числом, сопоставлен. Это можно включить, выбрав параметр **реализовать условный налог при выписке чеков, датированных будущим числом** в **Управление банком и кассовыми операциями > Настройка > Параметры управления банком и кассовыми операциями > Чеки, датированные будущим числом**.
 
 Дополнительные сведения см. в разделе [Настройка подоходного налога](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

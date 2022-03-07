@@ -1,16 +1,13 @@
 ---
 title: Модуль "гармошка"
-description: В этом разделе описываются модули гармошки, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+description: В этом разделе описываются модули "гармошка", а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719535"
 ---
 # <a name="accordion-module"></a>Модуль "гармошка"
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются модули гармошки, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
+В этом разделе описываются модули "гармошка", а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 
 Модули "гармошка" являются модулями, аналогичными контейнерам, которые используются для упорядочения информации или модулей на странице путем создания свертываемых функций, аналогичных кассовым ящикам. Модуль "гармошка" может использоваться на любой странице.
 
@@ -39,7 +34,7 @@ ms.locfileid: "4415156"
 
 На следующем рисунке показан пример модуля "гармошка", который используется для упорядочения информации на странице часто задаваемых вопросов о магазине.
 
-![Пример модуля "гармошка"](./media/ecommerce-accordion.PNG)
+![Пример модуля "гармошка".](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Свойства модуля "гармошка"
 
@@ -87,3 +82,6 @@ ms.locfileid: "4415156"
 [Модуль вкладок](add-tab.md)
 
 [Модуль текстового блока](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

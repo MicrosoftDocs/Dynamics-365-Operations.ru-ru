@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102896"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351425"
 ---
 # <a name="outbound-workload-visualization"></a>Визуализация исходящей рабочей нагрузки
 
@@ -27,9 +27,12 @@ ms.locfileid: "8102896"
 
 Эта функция может использоваться для отслеживания хода работы по комплектации. Эта функция интегрирована с модулем управления персоналом, и если управление персоналом настроено, визуализации исходящих рабочих нагрузок могут показать расчетное количество часов, остающихся для операции комплектации, которая отображается (отфильтрована).
 
-## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Включение или отключение функции визуализации исходящей рабочей нагрузки
+## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Включение функции визуализации исходящей рабочей нагрузки
 
-В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Визуализация исходящей рабочей нагрузки* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [Управление компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+
+- **Модуль:** *Управление складом*
+- **Имя функции:** *Визуализация исходящей рабочей нагрузки*
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Настройка визуализаций исходящей рабочей нагрузки
 

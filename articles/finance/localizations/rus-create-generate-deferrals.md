@@ -2,11 +2,9 @@
 title: Создание или генерация РБП (Россия)
 description: В этом разделе объясняется, как вручную создавать РБП и как их генерировать с помощью периодической задачи.
 author: anasyash
-manager: AnnBe
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 337dba5c5582c05c7b8b57557871fb8e71627175
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b77fa7276d7b172f5cd3e4fba3e00e3c75b470f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354991"
 ---
 # <a name="create-or-generate-deferrals-russia"></a>Создание или генерация РБП (Россия)
 
@@ -42,27 +40,27 @@ ms.locfileid: "4962570"
     - **Стандарт** — обработка входящего НДС для счетов-фактур, связанных с расходами будущих периодов с использованием стандартного метода вычета НДС.
     - **Пропорциональный** — обработка входящего НДС для счетов-фактур, связанных с расходами будущих периодов с использованием пропорционального метода вычета НДС.
 
-    ![Страница РБП](media/rus-create-generate-deferrals-01.png)
+    ![Страница РБП.](media/rus-create-generate-deferrals-01.png)
 
 9. На панели операций на вкладке **Расходы будущих периодов** в группе **Книги** выберите **Модели РБП**, чтобы открыть страницу **Модели РБП**.
 10. Определите модель РБП, которая должна быть применена для РБП.
 
-    ![Страница моделей РБП](media/rus-create-generate-deferrals-02.png)
+    ![Страница моделей РБП.](media/rus-create-generate-deferrals-02.png)
 
 11. На панели операций выберите **Проводки**, чтобы открыть страницу **Проводки по РБП**.
 12. Просмотрите проводки, связанные с выбранной моделью для РБП, а затем закройте страницу.
 
-    ![Страница проводок по РБП](media/rus-create-generate-deferrals-03.png)
+    ![Страница проводок по РБП.](media/rus-create-generate-deferrals-03.png)
 
 13. На странице **Модели РБП** на панели операций выберите **Баланс**, чтобы открыть страницу **Баланс по РБП**.
 14. Просмотрите балансы, связанные с выбранной моделью для РБП, а затем закройте страницу.
 
-    ![Страница балансов по РБП](media/rus-create-generate-deferrals-04.png)
+    ![Страница балансов по РБП.](media/rus-create-generate-deferrals-04.png)
 
 15. На странице **Модели РБП** на панели операций выберите **Сумма списания**, чтобы открыть страницу **Профиль списания расходов будущего периода**.
 16. На панели операций выберите **Рассчитать** для рассмотрения рассчитанных сумм списания, которые связаны с выбранной моделью для РБП.
 
-    ![Страница профиля списания РБП](media/rus-create-generate-deferrals-05.png)
+    ![Страница профиля списания РБП.](media/rus-create-generate-deferrals-05.png)
 
 ## <a name="generate-deferrals-by-using-a-periodic-task"></a>Создание РБП с помощью периодической задачи
 
@@ -110,4 +108,7 @@ ms.locfileid: "4962570"
 
 Для просмотра вручную и автоматически созданных РБП перейдите к пункту **Главная книга > РБП > РБП**.
 
-![Страница РБП, список РБП](media/6_Deferrals.png)
+![Страница РБП, список РБП.](media/6_Deferrals.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

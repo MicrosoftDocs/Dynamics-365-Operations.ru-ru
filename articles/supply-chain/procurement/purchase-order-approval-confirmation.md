@@ -1,12 +1,10 @@
 ---
 title: Утверждение и подтверждение заказов на покупку
 description: В этой теме описываются статусы, через которые проходит заказ на покупку после его создания, и влияние включения управления изменениями в заказе на покупку.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018453"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188300"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Утверждение и подтверждение заказов на покупку
 
@@ -85,8 +83,7 @@ ms.locfileid: "5018453"
 
 Если заказ на покупку находится в управлении изменениями, любое изменение, например отмена заказа или остатка к поставке, должно быть отправлено в систему workflow-процесса и утверждено, прежде чем процесс может быть завершен, и складские проводки могут быть обновлены как отмененные.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор заказа на покупку](purchase-order-overview.md)
 
@@ -98,3 +95,6 @@ ms.locfileid: "5018453"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

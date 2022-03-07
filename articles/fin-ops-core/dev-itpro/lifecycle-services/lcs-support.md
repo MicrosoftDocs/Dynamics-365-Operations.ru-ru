@@ -2,11 +2,9 @@
 title: Поддержка приложений Finance and Operations и Lifecycle Services (LCS)
 description: В этой теме объясняется, как получить помощь по работе с приложениями Finance and Operations или Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680000"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753886"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Поддержка приложений Finance and Operations и Lifecycle Services (LCS)
 
@@ -68,3 +66,6 @@ ms.locfileid: "4680000"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

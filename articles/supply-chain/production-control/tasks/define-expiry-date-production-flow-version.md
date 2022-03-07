@@ -1,25 +1,28 @@
 ---
 title: Определение даты окончания срока действия для версии производственного потока
 description: Чтобы завершить срок действия и обработку версии производственного потока на определенную дату или запланировать замену активной версии новой версией, необходимо задать дату окончания для версии.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f6ee9177664767c31eaa3e9b65d7559a1a9662f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574433"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435743"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Определение даты окончания срока действия для версии производственного потока
 
@@ -38,6 +41,3 @@ ms.locfileid: "7574433"
 6. В поле "Дата окончания срока действия" введите дату и время.
     * Для даты окончания срока действия новая версия не начнется и не станет активной. Также будет невозможно создавать или запускать задания для данного производственного потока. Тем не менее можно завершать запущенные задания после окончании срока действия.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

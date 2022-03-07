@@ -2,11 +2,9 @@
 title: Пакет содержимого Power BI для управления затратами
 description: В этой теме описывается, что входит в содержимое Power BI для управления затратами.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683903"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752648"
 ---
 # <a name="cost-management-power-bi-content"></a>Пакет содержимого Power BI для управления затратами
 
@@ -32,11 +30,6 @@ ms.locfileid: "4683903"
 ## <a name="overview"></a>Обзор
 
 Содержимое Microsoft Power BI **Управление затратами** предназначено для бухгалтеров по складскому учету или сотрудников в организации, которые отвечают за или заинтересованы в статусе запасов или незавершенного производства (НЗП), или которые отвечают за или заинтересованы в анализе расхождений стандартной себестоимости.
-
-> [!NOTE]
-> Содержимое Power BI **Управление затратами**, описываемое в этой теме, относится к Dynamics 365 Finance and Operations 8.0.
-> 
-> Пакет содержимого Power BI **Управление затратами**, доступный на сайте AppSource, является устаревшим. Дополнительные сведения об устаревании см. в разделе [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Это содержимое Power BI предоставляет формат по категориям, который помогает контролировать эффективность запасов и визуально отображать, как через них проходят затраты. Можно получить аналитику для менеджеров, такую как коэффициент товарооборота, количество дней, когда запасы находятся в наличии, точность и "ABC-классификация" на требуемом уровне обобщения (компания, номенклатура, номенклатурная группа или место). Информация, которая становится доступна, может также использоваться как подробное приложение к финансовой отчетности.
 
@@ -207,3 +200,6 @@ ms.locfileid: "4683903"
 | Юридические лица                                          | Названия юридических лиц                              |
 | Финансовые календари                                        | Финансовый календарь, Год, Квартал, Период, Месяц   |
 | Узел                                                    | Идентификатор, Имя, Адрес, Регион, Страна               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

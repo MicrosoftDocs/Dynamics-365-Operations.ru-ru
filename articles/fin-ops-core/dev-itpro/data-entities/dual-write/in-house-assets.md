@@ -2,11 +2,9 @@
 title: Внутренние активы для обслуживания
 description: В этом разделе описывается, как можно использовать Microsoft Dynamics 365 Field Service для обслуживания как клиентских активов, так и внутренних активов.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684013"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748601"
 ---
 # <a name="in-house-assets-for-servicing"></a>Внутренние активы для обслуживания
 
@@ -76,3 +74,6 @@ Microsoft Dynamics 365 Field Service разработано для обслуж�
 [!include [models](includes/AssetManagementModels-msdyn-models.md)]
 
 [!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

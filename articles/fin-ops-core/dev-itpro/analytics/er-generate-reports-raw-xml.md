@@ -2,9 +2,11 @@
 title: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
 description: Можно разработать форматы электронной отчетности (ER) , которые создают исходящие документы в формате XML.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 160f27f4f44ab6982addb7294db889e2a8dbfcfbc03f7849548c44364b070aa9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 824d6bdf53cacbd81004a009e4019b5ab7e5cff0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749688"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686736"
 ---
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Формирование отчетов путем добавления содержимого в виде исходного XML-документа
 
@@ -35,6 +37,3 @@ ms.locfileid: "6749688"
 > Имейте в виду, что структура не контролирует правильность содержимого XML, помещенного в созданный документ, с помощью элемент формата **ИСХОДНОГО XML**.
 
 Для получения дополнительных сведений о данной функции, воспроизведите проводники по задаче **ER использует исходные данные XML для создания отчетов XML (часть 1: разработка модели данных)** и **ER использует исходные данные XML для создания отчетов XML (часть 2: разработка и выполнение отчета)** которые являются частью бизнес-процесса **7.5.4.3 Приобретение/разработка компонентов ИТ-услуг и решений (10677)** и могут быть загружены из [центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=874684). Эти задачи проводники по задаче описывают процесс настройки формата ER для вставки исходных данных XML в созданные файлы.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

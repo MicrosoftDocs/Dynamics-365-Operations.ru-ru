@@ -1,12 +1,10 @@
 ---
 title: Созданные вручную заказы на работу
 description: В этом разделе описывается, как вручную создавать заказы на работу в управлении активами.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750108"
 ---
 # <a name="manually-created-work-orders"></a>Созданные вручную заказы на работу
 
@@ -113,7 +111,7 @@ ms.locfileid: "5017876"
 
 На приведенном ниже рисунке показан пример диалогового окна **Создать связанный заказ на работу**.
 
-![Рисунок 1](media/03-work-orders.png)
+![Рисунок 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Если была настроена маска связанного заказа на работу в **Параметры управления активами** >  вкладка **Заказы на работу** > поле **Маска связанных заказов на работу**, коды заказов на работу будут созданы в соответствии с настройкой маски. Если не была настроена никакая маска связанного заказа на работу, то для связанных заказов на работу используется следующий доступный код заказа на работу.
@@ -139,7 +137,7 @@ ms.locfileid: "5017876"
 
 На приведенном ниже рисунке показан пример диалогового окна **Копировать заказ на работу**.
 
-![Рисунок 2](media/04-work-orders.png)
+![Рисунок 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Создание заказа на работу на основе запроса на обслуживание
@@ -159,9 +157,12 @@ ms.locfileid: "5017876"
 
 На приведенном ниже рисунке показан пример диалогового окна **Создание заказа на работу**.
 
-![Рисунок 3](media/05-work-orders.png)
+![Рисунок 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Если вы хотите, чтобы заказы на работу создавались автоматически, вы можете запланировать задания плана обслуживания или настроить "Автосоздание" [планы обслуживания](../preventive-and-reactive-maintenance/maintenance-plans.md) или [циклы обслуживания](../preventive-and-reactive-maintenance/maintenance-rounds.md) по активу. Заказы на работу, созданные на основе запросов на обслуживание на странице списка **Весь график обслуживания**, имеют типы заданий обслуживания, выбранные в запросах на обслуживание.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

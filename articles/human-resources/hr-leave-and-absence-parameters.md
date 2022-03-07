@@ -1,33 +1,32 @@
 ---
 title: Настройка параметров отпусков и отсутствий
-description: Определение параметров управления персоналом для отпусков и отсутствия в Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: В этой теме описывается, как определить параметры управления персоналом для отпусков и отсутствия в Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4420331"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728865"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Настройка параметров отпусков и отсутствий
 
-Прежде чем настраивать планы отпусков и отсутствия в Dynamics 365 Human Resources, рекомендуется проверить настройки для всех соответствующих параметров модуля управления персоналом, включая следующие:
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Прежде чем настраивать планы отпусков и отсутствия в Dynamics 365 Human Resources, рекомендуется проверить настройки для всех соответствующих **параметров управления персоналом**, включая следующие:
 
 - Номерная серия для запросов отпусков
 - Параметры Family Medical and Leave Act (FMLA)
@@ -75,7 +74,7 @@ ms.locfileid: "4420331"
 
     - Выберите **Расчет сальдо** для отображения сальдо по состоянию на сегодня или по состоянию на период начисления. Если выбрано значение **Сальдо на текущий день**, сальдо отображает общую сумму всех начислений, корректировок и запросов по состоянию на сегодня. Если выбрано значение **Сальдо на период начисления**, сальдо отображает общую сумму всех начислений, корректировок и запросов за период начисления, определенный частотой в плане отпусков. 
 
-    - Задайте время начала для пакетного задания переноса истечения срока действия.  
+    - Задайте **Время начала** для пакетного задания **Перенос истечения срока действия**.  
     
     - Выберите **Да** для параметров **Разрешить сотрудникам покупать отпуск** и **Разрешить сотрудникам продавать отпуск**. Если для этих параметров выбрано значение **Да**, можно создать политики покупки и продажи, позволяющие сотрудникам отправлять запросы на покупку и продажу отпуска.
 
@@ -92,3 +91,6 @@ ms.locfileid: "4420331"
 ## <a name="see-also"></a>См. также
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

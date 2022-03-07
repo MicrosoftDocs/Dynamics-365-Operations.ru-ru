@@ -2,28 +2,25 @@
 title: Домашняя страница модуля Supply Chain Management
 description: На этой странице представлен список разделов справки и другие ресурсы для функций Supply Chain Management.
 author: kamaybac
-manager: tfehr
-ms.date: 06/30/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06babeb7784c4bb9f67dd5d4fda1647926f20461
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459822"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337656"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -89,8 +86,7 @@ ms.locfileid: "4459822"
   - [Конфигуратор продукции в Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Управление складом:**
   - [Эффективное использование системы управления складом](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Метки в новой системе управления складом Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
-  - [Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства](https://www.youtube.com/embed/QUxXUrN-7n4)
+  - [Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Видеоролики по управлению производством:**
   - [Операции субподряда и мероприятий производства](https://youtu.be/y1jrd3A_k70)
 - **Видеоролики по управлению транспортировкой:**
@@ -98,13 +94,16 @@ ms.locfileid: "4459822"
 
 ## <a name="blogs"></a>Блоги
 
-В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
+В [блоге группы исследований производства Dynamics AX](/archive/blogs/axmfg/) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) есть множество тем о производстве и Supply Chain Management. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
 ## <a name="white-papers"></a>Технические документы
 
-- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](/dynamics/s-e/)
 - [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

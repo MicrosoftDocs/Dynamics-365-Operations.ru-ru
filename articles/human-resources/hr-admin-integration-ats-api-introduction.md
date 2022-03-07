@@ -2,34 +2,32 @@
 title: Введение в интерфейс API интеграции системы отслеживания кандидатов
 description: В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС).
 author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.custom: intro-internal
+ms.reviewer: anbichse
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069940"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5125601"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Введение в интерфейс API интеграции системы отслеживания кандидатов
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС). Целью API является обеспечение оптимизации интеграции между Dynamics 365 Human Resources и партнерскими системами ATS.
 
-![Поток интеграци ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
+![Поток интеграци ATS](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Интегрированный опыт начинается в модуле Human Resources, когда менеджер по найму создает запрос на прием на работу. Когда запрос активирован, ATS извлекает сведения о запросе для создания проекта набора персонала. Затем она следует конвейеру набора персонала, чтобы выбрать и нанять кандидата на должности. Наконец, ATS выполняет обратную интеграцию, отправляя запись выбранного кандидата в модуль Human Resources. Затем запись кандидата может пройти несколько проверок адаптации и рабочих процессов для создания записи сотрудника.
 
@@ -47,21 +45,21 @@ ms.locfileid: "8069940"
 
 Дополнительные общие сведения о веб-API Microsoft Dataverse см. в разделах:
 
-- [Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
-- [Использование веб-API Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)
-- [Руководство разработчика Microsoft Dataverse](/powerapps/developer/data-platform)
+- [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+- [Использование веб-API Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
+- [Руководство разработчика Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform)
 
-В приведенной выше документации содержится информация и руководство разработчика по использованию веб-API Dataverse, например, [управление проверкой подлинности](/powerapps/developer/data-platform/webapi/authenticate-web-api), [выполнение операций](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [использование Postman с помощью API](/powerapps/developer/data-platform/webapi/use-postman-web-api) и [использование маркеров отслеживания изменений или разностного изменения](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) с API.
+В приведенной выше документации содержится информация и руководство разработчика по использованию веб-API Dataverse, например, [управление проверкой подлинности](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [выполнение операций](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [использование Postman с помощью API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) и [использование маркеров отслеживания изменений или разностного изменения](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) с API.
 
 ### <a name="option-sets"></a>Наборы параметров
 
-Модель данных для интерфейса API интеграции ATS, описанная в данном документе, включает наборы параметров, которые предоставляют перечисляемые значения, связанные со свойствами сущностей. Подробные сведения о работе с наборами параметров в веб-API Dataverse см. в разделе [Создание и обновление наборов параметров с помощью веб-API](/powerapps/developer/data-platform/webapi/create-update-optionsets). Наборы параметров определяются для каждой среды Dataverse.
+Модель данных для интерфейса API интеграции ATS, описанная в данном документе, включает наборы параметров, которые предоставляют перечисляемые значения, связанные со свойствами сущностей. Подробные сведения о работе с наборами параметров в веб-API Dataverse см. в разделе [Создание и обновление наборов параметров с помощью веб-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). Наборы параметров определяются для каждой среды Dataverse.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Виртуальные таблицы для Human Resources в Dataverse
 
 Конечные точки для API интеграции ATS используют возможности платформы виртуальных таблиц Microsoft Dataverse. По умолчанию виртуальные таблицы и связанные с ними конечные точки API не развертываются для сред Human Resources, позволяя организациям определять, какие конечные точки OData будут доступны для данной среды. Для использования API-интерфейса необходимо создать виртуальные таблицы для сущностей Human Resources для данной среды. 
 
-Сведения о создании виртуальных таблиц для API см. в разделе [Настройка виртуальных таблиц Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
+Сведения о создании виртуальных таблиц для API см. в разделе [Настройка виртуальных таблиц Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
 ## <a name="data-model"></a>Модель данных
 
@@ -72,7 +70,7 @@ ms.locfileid: "8069940"
 
 На следующей схеме показаны отношения внутри API. У нескольких типов есть внешние ключи для других, ранее существующих сущностей в модуле Human Resources, которые здесь не иллюстрируются. В этом документе приводятся сведения о сущностях, предназначенных специально для сценариев интеграции набора персонала. Однако в веб-API Dataverse для Dynamics 365 Human Resources имеется множество других сущностей, которые также могут быть связаны с интеграцией. Например, можно также получить сведения о работниках, заданиях, должностях или других сущностях, не определенных здесь. Многие из этих сущностей упоминаются в отношениях внешнего ключа или свойствах навигации.
 
-![Модель данных API интеграции ATS.](media/hr-admin-integration-ats-api-data-model.png)
+![Модель данных API интеграции ATS](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Запрос набора персонала и связанные сущности и наборы параметров
 
@@ -123,12 +121,12 @@ ms.locfileid: "8069940"
 - [Пусто Да Нет](hr-admin-integration-ats-api-blank-yes-no.md)
 - [Статус выполнения](hr-admin-integration-ats-api-completion-status.md)
 - [Тип контакта](hr-admin-integration-ats-api-contact-type.md)
-- [Основа для зачетов за расходы на образование](hr-admin-integration-ats-api-education-credit-basis.md)
+- [Базис кредита образования](hr-admin-integration-ats-api-education-credit-basis.md)
 - [Род](hr-admin-integration-ats-api-gender.md)
 - [Семейное положение](hr-admin-integration-ats-api-marital-status.md)
 - [Месяцы года](hr-admin-integration-ats-api-months-of-year.md)
 - [Нет Да](hr-admin-integration-ats-api-no-yes.md)
-- [Единица периода](hr-admin-integration-ats-api-period-unit.md)
+- [Единица измерения периода](hr-admin-integration-ats-api-period-unit.md)
 - [Частота отбора](hr-admin-integration-ats-api-screening-frequency.md)
 - [Начальная дата создаваемой периодичности отбора](hr-admin-integration-ats-api-screening-frequency-generate-from.md)
 - [Тип уровня навыка](hr-admin-integration-ats-api-skill-level-type.md)
@@ -136,8 +134,6 @@ ms.locfileid: "8069940"
 ## <a name="see-also"></a>См. также
 
 [Найм кандидатов на должность](hr-personnel-recruit.md)<br>
-[Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
-[Использование веб-API Microsoft Dataverse](/powerapps/developer/data-platform/webapi/overview)<br>
-[Создание и обновление наборов параметров с помощью веб-API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Использование веб-API Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
+[Создание и обновление наборов параметров с помощью веб-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>

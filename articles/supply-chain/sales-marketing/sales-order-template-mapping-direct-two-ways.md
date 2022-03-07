@@ -1,10 +1,12 @@
 ---
 title: Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
 description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d30ead63bfba5dc198bd46dfaffe444dde723baa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261029"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
 
@@ -35,7 +37,7 @@ ms.locfileid: "8061526"
 
 Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных для организаций, контактов, продуктов, предложений по продажам, заказов на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
-[![Поток данных в решение "Перспективный клиент в наличные деньги".](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -189,23 +191,23 @@ Sales не поддерживает налог на уровне заголов�
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Заказы на продажу (из Supply Chain Management в Sales) — напрямую: OrderHeader
 
-[![Сопоставление шаблона в интеграции данных, Заказы на продажу (из Supply Chain Management в Sales) - напрямую: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Заказы на продажу (из Supply Chain Management в Sales) — напрямую: OrderLine
 
-[![Сопоставление шаблона в интеграции данных, Заказы на продажу (из Supply Chain Management в Sales) - напрямую: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Заказы на продажу (из Sales в Supply Chain Management) — напрямую: OrderHeader
 
-[![Сопоставление шаблона в интеграции данных, Заказы на продажу (из Sales в Supply Chain Management) - напрямую: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Заказы на продажу (из Sales в Supply Chain Management) — напрямую: OrderLine
 
-[![Сопоставление шаблона в интеграции данных, Заказы на продажу (из Sales в Supply Chain Management) - напрямую: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Сопоставление шаблона в интеграции данных](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Связанные разделы
 
-[Продажа перспективному клиенту](prospect-to-cash.md)
+[Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

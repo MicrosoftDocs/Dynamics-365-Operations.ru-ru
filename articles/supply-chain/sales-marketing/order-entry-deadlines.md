@@ -1,26 +1,29 @@
 ---
 title: Крайние сроки ввода заказа
 description: Эта статья содержит сведения о крайних сроках ввода заказа. Крайний срок ввода заказа — это крайнее время, которое определяет, обрабатывается ли (и выполняется ли) заказ клиента, как если бы он был получен в текущий день или на следующий день.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71748cb05346f7a31f51baebb86b9accc11c8478
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580536"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435869"
 ---
 # <a name="order-entry-deadlines"></a>Крайние сроки ввода заказа
 
@@ -99,12 +102,10 @@ ms.locfileid: "7580536"
 
 **Примечание.** Если действует летнее время, крайние сроки ввода заказов соответствующим образом корректируются.
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+<a name="additional-resources"></a>Дополнительные ресурсы
+--------
 
 [Графики поставки](delivery-schedules.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

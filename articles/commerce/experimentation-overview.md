@@ -2,28 +2,24 @@
 title: Эксперименты в Dynamics 365 Commerce
 description: Эксперименты позволяют создавать, изменять и управлять разметкой страниц и обработкой контента в конструкторе сайтов. Поддержка сквозного эксперимента включена для страниц и сущностей электронной коммерции на странице.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 292a8934e735c76389e36603a708fd2a1bbf7691
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4415377"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986549"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Эксперименты в Dynamics 365 Commerce
 Используйте эксперименты в Dynamics 365 Commerce для подтверждения гипотез об эффективности страниц электронной коммерции и принятия решений относительно надежности, управляемой данными. Commerce поддерживает тестирование A/B на страницах, модулях и фрагментах и позволяет измерять влияние предложенных изменений на веб-сайт.
@@ -42,7 +38,7 @@ ms.locfileid: "4415377"
 ## <a name="experimentation-lifecycle"></a>Жизненный цикл экспериментирования
 Настройка эксперимента, создание вариаций и запуск эксперимента являются итеративным процессом. На следующей схеме показан жизненный цикл экспериментов в модуле Commerce и в сторонней службе. 
 
-[ ![Жизненный цикл экспериментирования](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Жизненный цикл экспериментирования.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Дополнительные сведения о каждом шаге процесса экспериментов см. в следующих разделах.
 - [Определение гипотезы и определение метрик для эксперимента](experimentation-identify.md)
@@ -57,3 +53,6 @@ ms.locfileid: "4415377"
 
 ## <a name="next-step"></a>Далее
 [Определение гипотезы и определение метрики успеха для эксперимента](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

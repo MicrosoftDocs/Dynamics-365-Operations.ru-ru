@@ -1,25 +1,28 @@
 ---
 title: Проверка производственного потока и версии
 description: Эта процедура показывает, как создать новый производственный поток и первую версию для бережливого производства.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d87aa427c2bc3868e255c97ea11fd4e79456eef
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c30947d01cfb85ea3dbf1aa3e4ea8e092efd18cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573593"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436137"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Проверка производственного потока и версии
 
@@ -61,6 +64,3 @@ ms.locfileid: "7573593"
     * Период для фактического времени цикла — это число дней, из которых суммируются задания по фактической минуте назад для расчета фактического времени цикла. Значение можно изменить в любое время, и оно используется только для расчета фактического времени цикла.  
 13. Нажмите кнопку "Сохранить".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

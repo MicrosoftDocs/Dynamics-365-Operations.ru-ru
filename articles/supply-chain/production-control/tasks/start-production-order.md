@@ -2,24 +2,27 @@
 title: Запуск производственного заказа
 description: Следующая процедура показывает запуск производственного заказа в управлении цехом.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa47510d84e5ee156d4f38a076ce17fad8359d147997349de023b64483d66160
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4435958"
 ---
 # <a name="start-a-production-order"></a>Запуск производственного заказа
 
@@ -68,6 +71,3 @@ ms.locfileid: "6735143"
 7. Щелкните "Разнести".
 8. Нажмите кнопку "OК".
     * В журнале карт маршрутов регистрируется время, затраченное на отдельные операции. Правильное и ошибочное количество можно также вносить в отчет.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

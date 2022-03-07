@@ -2,26 +2,24 @@
 title: Домашняя страница мобильного приложения
 description: В этом разделе описывается мобильное приложение Finance and Operations (Dynamics 365) и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729716"
 ---
 # <a name="mobile-app-home-page"></a>Домашняя страница мобильного приложения
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683466"
 
 В этом разделе описывается мобильное приложение **Finance and Operations (Dynamics 365)** и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 
-<a name="overview"></a>Обзор
---------
+## <a name="overview"></a>Обзор
 
 Мобильное приложение позволяет вашей организации сделать свои бизнес-процессы доступными для мобильных устройств. После того как ваш ИТ-администратор включит функцию мобильных рабочих областей для вашей организации, пользователи могут войти в приложение и немедленно приступить к выполнению бизнес-процессов со своих мобильных устройств. Мобильное приложение включает в себя следующие функции, которые могут помочь повысить производительность:
 
@@ -42,7 +39,7 @@ ms.locfileid: "4683466"
 ## <a name="elements-of-the-mobile-app"></a>Элементы мобильного приложения
 Навигация в мобильном приложении состоит из четырех простых концепций: панель мониторинга, рабочие области, страницы и действия. 
 
-[![Концепции навигации в мобильном приложении](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Концепции навигации в мобильном приложении.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. При запуске приложения можно перейти к **панель мониторинга**.
 2. На панели мониторинга находится список **рабочих областей**, которые были опубликованы.
@@ -56,7 +53,7 @@ ms.locfileid: "4683466"
 ## <a name="implementation-process"></a>Процесс внедрения
 На следующем рисунке показан процесс реализации мобильных рабочих областей, предоставляемых корпорацией Майкрософт, и пользовательских мобильных рабочих областей. 
 
-[![Процесс внедрения мобильных приложений](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Процесс внедрения мобильных приложений.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Следующая таблица содержит ссылки на ресурсы, которые помогут вам реализовать мобильные рабочие области, предоставляемые корпорацией Майкрософт, так и пользовательские мобильные рабочие области. Цифры в первом столбце соответствуют пронумерованным шагам на предыдущем рисунке.
 
@@ -93,8 +90,8 @@ ms.locfileid: "4683466"
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Мобильная рабочая область запасов в наличии</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Мобильные рабочие области заказов на продажу</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Мобильная рабочая область совместной работы с поставщиками</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Мобильная рабочая область регистрации времени по проектам</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Мобильная рабочая область управления расходами</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Мобильная рабочая область регистрации времени по проектам</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Мобильная рабочая область управления расходами</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ ms.locfileid: "4683466"
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 [Ресурсы мобильных платформ](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

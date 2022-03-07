@@ -1,51 +1,49 @@
 ---
 title: Установка, настройка и обновление клиентского портала
 description: В этой теме приведены сведения о лицензировании и инструкции по установке для клиентского портала.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529538"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060621"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Установка, настройка и обновление клиентского портала
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
 
 Для реализации клиентского портала необходимы следующие лицензии:
 
-- **Порталы Power Apps** — данная лицензия необходима для размещения клиентского портала. Порталы лицензируются в зависимости от использования. Дополнительные сведения см. в разделе [Требования к лицензированию порталов Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Двойная запись** — у вас должны быть необходимые лицензии, чтобы включить двойную запись для объектов Supply Chain Management. Дополнительную информацию см. в [системных требованиях для двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Порталы Power Apps** — данная лицензия необходима для размещения клиентского портала. Порталы лицензируются в зависимости от использования. Дополнительные сведения см. в разделе [Требования к лицензированию порталов Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Двойная запись** — у вас должны быть необходимые лицензии, чтобы включить двойную запись для таблиц Supply Chain Management. Дополнительную информацию см. в [системных требованиях для двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Зависимости двойной записи и порталов Power Apps
 
 Клиентский портал зависит от порталов Power Apps и двойной записи, как показано на следующем рисунке.
 
-![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
+![Зависимости клиентского портала.](media/customer-portal-elements.png "Зависимости клиентского портала")
 
-В отличие от других функций Supply Chain Management шаблон клиентского портала размещается на порталах Power Apps. Таким образом, клиентский портал ограничивается функциями и возможностями порталов Power Apps и объектов в двойной записи.
+В отличие от других функций Supply Chain Management шаблон клиентского портала размещается на порталах Power Apps. Таким образом, клиентский портал ограничивается функциями и возможностями порталов Power Apps и таблиц в двойной записи.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Необходимая настройка для включения клиентского портала
 
-Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Убедившись в наличии необходимых лицензий, можно настроить двойную запись, как описано в [инструкциях по начальной синхронизации двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
-Убедитесь, что следующие сопоставления объектов активированы в двойной записи:
+Убедитесь, что следующие сопоставления таблиц активированы в двойной записи:
 
 - Заголовок заказа на продажу
 - Сведения по заказам на продажу
@@ -77,12 +75,15 @@ ms.locfileid: "4529538"
 
 Чтобы узнать, как настроить клиентский портал, следует начать с изучения следующей документации по используемым технологиям:
 
-- [Документация по порталам Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Документация по порталам Power Apps](/powerapps/maker/portals/overview)
 - [Документация по двойной записи](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Для эффективного управления порталами необходимо понимать порталы Power Apps и жизненный цикл Common Data Service. Дополнительные сведения см. на следующих ресурсах:
+Для эффективного управления порталами необходимо понимать порталы Power Apps и жизненный цикл Microsoft Dataverse. Дополнительные сведения см. на следующих ресурсах:
 
-- [О жизненном цикле портала](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Обновление портала](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Миграция конфигурации портала](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [О жизненном цикле портала](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Обновление портала](/powerapps/maker/portals/admin/upgrade-portal)
+- [Миграция конфигурации портала](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Управление жизненным циклом решения: Dynamics 365 для приложений Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

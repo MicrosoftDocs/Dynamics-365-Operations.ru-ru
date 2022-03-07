@@ -2,25 +2,22 @@
 title: Структура стоимости запасов
 description: В этой теме приводятся сведения о структуре стоимости запасов для накладных расходов в складских проводках.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a10fe09d0dda892d3679aee71f2bab40205f385d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e6b8c2418cadc37bcbbf3961a1234050f6ae23f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408558"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822725"
 ---
 # <a name="inventory-cost-structure"></a>Структура стоимости запасов
 [!include [banner](../includes/banner.md)]
@@ -217,3 +214,6 @@ ms.locfileid: "4408558"
 На страницах **Сопоставление** и **Анализатор себестоимости** коды накладных расходов с типом дебета **Номенклатура** и типом кредита **Счет ГК** отображаются в виде отдельной строки. Коды накладных расходов с другими типами дебета и кредита включаются в себестоимость номенклатуры как прямые расходы (стандартная функция). Они не распределяются на странице **Сопоставления**. Следовательно, они не отображаются на странице **Анализатор себестоимости**.
 
 Если поле **Код накладных расходов** на странице **Сопоставления** не задано, код накладных расходов не будет показан на странице **Анализатор себестоимости**. Если поле **Код накладных расходов** на странице **Сопоставления** задано, код накладных расходов будет показан как отдельная строка на странице **Анализатор себестоимости**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,32 +1,30 @@
 ---
 title: Содержимое Power BI "Факт/Бюджет"
-description: В этой теме описывается содержимое Power BI "Факт/Бюджет". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
-author: ryansandness
-manager: AnnBe
+description: В этой теме описывается содержимое Power BI "Факт/Бюджет". В нем объясняется, как получить доступ к отчетам, и представляются сведения о модели данных.
+author: panolte
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737911"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Содержимое Power BI "Факт/Бюджет"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается содержимое Microsoft Power BI **Факт/Бюджет**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой теме описывается содержимое **Факт/Бюджет** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -57,3 +55,6 @@ ms.locfileid: "4685281"
 | Главные книги                   | Книги, которые могут использоваться для фильтрации отчета по текущей книге              |
 | Коды бюджета              | Коды бюджета, по которым требуется фильтровать отчеты                                                |
 | Юридические лица            | Юридические лица, которые могут использоваться для фильтрации отчета по текущему юридическому лицу |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

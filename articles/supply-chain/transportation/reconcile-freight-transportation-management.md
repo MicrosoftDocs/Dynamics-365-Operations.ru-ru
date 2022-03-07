@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 7af7bbb500de25e0a796147fae42cd7d943be9df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205234"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Выверка фрахта в модуле "Управление транспортировкой"
 
@@ -105,3 +105,6 @@ ms.locfileid: "5014516"
 1. Сопоставление Inv1 и Inv2 с FB одной за другой. FB полностью сопоставлена.
 
 Как показано в этом примере, сопоставление накладных по фрахту с отрицательными суммами должно выполняться только вручную. Это гарантирует, что всегда можно будет сопоставить накладные по фрахту с отрицательными суммами со счетами по фрахту без полного сопоставления, поскольку это позволяет управлять последовательностью сопоставления.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: Проверка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
-description: Для выполнения этих действий необходимо сначала выполнить действия в проводнике по задаче "Электронная отчетность — Создание отчетов в форматах MS Office с внедренными изображениями (Часть 1. Настройка параметров)".
+description: В этой теме описано, как разработать конфигурации отчетности для создания электронных документов, содержащих внедренные изображения. (Часть 1 — Настройка параметров).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6aa5c4d45f9139c65f3aaf1ae392829e3e4967df
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684363"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569446"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Проверка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
 
@@ -91,3 +90,6 @@ ms.locfileid: "4684363"
     * Некоторые подписи, которые присутствуют в предварительно напечатанной форме чека, будут включены в отчет при его создании в целях тестирования. Тем не менее эти подписи не будут печататься при реальной печати, поскольку они уже есть в предварительно напечатанной форме.  
 15. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

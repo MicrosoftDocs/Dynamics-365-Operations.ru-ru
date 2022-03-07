@@ -2,11 +2,9 @@
 title: Инжиниринговые компаний и правила владения данными
 description: В этой теме объясняется, как можно использовать одну или несколько технологических компаний, чтобы обеспечить централизованное создание и ведение основных данных для продуктов. Инженерная компания представляет собой компанию, которая владеет технологическими продуктами и его техническими данными.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963671"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572921"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Инжиниринговые компаний и правила владения данными
 
@@ -66,3 +64,6 @@ ms.locfileid: "4963671"
 
     - Когда эти документы выпускаются для других юридических лиц, эти документы защищаются от удаления операционной компанией.
     - Другие юридические лица могут добавлять совершенно новые локальные документы. Операционная компания владеет и поддерживает эти локальные документы.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

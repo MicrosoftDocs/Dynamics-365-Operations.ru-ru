@@ -1,10 +1,12 @@
 ---
 title: Корректировки кредитного лимита
 description: В этой теме объясняется, как настроить и добавить корректировки кредитного лимита.
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 31d83e2083806a518928dc2079c31fab6f95872c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254538"
 ---
 # <a name="credit-limit-adjustments"></a>Корректировки кредитного лимита 
 

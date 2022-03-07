@@ -2,7 +2,7 @@
 title: Налоговые регистры перемещения товаров
 description: В этой теме приводятся сведения о налоговых регистрах для перемещения товаров.
 author: akroshkina
-ms.date: 08/16/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cf8265d69ff36f35fe106486453d107e12524c15
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b9073297669225d9c589ee838836192f086c850b0e82a14d3d9bccbedb556231
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386426"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012130"
 ---
 # <a name="goods-movement-tax-registers"></a>Налоговые регистры перемещения товаров
 
@@ -58,7 +58,7 @@ ms.locfileid: "7386426"
 - Имущество - не складируемое
 - Имущество - выбытие
 
-Для настройки регистров **Итоговые складированные номенклатуры**, **Имущество - не складируемое** и **Имущество - выбытие** выполните шаги в этой теме [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md#create-a-tax-register).
+Для настройки регистров **Итоговые складированные номенклатуры**, **Имущество - не складируемое** и **Имущество - выбытие** выполните шаги в регистрах налога на прибыль.
 
 Чтобы настроить регистр **Складированные номенклатуры**, выполните шаги, указанные в следующем разделе.
 

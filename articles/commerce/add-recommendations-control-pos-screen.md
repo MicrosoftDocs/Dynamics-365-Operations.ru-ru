@@ -2,16 +2,13 @@
 title: Добавление рекомендаций на экран проводки
 description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,14 +16,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415122"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797487"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводки
+# <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводок
 
 [!include [banner](includes/banner.md)]
 
@@ -119,3 +116,6 @@ ms.locfileid: "4415122"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

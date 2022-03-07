@@ -2,9 +2,11 @@
 title: Аккредитивы и импорт коллекций
 description: Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47309612ea7cbd0bb1047bec9c18f976e7063ce95f1708f27beae540cc3194ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad39951902395ebd2f78169f77e8d1a2e03a5762
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751334"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978847"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Аккредитивы и импорт коллекций
 
@@ -28,7 +30,8 @@ ms.locfileid: "6751334"
 
 Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.
 
-## <a name="letters-of-credit"></a>Аккредитивы
+<a name="letters-of-credit"></a>Аккредитивы
+-----------------
 
 Аккредитивы используются для международных транзакций, чтобы помочь гарантировать, что платежи будут выполнены. Аккредитив — это соглашение, выданное банком, в котором банк соглашается обеспечить платеж от имени покупателя, если будут выполнены условия соглашения между покупателем и продавцом. Аккредитивом также называется документарный аккредитив.
 
@@ -50,6 +53,3 @@ ms.locfileid: "6751334"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

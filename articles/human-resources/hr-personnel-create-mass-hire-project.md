@@ -2,28 +2,27 @@
 title: Создание проекта по массовому набору сотрудников
 description: В этой процедуре показано, как настроить проект по массовому набору сотрудников.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ddcfd531e7b5c76ac4b15cee54880f6868a73f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7254f4701d0839215e1a256aaa4ebd7ae56945ca
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420179"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056812"
 ---
 # <a name="create-a-mass-hire-project"></a>Создание проекта по массовому набору сотрудников
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -48,3 +47,6 @@ ms.locfileid: "4420179"
     * При желании выберите подразделение для новых должностей.  
 13. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

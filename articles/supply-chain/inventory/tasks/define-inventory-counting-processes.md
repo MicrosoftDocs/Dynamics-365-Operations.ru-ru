@@ -2,11 +2,9 @@
 title: Определение процессов инвентаризации запасов
 description: В этой теме описывается, как настроить основные процессы инвентаризации запасов путем создания группы инвентаризации и журнала инвентаризации.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 535fa6cfcf1f966b02ee7b391bb41dcbc2c2ac1fc85bcd09e3811fc027621cc4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755403"
 ---
 # <a name="define-inventory-counting-processes"></a>Определение процессов инвентаризации запасов
 
@@ -84,3 +82,6 @@ ms.locfileid: "4961380"
 5. В раскрывающемся меню поля **Группа инвентаризации** выберите группу инвентаризации. Можно выбрать определенную группу инвентаризации, которая должна применяться к номенклатуре на определенном выбранном складе. При выполнении инвентаризации на этом складе данная политика будет переопределять общую политику инвентаризации для номенклатуры.  
 6. Нажмите **Сохранить**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

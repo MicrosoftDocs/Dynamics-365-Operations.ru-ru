@@ -2,11 +2,9 @@
 title: Финансовая выверка в розничных магазинах
 description: В этом разделе описывается финансовая выверка в розничных магазинах для POS для Microsoft Dynamics 365 Commerce.
 author: anpurush
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2afe967248136e9b658e1ee18053a54ab3f0d325c088a5eb2e522fac335c01f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752467"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Финансовая выверка в розничных магазинах
 
@@ -61,3 +59,6 @@ ms.locfileid: "4965085"
 Подробные сведения о финансовой выверке для смены синхронизируются в центральном офисе Commerce с помощью задания P-Job.
 
 Финансовые отчеты розничной торговли в центральном офисе Commerce не рассчитывают итоговые значения для отображения подробных сведений о строках журнала операций. Вместо этого окончательные суммы в клиенте POS-терминала используются для создания и разноски финансовых отчетов по розничной торговле.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

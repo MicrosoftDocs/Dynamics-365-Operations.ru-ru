@@ -1,33 +1,32 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (7 февраля 2020 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 7 февраля 2020 года.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 70acaaf2218c8b5c0239b968a29a927ac23080f0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526959"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060847"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (7 февраля 2020 г.)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.2835. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -55,11 +54,11 @@ ms.locfileid: "4526959"
 
 ### <a name="platform-update-32"></a>Обновление платформы update 32 
 
-Скоро будет доступно обновление платформы 32. [Дополнительные сведения об обновлении платформы 32 см. здесь](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Скоро будет доступно обновление платформы 32. [Дополнительные сведения об обновлении платформы 32 см. здесь](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
-### <a name="updated-common-data-service-solution"></a>Обновленное решение Common Data Service
+### <a name="updated-dataverse-solution"></a>Обновленное решение Dataverse
 
-Новое решение Common Data Service будет доступно в ближайшее время со следующими изменениями:
+Новое решение Dataverse будет доступно в ближайшее время со следующими изменениями:
 
 | Описание | Изменение |
 | ----------------------------------------- | --- |
@@ -70,11 +69,13 @@ ms.locfileid: "4526959"
 | Новые объекты настройки переменной компенсации | **Тип плана переменной компенсации**</br>**План переменной компенсации**</br>**Положения о передаче прав на льготы**</br>**Уровень плана переменной компенсации** |
 | Новый объект **Занятость по календарю работников** | Добавлено **Объект рабочего календаря** |
 | Новый объект **Сведения о позиции зарплаты** | Добавлено **Сведения о позиции зарплаты** |
-| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Common Data Service. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
+| Новый объект **Заголовок** | Добавлено **Заголовок**. Новый объект **Заголовок** будет включен в процесс синхронизации между Управление персоналом и Dataverse. Она не должна быть изначально указана в объектах **Позиция** или **Должность**. |
 
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Управление персоналом](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

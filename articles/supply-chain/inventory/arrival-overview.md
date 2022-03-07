@@ -1,7 +1,7 @@
 ---
 title: Обзор прибытия
 description: В этом разделе представлена информация о функции обзора прибытия. Страница обзора прибытия является частью этой функции и представляет обзор всех номенклатур, прибытие которых ожидается в качестве входящих номенклатур.
-author: yufeihuang
+author: perlynne
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -9,21 +9,19 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "274363"
-- intro-internal
+ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567447"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809598"
 ---
 # <a name="arrival-overview"></a>Обзор прибытия
 
@@ -36,7 +34,7 @@ ms.locfileid: "7567447"
 ## <a name="business-scenario"></a>Бизнес-сценарий
 Рассмотрим следующий сценарий во входящих процессах.
 
-[![Бизнес-сценарий.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Бизнес-сценарий](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Сотрудник приемки Сэмми хочет узнать, что ожидается к прибытию на текущий день. На странице **Обзор прибытия** Сэмми может посмотреть обзор текущих задач и грубую оценку количества, объема, веса, различных типов заказов и т. д. Позже поставка прибывает на один из дебаркадеров приемки, и Сэмми получает список поставки. На странице **Обзор прибытия** Сэмми может выполнять следующие задачи.
 
@@ -68,7 +66,7 @@ ms.locfileid: "7567447"
 
 -   Необходимо указать имя журнала при создании журнала.
 
-[![Указание имени журнала.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Указание имени журнала](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Если задать значения в полях **Склад** и **Местоположение**, эти значения используются в строках журнала. Если не указать значения, система использует значения из аналитики, которая указана в складских проводках.
 

@@ -1,12 +1,10 @@
 ---
 title: Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML (ноябрь 2016 г.)
-description: В это теме поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности, содержащую шаблон для создания электронных документов в формате OPENXML.
+description: В этой теме описывается, как создать новую конфигурацию электронной отчетности, которая содержит шаблон для создания электронных документов в формате OPENXML.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753036"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML (ноябрь 2016 г.)
 
@@ -30,7 +28,7 @@ ms.locfileid: "4681909"
 
 В этом примере вам предстоит создать поставщика конфигурации для примера компании Litware, Inc. Эти шаги можно выполнить в компании GBSI.
 
-Для выполнения этих шагов необходимо сначала выполнить шаги в процедуре "Создание поставщика конфигурации и установка его в качестве активного". Также необходимо иметь файл Excel, который будет импортирован при создании шаблона. Этот файл можно взять из [Template of Payment Report](https://go.microsoft.com/fwlink/?linkid=862266).
+Для выполнения этих шагов необходимо сначала выполнить шаги в процедуре "Создание поставщика конфигурации и установка его в качестве активного". Также необходимо иметь файл Excel, который будет импортирован при создании шаблона. Этот файл можно взять из [Template of Payment Report](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Отправка конфигурации модели данных платежей
@@ -150,3 +148,6 @@ ms.locfileid: "4681909"
 17. В поле **Банковский счет** введите `GBSI OPER`.
 18. Выберите **ОК**, затем снова выберите **ОК**. Просмотрите созданный лист, включая сведения строк платежа, а так же итоги для каждого кода валюты, используемого в этом сообщении платежа.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

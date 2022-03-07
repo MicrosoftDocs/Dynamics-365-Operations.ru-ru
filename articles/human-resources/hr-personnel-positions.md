@@ -15,17 +15,14 @@ ms.custom: 269054
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 95abd7548d23ef1b4f5fc31ebaa818e06e179d60
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b44cfaedc4e1286d033bba49b54a12b7e096bf99
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068827"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333143"
 ---
 # <a name="positions"></a>Штатные единицы
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

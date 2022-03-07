@@ -2,11 +2,9 @@
 title: Настройка сопоставления для столбцов статуса заказа на продажу
 description: В этой теме объясняется, как настроить столбцы статуса заказа на продажу для двойной записи.
 author: dasani-madipalli
-manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 6eafd9b14d02dec3455b73aeee1264629331a57b8ce760b7db6f6ddbaa7406b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741662"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Настройка сопоставления для столбцов статуса заказа на продажу
 
@@ -102,7 +100,7 @@ ms.locfileid: "4744307"
 1. В браузере перейдите к `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Замените **\<test-name\>** ссылкой вашей компании на Sales.
 2. На открытой странице найдите **organizationid** и запишите значение.
 
-    ![Поиск organizationid](media/sales-map-orgid.png)
+    ![Поиск organizationid.](media/sales-map-orgid.png)
 
 3. В Sales откройте консоль браузера и запустите следующий сценарий. Используйте значение **organizationid** из шага 2.
 
@@ -121,32 +119,35 @@ ms.locfileid: "4744307"
     );
     ```
 
-    ![Код JavaScript в консоли браузера](media/sales-map-script.png)
+    ![Код JavaScript в консоли браузера.](media/sales-map-script.png)
 
 4. Убедитесь, что для атрибута **IsSOPIntegrationEnabled** установлено значение **true**. Для проверки значения используйте URL-адрес из шага 1.
 
-    ![IsSOPIntegrationEnabled со значением true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled со значением true.](media/sales-map-integration-enabled.png)
 
 Для включения атрибута **isIntegrationUser** выполните следующие шаги.
 
 1. В Sales перейдите в раздел **Параметр \> Настройка \> Настроить систему**, выберите пункт **Таблица пользователя** и откройте **Форма \> Пользователь**.
 
-    ![Открытие формы пользователя](media/sales-map-user.png)
+    ![Открытие формы пользователя.](media/sales-map-user.png)
 
 2. В обозревателе полей найдите **Пользовательский режим интеграции** и дважды щелкните его, чтобы добавить в форму. Сохраните изменение.
 
-    ![Добавление столбца пользовательского режима интеграции в форму](media/sales-map-field-explorer.png)
+    ![Добавление столбца пользовательского режима интеграции в форму.](media/sales-map-field-explorer.png)
 
 3. В Sales перейдите к разделу **Параметр \> Безопасность \> Пользователи** и измените представление с **Разрешенные пользователи** на **Пользователи приложения**.
 
-    ![Изменение представления с разрешенных пользователей на пользователей приложения](media/sales-map-enabled-users.png)
+    ![Изменение представления с разрешенных пользователей на пользователей приложения.](media/sales-map-enabled-users.png)
 
 4. Выберите две записи для **DualWrite IntegrationUser**.
 
-    ![Список пользователей приложения](media/sales-map-user-mode.png)
+    ![Список пользователей приложения.](media/sales-map-user-mode.png)
 
 5. Измените значение столбца **Пользовательский режим интеграции** на **Да**.
 
-    ![Изменение значение столбца пользовательского режима интеграции](media/sales-map-user-mode-yes.png)
+    ![Изменение значение столбца пользовательского режима интеграции.](media/sales-map-user-mode-yes.png)
 
 Заказы на продажу теперь сопоставлены.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

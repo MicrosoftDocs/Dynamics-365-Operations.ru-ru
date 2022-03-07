@@ -2,11 +2,9 @@
 title: Расчет амортизации ОС в разных юридических лицах
 description: Можно запустить амортизации основных средств для нескольких юридических лиц за один шаг.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b09bbe4d0143aa521ca0a4cf67e86b7165b0f4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 85a1e71967fb126be29a76a8a29ea5e4ae2b2199
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968962"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818472"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Расчет амортизации ОС в разных юридических лицах
 
@@ -50,3 +48,6 @@ ms.locfileid: "4968962"
 5. Щелкните "Создать журнал".
 6. Перейдите в раздел "Основные средства" > "Записи в журнале" > "Журнал основных средств".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

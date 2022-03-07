@@ -2,11 +2,9 @@
 title: Амортизационная премия
 description: Эта статья содержит обзор функции Амортизационной премии.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41a59b9dfe0482c995cfefc7a70f63550794428d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e14e85def96153edb5b52cf9968354945ec673abf4b281648d04132020dc05c5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762348"
 ---
 # <a name="bonus-depreciation"></a>Амортизационная премия
 
@@ -64,3 +62,6 @@ ms.locfileid: "4969186"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

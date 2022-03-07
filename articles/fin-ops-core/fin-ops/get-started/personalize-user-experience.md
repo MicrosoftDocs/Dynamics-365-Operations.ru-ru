@@ -2,11 +2,9 @@
 title: Персонализация пользовательского интерфейса
 description: В этой теме описывается порядок персональной настройки приложения.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797498"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744701"
 ---
 # <a name="personalize-the-user-experience"></a>Персонализация пользовательского интерфейса
 
@@ -195,3 +193,6 @@ ms.locfileid: "4797498"
 При персонализации настройки складских аналитик на странице примите во внимание параметры, созданные с помощью команды **Отобразить аналитики**. Например, персонализации позволяют скрыть столбец для складской аналитики "Номер партии", но столбец отобразится, когда страница будет открыта в следующий раз. Это происходит, поскольку параметры **Отображение аналитики** управляют столбцами складской аналитики, которые отображаются. Параметры **Отображение аналитики** применяются ко всем страницам, и эти параметры будут переопределять собой всю персонализированную настройку полей складских аналитик на отдельных страницах.
 
 Таким образом, в предыдущем примере, если вы не хотите, чтобы столбец для складской аналитики "Номер партии" отображался на странице, следует удалить эту аналитику в рамках параметра **Отображение аналитик** для этой страницы.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

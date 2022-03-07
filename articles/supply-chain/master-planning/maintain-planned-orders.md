@@ -1,12 +1,10 @@
 ---
 title: Ведение спланированных заказов
 description: В этой теме содержится информация об управлении спланированными заказами. В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19151
 ms.assetid: 54123f4c-b4ca-4ce4-9358-b067aa04c968
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039fce86ac9649989df1eaa6179c79dd98b8ae3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f4ec4e50d37403107b31117912423b8bbc8ebb35
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967082"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575736"
 ---
 # <a name="maintain-planned-orders"></a>Ведение спланированных заказов
 
@@ -60,10 +58,12 @@ ms.locfileid: "4967082"
 > [!NOTE]
 > Вариант **Использовать параллельное утверждение** отображается только в том случае, если у вас есть более одного спланированного заказа, выбранного для утверждения.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор сводных планов](master-plans.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

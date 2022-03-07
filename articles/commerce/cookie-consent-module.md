@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213946"
 ---
-# <a name="cookie-consent-module"></a>Модуль согласия на файлы cookie
+# <a name="cookie-consent-module"></a>Модуль согласия на получение файлов cookie
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули согласия на получение файлов cookie, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модуль согласия на прием файлов cookie запрашивает у пользователей сайта разрешение на файлы cookie для любой функции или модуля, отслеживающего файлы cookie браузера. Разрешение необходимо при первом просмотре сайта пользователем в новом сеансе веб-браузера. Когда согласие получено, оно отслеживается, и пользователю сайта не выдается повторный запрос на согласие. Дополнительные сведения см. в разделе [Соответствие файлов cookie](cookie-compliance.md).
 
@@ -62,3 +59,6 @@ ms.locfileid: "4415137"
 [Модуль верхнего колонтитула](author-header-module.md) 
 
 [Соответствие файлов cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07a806ac040df9dee284e2466629221fbc3403a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415183"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209283"
 ---
 # <a name="add-a-privacy-policy-page"></a>Добавление страницы политики конфиденциальности
 
@@ -109,3 +108,6 @@ ms.locfileid: "4415183"
 [Соответствие файлов cookie](cookie-compliance.md)
 
 [Замена идентификаторов пользователей, связанных с отслеживаемыми изменениями содержимого](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

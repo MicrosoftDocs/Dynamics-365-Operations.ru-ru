@@ -1,26 +1,24 @@
 ---
 title: Ввод и сравнение предложений по запросу предложения и заключение контрактов
 description: В этой теме объясняется, как ввести ответы на запрос предложения, поставить оценку и сравнить предложения, а затем отдать контракт одному из поставщиков.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016686"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920589"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Ввод и сравнение предложений по запросу предложения и заключение контрактов
 
@@ -34,7 +32,7 @@ ms.locfileid: "5016686"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Ввод ответа в качестве поставщика
 
-1. В панели мониторинга выберите **Предложения цен поставщиками**.
+1. Перейдите **Совместная работа с поставщиками \> Рабочие области \> Предложения цен поставщиками**.
 2. В списке **Приглашения для новых предложений** найдите только что отправленный запрос предложения. Выберите этот запрос предложения, чтобы проверить, что было запрошено.
 3. Выберите **Вложения в запрос предложения** для просмотра добавленных вложений.
 4. Выберите **Предложение**, чтобы сделать поля редактируемыми. Обратите внимание , что в поле **Ход предложения** установлено значение **Поставщик выполняет обновление**.
@@ -106,3 +104,6 @@ ms.locfileid: "5016686"
 ## <a name="view-the-purchase-order-that-is-generated"></a>Просмотр созданного заказа на покупку
 
 На панели операций откройте вкладку **Общие** и выберите **Заказ на покупку**. На странице, которая открывается, отображается заказ на покупку, созданный при принятии предложения.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

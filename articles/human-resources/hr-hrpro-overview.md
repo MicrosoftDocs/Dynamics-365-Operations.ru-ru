@@ -2,11 +2,9 @@
 title: Обзор
 description: В руководстве пользователя Dynamics 365 Human Resources содержатся инструкции по настройке Human Resources, настройке компенсации и льгот для сотрудников, а также по управлению персоналом.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bec501fdc1736d044585609e21b5bb47b8d6879
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420309"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893133"
 ---
 # <a name="overview"></a>Обзор
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В руководстве пользователя Dynamics 365 Human Resources содержатся инструкции по настройке Human Resources, настройке компенсации и льгот для сотрудников, а также по управлению персоналом.
 
@@ -33,7 +33,7 @@ ms.locfileid: "4420309"
 
 [Настройка параметров управления персоналом](hr-setup-parameters.md)</br>
 [Настройка общих параметров Human Resources](hr-setup-shared-parameters.md)</br>
-[Настройка workflow-процессов управления персоналом](hr-setup-workflows.md)</br>
+[Настройка workflow-процессов управления персоналом](./hr-workflow-manage-employee-information.md)</br>
 [Сведения о полях даты и времени](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Настройка параметров организации
@@ -60,7 +60,6 @@ ms.locfileid: "4420309"
 [Изменение отношений подотчетности для должности](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Ввод сведений о работнике](hr-personnel-enter-worker-information.md)</br>
 [Одалживание номенклатур работникам](hr-personnel-loan-item-worker.md)</br>
-[Ввод табелей учета рабочего времени проекта](hr-personnel-enter-project-timesheets.md)</br>
 [Проекты по массовому набору сотрудников](hr-personnel-mass-hire-projects.md)</br>
 [Настройка должностей](hr-personnel-set-up-positions.md)</br>
 [Настройка информации о травмах и заболеваниях](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,3 +127,6 @@ ms.locfileid: "4420309"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

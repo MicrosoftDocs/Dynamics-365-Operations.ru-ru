@@ -2,26 +2,23 @@
 title: Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 description: В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, VATOperationCodeTable_RU
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 660069ff4e9208bfc0c48f5715396737eacdd8dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3223bf4d914fdb2bf4e47f0fd523520eb04b2f8569e1ac7e77616c46fd9267d9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769678"
 ---
 # <a name="value-added-tax-vat-for-tax-agents-russia"></a>Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 
@@ -175,3 +172,6 @@ ms.locfileid: "4408502"
 6. Выберите **Печать** \> **Исходный** для счет-фактуры, созданной для налоговой проводки **Налоговый агент - начислено**.
 
 В отчете о счете-фактуре отображается номер и дата платежного поручения, базовая сумма без НДС и расчетная ставка налога (значение НДС ÷ значение НДС + 100).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

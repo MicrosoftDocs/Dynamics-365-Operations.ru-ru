@@ -11,16 +11,17 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d4eeee3c1228b278fea07464f35946c295c5aea8
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985919"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679063"
 ---
-# <a name="sales-history-cleanup-performance-improvements"></a>Повышение производительности очистки истории продаж
+# <a name="saleshistorycleanupperformanceimprovements"></a>Повышение производительности очистки истории продаж
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!-- GA with 10.0.24 -->
 
 Периодическое пакетное задание **Очистка истории обработки продаж** может занять много времени, если она редко выполняется в средах с большим объемом обновлений продаж. В этих ситуациях функция *Улучшения производительности очистки истории продаж* может помочь сократить длительность выполнения и повысить надежность.
 
@@ -32,7 +33,7 @@ ms.locfileid: "7985919"
 
 После включения функции пакетное задание **Очистка истории обработки продаж** (**Продажи и маркетинг \> Периодические задачи \> Очистка \> Очистка истории обработки продаж**) будет запускаться как прежде, но с лучшей производительностью и максимум на 2 часа. Это означает, что может потребоваться несколько раз выполнить очистку всех данных для определенного интервала времени хранения.
 
-## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Включение функции повышение производительности очистки истории продаж
+## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Включение функции повышение производительности очистки истории продаж
 
 Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 

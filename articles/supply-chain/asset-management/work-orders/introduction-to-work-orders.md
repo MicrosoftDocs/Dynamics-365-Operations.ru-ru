@@ -1,12 +1,10 @@
 ---
 title: Введение в заказы на работу
 description: В этом разделе содержится обзор заказов на работу в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b0f33dad05fc9a17fc673525ac5ab79f9cf0ab08
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021888"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821641"
 ---
 # <a name="introduction-to-work-orders"></a>Введение в заказы на работу
 
@@ -118,3 +116,6 @@ ms.locfileid: "5021888"
 >[!NOTE]
 >Чтобы включить прогнозы, созданные в заказе на работу при выполнении сводного планирования, используйте прогнозную модель, выбранную на странице **Параметры управления активами**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

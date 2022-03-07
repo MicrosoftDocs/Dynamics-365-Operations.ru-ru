@@ -1,25 +1,26 @@
 ---
 title: Обзор соглашений об условиях обслуживания
 description: В соглашении об уровне обслуживания с клиентом согласовывается минимальное время отклика с учетом интервала между моментом регистрации проблемы в обслуживающей компании и моментом ее решения.
-author: kamaybac
+author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a36b1c0e18201ae04a9fe13cb4f9524a19655c92
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: cda21ba84af2f38dd24d60903d0aacd21e07ae0722f8800c935aef43a81ee3c0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780974"
 ---
 # <a name="service-level-agreements-overview"></a>Обзор соглашений об условиях обслуживания       
 

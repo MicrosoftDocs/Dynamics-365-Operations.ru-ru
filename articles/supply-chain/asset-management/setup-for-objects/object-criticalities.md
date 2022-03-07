@@ -1,12 +1,10 @@
 ---
 title: Типы критичности активов
 description: В этом разделе объясняются типы критичности актива в «Управлении активами».
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776928"
 ---
 # <a name="asset-criticality-types"></a>Типы критичности активов
 
@@ -42,7 +40,7 @@ ms.locfileid: "5021712"
 4. В поле **Имя** введите имя типа критичности.
 5. В поле **Коэффициент** введите коэффициент. Этот коэффициент используется при расчете планировании заказа на работу для определения записи критичности, которая должна быть использована. (Всегда используется запись с самым высоким коэффициентом). Этот параметр актуален, если, как показано на следующем рисунке, создаются строки критичности, которые имеют одинаковое значение критичности.
 
-    ![Страница типов критичности](media/23-setup-for-objects.png)
+    ![Страница типов критичности.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Настройка критичностей актива
 
@@ -61,3 +59,6 @@ ms.locfileid: "5021712"
 - Критичность в заказе на работу пересчитывается каждый раз при добавлении или удалении строки в заказ на работу или удаления из заказа на работу.
 - Если заказ на работу содержит несколько заданий заказа на работу, наивысшая критичность, согласно полю **Коэффициент** на странице **Типы критичности**, всегда используется в заказе на работу.
 - Как правило, критичность активв может меняться в течение определенного периода. На критичность может повлиять покупка нового оборудования, реконструкции и так далее. Рассмотрите возможность переоценки критичностей актива через регулярные промежутки времени (например, один раз в год или каждые два года), чтобы убедиться, что ваши определения критичности соответствуют текущей настройке производства.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Создание бюджетов обслуживания
 description: В этом разделе объясняется, как создать бюджет обслуживания в управлении активами.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020997"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361194"
 ---
 # <a name="create-maintenance-budgets"></a>Создание бюджетов обслуживания
 
@@ -52,9 +50,12 @@ ms.locfileid: "5020997"
     > [!NOTE]
     > После утверждения бюджета обслуживания невозможно пересчитать или скорректировать соответствующие строки на странице **Строки бюджета обслуживания**, если только вы не удалите утверждение. Чтобы удалить утверждение бюджета обслуживания, выберите его на странице **Бюджеты обслуживания**, затем выберите **Утвердить**. Затем в диалоговом окне **Утвердить бюджет** выберите **OK**.
 
-![Бюджеты обслуживания](media/01-maintenance-budgets.png)
+![Бюджеты обслуживания.](media/01-maintenance-budgets.png)
 
 Можно также создать новый бюджет обслуживания путем копирования существующего бюджета. На странице **Бюджеты обслуживания** выберите бюджет для копирования, затем выберите **Копировать**. Этот подход полезен, если, например, вы создали бюджет на один месяц и хотите скопировать его в другие месяцы.
 
 > [!NOTE]
 > Бюджет обслуживания вычисляет только бюджетные затраты на основе строк графика обслуживания. Чтобы рассчитать фактические затраты для этого же периода, этот расчет можно выполнить на странице **Управление затратами по активам**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

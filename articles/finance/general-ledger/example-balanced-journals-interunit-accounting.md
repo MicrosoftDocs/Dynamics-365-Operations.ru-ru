@@ -1,12 +1,10 @@
 ---
 title: Сбалансированные журналы для внутрихолдингового учета
 description: В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968762"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726902"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Сбалансированные журналы для внутрихолдингового учета
 
@@ -32,7 +30,7 @@ ms.locfileid: "4968762"
 
 Если записи счета не сбалансированы на уровне значений финансовых аналитик, дополнительные учетные записи создаются автоматически, чтобы сбалансировать этот журнал. Эти записи счета используют типы разноски **Внутрихолдинговый дебет** и **Внутрихолдинговый кредит** на странице **Счета для автоматических проводок**, чтобы определить счет ГК. Например, "Бизнес-единица", который является вторым сегментом счета ГК, выбирается в качестве финансовой аналитики балансировки, и подготавливаются к созданию следующие записи учета.
 
-|                      |           |
+| &nbsp;               | &nbsp;    |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100,00 DR |
 | 6100 – NY – OU\_249  | 100,00 DR |
@@ -45,7 +43,7 @@ ms.locfileid: "4968762"
 
 Таким образом, следующие учетные записи создаются автоматически для балансировки журнала на уровне значений финансовых аналитик.
 
-|                                   |           |
+| &nbsp;                            | &nbsp;    |
 |-----------------------------------|-----------|
 | (Внутрихолдинговый дебет) – MSP – OU\_256 | 100,00 DR |
 | (Внутрихолдинговый кредит) – NY – OU\_249 | 100,00 CR |
@@ -54,3 +52,6 @@ ms.locfileid: "4968762"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

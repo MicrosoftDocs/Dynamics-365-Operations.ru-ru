@@ -2,36 +2,30 @@
 title: Расширение возможностей страницы продукта
 description: В этом разделе описывается, как расширить возможности страницы продукта в Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777604"
 ---
 # <a name="enrich-a-product-page"></a>Расширение возможностей страницы продукта
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как расширить возможности страницы продукта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 По умолчанию сайт использует универсальную страницу для отображения данных о продукте. На этой странице содержатся основные сведения о продукте и об элементах управления, которые необходимы для продажи продукта. Однако можно дополнить сведения, поступающие из Commerce Scale Unit, с дополнительными изображениями или текстом для конкретного продукта. Этот процесс называется обогащением страницы продукта.
 
@@ -72,4 +66,9 @@ ms.locfileid: "4415162"
 
 [Расширение возможностей целевой страницы категории](enrich-category-page.md)
 
-[Проверка специальных возможностей контента страницы](verify-accessibility.md)
+[Проверка доступности контента страницы](verify-accessibility.md)
+
+[Создание динамических страниц электронной коммерции на основе параметров URL-адреса](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

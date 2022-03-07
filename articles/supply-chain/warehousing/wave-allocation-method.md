@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: b01de3c9f1cbcb24abc2b5a0c91db7f0791020bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103797"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019011"
 ---
 # <a name="wave-allocation"></a>Распределение волны
 

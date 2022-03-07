@@ -2,16 +2,13 @@
 title: Отчеты по розничным ценам
 description: В этом разделе представлен обзор функции отчета по ценам, который можно использовать для просмотра предстоящих изменений цены на продукты, включенные в ассортимент.
 author: shajain
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fa2710d64d632c6e4ef376528aff8316b02a380ce7e2a976d53a3dd39375fa7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767274"
 ---
 # <a name="retail-price-reports"></a>Отчеты по розничным ценам
 
@@ -44,3 +41,6 @@ ms.locfileid: "4415113"
 | Показать продукты с изменениями цен | Если установить значение **Да**, будут отображаться цены только для тех дат, в которые цены были изменены. Цена за *один день до* выбранной даты **Начальная дата** всегда отображается, чтобы менеджер магазина мог легко выявить продукты, цены на которые не изменялись в течение всего выбранного периода, и также может просмотреть текущую цену. |
 
 После создания отчета можно загрузить файл Excel для любой дополнительной требуемой фильтрации. Отчет о ценах может также использоваться для проверки журнала цен продуктов за прошедшие даты.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

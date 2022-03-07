@@ -2,36 +2,30 @@
 title: Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
 description: В этом разделе описывается, как создавать настраиваемые страницы ответов для ошибок кода состояния 4xx и 5xx с помощью средств разработки в Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741149"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как создавать настраиваемые страницы ответов для ошибок кода состояния 4xx и 5xx с помощью средств разработки в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Если запрос не выполнен, сервер выдает сообщения об ошибке кода состояния HTTP. Код состояния 404 записывается и возвращается, если страница не найдена, а код состояния 500 фиксируется и возвращается в случае возникновения ошибки сервера. В Dynamics 365 Commerce пользователи приложения могут создавать пользовательские страницы ответа с кодами состояний ошибки, которые отображаются пользователям для этих сообщений об ошибке кода состояния.
 
@@ -83,3 +77,6 @@ ms.locfileid: "4415207"
 [Добавление новой страницы сайта](add-new-page.md)
 
 [Создание URL-адреса страницы](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

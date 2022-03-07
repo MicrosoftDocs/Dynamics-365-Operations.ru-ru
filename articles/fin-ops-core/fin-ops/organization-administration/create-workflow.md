@@ -2,11 +2,9 @@
 title: Обзор создания бизнес-правил
 description: В этом разделе объясняется, как создать workflow-процесс.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1e1c86e828eef39a6895416f4825c2853e23c826
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797660"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747767"
 ---
 # <a name="create-workflows-overview"></a>Обзор создания бизнес-правил
 
@@ -83,3 +81,6 @@ ms.locfileid: "4797660"
 
     - Чтобы активировать эту версию workflow-процесса, нажмите **Активировать новую версию**. Когда workflow-процесс станет активным, пользователи смогут представлять документы на обработку.
     - Если вы не хотите активировать данную версию, нажмите **Не активировать новую версию**. workflow-процесс можно активировать позднее.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
 title: Обзор печати документов
 description: Можно печатать документы с помощью локального принтера или устройства, подключенного к сети. В этой статье представлен обзор того, как печатаются документы.
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 667d55381f54a9badabbb4c57fd0185674de33f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680104"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358651"
 ---
 # <a name="document-printing-overview"></a>Обзор печати документов
 
@@ -71,6 +71,9 @@ ms.locfileid: "4680104"
 
 На следующей схеме показаны основные компоненты, которые помогают поддерживать операции сетевой печати.
 
-[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Обратите внимание, что один принтер может быть зарегистрирован с несколькими агентами маршрутизации документа. Чтобы решить настройки принтера, размещенная служба использует сетевой путь, который уникально идентифицирует каждый сетевой принтер. В результате даже в том случае, если принтер зарегистрирован несколькими клиентами, он отображается как один элемент в списке принтеров, доступных в приложениях.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,37 +1,39 @@
 ---
-title: Управление функциями
-description: Сведения о включении и отключении новых возможностей в Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Управление функциями в Human Resources
+description: В этой теме описывается функция управления функциями и способы ее использования.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420281"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069715"
 ---
-# <a name="manage-features"></a>Управление функциями
+# <a name="manage-features-in-human-resources"></a>Управление функциями в Human Resources
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В рамках нашего непрерывного процесса развертывания новых возможностей для Microsoft Dynamics 365 Human Resources мы хотим предоставить клиентам возможность испытать новые функции. Мы предоставляем предварительную версию, которая почти готова и прошла множество тестов. Мы хотели бы получить окончательные отзывы клиентов и выполнить проверку до выпуска общедоступной версии.
 
-Дополнительные сведения о новых возможностях в Human Resources см. в разделах [Что нового в Human Resources](hr-admin-whats-new.md) и [План выпуска Dynamics 365 и Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Дополнительные сведения о новых возможностях в Human Resources см. в разделах [Что нового в Human Resources](hr-admin-whats-new.md) и [План выпуска Dynamics 365 и Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Рабочая область **Управление функциями** содержит список функций, предоставляемых в каждом выпуске. По умолчанию новые функции отключены. Можно использовать рабочую область для их включения и просмотра документации по ним. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Рабочая область **Управление функциями** содержит список функций, предоставляемых в каждом выпуске. По умолчанию новые функции отключены. Можно использовать рабочую область для их включения и просмотра документации по ним. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Все новые возможности остаются в виде предварительного просмотра по крайней мере на 30 дней, а обычно 30-60 дней. Основные функции обычно доступны в октябре и апрель каждого года, следующего за периодом предварительного просмотра. После отображения новых возможностей в рабочей области **Управление функциями** их можно включить. Некоторые функции могут быть включены по умолчанию.
 
@@ -70,7 +72,7 @@ ms.locfileid: "4420281"
 - **Политики прав на льготы**
 - **События допустимости**
 
-Сведения в этих формах можно просматривать в режиме только для чтения. Если необходимо изменить данные, необходимо сначала отключить функцию управления льготами (относится только к средам **Песочница**).
+Сведения на этих страницах можно просматривать в режиме только для чтения. Если необходимо изменить данные, необходимо сначала отключить функцию управления льготами (относится только к средам **Песочница**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Включение или выключение отпуска и отсутствия
 
@@ -93,4 +95,6 @@ ms.locfileid: "4420281"
 ## <a name="see-also"></a>См. также
 
 - [Что нового в Human Resources](hr-admin-whats-new.md)
-- [Планы выпусков Dynamics 365 и Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Планы выпусков Dynamics 365 и Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

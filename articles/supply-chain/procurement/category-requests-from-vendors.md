@@ -1,22 +1,22 @@
 ---
 title: Управление запросами на категорию от поставщиков
 description: В этой теме описывается, как поставщики могут запрашивать категории закупок для своего счета. Здесь также описывается процесс утверждения, выполняемый агентами по закупкам.
-author: Henrikan
+author: kamaybac
 ms.date: 04/19/2021
 ms.topic: article
 ms.search.form: VendRequestNewCategory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: f73e163084ec2870d01cc063c63246a4480fd3a056d04617771b955477325671
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782499"
 ---
 # <a name="category-requests-from-vendors"></a>Управление запросами на категорию от поставщиков
 
@@ -26,11 +26,11 @@ ms.locfileid: "8103120"
 
 Запросы категорий инициируются поставщиками в рабочей области **Информация о поставщике**. Затем они передаются в ваше агентство для просмотра и утверждения. Утвержденные категории добавляются в список категорий закупок для счета поставщика.
 
-## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Включение или отключение функции запроса категорий от поставщиков
+## <a name="turn-on-the-feature-in-your-system"></a>Включите функцию в системе
 
-В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать или выключать эту функцию, выполняя поиск функции *Разрешить поставщикам подавать заявки на категории закупаемой продукции через интерфейс совместной работы* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Если в вашей системе еще не включена функция, описанная в этом разделе, перейдите [Управлению функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Разрешить поставщикам подавать заявки на категории закупаемой продукции в рамках совместной работы с поставщиками*.
 
-Если эта функция включена, можно по-прежнему добавлять категории закупок в счета поставщиков вручную. Для информации см. [Утверждение поставщиков для определенных категорий закупаемой продукции](tasks/approve-vendors-specific-procurement-categories.md).
+После включения функции можно по-прежнему добавлять категории закупок в счета поставщиков вручную. Для информации см. [Утверждение поставщиков для определенных категорий закупаемой продукции](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Запросы совместной работы с поставщиками
 

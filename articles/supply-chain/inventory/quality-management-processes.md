@@ -3,7 +3,7 @@ title: Обзор управления качеством и несоответ�
 description: В этой теме описываются функции управления качеством и несоответствия в Microsoft Dynamics 365 Supply Chain Management и объясняется, как они могут помочь улучшить качество продукта в цепи поставок.
 author: yufeihuang
 ms.date: 03/23/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4e61dd50eb3a91197937ab319479e398c03e0a05
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985528"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568839"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Обзор управления качеством и несоответствием
 

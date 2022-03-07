@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 132b3133bd75cd2b47a96a60e943ff96e686fecf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415278"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229896"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>Определение отношений между подразделениями организации
 
@@ -63,3 +62,6 @@ ms.locfileid: "4415278"
 29. Щелкните "Опубликовать".
 30. Щелкните "Закрыть".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

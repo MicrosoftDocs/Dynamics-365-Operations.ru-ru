@@ -1,27 +1,25 @@
 ---
 title: Мобильная рабочая область "Утверждение заказа на покупку"
 description: В этой теме содержится информация о мобильной рабочей области "Утверждение заказа на покупку", которая позволяет просматривать заказы на покупку и отвечать на них посредством действий. Например, можно утвердить или отклонить заказ на покупку.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc88f20b50e034f2f27b7e2576fe6a4bb3486e23
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022314"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570569"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Мобильная рабочая область "Утверждение заказа на покупку"
 
@@ -38,7 +36,7 @@ ms.locfileid: "5022314"
 Необходимые условия различаются в зависимости от версии Supply Chain Management, развернутой в вашей организации.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management 
-Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Утверждение заказа на покупку**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Утверждение заказа на покупку**. См. инструкции в [Публикация мобильной рабочей области](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -57,16 +55,16 @@ ms.locfileid: "5022314"
 <td>Системный администратор</td>
 <td>KB 4017918 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Утверждение заказа на покупку</strong>. Для установки KB 4017918 системный администратор должен выполнить следующие задачи.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Установите исправление метаданных</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Примените готовый к развертыванию пакет</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Опубликуйте мобильную рабочую область <strong>Утверждение заказа на покупку</strong>.</td>
 <td>Системный администратор</td>
-<td>См. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Публикация мобильной рабочей области</a>.</td>
+<td>См. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +83,7 @@ ms.locfileid: "5022314"
 3. При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4. После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-![Рабочая область "Утверждение заказа на покупку" в списке доступных рабочих областей](./media/po-workspaces.png)
+![Рабочая область "Утверждение заказа на покупку" в списке доступных рабочих областей.](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>Просмотр назначенных вам заказов
 1. На мобильном устройстве выберите рабочую область **Утверждение заказа на покупку**.
@@ -112,3 +110,6 @@ ms.locfileid: "5022314"
 5. Выбор соответствующего действия.
 6. На странице **Завершить задачу** введите комментарий. Обратите внимание, что при выборе действия **Делегировать** необходимо выбрать пользователя, которому будет делегирована задача.
 7. Выберите **Готово**. После обновления рабочей области заказа на покупку больше не будет в вашем списке. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

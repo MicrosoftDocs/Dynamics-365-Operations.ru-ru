@@ -2,9 +2,11 @@
 title: Импорт ваучеров с помощью объекта "Общий журнал"
 description: В этом разделе приводятся советы по импорту данных в общий журнал с помощью объекта "Общий журнал".
 author: rcarlson
+manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065078"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129607"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Импорт ваучеров с помощью объекта "Общий журнал"
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этом разделе приводятся советы по импорту данных в общий журнал с помощью объекта "Общий журнал".
 
@@ -66,6 +65,3 @@ ms.locfileid: "8065078"
 - Если в поле **Номер ваучера** задано значение **Сгенерировано автоматически**, импорт завершится ошибкой. Параметр **Сгенерировано автоматически** для поля **Номер ваучера** не поддерживается.
 
 По умолчанию объект "Общий журнал" использует обработку на основе набора. После оценки бизнес-требований организации можно изменить параметр **Обработка на основе набора**, щелкнув **Информационные объекты** в рабочей области **Управление данными**. Обработка на основе набора позволяет ускорить процесс импорта. Если вы не используете обработку на основе набора, импорт объекта "Общий журнал" будет проходить медленнее.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

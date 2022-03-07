@@ -2,11 +2,9 @@
 title: Выбытие РБП (Россия)
 description: В этом разделе описывается, как проводится выбытие расходов будущих периодов (РБП).
 author: anasyash
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5465367cd15355bc6d13215a762e3fb5d81c33ed
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d654bb701515d974b1c5ed3c0a065689d2f36831abf451739b0d6187a7dc835
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741479"
 ---
 # <a name="dispose-of-deferrals-russia"></a>Выбытие РБП (Россия)
 
@@ -44,7 +42,7 @@ ms.locfileid: "4964614"
 16. На панели операций выберите **Функции** \> **Редактировать строку**, чтобы отредактировать журнал перед разноской.
 17. В области действий выберите **Разнести** \> **Разнести**, чтобы разнести ваучер. Выбытие по сроку отображается как значение **Даты выбытия** на модели стоимости РБП.
 
-    ![Страница моделей РБП](media/rus-dispose-deferrals-01.png)
+    ![Страница моделей РБП.](media/rus-dispose-deferrals-01.png)
 
     > [!NOTE]
     > Строка журнала будет разнесена только в том случае, если нет разрыва между последним разнесенным списанием и периодом выбытия.
@@ -54,3 +52,6 @@ ms.locfileid: "4964614"
     Когда статус РБП **Закрыт** а строка затенена серым цветом на странице **Модели РБП**, моделей Deferrals, вы можете разнести ваучер реверсирования только в том случае, если его тип проводки является **Списание** и статус **Закрыто**. 
 
     Для просмотра РБП, которые сгенерированы, перейдите к **Главная книга** \> **Расходы будущих периодов** \> **Расходы будущих периодов**. Для просмотра сведений о проводках на странице **Проводки по РБП**, выберите **Модели РБП**, а затем выберите **Проводки**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,39 +1,41 @@
 ---
 title: Невозможно создать среду в центре администрирования Power Apps
-description: В этой статье объясняется, что делать, если администратор не может создать среду в центре администрирования Microsoft Power Apps.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: В этом разделе объясняется, что делать, если администратор не может создать среду в центре администрирования Microsoft Power Apps.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 937b372fa95c8076666aed14c2b34b12e8029c4d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420219"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067712"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Невозможно создать среду в центре администрирования Power Apps
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Выдать**
 
 - Администратор владельца/среды не может создать среду в центре администрирования Microsoft Power Apps.
-- Лицензия, дающая пользователям право на выполнение этапа создания среды, еще не была назначена непосредственно пользователю, который выполняет этот этап.
+- У пользователя нет лицензии, которая содержит право на создание сред.
 
 **Решение**
 
-Убедитесь в том, что администратор владельца назначил действительную лицензию Power Apps P2 непосредственно пользователю, который будет выполнять этап создания среды. Вот планы обслуживания Microsoft Dynamics, которые предоставляют это право.
+Убедитесь, что администратор клиента назначил действительную лицензию Power Apps P2 для пользователя, создающего среду. В следующих планах обслуживания Microsoft Dynamics имеются разрешения на создание сред:
 
 | Общая единица складского хранения (SKU) продукта       | План услуг Power Apps P2  |
 |------------------------------------------------|----------------------------|
@@ -43,4 +45,7 @@ ms.locfileid: "4420219"
 Обратите внимание, что различные единицы складского хранения Microsoft Office также предоставляют это право, вместе с автономными единицами складского хранения Power Apps Plan 2. Важно, что необходимо наличие одной из этих единиц складского хранения.
 
 1. Перейдите на страницу [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
-2. Создайте среды, следуйте инструкциям в разделе [Подготовка Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+2. Создайте среды, следуйте инструкциям в разделе [Подготовка Human Resources](/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

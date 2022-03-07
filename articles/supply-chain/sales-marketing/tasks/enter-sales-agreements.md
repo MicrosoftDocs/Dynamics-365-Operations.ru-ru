@@ -1,7 +1,7 @@
 ---
 title: Ввод договоров продажи
 description: В этой теме показано, как создать договор продажи, который обязывает одного из ваших клиентов закупить продукцию на согласованную суммы в течение определенно времени в обмен на специальные скидки.
-author: Henrikan
+author: omulvad
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 675eeda04880601f0261c6ae5e5a49de38f75a7c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568311"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810854"
 ---
 # <a name="enter-sales-agreements"></a>Ввод договоров продажи
 

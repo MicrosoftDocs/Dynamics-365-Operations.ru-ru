@@ -2,11 +2,9 @@
 title: Домашняя страница локального развертывания
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679352"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5940969"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -39,12 +37,14 @@ ms.locfileid: "4679352"
 
 ## <a name="onboard"></a>Адаптация
 - [Настройка локальных проектов в Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Настройка и развертывание локальных сред (Platform update 12 и более поздние версии)](setup-deploy-on-premises-pu12.md)
+- [Настройка и развертывание локальных сред (Platform update 41 и более поздние версии)](setup-deploy-on-premises-pu41.md)
+- [Настройка и развертывание локальных сред (Platform update с 12 по 40)](setup-deploy-on-premises-pu12.md)
 - [Установка сетевых принтеров в локальных средах](../analytics/install-network-printer-onprem.md)
 - [Настройка служб SQL Server Reporting Services для локальных развертываний](../analytics/configure-ssrs-on-premises.md)
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Работа в локальном развертывании
+- [Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Настройка управления документами](../../fin-ops/organization-administration/configure-document-management.md)
 - [Импорт конфигураций электронной отчетности (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Создание, публикация и печать документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
@@ -56,10 +56,10 @@ ms.locfileid: "4679352"
 - [Повторное использование одного экземпляра AD FS для нескольких сред](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [Возможности Commerce, которые доступны в локальных развертываниях](../../../retail/retail-onprem.md)
+- [Возможности Commerce, которые доступны в локальных развертываниях](../../../commerce/retail-onprem.md)
 - [Действия по установке для компонентов канала розничной торговли в локальной среде](deploy-retail-onprem.md)
-- [Настройка, установка и активация Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Настройка и установка Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Настройка, установка и активация Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
+- [Настройка и установка Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Обновить
 - [Процесс обновления на месте для локальных сред](../migration-upgrade/on-prem-upgrade.md)
@@ -72,3 +72,6 @@ ms.locfileid: "4679352"
 - [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и локальные выпуски](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

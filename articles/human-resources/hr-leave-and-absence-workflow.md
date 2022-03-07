@@ -2,7 +2,7 @@
 title: Создание workflow-процесса запросов на отпуск
 description: Создание workflow-процесса запросов отпуска и отсутствия для постоянного управления запросами отпуска в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c2c2020c68c4aca3594a2532d32f968ab76f6b7b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420180"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463318"
 ---
 # <a name="create-a-leave-request-workflow"></a>Создание workflow-процесса запросов на отпуск
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Workflow-процесс можно создать в Dynamics 365 Human Resources для постоянного управления запросами отпуска и отсутствия. Workflow-процесс **Отпуск и отсутствие** позволяет:
 
@@ -81,3 +83,6 @@ Workflow-процесс можно создать в Dynamics 365 Human Resource
 ## <a name="see-also"></a>См. также
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

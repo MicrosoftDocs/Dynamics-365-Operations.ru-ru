@@ -1,10 +1,12 @@
 ---
 title: Определения строк в конструкторе финансовых отчетов
-description: Определение строки — это компонент отчета или строительный блок, который указывает содержимое каждой строки в финансовом отчете.
+description: Определение строки — это компонент отчета или строительный блок, который указывает содержимое каждой строки в финансовом отчете. Определения строки можно объединить с определениями столбцов, определениями дерева отчетности и определениями отчетов, чтобы создать группу строительных блоков, которую можно использовать во множестве компаний.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745920"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688291"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Определения строк в конструкторе финансовых отчетов
 
@@ -158,7 +160,7 @@ ms.locfileid: "6745920"
 
 1. В конструкторе отчетов выберите редактируемое определение строки.
 2. Выберите ячейки, которые форматировать. Чтобы выбрать несколько ячеек, удерживайте клавишу Ctrl, пока вы выбираете ячейки.
-3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы сделать отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ.](media/indent.gif "Увеличить отступ") на панели инструментов.
+3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы сделать отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ](media/indent.gif "Увеличить отступ") на панели инструментов.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Отрегулируйте столбцы, когда вы конструируете отчеты
 
@@ -185,6 +187,3 @@ ms.locfileid: "6745920"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Финансовая отчетность](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

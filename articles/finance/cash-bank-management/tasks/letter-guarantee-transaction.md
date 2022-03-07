@@ -2,9 +2,11 @@
 title: Проводка, связанная с гарантийным письмом
 description: Эта процедура содержит указания по обработке гарантийного письма.
 author: kweekley
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 206050a2c60eaeff4776b534e3f366c6998f1756bf2734461fc10b9b83f4539a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 566849cfcedd29f4bb92d08a17b67e16b1cbc372
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743105"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225377"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Проводка, связанная с гарантийным письмом
 

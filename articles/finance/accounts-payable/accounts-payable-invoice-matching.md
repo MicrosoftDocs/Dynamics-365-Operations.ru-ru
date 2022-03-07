@@ -1,9 +1,9 @@
 ---
 title: Обзор сопоставления накладных по расчетам с поставщиками
 description: Сопоставление накладных по расчетам с поставщиками – это процесс сопоставления информации в накладной поставщика, заказе на покупку и сведений о поступлении продуктов.
-author: sunfzam
+author: abruer
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: baba6f9f0fbe3b2ac13fad2a9cf8bbb166d0c35e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984085"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339116"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Обзор сопоставления накладных по расчетам с поставщиками
 

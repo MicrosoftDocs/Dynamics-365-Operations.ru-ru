@@ -2,11 +2,9 @@
 title: Основные формы для МОС, спецодежды и спецоснастки (Россия)
 description: Этот раздел содержит сведения об основных формах для МОС, спецодежды и спецоснастки для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba9927138c16ad6739665881bdbfc3fa90fee2ac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cf6fc2973e42a2ced954c4f62f1232b5c11ca87662ceca573dcb668803146dd9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744268"
 ---
 # <a name="primary-forms-for-nvfa-working-clothes-and-special-riggings-russia"></a>Основные формы для МОС, спецодежды и спецоснастки (Россия)
 
@@ -83,3 +81,6 @@ ms.locfileid: "4962525"
 6.  Щелкните вкладку **Должностные лица**. Отображаются сведения о назначенных должностных лицах. Вы можете изменить сведения о сотруднике, если это необходимо.
 
 7.  Щелкните **Печать** для создания акта о списании МОС (№ МБ-8).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

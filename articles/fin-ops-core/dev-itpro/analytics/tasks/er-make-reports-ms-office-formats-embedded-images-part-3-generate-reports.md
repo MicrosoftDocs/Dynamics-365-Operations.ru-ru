@@ -1,12 +1,11 @@
 ---
 title: Формирование отчетов в формате Office, содержащих внедренные изображения
-description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может разрабатывать конфигурации электронной отчетности для формирования электронных документов в форматах MS Office (Excel и Word), содержащих внедренные изображения.
+description: В этой теме описывается, как разрабатывать конфигурации электронной отчетности (ER) для формирования электронных документов в Excel и Word, содержащих внедренные изображения.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7ed0ab0042c98f063eb0ec2ab31c913d9385186c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684387"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569469"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Формирование отчетов в формате Office, содержащих внедренные изображения
 
@@ -119,3 +118,6 @@ ms.locfileid: "4684387"
 23. Нажмите кнопку "OК".
     * Просмотрите созданные выходные данные. Выходные данные были созданы как документ Word с внедренными изображениями, представляющими логотип компании, подпись уполномоченного лица и выбранный текст водяного знака.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

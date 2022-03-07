@@ -1,33 +1,35 @@
 ---
-title: Обработка изменений ставок
-description: Процесс изменения ставок льгот в Microsoft Dynamics 365 Human Resources, когда для нового или существующего плана льгот есть изменения параметров правил допустимости.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Обработка изменений рейтинга
+description: В этой теме объясняется, как обрабатывать изменения ставок льгот в Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e0dfbdde8ee950a0341fffb1e268fff05434953
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420216"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070383"
 ---
-# <a name="process-rate-changes"></a>Обработка изменений ставок
+# <a name="process-rate-changes"></a>Обработка изменений рейтинга
 
-Процесс изменения ставок льгот в Microsoft Dynamics 365 Human Resources, когда для нового или существующего плана льгот есть изменения параметров правил допустимости. Если новое правило допустимости создано и назначено плану, система рекомендует снова выполнить проверку допустимости для проверки того, имеют ли работники право на план на основе новых параметров допустимости. 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+В этой теме объясняется обработка изменений ставок льгот в Microsoft Dynamics 365 Human Resources, когда для нового или существующего плана льгот есть изменения параметров правил допустимости. Если новое правило допустимости создано и назначено плану, система рекомендует снова выполнить проверку допустимости для проверки того, имеют ли работники право на план на основе новых параметров допустимости. 
 
 1. В рабочей области **Управление льготами** в **Обработка** выберите **Обработка обновления изменения ставки**.
 
@@ -48,3 +50,6 @@ ms.locfileid: "4420216"
    4. Нажмите **ОК**. Процесс будет выполнен с заданными вами параметрами.
 
 4. Нажмите **ОК**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

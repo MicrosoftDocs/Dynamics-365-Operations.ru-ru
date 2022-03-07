@@ -2,15 +2,12 @@
 title: Улучшенная обработка номенклатур с отслеженными партиями
 description: В этом разделе описываются улучшения обработки партий для номенклатур с отслеженными партиями в процессе разноски журнала операций.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459787"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799717"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Улучшенная обработка номенклатур с отслеженными партиями
 
@@ -46,3 +43,6 @@ ms.locfileid: "4459787"
 
 > [!NOTE]
 > Поддержка улучшенной обработки номенклатур с отслеженными партиями при разноске журнала операций для простых процессов управления складом, появившихся в Retail версии 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

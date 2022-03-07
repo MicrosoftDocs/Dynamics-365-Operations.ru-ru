@@ -2,26 +2,25 @@
 title: Обзор финансовой интеграции для каналов Commerce
 description: В этом разделе представлен обзор возможностей финансовой интеграции, доступных в Dynamics 365 Commerce.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348198"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Обзор финансовой интеграции для каналов Commerce
 
@@ -64,7 +63,7 @@ ms.locfileid: "5017475"
 7. POS-терминал анализирует ответ от финансового устройства или службы, чтобы определить, успешно ли выполнена финансовая регистрация.
 8. CRT сохраняет ответ в базе данных канала.
 
-![Схема решения](media/emea-fiscal-integration-solution.png "Схема решения")
+![Схема решения.](media/emea-fiscal-integration-solution.png "Схема решения")
 
 ## <a name="error-handling"></a>Обработка ошибок
 
@@ -149,3 +148,6 @@ POS выполняет проверку состояния при возникн
 Следующие устаревшие функции финансовой интеграции, доступные в Retail SDK, не используют структуру финансовой интеграции и будут удалены в последующих обновлениях:
 
 - [Пример интеграции с блоком управления для Швеции (устар.)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

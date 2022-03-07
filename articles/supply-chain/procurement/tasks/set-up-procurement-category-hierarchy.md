@@ -1,25 +1,23 @@
 ---
 title: Настройка иерархии категорий закупаемой продукции
 description: В этой процедуре показано, как создавать новые узлы в иерархии категорий закупаемой продукции, а также как настроить категорию закупаемой продукции для использования в процессе закупки.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 44350272aa1cd9f80bf3a408c36cd627318fde0c3e1e8c148a6b6467ebb8d525
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017325"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751897"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Настройка иерархии категорий закупаемой продукции
 
@@ -44,3 +42,6 @@ ms.locfileid: "5017325"
 4. Выберите продукт, которую требуется добавить в категорию закупаемой продукции.
 5. Выберите стрелку для добавления продукта в таблицу **Выбрано**.
 6. Нажмите **ОК**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

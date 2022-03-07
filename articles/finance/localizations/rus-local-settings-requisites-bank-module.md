@@ -2,11 +2,9 @@
 title: Настройка банковских счетов (Россия)
 description: В этой теме содержится информация о локальных параметрах и необходимых условиях для банковских модулей для России.
 author: anasyash
-manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankGroup, BankAccountTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4cdf319f11325675f62707be857f752c280fe1d2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c0f0531db516072d40f344eeeb34bb27c9b408d3c276f1910e027b63e3bfb9e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774209"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 
@@ -47,7 +45,7 @@ ms.locfileid: "4962540"
 ### <a name="prerequisites"></a>Необходимые условия
 
 1.  Импортируйте файл конфигурации электронной отчетности "Каталог БИК банков (RU)" из Microsoft Dynamics Lifecycle Services (LCS).
-Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Перейдите в раздел **Управление банком и кассовыми операциями > Настройка > Параметры управления банком и кассовыми операциями**. На экспресс-вкладке **Общие** в группе полей **Импорт списка банков** в поле **Импорт конфигурации формата** выберите конфигурацию электронной отчетности "Каталог БИК банков (RU)".
 
@@ -84,4 +82,7 @@ ms.locfileid: "4962540"
 > [!NOTE]
 > Прежде чем определять шаблон документа, создайте шаблоны в виде файлов и вложите их в запись. Определить наличие вложенных документов можно по числовому индикатору на значке **Вложения документов**.
 
-![Банковский счет](media/rus-bank-account.jpg)
+![Банковский счет.](media/rus-bank-account.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

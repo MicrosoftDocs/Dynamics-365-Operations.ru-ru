@@ -2,9 +2,11 @@
 title: Выпуск спецификации и строк формулы на склад
 description: В этом разделе описан процесс выпуска сырья для строк спецификации и строк формулы на склад.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62808c2e488e2c38b7dedfc258d9f2bf3e78c23c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209307"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Выпуск спецификации и строк формулы на склад
 
@@ -61,7 +63,7 @@ ms.locfileid: "6731231"
 
 На следующем рисунке показан производственный заказ, который имеет два задания, 10 и 20, которые охватывают сборку и упаковку для производственного заказа. Каждое задание настраивается для использования определенного количества материала. На этом рисунке временная граница запуска в производство, которая обозначена зеленой стрелкой под линией времени, равна количеству дней, которое указано в критерии **(LessThanDate())**. Например, **(LessThanDate(2))** указывает, что задание должно искать невыпущенные количества только в пределах временной границы в два дня.
 
-![Пример производственного заказа, который имеет два пакетных задания.](media/bach-job-setup.PNG)
+![Пример производственного заказа, который имеет два пакетных задания](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Выпуск материала по коду операции или пропорционально количеству готовой продукции
 
@@ -78,7 +80,7 @@ ms.locfileid: "6731231"
 
 На следующем рисунке показан производственный заказ, который имеет две операции, 10 и 20. В этом примере если ограничить выпуск операцией 10, выпускается только материал M9203.
 
-![Пример выпуска материалов по коду операции.](media/two-operations.PNG)
+![Пример выпуска материалов по коду операции](media/two-operations.PNG)
 
 Для быстрой демонстрации выпуска материала пропорционально количеству готовой продукции, просмотрите это короткое видео на YouTube об [усовершенствованиях процесса выпуска производственного заказа](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

@@ -2,15 +2,12 @@
 title: Назначение работников плану отпусков
 description: Назначение сотрудников и подрядчиков для планов отпуска в Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3407acc164aab1bd1afb2429fc5a221edd0a2493
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 117066e8321dd7d57e9656531c1918a9f3298caf
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420296"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051460"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Назначение работников плану отпусков
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 После создания плана отпуска и отсутствия в Dynamics 365 Human Resources необходимо назначить его работникам.
 
@@ -60,3 +59,5 @@ ms.locfileid: "4420296"
 
 - [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)
 - [Создание плана отпусков и отсутствий](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

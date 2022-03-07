@@ -1,29 +1,26 @@
 ---
-title: Бизнес-правило клиента
+title: Workflow-процесс клиента
 description: В этом разделе приводятся сведения о бизнес-правиле клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459827"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753834"
 ---
-# <a name="customer-workflow"></a>Бизнес-правило клиента
+# <a name="customer-workflow"></a>Workflow-процесс клиента
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,3 +58,6 @@ ms.locfileid: "4459827"
     Статус на странице изменится на **Изменения, ожидающие утверждения**.
 
 Бизнес-правило следует стандартному процессу бизнес-правила в приложении. Утверждающий будет направлен на страницу **Клиент**, на которой можно просмотреть изменения на странице **Предлагаемые изменения** и выбрать **Бизнес-правило \> Утвердить** для утверждения бизнес-правила. По завершении всех утверждений поля будут обновлены для отображения предложенных значений.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

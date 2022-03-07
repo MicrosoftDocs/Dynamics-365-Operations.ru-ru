@@ -2,15 +2,12 @@
 title: Определение гипотезы и определение метрик для эксперимента
 description: В этом разделе описывается, как определить гипотезу и метрики успешности для эксперимента, который будет выполняться на веб-сайте электронной коммерции в Dynamics 365 Commerce.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4415375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720940"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Определение гипотезы и определение метрики успеха для эксперимента
 Первый этап жизненного цикла эксперимента включает в себя определение гипотезы для эксперимента и определение метрик, которые вы будете отслеживать для оценки успеха. На следующей схеме показаны все шаги [настройки и запуска эксперимента](experimentation-overview.md) на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах. 
 
-[ ![Путь взаимодействия пользователя с экспериментами — определение](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Путь взаимодействия пользователя с экспериментами — определение.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Гипотеза — это утверждение, в которой прогнозируется результат эксперимента. Многие факторы влияют на определение гипотезы, например, исследование поведения пользователей и данные веб-сайта, которые вы собираете. С гипотезой вы определяете допущение или теорию, которые вы хотите проверить с помощью эксперимента. Примером гипотезы для эксперимента может быть *изображение белой футболки на домашней странице будет способствовать повышению коэффициента перехода по ссылкам по сравнению с изображением морского свитера в летние месяцы, так как летом люди хотят носить что-то более легкое и светлое".* В этом случае вы создаете вариации, которые включают белую футболку и морской свитер, и публикуете их одновременно.
 
@@ -40,3 +37,6 @@ ms.locfileid: "4415375"
 
 ## <a name="next-step"></a>Далее
 [Настройка эксперимента](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Модуль навигации
 description: В этом разделе описываются модули навигации, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109740"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986087"
 ---
-# <a name="breadcrumb-module"></a>Модуль иерархической навигации
+# <a name="breadcrumb-module"></a>Модуль навигации
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули навигации, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Обзор
 
 Модули навигации используются для дополнительной навигации по страницам сайта. Обычно они отображаются в верхней части страницы, под заголовком. Хотя модули навигации могут быть добавлены на любую страницу, они чаще всего используются на страницах сведений о продуктах (PDP), чтобы показать иерархию категорий продуктов и обеспечить быстрый способ перемещения по сайту. Модуль навигации можно также использовать для отображения ссылки "Назад к результатам", когда пользователи открывают PDP из поиска или со страницы списка. Таким образом пользователи могут быстро вернуться на страницу отфильтрованного списка для продолжения покупок.
 
@@ -37,7 +41,7 @@ ms.locfileid: "8109740"
 
 На следующем рисунке показан пример модуля навигации, который показывает иерархию категорий в PDP.
 
-![Пример модуля навигации.](./media/ecommerce-breadcrumb.PNG)
+![Пример модуля навигации](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Параметры модуля навигации
 
@@ -90,6 +94,3 @@ ms.locfileid: "8109740"
 [Модуль поля покупки](add-buy-box.md)
 
 [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

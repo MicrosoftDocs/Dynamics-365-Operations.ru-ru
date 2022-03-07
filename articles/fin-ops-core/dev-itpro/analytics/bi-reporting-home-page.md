@@ -8,20 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
+ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712744"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754502"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Домашняя страница отчетности и аналитика с Power BI
 
@@ -39,7 +37,7 @@ ms.locfileid: "6712744"
 
 Пользователи могут взаимодействовать с данными, нажимая визуальные элементы на странице. Они могут выявлять причинно-следственные связи и проводить простой анализ "что-если", не выходя из рабочей области. Работа с данными станет интересной благодаря качественным интерактивным визуальным объектам, и пользователям будет проще находить скрытые тенденции.
 
-![Пример Power BI в рабочей области.](./media/Power-BI-in-D365-Workspace.png)
+![Пример Power BI в рабочей области](./media/Power-BI-in-D365-Workspace.png)
 
 Дополнительные сведения см. в следующих разделах.
 
@@ -52,7 +50,7 @@ ms.locfileid: "6712744"
 ## <a name="business-documents-and-printing"></a>Бизнес-документы и печать
 Решения для формирования отчетности часто используются для сбора и передачи информации о бизнес-операциях. Поэтому такое решение должно поддерживать создание физических представлений бизнес-данных с помощью имеющихся устройств, например сетевых принтеров. Такими бизнес-документами могут быть накладные по продаже, выписки по клиентам и чеки.
 
-[![Пример бизнес-документов.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Пример бизнес-документов](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Дополнительные сведения см. в следующих разделах.
 
@@ -63,7 +61,7 @@ ms.locfileid: "6712744"
 ## <a name="electronic-reporting"></a>Электронная отчетность
 Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран и регионов. Электронную отчетность можно использовать для финансового аудита, формирования налоговой отчетности и выставления электронных накладных.
 
-[![Пример электронной отчетности.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Пример электронной отчетности](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Дополнительные сведения см. в следующих разделах.
 
@@ -74,7 +72,7 @@ ms.locfileid: "6712744"
 ## <a name="financial-reporting"></a>Финансовая отчетность
 Вы можете создавать стандартные финансовые отчеты, использующие категории счетов ГК по умолчанию. А с помощью конструктора отчетов вы можете создавать и изменять традиционные финансовые отчеты, например отчет о прибылях и убытках или бухгалтерский баланс. Затем вы можете поделиться результатами с другими сотрудниками своей организации. Примерами финансовой отчетности являются баланс, отчет о движении денежных средств и годовое сравнение сводного пробного баланса.
 
-[![Пример финансовой отчетности.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Пример финансовой отчетности](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Дополнительные сведения см. в следующих разделах.
 

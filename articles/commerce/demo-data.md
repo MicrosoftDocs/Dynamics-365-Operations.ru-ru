@@ -2,16 +2,13 @@
 title: Макеты экрана демонстрационных данных в Modern POS (MPOS) и Cloud POS
 description: В этом разделе приводятся сведения о макетах экрана, входящих в состав набора демонстрационных данных POS-терминала в Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
-ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
+ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "4415394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761670"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Макеты экрана демонстрационных данных в Modern POS (MPOS) и Cloud POS
 
@@ -36,13 +33,13 @@ ms.locfileid: "4415394"
 
 Образцы макетов экрана, которые входят в состав демонстрационных данных приложения Commerce, предоставляют содержимое, оптимизированное для различных сегментов розничной торговли, ролей работников магазина и устройств. Один макет может содержать несколько размеров макета и несколько комбинаций сеток кнопок, чтобы обеспечить поддержку при перемещении сотрудников между устройствами и станциями. В этом разделе рассмотрены различия между этими макетами, операции, которые они обеспечивают, и общие возможности, которые они предоставляют.
 
-![Макеты демонстрационных данных между устройствами](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Макеты демонстрационных данных между устройствами.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Составляющие кода макета экрана
 
 Чтобы найти макеты экрана, выберите **Retail и Commerce** \> **Настройка канала** \> **Настройка POS** \> **POS** \> **Макеты экрана**.
 
-![Страница макетов экрана](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Страница макетов экрана.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Коды макетов экрана могут иметь не более 10 символов. Код является строкой, которая состоит из трех видов информации в следующем порядке:
 
@@ -55,8 +52,8 @@ ms.locfileid: "4415394"
 | Литера | Организация         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
-| К      | Contoso         |
+| П      | Fabrikam        |
+| C      | Contoso         |
 
 ### <a name="layout-version"></a>Версия макета
 
@@ -82,7 +79,7 @@ F4MGR
 
 На следующем рисунке показан пример экрана приветствия для директора магазина Fabrikam.
 
-![Экран приветствия для директора магазина Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Экран приветствия для директора магазина Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Размеры макетов
 
@@ -111,7 +108,7 @@ F4MGR
 > [!TIP]
 > POS-терминал автоматически выбирает размеры макета на основании ближайшего размера, доступного для разрешения экрана текущего окна приложения. Чтобы найти код макета экрана и разрешение макета, которые используются в настоящее время, в Modern POS (MPOS) or Retail Cloud POS (CPOS) откройте страницу **Параметры** и смотрите раздел **Сведения о сеансе**. Можно также просмотреть фактическое разрешение окна для текущего приложения или фрейма браузера. Получив эту информацию, можно найти источник содержимого макета, последовательно выбрав пункты **Настройка канала** \> **Настройка POS** \> **POS** \> **Макеты экрана**.
 
-![Макеты экрана и разрешения/размеры макета в Commerce и POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Макеты экрана и разрешения/размеры макета в Commerce и POS.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Компании и бренды
 
@@ -126,25 +123,25 @@ F4MGR
 | Contoso         | Бостон   | Электроника    | Красный    | Темная  |
 
 > [!NOTE]
-> Adventure Works и Fabrikam являются двумя флагманскими брендами. Компания Contoso доступно, но для нее представлены не все макеты.
+> Adventure Works и Fabrikam являются двумя флагманскими брендами. Contoso доступна, но для нее представлены не все макеты.
 
 На следующем рисунке показаны примеры страницы приветствия и страницы проводки для трех вымышленных компаний.
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Страница приветствия из демонстрационных данных для Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Страница приветствия из демонстрационных данных для Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Страница проводки из демонстрационных данных для Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Страница проводки из демонстрационных данных для Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Страница приветствия из демонстрационных данных для Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Страница приветствия из демонстрационных данных для Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Страница проводки из демонстрационных данных для Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Страница проводки из демонстрационных данных для Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Макеты из демонстрационных данных для Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Макеты из демонстрационных данных для Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Вход пользователя в матрице
 
@@ -171,8 +168,11 @@ F4MGR
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Частичная отгрузка загрузки транспорта
 description: В этом разделе объясняется, как можно частично отгрузить груз и отложить планирование вместимости для груза.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 68a3d175e89e89d0909b140863b1aa61a184fce6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 179a784f1f02ed0840ba5219c350e274272b59eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963293"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818952"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Частичная отгрузка загрузки транспорта
 
@@ -65,3 +63,6 @@ ms.locfileid: "4963293"
 
 1. Выберите **Управление складом** \> **Загрузки** \> **Загрузки транспорта**.
 2. В области действий на вкладке **Отгрузка и получение** в группе **Подтверждение** выберите **Транспортировка**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

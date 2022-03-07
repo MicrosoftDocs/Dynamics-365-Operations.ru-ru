@@ -2,28 +2,25 @@
 title: Прогноз движения денежных средств (предварительная версия)
 description: В этой теме описывается возможность прогнозирования движения денежных средств.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645256"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186548"
 ---
 # <a name="cash-flow-forecast-preview"></a>Прогноз движения денежных средств (предварительная версия)
 
@@ -66,5 +63,4 @@ ms.locfileid: "4645256"
 
 На вкладке **Аналитики** выберите из списка аналитик, используемых для фильтрации, и используйте клавиши со стрелками для перемещения их в правый столбец. Для фильтрации данных прогноза движения денежных средств можно выбрать только две аналитики. 
 
-#### <a name="privacy-notice"></a>Уведомление о конфиденциальности
-Предварительные версии (1) могут использовать меньшую степень конфиденциальности и безопасности, чем сервис Dynamics 365 Finance and Operations, (2) не включаются в соглашение об уровне обслуживания (SLA) для этого сервиса, (3), не должны использоваться для обработки личных данных или других данных, являющихся объектом соответствия юридическим или нормативным требованиям и (4) имеет ограниченную поддержку.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

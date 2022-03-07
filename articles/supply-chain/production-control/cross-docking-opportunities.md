@@ -2,9 +2,11 @@
 title: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
 description: В этом разделе описывается, как управлять процессом кросс-докинга материала, который принят из производственной линии в транспортный док отгрузки.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c408c0b0c32292c074bcabf3822a50a24bbdd301
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715754"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007299"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Кросс-докинг из производственных заказов в дебаркадеры отгрузки
 
@@ -28,7 +30,8 @@ ms.locfileid: "6715754"
 
 В этом разделе описывается, как управлять процессом кросс-докинга материала, который принят из производственной линии в транспортный док отгрузки.
 
-## <a name="introduction"></a>Приветствие
+<a name="introduction"></a>Приветствие
+------------
 
 Кросс-докинг из производства в место отгрузки относится к производителям, которые производят большие объемы и в идеале хотят отгрузить готовую продукцию, как только она принята из производственной линии. Целью является отгрузить продукты в центры распределения, которые физически расположены рядом с желаемым местом клиента, а не создавать запасы на объекте производства.
 
@@ -42,7 +45,7 @@ ms.locfileid: "6715754"
 -   Если для двери уже назначен прицеп, водителю грузовика будет сказано загрузить продукт непосредственно в прицеп.
 -   При отсутствии запланированного мероприятия по перемещению продукта, водителю погрузчика будет сказано отвезти продукт в местоположение на внутреннем складе (5).
 
-[![рациональный кросс-докинг.](./media/scenario1.png)](./media/scenario1.png)
+[![рациональный кросс-докинг](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Настройка кросс докинга
 Кросс-докинг настраивается в **политиках работы**. Политика работы включает тип заказа на выполнение работ, местоположение и продукт. В следующем примере кросс-докинг настраивается для продукта X и местоположения Y.
@@ -123,6 +126,3 @@ ms.locfileid: "6715754"
 -   Сценарий кросс-докинга поддерживается для партии и номенклатур, контролируемых серийными номерами, с аналитиками партии и серийными номерами, определенными выше и снизу от местоположения в иерархии резервирования. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

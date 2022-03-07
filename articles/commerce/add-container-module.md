@@ -2,35 +2,30 @@
 title: Модуль контейнера
 description: В этом разделе описываются модули-контейнеры, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715448"
 ---
-# <a name="container-module"></a>Модуль контейнера
+# <a name="container-module"></a>Контейнерный модуль
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описываются модули-контейнеры, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Контейнерный модуль — это модуль, в котором размещены другие модули. Основное назначение контейнерного модуля заключается в определении (с помощью установленных для него свойств) макета помещаемых внутрь него модулей. Например, эти модули могут отображаться рядом в макете из двух, трех, четырех или шести столбцов. Кроме того, они могут быть ограничены по ширине контейнера или могут заполнять экран. Заголовок также может быть добавлен к каждому контейнерному модулю.
 
@@ -47,7 +42,7 @@ ms.locfileid: "4415174"
 
 На следующем рисунке показан пример модуля контейнера, который содержит модуль карусели в построителе сайтов Commerce. В этом примере для свойства **Ширина** модуля контейнера задано значение **Заполнить экран**.
 
-![Пример модуля контейнера](./media/ecommerce-container.PNG)
+![Пример модуля контейнера.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Свойства модуля контейнера
 
@@ -142,3 +137,6 @@ ms.locfileid: "4415174"
 [Модуль верхнего колонтитула](author-header-module.md)
 
 [Модуль нижнего колонтитула](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

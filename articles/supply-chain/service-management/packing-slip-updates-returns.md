@@ -1,10 +1,12 @@
 ---
 title: Обновления отборочной накладной для возвратов
 description: Перед тем как можно будет зарегистрировать приход возврата на склад, необходимо обновить отборочную накладную того заказа, к которому принадлежат возвращаемые номенклатуры.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPackingSlipJournalHistory, SalesParmPackingSlipTrackingInformation
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f586537aa2d4cb47b0e55e76e401ea6852e1d60
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87dfad2247c84f8e85074739cfff4a2d1b9f8567
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580392"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259706"
 ---
 # <a name="packing-slip-updates-for-returns"></a>Обновления отборочной накладной для возвратов  
 

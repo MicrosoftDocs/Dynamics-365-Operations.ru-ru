@@ -1,12 +1,10 @@
 ---
 title: Workflow-процессы модуля "Закупки и источники"
 description: В некоторых организациях требуется, чтобы заявки на покупку и заказы на покупку утверждались пользователем, отличным от сотрудника, который ввел проводку. Чтобы настроить процесс утверждения, можно создать workflow-процесс.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a3542dda667a7ec6d8c7e74d8caafd1a8fc5cee322d85981f635a1add56152d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775587"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
 
@@ -49,7 +47,7 @@ ms.locfileid: "5019762"
 | Workflow-процесс приложения добавления поставщика | Создание workflow-процессов проверки и утверждения для добавления новых поставщиков через запросы поставщиков. |
 
 > [!IMPORTANT]
-> При добавлении нового рабочего процесса можно также увидеть следующие устаревшие рабочие процессы, перечисленные в диалоговом окне **Создание рабочего процесса**. Они связаны с функциональностью *подтверждения поступления*, которая была доступна в [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), но которая в данный момент устарела. Эти рабочие процессы в настоящее время не поддерживаются.
+> При добавлении нового рабочего процесса можно также увидеть следующие устаревшие рабочие процессы, перечисленные в диалоговом окне **Создание рабочего процесса**. Они связаны с функциональностью *подтверждения поступления*, которая была доступна в [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), но которая в данный момент устарела. Эти рабочие процессы в настоящее время не поддерживаются.
 > 
 > - Workflow-процесс уведомления о сроке выполнения поставки
 > - Workflow-процесс уведомления о полученной накладной
@@ -79,3 +77,6 @@ ms.locfileid: "5019762"
 - [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Бизнес-правило для заявок на покупку](purchase-requisitions-workflow.md)
 - [Адаптация поставщиков](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

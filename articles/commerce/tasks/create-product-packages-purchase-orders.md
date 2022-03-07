@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 296b3fb03b20dee5b6024c182df7feb3ce280913
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d16c5c576ce6b35687fb7edab835d52f6f58e6a0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964678"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256981"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Создание пакетов продуктов для заказов на покупку
 
@@ -72,3 +72,6 @@ ms.locfileid: "4964678"
 17. Щелкните "Создать".
 18. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Связывание сайта Dynamics 365 Commerce с интернет-каналом
+title: Связывание веб-сайта Dynamics 365 Commerce с каналом продаж через Интернет
 description: В этом разделе объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами.
 author: bicyclingfool
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211530"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Связывание сайта Dynamics 365 Commerce с интернет-каналом
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Связывание веб-сайта Dynamics 365 Commerce с каналом продаж через Интернет
 
 [!include [banner](includes/banner.md)]
 
@@ -58,3 +57,6 @@ ms.locfileid: "4517338"
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

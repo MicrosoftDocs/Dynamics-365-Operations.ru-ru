@@ -2,33 +2,30 @@
 title: Изменение порядка сортировки для сбытовых объектов
 description: В этом разделе объясняются понятия, связанные с управлением порядком отображения различных сбытовых объектов в Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b983cb5c63db171c76d34375a93a2b9086185d3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415245"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779550"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Изменение порядка сортировки для сбытовых объектов
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Предприятия розничной торговли считают обнаружение продукта основным средством для взаимодействия с клиентами по всем каналам. Различные функциональные возможности позволяют пользователям легко обнаруживать продукты. Например, они могут просматривать категории, искать и фильтровать.
 
@@ -54,9 +51,9 @@ ms.locfileid: "4415245"
 
 Порядок отображения для иерархии навигации канала будет отражен в головном офисе для иерархии продукции Commerce и выпущенных продуктов по категориям.
 
-![Пользовательская сортировка иерархии продуктов с отрицательными значениями](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Пользовательская сортировка иерархии продуктов с отрицательными значениями.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Выпущенные продукты по категориям с настраиваемой сортировкой на основе иерархии продукции](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Выпущенные продукты по категориям с настраиваемой сортировкой на основе иерархии продукции.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Настройка порядка отображения категорий в иерархии навигации по каналам
 
@@ -80,11 +77,14 @@ ms.locfileid: "4415245"
 
 Порядок отображения для иерархии навигации канала отражается в главном офисе, каталоге и каналах торговли.
 
-![Навигационная иерархия канала с настраиваемой сортировкой](./media/ChannelNavCustomSorted.png)
+![Навигационная иерархия канала с настраиваемой сортировкой.](./media/ChannelNavCustomSorted.png)
 
-![Пользовательская сортировка иерархии навигации по каталогу, основанная на иерархии навигации канала](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Пользовательская сортировка иерархии навигации по каталогу, основанная на иерархии навигации канала.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS-терминал с настраиваемой сортировкой категорий](./media/POSChannelCategoriesCustomSorted.png)
+![POS-терминал с настраиваемой сортировкой категорий.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> По умолчанию функция настраиваемого порядка сортировки отключена. Чтобы узнать, как включить эту функцию и другие функции, см. раздел [Управление функциями](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> По умолчанию функция настраиваемого порядка сортировки отключена. Чтобы узнать, как включить эту функцию и другие функции, см. раздел [Управление функциями](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

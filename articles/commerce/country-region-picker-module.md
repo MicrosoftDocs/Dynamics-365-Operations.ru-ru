@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109789"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674731"
 ---
 # <a name="countryregion-picker-module"></a>Модуль выбора страны/региона
 
@@ -74,9 +74,5 @@ ms.locfileid: "8109789"
 [Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Модуль верхнего колонтитула](author-header-module.md)
-
-[Модуль выбора сайта](site-selector.md)
-
-[Модуль иерархической навигации](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

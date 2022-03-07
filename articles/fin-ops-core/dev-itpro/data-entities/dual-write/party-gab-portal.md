@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 872b477ae73a374cd62b9e86048bfc27c84064c1
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060928"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781376"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Использование порталов Microsoft Power Apps с моделью данных субъекта
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-
+[!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Версия решения управления приложением двойной записи 2.0.999.0 и более поздних версий включает в себя изменения модели данных для субъекта и глобальной адресной книги для таблиц организаций и контактов. Изменения разрешают связи "многие ко многим", которые поддерживают сложные бизнес-сценарии. Эти изменения не поддерживаются веб-ролями портала, включая портал клиента, которые поставляются готовыми или находятся в вашей среде до установки двойной записи. Для корректной работы веб-ролей необходимо создать новые веб-роли с использованием новой модели данных. 
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a809b9867b4ca96fb53f1849f57ef470253d9d17
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684627"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559274"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Импорт конфигураций для формирования документов, имеющих данные приложений
 
@@ -75,3 +74,6 @@ ms.locfileid: "4684627"
     * Просмотрите структуру формата, используемого для формирования отчета Интрастат. Обратите внимание, что он предназначен для формирования XML-файла путем заполнения его данными из модели данных, которая основана на корневом элементе "Для исходящего документа". Убедитесь, что имя для формируемого файла определяется в форме пользовательского диалогового окна (для этого используется источник данных "fn").   
 30. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

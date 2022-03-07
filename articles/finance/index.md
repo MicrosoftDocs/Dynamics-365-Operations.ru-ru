@@ -2,27 +2,26 @@
 title: Домашняя страница Finance
 description: В этом разделе представлен список разделов справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 206434
+ms.custom:
+- "206434"
+- intro-internal
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779430"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -41,11 +40,11 @@ ms.locfileid: "4459813"
         - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Управление расходами](expense-management/expense-management.md)
-        - [Финансовая отчетность](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Управление расходами](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
         - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
-        - [Управление и учет по проектам](project-management/overview-project-management-accounting.md)
+        - [Управление и учет по проектам](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Государственный сектор](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -68,9 +67,14 @@ ms.locfileid: "4459813"
 
 ### <a name="countryregion-functionality"></a>Функциональность страны/региона
 
-Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) справки.
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) справки.
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
-Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+Функция Supply Chain Management охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
+## <a name="elearning-courses"></a>Курсы eLearning
+
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Finance на сайте Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

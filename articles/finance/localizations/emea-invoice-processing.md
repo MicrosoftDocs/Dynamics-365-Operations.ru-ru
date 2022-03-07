@@ -2,11 +2,9 @@
 title: Обработка накладных
 description: В этой теме приведена информация об обработке накладных для Восточной Европы.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, VendParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9dcc6c4d886f34429b48a9beec458ff341e43db4
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fdefc1dbf58a147c9380aacad9ca1afc253dbe766f7d8ed214753b07466841c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774226"
 ---
 # <a name="invoice-processing"></a>Обработка накладных
 
@@ -121,3 +119,6 @@ ms.locfileid: "5018649"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

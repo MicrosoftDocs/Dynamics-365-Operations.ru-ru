@@ -2,11 +2,9 @@
 title: Сводное планирование для покрытия объекта и склада, склад не является обязательным
 description: В этом разделе описывается, как планируется номенклатура, которая имеет место и склад в качестве аналитики покрытия. Аналитика склада не обязательна.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd3614e52da72e32e6781bc8da7c9e2b3162832
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a8350646e70c7ea7d705a69ecb52f389e829a0fc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833481"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Сводное планирование для покрытия объекта и склада, склад не является обязательным
 
@@ -62,3 +60,6 @@ ms.locfileid: "4970414"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

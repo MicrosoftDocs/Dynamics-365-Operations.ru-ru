@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcb21c037c4492ce215780913301c0c0b54ab9d2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259489"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Настройка купонов для розничных продаж
 
@@ -82,3 +81,6 @@ ms.locfileid: "4415167"
 - **Центральный офис частично обновлен, но Commerce Scale Unit и POS не обновлены.** При обновлении центрального офиса страницы купонов и скидок обновляются, а также обновляется подсистема коммерческого ценообразования. Если обновлен только один из этих двух компонентов, некоторые страницы в Commerce не будут соответствовать данным расчета цен. Таким образом, при расчете скидок могут возникать неожиданные значения скидок или ошибки.
 - **HQ обновлен, но Commerce Scale Unit и POS не обновлены (N-1).** Поскольку не все магазины могут быть обновлены в одно и то же время, рекомендуется обновить центральный офис, прежде чем обновлять магазины. В сценарии N-1 новая функциональность, связанная с купонами, не будет доступна в магазинах, которые еще не были обновлены. Например, в функциональности купонов предусмотрены строки "исключения". Если использовать строки исключения в скидке, они не будет применены в магазине, где используется более ранняя версия.
 - **HQ не обновлен, но Commerce Scale Unit и POS обновлены (N+1).** Поскольку подсистема ценообразования в Commerce Scale Unit способна обрабатывать старые коды скидок при расчете цен, в этом сценарии обновление не должно никак сказаться на функциональности.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

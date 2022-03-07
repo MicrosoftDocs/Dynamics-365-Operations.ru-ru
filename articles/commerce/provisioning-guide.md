@@ -1,12 +1,10 @@
 ---
-title: Подготовка ознакомительной среды Dynamics 365 Commerce
+title: Обеспечение среды оценки Dynamics 365 Commerce
 description: В этой теме объясняется, как подготовить ознакомительную среду Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,14 +15,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777508"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Подготовка ознакомительной среды Dynamics 365 Commerce
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Обеспечение среды оценки Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -34,8 +32,6 @@ ms.locfileid: "4969909"
 
 > [!NOTE]
 > Ознакомительные среды Commerce не являются общедоступными и предоставляются партнерам и клиентам по запросам по запросу. Для получения дополнительных сведений обратитесь к своему контакту Майкрософт.
-
-## <a name="overview"></a>Обзор
 
 Чтобы успешно предоставить ознакомительную среду Commerce, необходимо создать проект с определенным названием и типом продукта. У среды и Commerce Scale Unit (CSU) также есть некоторые специальные параметры, которые необходимо использовать, если вы планируете подготовить электронную коммерцию позже. Инструкции в этой теме описывают все необходимые шаги, которые вы должны выполнить, и параметры, которые вы должны использовать.
 
@@ -80,7 +76,7 @@ ms.locfileid: "4969909"
 
 ### <a name="add-the-azure-connector"></a>Добавление соединителя Azure
 
-Чтобы добавить соединитель Azure в проект LCS, выполните шаги из раздела [Выполнение процесса адаптации Azure Resource Manager (ARM)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
+Чтобы добавить соединитель Azure в проект LCS, выполните шаги из раздела [Выполнение процесса адаптации Azure Resource Manager (ARM)](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
 
 ### <a name="deploy-the-environment"></a>Развернуть среду
 
@@ -94,16 +90,16 @@ ms.locfileid: "4969909"
 1. В поле **Версия приложения** выберите самую последнюю версию. Если требуется выбрать версию приложения, отличающуюся от самой последней версии, не выбирайте версию, предшествующую **10.0.14**.
 1. В поле **Версия платформы** используйте версию платформы, которая выбирается автоматически для выбранной версии приложения. 
 
-    ![Выбор приложения и версий платформы](./media/project1.png)
+    ![Выбор приложения и версий платформы.](./media/project1.png)
 
 1. Выберите **Далее**.
 1. Выберите **Демонстрация** в качестве топологии среды.
 
-    ![Выбор топологии среды 1](./media/project2.png)
+    ![Выбор топологии среды 1.](./media/project2.png)
 
 1. На странице **Развернуть среду** введите имя среды. Оставьте дополнительные настройки без изменений.
 
-    ![Страница развертывания среды](./media/project4.png)
+    ![Страница развертывания среды.](./media/project4.png)
 
 1. По мере необходимости настройте размер виртуальной машины. (Мы рекомендуем единицу складского хранения VM \[SKU\] **D13 v2**.)
 1. Просмотрите условия ценообразования и лицензирования, а затем поставьте флажок, чтобы указать, что вы согласны с ними.
@@ -184,10 +180,13 @@ ms.locfileid: "4969909"
 
 [Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (облако)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (облако)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

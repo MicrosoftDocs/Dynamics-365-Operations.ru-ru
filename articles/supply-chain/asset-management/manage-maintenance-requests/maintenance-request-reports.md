@@ -1,12 +1,10 @@
 ---
 title: Отчеты по запросам на обслуживание
 description: В этом разделе объясняется, как создавать отчеты по запросам на обслуживание в «Управлении активами».
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c93697921e6199587da6e3f3a116e55d4b079e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019612"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839663"
 ---
 # <a name="maintenance-request-reports"></a>Отчеты по запросам на обслуживание
 
@@ -57,3 +55,6 @@ ms.locfileid: "5019612"
 На следующем рисунке показан пример отчета **Список запросов на обслуживание** для всех активных запросов на обслуживание.
 
 ![Отчеты по списку запросов на обслуживание](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

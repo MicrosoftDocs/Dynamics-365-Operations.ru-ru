@@ -2,15 +2,12 @@
 title: Аутентификация
 description: В этой статье приводятся общие сведения об аутентификации в API Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420174"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054388"
 ---
 # <a name="authentication"></a>Аутентификация
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой статье приводятся общие сведения об аутентификации в API Microsoft Dynamics 365 Human Resources.
 
@@ -82,7 +81,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Для веб-приложений укажите базовый URL-адрес приложения. Например, `http://localhost:31544` может быть URL-адресом для веб-приложения, которое выполняется на локальном компьютере. Пользователи затем используют этот URL-адрес для входа в приложение веб-клиента.
         - Для общедоступных клиентских приложений необходимо предоставить URI, который Azure AD будет использоваться для возврата ответов маркеров. Введите конкретное значение, которое относится к приложению, например `myapp://auth`.
 
-        Чтобы просмотреть отдельные примеры для веб-приложений или собственных приложений, см. краткие руководства для [платформы удостоверений Майкрософт (раньше Azure Active Directory для разработчиков)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Чтобы просмотреть отдельные примеры для веб-приложений или собственных приложений, см. краткие руководства для [платформы удостоверений Майкрософт (раньше Azure Active Directory для разработчиков)](/azure/active-directory/develop/#quickstarts).
 
 5. В **Разрешения API** выберите **Добавить разрешение**. Затем на вкладке **Используемые в моей организации API** найдите **Dynamics 365 Human Resources** и добавьте разрешение **user\_impersonation** в свое приложение. Код приложения для Human Resources — f9be0c49-aa22-4ec6-911a-c5da515226ff. Этот код используется для проверки правильности выбора приложения.
 
@@ -185,3 +184,6 @@ namespace TalentODataPoC
 ```
 
 После получения маркера доступа вы передадите маркер в заголовке авторизации как маркер носителя с каждым запросом, отправляемым в API данных, как описано выше.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

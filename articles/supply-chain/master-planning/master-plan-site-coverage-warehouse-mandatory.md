@@ -1,7 +1,7 @@
 ---
 title: Сводное планирование для покрытия объекта, обязательный склад
 description: В этом разделе описывается, как планируется номенклатура, которая имеет объект как аналитику покрытия. Аналитика склада обязательна.
-author: ChristianRytt
+author: roxanadiaconu
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbc73911fcb3e0b0515f490f9f1236b4a12c648
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 008061d286505a2e678e15fbff7706da9c410dfe
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573723"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187562"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Сводное планирование для покрытия объекта, обязательный склад
 
@@ -41,7 +41,7 @@ ms.locfileid: "7573723"
 -   Отношения пополнения определяются для склада. Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**. На вкладке **Сводное планирование** см. группу поля **Главный склад**.
 -   Тип заказа по умолчанию задается как производство, заказу на покупку или канбан. Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**. Выберите номенклатуру и после этого щелкните **План &gt; Параметры заказа по умолчанию**. В форме **Параметры заказа по умолчанию** см. **Тип заказа по умолчанию**.
 
-![Спрос для склада покрытия узла обязательный.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
+![Спрос для склада покрытия узла обязательный](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
 
 

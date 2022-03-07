@@ -1,10 +1,12 @@
 ---
 title: Управление субподрядной работой в производстве
 description: В этом разделе объясняется, как в Dynamics 365 Supply Chain Management осуществляется управление субподрядными операциями. Другими словами, в нем объясняется, как производственные операций, которые распределены ресурсу, управляются поставщиком.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup, ProdBOMVendorListPagePreviewPane, ProdBOMVendor
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e71fc643b519273e1b3c15b7037c1ec11d4d7192
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579387"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007024"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Управление субподрядной работой в производстве
 
@@ -100,6 +102,3 @@ ms.locfileid: "7579387"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

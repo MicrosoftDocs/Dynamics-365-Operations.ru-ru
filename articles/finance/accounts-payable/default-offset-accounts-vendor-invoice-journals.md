@@ -2,9 +2,11 @@
 title: Корреспондентские счета по умолчанию для журналов накладных поставщиков и утверждения накладных
 description: Этот раздел поможет решить, где следует назначать счета по умолчанию для журналов накладных.
 author: abruer
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e67bebcfb934a3e6dae78cafd7bb2b01c05e450
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749036"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250634"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Корреспондентские счета по умолчанию для журналов накладных поставщиков и утверждения накладных
 

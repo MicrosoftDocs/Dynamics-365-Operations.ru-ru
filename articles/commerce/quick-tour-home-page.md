@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 11c440663214f4991770390c0757c92ef02755f5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244774"
 ---
 # <a name="home-page-overview"></a>Обзор домашней страницы
 
@@ -73,3 +72,6 @@ ms.locfileid: "4415345"
 [Обзор страниц корзины и оформления заказа](quick-tour-cart-checkout.md)
 
 [Обзор страниц управления учетной записью](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,28 @@
 title: Месяцы года
 description: В этом разделе описывается набор параметров месяцев года для Dynamics 365 Human Resources.
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3b2b6dba2b2a191c0fdfc670281d0778ff13255
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 258ae2f0531b8112fda5c4c8b995d855df68c116
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066326"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5125529"
 ---
 # <a name="months-of-year"></a>Месяцы года
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этом разделе описывается набор параметров месяцев года для Dynamics 365 Human Resources.
 
@@ -53,6 +51,3 @@ ms.locfileid: "8066326"
 
 [Введение в интерфейс API интеграции системы отслеживания кандидатов](hr-admin-integration-ats-api-introduction.md)<br>
 [Пример запроса кандидата для приема на работу](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

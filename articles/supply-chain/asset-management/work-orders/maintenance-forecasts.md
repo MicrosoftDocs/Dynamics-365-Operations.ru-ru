@@ -1,12 +1,10 @@
 ---
 title: Прогнозы обслуживания
 description: В этом разделе описываются прогнозы обслуживания в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c60834a1f818b142a0f2f022d66fe1f42edeb536
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6503d5110a4cb5e4041afa7b4e80395b2974a64e5a150eb6bfce1f32a6703e06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761862"
 ---
 # <a name="maintenance-forecasts"></a>Прогнозы обслуживания
 
@@ -104,7 +102,7 @@ ms.locfileid: "5020876"
 
 На приведенном ниже рисунке показан пример страницы **Прогноз обслуживания заказа на работу**.
 
-![Рисунок 1](media/06-work-orders.png)
+![Рисунок 1.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Автоматическое обновление прогнозов по заказу на работу
@@ -122,4 +120,7 @@ ms.locfileid: "5020876"
 
 На приведенном ниже рисунке показан пример диалогового окна **Обновить прогноз по заказу на работу**.
 
-![Рисунок 2](media/07-work-orders.png)
+![Рисунок 2.](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

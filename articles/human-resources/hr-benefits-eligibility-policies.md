@@ -2,7 +2,7 @@
 title: Политики приемлемости льготы
 description: В Этой статья представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льготыт
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,23 @@ ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fd4def17bf60ae2812927221c45547c5ac379f2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0c0aa7eebf32fc404e0519c6068b4427e6b87b2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420162"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465158"
 ---
 # <a name="benefit-eligibility-policies"></a>Политики прав на льготы
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В Этой статья представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льготыт
 
@@ -49,3 +51,6 @@ ms.locfileid: "4420162"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

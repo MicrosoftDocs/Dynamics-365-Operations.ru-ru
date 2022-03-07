@@ -2,11 +2,9 @@
 title: Настройка финансовой интеграции для каналов Commerce
 description: В этом разделе приводятся инструкции по настройке функции финансовой интеграции для каналов Commerce.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719904"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Настройка финансовой интеграции для каналов Commerce
 
@@ -88,7 +86,7 @@ ms.locfileid: "5017901"
 
         **Примеры**
 
-        |   | Форматировать | Пример |
+        | Параметр  | Форматировать | Пример |
         |---|--------|---------|
         | **Настройки ставок НДС** | значение : VATrate | 1 : 2000, 2 : 1800 |
         | **Сопоставление кодов НДС** | VATcode : значение | vat20 : 1, vat18 : 2 |
@@ -225,3 +223,6 @@ ms.locfileid: "5017901"
     1. Выберите макет для обновления.
     2. Добавьте новую кнопку и установите свойство кнопки **Завершить процесс финансовой регистрации**.
     3. На странице **График распределения** запустите задание **1090** для передачи ваших изменений в базу данных канала.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

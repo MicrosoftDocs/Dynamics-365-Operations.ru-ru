@@ -2,7 +2,9 @@
 title: Функция ER SUMIFS
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SUMIFS.
 author: NickSelin
+manager: kfend
 ms.date: 12/04/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d650509bc534eb3944e1d91d536060c8852bdc9d95ea27f75025e80d6c5f23c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff5ad3371a6e18ca1a3ee855e3b35f51f7513ef0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749784"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564767"
 ---
 # <a name="sumifs-er-function"></a>Функция ER SUMIFS
 

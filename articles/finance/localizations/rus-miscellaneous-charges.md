@@ -2,11 +2,9 @@
 title: Распределение накладных расходов пропорционально весу и объему
 description: В этом разделе приводятся сведения о распределении накладных расходов.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3c3c42b1e8eb332df6e8da118eb395861fbe60f2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18bc433178903b302325f11d18128a2b7299d718873400f289914659b1707ad3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778096"
 ---
 # <a name="allocation-of-miscellaneous-charges-in-proportion-to-weight-and-volume"></a>Распределение накладных расходов пропорционально весу и объему
 [!include [banner](../includes/banner.md)]
@@ -49,11 +47,14 @@ ms.locfileid: "4962531"
     - в области действий выберите вкладку **Финансы** **\> Ведение накладных расходов \> Ведение накладных расходов**. Накладные расходы, созданные таким образом, распределяются между всеми строками заказа в соответствии с методом распределения.
     - На экспресс-вкладке **Строки** выберите строку, в которой будут распределяться накладные расходы, а затем выберите **финансы \> Ведение накладных расходов** чтобы поддерживать накладные расходы в строке.
 
-![Настройка накладных расходов в строке](media/1%20Update%20facture.png)
+![Настройка накладных расходов в строке.](media/1%20Update%20facture.png)
 
 4. в области действий выберите вкладку **Финансы** **\> Ведение накладных расходов \> Распределить накладные расходы** чтобы распределить накладные расходы.
 5. На странице **Распределить накладные расходы** в поле **Распределение накладных расходов** выберите один из новых методов распределения: **вес брутто** или **объем**.
 
-![Страница Распределить накладные расходы](media/2%20Allocate%20charges.png)
+![Страница Распределить накладные расходы.](media/2%20Allocate%20charges.png)
 
 6. Укажите другие сведения и разнесите счет-фактуру как обычно.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

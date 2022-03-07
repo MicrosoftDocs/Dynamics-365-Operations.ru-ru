@@ -2,9 +2,11 @@
 title: Отмена задания планирования
 description: В этой теме объясняется, как отменить активное задание планирования, в котором используются функции оптимизации планирования.
 author: ChristianRytt
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 85dffae7e5484d34d0cfa4bf44649fcdd69fc36804802ad9f02c122adf5d9785
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cee11e6d9e8bc2fe83f5369554ae9ff9ee2b741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771474"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008224"
 ---
 # <a name="cancel-a-planning-job"></a>Отмена задания планирования
 
@@ -57,6 +59,3 @@ ms.locfileid: "6771474"
 [Просмотр журнала плана и журналов планирования](plan-history-logs.md)
 
 [Применение фильтров к плану](plan-filters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,9 @@
 title: Функция ER CN_GBT_ADDITIONALDIMENSIONID
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности CN_GBT_ADDITIONALDIMENSIONID.
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9217b70076a369c18a94f820f19ca371c2d8aca61ab72b6be762592f39fa1160
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5774bb6928ae321af923819d6b2cc609dbf35b99
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731553"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564150"
 ---
 # <a name="cn_gbt_additionaldimensionid-er-function"></a>Функция ER CN_GBT_ADDITIONALDIMENSIONID
 

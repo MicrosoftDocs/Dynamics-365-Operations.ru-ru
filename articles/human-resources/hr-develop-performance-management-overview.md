@@ -2,29 +2,28 @@
 title: Управление производительностью
 description: Процесс управления производительностью позволяет сотрудникам документировать и обсуждать свою производительность с менеджером. В свою очередь, менеджеры могут предоставить отзывы и рекомендации сотрудникам.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Human Resources
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4276e33f3df60bedcd2b056dababc280ccb96b4a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420252"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058472"
 ---
 # <a name="performance-management"></a>Управление производительностью
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Процесс управления производительностью позволяет сотрудникам документировать и обсуждать свою производительность с менеджером. В свою очередь, менеджеры могут предоставить отзывы и рекомендации сотрудникам.  
 
@@ -93,7 +92,7 @@ ms.locfileid: "4420252"
 
 Можно создать новые оценки, основанные на созданных шаблонах. Например, можно иметь шаблон для личных собраний, планов развития или периодических оценок. Можно выбрать шаблон при создании новой оценки.
 
-Для печати отзывов выберите кнопку **Печать отзыва**. Если вы не видите кнопку на странице **Обзор**, убедитесь, что функция включена в рабочей области **Управление функциями**. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Для печати отзывов выберите кнопку **Печать отзыва**. Если вы не видите кнопку на странице **Обзор**, убедитесь, что функция включена в рабочей области **Управление функциями**. Дополнительные сведения об управлении функциями см. в разделе [Обзор управления функциями](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > Возможность печати обзоров производительности доступна только в Human Resources. Это недоступно в Dynamics 365 Finance.
@@ -163,3 +162,5 @@ Workflow-процесс "Оценка работника" имеет два эл
 ### <a name="review-types"></a>Типы оценок
 
 Типы оценок производительности помогают управлять поведением оценки. Можно включить или отключить workflow-процесс для оценки. Если в оценке не используется workflow-процесс, можно определить статус по умолчанию, который будет использоваться при создании оценки. Также можно указать, должен ли сотрудник, менеджера или оба утвердить оценку.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

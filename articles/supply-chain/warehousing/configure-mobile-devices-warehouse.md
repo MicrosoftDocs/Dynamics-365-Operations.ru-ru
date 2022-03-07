@@ -1,7 +1,7 @@
 ---
 title: Настройка мобильных устройств для работы склада
 description: В этой теме описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736583"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Настройка мобильных устройств для работы склада
 

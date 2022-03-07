@@ -10,18 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7844671202a03533eb6215f557a206c13978e902
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 97c27006ce95d0cd4551fec209f40328779b435b
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860700"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678599"
 ---
 # <a name="conventions"></a>Соглашения
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Соглашение — это контейнер для набора политик, которые влияют на поведение системы. В зависимости от бизнес-требований необходимо определить соглашения с помощью комбинации различных политик, которые определяют, как должны учитываться затраты в глобальном учете запасов. Каждое соглашение можно связать с одной или несколькими книгами, чтобы обеспечить согласованность в политиках учета, применяемых в книгах.
 
