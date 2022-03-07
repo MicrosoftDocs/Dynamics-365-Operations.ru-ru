@@ -1,24 +1,26 @@
 ---
 title: Определение последовательности производственных заданий для непрерывного производства
 description: В этой процедуре используются краски в качестве примера, чтобы показать, как определить последовательность спланированных заказов в соответствии с приоритетом по цвету и размеру упаковки.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e54cfa60fa9efd511aef8c074484b9b1a738e8cb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e22c767a3de8fd937d9032a5bf285dfb4ced3d55
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572753"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981072"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Определение последовательности производственных заданий для непрерывного производства
 
@@ -68,6 +70,3 @@ ms.locfileid: "7572753"
 8. В экспресс-фильтре по полю "Код номенклатуры" выберите значение "P300".
     * Обратите внимание, что заказы теперь упорядочены в соответствии с приоритетом по цвету и размеру и спланированные заказы запускаются на самую раннюю дату заказа и дату поставки. Проверьте столбец "Дата заказа" или "Дата начала" в информационном поле "Сведения о плане".  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

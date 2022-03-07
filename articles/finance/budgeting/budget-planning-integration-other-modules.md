@@ -1,26 +1,29 @@
 ---
 title: Интеграция бюджетного планирования с другими модулями
 description: Бюджетные планы можно создавать из нескольких разных ресурсов. Базовые элементы периодического процесса одинаковы для всех ресурсов.
-author: panolte
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceae7296ef6d8a0f181c306bd533694c0219e467
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: a7456d0c6a9114fae71aff7b4070d86090e2c7c9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447326"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>Интеграция бюджетного планирования с другими модулями
 
@@ -30,7 +33,8 @@ ms.locfileid: "7594750"
 
 
 
-## <a name="periodic-processes-for-generating-budget-plans"></a>Периодические процессы для создания бюджетных планов
+<a name="periodic-processes-for-generating-budget-plans"></a>Периодические процессы для создания бюджетных планов
+----------------------------------------------
 
 Бюджетные планы можно создавать из следующих ресурсов.
 
@@ -143,6 +147,3 @@ ms.locfileid: "7594750"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

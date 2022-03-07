@@ -2,11 +2,9 @@
 title: Просмотр результатов автоматизации обработки накладных поставщиков (предварительная версия)
 description: В этой теме объясняется, как просмотреть статус накладных поставщика, которые находятся в процессе автоматической отправки в рабочий процесс.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e7ec69177cdb4f6304b75016963f4111bbfde6ed975d66ffa702426a68dce640
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728969"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Просмотр результатов автоматизации обработки накладных поставщиков
 
@@ -37,3 +35,6 @@ ms.locfileid: "4969734"
 - **Приостановлено** — автоматические процессы, определенные на странице **Параметры модуля расчетов с поставщиками**, запущены, но по крайней мере один шаг в процессе закончился сбоем. Статус **Приостановлено** также применяется, если в поле **Включить в автоматическую обработку** указано значение **Нет**. Сбои можно просмотреть, выбрав **Просмотреть последние результаты**.
 - **В рабочем процессе** — импортированная накладная была отправлена в систему рабочих процессов с помощью автоматической отправки в рабочий процесс или вручную.
 - **Рабочий процесс завершен** — рабочий процесс был завершен для импортированной накладной.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

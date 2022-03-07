@@ -1,10 +1,12 @@
 ---
 title: Перемещение строк заказа на сервисное обслуживание
 description: Перемещение строк заказа на сервисное обслуживание.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cb1467284223ba12c777db808980fd3eb592cf3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0f604355d360683a346b49bdadb7b2662ce06b02
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204262"
 ---
 # <a name="move-service-order-lines"></a>Перемещение строк заказа на сервисное обслуживание 
 

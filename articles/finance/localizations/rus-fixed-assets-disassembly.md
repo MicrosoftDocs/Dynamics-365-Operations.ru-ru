@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RAssetPosting
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 267d6f2d8958161c51c0bc637a05379980f54954
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c85ce32ae71c4e948ba2071bdd70598e2ce0468d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408567"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240533"
 ---
 # <a name="partial-fixed-asset-disassembly-liquidation"></a>Частичная разборка ОС (ликвидация)
 
@@ -263,3 +262,6 @@ A<sub>j</sub> = A<sub>bal</sub> × (S<sub>j,PIO</sub> ÷ S<sub>PIO</sub>)
 Проводка частичной разборки оказывает косвенное влияние на балансовую стоимость основного средства. Проводка частичной разборки создает проводки переоценки стоимости и амортизации. Эти проводки, в свою очередь, уже учитываются в балансовой стоимости основного средства.
 
 В результате расчета создаются балансовая стоимость, амортизация балансовой стоимости и рыночная стоимость, равная остаточной стоимости.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

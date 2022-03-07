@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0fdb1f636183e8365729ab8947a50614a77eaeac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459814"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211053"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Поточное создание заказов по проводкам розничного магазина
 
@@ -55,3 +54,6 @@ ms.locfileid: "4459814"
 > Пункты меню **Retail и Commerce > ИТ Retail и Commerce > Разноска POS > Пакетный расчет журналов операций** и **Retail и Commerce > ИТ Retail и Commerce > Разноска POS > Пакетная разноска журналов операций** будут удалены с появлением этой новой функции.
 
 Кроме того, журналы операций и финансовые отчеты можно создавать вручную. Выберите **Retail и Commerce > Каналы > Магазины**, а затем — **Журналы операций**. Щелкните **Создать**, затем выберите тип журнала операций, который требуется создать. В полях на странице **Журналы операций** и действиях раздела **Группа журналов** будут показаны данные и действия, соответствующие выбранному типу журнала.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

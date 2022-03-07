@@ -2,11 +2,9 @@
 title: Ведение основных средств
 description: В этом разделе объясняется, как отключить, повторно активировать и обновить основное средство в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c6ec316b49902505eceb06f830bf722ba3801f1e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c35f8193275da499b17bea917ba1010aec7fcf64
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821871"
 ---
 # <a name="maintain-fixed-assets"></a>Ведение основных средств
 [!include [banner](../includes/banner.md)]
@@ -96,3 +94,6 @@ ms.locfileid: "4962534"
 
 > [!NOTE]
 > Когда производится капитальный ремонт ОС, амортизационная премия может применяться к ОС после день проводки капитального ремонта или после него. Можно создать проводку капитального ремонта для ОС и можно указать амортизационную премию и начальную дату расчета премии. Начальная дата амортизационной премии может совпадать с датой проводки капитального ремонта или следующей датой амортизации.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

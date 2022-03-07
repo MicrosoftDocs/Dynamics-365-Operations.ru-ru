@@ -1,33 +1,35 @@
 ---
 title: Настройка параметров приемлемости личных контактов
-description: Настройка параметров допустимости для личных контактов в Microsoft Dynamics 365 Human Resources. Личные контакты могут быть бенефициарами или иждивенцами.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: В этой теме объясняется настройка параметров допустимости для личных контактов в Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420263"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070358"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Настройка параметров приемлемости личных контактов
 
-В этой статье показано, как настроить типы личных контактов для использования в Microsoft Dynamics 365 Human Resources. Личные контакты могут быть бенефициарами или иждивенцами. 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+В этой теме показано, как настроить типы личных контактов, которые можно использовать в льготах в Microsoft Dynamics 365 Human Resources. Личные контакты — это лица, которые будут охвачены вашими планами (иждивенцы) или которые получат выгоду от ваших планов (бенефициары). Иждивенцами, как правило, являются супруги или дети. Бенефициарами могут быть супруги, дети, трасты или родители.
 
 1. В рабочей области **Управление льготами** в **Настройка** выберите **Параметры допустимости личных контактов**.
 
@@ -45,3 +47,6 @@ ms.locfileid: "4420263"
    | **Возраст** | Максимальный возраст допустимого личного контакта для плана льгот. Это поле активно, только если выбрана "связь". Этот возраст сравнивается с расчетным возрастом личного контакта. Рассчитанный возраст: (дата покрытия – дата рождения личного контакта / 365). Это число всегда является целым числом. |
 
 4. Нажмите **Сохранить**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

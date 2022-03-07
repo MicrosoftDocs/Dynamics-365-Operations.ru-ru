@@ -2,11 +2,9 @@
 title: Создание контролируемых рекомендаций вручную
 description: В этой теме объясняется, как менеджер по сбыту может вручную создавать списки продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9ce8887f3cd7da0e250d3b0ffe96b222953de44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729898"
 ---
 # <a name="manually-create-curated-recommendations"></a>Создание контролируемых рекомендаций вручную
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как менеджер по сбыту может вручную создавать списки рекомендаций продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
+В этой теме объясняется, как менеджер по сбыту может вручную создавать списки рекомендаций по продуктам для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 
 Проверенные списки представляют собой наборы отдельных материалов, созданных и проверенных людьми.  
 
@@ -49,7 +47,7 @@ ms.locfileid: "4965361"
 
 ## <a name="example-list"></a>Пример списка
 
-![Пример проверенного списка в серверной части](./media/examplecuratedrecolist.png)
+![Пример проверенного списка в серверной части.](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -74,3 +72,6 @@ ms.locfileid: "4965361"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

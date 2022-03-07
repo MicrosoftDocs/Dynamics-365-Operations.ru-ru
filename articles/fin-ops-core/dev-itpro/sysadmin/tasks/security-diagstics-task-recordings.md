@@ -2,11 +2,9 @@
 title: Диагностика безопасности для записей задач
 description: В этом разделе содержатся сведения о том, как выполнять анализ и управление требованиями к разрешениям безопасности на основе записи задач.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745128"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Диагностика безопасности для записей задач
 
@@ -41,7 +39,7 @@ ms.locfileid: "4679798"
 
 4. В поле **ИД пользователя** выберите пользователя. Если у пользователя отсутствуют разрешения на доступ к некоторым пунктам меню, поле **Отсутствующие разрешения** будет обновлено на **Да**.
   
-  ![Страница сведения о пункте меню "Безопасность"](../media/Security-Menu-Item-Details.png)
+  ![Страница сведения о пункте меню "Безопасность".](../media/Security-Menu-Item-Details.png)
 
 5. Выберите **Добавить ссылку**, чтобы просмотреть список объектов безопасности, включая роли, обязанности и привилегии, которые предоставляют отсутствующее разрешение.
 6. Выберите объект безопасности из списка.
@@ -49,3 +47,6 @@ ms.locfileid: "4679798"
     - Если выбрана **Роль**, выберите **Добавить роль для пользователя**. Откроется страница **Назначить пользователей ролям**. Дополнительные сведения см. в разделе [Назначение пользователей для ролей безопасности](assign-users-security-roles.md).
     - Если выбрано **Полномочие**, выберите **Добавить полномочие для роли**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.
     - Если выбрана **Привилегия**, выберите **Добавить привилегию для полномочий**, выберите роли, к которым следует добавить полномочие, а затем нажмите кнопку **ОК**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

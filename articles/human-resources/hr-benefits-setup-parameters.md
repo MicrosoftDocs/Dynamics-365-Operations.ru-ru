@@ -2,15 +2,12 @@
 title: Задание управления льготами и параметров самообслуживания сотрудников для всех компаний
 description: Настройте параметры для управления льготами и самообслуживания сотрудников в Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 9c6761c549aaa38d16616f3e9e9084cbff7c93d9350f8adc50720d263efaff25
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732785"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Задание управления льготами и параметров самообслуживания сотрудников для всех компаний
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Прежде чем можно будет настроить планы льгот в Microsoft Dynamics 365 Human Resources, необходимо настроить параметры управления льготами. Эти параметры определяют значения по умолчанию, коды причин и другие параметры. 
 
@@ -68,3 +67,6 @@ ms.locfileid: "4962448"
 3. Нажмите **Сохранить**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

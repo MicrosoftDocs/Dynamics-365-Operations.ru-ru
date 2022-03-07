@@ -1,23 +1,25 @@
 ---
 title: Создание субподрядной производственной ячейки для бережливого производства
 description: Для моделирования субподрядной работы для бережливого производства необходимо создать производственную ячейку, связанную с поставщиком, выполняющим работу.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f37a38227ef57e6e66a77e90883bf157792e7f81
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 236ce97fcf4ca76f07ae5f9308cf45240590b399
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576840"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228547"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Создание субподрядной производственной ячейки для бережливого производства
 

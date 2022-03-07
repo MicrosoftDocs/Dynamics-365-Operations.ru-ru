@@ -2,11 +2,9 @@
 title: Поиск действий
 description: В этой статье описываются функции поиска действий. Поиск действий служит для поиска и выполнения действий на странице.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798655"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754834"
 ---
 # <a name="action-search"></a>Поиск действий
 
@@ -75,3 +73,6 @@ ms.locfileid: "4798655"
 ## <a name="action-search-vs-navigation-search"></a>Поиск действий и навигационный поиск
 
 Тогда как поиск действий предназначен для поиска и запуска операций на странице, для поиска страниц и перехода к ним предусмотрен другой поисковый механизм. Дополнительные сведения об этой функции см. в статье [Навигационный поиск](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

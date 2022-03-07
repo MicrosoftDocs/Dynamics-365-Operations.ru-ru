@@ -2,13 +2,11 @@
 title: Реверсирование разнесенных проводок по аренде
 description: В этой теме объясняется, как сторнировать разнесенную проводку по аренде. Любая проводка, созданная через модуль аренды активов, может быть реверсирована.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770673"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Реверсирование разнесенных проводок по аренде
 
@@ -55,3 +53,6 @@ ms.locfileid: "4969536"
 При выборе пункта **Трассировка сторнирования** отображается диалоговое окно, в котором отображаются как оригинальные проводки, так и сторнированные проводки, вместе со связанным номером.
 
 Кроме того, можно отследить отзывы, используя соответствующую страницу **Графики**. Поле **Сторнирование** очищено, в то время как выбрано поле **Журнал разнесен**. Кроме того, в поле **Последний номер журнала** значение обновляется на номер журнала проводки отзыва, а в поле **Номер журнала** значение обновляется на номер журнала сторнирования.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

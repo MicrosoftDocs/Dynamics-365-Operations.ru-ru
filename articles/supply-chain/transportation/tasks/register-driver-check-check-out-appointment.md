@@ -1,25 +1,27 @@
 ---
 title: Регистрация отметки прибытия и отъезда водителя для назначения
 description: Эта процедура показывает порядок регистрации прибытия и убытия водителя.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1e7e383d72f45b9b3ea69dcff7b3534a2a3d22f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9de0609db95e5b76d04ae78202762cfdf2159f04
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004985"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Регистрация отметки прибытия и отъезда водителя для назначения
 
@@ -43,6 +45,3 @@ ms.locfileid: "7567735"
 1. Щелкните "Отметка об отъезде водителя".
 2. Нажмите кнопку "OК".
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

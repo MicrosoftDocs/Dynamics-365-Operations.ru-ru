@@ -2,11 +2,9 @@
 title: Мобильная рабочая область каталога компании
 description: Эта тема содержит сведения о мобильной рабочей области каталога компании, которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720656"
 ---
 # <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога компании
 
@@ -79,7 +77,7 @@ ms.locfileid: "4683440"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-[![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Просмотр каталога компании с помощью мобильной рабочей области
 1.  В мобильном приложении выберите рабочую область **Каталог компании**. Отображается список сотрудников.
@@ -89,3 +87,6 @@ ms.locfileid: "4683440"
 1.  В мобильном приложении выберите рабочую область **Каталог компании**.
 2.  В поле **Поиск** введите имя сотрудника, фамилию, должность или подразделение, чтобы начать поиск.
 3.  Выберите сотрудника. Появляется страница **Профиль сотрудника**. Сведения на этой странице содержат имя сотрудника, фамилию, должность и отдел.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

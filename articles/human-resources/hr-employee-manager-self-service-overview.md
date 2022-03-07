@@ -2,30 +2,29 @@
 title: Обзор самообслуживания сотрудников и менеджеров
 description: В этой статье представлен обзор рабочей области самообслуживания сотрудников и менеджеров.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.openlocfilehash: 09efb52a76be8ee458135b013b577666a56953f7
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4420322"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052129"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Обзор самообслуживания сотрудников и менеджеров
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В этой статье представлен обзор рабочей области самообслуживания сотрудников и менеджеров.
 
@@ -214,3 +213,5 @@ ms.locfileid: "4420322"
 Вкладка **Отзывы** содержит сводку отзывов, которые сотрудник имеет в каждом состоянии: **Выполняется**, **Готов к отзывы** и **Окончательный отзыв**. Чтобы получить доступ к отзыву о сотруднике, нажмите кнопку **Сведения**, затем выберите отзывы для совместной работы. В зависимости от того, где находится отзыв в рамках рабочего процесса, можно просмотреть, доступен ли отзыв для обновления. 
 
 Вы можете просмотреть все отзывы для своей группы с помощью плитки **Отзывы о производительности группы** в разделе **Сводка** пункта **Моя группа**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Взвешенное среднее с физической стоимостью и маркировкой
 description: Средневзвешенная стоимость - это складская модель, действующая на основании принципа средневзвешенного значения, когда запасы на складе оцениваются по средней стоимости продукции, поступившей на склад до конца отчетного периода, плюс запасы, имеющиеся в наличии с предыдущего периода.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 60ffd74363056babdd9d50df5be93d3ae466d860
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011730"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Взвешенное среднее с физической стоимостью и маркировкой
 
@@ -65,7 +67,7 @@ ms.locfileid: "7572009"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип прямого сопоставления без параметра "Включать физическую стоимость". 
 
-![DS взвешенного среднего без Включать физическую стоимость.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![DS взвешенного среднего без Включать физическую стоимость](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -99,7 +101,7 @@ ms.locfileid: "7572009"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип сводного сопоставления без параметра "Включать физическую стоимость". 
 
-![SS взвешенного среднего без Включать физическую стоимость.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![SS взвешенного среднего без Включать физическую стоимость](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -128,7 +130,7 @@ ms.locfileid: "7572009"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенным значением и принцип прямого сопоставления с параметром "Включать физическую стоимость". 
 
-![DS взвешенного среднего с Включать физическую стоимость.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![DS взвешенного среднего с Включать физическую стоимость](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -161,7 +163,7 @@ ms.locfileid: "7572009"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор складской модели с средневзвешенным значением и принцип сводного сопоставления без параметра "Включать физическую стоимость". 
 
-![SS взвешенного среднего с Включать физическую стоимость.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![SS взвешенного среднего с Включать физическую стоимость](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -209,7 +211,7 @@ ms.locfileid: "7572009"
 
 Нижеследующая диаграмма иллюстрирует серию проводок, которые оказывают влияние на выбор Складской модели с средневзвешенной стоимостью и маркировкой. 
 
-![Взвешенное среднее с маркировкой.](./media/weightedaveragewithmarking.gif) 
+![Взвешенное среднее с маркировкой](./media/weightedaveragewithmarking.gif) 
 
 **Ключ к схеме**
 - Складские проводки представлены вертикальными стрелками.
@@ -227,6 +229,3 @@ ms.locfileid: "7572009"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

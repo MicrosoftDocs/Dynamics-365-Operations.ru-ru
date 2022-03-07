@@ -1,34 +1,37 @@
 ---
 title: Страна происхождения
 description: Многие организации выдают сертификаты своим поставщикам, чтобы гарантировать соответствие продуктов конкретным стандартам сертификации. Эти сертификаты часто зависят от страны происхождения. В этом разделе приводятся сведения о функции страны происхождения, которая позволяет связать продукт с его страной происхождения и отслеживать сертификаты продуктов.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 2eaf0057123cd2cbcad00f95038627291dada517
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777646"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007823"
 ---
 # <a name="country-of-origin"></a>Страна происхождения
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Многие организации выдают сертификаты своим поставщикам, чтобы гарантировать соответствие продуктов конкретным стандартам сертификации. Эти сертификаты часто зависят от страны происхождения. Функция страны происхождения позволяет связать продукт с его страной происхождения и отслеживать сертификаты продуктов.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Включение функции страны происхождения
 
-В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
+Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление сведениями о продукте*
 - **Название функции:** *Функция управления страной происхождения*
@@ -86,7 +89,4 @@ ms.locfileid: "7777646"
 
 Создается и отображается отчет, содержащий информацию о стране происхождения для каждой части. Ниже приведен пример отчета.
 
-![Отчет о стране происхождения.](media/country-of-origin-report.png "Отчет о стране происхождения")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Отчет о стране происхождения](media/country-of-origin-report.png "Отчет о стране происхождения")

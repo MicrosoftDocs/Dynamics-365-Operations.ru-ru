@@ -2,26 +2,23 @@
 title: Обзор основных средств
 description: В этой теме содержится информация о модуле основных средств для России.
 author: v-oloski
-manager: AnnBe
 ms.date: 12/02/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f962abaf1199a3fe44cd17e50c8b477baa11a378
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0eaa8e9130cb0c1a3566f77f0d4658d82aab0263
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408565"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983810"
 ---
 # <a name="fixed-assets-overview"></a>Обзор основных средств
 
@@ -124,3 +121,6 @@ ms.locfileid: "4408565"
     Во время срока службы стоимость этих активов необходимо амортизировать. Если срок службы превышает двенадцать месяцев, что является юридически определенным значением, используется линейный метод амортизации. Если срок менее двенадцати месяцев, стоимость списывается при выдаче номенклатуры сотруднику. Страницы **Спецодежда** и **Спецоснастка** напоминают страницу **Основные средства**, которая используется для учета всей выданной спецодежды и спецоснастки.
 
 - [Формы печати](printing-forms-fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

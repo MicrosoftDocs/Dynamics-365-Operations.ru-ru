@@ -2,25 +2,22 @@
 title: Использование профиля учета в документах и запросах
 description: В данном разделе содержится общая информация об использовании профиля учета.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 48809372ace273585cdd78c99b1ff9ca1b1daddf
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 963d742f2e7cca3373b0093d1ee56a50e423b3464f409c997544eea7f239198b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4669001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782186"
 ---
 # <a name="use-an-inventory-profile-in-documents-and-queries"></a>Использование профиля учета в документах и запросах
 [!include [banner](../includes/banner.md)]
@@ -112,7 +109,7 @@ ms.locfileid: "4669001"
 2. Выберите накладную поставщика, для которой нет обработанной счета-фактуры по накладным, а затем выберите **создать фактуру \> обновления фактуры**.
 3. На странице **Обновление фактуры** в верхней области в поле **вид деятельности** выберите вид деятельности, для которого необходимо обработать счета-фактуры. В нижней области отображаются накладные, имеющие выбранный вид деятельности.
 
-   ![Страница обновления счета-фактуры](media/14_Update_facture.png)
+   ![Страница обновления счета-фактуры.](media/14_Update_facture.png)
 
 Система сохраняет вид деятельности, который используется для разноски в поступления продуктов, накладные и счетов-фактур по накладным для заказа на покупку. Вы можете просмотреть вид деятельности в следующих местах:
 
@@ -744,3 +741,6 @@ ms.locfileid: "4669001"
 
 -  [Обзор профиля учета](rus-inventory-profile-overview.md)
 -  [Настройка профиля учета](rus-set-up-inventory-profile.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

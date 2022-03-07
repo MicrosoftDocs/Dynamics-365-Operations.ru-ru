@@ -2,25 +2,22 @@
 title: Регистры основных средств и нематериальных активов
 description: В этом разделе представлены сведения о регистрах основных средств и нематериальных активов.
 author: anasyash
-manager: AnnBe
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 45cb4e0a45dcca2e96a11ab30f75cc452b794b75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f1ba8313eee5bd4f599dc9f4e7f6bfd6d9347583
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346423"
 ---
 # <a name="fixed-assets-and-intangible-assets-registers"></a>Регистры основных средств и нематериальных активов
 [!include [banner](../includes/banner.md)]
@@ -176,7 +173,7 @@ ms.locfileid: "4408507"
 14. Создайте журнал налоговых регистров для второго месяца 2019 года. Расчет всех регистров.
 15. В регистре **расчета себестоимости товаров** должны отобразиться следующие сведения:
 
-    ![Автоматически создается снимок экрана описания компьютера](media/1_Goods_cost_calculation.png)
+    ![Автоматически создается снимок экрана описания компьютера.](media/1_Goods_cost_calculation.png)
 
 ## <a name="the-fa--information-about-object-register"></a><a name="register-information-fixed"></a>ОС — сведения о регистре объектов
 
@@ -455,3 +452,6 @@ ms.locfileid: "4408507"
     | Наименование объекта учета | Восстановление амортизационной премии для ОС \# 4031                                  |
     | Сумма дохода                       | 60000,00                                                                   |
     | Сумма ПНО                          | 12000,00                                                                   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

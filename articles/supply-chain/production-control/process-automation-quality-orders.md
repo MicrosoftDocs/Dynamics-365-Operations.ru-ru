@@ -1,25 +1,26 @@
 ---
 title: Вызов потоков автоматизации процессов для создания заказов контроля качества
 description: В этой теме приводятся ресурсы для использования Power Automate для автоматизации бизнес-процессов с использованием примера заказов контроля качества.
-author: johanhoffmann
+author: cabeln
 ms.date: 05/28/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: fa0c9ea5a2e92ae5af7d937b5f7f16df0ee3c9ef
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: 4492e5d835bbb4d61208730675849dba0a6fe828
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985195"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6641040"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Вызов потоков автоматизации процессов для создания заказов контроля качества
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Организации имеют увеличивающую потребность в автоматизации стандартных бизнес-процессов, обеспечивают более удобное взаимодействие с персоналом и используют различные сигналы данных и системы для автоматического ведения бизнес-процессов. Используя роботизированную автоматизацию процессов (RPA) и Microsoft Power Automate, компании могут использовать интерфейс без написания кода для автоматизации повторяющихся процессов, тем самым получая эффективность и точность работы.
 

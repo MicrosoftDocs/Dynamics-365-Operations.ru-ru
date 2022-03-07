@@ -1,26 +1,24 @@
 ---
 title: Конфигурации запросов поставщика
 description: В этом разделе описаны поля, которые необходимо заполнить в новом запросе поставщика.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 987b9cefef395b3bf3e915f41232fe0daba213b9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a78ec681ff9bfe9f7792da04553e4b543bf4a183
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021173"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809310"
 ---
 # <a name="vendor-request-configurations"></a>Конфигурации запросов поставщика
 [!include [banner](../includes/banner.md)]
@@ -53,3 +51,6 @@ ms.locfileid: "5021173"
 4.  Откройте вкладку **Страна/регионы**, чтобы выбрать страну или регион, для которых должна использоваться конфигурация.
 5.  Завершите настройку конфигурации в соответствии с инструкциями для конфигурации по умолчанию.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

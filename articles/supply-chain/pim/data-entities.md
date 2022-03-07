@@ -1,10 +1,12 @@
 ---
 title: Объекты данных продукта
 description: В этой теме содержится информация о различных объектах, которые могут быть использованы для импорта и экспорта данных о продукции.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -13,15 +15,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e05d5febdd57a25d796fb3d085390758f5e7ceca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007774"
 ---
 # <a name="product-data-entities"></a>Объекты данных продукта
 
@@ -47,6 +49,3 @@ ms.locfileid: "7567159"
 
 > [!NOTE]
 > Вы можете использовать информационный объект **Выпущенные продукты V2** для импорта продуктов в систему только в том случае, если общий продукт уже создан. В противном случае для импорта продуктов в систему необходимо использовать информационный объект **Создание продукта**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

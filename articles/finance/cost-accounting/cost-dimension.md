@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6febb8a48cf6496fb7f4c2ee9f5281d47aa1ccae1a8ecc51c908b3810302e11c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775130"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822935"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Создание аналитик и импорт элементов аналитик
 
@@ -36,7 +36,7 @@ ms.locfileid: "6775130"
 
 На следующей схеме показаны аналитики, которые используются в модуле "Учет затрат".
 
-[![Аналитики учета затрат.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Аналитики учета затрат](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 После импорта данных в модуль "Учет затрат" их можно использовать для построения различных перспектив, позволяющих руководителям на всех уровнях организации делать обоснованные выводы. В следующих темах содержатся сведения о создании аналитик и импорте элементов аналитик. 
 

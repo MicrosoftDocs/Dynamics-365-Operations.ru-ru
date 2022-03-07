@@ -1,12 +1,10 @@
 ---
 title: Запланировать заказы на работу
 description: В этом разделе описывается, как планировать заказы на работу в управлении активами.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020237"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813757"
 ---
 # <a name="schedule-work-orders"></a>Запланировать заказы на работу
 
@@ -137,3 +135,6 @@ ms.locfileid: "5020237"
     - Чтобы перепланировать отображенный заказ на работу, выберите, затем перетащите его на соответствующие новые дату и время.
 
 1. Если были сделаны какие-либо изменения, выберите **Сохранить** на панели операций, чтобы сохранить их.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

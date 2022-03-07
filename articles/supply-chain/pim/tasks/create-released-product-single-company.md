@@ -1,24 +1,27 @@
 ---
 title: Создание выпущенного продукта для одной компании
 description: Эта процедура представляет собой пошаговую демонстрацию создания одного выпущенного продукта в контексте одного юридического лица.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6755f2112596be661040f1b371cb11f1785815b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 90924c853793a3d70f2f2d46d8a154a19bd7d6bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577320"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436031"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Создание выпущенного продукта для одной компании
 
@@ -100,6 +103,3 @@ ms.locfileid: "7577320"
 12. Поиск и выбор требуемой записи в списке.
 13. В списке перейдите по ссылке в выбранной строке.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

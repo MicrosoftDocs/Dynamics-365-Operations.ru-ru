@@ -2,26 +2,23 @@
 title: Амортизационные премии (Россия)
 description: В этой теме содержится информация об амортизационной премии для основных средств в России.
 author: anasyash
-manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 33b23fd64a84e3f99c6fedf6517c051c0050b3c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1987262116c112396b97a156e45a07a4621ea046596594e80aa4679ac78f3f56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750267"
 ---
 # <a name="depreciation-bonuses-russia"></a>Амортизационные премии (Россия)
 
@@ -75,3 +72,6 @@ ms.locfileid: "4408505"
 - [Настройка амортизации (Россия)](rus-depreciation-setup.md)
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
 - [Расчет амортизации для России](rus-depreciation-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

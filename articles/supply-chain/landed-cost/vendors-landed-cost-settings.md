@@ -5,6 +5,7 @@ author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
@@ -13,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc68cfd1afab808b1aa79fe4d0387cb6bb6c198f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 3a288517f77d1618f94f8539506d01a108e63fa5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568743"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829771"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>Настройки поставщика, добавленные в стоимость на складе
 

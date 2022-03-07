@@ -1,12 +1,10 @@
 ---
 title: Содержимое Power BI анализа учета затрат
-description: В этой теме описывается, что входит в содержимое Power BI для анализа учета затрат. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+description: В этой теме описывается, что входит в содержимое Power BI для анализа учета затрат.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747377"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI анализа учета затрат
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Анализ учета затрат**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое **Анализ учета затрат** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -42,7 +40,7 @@ ms.locfileid: "4683879"
 Определив безопасность уровня доступа в модуле учета затрат и объединив его безопасностью уровня строк в Power BI, можно предоставить доступ всем владельцам объектов затрат доступ к содержимому Power BI **Анализ учета затрат**. Все данные в визуализациях затем фильтруются на основе уровня доступа, который контролируется в модуле учета затрат. Для получения дополнительных сведений о безопасности уровня доступа и безопасности уровня строк, см. в разделе [Настройка безопасности для содержимого Power BI анализа учета затрат](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Обязательно загрузите содержимое **Анализ учета затрат**, которое применяется к версии Microsoft Dynamics 365, которую вы используете.
 
@@ -123,3 +121,6 @@ ms.locfileid: "4683879"
 | Финансовые календари                   | Календарь, описание календаря                                                                                       |
 | Финансовые года                       | Календарный год                                                                                                        |
 | Учетные периоды                     | Период календарного года                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

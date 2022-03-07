@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778017"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577440"
 ---
 # <a name="set-up-hazardous-materials"></a>Настройка опасных материалов
 
@@ -27,7 +27,7 @@ ms.locfileid: "7778017"
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Включение функции опасных материалов для вашей системы
 
-В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
+Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление сведениями о продукте*
 - **Название компонента:** *Информация о продукте и документация по отгрузке опасных материалов*

@@ -1,12 +1,10 @@
 ---
 title: Мобильная рабочая область "Утверждения накладных"
-description: В этом разделе содержится информация о мобильной рабочей области утверждения накладных. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика.
+description: В этом разделе содержится информация о мобильной рабочей области утверждения накладных.
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759988"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Мобильная рабочая область "Утверждения накладных"
 
@@ -74,7 +72,7 @@ ms.locfileid: "4683416"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-    [![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Утверждение накладных с помощью мобильной рабочей области утверждения накладных
 1.  На мобильном устройстве выберите рабочую область **Утверждения накладных**.
@@ -86,3 +84,6 @@ ms.locfileid: "4683416"
 7.  Выберите **Вложения** для просмотра любых примечаний или файлов, которые присоединены к накладной.
 8.  На странице **Сведения о накладной** выберите соответствующее действие workflow-процесса для выполнения процесса проверки.
 9.  Выберите **Готово**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

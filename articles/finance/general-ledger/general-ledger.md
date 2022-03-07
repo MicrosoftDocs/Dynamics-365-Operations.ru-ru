@@ -2,27 +2,28 @@
 title: Обзор главной книги и финансовой отчетности
 description: Используйте главную книгу для определения финансовых записей юридического лица и управления ими.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "65431"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1ade10020e4bab02490c9104c37fe1f234d634e8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985270"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447314"
 ---
 # <a name="general-ledger-home-page"></a>Домашняя страница главной книги
 
@@ -36,12 +37,12 @@ ms.locfileid: "7985270"
 Денежная сумма можно распределить по одному или нескольким счетам либо комбинациям счетов и аналитик на основе правил распределения. Существует два типа распределений: фиксированные и переменные. Можно также сопоставить проводки между счетами ГК и переоценить валютные суммы. В конце финансового года необходимо создать закрывающие проводки и подготовить счета для следующего финансового года. Можно использовать функции консолидации, чтобы объединить финансовые результаты для нескольких дочерних юридических лиц в результаты для отдельной консолидированной организации. Дочерние компании могут входить в одну базу данных или в разные базы данных.
 
 - [Обзор консолидации и закрытия](../budgeting/consolidation-elimination-overview.md)
-- [Сальдо счетов главной книги](general-ledger-account-balances.md)
+- [Сальдо счета главной книги](general-ledger-account-balances.md)
 - [Финансовые аналитики](financial-dimensions.md)
 
-[![Бизнес-процесс.](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Бизнес-процесс](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-## <a name="sales-tax"></a>Налог
+## <a name="sales-tax"></a>Налог (НСП)
 Каждая компания собирает и платит налоги различным налоговым органам. Правила и ставки различаются по странам, регионам, штатам, областям и городам.
 Кроме того, правила необходимо периодически обновлять в связи с изменением требований налоговых органов. Налоговые коды содержат основные сведения о том, сколько нужно собирать и платить налоговым органам. При настройке налоговых кодов определяются суммы или проценты сборов. Можно также определить разные способы применения этих сумм или процентов к суммам транзакций. В разделах этой главы содержится информация о настройке налоговых кодов для способов уплаты и ставок, с которыми работают соответствующие налоговые органы.
 
@@ -54,14 +55,14 @@ ms.locfileid: "7985270"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](/dynamics365/release-plans/), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="financial-reporting"></a>Финансовая отчетность
 Переход к разделу [Обзор Financial reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) для получения сведений о финансовых отчетах.
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance и для операций](https://community.dynamics.com/365/financeandoperations/b/financials).
+Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в Dynamics 365.
 
@@ -73,6 +74,3 @@ ms.locfileid: "7985270"
 
 - [Что нужно знать о книге учета в Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

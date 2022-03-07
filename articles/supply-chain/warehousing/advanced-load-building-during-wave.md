@@ -2,26 +2,23 @@
 title: Расширенное формирование загрузки во время волны
 description: В этой теме приводятся сведения о расширенном формировании загрузки волны, которая автоматически назначает отгрузки существующим волнам в ходе выполнения волн. Таким образом, можно создать осмысленные загрузки, представляющую грузовики, без необходимости использования рабочего места планирования загрузки.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654206"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574745"
 ---
 # <a name="advanced-load-building-during-wave"></a>Расширенное формирование загрузки во время волны
 
@@ -250,3 +247,6 @@ ms.locfileid: "4654206"
 1. В только что созданном заказе на продажу на экспресс-вкладке **Строки заказа на продажу** выберите **Добавить строку**, чтобы добавить новую строку.
 1. В новой строке задайте в поле **Код номенклатуры** значение *M9200*, а в поле **Количество** — значение *1*.
 1. Повторите строки с 6 по 9, чтобы зарезервировать строку и выпустить ее на склад. Как и ранее, система создает **новую** отгрузку для добавленной строки. Однако, поскольку номенклатура берется из группы номенклатур **CarAudio**, она **не проходит ограничения, настроенные для группы смешанной загрузки**. Таким образом, она **добавляется к новой загрузке**. Если группа смешанной загрузки не указана в шаблоне формирования загрузки, данная отгрузка будет добавлена к первой загрузке.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

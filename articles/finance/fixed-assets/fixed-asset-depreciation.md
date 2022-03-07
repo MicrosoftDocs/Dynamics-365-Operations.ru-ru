@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1056dadab4294072cc064670f5cfcda239e22e19
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447184"
 ---
 # <a name="fixed-asset-depreciation"></a>Амортизация ОС
 

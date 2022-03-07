@@ -2,11 +2,9 @@
 title: Оценка стоимости производственного заказа
 description: В Этой статья представлена информация об оценке производственных затрат. Оценка стоимости производства обеспечивает вас информацией о предполагаемых затратах на потребление материалов и мощностей при производстве номенклатуры в том количестве, которое указано в спланированном производственном заказе.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcTrans, InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53f54c64b1c78e7385f0fde5ad1023c5b4e0af4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 59b93b41b74bd3f4cc480c8e60e8c69b25e40e51
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967316"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830256"
 ---
 # <a name="production-order-cost-estimation"></a>Оценка стоимости производственного заказа
 
@@ -64,3 +62,6 @@ ms.locfileid: "4967316"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Входящие и исходящие активы
 description: В этом разделе объясняется, как регистрировать входящие и исходящие активы в «Управлении активами».
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759631"
 ---
 # <a name="inbound-and-outbound-assets"></a>Входящие и исходящие активы
 
@@ -44,7 +42,7 @@ ms.locfileid: "5018079"
 3. Выберите **Обновить состояние запроса на обслуживание**.
 4. Выберите **Входящие** (или другое состояние жизненного цикла, созданное для входящих активов), а затем выберите **OK.**
 
-![Регистрация активов в качестве входящих](media/07-manage-maintenance-requests.png)
+![Регистрация активов в качестве входящих.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Регистрация входящих активов в качестве полученных
 
@@ -53,7 +51,7 @@ ms.locfileid: "5018079"
 3. ВЫберите **Получить активы**.
 4. В поле **Получено** введите дату и время. Затем выберите **OK**. Запись удаляется со страницы списка **Входящие активы**.
 
-![Регистрация входящих активов в качестве полученных](media/08-manage-maintenance-requests.png)
+![Регистрация входящих активов в качестве полученных.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Регистрация активов в качестве исходящих
 
@@ -70,3 +68,6 @@ ms.locfileid: "5018079"
 2. Выберите актив или запрос на обслуживание.
 3. Выберите **Доставить активы**.
 4. В поле **Отобрано** введите дату и время. Затем выберите **OK**. Запись удаляется со страницы списка **Исходящие активы**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

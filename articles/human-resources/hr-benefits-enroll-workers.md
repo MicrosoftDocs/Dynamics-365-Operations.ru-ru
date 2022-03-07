@@ -2,28 +2,28 @@
 title: Регистрация и удаление льгот для работников
 description: Эта процедура демонстрирует, как для одного работника можно зарегистрировать одну или несколько льгот, а также как для нескольких работников можно зарегистрировать льготу.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 47e8bf46d3d38cd1b776debb835d53a22e724149
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420160"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805858"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Регистрация и удаление льгот для работников
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -58,3 +58,6 @@ ms.locfileid: "4420160"
 14. В списке перейдите по ссылке в выбранной строке.
 15. Эта страница позволяет просматривать сотрудников, которые были зарегистрированы для получения льготы, а также любых других сотрудников, которые не были зарегистрированы.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

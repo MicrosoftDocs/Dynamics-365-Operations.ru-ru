@@ -2,28 +2,28 @@
 title: Настройка должностей
 description: Должности являются важным элементом нижнего уровня организационной иерархии.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c078060984169d14a0fb64cf54fc134e8f26ccb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5d2e5b72fd34691f8104aea33b551a10b0bae9ca
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420251"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802487"
 ---
 # <a name="set-up-positions"></a>Настройка должностей
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -67,3 +67,6 @@ ms.locfileid: "4420251"
 30. В поле "Подразделение" введите или выберите значение.
 31. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

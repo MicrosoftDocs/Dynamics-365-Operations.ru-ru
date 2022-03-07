@@ -1,12 +1,10 @@
 ---
 title: Разработка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
-description: Шаги в этом разделе содержат сведения о том, как разрабатывать конфигурации электронной отчетности, которые формируют электронные документы в форматах Microsoft Office (Excel и Word), содержащие внедренные изображения.
+description: В этой теме описано, как разработать конфигурации, которые создают электронные документы в форматах Excel и Word, содержащих внедренные изображения.
 author: NickSelin
-manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719353"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Разработка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
 
 [!include [banner](../../includes/banner.md)]
 
-Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного". Эта процедура объясняет, как разрабатывать конфигурации электронной отчетности для формирования документа Microsoft Excel или Word, содержащего внедренные изображения. В этой процедуре создаются необходимые конфигурации электронной отчетности для демонстрационной компании Litware, Inc. Эти действия могут быть выполнены с использованием набора данных USMF. Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". Прежде чем начать, загрузите и сохраните файлы, перечисленные в разделе справки [Внедрение изображений и фигур в документы, создаваемые с помощью ER](../electronic-reporting-embed-images-shapes.md). Это файлы: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png и Cheque template Word.docx.
+Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного". Эта процедура объясняет, как разрабатывать конфигурации электронной отчетности для формирования документа Microsoft Excel или Word, содержащего внедренные изображения. В этой процедуре создаются необходимые конфигурации электронной отчетности для демонстрационной компании Litware, Inc. Эти действия могут быть выполнены с использованием набора данных USMF. Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". Перед началом необходимо загрузить и сохранить следующие файлы: 
+
+| описание                                          | Имя файла                   |
+|------------------------------------------------------|-----------------------------|
+| Конфигурации модели данных электронной отчетности                          | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| Конфигурация формата электронной отчетности                              | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| Изображение логотипа компании                                   | [Company logo.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| Изображение подписи                                      | [Signature image.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| Альтернативное изображение подписи                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| Шаблон Microsoft Word для печати чеков платежей  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>Проверьте обязательные компоненты  
  1. Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".  
@@ -90,3 +97,6 @@ ms.locfileid: "4684411"
  30. Выберите "Да" в поле "Разрешать создание контрольной операции в неактивных банковских счетах:".  
  31. Нажмите кнопку "Сохранить".  
  32. Закройте страницу.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

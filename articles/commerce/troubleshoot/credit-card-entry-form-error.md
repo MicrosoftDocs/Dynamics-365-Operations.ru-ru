@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 613eb2af626ca315a8bacb89fb348a5b14bd17b1717a90c99bcede66baef9040
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea9105481e6c5812565f0d3604906c905bcb5443
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752395"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018514"
 ---
 # <a name="credit-card-entry-page-shows-an-error-at-checkout"></a>Страница запись кредитной карты отображает ошибку при оформлении заказа
 
@@ -32,9 +32,9 @@ ms.locfileid: "6752395"
 
 При открытии страницы оформления заказа Интернет-магазина раздел **Способ платежа** не загружается, и отображается следующее сообщение об ошибке: "Возникла ошибка. Повторите попытку позже".
 
-![Ошибка модуля платежа.](media/payment-module-error.jpg)
+![Ошибка модуля платежа](media/payment-module-error.jpg)
 
-## <a name="resolution"></a>Решение
+## <a name="resolution"></a>Приказ
 
 ### <a name="wait-for-the-commerce-scale-unit-cache-to-expire"></a>Подождите, пока истечет срок действия кэша Commerce Scale Unit
 

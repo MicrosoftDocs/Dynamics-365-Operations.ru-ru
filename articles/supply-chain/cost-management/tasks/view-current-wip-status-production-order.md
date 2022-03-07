@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22f4a423a0ca9e7fc5ddc9d46a618a20c7a5ca9f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 29002841d3dce43a539b740d8c4b3e15f738fb5b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568191"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821329"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Просмотр текущего статуса НЗП по производственному заказу
 

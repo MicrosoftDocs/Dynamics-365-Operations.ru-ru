@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 52e048e5a9271dfcd1d7b303d8ae8eae331296a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 25dd72c86b22b50eccef22a5d2cbcfcf04280684
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577632"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021620"
 ---
 # <a name="default-descriptions-for-the-general-ledger"></a>Описания по умолчанию для главной книги
 

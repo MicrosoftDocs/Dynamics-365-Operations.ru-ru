@@ -2,9 +2,11 @@
 title: Настройка складов для заказов на перемещение
 description: В этом разделе описывается, как настроить склады для заказов на перемещение.
 author: Mirzaab
+manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfb215683b4ee5d186626492bd90116d1a06a1d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976846"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Настройка складов для заказов на перемещение 
 
@@ -50,6 +52,3 @@ ms.locfileid: "6756735"
 2. В поле **Пункт приемки** выберите **склад**.
 3. Выберите **Склад отгрузки**, **Склад приемки** и **Время транспортировки в днях**. 
 4. (Необязательно) Можно также задать время транспортировки, в зависимости от способа поставки, на вкладке **Время транспортировки в днях по способу поставки**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

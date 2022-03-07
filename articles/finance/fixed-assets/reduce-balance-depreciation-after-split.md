@@ -2,28 +2,25 @@
 title: Амортизация с уменьшаемым остатком после разделения
 description: В этой теме описывается метод, используемый в модуле основных средств для расчета амортизации после разделения актива с помощью метода сокращения сальдо.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737709"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Амортизация с уменьшаемым остатком после разделения
 
@@ -40,8 +37,11 @@ ms.locfileid: "4650681"
 - Амортизация первого финансового года равна 18 000 долларам США, месячная амортизация равняется 150 долларам США, а актив затем амортизируется до ноября 2019 года в сумме 738,75 долларов США.
 - В ноябре 2019 года 80 процентов актива разделяется на другие основные средства.
 
-[![Амортизация с уменьшаемым остатком после разделения](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Амортизация с уменьшаемым остатком после разделения.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Сумма для амортизации для исходного актива равна 1 822,25 долларов США. Эта сумма равна остаточной стоимости до разноски проводки разбиения (9 111,25 доллара США) плюс корректировка приобретения, которая создается при разноске проводки разбиения (-8 000 долларов США) плюс корректировка амортизации, созданная в ходе проводки разбиения (711 долларов США). Таким образом, амортизация за второй год равна (1 822,25 × 18 процентов) ÷ 12 = 27,33 доллара США.
 
 Сумма для амортизации для нового основного средства в первом году равна (8 000 × 18 процентов) ÷ 12 = 120 долларов США.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

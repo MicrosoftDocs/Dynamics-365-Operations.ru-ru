@@ -1,12 +1,10 @@
 ---
 title: Планирование операций
 description: В данном разделе содержится общая информация о планировании операций. Планирование операций можно использовать, чтобы получить общую оценку производственного процесса по времени.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966413"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574577"
 ---
 # <a name="operations-scheduling"></a>Планирование операций
 
@@ -76,10 +74,12 @@ ms.locfileid: "4966413"
 ## <a name="finite-materials"></a>Ограничение по материалам
 Если вы работаете с ограниченными материалами, график также зависит от доступности материалов, необходимых для производства. Если имеющихся компонентов недостаточно для производства, оно может быть задержано. Планирование может основываться на использовании материалов за счет указания материалов, необходимых для производства. При оптимизации как по мощности ресурсов, так и по доступности материалам, производство рассчитывается в соответствии с этими ограничениями. Производственный заказ нельзя запланировать, пока и мощность, и материалы не будут доступны в одно и то же время в нужных количествах.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Параметры планирования операций](operation-scheduling-options.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

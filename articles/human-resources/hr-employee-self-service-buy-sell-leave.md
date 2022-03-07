@@ -1,31 +1,33 @@
 ---
 title: Покупка и продажа отпуска
-description: В Dynamics 365 Human Resources можно отправлять запросы на покупку и продажу отпуска, используя политики покупки и продажи отпуска, настроенные вашей компанией.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+description: В этом разделе описывается, как отправлять запросы на покупку и продажу отпуска в Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420316"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067487"
 ---
 # <a name="buy-and-sell-leave"></a>Покупка и продажа отпуска
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 В Dynamics 365 Human Resources можно отправлять запросы на покупку и продажу отпуска, используя политики покупки и продажи отпуска, настроенные вашей компанией.  
 
@@ -49,7 +51,16 @@ ms.locfileid: "4420316"
 
 Ваши балансы будут автоматически обновляться или проходить через процесс утверждения перед обновлением. Это зависит от настройки политики покупки.
 
+
+## <a name="troubleshooting"></a>Устранение неполадок 
+
+Если рабочий процесс в запросе на покупку или продажу заканчивается неудачей, пользователи с привилегией **EssLeaveBuySellRequestApprover** могут проверить журнал сообщений для всех запросов на покупку и продажу. Для этого перейдите к пункту **Отпуск и отсутствие > Ссылки > Запросы на покупку и продажу отпуска > Журнал сообщений** (в верхнем левом углу). **Журнал сообщений** показывает пользователям, как были обработаны проводки, и связанную историю workflow-процесса.
+
+
 ## <a name="see-also"></a>См. также
 
 [Обзор отпусков и отсутствия на работе](hr-leave-and-absence-overview.md)</br>
 [Управление политиками покупки и продажи отпусков](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

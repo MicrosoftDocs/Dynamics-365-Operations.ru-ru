@@ -1,25 +1,27 @@
 ---
 title: Настройка рабочего шаблона для заказов на покупку
 description: В этой теме описывается настройка простого шаблона работы, который следует использовать при размещении полученных номенклатур.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fe0b6f9b966a5ce31af9da74a2038877debd2e7c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215753"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Настройка рабочего шаблона для заказов на покупку
 

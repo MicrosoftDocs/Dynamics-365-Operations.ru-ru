@@ -2,16 +2,13 @@
 title: Определение скидок, специфичных для канала
 description: Продавцы часто устанавливают различные скидки в различных каналах. В этом разделе рассматриваются понятия, которые необходимо знать для создания скидки для конкретного канала.
 author: scott-tucker
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 539a6f2df46450c5e0fd18ba69501432d6f3fbdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14b6f8f4a7d344111718fad94418bc3dbb5c9b1e113c0fd613350c49a2511d4f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759319"
 ---
 # <a name="define-channel-specific-discounts"></a>Определение скидок на уровне каналов
 
@@ -40,7 +37,7 @@ ms.locfileid: "4415248"
 
 ## <a name="price-groups"></a>Группы цен
 
-[![Группы цен](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Группы цен.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Диаграмма выше иллюстрирует отношение между объектами, которые могут находиться в проводке (канал, каталог, назначение, клиент, карточка лояльности) и различные типы скидок, которые можно настроить. Все проводки происходят в канале, поэтому канал гарантировано присутствует в проводке. Остальные объекты необязательные. На каждой из страниц справочника имеется ссылка на странице связанных ценовых групп, где можно просматривать и добавлять ценовые группы по мере необходимости. Ценовая группа используется для того, чтобы связать четыре различных типов объектов со скидками, корректировками цен и коммерческими соглашениями. Мы рекомендуем планировать стратегию того, как вы называете ваши ценовые группы, чтобы систематизировать их. Один вариант заключается в использовании буквенного или цифрового префикса или суффикса, чтобы различать разные типы. Например, 1-xxxxx для ценовых групп канала и 2-xxxxx для ценовых групп каталога. Предусмотрено четыре страницы запросов, которые фокусируются на каждом из объектов Commerce, с которыми могут быть связаны скидки.
 
@@ -62,3 +59,6 @@ ms.locfileid: "4415248"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Корректировки цены и скидки](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

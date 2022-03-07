@@ -1,26 +1,29 @@
 ---
 title: Обработка общего журнала
 description: Этот раздел описывает возможности в Microsoft Dynamics 365 Finance, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726785"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447315"
 ---
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
@@ -42,14 +45,14 @@ ms.locfileid: "7726785"
 
 Имя журнала может использоваться только для корректировок. В этом случае, вы можете указать, что только тип счета **книга учета** действителен по всем компаниям. 
 
-[![Типы счета управления журналом.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Типы счета управления журналом](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Имя журнала можно использовать только для специфического сегмента или для диапазона для счетов ГК. 
 
-[![Сегмент управления журналом.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Сегмент управления журналом](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 Параметр **Автоматическое реверсирование** доступен в общих журналах. Например, вы имеете регулировку начисления, где фактический документ пока не был обработан, как показано в следующей иллюстрации.
-[![Реверсирование общего журнала.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Реверсирование общего журнала](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Надстройка Microsoft Excel для записи в журнале обеспечивает дополнительный уровень автоматизации и делает ввод данных легче. Действие **Открыть строки в Excel** доступно на страницах **Общий журнал** и **Ваучер журнала**. 
 
@@ -102,6 +105,3 @@ ms.locfileid: "7726785"
 
 ## <a name="delete-journal-lines"></a>Удаление строк журнала
 Возможность быстрого удаления всех строк журнала включается в журнале в пункте **Функции** > **Удалить строки журнала**. Чтобы включить эту функцию, на странице **Управление функциями** выберите команду **Удалить оптимизации производительности журнала**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

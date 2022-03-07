@@ -2,26 +2,24 @@
 title: Документация по приложениям Finance and Operations
 description: Документация по приложениям Finance and Operations.
 author: robinarh
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
 ms.custom: 62303
 ms.search.region: Global
-ms.author: margoc
+ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694394"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751834"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Документация по приложениям Finance and Operations
 
@@ -67,7 +65,7 @@ ms.locfileid: "4694394"
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Интеграции</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Бизнес-события</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Информационные объекты</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Интеграция с использованием Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Интеграция с помощью Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Управление финансами</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Расчеты с поставщиками</a></p>
@@ -145,3 +143,6 @@ ms.locfileid: "4694394"
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

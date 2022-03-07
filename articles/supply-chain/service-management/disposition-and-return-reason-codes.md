@@ -1,25 +1,26 @@
 ---
 title: Обзор возвратов клиентами
 description: Создайте и используйте коды причин возврата и коды метода обработки в системе для поддержки процесса возврата продукции.
-author: kamaybac
+author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f0231cf33c9b422adc08e7244915ab8235b18ca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 11194c7fef1326e293011c05f0c796894b1727e7
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983777"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336421"
 ---
 # <a name="customer-returns-overview"></a>Обзор возвратов клиентами
 

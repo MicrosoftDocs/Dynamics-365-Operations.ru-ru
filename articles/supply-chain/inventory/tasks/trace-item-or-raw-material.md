@@ -2,11 +2,9 @@
 title: Трассировка номенклатуры или сырья
 description: Эта процедура демонстрирует способ использования трассировки номенклатуры, чтобы указать, где номенклатуры или сырье использовались или используются.
 author: pjacobse
-manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 044b098b24d8cdf8008824b7ed1359f2b0566a8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961515"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829820"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Трассировка номенклатуры или сырья
 
@@ -59,3 +57,6 @@ ms.locfileid: "4961515"
 9. Щелкните **Отгруженные заказы на продажу**.
 10. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

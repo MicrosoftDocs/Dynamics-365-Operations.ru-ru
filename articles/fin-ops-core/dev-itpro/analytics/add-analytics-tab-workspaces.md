@@ -1,25 +1,23 @@
 ---
 title: Добавление аналитики в рабочие области с помощью Power BI Embedded
 description: В этом разделе показано, как внедрить отчет Power BI на вкладку "Аналитика" рабочей области.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760160"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
@@ -56,11 +54,11 @@ ms.locfileid: "4680944"
 3. В диалоговом окне **Добавление нового элемента** в разделе **Артефакты операций** выберите шаблон **Ресурс**.
 4. Введите имя, которое будет использоваться для ссылки на отчет в метаданных X ++, и щелкните **Добавить**.
 
-    ![Диалоговое окно "Добавление нового элемента"](media/analytical-workspace-add.png)
+    ![Диалоговое окно "Добавление нового элемента".](media/analytical-workspace-add.png)
 
 5. Найдите PBIX-файл, содержащий определение аналитического отчета, а затем щелкните **Открыть**.
 
-    ![Диалоговое окно "Выбор файла ресурса"](media/analytical-workspace-select-resource.png)
+    ![Диалоговое окно "Выбор файла ресурса".](media/analytical-workspace-select-resource.png)
 
 Теперь, когда вы добавили PBIX-файл как ресурс Dynamics 365, можно внедрить отчеты в рабочие области и добавить прямые ссылки с помощью пунктов меню.
 
@@ -69,7 +67,7 @@ ms.locfileid: "4680944"
 
 На следующем рисунке показано, как выглядит форма **FMClerkWorkspace** в конструкторе в Microsoft Visual Studio.
 
-![Форма FMClerkWorkspace до изменений](media/analytical-workspace-definition-before.png)
+![Форма FMClerkWorkspace до изменений.](media/analytical-workspace-definition-before.png)
 
 Выполните следующие шаги для расширения определения формы для рабочей области **Управление резервированием**.
 
@@ -94,7 +92,7 @@ ms.locfileid: "4680944"
 
 На следующем рисунке показан дизайн после применения этих изменений.
 
-![FMClerkWorkspace после изменений](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace после изменений.](media/analytical-workspace-definition-after.png)
 
 Теперь, когда вы добавили элементы управления формой, которые будут использоваться для внедрения отчета рабочей области, необходимо определить размер родительского элемента управления, чтобы он соответствовал макету. По умолчанию обе страницы **Область фильтров** и **Вкладка** будут отображаться в отчете. Тем не менее, можно изменить видимость этих элементов управления в зависимости от целевого потребителя отчета.
 
@@ -144,7 +142,7 @@ ms.locfileid: "4680944"
 
 Вы выполнили задачу по добавлению бизнес-логики для инициализации внедренного элемента управления средством просмотра отчетов. На следующем рисунке показана рабочая область после применения этих изменений.
 
-![Отчет, внедренный в рабочую область](media/analytical-workspace-final.png)
+![Отчет, внедренный в рабочую область.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Вы можете получить доступ к существующему операционному представлению с помощью вкладок рабочей области под заголовком страницы.
@@ -175,3 +173,6 @@ public static void initializeReportControl(
 | showFilterPane   | Логическое значение, указывающее, должна ли отображаться область фильтров (**true**) или нет (**false**).     |
 | showNavPane      | Логическое значение, указывающее, должна ли отображаться область перехода (**true**) или нет (**false**). |
 | defaultFilters   | Фильтры по умолчанию для отчета Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Тип места назначения ER принтера
-description: В этой теме приводятся сведения о настройке места назначения принтера для каждого компонента ПАПКА или ФАЙЛ формата электронной отчетности (ER), настроенного для создания исходящих документов в формате PDF или Microsoft Office (Excel, Word).
+description: В этой теме объясняется, как можно настроить место назначения принтера для каждого компонента ПАПКА или ФАЙЛ в формате электронной отчетности (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347932"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Назначение принтера
 
@@ -32,7 +30,7 @@ ms.locfileid: "4679614"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Перед началом необходимо установить и настроить агент маршрутизации документов, а затем зарегистрировать сетевые принтеры. Дополнительные сведения см. в [Установка агента маршрутизации документов для включения сетевой печати](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Перед началом необходимо установить и настроить агент маршрутизации документов, а затем зарегистрировать сетевые принтеры. Дополнительные сведения см. в [Установка агента маршрутизации документов для включения сетевой печати](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Убедитесь, что место назначения принтера доступно
 
@@ -41,15 +39,13 @@ ms.locfileid: "4679614"
 1. Преобразовать исходящие документы электронной отчетности из форматов Microsoft Office в PDF
 2. Агент маршрутизации документов как назначение электронной отчетности для исходящих документов
 
-[![Включение функции места назначения ER принтера в управлении функциями](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Включение функции места назначения ER принтера в управлении функциями.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Применимость
 
 Место назначения **Принтер** может быть настроено только для тех компонентов файлов, которые используются для создания выходных данных в формате PDF для печати (слияние PDF или формат PDF) или Microsoft Office Excel/Word (файл Excel). При создании выходных данных в формате PDF они отправляются на принтер. Когда выходные данные создаются в формате Microsoft Office, они автоматически преобразуются в формат PDF и затем отправляются на принтер.
 
 ### <a name="limitations"></a>Ограничения
-
-Эта функция предназначена для предварительного просмотра и подчиняется условиям использования, которые описаны в [Дополнительные условия использования предварительных версий Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 Место назначения **Принтер** реализовано только для развертываний в облаке.
 
@@ -59,7 +55,7 @@ ms.locfileid: "4679614"
 2. В поле **Имя принтера** выберите нужный сетевой принтер.
 3. Задайте для **Сохранить в архиве печати?** значение **Да** для сохранения созданных выходных данных в архиве печати, чтобы они были доступны для дальнейшей печати. Чтобы получить доступ к архивированным выходным данным позже, перейдите **Управление организацией** \> **Запросы и отчеты** \> **Архив отчетов**.
 
-[![Использование места назначения принтера](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Использование места назначения принтера.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > Параметр **Преобразовать в PDF** не должен быть включен при настройке места назначения **Принтер**. Преобразование PDF для печати выполняется даже в том случае, если этот параметр отключен.
@@ -70,3 +66,6 @@ ms.locfileid: "4679614"
 
 - [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
 - [Места назначения электронной отчетности (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

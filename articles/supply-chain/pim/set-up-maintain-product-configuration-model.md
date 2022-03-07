@@ -1,10 +1,12 @@
 ---
 title: Настройка модели конфигурации продукта
 description: В этой статье описываются шаги по настройке и созданию модели конфигурации продукта.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dc9f46d91dc298a5c8babee2b370fea09f61741
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0ad6b8b7f3111f44b725de07d2541411e4145884
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578232"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204648"
 ---
 # <a name="set-up-a-product-configuration-model"></a>Настройка модели конфигурации продукта
 

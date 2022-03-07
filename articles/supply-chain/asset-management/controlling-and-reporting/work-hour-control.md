@@ -1,12 +1,10 @@
 ---
 title: Контроль рабочих часов
 description: В этом разделе описывается контроль рабочих часов в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742784"
 ---
 # <a name="work-hour-control"></a>Контроль рабочих часов
 
@@ -68,8 +66,11 @@ ms.locfileid: "5018479"
 - В поле **Фактические часы** отображаются разнесенные часы по заказам на работу. 
 - В поле **Подтвержденные часы** отображается общая сумма часов, которые подтверждены компанией в связи с заказами на работу.
 
-![Пример расчета управления часами по активам](media/04-controlling-and-reporting.png)
+![Пример расчета управления часами по активам.](media/04-controlling-and-reporting.png)
 
 Другим способом расчета часов является выбор нескольких активов в разделе **Все активы** или **Активные активы**. Затем нажмите кнопку **Управление часами** на экспресс-вкладке **Общие**. Выбранные активы автоматически вставляются в поле **Актив** на экспресс-вкладке **Записи для добавления**. Щелкните **ОК** в диалоговом окне **Управление рабочими часами по активам**, и отобразится расчет для выбранных активов. Эта же процедура может быть выполнена для функциональных местоположений в разделе **Все функциональные местоположения** или **Активные функциональные местоположения**, а также для заказов на работу в разделе **Все заказы на работу** или **Активные заказы на работу**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

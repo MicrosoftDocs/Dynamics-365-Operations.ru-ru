@@ -1,35 +1,24 @@
 ---
 title: Интегрированный налог
 description: Эта тема описывает интеграцию данных налога между Finance and Operations и Dataverse.
-author: robinarh
-manager: AnnBe
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: rhaertle
-ms.dyn365.ops.version: ''
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 532e6603b74ad0293d65684d2d6858ef31fbc496
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679304"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063195"
 ---
 # <a name="integrated-tax"></a>Интегрированный налог
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -39,30 +28,14 @@ ms.locfileid: "4679304"
 
 Данные налога включают коллекцию сопоставлений таблиц, которые работают совместно во время взаимодействия данных клиентов, как показано в следующей таблице.
 
-Приложения Finance and Operations | Приложения на основе модели в Dynamics 365 | описание |
--------------------------|---------------------------------|----|
-Налоговая группа номенклатур | msdyn_taxitemgroups |
-Налоговые органы | msdyn_taxauthorities |
-CDS объекта кода налогового освобождения | msdyn_taxexemptcodes |
-Налоговые группы | msdyn_taxgroups |
-Группы разноски ГК для налога V2 | msdyn_taxpostinggroups |
-Коды подоходного налога | msdyn_withholdingtaxcodes |
-Группы подоходного налога | msdyn_withholdingtaxgroups | 
+| Приложения Finance and Operations | Приложения для взаимодействия с клиентами | Описание |
+|-----------------------------|-----------------------------------|-------------|
+[Налоговая группа номенклатур](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[Налоговые органы](mapping-reference.md#193) | msdyn_taxauthorities | |
+[CDS объекта кода налогового освобождения](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[Налоговые группы](mapping-reference.md#195) | msdyn_taxgroups | |
+[Группы разноски ГК для налога V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[Коды подоходного налога](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[Группы подоходного налога](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

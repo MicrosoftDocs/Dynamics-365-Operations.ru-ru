@@ -3,23 +3,24 @@ title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/11/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 842d54e695fd2c9f816e30b5b044afcf3e65a5b0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a93c05db40be2c23fd43f2e5a30e428d3ac808c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962510"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408520"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -155,9 +156,7 @@ ms.locfileid: "4962510"
 
 ## <a name="tax-accounting"></a>Налоговый учет
 - [Коды расходов и доходов](rus-expense-and-income-codes.md)
-- [Регистры налога на активы](rus-assets-tax-registers.md)
-- [Налоговый регистр расходов будущих периодов](rus-deferred-expenses-register.md)
-- [Регистры налогов движения денежных средств](rus-cash-flow-tax-registers.md)
+- [Налоговые реестры активов](rus-assets-tax-registers.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

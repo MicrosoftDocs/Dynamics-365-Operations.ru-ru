@@ -2,15 +2,12 @@
 title: Синхронизация оценок продуктов в Dynamics 365 Commerce
 description: В этом разделе описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415305"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967958"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Синхронизация оценок продуктов в Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Для использования оценок продуктов в омниканалах, таких как POS-терминалы и центры обработки вызовов, необходимо импортировать оценки продуктов из службы оценок и отзывов в базу данных канала Commerce. Когда оценки продукта доступны в омниканалах, они могут помочь клиентам косвенным образом в ходе их взаимодействия с продавцами-консультантами.
 
@@ -62,7 +57,7 @@ ms.locfileid: "4415305"
 
 На следующем рисунке показан пример сведений о подзаданиях в Commerce.
 
-![Сведения о подзадании RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Сведения о подзадании RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Если подзадание **RetailProductRating** не удается найти, возможно, вы уже запустили задание **Синхронизация оценок продуктов** и задание **1040 CDX** перед инициализацией планировщика Commerce. В этом случае выполните следующие шаги, чтобы выполнить задание **Полная синхронизация данных**.
@@ -86,7 +81,7 @@ ms.locfileid: "4415305"
 
 На следующем рисунке показан пример конфигурации пакетного задания в Commerce.
 
-![Конфигурация пакетного задания синхронизации оценок продуктов](media/rnr-hq-batchjob-recurrence.png)
+![Конфигурация пакетного задания синхронизации оценок продуктов.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Проверка того, что пакетное задание для синхронизации оценок продукта прошло успешно
 
@@ -98,7 +93,7 @@ ms.locfileid: "4415305"
 
 На следующем рисунке показан пример сведений пакетного задания в Commerce, когда запланировано выполнение пакетного задания с интервалом два часа.
 
-![Сведения о пакетном задании синхронизации оценки продукта](media/rnr-hq-batchjob-status-checking.png)
+![Сведения о пакетном задании синхронизации оценки продукта.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Обеспечение доступности оценок продукта на POS-терминале
 
@@ -116,15 +111,15 @@ ms.locfileid: "4415305"
 
 На следующем рисунке показан пример настройки параметров Commerce для включения оценок продуктов в POS-терминале.
 
-![Конфигурация параметров Commerce для оценок продуктов на POS-терминале](media/rnr-hq-enable-ratings-in-pos.png)
+![Конфигурация параметров Commerce для оценок продуктов на POS-терминале.](media/rnr-hq-enable-ratings-in-pos.png)
 
 На следующем рисунке приведен пример оценок продуктов в POS-терминале.
 
-![Оценки продуктов в POS-терминале](media/rnr-pos-catalog-ratings.png)
+![Оценки продуктов в POS-терминале.](media/rnr-pos-catalog-ratings.png)
 
 На следующем рисунке приведен пример оценок продуктов в каналах центра обработки вызовов.
 
-![Рейтинги продуктов в канале центра обработки вызовов](media/rnr-call-center-ratings.png)
+![Рейтинги продуктов в канале центра обработки вызовов.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -135,3 +130,16 @@ ms.locfileid: "4415305"
 [Управление оценками и отзывами](manage-reviews.md)
 
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
+
+[Синхронизация оценок продуктов](sync-product-ratings.md)
+
+[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
+
+[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
+
+[Настройка проверки подлинности между службами](service-to-service-auth.md)
+
+[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Коды расходов и доходов
 description: В данном разделе содержится информация о кодов расходов и доходов, доступных для России.
 author: anasyash
-manager: AnnBe
 ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 811c7c0d467020831e34359787b0c637108e5816
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9f6df307bcf3f4f5410cc0c3d1a1649d501b8d6c7197878d5de76abd5ab67826
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723737"
 ---
 # <a name="expense-and-income-codes"></a>Коды расходов и доходов
 [!include [banner](../includes/banner.md)]
@@ -35,7 +33,7 @@ ms.locfileid: "4962552"
 
 1.  Перейдите к **Налог** \> **Настройка** \> **Налог на прибыль** \> **Коды расходов**.
 
-    ![Страница коды расходов](media/1_Expense_codes.png)
+    ![Страница коды расходов.](media/1_Expense_codes.png)
 
 2.  В области действий выберите **Древовидное представление**, чтобы просмотреть коды расходов и доходов в виде дерева, а затем выберите **создать**, чтобы создать код.
 3.  В поле **Код расхода** введите код расходов или доходов. Код должен быть уникальным.
@@ -68,7 +66,7 @@ ms.locfileid: "4962552"
 
     Например, суммы для проводок ГК по **дебету 62.110** и по **кредиту 90.110**, где финансовая аналитика **ExpenseAndIncomeCode** установлена как **901010200** или оставлена пустой, будут назначены коду дохода **901010200** (**Выручка от продаж товаров**).
 
-    ![Страница связи кода расхода и главной книги, экспресс-вкладка Финансовые аналитики](media/2_Expense_code_and_ledger_relation.png)
+    ![Страница связи кода расхода и главной книги, экспресс-вкладка Финансовые аналитики.](media/2_Expense_code_and_ledger_relation.png)
 
 8.  На странице **связи кода расхода и главной книги** в заголовке установите следующие значения:
 
@@ -90,3 +88,6 @@ ms.locfileid: "4962552"
 
     > [!NOTE]
     > Аналитика **ExpenseAndIncomeCode** выбрана в качестве аналитики для кодов расходов и доходов на странице **Параметры главной книги**. Это значение нельзя изменить. Если для параметра **Использовать пустое значение аналитики** установлено значение **Да**, код расхода или дохода также будет включать проводки с одинаковыми счетами ГК, но поле **ExpenseAndIncomeCode** остается пустым.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

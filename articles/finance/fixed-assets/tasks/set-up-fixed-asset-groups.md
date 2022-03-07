@@ -1,7 +1,7 @@
 ---
 title: Настройка групп ОС
 description: В этой теме показано, как создать новую группу основных средств.
-author: moaamer
+author: saraschi2
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 0c1b97193f09cfbb943522ca7af6bace9a14d9cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883802"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819562"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Настройка групп ОС
 

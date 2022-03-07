@@ -1,36 +1,34 @@
 ---
 title: Настройка курсов обучения
 description: Администраторы и менеджеры по управлению персоналом могут использовать характеристики курсов для ведения информации об обучении, которое предложено работникам.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5923da86459e02013b1b05e3d814e963d77925d3
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420308"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465157"
 ---
 # <a name="set-up-training-courses"></a>Настройка курсов обучения
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Администраторы и менеджеры по управлению персоналом могут использовать характеристики курсов для ведения информации об обучении, которое предложено работникам.
 
- <a name="set-up-prerequisites"></a>Предварительные условия настройки
----------------------
+##  <a name="set-up-prerequisites"></a>Предварительные условия настройки
 
 Следующая информация необходима и должна быть настроена до создания курсов.
 -   **Типы курсов**
@@ -82,7 +80,7 @@ ms.locfileid: "4420308"
 - Определить минимальный и максимальный номера слушателей
 - Назначить место проведения курсов и аудиторию
 - Рекомендовать гостиницы слушателям курсов
-- Создать описание курса, который можно затем рекламировать на портале самообслуживания сотрудников
+- Создать описание курса, который можно затем рекламировать на портале **самообслуживания сотрудников**
 
   >**Примечание.** Вы можете удалить курс, только если никто не зарегистрирован на него. 
 
@@ -128,8 +126,7 @@ ms.locfileid: "4420308"
 ## <a name="course-participants"></a>Слушатели курса
 Слушателями курсов являются работники, принимающие участие в курсе обучения или мероприятии. Слушателей можно регистрировать только на открытые курсы. Минимальное и максимальное количество слушателей, которое можно зарегистрировать на курс, определяется на экспресс-вкладке **Общие** на странице **Курсы**.
 
-<a name="workflow"></a>Документооборот
---------
+## <a name="workflow"></a>Документооборот
 
 Для сотрудников, регистрирующихся для участия в курсах на странице **Самообслуживание сотрудников**, регистрация может направляться через workflow-процесс для утверждения. Можно назначить рабочий процесс курсу на экспресс-вкладке **Общие** на странице **Курсы**.
 
@@ -137,3 +134,6 @@ ms.locfileid: "4420308"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

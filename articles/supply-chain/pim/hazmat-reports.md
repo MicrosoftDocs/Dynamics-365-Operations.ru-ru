@@ -1,27 +1,31 @@
 ---
 title: Запросы и отчеты по опасным материалам
 description: В этой теме объясняется, как работать с различными отчетами, относящимися к опасным материалам. Многие из этих отчетов требуются для сохранения соответствия различным нормативам по опасным материалам при отгрузке и хранении.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568551"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436074"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Запросы и отчеты по опасным материалам
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management предоставляет различные отчеты, которые относятся к опасным материалам. Многие из этих отчетов требуются для сохранения соответствия различным нормативам по опасным материалам при отгрузке и хранении.
 
@@ -29,7 +33,7 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет раз
 
 На следующем рисунке показана последовательность действий, которые выполняются, когда система создает отчеты по опасным материалам.
 
-![Последовательность действий для отчетов по опасным материалам.](media/hazmat-report-sequence.png "Последовательность действий для отчетов по опасным материалам")
+![Последовательность действий для отчетов по опасным материалам](media/hazmat-report-sequence.png "Последовательность действий для отчетов по опасным материалам")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Настройка отчетности по опасным материалам
 
@@ -106,6 +110,3 @@ Microsoft Dynamics 365 Supply Chain Management предоставляет раз
 ## <a name="packing-list-report"></a>Отчет по отборочной накладной
 
 Когда функция опасных материалов включена в системе, в отборочные накладные входят дополнительные сведения, имеющие отношение к печатному тексту отгрузки для номенклатуры. Этот отчет доступен со страницы **Все загрузки**, как обычно.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Модуль iFrame
 description: В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665404"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754022"
 ---
 # <a name="iframe-module"></a>Модуль iFrame
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается модуль iFrame, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Модуль iFrame предоставляет iFrame (встраиваемый кадр), который содержит внешнее содержимое на сайте. Например, его можно использовать для размещения видео YouTube или средства просмотра PDF-файлов на любой странице сайта. 
 
@@ -42,7 +37,7 @@ ms.locfileid: "4665404"
 
 На следующем изображении показаны примеры модулей iFrame, демонстрирующих отображение внешних видеозаписей на страницах сайта.
 
-![Пример модулей iFrame, демонстрирующих внешние видеозаписи](./media/ecommerce-iframe.PNG)
+![Пример модулей iFrame, демонстрирующих внешние видеозаписи.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Свойства модуля iFrame
 
@@ -71,9 +66,15 @@ ms.locfileid: "4665404"
 1. Задайте другие свойства, такие как **Заголовок** и **Высота**, как требуется.
 1. Выберите **Сохранить**, выберите **Завершить редактирование** для возврата страницы, затем нажмите кнопку **Опубликовать**, чтобы опубликовать ее.
 1. Перейдите на страницу маркетинга на своем сайте. Вы увидите, что видео отображается в модуле iFrame.
- 
+
+> [!NOTE]
+> Поскольку в модуле iFrame размещается внешнее содержимое, авторы сайта должны гарантировать, что содержимое, размещенное в модуле iFrame, не нарушает политики ограничения содержимого на соответствующем рынке. Если на странице, использующей модуль iFrame, имеется нарушение содержимого, автор сайта может удалить модуль iFrame, открыв страницу в конструкторе сайтов, выбрав команду **Удалить модуль** в слоте модуля iFrame, а затем сохранив и повторно опубликовав страницу.
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор библиотеки модулей](starter-kit-overview.md)
 
 [Управление политикой безопасности содержимого (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

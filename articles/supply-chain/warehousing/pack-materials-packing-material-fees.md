@@ -1,10 +1,12 @@
 ---
 title: Упаковочные материалы и сборы
 description: В этом разделе содержатся сведения о сборах за упаковочные материалы, выплачиваемых компаниям утилизации с определенными интервалами.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d07365a5022a67b8868232fbbb04f610701009
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e5364336c5336cbb91caf3c03564f68371273079
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973643"
 ---
 # <a name="packing-materials-and-fees"></a>Упаковочные материалы и сборы
 
@@ -109,6 +111,3 @@ ms.locfileid: "7902029"
 
 1. Перейдите в раздел **Расчеты с клиентами \> Настройка \> Параметры модуля расчетов с клиентами**.
 1. На вкладке **Обновления** на экспресс-вкладке **Накладная** установите для параметра **Печать веса упаковочного материала** значение **Да**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,25 @@
 ---
 title: Обзор активных заданий обслуживания для заказа на работу
 description: В этом разделе приводится обзор активных заданий обслуживания для заказа на работу в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fdfbce3315d98fdb2bd7b980a3281f69fc821376
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019487"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982569"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Обзор активных заданий обслуживания для заказа на работу
 
@@ -38,7 +35,10 @@ ms.locfileid: "5019487"
 
 На приведенном ниже рисунке показан пример страницы списка **Активные задания обслуживания для заказа на работу**.
 
-![Рисунок 1](media/23-work-orders.png)
+![Рисунок 1.](media/23-work-orders.png)
 
 Для краткого описания кнопок на странице списка **Активные задания обслуживания для заказа на работу** см. раздел [Введение в заказы на работу](../work-orders/introduction-to-work-orders.md), в которых описаны идентичные кнопки.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

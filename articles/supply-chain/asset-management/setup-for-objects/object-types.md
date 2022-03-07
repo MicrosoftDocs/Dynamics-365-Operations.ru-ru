@@ -1,12 +1,10 @@
 ---
 title: Типы актива
 description: В этом разделе объясняется, как создавать типы активов в управлении активами. В нем также описаны номенклатуры, связанные с типами активов.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017425"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825718"
 ---
 # <a name="asset-types"></a>Типы актива
 
@@ -96,3 +94,6 @@ ms.locfileid: "5017425"
 
 Чтобы узнать, используется ли запасная часть выбранной строки где-то еще в управлении активами (например, в отношении активов и заказов на работу), выберите **Применимость номенклатуры** для открытия страницы **Применимость номенклатуры**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

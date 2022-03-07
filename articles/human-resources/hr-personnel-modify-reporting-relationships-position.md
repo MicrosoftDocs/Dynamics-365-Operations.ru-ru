@@ -2,28 +2,27 @@
 title: Изменение отношений подотчетности для должности
 description: Ниже описан порядок изменения связи подотчетных отношений для сотрудника.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae8ca5b20f331709e9fc1d9ae3b5f350e5c19ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0083614a6e52b2450d17a0e78f5bc7d9b5717872359ffc77dab160e6b9caeab0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420257"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722543"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Изменение отношений подотчетности для должности
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -44,3 +43,6 @@ ms.locfileid: "4420257"
 12. В поле "Отчитывается перед должностью" введите или выберите значение.  Пример: 000437
 13. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

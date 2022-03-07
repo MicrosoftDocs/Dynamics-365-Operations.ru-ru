@@ -2,36 +2,30 @@
 title: Настройка канала розничной торговли
 description: В этом разделе описывается, как создать канал розничной торговли в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415200"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800599"
 ---
 # <a name="set-up-a-retail-channel"></a>Настройка канала розничной торговли
-
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как создать канал розничной торговли в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Dynamics 365 Commerce поддерживает несколько розничных каналов. Эти розничные каналы включают в себя интернет-магазины, центры обработки вызовов и розничные магазины (также называются физическими магазинами). Каждый канал розничного магазина может иметь свои собственные способы оплаты, группы цен, контрольно-кассовые машины POS, счета выручки и расходов и сотрудников. Необходимо настроить все эти элементы перед тем, как можно создать канал розничной торговли. 
 
@@ -182,3 +176,6 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 [Настройка канала центра обработки вызовов](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e487de874fd9b65dc6913cbacf724686f23d33c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cab21f51f64039156fc74017ed9afd78534afffd
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970021"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5609247"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Каталог обучения для администраторов Dynamics 365 Commerce
 
@@ -47,3 +46,6 @@ ms.locfileid: "4970021"
 | Содержимое  | описание  | Формат  | Длина    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Настройка и работа с электронной коммерцией в Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/)              | Интерактивные каналы и веб-узел электронной коммерции Dynamics 365 Commerce позволяют предприятиям розничной торговли реализовывать присутствие своих торговых марок в Интернете. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

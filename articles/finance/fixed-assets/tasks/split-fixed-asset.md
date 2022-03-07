@@ -1,33 +1,30 @@
 ---
 title: Разбивка ОС
 description: В этой теме показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514334"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883551"
 ---
 # <a name="split-a-fixed-asset"></a>Разбивка ОС
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства. В нем используется роль бухгалтера и демонстрационные данные USMF.
+В этой теме показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства. 
 
 ## <a name="create-a-new-fixed-asset"></a>Создание нового основного средства
 
@@ -63,3 +60,6 @@ ms.locfileid: "4514334"
     - Проводка приобретения создается для нового основного средства на ту же сумму.
 
 4. Выберите **Разнести**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

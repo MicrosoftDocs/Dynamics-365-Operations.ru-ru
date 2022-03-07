@@ -1,9 +1,9 @@
 ---
 title: Обзор договоров продажи
 description: В этой разделе представлены сведения о договорах продажи. Договор продажи является контрактом, который обязывает клиента приобрести продукты в определенном количестве или объеме за определенный период времени в обмен на специальные цены и скидки.
-author: Henrikan
+author: omulvad
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: cff7125e4ba6b27c60253d6dc5ef37b0fd61267800000ea75cb8fb5d3b7a6ccd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779190"
 ---
 # <a name="sales-agreements-overview"></a>Обзор договоров продажи
 

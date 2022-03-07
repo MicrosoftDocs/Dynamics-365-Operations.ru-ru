@@ -2,26 +2,23 @@
 title: Отчетность по РБП (Россия)
 description: Этот раздел содержит информацию о различных отчетах, доступных для РБП.
 author: anasyash
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 40c6d8fd05dd20de95980c8bd131ad464129f6d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285ddcb6b1fd2437982deac825e46e555b41930264df0312dd3b25d2bb1ca44a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713735"
 ---
 # <a name="reporting-for-deferrals-russia"></a>Отчетность по РБП (Россия)
 
@@ -85,3 +82,6 @@ ms.locfileid: "4408536"
     | Дата начала (на экспресс-вкладке **Включаемые записи**)      | Дата начала периода, для которого создается отчет. |
     | Группа РБП (на экспресс-вкладке **Включаемые записи**) | Идентификационный код группы РБП, для которой в отчет включены коэффициенты РБП. |
     | Код расхода (на экспресс-вкладке **Включаемые записи**)    | Код расходов коэффициентов РБП, включенных в отчет. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

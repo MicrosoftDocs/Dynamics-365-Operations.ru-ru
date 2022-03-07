@@ -2,11 +2,8 @@
 title: Функция ER GETENUMVALUEBYNAME
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности GETENUMVALUEBYNAME.
 author: NickSelin
-manager: kfend
 ms.date: 09/23/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 03759852e5ceb13b79b0df4592bdcef76eb0a82865725c00df40b9cc5f786240
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774445"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Функция ER GETENUMVALUEBYNAME
 
@@ -64,7 +61,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 На следующем рисунке показано перечисление **ReportDirection** введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.
 
-![Доступные значения для перечисления модели данных](./media/ER-data-model-enumeration-values.PNG)
+![Доступные значения для перечисления модели данных.](./media/ER-data-model-enumeration-values.PNG)
 
 Следующая иллюстрация показывает эти детали:
 
@@ -72,7 +69,7 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - Выражение `$IsArrivals` разработано для использования модели на основе перечисления для источника данных **$Direction** в качестве параметра этой функции.
 - Значение этого выражения сравнения — **TRUE**.
 
-![Пример перечисления модели данных](./media/ER-data-model-enumeration-usage.PNG)
+![Пример перечисления модели данных.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Пример 2
 
@@ -80,14 +77,14 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 На следующем рисунке источник данных **TransType** вводится в сопоставлении модели. Этот источник данных относится к перечислению приложения **LedgerTransType**.
 
-![Источник данных сопоставления модели, ссылающийся на перечисление приложения](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Источник данных сопоставления модели, ссылающийся на перечисление приложения.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 На следующем рисунке показан источник данных **TransTypeList**, настроенный в сопоставлении модели. Этот источник данных настроен на основе перечисления приложения **TransType**. Функция `LISTOFFIELDS` используется для того, чтобы вернуть все значения перечисления в виде списка записей, содержащих поля. Таким образом предоставляются сведения о каждом значении перечисления.
 
 > [!NOTE]
 > Поле **EnumValue** настроено для источника данных **TransTypeList** с помощью выражения `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Это поле возвращает значение перечисления для каждой записи в данном списке.
 
-![Источник данных сопоставления модели, который возвращает все значения перечисления выбранного перечисления в виде списка записей](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Источник данных сопоставления модели, который возвращает все значения перечисления выбранного перечисления в виде списка записей.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 На следующем рисунке показан источник данных **VendTrans**, настроенный в сопоставлении модели. Этот источник данных возвращает записи проводок поставщика из таблицы приложения **VendTrans**. Тип книги учета каждой проводки определяется значением поля **TransType**.
 
@@ -96,11 +93,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 >
 > Поле **TransTypeTitle** связано с полем **LedgerType** модели данных, которое позволяет использовать эту информацию в любом формате электронной отчетности, который использует модель данных в качестве источника данных.
 
-![Источник данных сопоставления модели, который возвращает проводки поставщика](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Источник данных сопоставления модели, который возвращает проводки поставщика.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 На следующем рисунке показано, как можно использовать [отладчик источников данных](er-debug-data-sources.md) для проверки настроенного сопоставления модели.
 
-![Проверка настроенного сопоставления модели с помощью отладчика источника данных](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Проверка настроенного сопоставления модели с помощью отладчика источника данных.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Поле **LedgerType** модели данных предоставляет метки типов проводок, как и ожидается.
 
@@ -117,3 +114,6 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 [Функция ER FIRSTORNULL](er-functions-list-firstornull.md)
 
 [Функция ER WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

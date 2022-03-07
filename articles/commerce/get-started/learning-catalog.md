@@ -6,30 +6,28 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 225d5b64224403140dc442d59ff7c2edf369527d7bbc4851946c926fb1101be2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760832"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Каталог учебных материалов по Dynamics 365 Commerce 
 
 Найдите правильное онлайн-обучение, личные семинары и мероприятия для вашей роли как пользователя приложений Dynamics 365 Commerce.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>Лица, принимающие технические и бизнес-решения
 
@@ -141,3 +139,6 @@ ms.locfileid: "4415329"
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Создание статистического базового прогноза
 description: Эта тема содержит информацию о параметрах и фильтрах, которые используются для расчета прогноза спроса.
-author: ChristianRytt
+author: roxanadiaconu
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577536"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816516"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Создание статистического базового прогноза
 
@@ -67,7 +67,8 @@ ms.locfileid: "7577536"
 > [!NOTE]
 > Потенциально плоско выглядящий прогноз может быть следствием того, что исторические данные должны быть за более длинный исторический интервал (минимум 3 временных периодов для выявления шаблонов, например 3 года для месячного прогноза). Чтобы получить более качественный результат, можно попробовать изменить детализацию временного диапазона или увеличить диапазон времени.
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+<a name="additional-resources"></a>Дополнительные ресурсы
+--------
 
 - [Настройка прогнозирования спроса](demand-forecasting-setup.md)
 

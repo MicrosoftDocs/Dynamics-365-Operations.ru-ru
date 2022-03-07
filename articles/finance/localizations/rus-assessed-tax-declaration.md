@@ -2,11 +2,9 @@
 title: Налоговая декларация по налогу на имущество (Россия)
 description: В этой теме рассматривается настройка и использование деклараций по налогу на имущество для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f9726c9476922f4feb34fec4349a08195d1a8a26
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bfe4f873eb5a1475130fd91754c11384338b6503
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962582"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894847"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 
@@ -405,7 +403,7 @@ ms.locfileid: "4962582"
     - Сопоставление модели декларации налога на собственность
     - Декларация по имущественному налогу формата 5.06
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Можно передать параметры пакета управления данными для работы с декларацией налога на имущество. Выполните следующие действия.
 
@@ -476,3 +474,6 @@ ms.locfileid: "4962582"
 4. В поле **Наименование** выберите наименование журнала налога на имущество.
 5. Выберите **Строки** для просмотра строк журнала, которые содержат проводки начисления налога на имущество, которые были созданы на основании данных налогового регистра и настроек параметров для основных средств.
 6. Проверьте и разнесите журнал.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

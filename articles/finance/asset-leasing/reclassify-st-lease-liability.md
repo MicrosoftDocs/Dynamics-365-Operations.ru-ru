@@ -2,11 +2,13 @@
 title: Реклассификация краткосрочной части арендного обязательства
 description: В этой теме объясняется, как создать ежемесячную запись журнала для повторной классификации части арендного обязательства в качестве краткосрочной.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: Dialog
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 21cf81ce84d91d88a800cd250fca8fd5a9c876e66f506cd366b8d61ed480ea7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720630"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254091"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Реклассификация краткосрочной части арендного обязательства
 
@@ -36,7 +38,8 @@ ms.locfileid: "6720630"
 2. В диалоговом окне **Создание журнала пакетных заданий** в поле **Выберите график** выберите вариант **Изменение классификации краткосрочных арендных обязательств**.
 3. В поле **Группа аренды** выберите группу аренды. В качестве альтернативы, в поле **Код книги** выберите код книги.
 4. Включите параметр **Разнести**. В качестве альтернативы, если запись должна быть создана, но не разнесена, оставьте этот параметр отключенным.
-5. Нажмите **ОК**.
+5. Включите параметр **Предварительный просмотр перед разноской**, чтобы просмотреть запись до ее разноски.
+6. Нажмите **ОК**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

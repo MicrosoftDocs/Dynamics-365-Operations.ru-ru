@@ -1,27 +1,25 @@
 ---
 title: Создание заказа пополнения консигнационных запасов
 description: В этой теме описан порядок создания заказа на пополнение коносамента, где можно отслеживать предполагаемую доставку от поставщика в своих консигнационные запасы.
-author: RichardLuan
-manager: tfehr
+author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: riluan
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b27b4d87add38fac29c9eba4ace08af91f9faca1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020162"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574601"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Создание заказа пополнения консигнационных запасов
 
@@ -61,3 +59,6 @@ ms.locfileid: "5020162"
 3. Выберите **Обзор**. Номенклатуры, которые были получены как консигнационные запасы, принадлежащие поставщику, доступны в наличии. Оставшееся количество заказанного пополнения коносамента отображается в поле **Всего заказано**.  
 4. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

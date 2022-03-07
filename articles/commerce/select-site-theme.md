@@ -2,35 +2,30 @@
 title: Выбор темы сайта
 description: В этом разделе описывается, как задать или изменить тему сайта в Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
-ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
+ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4556437"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964789"
 ---
 # <a name="select-a-site-theme"></a>Выбор темы сайта
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как задать или изменить тему сайта в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Макет и стиль сайта (например, шрифты, размеры и цвета) определяются темой, которая выбрана и применена для сайта. Тема создается и развертывается разработчиком в компании. Обзор тем см. в разделе [Обзор тем](e-commerce-extensibility/theming.md). Дополнительные сведения о создании и развертывание тем см. в разделе [Создание новой темы](e-commerce-extensibility/create-theme.md).
 
@@ -56,8 +51,6 @@ ms.locfileid: "4556437"
 
 [Добавление значка сайта](add-favicon.md)
 
-[Добавление приветственного сообщения](add-welcome-message.md)
-
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
@@ -68,3 +61,6 @@ ms.locfileid: "4556437"
 
 [Создание новой темы](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

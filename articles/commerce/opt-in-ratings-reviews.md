@@ -2,7 +2,7 @@
 title: Соглашение на использование оценок и отзывов
 description: В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/16/2020
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311937"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473437"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
@@ -39,9 +39,9 @@ ms.locfileid: "8311937"
 1. Выполните шаги раздела [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md).
 1. Пока вы все еще находитесь в LCS, перейдите к пункту **Настройка развертывания Retail \> Другие параметры**.
 1. Установите для параметра **Включить службу оценок и отзывов** значение **Да**.
-1. В поле **Группа безопасности AAD для модератора оценок и отзывов** введите идентификатор группы безопасности Microsoft Azure Active Directory (Azure AD), включающий модераторов оценок и отзывов.
+1. В поле **Группа безопасности AAD для модератора оценок и отзывов (код объекта группы безопасности)** введите идентификатор группы безопасности Microsoft Azure Active Directory (Azure AD), включающий модераторов оценок и отзывов.
 
-    ![Соглашение на использование оценок и отзывов.](media/LCS_RnR_Preference_2.png)
+    ![Соглашение на использование оценок и отзывов.](media/LCS_RnR_Preference.png)
 
 1. Завершите процесс инициализации электронной коммерции.
 
@@ -58,13 +58,7 @@ ms.locfileid: "8311937"
 
 [Синхронизация оценок продуктов в Dynamics 365 Commerce](sync-product-ratings.md)
 
-[Включение модератором публикации оценок и отзывов вручную](manual-publish-rating-reviews.md)
 
-[Импорт и экспорт оценок и отзывов](import-export-reviews.md)
-
-[Настройка проверки подлинности между службами](service-to-service-auth.md)
-
-[Оценки и отзывы — Вопросы и ответы](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
