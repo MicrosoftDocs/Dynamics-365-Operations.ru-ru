@@ -2,11 +2,9 @@
 title: Профили разноски по поставщикам
 description: Профили разноски поставщика управляют разноской проводок поставщика в главную книгу.
 author: abruer
-manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 022e7d979ca7572bb824bc5248fec8c0b3c283d0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f8ebb67bddf6fa9aae8ba6c6ed290c94bb2e0a047ca6157aa1325f4cf21f148f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777224"
 ---
 # <a name="vendor-posting-profiles"></a>Профили разноски по поставщикам
 
@@ -30,8 +28,7 @@ ms.locfileid: "5248167"
 
 Профили разноски поставщика управляют разноской проводок поставщика в главную книгу.
 
-<a name="vendor-posting-profiles"></a>Профили разноски по поставщикам
------------------------
+## <a name="vendor-posting-profiles"></a>Профили разноски по поставщикам
 
 Профили разноски поставщиков позволяют назначить счета ГК и настройки документов всем поставщикам, группе поставщиков или отдельным поставщикам. Эти настройки будут использоваться при создании заказов на покупку, накладных поставщиков и наличных платежей. Для некоторых проводок можно выбрать профиль разноски, который отличается от профилей разноски, созданных для проводок на этой странице, и имеет преимущество по отношению к ним. Профиль разноски по умолчанию определен на экспресс-вкладке **Главная книга и налог** на странице **Параметры расчетов с поставщиками**. После этого профиль разноски по умолчанию автоматически добавляется в заголовок новых документов, где его можно изменить на другой профиль разноски при необходимости.
 

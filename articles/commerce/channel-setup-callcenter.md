@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744542"
 ---
 # <a name="set-up-a-call-center-channel"></a>Настройка канала центра обработки вызовов
 
@@ -54,11 +54,11 @@ ms.locfileid: "5800671"
 
 На следующем рисунке показано создание нового канала центра обработки вызовов.
 
-![Новый канал центра обработки вызовов](media/channel-setup-callcenter-1.png)
+![Новый канал центра обработки вызовов.](media/channel-setup-callcenter-1.png)
 
 На следующем рисунке показан пример канала центра обработки вызовов.
 
-![Пример канала центра обработки вызовов](media/channel-setup-callcenter-2.png)
+![Пример канала центра обработки вызовов.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Дополнительная настройка канала
 
@@ -66,7 +66,7 @@ ms.locfileid: "5800671"
 
 На следующем рисунке показаны варианты настройки **Режимы поставки** и **Способы оплаты** на вкладке **Настройка**.
 
-![Дополнительные действия по настройке канала центра обработки вызовов](media/channel-setup-callcenter-3.png)
+![Дополнительные действия по настройке канала центра обработки вызовов.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Настройка способов оплаты
 
@@ -81,7 +81,7 @@ ms.locfileid: "5800671"
 
 На следующем рисунке показан пример способы наличной оплаты.
 
-![Пример способов оплаты](media/channel-setup-callcenter-payments.png)
+![Пример способов оплаты.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Настройка способов поставки
 
@@ -97,7 +97,7 @@ ms.locfileid: "5800671"
 
 На следующем рисунке показан пример режима поставки.
 
-![Настройка способов поставки](media/channel-setup-retail-7.png)
+![Настройка способов поставки.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Настройка пользователей канала
 

@@ -2,27 +2,24 @@
 title: Создание навигационной иерархии канала
 description: В этом разделе описывается, как создать навигационную иерархию канала в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749963"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Создание навигационной иерархии канала
 
@@ -52,7 +49,7 @@ ms.locfileid: "4415134"
 
 На следующем рисунке показан пример корневого узла.
 
-![Пример корневого узла](media/create-channel-hierarchy-1.png)
+![Пример корневого узла.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Создание узлов навигационных категорий
 
@@ -68,7 +65,7 @@ ms.locfileid: "4415134"
 
 На следующем рисунке показан пример готовой навигационной иерархии канала.
 
-![Пример иерархии каналов](media/create-channel-hierarchy-2.png)
+![Пример иерархии каналов.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Добавление продуктов в узлы категории
 
@@ -80,11 +77,11 @@ ms.locfileid: "4415134"
 1. На панели операций выберите **Сохранить**.
 
 > [!NOTE]
-> Добавление продуктов в узел внутри навигационной иерархии каналов недостаточно для того, чтобы продукты отображались в выбранном канале, продукты также должны быть включены в ассортимент продукта.
+> Добавление продуктов в узел внутри навигационной иерархии каналов недостаточно для того, чтобы продукты отображались в выбранном канале, продукты также должны быть включены в ассортимент канала. Дополнительные сведения об ассортиментах см. в разделе [Управление ассортиментами](assortments.md).
 
 На следующем рисунке показан пример узла с добавленными продуктами.
 
-![Продукты, добавленные в узел категории](media/create-channel-hierarchy-3.png)
+![Продукты, добавленные в узел категории.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Добавление групп атрибутов продуктов в узлы категорий
 
@@ -100,10 +97,13 @@ ms.locfileid: "4415134"
 
 На следующем рисунке показан пример узла с добавленными группами атрибутов продуктов.
 
-![Группы атрибутов продукта в узле](media/create-channel-hierarchy-4.png)
+![Группы атрибутов продукта в узле.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка ассортиментов](set-up-assortments.md)
 
 [Управление атрибутами и группами атрибутов](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Приемка в местонахождении, не находящемся под управлением грузоместа (приложение, май 2016 г.)
 description: В этом руководстве по задаче показан пример приемки отчетности в местонахождении, которое не управляется грузоместом.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fdb24238bf8c0cfea0006aa0aa0217de9d3f1bc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f891b2e3b20993a08138dfac1aed4f4bab33c6b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831946"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576720"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Приемка в местонахождении, не находящемся под управлением грузоместа (приложение, май 2016 г.)
 

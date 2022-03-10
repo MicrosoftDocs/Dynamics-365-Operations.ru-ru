@@ -3,7 +3,7 @@ title: Обзор бюджетного планирования
 description: В этом разделе описывается планирование бюджета. В нем приводятся сведения, которые могут помочь конфигурации бюджетного планирования и настройке процессов бюджетного планирования.
 author: panolte
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355732"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982073"
 ---
 # <a name="budget-planning-overview"></a>Обзор бюджетного планирования
 

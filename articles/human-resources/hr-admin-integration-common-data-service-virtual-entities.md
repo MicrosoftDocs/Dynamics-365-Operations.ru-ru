@@ -1,40 +1,42 @@
 ---
 title: Настройка виртуальных таблиц Dataverse
-description: В этом разделе показано, как настроить виртуальные таблицы для Dynamics 365 Human Resources. Создание и обновление существующих виртуальных таблиц и анализ созданных и доступных таблиц.
-author: andreabichsel
-ms.date: 01/25/2021
+description: В этой теме показано, как настроить, создать, обновить существующие виртуальные таблицы и проанализировать созданные и доступные таблицы для Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805114"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069154"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Настройка виртуальных таблиц Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources — это виртуальный источник данных в Microsoft Dataverse. Он предоставляет полные операции создания, чтения, обновления и удаления (CRUD) в Dataverse и Microsoft Power Platform. Данные для виртуальных таблиц хранятся не в Dataverse, а в базе данных приложения.
 
 Чтобы включить операции CRUD для сущностей Human Resources в Dataverse, необходимо сделать эти сущности доступными в качестве виртуальных таблиц в Dataverse. Это позволяет выполнять операции CRUD из Dataverse и Microsoft Power Platform с данными, находящимися в приложении Human Resources. Операции также поддерживают полные проверки бизнес-логики Human Resources для обеспечения целостности данных при записи данных в сущности.
 
 > [!NOTE]
-> Сущности Human Resources соответствуют таблицам Dataverse. Дополнительные сведения об Dataverse (ранее Common Data Service) и обновлениях терминологии см. в разделе [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Сущности Human Resources соответствуют таблицам Dataverse. Дополнительные сведения об Dataverse (ранее Common Data Service) и обновлениях терминологии см. в разделе [Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Доступные виртуальные таблицы для Human Resources
 
@@ -42,7 +44,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 Можно просмотреть список виртуальных таблиц, включенных в среде, и начать работу с таблицами в [Power Apps](https://make.powerapps.com), в решении **Виртуальные таблицы Dynamics 365 HR**.
 
-![Виртуальные таблицы Dynamics 365 HR в Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Виртуальные таблицы Dynamics 365 HR в Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Виртуальные таблицы и собственные таблицы
 
@@ -51,7 +53,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 Собственные таблицы для приложения Human Resources создаются отдельно и поддерживаются в общем решении HCM в Dataverse. В случае собстивенных таблиц данные хранятся в Dataverse и требуют синхронизации с базой данных приложения Human Resources.
 
 > [!NOTE]
-> Список собственный таблиц Dataverse для решения Human Resources см. в разделе [Таблицы Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Список собственный таблиц Dataverse для решения Human Resources см. в разделе [Таблицы Dataverse](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Настройка
 
@@ -71,7 +73,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Регистрация приложения в Microsoft Azure
 
-Необходимо зарегистрировать ваш экземпляр Human Resources на портале Azure, чтобы платформа идентификации Microsoft могла предоставлять службы проверки подлинности и авторизации для приложения и пользователей. Дополнительные сведения о регистрации приложений в Azure см. в разделе [Краткое руководство: регистрация приложения на платформе идентификации Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Необходимо зарегистрировать ваш экземпляр Human Resources на портале Azure, чтобы платформа идентификации Microsoft могла предоставлять службы проверки подлинности и авторизации для приложения и пользователей. Дополнительные сведения о регистрации приложений в Azure см. в разделе [Краткое руководство: регистрация приложения на платформе идентификации Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 1. Откройте [портал Microsoft Azure](https://portal.azure.com).
 
@@ -93,7 +95,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 10. Введите описание, выберите продолжительность и выберите **Добавить**.
 
-11. Запишите значение секрета. Эти сведения будут введены при [настройке источника данных виртуальной таблицы](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Запись значения секрета из свойства **Значение** таблицы. Эти сведения будут введены при [настройке источника данных виртуальной таблицы](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > На этом этапе обязательно запишите значение секрета. Секрет никогда не отображается снова после выхода с этой страницы.
@@ -102,27 +104,15 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 Установите приложение Dynamics 365 HR Virtual Table в своей среде Power Apps, чтобы развернуть пакет решения виртуальных таблиц в Dataverse.
 
-1. Откройте [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com).
+1. В Human Resources откройте страницу **Интеграция Microsoft Dataverse**.
 
-2. В списке **Среды** выберите среду Power Apps, связанную с экземпляром приложения Human Resources.
+2. Выберите вкладку **Виртуальные таблицы**.
 
-3. В разделе **Ресурсы** этой страницы выберите **Приложения Dynamics 365**.
+3. Выберите **Установить приложение виртуальной таблицы**.
 
-4. Выберите действие **Установить приложение**.
+### <a name="configure-the-virtual-table-data-source"></a>Настройка источника данных виртуальной таблицы
 
-5. Выберите **Dynamics 365 HR Virtual Table**, затем выберите **Далее**.
-
-6. Просмотрите и отметьте, чтобы принять условия обслуживания.
-
-7. Выберите **Установить**.
-
-Установка занимает несколько минут. После завершения переходите к следующим шагам.
-
-![Установка приложения Dynamics 365 HR Virtual Table с помощью центра администрирования Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Настройка источника данных виртуальной таблицы 
-
-Следующим шагом является настройка источника данных виртуальных таблиц в среде Power Apps. 
+Следующим шагом является настройка источника данных виртуальных таблиц в среде Power Apps.
 
 1. Откройте [Центр администрирования Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -132,7 +122,10 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 4. В разделе **Центр работоспособности решений** выберите значок **Расширенный поиск** в верхнем правом углу страницы приложения.
 
-5. На странице **Расширенный поиск** в раскрывающемся списке **Найти** выберите **Конфигурации виртуальных источников данных Finance and Operations**.
+5. На странице **Расширенный поиск** в раскрывающемся списке **Найти** выберите **Конфигурации виртуальных источников данных Финансы и операции**.
+
+   > [!NOTE]
+   > Установка приложения виртуальной таблицы с предыдущего шага установки может занять несколько минут. Если **Конфигурации виртуальных источников данных Финансы и операции** недоступны в списке, подождите минуту и обновите список.
 
 6. Выберите **Результаты**.
 
@@ -151,13 +144,16 @@ Dynamics 365 Human Resources — это виртуальный источник 
      >[!NOTE]
      >Не забудьте включить символ "**/**" в конце URL-адреса, чтобы избежать возникновения ошибки.
 
+     >[!NOTE]
+     >Целевой URL-адрес определяет среду Human Resources, на которую будут указывать виртуальные таблицы для данных. При создании среды "песочницы" путем создания копии рабочей среды обновите это значение на URL-адрес пространства имен новой среды "песочницы". Это гарантирует, что виртуальные таблицы будут соединены с данными среды "песочницы" вместо того, чтобы продолжать указывать на рабочую среду.
+
    - **Код клиента**: код клиента Azure Active Directory ( Azure AD).
 
    - **Код приложения AAD**: код приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    - **Секрет приложения AAD**: секрет приложения (клиента), созданный для приложения, зарегистрированного на портале Microsoft Azure. Эта информация была получена ранее на шаге [Регистрация приложения в Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Источник данных Microsoft HR](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Источник данных Microsoft HR.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Нажмите **Сохранить и закрыть**.
 
@@ -186,7 +182,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 По завершении настройки можно выбрать виртуальные таблицы, которые требуется создать и включить в данном экземпляре Dataverse.
 
-1. В Human Resources откройте страницу **Интеграция Dataverse**.
+1. В Human Resources откройте страницу **Интеграция Microsoft Dataverse**.
 
 2. Выберите вкладку **Виртуальные таблицы**.
 
@@ -197,7 +193,7 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 4. Выберите **Создать/обновить**.
 
-![Интеграция Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Интеграция Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Проверка статуса создания таблицы
 
@@ -215,12 +211,11 @@ Dynamics 365 Human Resources — это виртуальный источник 
 
 ## <a name="see-also"></a>См. также
 
-[Что такое Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Таблицы в Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Обзор отношений таблиц](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Создание и редактирование виртуальных таблиц, содержащих данные из внешнего источника данных](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Что такое порталы Power Apps?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Обзор создания приложений в Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Что такое Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Таблицы в Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Обзор отношений таблиц](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Создание и редактирование виртуальных таблиц, содержащих данные из внешнего источника данных](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Что такое порталы Power Apps?](/powerapps/maker/portals/overview)<br>
+[Обзор создания приложений в Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

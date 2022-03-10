@@ -1,12 +1,10 @@
 ---
 title: Типы журналов ГК
 description: В этом разделе описываются типы журналов, которые можно настроить для финансовых журналов.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f215b31df120d152a84e994fbe9de739385ce836
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988735"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727025"
 ---
 # <a name="ledger-journal-types"></a>Типы журналов ГК
 
@@ -67,3 +65,6 @@ ms.locfileid: "4988735"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838138"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571169"
 ---
 # <a name="work-policies"></a>Политики работы
 
@@ -200,7 +200,7 @@ ms.locfileid: "5838138"
 
 В следующем примере имеются два производственных заказа, *PRD-001* и *PRD-002*. Производственный заказ *PRD-001* имеет операцию *Сборка*, в которой готовый продукт *SC1* сдается в местоположении *001*. Производственный заказ *PRD-002* содержит операций *Покраска*, которая потребляет продукт *SC1* из местоположения *001*. Производственный заказ *PRD-002* также потребляет сырье *RM1* из местоположения *001*. Сырье *RM1* хранится в местоположении склада *BULK-001* и будет скомплектовано в местоположении *001* работой склада для комплектации сырья. Работа комплектации создается, когда производство *PRD-002* запущено.
 
-[![Политики работы склада](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Политики работы склада.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Если планируется настроить политику работы склада для этого сценария, следует рассмотреть следующие сведения:
 

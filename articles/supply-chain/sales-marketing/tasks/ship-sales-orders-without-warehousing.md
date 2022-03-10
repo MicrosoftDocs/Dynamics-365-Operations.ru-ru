@@ -1,7 +1,7 @@
 ---
 title: Отгрузка заказов на продажу без складирования
 description: В этой теме объясняется способ обновления заказа на продажу, когда продукты отгружены клиенту.
-author: omulvad
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bd59a16d0fc1cde6e83bd51d1eaf82da7bf26d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819168"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578880"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Отгрузка заказов на продажу без складирования
 

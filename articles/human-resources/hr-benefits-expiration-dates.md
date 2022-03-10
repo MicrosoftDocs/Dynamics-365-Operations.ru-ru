@@ -1,33 +1,33 @@
 ---
-title: Управление сроками действия льгот
-description: В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+title: Управление датами окончания срока действия льгот
+description: В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: f309dcbef7b0816f529f75b3ca505e2c9224e3ac
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465062"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065976"
 ---
-# <a name="manage-benefit-expiration-dates"></a>Управление сроками действия льгот
+# <a name="manage-benefit-expiration-dates"></a>Управление датами окончания срока действия льгот
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 
 ## <a name="benefit-expiration-dates"></a>Даты окончания срока действия льгот
 

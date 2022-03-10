@@ -2,11 +2,9 @@
 title: Работа с группами публикаций
 description: В этой теме описывается функция групп публикации в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d757f34d3e16850e4f5de122f63b2b3342f612e49f07c7cf6585362999f03c02
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717680"
 ---
 # <a name="work-with-publish-groups"></a>Работа с группами публикаций
-
 
 [!include [banner](includes/banner.md)]
 
 В этой теме описывается функция групп публикации в Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Обзор
 
 Веб-сайты электронной коммерции постоянно пополняются новым контентом в течение всего года. Обновления часто публикуются партиями об оживленных событиях электронной коммерции, таких как праздники, сезонные маркетинговые кампании или рекламные запуски. Эти обновления часто требуют, чтобы группы контента веб-сайта (для примеров, страниц, изображений, фрагментов и шаблонов) были поэтапными, проверенными и опубликованными одновременно за одно действие.
 

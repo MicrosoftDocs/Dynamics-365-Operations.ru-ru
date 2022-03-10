@@ -1,7 +1,7 @@
 ---
 title: Создание заказов на покупку
 description: В данной статье описывается процесс и параметры, доступные при создании заказа на покупку вручную.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 684e45c3658114c36c92ae45fee6a935dfddd349243d6a8419c535a1df01b144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780110"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575520"
 ---
 # <a name="create-purchase-orders"></a>Создание заказов на покупку
 

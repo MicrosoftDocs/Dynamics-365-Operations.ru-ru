@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799501"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964612"
 ---
 # <a name="work-with-css-override-files"></a>Работа с переопределением файлов CSS
 
@@ -100,8 +100,6 @@ ms.locfileid: "5799501"
 [Работа с предустановками стилей](style-presets.md)
 
 [Добавление значка сайта](add-favicon.md)
-
-[Добавление приветственного сообщения](add-welcome-message.md)
 
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 

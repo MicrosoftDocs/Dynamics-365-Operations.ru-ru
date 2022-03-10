@@ -2,11 +2,9 @@
 title: Параметры Распределения
 description: В этом разделе представлены сведения об использовании условий распределения для счета ГК.
 author: rachel-profitt
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60b995216eed2eda740cb4cd9be79d15d46789e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 957baba1364fbbd4a51c6f51b0fad5bf8db46680fa97b9d3d0474dc015064609
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776536"
 ---
 # <a name="allocation-terms"></a>Параметры Распределения
 

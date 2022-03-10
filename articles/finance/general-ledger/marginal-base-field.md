@@ -1,7 +1,7 @@
 ---
 title: Ставки налога на основе базы маржинальной прибыли и методов расчета
 description: В этом разделе описываются, как значения в полях "База маржинальной прибыли" и "Метод расчета" определяют ставку налога в проводках продажи и покупки.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad4ec9f016b78425a2661d8df643ea67efc51fc9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838821"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727048"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Ставки налога на основе базы маржинальной прибыли и методов расчета
 

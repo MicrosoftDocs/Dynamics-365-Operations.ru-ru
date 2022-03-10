@@ -1,35 +1,35 @@
 ---
 title: Политики приемлемости льготы
-description: В Этой статья представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льготыт
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: В этой теме представлена информация о политиках по праву на льготы, которые определяют, кто подходит для конкретных льгот.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e0c0aa7eebf32fc404e0519c6068b4427e6b87b2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e1f64a0beffe12f6b4e0ad53d3bbaa96822dc7e8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465158"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066051"
 ---
-# <a name="benefit-eligibility-policies"></a>Политики прав на льготы
+# <a name="benefit-eligibility-policies"></a>Политики приемлемости льготы
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В Этой статья представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льготыт
+В этой теме представлена информация о политиках по праву на льготы, которые определяют, кто подходит для конкретных льгот.
 
 При создании льгот вы решаете, какие льготы будут доступны для каких сотрудников. В следующей таблице представлены примеры льгот, которые можно сделать доступными для определенных сотрудников.
 

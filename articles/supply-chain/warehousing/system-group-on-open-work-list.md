@@ -2,11 +2,9 @@
 title: Системная группировка в списке открытых работ
 description: В этой теме описывается порядок фильтрации списка открытых работ на мобильном устройстве.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb971f2ad81e4e0a4e9cfa6417bb3ddc0cb69cd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733308"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Системная группировка в списке открытых работ
 

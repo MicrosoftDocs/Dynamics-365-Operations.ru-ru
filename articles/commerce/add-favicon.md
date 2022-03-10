@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797727"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964740"
 ---
 # <a name="add-a-favicon"></a>Добавление значка сайта
 
@@ -85,8 +85,6 @@ ms.locfileid: "5797727"
 [Выбор темы сайта](select-site-theme.md)
 
 [Работа с переопределением файлов CSS](css-override-files.md)
-
-[Добавление приветственного сообщения](add-welcome-message.md)
 
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 

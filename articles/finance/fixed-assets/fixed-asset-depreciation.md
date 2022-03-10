@@ -1,37 +1,37 @@
 ---
 title: Амортизация ОС
 description: В этом разделе приводится обзор амортизации для основных средств.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/30/2017
+author: moaamer
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1056dadab4294072cc064670f5cfcda239e22e19
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447184"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890988"
 ---
 # <a name="fixed-asset-depreciation"></a>Амортизация ОС
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 В этом разделе приводится обзор амортизации для основных средств.
 
 Амортизация — это периодическая проводка, которая обычно уменьшает значение основных средств в балансовом отчете и учитывается в качестве расхода в счете прибыли и убытков. Поэтому, главный счет обычно используется для кредитования периодической амортизации в балансовом отчете. Корр. счет — это счет в части прибылей и убытков плана счетов.
+
+Для версии 10.0.24 параметр конфигурация журнал активов **Расчет положительной амортизации** на странице **Книги** позволяет, чтобы амортизация дебетировала основное средство, приобретенное с отрицательной остаточной стоимостью (кредит).
 
 ## <a name="depreciation-adjustment"></a>Корректировка амортизации
 Обычно только корректировка в уже разнесенной проводки амортизации разносится в качестве переоценки амортизации. Поэтому настраиваются главный и корр. счет аналогично как и счета для амортизации. Корректировка амортизации может быть положительной или отрицательной суммой, но функциональность главного счета (в качестве счета балансового отчета) и функциональность корр. счета (обычно в качестве счета прибыли и убытков) остается той же самой.
@@ -57,3 +57,6 @@ ms.locfileid: "4447184"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

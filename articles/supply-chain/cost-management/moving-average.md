@@ -13,15 +13,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3616ade55b2055a30af8ebc2da7e2ade41973543
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6721c01fd0ad3eec30de99dee3b5e98de6bd3b52
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809718"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567543"
 ---
 # <a name="moving-average"></a>Скользящее среднее
 

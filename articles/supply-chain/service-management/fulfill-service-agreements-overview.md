@@ -1,31 +1,29 @@
 ---
 title: Обзор исполнения соглашений о сервисном обслуживании
 description: В этом разделе содержится обзор задач для выполнения соглашений о сервисном обслуживании.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/03/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a74bac8fb88a2d10156ff59f237fad53f8ba66803dd38d85dd8ae2d89b2afd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720212"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985894"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Обзор исполнения соглашений о сервисном обслуживании 
+# <a name="fulfill-service-agreements-overview"></a>Обзор исполнения соглашений о сервисном обслуживании
 
 [!include [banner](../includes/banner.md)]
-
 
 В этом разделе содержится обзор задач для выполнения соглашений о сервисном обслуживании. Также тут перечислены формы, связанные с каждым компонентом бизнес-процесса, и обсуждаются задачи, связанные с каждым компонентом бизнес-процесса.
 
@@ -41,9 +39,9 @@ ms.locfileid: "6720212"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

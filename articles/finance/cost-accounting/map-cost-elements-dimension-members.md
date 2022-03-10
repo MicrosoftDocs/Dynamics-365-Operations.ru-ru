@@ -2,11 +2,9 @@
 title: Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики
 description: Сопоставив различные члены аналитики элемента затрат общему набору членов аналитики элемента затрат, можно объединить данные в общий формат для целей анализа.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb752ef853aedbe492dc2880b90d1683c5433a12
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728039"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики
 

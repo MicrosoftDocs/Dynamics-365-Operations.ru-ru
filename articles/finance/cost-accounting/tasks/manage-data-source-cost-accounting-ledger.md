@@ -2,11 +2,9 @@
 title: Управление источником данных для книги учета затрат
 description: Эта процедура используется для управления источником данных главной книги для книги учета затрат.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7246d42b42404f0f1215bbf14b8ad168fe12691c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da218df53fdca98ead748ce364c03502bd1f333959ebacab25339b665bcb9c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771712"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Управление источником данных для книги учета затрат
 
@@ -47,3 +45,6 @@ ms.locfileid: "4990725"
 14. В поле "Слой разноски" выберите "Текущий".
 15. Нажмите кнопку "OК".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

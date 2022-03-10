@@ -1,28 +1,25 @@
 ---
 title: Изменение владельца консигнационных запасов на основе производственного спроса
 description: Эта процедура показывает порядок изменения владельца запасов коносамента с поставщика на юридическое лицо, когда имеется спрос на запасы в производстве.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c50affa05b8df53d31660854f4d1ead6aeff820
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e735a9003f2859ed173f399525297506ec458e8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436308"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565839"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Изменение владельца консигнационных запасов на основе производственного спроса
 
@@ -55,3 +52,6 @@ ms.locfileid: "4436308"
 2. Нажмите кнопку "OК".
 3. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

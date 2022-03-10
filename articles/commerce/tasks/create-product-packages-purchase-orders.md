@@ -2,11 +2,9 @@
 title: Создание пакетов продуктов для заказов на покупку
 description: Эта процедура содержит инструкции по созданию пакета продуктов и его использованию в заказе на покупку.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d16c5c576ce6b35687fb7edab835d52f6f58e6a0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb10164be8d7a0828169cf3865f884afaa2e8408472edebe4cb0c7d4db059d8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723245"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Создание пакетов продуктов для заказов на покупку
 

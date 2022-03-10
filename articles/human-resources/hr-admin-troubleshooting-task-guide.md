@@ -1,8 +1,8 @@
 ---
 title: Сохранение проводников по задачам в LCS и их воспроизведение
-description: В этой статье объясняется, как сохранять руководства по задачам в Microsoft Dynamics Lifecycle Services (LCS) и затем воспроизводить их.
-author: andreabichsel
-ms.date: 02/03/2020
+description: В этом разделе объясняется, как сохранять руководства по задачам в Microsoft Dynamics Lifecycle Services (LCS) и затем воспроизводить их.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,20 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a18bb14ba8c3c926065c97b0ee26c38ee86ded2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053283"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068367"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Сохранение проводников по задачам в LCS и их воспроизведение
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -52,7 +55,7 @@ Microsoft Dynamics 365 Human Resources, который был развернут
 10. Создайте запись задачи.
 11. После завершения выберите **Сохранить файл в Lifecycle Services**.
 
-    ![Сохраните файл в Lifecycle Services.](media/task-guides.png)
+    ![Сохраните в Lifecycle Services.](media/task-guides.png)
 
 12. Выберите библиотеку BMP и узел, в который требуется сохранить запись задачи.
 

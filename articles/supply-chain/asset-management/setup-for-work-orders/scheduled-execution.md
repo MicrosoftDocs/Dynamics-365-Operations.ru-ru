@@ -1,12 +1,10 @@
 ---
 title: Запланированное выполнение
 description: В этом разделе описывается запланированное выполнение в управлении активами.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0ed61411920edebb1ab9b87856a5418fa43bc2f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ace2da2c4bc3d5cc404301fc4ecef5ceeef240dae6569a4d28f621b02637930
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779674"
 ---
 # <a name="scheduled-execution"></a>Запланированное выполнение
 
@@ -41,7 +39,7 @@ ms.locfileid: "5264930"
 5. В поле **Запланированное выполнение** выберите интервал времени.
 6. Нажмите **Сохранить**.
 
-![Запланированное выполнение](media/20-setup-for-work-orders.png)
+![Запланированное выполнение.](media/20-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

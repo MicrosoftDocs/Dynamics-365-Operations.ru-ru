@@ -1,8 +1,8 @@
 ---
 title: Как избежать усечения текста в иерархии должностей и при экспорте в Visio
-description: В этой статье объясняется, как решить проблему, когда имена людей и названия должностей усекаются при просмотре иерархии должностей клиентами в Microsoft Dynamics 365 Human Resources. Усечение текста затрудняет получение снимков экрана или печать иерархии.
-author: andreabichsel
-ms.date: 02/03/2020
+description: В этой теме объясняется, как решить проблему, когда имена людей и названия должностей усекаются при просмотре иерархии должностей в Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,20 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b11bd0247634290c8dc43c2ae2291a485449627
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779334"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068343"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Исключение усечения текста по иерархии должностей и экспорт в Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Как избежать усечения текста в иерархии должностей и при экспорте в Visio
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +46,7 @@ ms.locfileid: "6779334"
 
 1. В Human Resources откройте страницу списка **Должности**.
 
-    Чтобы включить дополнительные сведения в диаграмму структуры организации, добавьте поля в список **Должности**, чтобы они были доступны при использовании мастера далее в этой процедуре.
+    Чтобы включить дополнительные сведения в диаграмму структуры организации, добавьте поля в список **Должности**, чтобы они были доступны при использовании **мастера организационной диаграммы** далее в этой процедуре.
 
 2. В области действий выберите кнопку **Открыть в Microsoft Office**, затем, в разделе **Экспорт в Excel**, выберите **Должности**. Также можно нажать сочетание клавиш Ctrl + T.
 

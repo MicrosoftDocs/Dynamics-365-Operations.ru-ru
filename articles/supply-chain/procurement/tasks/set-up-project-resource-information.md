@@ -1,28 +1,25 @@
 ---
 title: Настройка сведений о ресурсах для проекта
 description: В этой процедуре показано, как настроить ресурс проекта.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ff9bc238c18a633785538e6215701567b511cb7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7ba8264bb3ccc6db3b766b76a435e0eccf2d7a2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435976"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577056"
 ---
 # <a name="set-up-project-resource-information"></a>Настройка сведений о ресурсах для проекта
 
@@ -52,3 +49,6 @@ ms.locfileid: "4435976"
 20. Нажмите кнопку "Сохранить".
 21. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

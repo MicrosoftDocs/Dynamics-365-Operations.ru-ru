@@ -1,37 +1,39 @@
 ---
 title: Настройка интеграции с Finance
-description: В этой статье описываются функции, доступные для интеграции Dynamics 365 Human Resources и Dynamics 365 Finance.
-author: andreabichsel
-ms.date: 03/26/2020
+description: Эта тема описывает интеграцию между Dynamics 365 Human Resources и Dynamics 365 Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065024"
 ---
 # <a name="configure-integration-with-finance"></a>Настройка интеграции с Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Для интеграции Dynamics 365 Human Resources с Dynamics 365 Finance можно использовать шаблон Human Resources в Finance в [Интеграторе данных](https://docs.microsoft.com/powerapps/administrator/data-integrator). Шаблон "Human Resources в Finance" обеспечивает поток данных для заданий, должностей и работников. Шаблон обеспечивает передачу данных из Human Resources в Finance, но не позволяют передавать данные из Finance в Human Resources.
 
-![Поток интеграции из Human Resources в Finance](./media/hr-admin-integration-finance-flow.png)
+Для интеграции Dynamics 365 Human Resources с Dynamics 365 Finance можно использовать шаблон Human Resources в Finance в [Интеграторе данных](/powerapps/administrator/data-integrator). Шаблон "Human Resources в Finance" обеспечивает поток данных для заданий, должностей и работников. Шаблон обеспечивает передачу данных из Human Resources в Finance, но не позволяют передавать данные из Finance в Human Resources.
+
+![Поток интеграции из Human Resources в Finance.](./media/hr-admin-integration-finance-flow.png)
 
 Решение Human Resources в Finance предоставляет следующие типы синхронизации данных:
 
@@ -248,12 +250,12 @@ ms.locfileid: "5801175"
 
 Эта проблема может произойти с объектом **Работник**, который использует **Табельный номер** для выполнения сопоставления, и **Должности**. Задания не используют номерные серии. В результате, если один и тот же код задания присутствует в Human Resources и Finance, информация Human Resources перезаписывает информацию Dynamics 365 Finance. 
 
-Чтобы не допустить возникновения ошибок с повторяющимися идентификаторами, можно либо добавить префикс в [номерную серию](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), либо установить начальный номер в номерной серии, который находится за пределами диапазона другой системы. 
+Чтобы не допустить возникновения ошибок с повторяющимися идентификаторами, можно либо добавить префикс в [номерную серию](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), либо установить начальный номер в номерной серии, который находится за пределами диапазона другой системы. 
 
 Идентификатор местоположения, используемый для адреса работника, не является частью номерной серии. При интеграции адреса работника из Human Resources в Finance, если адрес работника уже существует в Finance, может быть создана дублирующаяся запись адреса. 
 
 На следующем рисунке показан пример сопоставления шаблона в интеграторе данных. 
 
-![Сопоставление шаблона](./media/IntegrationMapping.png)
+![Соответствие шаблона.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

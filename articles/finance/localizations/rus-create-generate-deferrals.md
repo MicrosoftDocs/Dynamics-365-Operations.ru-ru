@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b77fa7276d7b172f5cd3e4fba3e00e3c75b470f5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7936c0d55e7b4a2f774fd8d17e6de31a60bca77f6c41bb957dc5888005005d67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354991"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727209"
 ---
 # <a name="create-or-generate-deferrals-russia"></a>Создание или генерация РБП (Россия)
 

@@ -1,8 +1,8 @@
 ---
-title: Запуска процесса компенсации
-description: В этой статье объясняется, как решить проблему, когда клиент безуспешно пытается запустить процесс компенсации в Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Запуск процесса компенсации
+description: В этом разделе объясняется, как решить проблему, когда клиент безуспешно пытается запустить процесс компенсации в Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,20 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e4df1791420966995f305866defe9103c83c18d4ac306fdd3e3c90aba38b1e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722615"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065409"
 ---
 # <a name="run-the-compensation-process"></a>Запуска процесса компенсации
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

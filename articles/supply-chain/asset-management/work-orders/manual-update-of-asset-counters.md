@@ -1,29 +1,26 @@
 ---
 title: Ручное обновление счетчиков основных средств
 description: В этом разделе описываются ручное обновление счетчиков активов в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23a94415a662059ddbd41cc6a0ba9dab24aae44e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776442"
 ---
 # <a name="manual-update-of-asset-counters"></a>Ручное обновление счетчиков основных средств
 
@@ -57,10 +54,13 @@ ms.locfileid: "4435856"
 
 На приведенном ниже рисунке показан пример страницы **Счетчики актива**.
 
-![Рисунок 1](media/11-work-orders.png)
+![Рисунок 1.](media/11-work-orders.png)
 
 На странице **Счетчики актива** (**Управление активами** > **Запросы** > **Активы** > **Счетчики актива**), можно выполнять регистрацию счетчика на нескольких активах одновременно, при необходимости.
 
 >[!NOTE]
 >Можно настроить диапазон для определения отклонений в регистрациях счетчиков вручную. Можно также указать тип сообщения, которое будет отображаться, если регистрации выходят за пределы определенного диапазона. Дополнительные сведения о настройке счетчиков см. в разделе [Счетчики](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

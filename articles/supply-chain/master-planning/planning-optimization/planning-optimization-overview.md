@@ -3,25 +3,24 @@ title: Обзор оптимизации планирования
 description: Этот раздел содержит обзор возможностей оптимизации планирования.
 author: ChristianRytt
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b55a48847e9c6201e7a93a2fb5d6622b581d785
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354721"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983450"
 ---
 # <a name="planning-optimization-overview"></a>Обзор оптимизации планирования
 

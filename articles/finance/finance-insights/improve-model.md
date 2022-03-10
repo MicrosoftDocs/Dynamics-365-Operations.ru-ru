@@ -1,5 +1,5 @@
 ---
-title: Улучшение модели прогнозирования (предварительная версия)
+title: Улучшение модели прогнозирования
 description: В этой теме описываются функции, которые можно использовать для повышения эффективности моделей прогноза.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 0bf4dd0f7edc528393af628eb3776c32957c459d3eaa166b0bc54d9318b54916
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768803"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595045"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Улучшение модели прогнозирования (предварительная версия)
+# <a name="improve-the-prediction-model"></a>Улучшение модели прогнозирования
 
 [!include [banner](../includes/banner.md)]
 
@@ -75,6 +75,6 @@ ms.locfileid: "6768803"
 
 Можно отфильтровать накладные, используемые для обучения, путем установки критериев фильтрации для полей в накладной или в таблицах клиентов. Например, можно установить пороговое значение, чтобы включить только накладные, для которых общая сумма равна или превышает определенную сумму. Кроме того, можно исключить накладные, связанные с клиентами, в определенной группе клиентов.
 
-Дополнительные сведения о фильтрации данных см. в разделе [Создание модели прогноза](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
+Дополнительные сведения о фильтрации данных см. в разделе [Создание модели прогноза](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

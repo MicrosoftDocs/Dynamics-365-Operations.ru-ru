@@ -2,11 +2,9 @@
 title: Обновление стандартной себестоимости для новой произведенной номенклатуры
 description: Эта статья содержит рекомендации по обновлению стандартных затрат для новой произведенной номенклатуры.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af1c88aee878e0ab1e28fc0247d4c184f8b9d21
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 231f0ed5acc86dbe5368b3c7306dd89c8ba0b74901a7e1ccf8410c6585638efa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733500"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Обновление стандартной себестоимости для новой произведенной номенклатуры
 
@@ -52,3 +50,6 @@ ms.locfileid: "4983894"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

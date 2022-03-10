@@ -2,11 +2,9 @@
 title: Внесение платежей клиентов
 description: Депонируйте платежи клиента.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9221101581a6a130889b7c941ca228070a000c56
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 776871aad417d26486ec109f8b0b7f51db32d065d801e51459584c82269f9ac7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771784"
 ---
 # <a name="deposit-customer-payments"></a>Внесение платежей клиентов
 
@@ -47,3 +45,6 @@ ms.locfileid: "5003164"
 17. Нажмите **ОК**. Первая страница используется для создания бланка депозита.  
 18. Нажмите **ОК**. Второй этап — печать бланка депозита, но этот шаг не является обязательным.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

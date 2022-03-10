@@ -2,26 +2,23 @@
 title: Инвентаризация ОС (Россия)
 description: В этой теме содержится информация об инвентаризации основных средств для России.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RAssetTable, RAssetComponents
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 769bc9cb2b59d60a99e55cdd3674a6156de513ea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3aabf843038d96e1025ae844d14331be6fe8ca21b1eeede660a2ae7d2d1da29b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773705"
 ---
 # <a name="fixed-asset-counting-russia"></a>Инвентаризация ОС (Россия)
 
@@ -73,3 +70,6 @@ ms.locfileid: "4408568"
     - **ИНВ-1** используется для регистрации результатов инвентаризации основных средств компании. В процессе инвентаризации комиссия изучает основные средства и исправляет их в едином основном документе формы ИНВ-1. 
     - **ИНВ-1а** используется для регистрации результатов инвентаризации нематериальных активов компании.
     - **Сличительная ведомость** — ИНВ-18 — это единая форма, используемая для документирования расхождений между результатами инвентаризации и данными учета как основных средств (ОС), так и нематериальных активов (НМА).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

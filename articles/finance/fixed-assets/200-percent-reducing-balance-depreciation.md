@@ -1,12 +1,10 @@
 ---
 title: Амортизация с уменьшаемым остатком в 200%
-description: Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 200%.
-author: saraschi2
-manager: AnnBe
+description: Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 200 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978747"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883501"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 200%
 
 [!include [banner](../includes/banner.md)]
 
-Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 200%.
+Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 200 %.
 
 После настройки профиля амортизации ОС и выбора значения **Уменьшаемое сальдо в 200%** в поле **Метод** на странице **Профили амортизации** процент амортизации ОС, назначенных профилю амортизации, одинаков во все периоды амортизации. Проценты рассчитываются на основе срока службы актива. Например, если срок службы актива составляет пять лет, проценты будут рассчитаны как 40 процентов (200% ÷ 5). 
 
@@ -68,7 +66,7 @@ ms.locfileid: "4978747"
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Пример амортизации с уменьшаемым сальдо в 200%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Стоимость приобретения               | 11 000 |
 | Ликвидационная стоимость                  | 1 000 |
@@ -89,3 +87,6 @@ ms.locfileid: "4978747"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

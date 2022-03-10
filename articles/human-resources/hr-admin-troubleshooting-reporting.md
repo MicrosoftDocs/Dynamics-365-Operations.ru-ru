@@ -1,32 +1,34 @@
 ---
 title: Варианты отчетности
-description: В этой статье описан порядок решения проблемы, когда клиент хочет настроить отчеты или создать новые отчеты Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: В этой теме объясняется, как настраивать отчеты Microsoft Dynamics 365 Human Resources и создавать новые отчеты.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3c82f3d4f040f680cab68228f1aa8ab16f548961
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113972"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069079"
 ---
 # <a name="reporting-options"></a>Варианты отчетности
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 **Сведения среды**
 
@@ -49,3 +51,6 @@ ms.locfileid: "5113972"
 **Долгосрочное решение**
 
 Будут доступны дополнительные параметры Power BI, и дополнительные данные и объекты будут входить в Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

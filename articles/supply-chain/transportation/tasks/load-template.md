@@ -14,14 +14,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 175c8017b14cc298cdaa00031f8450015a747786
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831514"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569921"
 ---
 # <a name="load-templates"></a>Шаблоны загрузок
+
+[!include [banner](../../includes/banner.md)]
 
 При создании новой загрузки можно назначить шаблон загрузки. Шаблон загрузок содержит информацию об оборудовании и о показателях, таких как высота, ширина, глубина и объем загрузки.
 

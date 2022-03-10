@@ -2,16 +2,13 @@
 title: Настройки и работа с блокировками заказов центра обработки вызовов
 description: В этой теме описывается, как работать с блокировками заказов с помощью Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762604"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Настройка удержаний заказов центра обработки вызовов и работа с ними
 
@@ -56,7 +53,7 @@ ms.locfileid: "4415254"
 
 Если флаг **Включить заполнение заказа** установлен в канале центра обработки вызовов, платеж не должен применяться к заказу, который заблокирован. Напротив, в случае заказа на продажу, который не заблокирован, невозможно покинуть страницу ввода заказа на продажу до применения оплаты. Разумеется, платеж потребуется до снятия блокировки заказа.
 
-Кроме того, пользователи центра обработки вызовов могут включить вручную блокировку по мошенничеству для заказов, которые вызывают подозрение для какой-либо причине. Заказы могут также быть заблокированы автоматически, когда они соответствуют критерию и правилам активного мошенничества. Дополнительные сведения об этом типе блокировки заказа см. в [Настройка оповещений о мошенничестве](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Кроме того, пользователи центра обработки вызовов могут включить вручную блокировку по мошенничеству для заказов, которые вызывают подозрение для какой-либо причине. Заказы могут также быть заблокированы автоматически, когда они соответствуют критерию и правилам активного мошенничества. Дополнительные сведения об этом типе блокировки заказа см. в [Настройка оповещений о мошенничестве](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Просмотр и управление заблокированными заказами
 
@@ -103,3 +100,6 @@ ms.locfileid: "4415254"
 ## <a name="reporting-options"></a>Варианты отчетности
 
 Последовательно выберите пункты **Retail и Commerce** \> **Запросы и отчеты** \> **Отчеты центра обработки вызовов** \> **Отчет о блокировке заказа** для запуска сообщения о блокировках заказа по диапазону дат, коду блокировки или другим связанным критериям.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

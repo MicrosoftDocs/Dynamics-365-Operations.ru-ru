@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0057d1a2dc00cef2474bc77b76af0d2e2b783d0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd0d50bacd43fe66628fec94aead3a2406e8d4e62c1e2e6c3d31afa9073baa6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773617"
 ---
 # <a name="maintenance-request-reports"></a>Отчеты по запросам на обслуживание
 
@@ -41,7 +41,7 @@ ms.locfileid: "5839663"
 
 На следующем рисунке показан пример отчета **Сведения о запросах на обслуживание**.
 
-![Отчет по сведениям запроса на обслуживание](media/09-manage-maintenance-requests.png)
+![Отчет по сведениям запроса на обслуживание.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Создание отчета по списку запроса на обслуживание
 
@@ -54,7 +54,7 @@ ms.locfileid: "5839663"
 
 На следующем рисунке показан пример отчета **Список запросов на обслуживание** для всех активных запросов на обслуживание.
 
-![Отчеты по списку запросов на обслуживание](media/10-manage-maintenance-requests.png)
+![Отчеты по списку запросов на обслуживание.](media/10-manage-maintenance-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

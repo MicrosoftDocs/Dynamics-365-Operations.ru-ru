@@ -2,9 +2,7 @@
 title: Функция ER ROUND
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности ROUND.
 author: NickSelin
-manager: kfend
 ms.date: 10/21/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 716ac0bbc9fec992ec1bbfc99bfc86434bf97984
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b0c28ba2faebf117aa008106f8a77f79af8f4de3122df858825aa15a6dae3616
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744418"
 ---
 # <a name="round-er-function"></a>Функция ER ROUND
 

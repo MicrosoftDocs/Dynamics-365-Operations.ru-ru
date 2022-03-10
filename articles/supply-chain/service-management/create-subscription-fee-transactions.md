@@ -1,7 +1,7 @@
 ---
 title: Создать проводки по сборам по подписке
 description: Эта тема описывает, как создавать проводки по сборам по подписке.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1060023d278f89cb0bc49e66e3014aabb8177dcb69a345290f705c2e5b99be4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03f798b5357d62e32834ffc2f41bcdabb97343c9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760980"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571481"
 ---
 # <a name="create-subscription-fee-transactions"></a>Создать проводки по сборам по подписке 
 

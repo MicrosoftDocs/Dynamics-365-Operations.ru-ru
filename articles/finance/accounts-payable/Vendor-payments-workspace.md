@@ -2,11 +2,9 @@
 title: Рабочая область платежей поставщику
 description: В этой теме содержится информация о рабочей области "Платежи поставщику". В рабочей области "Платежи поставщику" отображается информация, относящаяся к обработке платежей поставщикам.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 34f4e22f571569a6276f8a801d33c6afef8480dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 084a18d1af789c7ebb89d9a598754a9478a48b83fb949241c9fc34fefa7c152b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749278"
 ---
 # <a name="vendor-payments-workspace"></a>Рабочая область платежей поставщику
 
@@ -77,3 +75,6 @@ ms.locfileid: "4979571"
 |    Отношение сальдо по поставщикам к сальдо по клиентам     |                                                                                                                   <ul><li>Отношение сальдо по поставщикам к сальдо по клиентам</li><li>Отношение сальдо по поставщикам к сальдо по клиентам по компании</li><li>Сведения об отношении сальдо по поставщикам к сальдо по клиентам</li></ul>                                                                                                                    |
 |    Накладные с блокировкой платежа     |                                                                                         <ul><li>Накладные с блокировкой платежа</li><li>Сведения о накладных с блокировкой платежа</li><li>Накладные с блокировкой платежа по компании</li><li>Накладные с блокировкой платежа по группе поставщиков</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

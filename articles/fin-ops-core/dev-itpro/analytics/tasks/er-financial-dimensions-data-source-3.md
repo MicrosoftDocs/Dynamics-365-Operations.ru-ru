@@ -2,7 +2,6 @@
 title: Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 3. Разработка отчета)
 description: В этой теме описывается, как настроить модель электронной отчетности (ER) для использования финансовых аналитик в качестве источника данных для отчетов электронной отчетности. (Часть 3)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9594a12c28109d80c6ee07a9ee38f4923963dca
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565246"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605193"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 3. Разработка отчета)
 
@@ -93,7 +92,7 @@ ms.locfileid: "5565246"
 59. Щелкните "Добавить атрибут".
 60. В поле "Имя" введите "Описание".
 61. Нажмите кнопку "OК".
-![Страница конструктора операций электронной отчетности](../media/er-financial-dimensions-guides-format1.png)
+![Дерево страницы конструктора форматов.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Сопоставление элементов отчета с источниками данных
 1. Перейдите на вкладку "Сопоставление".
@@ -142,7 +141,7 @@ ms.locfileid: "5565246"
 44. Щелкните "Связать".
 45. Нажмите кнопку Сохранить.
 46. Закройте страницу.
-![Страница конструктора операций электронной отчетности](../media/er-financial-dimensions-guides-format2.png)
+![Страница конструктора форматов, элементы отчета, сопоставленные источникам данных.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

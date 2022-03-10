@@ -2,11 +2,9 @@
 title: Управление ассортиментом (ноябрь 2016)
 description: В этой процедуре показано, как создать и опубликовать новый ассортимент продуктов с использованием демонстрационных данных компании USRT.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dee3d4817909cfe89c58e031921a79e44b1c4d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769303"
 ---
 # <a name="manage-assortments-november-2016"></a>Управление ассортиментом (ноябрь 2016)
 
@@ -54,3 +52,6 @@ ms.locfileid: "4982374"
 1. Щелкните "Опубликовать".
 2. Щелкните Да.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

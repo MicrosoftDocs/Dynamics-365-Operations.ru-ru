@@ -2,11 +2,9 @@
 title: Аналитики продуктов
 description: Предусмотрено пять аналитик продукта — цвет, конфигурация, размер, стиль и версия. Аналитики продукта объединяются в группы аналитик, а группы аналитик назначаются шаблонам продуктов. Комбинации аналитик продукта определяют, как определяются варианты продуктов.
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118689"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920531"
 ---
 # <a name="product-dimensions"></a>Аналитики продуктов
 
@@ -106,7 +104,7 @@ ms.locfileid: "5118689"
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Maps:** Если какие-либо сопоставления используют складские аналитики, необходимо обновить соответствующее сопоставление отношений с этими сопоставлениями, чтобы они включали аналитику версии. В расширенной модели или расширениях таблиц обратите внимание на таблицы, в которых поля содержат складские аналитики.
-1. **Функциональность Microsoft Dynamics 365 Commerce:** после ее включения аналитика версий будет отображаться в коде, относящемся к Commerce в Dynamics 365 Supply Chain Management. Однако аналитика версии еще не поддерживается базой данных канала Commerce или в приложениях POS-терминала или электронной коммерции. Эти специальные приложения Commerce не поддерживают пользователей, осуществляющих продажу/отгрузку или возврат/получение запасов по аналитикам версий. Функции подстановки наличия запасов не различают запасы по аналитикам версий в приложениях Commerce. Это поведение напоминает текущее поведение аналитики конфигурации в Commerce.
+1. **Функциональность Microsoft Dynamics 365 Commerce**: после включения аналитика версий будет отображаться в коде, относящемся к Commerce в Dynamics 365 Supply Chain Management. Однако аналитика версии еще не поддерживается базой данных канала Commerce или в приложениях POS-терминала или электронной коммерции. Эти специальные приложения Commerce не поддерживают пользователей, осуществляющих продажу/отгрузку или возврат/получение запасов по аналитикам версий. Функции подстановки наличия запасов не различают запасы по аналитикам версий в приложениях Commerce. Это поведение напоминает текущее поведение аналитики конфигурации в Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Включение аналитики версии
 
@@ -145,3 +143,6 @@ ms.locfileid: "5118689"
 
 > [!IMPORTANT]
 > При включении и использовании аналитики версии некоторые решения, которые ссылаются на складские аналитики, могут перестать работать надлежащим образом. Чтобы подтвердить эти ошибки и устранить их, обратитесь к независимым поставщикам программного обеспечения для соответствующих решений. Дополнительные сведения см. в разделе [Включение аналитики версии](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

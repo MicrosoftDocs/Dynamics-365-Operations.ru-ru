@@ -1,35 +1,32 @@
 ---
 title: Правила распределения ГК
 description: В этой статье представлена информация о правилах распределения ГК. Она содержит описание различных компонентов этих правил распределения и методов распределения, которые можно использовать для них.
-author: ShylaThompson
-manager: AnnBe
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42896fc8b204df921f1e24797098472eca090d30
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447251"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726879"
 ---
 # <a name="ledger-allocation-rules"></a>Правила распределения ГК
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье представлена информация о правилах распределения ГК. Она содержит описание различных компонентов этих правил распределения и методов распределения, которые можно использовать для них.
+В этой теме представлена информация о правилах распределения ГК. Она содержит описание различных компонентов этих правил распределения и методов распределения, которые можно использовать для них.
 
 Правила распределения книги учета используются для автоматического расчета и создания журналов распределения и записей счетов для распределения сальдо ГК или фиксированных сумм. Методы распределения могут быть переменными или фиксированными. Следующие методы распределения можно использовать для правил распределения книги учета:
 
@@ -51,3 +48,6 @@ ms.locfileid: "4447251"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Настройка купонов для розничных продаж
-description: В этой теме приводятся обзорные сведения о купонах и описывается порядок их настройки.
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: В этой теме приводятся обзорные сведения о купонах и описывается порядок их настройки в Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fcb21c037c4492ce215780913301c0c0b54ab9d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259489"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603131"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Настройка купонов для розничных продаж
 
@@ -40,6 +38,10 @@ ms.locfileid: "5259489"
 
 > [!NOTE]
 > После связывания купона со скидкой несколько полей на странице скидки в Commerce становятся доступными только для чтения, поскольку их значения определяются настройками купона. К этим полям относятся поля для статуса и стандартных диапазонов дат.
+> 
+> При использовании купона в канале центра обработки вызовов необходимо нажать кнопку **Пересчет** **(вкладка продажи > Расчет > Пересчет)**, чтобы получить скидку, связанную с купоном к применению. Этот дополнительный шаг будет удален в следующем выпуске.
+
+Чтобы применить купон к проводке продаж в POS-терминале, можно использовать **Код купона** или **Штрих-код купона**. Чтобы использовать **Код купона**, необходимо настроить операцию **Добавить код купона** в [макете экрана](pos-screen-layouts.md) POS-терминала **Проводка**. Выберите **Добавить код купона** и введите код купона. Или, чтобы использовать **Штрих-код купона**, выполните сканирование штрих-кода или введите штрих-код, используя цифровую клавиатуру на экране **Проводка**.
 
 ### <a name="limited-use-coupons"></a>Купоны с лимитом использования
 

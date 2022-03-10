@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0f33dad05fc9a17fc673525ac5ab79f9cf0ab08
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754712"
 ---
 # <a name="introduction-to-work-orders"></a>Введение в заказы на работу
 
@@ -51,7 +51,7 @@ ms.locfileid: "5821641"
 
 На приведенном ниже рисунке показан пример страницы списка **Все заказы на работу**.
 
-![Рисунок 1](media/01-work-orders.png)
+![Рисунок 1.](media/01-work-orders.png)
 
 Чтобы просмотреть список только активных заказов на работу, выберите **Управление активами** > **Общее** > **Заказы на работу** > **Активные заказы на работу**. 
 
@@ -69,7 +69,7 @@ ms.locfileid: "5821641"
 
 На приведенном ниже рисунке показан пример представления сведений **Все заказы на работу**.
 
-![Рисунок 2](media/02-work-orders.png)
+![Рисунок 2.](media/02-work-orders.png)
 
 
 Кнопки на панели операций организованы на вкладках. В следующей таблице кратко описаны кнопки, связанные с Управлением активами:

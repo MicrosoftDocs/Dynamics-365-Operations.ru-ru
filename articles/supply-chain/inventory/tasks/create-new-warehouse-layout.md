@@ -1,7 +1,7 @@
 ---
 title: Создание нового макета склада
 description: В этом разделе описывается, как настроить информацию о местонахождениях на складе.
-author: perlynne
+author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a329df85c339c90e4bdc620c8a63837ebc19a7c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833985"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580896"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Создание нового макета склада
 

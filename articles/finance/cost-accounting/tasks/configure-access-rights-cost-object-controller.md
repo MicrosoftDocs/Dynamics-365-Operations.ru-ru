@@ -2,25 +2,22 @@
 title: Настройка прав доступа для контролера объектов затрат
 description: Эта процедура используется для конфигурирования прав доступа для контроллера объектов затрат.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4b50782c7a1b69b6953c65d6df155f003028333
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70428b653f1263f5c753e0c2d756238b647fe4ba657add467a0142369bbbdd8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778322"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Настройка прав доступа для контролера объектов затрат
 
@@ -69,3 +66,6 @@ ms.locfileid: "4447351"
     * При выборе значения "Да" просматривать отчеты в рабочей области "Управление затратами" могут пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат. При выборе значения "Нет" просматривать отчеты в рабочей области "Управление затратами" могут только пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат или младший бухгалтер по учету затрат.    
 9. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

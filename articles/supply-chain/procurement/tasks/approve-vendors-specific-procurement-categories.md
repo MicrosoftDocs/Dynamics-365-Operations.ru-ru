@@ -1,26 +1,24 @@
 ---
 title: Утверждение поставщиков для определенных категорий закупаемой продукции
 description: В этой теме объясняется, как утвердить поставщиков для определенных категорий закупок в Dynamics 365 Supply Chain Management.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c337fd6c2c7cea088b2151bebb54cec326c5240d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1a885ba924137c56583db9f81b34db9a20f33bc4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237333"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569441"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Утверждение поставщиков для определенных категорий закупаемой продукции
 

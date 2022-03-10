@@ -1,7 +1,7 @@
 ---
 title: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management
 description: В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации объектов контакта (контакты) и контакта (клиенты) из Dynamics 365 Sales с Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 084030ab6ff06a1140621bb91435edf6cff4f82cc4bbc13813ab46f76e42174d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756855"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062523"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
@@ -117,13 +117,13 @@ ms.locfileid: "6756855"
 > [!NOTE]
 > Сопоставление показывает, какие данные столбцов будут синхронизированы из Sales в Supply Chain Management.
 
-### <a name="contact-to-contact"></a>Контакт в контакт
+### <a name="contact-to-contact-example"></a>Пример связи контакта с контактом
 
-![Сопоставление шаблона в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Сопоставление шаблона связи контакта с контактом в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer"></a>Контакт в клиента
+### <a name="contact-to-customer-example"></a>Пример связи контакта с клиентом
 
-![Сопоставление шаблона в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Сопоставление шаблона связи контакта с клиентом в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Связанные разделы

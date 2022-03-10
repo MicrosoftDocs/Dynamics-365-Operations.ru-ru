@@ -2,28 +2,25 @@
 title: Финансовые отчеты по балансовому отчету
 description: В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются строительные блоки, связанные с этими отчетами.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0fae7ccb216ced0cbcbdb69980b3bae754a4980ecaf9314893368ae89459fa0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734522"
 ---
 # <a name="balance-sheet-financial-reports"></a>Финансовые отчеты по балансовому отчету
 
@@ -31,8 +28,7 @@ ms.locfileid: "4447271"
 
 В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются строительные блоки, связанные с этими отчетами. 
 
-<a name="default-balance-sheet-reports"></a>Отчеты по балансовому отчету по умолчанию
------------------------------
+## <a name="default-balance-sheet-reports"></a>Отчеты по балансовому отчету по умолчанию
 
 Есть два отчета по балансовому отчету по умолчанию. На одном отчете, разделы составлены друг над другом На другом отчете, разделы расположены рядом по сторонам друг от друга.
 
@@ -71,8 +67,7 @@ ms.locfileid: "4447271"
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор финансовой отчетности](financial-reporting-getting-started.md)
 
@@ -82,3 +77,6 @@ ms.locfileid: "4447271"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

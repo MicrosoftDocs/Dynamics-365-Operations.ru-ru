@@ -1,25 +1,25 @@
 ---
 title: Настройка сценария для бизнес-аналитики Интернета вещей
 description: В этой теме объясняется, как настроить сценарии для бизнес-аналитики Интернета вещей в Microsoft Dynamics 365 Supply Chain Management.
-author: robinarh
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826427"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782435"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Настройка сценария для бизнес-аналитики Интернета вещей
 
@@ -42,7 +42,7 @@ ms.locfileid: "5826427"
 Выполните следующие действия, чтобы настроить сценарий.
 
 1. Войдите в Supply Chain Management.
-2. Включите флаг функции аналитики Интернета вещей. Дополнительные сведения см. в разделе [Обзор управления функциями](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Включите флаг функции аналитики Интернета вещей. Дополнительные сведения см. в разделе [Обзор управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Настройка метрик. Дополнительные сведения см. в [Как настроить метрики](iot-metrics-setup.md#configure-metrics).
 4. Выберите **Управление производством \> Настройка \> Бизнес-аналитика Интернета вещей \> Управление сценариями**.
 6. На плитке **Время простоя оборудования** выберите **Настроить**, чтобы открыть мастер настройки конфигурации.

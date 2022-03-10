@@ -2,11 +2,9 @@
 title: Настройка банковских счетов компании для безакцептного списания ISO20022
 description: В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0faa23193111ed771ccc3a5c7f99ca908a036e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a0f8ac369bb6b9a7a0f21c23aaddab2601ae3f8f37e2427cbb10b5509a7a2f23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768725"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Настройка банковских счетов компании для безакцептного списания ISO20022
 
@@ -59,3 +57,6 @@ ms.locfileid: "4988144"
     * Например, выберите банковский счет "DEMF OPER".  
 6. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

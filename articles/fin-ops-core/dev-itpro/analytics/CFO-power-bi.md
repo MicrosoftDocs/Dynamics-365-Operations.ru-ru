@@ -2,7 +2,7 @@
 title: Содержимое Power BI "Обзор финансового директора"
 description: В этом разделе описывается содержимое "Обзор финансового директора" для Microsoft Power BI.
 author: kweekley
-ms.date: 10/02/2010
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c59e85cd8f2b5cedd65b47ef2ef0818c13ddc328
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3eab89d55ec90f3b5937773502430bf317e491ae
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754632"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416212"
 ---
 # <a name="cfo-overview-power-bi-content"></a>Содержимое Power BI "Обзор финансового директора"
 

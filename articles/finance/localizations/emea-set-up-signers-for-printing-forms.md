@@ -13,12 +13,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7825aaa8486eb063928ccfc1c67e1f79669c1a1f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5e80699f3ac2faaf947e0ce93e9408e3d0811265ec70d41c2a8b93e0f0d358a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717457"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Настройка подписывающих лиц для печатных форм
 
@@ -26,8 +26,7 @@ ms.locfileid: "5818280"
 
 Для юридических лиц в Чехии, Эстонии, Венгрии, Литве, Латвии, Польше и России можно настроить подписывающих лиц и должности для клиентов и поставщиков, которые печатают документы, такие как накладные и кассовые ордера.
 
-<a name="set-up-default-values"></a>Настройка значений по умолчанию
----------------------
+## <a name="set-up-default-values"></a>Настройка значений по умолчанию
 
 Чтобы настроить подписывающих лиц для документов, которые компания распечатывает, используйте страницу **Должностные лица**. Подписывающих лиц и их должности можно настроить как для компании, так и для клиентов или поставщиков, в зависимости от типа документа. В следующей таблице описаны вкладки на странице **Должностные лица**.
 

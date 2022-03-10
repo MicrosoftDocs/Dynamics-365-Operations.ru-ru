@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718607"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Сжатие больших документов, созданных в электронной отчетности 
 
@@ -55,7 +55,7 @@ ms.locfileid: "5894180"
 1. [Запустите импортированный формат](er-defer-xml-element.md#run-the-imported-format).
 2. Обратите внимание, что размер создаваемого документа в формате XML составляет 3 килобайта (КБ).
 
-    ![Предварительный просмотр несжатого исходящего документа](./media/er-compress-outbound-files1.png)
+    ![Предварительный просмотр несжатого исходящего документа.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Изменение формата для сжатия созданных выходных данных
 
@@ -80,7 +80,7 @@ ms.locfileid: "5894180"
     > [!NOTE] 
     > Коэффициент сжатия файла XML, хранящегося в этом ZIP-файле, составляет 87 процентов. Коэффициент сжатия зависит от данных, которые сжимаются.
 
-    ![Предварительный просмотр сжатого исходящего документа](./media/er-compress-outbound-files2.png)
+    ![Предварительный просмотр сжатого исходящего документа.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Если [пункт назначения](electronic-reporting-destinations.md) электронной отчетности настроен для элемента формата, который создает выходные данные (элемент **Отчет** в этом примере), сжатие выходных данных будет пропущено.

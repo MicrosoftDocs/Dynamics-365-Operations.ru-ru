@@ -1,7 +1,7 @@
 ---
 title: Ввод и сравнение предложений по запросу предложения и заключение контрактов
 description: В этой теме объясняется, как ввести ответы на запрос предложения, поставить оценку и сравнить предложения, а затем отдать контракт одному из поставщиков.
-author: kamaybac
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920589"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579480"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Ввод и сравнение предложений по запросу предложения и заключение контрактов
 

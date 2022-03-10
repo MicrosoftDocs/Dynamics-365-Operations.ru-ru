@@ -1,6 +1,6 @@
 ---
 title: Создание структур счетов
-description: В этом руководства рассказывается о создании структуры счета.
+description: В этой процедуре рассказывается о создании структуры счета.
 author: aprilolson
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aece2b79633802d28ba3b4fd8b51788e26c17a67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815172"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394547"
 ---
 # <a name="create-account-structures"></a>Создание структур счетов
 
 [!include [banner](../../includes/banner.md)]
 
-В этом руководства рассказывается о создании структуры счета. Для выполнения шагов используется компания с демонстрационными данными USMF.
+В этой процедуре рассказывается о создании структуры счета. Для выполнения шагов используется компания с демонстрационными данными USMF.
 
 1. Выберите **Область переходов > Модули > Главная книга > План счетов > Структуры > Настройка структур счетов**.
 2. На **Панели операций** щелкните **Создать**, чтобы открыть раскрывающееся диалоговое окно.

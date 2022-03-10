@@ -2,27 +2,27 @@
 title: Политики консолидации отгрузок
 description: В этом разделе представлен обзор функциональных возможностей, обеспечивающих гибкую настройку политик консолидации отгрузок.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0823bd6f346e068e28f0f46227dfbdfabb52d238
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233255"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577968"
 ---
 # <a name="shipment-consolidation-policies"></a>Политики консолидации отгрузок
+
+[!include [banner](../includes/banner.md)]
 
 Процесс консолидации отгрузок, использующий политики консолидации отгрузок, позволяет использовать автоматическую консолидацию отгрузок во время автоматического и ручного запуска на склад. Автоматизированная консолидация, которая была доступна до того, как была введена эта функция, имела жестко запрограммированные поля и была основана на поле **Консолидировать отгрузку перед запуском на склад**, которое было задано для склада.
 

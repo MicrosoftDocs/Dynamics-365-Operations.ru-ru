@@ -2,26 +2,23 @@
 title: Декларация НДС (Россия)
 description: В данном разделе содержится информация о декларации НДС для России.
 author: anasyash
-manager: AnnBe
 ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2492eb09fb031269069172078b45a628b0eac71c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d68c2966d291ef0bf412f33950df5c0b8827a9a2bb380856ac454aceaafb1e4f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779349"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 
@@ -40,7 +37,7 @@ ms.locfileid: "4408514"
     - **Формат декларации НДС 5.05** – эта конфигурация требуется для создания декларации по НДС за отчетный период 2018 года.
     - **Формат декларации НДС 5.06** – эта конфигурация требуется для создания декларации по НДС за отчетный период 2019 года.
 
-    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2. Загрузите и импортируйте настройки пакета управления данными.
 
@@ -260,9 +257,9 @@ ms.locfileid: "4408514"
     1. Создайте настроенную конфигурацию электронной отчетности **Сопоставлений модели**. Создайте ее на основе конфигурации, предоставляемый поставщиком конфигураций Microsoft.
     2. Переопределите элемент источника данных **$RRG.$Section3.$data.$dataStd** сопоставления модели.
 
-Дополнительные сведения о порядке создания производной версии конфигураций электронной отчетности для настройки см. в разделе [Электронная отчетность — обновление формата путем принятия новой базовой версии этого формата](../../dev-itpro/analytics/tasks/er-upgrade-format.md).
+Дополнительные сведения о порядке создания производной версии конфигураций электронной отчетности для настройки см. в разделе [Электронная отчетность — обновление формата путем принятия новой базовой версии этого формата](../../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md).
 
-Дополнительные сведения об определении сопоставлений моделей см. в разделе [Определение сопоставлений моделей электронной отчетности и выбор источников данных для них](../../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Дополнительные сведения об определении сопоставлений моделей см. в разделе [Определение сопоставлений моделей электронной отчетности и выбор источников данных для них](../../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ## <a name="application-1-to-section-3"></a>Приложение 1 к разделу 3
 
@@ -446,6 +443,9 @@ ms.locfileid: "4408514"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Электронная отчетность](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Электронная отчетность](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
 - [Электронные сообщения](../general-ledger/electronic-messaging.md)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

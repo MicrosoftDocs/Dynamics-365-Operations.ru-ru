@@ -2,11 +2,9 @@
 title: Создание нового продукта в Commerce
 description: В этом разделе описывается, как создать продукт в Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965328"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753730"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Создание нового продукта в Commerce
 
@@ -51,13 +49,13 @@ ms.locfileid: "4965328"
 
 На следующем рисунке показан пример добавляемого продукта.
 
-![Создание продукта](media/create-new-product.png)
+![Создайте продукт.](media/create-new-product.png)
 
 После добавления продукта для него могут быть заданы дополнительные данные, такие как **Описание продукта**, **Группы вариантов**, **Группы аналитик**, **Атрибуты продуктов** и **Связанные продукты**.
 
 На следующем рисунке показаны дополнительные сведения о продукте.
 
-![Сведения о продукте](media/create-new-product-2.png)
+![Сведения о продукте.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Создание вариантов продуктов
 
@@ -76,23 +74,23 @@ ms.locfileid: "4965328"
 
 1. На странице продукта выберите **Запуск продуктов в производство**.
 
-    ![Запуск продукта в производство](media/create-new-product-3.png)
+    ![Выпуск продукта.](media/create-new-product-3.png)
 
 1. Выберите продукт для запуска в производство, а затем нажмите **Далее**.
 
-    ![Выберите продукт для запуска в производство](media/create-new-product-4.png)
+    ![Выберите продукт для запуска в производство.](media/create-new-product-4.png)
 
 1. Выберите набор вариантов продукта для запуска в производство, а затем нажмите **Далее**.
 
-    ![Выберите варианты для запуска в производство](media/create-new-product-5.png)
+    ![Выберите варианты для запуска в производство.](media/create-new-product-5.png)
 
 1. Выберите юридическое лицо, а затем нажмите **Далее**.
 
-    ![Выберите юридическое лицо](media/create-new-product-6.png)
+    ![Выберите юридическое лицо.](media/create-new-product-6.png)
 
 1. Выберите **Готово**.
 
-    ![Завершение запуска продукта в производство](media/create-new-product-7.png)
+    ![Завершение запуска продукта в производство.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Настройка выпущенных продуктов
 
@@ -107,10 +105,13 @@ ms.locfileid: "4965328"
 
 На следующем рисунке показан пример конфигурации для выпущенного продукта.
 
-![Настройка выпущенного продукта](media/create-new-product-8.png)
+![Настройка выпущенного продукта.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание юридических лиц](channels-legal-entities.md)
 
 [Создание группы вариантов](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

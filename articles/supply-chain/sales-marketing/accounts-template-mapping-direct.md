@@ -1,12 +1,10 @@
 ---
 title: Синхронизация организаций непосредственно из Sales с клиентами в Supply Chain Management
 description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации организаций из Dynamics 365 Sales в Supply Chain Management.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,24 +13,24 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: adde8975c709b8037a05e8edf6da8574c7b3cc55
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215825"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063093"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Синхронизация организаций непосредственно из Sales с клиентами в Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации организаций непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Management.
 
@@ -40,7 +38,7 @@ ms.locfileid: "5215825"
 
 Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales.  Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных об организациях, контактах, продуктах, предложениях по продажам, заказах на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
-[![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Поток данных в решение "Перспективный клиент в наличные деньги".](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -101,7 +99,7 @@ ms.locfileid: "5215825"
 > [!NOTE]
 > Сопоставление показывает, какие данные столбцов будут синхронизированы из Sales в Supply Chain Management.
 
-![Сопоставление шаблона в интеграции данных](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Сопоставление шаблона в интеграции данных.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Связанные разделы
 

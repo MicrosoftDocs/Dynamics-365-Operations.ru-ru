@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836598"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103446"
 ---
 # <a name="configure-job-card-for-devices"></a>Настроить карту заданий для устройств
 
@@ -34,21 +34,19 @@ ms.locfileid: "5836598"
 
 Чтобы эта функция была доступна, включите следующие функции в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (в указанном порядке):
 
-1. Грузоместо для приемки добавлено в устройство карты задания
-1. Включение автоматического создания номерного знака при приемке на устройстве карты задания
+1. *Грузоместо для приемки добавлено в устройство карты задания*<br>(В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.25 эта функция обязательна.)
+1. *Включение автоматического создания номерного знака при приемке на устройстве карты задания*<br>(В Supply Chain Management версии 10.0.25 эта функция обязательна.)
 
 ### <a name="print-label"></a>Печать этикетки
 
 Чтобы эта функция была доступна, включите следующие функции в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (в указанном порядке):
 
-1. Грузоместо для приемки добавлено в устройство карты задания
-1. Печать этикетки с устройства карты задания
+1. *Грузоместо для приемки добавлено в устройство карты задания*<br>(В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.25 эта функция обязательна.)
+1. *Печать этикетки с устройства карты задания*<br>(В Supply Chain Management версии 10.0.25 эта функция обязательна.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Разрешить блокировку сенсорного экрана
 
-Чтобы эта функция была доступна, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- Функция для блокировки устройства карты задания и терминала карты задания для дезинфекции
+В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При работе с версией, более ранней, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Функция для блокировки устройства карты задания и терминала карты задания для дезинфекции* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>Управление конфигурациями устройств
 

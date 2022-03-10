@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: roschlom
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: bfe4f873eb5a1475130fd91754c11384338b6503
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7a5abee90a4717851faf7713f6f501a3dfecf8782e0ba204fa9618de8c2721fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718199"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

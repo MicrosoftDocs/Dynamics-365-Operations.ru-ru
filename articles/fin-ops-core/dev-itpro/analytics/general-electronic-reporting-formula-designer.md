@@ -2,7 +2,6 @@
 title: Конструктор формул в электронной отчетности (ER)
 description: Этот раздел содержит общие сведения об использовании конструктора формул электронной отчетности.
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1384307182e44fe7771ad6244eca6784434827f1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777412"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Конструктор формул в электронной отчетности (ER)
 
@@ -59,11 +58,11 @@ ms.locfileid: "5568759"
 
 На следующем рисунке показана разработка выражения этого типа. В этом примере выражение округляет значение поля **Intrastat.AmountMST** таблицы Интрастат до двух десятичных знаков, и затем возвращает округленное значение.
 
-[![Выражение связывания данных](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Выражение связывания данных.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 На следующем рисунке показано, как может использоваться выражение этого типа. В этом примере результат сконструированного выражения вводится в компоненте **Transaction.InvoicedAmount** модели данных **Модель налоговой отчетности**.
 
-[![Используемое выражение привязки данных](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Используемое выражение привязки данных.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Во время выполнения созданная формула `ROUND (Intrastat.AmountMST, 2)` округляет значение поля **AmountMST** для каждой записи в таблице Интрастат до двух десятичных разрядов. Затем она вводит округленное значение в компонент **Transaction.InvoicedAmount** модели данных **Налоговая отчетность**.
 
@@ -73,17 +72,17 @@ ms.locfileid: "5568759"
 
 На следующем рисунке показана разработка преобразования этого типа. В этом примере преобразование **TrimmedString** усекает входящие данные типа данных *String*, удаляя ведущие и конечные пробелы. Затем оно возвращает значение усеченной строки.
 
-[![Преобразование](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Преобразование.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 На следующем рисунке показано, как может использоваться преобразование этого типа. В данном примере несколько компонентов формата отправляют текст как выходные данные для создания электронного документа во время выполнения. Все эти компоненты формата ссылаются на преобразование **TrimmedString** по имени.
 
-[![Используемое преобразование](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Используемое преобразование.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Когда компоненты формата, такие как компонент **partyName** на предыдущем рисунке, ссылаются на преобразование **TrimmedString**, это преобразование отправляет текст как выходные данные в создающий электронный документ. Этот текст не включает начальные и конечные пробелы.
 
 Если у вас есть форматирование, которое должно применяться индивидуально, его можно внедрить как отдельное выражение привязки определенного компонента "формат". На следующем рисунке показано выражение этого типа. В этом примере компонент формата **partyType** привязан к источнику данных через выражение, преобразующее входящие данные из поля **Model.Company.RegistrationType** в источнике данных в текст в верхнем регистре. Выражение затем отправляет этот текст как выходные данные в электронный документ.
 
-[![Применение форматирования к отдельному компоненту](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Применение форматирования к отдельному компоненту.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Управление процессом
 
@@ -99,7 +98,7 @@ ms.locfileid: "5568759"
 - Если список транзакций пуст, проверка останавливает процесс выполнения и возвращает значение **FALSE**.
 - Проверка возвращает сообщение об ошибке, которое включает текст метки SYS70894 на языке, предпочитаемом пользователем.
 
-[![Проверка](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Проверка.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 Конструктор формул ER используется также для создания имени файла для формируемого электронного документа и управления процессом создания файла. На следующем рисунке показана разработка управления процессом этого типа. Здесь объяснение конфигурации в этом примере:
 
@@ -108,7 +107,7 @@ ms.locfileid: "5568759"
 - Выражение возвращает имя файла для генерации электронных документов путем объединения имени файла и расширения имени файла. Для второй партии и всех последующих партий имя файла содержит код партии в качестве суффикса.
 - Выражение включает (возвратом значения **TRUE**) процесс создания файла для тех пакетов, которые содержат хотя бы одну запись.
 
-[![Управление процессом](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Управление процессом.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Управление содержимым документов
 
@@ -122,18 +121,18 @@ ms.locfileid: "5568759"
 - Компонент **PaymentNotes** используется для создания текста платежных примечаний.
 - Компонент **DelimitedSequence** создает номера накладных с разделителями-запятыми, которые используются для сопоставления текущего переноса кредита.
 
-[![Компоненты PaymentNotes и DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![Компоненты PaymentNotes и DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Компоненты **PaymentNotes** и **DelimitedSequence** обозначены с использованием вопросительного знака. Вопросительный знак указывает на то, что использование компонента является условным. В этом случае использование компонентов основано на следующих критериях:
 >
 > - Выражение `@.PaymentsNotes <> ""`, определенное для компонента **PaymentNotes**, разрешает (возвращая **TRUE**) заполнение XML-элемента **Ustrd**, тестом примечаний платежа, если этот текст для текущего переноса кредита не пуст.
 >
->    [![Выражение для компонента PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Выражение для компонента PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - Выражение `@.PaymentsNotes = ""`, определенное для компонента **DelimitedSequence**, выражение разрешает (возвращая **TRUE**) заполнение XML-элемента **Ustrd** разделенными запятыми номерами накладных, которые используются для сопоставления текущего переноса кредита, когда текст примечаний платежа для этого переноса кредита пуст.
 >
->    [![Выражение для компонента DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Выражение для компонента DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > На основе этой настройки созданное сообщение для каждого платежа должника, XML-элемент **Ustrd**, будет содержать либо текст примечаний по платежу, либо, если такой текст пуст, текст с разделенными запятыми номерами накладных, использованных для сопоставления данного платежа.
 
@@ -141,7 +140,7 @@ ms.locfileid: "5568759"
 
 На странице **конструктора формул** выберите **Тест**, чтобы проверить, как работает настроенная формула.
 
-[![Выбор теста для проверки формулы](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Выбор теста для проверки формулы.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 При необходимости значений аргументов формулы можно открыть диалоговое окно **Тест выражения** на странице **Конструктор формул**. В большинстве случаев эти аргументы должны быть определены вручную, так как настроенные привязки не запускались во время разработки. На вкладке **Результаты проверки** на странице **Конструктор формулы** показан результат выполнения настроенной формулы.
 
@@ -149,15 +148,15 @@ ms.locfileid: "5568759"
 
 При тестировании этой формулы можно использовать диалоговое окно **Тест выражения** для указания значения товарного кода Интрастат для тестирования.
 
-[![Определение товарного кода Интрастат для тестирования](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Определение товарного кода Интрастат для тестирования.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 После указания товарного кода Интрастат и выбора **OK** на вкладке **Результат проверки** на странице конструктора **Конструктор формул** отображается результат выполнения настроенной формулы. Затем можно оценить, является ли результат приемлемым. Если результат неприемлем, можно обновить формулу и протестировать ее снова.
 
-[![Результаты проверки](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Результаты проверки.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Некоторые формулы не могут быть протестированы во время разработки. Например, формула может вернуть результат типа данных, который не может быть отображен на вкладке **Результат проверки**. В этом случае вы получаете сообщение об ошибке, в котором говорится, что формула не может быть протестирована.
 
-[![Сообщение об ошибке](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Сообщение об ошибке.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

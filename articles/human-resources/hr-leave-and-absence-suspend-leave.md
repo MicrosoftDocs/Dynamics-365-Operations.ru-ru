@@ -1,31 +1,33 @@
 ---
 title: Приостановить отпуск
 description: Можно приостановить отпуск сотрудника в Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/01/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SuspendLeave, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05cb032a5f0417f24e1d85186820b866cdd2613f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 8b11b75e2cc53482f3fccf8fdd0aa4f1af3453d9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115036"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069487"
 ---
 # <a name="suspend-leave"></a>Приостановить отпуск
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Можно приостановить отпуск сотрудника, чтобы остановить обработку начислений отпусков для выбранных типов отпусков. 
 
@@ -49,3 +51,6 @@ ms.locfileid: "5115036"
 - [Настройка типов отпусков и отсутствий](hr-leave-and-absence-types.md)
 - [Начисление планов отпусков и отсутствий](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

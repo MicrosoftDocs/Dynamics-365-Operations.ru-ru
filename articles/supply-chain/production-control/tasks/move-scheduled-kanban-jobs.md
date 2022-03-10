@@ -1,26 +1,24 @@
 ---
 title: Перемещение запланированных заданий канбана
 description: В этой процедуре описывается перемещение запланированных заданий обработки канбана в другой период.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b945cdfa3e013c213e718962499831df126f09b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c1b6ea92a1e3b16df6678030957c3fa407c15b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259754"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568023"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Перемещение запланированных заданий канбана
 

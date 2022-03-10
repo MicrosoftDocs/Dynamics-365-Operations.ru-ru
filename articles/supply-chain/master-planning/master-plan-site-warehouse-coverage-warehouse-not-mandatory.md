@@ -1,7 +1,7 @@
 ---
 title: Сводное планирование для покрытия объекта и склада, склад не является обязательным
 description: В этом разделе описывается, как планируется номенклатура, которая имеет место и склад в качестве аналитики покрытия. Аналитика склада не обязательна.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2514
 ms.assetid: 92d47bdd-df68-4f60-ac9a-96aa08236c26
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8350646e70c7ea7d705a69ecb52f389e829a0fc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e6d163a0a9fc98442f8717972445a1de6d35ca1c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833481"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573737"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Сводное планирование для покрытия объекта и склада, склад не является обязательным
 
@@ -41,12 +41,11 @@ ms.locfileid: "5833481"
 -   Отношения пополнения определяются для склада. Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**. На экспресс-вкладке **Сводное планирование** см. группу поля **Главный склад**.
 -   Тип заказа по умолчанию задается как производство, заказу на покупку или канбан. Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**. Выберите номенклатуру, затем на панели операций на вкладке **План** щелкните **Параметры заказа по умолчанию**. В форме **Параметры заказа по умолчанию** см. **Тип заказа по умолчанию**.
 
-![Спрос для узла и покрытие склада, склад необязательный](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
+![Спрос для узла и покрытие склада, склад необязательный.](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор сводного планирования и функции работы с несколькими узлами](master-plan-multisite-functionality.md)
 

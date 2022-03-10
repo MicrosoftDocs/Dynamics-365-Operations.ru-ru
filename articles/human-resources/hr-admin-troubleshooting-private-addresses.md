@@ -1,8 +1,8 @@
 ---
 title: Доступ к личным адресам по роли безопасности
-description: В этой статье объясняется, как решить проблему, когда клиент не может получить доступ к частным адресам.
-author: andreabichsel
-ms.date: 11/02/2018
+description: В этой теме объясняется, как решить проблему, когда клиент не может получить доступ к частным адресам.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,20 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15616a9b3673a4c1842e389b976a80d599e2e77f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 05895d58cfd108c45c3c75921cb6930b904a6482
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346330"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068392"
 ---
-# <a name="access-to-private-addresses-by-security-role"></a>Доступ к частным адресам по роли безопасности
+# <a name="access-to-private-addresses-by-security-role"></a>Доступ к личным адресам по роли безопасности
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

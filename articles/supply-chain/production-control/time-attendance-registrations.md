@@ -1,9 +1,9 @@
 ---
 title: Обзор регистрации посещаемости и времени присутствия
 description: Работники с регистрацией времени могут вводить различные типы регистрации времени, например, приход на работу, уход на работу, регистрация дополнительных мероприятий и регистрация отсутствия. В этом разделе описывается регистрации, их расчет, утверждение и использование workflow-процесса для добавления структуры и автоматизированное утверждение в процессу утверждения табелей.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f6b3f682906dacc4e284b77e75e0c6dc99b2e06
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: af257427661cb9a0d976800b657d3eb4afe7feca
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336939"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986129"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Обзор регистрации посещаемости и времени присутствия
 

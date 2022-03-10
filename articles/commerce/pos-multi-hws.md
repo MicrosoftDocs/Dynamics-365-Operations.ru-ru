@@ -1,7 +1,7 @@
 ---
 title: Выделенные платежные терминалы и запросы на принтер и кассовый лоток
 description: В этой теме представлены сведения о возможности использования выделенного платежного терминала и запроса пользователя о выборе кассового лотка и принтера чеков.
-author: rubendel
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018641"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779778"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Выделенные платежные терминалы и запросы на принтер и кассовый лоток
 

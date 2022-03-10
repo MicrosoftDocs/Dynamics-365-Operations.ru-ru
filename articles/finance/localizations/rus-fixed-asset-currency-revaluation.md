@@ -2,26 +2,23 @@
 title: Переоценка ОС в иностранной валюте
 description: В этой теме содержится информация о переоценке основных средств в иностранной валюте для России.
 author: Anasyash
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5d80e4f7b957eb0ebb0fc76d550c8b970ca53683
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9358da1de105210c8aa5f09bd2586ca47e3b9065b66b30a4aebec2619101f0df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776454"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 
@@ -54,3 +51,6 @@ ms.locfileid: "4408571"
 ## <a name="reverse-revaluation-transactions"></a>Реверсирование проводок переоценки
 
 Проводки переоценки реверсируются так же, как проводки приобретения (проводки ввода в эксплуатацию). Создается две проводки: проводка переоценки стоимости и проводка переоценки амортизации.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

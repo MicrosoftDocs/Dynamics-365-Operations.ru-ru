@@ -2,26 +2,23 @@
 title: Авансовые счета для Commerce для Восточной Европы
 description: В этом разделе объясняется, как настроить авансовые уведомления для Commerce для Восточной Европы.
 author: epopov
-manager: annbe
 ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fc2af93880b634e6cec0015a2469fb8e4e56a7d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4433dfad61aacb41aba9cf233515460410c7260304e8e3d690b015b193ffe774
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718693"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Авансовые счета для Commerce для Восточной Европы
 
@@ -33,7 +30,7 @@ ms.locfileid: "4408517"
 
 При окончательной разноске накладной для заказа на продажу итоговый документ следует включать авансовый счет, и любые предварительные платежи необходимо указывать.
 
-Если создавать заказы на продажу из модуля "Расчеты с клиентами", необходимо вручную создать авансовые счета, используя процедуру, описанную в разделе [Авансовые счета для Восточной Европы](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). При создании заказов на продажу через POS-терминал система создает и разносит авансовые счета автоматически.
+Если создавать заказы на продажу из модуля "Расчеты с клиентами", необходимо вручную создать авансовые счета, используя процедуру, описанную в разделе [Авансовые счета для Восточной Европы](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). При создании заказов на продажу через POS-терминал система создает и разносит авансовые счета автоматически.
 
 ## <a name="supported-scenarios"></a>Поддерживаемые сценарии
 
@@ -88,3 +85,6 @@ ms.locfileid: "4408517"
 
 4. Перейдите в раздел **Retail и Commerce \> ИТ Retail и Commerce \> График распределения**.
 5. Выберите задание **1090**, затем выберите **Запустить сейчас**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

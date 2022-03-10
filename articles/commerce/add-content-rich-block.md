@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723319"
 ---
 # <a name="text-block-module"></a>Модуль текстового блока
 
@@ -42,7 +42,7 @@ ms.locfileid: "5797775"
 
 На следующем рисунке показан пример модуля блока текста, используемый на главной странице.
 
-![Пример модуля блока текста](./media/ecommerce-textblock.PNG)
+![Пример модуля блока текста.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Свойства модуля блока текста
 

@@ -1,7 +1,7 @@
 ---
 title: Домашняя страница расчетов с клиентами
 description: Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов.
-author: ShylaThompson
+author: roschlom
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 20671
+ms.custom:
+- "20671"
+- intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898144"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726950"
 ---
 # <a name="accounts-receivable-home-page"></a>Домашняя страница расчетов с клиентами
 
@@ -33,7 +35,7 @@ ms.locfileid: "5898144"
 
 **Бизнес-процессы**
 
-[![Бизнес-процесс](./media/AR-process.PNG)](./media/AR-process.PNG)
+[![Бизнес-процесс.](./media/AR-process.PNG)](./media/AR-process.PNG)
 
 ## <a name="set-up-accounts-receivable"></a>Настройка расчетов с клиентами
 

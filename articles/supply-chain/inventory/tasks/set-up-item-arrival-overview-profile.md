@@ -1,32 +1,30 @@
 ---
 title: Настройка профиля обзора поступления номенклатуры
 description: В этой теме основное внимание уделяется настройке профиля обзора прибытия.
-author: ShylaThompson
-manager: tfehr
+author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69389dd3a53ffec11116e16512bd038b45eda4d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436296"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964814"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Настройка профиля обзора поступления номенклатуры
 
-[!include [banner](../../includes/banner.md)]]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме основное внимание уделяется настройке профиля обзора прибытия. Профиль обзора прибытия — это коллекция правил, которые будут применяться при открытии пользователем страницы "Обзор прибытия". Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF. Обычно эту процедуру выполняет сотрудник, ответственный за приемку.
 
@@ -54,3 +52,6 @@ ms.locfileid: "4436296"
 17. Нажмите **Сохранить**.
 18. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

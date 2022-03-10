@@ -2,27 +2,24 @@
 title: Получение грузоместа со смешанными номенклатурами
 description: В этом разделе описывается использование получения грузоместа со смешанными номенклатурами для регистрации и создания работы для нескольких номенклатур с помощью мобильного устройства.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 84b01e9c6ad041fe95b46c97d89b90e85422d170399754062a6422319fc23a63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4436353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769475"
 ---
 # <a name="mixed-license-plate-receiving"></a>Получение грузоместа со смешанными номенклатурами
 
@@ -49,3 +46,6 @@ ms.locfileid: "4436353"
 - Получение и складирование грузоместа со смешанными номенклатурами
 
 Параметры идентификации строк документа-источника — это номенклатура заказа на покупку, строка заказа на покупку, заказ на возврат, номенклатура заказа на перемещение и строка заказа на перемещение. Эти параметры могут изменить порядок получения в одном грузоместе. Последний параметр относится к номенклатуре загрузки. Можно добавить несколько номенклатур для грузоместа, но нельзя переключаться между несколькими загрузками.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

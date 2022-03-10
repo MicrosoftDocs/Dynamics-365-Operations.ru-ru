@@ -2,11 +2,9 @@
 title: Договоры
 description: В этой теме приводятся сведения о договоры продажи и покупки для русской локализации.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0c2d782cd405eae1c8e6cda22c3e1e2273e11365
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 490c4db97ead672ed1b39b69de22286d9b5d765830d0ef0e4fb167e396b630e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773711"
 ---
 # <a name="agreements"></a>Договоры
 [!include [banner](../includes/banner.md)]
@@ -57,3 +55,6 @@ ms.locfileid: "5002746"
 - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
 - [Регистрация проводок со ссылками на договоры](rus-register-transactions-with-reference-to-agreements.md)
 - [Запросы и отчеты с договорами](rus-inquiries-reports-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

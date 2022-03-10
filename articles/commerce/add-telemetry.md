@@ -2,11 +2,9 @@
 title: Добавление кода скрипта на страницы сайта для поддержки телеметрии
 description: В этом разделе описывается добавление клиентского кода скрипта на страницы сайта для поддержки сбора телеметрии на стороне клиента.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dfebc6616186a3a8859b00e90c178129feaa324b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980165"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964537"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Добавление кода скрипта на страницы сайта для поддержки телеметрии
 
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается добавление клиентского кода скрипта на страницы сайта для поддержки сбора телеметрии на стороне клиента.
-
-## <a name="overview"></a>Обзор
 
 Веб-аналитика является важным средством, когда необходимо понять, как клиенты взаимодействуют с вашим сайтом, и принимать решения, которые помогут оптимизировать работу по максимальной конверсии. Доступно множество пакетов веб-аналитики, которые помогут достичь этих целей, такие как Google Analytics, Click, Moz Analytics и KISSMetrics. Для большинства пакетов веб-аналитики требуется добавить клиентский код сценария в элемент **\<head\>** кода HTML для всех страниц сайта.
 
@@ -116,8 +112,9 @@ ms.locfileid: "4980165"
 
 [Добавление значка сайта](add-favicon.md)
 
-[Добавление приветственного сообщения](add-welcome-message.md)
-
 [Добавление уведомления об авторском праве](add-copyright-notice.md)
 
 [Добавление языков на сайт](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

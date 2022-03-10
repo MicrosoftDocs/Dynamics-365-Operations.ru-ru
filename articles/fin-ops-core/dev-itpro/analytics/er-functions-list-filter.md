@@ -2,7 +2,7 @@
 title: Функция ER FILTER
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности FILTER.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c601babd3ea7122bc9ddf7bf101751d4c032016fb33c3d4101f588789491e817
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760034"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922431"
 ---
 # <a name="filter-er-function"></a>Функция ER FILTER
 
@@ -49,11 +49,17 @@ FILTER (list, condition)
 
 Полученный список записей.
 
-## <a name="usage-notes"></a>Примечания по использованию
+## <a name="usage-notes"></a><a name="usage-notes"></a>Примечания по использованию
 
 Эта функция отличается от функции [WHERE](er-functions-list-where.md), так как указанное условие применяется на уровне базы данных к любому источнику данных электронной отчетности (ER) с типом *Записи таблицы*. Список и условие могут определяться с помощью таблиц и связей.
 
 Если один или оба аргумента, настроенные для этой функции (`list` и `condition`) не позволяют перевести этот запрос на прямой вызов SQL, во время разработке будет выдано исключение. Это исключение информирует пользователя о том, что `list` или `condition` невозможно использовать для запроса базы данных.
+
+> [!NOTE]
+> Функция `FILTER` ведет себя иначе, чем функция `WHERE`, когда функция [`VALUEIN`](er-functions-logical-valuein.md) используется для указания критериев выбора.
+> 
+> - Если функция `VALUEIN` используется в области действия функции `WHERE`, а второй аргумент функции `VALUEIN` ссылается на источник данных, который не возвращает записей, учитывается логическое значение *[False](er-formula-supported-data-types-primitive.md#boolean)*, которое возвращается функцией `VALUEIN`. Поэтому выражение `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` не возвращает записей поставщика, если источник данных **VendGroups** не возвращает записей групп поставщиков.
+> - Если функция `VALUEIN` используется в области действия функции `FILTER`, а второй аргумент функции `VALUEIN` ссылается на источник данных, который не возвращает записей, логическое значение *[False](er-formula-supported-data-types-primitive.md#boolean)*, которое возвращается функцией `VALUEIN`, игнорируется. Поэтому выражение `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` возвращает все записи поставщиков из источника данных **Поставщики**, даже если источник данных **VendGroups** не возвращает записей групп поставщиков.
 
 ## <a name="example-1"></a>Пример 1
 

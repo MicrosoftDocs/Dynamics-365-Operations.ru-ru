@@ -1,26 +1,23 @@
 ---
 title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 05/11/2020
-ms.topic: article
+author: kfend
+ms.date: 02/02/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a93c05db40be2c23fd43f2e5a30e428d3ac808c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 890106ac96124141f4149784f93d0b2411949480
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408520"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087854"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -37,6 +34,9 @@ ms.locfileid: "4408520"
 - [Трансляция ГК](rus-ledger-translation-procedure.md)
 - [Отчеты по оборотно-сальдовой ведомости](rus-turnover-balance-statement-reports.md)
 - [Отчеты по обороту по счету](rus-account-activity-reports.md)
+- [Технический документ: Dynamics 365 Finance и Dynamics 365 Supply Chain Management – Федеральный стандарт бухгалтерского учета 27-2021 в России](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=cc7a904b-d553-43b3-94fd-58fa02e4f702&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)
+- [Включение назначений электронной отчетности для хранения российских документов учета](rus-enable-er-destinations-ru-accounting-documents.md)
+
 
 ## <a name="advance-holders"></a>Подотчетные лица
 
@@ -115,7 +115,7 @@ ms.locfileid: "4408520"
 - [Проводки через посредников](rus-transactions-through-intermediary.md)
   - [Покупки по комиссии](rus-purchases-on-commission.md)
   - [Продажи по комиссии](rus-sales-on-commission.md)
-
+- [Локальные отчеты и основные формы модуля расчетов с поставщиками и расчетов с клиентами](rus-local-reports-primary-forms-ar-ap.md)
 
 ## <a name="inventory"></a>Запасы
 - [Товары в пути от поставщика](rus-goods-transit-vendor.md)
@@ -155,15 +155,27 @@ ms.locfileid: "4408520"
 - [Отчетность по РБП](rus-reporting-deferrals.md)
 
 ## <a name="tax-accounting"></a>Налоговый учет
+- [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md)
 - [Коды расходов и доходов](rus-expense-and-income-codes.md)
-- [Налоговые реестры активов](rus-assets-tax-registers.md)
+- [Регистры налога на активы](rus-assets-tax-registers.md)
+- [Налоговый регистр расходов будущих периодов](rus-deferred-expenses-register.md)
+- [Налоговые регистры для движения денежных средств](rus-cash-flow-tax-registers.md)
+- [Регистры номинальных расходов](rus-rated-expenses-registers.md)
+- [Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей](rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md)
+- [Резервы безнадежной задолженности в модуле расчетов с клиентами](rus-bad-debts.md)
+- [Расчет регистров налоговых активов и налоговых обязательств](rus-calculation-tax-asset-tax-liability-registers.md)
+- [Налоговые регистры перемещения товаров](rus-goods-movement-tax-registers.md)
+- [Другие налоговые регистры](rus-other-tax-registers.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Обзор электронной отчетности](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)
 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Мобильная рабочая область запасов в наличии
 description: В этом разделе содержится информация о мобильной рабочей области запасов в наличии. Эта рабочая область помогает получать ценные мобильные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
-author: Mirzaab
-manager: tfehr
+author: yufeihuang
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,15 +12,15 @@ ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7d0440514369f8271004993d009ef7c3a36edb53
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5008077"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573905"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
@@ -58,7 +56,7 @@ ms.locfileid: "5008077"
 Необходимые условия различаются в зависимости от версии Supply Chain Management, развернутой в вашей организации.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management
-Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Необходимые условия при использовании обновления платформы Platform Update 3 или более поздней версии 
 Если в вашей организации развернуто обновление платформы Platform Update 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -78,17 +76,17 @@ ms.locfileid: "5008077"
 
 <td>KB 4013633 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Запасы в наличии</strong>. Для установки KB 4013633 системный администратор должен выполнить следующие задачи.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Установите исправление метаданных</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Примените готовый к развертыванию пакет</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модель <strong>SCMMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Опубликуйте мобильную рабочую область <strong>Запасы в наличии</strong>.</td>
 <td>Системный администратор</td>
-<td>См. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Публикация мобильной рабочей области</a>.</td>
+<td>См. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -107,13 +105,13 @@ ms.locfileid: "5008077"
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
-    [![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Потянуть для обновления.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-on-hand-inventory-for-a-product-by-using-the-inventory-on-hand-mobile-workspace"></a>Просмотр запасов в наличии для продукта с помощью мобильной рабочей области запасов в наличии
 
 1.  На мобильном устройстве выберите рабочую область **Запасы в наличии**.
 
-2.  Выберите **Проверка запасов в наличии для номенклатуры**. Отображается список продуктов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  Выберите **Проверка запасов в наличии для номенклатуры**. Отображается список продуктов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Если нужной номенклатуры нет в списке, выберите **Дополнительный поиск**. Можно искать по коду продукта или переключиться на поиск по названию продукта.
 
 4.  Выберите продукт. Если у номенклатуры имеются изображение, отображается изображение.
@@ -129,3 +127,6 @@ ms.locfileid: "5008077"
     -   По физическим запасам (Это представление показывает общее количество.)
     -   По физически зарезервированным запасам (Это представление показывает зарезервированное количество.)
     -   По доступным физическим запасам (Это представление показывает доступное количество, которое не было зарезервировано.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

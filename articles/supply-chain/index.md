@@ -2,7 +2,7 @@
 title: Домашняя страница модуля Supply Chain Management
 description: На этой странице представлен список разделов справки и другие ресурсы для функций Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06babeb7784c4bb9f67dd5d4fda1647926f20461
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337656"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487872"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -62,7 +62,6 @@ ms.locfileid: "6337656"
 
 В этих кратких видеороликах представлены новые функции Supply Chain Management, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.).
 
-- [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg) 
 - [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -81,7 +80,7 @@ ms.locfileid: "6337656"
 - **Сводное планирование:**
   - [Расширение функций прогнозирования спроса](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Сводное планирование — советы и рекомендации по устранению проблем с производительностью](https://youtu.be/7v8BPmEs9Dg)
-  - [Помогите! MRP работает медленно!](https://youtu.be/RLXybx20B5o)
+  - [Настройка производительности MRP](https://youtu.be/RLXybx20B5o)
 - **Управление сведениями о продукте:**
   - [Конфигуратор продукции в Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Управление складом:**

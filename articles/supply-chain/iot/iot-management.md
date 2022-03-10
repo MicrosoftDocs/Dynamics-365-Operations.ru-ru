@@ -1,27 +1,25 @@
 ---
 title: Мониторинг и управление аналитикой Интернета вещей
 description: В этом разделе объясняется, как отслеживать и управлять аналитикой Интернета вещей.
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7082f9e7640e8ef1b2873a954327b61a440e8ad0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000014"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782665"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>Мониторинг и управление аналитикой Интернета вещей
 
@@ -58,6 +56,9 @@ ms.locfileid: "5000014"
 
 Можно смоделировать сигналы фабричного оборудования. Дополнительные сведения см. в этих разделах:
 
-+ [Подключение DevKit AZ3166 Интернета вещей к узлу Интернета вещей Azure](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [Подключите интерактивный модулятор Raspberry Pi к узлу Интернета вещей Azure (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [Обзор ускорителя решений моделирования устройств](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [Подключение DevKit AZ3166 Интернета вещей к узлу Интернета вещей Azure](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [Подключите интерактивный модулятор Raspberry Pi к узлу Интернета вещей Azure (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [Обзор ускорителя решений моделирования устройств](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

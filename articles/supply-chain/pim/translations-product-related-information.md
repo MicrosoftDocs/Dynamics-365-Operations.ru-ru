@@ -1,12 +1,10 @@
 ---
 title: Вопросы и ответы по переводам, связанным с продуктом
 description: В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a79f7dccd518ce1d0e7c937a1a7934b474c4b37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 24a341973b8648b1a697c8c07b6ecbc808e0e504
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999639"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570506"
 ---
 # <a name="product-related-translations-faq"></a>Вопросы и ответы по переводам, связанным с продуктом
 
@@ -31,8 +29,7 @@ ms.locfileid: "4999639"
 
 В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов. 
 
-<a name="what-product-related-data-can-be-translated"></a>Какие связанные с продуктом данные можно переводить?
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>Какие связанные с продуктом данные можно переводить?
 
 Можно переводить следующую связанную с продуктом информацию.
 -   Имена и описания продуктов.
@@ -127,3 +124,6 @@ ms.locfileid: "4999639"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Обзор шаблонов и макетов
 description: В этом разделе описываются шаблоны и макеты Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 12/12/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 319e60f34c7e94cc56386b0f86ac83360f7b0456
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232599"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986102"
 ---
 # <a name="templates-and-layouts-overview"></a>Обзор шаблонов и макетов
 
@@ -34,7 +32,7 @@ ms.locfileid: "5232599"
 
 На следующем рисунке показана иерархия моделей страниц, лежащих в основе визуализированной веб-страницы.
 
-![Схема модели страницы](../commerce/media/page-model-diagram.png)
+![Схема модели страницы.](../commerce/media/page-model-diagram.png)
 
 | Объект        | Базовая функция |
 |---------------|----------------|
@@ -100,7 +98,7 @@ ms.locfileid: "5232599"
 
 На следующем рисунке показаны сценарии для готовых и пользовательских макетов.
 
-![Сценарии готовых и пользовательских макетов](../commerce/media/template-figure1.png)
+![Сценарии готовых и пользовательских макетов.](../commerce/media/template-figure1.png)
 
 Чтобы начать использовать готовые макеты, см. раздел [Работа с готовыми макетами](work-with-layouts.md).
 

@@ -1,7 +1,7 @@
 ---
 title: Аудит накладных и ключевых данных в модуле расчетов с поставщиками
 description: Эта тема показывает, как выполнять аудит накладных и ключевых данных в модуле расчетов с поставщиками.
-author: saraschi2
+author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, V
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ac1e9d8c5255b8347c9563ce9ea846933c0c9dd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815244"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883727"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Аудит накладных и ключевых данных в модуле расчетов с поставщиками
 

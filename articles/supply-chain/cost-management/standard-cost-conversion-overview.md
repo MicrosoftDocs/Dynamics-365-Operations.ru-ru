@@ -2,29 +2,28 @@
 title: Обзор преобразования стандартных затрат
 description: В этой статье приведен обзор процесса, чтобы помочь настроить и запустить преобразование стандартных затрат. Перечисленные шаги должны выполняться после выполнения предварительных условий для преобразования стандартных затрат.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 78212
+ms.custom:
+- "78212"
+- intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436118"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982697"
 ---
 # <a name="standard-cost-conversion-overview"></a>Обзор преобразования стандартных затрат
 
@@ -95,10 +94,12 @@ ms.locfileid: "4436118"
 -   Проанализируйте складские перемещения прошлым числом. Используйте отчет **Стоимость запасов** для просмотра складских проводок прошлым числом, которые были введены после преобразования. Начальная и конечная даты для отчета должны соответствовать дате начала перехода и дате преобразования, минус один день. Критерий выбора отчета должен отражать преобразованные номенклатуры. В отчете отображаются складские перемещения, выполненные при стандартных затратах в переходный период.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Предварительные требования для преобразования к стандартной себестоимости](prerequisites-standard-cost-conversion.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,26 @@
 title: Домашняя страница локального развертывания
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
+ms.custom:
+- "55651"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5940969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712576"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -31,6 +33,7 @@ ms.locfileid: "5940969"
 - [Обзор локального развертывания](on-premises-overview.md)
 - [Планирование локальных развертываний и подготовка к ним](plan-onprem-deployment.md)
 - [Требования к системе для локальных развертываний](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Программное обеспечение, поддерживаемое Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [Требования к определению параметров оборудования для локальных сред](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Покупка Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Сравнение характеристик облачной и локальной версий](../../fin-ops/get-started/cloud-prem-comparison.md)

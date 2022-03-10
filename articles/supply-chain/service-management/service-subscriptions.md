@@ -1,29 +1,26 @@
 ---
 title: Подписки на сервисное обслуживание
 description: Подписки основываются на проекте  «Время и расходы». Можно создавать подписки из проекта с помощью страницы "Подписки на сервисное обслуживание" или с помощью группы подписки на обслуживание.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98e192cb4553d37437a0637af2006550b4340d84
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4435721"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570089"
 ---
 # <a name="service-subscriptions"></a>Подписки на сервисное обслуживание
 
@@ -38,3 +35,6 @@ ms.locfileid: "4435721"
 Код периода определяется в группе подписок на обслуживание. Он определяется для подписок с использованием группы подписок на обслуживание. Любой новый сбор по подписке, который вы создаете, содержит предлагаемую дату начала. Это дата начала периода, если это первый создаваемый период, или в конца предыдущего периода, если это второй или последующий период.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

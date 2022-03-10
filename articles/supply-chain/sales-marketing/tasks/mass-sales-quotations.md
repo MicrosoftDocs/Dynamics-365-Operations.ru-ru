@@ -1,26 +1,24 @@
 ---
 title: Создать предложения по продажам
 description: Эта процедура демонстрирует, как эффективно создавать предложения, предлагающие набор продуктов или услуг, которые должны быть отправлены нескольким клиентам.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: acb2b49c7cb2024aec1140d04150bd1ab9d75c14
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006849"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573377"
 ---
 # <a name="mass-create-sales-quotations"></a>Создать предложения по продажам
 
@@ -100,3 +98,6 @@ ms.locfileid: "5006849"
 11. Перейдите в раздел "Продажи и маркетинг" > "Предложение по продажам" > "Все предложения".
     * Убедитесь, что предложения были созданы для всех клиентов, указанных в процедуре массового обновления, как основанные на выбранном шаблоне.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

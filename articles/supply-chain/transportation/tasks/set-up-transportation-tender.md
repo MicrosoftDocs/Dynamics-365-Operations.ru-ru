@@ -1,27 +1,25 @@
 ---
 title: Настройка способа доставки транспортировки
 description: В этой процедуре показано, как настроить способ доставки для транспортировки.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSRouteWorkbench, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81f556d4e6478edf87b3fd5fa5fcdbf75432acaf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6d149225e5ff59b448bb0ebbd97fcfd511242ae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005110"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571193"
 ---
 # <a name="set-up-a-transportation-tender"></a>Настройка способа доставки транспортировки
 
@@ -47,3 +45,6 @@ ms.locfileid: "5005110"
 7. Щелкните Отправить.
 8. Выберите маршрут.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

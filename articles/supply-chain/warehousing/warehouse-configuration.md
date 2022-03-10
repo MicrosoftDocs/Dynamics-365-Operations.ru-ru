@@ -3,24 +3,26 @@ title: Обзор конфигурации склада
 description: В этой статье описывается, как настроить склад. Она включает информацию о том, как включить макет склада и процессы склада.
 author: perlynne
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11554
+ms.custom:
+- "11554"
+- intro-internal
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837377"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983012"
 ---
 # <a name="warehouse-configuration-overview"></a>Обзор конфигурации склада
 
@@ -109,8 +111,7 @@ ms.locfileid: "5837377"
 
 Чтобы упростить и ускорить определение действий, которые связаны с каждой строкой директивы местонахождений, используйте одну из предопределенных стратегий. Например, можно использовать стратегию **Пустое местонахождение без входящих работ** для поиска свободных местонахождений на складе или можно использовать стратегию **Резервирование партии по FEFO** для исходящей комплектации для продаж.
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка ячейки на складе, на котором включена система WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 

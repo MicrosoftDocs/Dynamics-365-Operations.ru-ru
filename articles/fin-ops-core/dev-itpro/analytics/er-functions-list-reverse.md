@@ -2,11 +2,8 @@
 title: Функция ER REVERSE
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности REVERSE.
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 895d5f13f065b2188f245d081fa69e7e63555dde
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 96fc3c2f845f84a5435fd0119a7eaa146caa2dc8da9c931ccfe0915af91ed7cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752371"
 ---
 # <a name="reverse-er-function"></a>Функция ER REVERSE
 
@@ -59,3 +56,6 @@ REVERSE (list)
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Функции для работы со списками](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

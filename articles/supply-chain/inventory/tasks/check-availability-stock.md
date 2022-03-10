@@ -1,12 +1,10 @@
 ---
 title: Проверка доступности запасов
 description: В этой процедуре показано, как проверить запасы в наличии и физические запасы в наличии для определенного кода номенклатуры.
-author: ShylaThompson
-manager: tfehr
+author: yufeihuang
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand, InventOnhandItem
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d04abae36e144b429b8ebc73b4c110389fecd1f0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c1533dc677c53e90d73077e06a67c71cebc1b7e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000167"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574625"
 ---
 # <a name="check-the-availability-of-stock"></a>Проверка доступности запасов
 
@@ -59,3 +57,6 @@ ms.locfileid: "5000167"
 5. Щелкните **OK**.
 6. Закройте страницу.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,28 @@
 ---
 title: Обзор заказа на покупку
 description: В этой статье приводятся общие сведения о заказах на покупку и ссылки на дополнительные статьи, связанные с различными стадиями хода выполнения заказа на покупку.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909140"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982312"
 ---
 # <a name="purchase-order-overview"></a>Обзор заказа на покупку
 
@@ -76,8 +78,7 @@ ms.locfileid: "5909140"
 -   **Подтверждено** — этот статус присваивается после подтверждения заказа. Обычно этот статус является последним статусом утверждения, который назначается заказу.
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Создание заказов на покупку](purchase-order-creation.md)
 

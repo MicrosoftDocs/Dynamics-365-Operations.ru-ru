@@ -2,26 +2,23 @@
 title: Создание и назначение политик распределения затрат единицам управления затратами
 description: Эта процедура используется для создания политики распределения затрат с соответствующими правилами и ее назначения единице управления затратами.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerPolicyAssignment
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad95752ce40faaa84747dac9bfbf2887f7a5af42
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de50191a7be30364236ee82b99d207e6f131cce26097a39728fea25e3ef7df9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712469"
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Создание и назначение политик распределения затрат единицам управления затратами
 
@@ -67,3 +64,6 @@ ms.locfileid: "4447348"
 5. В поле "Единица управления затратами" введите или выберите значение.
 6. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

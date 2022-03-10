@@ -1,27 +1,29 @@
 ---
 title: Регистрация и удаление льгот для работников
 description: Эта процедура демонстрирует, как для одного работника можно зарегистрировать одну или несколько льгот, а также как для нескольких работников можно зарегистрировать льготу.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 47e8bf46d3d38cd1b776debb835d53a22e724149
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805858"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065384"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Регистрация и удаление льгот для работников
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

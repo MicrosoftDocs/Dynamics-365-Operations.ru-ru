@@ -1,29 +1,26 @@
 ---
 title: Гарантии на основные средства и типы основных средств
 description: В этом разделе объясняется, как настроить гарантии на активы и типы активов в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75de9a51560dcd8fea7998425fee14a27e891972
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcfbd56f5fa1491f13ea65c5fb3d70659c3b945276813d7c1c922c849bf8e3a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751178"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Гарантии на основные средства и типы основных средств
 
@@ -50,7 +47,10 @@ ms.locfileid: "4436177"
     > [!IMPORTANT]
     > Если дата выбрана в поле **Начало гарантии** в заказе на работу, гарантия становится действительной для заказа на работу на эту дату. При создании заказа на работу в поле **Начало гарантии** автоматически задается дата создания. Однако дату можно изменить таким образом, чтобы она соответствовала, например, дате начала гарантийного соглашения.
     >
-    > ![Страница заказов на работу](media/02-warranty.png)
+    > ![Страница заказов на работу.](media/02-warranty.png)
 
 > [!NOTE]
 > При создании заказа на работу для актива, охватываемого гарантией поставщика, если заказ на работу имеет ожидаемую дату начала в течение гарантийного периода, вы получите уведомление о гарантийном соглашении. Затем можно отменить заказ на работу, если требуется.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

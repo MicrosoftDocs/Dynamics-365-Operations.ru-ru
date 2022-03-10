@@ -2,7 +2,7 @@
 title: Настройка разделителя плана счетов как уникального
 description: В этой теме объясняется, как не допускается одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя.
 author: panolte
-ms.date: 03/30/2018
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,23 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: f4f89772dedb5433c3da3f0f7bf02106641f59a8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748115"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500511"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Настройка разделителя плана счетов как уникального
 
 [!include [banner](../includes/banner.md)]
 
 В Microsoft Dynamics AX 2012 можно использовать одинаковые разделителя для вашего плана счетов и значений аналитик. В текущих версиях Finance and Operations не допускается одинаковый разделитель для плана счетов и значений аналитик. Если имеется дублирующий разделитель, его можно изменить после обновления. 
-
-Эта функция доступна в следующих версиях:
-- Finance and Operations версии 8.0
-- Finance and Operations версии 7.1, KB 4094701, Невозможно ввести финансовые аналитики, когда значения аналитики содержат разделитель плана счетов
-- Finance and Operations версии 7.2, KB 4092967 Невозможно выбрать подпроект как аналитику, когда формат подпроекта содержит разделитель аналитики
 
 ## <a name="update-delimiter"></a>Обновление разделителя
 Если имеется конфликт с планом счетов, можно изменить разделитель плана счетов и формат кода проекта/подпроекта. Никакие другие разделители аналитики изменить невозможно. 

@@ -2,25 +2,22 @@
 title: Наличные деньги — локальные основные формы и унифицированные отчеты
 description: В этой теме приводятся сведения об отчетах по проводкам по кассе, доступных для компаний с русским контекстом.
 author: v-nadyuz
-manager: AnnBe
 ms.date: 11/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0f4e985eb2ddbf2c25dd558918912626f40b4665
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: d083c6474572cfd3d94abc6afb61238010d09a67c96cbb0c7bce4eb131e98a0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727940"
 ---
 # <a name="cash---local-primary-forms-and-unified-reports"></a>Наличные деньги — локальные основные формы и унифицированные отчеты
 [!include [banner](../includes/banner.md)]
@@ -68,7 +65,7 @@ ms.locfileid: "4408598"
 4. На вкладке **Платеж** в поле **Тип банковской проводки** выберите тип проводки, для которого ранее был установлен флажок **Разрешить объявление на взнос наличными** для данного раздела.
 5. В области действий выберите **Печать \> Объявление на взнос наличными** для создания и печати отчета. Отчет создается как документ Microsoft Excel, в котором используется шаблон для формы **0402001**.
 
-    ![Отчет объявления на взнос наличными](media/cash-primary-01.png)
+    ![Отчет объявления на взнос наличными.](media/cash-primary-01.png)
     
     В созданной строке поле **Объявление на взнос наличными** задано и не может редактироваться.
 
@@ -129,8 +126,11 @@ ms.locfileid: "4408598"
     - **Разнесенная сумма** — сумма, указанная в поле **Разнесенная сумма (валюта)** в основной валюте компании.
     - **Сумма курсовой разницы** — если корректировки валютного курса для указанной валюты были рассчитаны на дату запасов, это поле помечается. Для основной валюты поле **Сумма корректировки валютного курса** всегда помечается.
 
-![Акт инвентаризации денежных средств](media/cash-primary-02.png)
+![Акт инвентаризации денежных средств.](media/cash-primary-02.png)
 
 4. Выберите **ОК**, чтобы создать акт инвентаризации денежных средств.
 
-    ![Отчет акта инвентаризации денежных средств](media/cash-primary-03.png)
+    ![Отчет акта инвентаризации денежных средств.](media/cash-primary-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Содержимое Power BI "Набор сотрудников"
-description: В этом разделе описывается содержимое Power BI "Набор сотрудников". В нем описывается порядок доступа к отчетам и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+description: В этом разделе описывается содержимое Power BI "Набор сотрудников".
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765130"
 ---
 # <a name="recruiting-power-bi-content"></a>Содержимое Power BI "Набор сотрудников"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое Microsoft Power BI **Набор сотрудников**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этом разделе описывается содержимое **Набор сотрудников** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Набор сотрудников** отображается в рабочей области **Управление набором сотрудников**.
@@ -64,3 +62,6 @@ ms.locfileid: "4680570"
 | Производительность          | Оценка, описание и модель оценки                            | Кандидат, принятый на работу кандидат, уволенный кандидат |
 | Проект по набору сотрудников  | Описание проекта, статус проекта и вакансии                | Кандидат, принятый на работу кандидат, уволенный кандидат |
 | Уволенный кандидат | Уволенные кандидаты, причины, производительность и дата увольнения | Компания, смещение календаря, дата, географическое местоположение, имя кандидата, демографические данные, занятость, источник, проект по набору сотрудников, имя кандидата |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

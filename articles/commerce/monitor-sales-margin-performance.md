@@ -2,11 +2,9 @@
 title: Отслеживание производительности продаж и маржи
 description: Можно отслеживать производительность продаж и маржи в реальном времени с помощью Dynamics 365 Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51dc7c4b62a497e3dc9279b3c5a616057316c106
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b8455d29b0e1bf7e691a7ac5394724482862b9a4107004aeb0fee91d19823856
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744490"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>Мониторинг эффективности продаж и маржи
 
@@ -48,3 +46,6 @@ ms.locfileid: "4985894"
 - Рабочая область **Управление категориями и продуктами** &gt; **Retail и Commerce** &gt; **Продукты и категории** &gt; **Управление магазинами** &gt; **Отчеты**
 - Рабочая область **Управление ценообразованием и скидками** &gt; **Retail и Commerce** &gt; **Цены и скидки** &gt; **Управление магазинами** &gt; **Отчеты**
 - Раздел **Запросы и отчеты** &gt; **Retail и Commerce** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Формирование отчетов в формате Office, содержащих внедренные изображения
 description: В этой теме описывается, как разрабатывать конфигурации электронной отчетности (ER) для формирования электронных документов в Excel и Word, содержащих внедренные изображения.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ed0ab0042c98f063eb0ec2ab31c913d9385186c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735534"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Формирование отчетов в формате Office, содержащих внедренные изображения
 

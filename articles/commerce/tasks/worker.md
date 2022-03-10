@@ -2,11 +2,9 @@
 title: Настройка работника
 description: Эта процедура демонстрирует порядок настройки работника в качестве торгового представителя, который имеет право на комиссионные по продажам в POS.
 author: jblucher
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 120705200f223e31c72290059e8634e7db6f9fdd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a21d5f2d5963db2a92b653e8e520f96f11ba1bf6acbb238812211154d5b39fc0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726391"
 ---
 # <a name="configure-a-worker"></a>Настройка работника
 

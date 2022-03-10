@@ -1,9 +1,9 @@
 ---
 title: Обзор запросов предложений (RFQ)
 description: В этом разделе содержится обзор запросов предложений (RFQ). Организации выпускают запросы предложения, когда они хотят получить конкурентные предложения от нескольких поставщиков на номенклатуры или услуги, которые требуется приобрести.
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc7700c825feb9727b816d9a2776e37fdbd2ff8416ffb4530e5af8c35d61b070
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757694"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983400"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Обзор запросов предложений (RFQ)
 

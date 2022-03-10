@@ -2,11 +2,9 @@
 title: Создание иерархии отчетности организации
 description: Эта процедура используется для создания иерархии отчетности для организации.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3db8465c462caffeaf6bd12d17c4b61355ed8eed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4e9d5cc6fd6188c988a433fcd7f2bf81bf31668edf762c0ed3bcbf67477a4e35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719278"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Создание иерархии отчетности организации
 

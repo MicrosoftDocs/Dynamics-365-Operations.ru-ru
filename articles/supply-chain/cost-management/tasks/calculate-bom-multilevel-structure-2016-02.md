@@ -1,7 +1,7 @@
 ---
 title: Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)
 description: В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью многоуровневого развертывания, основанного на схеме калькуляции.
-author: ShylaThompson
+author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 859f7b7c828dcdad1aa836044d2cc26847630f1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78a8bb51925489015098fc0ce5552107255bc3e4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821425"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572129"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)
 

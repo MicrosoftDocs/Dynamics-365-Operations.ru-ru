@@ -1,27 +1,29 @@
 ---
 title: Разработка плана преемственности
 description: По мере роста организации следует начать планирование преемственности.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2c82280feed911537b5803fb55626eaaa1019b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: adcb7387b9ac21a88c1ee047d1b9573708a14abb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803545"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068877"
 ---
 # <a name="develop-a-succession-plan"></a>Разработка плана преемственности
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +51,7 @@ ms.locfileid: "5803545"
 20. В поле **Важность** выберите вариант.
 21. В списке выберите строку 4.
 22. Выберите флажок **Необязательно**.
-23. В поле "Важность" выберите вариант.
+23. В поле **Важность** выберите вариант.
 24. Разверните экспресс-вкладку **Образование**, чтобы просмотреть или изменить компетенции образования, которые необходимо включить в подбор персонала.
 25. Выберите **Выполнить**.
 26. Нажмите **ОК**.

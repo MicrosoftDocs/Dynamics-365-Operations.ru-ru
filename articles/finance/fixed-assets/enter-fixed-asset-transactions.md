@@ -12,20 +12,19 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 2c5530bb7b0472aad75ec04c00ba828b8efb877d
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344698"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891580"
 ---
 # <a name="fixed-asset-transaction-options"></a>Параметры проводки основных средств
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Эта тема описывает различные методы, доступные для создания проводок с основными средствами.
 

@@ -2,11 +2,9 @@
 title: Определение атрибутов канала
 description: Обогатите канал, добавив атрибуты канала и продуктов.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f0c774c6fca47bf046fc4f73baac18319e0d125
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726415"
 ---
 # <a name="define-channel-attributes"></a>Определение атрибутов канала
 
@@ -33,7 +31,7 @@ ms.locfileid: "5256933"
 ## <a name="define-channel-product-attribute"></a>Определите атрибут продукта канала.
 1. Перейдите в раздел "Retail и Commerce" > "Настройка канала" > "Категории каналов и атрибуты продуктов".
 2. В дереве выберите "Contoso Retail\Fashion\Houston".
-3. Щелкните "Изменить".
+3. Выберите Изменить.
 4. В поле "Иерархия категорий" введите или выберите значение.
     * Навигационная иерархия будет использоваться для перемещения продукта внутри ваших каналов.  
 5. Разверните раздел "Группа атрибутов".

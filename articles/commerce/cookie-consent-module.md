@@ -2,11 +2,9 @@
 title: Модуль согласия на файлы cookie
 description: В этом разделе описываются модули согласия на получение файлов cookie, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 57c8876f1faf08ce965ccd796551996a8651e2eb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213946"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750746"
 ---
 # <a name="cookie-consent-module"></a>Модуль согласия на получение файлов cookie
 
@@ -37,7 +35,7 @@ ms.locfileid: "5213946"
 Модуль согласия на файлы cookie может быть настроен на фрагменте заголовка страницы, чтобы его можно было применять при загрузке страницы. Модуль согласия на файлы cookie должен иметь четкое сообщение, которое информирует пользователя сайта об использовании файлов cookie на сайте и должна предоставить ссылку на страницу конфиденциальности этого сайта.
 
 На следующем рисунке показан пример сообщения о согласии на файлы cookie со ссылкой на страницу политики конфиденциальности сайта, которая отображается в заголовке страницы сайта.
-![Пример модуля получения согласия на файлы cookie](./media/ecommerce-cookieconsent.png)
+![Пример модуля получения согласия на файлы cookie.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Свойства модуля согласия на файлы cookie
 

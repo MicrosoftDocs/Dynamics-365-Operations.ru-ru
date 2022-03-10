@@ -1,27 +1,25 @@
 ---
 title: Пакетный выпуск частично зарезервированных заказов на перемещение
 description: В этой теме описывается, как настроить и применить пакетный выпуск частично зарезервированных заказов на перемещение на мобильном устройстве.
-author: pjacobse
-manager: tfehr
+author: perlynne
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b13e3525049c893a7193b549f5b4ba63b8841b87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0fbe12b66da68bcd130fdb188eb0106b686200c3b59edc2af96b79f65022567a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759390"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Пакетный выпуск частично зарезервированных заказов на перемещение
 

@@ -1,36 +1,38 @@
 ---
 title: Настройка интеграции с Dataverse
-description: Можно включать и выключать интеграцию между Microsoft Dataverse и Dynamics 365 Human Resources. Можно также просмотреть сведения о синхронизации, удалить данные отслеживания и повторно синхронизировать таблицу, чтобы помочь в устранении ошибок данных в этих средах.
-author: andreabichsel
-manager: tfehr
-ms.date: 01/25/2021
+description: Эта тема описывает интеграцию между Microsoft Dataverse и Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38c42469e62bf5457d0281540325a6c56a5f930f
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: c4e68142045b72b139bdda8be707a73e21e568fd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114046"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065459"
 ---
 # <a name="configure-dataverse-integration"></a>Настройка интеграции с Dataverse
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Можно включать и выключать интеграцию между Microsoft Dataverse и Dynamics 365 Human Resources. Можно также просмотреть сведения о синхронизации, удалить данные отслеживания и повторно синхронизировать таблицу, чтобы помочь в устранении ошибок данных в этих средах.
 
 > [!NOTE]
-> Дополнительные сведения об Dataverse (ранее Common Data Service) и обновлениях терминологии см. в разделе [Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Дополнительные сведения об Dataverse (ранее Common Data Service) и обновлениях терминологии см. в разделе [Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 После отключения интеграции пользователи могут вносить изменения в Human Resources или Dataverse, но эти изменения не синхронизируются между этими двумя средами.
 
@@ -49,15 +51,15 @@ ms.locfileid: "5114046"
 
 1. В экземпляре Human Resources, для которого необходимо просмотреть или настроить параметры интеграции с Dataverse, выберите плитку **Администрирование системы**.
 
-    [![Плитка администрирования системы](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Плитка администрирования системы.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Выберите вкладку **Ссылки**.
 
-    [![Вкладка ссылок](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Вкладка ссылок.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. В **Интеграции** выберите **конфигурация Dataverse**.
 
-    [![Ссылка на конфигурацию Dataverse](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Ссылка на конфигурацию Dataverse.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Включение и выключение интеграции между Human Resources и Dataverse
 
@@ -68,7 +70,7 @@ ms.locfileid: "5114046"
 
 - Чтобы отключить интеграцию, установите для параметра значение **Нет**.
 
-[![Включение или отключение интеграции Dataverse](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Включение или отключение интеграции Dataverse.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Настоятельно рекомендуется отключить интеграцию Dataverse при выполнении задач переноса данных. Большие объемы передачи данных могут значительно повлиять на производительность системы. Например, отправка 2000 работников может занять несколько часов, если интеграция включена, и менее одного часа при отключении. Представленные в этом примере номера предназначены только для демонстрационных целей. Точное количество времени, необходимое для импорта записей, может сильно различаться в зависимости от многих факторов.
@@ -99,7 +101,7 @@ ms.locfileid: "5114046"
 
 - Чтобы удалить связь записи Human Resources и строки Dataverse выберите таблицу в поле **Таблица Dataverse**, затем выберите **Удалить информацию отслеживания**.
 
-[![Очистка информации отслеживания](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Очистка информации отслеживания.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Чтобы выполнить полную синхронизацию таблицы после очистки отслеживания, см. следующую процедуру.
 
@@ -117,12 +119,15 @@ ms.locfileid: "5114046"
 
 2. Выберите **Синхронизировать**.
 
-[![Выполнение полной синхронизации](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Выполнение полной синхронизации.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>См. также
 
 [Таблицы Dataverse](hr-developer-entities.md)<br>
 [Настройка виртуальных таблиц Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Вопросы и ответы по виртуальным таблицам Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Что такое Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Обновления терминологии](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Что такое Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Обновления терминологии](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

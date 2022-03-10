@@ -2,7 +2,6 @@
 title: Импорт файлов в формате XML с дополнительными атрибутами
 description: В этой теме приводятся сведения о разработке форматов электронной отчетности, которые определяют атрибуты XML для разбора входящих электронных документов в формате XML.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 399f19197a729c11eaff94d708c837caef0d366d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757305"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Импорт файлов в формате XML с дополнительными атрибутами
 

@@ -1,12 +1,10 @@
 ---
 title: Расчет максимальной мощности
 description: В этом разделе описывается, как рассчитать максимальную мощность в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCapacityLoad, EntAssetWorkOrderCapacityLoadCalculate, EntAssetWorkOrderCapacityLoad
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aa87f5594be079144142296cac977b0bfdd125e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: eed75cd5268b19d819d42e764bdbb5e6f4c79a0a732c5023b3fc40da798e2ca1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757886"
 ---
 # <a name="calculate-capacity-load"></a>Расчет максимальной мощности
 
@@ -55,8 +53,11 @@ ms.locfileid: "5022591"
 
 7. В группах **Группировать по...** щелкните соответствующие кнопки, чтобы отобразить необходимый уровень детализации для расчета. На снимке экрана ниже выбранные кнопки **Группировать по** выделяются синим цветом. Нажимайте кнопку, чтобы активировать или деактивировать ее.
 
-    ![Рисунок 1](media/01-capacity-planning.png)
+    ![Рисунок 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >Если требуется сосредоточиться только на планировании мощностей по запланированным заказам на работу, см. раздел [Расчет максимальной мощности по запланированным заказам на работу](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

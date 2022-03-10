@@ -1,29 +1,26 @@
 ---
 title: Расчет максимальной мощности по запланированным заказам на работу
 description: В этой теме объясняется, как рассчитать максимальную мощность по запланированным заказам на работу в модуле "Управление активами".
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b817909ac0950b773cba775be2502b5796c6d8d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff244e51151a1cc0485cae25873566fa97253171516d48449fed75f070146431
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766226"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Расчет максимальной мощности по запланированным заказам на работу
 
@@ -51,10 +48,13 @@ ms.locfileid: "4436176"
 
 На следующем рисунке показан результат вычисления, охватывающий три недели для типа загрузки **Зарезервирован**.
 
-![Рисунок 1](media/08-work-order-scheduling.png)
+![Рисунок 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 При выборе типов загрузки **Мощность** или **Остаток** для расчета этот же результат будет отображаться, если для ресурсов в выбранном периоде не было выполнено резервирование.
 
 Дополнительные сведения о том, как рассчитать максимальной мощности по строкам графика обслуживания и незапланированным заказам на работу см. в разделе [Расчет максимальной мощности](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

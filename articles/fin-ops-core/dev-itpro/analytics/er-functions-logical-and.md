@@ -2,11 +2,8 @@
 title: Функция ER AND
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности AND
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ccb7feb1d0f6836e7e8001870034900f6a1f598
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4d327f0f961a11fecdbc055ffbb1f3d8bc15bcfdd732e2565d0a5e9e2c0a31ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756437"
 ---
 # <a name="and-er-function"></a>Функция ER AND
 
@@ -65,3 +62,6 @@ AND (condition 1[, condition 2, …, condition N])
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Логические функции](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
