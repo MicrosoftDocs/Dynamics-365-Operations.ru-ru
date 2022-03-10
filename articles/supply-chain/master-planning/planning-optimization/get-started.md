@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301682"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902567"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -40,7 +40,7 @@ ms.locfileid: "6301682"
 
 ## <a name="availability"></a>Доступность
 
-Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Европа", "Соединенное Королевство", "Австралия" и "Азиатско-Тихоокеанский регион". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается.
+Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Европа", "Соединенное Королевство", "Австралия", "Азиатско-Тихоокеанский регион", "Япония" и "Индия". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается. Дополнительные сведения о географических регионах Azure и соответствующих регионах см. в разделе [Географические регионы Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Обратите внимание, что оптимизация планирования не поддерживает локальное развертывание Dynamics 365 Supply Chain Management.
 

@@ -2,11 +2,9 @@
 title: Синхронизация управления задачами между Microsoft Teams и Dynamics 365 Commerce POS
 description: В этой теме описывается, как синхронизировать управление задачами между Microsoft Teams и POS-терминалом Dynamics 365 Commerce (POS).
 author: gvrmohanreddy
-manager: annbe
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ca0cb32ac3ee508ddcd5346a895fb9904fa92517
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842734"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323505"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Синхронизация управления задачами между Microsoft Teams и Dynamics 365 Commerce POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этой теме описывается, как синхронизировать управление задачами между Microsoft Teams и POS-терминалом Dynamics 365 Commerce (POS).
 
@@ -57,6 +54,9 @@ ms.locfileid: "5842734"
 ## <a name="link-pos-and-teams-for-task-management"></a>Связь POS и Teams для управления задачами
 
 Чтобы связать POS-терминалы и приложения Microsoft Teams для управления задачами в Commerce Headquarters, выполните следующие действия.
+
+> [!NOTE]
+> Прежде чем пытаться интегрировать управление задачами с Microsoft Teams, убедитесь, что вы включили [интеграцию Dynamics 365 Commerce и Microsoft Teams](enable-teams-integration.md). 
 
 1. Перейдите в раздел **Retail и Commerce \> Управление задачами \> Интеграция задач с Microsoft Teams**.
 1. На панели операций выберите **Правка**.

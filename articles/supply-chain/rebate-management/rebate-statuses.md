@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f5fa80e0f45cd9318a15d846f00a8e1a58f91e0e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 62584aaf91802b002e82642bac84869609cbe61a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020347"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571673"
 ---
 # <a name="rebate-statuses"></a>Статусы ретробонусов
 

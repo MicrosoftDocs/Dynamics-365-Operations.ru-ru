@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 06204b6c9597003753c3c03ca86486b29945f6b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0bea115ed111d1309e19631c1cc08fdbab0dca3f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790364"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062042"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (19 марта 2020 г.)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3014. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
 
@@ -127,7 +126,7 @@ ms.locfileid: "5790364"
 ## <a name="see-also"></a>См. также
 
 [Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
-[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)
 

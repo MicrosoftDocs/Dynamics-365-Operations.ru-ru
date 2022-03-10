@@ -2,7 +2,6 @@
 title: Настройка процессов утверждения в workflow-процессе
 description: Используйте следующую процедуру для настройки свойств для процесса утверждения.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
@@ -15,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37a079ee98495a27c1462df32f2973b012069ca8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562821"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070810"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Настройка процессов утверждения в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Используйте следующую процедуру для настройки свойств для процесса утверждения.
 

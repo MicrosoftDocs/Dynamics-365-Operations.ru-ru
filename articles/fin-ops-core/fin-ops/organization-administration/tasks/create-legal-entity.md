@@ -2,7 +2,6 @@
 title: Создание юридического лица
 description: Юридическое лицо - это организация, которая определяется посредством регистрации в органе власти.
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 981f73752a39c765a4e872164a8d6ee19f2941fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759049"
 ---
 # <a name="create-a-legal-entity"></a>Создание юридического лица
 

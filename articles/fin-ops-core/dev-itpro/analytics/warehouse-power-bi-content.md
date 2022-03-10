@@ -2,11 +2,9 @@
 title: Содержимое Power BI "Производительность склада"
 description: В этой теме описывается, что входит в содержимое "Производительность склада" для Power BI.
 author: Mirzaab
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: db56d1bd26f27987f00126ac1a6434cf36691fbf594cab3dd1260ed5251480a9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750558"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Содержимое Power BI "Производительность склада"
 
@@ -111,3 +109,6 @@ ms.locfileid: "5092824"
 | Производительность отгрузки        | Отгружено по продуктам                       | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
 | Производительность отгрузки        | Отгружено по клиентам                      | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
 | Производительность отгрузки        | Отгружено по сайтам/складам              | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

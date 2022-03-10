@@ -2,11 +2,9 @@
 title: Правило выпуска на склад
 description: В этом разделе приводятся сведения о функции "Правило выпуска на склад", которая обеспечивает гибкость при выпуске на склад. Она добавляет параметр конфигурации, который определяет, разрешает ли система выпуск частично зарезервированных строк заказа.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8c4775ca3f44486fd3cd557df49acd229048d186
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996181"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580032"
 ---
 # <a name="release-to-warehouse-rule"></a>Правило выпуска на склад
 
@@ -130,3 +128,6 @@ ms.locfileid: "4996181"
 
 > [!NOTE]
 > Такой же результат ожидается, когда вторая строка частично зарезервирована. В этом случае будет создана работа для зарезервированного количества по строке, но не для незарезервированного количества.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

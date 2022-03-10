@@ -1,8 +1,8 @@
 ---
-title: Оценка модели прогнозирования первоначальных платежей клиента (предварительная версия)
+title: Оценка модели прогнозирования первоначальных платежей клиента
 description: В этой теме описываются шаги, которые можно предпринять для понимания модели прогнозирования платежей клиентов и оценки ее эффективности.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349018"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969120"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Оценка модели прогнозирования первоначальных платежей клиента (предварительная версия)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Оценка модели прогнозирования первоначальных платежей клиента
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме объясняется, как оценить прогнозную модель после включения финансового анализа и последующего создания и обучения первой модели. В этой теме рассматриваются модели для прогнозирования платежей клиентов. В ней описываются шаги, которые можно предпринять для понимания модели прогнозирования платежей клиентов и оценки ее эффективности.
 

@@ -1,11 +1,10 @@
 ---
-title: Настройка среды для поиска справочника
-description: В этом разделе объясняется, как настроить среду для использования функции поиска основных данных для Расчет налогов.
+title: Включение подстановки основных данных для конфигурации расчета налога
+description: В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов.
 author: kai-cloud
-ms.date: 04/21/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,70 +15,70 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
-ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5924162"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867360"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Настройка среды для поиска справочника
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Включение подстановки основных данных для конфигурации расчета налога 
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе объясняется, как настроить среду для использования функции поиска основных данных для Расчет налогов.
+В этой теме объясняется, как настроить и включить функцию подстановки основных данных для расчета налогов. Раскрывающийся список доступен для выбора значений в конфигурации расчета налогов для таких полей , как **Юридическое лицо**, **Счет поставщика**, **Код номенклатуры** и **Условия поставки**. Эти значения берутся из связанной среды Microsoft Dynamics 365 Finance, использующей источник данных Microsoft Dataverse.
 
-1. Настройте интеграцию Power Platform в Lifecycle Services (LCS). Дополнительные сведения см. в [Microsoft Power Platform интеграция — Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
-2. Настройка Dynamics 365 Finance и Microsoft Dataverse. Дополнительные сведения см. в [Получение решения](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) и [Проверка подлинности и авторизация](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. Настройте следующие сущности. Дополнительные сведения см. в разделе [Включение виртуальных сущностей](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
-      - CompanyInfoEntity
-      - CurrencyEntity
-      - CustCustomerV3Entity
-      - DeliveryTermsEntity
-      - EcoResProductCategoryEntity
-      - EcoResReleasedProductV2Entity
-      - LogisticsAddressCityEntity
-      - LogisticsAddressCountryRegionTranslationEntity
-      - LogisticsAddressStateEntity
-      - PurchProcurementChargeCDSEntity
-      - SalesChargeCDSEntity
-      - TaxGroupEntity
-      - TaxItemGroupHeadingEntity
-      - VendVendorV2Entity
-4. Настройте Dynamics 365 Regulatory Configuration Service (RCS). 
-5. Создайте запрос на обслуживание для Microsoft, чтобы включить в фокус-тестирование следующих функций:
+> [!NOTE] 
+> Функция подстановки основных данных в расчете налога является дополнительной функциональностью. Можно пропустить следующие шаги, если отключить функцию **Поддержка источника данных налоговой службы Dataverse** в Regulatory Configuration Service (RCS). Однако в этом случае раскрывающийся список не будет доступен в конфигурации расчета налогов.
 
-      - ERCdsFeature
-      - TaxServiceCDSFeature
+1. Настройте интеграцию Microsoft Power Platform в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в [Microsoft Power Platform интеграция — Обзор надстроек](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). После выполнения этого шага появится название среды Microsoft Power Platform в разделе **Интеграция Power Platform**.
+2. Перейдите в [центр администрирования Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) и выберите имя среды. Предоставлен URL-адрес среды.
+3. Настройка Dynamics 365 Finance и Dataverse. Дополнительные сведения см. в [Получение решения виртуальной сущности](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#get-virtual-entity-solution) и [Проверка подлинности и авторизация](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
+4. Настройте следующие сущности. Дополнительные сведения см. в разделе [Включение виртуальных объектов Microsoft Dataverse](../../fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md).
 
-6. Перейдите к рабочей области **Управление функциями** и включите следующие функции:
+    - CompanyInfoEntity
+    - CurrencyEntity
+    - CustCustomerV3Entity
+    - DeliveryTermsEntity
+    - EcoResProductCategoryEntity
+    - EcoResReleasedProductV2Entity
+    - LogisticsAddressCityEntity
+    - LogisticsAddressCountryRegionTranslationEntity
+    - LogisticsAddressStateEntity
+    - PurchProcurementChargeCDSEntity
+    - SalesChargeCDSEntity
+    - TaxGroupEntity
+    - TaxItemGroupHeadingEntity
+    - VendVendorV2Entity
 
-      - (Предварительная версия) Поддержка источников данных Dataverse электронной отчетности
-      - (Предварительная версия) Поддержка источников данных Dataverse налоговой службы
-      - (Предварительная версия) Функции глобализации
+5. Настройка Regulatory Configuration Service (RCS). Откройте рабочую область **Управление функциями** и включите следующие функции:
 
-5. Войдите в RCS с помощью учетной записи администратора клиента.
-6. Перейдите к **Электронная отчетность** > **Подключенные приложения**. 
-7. Выберите **Создать**, чтобы добавить запись, и введите следующие сведения в поле. 
+    - Поддержка источников данных Dataverse электронной отчетности
+    - Поддержка источников данных Dataverse налоговой службы
+    - Функции глобализации
 
-   - В поле **Имя** введите имя.
-   - В поле **Тип** выберите **Dataverse**.
-   - В поле **Приложение** выберите ваш URL-адрес Dataverse.
-   - В поле **Клиент** введите ваш клиент.
-   - В поле **пользовательский URL-адрес** введите ваш URL-адрес Dataverse и добавьте к нему "/api/data/v9.1".
+6. Войдите в RCS с помощью учетной записи администратора клиента.
+7. Перейдите к **Электронная отчетность** > **Подключенные приложения**. 
+8. Выберите **Создать**, чтобы добавить запись, и введите следующие сведения в поле. 
 
-8. Выберите **Проверить подключение** и завершите процесс подключения. 
+    - В поле **Имя** введите имя.
+    - В поле **Тип** выберите **Dataverse**.
+    - В поле **Приложение** выберите ваш URL-адрес Dataverse.
+    - В поле **Клиент** введите ваш клиент.
+    - В поле **пользовательский URL-адрес** введите ваш URL-адрес Dataverse и добавьте к нему "/api/data/v9.1".
 
-   [![Кнопка проверить подключение](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+9. Выберите **Проверить подключение** и завершите процесс подключения. 
 
-9. Перейдите к **Электронная отчетность** > **Конфигурации налогов** и выполните импорт конфигурации налогов из [Конфигурации налогов](https://go.microsoft.com/fwlink/?linkid=2158352).
+    [![Кнопка проверить подключение.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
-   [![Страница конфигурации налогов, дерево модели налоговых данных](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+10. Перейдите к **Электронная отчетность** > **Конфигурации налогов** и выполните импорт конфигурации налогов из [Конфигурации налогов](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-10. Перейдите к **Сопоставление модели налогооблагаемого документа** или **Dataverse Сопоставление модели** при использовании конфигурации Microsoft, а в поле **Подключенное приложение** выберите запись, созданную на шаге 7.
-11. Установите **По умолчанию для сопоставления модели** на **Да**.
+    [![Страница конфигурации налогов, дерево модели налоговых данных.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
-   [![Страница сопоставления модели](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+11. Перейдите к **Сопоставление модели налогооблагаемого документа** или **Dataverse Сопоставление модели** при использовании конфигурации Microsoft, а в поле **Подключенное приложение** выберите запись, созданную на шаге 7.
+12. Установите **По умолчанию для сопоставления модели** на **Да**.
+
+    [![Страница сопоставления модели.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

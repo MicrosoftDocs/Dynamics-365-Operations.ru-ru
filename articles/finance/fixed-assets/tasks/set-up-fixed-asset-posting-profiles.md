@@ -1,33 +1,30 @@
 ---
-title: Настройка профилей разноски основных средства
-description: В этом руководстве по задаче показано, как настроить профили разноски основных средств.
-author: saraschi2
-manager: AnnBe
+title: Настройка профилей разноски основных средств
+description: В этой процедуре показано, как настроить профили разноски основных средств.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447265"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883776"
 ---
-# <a name="set-up-fixed-asset-posting-profiles"></a>Настройка профилей разноски основных средства
+# <a name="set-up-fixed-asset-posting-profiles"></a>Настройка профилей разноски основных средств
 
 [!include [banner](../../includes/banner.md)]
 
-В этом руководстве по задаче показано, как настроить профили разноски основных средств.  В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.  Примеры, представленные в руководстве по задаче, предназначены для основного профиля разноски, хотя профили разноски должны отвечать требованиям определенных планов счетов и финансовой отчетности.
+В этой процедуре показано, как настроить профили разноски основных средств. Примеры, представленные в этой теме, предназначены для основного профиля разноски, хотя профили разноски должны отвечать требованиям определенных планов счетов и финансовой отчетности.
 
 1. В области перехода, перейдите к **Модули > Основные средства > Настройка > Профили разноски основных средств**.
 2. Нажмите кнопку **Создать**.
@@ -123,3 +120,6 @@ ms.locfileid: "4447265"
 88. В поле **Счет ГК** укажите требуемые значения.
 89. В поле **Корр.счет** укажите требуемые значения.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

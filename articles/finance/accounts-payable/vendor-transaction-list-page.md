@@ -1,7 +1,7 @@
 ---
 title: Страница списка проводок по поставщику
 description: В этой теме содержится информация о странице списка "Проводки по поставщику" в Microsoft Dynamics 365 Finance.
-author: mikefalkner
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 444edde75298c45db141abae3117bfcaeb2865ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6029e67cbbe72bbe95082cb7146834c0d7318261
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835468"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754080"
 ---
 # <a name="vendor-transactions-list-page"></a>Страница списка проводок по поставщику
 

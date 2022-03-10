@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343271"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323960"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Создание изображений штрихкодов с помощью источников данных штрихкодов
 
 [!include[banner](../includes/banner.md)]
 
-Для создания требуемых вам электронных и печатаемых исходящих документов можно использовать платформу [электронной отчетности (ER)](general-electronic-reporting.md) для разработки [компонентов формата ER](general-electronic-reporting.md#FormatComponentOutbound). Чтобы создать исходящий документ в формате Microsoft Office, необходимо задать формат отчета, используя документ Microsoft Excel или документ Microsoft Word в качестве шаблона отчета. С помощью [конструктора операций ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) можно привязать документ Excel или Word в качестве шаблона для формата ER. Следующие именованные элементы в связанном шаблоне связаны с элементами сконфигурированного компонента формата:
+Для создания требуемых вам электронных и печатаемых исходящих документов можно использовать платформу [электронной отчетности (ER)](general-electronic-reporting.md) для разработки компонентов формата ER. Чтобы создать исходящий документ в формате Microsoft Office, необходимо задать формат отчета, используя документ Microsoft Excel или документ Microsoft Word в качестве шаблона отчета. С помощью [конструктора операций ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) можно привязать документ Excel или Word в качестве шаблона для формата ER. Следующие именованные элементы в связанном шаблоне связаны с элементами сконфигурированного компонента формата:
 
 - Элементы управления содержимым в Word
 - Именованные листы, диапазоны, ячейки, фигуры и изображения в Excel

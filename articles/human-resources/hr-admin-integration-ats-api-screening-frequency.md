@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b98f25cb0129c2723a5a9e86839db0b0958bbb11
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 83cb31f3bf9d77bca0aef36fb53d90f7ccb8fff9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054076"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068567"
 ---
 # <a name="screening-frequency"></a>Частота отбора
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

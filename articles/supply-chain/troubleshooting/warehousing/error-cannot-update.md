@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b7fc579821f9a80d94aea949fcc0301b9d8f6935
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: ef34b4fdcc572c56319f6cbf4913d822d8857595
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026831"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474972"
 ---
 # <a name="an-error-occurs-when-the-location-is-selected-during-picking-list-registration"></a>Ошибка возникает, когда местонахождение выбирается при регистрации отгрузочной накладной
 

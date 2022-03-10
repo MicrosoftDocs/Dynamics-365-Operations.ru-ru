@@ -2,11 +2,9 @@
 title: Вопросы и ответы по клиенту
 description: Эта статья дает ответы на часто задаваемые вопросы о клиенте Finance and Operations.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1925c23891a637ba9e9666538323274819692a06
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692926"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071041"
 ---
 # <a name="client-faq"></a>Вопросы и ответы по клиенту
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Эта статья дает ответы на часто задаваемые вопросы о клиенте Finance and Operations.
 
@@ -54,3 +55,6 @@ ms.locfileid: "4692926"
 
 - Если элемент управления имеет возможности **Просмотр сведений** и если элемент управление имеет значение, то это значение отображается как гиперссылка. Можно перейти по гиперссылке, чтобы открыть страницу, которая содержит дополнительные сведения.
 - **Просмотр сведений** также является параметром в контекстных меню. Дополнительные сведения о том, когда отображаются контекстные меню при щелчке правой кнопкой мыши, см. в предыдущем разделе.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

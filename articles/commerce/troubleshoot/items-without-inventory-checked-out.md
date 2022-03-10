@@ -2,11 +2,9 @@
 title: Номенклатуры без запасов могут быть оформлены
 description: В этом разделе содержатся указания по устранению неполадок, которые могут помочь в том, что клиенты могут добавлять номенклатуры, отсутствующие на складе, в корзину и перейти к оформлению заказа.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6df9c77248c7f4e16765b98327fe5838f0fce7e4
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 1458328056a3ace8e5600a4c2d188e05b66c8110acbe44c869294a6b6e251e84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753702"
 ---
 # <a name="items-without-inventory-can-be-checked-out"></a>Номенклатуры без запасов могут быть оформлены
 

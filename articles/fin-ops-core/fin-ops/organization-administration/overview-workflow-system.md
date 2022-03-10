@@ -3,7 +3,7 @@ title: Обзор системы бизнес-правил
 description: В этой теме описывается система рабочих процессов.
 author: ChrisGarty
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
@@ -16,16 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9fbb47f2ba4601a275423db3c072d61d460ece3204e2f8ee995e1c2febe230
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715947"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067941"
 ---
 # <a name="workflow-system-overview"></a>Обзор системы бизнес-правил
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этой теме описывается система рабочих процессов.
 

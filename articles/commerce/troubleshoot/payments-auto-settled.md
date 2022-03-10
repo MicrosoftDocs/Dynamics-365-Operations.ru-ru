@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cc5167be43cccfd024ffdc65eb5f4dcac7e187288522d95be2385f8e7fdf106e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718655"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Платежи автоматически сопоставляются до выставления накладных или отгрузки заказов
 
@@ -43,12 +43,12 @@ ms.locfileid: "6018268"
 1. На верхней панели навигации выберите **Учетная запись**, а затем выберите **Параметры**.
 1. В поле **Задержка регистрации** выберите **вручную**.
 
-    ![Параметр "Задержка регистрации" на портале Adyen](media/adyen-capture-delay.jpg)
+    ![Параметр "Задержка регистрации" на портале Adyen.](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Регистрация платежа Adyen](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[Соединитель платежей Dynamics 365 для Adyen](../dev-itpro/adyen-connector.md)
+[Dynamics 365 Payment Connector для Adyen](../dev-itpro/adyen-connector.md)
 
 [Настройка соединителя платежей Adyen для Dynamics 365](https://docs.adyen.com/plugins/microsoft-dynamics)

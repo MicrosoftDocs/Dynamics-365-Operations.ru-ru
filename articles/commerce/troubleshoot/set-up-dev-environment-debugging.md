@@ -2,11 +2,9 @@
 title: Настройте среду разработки электронной коммерции для отладки на виртуальной машине сервера Retail уровня 1
 description: В этом разделе объясняется, как настроить среду разработки электронной коммерции для отладки на виртуальной машине (VM) сервера Retail уровня 1.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 35380a559a4f1b22bdf04ff25cb2bbfc51aff45b
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 0f5586112d168f8fa84f97d110403b0bec82e5cca4e963a92f1c283a17c972ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715316"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Настройте среду разработки электронной коммерции для отладки на виртуальной машине сервера Retail уровня 1
 
@@ -40,13 +38,13 @@ ms.locfileid: "5585492"
 
 На следующем рисунке показан пример ошибки, которая может возникнуть, когда выбран вариант на странице сведений о продукте.
 
-![Ошибка при выборе варианта на странице сведений о продукте](media/unhandled-rejection-error.jpg)
+![Ошибка при выборе варианта на странице сведений о продукте.](media/unhandled-rejection-error.jpg)
 
 На следующем рисунке показан пример подобной ошибки в средствах отладчика обозревателя (Средства для разработчиков F12). В сообщении об ошибке говорится о нарушении директивы политики безопасности содержимого.
 
-![Ошибка средств отладчика](media/debugger-tools-error.JPG)
+![Ошибка средств отладчика.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>Отключите политику безопасности содержимого для сайта в конструкторе сайтов Commerce
 

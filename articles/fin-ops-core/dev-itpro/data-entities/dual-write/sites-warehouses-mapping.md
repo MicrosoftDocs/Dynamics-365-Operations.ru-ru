@@ -1,6 +1,6 @@
 ---
 title: Интегрированные сайты и склады
-description: Эта тема описывает интеграцию сайта и данных склада между Finance and Operations и Dataverse.
+description: Эта тема описывает интеграцию данных сайтов и складов между Finance and Operations и Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: f0c477d869e0bc1e0c3f58a722c140284fbcffca
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782268"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063220"
 ---
-# <a name="integrated-sites-and-warehouses"></a>Интегрированные объекты и склады
+# <a name="integrated-sites-and-warehouses"></a>Интегрированные сайты и склады
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Эта тема описывает интеграцию сайта и данных склада между Finance and Operations и Dataverse. Операционные сайты и склады являются общими концепциями в приложении Supply Chain Management. Они используются для моделирования цепочки поставок компании.
+
+Эта тема описывает интеграцию данных сайтов и складов между Finance and Operations и Dataverse. Операционные сайты и склады являются общими концепциями в приложении Supply Chain Management. Они используются для моделирования цепочки поставок компании.
 
 ## <a name="templates"></a>Шаблоны
 

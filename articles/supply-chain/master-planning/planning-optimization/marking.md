@@ -2,11 +2,9 @@
 title: Маркировка запасов с оптимизацией планирования
 description: В этой теме приводятся сведения о параметрах, которые доступны для маркировки запасов в утвержденных заказах при использовании оптимизации планирования.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dc94ca8b15d626d8ff64f50718d7d2e3e0326144465f3d27787805220842849f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711913"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Маркировка запасов с оптимизацией планирования
 
@@ -48,3 +46,6 @@ ms.locfileid: "4983499"
 - **Нет** — складская маркировка не применяется.
 - **Стандарт** — складская маркировка обновляется согласно определению источника потребности. Заказ типа "Потребность в номенклатуре" (спрос) помечается по заказу на выполнение (поставка). Если некоторое количество остается в заказе на выполнение, оно не отмечается, а справочная информация остается пустой. Например, если заказ на продажу на 100 шт. привязан к заказу на покупку на 150 шт., справочная информация будет назначена только этому заказу на продажу.
 - **Расширено** — заказ типа "Потребность в номенклатуре" (спрос) и заказ на выполнение (поставка) маркируются, вне зависимости от оставшегося для заказа на выполнение количества. Например, если заказ на продажу на 100 шт. привязан к заказу на покупку на 150 шт., справочная информация будет назначена как заказу на продажу, так и заказу на покупку.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

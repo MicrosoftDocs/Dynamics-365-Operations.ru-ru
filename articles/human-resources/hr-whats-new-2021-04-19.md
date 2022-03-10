@@ -5,11 +5,9 @@ author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8968c9cb849901288d75cd5e539a57faf0045337
-ms.sourcegitcommit: e24e335811727c4b12152323b2bcb25495c08c5b
+ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5934900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722519"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Что нового или что изменилось в Dynamics 365 Human Resources 19 апреля 2021 г.
 

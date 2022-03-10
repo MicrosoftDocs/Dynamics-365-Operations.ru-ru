@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7e3156d1aa9a05dc5d159b6f9b33ae341de640bf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769279"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>Вариант "Сохранить для следующего платежа" не отображается
 
@@ -35,9 +34,9 @@ ms.locfileid: "5801707"
 
 На следующем рисунке показан пример страницы оформления заказа, которая включает флажок **Сохранить для следующего платежа**.
 
-![Флажок "Сохранить для следующего платежа" в Модуле платежа](media/payment-module-save-payment.jpg)
+![Флажок "Сохранить для следующего платежа" в Модуле платежа.](media/payment-module-save-payment.jpg)
 
-## <a name="resolution"></a>Приказ
+## <a name="resolution"></a>Решение
 
 ### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>Убедитесь, что соединитель платежей Dynamics 365 для Adyen правильно настроен в Commerce headquarters
 
@@ -47,7 +46,7 @@ ms.locfileid: "5801707"
 1. Выберите интернет-магазин.
 1. На экспресс-вкладке **счета оплаты** убедитесь, что в поле **Разрешить сохранение информации о платеже в электронной коммерции** задано значение **Истина**.
 
-![Разрешить сохранение сведений о платежах в поле электронной коммерции в Commerce headquarters](media/payment-connector-save-payment.jpg)
+![Разрешить сохранение сведений о платежах в поле электронной коммерции в центральном офисе Commerce.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

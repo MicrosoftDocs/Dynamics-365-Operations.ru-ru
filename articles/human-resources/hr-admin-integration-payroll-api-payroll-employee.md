@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f43476cd044a9cc2e11412aac4af1cff2f9e511
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559541"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068492"
 ---
 # <a name="payroll-employee"></a>Сотрудник зарплаты
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -2,11 +2,9 @@
 title: Управление отпуском
 description: В этой процедуре показано, как создать записи отпуска сотрудника.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 61729d384b1a403f14ce1bcf227074aa28ab369a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 465b2efef89a6a14a76282c782da9e6b4830d70bf463065deeae186aff7b7298
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752259"
 ---
 # <a name="manage-leave-of-absence"></a>Управление отпуском
 
@@ -46,3 +44,6 @@ ms.locfileid: "4693024"
     * Пример:"Отпуск для усыновления"  
 12. Нажмите кнопку "Сохранить".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

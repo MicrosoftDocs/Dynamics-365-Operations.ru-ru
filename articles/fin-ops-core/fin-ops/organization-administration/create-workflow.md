@@ -3,28 +3,33 @@ title: Обзор создания бизнес-правил
 description: В этом разделе объясняется, как создать workflow-процесс.
 author: ChrisGarty
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 195583
+ms.custom:
+- "195583"
+- intro-internal
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 1e1c86e828eef39a6895416f4825c2853e23c826
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747767"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067966"
 ---
 # <a name="create-workflows-overview"></a>Обзор создания бизнес-правил
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этом разделе объясняется, как создать workflow-процесс.
 

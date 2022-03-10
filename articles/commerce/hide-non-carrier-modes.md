@@ -2,11 +2,9 @@
 title: Скрыть режимы доставки, не связанные с перевозчиком, из параметров отгрузки в POS
 description: В этом разделе описывается параметр конфигурации, который позволяет предотвратить появление не связанных с перевозчиком режимов поставки для выбора, когда в приложении POS создаются заказы на отгрузку.
 author: hhainesms
-manager: annbe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c06dfa697e3e0eab7a7f4183da9f178af818a6d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d885aa7ab3b4daaebb1fa8378562d86cc153270ea166b495bf3381fae826773
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773893"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Скрыть режимы доставки, не связанные с перевозчиком, из параметров отгрузки в POS
 

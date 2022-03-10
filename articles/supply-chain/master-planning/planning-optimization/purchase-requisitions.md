@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1d6fd4be0ee1913264c4a565234cfdf711365792
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808048"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570872"
 ---
 # <a name="purchase-requisitions"></a>Заявки на закупку
+
+[!include [banner](../../includes/banner.md)]
 
 Сводное планирование может пополнять утвержденные заявки на закупку. Таким образом, для покрытия заявок на закупку пользователям не придется использовать рабочий процесс для создания заказов на покупку. Вместо этого заявки на закупку могут охватываться сводными планированием. В связи с этой функциональностью заявка на закупку может создать заказ на покупку, заказ на перемещение или производственный заказ, в зависимости от значения **Типа "спланированного заказа**, которое задано для соответствующего продукта.
 

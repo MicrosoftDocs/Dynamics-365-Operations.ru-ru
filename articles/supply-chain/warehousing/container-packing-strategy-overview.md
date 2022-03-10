@@ -12,14 +12,16 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4e5faf8e4544b2bcb58f3c578789b2bd379a27b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343732"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572369"
 ---
 # <a name="container-packing-strategies"></a>Стратегии упаковки в контейнеры
+
+[!include [banner](../includes/banner.md)]
 
 *Стратегия упаковки контейнера* является стратегией, которую можно использовать для определения распределений номенклатур между контейнерами. В этой теме объясняется различие между стратегиями *Упаковать во все открытые контейнеры* и *Упаковать только в текущий контейнер*.
 

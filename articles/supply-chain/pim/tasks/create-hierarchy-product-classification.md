@@ -1,26 +1,24 @@
 ---
 title: Создание иерархии классификации продуктов
 description: В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии "товарный код".
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59631148dbd2ad27ce2bb5c268d78e625daef6bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fb561647efcc21a8287d8246024fb468b8a79a71
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224459"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567111"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Создание иерархии классификации продуктов
 

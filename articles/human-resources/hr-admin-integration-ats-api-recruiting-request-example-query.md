@@ -7,21 +7,23 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3bba96988f3ccef9ef54c1dad2a4c63e829198f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789716"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066251"
 ---
 # <a name="example-query-for-recruiting-request"></a>Пример запроса для запроса на набор персонала
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

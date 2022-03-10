@@ -1,31 +1,31 @@
 ---
-title: Документация по приложениям Finance and Operations
-description: Документация по приложениям Finance and Operations.
-author: robinarh
-ms.date: 07/25/2019
+title: Документация по приложению Finance and Operations
+description: Документация для приложений Finance and Operations.
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751834"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075405"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Документация по приложениям Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Документация по приложению Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Узнайте, как применять приложения Finance and Operations в вашей организации. Для этого воспользуйтесь перечисленными в этом разделе ресурсами для конечных пользователей, разработчиков и ИТ-специалистов. 
+Узнайте, как применять приложения Finance and Operations в вашей организации. Для этого воспользуйтесь перечисленными в этом разделе ресурсами, содержащими материалы для конечных пользователей, разработчиков и ИТ-специалистов. 
 
 Большая часть этих материалов также применима к связанным продуктам — Dynamics 365 Commerce и Dynamics 365 Human Resources. 
 
@@ -41,10 +41,10 @@ ms.locfileid: "5751834"
 <h3><a href="get-started/before-you-buy.md">Перед покупкой</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Регистрация для получения ознакомительной подписки</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Выбор варианта развертывания</a></p>
- <p><a href="get-started/purchase-on-premises.md">Покупка Finance and Operations (локальная версия)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Покупка Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Жизненный цикл реализации</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack для Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Адаптация проекта</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Подготовка к вводу в эксплуатацию</a></p>
 
@@ -76,20 +76,22 @@ ms.locfileid: "5751834"
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Учет затрат</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Основные средства</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Главная книга</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Управление проектами</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Управление проектами</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Государственный сектор</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Региональные нормативные компоненты</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Самообслуживание сотрудника</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Управление персоналом</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Отпуск и отсутствие</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Льготы</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Развитие и обучение сотрудников</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Анкеты</a></p>
-<p><a href="hr/manage-recruiting-process.md">Набор сотрудников</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Зарплата, США</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Развитие сотрудников</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Обучение</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Зарплата, США</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
+<h3><a href="../../supply-chain/index.md">Управление логистическими цепочками</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Управление затратами</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Управление запасами</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Сводное планирование</a></p>
@@ -126,16 +128,11 @@ ms.locfileid: "5751834"
 </td>
 <td>
 <h3>Связанные продукты</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Центр обработки вызовов</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Настройка канала и управление им</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS и Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Администрирование и разработка для Commerce</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Руководство администратора</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Руководство разработчика</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Руководство пользователя</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Центр обработки вызовов</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Настройка канала и управление им</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS и Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Администрирование и разработка для Commerce</p>
 
 
 </td>

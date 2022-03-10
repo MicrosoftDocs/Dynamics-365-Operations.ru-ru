@@ -2,9 +2,7 @@
 title: Список функций электронной отчетности в категории-контейнере
 description: В этой теме содержится информация о контейнерных функциях, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b7e7d770c334647f8f11338d49b39a2e9cb5c04c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 522fc6b8ad414745c3949268d9690aa2d258b92971e7d7b4f82428398bfec170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760106"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>Список функций электронной отчетности в категории-контейнере
 
 [!include [banner](../includes/banner.md)]
 
-[Функции](er-formula-language.md#functions) контейнера [электронной отчетности (ER)](general-electronic-reporting.md) могут использоваться для выполнения операций, связанных с источниками данных с типом данных *Контейнер*. Эти операции выполняются, когда обрабатываемые данные представляют собой коллекцию двоичных данных в формате больших двоичных объектов (BLOB). В этой теме приводится краткое изложение этих функций.
+[Функции](er-formula-language.md#Functions) контейнера [электронной отчетности (ER)](general-electronic-reporting.md) могут использоваться для выполнения операций, связанных с источниками данных с типом данных *Контейнер*. Эти операции выполняются, когда обрабатываемые данные представляют собой коллекцию двоичных данных в формате больших двоичных объектов (BLOB). В этой теме приводится краткое изложение этих функций.
 
 ## <a name="list-of-supported-functions"></a>Список поддерживаемых функций
 

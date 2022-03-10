@@ -2,28 +2,28 @@
 title: Сертификат физического лица
 description: В этом разделе описывается сущность сертификата физического лица для Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4587337d8fd52828309826f3301b6f053b267819
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 300bf294bb4b2fadd4c5d3e68e74674a69dd48f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466528"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067837"
 ---
 # <a name="person-certificate"></a>Сертификат физического лица
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

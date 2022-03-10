@@ -2,11 +2,9 @@
 title: Элементы пользовательского интерфейса
 description: В этой теме описываются элементы пользовательского интерфейса, используемые в приложении.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797954"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069331"
 ---
 # <a name="user-interface-elements"></a>Элементы пользовательского интерфейса
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 В этой теме описываются элементы пользовательского интерфейса, используемые в приложении. Прежде чем пользователи смогут перемещаться по интерфейсу, важно знать имена и функции элементов, составляющих интерфейс.
 
@@ -77,7 +78,7 @@ ms.locfileid: "4797954"
 
 - **Окно сообщения** — оно будет отображаться поверх интерфейса и в нем необходимо выполнить действие, прежде чем можно будет продолжать использовать продукт.  
 
-![На следующем рисунке показан пример окна сообщения](media/user-interface-07.png)
+![На следующем рисунке показан пример окна сообщения.](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Панели инструментов, сетки и списки
 
@@ -86,3 +87,6 @@ ms.locfileid: "4797954"
 *Список* является именем, присвоенным коллекции записей, которую можно прокручивать. Можно вывести эти записи на страницу, выбрав их. Часто в этом случае будет открыта сетка.
 
 ![На следующем рисунке показаны примеры панелей инструментов, сеток и списков.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

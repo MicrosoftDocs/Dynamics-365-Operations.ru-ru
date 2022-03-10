@@ -2,8 +2,8 @@
 title: Обзор темы Adventure Works
 description: В этой теме приводится обзор темы Adventure Works и описывается применение ее к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
-ms.topic: article
+ms.date: 12/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
-ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
+ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6655640"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983702"
 ---
 # <a name="adventure-works-theme-overview"></a>Обзор темы Adventure Works
 

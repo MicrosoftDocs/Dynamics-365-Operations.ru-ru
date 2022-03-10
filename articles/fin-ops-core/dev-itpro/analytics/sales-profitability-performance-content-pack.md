@@ -1,12 +1,10 @@
 ---
 title: Содержимое Power BI "Показатели продаж и прибыльности"
-description: В этой теме описывается, что входит в содержимое Power BI "Показатели продаж и прибыльности". В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
+description: В этой теме описывается, что входит в содержимое Power BI "Показатели продаж и прибыльности".
 author: ShylaThompson
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9ec9ef5f4abf898100c670b1ca1cc845d6ebeeea36f21cdda3a9b7d3f1027d4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725218"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Содержимое Power BI "Показатели продаж и прибыльности"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Показатели продаж и прибыльности**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое **Показатели продаж и прибыльности** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -78,7 +76,7 @@ ms.locfileid: "4688243"
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Показатели продаж и прибыльности**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Интеграция Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
 
-Сводные измерения в этом содержимом являются подмножеством сводных измерений, которые были доступны в кубе продаж в Microsoft Dynamics AX 2012 и Microsoft Dynamics AX 2012 R3. Для временного размещения агрегированных измерений куба в хранилище объектов необходимо сделать их развертываемыми. Дополнительные сведения см. в процедуре временного размещения сводных изменений в хранилище объектов в записи блога [Интеграция Power BI с хранилищем объектов в Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Сводные измерения в этом содержимом являются подмножеством сводных измерений, которые были доступны в кубе продаж в Microsoft Dynamics AX 2012 и Microsoft Dynamics AX 2012 R3. Для временного размещения агрегированных измерений куба в хранилище объектов необходимо сделать их развертываемыми. Дополнительные сведения см. в процедуре временного размещения сводных изменений в хранилище объектов в записи блога [Интеграция Power BI с хранилищем объектов в Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 Следующие ключевые агрегированные измерения объекта "Строки накладной" используются в качестве основы для содержимого.
 
@@ -107,3 +105,6 @@ ms.locfileid: "4688243"
 | Даты            | Даты                                                |
 
 По умолчанию содержимое отображает дату для текущего календарного года. Однако можно изменить фильтр дат в разделе фильтров отчета. Можно также изменить фильтр компаний.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

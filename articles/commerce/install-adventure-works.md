@@ -2,7 +2,7 @@
 title: Установка темы Adventure Works
 description: В этой теме описывается, как установить тему Adventure Works в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763844"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913710"
 ---
 # <a name="install-the-adventure-works-theme"></a>Установка темы Adventure Works
 
@@ -32,7 +32,7 @@ ms.locfileid: "6763844"
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Перед установкой темы Adventure Works необходимо иметь среду Dynamics 365 Commerce (Commerce версии 10.0.20 или более поздней версии), которая включает Retail Cloud Scale Unit (RCSU), пакет средств разработки программного обеспечения для Commerce Online (SDK) и библиотеку модуля Commerce. Сведения об установке пакета SDK и библиотеки модулей Commerce см. в разделе [Обновление SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md). 
+Перед установкой темы Adventure Works необходимо иметь среду Dynamics 365 Commerce (Commerce версии 10.0.20 или более поздней версии), которая включает Retail Cloud Scale Unit (RCSU), пакет средств разработки программного обеспечения для Commerce Online (SDK) и библиотеку модуля Commerce. Сведения об установке пакета SDK и библиотеки модулей Commerce см. в разделе [Настройка среды разработки](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Этапы установки
 
@@ -48,11 +48,19 @@ ms.locfileid: "6763844"
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Чтобы установить пакет в локальной среде, выполните следующую команду из командной строки. Эта команда автоматически обновляет файл package.json, чтобы он включал в себя зависимость.
+Чтобы установить пакет в локальной среде, выполните команду `yarn add THEME_PACKAGE@VERSION` из командной строки, где **THEME_PACKAGE** является пакетом тем (@msdyn365-commerce-theme/adventureworks-theme-kit) и **VERSION** — это номер версии используемой библиотеки модулей. Важно, чтобы версии пакета тем и библиотеки модулей совпадали. Чтобы найти правильный номер версии библиотеки модулей для использования, откройте файл package.json и найдите значение **starter-pack** в разделе **dependencies**. В следующем примере файл package.json использует версию 9.32 библиотеки модулей, которая сопоставляется с выпуском Dynamics 365 Commerce версии 10.0.22.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-В файле **package.json** следует обновить версию темы до определенной версии.
+В следующем примере показано, как выполнить команду `yarn add` для добавления версии 9.32 темы Adventure Works. Команда автоматически обновляет файл package.json, чтобы он включал в себя зависимость.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Дополнительные сведения об обновлении версии библиотеки модулей см. в разделе [Обновления SDK и библиотеки модулей](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - Версия темы должна соответствовать версии библиотеки модулей, чтобы гарантировать, что все функции работают так, как ожидалось. 

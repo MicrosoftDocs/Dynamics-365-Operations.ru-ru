@@ -2,7 +2,7 @@
 title: Запишите номера подлежащих возмещению сертификатов TDS
 description: В этой теме объясняется, как использовать страницу подлежащих возмещению сертификатов для записи номеров и дат сертификатов для налога, удержанного в источнике (TDS), которые получаются для конкретного поставщика, клиента или главной книги.
 author: kailiang
-mms.date: 02/12/2021
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2c7fe2e1050053fb2ddaf85854e7ac46dd6912a5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: bc92a1321e6b2fe44bf7967c2aa1ad21dc353a03
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358370"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402456"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Запишите номера подлежащих возмещению сертификатов TDS
 

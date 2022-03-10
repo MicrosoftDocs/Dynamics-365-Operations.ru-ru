@@ -1,21 +1,21 @@
 ---
 title: Назначение значков и названий шагов для мобильного приложения Warehouse Management
 description: В этом разделе описывается, как назначать значки и названия шагов для новых или настроенных потоков задач для мобильного приложения Warehouse Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049372"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103321"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Назначение значков и названий шагов для мобильного приложения Warehouse Management
 
@@ -25,14 +25,11 @@ ms.locfileid: "6049372"
 
 На следующем рисунке показано, как будут отображаться значки и названия шагов в мобильном приложении Warehouse Management.
 
-![Пример значка шага и названия шага в мобильном приложении Warehouse Management](media/step-icon-example.png "Пример значка шага и названия шага в мобильном приложении Warehouse Management")
+![Пример значка шага и названия шага в мобильном приложении Warehouse Management.](media/step-icon-example.png "Пример значка шага и названия шага в мобильном приложении Warehouse Management")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Включение этой функции в системе
+## <a name="turn-this-feature-on-or-off"></a>Включение или отключение этой функции
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [Управление компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
-
-- **Модуль:** *Управление складом*
-- **Название компонента:** *Параметры пользователя, значки и названия шагов для нового приложения склада*
+Чтобы использовать функциональность, описанную в этой теме, для системы должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Идентификаторы, классы и значки стандартных шагов
 
@@ -350,13 +347,13 @@ ms.locfileid: "6049372"
 
 Следующая иллюстрация показывает этот поток задач.
 
-![Схема потока задач](media/step-icons-example-task-flow.png "Схема потока задач")
+![Схема потока задач.](media/step-icons-example-task-flow.png "Схема потока задач")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Создание класса шага для страницы ввода контейнера
 
 Страница ввода контейнера позволяет работнику сканировать или вводить идентификатор контейнера.
 
-![Страница ввода контейнера](media/step-icons-example-container-input.png "Страница ввода контейнера")
+![Страница ввода контейнера.](media/step-icons-example-container-input.png "Страница ввода контейнера")
 
 На странице ввода контейнера имя элемента управления для поля ввода будет `ContainerId`. Поскольку это имя элемента управления не отображается в [списке кодов шагов](#step-ids-classes), вы не найдете существующего шага, основанного на нем. Поэтому необходимо создать класс шага, представляющий этот шаг. Рассмотрим пример:
 
@@ -382,7 +379,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Страница ввода веса позволяет сотруднику ввести вес.
 
-![Страница ввода веса](media/step-icons-example-weight-input.png "Страница ввода веса")
+![Страница ввода веса.](media/step-icons-example-weight-input.png "Страница ввода веса")
 
 На странице ввода веса имя элемента управления поля ввода равно `Weight`, которое находится в [списке кодов шагов](#step-ids-classes). Таким образом, если значок и заголовок шага, заданные в классе `WHSMobileAppStepWeight`, являются приемлемыми для вас, вам не придется ничего изменять для этого шага.
 

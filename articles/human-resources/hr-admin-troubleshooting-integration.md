@@ -1,8 +1,8 @@
 ---
 title: Вопросы и ответы интеграции с Finance
-description: В этой статье объясняется, какие данные синхронизируются в интеграции Human Resources и Finance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: В этой теме объясняется, какие данные синхронизируются в интеграции Human Resources и Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,24 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357297"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071118"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 В этом разделе содержатся ответы на часто задаваемые вопросы, связанные с тем, какие данные синхронизируются в случае интеграции Dynamics 365 Human Resources с Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ ms.locfileid: "6357297"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Как можно настроить двунаправленную интеграцию?
 
-Нет, сейчас интеграция односторонняя (из Human Resources в Finance and Operations). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
+Нет, в настоящее время интеграция работает в одну сторону (из Human Resources в Финансы и операции). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Можно ли разрешить удаление записи как часть моей интеграции?
 
@@ -116,7 +119,7 @@ ms.locfileid: "6357297"
 
 - Передача данных привела к извлечению дублирующихся записей в источнике (Dataverse).
 
-- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и соответствуют требованиям Finance and Operations.
+- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и обеспечьте соответствие требованиям Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Если имеются ошибки выполнения и код сотрудника не синхронизируется, как найти старое задание, которое содержит сбойную запись сотрудника?
 
@@ -158,8 +161,7 @@ ms.locfileid: "6357297"
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>При синхронизации занятости возникают ошибки «CompanyInfo_FK не существует» или «Значение "31.12.2154 23:59:59" в поле "Дата окончания занятости" не найдено в связанной таблице "Занятость"». Что делать?
 
-Убедитесь, что сопоставляются правильные юридические лица. Синхронизация юридических лиц не является частью шаблона по умолчанию, поэтому ожидается, что каждое юридическое лицо, которое присутствует в Human Resources и Dataverse, также присутствует в Finance.
-Кроме того, убедитесь, что выбраны правильные юридические лица для связанного набора соединений.
+Убедитесь, что сопоставляются правильные юридические лица. Синхронизация юридических лиц не является частью шаблона по умолчанию, поэтому ожидается, что каждое юридическое лицо, которое присутствует в Human Resources и Dataverse, также присутствует в Finance. Кроме того, убедитесь, что выбраны правильные юридические лица для связанного набора соединений.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>После настройки проекта сопоставление полей для Finance выглядит пустым. Что делать?
 

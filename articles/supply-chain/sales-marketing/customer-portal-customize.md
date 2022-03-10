@@ -1,7 +1,7 @@
 ---
 title: Настройка и использование клиентского портала
 description: В этой теме объясняется, как настроить клиентский портал после его добавления в систему.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,20 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: db087fdfe27a32e3368002e193fdcd4e5d5c253821cd5e00dad8fe59be4461bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776832"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063501"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Настройка и использование клиентского портала
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 В этом разделе описываются отдельные страницы, доступные на готовом клиентском портале. Даны объяснения, что представляют собой страницы и как их можно настраивать.
 

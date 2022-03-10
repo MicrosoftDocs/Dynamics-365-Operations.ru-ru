@@ -1,7 +1,7 @@
 ---
 title: Типы проблем для несоответствий
 description: В этой теме описывается, как создавать и использовать типы проблем для несоответствий.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742edec8570610efe41a2c627efd1df586e0733e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022164"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568815"
 ---
 # <a name="problem-types-for-nonconformances"></a>Типы проблем для несоответствий
 

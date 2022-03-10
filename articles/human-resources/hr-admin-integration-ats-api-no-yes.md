@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2aceecfa67c6fece6e1cd5885574ebe10f3cca37
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 62e707cf954f90c8bb571417fb08d01452110568
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055252"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069204"
 ---
 # <a name="no-yes"></a>Нет Да
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

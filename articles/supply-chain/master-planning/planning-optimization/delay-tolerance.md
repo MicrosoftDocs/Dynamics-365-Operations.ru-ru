@@ -1,7 +1,7 @@
 ---
 title: Допуск задержки (отрицательные дни)
 description: В этой теме приводятся сведения о расчете допуска задержки и его влиянии на создание спланированных заказов при оптимизации планирования.
-author: crytt
+author: ChristianRytt
 ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c0bc3d429a1bf13285b385130d419f628330bb3728c6f071cf118edac2a59d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778708"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678575"
 ---
 # <a name="delay-tolerance-negative-days"></a>Допуск задержки (отрицательные дни)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Функция допуска задержки позволяет оптимизировать планирование, чтобы учесть значение **Отрицательные дни**, заданное для групп покрытия. Она используется для продления периода допуска задержки, который применяется при сводном планировании. Таким образом можно избежать создания новых заказов на поставку, если существующие поставки смогут покрыть спрос после короткой задержки. Целью функциональности является определение наличия смысла создания нового заказа на поставку для данного спроса.
 

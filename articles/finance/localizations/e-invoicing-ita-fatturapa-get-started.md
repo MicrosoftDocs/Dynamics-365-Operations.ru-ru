@@ -2,7 +2,7 @@
 title: Настройка прямой интеграции итальянского FatturaPA с SDI
 description: В этой теме приводятся сведения, которые помогут начать работу с электронным выставлением накладных для Италии и настроить прямую интеграцию итальянской FatturaPA с системой Exchange (SDI).
 author: abaryshnikov
-ms.date: 12/14/2021
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922455"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984811"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Настройка прямой интеграции итальянского FatturaPA с SDI
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > В настоящее время модуль электронного выставления накладных для Италии может не поддерживать все функции, доступные для электронных накладных в Microsoft Dynamics 365 Finance и Dynamics 365 Supply Chain Management.

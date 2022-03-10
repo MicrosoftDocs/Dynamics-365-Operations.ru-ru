@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ea265166902f85c2c09cae08ee6de5cd7094e1b4
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2d5f7cf548eb6c18d9700c73ef084f197b78542e
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778410"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102971"
 ---
 # <a name="multiple-sku-option-doesnt-evaluate-multiple-location-directive-actions"></a>Параметр с несколькими SKU не оценивает действия директивы по нескольким местоположениям
 
@@ -25,4 +25,4 @@ ms.locfileid: "7778410"
 
 ## <a name="resolution"></a>Решение
 
-Новая функция *Оценивать все действия для директив местоположения с несколькими SKU* была добавлена в версии 10.0.15 (см. статью базы знаний [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Эта функция оценивает все действия для директив местоположения с несколькими единицами складского учета SKU. В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости.
+Новая функция *Оценивать все действия для директив местоположения с несколькими SKU* была добавлена в версии 10.0.15 (см. статью базы знаний [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Эта функция оценивает все действия для директив местоположения с несколькими единицами складского учета SKU. В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию.  В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. Администраторы могут использовать страницу [управления функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости.

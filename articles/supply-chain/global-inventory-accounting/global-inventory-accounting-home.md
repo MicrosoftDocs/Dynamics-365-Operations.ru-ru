@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774977"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103572"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Домашняя страница глобального учета запасов
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Международные организации находятся под растущим давлением со стороны властей в связи с соблюдением местных и глобальных стандартов бухгалтерского учета. Оценка запасов играет важную роль в обеспечении соблюдения требований. Надстройка глобального учета запасов для Microsoft Dynamics 365 Supply Chain Management — это комплексное решение, которое позволяет организациям (особенно международным организациям) использовать несколько книг учета запасов. Таким образом, эти организации могут одновременно соблюдать многочисленные стандарты бухгалтерского учета и внутреннего управленческого учета.
 
@@ -48,6 +49,8 @@ ms.locfileid: "6774977"
 - Канада
 
 При попытке установить надстройку из другого региона Microsoft Dynamics Lifecycle Services (LCS) отобразит сообщение о том, что данный географический регион не поддерживается. Глобальный учет запасов не поддерживает локальное развертывание Supply Chain Management.
+
+Если у вас имеются какие-либо проблемы с включением глобального учета запасов в одном из поддерживаемых географических регионов, отправьте письмо по электронной почте с идентификатором среды в [рабочую группу глобального учета запасов](mailto:GlobalInvAccount@microsoft.com) для проверки.
 
 ## <a name="licensing"></a>Лицензирование
 

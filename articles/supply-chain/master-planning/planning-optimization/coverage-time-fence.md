@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dcb35eda718ea9b7573d8e994aa45216f8bd30a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836574"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567327"
 ---
 # <a name="coverage-time-fences"></a>Временные границы покрытия
+
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе описывается, как настроить *временные границы покрытия* при использовании оптимизации планирования. Планировщики могут определить горизонт планирования (временную границу покрытия в днях) и исключить поставку и спрос, которые выходит за пределы этого горизонта. Таким образом, временные границы покрытия позволяют предотвратить "шум", вызванный предложениями по поставке, на которые вы не должны реагировать в течение месяцев. Примерами могут служить прогноз на следующий год и заказы клиентов, размещенные далеко за пределами обычного периода упреждения.
 
