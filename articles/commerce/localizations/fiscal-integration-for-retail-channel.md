@@ -2,21 +2,21 @@
 title: Обзор финансовой интеграции для каналов Commerce
 description: В этом разделе представлен обзор возможностей финансовой интеграции, доступных в Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077200"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388321"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Обзор финансовой интеграции для каналов Commerce
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Обзор финансовой интеграции для каналов Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ ms.locfileid: "8077200"
 - **Конфигурация финансового соединителя** — эта конфигурация определяет физическую связь с конкретным финансовым устройством или службой.
 
 Процесс финансовой регистрации для конкретной ККМ POS определяется соответствующим параметром в профиле функциональности POS. Дополнительные сведения о настройке процесса финансовой регистрации, отправки конфигураций поставщиков фискальных документов и финансовых соединителей и изменению параметров конфигурации см. в разделе [Настройка процесса финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> Если нужны устройства для операций, не связанных с финансами, таких как поиск в каталоге продуктов, поиск клиента или создание черновика проводки, их можно выбрать как терминалы с ограничениями финансовых процессов. Дополнительные сведения см. в разделе [Настройка терминалов с ограничениями финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
 Следующий типичный поток финансовой регистрации начинается с события в POS (например, завершение проводки по продажам) и реализует заранее определенную последовательность шагов, в которой участвуют другие компоненты Commerce (такие как CRT и Hardware Station).
 

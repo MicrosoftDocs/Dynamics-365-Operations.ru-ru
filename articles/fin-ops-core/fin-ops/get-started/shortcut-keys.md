@@ -2,7 +2,7 @@
 title: Сочетания клавиш
 description: В этом разделе представлен обзор сочетаний клавиш, которые можно использовать при работе с приложениями Финансы и операции.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119560"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384571"
 ---
 # <a name="keyboard-shortcuts"></a>Сочетания клавиш
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ ms.locfileid: "8119560"
 | Перейти к основному содержимому страницу (с фокусом в другой области)                    | ALT+M,M                    |
 | Перейти в область информационного поля (что может включать ее открытие)                       | ALT+M,B или CTRL+F2         |
 
+> [!NOTE]
+> Функция **Оптимизировать последовательность перехода по клавише TAB в полностраничных формах**, представленная в версии 10.0.26, позволяет пользователям перемещаться по всем областям страницы без использования мыши или сочетания клавиш для перемещения между областями. Можно по-прежнему использовать существующие сочетания клавиш (такие как сочетание клавиш ALT+M) для быстрого перехода между областями на странице.
+
 ## <a name="personalization-shortcuts"></a>Сочетания клавиш для [персонализации](personalize-user-experience.md) 
 
-| Чтобы это выполнить                                                                                                             | Нажмите                               |
+| Чтобы это выполнить                                                                                                             | Нажмите                                |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | Перейти в режим персонализации страницы                                                                          | CTRL+SHIFT+P                        |
 | Использовать инструмент "Выбор" (в режиме персонализации)                                                                     | С                                   |

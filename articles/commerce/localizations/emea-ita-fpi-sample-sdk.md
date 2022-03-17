@@ -2,23 +2,24 @@
 title: Рекомендации по развертыванию образца интеграции финансового принтера для Италии (устаревшая версия)
 description: В этой теме приводятся указания по развертыванию примера интеграции финансового принтера для Италии, относящегося к пакету разработки программного обеспечения Retail SDK Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076920"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388452"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Рекомендации по развертыванию образца интеграции финансового принтера для Италии (устаревшая версия)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 В этой теме приводятся рекомендации по развертыванию образца интеграции финансового принтера для Италии из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции финансового принтера для Италии](emea-ita-fpi-sample.md). 
 
@@ -89,13 +90,13 @@ ms.locfileid: "8076920"
 1. Выполните шаги, описанные в разделе [Среда разработки](#development-environment) ранее в этой теме.
 2. Выполните следующие изменения в файлах конфигурации пакетов в папке **RetailSdk\\Assets**:
 
-    - В файлах конфигурации **commerceruntime.ext.config** и **CommerceRuntime.MPOSOffline.Ext.config** добавьте следующую строку в раздел **composition**.
+    1. В файлах конфигурации **commerceruntime.ext.config** и **CommerceRuntime.MPOSOffline.Ext.config** добавьте следующую строку в раздел **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - В файле конфигурации **HardwareStation.Extension.config** добавьте следующую строку в раздел **composition**.
+    1. В файле конфигурации **HardwareStation.Extension.config** добавьте следующую строку в раздел **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ ms.locfileid: "8076920"
 
 3. Внесите следующие изменения в файл конфигурации настройки пакета **Customization.settings** в папке **BuildTools**:
 
-    - Добавьте следующую строку, чтобы включить расширение CRT в развертываемые пакеты.
+    1. Добавьте следующую строку, чтобы включить расширение CRT в развертываемые пакеты.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Добавьте следующую строку, чтобы включить расширение Hardware Station в развертываемые пакеты.
+    1. Добавьте следующую строку, чтобы включить расширение Hardware Station в развертываемые пакеты.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Запустите утилиту командной строки MSBuild для Visual Studio и затем запустите **msbuild** в папке Retail SDK, чтобы создать развертываемые пакеты.
-5. Примените пакеты через LCS или вручную. Дополнительные сведения см. в разделе [Создание развертываемых пакетов](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+4. Выполните следующие изменения в файле **Sdk.ModernPos.Shared.csproj** в папке **Packages\_SharedPackagingProjectComponents**, чтобы включить файлы ресурсов для Италии в развертываемые пакеты:
+
+    1. Добавьте раздел **ItemGroup**, содержащий узлы, указывающие на файлы ресурсов для нужных переводов. Убедитесь, что указаны правильные пространства имен и образцы имен. В следующем примере добавляются узлы ресурсов для языков **it** и **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. В разделе **Target Name="CopyPackageFiles"** добавьте по одной строке для каждого языкового стандарта, как показано в следующем примере.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. Выполните следующие изменения в файле **Sdk.RetailServerSetup.proj** в папке **Packages\_SharedPackagingProjectComponents**, чтобы включить файлы ресурсов для Италии в развертываемые пакеты:
+
+    1. Добавьте раздел **ItemGroup**, содержащий узлы, указывающие на файлы ресурсов для нужных переводов. Убедитесь, что указаны правильные пространства имен и образцы имен. В следующем примере добавляются узлы ресурсов для языков **it** и **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. В разделе **Target Name="CopyPackageFiles"** добавьте по одной строке для каждого языкового стандарта, как показано в следующем примере.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Запустите утилиту командной строки MSBuild для Visual Studio и затем запустите **msbuild** в папке Retail SDK, чтобы создать развертываемые пакеты.
+7. Примените пакеты через LCS или вручную. Дополнительные сведения см. в разделе [Создание развертываемых пакетов](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Разработка расширений
 

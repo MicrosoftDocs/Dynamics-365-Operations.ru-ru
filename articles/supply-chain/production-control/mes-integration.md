@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
+ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952685"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "8330709"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Интеграция с системами управления производством независимых разработчиков
 
@@ -183,6 +183,7 @@ ms.locfileid: "7952685"
 | `PositionNumber` | Необязательно | Строка |
 | `IsConsumptionEnded` | Необязательно | Логический |
 | `ErrorCause` | Необязательно | Перечисление (None \| Material \| Machine \| OperatingStaff), расширяемое |
+| `InventoryLotId` | Необязательно | Строка |
 
 ### <a name="time-used-for-operation-route-card-message"></a>Время, используемое для сообщения об операции (маршрутная карта)
 

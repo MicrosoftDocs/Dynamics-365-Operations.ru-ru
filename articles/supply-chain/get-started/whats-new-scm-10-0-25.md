@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103004"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384546"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022)
 
@@ -34,10 +34,10 @@ ms.locfileid: "8103004"
 
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
-| Запасы&nbsp;и&nbsp;логистика | Усовершенствования в работе с опасными материалами | Эти улучшения основаны на существующих функциям опасных материалов, чтобы помочь компаниям оставаться в соответствии с местным законодательством при транспортировке опасного материала в различных регионах. <!-- KFM: Update to 2022w1 link when published -->| Управление функциями:<br>*Усовершенствования в работе с опасными материалами* |
-| Запасы&nbsp;и&nbsp;логистика | Работа упаковки для упаковочных станций | Эта функция значительно улучшает гибкость и адаптируемость операций упаковки и отгрузки. В процессе упаковки работники склада могут в данный момент упаковать и отгрузить отдельные упаковки, которые связаны с одной и той же отгрузкой и загрузкой. Строки заказа, которые являются частью одной и той же отгрузки, необязательно должны отгружаться вместе, если некоторые номенклатуры готовы для отгрузки сразу. Один заказ может быть упакован и отгружен в несколько упаковок в разное время отгрузки, тем самым уменьшая время ожидания и добавляя динамичность.<!-- KFM: Update to 2022w1 link when published --> | Управление функциями:<br>*Работа упаковки для упаковочных станций* |
-| Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) | Управление функциями:<br>*Сканирование штрих-кодов GS1* |
-| Производство | [Потребление материалов и резервирования в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*(Предварительная версия) Зарегистрировать потребление материалов в интерфейсе выполнения производственного цеха (с поддержкой службы управления рабочими процессами)* |
+| Запасы&nbsp;и&nbsp;логистика | [Усовершенствования в работе с опасными материалами](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Скоро | Управление функциями:<br>*Усовершенствования в работе с опасными материалами* |
+| Запасы&nbsp;и&nbsp;логистика | [Работа упаковки для упаковочных станций](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Скоро | Управление функциями:<br>*Работа упаковки для упаковочных станций* |
+| Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) | Управление функциями:<br>*Сканирование штрих-кодов GS1* |
+| Производство | [Потребление материалов и резервирования в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*(Предварительная версия) Регистрация потребления материалов в интерфейсе выполнения производственного цеха (без службы управления рабочими процессами)*<br><br>И/или:<br><br>Управление функциями:<br>*(Предварительная версия) Зарегистрировать потребление материалов в интерфейсе выполнения производственного цеха (с поддержкой службы управления рабочими процессами)* |
 | Производство | [Регистрация потребления материалов в единицах масштабирования](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-manufacturing.md) | Управление функциями:<br>*Зарегистрировать потребление материалов в мобильном приложении в единице масштабирования* |
 | Планирование | [Предложения оптимизации планирования для оптимизации существующих поставок](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Сообщения по действию](../master-planning/action-messages.md) | Включено по умолчанию |
 | Планирование | Упрощенные спланированные заказы | [Упрощенные спланированные заказы](../master-planning/planning-optimization/planned-orders-simplified.md ) | Управление функциями:<br>*Упрощенные спланированные заказы* |

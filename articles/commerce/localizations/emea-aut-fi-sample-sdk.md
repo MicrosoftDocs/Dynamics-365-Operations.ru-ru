@@ -2,23 +2,24 @@
 title: Рекомендации по развертыванию образца интеграции службы финансовой регистрации для Австрии (устаревшая версия)
 description: В этой теме приводятся указания по развертыванию примера финансовой интеграции для Австрии, относящегося к пакету разработки программного обеспечения Retail SDK Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077123"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388423"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Рекомендации по развертыванию образца интеграции службы финансовой регистрации для Австрии (устаревшая версия)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 В этой теме приводятся рекомендации по развертыванию примера интеграции службы финансовой регистрации для Австрии из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции службы финансовой регистрации для Австрии](emea-aut-fi-sample.md). 
 
@@ -87,11 +88,15 @@ ms.locfileid: "8077123"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Включение расширения Hardware Station
+### <a name="enable-fiscal-connector-extensions"></a>Включение расширений финансового соединителя
+
+Можно включить расширения финансовых соединителей на [станции оборудования](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) или [POS-терминале](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
+
+#### <a name="enable-hardware-station-extensions"></a>Включение расширения Hardware Station
 
 Компоненты расширения Hardware Station включены в образцы Hardware Station. Чтобы выполнить следующие процедуры, откройте решение **HardwareStationSamples.sln** в папке **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="efrsample-component"></a>Компонент EFRSample
+##### <a name="efrsample-component"></a>Компонент EFRSample
 
 1. Найдите проект **HardwareStation.Extension.EFRSample** и выполните его сборку.
 2. В папке **Extension.EFRSample\\bin\\Debug** найдите следующие файлы сборок:
@@ -114,6 +119,30 @@ ms.locfileid: "8077123"
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>Включение расширений POS-терминала
+
+Образец расширения POS-терминала находится в папке **src\\FiscalIntegration\\PosFiscalConnectorSample** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+
+Чтобы использовать образец расширения POS-терминала в устаревшем пакете SDK, выполните следующие действия.
+
+1. Скопируйте папку **Pos.Extension** в папку POS **Расширения** старого пакета SDK (например, `C:\RetailSDK\src\POS\Extensions`).
+1. Переименуйте копию папки **Pos.Extension** в **PosFiscalConnector**.
+1. Удалите следующие папки и файлы из папки **PosFiscalConnector**:
+
+    - bin
+    - DataService
+    - devDependencies
+    - Библиотеки
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. Откройте решение **CloudPos.sln** или **ModernPos.sln**.
+1. В проекте **Pos.Extensions** включите папку **PosFiscalConnector**.
+1. Откройте файл **extensions.json** и добавьте расширение **PosFiscalConnector**.
+1. Создайте SDK.
 
 ### <a name="enable-modern-pos-extension-components"></a>Включение компонентов расширения Modern POS
 
@@ -243,9 +272,7 @@ ms.locfileid: "8077123"
 
 ### <a name="hardware-station-extension-design"></a>Разработка расширения Hardware Station
 
-Целью расширения, которое является финансовым соединителем, является обмен данными со службой финансовой регистрации.
-
-Расширение Hardware Station — это **HardwareStation.Extension.EFRSample**. Оно использует протокол HTTP для отправки документов, создаваемых расширением CRT в службе финансовой регистрации. Оно также обрабатывает отклики, полученные от службы финансовой регистрации.
+Целью расширения финансового соединителя является обмен данными со службой финансовой регистрации. Расширение Hardware Station называется **HardwareStation.Extension.EFRSample**. Оно использует протокол HTTP или HTTPS для отправки документов, создаваемых расширением CRT в службе финансовой регистрации. Оно также обрабатывает отклики, полученные от службы финансовой регистрации.
 
 #### <a name="request-handler"></a>Обработчик запросов
 
@@ -265,3 +292,26 @@ ms.locfileid: "8077123"
 
 - **Адрес конечной точки** — URL-адрес службы финансовой регистрации.
 - **Время ожидания** — период времени в миллисекундах, в течение которого драйвер будет ожидать отклика от службы финансовой регистрации.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Дизайн расширения финансового соединителя POS-терминала
+
+Целью расширения финансового соединителя POS-терминала является обмен данными со службой финансовой регистрации из POS-терминала. Он использует протокол HTTPS для связи.
+
+#### <a name="fiscal-connector-factory"></a>Фабрика финансовых соединителей
+
+Фабрика финансовых соединителей сопоставляет имя соединителя с реализацией финансового соединителя и находится в файле **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. Имя соединителя должно соответствовать имени финансового соединителя, указанного в Commerce Headquarters.
+
+#### <a name="efr-fiscal-connector"></a>Финансовый соединитель EFR
+
+Финансовый соединитель EFR находится в файле **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Он реализует интерфейс **IFiscalConnector**, который поддерживает следующие запросы:
+
+- **FiscalRegisterSubmitDocumentClientRequest** — этот запрос отправляет документы в службу финансовой регистрации и возвращает из него отклики.
+- **FiscalRegisterIsReadyClientRequest** — этот запрос используется для проверки работоспособности службы финансовой регистрации.
+- **FiscalRegisterInitializeClientRequest** — этот запрос используется для инициализации службы финансовой регистрации.
+
+#### <a name="configuration"></a>Конфигурация
+
+Файл конфигурации находится в папке **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Целью файла является разрешение настройки для параметров финансового соединителя из Commerce Headquarters. Формат файла сопоставляется с требованиями к настройке финансовой интеграции. Добавлены следующие параметры:
+
+- **Адрес конечной точки** — URL-адрес службы финансовой регистрации.
+- **Время ожидания** — период времени в миллисекундах, в течение которого соединитель будет ожидать отклика от службы финансовой регистрации.

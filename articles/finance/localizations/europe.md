@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982102"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367893"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -36,13 +36,13 @@ ms.locfileid: "7982102"
 - [Редактирование кодов накладных в заказах на продажу для Восточной Европы](emea-edit-invoice-id-sales-orders.md)
 - [Сертификаты ввоза в ЕС](emea-entry-certificates.md)
 - [Отчетность отчета ЕС по НДС](emea-eu-sales-list.md)
+  - [Пример для универсального списка продаж ЕС](emea-eu-sales-list-example.md)
 - [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
 - [Руководство по финансам (глобализация) относительно воздействия Брексит](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
 - [Выбытие ОС для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Создание документа перемещения для внутреннего перемещения запасов](tasks/transfer-document-internal-inventory-transfer.md)
-- [Создание отчета ЕС по НДС](tasks/eur-00011-eu-sales-list-report.md)
 - Файлы ISO20022
   - [Импорт файлов ISO20022](emea-ISO20022-file-formats.md)
   - [Импорт конфигурации безакцептного списания ISO20022](tasks/import-iso20022-direct-debit-configuration.md)
@@ -77,7 +77,6 @@ ms.locfileid: "7982102"
 - [Обзор кредитных переводов SEPA](../accounts-payable/sepa-credit-transfer.md)
 - [Обзор прямого дебетования SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Настройка компенсации клиентам и поставщикам](emea-compensation-customer-vendor-transactions.md)
-- [Настройка отчетности ЕС по НДС](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Настройка формата платежной квитанции для накладных проекта](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
 - [Учет с использованием сторно](emea-storno.md)

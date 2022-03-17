@@ -2,7 +2,7 @@
 title: Пример интеграции службы финансовой регистрации для Чешской Республики
 description: В этой теме представлен обзор примера финансовой интеграции для Чешской Республики в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077098"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388244"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Пример интеграции службы финансовой регистрации для Чешской Республики
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 В этой теме представлен обзор примера финансовой интеграции для Чешской Республики в Microsoft Dynamics 365 Commerce.
 
@@ -68,7 +69,7 @@ ms.locfileid: "8077098"
 - Проводка, имеющая отношение к депозиту счета клиента или депозиту по заказу клиента, регистрируется в службе финансовой регистрации как проводка по одной строке и помечается специальным атрибутом. В этой строке указывается группа НДС депозита.
 - Когда создается гибридный заказ клиента, то есть заказ клиента, в котором содержатся продукты, которые могут быть получены клиентом в магазине, а также продукты, которые будут получены или отгружены позже, проводка, зарегистрированная в службе финансовой регистрации, содержит строки для продуктов, которые были получены, а также строку для депозита заказа.
 - Платеж со счета клиента рассматривается как обычный платеж и помечается специальным атрибутом, когда проводка регистрируется в службе финансовой регистрации.
-- Сумма депозита по заказу клиента, которая применяется к операции *Самовывоз* заказа клиента, считается обычным платежом и отмечается специальным атрибутом, когда проводка регистрируется в службе финансовой регистрации.
+- Сумма депозита по заказу клиента, которая применяется к операции самовывоза заказа клиента, считается обычным платежом и отмечается специальным атрибутом, когда проводка регистрируется в службе финансовой регистрации.
 
 ### <a name="offline-registration"></a>Автономная регистрация
 
@@ -291,14 +292,28 @@ ms.locfileid: "8077098"
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Установите расширения Hardware Station:
+1. Установка расширений финансового соединителя:
 
-    1. В папке **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** найдите программу установки **HardwareStation.EFR.Installer**.
-    1. Запустите установщик расширений из командной строки:
+    Можно установить расширения финансовых соединителей на [станцию оборудования](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) или [POS-терминал](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Установите расширения Hardware Station:
+
+        1. В папке **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** найдите программу установки **HardwareStation.EFR.Installer**.
+        1. Запустите установщик расширений из командной строки, выполнив следующую команду.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Установите расширения POS:
+
+        1. Откройте образец решения финансового соединителя POS по пути **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** и выполните его сборку.
+        1. В папке **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** найдите установщик **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Запустите установщик расширений из командной строки, выполнив следующую команду.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Рабочая среда
 
@@ -350,5 +365,28 @@ ms.locfileid: "8077098"
 #### <a name="configuration"></a>Конфигурация
 
 Файл конфигурации для фискального соединителя расположен по пути **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** в репозитории [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Целью файла является разрешение настройки параметров финансового соединителя из Commerce Headquarters. Формат файла сопоставляется с требованиями к настройке финансовой интеграции.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Дизайн расширения финансового соединителя POS-терминала
+
+Целью расширения финансового соединителя POS-терминала является обмен данными со службой финансовой регистрации из POS-терминала. Он использует протокол HTTPS для связи.
+
+#### <a name="fiscal-connector-factory"></a>Фабрика финансовых соединителей
+
+Фабрика финансовых соединителей сопоставляет имя соединителя с реализацией финансового соединителя и находится в файле **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. Имя соединителя должно соответствовать имени финансового соединителя, указанного в Commerce Headquarters.
+
+#### <a name="efr-fiscal-connector"></a>Финансовый соединитель EFR
+
+Финансовый соединитель EFR находится в файле **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Он реализует интерфейс **IFiscalConnector**, который поддерживает следующие запросы:
+
+- **FiscalRegisterSubmitDocumentClientRequest** — этот запрос отправляет документы в службу финансовой регистрации и возвращает из него отклики.
+- **FiscalRegisterIsReadyClientRequest** — этот запрос используется для проверки работоспособности службы финансовой регистрации.
+- **FiscalRegisterInitializeClientRequest** — этот запрос используется для инициализации службы финансовой регистрации.
+
+#### <a name="configuration"></a>Конфигурация
+
+Файл конфигурации находится в папке **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Целью файла является разрешение настройки для параметров финансового соединителя из Commerce Headquarters. Формат файла сопоставляется с требованиями к настройке финансовой интеграции. Добавлены следующие параметры:
+
+- **Адрес конечной точки** — URL-адрес службы финансовой регистрации.
+- **Время ожидания** — период времени в миллисекундах, в течение которого соединитель будет ожидать отклика от службы финансовой регистрации.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

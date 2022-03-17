@@ -2,7 +2,7 @@
 title: Функция ER TRIM
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности TRIM
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba47df2b5f06b979436339e414e9e0cf7d9fd0358d8c9055c1591923b5d9c517
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 816f6d6623bb778c9186d294c9b67db7edddd671
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734752"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367800"
 ---
 # <a name="trim-er-function"></a>Функция ER TRIM
 
 [!include [banner](../includes/banner.md)]
 
-Функция `TRIM` возвращает указанную текстовую строку в качестве *строкового* значения после удаления начальных и конечных пробелов и после преобразования нескольких пробелов между словами в одинарные пробелы.
+Функция `TRIM` возвращает указанную текстовую строку в виде значения *Строка* после замены знаков табуляции, возврата каретки, перевода строки и перевода форм на один символ пробела, после удаления ведущих и замыкающих пробелов и после удаления повторяющихся пробелов между словами.
 
 ## <a name="syntax"></a>Синтаксис
 
 ```vb
-TRIM (text )
+TRIM (text)
 ```
 
 ## <a name="arguments"></a>Аргументы
@@ -45,13 +45,22 @@ TRIM (text )
 
 Результирующее текстовое значение.
 
-## <a name="example"></a>Пример
+## <a name="usage-notes"></a>Примечания по использованию
+
+В некоторых случаях бывает необходимо удалить начальные и конечные пробелы, но желательно сохранить форматирование для указанного текста. Например, если этот текст представляет адрес, который можно ввести в многострочное текстовое поле и он может содержать символы перевода строки и возврата каретки. В этом случае используется следующее выражение: `REPLACE(text,"^[ \t]+|[ \t]+$","", true)`, где `text` — это аргумент, обозначающий указанную текстовую строку.
+
+## <a name="example-1"></a>Пример 1
 
 `TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` возвращает **"Sample text"**.
+
+## <a name="example-2"></a>Пример 2
+
+`TRIM (CONCATENATE (CHAR(10), "`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(9),"`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`", CHAR(13)))` возвращает **"Образец текста"**.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Текстовые функции](er-functions-category-text.md)
 
+[Функция ER REPLACE](er-functions-text-replace.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
