@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: Применение параметров отображения к аналитикам продуктов
                   href: dimension-settings.md
+                - name: Включение и активация режима обслуживания электронной коммерции
+                  href: enable-maintenance-mode.md
             - name: Управление содержимым сайта
               items:
                 - name: Способы добавления содержимого
@@ -2100,9 +2102,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Настройка моделей данных
+                  items:
+                    - name: Поддержка параметризованных вызовов моделей данных электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
-                    - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
+                    - name: Настройка сопоставлений моделей электронной отчетности с учетом контекста страны
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Расширение определения модуля
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Изменение статических строк библиотеки модулей
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Действия с данными
                       items:
                         - name: Переопределение действий с данными
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Расширение темы из базовой темы
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Изменение строк модуля темы
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Упаковка и развертывание
                   items:
                     - name: Конфигурации пакетов и их развертывание в онлайн-среде
@@ -2798,7 +2808,9 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Кэш экземпляра действий с данными
                           href: e-commerce-extensibility/instance-cache.md
-                    - name: Телеметрия и аналитики
+                        - name: Оптимизация CSS модуля
+                          href: e-commerce-extensibility/module-css-optimization.md
+                    - name: Телеметрия и аналитика
                       items:
                         - name: Средство ведения журнала телеметрии
                           href: e-commerce-extensibility/telemetry-logger.md

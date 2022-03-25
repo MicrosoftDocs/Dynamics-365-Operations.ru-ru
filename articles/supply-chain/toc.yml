@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Сравнение отчета по хранению цен номенклатур
                   href: cost-management/compare-item-price.md
+            - name: Методологии расчета себестоимости
+              items:
+                - name: Скользящая средняя себестоимость
+                  href: cost-management/running-average-cost-price.md
+                - name: Отслеживание скользящей средней себестоимости на складскую аналитику
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: ФИФО с физической стоимостью и маркировкой
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: ЛИФО на дату с физической стоимостью и маркировкой
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: ЛИФО с физической стоимостью и маркировкой
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Взвешенное среднее с физической стоимостью и маркировкой
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Взвешенное среднее на дату с физической стоимостью и маркировкой
+                  href: cost-management/weighted-average-date.md
+                - name: Скользящее среднее
+                  href: cost-management/moving-average.md
+                - name: Резервная последовательность затрат со скользящим средним значением
+                  href: cost-management/moving-average-fallback.md
             - name: Учет запасов
               items:
+                - name: Физическое и финансовое обновления
+                  href: cost-management/physical-financial-updates.md
+                - name: Включение физической стоимости
+                  href: cost-management/include-physical-value.md
                 - name: Объекты затрат
                   href: cost-management/cost-object.md
                 - name: Просмотр сальдо объекта затрат
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Группы затрат
                   href: cost-management/cost-groups.md
-                - name: ФИФО с физической стоимостью и маркировкой
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Включение физической стоимости
-                  href: cost-management/include-physical-value.md
                 - name: Стоимости объектов запасов
                   href: cost-management/physical-quantity.md
-                - name: ЛИФО на дату с физической стоимостью и маркировкой
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: ЛИФО с физической стоимостью и маркировкой
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Скользящее среднее
-                  href: cost-management/moving-average.md
-                - name: Резервная последовательность затрат со скользящим средним значением
-                  href: cost-management/moving-average-fallback.md
-                - name: Физическое и финансовое обновления
-                  href: cost-management/physical-financial-updates.md
-                - name: Скользящая средняя себестоимость
-                  href: cost-management/running-average-cost-price.md
-                - name: Отслеживание скользящей средней себестоимости на складскую аналитику
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Взвешенное среднее на дату
-                  href: cost-management/weighted-average-date.md
-                - name: Взвешенное среднее с физической стоимостью и маркировкой
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Закрытие запасов
                   href: cost-management/inventory-close.md
                 - name: Корректировка себестоимости запасов в наличии
@@ -1431,9 +1433,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка моделей данных
+                  items:
+                    - name: Поддержка параметризованных вызовов моделей данных электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
-                    - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
+                    - name: Настройка сопоставлений моделей электронной отчетности с учетом контекста страны
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Непредвиденное расхождение между данными запроса и сеанса во время тестирования
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: При настройке подключения к приложению не найдена привязка доверия для пути сертификации
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: При обновлении и переходе на систему управления складом не найдена привязка доверия для пути сертификации

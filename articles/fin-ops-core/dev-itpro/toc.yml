@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Предоставление хранилища объектов как Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: 'Бизнес-события, созданные при экспорте в службу Azure Data Lake (предварительная версия)'
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Изменение данных в Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Операции перемещения баз данных
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: 'Фильтрация внутрихолдинговых заказов, чтобы исключить синхронизацию заказов и строк заказов'
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Удаление решений для оркестрации приложений с двойной записью
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Управление двойной записью
                   items:
                     - name: Настройка сопоставлений объектов и полей

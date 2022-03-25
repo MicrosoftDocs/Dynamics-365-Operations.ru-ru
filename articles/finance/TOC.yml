@@ -1528,6 +1528,10 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: Отчетность Дании
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: Отчетность Франции
                           items:
                             - name: Декларация по НДС
@@ -2344,6 +2348,8 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: Декларация по НДС
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Венгрия
               items:
                 - name: Обзор по Венгрии
@@ -3566,7 +3572,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Аналитики налогового филиала
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Отчет по исходящему НДС
+                - name: Отчеты по НДС
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: Подоходный налог
                   href: localizations/apac-tha-withholding-tax.md
@@ -4285,9 +4291,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: Настройка моделей данных
+                  items:
+                    - name: Поддержка параметризованных вызовов моделей данных электронной отчетности
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
-                    - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
+                    - name: Настройка сопоставлений моделей электронной отчетности с учетом контекста страны
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка зависящих от действия назначений
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Настройка назначений электронной отчетности, относящиеся к записи управления печатью'
+                    - name: 'Настройка назначений, относящиеся к записи управления печатью'
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Создание нового решения электронной отчетности для печати этикеток ZPL
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка ссылки на формат электронной отчетности
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Автоматическая проверка созданных отчетов
