@@ -2,7 +2,7 @@
 title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384546"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414128"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022)
 
@@ -39,6 +39,7 @@ ms.locfileid: "8384546"
 | Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) | Управление функциями:<br>*Сканирование штрих-кодов GS1* |
 | Производство | [Потребление материалов и резервирования в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*(Предварительная версия) Регистрация потребления материалов в интерфейсе выполнения производственного цеха (без службы управления рабочими процессами)*<br><br>И/или:<br><br>Управление функциями:<br>*(Предварительная версия) Зарегистрировать потребление материалов в интерфейсе выполнения производственного цеха (с поддержкой службы управления рабочими процессами)* |
 | Производство | [Регистрация потребления материалов в единицах масштабирования](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-manufacturing.md) | Управление функциями:<br>*Зарегистрировать потребление материалов в мобильном приложении в единице масштабирования* |
+| Планирование | [Оптимизация планирования для централизованного ведения календаря](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Календари и сводное планирование](../master-planning/supply-chain-calendars-master-planning.md) | Включено по умолчанию |
 | Планирование | [Предложения оптимизации планирования для оптимизации существующих поставок](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Сообщения по действию](../master-planning/action-messages.md) | Включено по умолчанию |
 | Планирование | Упрощенные спланированные заказы | [Упрощенные спланированные заказы](../master-planning/planning-optimization/planned-orders-simplified.md ) | Управление функциями:<br>*Упрощенные спланированные заказы* |
 

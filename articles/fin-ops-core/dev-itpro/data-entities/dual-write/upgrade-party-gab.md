@@ -2,19 +2,19 @@
 title: Обновление модели субъекта и глобальной адресной книги
 description: В этом разделе описывается обновление данных с двойной записью для стороны и модели глобальной адресной книги.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060493"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407803"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Обновление модели субъекта и глобальной адресной книги
 
@@ -151,13 +151,19 @@ ms.locfileid: "8060493"
 
 ## <a name="run-the-templates"></a>Выполнение шаблонов
 
-1. Остановите сопоставления двойной записи **Учетная запись**, **Контактное лицо** и **Поставщик**, которые используют приложение для финансов и операций:
+1. Остановите сопоставления двойной записи **Субъект**, **Учетная запись**, **Контактное лицо** и **Поставщик**, которые используют приложения для управления финансами и операциями:
 
+    + Субъекты CDS (msdyn_parties) 
     + Клиенты V3 (accounts)
     + Клиенты V3 (контакты)
     + CDS Контакты V2 (контакты)
     + CDS Контакты V2 (контакты)
     + Поставщик V2 (msdyn_vendor)
+    + Контакты V2 (msdyn_contactforparties)
+    + Расположения почтовых адресов субъекта CDS (msdyn_partypostaladdresses)
+    + Журнал почтовых адресов CDS V2 (msdyn_postaladdresses)
+    + Расположения почтовых адресов CDS (msdyn_postaladdresscollections)
+    + Контакты субъекта V3 (msdyn_partyelectronicaddresses)
 
 2. Убедитесь, что сопоставления удалены из таблицы **msdy_dualwriteruntimeconfig** в Dataverse.
 3. Установка [решений стороны с двойной записью и глобальной адресной книги](https://aka.ms/dual-write-gab) из AppSource.
