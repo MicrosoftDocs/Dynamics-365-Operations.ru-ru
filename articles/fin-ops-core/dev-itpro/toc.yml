@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: "Обновления платформы для версии 10.0.24 (февраль 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: "Обновления платформы для версии 10.0.23 (январь 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Приложения для управления финансами и операциями в Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: 'Данные и метаданные, хранящиеся в Azure Data Lake'
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Предоставление хранилища объектов как Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: 'Бизнес-события, созданные при экспорте в службу Azure Data Lake (предварительная версия)'
@@ -408,8 +408,10 @@
                       href: deployment/redeploy-on-prem.md
                     - name: Удаление и повторная установка или добавление узла AOS
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Использование одного и того же экземпляра AD FS для нескольких сред
+                    - name: Повторное использование одного и того же экземпляра AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
+                    - name: Обновление Windows Server в средах Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-os.md
                     - name: Обновление экземпляра SQL Server в средах Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Локальный агент
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS для партнеров
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Поддерживаемые веб-браузеры
+                  href: lifecycle-services/web-browsers.md
                 - name: Интерфейсы RESTful API
                   items:
                     - name: Запуск и остановка сред
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Обновление файлов параметров
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Пробный режим без Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Учебник Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: 'Настройка пользователей, не являющихся администраторами'

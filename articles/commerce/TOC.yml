@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS и Store Commerce'
                   items:
-                    - name: Приложение Store Commerce в Microsoft Dynamics 365 Commerce (предварительная версия)
+                    - name: Приложение Store Commerce
                       href: dev-itpro/store-commerce.md
                     - name: Руководство по внедрению системы управления устройствами
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: Возмещение расходов по заказу на возврат отклонено
                   href: troubleshoot/refund-declined.md
+                - name: Возмещаемые накладные расходы рассчитаны неверно на основе возвращенного количества
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector для Adyen
                   items:
                     - name: Устранение неполадок с Dynamics 365 Payment Connector для Adyen

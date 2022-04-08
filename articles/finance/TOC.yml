@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (февраль)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (январь)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -414,8 +412,20 @@
               items:
                 - name: Обзор выставления счетов по подпискам
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Настройка графиков выставления счетов
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Повторяющееся выставление счетов по контракту
+                  items:
+                    - name: Создание графиков выставления счетов
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Копирование графика выставления счетов
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Выставление счетов по этапам
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Завершение графиков выставления счетов
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Отсрочки выручки и расхода
+                  items: null
+                - name: Распределение выручки по нескольким элементам
+                  items: null
             - name: Платежи и сопоставления
               items:
                 - name: Обзор платежей клиентов
@@ -1443,11 +1453,11 @@
                             - name: Настройка канала SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Настройка и использование электронного выставления накладных с Finance и Supply Chain Management
-                          items: null
-                        - name: Активация и настройка интеграции с электронным выставлением накладных
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Настройка параметров электронного выставления накладных
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Активация и настройка интеграции с электронным выставлением накладных
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Настройка параметров электронного выставления накладных
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Работа с электронным выставлением накладных
                           items:
                             - name: Отправка электронных документов в электронное выставление накладных
@@ -1532,6 +1542,10 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Отчетность Финляндии
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Отчетность Франции
                           items:
                             - name: Декларация по НДС
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Отчет ЕС по НДС
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Отчетность Норвегии
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Отчетность Испании
                           items:
                             - name: 'Немедленное предоставление информации по НДС (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,10 +1582,6 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Отчетность Норвегии
-                          items:
-                            - name: Декларация по НДС
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Включение расчета налогов для заказа на перемещение
                       items:
                         - name: Поддержка функций налогов для заказов на перемещение
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Сборы за упаковочные материалы
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Отчет по НДС
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Отчет по зарубежным службам
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Австрийский Интрастат
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Обновление способа отображения сумм в отчетах и документах
                   href: localizations/emea-amount-printing-forms.md
-                - name: Отчет по НДС
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: Декларация по НДС (Чешская Республика)
+                - name: Декларация по НДС
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Чешский Интрастат
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Датский Интрастат
                   href: localizations/emea-dnk-intrastat.md
+                - name: Декларация по НДС
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Египет
               items:
                 - name: Обзор по Египту
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Финский Интрастат
                   href: localizations/emea-fin-intrastat.md
+                - name: Декларация по НДС
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Франция
               items:
                 - name: Обзор по Франции
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Декларация по НДС
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Электронная передача декларации НДС (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Немецкий Интрастат
                   href: localizations/emea-deu-intrastat.md
-                - name: Отчет по НДС
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Отчет по электронным накладным клиентов
                   href: localizations/emea-deu-e-invoices.md
                 - name: Отчет "Список журналов"
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: Декларация по НДС
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Венгрия
               items:
                 - name: Обзор по Венгрии
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: 'Импорт услуг, имеющих GST'
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Распределение накладных расходов на странице "Таможенная декларация" для заказов на импорт
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: 'Экспорт товаров, имеющих налог с нулевой ставкой'
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: 'Экспорт услуг, имеющих налог с нулевой ставкой'
@@ -3116,23 +3126,19 @@
               items:
                 - name: Обзор по Нидерландам
                   href: localizations/netherlands.md
-                - name: Декларация по НДС
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Электронная налоговая декларация (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Интеграция Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Файл аудита (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: Декларация по НДС (Нидерланды)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Нидерландский Интрастат
+                - name: Интрастат
                   href: localizations/emea-nl-intrastat.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Новая Зеландия
               items:
-                - name: Форма декларации налога с продаж GST101A для Новой Зеландии (NZ-00003)
+                - name: Форма декларации GST GST101A для Новой Зеландии (NZ-00003)
                   href: localizations/apac-nzl-gst-declaration.md
             - name: Норвегия
               items:
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Отчет о налоговых платежах для Швеции
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Декларация по НДС для Швеции
+                - name: Декларация по НДС
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Шведский Интрастат
                   href: localizations/emea-swe-intrastat.md
