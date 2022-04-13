@@ -2,7 +2,7 @@
 title: Группировка записей и агрегирование вычислений с помощью источников данных GROUPBY
 description: В этом разделе объясняется использование источников данных GROUPBY в электронной отчетности (ER).
 author: NickSelin
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a6cdc486c5f799bdedafa38e90be989fd328c96
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075643"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462307"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Группировка записей и агрегирование вычислений с помощью источников данных GROUPBY
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 При настройке сопоставлений модели [электронной отчетности (ER)](general-electronic-reporting.md) можно [добавить](#AddMmDataSource2) необходимые источники данных типа **GroupBy**.
 

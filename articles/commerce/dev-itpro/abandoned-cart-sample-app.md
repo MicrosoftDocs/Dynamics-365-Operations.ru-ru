@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353366"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489038"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Обнаружение брошенных корзин и отправка уведомлений клиентам
 
@@ -127,7 +127,7 @@ ms.locfileid: "8353366"
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-Статус задания получения брошенной корзины, идентификаторы корзины и измененные временные метки хранятся в Azure Cosmos DB. По умолчанию настройки в файле конфигурации указывают на локальный экземпляр эмулятора Azure Cosmos DB. При развертывании соединителя в производстве необходимо обновить эти параметры, чтобы они указывали на экземпляр Azure Cosmos DB в вашей подписке Azure. Для локального тестирования или тестирования в песочнице можно использовать [эмулятор Azure Cosmos](/azure/cosmos-db/local-emulator).
+Статус задания получения брошенной корзины, идентификаторы корзины и измененные временные метки хранятся в Azure Cosmos DB. По умолчанию настройки в файле конфигурации указывают на локальный экземпляр эмулятора Azure Cosmos DB. При развертывании соединителя в производстве необходимо обновить эти параметры, чтобы они указывали на экземпляр Azure Cosmos DB в вашей подписке Azure. Для локального тестирования или тестирования в песочнице можно использовать [эмулятор Azure Cosmos DB](/azure/cosmos-db/local-emulator).
 
 | Свойство    | Описание |
 | ----------- | ----------- |

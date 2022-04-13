@@ -1,32 +1,33 @@
 ---
 title: Начислить планы отпусков и отсутствий
 description: Можно начислять отпуск и отсутствие в Dynamics 365 Human Resources для нескольких сотрудников или для отдельных пользователей.
-author: andreabichsel
+author: twheeloc
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5f3ae95d0670369ac63e5a5d521885fe55ce8af
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070674"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533722"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Начислить планы отпусков и отсутствий
 
+>[!Important]
+>Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e2bc672fd352fea088db356a6fc2b8eedebe5920
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067360"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509202"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Настройка параметров отпусков и отсутствий
 
+>[!Important]
+>Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

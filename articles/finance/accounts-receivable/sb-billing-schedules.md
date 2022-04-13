@@ -1,5 +1,5 @@
 ---
-title: Обзор графика выставления счетов
+title: Создание графиков выставления счетов
 description: В этом разделе объясняется, как создавать, удалять и изменять графики выставления счетов.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182693"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462597"
 ---
-# <a name="billing-schedule-overview"></a>Обзор графика выставления счетов
+# <a name="create-billing-schedules"></a>Создание графиков выставления счетов
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 На странице **График выставления счетов** можно создавать, удалять или изменять графики выставления счетов. Также можно просмотреть список графиков выставления счетов. При создании графика выставления счетов значения по умолчанию для него определяются связанной с ним группой выставления счетов. Дополнительные сведения настраиваются на странице **Параметры повторяющегося выставления счетов по контракту**.
 

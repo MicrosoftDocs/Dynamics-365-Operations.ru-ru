@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062119"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524475"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
@@ -41,15 +41,17 @@ ms.locfileid: "8062119"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | Должность | [Запрос с использованием метода POST](#query-with-post-method) |
+| /api/environment/{environmentId}/on-hand/changeschedule | Разнести | [Создание одного запланированного изменения запасов в наличии](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Разнести | [Создание нескольких запланированных изменений запасов в наличии](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Разнести | [Запрос с использованием метода POST](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Получить | [Запрос с использованием метода GET](#query-with-get-method) |
-
-Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
+
+Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
@@ -517,6 +519,9 @@ Body:
 
 Этот параметр `returnNegative` определяет, содержат ли результаты отрицательные значения.
 
+> [!NOTE]
+> Если вы включили функции графика изменения запасов в наличии и количеств, доступных для заказа (ATP), запрос также может включать логический параметр `QueryATP`, который управляет тем, содержат ли результаты запроса сведения ATP. Дополнительные сведения и примеры см. в разделе [Графики изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md).
+
 В следующем примере показано содержимое текста примера.
 
 ```json
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Доступно для резервирования
+
+Можно настроить видимость запасов, чтобы можно было планировать будущие изменения запасов в наличии и рассчитывать количества ATP. ATP — это количество номенклатуры, которое доступно и может быть зарезервировано для клиента в следующем периоде. Использование расчета ATP может значительно повысить возможности выполнения заказов. Сведения о том, как включить эту функцию и как работать с видимостью запасов через его API после включения функции, см. в разделе [Графики изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

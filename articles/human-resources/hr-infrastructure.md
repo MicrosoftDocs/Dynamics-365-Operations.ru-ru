@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024575"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487804"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Слияние инфраструктуры Dynamics 365 Human Resources — обновление выпуска 10.0.25
 
@@ -34,7 +34,7 @@ ms.locfileid: "8024575"
     - Имеется единая база кода, в которой новая функциональность приложения Human Resources выпускается в рамках регулярного процесса обновления одной версии.
     - Способ, которым обновления и исправления применяются к средам, согласован.
 
-- [Улучшены параметры расширяемости.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Улучшены параметры расширяемости.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - В случае необходимости можно продолжить использование инструментов Microsoft Power Platform Tools для расширения.
     - Функциональность можно расширить, используя формы, таблицы, методы и интерфейсы прикладного программирования (API).
@@ -42,7 +42,7 @@ ms.locfileid: "8024575"
 
     Дополнительные сведения о доступных параметрах расширения см. в разделе [Обзор расширения в Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Создание одного набора возможностей Human Resources в Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Создание одного набора возможностей Human Resources в Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     В выпуске 10.0.25 функциональные возможности, существовавшие только в приложении Human Resources, стали доступны в инфраструктуре для финансов и операций. Чтобы клиенты могли воспользоваться преимуществами этих возможностей в средах для финансов и операций, в управлении функциями должны быть включены следующие функции Human Resources.
 

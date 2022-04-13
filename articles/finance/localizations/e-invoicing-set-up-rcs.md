@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371841"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470187"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Настройка Regulatory Configuration Service (RCS)
 
@@ -50,6 +50,13 @@ ms.locfileid: "8371841"
     | Соединенное Королевство             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Азия                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Япония                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Швейцария                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Бразилия                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Объединенные Арабские Эмираты       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Австралия                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Канада                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Франция                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Индия                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Убедитесь, что в поле **Код приложения** установлено значение **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Это значение является фиксированным значением. Убедитесь, что введен только глобальный уникальный идентификатор (GUID), и что значение не содержит никаких других символов, таких как пробелы, запятые, точки или кавычки.
 4. В поле **Код среды LCS** введите идентификатор вашей среды Microsoft Dynamics Lifecycle Services (LCS). Это значение представляет собой ссылку на среду Finance или Supply Chain Management, которая будет использоваться со службой электронного выставления накладных. Чтобы получить идентификатор, войдите в [LCS](https://lcs.dynamics.com/), откройте проект, затем на вкладке **Управление средой** в разделе **Сведения о среде** найдите поле **Код среды**.

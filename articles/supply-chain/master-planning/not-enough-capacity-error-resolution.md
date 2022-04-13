@@ -1,22 +1,22 @@
 ---
 title: Устранение ошибки подсистемы планирования "Обнаружена недостаточная емкость" и конечной емкости
 description: В этой теме приводятся сведения о причинах и разрешениях для 'Не удалось запланировать производственный заказ %1. Ошибка подсистемы планирования "Обнаружена недостаточная емкость".
-author: ChristianRytt
+author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
 ms.search.form: ProdTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985038"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469851"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Устранение ошибки подсистемы планирования "Обнаружена недостаточная емкость"
 

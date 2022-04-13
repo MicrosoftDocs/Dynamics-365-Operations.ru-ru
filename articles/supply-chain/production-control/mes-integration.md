@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330709"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487591"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Интеграция с системами управления производством независимых разработчиков
 
@@ -65,6 +65,8 @@ ms.locfileid: "8330709"
 ## <a name="monitor-incoming-messages"></a>Мониторинг входящих сообщений
 
 Чтобы отслеживать входящие сообщения в системе, откройте страницу **Интеграция системы управления производством**. Там можно просматривать, обрабатывать и устранять проблемы.
+
+Все сообщения для конкретного производственного заказа обрабатываются в последовательности их получения. Однако сообщения для других производственных заказов не могут быть обработаны в полученной последовательности, поскольку пакетные задания обрабатываются параллельно. В случае сбоя пакетное задание будет пытаться обработать каждое сообщение три раза, прежде чем устанавливать статус *Сбой*.
 
 ## <a name="call-the-api"></a>Вызов API
 
@@ -119,13 +121,13 @@ ms.locfileid: "8330709"
 | `ReportedGoodQuantity` | Необязательно | Действующий|
 | `ReportedErrorCatchWeightQuantity` | Необязательно | Действующий |
 | `ReportedGoodCatchWeightQuantity` | Необязательно | Действующий |
-| `AcceptError` | Необязательно |Логический |
+| `AcceptError` | Необязательно | Перечисление (Да \| Нет) |
 | `ErrorCause` | Необязательно | Перечисление (None \| Material \| Machine \| OperatingStaff), расширяемое |
 | `ExecutedDateTime` | Необязательно | DateTime |
 | `ReportAsFinishedDate` | Необязательно | Дата |
 | `AutomaticBOMConsumptionRule` | Необязательно | Перечисление (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | Необязательно |Перечисление (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | Необязательно | Логический |
+| `RespectFlushingPrincipleDuringOverproduction` | Необязательно | Перечисление (Да \| Нет) |
 | `ProductionJournalNameId` | Необязательно | Строка |
 | `PickingListProductionJournalNameId` | Необязательно | Строка|
 | `RouteCardProductionJournalNameId` | Необязательно | Строка |
@@ -133,11 +135,11 @@ ms.locfileid: "8330709"
 | `ToOperationNumber` | Необязательно | Целое число|
 | `InventoryLotId` | Необязательно | Строка |
 | `BaseValue` | Необязательно | Строка |
-| `EndJob` | Необязательно | Логический |
-| `EndPickingList` | Необязательно | Логический |
-| `EndRouteCard` | Необязательно | Логический |
-| `PostNow` | Необязательно | Логический |
-| `AutoUpdate` | Необязательно | Логический |
+| `EndJob` | Необязательно | Перечисление (Да \| Нет) |
+| `EndPickingList` | Необязательно | Перечисление (Да \| Нет) |
+| `EndRouteCard` | Необязательно | Перечисление (Да \| Нет) |
+| `PostNow` | Необязательно | Перечисление (Да \| Нет) |
+| `AutoUpdate` | Необязательно | Перечисление (Да \| Нет) |
 | `ProductColorId` | Необязательно | Строка|
 | `ProductConfigurationId` | Необязательно | Строка |
 | `ProductSizeId` | Необязательно | Строка |
@@ -181,7 +183,7 @@ ms.locfileid: "8330709"
 | `OperationNumber` | Необязательно | Целое число |
 | `LineNumber` | Необязательно | Действующий |
 | `PositionNumber` | Необязательно | Строка |
-| `IsConsumptionEnded` | Необязательно | Логический |
+| `IsConsumptionEnded` | Необязательно | Перечисление (Да \| Нет) |
 | `ErrorCause` | Необязательно | Перечисление (None \| Material \| Machine \| OperatingStaff), расширяемое |
 | `InventoryLotId` | Необязательно | Строка |
 
@@ -217,9 +219,9 @@ ms.locfileid: "8330709"
 | `ConsumptionDate` | Необязательно | Дата |
 | `TaskType` | Необязательно | Перечисление (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | Необязательно | Перечисление (None \| Material \| Machine \| OperatingStaff), расширяемое |
-| `OperationCompleted` | Необязательно | Логический |
-| `BOMConsumption` | Необязательно | Логический |
-| `ReportAsFinished` | Необязательно | Логический |
+| `OperationCompleted` | Необязательно | Перечисление (Да \| Нет) |
+| `BOMConsumption` | Необязательно | Перечисление (Да \| Нет) |
+| `ReportAsFinished` | Необязательно | Перечисление (Да \| Нет) |
 
 ### <a name="end-production-order-message"></a>Сообщение о завершении производственного заказа
 
@@ -230,9 +232,13 @@ ms.locfileid: "8330709"
 | `ProductionOrderNumber` | Обязательная аналитика | Строка |
 | `ExecutedDateTime` | Необязательно | DateTime |
 | `EndedDate` | Необязательно | Дата |
-| `UseTimeAndAttendanceCost` | Необязательно | Логический |
-| `AutoReportAsFinished` | Необязательно | Логический |
-| `AutoUpdate` | Необязательно | Логический |
+| `UseTimeAndAttendanceCost` | Необязательно | Перечисление (Да \| Нет) |
+| `AutoReportAsFinished` | Необязательно | Перечисление (Да \| Нет) |
+| `AutoUpdate` | Необязательно | Перечисление (Да \| Нет) |
+
+## <a name="other-production-information"></a>Другая производственная информация
+
+Сообщения поддерживают действия или события, происходящие в цехе. Они обрабатываются с помощью платформы интеграции MES, которая описывается в этой теме. Дизайн подразумевает, что другие справочные сведения для совместного использования с MES (например, сведения о продукте или спецификация либо маршрут (с определенной настройкой и временем конфигурации), используемые в конкретном производственном заказе) извлекаются из системы с использованием [информационных объектов](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) с помощью переноса файлов или OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Получение обратной связи о состоянии сообщения
 

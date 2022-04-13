@@ -1,22 +1,22 @@
 ---
 title: Настройка прогнозирования спроса
 description: В этом разделе описывается, как настроить задачи, которые необходимо выполнить, чтобы подготовиться к прогнозированию спроса.
-author: ChristianRytt
+author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920781"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470019"
 ---
 # <a name="demand-forecasting-setup"></a>Настройка прогнозирования спроса
 

@@ -1,23 +1,23 @@
 ---
 title: Управление проверкой счетов с International Bank Account Number (IBAN)
 description: В этой теме рассматривается, как управлять проверкой счетов с International Bank Account Number (IBAN).
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860827"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462774"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Управление проверкой счетов с International Bank Account Number (IBAN)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860827"
 
 Проверка International Bank Account Number (IBAN) повышает уровень проверок, выполняемых при добавлении IBAN к банковскому счету.
 
-Сведения о структуре IBAN хранятся в Microsoft Dynamics 365 Finance. Эти сведения автоматически загружаются при первом использовании IBAN с банковскими счетам. Он содержит длину номера IBAN, начальные позиции номера банковского счета и кода банка, а также длину номера банковского счета и кода банка.
+Сведения о структуре IBAN хранятся в Microsoft Dynamics 365 Finance и автоматически загружаются при первом использовании IBAN для банковских счетов. Он содержит длину номера IBAN, начальные позиции номера банковского счета и кода банка, а также длину номера банковского счета и кода банка.
 
 ## <a name="set-up-iban-structures"></a>Настройка структур IBAN
 
 1. Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Структуры IBAN**.
 2. Обратите внимание, что структуры IBAN для каждой страны или региона настроены автоматически.
-3. Если требуется настроить структуры для определенной страны или региона, вы можете их отредактировать.
+3. Выберите кнопку **Изменить**, если необходимо обновить структуру для определенной страны или региона.
 4. Определения структур будут входить в состав каждого нового выпуска. Можно использовать меню **Сброс структур** для загрузки последних определений после каждого обновления.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Проверка структуры IBAN для банковского счета

@@ -1,27 +1,26 @@
 ---
 title: Планирование на основе приоритетов
 description: В этой теме описывается функция планирования с учетом приоритета в Microsoft Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 41c4f3e9bd41735b213743bd8b4cdd8d9657a073
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777897"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468310"
 ---
 # <a name="priority-based-planning"></a>Планирование на основе приоритетов
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 В этой теме описывается функция планирования с учетом приоритета в Microsoft Dynamics 365 Supply Chain Management. Эта функция добавляет поддержку для планирования на основе спроса, которая является одним из этапов планирования потребностей в материальных ресурсах на основе спроса (DDMRP). Планирование на основе приоритетов позволяет оптимизировать планирование для создания спланированных заказов, которые определяются приоритетами планирования вместо дат потребности.
 

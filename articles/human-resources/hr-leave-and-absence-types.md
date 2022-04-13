@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76b8661c4c6d8fe6cf0568be966f1652b95b5442
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d834b2cd162d361cd913dda14bfacf5efe1dcd3c
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067335"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509287"
 ---
 # <a name="configure-leave-and-absence-types"></a>Настройка типов отпусков и отсутствий
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+> [!Important]
+> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -2,25 +2,27 @@
 title: Обзор финансовой отчетности
 description: В этом разделе описывается доступ к финансовой отчетности в Microsoft Dynamics 365 Finance и использование возможностей финансовой отчетности.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983985"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527323"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с финансовой отчетностью 
 
@@ -174,7 +176,7 @@ ms.locfileid: "7983985"
 * В Internet Explorer выберите **Параметры**, затем выберите **Свойства браузера**. Перейдите на вкладку **Безопасность**. Выберите "Надежные сайты", затем выберите **Сайты**. В поле **Добавить в зону следующий узел** введите "\*\.dynamics.com" (без кавычек), затем выберите **Добавить**. 
 * В Internet Explorer выберите **Параметры**, затем выберите **Свойства браузера**. Перейдите на вкладку **Безопасность**. Выберите "Надежные сайты". В области с меткой "Уровень безопасности для этой зоны" измените значение параметра на **Ниже среднего**.
 * Отключите блокировку всплывающих окон в браузере.
-* На рабочие станции необходимо установить Microsoft .NET Framework 4.6.2 или более поздней версии. Эту версию платформы Microsoft .NET Framework можно загрузить и установить из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53345).
+* На рабочие станции необходимо установить Microsoft .NET Framework 4.7.2 или более поздней версии. Эту версию платформы Microsoft .NET Framework можно загрузить и установить из [центра загрузки Майкрософт](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * При использовании браузера Chrome необходимо установить расширение ClickOnce, чтобы можно было загрузить клиент конструктора отчетов. При работе в Chrome в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито. Дополнительные сведения о расширении Chrome ClickOnce см. в документе [Требования к системе для облачных развертываний](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * При использовании Microsoft Edge с браузером Chrome нет необходимости устанавливать расширение ClickOnce для Microsoft Edge Chromium. Однако для загрузки клиента конструктора отчетов необходимо включить параметр ClickOnce. При работе в режиме инкогнито убедитесь, что расширение ClickOnce включено для работы в режиме инкогнито.
 

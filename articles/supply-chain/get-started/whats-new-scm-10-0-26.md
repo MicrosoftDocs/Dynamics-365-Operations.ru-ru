@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8387002"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524447"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "8387002"
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
 | Запасы и логистика | [Запрос видимости запасов в наличии для поддержки расширенных номенклатур управления складом](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Скоро | Управление функциями:<br>*Включить складские номенклатуры в видимости запасов* |
-| Запасы и логистика | [Доступное для заказа для надстройки видимости запасов](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Скоро | Включено конфигурацией службы |
+| Запасы и логистика | [Доступное для заказа для надстройки видимости запасов](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Графики изменения запасов в наличии и доступность для заказа](../inventory/inventory-visibility-available-to-promise.md) | Включено конфигурацией службы |
 | Производство | [Номенклатуры с учетом в двух единицах измерения для интерфейса выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*(Предварительная версия) Отчеты по номенклатурам, учитываемым в двух единицах измерения, из интерфейса выполнения производственного цеха* |
 | Производство | Вкладка "Мои задания" в интерфейсе выполнения производственного цеха <!-- KFM: Add link to release plan when available --> | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*Вкладка "Мои задания" в интерфейсе выполнения производственного цеха* |
 

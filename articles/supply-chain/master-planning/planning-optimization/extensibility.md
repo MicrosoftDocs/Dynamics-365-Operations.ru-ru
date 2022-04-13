@@ -1,7 +1,7 @@
 ---
 title: Расширяемость оптимизации планирования
 description: В этой теме описываются сценарии расширения, которые поддерживаются в оптимизации планирования.
-author: ChristianRytt
+author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e18801a02ae9e904eb5bc597f9f61ed42c537ab9
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652070"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468898"
 ---
 # <a name="planning-optimization-extensibility"></a>Расширяемость оптимизации планирования
 

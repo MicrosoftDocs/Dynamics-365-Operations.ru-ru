@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984577"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487776"
 ---
 # <a name="e-commerce-site-overview"></a>Обзор сайта электронной коммерции
 
@@ -86,7 +86,7 @@ Dynamics 365 Commerce использует Azure Active Directory (Azure AD) B2C
 Сведения об управлении параметрами сайта см. в следующих темах:
 
 - [Управление пользователями и ролями электронной коммерции](manage-ecommerce-users-roles.md)
-- [Особенности оптимизации для поисковых систем (SEO) для сайта](/search-engine-optimization-considerations.md)
+- [Особенности оптимизации для поисковых систем (SEO) для сайта](search-engine-optimization-considerations.md)
 - [Управление политикой безопасности содержимого (CSP)](manage-csp.md)
 - [Выбор темы сайта](select-site-theme.md)
 

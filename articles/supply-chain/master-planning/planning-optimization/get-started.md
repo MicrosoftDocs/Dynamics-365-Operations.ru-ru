@@ -1,7 +1,7 @@
 ---
 title: Начало работы с оптимизацией планирования
 description: Этот раздел описывает начало работы с функциями оптимизации планирования.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902567"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469823"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -58,7 +58,7 @@ ms.locfileid: "7902567"
 
 - Требуется использовать Supply Chain Management в среде с поддержкой LCS с высокой степенью доступности уровня 2 или выше (а не в среде OneBox) с версией Dynamics 365 Supply Chain Management 10.0.7 или более поздней. При попытке установить надстройку в среде OneBox установка не будет завершена, и вам придется отменить установку.
 
-- Система должна быть настроена для интеграции Power Platform. Дополнительные сведения см. в разделе [Интеграция Microsoft Power Platform с приложениями Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Система должна быть настроена для интеграции Power Platform. Дополнительные сведения см. в разделе [Интеграция Microsoft Power Platform с приложения для управления финансами и операциями](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Включение лицензии оптимизации планирования
 

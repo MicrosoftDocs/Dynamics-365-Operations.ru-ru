@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ee39f35f9d81f47c5438ddf48451d24ab0c0ed3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 963df35247285ad764a814daa4b51eff35207d97
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065261"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509370"
 ---
 # <a name="view-team-and-company-calendars"></a>Просмотр календарей группы и компании
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

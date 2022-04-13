@@ -1,23 +1,23 @@
 ---
 title: Удаленные или устаревшие функции Dynamics 365 Finance
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890961"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466844"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ ms.locfileid: "7890961"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+> Подробные сведения об объектах в приложениях Финансы и операции можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Финансы и операции.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.26
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Отчет по налогам для Финляндии (разработка на основе кодов отчетности)
+
+[Отчет о налоге для Финляндии](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменяется новой структурой декларации по НДС, [Декларация по НДС для Финляндии](../localizations/emea-fin-vat-declaration.md). |
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Приложение |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устаревшие: с 1 марта 2023 г. корпорация Майкрософт планирует больше не поддерживать налоговый отчет для Финляндии (макет отчета для Финляндии). Новые форматы электронной отчетности **TXT-документ декларации по НДС (FI)** и **Excel декларации по НДС (FI)** введены в качестве модели **Налоговая декларация**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.24
 

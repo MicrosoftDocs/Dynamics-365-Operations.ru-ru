@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 666ecc5b4e0df9ed518e8e9dabc1babd442508bc
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759121"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487623"
 ---
 # <a name="configure-address-books"></a>Настройка адресных книг
 
@@ -26,7 +26,7 @@ ms.locfileid: "6759121"
 
 Используйте эту процедуру и решения, принятые в разделе "Планирование конфигурации глобальной адресной книги и дополнительных адресных книг", чтобы настроить дополнительные адресные книги для вашей организации.
 
-В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта запись предназначена для членов группы планирования и конфигурации.
+В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 
 
 ## <a name="configure-address-books"></a>Настройка адресных книг

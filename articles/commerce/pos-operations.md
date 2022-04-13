@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 141b57586f5c4588b0b33bd85b584e570e39902f
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349725"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462505"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Операции POS в интерактивном и автономном режимах
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Большинство действий, которые пользователи выполняют на POS-терминале, считаются операциями. Операции настраиваются и управляются в бэк-офисе Dynamics 365 Commerce. Многие операции могут быть добавлены в кнопки в сетке кнопок POS-терминала. Затем пользователи смогут выбирать кнопки для запуска операций и выполнения их функций. Другие операции являются частью основного приложения POS-терминала и вызываются либо с помощью экранных кнопок, либо в составе других workflow-процессов или процессов.
 

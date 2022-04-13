@@ -1,7 +1,7 @@
 ---
 title: Копирование экземпляра
 description: Можно использовать Microsoft Dynamics Lifecycle Services (LCS) для копирования базы данных Microsoft Dynamics 365 Human Resources в среду в песочнице.
-author: andreabichsel
+author: twheeloc
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,19 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060839"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533974"
 ---
 # <a name="copy-an-instance"></a>Копирование экземпляра
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 
 
 Можно использовать Microsoft Dynamics Lifecycle Services (LCS) для копирования базы данных Microsoft Dynamics 365 Human Resources в среду в песочнице. При наличии другой среды-песочницы можно также скопировать базу данных из этой среды в целевую среду-песочницу.

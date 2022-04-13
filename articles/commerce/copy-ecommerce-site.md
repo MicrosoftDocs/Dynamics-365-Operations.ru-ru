@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 284a33099fecc5a8e8d5d5d31612abab51735773
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386984"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462334"
 ---
 # <a name="copy-an-e-commerce-site"></a>Копирование сайта электронной коммерции
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 В этой теме описан порядок копирования существующего сайта электронной коммерции или между средами электронной коммерции в конструкторе сайтов Microsoft Dynamics 365 Commerce.
 
