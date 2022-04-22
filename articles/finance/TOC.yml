@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (апрель)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (февраль)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Копирование графика выставления счетов
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Функции графиков выставления счетов
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Выставление счетов по этапам
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Процесс поддержки и возобновления
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Графики индексов потребительских цен
+                      href: accounts-receivable/cpischedules.md
                     - name: Завершение графиков выставления счетов
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Отсрочки выручки и расхода
-                  items: null
+                  items:
+                    - name: Настройка отсрочек выручки и расхода
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Графики отсрочки
+                      items:
+                        - name: Создание графиков отсрочки
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Проводки по умолчанию для РБП
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Распределение выручки по нескольким элементам
-                  items: null
+                  items:
+                    - name: Настройка распределения выручки по нескольким элементам
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Платежи и сопоставления
               items:
                 - name: Обзор платежей клиентов
@@ -922,6 +936,8 @@
               items:
                 - name: Планирование плана счетов
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Планирование локального плана счетов
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Счета ГК
                   items:
                     - name: Типы счетов ГК
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI версии 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI версии 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: Коды регистрации клиентов и другая информация
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: Декларация DIOT
