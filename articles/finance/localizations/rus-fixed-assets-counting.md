@@ -10,15 +10,15 @@ ms.search.form: RAssetTable, RAssetComponents
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3aabf843038d96e1025ae844d14331be6fe8ca21b1eeede660a2ae7d2d1da29b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ec7256b324cae1ab7e22e346c34315e8bb9f201
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773705"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565712"
 ---
 # <a name="fixed-asset-counting-russia"></a>Инвентаризация ОС (Россия)
 

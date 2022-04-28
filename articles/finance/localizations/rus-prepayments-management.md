@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6041f7324c6c2b9f62c027a6112faccb728fadb268188195da37ad78f1ee0a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 707ad13fd7f35f844ca36ad21ef7a1ee8196a02f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762044"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566115"
 ---
 # <a name="prepayments-management"></a>Управление Предоплатами
 [!include [banner](../includes/banner.md)]

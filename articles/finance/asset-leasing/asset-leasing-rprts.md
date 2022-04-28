@@ -2,25 +2,25 @@
 title: Отчеты об аренде активов
 description: В этой теме перечислены и кратко описаны отчеты, доступные в аренде активов.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739415"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550049"
 ---
 # <a name="asset-leasing-reports"></a>Отчеты об аренде активов
 
@@ -37,7 +37,7 @@ ms.locfileid: "6739415"
 |     Поля отчета                  |     описание                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Дата начала              |     Дата начала срока действия самой ранней версии аренды.                     |   
-|     Срок аренды                     |     Срок аренды для ранней версии аренды.                            |
+|     Срок аренды                     |     Текущая версия срока аренды.                            |
 |     Краткосрочная аренда               |     Если аренда классифицируется как краткосрочная аренда, будет отображаться как **Да**.         |
 |     Аренда малоценного актива                |     Если аренда классифицируется как аренда малоценного актива, будет отображаться как **Да**.          |
 |     Первоначальный актив в форме права пользования     |     Исходное значение актива в форме права пользования из первоначальной записи журнала признания.      |

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087558"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570292"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.24 (февраль 2022 г.)
 
@@ -63,7 +63,7 @@ ms.locfileid: "8087558"
 | Сводное планирование | [Использование журнала резервного запаса для обновления минимального покрытия для номенклатур](../master-planning/safety-stock-journal.md) |
 | Управление производством | [Настройка интерфейса выполнения производственного цеха](../production-control/production-floor-execution-customize.md) |
 | Управление производством | [Стиль интерфейса выполнения производственного цеха](../production-control/production-floor-execution-styles.md) |
-| Продажи и маркетинг | [Повышение производительности очистки истории продаж](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Продажи и маркетинг | [Планирование очистки данных истории продаж](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Управление складом | [Учетные записи пользователей мобильного устройства](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

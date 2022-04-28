@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7794487ff89c8060b26d024514858dfadcc71272
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 1d92d48c9eac05b961f36205692242016a7df324
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700151"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565797"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 

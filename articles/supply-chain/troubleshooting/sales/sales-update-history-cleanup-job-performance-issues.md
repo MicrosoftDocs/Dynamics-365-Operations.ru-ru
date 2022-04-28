@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 371a8c7178cd7c5091d6dd9a91d0ee03b943a269
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 124fb90ecafd4f4cccbd8a8bb443694c95365732
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103196"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570352"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Задание очистки истории обработки продаж завершается сбоем или имеются проблемы производительности
 
@@ -30,5 +30,5 @@ ms.locfileid: "8103196"
 
 ## <a name="resolution"></a>Решение
 
-Новая версия пакетного задания **Очистка истории обработки продаж** доступна для Supply Chain Management версии 10.0.19 и выше. По умолчанию эта функция не включена. Подробные сведения о том, как она функционирует и как включать ее в управлении функциями, см. в разделе [Повышение производительности очистки истории продаж](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
+Новая версия пакетного задания **Очистка истории обработки продаж** доступна для Supply Chain Management версии 10.0.19 и выше. По умолчанию эта функция не включена. Подробные сведения о том, как она функционирует и как включать ее в управлении функциями, см. в разделе [Планирование очистки данных истории продаж](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

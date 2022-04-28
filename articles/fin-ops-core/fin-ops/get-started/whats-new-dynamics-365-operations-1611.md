@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752816"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548090"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016 г.)
 
@@ -816,7 +816,7 @@ ms.locfileid: "7752816"
 | Как поставщик, получайте сведения о сумме консигнационных запасов, которые перемещены клиенту. | Чтобы выставить счет клиенту, поставщику требуется информация о сырье, которое было приобретено из консигнационных запасов, и о дате покупки. Поставщик может также контролировать запасы в наличии на сайте клиента с использованием интерфейса сотрудничества поставщика. |
 | Перемещение принадлежащих поставщику запасов с помощью журнала перемещения. | Для отслеживания физического расположения принадлежащих поставщику запасов необходимо иметь возможность записи расположения в системе. Используя журнал перемещения, можно записывать физическое перемещение запасов, такое как перемещение из одного местонахождения на складе в другое местонахождение на этом складе. |
 | Корректировка принадлежащих поставщику запасов с помощью журнала инвентаризации. | Важно, чтобы запасы в наличии в системе были синхронизированы с фактическими физическими запасами. Принадлежащие поставщику запасы можно корректировать с помощью процесса инвентаризации, например процессы корректировки количества и журнала инвентаризации. |
-| Дополнительные сведения о поддержке коносамента в Dynamics 365 for Operations | Дополнительные сведения о поддержке процессов консигнации см. в разделах [Коносамент](../../../supply-chain/inventory/consignment.md), [Настройка коносамента](../../../supply-chain/inventory/set-up-consignment.md), [Создание заказа пополнения коносамента (руководство по задаче)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) и [Изменение владельца консигнационных запасов, основанное на спросе производства (руководство по задаче)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Дополнительные сведения о поддержке коносамента в Dynamics 365 for Operations | Дополнительные сведения о поддержке процессов консигнации см. в разделах [Коносамент](../../../supply-chain/inventory/consignment.md), [Настройка коносамента](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Создание заказа пополнения коносамента (руководство по задаче)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) и [Изменение владельца консигнационных запасов, основанное на спросе производства (руководство по задаче)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Совместная работа с поставщиками (ранее известна как портал поставщиков)
 
@@ -942,7 +942,7 @@ ms.locfileid: "7752816"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Что нового и что изменилось на домашней странице Finance and Operations](whats-new-changed.md)
+[Домашняя страница "Что нового и что изменилось в Finance and Operations"](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

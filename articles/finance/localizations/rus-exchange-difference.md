@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7c73106c765a00e42ec17605a333c29dd172d3216e006ee78930c923103d60c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6a79d7b1857a5bfab5f46d0db5c44ef0f95e23a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780335"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565523"
 ---
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 

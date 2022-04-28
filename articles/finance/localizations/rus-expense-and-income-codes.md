@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9f6df307bcf3f4f5410cc0c3d1a1649d501b8d6c7197878d5de76abd5ab67826
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ad85606242a64679675b27dae2ed3c04229aa2a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723737"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565940"
 ---
 # <a name="expense-and-income-codes"></a>Коды расходов и доходов
 [!include [banner](../includes/banner.md)]

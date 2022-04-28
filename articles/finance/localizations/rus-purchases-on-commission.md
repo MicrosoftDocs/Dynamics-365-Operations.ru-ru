@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2385d0a07440761daca44759413c46b5a2bf3637
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6267e7da6d71ab455cd95d7e8762ae27f4cba9ce
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345313"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565745"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]
