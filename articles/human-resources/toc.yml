@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Что нового и что изменилось в Human Resources
               items:
+                - name: Human Resources 10.0.27 (объединенная инфраструктура)
+                  href: ./get-started/hr-whats-new-changed-10-0-27.md
                 - name: Human Resources 10.0.26 (объединенная инфраструктура)
                   href: ./get-started/hr-whats-new-changed-10-0-26.md
                 - name: Human Resources 10.0.25 (объединенная инфраструктура)
@@ -972,7 +974,7 @@
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: Статус плана сотрудника со льготами
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: Разработка и администрирование приложений финансов и операций
+    - name: Разработка и администрирование приложений для управления финансами и операциями
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

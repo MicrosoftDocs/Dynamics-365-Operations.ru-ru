@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (июль)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (май)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (апрель)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Повторяющееся выставление счетов по контракту
                   items:
+                    - name: Настройка повторяющегося выставления счетов по контракту
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Создание графиков выставления счетов
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Копирование графика выставления счетов
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Выставление счетов по этапам
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Распределение выручки
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Процесс поддержки и возобновления
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Выручка по невыставленным счетам
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Графики индексов потребительских цен
                       href: accounts-receivable/cpischedules.md
                     - name: Завершение графиков выставления счетов
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Сценарии дат сопоставления
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Отсрочки выручки и расхода
                   items:
                     - name: Настройка отсрочек выручки и расхода
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Графики отсрочки
-                      items:
-                        - name: Создание графиков отсрочки
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Проводки по умолчанию для РБП
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Создание графиков отсрочки
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Проводки по умолчанию для РБП
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Распределение выручки по нескольким элементам
                   items:
                     - name: Настройка распределения выручки по нескольким элементам
@@ -1429,7 +1437,7 @@
                             - name: Настройка ресурсов Azure для электронного выставления накладных
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Создание Azure Key Vault на портале Azure
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Создание учетной записи службы хранилища Azure на портале Azure
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: Настройка подключения SharePoint
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Совместное использование с другими организациями
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Панель мониторинга управления использованием
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Обработка входящих электронных документов
                           items:
                             - name: Обработка входящих электронных документов
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: Настройка канала SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Настройка и использование электронного выставления накладных с Finance и Supply Chain Management
-                          items:
-                            - name: Активация и настройка интеграции с электронным выставлением накладных
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Настройка параметров электронного выставления накладных
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Настройка и использование электронного выставления накладных с Finance и Supply Chain Management
+                      items:
+                        - name: Активация и настройка интеграции с электронным выставлением накладных
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Настройка параметров электронного выставления накладных
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Работа с электронным выставлением накладных
                           items:
                             - name: Отправка электронных документов в электронное выставление накладных
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Доступность функций электронного выставления накладных
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Начало работы с администрированием службы электронного выставления накладных
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Начало работы с электронным выставлением накладных
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Создание нового компонента электронного выставления накладных
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Начало работы с электронным выставлением накладных для Бразилии
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Начало работы с электронным выставлением накладных для Египта
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Использование службы электронных накладных для импорта накладных поставщиков
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Настройка электронного выставления накладных
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Ссылка администратора подключаемого модуля Power Platform
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Вопросы и ответы по электронному выставлению накладных
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Расчет налогов
@@ -1618,11 +1618,17 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Пустой список функций налогов в параметрах расчета налогов
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Невозможно определить налоговый код
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Не удалось найти соответствующий результат
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Включение режима отладки в службе расчета налогов
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Вопросы и ответы по расчету налогов
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Налог
               items:
-                - name: Налог
+                - name: Налог (НСП)
                   items:
                     - name: Обзор налога
                       href: general-ledger/indirect-taxes-overview.md
@@ -3500,7 +3506,7 @@
               items:
                 - name: Обзор по Саудовской Аравии
                   href: localizations/saudi-arabia.md
-                - name: Налог
+                - name: Налог (НСП)
                   href: localizations/apac-sau-sales-tax.md
                 - name: Отчетность Zakat для Саудовской Аравии
                   href: localizations/emea-sau-zakat-reporting.md
@@ -3725,7 +3731,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Эффективность продаж и прибыльность
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Платежи поставщикам
+                - name: Содержимое Power BI выставления счетов по подпискам
+                  href: accounts-receivable/sub-bill-power-bi.md
+                - name: Платежи поставщику
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Показатели трудовых ресурсов
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json

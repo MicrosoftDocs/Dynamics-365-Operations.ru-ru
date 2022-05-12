@@ -12,14 +12,12 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (июль 2022 г.)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (май 2022 г.)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: "Commerce 10.0.25 (апрель 2022\_г.)"
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: "Commerce 10.0.24 (февраль 2022\_г.)"
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: "Commerce 10.0.23 (январь 2022\_г.)"
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Настройка налога для интернет-заказов
                           href: sales-tax-config.md
+                        - name: Скрытие сведений о разбиении налогов в сводках заказов
+                          href: hide-taxes-breakup.md
                     - name: Настройка профиля уведомлений по электронной почте
                       href: email-notification-profiles.md
                     - name: Номерные серии
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Руководство по внедрению системы управления устройствами
                       href: implementation-considerations-devices.md
-                    - name: Выбор между MPOS и Cloud POS
+                    - name: Выбор между Store Commerce и Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Выполнение операций POS в интерактивном и автономном режимах
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Создание финансовых аналитик для каналов розничной торговли и настройка значений для магазинов
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Настройка номерных серий для журналов операций розничной торговли
+                  href: retail-statements-number-sequences.md
                 - name: Включение согласованной обработки режима доставки в каналах электронной коммерции
                   href: consistent-delivery-mode-handling.md
             - name: Настройка канала онлайн-торговли
@@ -884,6 +886,8 @@
           items:
             - name: Обзор журналов операций
               href: retail-statements.md
+            - name: Параметры разноски Commerce
+              href: commerce-posting-parameters.md
             - name: Проверка проводок магазина для расчета журнала операций
               href: valid-checker.md
             - name: Отключение правил в программе проверки согласованности проводок
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: Установка темы Adventure Works
                       href: install-adventure-works.md
+                - name: Руководство по локализации Commerce
+                  href: e-commerce-localization-guide.md
             - name: Управление цифровыми активами
               items:
                 - name: Обзор управления цифровыми активами
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: Настройка пределов количества продуктов для сайтов электронной коммерции B2B
               href: b2b/quantity-limits.md
+            - name: Каталоги Commerce для сайтов B2B
+              items:
+                - name: Создание каталогов Commerce для сайтов B2B
+                  href: catalogs-b2b-sites.md
+                - name: Влияние расширяемости каталогов Commerce для настроек B2B
+                  href: catalogs-b2b-sites-dev.md
+                - name: Вопросы и ответы по каталогам Commerce для B2B
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Мониторинг и анализ
           items:
             - name: Мониторинг эффективности продаж и маржи
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Консольная коммерция
               items:
+                - name: Обзор
+                  items:
+                    - name: Введение в базовую версию Commerce Scale Unit (CSU)
+                      href: dev-itpro/CSU-core.md
                 - name: API и справочник
                   items:
                     - name: API клиентов и потребителей Commerce Scale Unit
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Использование интерфейсов API Retail Server во внешних приложениях
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Прокси Typescript и C# для Retail POS
+                    - name: Прокси TypeScript и C# для Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Архитектура и конфигурация Commerce Runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,7 +2546,9 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Упаковка и развертывание
                   items:
-                    - name: Удаление расширений облачной единицы масштабирования
+                    - name: Создание пакета расширения Cloud Scale Unit
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Удаление расширений Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Миграция расширений POS в Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Отладка расширений Store Commerce с помощью VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: Настройка среды
                   items:
                     - name: Локальная среда разработки
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Создание пакета расширения Cloud POS
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Создание пакета установки расширения Store Commerce
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: Электронная коммерция
               items:
                 - name: Обзор
@@ -2814,8 +2838,12 @@
                       items:
                         - name: Средство ведения журнала телеметрии
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: Расширение пакета CDX
+                  items:
+                    - name: Расширение пакета CDX для клиентов для добавления пользовательских данных
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Упаковка и развертывание
                   items:
                     - name: Создание упаковки платежа Commerce для развертывания финансов и операций
