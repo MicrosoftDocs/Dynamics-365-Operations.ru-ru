@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062733"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661468"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Вопросы и ответы по объединению инфраструктуры Dynamics 365 Human Resources
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062733"
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>Что такое объединение инфраструктуры Dynamics 365 Human Resources?
 
-Dynamics 365 Human Resources — это отдельное приложение, использующее инфраструктуру, отличную от других приложений Финансы и операции, таких как Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce и Dynamics 365 Project Operations. Слияние инфраструктуры перенесет Dynamics 365 Human Resources в ту же инфраструктуру, что и другие приложения Финансы и операции.
+Dynamics 365 Human Resources — это отдельное приложение, использующее инфраструктуру, отличную от других приложений для управления финансами и операциями, таких как Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce и Dynamics 365 Project Operations. Слияние инфраструктуры перенесет Dynamics 365 Human Resources в ту же инфраструктуру, что и другие приложения Финансы и операции.
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>Ценность и преимущества объединения инфраструктуры
 
@@ -231,6 +231,3 @@ Dynamics 365 Human Resources — это отдельное приложение,
 
 Дополнительные среды не требуются для поддержки изменения инфраструктуры.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>Куда можно обратиться, если у меня есть дополнительные вопросы о лицензировании продуктов?
-
-При наличии вопросов о лицензировании можно найти дополнительную информацию в [Центре бизнес-приложений — цены и лицензирование D365](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering). Если эта информация не помогает вам с вашей проблемой, откройте запрос на LicenseQ.

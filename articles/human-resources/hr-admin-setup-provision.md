@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565638"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625367"
 ---
 # <a name="provision-human-resources"></a>Подготовка Human Resources к работе
 
@@ -41,7 +41,7 @@ ms.locfileid: "8565638"
 ## <a name="provision-a-human-resources-trial-environment"></a>Подготовка пробной среды Human Resources
 
 >[!NOTE]
-> Начиная с апреля 2022 года пробные среды Human Resources не будут доступны в автономном приложении. Потенциальные клиенты, заинтересованные в оценке возможностей Human Resources в приложениях для управления финансами и операциями, могут сделать это, используя бесплатную 30-дневную пробную версию, а также демонстрационные данные. Dynamics 365 Finance будет включать возможности Human Resources, реализованные в инфраструктуре Finance путем объединения автономного приложения. Дополнительные сведения см. в разделе [Объединение предложений HR объединяет возможности для клиентов](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Подробнее о пробных версиях Dynamics 365 Finance см. в пошаговом [руководстве](/fin-ops/get-started/before-you-buy). 
+> Начиная с апреля 2022 года пробные среды Human Resources не будут доступны в автономном приложении. Потенциальные клиенты, заинтересованные в оценке возможностей Human Resources в приложениях для управления финансами и операциями, могут сделать это, используя бесплатную 30-дневную пробную версию, а также демонстрационные данные. Dynamics 365 Finance будет включать возможности Human Resources, реализованные в инфраструктуре Finance путем объединения автономного приложения. Дополнительные сведения см. в разделе [Объединение предложений HR объединяет возможности для клиентов](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Подробнее о пробных версиях Dynamics 365 Finance см. в пошаговом [руководстве](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Прежде чем приступать к первой среде-песочнице и рабочей среде, можно подготовить [пробную среду Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) для проверки функций Human Resources. Пробная версия среды содержит вымышленные данные, которые можно использовать для изучения программы безопасным образом. Хотя пробная среда принадлежит пользователю, запросившему ее, можно пригласить других пользователей через функцию системного администрирования для Управление персоналом. 

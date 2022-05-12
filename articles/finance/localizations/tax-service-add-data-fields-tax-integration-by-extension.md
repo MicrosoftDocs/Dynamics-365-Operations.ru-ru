@@ -2,7 +2,7 @@
 title: Добавление полей данных в налоговую интеграцию с помощью расширений
 description: В этой теме объясняется, как использовать расширения X++ для добавления полей данных в налоговую интеграцию.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323526"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649111"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Добавление полей данных в налоговую интеграцию с помощью расширения
 
@@ -334,9 +334,10 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-В этом коде `_destination` — это объект-оболочка, который используется для создания запроса POST, и `_source` является объектом `TaxIntegrationLineObject`.
+В этом коде `_destination` — это объект-оболочка, который используется для создания запроса, и `_source` является объектом `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Определите ключ, который используется в форме запроса как **private const str**. Эта строка должна точно совпадать с именем меры, добавленным в теме [Добавление полей данных в налоговые конфигурации](tax-service-add-data-fields-tax-configurations.md).
-> Задайте поле в методе **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** с помощью метода **SetField**. Второй параметр должен иметь тип данных **строка**. Если тип данных отличается от **строка**, преобразуйте его.
-> Если расширен **перечислимый тип** X++ , обратите внимание на различие между его значением, меткой и именем.
+> Определите имя поля, которое используется в запросе как **private const str**. Эта строка должна точно совпадать с именем узла (не с подписью), добавленным в теме [Добавление полей данных в налоговые конфигурации](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Задайте поле в методе **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** с помощью метода **SetField**. Второй параметр должен иметь тип данных **строка**. Если тип данных отличается от **строка**, преобразуйте его в строку.
+> Если типом данных является **тип перечисления** X++, рекомендуется использовать метод **enum2Symbol** для преобразования значения перечисления в строку. Значение перечисления, добавляемое в конфигурацию налога, должно точно совпадать с именем перечисления. Ниже приведен список различий между значением перечислимого типа, меткой и именем.
+> 
+>   - Имя перечисления является символическим именем в коде. **enum2Symbol()** может преобразовать значение перечисления в его имя.
 >   - Значение перечисления является целым числом.
->   - Метка перечисления может различаться в различных предпочитаемых языках. Не используйте **enum2Str**, чтобы преобразовать тип перечисления в строку.
->   - Рекомендуется имя перечисления, так как оно является фиксированным. **enum2Symbol** может использоваться для преобразования перечисления в его имя. Значение перечисления, добавляемое в конфигурацию налога, должно точно совпадать с именем перечисления.
+>   - Метка перечисления может различаться в различных предпочитаемых языках. **enum2Str()** может преобразовать значение перечисления в его метку.
 
 ## <a name="model-dependency"></a>Зависимость модели
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

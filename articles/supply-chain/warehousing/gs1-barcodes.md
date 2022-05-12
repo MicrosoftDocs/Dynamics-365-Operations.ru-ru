@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547826"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625288"
 ---
 # <a name="gs1-bar-codes"></a>Штрих-коды GS1
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- Preview until 10.0.25 GA -->
 
 Работники складов часто должны выполнить несколько задач, когда они используют сканер мобильного устройства для регистрации передвижений номенклатуры, поддона или контейнера. Эти задачи могут включать как сканирование штрих-кода, так и ввод данных вручную на мобильном устройстве. Штрих-коды используют формат, определяемый компанией, и управление ими осуществляется с помощью Microsoft Dynamics 365 Supply Chain Management.
 

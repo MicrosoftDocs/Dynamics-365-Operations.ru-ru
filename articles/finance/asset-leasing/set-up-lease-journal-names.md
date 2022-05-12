@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: a92461e742f1675e4cfda89e6c80c5b087ff5bfb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890758"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644907"
 ---
 # <a name="set-up-lease-journal-names"></a>Настройка наименований журналов аренды
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 
 Названия журналов аренды определяют журналы, в которые разносятся проводки аренды активов. Только имена журналов, назначенных для типа журнала **Аренда активов**, отображаются в полях **Первоначальное признание** и **Имя ежемесячного журнала** на странице **Параметры аренды активов**. Только тип журнала **запись накладных поставщика** может быть назначен в поле **Наименование журнала накладных**.

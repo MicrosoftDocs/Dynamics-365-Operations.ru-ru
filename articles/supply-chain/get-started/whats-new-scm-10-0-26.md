@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
+title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547883"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625261"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26, предварительная версия. Эта версия имеет номер сборки 10.0.1192 и доступна следующим образом:
+В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26. Эта версия имеет номер сборки 10.0.1192 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** март 2022 г.
 - **Общая доступность выпуска (самостоятельное обновление):** апрель 2022 года

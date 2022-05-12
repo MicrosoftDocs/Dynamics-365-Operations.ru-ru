@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 80778547b99af5a7a9717146850d8161f2e8f686
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: aaa894ccfd77a5522a3696e20987b9e67f3abee0
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388346"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613969"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Рекомендации по развертыванию для примера интеграции службы финансовой регистрации для Чешской Республики (устаревшая версия)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 В этой теме приводятся рекомендации по развертыванию примера интеграции службы финансовой регистрации для Чешской Республики из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции службы финансовой регистрации для Чешской Республики](emea-cze-fi-sample.md). 
 

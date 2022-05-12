@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 5c587f4e6a1dd58a7b8c238fc5afb16774828b2a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782689"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644396"
 ---
 # <a name="iot-intelligence-home-page"></a>Домашняя страница бизнес-аналитики Интернета вещей
 
@@ -37,32 +37,35 @@ ms.locfileid: "7782689"
 
 Бизнес-аналитика Интернета вещей поддерживает следующие сценарии:
 
-+ **Задержки производства** — этот сценарий сравнивает фактическое время цикла с плановым временем цикла. Supply Chain Management уведомляет вас, когда производство не было по плану, чтобы можно было повысить эффективность работы и избежать задержек заказов.
-+ **Простой оборудования** — этот сценарий сравнивает измеренное время доступности с параметрами, заданными пользователем. Supply Chain Management уведомляет вас при превышении порога простоя, чтобы можно было выполнить такие действия, как перепланирование производственного заказа на работу или создание заказа на работу для обслуживания.
-+ **Качество продукта** — этот сценарий сравнивает показания датчика, такие как влажность и температура, с определенной пользователем метрикой качества. Supply Chain Management уведомляет пользователя при возникновении отклонения, чтобы можно было обрабатывать стандарты качества и минимизировать отходы.
+- **Задержки производства** — этот сценарий сравнивает фактическое время цикла с плановым временем цикла. Supply Chain Management уведомляет вас, когда производство не было по плану, чтобы можно было повысить эффективность работы и избежать задержек заказов.
+- **Простой оборудования** — этот сценарий сравнивает измеренное время доступности с параметрами, заданными пользователем. Supply Chain Management уведомляет вас при превышении порога простоя, чтобы можно было выполнить такие действия, как перепланирование производственного заказа на работу или создание заказа на работу для обслуживания.
+- **Качество продукта** — этот сценарий сравнивает показания датчика, такие как влажность и температура, с определенной пользователем метрикой качества. Supply Chain Management уведомляет пользователя при возникновении отклонения, чтобы можно было обрабатывать стандарты качества и минимизировать отходы.
 
 На следующем рисунке показано взаимодействие центра Интернета вещей Azure, бизнес-аналитики Интернета вещей и Supply Chain Management.
 
 ![Центр Интернета вещей, бизнес-аналитика Интернета вещей и Supply Chain Management.](media/iot_intelligence.png)
 
-## <a name="setup"></a>Настройка
+<!-- KFM: hide setup info for now
 
-Можно настроить бизнес-аналитику Интернета вещей без написания какого-либо кода. Имеются основные шаги.
+## Setup
 
-1. [Настройка ресурсов Azure](iot-azure-setup.md) — создание центра Интернета вещей, кэша Redis и хранилища ключей, к которым можно получить доступ из Supply Chain Management.
-2. [Форматы схем сообщений для центра Интернета вещей](iot-schema-format.md) — настройка устройств на отправку сообщений в центр Интернета вещей и определение формата сообщений нотации объектов JavaScript (JSON).
-3. В управлении функциями установите флажок бизнес-аналитики Интернета вещей. 
-4. [Установите надстройку бизнес-аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) — установите надстройку в LCS и настройте секреты Azure.
-5. [Настройка метрик](iot-metrics-setup.md) — настройте метрики в Supply Chain Management.
-6. [Настройка сценария](iot-scenario-setup.md) — настройте сценарии в Supply Chain Management.
+You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
+
+1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
+2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
+3. In Feature Management, enable the IoT Intelligence feature flag. 
+4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
+5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
+6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
+
+-->
 
 ## <a name="tracking-and-maintenance"></a>Отслеживание и обслуживание
 
-+ [Мониторинг сценариев в Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-+ [Отключение сценария](iot-scenario-setup.md#disable-a-scenario)
-+ [Удаление надстройки](iot-lcs-setup.md#uninstall-addin)
-+ [Изменение запущенного сценария аналитики Интернета вещей](iot-management.md#modify-a-running-iot-intelligence-scenario)
-+ [Параметры моделирования](iot-management.md#simulation-options)
+- [Мониторинг сценариев в Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
+- [Отключение сценария](iot-scenario-setup.md#disable-a-scenario)
+- [Изменение запущенного сценария аналитики Интернета вещей](iot-management.md#modify-a-running-iot-intelligence-scenario)
+- [Параметры моделирования](iot-management.md#simulation-options)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

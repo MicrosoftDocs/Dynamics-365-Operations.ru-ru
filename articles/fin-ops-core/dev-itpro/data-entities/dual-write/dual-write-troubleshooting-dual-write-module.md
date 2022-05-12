@@ -2,19 +2,19 @@
 title: Устранение проблем с двойной записью в приложениях Finance and Operations
 description: В этом разделе содержатся сведения об устранении неполадок, связанных с модулем двойной записи в приложениях Финансы и операции.
 author: RamaKrishnamoorthy
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565976"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613892"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Устранение проблем с двойной записью в приложениях Finance and Operations
 
@@ -73,7 +73,7 @@ Root activity ID: \<your root activity\> id
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Включение параллельной обработки в приложениях для управления финансами и операциями для повышения производительности
 
-Включение параллельной обработки может сократить время, необходимое для импорта данных из приложений для управления финансами и операциями в приложения для взаимодействия с клиентами и Microsoft Dataverse. 
+Включение параллельной обработки может сократить время, необходимое для импорта данных из приложений Dynamics 365 для взаимодействия с клиентами и Microsoft Dataverse в приложения для управления финансами и операциями. 
 
 Для включения параллельной обработки в приложениях для управления финансами и операциями выполните следующие действия.
 

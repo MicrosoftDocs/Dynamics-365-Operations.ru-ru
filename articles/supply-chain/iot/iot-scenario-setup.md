@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782435"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644710"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Настройка сценария для бизнес-аналитики Интернета вещей
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме объясняется, как настроить сценарии для бизнес-аналитики Интернета вещей в Microsoft Dynamics 365 Supply Chain Management. Перед настройкой сценариев необходимо [настроить Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+В этой теме объясняется, как настроить сценарии для бизнес-аналитики Интернета вещей в Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 В этом разделе можно настроить сценарий **простой оборудования**, чтобы создалось уведомление в Supply Chain Management при отключении компьютера. Кроме того, в этом разделе показано, как настроить сценарий **Качество продукта** таким образом, чтобы уведомление создавалось, если атрибут элемента выходит за пределы указанного диапазона, и как настроить сценарий **Задержки производства** таким образом, чтобы уведомление создавалось, если производительность производства падает ниже порогового значения.
 
