@@ -452,18 +452,16 @@
               href: hr-personnel-positions.md
             - name: Создание календаря рабочего времени
               href: hr-personnel-create-working-time-calendar.md
-            - name: Найм кандидатов на должность
-              href: hr-personnel-recruit.md
             - name: Вопросы и ответы по действиям с персоналом
               href: hr-personnel-actions-faq.md
-            - name: Использование бизнес-правил для управления сведениями о сотрудниках
+            - name: Использование бизнес-процессов для управления сведениями о сотрудниках
               href: hr-workflow-manage-employee-information.md
             - name: Просмотр изменений адресов и управление ими
               href: hr-personnel-view-address-changes.md
             - name: Изменение отношений подотчетности для должности
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Упрощенный ввод данных о сотрудниках
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
+              href: stream-employee-entry.md
             - name: Ввод сведений о работнике
               href: hr-personnel-enter-worker-information.md
             - name: Работники без трудоустройства
@@ -488,26 +486,34 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: Ведение сведений о травмах и заболеваниях сотрудников
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: Найм кандидатов
+            - name: Набор сотрудников
               items:
-                - name: Управление процессами набора сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Проекты по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Создание проектов по массовому набору сотрудников
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Ввод кандидата и данных заявления вручную
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Разработка и открытие заявок на должность
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Настройка должностей
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Прием на работу кандидатов через набор сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Прием на работу действующих сотрудников через набор сотрудников
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Определение и развертывание средств выбора кандидатов
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                - name: Обзор
+                  href: ../human-resources/hr-recruit-overview.md
+                - name: Проекты по набору сотрудников
+                  items:
+                    - name: Управление процессом проекта по набору сотрудников
+                      href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Ввод кандидата и данных заявления вручную
+                      href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                    - name: Разработка и открытие заявок на должность
+                      href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                    - name: Настройка должностей
+                      href: ../human-resources/hr-personnel-set-up-positions.md
+                    - name: Прием на работу кандидатов через набор сотрудников
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                    - name: Прием на работу действующих сотрудников через набор сотрудников
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                    - name: Определение и развертывание средств выбора кандидатов
+                      href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                    - name: Проекты по массовому набору сотрудников
+                      href: ../human-resources/hr-personnel-mass-hire-projects.md
+                    - name: Создание проектов по массовому набору сотрудников
+                      href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: Запросы на набор сотрудников (объединенная инфраструктура)
+                  items:
+                    - name: Найм кандидатов на должность
+                      href: hr-personnel-recruit.md
         - name: Управление задачами
           href: hr-task-mgmt.md
         - name: Отпуск и отсутствие
@@ -800,6 +806,8 @@
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Настройка интеграции с Finance
               href: hr-admin-integration-finance.md
+            - name: Создание ссылок из Human Resources на другую среду
+              href: configure-links.md
             - name: Настройка интеграции с Dayforce
               href: hr-admin-integration-dayforce.md
             - name: Создание приложения для повторяющегося экспорта данных

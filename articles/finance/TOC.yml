@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Настройка складских операций для локальных развертываний
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Ресурсы документации
               items:
                 - name: Система справки
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Профили разноски по поставщикам
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Создание кодов расходов
+              href: accounts-receivable/create-charges-codes.md
             - name: Даты накладной поставщика
               href: accounts-payable/vendor-invoice-dates.md
             - name: Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами
@@ -292,9 +292,11 @@
               items:
                 - name: Централизованные платежи для расчетов с поставщиками
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Настройка и обработка платежей с промежуточными счетами
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Настройка сопоставления
                   href: cash-bank-management/configure-settlement.md
-                - name: Сопоставление остатка
+                - name: Сопоставить остаток
                   href: cash-bank-management/settle-remainder.md
                 - name: Обзор платежей поставщикам
                   href: cash-bank-management/tasks/vendor-payment-overview.md
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных с произвольным текстом
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Разноска расчетов с клиентами
+              href: general-ledger/accts-recvble-posting.md
             - name: Профили разноски по клиенту
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Создание кодов расходов
+              href: accounts-receivable/create-charges-codes.md
             - name: Обзор прямого дебетования SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Настройка поручения прямого дебетования SEPA
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Сценарии дат сопоставления
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Разделение выручки
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Отсрочки выручки и расхода
                   items:
                     - name: Настройка отсрочек выручки и расхода
@@ -452,6 +460,8 @@
               items:
                 - name: Обзор платежей клиентов
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Настройка и обработка платежей с промежуточными счетами
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Централизованные платежи для расчетов с клиентами
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Внесение платежей клиентов
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Двойная валюта
                       href: general-ledger/dual-currency.md
+                - name: Профили разноски
+                  items:
+                    - name: Обзор профилей разноски
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Рекомендуемые методики для профилей разноски
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Счета для автоматических проводок
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Правила распределения
                   items:
                     - name: Правила распределения ГК

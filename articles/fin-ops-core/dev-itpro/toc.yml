@@ -50,10 +50,6 @@
           items:
             - name: Интеграция между приложениями для управления финансами и операциями и сторонними службами
               href: data-entities/integration-overview.md
-            - name: Регулирование на основе приоритетов
-              hreF: data-entities/priority-based-throttling.md
-            - name: Вопросы и ответы по регулированию на основе приоритетов
-              href: data-entities/throttling-faq.md
             - name: API-интерфейсы интеграции данных
               items:
                 - name: REST API пакета управления данными
@@ -74,7 +70,19 @@
                   href: data-entities/recurring-integrations.md
                 - name: Тестирование служб с помощью программ от независимых производителей
                   href: data-entities/third-party-service-test.md
-            - name: Соединитель Finance and Operations
+            - name: Ограничения защиты служб
+              items:
+                - name: Ограничения API защиты служб
+                  href: data-entities/service-protection-api-limits.md
+                - name: Регулирование приоритетов
+                  href: data-entities/priority-based-throttling.md
+                - name: Повтор операций
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Мониторинг регулирования API
+                  href: data-entities/service-protection-monitoring.md
+                - name: Максимизация пропускной способности API
+                  href: data-entities/service-protection-maximizing-api-throughput.md
+            - name: Соединитель для управления финансами и операциями
               href: data-entities/fin-ops-connector.md
             - name: Разработка механизмов интеграции
               items:
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Настройка прокси-серверов для локальных сред
                       href: deployment/onprem-reverseproxy.md
+                    - name: Настройка приложения склада для локальных развертываний
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Установка сетевых принтеров в локальных средах
                       href: analytics/install-network-printer-onprem.md
                     - name: Локальная диагностика
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: Расширение и настройка справки и совместная работа над ней
                   href: help/contributor-guide.md
-            - name: 'Вопросы, связанные с развертыванием'
+            - name: Региональные службы приложений для управления финансами и операциями
               items:
-                - name: Параметры развертывания национального и локального облаков для Dynamics 365 Finance и Dynamics 365 Supply Chain Management
+                - name: Местные регионы
                   href: deployment/deployment-options-geo.md
-                - name: Finance и Supply Chain Management в облаке сообщества для государственных организаций (GCC) США
+                - name: Облако сообщества для государственных организаций (GCC) США
                   href: deployment/us-gcc-deployment.md
-                - name: 'Finance и Supply Chain Management, предоставляемые компанией 21Vianet в Китае'
+                - name: Китай под управлением 21Vianet
                   href: deployment/china-local-deployment.md
-                - name: Приложения для управления финансами и операциями во Франции
-                  href: deployment/france-local-deployment.md
         - name: Разработка и настройка
           items:
             - name: Домашняя страница модуля разработки и настройки
@@ -559,7 +567,7 @@
                     - name: Обзор создания моделей и элементов модели данных
                       href: dev-tools/create-data-model-elements.md
                     - name: Правила именования для расширений
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Отключение настройки моделей и отказ от функций
                       href: dev-tools/lock-models.md
                 - name: Отчет об анализе настройки

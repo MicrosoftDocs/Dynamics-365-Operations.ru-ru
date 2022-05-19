@@ -600,6 +600,8 @@
                       href: wallets.md
                     - name: Расширенные платежи при оформлении заказа в магазине
                       href: dev-itpro/enhanced-sca.md
+                    - name: Настройка экспресс-платежей для PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: Вопросы и ответы по платежам
                       href: dev-itpro/payments-retail.md
                 - name: Электронная почта и уведомления
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: Создание сайта электронной коммерции
               items:
+                - name: Сопоставление каналов с сайтами электронной коммерции
+                  href: map-channels-sites.md
                 - name: Настройка доменного имени
                   href: configure-your-domain-name.md
                 - name: Развертывание нового арендатора электронной коммерции
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Миграция расширений POS в Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Создание проекта пакета расширения POS
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: Отладка расширений Store Commerce с помощью VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: Запечатанные расширения MPOS и CPOS
+                      items:
+                        - name: Создание файла .appx для пакета расширения Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: Отладка расширений MPOS (запечатанных) и CPOS
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Настройка среды
                   items:
                     - name: Локальная среда разработки
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: Создание проекта пакета расширения POS
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Создание файла .appx для пакета расширения Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Отладка расширений POS
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API и справочник
                   items:
                     - name: Просмотр сведений о пакете расширений POS
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Оптимизация CSS модуля
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Оптимизация изображений на страницах сведений о продукте
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Оптимизация изображений на страницах поиска и категорий
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Телеметрия и аналитика
                       items:
                         - name: Средство ведения журнала телеметрии

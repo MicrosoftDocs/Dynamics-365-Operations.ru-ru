@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка складских операций для локальных развертываний
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Ресурсы документации
               items:
                 - name: Система справки
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Импорт входящих ASN с помощью информационного объекта V2
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Импорт входящих ASN с помощью информационного объекта V3
+                  href: warehousing/import-asn-data-entity.md
                 - name: Кросс-докинг продуктов со склада приемки в магазины
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Настройка директивы местонахождения для размещения заказа на покупку
