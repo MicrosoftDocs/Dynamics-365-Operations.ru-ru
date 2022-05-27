@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735359"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694434"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 22 июня 2021 г.
 
@@ -83,7 +82,7 @@ ms.locfileid: "6735359"
 
 | Функция | Подробности |
 | --- | --- |
-| Обновление платформы 10.0.19 (43) | Планируется начать развертывание обновления платформы 10.0.19 с сервисным выпуском 28 июня 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.19 приложений Finance and Operations (июнь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Обновление платформы 10.0.19 (43) | Планируется начать развертывание обновления платформы 10.0.19 с сервисным выпуском 28 июня 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.19 приложений для управления финансами и операциями (июнь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Переключатель отображения стажа | Эта функция позволяет использовать разное число дат для расчета стажа, который отображается в форме **Упрощенный вход сотрудников** и в форме **Сотрудники**.  Он будет доступен в параметрах Human Resources. |
 |  Использование менеджера отсутствия для управления отпуском | [Использование менеджера отсутствия для управления отпуском](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Требование вложений для различных типов отпусков | Эта функция позволяет администраторам добавлять вложения поручений при отправке запросов на отпуск для конкретных типов отпусков. |

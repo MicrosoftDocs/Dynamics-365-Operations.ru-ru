@@ -8,31 +8,31 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051378"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710640"
 ---
 # <a name="configuration-for-finance-insights"></a>Конфигурация для Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Финансовый анализ сочетает в себе функции из Microsoft Dynamics 365 Finance с Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме описываются этапы настройки, которые позволят системе использовать возможности, доступные в финансовом анализе. Для успешного выполнения процедур, описанных в этой теме, необходимо иметь доступ системного администратора и системного настройщика в [центре администрирования портала Power](https://admin.powerplatform.microsoft.com/), доступ системного администратора в Dynamics 365 Finance и доступ к созданию сред в Microsoft Dynamics Lifecycle Services (LCS).
+Finance Insights сочетает в себе функции из Microsoft Dynamics 365 Finance с Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме описываются этапы настройки, которые позволят системе использовать возможности, доступные в финансовом анализе. Для успешного выполнения процедур, описанных в этой теме, необходимо иметь доступ системного администратора и системного настройщика в [центре администрирования портала Power](https://admin.powerplatform.microsoft.com/), доступ системного администратора в Dynamics 365 Finance и доступ к созданию сред в Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
 > Следующие процедуры настройки Finance Insights действительны для версий Dynamics 365 Finance версии 10.0.21 и новее.
 
-## <a name="deploy-dynamics-365-finance"></a>Разверните Dynamics 365 Finance
+## <a name="deploy-dynamics-365-finance"></a>Развертывание Dynamics 365 Finance
 
 Выполните следующие шаги, чтобы развернуть среды.
 

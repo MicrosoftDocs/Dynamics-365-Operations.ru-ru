@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570488"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.23 (январь 2022 г.)
 
@@ -75,7 +75,9 @@ ms.locfileid: "8570488"
 | Управление складом | [Глобальные параметры мобильного устройства](../warehousing/mobile-device-parameters.md) |
 | Управление складом | [Привязка](../warehousing/anchoring.md) |
 | Продажи и маркетинг | Подробно рассматривается внутрихолдинговая торговля, начиная с [Настройка внутрихолдинговой торговли](../sales-marketing/intercompany-trade-set-up.md) и связанными с ней вопросов. |
+| Продажи и маркетинг | [Повышение производительности очистки истории продаж](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Управление запасами | Документация по видимости запасов была расширена и обновлена, начиная с [Обзор надстройки видимости запасов](../inventory/inventory-visibility.md) и связанных с ним тем. |
+| Управление складом | [Учетные записи пользователей мобильного устройства](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

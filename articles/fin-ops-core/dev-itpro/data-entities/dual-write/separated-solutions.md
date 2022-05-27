@@ -2,20 +2,20 @@
 title: Разделенный пакет оркестрации приложений с двойной записью
 description: Пакет оркестрации приложений с двойной записью больше не является единственным пакетом, но разделяется на более мелкие пакеты. В этой теме описываются решения и сопоставления, которые содержит каждый пакет, и его зависимости от других пакетов.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063270"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716562"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Разделенный пакет оркестрации приложений с двойной записью
 
@@ -26,19 +26,19 @@ ms.locfileid: "8063270"
 Ранее в составе единого пакета оркестрации приложений с двойной записью был один пакет, содержащий следующие решения:
 
 - Заметки Dynamics 365
-- Общая привязка Dynamics 365 Finance и Operations
-- Сопоставления сущностей с двойной записью Dynamics 365 Finance и Operations
+- Общая привязка Dynamics 365 Finance and Operations
+- Сопоставления сущностей с двойной записью Dynamics 365 Finance and Operations
 - Приложение управления активами Dynamics 365
 - Управление активами Dynamics 365
 - Общие HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance и операции Common
+- Dynamics 365 Finance and Operations Common
 - Компания Dynamics 365
 - Валютные курсы
 - Field Service Common
 
-Поскольку это был единый пакет, этот пакет создал ситуацию "все или ничего" для клиентов. Однако корпорация Microsoft теперь разделила его на более мелкие пакеты. Таким образом, клиент может выбрать только пакеты для необходимых решений. Например, если вы клиенты Microsoft Dynamics 365 Supply Chain Management, а не требуется интеграция с Dynamics 365 Human Resources, заметками и управлением активами, вы можете исключить эти решения из установленных решений. Так как лежащие в основе имена решений, издатели и версии сопоставлений остаются одинаковыми, это изменение не является критическим. Существующие установки будут обновлены.
+Поскольку это был единый пакет, этот пакет создал ситуацию "все или ничего" для клиентов. Однако корпорация Microsoft теперь разделила его на более мелкие пакеты. Таким образом, клиенты могут выбрать только пакеты для необходимых решений. Например, если вы клиенты Microsoft Dynamics 365 Supply Chain Management, а не требуется интеграция с Dynamics 365 Human Resources, заметками и управлением активами, вы можете исключить эти решения из установленных решений. Так как лежащие в основе имена решений, издатели и версии сопоставлений остаются одинаковыми, это изменение не является критическим. Существующие установки будут обновлены.
 
 ![Разделенный пакет.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "8063270"
 | Уникальное имя                           | Отображаемое имя                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Компания Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance и операции Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
 | CurrencyExchangeRates                 | Валютные курсы                    |
 | msdyn_DualWriteAppCoreMaps            | Сопоставления сущностей базовых приложений с двойной записью   |
 | msdyn_DualWriteAppCoreAnchor          | Привязка базовых приложений с двойной записью        |
@@ -300,3 +300,47 @@ Project Operations зависит от следующих пакетов. Поэ
 - Пакет Supply Chain с двойной записью
 - Пакет управления активами с двойной записью
 - Пакет Human Resources с двойной записью
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Решения субъекта и глобальной адресной книги с двойной записью
+
+Пакет субъекта и глобальной адресной книги с двойной записью содержит следующие решения и карты, необходимые для синхронизации данных субъекта и глобальной адресной книги. 
+
+| Уникальное имя                       | Отображаемое имя                            |
+|-----------------------------------|-----------------------------------------|
+| Субъект                             | Субъект                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Сопоставления сущностей двойной записи Dynamics 365 GAB |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB и сторона              |
+
+Следующие сопоставления доступны в этом пакете.
+
+| Приложения Finance and Operations | Приложения для взаимодействия с клиентами | 
+|-----------------------------|--------------------------|
+| Субъекты CDS | msdyn_parties | 
+| Местоположения почтовых адресов CDS | msdyn_postaladdresscollections | 
+| Журнал почтовых адресов CDS V2 | msdyn_postaladdresses | 
+| Местоположения почтовых адресов субъектов CDS | msdyn_partypostaladdresses | 
+| Контакты субъекта V3 | msdyn_partyelectronicaddresses | 
+| Клиенты V3 | счета | 
+| Клиенты V3 | контакты | 
+| Поставщики V2 | msdyn_vendors | 
+| Обращения к контактному лицу | msdyn_salescontactpersontitles | 
+| Заключения | msdyn_complimentaryclosings | 
+| Приветствия | msdyn_salutations | 
+| Роли принятия решений | msdyn_decisionmakingroles | 
+| функциональные обязанности задания | msdyn_employmentjobfunctions | 
+| Уровни лояльности | msdyn_loyaltylevels | 
+| Типы характеров людей | msdyn_personalcharactertypes | 
+| Контакты V2 | msdyn_contactforparties | 
+| Заголовок предложения по продаже CDS | предложения | 
+| Заголовки заказов на продажу CDS | salesorders | 
+| Заголовки накладной заказа на продажу V2 | накладные | 
+| Роли адреса CDS | msdyn_addressroles |
+
+**Сведения о зависимостях**
+
+Решения субъекта и глобальной адресной книги с двойной записью зависят от следующих трех пакетов. Поэтому перед установкой пакета решений субъекта и глобальной адресной книги с двойной записью следует установить эти пакеты.
+
+- Пакет базовых приложений с двойной записью
+- Пакет Finance с двойной записью
+- Пакет Supply Chain с двойной записью

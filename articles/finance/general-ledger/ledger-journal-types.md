@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727025"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722279"
 ---
 # <a name="ledger-journal-types"></a>Типы журналов ГК
 
@@ -28,7 +28,7 @@ ms.locfileid: "7727025"
 
 В этом разделе описываются типы журналов, которые можно настроить для финансовых журналов. Используйте страницу **Наименования журналов** для настройки журналов, применяемых в Dynamics 365 Finance.
 
-| Тип журнала                      | Цель                       | Введите сделки на этой странице                                |
+| Тип журнала                      | Целевые назначения                       | Введите сделки на этой странице                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Распределение                        | Создание проводок распределения в журнале распределения. Прежде чем создать журнал распределения, вы должны создать правило распределения на странице **Правило распределения ГК**.      | Обработать запрос на распределение             |
 | Утверждение                          | Разноска утвержденных накладных поставщика по соответствующим счетам ГК.  | Журнал утверждения накладных                                       |

@@ -1,6 +1,6 @@
 ---
 title: Настройка мобильной рабочей области управления активами
-description: В этой теме описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение Finance and Operations (Dynamics 365) для запуска мобильной рабочей области управления активами, которую работники могут использовать для выполнения задач управления активами.
+description: В этой теме описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение Finance and Operations (Dynamics 365) для запуска мобильной рабочей области "Управление активами", которую работники могут использовать для выполнения задач управления активами.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572201"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693510"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Настройка мобильной рабочей области управления активами
 
@@ -51,7 +50,7 @@ ms.locfileid: "7572201"
 
 1. Выберите плитку **Управление активами**, затем выберите **Опубликовать** на панели инструментов. Через несколько секунд вы должны получить уведомление о том, что рабочая область успешно опубликована. Кроме того, текст на плитке должен измениться на "В метаданных — опубликована".
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Установка и настройка мобильного приложения Finance and Operations (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Установите и настройте мобильное приложение Finance and Operations (Dynamics 365)
 
 1. Перейдите к одному из следующих магазинов приложений для установки приложения **Microsoft Finance and Operations (Dynamics 365)** на мобильном устройстве:
 

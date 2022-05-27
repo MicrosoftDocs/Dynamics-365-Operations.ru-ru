@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722775"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716419"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Автоматизация накладных для отсканированных документов
 
@@ -58,7 +58,7 @@ ms.locfileid: "6722775"
 
 Вложение документа накладной поставщика — это новый информационный объект, появившийся вместе с этой функциональностью. Объект "Заголовок накладной поставщика" модифицирован так, что теперь он поддерживает вложения. В объект "Строка накладной поставщика" никакие изменения для этой функциональности не вносились.
 
-Дополнительные сведения о пакетах данных см. в разделе [Обзор управления данными](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Сведения о создании пакетов данных с помощью рабочей области управления данными см. в разделе [Обработка и потребление пакетов данных в решении приложения Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Дополнительные сведения о пакетах данных см. в разделе [Обзор управления данными](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Сведения о создании пакетов данных с помощью рабочей области управления данными см. в разделе [Обработка и потребление пакетов данных в решении "Приложения для управления финансами и операциями Dynamics 365"](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Чтобы быстро создать тестовые данные, включающие накладные и вложения, выполните следующие действия.
 
@@ -86,7 +86,7 @@ ms.locfileid: "6722775"
 
 ## <a name="exception-processing"></a>Обработка исключений
 
-В сценариях, где накладные поставщиков поступают в Finance and Operations через интеграцию, необходимо дать специалисту по расчетам с поставщиками возможность легко обрабатывать исключения или нераспознанные накладные, а также создавать ожидающие обработки накладные из нераспознанных накладных. Теперь механизм такой обработки для накладных поставщиков входит в состав Finance and Operations.
+В сценариях, где накладные поставщиков поступают в Finance and Operations через интеграцию, необходимо дать специалисту по расчетам с поставщиками возможность легко обрабатывать исключения или нераспознанные накладные, а также создавать ожидающие обработки накладные из нераспознанных накладных. Теперь механизм такой обработки накладных поставщиков входит в состав Finance and Operations.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Накладные поставщика, для которых не удалось импортировать страницу списка
 

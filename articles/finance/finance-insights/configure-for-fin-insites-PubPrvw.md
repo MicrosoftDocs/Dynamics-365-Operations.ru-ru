@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 ROBOTS: noindex,nofollow
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061762"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711614"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Конфигурация для Finance Insights — версия 10.0.20 и новее
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061762"
 
 
 
-Финансовый анализ сочетает в себе функции из Microsoft Dynamics 365 Finance с Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме объясняется, как настроить Dynamics 365 Finance версии 10.0.20, чтобы система могла использовать возможности, доступные в Finance Insights.
+Finance Insights сочетает в себе функции из Microsoft Dynamics 365 Finance с Dataverse, Azure и AI Builder, чтобы предоставить мощные средства прогнозирования для вашей организации. В этой теме объясняется, как настроить Dynamics 365 Finance версии 10.0.20, чтобы система могла использовать возможности, доступные в общедоступной предварительной версии Finance Insights.
 
 > [!NOTE]
 > Шаги конфигурации, описанные в данной теме, применимы только к Finance версии 10.0.20 и более поздним версиям. Чтобы настроить Finance Insights в версии 10.0.19 и более ранних, см. раздел [Настройка для Finance Insights — версии до 10.0.19](configure-for-fin-insites.md).

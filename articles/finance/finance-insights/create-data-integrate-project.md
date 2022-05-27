@@ -2,7 +2,7 @@
 title: Создание проекта интеграции данных
 description: В этой теме объясняется, как создать проект интеграции данных.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107295"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722894"
 ---
 # <a name="create-a-data-integration-project"></a>Создание проекта интеграции данных
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107295"
 
 5. Откройте [среды Power Apps](https://admin.powerapps.com/environments) и выполните следующие действия:  
 
-    1. Создайте проекты интеграции данных для следующих шаблонов, используя только что созданный набор соединений:
+    1. Создайте одиночный проект интеграции данных для каждого со следующих шаблонов, используя только что созданный набор соединений:
 
         - Результат анализа платежей клиентов (из CDS в Fin and Ops 10.0.17+)
         - Результаты временных рядов потоков денежных средств (из CDS в Fin and Ops)
         - Результаты временных рядов бюджетов (из CDS в Fin and Ops)
+
+      > [!NOTE]
+      > Создание нескольких проектов интеграции данных для каждого шаблона может привести к ошибкам, которые будут блокировать обновления.
 
     2. Задайте соответствующее планирование для каждого проекта.
 
