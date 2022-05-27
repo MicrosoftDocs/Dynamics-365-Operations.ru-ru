@@ -1,7 +1,7 @@
 ---
 title: Настройка автоматической выверки фрахта
 description: Эта процедура показывает порядок настройки данных для автоматической выверки фрахта.
-author: Henrikan
+author: Weijiesa
 ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1dbe3c683d869f86bc7231c68839f431cc61d6b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ab338f5f231ddded88e08fbf4d31b18750fd03e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574841"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672720"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Настройка автоматической выверки фрахта
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323673"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689252"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Поддерживаемые составные типы данных для формул электронной отчетности
 
@@ -81,7 +81,7 @@ ms.locfileid: "8323673"
 
 По умолчанию доступ к записям *списка записей* осуществляется последовательно. Для доступа к конкретной записи можно использовать функцию [INDEX](er-functions-list-index.md) и указать целочисленный индекс типа *целое число*.
 
-Значение по умолчанию для типа *список записей* — **пусто**. Функцию [ISEMPTY](/er-functions-list-isempty.md) можно использовать для оценки того, что *список записей* пуст.
+Значение по умолчанию для типа *список записей* — **пусто**. Функцию [ISEMPTY](er-functions-list-isempty.md) можно использовать для оценки того, что *список записей* пуст.
 
 > [!NOTE]
 > Если *список записей* пуст, любая попытка получить значение поля для *записи* в нем вызовет исключение во время выполнения. Сведения о том, как предотвратить исключения времени выполнения этого типа, см. в разделе [Учет пустых вариантов списка](er-components-inspections.md#i9).

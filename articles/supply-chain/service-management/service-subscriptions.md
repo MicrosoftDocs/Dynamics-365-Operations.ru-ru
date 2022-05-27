@@ -1,7 +1,7 @@
 ---
 title: Подписки на сервисное обслуживание
 description: Подписки основываются на проекте  «Время и расходы». Можно создавать подписки из проекта с помощью страницы "Подписки на сервисное обслуживание" или с помощью группы подписки на обслуживание.
-author: kamaybac
+author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98e192cb4553d37437a0637af2006550b4340d84
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c77a0a1791db7d205d394e63c9f9f0c807e56db2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570089"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670786"
 ---
 # <a name="service-subscriptions"></a>Подписки на сервисное обслуживание
 

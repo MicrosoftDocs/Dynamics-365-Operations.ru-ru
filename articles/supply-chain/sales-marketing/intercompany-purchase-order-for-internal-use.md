@@ -1,22 +1,22 @@
 ---
 title: Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
 description: В этой теме объясняется, как создать внутрихолдинговый заказ на покупку для внутреннего использования и выставить накладную по нему
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 88a14ff962c5cf0cd1cff24b16cc7a62e9e1c8ce
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 52b58b2dcecd5d9a83a47b425d6fb13b36c40b60
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548492"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675889"
 ---
 # <a name="create-and-invoice-an-intercompany-purchase-order-for-internal-use"></a>Создание внутрихолдингового заказа на покупку для внутреннего использования и выставление накладной по нему
 

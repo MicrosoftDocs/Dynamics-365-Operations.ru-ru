@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cef5f58a0a413618c016071bace89179c3fd7b41
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 9c0131de025c54f2799b3f453750e0e933af4039
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565747"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678337"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]
@@ -88,7 +88,7 @@ ms.locfileid: "8565747"
 8. Щелкните вкладку **Должностные лица**, чтобы проверить и обновить значения по умолчанию, если это необходимо.
 
     > [!NOTE]
-    > Используйте страницу **Должностные лица** для настройки должностных лиц по умолчанию, которых необходимо включить в накладную для платежа. Дополнительные сведения см. в разделе [Настройка должностных лиц](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/russia-81/articles/financials/localizations/rus-officials.md).
+    > Используйте страницу **Должностные лица** для настройки должностных лиц по умолчанию, которых необходимо включить в накладную для платежа. Дополнительные сведения см. в разделе [Настройка должностных лиц](rus-officials.md).
 
 9. Щелкните вкладку **Прочие**. В поле **Комментарии** введите примечание для накладной для платежа.
 

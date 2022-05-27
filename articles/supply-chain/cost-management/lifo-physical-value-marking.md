@@ -1,7 +1,7 @@
 ---
 title: Модель ЛИФО с физической стоимостью и маркировкой
 description: Метод ЛИФО - это складская модель, в которой последние (самые новые) приходы расходуются первыми. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092172"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670450"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Модель ЛИФО с физической стоимостью и маркировкой
 

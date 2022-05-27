@@ -1,7 +1,7 @@
 ---
 title: Настройка дополнительных назначений
 description: В этой процедуре показано, как настроить назначение дополнения.
-author: Henrikan
+author: Weijiesa
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0062428cf984a48eeddc8c838f92daac254c4c78
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ca82b403439495106151387b73548aeb30e8da46
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566055"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678048"
 ---
 # <a name="set-up-accessorial-assignments"></a>Настройка дополнительных назначений
 

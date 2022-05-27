@@ -1,7 +1,7 @@
 ---
 title: Сведения строки работы
 description: В этой теме приводятся сведения о странице сведений о строках работ, на которой показан полный, сортируемый и фильтруемый список отдельных строк работы в системе.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4d7c6991c0171b0e09752b3305e0fa11a25b7833
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778289"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674120"
 ---
 # <a name="work-line-details"></a>Сведения строки работы
 

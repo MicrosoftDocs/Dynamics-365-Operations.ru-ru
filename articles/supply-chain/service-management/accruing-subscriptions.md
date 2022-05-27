@@ -1,7 +1,7 @@
 ---
 title: Начисление подписок
 description: С помощью подписок на обслуживание можно вручную начислять доход в периодах, следующих за датой выставления накладной по проводке по сборам.
-author: kamaybac
+author: sorenva
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ff184b24a264e37613b2302a3d92b74e870c5ac
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580488"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677348"
 ---
 # <a name="accruing-subscriptions"></a>Начисление подписок 
 

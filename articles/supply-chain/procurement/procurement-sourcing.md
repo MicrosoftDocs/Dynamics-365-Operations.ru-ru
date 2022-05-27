@@ -1,7 +1,7 @@
 ---
 title: Домашняя страница модуля "Закупки и источники"
 description: В этой теме представлен список разделов справки и другие ресурсы, доступные для модуля "Закупки и источники".
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565503"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673028"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -57,7 +57,7 @@ ms.locfileid: "7565503"
 -   [Демонстрационный сценарий входящих консигнационных запасов для Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(технический документ)
 -   [Мониторинг консигнационных запасов в рамках совместной работы с поставщиком](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md) (только версии Dynamics AX от февраля 2016 и мая 2016 г.)
--   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от 2016 и мая 2016 гг.)
+-   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от февраля 2016 и мая 2016 гг.)
 -   [Мобильная рабочая область совместной работы с поставщиками](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Управление закупаемой продукцией

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-6-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1effe2fa3f4d83e35772bf4cd757d6f46e46386b7eee4fc29c9eb28ce7552841
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5f169651ac10d7f04c71c96718ed9e650936691
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753708"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687487"
 ---
 # <a name="prepayments-in-dynamics-365-commerce-for-russia"></a>Предоплаты в Dynamics 365 Commerce для России
 

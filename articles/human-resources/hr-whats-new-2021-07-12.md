@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ebe5a6ae19d00b94247381c700ff21d31910fcac1968ab4f8a673f89ddd2f0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c01d00e7ede44c20e64fc4a8cd8646201caa3992
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782643"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686809"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 12 июля 2021 г.
 
@@ -81,7 +80,7 @@ ms.locfileid: "6782643"
 
 | Функция | Подробности |
 | --- | --- |
-| Обновление платформы 10.0.20 (44) | Планируется начать развертывание обновления платформы 10.0.20 с сервисным выпуском 26 июля 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.20 приложений Finance and Operations (август 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Обновление платформы 10.0.20 (44) | Планируется начать развертывание обновления платформы 10.0.20 с сервисным выпуском 26 июля 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.20 приложений для Финансы и операции (август 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Полный список запланированных функций и их запланированных выпусков см. в разделе [Обзор выпуска волны 1 Dynamics 365 Human Resources от 2021 года](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

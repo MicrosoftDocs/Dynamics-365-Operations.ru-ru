@@ -1,7 +1,7 @@
 ---
 title: Модель ФИФО с физической стоимостью и маркировкой
 description: ФИФО является складской моделью, в которой полученные первыми поступления выдаются первыми. Финансово обновленные расходы из запасов сопоставляются с первыми финансово обновленными приходами в запасы на основе финансовой даты проводки по запасам.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 54682
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5280498a23df26873dda1f380f686796f5e1055f
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 663dce9f871e96fec7017616732428c49b1224a0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092148"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676253"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Модель ФИФО с физической стоимостью и маркировкой
 

@@ -1,7 +1,7 @@
 ---
 title: Рабочие нагрузки управления производством для облачных и пограничных единиц масштабирования
 description: В этой теме описывается, как рабочие нагрузки выполнения производства работают с облачными и пограничными единицами масштабирования.
-author: cabeln
+author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: SCM
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068852"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674064"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f515b614aedce3d58994bf21104ada25702a71e
-ms.sourcegitcommit: fc19ee0aba2a6174fef305d151f1eb23ca6c0346
+ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7385708"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689280"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources (9 августа 2021 г.)
 
@@ -67,11 +66,11 @@ ms.locfileid: "7385708"
 
 | Функция | Подробности |
 | --- | --- |
-| Обновление платформы 10.0.21 (45) | Планируется начать развертывание обновления платформы 10.0.21 с сервисным выпуском 4 октября 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.21 приложений Finance and Operations (октябрь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Обновление платформы 10.0.21 (45) | Планируется начать развертывание обновления платформы 10.0.21 с сервисным выпуском 4 октября 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.21 приложений для управления финансами и операциями (октябрь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 
 ## <a name="see-also"></a>См. также
 
-[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Что нового и что изменилось в Управление персоналом](hr-admin-whats-new.md)</br>
 [Обзор выпуска Dynamics 365 Human Resources 2021, волна 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)

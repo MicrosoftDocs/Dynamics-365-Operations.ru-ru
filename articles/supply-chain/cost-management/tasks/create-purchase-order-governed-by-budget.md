@@ -1,7 +1,7 @@
 ---
 title: Создание заказа на покупку в соответствии с бюджетом
 description: Эта процедура служит для создания заказа на покупку, который проверяется на наличие доступного бюджета.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e2bfec4d7d38ef95d1f0ce3bd89938337ecf731
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e8458fc1f47f929ac612acfb3a2d75a79c8fb7d6
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572057"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671376"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Создание заказа на покупку в соответствии с бюджетом
 

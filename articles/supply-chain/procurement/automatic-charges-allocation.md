@@ -1,7 +1,7 @@
 ---
 title: Автоматическое распределение накладных расходов
 description: Функция накладных расходов в Microsoft Dynamics 365 Supply Chain Management помогает автоматически распределять расходы по заказам на покупку или заказам на продажу.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: c6729e9a485205a6beb53441798952fac2b93ef7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592548"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673056"
 ---
 # <a name="automatic-allocation-of-charges"></a>Автоматическое распределение накладных расходов
 
