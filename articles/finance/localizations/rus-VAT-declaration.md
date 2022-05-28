@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 012ad75d773ee3bf71d6d906f1a5d79057ca5537
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 5c3a34af6f894c1951fc9c54b97b04a7b64a9723
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661644"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740668"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 
@@ -78,8 +78,8 @@ ms.locfileid: "8661644"
 
     | Обработка | Код обработки | Описание |
     |---|---|---|
-
-    | VAT declaration 2021 | НДС 5.08 (2021) | Декларация по налогу на добавленную стоимость (2021) |  | VAT declaration 2022 | НДС 5.09 (2022) | Декларация по налогу на добавленную стоимость (2022) |
+    | Декларация по НДС 2021 | НДС 5.08 (2021) | Декларация по налогу на добавленную стоимость (2021) |
+    | Декларация по НДС 2022 | НДС 5.09 (2022) | Декларация по налогу на добавленную стоимость (2022) |
 
 8. Выполните следующие действия для настройки формата электронной отчетности, который выполняется при создании декларации по НДС в электронном формате.
 

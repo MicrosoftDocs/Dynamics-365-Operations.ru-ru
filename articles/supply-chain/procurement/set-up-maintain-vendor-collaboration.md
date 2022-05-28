@@ -1,7 +1,7 @@
 ---
 title: Настройка и ведение совместной работы с поставщиками
 description: В этом разделе описывается, как настроить совместную работу поставщика в Dynamics 365 Supply Chain Management. В нем также объясняется, как подготавливать новых пользователей совместной работы с поставщиками и управлять ролями безопасности этих пользователей.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652077"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677572"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Настройка и ведение совместной работы с поставщиками
 

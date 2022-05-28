@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-6-23
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 705a05af55ba4e70fce85818c61e6c1549de0d6e
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: 8781c6eeefad9ec49de96d306bc6af252875e9c8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862791"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687489"
 ---
 # <a name="commerce-localization-for-russia"></a>Локализация Commerce для России
 

@@ -1,7 +1,7 @@
 ---
 title: Обзор предварительных требований для стандартных затрат
 description: Этот раздел описывает основные шаги по использованию стандартных затрат.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986336"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672328"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Обзор предварительных требований для стандартных затрат
 

@@ -2,7 +2,7 @@
 title: Архивирование проводок по запасам
 description: В этом разделе описывается, как архивировать данные проводок по запасам для повышения производительности системы.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567471"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736071"
 ---
 # <a name="archive-inventory-transactions"></a>Архивирование проводок по запасам
 
@@ -116,3 +116,110 @@ ms.locfileid: "7567471"
 - **Приостановить архивацию** — приостановить выбранную архивацию, обрабатываемую в данный момент. Пауза вступает в силу только после создания задачи архивирования. Поэтому может быть короткая задержка, прежде чем пауза вступит в силу. Если архивация была приостановлена, в поле **Остановить текущее обновление** появится флажок.
 - **Возобновить архивацию** — возобновить обработку выбранной архивации, приостановленную в данный момент.
 - **Сторно** — сторнировать выбранный архив. Сторнировать архив можно только в том случае, если в поле **Состояние** выбрано значение *Завершено*. Если архив был сторнирован, в поле **Сторно** появится флажок.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Расширение кода для поддержки настраиваемых полей
+
+Если таблица`InventTrans` содержит одно или несколько настраиваемых полей, то, возможно, потребуется расширить код для их поддержки, в зависимости от того, как они названы.
+
+- Если настраиваемые поля из таблицы `InventTrans` имеют те же имена полей, что и таблица `InventtransArchive`, это означает, что они сопоставлены 1:1. Таким образом, можно просто поместить настраиваемые поля в группу полей `InventoryArchiveFields` таблицы `inventTrans`.
+- Если имена настраиваемых полей в таблице `InventTrans` не соответствуют именам полей в таблице `InventtransArchive`, необходимо добавить код для их сопоставления. Например, если у вас есть системное поле `InventTrans.CreatedDateTime`, необходимо создать поле в таблице `InventTransArchive` с новым именем (например `InventtransArchive.InventTransCreatedDateTime`) и добавить расширения в классы `InventTransArchiveProcessTask` и `InventTransArchiveSqlStatementHelper`, как показано в следующем примере кода.
+
+В следующем примере кода показано, как добавить необходимое расширение к классу `InventTransArchiveProcessTask`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+В следующем примере кода показано, как добавить необходимое расширение к классу `InventTransArchiveSqlStatementHelper`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

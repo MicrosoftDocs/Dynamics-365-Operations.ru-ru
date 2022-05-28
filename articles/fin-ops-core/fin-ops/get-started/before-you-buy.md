@@ -1,7 +1,7 @@
 ---
 title: Перед покупкой
 description: Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce.
-author: ShellyBakke
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,29 +10,29 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874592"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713286"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
 [!include [banner](../includes/banner.md)]
 
-Не знакомы с Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce? Мы представляем пошаговое руководство для тех, кто оценивает покупку, и тех, кто уже готов совершить покупку.
+Новые для Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce? Мы представляем пошаговое руководство для тех, кто оценивает покупку, и тех, кто уже готов совершить покупку.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Шаг 1. Попробуйте Finance and Operations бесплатно в течение 30 дней
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Шаг один. Попробуйте Finance and Operations бесплатно в течение 30 дней
 
-Вы можете попробовать Dynamics 365 for Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия приложений Finance and Operations включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Сведения см. в разделе [Регистрация на подписки на предварительные версии](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Вы можете попробовать Dynamics 365 for Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия приложений для управления финансами и операциями включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Сведения см. в разделе [Регистрация на подписки на предварительные версии](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Шаг 2: Выберите вариант развертывания
 
-Теперь можно развернуть приложения Finance and Operations в облаке или локально. Облачные развертывания предлагают службу ERP, которая полностью управляется корпорацией Майкрософт, во то время как локальные развертывания разворачиваются локально в центре обработки данных клиента.
+Теперь можно развернуть приложения для управления финансами и операциями в облаке или локально. Облачные развертывания предлагают службу ERP, которая полностью управляется корпорацией Майкрософт, во то время как локальные развертывания разворачиваются локально в центре обработки данных клиента.
 
 При выборе варианта локального развертывания необходимо учитывать следующие факторы:
 
@@ -68,7 +68,7 @@ ms.locfileid: "7874592"
 
 Если ваша организация имеет 250 или более пользователей Dynamics 365, вам может быть интересно [Соглашение о корпоративном лицензировании](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-В программе корпоративного лицензирования приложения Finance and Operations доступны в следующих случаях:
+В корпоративном лицензировании приложения для управления финансами и операциями доступны через:
 
 - Соглашение Enterprise
 - Подписка на соглашение Enterprise

@@ -1,7 +1,7 @@
 ---
 title: Создание заказов на обслуживание вручную
 description: Заказы на обслуживание можно создавать вручную, используя соглашения на сервисное обслуживание или форму **Заказы на сервисное обслуживание**.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578856"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678272"
 ---
 # <a name="create-service-orders-manually"></a>Создание заказов на обслуживание вручную    
 

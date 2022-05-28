@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075307"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739397"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.21 (октябрь 2021 г.)
 
@@ -130,7 +130,7 @@ ms.locfileid: "8075307"
 | Сводное планирование | [Просмотр истории плана и журналов планирования](../master-planning/planning-optimization/plan-history-logs.md) |
 | Управление складом | [Стратегии упаковки в контейнеры](../warehousing/container-packing-strategy-overview.md) |
 | Управление складом | [Примеры сценариев подсчета циклов](../warehousing/cycle-counting-scenarios.md) |
-| Управление складом | [Импорт входящих ASN с помощью информационного объекта V2](../warehousing/import-asn-v2-data-entity.md) |
+| Управление складом | [Импорт входящих ASN с помощью информационного объекта V3](../warehousing/import-asn-data-entity.md) |
 | Управление складом | [Комплектация с превышением для заказов на продажу и заказов на перемещение](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Управление складом | [Планирование печати этикеток во время волны](../warehousing/configure-task-based-wave-label-printing.md) |
 | Управление складом | [Что нового или что изменено в мобильном приложении Warehouse Management](../warehousing/whats-new-wma.md) |

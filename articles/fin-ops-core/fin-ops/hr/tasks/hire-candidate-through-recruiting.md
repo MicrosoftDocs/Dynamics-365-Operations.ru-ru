@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075381"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734670"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Прием кандидата через набор сотрудников
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов Human Resources в инфраструктуре Finance.  
-
+> Функции набора персонала в этом разделе будут называться проектами по набору сотрудников и фокусированы на соискателях, приложениях и проектах по набору сотрудников.  
 
 Эта процедура позволяет специалисту по найму принять на работу кандидата, подавшего заявление через конкретный проект по набору сотрудников. При приеме кандидата на работу через проект по набору сотрудников создается новая запись работника, и статус записи кандидата изменяется на **Принят на работу**. Компания **USMF** с демонстрационными данными используется для создания этой процедуры.
 

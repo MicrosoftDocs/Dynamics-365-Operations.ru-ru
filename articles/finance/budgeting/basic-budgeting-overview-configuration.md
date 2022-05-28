@@ -1,6 +1,6 @@
 ---
 title: Обзор бюджетирования
-description: Почти всем компаниям, которые используют функциональность модуля "Финансы" в Microsoft Dynamics 365 Finance, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Finance and Operations или их загрузки из программ независимых разработчиков.
+description: Почти всем компаниям, которые используют функциональность модуля «Финансы» в Microsoft Dynamics 365 Finance, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Finance and Operations или их загрузки из программ независимых разработчиков.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60113"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986518"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710423"
 ---
 # <a name="budgeting-overview"></a>Обзор бюджетирования
 
 [!include [banner](../includes/banner.md)]
 
-Почти всем компаниям, которые используют функциональность модуля "Финансы" в Microsoft Dynamics 365 Finance, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Finance and Operations или их загрузки из программ независимых разработчиков.
+Почти всем компаниям, которые используют функциональность модуля «Финансы» в Microsoft Dynamics 365 Finance, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Finance and Operations или их загрузки из программ независимых разработчиков.
 
 ## <a name="overview"></a>Обзор
 
