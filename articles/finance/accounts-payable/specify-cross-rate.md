@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737025"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735300"
 ---
 # <a name="specify-the-cross-rate"></a>Указание кросс-курса
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается цель кросс-курса и процедура задания кросс-курса при сопоставлении платежа с накладной. Используйте кросс-курс, когда соблюдаются все следующие условия. 
+В этом разделе описывается цель кросс-курса и процедура задания кросс-курса при сопоставлении платежа с накладной. Используйте кросс-курс, когда соблюдаются следующие условия. 
 -   Платеж сопоставляется с накладной. 
 -   В строке платежа и строке накладной используются разные валюты. 
 -   Ни одна из валют не является валютой учета. 

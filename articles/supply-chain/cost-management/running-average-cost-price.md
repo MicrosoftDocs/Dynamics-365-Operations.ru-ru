@@ -1,7 +1,7 @@
 ---
 title: Скользящая средняя себестоимость
 description: Процесс закрытия запасов сопоставляет проводки расходов с проводками приходов на основе метода оценки запасов, который выбирается в группе номенклатурной модели номенклатуры. Однако перед запуском закрытия запасов система вычисляет скользящую среднюю себестоимость, которая обычно используется при разноске проводок расхода.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 79003
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 871b3ffce45848f95d132eff3fd327295bc5084c
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 3d324324312ce9e47b07de8e3de952b8d7c53647
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092197"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672188"
 ---
 # <a name="running-average-cost-price"></a>Скользящая средняя себестоимость
 

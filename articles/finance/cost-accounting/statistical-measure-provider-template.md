@@ -1,6 +1,6 @@
 ---
 title: Шаблоны поставщика для элементов статистической аналитики и поставщиков мер
-description: В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры. Элементы статистической аналитики могут использоваться в качестве базы распределения в таких политиках, как распределение затрат и распределение стоимости. Их также можно использовать для включения в отчетность потребления немонетарных ресурсов.
+description: В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767655"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733916"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Шаблоны поставщика для элементов статистической аналитики и поставщиков мер
 
@@ -128,11 +128,11 @@ ms.locfileid: "6767655"
 > [!NOTE]
 > В этом примере мы создадим связь только для версии **Фактическая версия**.
 
-Выберите **Книга учета затрат** \> **Фактическая версия** \> **Управление** \> **Статистические меры**, чтобы установить связь. Для этого сценария выберите соединитель данных **Dynamics 365 Finance — статистические меры**, поскольку нам нужно извлекать данные из Finance.
+Выберите **Книга учета затрат** \> **Фактическая версия** \> **Управление** \> **Статистические меры**, чтобы установить связь. Для этого сценария выберите соединитель данных **Dynamics 365 Finance – статистические меры**, поскольку нам нужно извлекать данные из Finance.
 
 **Иcточник данных**
 
-| Название        | Соединитель данных                                                                     | Элемент статистической аналитики |
+| Имя        | Соединитель данных                                                                     | Элемент статистической аналитики |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
 | FTEs D365FO | Dynamics 365 Finance — статистические меры | FTEs                         |
 
@@ -216,7 +216,7 @@ ms.locfileid: "6767655"
 > [!NOTE]
 > В этом примере мы создадим связь только для версии **Фактическая версия**.
 
-Выберите **Книга учета затрат** \> **Фактическая версия** \> **Управление** \> **Статистические меры**, чтобы установить связь. Для этого сценария выберите соединитель данных **Dynamics 365 Finance — статистические меры**, поскольку нам нужно извлекать данные из Finance.
+Выберите **Книга учета затрат** \> **Фактическая версия** \> **Управление** \> **Статистические меры**, чтобы установить связь. Для этого сценария выберите соединитель данных **Dynamics 365 Finance – статистические меры**, поскольку нам нужно извлекать данные из Finance.
 
 **Иcточник данных**
 

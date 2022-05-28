@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Finance и Dynamics 365 Supply Chain Management в облаке правительственного сообщества США (GCC)
+title: Dynamics 365 Finance, Supply Chain Management и Commerce в облаке сообщества для государственных организаций (GCC) США
 description: В этой теме содержатся сведения о продуктах Microsoft Dynamics 365 US Government, доступных для квалифицированных правительственных органов и частных организаций.
 author: hasaid
 ms.date: 11/12/2021
@@ -9,14 +9,14 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062294"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693318"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance и Dynamics 365 Supply Chain Management в облаке правительственного сообщества США (GCC)
+# <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management и Commerce в облаке сообщества для государственных организаций (GCC) США
 
 [!include [banner](../includes/banner.md)]
 

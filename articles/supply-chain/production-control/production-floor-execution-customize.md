@@ -2,7 +2,7 @@
 title: Настройка интерфейса выполнения производственного цеха
 description: В этой теме объясняется, как расширить текущие формы или создать новые формы и кнопки для интерфейса выполнения производственного цеха.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066554"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712953"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Настройка интерфейса выполнения производственного цеха
 
@@ -60,7 +60,7 @@ ms.locfileid: "8066554"
 1. Создайте расширение с именем `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, где метод `getMainMenuItemsList` расширяется путем добавления нового пункта меню в список. Следующий код показывает пример.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Добавление элементов управления датой и временем в форму или диалоговое окно
+
+В этом разделе показано, как добавить элементы управления датой и временем в форму или диалоговое окно. Удобные для сенсорного управления элементы управления датой и временем позволяют сотрудникам задавать дату и время. Следующие снимки экрана показывают, как обычно эти элементы управления отображаются на странице. Элемент управления временем предоставляет 12-часовую и 24-часовую версии; отображаемая версия будет соответствовать набору настроек для учетной записи пользователя, под которой работает интерфейс.
+
+![Пример элемента управления датой](media/pfe-customize-date-control.png "Пример элемента управления датой")
+
+![Пример элемента управлением временем с 12-часовым часами.](media/pfe-customize-time-control-12h.png "Пример элемента управлением временем с 12-часовым часами")
+
+![Пример элемента управлением временем с 24-часовым часами.](media/pfe-customize-time-control-24h.png "Пример элемента управлением временем с 24-часовым часами")
+
+В следующей процедуре показан пример добавления элементов управления датой и временем в форму.
+
+1. Добавьте в форму контроллер для каждого элемента управления датой и временем, который должна содержать форма. (Число контроллеров должно равняться количеству элементов управления датой и временем в форме.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Объявите требуемые переменные (тип `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Создайте методы, в которых дата и время обновляются контроллерами даты и времени. Следующий пример показывает один такой метод.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Настройте поведение каждого контроллера даты и времени и соедините каждый из контроллеров с частью формы. В следующем примере показано, как настроить данные для элементов управления "дата с" и "время с". Аналогичный код можно добавить для элементов управления для "дата до" и "время до" (не показано).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Если требуется только элемент управления датой, можно пропустить настройку элемента управления временем, а вместо этого настроить элемент управления датой, как показано в следующем примере:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

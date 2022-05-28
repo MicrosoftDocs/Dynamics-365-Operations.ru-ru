@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071118"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694014"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -34,7 +33,7 @@ ms.locfileid: "8071118"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Можно ли редактировать пользователя приложения Dynamics 365 Talent в Power Apps?
 
-№ п/п При изменении пользователя приложения Human Resources интеграция между Human Resources и Dataverse может быть нарушена. В приведенной ниже таблице показаны параметры по умолчанию для пользователя приложения Talent.
+Нет. При изменении пользователя приложения Human Resources интеграция между Human Resources и Dataverse может быть нарушена. В приведенной ниже таблице показаны параметры по умолчанию для пользователя приложения Talent.
 
 | Полное имя | ИД приложения | Код объекта Azure AD | URI кода приложения |
 | --- | --- | --- | --- |
@@ -44,7 +43,7 @@ ms.locfileid: "8071118"
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Синхронизируются все данные или только некоторые информационные объекты?
 
-Синхронизируется подмножество данных. Список всех сущностей см. в разделе [Интеграция Dynamics 365 Finance](hr-admin-integration-finance.md).
+Синхронизируется подмножество данных. Список всех сущностей см. в разделе [Интеграция с Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Почему не отображаются данные, синхронизированные с Dataverse?
 

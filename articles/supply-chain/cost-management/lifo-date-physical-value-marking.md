@@ -1,7 +1,7 @@
 ---
 title: ЛИФО на дату с физической стоимостью и маркировкой
 description: 'Дата ЛИФО — это складская модель, основанная на принципе ЛИФО. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки. При использовании даты ЛИФО: если перед расходом отсутствует приход, расход сопоставляется с любой приемкой после даты расхода. Несколько расходов с одинаковой датой можно сопоставить в последовательности "последний расход - последний приход".'
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330284"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671460"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>ЛИФО на дату с физической стоимостью и маркировкой
 

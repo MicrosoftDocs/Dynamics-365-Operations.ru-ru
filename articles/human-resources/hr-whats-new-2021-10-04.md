@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641438"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695770"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 5 октября 2021 г.
 
@@ -42,7 +41,7 @@ ms.locfileid: "7641438"
 
 | Функция | План выпуска | Документация |
 |---|---|---|
-| Обновление платформы 10.0.21 (45) | -- | [Обновления платформы для версии 10.0.21 приложений Finance and Operations (октябрь 2021 г.)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Обновление платформы 10.0.21 (45) | -- | [Обновления платформы для версии 10.0.21 приложений для управления финансами и операциями (октябрь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Исправления ошибок
@@ -87,13 +86,13 @@ ms.locfileid: "7641438"
 
 | Функция | Подробно |
 |---|---|
-| Обновление платформы 10.0.22 (46) | Планируется начать развертывание обновления платформы 10.0.22 с сервисным выпуском 1 ноября 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.22 приложений Finance and Operations (ноябрь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Обновление платформы 10.0.22 (46) | Планируется начать развертывание обновления платформы 10.0.22 с сервисным выпуском 1 ноября 2021 года. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.22 приложений для управления финансами и операциями (ноябрь 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 
 ## <a name="see-also"></a>См. также
 
-[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Что нового и что изменилось в Управление персоналом](hr-admin-whats-new.md)</br>
 [Обзор выпуска Dynamics 365 Human Resources 2021, волна 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
 [Процесс обновления](hr-admin-setup-update-process.md)</br>
 [Управление функциями](hr-admin-manage-features.md)

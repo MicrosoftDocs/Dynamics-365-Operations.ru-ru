@@ -3,7 +3,7 @@ title: Модуль выбора магазина
 description: В этом разделе описываются модуль выбора магазина, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772164"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710788"
 ---
 # <a name="store-selector-module"></a>Модуль выбора магазина
 
@@ -59,6 +59,16 @@ ms.locfileid: "6772164"
     ![Пример настройки широты и долготы для магазина в центральном офисе.](./media/Store-latitude-longitude.png)
 
 1. На панели операций выберите **Сохранить**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Скройте магазин из модуля выбора магазина
+
+Некоторые магазины в группе выполнения могут оказаться недопустимыми местами для самовывоза. Чтобы убедиться, что в модуле выбора магазина в качестве параметров отображаются только допустимые места для самовывоза, выполните следующие действия в Commerce Headquarters.
+
+1. Выберите **Розничная торговля и коммерция \> Настройка Commerce \> Группы выполнения \> Все магазины**.
+1. На панели операций выберите **Правка**.
+1. В разделе **Настройка** для каждого магазина, который не является допустимым местом для отправки, снимите флажок **Местоположение, допускающее самовывоз**.
+1. На панели операций выберите **Сохранить**.
+1. Запустите график распределения 1070 **Конфигурация канала**.
 
 ## <a name="bing-maps-integration"></a>Интеграция карт Bing
 

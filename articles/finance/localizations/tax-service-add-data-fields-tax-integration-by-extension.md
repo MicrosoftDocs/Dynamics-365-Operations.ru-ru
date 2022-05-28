@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649111"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695398"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Добавление полей данных в налоговую интеграцию с помощью расширения
 
@@ -383,7 +382,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 
 После выполнения предыдущих шагов можно выполнить проверку изменений.
 
-1. В модуле Finance перейдите в модуль **Расчеты с поставщиками** и добавьте **&debug=vs%2CconfirmExit&** в URL-адрес. Например, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Последней символ **&** важен.
+1. В модуле Finance перейдите в модуль **Расчеты с поставщиками** и добавьте **&debug=vs%2CconfirmExit&** в URL-адрес. Например, `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Последней символ **&** важен.
 2. Откройте страницу **Заказ на покупку** и выберите **Создать**, чтобы создать заказ на покупку.
 3. Установите значение для настраиваемого поля, затем выберите **Налог**. Файл для устранения неполадок с префиксом **TaxServiceTroubleshootingLog** загружается автоматически. Этот файл содержит сведения о проводках, которые разносятся в службу расчета налогов. 
 4. Проверяет, есть ли добавленное настраиваемое поле в разделе **Входные данные JSON службы расчета налога**, и правильно ли его значение. Если это значение неверно, проверьте шаги данного документа.

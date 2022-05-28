@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625367"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710873"
 ---
 # <a name="provision-human-resources"></a>Подготовка Human Resources к работе
 
@@ -144,7 +143,7 @@ ms.locfileid: "8625367"
 6. Возможности двойной записи для интеграции данных Human Resources со средой Power Apps могут использоваться только в том случае, если для среды выбран параметр **Включить приложения Dynamics 365**. Дополнительные сведения о двойной записи см. на [главной странице двойной записи](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
-    > Параметр **Включить приложения Dynamics 365** должен быть выбран во время создания среды Power Apps. Если этот параметр не выбран во время подготовки, вы не сможете использовать двойную запись для интеграции данных между Dynamics 365 Human Resources и средой Power Apps или установки приложений Dynamics 365, таких как Dynamics 365 Sales и Field Service в среде. Этот параметр не является обратимым. Дополнительные сведения см. в разделе [Важные соображения при создании новой среды](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) на сайте документации Power Platform.
+    > Параметр **Включить приложения Dynamics 365** должен быть выбран во время создания среды Power Apps. Если этот параметр не выбран во время подготовки, вы не сможете использовать двойную запись для интеграции данных между Dynamics 365 Human Resources и средой Power Apps или установки приложений Dynamics 365, таких как Dynamics 365 Sales и Field Service в среде. Этот параметр не является обратимым. Дополнительные сведения см. в разделе [Важные соображения при создании новой среды](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) на сайте документации Power Platform.
 
 7. После определения правильной среды для использования можно продолжить процесс подготовки. 
 

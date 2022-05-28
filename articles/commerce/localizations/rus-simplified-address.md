@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-8-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcc8fbd2057cb769659fbb1f341e50bac679fd40
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 31fd751903ba79aab3818e04ca130a73000a075d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488102"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694611"
 ---
 # <a name="simplified-customer-address-format-in-commerce-pos-for-russia"></a>Упрощенный формат адреса клиента в Commerce POS для России
 

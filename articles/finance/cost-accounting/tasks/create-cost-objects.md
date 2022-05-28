@@ -1,24 +1,24 @@
 ---
 title: Создание объектов затрат
 description: Эта процедура демонстрирует порядок создания объектов затрат путем импорта финансовой аналитики центра затрат в модуль учета затрат через соединитель данных.
-author: ShylaThompson
+author: twheeloc
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXFinancialDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0215e815e3e44568fb81ab7fad9b44c219e961cb6ef68996bf43218ef817e8d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88196ea19488cd8572bf0e7883298317c9c84696
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765060"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734140"
 ---
 # <a name="create-cost-objects"></a>Создание объектов затрат 
 
@@ -28,25 +28,25 @@ ms.locfileid: "6765060"
 
 
 ## <a name="create-new-cost-objects"></a>Создание новых объектов затрат
-1. Перейдите в раздел "Учет затрат" > "Аналитики" > "Аналитики объекта затрат".
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-4. В поле "Соединитель данных для элементов аналитик" введите или выберите значение.
-5. В поле "Описание" введите значение.
-6. Нажмите кнопку "Сохранить".
+1. Перейдите в раздел **Учет затрат > Аналитики > Аналитики объекта затрат**.
+2. Нажмите кнопку **Создать**.
+3. В поле **Имя** введите значение.
+4. В поле **Соединитель данных для элементов аналитик** введите или выберите значение.
+5. В поле **Описание** введите значение.
+6. Нажмите кнопку **Сохранить**.
 
 ## <a name="configure-the-data-connector"></a>Настройка соединителя данных
-1. Щелкните "Настроить поставщика элементов аналитики".
+1. Щелкните **Настроить поставщика элементов аналитики**.
     * Выберите CostCenter для импорта аналитики CostCenter в модуль учета затрат.  
-2. В поле "Имя аналитики" выберите "Центр затрат".
-3. Нажмите кнопку "OК".
+2. В поле **Имя аналитики** выберите Центр затрат.
+3. Щелкните **OK**.
 
 ## <a name="import-cost-centers"></a>Импорт центров затрат
-1. Щелкните "Импорт элементов аналитики".
-2. Нажмите кнопку "OК".
+1. Щелкните **Импорт элементов аналитики**.
+2. Щелкните **OK**.
 
 ## <a name="view-the-imported-cost-centers"></a>Просмотр импортированных центров затрат
-1. Щелкните "Просмотр элементов аналитики".
+1. Щелкните **Просмотр элементов аналитики**.
 
 
 
