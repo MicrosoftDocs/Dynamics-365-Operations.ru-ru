@@ -2,7 +2,7 @@
 title: Использование мобильной рабочей области управления активами
 description: В этой теме содержится информация о мобильной рабочей области управления активами.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771547"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811514"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Использование мобильной рабочей области управления активами
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 В этой теме содержится информация о мобильной рабочей области **Управление активами**. Эта рабочая область позволяет пользователям просматривать и создавать запросы на обслуживание и заказы на работу. Пользователи также могут просматривать назначенные задания заказов на работу в представлении календаря или списка. Можно также просматривать и искать активы и функциональные местоположения.
 
@@ -45,7 +46,7 @@ ms.locfileid: "6771547"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
+Загрузите и установите мобильное приложение Finance and Operations (Dynamics 365):
 
 - [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

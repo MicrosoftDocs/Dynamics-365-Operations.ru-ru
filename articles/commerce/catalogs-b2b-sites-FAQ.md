@@ -2,19 +2,19 @@
 title: Вопросы и ответы по каталогам Commerce для B2B
 description: В этой теме представлены ответы на часто задаваемые вопросы о каталогах Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656855"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782870"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>Вопросы и ответы по каталогам Commerce для B2B
 
@@ -25,7 +25,7 @@ ms.locfileid: "8656855"
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Почему я не могу настроить иерархию навигации, связанную с каталогом, или не вижу параметр, чтобы связать иерархию клиентов?
 
-Убедитесь, что функция **Включите использование нескольких каталогов в каналах розничной торговли** включена в рабочей области **Управление функциями** в Commerce Headquarters. Кроме того, убедитесь, что ваша среда использует Commerce версии 10.0.26 или более поздний выпуск.
+Убедитесь, что функция **Включите использование нескольких каталогов в каналах розничной торговли** включена в рабочей области **Управление функциями** в Commerce Headquarters. Кроме того, убедитесь, что ваша среда использует Commerce версии 10.0.27 или более поздний выпуск.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Можно ли просмотреть иерархию, специфичную для каталога, и обогатить страницы категорий в конструкторе сайтов Commerce?
 

@@ -2,7 +2,7 @@
 title: Мобильная рабочая группа "Моя группа"
 description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767120"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811067"
 ---
 # <a name="my-team-mobile-workspace"></a>Мобильная рабочая область «Моя группа»
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 В этой теме содержится информация о мобильной рабочей области **Моя группа**. Эта рабочая область позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Они могут также отсылать благодарности лицам в рамках цепи их отчетности.
 
@@ -54,7 +55,7 @@ ms.locfileid: "6767120"
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
+<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

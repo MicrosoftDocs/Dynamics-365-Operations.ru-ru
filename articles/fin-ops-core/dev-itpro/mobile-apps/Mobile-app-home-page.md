@@ -1,8 +1,8 @@
 ---
 title: Домашняя страница мобильного приложения
-description: В этом разделе описывается мобильное приложение Finance and Operations (Dynamics 365) и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
+description: В этом разделе описывается мобильное приложение "Финансы и операции" (Dynamics 365) и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729716"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811183"
 ---
 # <a name="mobile-app-home-page"></a>Домашняя страница мобильного приложения
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-В этом разделе описывается мобильное приложение **Finance and Operations (Dynamics 365)** и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
+В этом разделе описывается мобильное приложение **Финансы и операции (Dynamics 365)** и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 
 ## <a name="overview"></a>Обзор
 
@@ -76,7 +77,7 @@ ms.locfileid: "6729716"
 <tr class="odd">
 <td>1</td>
 <td>Системный администратор</td>
-<td>Реализуйте приложение Finance and Operations в своей организации.</td>
+<td>Внедрите приложения "Финансы и операции" в своей организации.</td>
 <td><ul><li>Если у вас еще не была развернута версия Microsoft Dynamics 365, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>.</li><li>Чтобы просмотреть список мобильных рабочих областей, которые можно использовать, см. раздел <a href="mobile-workspaces-released.md">Недавно выпущенные мобильные рабочие области</a>.</li></ul></td>
 </tr>
 <tr class="even">

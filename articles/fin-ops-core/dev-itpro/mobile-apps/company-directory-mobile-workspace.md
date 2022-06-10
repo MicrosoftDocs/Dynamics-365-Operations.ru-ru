@@ -2,7 +2,7 @@
 title: Мобильная рабочая область каталога компании
 description: Эта тема содержит сведения о мобильной рабочей области каталога компании, которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 author: jcart1106
-ms.date: 09/17/2019
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720656"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811549"
 ---
 # <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога компании
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 В этом разделе приводятся сведения о мобильной рабочей области **Каталог компании**. Эта рабочая область позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 
@@ -54,7 +55,7 @@ ms.locfileid: "6720656"
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
+<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

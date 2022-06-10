@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740662"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758779"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Описание услуги для приложений для управления финансами и операциями
 
@@ -132,9 +132,9 @@ Microsoft настраивает рабочие среды клиентов, р�
 
 LCS предоставляет [средства самообслуживания](../../dev-itpro/deployment/infrastructure-stack.md) и [операции перемещения баз данных](../../dev-itpro/database/dbmovement-operations.md), которые используются для выполнения задач управления средой и данными. Далее приводятся некоторые примеры.
 
-**Событие:** [запрос производственного экземпляра](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Событие:** [запрос производственного экземпляра](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Заполните [Контрольный список ввода в эксплуатацию](../imp-lifecycle/prepare-go-live.md) и отправьте его рабочей группе [Microsoft FastTrack](/dynamics365/fasttrack/).
+- Заполните [Проверку готовности к запуску](../imp-lifecycle/prepare-go-live.md) и отправьте его рабочей группе [Microsoft FastTrack](/dynamics365/fasttrack/).
 - Запустите [средство оценки подписки LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) до запроса производственного экземпляра.
 - Выполните все задачи по реализации, указанные в [методологии LCS](../../dev-itpro/lifecycle-services/create-methodology.md).
 

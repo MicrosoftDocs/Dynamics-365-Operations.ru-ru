@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688130"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809623"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Вопросы и ответы по объединению инфраструктуры Dynamics 365 Human Resources
 
@@ -131,6 +131,9 @@ Dynamics 365 Human Resources — это отдельное приложение,
 Если среды Dynamics 365 Human Resources и Финансы и операции, которые будут объединены в среде новой инфраструктуры, подключены к одной и той же среде Dataverse, два приложения будут по-прежнему подключены к одной среде Dataverse после миграции. Для любых расширений Dataverse миграция не требуется.
 
 Однако если среды Dynamics 365 Human Resources и Финансы и операции в настоящее время подключена к отдельным средам Dataverse, то эти две среды Dataverse необходимо будет объединить, чтобы они были подключены к одной среде в новой инфраструктуре. Для этой миграции Dataverse таблицы Dataverse, которые являются стандартными для решений Human Resources, могут быть подключены к и повторно синхронизированы с новой средой Dataverse. Любые расширения среды Dataverse не будут перенесены автоматически, но должны быть заново развернуты в новой среде. Для управления расширениями Dataverse рекомендуется использовать управляемые решения. Дополнительные сведения см. в разделе [Введение в решения](/powerapps/developer/data-platform/introduction-solutions).
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Мы использовали функциональные возможности настраиваемого поля в Dynamics 365 Human Resources, будут ли автоматически перенесены настраиваемые поля?
+Да, добавленные настраиваемые поля будут перенесены в новую инфраструктуру.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Мы настроили потоки Microsoft Power Automate и/или Microsoft Power Apps для работы с Dynamics 365 Human Resources. Будут ли эти компоненты Microsoft Power Platform перенесены и начнут работать автоматически после завершения изменения инфраструктуры?
 

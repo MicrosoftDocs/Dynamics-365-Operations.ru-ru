@@ -2,7 +2,7 @@
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management
 description: В этом разделе содержатся ссылки на разделы, в которых описываются новые и измененные функции в каждом выпуске Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/08/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,13 +13,13 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 744c07ff04c74386196d709d57f1c83ff53a9205
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.dyn365.ops.version: 10.0.28
+ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691508"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812982"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management
 
@@ -31,8 +31,9 @@ ms.locfileid: "8691508"
 
 | Версия | Номер сборки | Доступность автоматического обновления | Подробнее |
 |---|---|---|---|
+| 10.0.28 | 10.0.1264 | Июль 2022 | [Предварительная версия Dynamics 365 Supply Chain Management 10.0.28](whats-new-scm-10-0-28.md) |
 | 10.0.27 | 10.0.1227 | Июль 2022 | [Предварительная версия Dynamics 365 Supply Chain Management 10.0.27](whats-new-scm-10-0-27.md) |
-| 10.0.26 | 10.0.1192 | 2022 мая | [Предварительная версия Dynamics 365 Supply Chain Management 10.0.26](whats-new-scm-10-0-26.md) |
+| 10.0.26 | 10.0.1192 | 2022 мая | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26](whats-new-scm-10-0-26.md) |
 | 10.0.25 | 10.0.1149 | Апрель 2022 г. | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.25](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022 февраля | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022 января | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |

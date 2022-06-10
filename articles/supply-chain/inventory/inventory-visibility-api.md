@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524475"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786876"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API видимости запасов
 
@@ -41,17 +41,22 @@ ms.locfileid: "8524475"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | Разнести | [Создание одного запланированного изменения запасов в наличии](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Разнести | [Создание нескольких запланированных изменений запасов в наличии](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | Разнести | [Создание одного запланированного изменения запасов в наличии](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Разнести | [Создание нескольких запланированных изменений запасов в наличии](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Разнести | [Запрос с использованием метода POST](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Получить | [Запрос с использованием метода GET](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | Разнести | [Создание одного события распределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | Разнести | [Создание одного события нераспределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | Разнести | [Создание одного события перераспределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | Разнести | [Создание одного события потребления](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | Разнести | [Запрос результата распределения](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
 
-Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
@@ -84,7 +89,7 @@ ms.locfileid: "8524475"
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Аутентификация
 
-Маркер безопасности платформы используется для вызова открытых API видимости запасов. Таким образом, необходимо создать _Маркер Azure Active Directory (Azure AD)_ с помощью приложения Azure AD. Затем необходимо использовать маркер Azure AD, чтобы получить _маркер доступа_ из службы безопасности.
+Маркер безопасности платформы используется для вызова открытых API видимости запасов. Таким образом, необходимо создать маркер _Azure Active Directory (Azure AD)_ с помощью приложения Azure AD. Затем необходимо использовать маркер Azure AD, чтобы получить _маркер доступа_ из службы безопасности.
 
 Корпорация Майкрософт представила готовую коллекцию токенов получения *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ Body:
 }
 ```
 
-В следующих примерах показано, как запросить все продукты на конкретном сайте и в местонахождении.
+В следующем примере показано, как запросить все продукты на конкретном сайте и в местонахождении.
 
 ```json
 {
@@ -580,6 +585,10 @@ Query(Url Parameters):
 
 ## <a name="available-to-promise"></a>Доступно для резервирования
 
-Можно настроить видимость запасов, чтобы можно было планировать будущие изменения запасов в наличии и рассчитывать количества ATP. ATP — это количество номенклатуры, которое доступно и может быть зарезервировано для клиента в следующем периоде. Использование расчета ATP может значительно повысить возможности выполнения заказов. Сведения о том, как включить эту функцию и как работать с видимостью запасов через его API после включения функции, см. в разделе [Графики изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md).
+Можно настроить видимость запасов, чтобы можно было планировать будущие изменения запасов в наличии и рассчитывать количества ATP. ATP — это количество номенклатуры, которое доступно и может быть зарезервировано для клиента в следующем периоде. Использование расчета ATP может значительно повысить возможности выполнения заказов. Сведения о том, как включить эту функцию и как работать с видимостью запасов через его API после включения функции, см. в разделе [Графики изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Распределение
+
+Интерфейсы API, связанные с распределением, настраиваются в разделе [Распределение видимости запасов](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

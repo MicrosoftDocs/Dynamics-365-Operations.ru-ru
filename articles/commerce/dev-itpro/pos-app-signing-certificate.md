@@ -1,8 +1,8 @@
 ---
-title: Подписывание MPOS с помощью сертификата подписи кода
+title: Подписание файла MPOS .appx с помощью сертификата подписи кода
 description: В этой теме объясняется, как подписать MPOS с помощью сертификата подписи кода.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741551"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811093"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>Подписание MPOS APPX с помощью сертификата подписи кода
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Подписание файла MPOS .appx с помощью сертификата подписи кода
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Чтобы установить Modern POS (MPOS), необходимо подписать приложение MPOS с помощью сертификата подписи кода от доверенного поставщика и установить один и тот же сертификат на всех компьютерах, где MPOS установлен в доверенную корневую папку для текущего пользователя.
 
@@ -51,21 +52,22 @@ ms.locfileid: "8741551"
 Загрузите [задачу DownloadFile](/visualstudio/msbuild/downloadfile-task) и добавьте ее в качестве первого шага процесса создания. Преимуществом использования задачи защитного файла является то, что файл шифруется и помещается на диск во время сборки независимо от того, выполняется ли конвейер сборки успешно, завершается с ошибкой или отменяется. Файл удаляется из расположения загрузки после завершения процесса выполнения сборки.
 
 1. Загрузите и добавьте задачу защитного файла в качестве первого шага в конвейере сборки Azure. Можно загрузить задачу защитного файла из [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Загрузите сертификат в задачу защитного файла и задайте имя ссылки в поле "Выходные переменные", как показано на следующем изображении.
+1. Загрузите сертификат в задачу защитного файла и задайте имя ссылки в поле "Выходные переменные", как показано на следующем изображении.
     > [!div class="mx-imgBorder"]
     > ![Задача защитного файла](media/SecureFile.png)
-3. Создайте новую переменную в Azure Pipelines, выбрав элемент **Новая переменная** на вкладке **Переменные**.
-4. Введите имя переменной в поле значения, например **MySigningCert**.
-5. Сохраните переменную.
-6. Откройте файл **Customization.settings** из **RetailSDK\\BuildTools** и обновите **ModernPOSPackageCertificateKeyFile**, используя имя переменной, созданное в конвейере (шаг 3). Пример:
+1. Создайте новую переменную в Azure Pipelines, выбрав элемент **Новая переменная** на вкладке **Переменные**.
+1. Введите имя переменной в поле значения, например **MySigningCert**.
+1. Сохраните переменную.
+1. Откройте файл **Customization.settings** из **RetailSDK\\BuildTools** и обновите **ModernPOSPackageCertificateKeyFile**, используя имя переменной, созданное в конвейере (шаг 3). Пример:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Этот шаг необходим, если сертификат не защищен паролем. Если сертификат защищен паролем, выполните следующие действия.
- 
-7. На вкладке конвейера **Переменные** добавьте новую переменную защищенного текста. Задайте для имени значение **MySigningCert.secret** и установите значение пароля для сертификата. Щелкните значок блокировки для защиты переменной.
-8. Добавьте задачу **сценария PowerShell** в конвейер (после загрузки защитного файла и перед этапом выполнения сборки). Укажите имя **Дисплея** и задайте тип как **Встроенный**. Скопируйте и вставьте следующий текст в раздел сценария.
+    
+1. Если требуется отметка времени файла MPOS .appx при подписывании его с помощью сертификата, откройте файл **Retail SDK\\Build tool\\Customization.settings** и обновите переменную **ModernPOSPackageCertificateTimestamp** поставщиком метки времени (например, `http://timestamp.digicert.com`).
+1. На вкладке конвейера **Переменные** добавьте новую переменную защищенного текста. Задайте для имени значение **MySigningCert.secret** и установите значение пароля для сертификата. Щелкните значок блокировки для защиты переменной.
+1. Добавьте задачу **сценария PowerShell** в конвейер (после загрузки защитного файла и перед этапом выполнения сборки). Укажите имя **Дисплея** и задайте тип как **Встроенный**. Скопируйте и вставьте следующий текст в раздел сценария.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ ms.locfileid: "8741551"
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Откройте файл **Customization.settings** из **RetailSDK\\BuildTools** и обновите **ModernPOSPackageCertificateThumbprint**, используя значение отпечатка сертификата.
+1. Откройте файл **Customization.settings** из **RetailSDK\\BuildTools** и обновите **ModernPOSPackageCertificateThumbprint**, используя значение отпечатка сертификата.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ ms.locfileid: "8741551"
  
 Сведения о том, как получить отпечаток сертификата, см. в разделе [Получение отпечатка сертификата](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Загрузите или создайте сертификат для подписания приложения MPOS вручную с помощью msbuild в SDK
 
 Если загруженный или созданный сертификат используется для подписи приложения MPOS, обновите узел **ModernPOSPackageCertificateKeyFile** в файле **BuildTools\\Customization.settings**, чтобы указать расположение файла PFX (**$(SdkReferencesPath)\\appxsignkey.pfx**). Пример:

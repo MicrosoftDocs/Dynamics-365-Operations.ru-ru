@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: de3011c6660b1cdccf94def32864316525adcde6
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 92731f0f56e6eba05043403c121939accbe26c05
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477449"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789250"
 ---
 # <a name="trade-agreements-can-be-created-from-rejected-rfqs"></a>Торговые соглашения можно создавать из отклоненных запросов предложений
 
@@ -26,4 +26,4 @@ ms.locfileid: "7477449"
 
 ## <a name="resolution"></a>Решение
 
-Это поведение является ожидаемым. Торговые соглашения можно создавать для любых ответов на запрос предложения, независимо от того, были ли они приняты или отклонены. Дополнительные сведения см. в разделе [Обзор запросов предложений](/dynamics365/supply-chain/procurement/request-quotations.md).
+Это поведение является ожидаемым. Торговые соглашения можно создавать для любых ответов на запрос предложения, независимо от того, были ли они приняты или отклонены. Дополнительные сведения см. в разделе [Обзор запросов предложений](/dynamics365/supply-chain/procurement/request-quotations).
