@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.28 (август 2022\_г.)"
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (июль 2022 г.)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (май 2022 г.)
@@ -711,6 +713,8 @@
           items:
             - name: Домашняя страница управления затратами
               href: cost-management/cost-management-home-page.md
+            - name: Вопросы и ответы по расчету себестоимости запасов
+              href: cost-management/inventory-costing-faq.md
             - name: Предварительные требования для стандартных затрат
               items:
                 - name: Обзор предварительных требований для стандартных затрат
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Использование источников данных USER INPUT PARAMETER для указания параметров отчета, который требуется создать'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка моделей данных
@@ -1707,6 +1713,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Резервирования Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
+                - name: Распределение запасов Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
                 - name: График изменения запасов в наличии и доступных для заказа в Inventory Visibility
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: Общедоступные интерфейсы API Inventory Visibility
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: Отчеты о стоимости на складе
               href: landed-cost/landed-cost-reports.md
+            - name: Информационные объекты стоимости на складе
+              items:
+                - name: Обзор объектов стоимости на складе
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Объекты создания поездок
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Объекты проводок по затратам
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Объект мероприятий контейнеров
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Объекты накладной поставщика
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Управление складом
           items:
             - name: Обзор управления складом

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487872"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789222"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -46,26 +46,26 @@ ms.locfileid: "7487872"
 - [Управление сведениями о продукте](pim/product-information.md)
 - [Управление производством](production-control/production-process-overview.md)
 - [Продажи и маркетинг](sales-marketing/overview-sales-marketing.md)
-- [Сервисное обслуживание](service-management/service-management-home-page.md)
+- [Управление сервисным обслуживанием](service-management/service-management-home-page.md)
 - [Управление транспортировкой](transportation/transportation-management-overview.md)
 - [Управление складом](warehousing/warehouse-configuration.md)
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Дополнительные сведения о Dynamics 365 Finance см. [главную страницу приложения Finance](../finance/index.md).
+Дополнительные сведения о Dynamics 365 Finance см. на [главной странице приложения Finance](../finance/index.md).
 
 ## <a name="videos"></a>Видео
 
-В этом кратком видеоролике представлены новые функции Supply Chain Management, добавленные в Microsoft Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018 г.).
+В этом кратком видеоролике представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018 г.).
 
-- [Синхронизация заказа на выполнение работ между Field Service и Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Синхронизация заказа на работу между Field Service и Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-В этих кратких видеороликах представлены новые функции Supply Chain Management, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.).
+В этих кратких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.).
 
 - [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-В этих кратких видеороликах представлены новые функции Supply Chain Management, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).
+В этих кратких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).
 
 - [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 - [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ ms.locfileid: "7487872"
 - [Утверждение заказов на покупку на мобильном устройстве](https://youtu.be/gZ-gOlJe7H8)
 - [Визуальное планирование заказов на производство и заказов партий с помощью диаграммы Ганта](https://youtu.be/BtbuShkGj4I)
 
-В следующих записях с технической конференции обсуждаются функции Supply Chain Management из предыдущих версий Finance and Operations. Эта функция теперь входит в Dynamics 365 Supply Chain Management; эти же понятия по-прежнему применяются, а процедуры в текущей версии аналогичны.
+В следующих записях с технической конференции обсуждаются функции управления цепочкой поставок из предыдущих версий Finance and Operations. Эта функция теперь входит в Dynamics 365 Supply Chain Management; эти же понятия по-прежнему применяются, а процедуры в текущей версии аналогичны.
 
 - **Управление затратами:**
   - [Обзор управления затратами](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -98,7 +98,7 @@ ms.locfileid: "7487872"
 ## <a name="white-papers"></a>Технические документы
 
 - [Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана](/dynamics/s-e/)
-- [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 

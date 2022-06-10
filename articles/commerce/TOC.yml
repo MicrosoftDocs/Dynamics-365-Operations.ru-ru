@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (июль 2022 г.)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (июль 2022 г.)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (май 2022 г.)
@@ -1300,6 +1302,10 @@
               items:
                 - name: Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
                   href: build-pages-400-500-errors.md
+            - name: Интеграция службы
+              items:
+                - name: Интеграция Customer Voice на страницы сайта электронной коммерции
+                  href: customer-voice-integration.md
         - name: Защита от мошенничества
           items:
             - name: Интеграция Dynamics 365 Fraud Protection с Dynamics 365 Commerce
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Использование источников данных USER INPUT PARAMETER для указания параметров отчета, который требуется создать'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка моделей данных
@@ -2728,7 +2736,9 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Имитация состояния выполненного входа в ходе локальной разработки
                               href: e-commerce-extensibility/mock-sign-in.md
-                            - name: 'Настройте свойства модуля, которые должны отображаться в зависимости от контекста'
+                            - name: Настройка перемещения проверки подлинности веб-API с помощью Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
+                            - name: 'Настройка свойств модуля, которые должны отображаться в зависимости от контекста'
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Глобализация модулей с помощью класса CultureInfoFormatter
                               href: e-commerce-extensibility/globalize-modules.md
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: 'На страницах результатов поиска и категорий отображается уточнение оценок, если не включено решение оценок и отзывов'
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Промежуточный итог сводки по заказу включает налоги на накладные расходы при использовании настроенных модулей сводки по заказу
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Управление клиентами
               items:
                 - name: При создании новых клиентов приветственное сообщение электронной почты не отправляется

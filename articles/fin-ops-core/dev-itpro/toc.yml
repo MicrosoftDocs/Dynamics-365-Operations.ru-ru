@@ -10,13 +10,15 @@
           items:
             - name: Что нового и что изменилось в приложениях для управления финансами и операциями
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Что нового и что изменилось в выпусках обновления платформы
+            - name: Что нового и что изменилось в обновлениях платформы
               items:
-                - name: Что нового и что изменилось на домашней странице обновления платформы
+                - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Обновления платформы для версии 10.0.27 (июль 2022 г.)
+                - name: "Обновления платформы для версии 10.0.28 (август 2022\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: "Обновления платформы для версии 10.0.27 (июль 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Обновления платформы для версии 10.0.26 (май 2022 г.)
+                - name: "Обновления платформы для версии 10.0.26 (май 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: "Обновления платформы для версии 10.0.25 (апрель 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-25.md
@@ -384,9 +386,9 @@
                   items:
                     - name: Настройка локальных проектов в LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Настройка и развертывание локальных сред (Platform update 41 и более поздние версии)
+                    - name: Настройка и развертывание локальных сред (обновление платформы 41 и более поздние версии)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Настройка и развертывание локальных сред (Platform update с 12 по 40)
+                    - name: Настройка и развертывание локальных сред (обновления платформы с 12 по 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Действия по установке для компонентов канала Retail в локальной среде
                       href: deployment/deploy-retail-onprem.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Перезапуск служб среды
               href: lifecycle-services/restart-environment-services.md
+            - name: Обновление администратора среды
+              href: lifecycle-services/update-environment-admin.md
             - name: Сообщение о сбое производства
               href: lifecycle-services/report-production-outage.md
             - name: Отслеживание входов пользователя
@@ -1266,6 +1270,8 @@
               items:
                 - name: Обзор надстроек
                   href: power-platform/add-ins-overview.md
+            - name: Создание мобильного интерфейса
+              href: power-platform/build-mobile-experiences.md
             - name: Политики и связь
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Мобильная платформа

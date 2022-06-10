@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.28 (август)
+                  href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (июль)
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (май)
@@ -258,6 +260,8 @@
               href: accounts-payable/positive-pay-overview.md
             - name: Настройка и создание файлов положительных платежей
               href: accounts-payable/set-up-generate-positive-pay-files.md
+            - name: Настройка и создание файлов положительных платежей с помощью электронной отчетности
+              href: accounts-payable/set-up-positive-pay-ER.md
             - name: Корреспондентские счета по умолчанию для журналов накладных поставщиков и журналов утверждения накладных
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: Бизнес-правило поставщика
@@ -268,6 +272,8 @@
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Рассмотрение и разрешение исключений
                   href: accounts-payable/tasks/research-resolve-exceptions.md
+            - name: Разноска расчетов с поставщиками
+              href: general-ledger/accts-payble-posting.md
             - name: Профили разноски по поставщикам
               href: accounts-payable/vendor-posting-profiles.md
             - name: Создание кодов расходов
@@ -346,8 +352,12 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Аналитика платежей клиентов (предварительная версия)
               href: accounts-receivable/payment-insights-overview.md
+            - name: Разноска расчетов с клиентами
+              href: general-ledger/accts-recvble-posting.md
             - name: Профили разноски по клиенту
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Создание кодов расходов
+              href: accounts-receivable/create-charges-codes.md
             - name: Копирование клиентов с использованием общих номерных серий
               href: accounts-receivable/copy-customer.md
             - name: Workflow-процесс клиента
@@ -444,6 +454,8 @@
                       href: accounts-receivable/sb-alignment-date-examples.md
                     - name: Разделение выручки
                       href: accounts-receivable/sb-revenue-split.md
+                    - name: Периодические задачи
+                      href: accounts-receivable/sb-periodic-tasks.md
                 - name: Отсрочки выручки и расхода
                   items:
                     - name: Настройка отсрочек выручки и расхода
@@ -466,6 +478,8 @@
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Внесение платежей клиентов
                   href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: Настройка и обработка платежей с промежуточными счетами
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Обзор прямого дебетования SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Поручение прямого дебетования SEPA
@@ -662,6 +676,8 @@
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Настройка процесса импорта расширенной банковской выверки
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
+                - name: Настройка процесса импорта расширенной банковской выверки с помощью электронной отчетности
+                  href: accounts-payable/import-bai2-er.md
                 - name: Настройка правил сопоставления банковской выверки
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Выверка банковских выписок с помощью расширенной банковской выверки
@@ -1044,6 +1060,14 @@
                       href: general-ledger/recommended-practices-pstg-prfles.md
                     - name: Счета для автоматических проводок
                       href: general-ledger/accounts-for-auto-transactions.md
+                    - name: Разноска расчетов с поставщиками
+                      href: general-ledger/accts-payble-posting.md
+                    - name: Разноска расчетов с клиентами
+                      href: general-ledger/accts-recvble-posting.md
+                    - name: Разноска аренды активов
+                      href: asset-leasing/set-up-lease-posting-accts.md
+                    - name: Разноска основных средств
+                      href: fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: Правила распределения
                   items:
                     - name: Правила распределения ГК
@@ -1292,6 +1316,8 @@
                   href: public-sector/accounts-payable-public-sector.md
                 - name: Коды заказов на покупку в государственном секторе
                   href: public-sector/purchase-order-codes-public-sector.md
+                - name: Заказы на покупку и перенесенный бюджет
+                  href: public-sector/determine-carry-forward-budget.md
                 - name: Создание и назначение кода торгового партнера в государственном секторе
                   href: public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Определения разноски в государственном секторе
@@ -1778,6 +1804,8 @@
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
                 - name: Экспорт проводок ГК
                   href: localizations/emea-bel-export-ledger-transactions.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-bel-eu-sales-list.md
                 - name: Налоговая декларация INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Отчеты по выверке
@@ -1792,6 +1820,8 @@
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
                 - name: Бельгийский Интрастат
                   href: localizations/emea-bel-intrastat.md
+                - name: Декларация по НДС
+                  href: localizations/emea-bel-vat-declaration-belgium.md
             - name: Бразилия
               items:
                 - name: Обзор по Бразилии
@@ -2094,6 +2124,8 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: Создание и разноска накладной по проекту для клиентов из государственного сектора
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-dnk-eu-sales-list.md
                 - name: Импорт конфигураций электронного выставления накладных OIOUBL
                   href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
                 - name: Разноска накладной с произвольным текстом с платежной квитанцией
@@ -2296,6 +2328,8 @@
                   href: localizations/emea-fin-intrastat.md
                 - name: Декларация по НДС
                   href: localizations/emea-fin-vat-declaration.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-fin-eu-sales-list.md
             - name: Франция
               items:
                 - name: Обзор по Франции
@@ -3088,6 +3122,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: Сведения для отчета по НДС
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: Литовский Интрастат
+                  href: localizations/emea-ltu-intrastat.md
                 - name: Отчеты i.SAF для Литвы
                   href: localizations/emea-ltu-isaf.md
                 - name: Стандартный файл налогового аудита (SAF-T) для Литвы
@@ -3226,10 +3262,12 @@
                   href: localizations/emea-pol-red-storno.md
                 - name: Расчет скидок по строке из цены за единицу
                   href: localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: Корректирующие документы
+                - name: Замечание при корректировке
                   href: localizations/emea-pol-correction-notes.md
                 - name: Нумерация дубликатов накладных по продаже
                   href: localizations/emea-pol-sales-invoice-duplicates-numbering.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-pol-eu-sales-list.md
                 - name: Амортизация ОС
                   href: localizations/emea-pol-fixed-assets-depreciation.md
                 - name: Расширение функциональности выбытия ОС
@@ -3550,8 +3588,10 @@
                   href: localizations/emea-esp-invoice-due-dates.md
                 - name: Условный налог
                   href: localizations/emea-esp-conditional-sales-tax.md
-                - name: Связывание кредит-ноты с накладной
+                - name: Кредитование при обработке накладной
                   href: localizations/tasks/emea-esp-credit-invoicing.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-esp-sales-list.md
                 - name: Финансовые данные из счета в накладной
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
                 - name: Переоценка группы основных средств
@@ -3670,7 +3710,9 @@
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Статистика по отчету о методах оплаты
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
-            - name: США
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-uk-eu-sales-list.md
+            - name: Соединенные штаты
               items:
                 - name: Обзор по США
                   href: localizations/united-states.md
@@ -4339,6 +4381,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Использование источников данных СБОРА ДАННЫХ в форматах электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Использование источников данных USER INPUT PARAMETER для указания параметров отчета, который требуется создать'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Отладка источников данных
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка моделей данных
