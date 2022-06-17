@@ -1,6 +1,6 @@
 ---
 title: Параметры реверсирования в журналах и строках
-description: В этом разделе описывается, почему запись реверсирования, которая была введена в общем журнале, может быть не включена в разнесенную проводку.
+description: В этой статье описывается, почему запись реверсирования, которая была введена в общем журнале, может быть не включена в разнесенную проводку.
 author: kweekley
 ms.date: 04/29/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff8c0bda8e750e95261039b373cfb96a76034f6f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e36a3ea1736e4d7f60a5a6ce588ad3e66c950c14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899852"
 ---
 # <a name="reverse-settings-on-journals-and-lines"></a>Параметры реверсирования в журналах и строках
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, почему запись реверсирования, которая была введена в общем журнале, может быть не включена в разнесенную проводку.  
+В этой статье описывается, почему запись реверсирования, которая была введена в общем журнале, может быть не включена в разнесенную проводку.  
 
 ## <a name="symptom"></a>Симптом
 

@@ -1,6 +1,6 @@
 ---
 title: Workflow-процесс клиента
-description: В этом разделе приводятся сведения о бизнес-правиле клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
+description: В этой статье приводятся сведения о workflow-процессе клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью workflow-процесса, чтобы они были добавлены к клиенту.
 author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ccea0de202ec2f5ab706cb2110110fc9ffdc03ee
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 883e77b5480a52201673e58a641c7180009a129c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864435"
 ---
 # <a name="customer-workflow"></a>Workflow-процесс клиента
 

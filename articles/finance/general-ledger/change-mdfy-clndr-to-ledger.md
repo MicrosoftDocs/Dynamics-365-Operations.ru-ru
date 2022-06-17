@@ -1,6 +1,6 @@
 ---
 title: Изменение или переназначение календаря книги учета
-description: В этом разделе описывается, как изменить календарь, назначенный книге учета в данный момент, и как назначить новый календарь книге учета.
+description: В этой статье описывается, как изменить календарь, назначенный книге учета в данный момент, и как назначить новый календарь книге учета.
 author: kweekley
 ms.date: 05/07/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-07
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25777a5b807921acc13338116627e9356fe62a20
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 751954e0dc5f682b99ab7fe349cd505dc9da7858
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848616"
 ---
 # <a name="change-or-reassign-a-ledger-calendar"></a>Изменение или переназначение календаря книги учета
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, как изменить календарь, назначенный книге учета в данный момент, и как назначить новый календарь книге учета.
+В этой статье описывается, как изменить календарь, назначенный книге учета в данный момент, и как назначить новый календарь книге учета.
 
 ## <a name="issue"></a>Проблема
 

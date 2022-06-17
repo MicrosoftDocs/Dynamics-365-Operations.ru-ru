@@ -1,6 +1,6 @@
 ---
 title: Документация по приложению Finance and Operations
-description: Документация для приложений Finance and Operations.
+description: Документация для приложений для управления финансами и операциями.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865842"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Документация по приложению Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Узнайте, как применять приложения Finance and Operations в вашей организации. Для этого воспользуйтесь перечисленными в этом разделе ресурсами, содержащими материалы для конечных пользователей, разработчиков и ИТ-специалистов. 
+Узнайте, как применять приложения для управления финансами и операциями в вашей организации. Для этого воспользуйтесь перечисленными в этой статье ресурсами, содержащими материалы для конечных пользователей, разработчиков и ИТ-специалистов. 
 
 Большая часть этих материалов также применима к связанным продуктам — Dynamics 365 Commerce и Dynamics 365 Human Resources. 
 
@@ -91,7 +91,7 @@ ms.locfileid: "8075405"
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Управление логистическими цепочками</a></h3>
+<h3><a href="../../supply-chain/index.md">Управление цепочкой поставок</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Управление затратами</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Управление запасами</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Сводное планирование</a></p>

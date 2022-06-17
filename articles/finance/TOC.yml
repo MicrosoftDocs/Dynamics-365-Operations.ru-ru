@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка обновлений службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Перед обслуживанием и после обслуживания
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Приостановка обновлений службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Получение уведомлений об обновлениях службы
@@ -1126,13 +1128,13 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Рабочая область закрытия финансового периода
                   href: general-ledger/financial-period-close-workspace.md
-                - name: Закрытие на конец года
+                - name: Закрытие года
                   href: general-ledger/year-end-close.md
                 - name: Закрытие финансового года
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Массовое закрытие финансовых периодов
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: Вопросы и ответы по мероприятиям на конец года
+                - name: Вопросы и ответы по мероприятиям закрытия года
                   href: general-ledger/faq-year-end-activities.md
                 - name: Сопоставления ГК
                   href: general-ledger/ledger-settlements.md
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Расчет и округление налога
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Расчет налога для строк общих журналов
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Расчет и корректировка налога по накладной поставщика
@@ -2110,7 +2114,7 @@
                   href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
                 - name: Внутренний НДС (ЕС)
                   href: localizations/emea-cze-intra-community-VAT.md
-                - name: Закрытие на конец года
+                - name: Закрытие года
                   href: localizations/emea-cze-hun-year-end.md
             - name: Дания
               items:
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Эстонский Интрастат
                   href: localizations/emea-est-intrastat.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Европа
               items:
                 - name: Обзор по Европе
@@ -2446,12 +2452,14 @@
                   href: localizations/emea-hun-fixed-asset-to-inventory.md
                 - name: Документы о зачете налога
                   href: localizations/emea-hun-tax-reimbursement-docs.md
-                - name: Закрытие на конец года
+                - name: Закрытие года
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Интерактивная система выставления накладных
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Налоговые отчеты для Венгрии
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Венгерский Интрастат
+                  href: localizations/emea-hun-intrastat.md
                 - name: Расчеты отложенных налогов
                   href: localizations/emea-hun-deferred-vat.md
             - name: Исландия
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Латвийский Интрастат
                   href: localizations/emea-lva-intrastat.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Литва
               items:
                 - name: Обзор по Литве
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Настройка документов перемещения для перемещения товаров в компании
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Малайзия
               items:
                 - name: Обзор по Малайзии
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Устранение проблем с производительностью в конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Сокращение количества полей таблицы, получаемых в среде выполнения'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Управление бизнес-документами (BDM)
                   items:
                     - name: Обзор BDM

@@ -1,6 +1,6 @@
 ---
 title: Распределенное управление заказами (DOM)
-description: Этот раздел содержит сведения о функции распределенного управления заказами (DOM) в Dynamics 365 Commerce.
+description: В этой статье описывается функция распределенного управления заказами (DOM) в Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878522"
 ---
 # <a name="distributed-order-management-dom"></a>Распределенное управление заказами (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Этот раздел содержит сведения о функции распределенного управления заказами (DOM) в Microsoft Dynamics 365 Commerce.
+В этой статье описывается функция распределенного управления заказами (DOM) в Microsoft Dynamics 365 Commerce.
 
 DOM — это многоканальное решение оптимизации выполнения заказов, которое помогает максимально повысить эффективность выполнения заказов в цепочке поставок. DOM помогает гарантировать, что продукты будут доставлены клиентам в правильных количествах, из правильных источников и в правильное время. DOM также может помочь максимально увеличить прибыль, свети к минимуму затраты и выполнить требования на уровне обслуживания.
 

@@ -1,6 +1,6 @@
 ---
 title: Улучшенная обработка номенклатур с отслеженными партиями
-description: В этом разделе описывается улучшенная обработка партий для номенклатур с отслеженными партиями в процессе разноски журнала операций в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается улучшенная обработка номенклатур с отслеженными партиями в процессе разноски журнала операций в Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881888"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Улучшенная обработка номенклатур с отслеженными партиями
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается улучшенная обработка партий для номенклатур с отслеженными партиями в процессе разноски журнала операций в Microsoft Dynamics 365 Commerce.
+В этой статье описывается улучшенная обработка номенклатур с отслеженными партиями в процессе разноски журнала операций в Microsoft Dynamics 365 Commerce.
 
 В Dynamics 365 Commerce POS номера партий не могут быть получены для номенклатур с отслеженными партиями в момент продажи. Однако для определенных конфигураций, когда продажи разносятся в Commerce Headquarters с помощью заказов клиентов или разноски журнала операций, Commerce ожидает, что существуют действительные номера партий для номенклатур с отслеженными партиями и что они будут использоваться во время выставления накладных.
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка признания выручки
-description: В этой теме описываются параметры настройки для признания выручки и их влияние.
+description: В этой статье описываются параметры настройки для признания выручки и их влияние.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900023"
 ---
 # <a name="revenue-recognition-setup"></a>Настройка признания выручки
 [!include [banner](../includes/banner.md)]
 
-Добавлен новый модуль **Признание выручки**, включающий пункты меню для любой необходимой настройки. В этом разделе описываются параметры настройки и особенности их использования.
+Добавлен новый модуль **Признание выручки**, включающий пункты меню для любой необходимой настройки. В этой статье описываются параметры настройки и особенности их использования.
 
 > [!NOTE]
 > Функция признания выручки теперь включена по умолчанию через механизм управления функциями. Если организация не использует эту функцию, ее можно отключить в рабочей области **Управление функциями**.

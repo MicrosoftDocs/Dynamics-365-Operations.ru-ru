@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 649cd6ae78ef4922054f6c767255b5a1fc38b793b0bd1fd49943d4946d8025a9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 06c4c2baba00ffb074fce7bb68fd9dfc91714c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888624"
 ---
 > [!IMPORTANT]
-> Некоторые усовершенствования, упомянутые в этом разделе, доступны целевым пользователям, участвующим в программе обновления платформы Continuous Auto-Update Advantage Program (CAAP). Дополнительные сведения о стандартных и целевых выпусках см. в разделе [Стандартные выпуски и выпуски для конкретных платформ](../../get-started/public-preview-releases.md).
+> Некоторые усовершенствования, упомянутые в этой статье, доступны целевым пользователям, участвующим в программе обновления платформы Continuous Auto-Update Advantage Program (CAAP). Дополнительные сведения о стандартных и целевых выпусках см. в разделе [Стандартные выпуски и выпуски для конкретных платформ](../../get-started/public-preview-releases.md).

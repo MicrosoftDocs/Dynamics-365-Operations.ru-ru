@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 886d4897899ec9067cdd332aea81ca5cceda253badfc824b121e4a005fa762ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63e75089921fe3e6d8f59c22cfb9c57a04fb4f40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896648"
 ---
 > [!IMPORTANT]
-> Часть или вся функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../get-started/public-preview-releases.md).
+> Часть или вся функциональность, описанная в этой статье, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../get-started/public-preview-releases.md).

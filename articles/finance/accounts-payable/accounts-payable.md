@@ -1,6 +1,6 @@
 ---
 title: Домашняя страница расчетов с поставщиками
-description: В этом разделе представлен обзор расчетов с поставщиками.
+description: В этой статье представлен обзор расчетов с поставщиками.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595295"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946111"
 ---
 # <a name="accounts-payable-home-page"></a>Домашняя страница расчетов с поставщиками
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе представлен обзор расчетов с поставщиками. 
+В этой статье представлен обзор расчетов с поставщиками. 
 
 Накладные поставщиков можно вводить вручную или получать в электронном виде с использованием информационных объектов. После ввода или получения накладных поставщиков вы можете просматривать и утверждать их с помощью журнала утверждения накладных или страницы **Накладная поставщика**. Вы также можете автоматизировать процесс проверки с помощью функций сопоставления накладных, политик накладных поставщика и бизнес-правил, чтобы удовлетворяющие определенным критериям накладные утверждались автоматически. При этом остальные накладные будут помечаться для проверки уполномоченным пользователем.
 

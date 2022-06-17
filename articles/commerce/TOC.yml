@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка обновлений службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Перед обслуживанием и после обслуживания
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Приостановка обновлений службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Получение уведомлений об обновлениях службы
@@ -394,6 +396,8 @@
                   items:
                     - name: Приложение Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Миграция Modern POS в Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Руководство по внедрению системы управления устройствами
                       href: implementation-considerations-devices.md
                     - name: Выбор между Store Commerce и Cloud POS
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Устранение проблем с производительностью в конфигурациях электронной отчетности
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Сокращение количества полей таблицы, получаемых в среде выполнения'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Управление бизнес-документами (BDM)
                   items:
                     - name: Обзор BDM
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Миграция устаревшего Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Устаревшие и удаленные интерфейсы API, классы и методы'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Модернизация технологического стека в магазине Commerce (технический документ)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Настройка среды
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Создание пакета расширения Cloud Scale Unit
                       href: dev-itpro/CSU-packaging.md
+                    - name: Объединение пакетов расширения Cloud Scale Unit для развертывания
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Удаление расширений Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Устранение неполадок
           items:
+            - name: Store Commerce
+              items:
+                - name: Проблемы при настройке и установке
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Проблемы производительности
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Проблемы расширений
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Обработка заказа
               items:
                 - name: Ошибка "Тип платежа должен быть кредитной картой"

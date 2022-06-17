@@ -1,6 +1,6 @@
 ---
 title: Настройка и обработка обмена по заказу на возврат
-description: В этом разделе описан порядок настройки обмена при возврате в Dynamics 365 Commerce.
+description: В этой статье описан порядок настройки обмена при возврате в Dynamics 365 Commerce.
 author: josaw1
 ms.date: 07/28/2021
 ms.topic: index-page
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f33c674e4110b4e45ac58e499a65da2509b00046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845802"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Настройка и обработка обмена по заказу на возврат
 
