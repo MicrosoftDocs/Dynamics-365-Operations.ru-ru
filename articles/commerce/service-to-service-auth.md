@@ -1,6 +1,6 @@
 ---
 title: Настройка проверки подлинности между службами
-description: В этой теме описывается, как настроить проверку подлинности между службами в Microsoft Dynamics 365 Commerce для безопасного вызова интерфейсов API службы для оценок и проверок.
+description: В этой статье описывается, как настроить проверку подлинности между службами в Microsoft Dynamics 365 Commerce для безопасного вызова интерфейсов API службы для оценок и проверок.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871615"
 ---
 # <a name="configure-service-to-service-authentication"></a>Настройка проверки подлинности между службами
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как настроить проверку подлинности между службами (S2S) в Microsoft Dynamics 365 Commerce для безопасного вызова интерфейсов API службы для оценок и проверок.
+В этой статье описывается, как настроить проверку подлинности между службами (S2S) в Microsoft Dynamics 365 Commerce для безопасного вызова интерфейсов API службы для оценок и проверок.
 
-Dynamics 365 Commerce предлагает [оценки и отзывы](ratings-reviews-overview.md) как многоканальное решение. Это решение позволяет осуществлять доступ к API-интерфейсам служб извне Commerce, что позволяет выполнять различные задачи. Эти задачи включают импорт оценок и отзывов из внешней системы в Commerce и экспорт оценок и отзывов из Commerce. Чтобы включить в Commerce безопасный вызов API-интерфейсов служб оценок и отзывов, необходимо сначала настроить проверку подлинности S2S, выполнив процедуры, описанные в данной теме.
+Dynamics 365 Commerce предлагает [оценки и отзывы](ratings-reviews-overview.md) как многоканальное решение. Это решение позволяет осуществлять доступ к API-интерфейсам служб извне Commerce, что позволяет выполнять различные задачи. Эти задачи включают импорт оценок и отзывов из внешней системы в Commerce и экспорт оценок и отзывов из Commerce. Чтобы включить в Commerce безопасный вызов API-интерфейсов служб оценок и отзывов, необходимо сначала настроить проверку подлинности S2S, выполнив процедуры, описанные в данной статье.
 
 ## <a name="add-a-new-app-registration"></a>Добавление новой регистрации приложений
 

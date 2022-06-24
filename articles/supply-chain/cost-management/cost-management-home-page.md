@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891157"
 ---
 # <a name="cost-management-home-page"></a>Домашняя страница управления затратами
 
@@ -53,7 +53,7 @@ ms.locfileid: "8672496"
 
 #### <a name="white-paper"></a>Информационный документ
 
-В разделе [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937) описывается, как настроить схему калькуляции, включающую материал и производство, и как настройка влияет на результаты расчета спецификации. Для более подробного объяснения этих тем предоставлены конкретные сценарии и данные, которые демонстрируются влияние различных параметров и конфигураций.
+В разделе [Расчет спецификации с использованием схемы калькуляции](https://www.microsoft.com/download/details.aspx?id=101937) описывается, как настроить схему калькуляции, включающую материал и производство, и как настройка влияет на результаты расчета спецификации. Для более подробного объяснения этих статей предоставлены конкретные сценарии и данные, которые демонстрируются влияние различных параметров и конфигураций.
 
 #### <a name="blogs"></a>Блоги
 

@@ -1,6 +1,6 @@
 ---
 title: Мониторинг выполнения сводного планирования
-description: В этой теме объясняется, как планировщик производства может определить, выполняется ли в настоящее сводное планирование.
+description: В этой статье объясняется, как планировщик производства может определить, выполняется ли в настоящее сводное планирование.
 author: t-benebo
 ms.date: 11/04/2019
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8835010dbefedff0ae93ab734f3011b6b6aae92d
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: da04ef95f2f7e411ecea3fadf7ff31b3502d3d99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860764"
 ---
 # <a name="monitor-a-master-planning-run"></a>Мониторинг выполнения сводного планирования
 

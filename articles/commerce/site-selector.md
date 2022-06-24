@@ -1,6 +1,6 @@
 ---
 title: Модуль выбора сайта
-description: В этой теме описывается модуль выбора сайта, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается модуль выбора сайта, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884611"
 ---
 # <a name="site-picker-module"></a>Модуль выбора сайта
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается модуль выбора сайта, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описывается модуль выбора сайта, а также описывается, как добавить его на страницы сайта в Microsoft Dynamics 365 Commerce.
 
 Если предприятие имеет различные сайты для рынков, регионов и языковых стандартов, пользователям сайта необходим простой способ переключения между сайтами и выбора предпочтительного сайта для покупок. Для поддержки этого сценария модуль выбора сайта позволяет пользователям возможность просматривать несколько сайтов. Средство выбора сайта также рекомендуется в том случае, когда для сайта электронной коммерции реализовано [географическое обнаружение и переадресация](geo-detection-redirection.md), чтобы клиенты могли переопределить настройки сайта, которые они указывают с помощью модуля [средства выбора страны/региона](country-region-picker-module.md). 
 

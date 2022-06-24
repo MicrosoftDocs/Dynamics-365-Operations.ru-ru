@@ -1,6 +1,6 @@
 ---
 title: Мобильная рабочая область запасов в наличии
-description: В этом разделе содержится информация о мобильной рабочей области запасов в наличии. Эта рабочая область помогает получать ценные мобильные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
+description: В этой статье содержится информация о мобильной рабочей области запасов в наличии. Эта рабочая область помогает получать ценные мобильные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
 author: yufeihuang
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859440"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-В этом разделе содержится информация о **мобильной рабочей области запасов в наличии**. Эта рабочая область помогает получать ценные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
+В этой статье содержится информация о мобильной рабочей области **Запасы в наличии**. Эта рабочая область помогает получать ценные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
 
 Эту мобильную рабочую область можно использовать с мобильным приложением "Финансы и операции" (Dynamics 365).
 

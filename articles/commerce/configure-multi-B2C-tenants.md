@@ -1,6 +1,6 @@
 ---
 title: Настройка нескольких клиентов B2C в среде Commerce
-description: В этом разделе описывается, когда и как настроить несколько клиентов "бизнес-потребитель" B2C Microsoft Azure Active Directory (Azure AD) по каналам для проверки подлинности пользователя в выделенной среде Dynamics 365 Commerce.
+description: В этой статье описывается, когда и как настроить несколько клиентов "бизнес-потребитель" B2C Microsoft Azure Active Directory (Azure AD) по каналам для проверки подлинности пользователя в выделенной среде Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890577"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Настройка нескольких клиентов B2C в среде Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, когда и как настроить несколько клиентов "бизнес-потребитель" B2C Microsoft Azure Active Directory (Azure AD) по каналам для проверки подлинности пользователя в выделенной среде Dynamics 365 Commerce.
+В этой статье описывается, когда и как настроить несколько клиентов "бизнес-потребитель" B2C Microsoft Azure Active Directory (Azure AD) по каналам для проверки подлинности пользователя в выделенной среде Dynamics 365 Commerce.
 
 Dynamics 365 Commerce использует облачную службу удостоверений Azure AD B2C для поддержки учетных данных пользователя и потоков проверки подлинности. Пользователи могут использовать потоки проверки подлинности для регистрации, входа и сброса пароля. Azure AD B2C хранит конфиденциальные сведения о проверке подлинности пользователя, такие как имя пользователя и пароль. Запись пользователя является уникальной для каждого клиента B2C и использует либо учетные данные с именем пользователя (адресом электронной почты), либо учетные данные поставщика удостоверений социальных сетей.
 

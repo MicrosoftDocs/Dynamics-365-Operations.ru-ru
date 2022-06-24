@@ -1,6 +1,6 @@
 ---
-title: Включение рекомендаций "купить похожие по описанию"
-description: В этом разделе описывается, как включить рекомендации по продуктам "купить похожие по описанию" в Microsoft Dynamics 365 Commerce.
+title: Включение рекомендаций "Выбрать похожие по описанию"
+description: В этой статье описывается, как включить рекомендации по продуктам "купить похожие по описанию" в Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852016"
 ---
-# <a name="enable-shop-similar-description-recommendations"></a>Включение рекомендаций «Выбрать похожие по описанию»
+# <a name="enable-shop-similar-description-recommendations"></a>Включение рекомендаций "Выбрать похожие по описанию"
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как включить рекомендации по продуктам "купить похожие по описанию" в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как включить рекомендации по продуктам "купить похожие по описанию" в Microsoft Dynamics 365 Commerce.
 
 Функция рекомендаций "купить похожие по описанию" в Dynamics 365 Commerce использует возможности искусственного интеллекта и машинного обучения (ИИ-ML) для предоставления пользователям рекомендаций по продуктам, описания которых похожи на то, что ищет клиент. Благодаря созданию рекомендаций "купить похожие по описанию" для всех каналов розничной Commerce предприятия розничной торговли могут помочь клиентам легко находить то, что им нужно.
 

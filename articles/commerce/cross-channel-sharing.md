@@ -1,6 +1,6 @@
 ---
 title: Включение и использование общего доступа в нескольких каналах
-description: В этом разделе описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866012"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Включение и использование общего доступа в нескольких каналах
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как включить и использовать функцию общего доступа между несколькими каналами в конфигураторе сайта Microsoft Dynamics 365 Commerce.
 
 Межканальный общий доступ позволяет розничным продавцам повторно использовать содержимое между несколькими каналами сайта и делиться таким содержимым. Эта возможность полезна, когда каналы сайта имеют совместимый базовый язык или если у них много общих элементов содержимого.
 

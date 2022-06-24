@@ -1,6 +1,6 @@
 ---
 title: Связывание веб-сайта Dynamics 365 Commerce с каналом продаж через Интернет
-description: В этом разделе объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами.
+description: В этой статье объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878681"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Связывание веб-сайта Dynamics 365 Commerce с каналом продаж через Интернет
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами. 
+В этой статье объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами. 
 
 После подготовки среды электронной коммерции Dynamics 365 Commerce с помощью портала Microsoft Dynamics Lifecycle Services (LCS) можно приступать к созданию первого веб-сайта электронной коммерции. В качестве части начального создания сайта вы связываете сайт с ранее созданным интернет-магазином. На этом шаге сайт связывается с интернет-каналом и позволяет сайту показывать иерархию переходов, продукты, категории, цены, параметры доставки и все остальные, которые были определены в интернет-магазине.
 

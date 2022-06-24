@@ -1,6 +1,6 @@
 ---
-title: Выборка номенклатуры управления качеством
-description: В этой теме описывается, как настроить выборку номенклатур.
+title: Выборочный контроль номенклатур управления качеством
+description: В этой статье описывается, как настроить выборку номенклатур.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,14 +14,14 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea749c470ab1d80f1f3974596a2cd4a1f5b7b32d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 644eae4fbd9f82027c1cb69efba00dc893f8fc66
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865160"
 ---
-# <a name="quality-management-item-sampling"></a>Выборка номенклатуры управления качеством
+# <a name="quality-management-item-sampling"></a>Выборочный контроль номенклатур управления качеством
 
 [!include [banner](../includes/banner.md)]
 

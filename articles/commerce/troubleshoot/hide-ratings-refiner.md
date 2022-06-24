@@ -1,6 +1,6 @@
 ---
 title: Уточнение оценок отображается на страницах результатов поиска и категорий, когда решение оценок и отзывов не включено
-description: В этом разделе содержатся инструкции по устранению неполадок, связанных с отображением уточнения оценок на страницах результатов поиска и категорий, если для узла электронной коммерции не активировано решение оценки и отзывов Microsoft Dynamics 365 Commerce.
+description: В этой статье содержатся инструкции по устранению неполадок, связанных с отображением уточнения оценок на страницах результатов поиска и категорий, если для узла электронной коммерции не активировано решение оценки и отзывов Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/02/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ccdfc69316752d8860a2a15ff267514e8c5fdd58
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c35e176fc5673de194a81a3a4694a83f7bc9aa00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885066"
 ---
 # <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>Уточнение оценок отображается на страницах результатов поиска и категорий, когда решение оценок и отзывов не включено
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе содержатся инструкции по устранению неполадок, связанных с отображением уточнения оценок на страницах результатов поиска и категорий, если для узла электронной коммерции не активировано решение оценки и отзывов Microsoft Dynamics 365 Commerce.
+В этой статье содержатся инструкции по устранению неполадок, связанных с отображением уточнения оценок на страницах результатов поиска и категорий, если для узла электронной коммерции не активировано решение оценки и отзывов Microsoft Dynamics 365 Commerce.
 
 ## <a name="description"></a>описание
 

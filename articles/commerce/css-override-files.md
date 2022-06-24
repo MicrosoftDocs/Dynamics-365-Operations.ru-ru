@@ -1,6 +1,6 @@
 ---
 title: Работа с переопределением файлов CSS
-description: В этой теме описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892868"
 ---
 # <a name="work-with-css-override-files"></a>Работа с переопределением файлов CSS
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, почему, когда и как использовать файлы переопределения каскадных таблиц стилей (CSS) переопределить файлы в Microsoft Dynamics 365 Commerce.
 
 Постоянные стили сайта, как правило, должны быть обработаны через тему сайта. Темы обеспечивают основы CSS и настройки стиля для модулей на любой странице вашего сайта. Темы создаются с помощью онлайн-пакета средств разработки Dynamics 365 Commerce (SDK), и они развернуты на ваших веб-сайтах через Lifecycle Services Microsoft Dynamics (LCS). Возможности отладки тем и конфигурации интерфейса модуля в SDK помогают разработчикам сайтов создавать настраиваемые и связанные пакеты дизайна сайта. Когда эти пакеты дизайна развертываются на сайте, авторы сайта могут сосредоточиться на создании, редактировании и публикации контента вместо разработки сайта.
 

@@ -1,6 +1,6 @@
 ---
 title: Домены в Dynamics 365 Commerce
-description: В этом разделе описывается, как обрабатываются домены в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как обрабатываются домены в Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848962"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Домены в Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как обрабатываются домены в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как обрабатываются домены в Microsoft Dynamics 365 Commerce.
 
-Домены — это веб-адреса, используемые для перехода к сайтам Dynamics 365 Commerce в веб-браузере. Управление доменом можно контролировать с помощью выбранного поставщика сервера доменных имен DNS (Domain Name Server). Домены упоминаются в сборщике сайтов Dynamics 365 Commerce для координации того, как при публикации будет осуществляться доступ к сайту. В этом разделе рассматриваются способы обработки и использования доменов в жизненном цикле разработки и запуска веб-сайта Commerce.
+Домены — это веб-адреса, используемые для перехода к сайтам Dynamics 365 Commerce в веб-браузере. Управление доменом можно контролировать с помощью выбранного поставщика сервера доменных имен DNS (Domain Name Server). Домены упоминаются в сборщике сайтов Dynamics 365 Commerce для координации того, как при публикации будет осуществляться доступ к сайту. В этой статье рассматриваются способы обработки и использования доменов в жизненном цикле разработки и запуска веб-сайта Commerce.
 
 > [!NOTE]
 > По состоянию 6 мая 2022 года все среды, созданные в Dynamics 365 Commerce, будут подготовлены к домену `.dynamics365commerce.ms`, что приведет к замене более раннего шаблона `.commerce.dynamics.com`. Существующие среды, подготовленные к домену `.commerce.dynamics.com`, будут продолжать работать.

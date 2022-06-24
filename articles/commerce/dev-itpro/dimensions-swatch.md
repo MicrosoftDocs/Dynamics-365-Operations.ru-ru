@@ -1,6 +1,6 @@
 ---
 title: Настройка значений аналитики продукта для отображения в виде образцов
-description: В этом разделе описывается, как настроить значения аналитики продукта в качестве образцов в Microsoft Dynamics 365 Commerce Headquarters.
+description: В этой статье описывается, как настроить значения аналитики продукта в качестве образцов в Microsoft Dynamics 365 Commerce Headquarters.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892660"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Настройка значений аналитики продукта для отображения в виде образцов
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе описывается, как настроить значения аналитики продукта в качестве образцов в Microsoft Dynamics 365 Commerce Headquarters. Дополнительные сведения об аналитиках продуктов см. в разделе [Аналитики продуктов](../../supply-chain/pim/product-dimensions.md).
+В этой статье описывается, как настроить значения аналитики продукта в качестве образцов в Microsoft Dynamics 365 Commerce Headquarters. Дополнительные сведения об аналитиках продуктов см. в разделе [Аналитики продуктов](../../supply-chain/pim/product-dimensions.md).
 
 Dynamics 365 Commerce поддерживает использование аналитик размера, стиля и цвета для представления вариантов продукта. Аналитики продуктов имеют понятные имена, которые отображаются на страницах сведений о продукте (PDP), чтобы можно было выбрать варианты продукта. Примерами таких понятных имен являются "Маленький", "Средний" и "Большой" для размеров, "Черный" и "Коричневый" для цветов. Однако если продукт поддерживает множество вариантов, для просмотра изображения каждого варианта продукта требуется выбрать несколько параметров. Таким образом, это может быть медленно и утомительно для клиентов просматривать и выбирать варианты продукта.
 

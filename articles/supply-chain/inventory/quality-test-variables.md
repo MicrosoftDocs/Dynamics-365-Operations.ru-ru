@@ -1,6 +1,6 @@
 ---
-title: Переменные управления качеством
-description: В этой теме описывается, как создавать переменные проверки, чтобы можно было использовать для качественных проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
+title: Переменные тестирования управления качеством
+description: В этой статье описывается, как создавать переменные проверки, чтобы можно было использовать для качественных проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4495c3d3f8df9f07ec079d8e497a17979abbe3ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 10fe206b76f2e50e09cb6aaa6055614c2fe9425d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857644"
 ---
-# <a name="quality-management-test-variables"></a>Переменные управления качеством
+# <a name="quality-management-test-variables"></a>Переменные тестирования управления качеством
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как создавать переменные проверки, чтобы можно было использовать для качественных проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
+В этой статье описывается, как создавать переменные проверки, чтобы можно было использовать для качественных проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
 
 Для каждой качественной проверки, заданной на странице **Проверка**, следует определить переменную проверки и ее возможные результаты. (Для качественных проверок поле **Тип** на странице **Проверки** задается как *Параметр*.)
 
