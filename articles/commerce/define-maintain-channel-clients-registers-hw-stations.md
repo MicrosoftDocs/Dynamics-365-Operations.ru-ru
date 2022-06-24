@@ -1,6 +1,6 @@
 ---
 title: Подключение периферийных устройств к POS
-description: В этом разделе описываются способы подключения периферийных устройств к Retail POS.
+description: В этой статье описываются способы подключения периферийных устройств к Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897116"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Подключение периферийных устройств к POS
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются способы подключения периферийных устройств к Retail POS.
+В этой статье описываются способы подключения периферийных устройств к Retail POS.
 
 > [!NOTE]
 > Подробные инструкции по установке см. в разделе [Настройка и установка Retail Hardware Station](retail-hardware-station-configuration-installation.md) и [Настройка, установка и активация Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Cloud POS — это POS на основе браузера. Поскольку 
 
 #### <a name="hardware-profiles"></a>Профили оборудования
 
-Профили оборудования были описаны в рамках настройки клиента ранее в этой теме. Профили оборудования назначаются прямо POS-терминалу или общей станции оборудования и используются для указания типов устройств, используемых в конкретном POS-терминале или в станции оборудования. Профили оборудования также используются для указания параметров EFT, которые используются для связи с SDK платежей.
+Профили оборудования были описаны в рамках настройки клиента ранее в этой статье. Профили оборудования назначаются прямо POS-терминалу или общей станции оборудования и используются для указания типов устройств, используемых в конкретном POS-терминале или в станции оборудования. Профили оборудования также используются для указания параметров EFT, которые используются для связи с SDK платежей.
 
 #### <a name="visual-profiles"></a>Визуальные профили
 

@@ -1,6 +1,6 @@
 ---
-title: Включение уведомлений о прибытии клиентов в POS
-description: В этом разделе описывается, как включить уведомления о прибытии клиентов в POS Microsoft Dynamics 365 Commerce.
+title: Включение уведомлений о возврате клиентов в POS-терминале
+description: В этой статье описывается, как включить уведомления о прибытии клиентов в POS Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885153"
 ---
-# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Включение уведомлений о прибытии клиентов в POS
+# <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Включение уведомлений о возврате клиентов в POS-терминале
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как включить уведомления о прибытии клиентов в POS Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как включить уведомления о прибытии клиентов в POS Microsoft Dynamics 365 Commerce.
 
 В сообщениях по электронной почте "заказ готов для отправки" организации могут создать ссылку или кнопку, которые позволяют пользователям уведомлять магазин о том, что они находятся в помещении компании, и ожидают получения товара. После этого клиенты получают подтверждение прибытия, и магазин получает уведомление в качестве задачи в своем приложении POS. Эта задача выступает в качестве напоминания для продавца для доставки заказа к автомобилю клиента. Поэтому клиент не должен входить магазин.
 
@@ -70,7 +70,7 @@ Workflow-процесс прибытия клиента также может б
 1. Верните страницу, но не публикуйте ее.
 1. Добавьте следующую ссылку в шаблон сообщения электронной почты, который вызывается типом уведомления о завершении упаковки для режима получения поставки. Дополнительные сведения см. в разделе [Создание шаблонов сообщений электронной почты для событий проводок](email-templates-transactions.md).
 
-    - **Для предварительных сред (UAT):** добавьте фрагмент кода из раздела [Настройка шаблона транзакционного сообщения электронной почты](#configure-the-transactional-email-template) ранее в этой теме.
+    - **Для предварительных сред (UAT):** добавьте фрагмент кода из раздела [Настройка шаблона транзакционного сообщения электронной почты](#configure-the-transactional-email-template) ранее в этой статье.
     - **Для производственных сред:** добавьте следующий код комментария, чтобы это не повлияло на существующих клиентов.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

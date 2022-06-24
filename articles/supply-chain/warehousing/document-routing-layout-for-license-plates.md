@@ -1,6 +1,6 @@
 ---
 title: Макет маршрутизации документов для наклеек грузомест
-description: В этом разделе описывается, как использовать методы форматирования для печати значений на этикетках.
+description: В этой статье описывается, как использовать методы форматирования для печати значений на этикетках.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847885"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Макет маршрутизации документов для наклеек грузомест
 
@@ -53,7 +53,7 @@ ms.locfileid: "8103898"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Включите эту функцию для своей системы
 
-Если ваша система еще не содержит функций, описанных в этом разделе, перейдите в [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Усовершенствованные макеты меток грузомест*. (В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена.)
+Если ваша система еще не содержит функций, описанных в этой статье, перейдите в [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) и включите функцию *Усовершенствованные макеты меток грузомест*. (В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена.)
 
 ## <a name="custom-number-formats"></a>Пользовательские числовые форматы
 
@@ -129,7 +129,7 @@ Contoso Inc.
 $DisplayMethod()$
 ```
 
-Этот формат можно комбинировать с другими типами, которые были описаны ранее в этом разделе. Например, имеется метод отображения с именем `DisplayListOfItemsNumbers()`, и необходимо напечатать первый код номенклатуры этого метода. В этом случае можно использовать следующий код.
+Этот формат можно комбинировать с другими типами, которые были описаны ранее в этой статье. Например, имеется метод отображения с именем `DisplayListOfItemsNumbers()`, и необходимо напечатать первый код номенклатуры этого метода. В этом случае можно использовать следующий код.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

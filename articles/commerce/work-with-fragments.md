@@ -1,6 +1,6 @@
 ---
 title: Работа с фрагментами
-description: В этом разделе описывается, зачем, когда и как использовать фрагменты в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, зачем, когда и как использовать фрагменты в Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896844"
 ---
 # <a name="work-with-fragments"></a>Работа с фрагментами 
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, зачем, когда и как использовать фрагменты в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, зачем, когда и как использовать фрагменты в Microsoft Dynamics 365 Commerce.
 
 Фрагменты позволяют выполнять централизованную разработку для конфигураций модулей, которые должны быть повторно использованы на сайте. Например, заголовки, нижние колонтитулы и баннеры часто настраиваются как фрагменты, так как они являются общими для нескольких страниц. Фрагменты можно рассматривать как миниатюрные веб-страницы, которые могут быть вставлены на другие страницы сайта. Фрагменты имеют свой собственный жизненный цикл. Другими словами, они создаются, используются в ссылках, обновляются и удаляются как независимые сущности в инструментах разработки.
 

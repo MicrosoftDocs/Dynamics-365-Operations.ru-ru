@@ -1,6 +1,6 @@
 ---
-title: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
-description: В этом разделе описываются возможности, который удалены или которые планируется удалить в Dynamics 365 Supply Chain Management.
+title: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
+description: В этой статье описываются возможности, который удалены или которые планируется удалить в Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865276"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
+# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Этот раздел будет обновлен в соответствии с документированием новых удаленных или устаревших функций для Dynamics 365 Supply Chain Management.
+Эта статья будет обновляться в соответствии с документированием новых удаленных или устаревших функций для Dynamics 365 Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.

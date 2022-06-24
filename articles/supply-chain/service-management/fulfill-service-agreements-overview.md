@@ -1,6 +1,6 @@
 ---
 title: Обзор исполнения соглашений о сервисном обслуживании
-description: В этом разделе содержится обзор задач для выполнения соглашений о сервисном обслуживании.
+description: В этой статье содержится обзор задач для выполнения соглашений о сервисном обслуживании.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852109"
 ---
 # <a name="fulfill-service-agreements-overview"></a>Обзор исполнения соглашений о сервисном обслуживании
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе содержится обзор задач для выполнения соглашений о сервисном обслуживании. Также тут перечислены формы, связанные с каждым компонентом бизнес-процесса, и обсуждаются задачи, связанные с каждым компонентом бизнес-процесса.
+В этой статье содержится обзор задач для выполнения соглашений о сервисном обслуживании. Также в статье перечислены формы, связанные с каждым компонентом бизнес-процесса, и обсуждаются задачи, связанные с каждым компонентом бизнес-процесса.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Формы для компонентов бизнес-процесса "Выполнение контрактов на обслуживание"
 

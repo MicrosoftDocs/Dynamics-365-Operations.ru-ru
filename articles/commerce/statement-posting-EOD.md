@@ -1,6 +1,6 @@
 ---
 title: Усовершенствования функции разноски журнала операций
-description: В этом разделе описываются усовершенствования, которые были внесены в функцию разноски журналов операций.
+description: В этой статье описываются усовершенствования, которые были внесены в функцию разноски журналов операций.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886914"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Усовершенствования функции разноски журнала операций
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается первый набор усовершенствований, которые были внесены в функцию разноски журналов операций. Эти усовершенствования доступны в Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+В этой статье описывается первый набор усовершенствований, которые были внесены в функцию разноски журналов операций. Эти усовершенствования доступны в Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Активация
 

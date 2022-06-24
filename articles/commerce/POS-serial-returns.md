@@ -1,6 +1,6 @@
 ---
 title: Возврат продуктов с контролируемыми серийными номерами в POS-терминале
-description: В этой теме описываются возможности для проверки номенклатур с серийными номерами как части процесса возврата в приложении POS-терминала Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются возможности для проверки номенклатур с серийными номерами как части процесса возврата в приложении POS-терминала Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860329"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Возврат продуктов с контролируемыми серийными номерами в POS-терминале
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются возможности для проверки номенклатур с серийными номерами как части процесса возврата в приложении POS-терминала Microsoft Dynamics 365 Commerce.
+В этой статье описываются возможности для проверки номенклатур с серийными номерами как части процесса возврата в приложении POS-терминала Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > В выпуске Commerce версии 10.0.20 и позднее доступна новая функция, которая называется **Унифицированная обработка возвратов в POS-терминале**. Чтобы использовать проверку серийного номера во время обработки заказов на возврат в POS-терминале, необходимо включить эту функцию. Сведения о других возможностях, предоставляемых этой функцией, когда она включена, см. в разделе [Создание возвратов в POS-терминале](POS-returns.md).

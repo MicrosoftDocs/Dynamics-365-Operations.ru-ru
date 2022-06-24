@@ -1,6 +1,6 @@
 ---
 title: Обзор страниц корзины и оформления заказа
-description: Этот раздел содержит обзор страниц корзины и оформления заказа в Microsoft Dynamics 365 Commerce.
+description: Эта статья содержит обзор страниц корзины и оформления заказа в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853775"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Обзор страниц корзины и оформления заказа
 
 [!include [banner](includes/banner.md)]
 
-Этот раздел содержит обзор страниц корзины и оформления заказа в Microsoft Dynamics 365 Commerce.
+Эта статья содержит обзор страниц корзины и оформления заказа в Microsoft Dynamics 365 Commerce.
 
 На странице корзины на веб-сайте электронной коммерции отображаются все номенклатуры, добавленные клиентом в корзину. Страница корзины создается с помощью модуля корзины. Модуль корзины — это контейнер, в котором размещаются все модули, которые необходимы для демонстрации номенклатур в корзине. В модуле корзины можно также использовать другие модули, чтобы отобразить сводку заказа и все коды рекламных акций, которые были применены к данному заказу клиента.
 

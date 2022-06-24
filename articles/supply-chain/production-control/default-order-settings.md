@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862579"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Параметры заказа по умолчанию для аналитик и вариантов продуктов
 
@@ -38,7 +38,7 @@ ms.locfileid: "8102772"
     - На вкладке **план** в группе **Настройки заказа** выберите **Параметры заказа по умолчанию**.
     - На вкладке **Управление запасами** в группе **Настройки заказа** выберите **Параметры заказа по умолчанию**.
 
-1. Настройте параметры, как описано в оставшейся части этого раздела.
+1. Настройте параметры, как описано в оставшейся части этой статьи.
 
 ## <a name="default-order-settings"></a>Параметры заказа по умолчанию
 

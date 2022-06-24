@@ -1,6 +1,6 @@
 ---
 title: Обзор управления транспортировкой
-description: В этом разделе представлен обзор функций управления транспортировкой в Supply Chain Management.
+description: В этой статье представлен обзор функций управления транспортировкой в Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897468"
 ---
 # <a name="transportation-management-overview"></a>Обзор управления транспортировкой
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе представлен обзор функций управления транспортировкой в Supply Chain Management.
+В этой статье представлен обзор функций управления транспортировкой в Supply Chain Management.
 
 Модуль "Управление транспортировкой" позволяет использовать транспорт вашей компании, а также определять поставщиков и маршрутные решения для входящих и исходящих заказов. Например, можно определить самый быстрый маршрут или наименьшую ставку для отгрузки. Следующая таблица содержит описание основных сценариев использования модуля "Управление транспортировкой".
 

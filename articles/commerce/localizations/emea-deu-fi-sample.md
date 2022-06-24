@@ -1,6 +1,6 @@
 ---
 title: Пример интеграции службы финансовой регистрации для Германии
-description: В этой теме представлен обзор примера финансовой интеграции для Германии в Microsoft Dynamics 365 Commerce.
+description: В этой статье представлен обзор примера финансовой интеграции для Германии в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867766"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Пример интеграции службы финансовой регистрации для Германии
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме представлен обзор примера финансовой интеграции для Германии в Microsoft Dynamics 365 Commerce.
+В этой статье представлен обзор примера финансовой интеграции для Германии в Microsoft Dynamics 365 Commerce.
 
 Для соблюдения локальных финансовых требований для кассовых ККМ в Германии функции Microsoft Dynamics 365 Commerce для Германии включают образец интеграции POS-терминалов с внешней службой финансовой регистрации. Образец расширяет [функциональность финансовой интеграции](fiscal-integration-for-retail-channel.md). Он основан на решении [EFR (Electronic Fiscal Register)](https://www.efsta.eu/de/fiskalloesungen/deutschland) от [EFSTA](https://www.efsta.eu/de/) и обеспечивает связь с службой EFR через протокол HTTPS. Служба EFR должна располагаться на станции Retail Hardware Station или на отдельном компьютере, к которому можно подключиться с помощью Hardware Station. Пример представлен в форме исходного кода и является частью пакета SDK Retail.
 

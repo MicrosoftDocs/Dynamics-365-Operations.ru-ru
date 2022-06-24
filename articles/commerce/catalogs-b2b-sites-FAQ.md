@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы по каталогам Commerce для B2B
-description: В этой теме представлены ответы на часто задаваемые вопросы о каталогах Microsoft Dynamics 365 Commerce.
+description: В этой статье представлены ответы на часто задаваемые вопросы о каталогах Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849049"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>Вопросы и ответы по каталогам Commerce для B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-В этой теме приводятся ответы на часто задаваемые вопросы о [каталогах бизнес-бизнес (B2B)](catalogs-b2b-sites.md) Microsoft Dynamics 365 Commerce.
+В этой статье приводятся ответы на часто задаваемые вопросы о [каталогах бизнес-бизнес (B2B)](catalogs-b2b-sites.md) Microsoft Dynamics 365 Commerce.
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Почему я не могу настроить иерархию навигации, связанную с каталогом, или не вижу параметр, чтобы связать иерархию клиентов?
 

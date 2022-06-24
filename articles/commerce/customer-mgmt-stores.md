@@ -1,6 +1,6 @@
 ---
 title: Управление клиентами в магазинах
-description: В этом разделе описывается, как предприятия розничной торговли могут активировать возможности управления клиентом на POS-терминале в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как предприятия розничной торговли могут активировать возможности управления клиентом на POS-терминале в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863495"
 ---
 # <a name="customer-management-in-stores"></a>Управление клиентами в магазинах
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как предприятия розничной торговли могут активировать возможности управления клиентом на POS-терминале в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как предприятия розничной торговли могут активировать возможности управления клиентом на POS-терминале в Microsoft Dynamics 365 Commerce.
 
 Важно, чтобы сотрудники магазина могли создавать и изменять записи клиентов в POS. Таким образом, они могут регистрировать обновления информации о клиенте, такие как адрес электронной почты, номер телефона и адрес. Эта информация полезна в таких нисходящих системах, как маркетинг, потому что эффективность этих систем зависит от точности данных их клиентов.
 

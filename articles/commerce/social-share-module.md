@@ -1,6 +1,6 @@
 ---
-title: Модуль предоставления общего доступа через социальные сети
-description: В этом разделе описываются модули предоставления общего доступа через социальные сети, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+title: Модуль Social Share
+description: В этой статье описываются модули предоставления общего доступа через социальные сети, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d145602a217b32b97142251c65d51945569be9ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e520f425f86c4005a8756ddc0941a9b44f23c262
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844654"
 ---
 # <a name="social-share-module"></a>Модуль Social Share
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются модули предоставления общего доступа через социальные сети, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули предоставления общего доступа через социальные сети, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 
 Модули предоставления общего доступа через социальные сети позволяют пользователям совместно использовать URL-адреса страниц сайта электронной коммерции в социальных сетях, таких как Facebook, Twitter, Pinterest и LinkedIn. URL-адреса страниц сайтов также могут использоваться совместно с помощью электронной почты. Модули предоставления общего доступа через социальные сети обычно используются на страницах сведений о продуктах (PDP), чтобы помочь пользователям совместно использовать сведения о продукте.
 

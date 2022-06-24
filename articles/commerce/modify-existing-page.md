@@ -1,6 +1,6 @@
 ---
 title: Изменение существующей страницы сайта
-description: В этом разделе описывается, как изменить существующую страницу сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как изменить существующую страницу сайта в Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848871"
 ---
 # <a name="modify-an-existing-site-page"></a>Изменение существующей страницы сайта
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как изменить существующую страницу сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как изменить существующую страницу сайта в Microsoft Dynamics 365 Commerce.
 
 Когда необходимо изменить страницу, первым шагом является ее открытие в редакторе страниц. Перейдите на сайт, содержащий страницу, затем в списке страниц найдите нужную страницу. Если не удается найти страницу, можно воспользоваться функциями расширенного поиска инструмента разработки. Либо введите точное имя страницы, либо введите первые несколько букв, а затем звездочку (\*). Отображается отфильтрованный список страниц. С помощью этого списка можно найти нужную страницу. После того, как вы нашли правильную страницу, выберите имя страницы, чтобы открыть страницу в редакторе страниц.
 

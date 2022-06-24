@@ -1,6 +1,6 @@
 ---
 title: Корректировка запасов склада
-description: В этой теме приводятся сведения о журнале корректировки запасов склада и обработке при использовании единиц масштабирования.
+description: В этой статье приводятся сведения о журнале корректировки запасов склада и обработке при использовании единиц масштабирования.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3999c16cdf4fce342ce56ca3a459944566c6d0cb6a8460d30d2254356e5cba82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4d892cd9e7f518c43df7197fc443b9a284e72b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893565"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Корректировка запасов склада
 

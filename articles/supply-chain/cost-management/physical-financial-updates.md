@@ -1,6 +1,6 @@
 ---
 title: Физические и финансовые обновления
-description: В этом разделе содержится обзор того, какие типы проводок увеличивают, а какие уменьшают количество запасов.
+description: В этой статье содержится обзор того, какие типы проводок увеличивают, а какие уменьшают количество запасов.
 author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc8ffb87f6fcb9836d734dbfb4d962be4fa585a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 345f07e7ba55f567c9956539241c080db958c848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895854"
 ---
 # <a name="physical-and-financial-updates"></a>Физические и финансовые обновления
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе содержится обзор того, какие типы проводок увеличивают, а какие уменьшают количество запасов. 
+В этой статье содержится обзор того, какие типы проводок увеличивают, а какие уменьшают количество запасов. 
 
 Проводки по запасам можно физически обновить и финансово обновить в Dynamics 365 Supply Chain Management. Некоторые типы физических и финансовых проводок увеличивают количество запасов, тогда как другие уменьшают количество.
 

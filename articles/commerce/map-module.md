@@ -1,6 +1,6 @@
 ---
 title: Модуль карты
-description: В этом разделе описываются модули карты, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются модули карты, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 191d98d039dea6466eeee9a1db0835393be0a9ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894444"
 ---
 # <a name="map-module"></a>Модуль карты
 
 [!include [banner](includes/banner.md)]
 
 
-В этом разделе описываются модули карты, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули карты, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
 
 Модуль карты показывает местоположение магазинов на интерактивной карте, которая отображается с помощью [веб-элемента управления Карт Bing V8](/bingmaps/v8-web-control/). Требуется ключ API карт Bing, который должен быть добавлен на страницу общих параметров в центральном офисе Commerce. Модули карты предоставляют различающиеся представления, такие как дорога, с воздуха и улицы, которые пользователи могут выбрать для просмотра местоположений на карте. Они также позволяют выполнять такие действия, как масштабирование и использование местоположения пользователя.
 

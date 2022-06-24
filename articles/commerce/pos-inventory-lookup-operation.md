@@ -1,6 +1,6 @@
 ---
 title: Операция поиска запасов в POS
-description: В этой теме описывается, как использовать операцию поиска запасов в POS Dynamics 365 Commerce для просмотра доступности запасов в наличии для продуктов по магазинам и складам.
+description: В этой статье описывается, как использовать операцию поиска запасов в POS Dynamics 365 Commerce для просмотра доступности запасов в наличии для продуктов по магазинам и складам.
 author: boycezhu
 ms.date: 08/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850257"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Операция поиска запасов в POS
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как использовать операцию поиска запасов в POS Dynamics 365 Commerce для просмотра доступности запасов в наличии для продуктов по магазинам и складам.
+В этой статье описывается, как использовать операцию поиска запасов в POS Dynamics 365 Commerce для просмотра доступности запасов в наличии для продуктов по магазинам и складам.
 
 Точное представление запасов по всей организации помогает продавцам магазинов предоставлять отличное и своевременное обслуживания клиентов. Самый важный момент — это когда клиент готов принять решение о покупке. Важно, чтобы кассирам в розничном магазине была легко доступна информация о запасах в режиме реального времени (или в почти реальном времени), чтобы они могли точно гарантировать доставку и отправку продукта.
 

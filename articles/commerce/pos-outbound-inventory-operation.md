@@ -1,6 +1,6 @@
 ---
 title: Исходящая операция запасов в POS
-description: В этом разделе описываются возможности исходящие операции с запасами в POS-терминале.
+description: В этой статье описываются возможности исходящей операции с запасами в POS-терминале.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850231"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Исходящая операция запасов в POS
 
@@ -187,7 +187,7 @@ ms.locfileid: "7581146"
 
 Заказы на перемещение с полной отгрузкой переносятся на вкладку **Завершено** списка документов **Исходящая операция**. Там они остаются видимыми для пользователей в магазине или складе приемки в режиме только для чтения, в течение семи дней.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Входящая операция с запасами в POS](pos-inbound-inventory-operation.md)
 

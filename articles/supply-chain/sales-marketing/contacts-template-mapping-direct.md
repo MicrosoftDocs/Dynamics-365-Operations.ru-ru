@@ -1,6 +1,6 @@
 ---
 title: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management
-description: В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации объектов контакта (контакты) и контакта (клиенты) из Dynamics 365 Sales с Dynamics 365 Supply Chain Management.
+description: В этой статье обсуждаются шаблоны и базовые задачи, которые используются для синхронизации объектов контакта (контакты) и контакта (клиенты) непосредственно из Dynamics 365 Sales в Dynamics 365 Supply Chain Managements.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857354"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062523"
 > [!NOTE]
 > Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
 
-В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации таблиц контакта (контакты) и контакта (клиенты) непосредственно из Dynamics 365 Sales с Dynamics 365 Supply Chain Management.
+В этой статье обсуждаются шаблоны и базовые задачи, которые используются для синхронизации таблиц контакта (контакты) и контакта (клиенты) непосредственно из Dynamics 365 Sales с Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
@@ -126,7 +126,7 @@ ms.locfileid: "8062523"
 ![Сопоставление шаблона связи контакта с клиентом в интеграторе данных.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Продажа перспективному клиенту](prospect-to-cash.md)
 

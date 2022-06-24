@@ -1,6 +1,6 @@
 ---
-title: Влияние расширяемости каталогов Commerce на настройки B2B
-description: В этой теме описывается влияние расширяемости функции каталогов Commerce для B2B в Microsoft Dynamics 365 Commerce.
+title: Влияние расширяемости каталогов Commerce для настроек B2B
+description: В этой статье описывается влияние расширяемости функции каталогов Commerce для B2B в Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849023"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Влияние расширяемости каталогов Commerce на настройки B2B
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Влияние расширяемости каталогов Commerce для настроек B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-В этой теме описывается влияние расширяемости функции **Каталоги Commerce для B2B** в Microsoft Dynamics 365 Commerce.
+В этой статье описывается влияние расширяемости функции **Каталоги Commerce для B2B** в Microsoft Dynamics 365 Commerce.
 
 Если вы заинтересованы в расширении контекста каталога на пользовательские сценарии, ваши настройки, возможно, придется обновить. Это обновление соответствует стандартному процессу, которого должен придерживаться клиент, поскольку их настройки могут не поддерживать автоматически последние функции после завершения обновления. Если ваши настройки включают в себя какие-либо новые функции или исправления ошибок в их интерфейсам, рекомендуется обновить код настройки соответствующим образом. Это обновление напоминает изменения, которые могли быть сделаны корпорацией Майкрософт для основного кода.
 

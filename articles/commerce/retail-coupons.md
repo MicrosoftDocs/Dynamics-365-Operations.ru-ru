@@ -1,6 +1,6 @@
 ---
 title: Настройка купонов для розничных продаж
-description: В этой теме приводятся обзорные сведения о купонах и описывается порядок их настройки в Dynamics 365 Commerce.
+description: В этой статье приводятся обзорные сведения о купонах и описывается порядок их настройки в Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: 72ad7b527662bb863069b633d64eea41fee67d44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891940"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Настройка купонов для розничных продаж
 

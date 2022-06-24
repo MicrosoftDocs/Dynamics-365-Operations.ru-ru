@@ -1,6 +1,6 @@
 ---
 title: Визуальные конфигурации пользовательского интерфейса POS
-description: В этой теме содержится информация о макетах экрана для работы с POS в Dynamics 365 Commerce.
+description: В этой статье содержится информация о макетах экрана для работы с POS в Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871641"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Визуальные конфигурации пользовательского интерфейса POS
 
 [!include [banner](includes/banner.md)]
 
 
-Пользовательский интерфейс (UI) POS-терминала Microsoft Dynamics 365 Commerce можно настроить с помощью сочетания визуальных профилей и макетов экрана, назначенных магазину, ККМ и/или пользователям. В этом разделе представлены сведений об этих параметрах конфигурации.
+Пользовательский интерфейс (UI) POS-терминала Microsoft Dynamics 365 Commerce можно настроить с помощью сочетания визуальных профилей и макетов экрана, назначенных магазину, ККМ и/или пользователям. В этой статье представлена информация об этих параметров конфигурации.
 
 На следующем рисунке показана связь между различными объектами, которые составляют настраиваемых параметров пользовательского интерфейса POS.
 

@@ -1,6 +1,6 @@
 ---
 title: Добавление канала в организационную иерархию
-description: В этом разделе описывается, как добавить канал в организационную иерархию в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как добавить канал в организационную иерархию в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8de9242b9d272158dff9c486006a1684f073935e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876594"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Добавление канала в организационную иерархию
 
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как добавить канал в организационную иерархию в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как добавить канал в организационную иерархию в Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Обзор
 

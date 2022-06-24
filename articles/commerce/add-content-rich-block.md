@@ -1,6 +1,6 @@
 ---
 title: Модуль блока текста
-description: В этом разделе описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 18a4226d3b8dce1b46e6612521d70a3627b517d1
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 48714f172b12bbc10f1f682a9dec8be710748e6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869232"
 ---
-# <a name="text-block-module"></a>Модуль текстового блока
+# <a name="text-block-module"></a>Модуль блока текста
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули блока текста, а также описывается, как добавлять их на страницы сайта в Microsoft Dynamics 365 Commerce.
 
 Модуль блока текста — это модуль, который используется для добавления текстового содержимого. Это содержимое может быть информационным или рекламным.
 

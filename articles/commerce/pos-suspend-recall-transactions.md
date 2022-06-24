@@ -1,6 +1,6 @@
 ---
 title: Приостановка и возобновление транзакции в POS
-description: В этом разделе объясняется, как пользователи могут приостановить выполняющиеся транзакции и возобновить их позже или на другой ККМ с помощью Dynamics 365 Commerce.
+description: В этой статье объясняется, как пользователи могут приостановить выполняющиеся транзакции и возобновить их позже или на другой ККМ с помощью Dynamics 365 Commerce.
 author: jblucher
 ms.date: 11/27/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2efc88cfa7a8cede50969484d275c6fdbb2204dd2f29b3f8c7340d02cb61a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 761adb5e1dc1c9f6ecea42ae739fe44e1f87faeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850205"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Приостановка и возобновление транзакции в POS
 

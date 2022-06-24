@@ -1,6 +1,6 @@
 ---
 title: Мониторинг и управление аналитикой Интернета вещей
-description: В этом разделе объясняется, как отслеживать и управлять аналитикой Интернета вещей.
+description: В этой статье объясняется, как отслеживать и управлять аналитикой Интернета вещей.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e078f1895b44ca388b75f5cd3d19e0e8f7c36630
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a640b523adac619377e19d670f932d4d85cfb6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852428"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>Мониторинг и управление аналитикой Интернета вещей
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе объясняется, как отслеживать и управлять аналитикой Интернета вещей.
+В этой статье объясняется, как отслеживать и управлять аналитикой Интернета вещей.
 
 ## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a>Мониторинг сценариев в Microsoft Dynamics 365 Supply Chain Management
 
@@ -54,7 +54,7 @@ ms.locfileid: "8669750"
 
 ## <a name="simulation-options"></a>Параметры моделирования
 
-Можно смоделировать сигналы фабричного оборудования. Дополнительные сведения см. в этих разделах:
+Можно смоделировать сигналы фабричного оборудования. Дополнительные сведения см. в этих статьях:
 
 + [Подключение DevKit AZ3166 Интернета вещей к узлу Интернета вещей Azure](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Подключите интерактивный модулятор Raspberry Pi к узлу Интернета вещей Azure (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)

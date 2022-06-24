@@ -1,6 +1,6 @@
 ---
 title: Преобразование асинхронных клиентов в синхронных клиентов
-description: В этой теме объясняется, как преобразовывать асинхронные клиенты в синхронных клиентов в Microsoft Dynamics 365 Commerce.
+description: В этой статье объясняется, как преобразовывать асинхронные клиенты в синхронных клиентов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: fc1690ff6068317c748bda0d767a10f306f3debe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0ce4906816deab8824b1079a34489e55651c0e03
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884399"
 ---
 # <a name="convert-asynchronous-customers-to-synchronous-customers"></a>Преобразование асинхронных клиентов в синхронных клиентов
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как преобразовывать асинхронные клиенты в синхронных клиентов в Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как преобразовывать асинхронные клиенты в синхронных клиентов в Microsoft Dynamics 365 Commerce.
 
 Чтобы преобразовывать асинхронные клиенты в синхронных клиентов, выполните следующие действия.
 

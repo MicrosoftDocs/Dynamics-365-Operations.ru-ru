@@ -1,6 +1,6 @@
 ---
 title: Модуль списка изображений
-description: В этой теме описываются модули списка изображений, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются модули списка изображений, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 8e47c9806c21de24f0e519d0132374d2e1ff2bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892808"
 ---
 # <a name="image-list-module"></a>Модуль списка изображений
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются модули списка изображений, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули списка изображений, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 
 Модуль списка изображений может использоваться для простого добавления коллекции (массива) изображений на страницы сайта. Каждое изображение в массиве может быть настроено с использованием текста абзаца и ссылок на URL-адреса. Модуль списка изображений лучше всего использовать для отображения логотипов торгового знака или списка, содержащего логотипы.
 

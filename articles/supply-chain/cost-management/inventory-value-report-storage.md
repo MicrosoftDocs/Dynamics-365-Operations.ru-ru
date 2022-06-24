@@ -1,6 +1,6 @@
 ---
 title: Отчеты о стоимости запасов
-description: В этой теме описывается, как настраивать, создавать и использовать отчеты о стоимости запасов. В этих отчетах приводятся подробные сведения о физических и финансовых количествах запасов и суммах.
+description: В этой статье описывается, как настраивать, создавать и использовать отчеты о стоимости запасов. В этих отчетах приводятся подробные сведения о физических и финансовых количествах запасов и суммах.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676197"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854568"
 ---
 # <a name="inventory-value-reports"></a>Отчеты о стоимости запасов
 
