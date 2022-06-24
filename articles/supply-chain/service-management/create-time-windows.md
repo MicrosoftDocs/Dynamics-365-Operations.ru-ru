@@ -1,6 +1,6 @@
 ---
 title: Создание окон времени
-description: В этой теме приводится процедура, в которой показано, как создавать окна времени.
+description: В этой статье приводится процедура, в которой показано, как создавать окна времени.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fff9e0d6b8a06efbdb89c74f0bdd2edb35629696
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5575102163ea273e5ec8437c027b56368370e09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900777"
 ---
 # <a name="create-time-windows"></a>Создание окон времени
 
@@ -34,7 +34,7 @@ ms.locfileid: "8677768"
 4. В поле **Описание** введите описание для окна времени.
 5. В поле **Метод** выберите метод для автоматического создания. Если метод относится к типу **Вручную**, укажите количество дней до или после расчетной даты, на которое может быть сдвинута строка заказа на сервисное обслуживание.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Окна времени](time-windows.md)
 

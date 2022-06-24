@@ -1,6 +1,6 @@
 ---
-title: Что нового или что изменено в мобильном приложении Warehouse Management
-description: В этой теме перечислены новые и измененные функции для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+title: Что нового и что изменилось в мобильном приложении Warehouse Management
+description: В этой статье перечислены новые и измененные функции для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661835"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945733"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового или что изменено в мобильном приложении Warehouse Management
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового и что изменилось в мобильном приложении Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+В этой статье перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Версия 2.0.24.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+
+- Улучшенные страницы сканера, чтобы включить функцию сканирования на страницы **Сведения**.
+- Усовершенствованные жесты, такие как касание/нажатие экрана.
+- Улучшены вопросы производительности для Android.
+- Исправлено размещение нескольких заголовков, чтобы на странице **Запрос** отображались дополнительные карточки.
+- Включена улучшенная прокрутка, чтобы уменьшить расстояние для разбиения на страницы при прокрутке.
+- Добавлено долгое нажатие для отображения дополнительного текста на странице **Запрос**.
+- Исправлено отсутствие сведений о коде устройства для Android.
+- Повышена стабильность.
+- Оптимизирован макет для входа.
+- Добавлен жест прокрутки вправо, чтобы закрыть всплывающие страницы диалогового окна на цифровой панели, страницу **Сведения** и страницы ввода.
 
 ## <a name="version-20220"></a>Версия 2.0.22.0
 

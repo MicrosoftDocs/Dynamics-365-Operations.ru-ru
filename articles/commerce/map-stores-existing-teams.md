@@ -1,6 +1,6 @@
 ---
 title: Сопоставление магазинов и рабочих групп, если имеются готовые рабочие группы в Microsoft Teams
-description: В этой теме описывается, как сопоставить магазины и соответствующие рабочие группы в Dynamics 365 Commerce Headquarters, если ваша организация уже создала рабочие группы в Microsoft Teams перед интеграцией Commerce.
+description: В этой статье описывается, как сопоставить магазины и соответствующие рабочие группы в Dynamics 365 Commerce Headquarters, если ваша организация уже создала рабочие группы в Microsoft Teams перед интеграцией Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902745"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Сопоставление магазинов и рабочих групп, если имеются готовые рабочие группы в Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как сопоставить магазины и соответствующие рабочие группы в Dynamics 365 Commerce Headquarters, если ваша организация уже создала рабочие группы в Microsoft Teams перед интеграцией Commerce.
+В этой статье описывается, как сопоставить магазины и соответствующие рабочие группы в Dynamics 365 Commerce Headquarters, если ваша организация уже создала рабочие группы в Microsoft Teams перед интеграцией Commerce.
 
 Ваша организация могла создать рабочие группы для некоторых или всех магазинов до интеграции Dynamics 365 Commerce и Microsoft Teams. В этом случае чтобы установить синхронизацию задач между Commerce POS и Microsoft Teams, необходимо предоставить сопоставление магазинов и соответствующей рабочей команды в Commerce Headquarters.
 

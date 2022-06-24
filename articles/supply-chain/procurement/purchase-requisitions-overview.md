@@ -1,6 +1,6 @@
 ---
 title: Обзор заявки на покупку
-description: В этой теме описывается workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
+description: В этой статье описываются workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905757"
 ---
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
+В этой статье описываются workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
 
 В зависимости от настройки организации имеется возможность создания заявок на покупки для продуктов, используемых в организации. Заявка на покупку является внутренним документом, разрешающим отделу закупок приобретение номенклатур или услуг.  
 

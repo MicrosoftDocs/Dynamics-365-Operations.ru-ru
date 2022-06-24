@@ -1,6 +1,6 @@
 ---
 title: Синхронизация оценок продуктов в Dynamics 365 Commerce
-description: В этом разделе описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909343"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Синхронизация оценок продуктов в Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
+В этой статье описывается синхронизация оценок продуктов в Microsoft Dynamics 365 Commerce.
 
 Для использования оценок продуктов в омниканалах, таких как POS-терминалы и центры обработки вызовов, необходимо импортировать оценки продуктов из службы оценок и отзывов в базу данных канала Commerce. Когда оценки продукта доступны в омниканалах, они могут помочь клиентам косвенным образом в ходе их взаимодействия с продавцами-консультантами.
 
-Данный раздел описывает следующие задачи:
+Данная статья описывает следующие задачи:
 
 1. Настройте **Задание синхронизации оценок продукта** как пакетное задание для синхронизации оценок продуктов в **службе оценок и отзывов**.
 1. Проверка того, что пакетное задание для синхронизации оценок продукта прошло успешно.
