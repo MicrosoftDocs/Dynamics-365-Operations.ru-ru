@@ -1,6 +1,6 @@
 ---
 title: Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
-description: В этой теме описывается, как использовать механизм ценообразования Microsoft Dynamics 365 Commerce для создания предложений с расценками продаж в Dynamics 365 Sales.
+description: В этой статье описывается, как использовать механизм ценообразования Microsoft Dynamics 365 Commerce для создания предложений по продажам в Dynamics 365 Sales.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881404"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Использование механизма ценообразования Dynamics 365 Commerce с Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме описывается, как использовать механизм ценообразования Microsoft Dynamics 365 Commerce для создания предложений с расценками продаж в Dynamics 365 Sales.
+В этой статье описывается, как использовать механизм ценообразования Microsoft Dynamics 365 Commerce для создания предложений по продажам в Dynamics 365 Sales.
 
 Механизм ценообразования Dynamics 365 Commerce поддерживает большинство сценариев ценообразования "бизнеса-потребитель" (B2C), таких как ценообразование на уровне магазина, ценообразование на основе предпочтений и лояльности, скидки за комплект, скидки за количество и пороговые скидки. Механизм ценообразования использует сложные правила для определения наилучшей цены для данного предложения или заказа.
 

@@ -1,6 +1,6 @@
 ---
 title: Функция электронной отчетности Base64StringToContainer
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности Base64StringToContainer.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) Base64StringToContainer.
 author: NickSelin
 ms.date: 12/14/2020
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcbbead1155a7270a329c23055340492c73cdfda
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879930"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Функция электронной отчетности Base64StringToContainer
 

@@ -1,6 +1,6 @@
 ---
-title: Просмотр истории бизнес-правила
-description: В этом разделе описываются шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения.
+title: Просмотр журнала документооборота
+description: В этой статье описываются шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868589"
 ---
-# <a name="view-workflow-history"></a>Просмотр истории бизнес-правила
+# <a name="view-workflow-history"></a>Просмотр журнала документооборота
 
 [!include [banner](../../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-В этом разделе описываются шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+В этой статье описываются шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 
 1. Перейдите к **Область перехода > Модули > Общее > Запросы > Workflow-процесс > История workflow-процесса**.
     - Данная форма предназначена для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения.  

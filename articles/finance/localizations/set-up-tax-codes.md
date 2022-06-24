@@ -1,6 +1,6 @@
 ---
 title: Настройка кодов налогов
-description: В этой теме описывается, как настроить коды налогов в службе расчета налогов.
+description: В этой статье описывается, как настроить коды налогов в службе расчета налогов.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862938"
 ---
 # <a name="set-up-tax-codes"></a>Настройка кодов налогов
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как настроить коды налогов в службе расчета налогов. Он включает в себя настройку простого сценария, чтобы работал налоговый код, и сведения о некоторых расширенных функциях налогового кода для сложных сценариев.
+В этой статье описывается, как настроить коды налогов в службе расчета налогов. Он включает в себя настройку простого сценария, чтобы работал налоговый код, и сведения о некоторых расширенных функциях налогового кода для сложных сценариев.
 
 > [!IMPORTANT]
 > Настройка налоговых кодов в службе расчета налогов не зависит от юридического лица. Эту настройку можно выполнить в Regulatory Configuration Service (RCS) только один раз. Налоговые коды автоматически синхронизируются с Microsoft Dynamics 365 Finance при включении службы расчета налогов для выбранного юридического лица в Finance.

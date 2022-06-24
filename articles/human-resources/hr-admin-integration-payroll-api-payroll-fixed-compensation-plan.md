@@ -1,6 +1,6 @@
 ---
-title: План фиксированной компенсации зарплаты
-description: В этом разделе представлены сведения и пример запроса для сущности плана фиксированной компенсации заработной платы в Dynamics 365 Human Resources.
+title: План фиксированных компенсационных выплат для зарплаты
+description: В этой статье представлены сведения и пример запроса для сущности "План фиксированных компенсационных выплат для зарплаты" в Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83fa8aeb38cc44191242cf029022939cefb22cb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909856"
 ---
-# <a name="payroll-fixed-compensation-plan"></a>План фиксированной компенсации зарплаты
+# <a name="payroll-fixed-compensation-plan"></a>План фиксированных компенсационных выплат для зарплаты
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность плана фиксированной компенсации зарплаты для Dynamics 365 Human Resources.
+В этой статье описывается сущность "План фиксированных компенсационных выплат для зарплаты" для Dynamics 365 Human Resources.
 
 ### <a name="description"></a>описание
 
@@ -47,7 +47,7 @@ ms.locfileid: "8069104"
 | **Действительно до**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой действительна фиксированная компенсация сотрудника. |
 | **Частота платежей**</br>mshr_payfrequency</br>*Строка* | Только для чтения | Код [частоты выплат компенсаций](hr-admin-integration-payroll-api-compensation-pay-frequency.md) для данной ставки зарплаты. |
 | **Валюта**</br>mshr_currency</br>*Строка* | Только для чтения | Валюта, определенная для плана фиксированной компенсации. |
-| **Сущность плана фиксированной компенсации заработной платы**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
+| **Сущность "План фиксированных компенсационных выплат для зарплаты"**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
 
 ## <a name="relations"></a>Связи
 

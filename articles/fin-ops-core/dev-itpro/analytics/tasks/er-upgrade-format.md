@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Обновление формата путем принятия новой базовой версии данного формата
-description: В этой теме объясняется, как поддерживать конфигурацию формата электронной отчетности (ER).
+description: В этой статье объясняется, как поддерживать конфигурацию формата электронной отчетности (ER).
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883519"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Электронная отчетность — Обновление формата путем принятия новой базовой версии данного формата
 

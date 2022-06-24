@@ -1,6 +1,6 @@
 ---
-title: Линейная амортизация в течение срока службы
-description: Эта статья содержит обзор метода линейной амортизации по оставшемуся сроку службы.
+title: Амортизация срока службы (прямолинейный метод)
+description: Эта статья содержит обзор метода линейной амортизации.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896473"
 ---
-# <a name="straight-line-service-life-depreciation"></a>Линейная амортизация в течение срока службы
+# <a name="straight-line-service-life-depreciation"></a>Амортизация срока службы (прямолинейный метод)
 
 [!include [banner](../includes/banner.md)]
 
-Эта статья содержит обзор метода линейной амортизации по оставшемуся сроку службы.
+Эта статья содержит обзор метода линейной амортизации.
 
 Если при настройке профиля амортизации основных средств выбрано значение "Срок службы (прямолинейный метод)" в поле "Метод" на странице "Профили амортизации", амортизация основных средств, назначенных этому профилю амортизации, основывается на общем сроке службы основного средства. Обычно это одна и та же сумма амортизации в каждый период амортизации. 
 

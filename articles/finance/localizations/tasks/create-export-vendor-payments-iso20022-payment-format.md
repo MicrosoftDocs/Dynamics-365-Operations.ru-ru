@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac84055586eff678ea489b35198b1c2dfab13658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856477"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе объясняется, как создать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022.
+В этой статье объясняется, как создавать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022.
 
 Это пятая процедура из пяти, которые иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности. Для выполнения этого примера используйте демонстрационные данные DEMF.
 

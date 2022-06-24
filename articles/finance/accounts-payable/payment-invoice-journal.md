@@ -1,6 +1,6 @@
 ---
-title: Применить график платежей к журналу накладных
-description: В этом разделе описывается, как добавить платеж в журнал накладных поставщиков.
+title: Применение графика оплаты к журналу накладных
+description: В этой статье описывается, как добавить платеж в журнал накладных поставщиков.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863140"
 ---
-# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Применить график платежей к журналу накладных
+# <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Применение графика оплаты к журналу накладных
 
 [!include [banner](../includes/preview-banner.md)]
 
-В Microsoft Dynamics 365 Finance выпуска 10.0.25 график платежей теперь поддерживается в **Журнале накладных поставщиков**.
+В Microsoft Dynamics 365 Finance выпуска 10.0.25 график оплаты теперь поддерживается в **Журнале накладных поставщиков**.
 
 Для использования этой функции необходимо включить функцию **Применить график платежей к журналу накладных** в модуле управления функциями.
 

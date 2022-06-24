@@ -1,6 +1,6 @@
 ---
 title: Распределение накладных расходов пропорционально весу и объему
-description: В этом разделе приводятся сведения о распределении накладных расходов.
+description: В этой статье приводятся сведения о распределении накладных расходов.
 author: v-nadyuz
 ms.date: 10/28/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 18bc433178903b302325f11d18128a2b7299d718873400f289914659b1707ad3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec389cc1e865f5b62388fdb51068e0a52e8f1503
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846483"
 ---
 # <a name="allocation-of-miscellaneous-charges-in-proportion-to-weight-and-volume"></a>Распределение накладных расходов пропорционально весу и объему
 [!include [banner](../includes/banner.md)]

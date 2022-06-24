@@ -1,6 +1,6 @@
 ---
 title: Функция ER INT64VALUE
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности INT64VALUE.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) INT64VALUE.
 author: NickSelin
 ms.date: 12/05/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 375117745b90b9e3e0e15ea45605de5bee6f133e6366d08adf5bae98423abd71
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37fae9cdc5a833009b0ca1cbeb851e5e6e1b6608
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892174"
 ---
 # <a name="int64value-er-function"></a>Функция ER INT64VALUE
 

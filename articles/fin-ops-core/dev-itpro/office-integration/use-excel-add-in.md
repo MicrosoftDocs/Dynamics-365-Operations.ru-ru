@@ -1,6 +1,6 @@
 ---
 title: Просмотр и обновление данных объекта с помощью Excel
-description: В этом разделе объясняется, как открыть данные объекта в Microsoft Excel, и затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Excel.
+description: В этой статье объясняется, как открыть данные объекта в Microsoft Excel, а затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Excel.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862165"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Просмотр и обновление данных объекта с помощью Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762663"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-В этом разделе объясняется, как открыть данные объекта в Microsoft Excel, и затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Excel. Чтобы открыть данные объекта, можно начать из Excel или из приложений Финансы и операции.
+В этой статье объясняется, как открыть данные объекта в Microsoft Excel, а затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Excel. Чтобы открыть данные объекта, можно начать из Excel или из приложений Финансы и операции.
 
 Открыв данные объекта в Excel, можно быстро и легко просматривать и изменять эти данные с помощью надстройки Excel. Для этой надстройки требуется Microsoft Excel 2016 или более новой версии.
 

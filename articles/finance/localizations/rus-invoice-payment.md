@@ -1,6 +1,6 @@
 ---
 title: Счета на оплату (Россия)
-description: В этой теме поясняется, как разносить и печатать счета на оплату в Microsoft Dynamics 365 Finance в России.
+description: В этой статье поясняется, как разносить и печатать счета на оплату в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
 ms.date: 10/08/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9c0131de025c54f2799b3f453750e0e933af4039
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fd7029706e5af56375ced083372fbc224806a418
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856495"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]

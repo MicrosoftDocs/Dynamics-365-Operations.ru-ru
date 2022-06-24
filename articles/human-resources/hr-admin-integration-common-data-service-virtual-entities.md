@@ -1,6 +1,6 @@
 ---
 title: Настройка виртуальных таблиц Dataverse
-description: В этой теме показано, как настроить, создать, обновить существующие виртуальные таблицы и проанализировать созданные и доступные таблицы для Dynamics 365 Human Resources.
+description: В этой статье показано, как настроить, создать и обновить существующие виртуальные таблицы, а также проанализировать созданные и доступные таблицы для Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d7f4d3770c754d2a7974d17fc7c40462ac8fc642
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899740"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Настройка виртуальных таблиц Dataverse
 

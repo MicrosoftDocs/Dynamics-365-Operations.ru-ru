@@ -1,6 +1,6 @@
 ---
 title: Создание приложения для повторяющегося экспорта данных
-description: В этой теме описывается создание приложения логики Microsoft Azure, которое экспортирует данные из Microsoft Dynamics 365 Human Resources по регулярному расписанию.
+description: В этой статье описывается, как создать приложение логики Microsoft Azure, которое экспортирует данные из Microsoft Dynamics 365 Human Resources по регулярному расписанию.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875839"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Создание приложения для повторяющегося экспорта данных
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688781"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается создание приложения логики Microsoft Azure, которое экспортирует данные из Microsoft Dynamics 365 Human Resources по регулярному расписанию. В учебнике для экспорта данных используется API пакета DMF REST Human Resources. После экспорта данных приложение логики сохраняет экспортированный пакет данных в папке Microsoft OneDrive для бизнеса.
+В этой статье описывается, как создать приложение логики Microsoft Azure, которое экспортирует данные из Microsoft Dynamics 365 Human Resources по регулярному расписанию. В учебнике для экспорта данных используется API пакета DMF REST Human Resources. После экспорта данных приложение логики сохраняет экспортированный пакет данных в папке Microsoft OneDrive для бизнеса.
 
 ## <a name="business-scenario"></a>Бизнес-сценарий
 

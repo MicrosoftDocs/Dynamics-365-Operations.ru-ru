@@ -1,6 +1,6 @@
 ---
 title: Создание пользовательских ссылок на портале самообслуживания менеджеров
-description: В этом разделе описывается, как создавать пользовательские ссылке на портале самообслуживания менеджеров в Dynamics 365 Human Resources.
+description: В этой статье описывается, как создавать пользовательские ссылки в рабочей области "Дистанционное обслуживание менеджеров" в Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3437a8ce7af942334c76b763bb216b8492b111bc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0597c8a19bae7997500fc88e38847bcd053643bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853026"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Создание пользовательских ссылок на портале самообслуживания менеджеров
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b8641655cf31453f6fc11e2056fb6bf96a43cbc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8faf0be5f094f18b75f2263fa622c9b7f3983274
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899773"
 ---
 # <a name="configure-and-manage-database-logging"></a>Настройка и ведения журнала базы данных
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696273"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Можно отслеживать изменения в таблицах и полях в Dynamics 365 Human Resources с помощью журнала базы данных. В этом разделе описывается следующее:
+Можно отслеживать изменения в таблицах и полях в Dynamics 365 Human Resources с помощью журнала базы данных. В этой статье описывается, как выполнить следующее:
 
 - Управление безопасностью и производительностью для ведения журнала базы данных
 - Настройка регистрации базы данных

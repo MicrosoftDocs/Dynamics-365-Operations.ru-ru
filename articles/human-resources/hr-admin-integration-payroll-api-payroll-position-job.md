@@ -1,6 +1,6 @@
 ---
-title: Задание позиции зарплаты
-description: В этом разделе представлены сведения и пример запроса для сущности задания позиции заработной платы в Dynamics 365 Human Resources.
+title: Должность по позиции для зарплаты
+description: В этой статье представлены сведения и пример запроса для сущности "Должность по позиции для зарплаты" в Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 349479d9e77861b54d879bcfd93f7af0e38cff95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fa347f4b99adc7c29d69daf62ad2bbfc14726a19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864093"
 ---
-# <a name="payroll-position-job"></a>Задание позиции зарплаты
+# <a name="payroll-position-job"></a>Должность по позиции для зарплаты
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность задания должности зарплаты для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Должность по позиции для зарплаты" для Dynamics 365 Human Resources.
 
-### <a name="description"></a>описание
+### <a name="description"></a>Описание
 
 Эта сущность предоставляет отношение между должностью и заданием для указанного плана фиксированной компенсации.
 
@@ -44,7 +44,7 @@ ms.locfileid: "8069840"
 | **Действительно до**</br>mshr_validto</br>*Смещение даты и времени* | Только для чтения | Дата, до которой действует связь задания и должности. |
 | **Код задания**</br>mshr_jobid</br>*Строка* | Только для чтения | ИД задания. |
 | **Основное поле**</br>mshr_primaryfield</br>*Строка* | Создано системой | Основное поле. |
-| **ИД сущности задания позиции заработной платы**</br>mshr_payrollpositionjobentityid</br>*Guid* | Создано системой. | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее работу. |
+| **ИД сущности "Должность по позиции для зарплаты"**</br>mshr_payrollpositionjobentityid</br>*Guid* | Создано системой. | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее работу. |
 
 ## <a name="relations"></a>Связи
 

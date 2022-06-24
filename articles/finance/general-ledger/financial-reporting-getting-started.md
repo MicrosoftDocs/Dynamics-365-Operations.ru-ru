@@ -1,6 +1,6 @@
 ---
 title: Обзор финансовой отчетности
-description: В этом разделе описывается доступ к финансовой отчетности в Microsoft Microsoft Dynamics 365 Finance и использование возможностей финансовой отчетности.
+description: В этой статье описывается, где можно получить доступ к финансовой отчетности в Microsoft Microsoft Dynamics 365 Finance и как использовать возможности финансовой отчетности.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853419"
 ---
 # <a name="get-started-with-financial-reporting"></a>Начало работы с финансовой отчетностью 
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается доступ к финансовой отчетности и использование возможностей финансовой отчетности. Он также включает в себя описание финансовых отчетов по умолчанию, которые предоставляются.
+В этой статье описывается доступ к финансовой отчетности и использование возможностей финансовой отчетности. Она также включает в себя описание финансовых отчетов по умолчанию, которые предоставляются.
 
 ## <a name="accessing-financial-reporting"></a>Доступ к финансовой отчетности
 

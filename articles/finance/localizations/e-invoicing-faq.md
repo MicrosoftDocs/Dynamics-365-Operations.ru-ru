@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы по электронному выставлению накладных
-description: В этой теме приводятся сведения о часто задаваемых вопросах по электронному выставлению накладных.
+description: В этой статье приводятся сведения о часто задаваемых вопросах по электронному выставлению накладных.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904364"
 ---
 # <a name="electronic-invoicing-faq"></a>Вопросы и ответы по электронному выставлению накладных
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приводятся ответы на часто задаваемые вопросы по службе электронного выставления накладных. Электронное выставление накладных расширяет возможности электронного выставления накладных, существующие в Dynamics 365 Finance, Dynamics 365 Supply Chain Management и Dynamics 365 Project Operations. 
+В этой статье приводятся ответы на часто задаваемые вопросы по службе электронного выставления накладных. Служба электронного выставления накладных расширяет возможности электронного выставления накладных, существующие в Dynamics 365 Finance, Dynamics 365 Supply Chain Management и Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Что важно в отношении электронного выставления накладных и зачем им нужно моей организации?
 

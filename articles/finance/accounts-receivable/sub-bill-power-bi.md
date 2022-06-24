@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI выставления счетов по подпискам
-description: В этой теме описывается, что входит в содержимое Microsoft Power BI для выставления счетов по подпискам.
+description: В этой статье описывается, что входит в содержимое Microsoft Power BI "Выставление счетов по подпискам".
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849970"
 ---
 # <a name="subscription-billing-power-bi-content"></a>Содержимое Power BI выставления счетов по подпискам
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI для выставления счетов по подпискам. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого. 
+В этой статье описывается, что входит в содержимое Microsoft Power BI "Выставление счетов по подпискам". В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого. 
 
 ## <a name="overview"></a>Обзор
 

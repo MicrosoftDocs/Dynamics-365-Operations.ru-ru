@@ -1,6 +1,6 @@
 ---
 title: Просмотр разнесенных платежей TDS и проводок для периода сопоставления TDS
-description: В этой теме объясняется, как просмотреть платежи и проводки по налогу, удержанный в источнике (TDS), которые были разнесены для периода сопоставления.
+description: В этой статье объясняется, как просмотреть платежи и проводки по налогу, удерживаемому у источника (TDS), которые были разнесены в определенный период сопоставления.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898069"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Просмотр разнесенных платежей TDS и проводок для периода сопоставления TDS
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как просмотреть платежи и проводки по налогу, удержанный в источнике (TDS), которые были разнесены для периода сопоставления.
+В этой статье объясняется, как просмотреть платежи и проводки по налогу, удерживаемому у источника (TDS), которые были разнесены в определенный период сопоставления.
 
 1. Перейдите в раздел **Налог \> Косвенные налоги \> Подоходный налог \> Периоды сопоставления подоходного налога**.
 

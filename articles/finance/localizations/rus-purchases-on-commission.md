@@ -1,6 +1,6 @@
 ---
 title: Покупки по комиссии
-description: В этой теме приводятся сведения о покупках, выполненных по комиссии.
+description: В этой статье приводятся сведения о покупках, производимых на условиях комиссии.
 author: v-nadyuz
 ms.date: 03/03/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6267e7da6d71ab455cd95d7e8762ae27f4cba9ce
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 075162da81c629a807ac6c98b79c229958c7f66a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906205"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Regulatory Configuration Service (RCS) — Удаление среды RCS
-description: В этой теме объясняется, как системный администратор Regulatory Configuration Service (RCS) может удалить среду RCS и соответствующие данные.
+title: Regulatory Configuration Service (RCS) — удаление среды RCS
+description: В этой статье объясняется, как системный администратор Regulatory Configuration Service (RCS) может удалить среду RCS и связанные с ней данные.
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908900"
 ---
-# <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) — Удаление среды RCS
+# <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) — удаление среды RCS
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как системный администратор Regulatory Configuration Service (RCS) может удалить среду RCS и соответствующие данные.
+В этой статье объясняется, как системный администратор Regulatory Configuration Service (RCS) может удалить среду RCS и связанные с ней данные.
 
-Прежде чем вы сможете выполнить процедуру из данной темы, необходимо выполнить следующие предварительные требования:
+Чтобы можно было выполнить процедуру из данной статьи, необходимо выполнить следующие предварительные требования:
 
 - Пользователю должна быть назначена роль **Системный администратор** для среды RCS.
 - Роли **Системный администратор** должна быть назначена роль **RCSDeleteEnvironmentDuty**.

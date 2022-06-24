@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 425dfad542cf19e039f8613c5f7bcaacb4b15930
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1cbf6d1e5bf1716bc602b335e0b0a57dd52bb983
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855241"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Подготовка к вводу в эксплуатацию Human Resources
 
@@ -30,7 +30,7 @@ ms.locfileid: "8688865"
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
-В этом разделе описывается, как подготовиться к вводу в эксплуатацию проекта Dynamics 365 Human Resources, используя Microsoft Dynamics Lifecycle Services (LCS). 
+В этой статье описывается, как подготовиться к вводу в эксплуатацию проекта Dynamics 365 Human Resources, используя Microsoft Dynamics Lifecycle Services (LCS). 
 
 На этом рисунке показаны этапы процесса ввода в эксплуатацию. 
 

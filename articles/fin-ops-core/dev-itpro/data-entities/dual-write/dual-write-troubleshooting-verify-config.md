@@ -1,6 +1,6 @@
 ---
-title: Проверка конфигурации двойной записи в Finance and Operations и Dataverse
-description: В этой теме объясняется, как можно определить, настроена ли двойная запись в приложениях Финансы и операции и в Dataverse.
+title: Проверка конфигурации двойной записи в приложениях для управления финансами и операциями и Dataverse
+description: В этой статье объясняется, как можно определить, настроена ли двойная запись в приложениях для управления финансами и операциями и в Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884469"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в Finance and Operations и Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Проверка конфигурации двойной записи в приложениях для управления финансами и операциями и Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062808"
 
 
 
-Эта тема предоставляет информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse. Конкретно, в ней объясняется, как можно определить, настроена ли двойная запись в приложениях Финансы и операции и в Dataverse.
+Эта статья предоставляет информацию по устранению неполадок для интеграции двойной записи между приложениями для управления финансами и операциями и Dataverse. Конкретно, в ней объясняется, как можно определить, настроена ли двойная запись в приложениях Финансы и операции и в Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Проверка конфигурации двойной записи в приложении Финансы и операции
 

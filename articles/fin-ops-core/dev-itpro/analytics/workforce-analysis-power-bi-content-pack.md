@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Показатели трудовых ресурсов"
-description: В этой теме описывается содержимое Power BI "Показатели трудовых ресурсов".
+description: В этой статье описывается содержимое Power BI "Показатели трудовых ресурсов".
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884498"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Содержимое Power BI "Показатели трудовых ресурсов"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается содержимое **Метрики трудовых ресурсов** Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой статье описывается содержимое Microsoft Power BI **Показатели трудовых ресурсов**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Показатели трудовых ресурсов** отображается в рабочей области **Управление персоналом** при использовании одного из следующих продуктов:

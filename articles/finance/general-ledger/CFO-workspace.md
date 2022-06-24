@@ -1,6 +1,6 @@
 ---
 title: Добавление финансовых аналитик в рабочую область финансового директора
-description: В этой теме объясняется, как добавить финансовые аналитики в рабочую область финансового директора, чтобы их можно было использовать для отчетов по ГК и бюджету.
+description: В этой статье объясняется, как добавить финансовые аналитики в рабочую область финансового директора, чтобы их можно было использовать для отчетов по книге учета и бюджету.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ea453eed826dec2e97371ec559e91b94933bdce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853390"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Добавление финансовых аналитик в рабочую область финансового директора
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как добавить финансовые аналитики в рабочую область финансового директора, чтобы их можно было использовать для отчетов по ГК и бюджету. Рабочая область финансового директора содержит вкладки **Обзор** и **Финансы**. Отчеты на этих двух вкладках обеспечиваются двумя измерениями: LedgerActivityMeasure и BudgetActivityMeasure. Существует связь между этими двумя измерениям и объектом DimensionCombinationEntity. Следовательно, можно выбрать аналитики.
+В этой статье объясняется, как добавить финансовые аналитики в рабочую область финансового директора, чтобы их можно было использовать для отчетов по книге учета и бюджету. Рабочая область финансового директора содержит вкладки **Обзор** и **Финансы**. Отчеты на этих двух вкладках обеспечиваются двумя измерениями: LedgerActivityMeasure и BudgetActivityMeasure. Существует связь между этими двумя измерениям и объектом DimensionCombinationEntity. Следовательно, можно выбрать аналитики.
 
 1. В Finance на странице **Entity Store** обновите измерения **LedgerActivityMeasure** и **BudgetActivityMeasure**.
 2. В Microsoft Visual Studio откройте обозреватель приложений и выполните поиск по слову **LedgerCFO**.

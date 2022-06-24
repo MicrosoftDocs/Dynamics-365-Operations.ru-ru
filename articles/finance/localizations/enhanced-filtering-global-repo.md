@@ -1,6 +1,6 @@
 ---
 title: Улучшенная фильтрация RCS в RCS/глобальном репозитории
-description: В этой теме описываются расширенные возможности фильтрации для глобального репозитория RCS, которые были усовершенствованы для включения дополнительных фильтров.
+description: В этой статье описываются расширенные возможности фильтрации для глобального репозитория RCS, которые были усовершенствованы и теперь включают дополнительные фильтры.
 author: JaneA07
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901222"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Параметры расширенной фильтрации RCS для поиска конфигураций в RCS/глобальном репозитории
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются расширенные возможности фильтрации для глобального репозитория службы Regulatory Configuration Service (RCS), которые были усовершенствованы для включения возможности фильтрации по следующим критериям: 
+В этой статье описываются расширенные возможности фильтрации для глобального репозитория службы Regulatory Configuration Services (RCS), которые были усовершенствованы и теперь включают возможность фильтрации по следующим критериям: 
 - **Страна/регион** — на основе кодов ISO для стран  
 - Типы **Теги** для:
   - Функциональная область
@@ -42,7 +42,7 @@ ms.locfileid: "6778120"
 
 [![Примененный фильтр и импорт для типа бизнес-документа.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Отфильтрованные результаты могут импортироваться в репозиторий RCS пользователей или в среду Dynamics 365 Finance отдельно или в виде набора. Для этого выберите группу конфигураций и нажмите **Импорт**.
+Отфильтрованные результаты могут быть импортированы в репозиторий RCS пользователей или в среду Dynamics 365 Finance по отдельности или в виде набора. Для этого выберите группу конфигураций и нажмите **Импорт**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

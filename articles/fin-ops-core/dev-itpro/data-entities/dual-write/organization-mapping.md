@@ -1,6 +1,6 @@
 ---
 title: Организационная иерархия в Dataverse
-description: Эта тема описывает интеграцию организационных данных между приложениями Finance and Operations и Dataverse.
+description: Эта статья описывает интеграцию организационных данных между приложениями для управления финансами и операциями и Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884742"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Организационная иерархия в Dataverse
 
@@ -22,7 +22,7 @@ ms.locfileid: "8358372"
 
 
 
-Поскольку Dynamics 365 Finance — это финансовая система, *организация* является основной концепцией, а настройка системы начинается с конфигурации организационной иерархии. Финансы бизнеса затем могут отслеживаться на уровне организации, а также на любом уровне в иерархии организации.
+Поскольку Dynamics 365 Finance — это финансовая система, *организация* является основной концепцией и настройка системы начинается с конфигурации организационной иерархии. Финансы бизнеса затем могут отслеживаться на уровне организации, а также на любом уровне в иерархии организации.
 
 Хотя Dataverse не имеет понятия иерархии организации, она имеет несколько отдельных концепций, таких как общий доход от продаж. В рамках интеграции Dataverse структура данных иерархии организации добавляется в Dataverse.
 

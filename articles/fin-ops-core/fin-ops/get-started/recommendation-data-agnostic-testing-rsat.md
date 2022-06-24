@@ -1,6 +1,6 @@
 ---
 title: Независимые от данных испытания с помощью Regression Suite Automation Tool
-description: В этом разделе обсуждаются рекомендации по независимым от данных испытаниям с помощью Regression Suite Automation Tool.
+description: В этой статье обсуждаются рекомендации по независимому от данных тестированию с использованием Regression Suite Automation Tool.
 author: kfend
 ms.date: 09/13/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9463a69b6c1b273c6d37b6f4cf6eac19441da682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860020"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Независимые от данных испытания с помощью Regression Suite Automation Tool
 

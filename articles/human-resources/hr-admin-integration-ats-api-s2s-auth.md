@@ -1,6 +1,6 @@
 ---
 title: Аутентификация сервер-сервер для API интеграции ATS
-description: В этой теме описывается, как настроить аутентификации сервер-сервер для интеграции с API интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources.
+description: В этой статье описывается, как настроить проверку подлинности между сервером и сервером для интеграции с API интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879376"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Аутентификация сервер-сервер для API интеграции ATS
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743551"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается, как настроить аутентификации сервер-сервер для интеграции приложений с API интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources. Есть несколько уровней безопасности, которыми необходимо управлять для субъекта-службы, чтобы получить доступ к виртуальной таблице Microsoft Dataverse и связанным данным. Пользователю необходимо предоставить доступ к виртуальной таблице Dataverse в Microsoft Power Platform и получить доступ к данным в Dynamics 365 Human Resources.
+В этой статье описывается, как настроить проверку подлинности между сервером и сервером для интеграции приложений с API интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources. Есть несколько уровней безопасности, которыми необходимо управлять для субъекта-службы, чтобы получить доступ к виртуальной таблице Microsoft Dataverse и связанным данным. Пользователю необходимо предоставить доступ к виртуальной таблице Dataverse в Microsoft Power Platform и получить доступ к данным в Dynamics 365 Human Resources.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Разрешение доступа к виртуальным таблицам Dataverse в Power Platform
 
@@ -76,7 +76,7 @@ ms.locfileid: "8743551"
   - Коды оснований (mshr)
   - Запрос на набор сотрудников (mshr)
   - Местонахождение запроса на набор сотрудников (mshr)
-  - Позиция запроса на набор сотрудников (mshr)
+  - Позиция по запросу на набор сотрудников (mshr)
   - Навыки для запроса на набор сотрудников (mshr)
   - Типы отбора (mshr)
   - Компетенция навыков (mshr)

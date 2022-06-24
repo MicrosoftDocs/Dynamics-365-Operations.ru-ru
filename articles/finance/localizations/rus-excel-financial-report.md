@@ -1,6 +1,6 @@
 ---
 title: Настройка финансовых отчетов в Excel (Россия)
-description: В этом разделе приводится пошаговое описание процесса создания конфигурации электронной отчетности (ER), которая содержит шаблон для создания финансового отчета в формате Excel.
+description: В этой статье приводится пошаговое описание процесса создания конфигурации электронной отчетности (ER), которая содержит шаблон для создания финансового отчета в формате Excel.
 author: Anasyash
 ms.date: 07/19/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e60fc30adccd61ee76a1f3b1b205437f77a72cb2694e585a281c3f1dc66c8a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8caf76c4dd3a1fd7b92be907abead438783a5037
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874330"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности, содержащую шаблон для создания финансового отчета в формате Microsoft Excel.
+В этой статье поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности, содержащую шаблон для создания финансового отчета в формате Microsoft Excel.
 
-Перед прочтением этой темы необходимо ознакомиться с разделом [Создание конфигураций электронной отчетности (ER)](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=%2ffin-and-ops%2ftoc.json) и связанными разделами по электронной отчетности, посвященными созданию конфигурации.
+Перед прочтением этой статьи необходимо ознакомиться со статьей [Создание конфигураций электронной отчетности (ER)](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=%2ffin-and-ops%2ftoc.json) и связанными статьями по электронной отчетности, посвященными созданию конфигураций.
 
 ## <a name="set-up-a-financial-report"></a>Настройка финансового отчета
 

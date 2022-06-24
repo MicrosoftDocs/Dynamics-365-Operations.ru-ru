@@ -1,6 +1,6 @@
 ---
 title: Обзор по Европе
-description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
+description: В этой статье приведены ссылки на документацию по Microsoft Dynamics 365 Finance для Европы.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856528"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
 [!include [banner](../includes/banner.md)]
 
-Эта тема содержит сведения и ссылки на ресурсы, которые помогут вам настроить юридические лица с основным адресом в Европе. 
+Эта статья содержит сведения и ссылки на ресурсы, которые помогут вам настроить юридические лица с основным адресом в Европе. 
 
 - [Обзор подотчетных лиц](emea-advance-holders.md)
  - [Проводки по подотч. лицам](emea-advance-holders-transactions.md)

@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources 19 ноября 2021 г.
-description: В этой теме описываются новые и измененные функции в отдельной версии Microsoft Dynamics 365 Human Resources от 19 ноября 2021 года.
+description: В этой статье описываются новые или измененные функции в отдельной версии Microsoft Dynamics 365 Human Resources от 19 ноября 2021 года.
 author: marcelbf
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f28057c370b27dbdad4bfe1104e9289f7df65621
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3e08432a4ce4d73cd67ad839191abe9f6e691a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886083"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-november-19-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 19 ноября 2021 г.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описываются новые, измененные и ожидающиеся компоненты в Microsoft Dynamics 365 Human Resources.
+В этой статье описываются новые, измененные или ожидаемые в ближайшее время функции в Microsoft Dynamics 365 Human Resources.
 
 Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
@@ -40,7 +40,7 @@ ms.locfileid: "8691956"
 Этот выпуск содержит следующие исправления ошибок.
 
 > [!NOTE]
-> Наша цель — предоставить эту информацию вам как можно скорее. Можно обновить этот раздел для включения исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этого раздела.
+> Наша цель — предоставить эту информацию вам как можно скорее. Мы можем обновить эту статью для включения в нее исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этой статьи.
 
 | Номер проблемы | Проблема | Описание |
 |---|---|---|

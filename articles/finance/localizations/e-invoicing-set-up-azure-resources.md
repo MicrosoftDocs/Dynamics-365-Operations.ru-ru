@@ -1,6 +1,6 @@
 ---
 title: Настройка ресурсов Azure для электронного выставления накладных
-description: В этой теме представлен обзор процесса настройки ресурсов Microsoft Azure для электронного выставления накладных.
+description: В этой статье представлен обзор процесса настройки ресурсов Microsoft Azure для электронного выставления накладных.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb1fcddce1054aebf9ef70ba69eb7aca98093cbe
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c5b7b2ca4d7733fb1c75ded8798655699284fe1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907739"
 ---
 # <a name="set-up-azure-resources-for-electronic-invoicing"></a>Настройка ресурсов Azure для электронного выставления накладных
 

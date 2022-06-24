@@ -1,6 +1,6 @@
 ---
 title: Функция ER SPLIT
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SPLIT.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) SPLIT.
 author: NickSelin
 ms.date: 04/01/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a42b0c7cfa2a8d3dcb7448224c9e88a48276f7d8cdbcce484383a778b8275a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2acd93b645121b577d516d3ce29a3d05069b8de9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906839"
 ---
 # <a name="split-er-function"></a>Функция ER SPLIT
 

@@ -1,6 +1,6 @@
 ---
-title: Удаленные или устаревшие функции Dynamics 365 Finance
-description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
+title: Удаленные или устаревшие функции в Dynamics 365 Finance
+description: В этой статье описываются функции, которые были удалены или которые планируется удалить из Dynamics 365 Finance.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846664"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции в Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Finance.
+В этой статье описываются функции, которые были удалены или которые планируется удалить из Dynamics 365 Finance.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.

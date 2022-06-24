@@ -1,6 +1,6 @@
 ---
 title: Управление мелкими наличными деньгами для Commerce для Восточной Европы
-description: В этом разделе описывается, как настроить и использовать возможности управления кассой в Commerce для Восточной Европы.
+description: В этой статье описывается, как настроить и использовать функции управления кассами в Commerce для Восточной Европы.
 author: epopov
 ms.date: 10/03/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a4c2e404b42a10a8d5f8b57135c56ae479a9efc3f5a8cef30831d02a3e53fe6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 160435e77395c4526ac6f1a3afab70fc0a62dc7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894483"
 ---
 # <a name="petty-cash-management-for-commerce-for-eastern-europe"></a>Управление мелкими наличными деньгами для Commerce для Восточной Европы
 

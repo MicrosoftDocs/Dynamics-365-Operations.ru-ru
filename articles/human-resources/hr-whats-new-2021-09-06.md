@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources 6 сентября 2021 г.
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 6 сентября 2021 года.
+description: В этой статье описываются новые или измененные функции в Microsoft Dynamics 365 Human Resources от 6 сентября 2021 года.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872162"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 6 сентября 2021 г.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описываются новые, измененные и ожидающиеся компоненты в Microsoft Dynamics 365 Human Resources.
+В этой статье описываются новые, измененные или ожидаемые в ближайшее время функции в Microsoft Dynamics 365 Human Resources.
 
 Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ ms.locfileid: "8690592"
 Этот выпуск содержит следующие исправления ошибок.
 
 > [!NOTE]
-> Наша цель — предоставить эту информацию вам как можно скорее. Можно обновить этот раздел для включения исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этого раздела.
+> Наша цель — предоставить эту информацию вам как можно скорее. Мы можем обновить эту статью для включения в нее исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этой статьи.
 
-| Номер проблемы | Проблема | описание |
+| Номер проблемы | Проблема | Описание |
 |---|---|---|
 | 610128 | Ошибка при публикации данных при использовании HcmDiscussionOverallCommentEntity | При публикации данных из книги Excel в сущность HcmDiscussionOverralCommentEntity появляется следующее сообщение об ошибке: "Не удается найти запись источника данных типа HcmTopicOverrall." |
 | 589073 | В отчете EEO-1 значения "Не определено" и пустые значения для поля **Пол** учитываются как значение "Женский". | Если **Мужской** не указан в поле **Пол**, отчет EEO-1 создает значение по умолчанию **Женский**. |

@@ -1,6 +1,6 @@
 ---
 title: Рабочая область управления банками
-description: В этой теме содержится информация о рабочей области управления банками. Эта рабочая область показывает сведения, которые связаны с банковскими счетами компании.
+description: В этой статье содержится информация о рабочей области "Управление банками". Эта рабочая область показывает сведения, которые связаны с банковскими счетами компании.
 author: kweekley
 ms.date: 01/12/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9c0642664cbae84c966f2cd514a176e1412c80d5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f9dd4eb55f20c2d22c9ec9955bbefd094732cc34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861483"
 ---
 # <a name="bank-management-workspace"></a>Рабочая область управления банками
 

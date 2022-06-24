@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (23 июля 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 23 июля 2020 года.
+description: В этой статье описываются новые или измененные функции в Microsoft Dynamics 365 Human Resources от 23 июля 2020 года.
 author: andreabichsel
 ms.date: 07/23/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: baf92234bc63449435324cc2d199a0529e53857a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 775508e6ea477b14165dd9d03fafa315a7794528
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893739"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (23 июля 2020 г.)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8692040"
 
 
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3416. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
+В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3416. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>Удаление финансовых аналитик для позиции не работает должным образом (445476)
 

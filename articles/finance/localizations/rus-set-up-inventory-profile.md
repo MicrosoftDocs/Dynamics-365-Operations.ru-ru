@@ -1,6 +1,6 @@
 ---
 title: Настройка профиля учета
-description: В данном разделе содержится общая информация о настройке профиля учета.
+description: В этой статье содержится информация о настройке профиля учета.
 author: v-nadyuz
 ms.date: 05/11/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c97e32a8a01f13c039076175af9f9223e053f10fda5248ae717570bf994a4b34
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 297374aa45254845c367c6065be6e8962115cc6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856490"
 ---
 # <a name="set-up-an-inventory-profile"></a>Настройка профиля учета 
 [!include [banner](../includes/banner.md)]

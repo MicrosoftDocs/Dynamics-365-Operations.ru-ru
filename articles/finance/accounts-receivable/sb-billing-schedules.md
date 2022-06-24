@@ -1,6 +1,6 @@
 ---
 title: Создание графиков выставления счетов
-description: В этом разделе объясняется, как создавать, удалять и изменять графики выставления счетов.
+description: В этой статье объясняется, как создавать, удалять и изменять графики выставления счетов.
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903402"
 ---
 # <a name="create-billing-schedules"></a>Создание графиков выставления счетов
 
@@ -83,7 +83,7 @@ ms.locfileid: "8690455"
 2. На Экспресс-вкладке **Строки графика выставления счетов** выберите удаляемую строку и выберите **Удалить**.
 3. Нажмите **Сохранить**.
 
-В оставшейся части этой темы описываются действия и подробные сведения, доступные для строк на экспресс-вкладке **Строки графика выставления счетов**.
+В оставшейся части этой статьи описываются действия и подробные сведения, доступные для строк на экспресс-вкладке **Строки графика выставления счетов**.
 
 ## <a name="billing-schedule-line-actions"></a>Действия строки графика выставления счетов
 

@@ -1,6 +1,6 @@
 ---
 title: Методы амортизации (Россия)
-description: В этом разделе описаны различные методы амортизации основных средств для России.
+description: В этой статье описаны различные методы амортизации основных средств для России.
 author: anasyash
 ms.date: 09/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9e93638f18d86e90c7c1a5fd9ddfa4faad813cff440033837c7710f9b5ce41a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4327cd9a566ec45762322bddfb506f477920e535
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902996"
 ---
 # <a name="depreciation-methods-russia"></a>Методы амортизации (Россия)
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описаны различные методы, которые могут использоваться для амортизации основных средств для России, а также их реализация в приложении.
+В этой статье описаны различные методы, которые могут использоваться для амортизации основных средств для России, а также их реализация в приложении.
 Процесс расчета ежемесячной амортизации можно сделать несколькими способами. В налоговом учете и учете используются линейные и нелинейные методы расчета амортизации.
 
 ## <a name="linear-and-non-linear-depreciation-methods"></a>Линейные и нелинейные методы амортизации

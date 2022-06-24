@@ -1,6 +1,6 @@
 ---
 title: Договоры
-description: В этой теме приводятся сведения о договоры продажи и покупки для русской локализации.
+description: В этой статье приводятся сведения о договорах продажи и покупки для локализации для России.
 author: v-nadyuz
 ms.date: 02/06/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 490c4db97ead672ed1b39b69de22286d9b5d765830d0ef0e4fb167e396b630e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1c9eac82e44ff33a39556f91f6c2b8a5577fd6a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849716"
 ---
 # <a name="agreements"></a>Договоры
 [!include [banner](../includes/banner.md)]

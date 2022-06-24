@@ -1,6 +1,6 @@
 ---
-title: План льгот сотрудника для зарплаты
-description: В этой теме представлены сведения и пример запроса для сущности плана льгот работнику по зарплате в Dynamics 365 Human Resources.
+title: План льгот работников для зарплаты
+description: В этой статье представлены сведения и пример запроса для сущности "План льгот работников для зарплаты" в Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ef45855d9e60131ac065ae6e2769b71ae3f69537
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902295"
 ---
-# <a name="payroll-worker-benefit-plan"></a>План льгот сотрудника для зарплаты
+# <a name="payroll-worker-benefit-plan"></a>План льгот работников для зарплаты
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность плана льгот работнику по зарплате для Dynamics 365 Human Resources.
+В этой статье описывается сущность "План льгот работников для зарплаты" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_payrollworkerbenefitplanentities.
 
@@ -60,9 +60,9 @@ ms.locfileid: "8533806"
 | **Значение кода плана**</br> _mshr_fk_plan_id_value</br>*GUID* | Внешний ключ: mshr_benefitplanentityid сущности mshr_benefitplanentity. | Созданный системой уникальный идентификатор для плана. |
 | **Значение кода типа плана**</br> _mshr_fk_plantype_id_value</br>*GUID* | Внешний ключ: mshr_benefitplantypeentityid сущности mshr_benefitplantypeentity. | Созданный системой уникальный идентификатор для плана. |
 | **Значение идентификатора параметра покрытия**</br> _mshr_fk_coverageoption_id_value</br>*GUID* | Внешний ключ: mshr_benefitcoverageoptionentityid сущности mshr_benefitcoverageoptionentity. | Созданный системой уникальный идентификатор для плана. |
-| **Значение кода сущности плана льгот работника по зарплате**</br> mshr_payrollworkerbenefitplanentityid</br>*GUID* | Только для чтения </br> Создано системой | Созданный системой уникальный идентификатор записи. |
+| **Значение кода сущности "План льгот работников для зарплаты"**</br> mshr_payrollworkerbenefitplanentityid</br>*GUID* | Только для чтения </br> Создано системой | Созданный системой уникальный идентификатор записи. |
 
-## <a name="example-query-for-payroll-worker-benefit-plan"></a>Пример запроса для плана льгот для работника по зарплате
+## <a name="example-query-for-payroll-worker-benefit-plan"></a>Пример запроса для плана льгот работников на зарплате
 
 **Запрос**
 

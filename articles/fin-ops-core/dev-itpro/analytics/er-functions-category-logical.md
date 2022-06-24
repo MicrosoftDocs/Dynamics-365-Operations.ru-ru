@@ -1,6 +1,6 @@
 ---
 title: Список функций ER в логической категории
-description: В этой теме содержится информация о логических функциях, которые поддерживаются в электронной отчетности (ER).
+description: В этой статье содержится информация о логических функциях, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888201"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Список функций ER в логической категории
 
 [!include [banner](../includes/banner.md)]
 
-Логические функции электронной отчетности (ER) могут использоваться для работы с логическими значениями для выполнения более одного сравнения в одном выражении или для тестирования нескольких условий. В этой теме приводится краткое изложение этих функций.
+Логические функции электронной отчетности (ER) могут использоваться для работы с логическими значениями для выполнения более одного сравнения в одном выражении или для тестирования нескольких условий. В данной статье приводится краткое описание этих функций.
 
 ## <a name="list-of-supported-functions"></a>Список поддерживаемых функций
 

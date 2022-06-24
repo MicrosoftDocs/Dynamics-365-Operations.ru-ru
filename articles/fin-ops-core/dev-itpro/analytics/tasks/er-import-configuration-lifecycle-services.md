@@ -1,6 +1,6 @@
 ---
 title: Импорт конфигурации из Lifecycle Services
-description: В этой теме описывается, как импортировать новую версию электронной отчетности (ER) из Microsoft Dynamics Lifecycle Services (LCS).
+description: В этой статье описывается, как импортировать новую версию конфигурации электронной отчетности (ER) из Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886682"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Импорт конфигурации из Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может импортировать новую версию [конфигурации электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) из [библиотеки ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).
+В этой статье поясняется, как пользователь с ролью системного администратора или разработчика электронной отчетности может импортировать новую версию [конфигурации электронной отчетности (ER)](../general-electronic-reporting.md#Configuration) из [библиотеки ресурсов уровня проекта](../../lifecycle-services/asset-library.md) в Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!IMPORTANT]
 > Использование LCS в качестве репозитория для конфигураций ER [устаревает](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Дополнительные сведения см. в [Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -41,7 +41,7 @@ ms.locfileid: "6712600"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Убедитесь, что текущий пользователь Dynamics 365 Finance является членом проекта LCS, который содержит библиотеку активов, к которой пользователь хочет получить [доступ](../../lifecycle-services/asset-library.md#asset-library-support), чтобы импортировать конфигурации электронной отчетности.
+> Убедитесь, что текущий пользователь Dynamics 365 Finance является членом проекта LCS, содержащего библиотеку ресурсов, к которой пользователь хочет получить [доступ](../../lifecycle-services/asset-library.md#asset-library-support), чтобы импортировать конфигурации электронной отчетности.
 >
 > Невозможно получить доступ к проекту LCS из репозитория электронной отчетности, который представляет другой домен, отличный от домена, используемого в Finance. При попытке будет отображен пустой список проектов LCS, и вы не сможете импортировать конфигурации электронной отчетности из библиотеки активов уровня проекта в LCS. Чтобы получить доступ к библиотекам активов уровня проекта из репозитория электронной отчетности, который используется для импорта конфигураций электронной отчетности, выполните вход в Finance, используя учетные данные пользователя, принадлежащего к клиенту (домену), для которого была выполнена подготовка текущего экземпляра Finance.
 
@@ -49,7 +49,7 @@ ms.locfileid: "6712600"
 
 1. На странице **Конфигурации** в дереве конфигураций выберите пункт **Пример конфигурации модели**.
 
-    Вы создали первую версию конфигурации примера модели данных и опубликовали ее в LCS, когда завершили шаги в разделе [Отправка конфигурации в Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). В этой процедуре мы удалим эту версию конфигурации электронной отчетности. Затем эту версию можно будет импортировать из LCS позже в этой теме.
+    Вы создали первую версию конфигурации примера модели данных и опубликовали ее в LCS, когда завершили шаги в разделе [Отправка конфигурации в Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). В этой процедуре мы удалим эту версию конфигурации электронной отчетности. Далее в этой статье вы импортируете эту версию из LCS.
 
 2. В списке найдите и выберите требуемую запись.
 

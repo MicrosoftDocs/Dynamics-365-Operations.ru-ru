@@ -1,6 +1,6 @@
 ---
 title: Поиск обновлений нормативных документов для конкретной страны/региона
-description: В этом разделе представлены ссылки на запланированные и выпущенные нормативные обновления для конкретных стран/регионов для Microsoft Dynamics 365 Finance.
+description: В этой статье представлены ссылки на запланированные и выпущенные нормативные обновления для конкретных стран/регионов для Microsoft Dynamics 365 Finance.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896192"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Поиск обновлений нормативных документов для конкретной страны/региона
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе представлены ссылки на запланированные и выпущенные нормативные обновления для конкретных стран/регионов для Microsoft Dynamics 365 Finance. Чтобы получить доступ к этой информации, необходимо войти в Microsoft Dynamics Lifecycle Services (LCS).
+В этой статье представлены ссылки на запланированные и выпущенные нормативные обновления для конкретных стран/регионов для Microsoft Dynamics 365 Finance. Чтобы получить доступ к этой информации, необходимо войти в Microsoft Dynamics Lifecycle Services (LCS).
 
 | Страна или регион    | Проблема в поиске проблем в LCS |
 |----------------------|---------------------------|

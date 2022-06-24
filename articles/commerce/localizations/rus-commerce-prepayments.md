@@ -1,6 +1,6 @@
 ---
 title: Предоплаты в Dynamics 365 Commerce для России
-description: В этой теме представлен обзор обработки для проводок предоплаты в Microsoft Dynamics 365 Commerce для России.
+description: В этой статье представлен обзор обработки для проводок по предоплатам в Microsoft Dynamics 365 Commerce для России.
 author: akviklis
 ms.date: 08/02/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-6-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b5f169651ac10d7f04c71c96718ed9e650936691
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 31b63deb3da986bf5fcc9a3d6796966b12c785c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906653"
 ---
 # <a name="prepayments-in-dynamics-365-commerce-for-russia"></a>Предоплаты в Dynamics 365 Commerce для России
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме представлен обзор обработки для проводок предоплаты в Microsoft Dynamics 365 Commerce для России.
+В этой статье представлен обзор обработки для проводок по предоплатам в Microsoft Dynamics 365 Commerce для России.
 
 Dynamics 365 Commerce обрабатывает проводки по предоплате для следующих типов платежей, которые используются в российской рознице:
 

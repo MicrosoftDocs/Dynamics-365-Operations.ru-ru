@@ -1,6 +1,6 @@
 ---
 title: Обзор налога, удерживаемого в источнике (TDS), для Индии
-description: В этой теме приводятся подробные сведения о налоге, удерживаемом в источнике (TDS), для Индии. В документации по TDS описываются функции этой возможности.
+description: В этой статье приводятся подробные сведения о налоге, удерживаемом у источника (TDS), для Индии. В документации по TDS описываются функции этой возможности.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896293"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Обзор налога, удерживаемого в источнике (TDS), для Индии
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приводятся подробные сведения о налоге, удерживаемом в источнике (TDS), для Индии.
+В этой статье приводятся подробные сведения о налоге, удерживаемом у источника (TDS), для Индии.
 
 В документации по TDS описываются функции этой возможности. В ней также объясняется, как выполнить базовые настройки для TDS, расчета TDS по проводкам, как выполнить процесс сопоставления TDS, записать номера сертификатов TDS и создать запросы TDS, отчеты TDS и сертификаты TDS. Документация включает следующие темы:
 

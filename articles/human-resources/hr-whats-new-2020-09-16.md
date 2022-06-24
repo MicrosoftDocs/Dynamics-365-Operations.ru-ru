@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (16 сентября 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 16 сентября 2020 года.
+description: В этой статье описываются новые или измененные функции в Microsoft Dynamics 365 Human Resources от 16 сентября 2020 года.
 author: jcart1106
 ms.date: 09/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 591a6f3f4aabdb164e4fde5e80259fb6872167d9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca98f4b3a1e702ed5f02bc6e09675a5861ec902a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862840"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (16 сентября 2020 г.)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8694462"
 
 
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3557. Числа в скобках рядом с некоторыми функциями относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
+В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3557. Числа в скобках рядом с некоторыми функциями относятся к номерам поддержки в службе Lifecycle Services (LCS) для справки.
 
 ## <a name="included-in-this-release"></a>Включено в данный выпуск
 

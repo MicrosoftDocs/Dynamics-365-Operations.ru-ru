@@ -1,6 +1,6 @@
 ---
 title: Введение в интерфейс API интеграции системы отслеживания кандидатов
-description: В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС).
+description: В этой статье описывается API-интерфейс интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources.
 author: andreabichsel
 ms.date: 02/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6037d09fdc484753c7e90a896ce383bd71391356
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894711"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Введение в интерфейс API интеграции системы отслеживания кандидатов
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069940"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается API-интерфейс Dynamics 365 Human Resources системы отслеживания кандидатов (АТС). Целью API является обеспечение оптимизации интеграции между Dynamics 365 Human Resources и партнерскими системами ATS.
+В этой статье описывается API-интерфейс интеграции системы отслеживания кандидатов (ATS) Dynamics 365 Human Resources. Целью API является обеспечение оптимизации интеграции между Dynamics 365 Human Resources и партнерскими системами ATS.
 
 ![Поток интеграци ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
@@ -83,15 +83,15 @@ ms.locfileid: "8069940"
 Объекты:
 
 - [Запрос на набор сотрудников](hr-admin-integration-ats-api-recruiting-request.md)
-- [Позиция запроса на набор сотрудников](hr-admin-integration-ats-api-recruiting-request-position.md)
+- [Позиция по запросу на набор сотрудников](hr-admin-integration-ats-api-recruiting-request-position.md)
 - [Навык в запросе по набору сотрудников](hr-admin-integration-ats-api-recruiting-request-skill.md)
 - [Образование в запросе по набору сотрудников](hr-admin-integration-ats-api-recruiting-request-education.md)
 - [Местонахождение запроса на набор сотрудников](hr-admin-integration-ats-api-recruiting-request-location.md)
 
 Наборы параметров:
 
-- [Состояние освобождения должности от доплат за сверхурочное время](hr-admin-integration-ats-api-job-exempt-status.md)
-- [Статус должности запроса набора персонала](hr-admin-integration-ats-api-recruiting-request-position-status.md)
+- [Статус освобождения должности от доплат за сверхурочное время](hr-admin-integration-ats-api-job-exempt-status.md)
+- [Статус позиции по запросу на набор сотрудников](hr-admin-integration-ats-api-recruiting-request-position-status.md)
 - [Состояние запроса по набору сотрудников](hr-admin-integration-ats-api-recruiting-request-status.md)
 - [Категория нормативных должностей](hr-admin-integration-ats-api-regulatory-job-category.md)
 

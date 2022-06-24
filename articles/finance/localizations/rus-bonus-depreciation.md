@@ -1,6 +1,6 @@
 ---
 title: Амортизационные премии (Россия)
-description: В этой теме содержится информация об амортизационной премии для основных средств в России.
+description: В этой статье содержится информация об амортизационных премиях для основных средств в России.
 author: anasyash
 ms.date: 04/20/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1987262116c112396b97a156e45a07a4621ea046596594e80aa4679ac78f3f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c36fc47a9f87c03797ecd8ca2317b7e6d2df0dfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874336"
 ---
 # <a name="depreciation-bonuses-russia"></a>Амортизационные премии (Россия)
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка правил и параметров приемлемости
-description: В этой теме описывается, как настроить правила и параметры допустимости в управлении льготами в Microsoft Dynamics 365 Human Resources.
+description: В этой статье описывается, как настроить правила и параметры приемлемости в модуле "Управление льготами" в Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88893f6ecee6d2bf0bb42bfa9043eb16a5ed4e90
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b4c8cd4e32880df771a4a72237d212e061f849ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848262"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Настройка правил и параметров приемлемости 
 

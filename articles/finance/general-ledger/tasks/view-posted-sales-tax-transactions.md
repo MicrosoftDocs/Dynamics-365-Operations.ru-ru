@@ -1,6 +1,6 @@
 ---
-title: Просмотр разнесенных налоговых проводок
-description: В этой теме описываются некоторые способы просмотра разнесенных налоговых проводок.
+title: Просмотр разнесенных проводок налога
+description: В этой статье описываются некоторые способы просмотра разнесенных налоговых проводок.
 author: twheeloc
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c140f0565005120f57ba1c22bbdac50b3d0d3d4
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 028ebe44a639b32e45e0dd0af57887abc9b2af6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883252"
 ---
-# <a name="view-posted-sales-tax-transactions"></a>Просмотр разнесенных налоговых проводок
+# <a name="view-posted-sales-tax-transactions"></a>Просмотр разнесенных проводок налога
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме описываются некоторые способы просмотра разнесенных налоговых проводок. Можно просмотреть разнесенные налоговые проводки на различных страницах в зависимости от того, что необходимо просмотреть. В этой задаче используется демонстрационная компания USMF.
+В этой статье описываются некоторые способы просмотра разнесенных налоговых проводок. Можно просмотреть разнесенные налоговые проводки на различных страницах в зависимости от того, что необходимо просмотреть. В этой задаче используется демонстрационная компания USMF.
 
 ## <a name="posted-sales-tax-page"></a>Страница разнесенного налога
 

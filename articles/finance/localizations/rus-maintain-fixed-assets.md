@@ -1,6 +1,6 @@
 ---
 title: Ведение основных средств
-description: В этом разделе объясняется, как отключить, повторно активировать и обновить основное средство в Microsoft Dynamics 365 Finance в России.
+description: В этой статье объясняется, как деактивировать, повторно активировать и обновить основное средство в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
 ms.date: 07/28/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 17ad72e90ae4f3674c126dc6379cbe9e28e420348d2956c75655dd99d2d54276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d2dfa275d4bf463dc8e863db62e1cd08d27d6311
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865455"
 ---
 # <a name="maintain-fixed-assets"></a>Ведение основных средств
 [!include [banner](../includes/banner.md)]

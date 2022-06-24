@@ -1,6 +1,6 @@
 ---
 title: Функция ER TABLENAME2ID
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности TABLENAME2ID
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) TABLENAME2ID.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a500eda75fbb5867f74b56753ee45016c60803b06f508340540764a6cd0399cc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5deea69d5c43be599ccf02c0344ba8d662a6e0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886859"
 ---
 # <a name="tablename2id-er-function"></a>Функция ER TABLENAME2ID
 
@@ -47,7 +47,7 @@ TABLENAME2ID (text)
 
 ## <a name="usage-notes"></a>Примечания по использованию
 
-Выполнение этой функции может привести к различным результатам в разных экземплярах Microsoft Dynamics 365 Finance, даже если используется одно и то же название компании.
+Выполнение этой функции может давать разные результаты в разных экземплярах Microsoft Dynamics 365 Finance, даже если используется одно и то же название компании.
 
 ## <a name="example"></a>Пример
 

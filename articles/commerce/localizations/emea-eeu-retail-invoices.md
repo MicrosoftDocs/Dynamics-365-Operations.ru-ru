@@ -1,6 +1,6 @@
 ---
-title: Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
-description: В этом разделе описывается, как настроить сведения по накладным клиентов и заказы на возврат продаж в странах Восточной Европы.
+title: Накладные клиента и возвратные заказы на продажу в странах Восточной Европы
+description: В этой статье описывается, как настроить информацию для накладных клиентов и заказов на возврат товаров в странах Восточной Европы.
 author: epopov
 ms.date: 10/01/2018
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38d1708f6b113c4915b208941e1ebab70b07323f7523d742c54f3acb32b40569
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13fcdf2f939e225aa11776f4f6050490851ed7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852769"
 ---
-# <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
+# <a name="customer-invoices-and-return-sales-orders-in-eastern-european-countries"></a>Накладные клиента и возвратные заказы на продажу в странах Восточной Европы
 
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе описывается, как настроить сведения по накладным клиентов и заказы на возврат продаж в странах Восточной Европы.
+В этой статье описывается, как настроить информацию для накладных клиентов и заказов на возврат товаров в странах Восточной Европы.
 
 Можно настроить следующие сведения для накладных клиентов и заказов на продажу с возвратом, созданных в Retail POS.
 

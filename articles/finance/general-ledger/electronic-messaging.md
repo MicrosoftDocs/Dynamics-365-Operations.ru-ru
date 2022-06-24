@@ -1,8 +1,8 @@
 ---
 title: Обмен электронными сообщениями
-description: В этом разделе содержится обзор и сведения о настройке для обмена электронными сообщениями в Microsoft Dynamics 365 Finance.
+description: В этой статье содержится обзор и сведения о настройке для обмена электронными сообщениями в Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934689"
 ---
-# <a name="electronic-messaging"></a>Электронные сообщения
+# <a name="electronic-messaging"></a>Обмен электронными сообщениями
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приводится обзор и сведения о настройке функций **электронных сообщений** (EM).
+В этой статье приводится обзор и сведения о настройке функции **Электронные сообщения** (EM).
 
 В последнее время государственные и законодательные органы в различных странах и регионах по всему миру реализовали требования к отчетности для компаний, которые зарегистрированы в этих странах или регионах. Цель этих требований — обеспечить получение данных от таких компаний в электронном формате непосредственно из систем, где они учитываются, хранятся и обрабатываются.
 
@@ -58,6 +58,16 @@ ms.locfileid: "6768347"
 - Хранение и просмотр всех сведений журналов, которые относятся к действиям, которые выполняются для сообщения или элемента сообщения.
 - Управление обработкой через различные статусы сообщений и статусы элементов сообщений.
 
+## <a name="security-privileges"></a>Привилегии безопасности
+
+Для электронных сообщений доступны следующие привилегии безопасности.
+
+| Привилегия безопасности           | Уровень доступа | Связь |
+|------------------------------|--------------|-------------|
+| Ведение электронных сообщений | Эта привилегия обеспечивает полный доступ к функциям EM. При наличии такой привилегии можно настроить электронную передачу сообщений и выполнить всю обработку. | Эта привилегия включается в полномочия безопасности **Ведение налоговых проводок**. Эти полномочия, в свою очередь, включена в роль безопасности **бухгалтера**. |
+| Просмотр электронных сообщений     | Эта привилегия обеспечивает доступ только на чтение к функциям EM. При наличии такой привилегии можно просмотреть параметры электронную электронных сообщений и сообщения. Однако, вы не можете настроить или выполнить какие-либо действия. | Эта привилегия включается в полномочия безопасности **Узнать статус налоговой проводки**. Эти полномочия, в свою очередь, включены в следующие роли безопасности:<ul><li>Менеджер по сборам</li><li>Сотрудник отдела по расчету с клиентами</li><li>Менеджер по расчету с клиентами</li><li>Налоговый бухгалтер</li><li>Бухгалтер</li><li>Главный бухгалтер</li><li>Супервизор по учету</li><li>Менеджер по продажам</li><li>Сотрудник отдела расчетов с поставщиками</li></ul> |
+| Операции с электронными сообщениями  | Эта привилегия позволяет получить доступ только к страницам **Электронные сообщения** и **Элементы электронного сообщения**. Если у вас есть эта привилегия, можно выполнить всю обработку, которая была вызвана из этих страниц. | Эта привилегия включена в состав **Управление электронными сообщениями**. Эти полномочия, в свою очередь, включена в роль безопасности **Оператор электронных сообщений**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Касающиеся страны/региона нормативные требования, поддерживаемые функцией EM
 
 В следующей таблице приводятся сведения о касающихся страны/региона нормативных особенностях, поддерживаемых функцией EM.
@@ -66,10 +76,10 @@ ms.locfileid: "6768347"
 |-------------|--------------|------------------------|
 | Испания       | [Немедленное предоставление информации по НДС (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Венгрия     | [Интерактивная система выставления накладных](../localizations/emea-hun-online-invoicing.md) | |
-| Великобритания | [Переход к цифровым налогам (MTD) — отправка отчета по НДС](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: цифровой налог в Великобритании — Декларация НДС в Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Соединенное Королевство | [Переход к цифровым налогам (MTD) — отправка отчета по НДС](../localizations/emea-gbr-mtd-vat-integration.md) | [Финансы и операции: цифровой налог в Великобритании — декларация по НДС в Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Литва   | [Отчеты i.SAF](../localizations/emea-ltu-isaf.md) | |
 | Польша      | [Декларация по НДС с ККМ (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: регистры аудита НДС SAF/JPK](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
-| Голландия | [Декларация НДС для Нидерландов](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Нидерланды | [Декларация НДС для Нидерландов](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | Чешская республика | [Декларация по НДС](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | Бразилия      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
 | Россия      | [Декларация по НДС](../localizations/rus-vat-declaration.md) | |
@@ -78,7 +88,13 @@ ms.locfileid: "6768347"
 | Россия      | [Декларация по налогу на имущество](../localizations/rus-assessed-tax-declaration.md) | |
 | Россия      | [Декларация по транспортному налогу](../localizations/rus-transport-tax-declaration.md) | |
 | Россия      | [Декларация по земельному налогу](../localizations/rus-land-tax-declaration.md) | |
-
+| Норвегия      | [Возврат НДС с прямой отправкой в Altinn](../localizations/emea-nor-vat-return.md) | [Новая функция возврата НДС с прямой отправкой в Altinn в Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Франция      | [Декларация по НДС (Франция)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Австрия     | [Декларация по НДС (Австрия)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Германия     | [Декларация НДС (Германия)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Нидерланды | [Декларация НДС для Нидерландов](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Швеция      | [Декларация по НДС (Швеция)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Швейцария | [Декларация по НДС (Швейцария)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

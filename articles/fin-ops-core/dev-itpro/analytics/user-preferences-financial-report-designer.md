@@ -1,6 +1,6 @@
 ---
 title: Пользовательские параметры в конструкторе финансовых отчетов
-description: В этой теме описывается, как настроить предпочтительные параметры пользователя для настройки взаимодействия в конструкторе финансовых отчетов и управления исходным входом в систему.
+description: В этой статье объясняется, как настроить предпочтительные параметры пользователя для индивидуальной настройки взаимодействия пользователя с конструктором финансовых отчетов и управления порядком первоначального входа в систему.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1f4c9bdde367044cfbf736c1aecbe0387031309318a7bf929f1b9ba2fd9368be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91fbe80bf52dc14e0c3e00f68d62192f04ef506b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903563"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>Пользовательские параметры в конструкторе финансовых отчетов
 

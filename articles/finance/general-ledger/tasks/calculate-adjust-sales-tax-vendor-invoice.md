@@ -1,6 +1,6 @@
 ---
 title: Расчет и корректировка налога по накладной поставщика
-description: В этом разделе объясняется, как скорректировать налог в счете-фактуре поставщика в Dynamics 365 Finance.
+description: В этой статье объясняется, как скорректировать налог в накладной поставщика в Dynamics 365 Finance.
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9a1093631688351d065d6b55bc65055b6f92d256
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868383"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Расчет и корректировка налога по накладной поставщика
 
 [!include [banner](../../includes/banner.md)]
 
-Эта тема объясняет, как скорректировать налог в счете-фактуре поставщика. Если в исходном документе-источнике отображаются суммы налога, отличные от рассчитанных, эти суммы можно изменить перед разноской. В этой задаче используется демонстрационная компания DEMF.
+Эта статья объясняет, как скорректировать налог в накладной поставщика. Если в исходном документе-источнике отображаются суммы налога, отличные от рассчитанных, эти суммы можно изменить перед разноской. В этой задаче используется демонстрационная компания DEMF.
 
 1. Перейдите в раздел **Расчеты с поставщиками > Накладные > Журнал накладных**.
 2. Выберите **Создать**.

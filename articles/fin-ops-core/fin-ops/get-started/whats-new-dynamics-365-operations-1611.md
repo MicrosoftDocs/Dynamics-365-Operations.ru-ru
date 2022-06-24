@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016 г.)
-description: В этой теме описываются новые и измененные компоненты Dynamics 365 for Operations версии 1611.
+description: В этой статье описываются новые или измененные функции в Dynamics 365 for Operations версии 1611.
 author: sericks007
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905034"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Operations версии 1611.
+В этой статье описываются новые или измененные функции в Dynamics 365 for Operations версии 1611.
 
 ## <a name="cost-accounting"></a>Учет затрат
 

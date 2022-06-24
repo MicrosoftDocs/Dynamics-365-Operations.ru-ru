@@ -1,6 +1,6 @@
 ---
 title: Запрос на отпуск
-description: В этой теме представлены сведения и пример запроса для сущности запроса отпуска в Dynamics 365 Human Resources.
+description: В этой статье представлены сведения и пример запроса для сущности "Запрос на отпуск" в Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f14c143a59553786fe85284c128cec80905810b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47a652d9b7dec15124fc8b62d3c7d0402f88e093
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899682"
 ---
 # <a name="leave-request"></a>Запрос на отпуск
 
@@ -27,9 +27,9 @@ ms.locfileid: "8067687"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность запроса отпуска для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Запрос на отпуск" для Dynamics 365 Human Resources.
 
-### <a name="description"></a>описание
+### <a name="description"></a>Описание
 
 Эта сущность предоставляет информацию для запроса отпуска.
 

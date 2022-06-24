@@ -1,6 +1,6 @@
 ---
 title: Сальдо отпуска
-description: В этой теме представлены сведения и пример запроса для сущности сальдо отпуска в Dynamics 365 Human Resources.
+description: В этой статье представлены сведения и пример запроса для сущности "Сальдо отпуска" в Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d26d9624ae8d99b208f77d12137262983499c51
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4792c316b8b7af3e86b097029eb281af4a10d113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899711"
 ---
 # <a name="leave-balance"></a>Сальдо отпуска
 
@@ -27,9 +27,9 @@ ms.locfileid: "8064824"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность сальдо отпуска для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Сальдо отпуска" для Dynamics 365 Human Resources.
 
-### <a name="description"></a>описание
+### <a name="description"></a>Описание
 
 Эта сущность обеспечивает сальдо отпусков для данного сотрудника по типу отпуска.
 

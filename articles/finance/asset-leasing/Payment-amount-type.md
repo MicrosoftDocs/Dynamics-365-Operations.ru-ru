@@ -1,6 +1,6 @@
 ---
 title: Добавление типов сумм платежей
-description: В этом разделе объясняется, как настраивать типы сумм платежей в аренде активов.
+description: В этой статье объясняется, как настраивать типы сумм платежей в модуле "Аренда активов".
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 037afa458277a3a07bcb937c6ec4d961d0dd5ca9
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 03fc903e6cfe78ef2fed7e3a0744a8f809f6892d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891619"
 ---
 # <a name="add-payment-amount-types"></a>Добавление типов сумм платежей
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как настраивать типы сумм платежей в аренде активов. Таким образом можно детализировать сумму платежа по аренде вместо сложения суммы общей суммы в строках графика платежей.
+В этой статье описывается, как настраивать типы сумм платежей в модуле "Аренда активов". Таким образом можно детализировать сумму платежа по аренде вместо сложения суммы общей суммы в строках графика платежей.
 
 Чтобы добавить типы сумм платежей, выполните следующие действия.
 

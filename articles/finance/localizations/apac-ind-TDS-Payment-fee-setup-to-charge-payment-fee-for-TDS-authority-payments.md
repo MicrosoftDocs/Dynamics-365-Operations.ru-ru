@@ -1,6 +1,6 @@
 ---
 title: Настройка сборов по платежам для платежей налоговому органу TDS
-description: В этой теме объясняется, как настроить сборы по платежам, взимаемые для платежей органу по налогу, удержанному в источнике (TDS).
+description: В этой статье объясняется, как настроить сборы по платежам, взимаемые для платежей органу по налогу, удерживаемому у источника (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 290606201eff7aee985983603e7895a8a59233ac
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 598d4c07d9f96fb5ae58c3929bab353a6d57615f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845229"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Настройка сборов по платежам для платежей налоговому органу TDS
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить сборы по платежам, взимаемые для платежей органу по налогу, удержанному в источнике (TDS).
+В этой статье объясняется, как настроить сборы по платежам, взимаемые для платежей органу по налогу, удерживаемому у источника (TDS).
 
 1. Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Сборы по платежам**.
 

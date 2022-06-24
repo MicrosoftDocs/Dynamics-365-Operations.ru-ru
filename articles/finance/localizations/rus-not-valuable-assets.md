@@ -1,6 +1,6 @@
 ---
-title: Малоценные основные средства (МОС) (Россия)
-description: В этом разделе содержатся сведения о ведении малоценных основных средств (МОС) для России.
+title: Малоценные основные средства (NVFA) (Россия)
+description: В данной статье представлена информация о том, как вести малоценные основные средства (МОС) для России.
 author: ShylaThompson
 ms.date: 11/06/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9344966cf41f2ef250ea4d96faff2c0519690e5a5c32bf656cb4cb620aa78418
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80deb3f66dcf24d12f0728dadd78c10beab30d34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865452"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 

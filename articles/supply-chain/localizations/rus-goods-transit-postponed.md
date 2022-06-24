@@ -1,6 +1,6 @@
 ---
 title: Регистрация товаров, отгруженных клиентам (Россия)
-description: В этой теме объясняется, как зарегистрировать отгрузку и передачу прав собственности для товаров, которые транспортируются клиенту.
+description: В этой статье объясняется, как зарегистрировать отгрузку и передачу прав собственности для товаров, которые транспортируются клиенту.
 author: kfend
 ms.date: 04/24/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 13918a227f24b078b5ff45395e79a64c08094a412bbfc7cf0c96f5e9b774503a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dffc08c9754aaa4574c689a6909e165a037ad67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875350"
 ---
 # <a name="register-goods-shipped-to-customers-russia"></a>Регистрация товаров, отгруженных клиентам (Россия)
 

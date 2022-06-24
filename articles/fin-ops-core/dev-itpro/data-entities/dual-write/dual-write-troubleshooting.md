@@ -1,6 +1,6 @@
 ---
 title: Общие рекомендации по устранению неполадок
-description: Эта тема предоставляет общую информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse.
+description: Эта статья предоставляет общую информацию по устранению неполадок для интеграции двойной записи между приложениями для управления финансами и операциями и Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853665"
 ---
 # <a name="general-troubleshooting"></a>Общие рекомендации по устранению неполадок
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614105"
 
 
 
-Эта тема предоставляет общую информацию по устранению неполадок для интеграции войной записи между приложениями Финансы и операции и Dataverse.
+Эта статья предоставляет общую информацию по устранению неполадок для интеграции двойной записи между приложениями для управления финансами и операциями и Dataverse.
 
 > [!IMPORTANT]
-> Для некоторых вопросов, связанных с этим разделом, может потребоваться роль системного администратора или учетные данные администратора клиента Microsoft Azure Active Directory (Azure AD). В разделе для каждого выпуска объясняется, требуются ли конкретная роль или учетные данные.
+> Для устранения некоторых проблем, рассмотренных в этой статье, может потребоваться роль системного администратора или учетные данные администратора клиента Microsoft Azure Active Directory (Azure AD). В разделе для каждого выпуска объясняется, требуются ли конкретная роль или учетные данные.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Включение и просмотр журнала трассировки подключаемого модуля в Dataverse для просмотра подробных сведений об ошибке
 

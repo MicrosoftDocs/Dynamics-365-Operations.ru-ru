@@ -1,6 +1,6 @@
 ---
 title: Рекомендуемые методики для профилей разноски
-description: В этой теме описываются рекомендуемые методики настройки профилей разноски.
+description: В этой статье описываются рекомендуемые методики настройки профилей разноски.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 211dc42b80089eb1f59a435f09d6e9d9f956736b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: fb0e321f447b78b88c065e52bb7fad1c445e47b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849912"
 ---
 # <a name="recommended-practices-for-posting-profiles"></a>Рекомендуемые методики для профилей разноски
 
-Существует несколько рекомендаций, которые следует соблюдать при настройке профилей разноски во всей системе. В этой теме описываются различные сценарии и соответствующие рекомендуемые подходы.
+Существует несколько рекомендаций, которые следует соблюдать при настройке профилей разноски во всей системе. В этой статье описываются различные сценарии и соответствующие рекомендуемые методики.
 
 ## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Установка флага "Не разрешать ввод вручную"
 

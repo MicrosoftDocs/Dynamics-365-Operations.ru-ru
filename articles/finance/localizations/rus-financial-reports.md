@@ -1,6 +1,6 @@
 ---
 title: Финансовая отчетность (Россия)
-description: В данном разделе содержится информация о финансовой отчетности для России.
+description: В этой статье содержится информация о финансовой отчетности для России.
 author: Anasyash
 ms.date: 07/19/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8865ef30443485a8e8329f4581b8aeb535eaf1e53caae81fcf7f660cc01fc0df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14c93c4ef001332ca9a71688faa3c512fa286c60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858321"
 ---
 # <a name="financial-reporting-russia"></a>Финансовая отчетность (Россия)
 

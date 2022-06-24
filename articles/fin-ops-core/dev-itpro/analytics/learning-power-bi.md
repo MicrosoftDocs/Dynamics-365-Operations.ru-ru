@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Обучение"
-description: В этом разделе описывается содержимое Power BI "Обучение".
+description: В этой статье описывается содержимое Power BI "Обучение".
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05146eef92fa0ef973df832aa3431ec32ea0c297
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847321"
 ---
 # <a name="learning-power-bi-content"></a>Содержимое Power BI "Обучение"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое **Обучение** для Microsoft Power BI.
+В этой статье описывается содержимое Microsoft Power BI **Обучение**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, включенные в содержимое Power BI
 

@@ -1,6 +1,6 @@
 ---
-title: Вопросы и ответы по workflow-процессу
-description: В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
+title: Вопросы и ответы по workflow-процессам
+description: В этой статье содержатся ответы на часто задаваемые вопросы о системе workflow-процессов.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,21 +12,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896589"
 ---
-# <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
+# <a name="workflow-faq"></a>Вопросы и ответы по workflow-процессам
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
+В этой статье содержатся ответы на часто задаваемые вопросы о системе workflow-процессов.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Почему поступает несколько уведомлений при отклонении рабочего элемента?
 При отклонении рабочего элемента этот рабочий элемент завершается как отклоненный. Создается другой рабочий элемент и назначается инициатору. Это означает, что имеется уведомление инициатору для отклоненного рабочего элемента, а также отдельное уведомление для пользователя, которому назначен новый рабочий элемент "запрошено изменение". 

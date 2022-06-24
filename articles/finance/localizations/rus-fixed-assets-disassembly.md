@@ -1,6 +1,6 @@
 ---
-title: Частичная разборка (ликвидация) ОС
-description: В этом разделе содержатся сведения о частичной разборке или ликвидации основных средств для России.
+title: Частичная разборка ОС (ликвидация)
+description: В этой статье содержатся сведения о частичной разборке или ликвидации основных средств для России.
 author: v-oloski
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4daeef55349adc3786331db8cb7f0f95088a44c4fda9d6cfe3d9e879087c6458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5e98c18aa7be32ea5a31496934ca61e6783d1ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894728"
 ---
 # <a name="partial-fixed-asset-disassembly-liquidation"></a>Частичная разборка ОС (ликвидация)
 

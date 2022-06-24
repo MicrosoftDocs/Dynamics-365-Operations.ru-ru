@@ -1,6 +1,6 @@
 ---
 title: Интеграция с LinkedIn Talent Hub
-description: В этом разделе объясняется, как настроить интеграцию между Microsoft Dynamics 365 Human Resources и LinkedIn Talent Hub.
+description: В этой статье объясняется, как настроить интеграцию между Microsoft Dynamics 365 Human Resources и LinkedIn Talent Hub.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887758"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Интеграция с LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Интеграция между Dynamics 365 Human Resources и LinkedIn Talent Hub, описанная в этом разделе, была отменена 31 декабря 2021. После этой даты служба интеграции станет недоступна. Организации, еще не использующие службу интеграции, не смогут реализовать эту службу до выбытия.
+> Интеграция между Dynamics 365 Human Resources и LinkedIn Talent Hub, описанная в этой статье, была прекращена 31 декабря 2021. После этой даты служба интеграции станет недоступна. Организации, еще не использующие службу интеграции, не смогут реализовать эту службу до выбытия.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) является платформой системы отслеживания кандидатов (АТС). Оно позволяет искать, контролировать и нанимать сотрудников в одном месте. Интегрировав Microsoft Dynamics 365 Human Resources с LinkedIn Talent Hub, можно легко создавать записи о сотрудниках в Human Resources для претендентов, которые были приняты на должность.
 

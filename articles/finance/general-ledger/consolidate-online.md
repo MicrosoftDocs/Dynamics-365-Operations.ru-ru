@@ -1,6 +1,6 @@
 ---
 title: Интерактивные финансовые консолидации
-description: В этой теме описываются финансовые консолидации в главной книге, выполняемые в интерактивном режиме.
+description: В этой статье описываются финансовые консолидации, выполняемые в главной книге интерактивно.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848559"
 ---
 # <a name="online-financial-consolidations"></a>Интерактивные финансовые консолидации
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются финансовые консолидации в главной книге, выполняемые в интерактивном режиме. Прежде чем читать эту тему, ознакомьтесь с темой [Обзор финансовых консолидаций и пересчета валют](financial-consolidations-currency-translation.md).
+В этой статье описываются финансовые консолидации, выполняемые в главной книге интерактивно. Прежде чем читать эту статью, ознакомьтесь со статьей [Обзор финансовых консолидаций и пересчета валют](financial-consolidations-currency-translation.md).
 
 По завершении настройки вы должны ввести сведения о консолидации на странице **Консолидировать [Интерактивно]**. Закончив, вы можете нажать кнопку **ОК** или **Пакет** для обработки консолидации.
 
@@ -90,7 +90,7 @@ ms.locfileid: "8716729"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-Дополнительные сведения о консолидации и пересчете валют см. в родительской теме этой темы: [Обзор финансовых консолидаций и пересчета валют](./financial-consolidations-currency-translation.md).
+Дополнительные сведения о консолидации и пересчете валют см. в родительской статье этой статьи: [Обзор финансовых консолидаций и пересчета валют](./financial-consolidations-currency-translation.md).
 
 Сведения о сценариях, в которых может понадобиться формировать консолидированные финансовые отчеты, см. в разделе [Формирование консолидированных финансовых отчетов](./generating-consolidated-financial-statements.md).
 

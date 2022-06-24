@@ -1,6 +1,6 @@
 ---
 title: Реализация программы льгот сотрудника
-description: В этой теме показано, как создать элементы льгот, которые будут использоваться при создании новой льготы.
+description: В этой статье показано, как создать элементы льгот, которые будут использоваться при создании новой льготы.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2ca6712346295454fd0d516816c596d4b010abb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc063c42ba0b627eb4711b44533c745925d718af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877840"
 ---
 # <a name="deliver-employee-benefits-program"></a>Реализация программы льгот сотрудника
 
@@ -26,7 +26,7 @@ ms.locfileid: "8688298"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме показано, как создать элементы льгот, которые будут использоваться при создании новой льготы. В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта задача предназначена для менеджера по компенсациям и льготам.
+В этой статье показано, как создать элементы льгот, которые будут использоваться при создании новой льготы. В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта задача предназначена для менеджера по компенсациям и льготам.
 
 
 ## <a name="create-benefit-elements"></a>Создание элементов льготы

@@ -1,6 +1,6 @@
 ---
 title: Регистрация проводок со ссылками на договоры
-description: В этой разделе представлены сведения о регистрации проводок договоров.
+description: В этой статье представлены сведения о регистрации проводок договоров.
 author: v-nadyuz
 ms.date: 02/06/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 426d311ae438dddee948cb5b7a0220942d679dc131e970ddc8b7e99f4287918e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d748828760c19f0f1b3d8d3ca8bde47ae4bce75
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875886"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]
@@ -106,7 +106,7 @@ ms.locfileid: "6744919"
 
 1. Перейдите в раздел **Расчеты с поставщиками \> Поставщики \> Все поставщики**.
 2. На вкладке **Накладная** в разделе **Сопоставление** выберите **Сопоставление фактур с оплатами**.
-3. Сопоставление проводок в контексте договоров, как описано в предыдущем разделе данной темы, [Сопоставьте фактуры для клиента в контексте договоров](#settle-factures-customer-agreements).
+3. Сопоставьте проводки в контексте договоров, как описано в предыдущем разделе [Сопоставьте фактуры для клиента в контексте договоров](#settle-factures-customer-agreements) данной статьи.
 
 ### <a name="periodically-settle-sales-or-purchase-transactions"></a>Периодическое сопоставление проводок по продажам или покупкам
 

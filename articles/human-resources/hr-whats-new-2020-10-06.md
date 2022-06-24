@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (6 октября 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 6 октября 2020 года.
+description: В этой статье описываются новые или измененные функции в Microsoft Dynamics 365 Human Resources от 6 октября 2020 года.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887728"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (6 октября 2020 г.)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062987"
 
 
 
-В этой теме описываются новые, измененные и ожидающиеся компоненты в Dynamics 365 Human Resources. Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
+В этой статье описываются новые, измененные или ожидаемые в ближайшее время функции в Dynamics 365 Human Resources. Дополнительные сведения о нашем процессе обновления и графике см. в разделе [Процесс обновления](hr-admin-setup-update-process.md).
 
 Дополнительные сведения о новых функциях и ожидаемых датах общей доступности см. в разделе [Обзор Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ ms.locfileid: "8062987"
 Этот выпуск содержит следующие исправления ошибок.
 
 >[!NOTE]
-> Наша цель — предоставить эту информацию как можно скорее. Могут быть обновления к этому разделу для включения исправлений ошибок, которые были сделаны в сборке после первоначальной публикации этого раздела.
+> Наша цель — предоставить эту информацию как можно скорее. Могут быть обновления к этой статье, включающие исправления ошибок, которые были сделаны в сборке после первоначальной публикации этой статьи.
 
-| Номер проблемы | Расход | описание |
+| Номер проблемы | Проблема | Описание |
 | --- | --- | --- |
 | 448806 | **Тип идентификатора по умолчанию** выполняет экспорт как **RecID** в параметрах HCM | Это изменение для сущности параметров Human Resources добавляет дополнительный столбец, отображающий **Тип идентификатора по умолчанию**. |
 | 492923 | Записи задач не сохраняются в Lifecycle Services (LCS) | Записи задач можно теперь сохранить в LCS. |

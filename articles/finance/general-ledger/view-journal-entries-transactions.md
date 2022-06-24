@@ -1,6 +1,6 @@
 ---
 title: Просмотр записей журнала и проводок
-description: В этой теме описываются различные методы, которыми можно просмотреть записи и проводки в журнале.
+description: Эта статья описывает различные методы, которыми можно посмотреть записи и проводки в журнале
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907873"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Просмотр записей журнала и проводок
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются различные методы, которыми можно просмотреть записи и проводки в журнале. 
+Эта статья описывает различные методы, которыми можно посмотреть записи и проводки в журнале 
 
 Пользователи, которые хотят просмотреть журналы и проводки, имеют несколько способов получить доступ к данным. Они могут использовать страницы запросов, которые предлагают возможность детализации, или различные параметры отчетов в главной книге.
 

@@ -1,6 +1,6 @@
 ---
 title: Управление Предоплатами
-description: В этом разделе представлены сведения об оплате налога на добавленную стоимость (НДС) при получении клиентом предоплат.
+description: В этой статье представлены сведения об уплате налога на добавленную стоимость (НДС) при получении предоплаты от клиентов.
 author: v-nadyuz
 ms.date: 10/07/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 707ad13fd7f35f844ca36ad21ef7a1ee8196a02f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 6939ee9f16e55beb450fcbb51224750dfa495046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906208"
 ---
 # <a name="prepayments-management"></a>Управление Предоплатами
 [!include [banner](../includes/banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "8566115"
 ## <a name="setup"></a>Настройка
 ### <a name="set-up-a-posting-profile-for-prepayments"></a>Настройка профиля разноски для предоплат
 
-Чтобы создать профиль разноски для предоплат, следуйте процедуре, описанной в разделе [Профили разноски по клиенту](../accounts-receivable/customer-posting-profiles.md).
+Чтобы создать профиль разноски для предоплат, следуйте процедуре, описанной в статье [Профили разноски по клиенту](../accounts-receivable/customer-posting-profiles.md).
 
 > [!NOTE]
 > Для удовлетворения требований российской законодательства следует использовать следующие настройки:

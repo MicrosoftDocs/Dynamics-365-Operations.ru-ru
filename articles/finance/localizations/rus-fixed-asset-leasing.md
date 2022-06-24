@@ -1,6 +1,6 @@
 ---
 title: Создание проводки по аренде и окончании аренды основных средств (Россия)
-description: В этом разделе описан порядок аренды основных средств и последующего возврат переданного в аренду средства в Microsoft Dynamics 365 Finance в России.
+description: В этой статье описан порядок передачи в аренду основного средства и последующего возврата арендованного актива в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
 ms.date: 07/28/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe8f2ce54245148e3d7240915475bf6dfa4cded9d7e58ffd2205805069e6a4d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a95a5a711c869ba0fac9b8be862850da02c3b12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875889"
 ---
 # <a name="create-a-fixed-asset-lease-and-a-return-from-lease-transaction-russia"></a>Создание проводки по аренде и окончании аренды основных средств (Россия)
 

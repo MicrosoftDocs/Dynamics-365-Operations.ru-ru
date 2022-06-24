@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a41d8dfefe8918c4944d7febda05bd7b5b072407
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869846"
 ---
 # <a name="request-a-leave-of-absence"></a>Запрос на отсутствие
 
 >[!Important]
->Функции, перечисленные в этом разделе, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
+>Функции, перечисленные в этой статье, в настоящее время доступны для клиентов в отдельной версии Dynamics 365 Human Resources. Некоторые или все функции будут доступны в составе будущего выпуска в инфраструктуре Finance после выпуска Finance 10.0.26.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

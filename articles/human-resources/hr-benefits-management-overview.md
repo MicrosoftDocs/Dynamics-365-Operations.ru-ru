@@ -1,6 +1,6 @@
 ---
 title: Обзор управления льготами
-description: В этой теме приведен обзор функции управления льготами в Dynamics 365 Human Resources.
+description: В этой статье приведен обзор функции "Управление льготами" в Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901157"
 ---
 # <a name="benefits-management-overview"></a>Обзор управления льготами
 
@@ -44,7 +44,7 @@ ms.locfileid: "8687201"
 
 ## <a name="enable-benefits-management"></a>Включение управления льготами
 
-В этой теме описывается, как включить функции в Human Resources. Она также объясняет, какие существующие функции в Human Resources заменяются управлением льготами и отключаются после включения управления льготами.
+В этой статье описывается, как включить функции в Human Resources. Она также объясняет, какие существующие функции в Human Resources заменяются управлением льготами и отключаются после включения управления льготами.
 
 > [!IMPORTANT]
 > После включения управления льготами в **Производственной** среде его нельзя отключить. Рекомендуется включить и проверить управление льготами в среде **Песочница** перед ее включением в **Производственной** среде. Существуют значительные различия между устаревшими функциональными возможностями льгот и новой функциональностью управления льготами, которые требуют дополнительной настройки и должны быть протестированы перед тем, как они будут помещены в производство.

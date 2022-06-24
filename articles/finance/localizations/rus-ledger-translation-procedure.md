@@ -1,6 +1,6 @@
 ---
 title: Трансляция счетов (Россия)
-description: В этой теме приводятся сведения об использовании трансляции для перемещения бухгалтерских проводок из одной компании в другую.
+description: В этой статье приводятся сведения об использовании трансляции для перемещения бухгалтерских проводок из одной компании в другую.
 author: anasyash
 ms.date: 10/02/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 870fddd21670d731e5a8a2590a0b1f95b77438ff66c0743ae50efcc5d18bf448
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 178c673b34872b89ff9d0ba14762ec71320b4a91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880587"
 ---
 # <a name="ledger-translation-russia"></a>Трансляция счетов (Россия)
 

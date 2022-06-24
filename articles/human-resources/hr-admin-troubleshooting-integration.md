@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы интеграции с Finance
-description: В этой теме объясняется, какие данные синхронизируются в интеграции Human Resources и Finance.
+description: В этой статье объясняется, какие данные синхронизируются в интеграции Human Resources и Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879289"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "8694014"
 
 
 
-В этом разделе содержатся ответы на часто задаваемые вопросы, связанные с тем, какие данные синхронизируются в случае интеграции Dynamics 365 Human Resources с Dynamics 365 Finance.
+В этой статье содержатся ответы на часто задаваемые вопросы о том, какие данные синхронизируются в случае интеграции Dynamics 365 Human Resources с Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Можно ли редактировать пользователя приложения Dynamics 365 Talent в Power Apps?
 

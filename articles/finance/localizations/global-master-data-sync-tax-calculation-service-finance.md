@@ -1,6 +1,6 @@
 ---
 title: Перенос параметров налогов из службы расчета налогов в Dynamics 365 Finance
-description: В этой теме объясняется, как синхронизировать основные данные настройки налогов из службы расчета налогов в Microsoft Dynamics 365 Finance.
+description: В этой статье объясняется, как передать справочник настройки налогов из службы расчета налогов в Microsoft Dynamics 365 Finance в целях синхронизации.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853167"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Перенос параметров налогов из службы расчета налогов в Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как синхронизировать основные данные настройки налогов из службы расчета налогов в Microsoft Dynamics 365 Finance.
+В этой статье объясняется, как передать справочник настройки налогов из службы расчета налогов в Microsoft Dynamics 365 Finance в целях синхронизации.
 
 После выполнения необходимых шагов настройки в разделе [Начала работы с расчетом налогов](global-get-started-with-tax-calculation-service.md) следующие данные настройки налога автоматически синхронизируются из службы расчета налогов в Finance.
 

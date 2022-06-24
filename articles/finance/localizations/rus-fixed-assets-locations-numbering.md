@@ -1,6 +1,6 @@
 ---
 title: Настройка расположений основных средств и нумерация (Россия)
-description: В этом разделе описывается настройка расположения и нумерации для основного средства в России.
+description: В этой статье объясняется, как настроить местоположения и нумерацию для основного средства в России.
 author: anasyash
 ms.date: 05/02/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ea2d7fda383c6f729d71bdb0cbf117d10c0cf060
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5698b9d72c3c2a6729220122d1a7458751446002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896202"
 ---
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 

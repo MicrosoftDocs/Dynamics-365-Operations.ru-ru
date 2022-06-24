@@ -1,6 +1,6 @@
 ---
 title: Настройка контроля аналитик для сопоставлений (Россия)
-description: В этой теме описывается настройка контроля аналитик для сопоставлений в России.
+description: В этой статье объясняется, как настроить управление аналитиками для сопоставлений в России.
 author: ShylaThompson
 ms.date: 10/28/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ec59aca2ca07c2581c3991eeb6b2125e644bdd13ec405076b6659f0741a4db91
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4232a8ac4eea6cad0a652e480a6cff9177d1a5f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887825"
 ---
 # <a name="set-up-dimension-control-for-settlements-russia"></a>Настройка контроля аналитик для сопоставлений (Россия)
 [!include [banner](../includes/banner.md)]

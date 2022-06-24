@@ -1,6 +1,6 @@
 ---
 title: Удаление решений оркестрации приложений с двойной записью
-description: В этой теме описан порядок удаления решений оркестрации приложений с двойной записью.
+description: В этой статье описан порядок удаления решений оркестрации приложений с двойной записью.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870384"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Удаление решений оркестрации приложений с двойной записью
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме описан порядок удаления решений оркестрации приложений с двойной записью.
+В этой статье описан порядок удаления решений оркестрации приложений с двойной записью.
 
 Некоторые клиенты непреднамеренно устанавливают пакет оркестрации приложений с двойной записью, который устанавливает несколько решений в их среду Microsoft Dataverse. Установка лишних решений в пакете может привести к неожиданным и нежелательным проблемам.
 

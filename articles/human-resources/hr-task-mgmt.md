@@ -1,6 +1,6 @@
 ---
 title: Управление задачами
-description: В этой теме описываются функции управления задачами, доступные в Microsoft Dynamics 365 Human Resources.
+description: В этой статье описываются функции управления задачами, доступные в Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897874"
 ---
 # <a name="task-management"></a>Управление задачами
 

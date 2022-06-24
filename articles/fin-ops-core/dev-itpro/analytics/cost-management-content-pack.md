@@ -1,6 +1,6 @@
 ---
 title: Пакет содержимого Power BI для управления затратами
-description: В этой теме описывается, что входит в содержимое Power BI для управления затратами.
+description: В этой статье описывается, что входит в содержимое Power BI "Управление затратами".
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876873"
 ---
 # <a name="cost-management-power-bi-content"></a>Пакет содержимого Power BI для управления затратами
 
@@ -168,7 +168,7 @@ ms.locfileid: "7752648"
 
 Ключевые агрегированные измерения следующих объектов используются в качестве основы для содержимого Power BI.
 
-| Объект                          | Ключевые сводные измерения | Источник данных для Finance and Operations | Поле               |
+| Объект                          | Ключевые сводные измерения | Источником данных является Finance and Operations | Поле               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Сумма, руб.                     | CostObjectStatementCache               | Сумма, руб.              |
 | CostObjectStatementCacheMonthly | Количество                   | CostObjectStatementCache               | Кл                 |

@@ -1,6 +1,6 @@
 ---
 title: Создание основного средства
-description: В этой теме объясняется, как создать новую запись основного средства на странице списка основных средств.
+description: В этой статье объясняется, как создать новую запись основного средства на странице списка основных средств.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868499"
 ---
 # <a name="create-a-fixed-asset"></a>Создание основного средства
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме объясняется, как создать новую запись основного средства на странице списка **Основные средства**.
+В этой статье объясняется, как создать новую запись основного средства на странице списка **Основное средство**.
 
 Номер актива назначается системой на основе номерной серии, назначенной группе основных средств. При использовании шаблона основных средств для импорта активов через надстройку Microsoft Excel или при использовании другого задания импорта система автоматически создает записи основных средств и увеличивает номер актива.
 

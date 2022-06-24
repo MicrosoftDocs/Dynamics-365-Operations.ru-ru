@@ -1,6 +1,6 @@
 ---
 title: Амортизация с уменьшаемым остатком в 175 %
-description: Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 175 %.
+description: Эта статья представляет обзор метода амортизации с уменьшаемым остатком в 175 %.
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870201"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 175 %
 
 [!include [banner](../includes/banner.md)]
 
-Эта тема представляет обзор метода амортизации с уменьшаемым остатком в 175 %.
+Эта статья представляет обзор метода амортизации с уменьшаемым остатком в 175 %.
 
 После настройки профиля амортизации ОС и выбора значения **Уменьшаемое сальдо в 175%** в поле **Метод** на странице **Профили амортизации** процент амортизации ОС, назначенных профилю амортизации, одинаков во все периоды амортизации. 
 

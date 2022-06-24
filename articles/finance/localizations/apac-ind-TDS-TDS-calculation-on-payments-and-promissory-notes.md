@@ -1,6 +1,6 @@
 ---
 title: Расчет TDS по платежам и простым векселям
-description: В этой теме приводятся справочные сведения о других проводках платежа, для которых рассчитывается налог, вычитаемый в источнике (TDS).
+description: В этой статье приводятся справочные сведения о других проводках по оплате, для которых рассчитывается налог, удерживаемый у источника (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906328"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>Расчет TDS по платежам и простым векселям
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приводятся справочные сведения о других проводках платежа, для которых рассчитывается налог, вычитаемый в источнике (TDS).
+В этой статье приводятся справочные сведения о других проводках по оплате, для которых рассчитывается налог, удерживаемый у источника (TDS).
 
 | Серийный номер | Тип проводки | Сумма проводки | Имя страницы и путь | Тип счета и тип корр. счета |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

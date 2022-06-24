@@ -1,6 +1,6 @@
 ---
 title: Настройка графиков оплаты с распределением TDS
-description: В этой теме объясняется, как настроить графики оплаты с распределением налогов, которые удерживаются в источнике (TDS).
+description: В этой статье объясняется, как настроить графики оплаты с выделением налога , удерживаемого у источника (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 63628e84da4e430df236f3afa89110b652110fcb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 48891c32f39b743ce26e265c5682dab28ecb4b27
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868322"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Настройка графиков оплаты с распределением TDS
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить графики оплаты с распределением налогов, которые удерживаются в источнике (TDS).
+В этой статье объясняется, как настроить графики оплаты с выделением налога , удерживаемого у источника (TDS).
 
 1. Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Графики платежей**.
 

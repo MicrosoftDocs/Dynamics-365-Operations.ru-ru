@@ -1,6 +1,6 @@
 ---
 title: Выбор технологии интеграции данных
-description: В этой теме приводятся сведения об интеграции с данными, управляемыми модулем Human Resources.
+description: В этой статье приводятся сведения об интеграции с данными, управляемыми модулем "Управление персоналом".
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887815"
 ---
 # <a name="choose-a-data-integration-technology"></a>Выбор технологии интеграции данных
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717149"
 
 
 
-В этой теме приводятся сведения об интеграции с данными, управляемыми модулем Dynamics 365 Human resources. В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
+В этой статье приводятся сведения об интеграции с данными, управляемыми модулем Dynamics 365 Human Resources ("Управление персоналом"). В нем описываются другие интеграционные технологии, которые помогут выбрать оптимальные технологии.
 
 ## <a name="data-integration-background"></a>Вводные сведения об интеграции данных
 

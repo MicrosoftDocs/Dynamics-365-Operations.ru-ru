@@ -1,6 +1,6 @@
 ---
 title: Добавить расположение и типы отношений субъектов
-description: В этом теме объясняется, как добавить новый тип местоположения и отношения субъектов.
+description: В этой статье объясняется, как добавить новое расположение и тип связи субъектов.
 author: ShivamPandey-msft
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 36c2c45c8f078abdc7e0bc40481a544491384245
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2aaf16fac658d26dc2d2a389fd5c1dbb9cbb7649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874764"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Добавить расположение и типы отношений субъектов 
 

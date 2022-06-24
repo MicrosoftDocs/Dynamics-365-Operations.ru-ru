@@ -1,6 +1,6 @@
 ---
 title: Амортизация ОС
-description: В этом разделе приводится обзор амортизации для основных средств.
+description: В этой статье приводится обзор амортизации для основных средств.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874533"
 ---
 # <a name="fixed-asset-depreciation"></a>Амортизация ОС
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-В этом разделе приводится обзор амортизации для основных средств.
+В этой статье приводится обзор амортизации для основных средств.
 
 Амортизация — это периодическая проводка, которая обычно уменьшает значение основных средств в балансовом отчете и учитывается в качестве расхода в счете прибыли и убытков. Поэтому, главный счет обычно используется для кредитования периодической амортизации в балансовом отчете. Корр. счет — это счет в части прибылей и убытков плана счетов.
 

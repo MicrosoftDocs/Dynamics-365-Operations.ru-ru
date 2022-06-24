@@ -1,6 +1,6 @@
 ---
 title: Отчеты по подотчетным лицам
-description: В этом разделе описываются отчеты по подотчетным лицам, которые доступны для России.
+description: В этой статье описываются отчеты по подотчетным лицам, которые доступны для России.
 author: ShylaThompson
 ms.date: 10/05/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: d5ed97db24048753fee2dbb683342cc2f3f4d5ae
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 2aba0fa7ca677c413db4f333beb90bbaaa4da8ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901197"
 ---
 # <a name="advance-holders-reports"></a>Отчеты по подотчетным лицам
 

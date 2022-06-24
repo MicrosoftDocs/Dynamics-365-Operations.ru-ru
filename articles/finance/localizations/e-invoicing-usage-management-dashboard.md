@@ -1,6 +1,6 @@
 ---
 title: Панель мониторинга управления использованием
-description: В этой теме объясняется, как использовать панель мониторинга управления использованием для отслеживания использования службы электронных накладных и поддержания соответствия требованиям.
+description: В этой статье объясняется, как использовать панель мониторинга "Управление использованием" для мониторинга использования службы электронного выставления накладных и поддержания соответствия требованиям.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875981"
 ---
 # <a name="usage-management-dashboard"></a>Панель мониторинга управления использованием
 
@@ -48,7 +48,7 @@ ms.locfileid: "6776482"
 
 - Организация: 
 
-    Подсчет суммируется по коду клиента вашей организации, независимо от числа экземпляров Microsoft Dynamics 365 Finance или Dynamics 365 Supply Chain Management или числа юридических лиц, в которых активирована служба электронных накладных.
+    Суммирование при расчете производится по идентификатору клиента вашей организации независимо от числа экземпляров Microsoft Dynamics 365 Finance или Dynamics 365 Supply Chain Management либо числа юридических лиц, для которых включена служба электронного выставления накладных.
 
 
 ## <a name="indicator-usage-per-month-export"></a>Индикатор: использование в месяц (экспорт)

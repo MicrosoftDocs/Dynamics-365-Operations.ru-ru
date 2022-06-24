@@ -1,6 +1,6 @@
 ---
 title: Зачет клиентов
-description: В этой теме описан порядок создания проводок возмещения для группы клиентов.
+description: В этом статье описан порядок создания проводок возмещения для группы клиентов.
 author: JodiChristiansen
 ms.date: 09/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d464dd23d70e1a340211eb83828550d807a543
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 892b089edb16ba560f588c086d37faafdf16958d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891792"
 ---
 # <a name="reimburse-customers"></a>Зачет клиентов
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описан порядок создания проводок возмещения для группы клиентов. Если клиент имеет кредитовое сальдо, можно возместить клиенту сумму сальдо. 
+В этом статье описан порядок создания проводок возмещения для группы клиентов. Если клиент имеет кредитовое сальдо, можно возместить клиенту сумму сальдо. 
 
 В следующей таблице показаны обязательные компоненты, которые должны быть подготовлены до начала работы.
 

@@ -1,6 +1,6 @@
 ---
 title: Навык в запросе по набору сотрудников
-description: В этом разделе описывается сущность навыка в запросе на набор сотрудников для Dynamics 365 Human Resources.
+description: В этой статье описывается сущность "Навык в запросе по набору сотрудников" для Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 245b9a1ff4f140b9288b79c70820204f3082568b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b17bbdfbc977112344302deada085681ceca9bb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856406"
 ---
 # <a name="recruiting-request-skill"></a>Навык в запросе по набору сотрудников
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068617"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается сущность навыка в запросе на набор сотрудников для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Навык в запросе по набору сотрудников" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_hcmrecruitingrequestskillentity
 
@@ -60,7 +60,7 @@ ms.locfileid: "8068617"
 
 | Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
 | --- | --- | --- |
-| **Код сущности навыка запроса на набор персонала**<br>mshr_hcmrecruitingrequestskillentityid<br>*GUID* | Только для чтения<br>Требуется | Создаваемый системой уникальный идентификатор для записи **Навык запроса на набор сотрудников**. |
+| **Идентификатор сущности "Навык в запросе по набору сотрудников"**<br>mshr_hcmrecruitingrequestskillentityid<br>*GUID* | Только для чтения<br>Требуется | Создаваемый системой уникальный идентификатор для записи **Навык запроса на набор сотрудников**. |
 | **ИД запроса на набор сотрудников**<br>mshr_recruitingrequestid<br>*Строка* | Однократная запись<br>Требуется | Уникальный идентификатор связанного запроса по набору сотрудников, доступный для чтения пользователем. |
 | **Значение ИД запроса на набор сотрудников**<br>_mshr_fk_recruitingrequest_id_value<br>*GUID* | Только для чтения<br>Требуется<br> Внешний ключ: mshr_hcmrecruitingrequestentityid сущности mshr_hcmrecruitingrequestentity | Создаваемый системой уникальный идентификатор связанного запроса на набор сотрудников. |
 | **ИД навыка**<br>mshr_skillid<br>*Строка*<br> | Однократная запись<br>Требуется | Уникальный идентификатор требуемого навыка, доступный для чтения пользователем. |

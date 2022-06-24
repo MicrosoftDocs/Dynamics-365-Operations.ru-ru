@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Менеджер по методикам"
-description: В этом разделе описывается, что входит в содержимое Power BI "Менеджер по методикам".
+description: В этой статье описывается, что входит в содержимое Power BI "Менеджер по методикам".
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898997"
 ---
 # <a name="practice-manager-power-bi-content"></a>Содержимое Power BI "Менеджер по методикам"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, что входит в содержимое **Менеджер по методикам** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
+В этой статье описывается, что входит в содержимое Microsoft Power BI **Менеджер по методикам**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 

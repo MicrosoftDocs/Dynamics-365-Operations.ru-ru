@@ -1,6 +1,6 @@
 ---
 title: Настройка и создание договоров
-description: В этой теме приводятся сведения о создании договоров покупки и продажи.
+description: В этой статье приводятся сведения о создании договоров покупки и продажи.
 author: v-nadyuz
 ms.date: 02/05/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 483b2df0d9f9cf73e60c69eb55a8f401aa35f734e2c3c23efd8ff78a85f3ac11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e7ddba5a0387b1a86cee275dddc05fcace4e8f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853131"
 ---
 # <a name="set-up-and-create-agreements"></a>Настройка и создание договоров
 [!include [banner](../includes/banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "6722648"
 ## <a name="create-purchase-agreement-classifications"></a>Создание классификаций договоров покупки
 
 1. Перейдите в раздел **Закупки и источники** \> **Настройка** \> **Классификация договоров покупки**.
-2. Укажите сведения, как описано в предыдущем разделе данной темы, [Создание классификаций договоров продажи](#create-sales-agreement-classifications).
+2. Укажите сведения, как описано в предыдущем разделе [Создание классификаций договоров продажи](#create-sales-agreement-classifications) данной статьи.
 
 ![Страница классификаций договоров покупки.](media/2_Purchase_agreement_classifications.png)
 
@@ -141,7 +141,7 @@ ms.locfileid: "6722648"
 
     ![Диалоговое окно создания классификаций договоров покупки.](media/9_Create_purchase_agreement.png)
 
-5. На странице **Договоры покупки** укажите сведения, как описано в разделе [Создание договора продажи](#create-sales-agreement) ранее в этой теме.
+5. На странице **Договоры покупки** укажите сведения, как описано в разделе [Создание договора продажи](#create-sales-agreement) ранее в этой статье.
 
 ## <a name="set-up-agreement-dimension-control-for-settlements"></a>Настройка контроля аналитик договоров для сопоставлений
 

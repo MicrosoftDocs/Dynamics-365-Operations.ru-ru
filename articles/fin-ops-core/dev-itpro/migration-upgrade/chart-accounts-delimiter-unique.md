@@ -1,6 +1,6 @@
 ---
 title: Настройка разделителя плана счетов как уникального
-description: В этой теме объясняется, как не допускается одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя.
+description: В этой статье объясняется, что не допускается использовать одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя.
 author: panolte
 ms.date: 04/13/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6081a62077f1fc6b6920991ed6faae667c25a47c
-ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
+ms.openlocfilehash: aa0092f65461b6ebeea6649f48c0cf1c07cc936d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8573628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866265"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Настройка разделителя плана счетов как уникального
 

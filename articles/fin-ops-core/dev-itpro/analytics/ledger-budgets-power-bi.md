@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Факт/Бюджет"
-description: В этой теме описывается содержимое Power BI "Факт/Бюджет". В нем объясняется, как получить доступ к отчетам, и представляются сведения о модели данных.
+description: В этой статье описывается содержимое Power BI "Факт./бюджет.". В нем объясняется, как получить доступ к отчетам, и представляются сведения о модели данных.
 author: panolte
 ms.date: 12/18/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff57d052b66103ad716ad8d55afb4fcb095d2c02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847292"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Содержимое Power BI "Факт/Бюджет"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается содержимое **Факт/Бюджет** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой статье описывается содержимое Microsoft Power BI **"Факт./бюджет."**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 

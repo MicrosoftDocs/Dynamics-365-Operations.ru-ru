@@ -1,6 +1,6 @@
 ---
 title: Обзор создания бизнес-правил
-description: В этом разделе объясняется, как создать workflow-процесс.
+description: В этой статье объясняется, как создать workflow-процесс.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864496"
 ---
 # <a name="create-workflows-overview"></a>Обзор создания бизнес-правил
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067966"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-В этом разделе объясняется, как создать workflow-процесс.
+В этой статье объясняется, как создать workflow-процесс.
 
 ## <a name="open-the-workflow-editor"></a>Откройте редактор workflow-процесса
 
@@ -56,7 +56,7 @@ ms.locfileid: "8067966"
 
 1. Щелкните холст, чтобы убедиться в том, что ни один элемент workflow-процесс не выбран.
 2. Щелкните **Свойства**, чтобы открыть страницу **Свойства** для workflow-процесса.
-3. Следуйте процедурам из раздела [Настроить свойства workflow-процесса](configure-workflow-properties.md).
+3. Следуйте процедурам из статьи [Настройка свойств workflow-процесса](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Настроить элементы документооборота
 

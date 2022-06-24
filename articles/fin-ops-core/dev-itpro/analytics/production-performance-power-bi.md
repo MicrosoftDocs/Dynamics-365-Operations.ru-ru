@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Эффективность производства"
-description: В этой теме описывается, что входит в содержимое Power BI "Эффективность производства".
+description: В этой статье описывается, что входит в содержимое Power BI "Эффективность производства".
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881471"
 ---
 # <a name="production-performance-power-bi-content"></a>Содержимое Power BI "Эффективность производства"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое **Эффективность производства** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой статье описывается, что входит в содержимое Microsoft Power BI **Эффективность производства**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 

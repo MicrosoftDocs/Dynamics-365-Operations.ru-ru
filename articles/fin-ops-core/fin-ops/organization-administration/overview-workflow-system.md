@@ -1,6 +1,6 @@
 ---
-title: Обзор системы бизнес-правил
-description: В этой теме описывается система рабочих процессов.
+title: Обзор системы workflow-процессов
+description: В этой статье описывается система workflow-процессов.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 13dd4335a8b939a44ea7176a90f660999c32a83a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863198"
 ---
-# <a name="workflow-system-overview"></a>Обзор системы бизнес-правил
+# <a name="workflow-system-overview"></a>Обзор системы workflow-процессов
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-В этой теме описывается система рабочих процессов.
+В этой статье описывается система workflow-процессов.
 
 ## <a name="what-is-workflow"></a>Что такое Wokrflow?
 

@@ -1,6 +1,6 @@
 ---
 title: Продажи по комиссии
-description: В этой теме приводятся сведения о функциональности продажи по комиссии.
+description: В этой статье приводятся сведения о функциональности для продажи на условиях комиссии.
 author: v-nadyuz
 ms.date: 03/03/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cc8c88cd4a1d38f9d02e221fb3f1bc732d31130d
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: 7c720c2fd38f099395f127ae4ce518bfc7b6c30e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872356"
 ---
 # <a name="sales-on-commission"></a>Продажи по комиссии
 [!include [banner](../includes/banner.md)]

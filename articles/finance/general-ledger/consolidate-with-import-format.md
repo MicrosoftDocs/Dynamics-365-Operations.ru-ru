@@ -1,6 +1,6 @@
 ---
 title: Формат импорта для консолидации
-description: В этой теме приводятся подробные сведения о формате импорта, который используется при консолидации финансовых данных из нескольких юридических лиц.
+description: В этой статье приводятся подробные сведения о формате импорта, который используется при консолидации финансовых данных от нескольких юридических лиц.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 5bea69d72ac93d29ae67dd6d762e1376d9a282f0
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 0aee830f8fbfa384c86dc16465b202be36f07b73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871314"
 ---
 # <a name="import-format-for-consolidation"></a>Формат импорта для консолидации
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приводятся подробные сведения о формате импорта, который используется при консолидации финансовых данных из нескольких юридических лиц. Формат импорта должен быть сохранен в текстовом файле (.txt).
+В этой статье приводятся подробные сведения о формате импорта, который используется при консолидации финансовых данных от нескольких юридических лиц. Формат импорта должен быть сохранен в текстовом файле (.txt).
 
 ## <a name="import-format"></a>Формат импорта
 

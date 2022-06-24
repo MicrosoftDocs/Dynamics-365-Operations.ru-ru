@@ -1,6 +1,6 @@
 ---
-title: Адрес работника зарплаты
-description: В этом разделе представлены сведения и пример запроса для сущности адреса работника заработной платы в Dynamics 365 Human Resources.
+title: Адрес работника для зарплаты
+description: В этой статье представлены сведения и пример запроса для сущности "Адрес работника для зарплаты" в Dynamics 365 Human Resources.
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 683994b24113b8c2017f1bb3c1055e7e0f0eb75e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901128"
 ---
-# <a name="payroll-worker-address"></a>Адрес работника зарплаты
+# <a name="payroll-worker-address"></a>Адрес работника для зарплаты
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность задания адреса работника зарплаты для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Адрес работника для зарплаты" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_payrollworkeraddressentity.
 
@@ -52,7 +52,7 @@ ms.locfileid: "8069765"
 | **Действительно с**</br>mshr_postaladdressvalidfrom</br>*Смещение даты и времени* | Только для чтения | Дата, начиная с которой адрес является действительным. |
 | **Действительно до**</br>mshr_postaladdressvalidto</br>*Смещение даты и времени* | Только для чтения | Дата, по которую адрес является действительным. |
 | **Основное поле**</br>mshr_primaryfield</br>*Строка* | Только для чтения | Основное поле. |
-| **ИД адреса работника зарплаты**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Создано системой | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее адрес. |
+| **ИД адреса работника на зарплате**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Создано системой | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее адрес. |
 
 ## <a name="relations"></a>Связи
 

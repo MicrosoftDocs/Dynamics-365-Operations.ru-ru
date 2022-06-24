@@ -1,6 +1,6 @@
 ---
 title: Обработка изменений рейтинга
-description: В этой теме объясняется, как обрабатывать изменения ставок льгот в Microsoft Dynamics 365 Human Resources.
+description: В этой статье объясняется, как обрабатывать изменения в ставках льгот в Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1eea61df6dd5fbe0b52a21944deba69928b5125
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 09714c70cb00b1a1b5dbd4613bbd70ff11d35cb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882963"
 ---
 # <a name="process-rate-changes"></a>Обработка изменений рейтинга
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696136"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме объясняется обработка изменений ставок льгот в Microsoft Dynamics 365 Human Resources, когда для нового или существующего плана льгот есть изменения параметров правил допустимости. Если новое правило допустимости создано и назначено плану, система рекомендует снова выполнить проверку допустимости для проверки того, имеют ли работники право на план на основе новых параметров допустимости. 
+В этой статье объясняется, как обрабатывать изменения в ставках льгот в Microsoft Dynamics 365 Human Resources, когда в новом или существующем плане льгот изменились параметры правил приемлемости. Если новое правило допустимости создано и назначено плану, система рекомендует снова выполнить проверку допустимости для проверки того, имеют ли работники право на план на основе новых параметров допустимости. 
 
 1. В рабочей области **Управление льготами** в **Обработка** выберите **Обработка обновления изменения ставки**.
 

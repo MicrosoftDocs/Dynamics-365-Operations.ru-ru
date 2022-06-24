@@ -1,6 +1,6 @@
 ---
 title: Профили разноски по клиенту
-description: В этой теме описываются профили разноски по клиенту, которые управляют разноской проводок клиента в ГК.
+description: В этой статье описываются профили разноски по клиенту, которые управляют разноской проводок клиента в главной книге.
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891705"
 ---
 # <a name="customer-posting-profiles"></a>Профили разноски по клиенту
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются профили разноски по клиенту, которые управляют разноской проводок клиента в ГК.
+В этой статье описываются профили разноски по клиенту, которые управляют разноской проводок клиента в главной книге.
 
 ## <a name="customer-posting-profiles"></a>Профили разноски по клиенту
 

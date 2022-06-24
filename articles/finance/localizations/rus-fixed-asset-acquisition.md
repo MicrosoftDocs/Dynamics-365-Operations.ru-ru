@@ -1,6 +1,6 @@
 ---
 title: Приобретение ОС и их ввод в эксплуатацию (Россия)
-description: В этой теме содержится информация о приобретении основных средств для России.
+description: В этой статье содержится информация о приобретении основных средств для России.
 author: anasyash
 ms.date: 09/25/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4bb7f082de4327c54d6743b77c775f0a9d2dd34052d2fadab184e2b779b6c8f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5c6d76d23cfd33bc2361ed8d5ae3d153819af82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874327"
 ---
 # <a name="acquiring-fixed-assets-and-putting-them-into-operation-russia"></a>Приобретение ОС и их ввод в эксплуатацию (Россия)
 

@@ -1,6 +1,6 @@
 ---
-title: Создание нового решения ER для печати меток ZPL
-description: В этой теме объясняется, как разработать новое решение электронной отчетности (ER), чтобы напечатать метки языка программирования Zebra (ZPL).
+title: Создание нового решения электронной отчетности для печати этикеток ZPL
+description: В этой статье объясняется, как разработать новое решение для электронной отчетности (ER), чтобы печатать метки языка программирования Zebra (ZPL).
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845725"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Создание нового решения ER для печати меток ZPL
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Создание нового решения электронной отчетности для печати этикеток ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-В этой теме объясняется, как пользователь с ролью "системный администратор", "разработчик электронной отчетности" или "функциональный консультант по электронной отчетности" может настроить параметры структуры [электронной отчетности ER](general-electronic-reporting.md), разработать необходимые [конфигурации](general-electronic-reporting.md#Configuration) электронной отчетности для нового решения ER для доступа к данным системы управления складом и создания пользовательских меток расположения складов в формате языка программирования Zebra Programming Language (ZPL) II. Эти шаги можно выполнить в компании **USRT**.
+В этой статье объясняется, как пользователь с ролью "системный администратор", "разработчик электронной отчетности" или "функциональный консультант по электронной отчетности" может настроить параметры структуры [электронной отчетности (ER)](general-electronic-reporting.md), разработать необходимые [конфигурации](general-electronic-reporting.md#Configuration) электронной отчетности для нового решения по ER для доступа к данным системы управления складом и создать пользовательские метки расположений на складе в формате языка программирования Zebra Programming Language (ZPL) II. Эти шаги можно выполнить в компании **USRT**.
 
 ## <a name="business-scenario"></a>Бизнес-сценарий
 

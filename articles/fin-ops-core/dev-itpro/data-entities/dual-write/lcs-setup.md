@@ -1,6 +1,6 @@
 ---
 title: Настройка двойной записи из Lifecycle Services
-description: В этой теме объясняется, как настроить подключение двойной записи из Microsoft Dynamics Lifecycle Services (LCS).
+description: В этой статье объясняется, как настроить подключение двойной записи из Microsoft Dynamics Lifecycle Services (LCS).
 author: laneswenka
 ms.date: 05/16/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 53e82fbf8cff834c9eb0d14a0597561158b85fa1
-ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
+ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8783211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879814"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
@@ -22,7 +22,7 @@ ms.locfileid: "8783211"
 
 
 
-В этой теме объясняется, как включить двойную запись из Microsoft Dynamics Lifecycle Services (LCS).
+В этой статье объясняется, как включить двойную запись из Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Необходимые условия
 

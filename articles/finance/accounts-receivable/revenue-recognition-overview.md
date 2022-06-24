@@ -1,6 +1,6 @@
 ---
 title: Обзор признания выручки (содержит видео)
-description: В этом разделе содержится информация о функции признания выручки. Эта функция предоставляет гибкие возможности для определения правил определения цены и графика для признания выручки в заказах, состоящих из нескольких элементов.
+description: В этой статье содержится информация о функции "Признание выручки". Эта функция предоставляет гибкие возможности для определения правил определения цены и графика для признания выручки в заказах, состоящих из нескольких элементов.
 author: kweekley
 ms.date: 03/15/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888045"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор процедуры признания выручки
 

@@ -1,6 +1,6 @@
 ---
 title: Пример интеграции фискальных принтеров для России
-description: В этой теме представлен обзор примера финансовой интеграции для России в Microsoft Dynamics 365 Commerce.
+description: В этой статье представлен обзор примера финансовой интеграции для России в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 09/21/2021
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-8-2
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c004b5d7c4355d12e148bd1b0686b49738974887
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 3d0f74ed67c80927485a72a3d87cfb3153384f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855743"
 ---
 # <a name="fiscal-printer-integration-sample-for-russia"></a>Пример интеграции фискальных принтеров для России
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме представлен обзор примера финансовой интеграции для России в Microsoft Dynamics 365 Commerce.
+В этой статье представлен обзор примера финансовой интеграции для России в Microsoft Dynamics 365 Commerce.
 
 Функции Dynamics 365 Commerce для России включают в себя пример интеграции POS с финансовым принтером. Этот пример расширяет [возможности финансовой интеграции](fiscal-integration-for-retail-channel.md) и поддерживает API финансовых принтеров от [АТОЛ](http://integration.atol.ru/). В нем включается связь с фискальным принтером, подключенным через порт (COM), с помощью собственного программного драйвера. Пример представлен в форме исходного кода и является частью пакета SDK Retail.
 

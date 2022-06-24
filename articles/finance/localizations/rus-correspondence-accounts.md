@@ -1,6 +1,6 @@
 ---
 title: Корреспонденция счетов
-description: В этом разделе представлены сведения о корреспонденции счетов в России.
+description: В этой статье представлены сведения о корреспонденции счетов в России.
 author: ShylaThompson
 ms.date: 04/03/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d1119d101f463ae839ffa474335d4bb15127d2f30b9b2f251f04a8a9830e0f25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4f8aa98d26e594241da4155895895f2e9fc0a53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861245"
 ---
 # <a name="correspondence-of-accounts"></a>Корреспонденция счетов
 

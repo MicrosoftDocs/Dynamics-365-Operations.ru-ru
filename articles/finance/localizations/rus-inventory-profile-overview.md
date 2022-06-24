@@ -1,6 +1,6 @@
 ---
 title: Обзор профиля учета
-description: В этом разделе приводятся сведения о профиле учета, который предназначен для реализации и учета передвижений и запасов в наличии в связи с деятельностью.
+description: В этой статье приводятся сведения о профиле учета, который предназначен для реализации и учета передвижений и запасов в наличии в связи с деятельностью.
 author: v-nadyuz
 ms.date: 05/11/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9fdeca8d68f7c522bdde89913355a83592d6fef4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7bc8b6bf38ab7717072c78b8a6ca9859aa644793
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883046"
 ---
 # <a name="inventory-profile-overview"></a>Обзор профиля учета
 [!include [banner](../includes/banner.md)]
@@ -147,7 +147,7 @@ ms.locfileid: "7982779"
 
 При создании прогноза движения денежных средств для заказов на покупку или заказов на продажу, профили учета, указанные в строках заказа, учитываются при определении счетов разноски складских перемещений, а также проводок по клиенту и поставщику. Счета ГК для проводок по клиенту и поставщику определяются из профилей разноски, которые соответствуют профилям учета, указанным в строках заказа. Для строк заказа, где не указан профиль учета, используется **основной** вид деятельности и профиль разноски, указанный в заголовке заказа.
 
-Для получения дополнительных сведений см. в [прогнозы движения денежных средств в заказах на покупку и продажу](rus-use-inventory-profile-documents-queries.md#cash-flow-forecasts-on-purchase-and-sales-orders) далее в этом разделе.
+Для получения дополнительных сведений см. раздел [Прогнозы движения денежных средств в заказах на покупку и продажу](rus-use-inventory-profile-documents-queries.md#cash-flow-forecasts-on-purchase-and-sales-orders) далее в этой статье.
 
 ## <a name="cash-flow-forecasts-based-on-planned-purchases-and-sales"></a>Прогнозы движения денежных средств на основе запланированных покупок и продаж
 

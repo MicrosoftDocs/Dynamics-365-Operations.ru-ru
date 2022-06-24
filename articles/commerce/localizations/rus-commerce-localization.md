@@ -1,6 +1,6 @@
 ---
 title: Локализация Commerce для России
-description: В этой теме представлен обзор локализации Microsoft Dynamics 365 Commerce для России.
+description: В этой статье представлен обзор локализации Microsoft Dynamics 365 Commerce для России.
 author: akviklis@microsoft.com
 ms.date: 11/22/2021
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-6-23
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8781c6eeefad9ec49de96d306bc6af252875e9c8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 13913c9e0abb16d4ffeaf77cd4c67151b9abf934
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877232"
 ---
 # <a name="commerce-localization-for-russia"></a>Локализация Commerce для России
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-В этой теме представлен обзор локализации Microsoft Dynamics 365 Commerce для России и описывается область функций Commerce, относящаяся к России. Она включает в себя информацию о функциях и возможностях, предназначенных для различных федеральных налогов, розничных, финансовых и законодательных актов, а также нормативных документов, которые обычно оказывают влияние на коммерческие предприятия в России (в пределах [российской локализации](../../finance/localizations/russia.md)).
+В этой статье представлен обзор локализации Microsoft Dynamics 365 Commerce для России и описывается область применения функций Commerce, относящаяся к России. Она включает в себя информацию о функциях и возможностях, предназначенных для различных федеральных налогов, розничных, финансовых и законодательных актов, а также нормативных документов, которые обычно оказывают влияние на коммерческие предприятия в России (в пределах [российской локализации](../../finance/localizations/russia.md)).
 
 Поскольку законы и постановления отличаются тем, как они влияют на организации, Commerce не касается всех законов, правил или коммерческих требований в России. Дополнительные сведения см. в [руководстве по наличию локализации и перевода продуктов](https://aka.ms/dynamics_365_international_availability_deck).
 

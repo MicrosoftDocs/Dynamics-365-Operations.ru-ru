@@ -1,6 +1,6 @@
 ---
 title: Рабочая область автоматизации накладных поставщиков
-description: В этой теме объясняется, как настроить рабочую область, которая относится к накладным поставщиков и отображает сведения, доступные в Microsoft Power BI.
+description: В этой статье объясняется, как настроить рабочую область, которая относится к накладным поставщиков и отображает сведения, доступные в Microsoft Power BI.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865811"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Рабочая область автоматизации накладных поставщиков
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-В этой теме объясняется, как настроить рабочую область, которая относится к накладным поставщиков и отображает сведения, доступные в Microsoft Power BI. Сведения о накладной поставщика в этой рабочей области фильтруются для определенных пользователей и отображаются в графическом формате.
+В этой статье объясняется, как настроить рабочую область, которая относится к накладным поставщиков и отображает сведения, доступные в Microsoft Power BI. Сведения о накладной поставщика в этой рабочей области фильтруются для определенных пользователей и отображаются в графическом формате.
 
 ## <a name="overview"></a>Обзор
 

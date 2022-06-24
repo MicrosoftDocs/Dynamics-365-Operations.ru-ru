@@ -1,6 +1,6 @@
 ---
 title: Проводки через посредников
-description: В этой теме приводятся сведения о функциях для бухгалтерских сделок через посредника, выполненных агентом.
+description: В этой статье приводятся сведения о функциях для учета сделок через посредника, выполненных агентом.
 author: v-nadyuz
 ms.date: 03/03/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 94b4417168becb2459b4535d00d9d59f11bf1b30a0f71ccd0b26feaf6b85af49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 810c2140b8d1746ee9a53a72878c51ef97072a63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891462"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "6742854"
 - От своего имени, но за счет доверителя
 - От имени доверителя и за счет доверителя
 
-В этой теме термин *доверитель* относится к субъекту, который нанимает агента.
+В этой статье под термином *доверитель* понимается субъект, который нанимает агента.
 
 ## <a name="overview"></a>Обзор
 

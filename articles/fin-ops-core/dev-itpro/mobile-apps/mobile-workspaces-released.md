@@ -1,6 +1,6 @@
 ---
 title: Доступные мобильные рабочие области
-description: В этой теме перечислены доступные для использования мобильные рабочие области.
+description: В этой статье перечислены доступные для использования мобильные рабочие области.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868650"
 ---
 # <a name="available-mobile-workspaces"></a>Доступные мобильные рабочие области
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-В этой теме перечислены мобильные рабочие области, доступные для использования с мобильным приложением Dynamics 365 (Dynamics 365). В приведенной ниже таблице указан план амортизации для каждой из этих мобильных рабочих областей с учетом того, как планируется замена.  
+В этой статье перечислены мобильные рабочие области, доступные для использования с мобильным приложением Finance and Operations (Dynamics 365). В приведенной ниже таблице указан план амортизации для каждой из этих мобильных рабочих областей с учетом того, как планируется замена.  
 
 
 | Мобильная рабочая область     | Описание   | План амортизации   |

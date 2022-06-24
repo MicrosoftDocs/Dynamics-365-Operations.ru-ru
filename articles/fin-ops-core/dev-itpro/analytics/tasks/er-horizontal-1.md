@@ -1,6 +1,6 @@
 ---
 title: Электронная отчетность — Использование горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel (Часть 1. Разработка формата)
-description: В этой теме описывается, как настроить формат электронной отчетности (ER) для создания отчетов в виде файлов электронных таблиц OPENXML (Excel). (Часть 1)
+description: В этой статье описывается, как настроить формат электронной отчетности (ER) для создания отчетов в виде файлов с листами OPENXML (Excel). (Часть 1)
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab360c259af37ce3995d3cd2560bc2e765e0bceb
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 157a486252d9447c2509fe5e05b02cf1684683fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886743"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>Электронная отчетность — Использование горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel (Часть 1. Разработка формата)
 

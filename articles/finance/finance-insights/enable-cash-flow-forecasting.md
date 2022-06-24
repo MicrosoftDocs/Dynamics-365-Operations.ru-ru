@@ -1,6 +1,6 @@
 ---
 title: Включение прогнозирования движения денежных средств
-description: В этой теме объясняется, как включить функцию прогнозов движения денежных средств в финансовом анализе.
+description: В этой статье объясняется, как включить функцию прогнозов движения денежных средств в Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859885"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Включение прогнозирования движения денежных средств
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как включить функцию прогнозов движения денежных средств в Finance Insights.
+В этой статье объясняется, как включить функцию прогнозов движения денежных средств в Finance Insights.
 
 > [!NOTE]
 > Чтобы использовать прогнозы платежей в движении денежных средств, необходимо настроить функцию прогнозирования платежей клиентов, как описано в разделе [Включение прогнозов платежей клиентов](enable-cust-paymnt-prediction.md).

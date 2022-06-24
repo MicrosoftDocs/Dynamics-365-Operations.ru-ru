@@ -1,6 +1,6 @@
 ---
 title: Тип процесса
-description: В этой теме описывается набор параметров типа процесса для Dynamics 365 Human Resources.
+description: В этой статье описывается набор параметров "Тип процесса" для Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f30b50e6ec24b44f7832905a43c9fd979986065
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 51be840b3af41e1ae32e9eae87ef62f4f4f15a09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865363"
 ---
 # <a name="process-type"></a>Тип процесса
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533692"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается набор параметров "Нет Да" для Dynamics 365 Human Resources.
+В этой статье описывается набор параметров "Нет Да" для Dynamics 365 Human Resources.
 
 ## <a name="option-set-process-type"></a>Набор параметров: тип процесса
 

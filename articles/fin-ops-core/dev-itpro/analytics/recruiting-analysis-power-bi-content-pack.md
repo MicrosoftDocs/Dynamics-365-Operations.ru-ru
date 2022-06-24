@@ -1,6 +1,6 @@
 ---
 title: Содержимое Power BI "Набор сотрудников"
-description: В этом разделе описывается содержимое Power BI "Набор сотрудников".
+description: В этой статье описывается содержимое Power BI "Набор сотрудников".
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890106"
 ---
 # <a name="recruiting-power-bi-content"></a>Содержимое Power BI "Набор сотрудников"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое **Набор сотрудников** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой статье описывается содержимое Microsoft Power BI **Набор сотрудников**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Набор сотрудников** отображается в рабочей области **Управление набором сотрудников**.

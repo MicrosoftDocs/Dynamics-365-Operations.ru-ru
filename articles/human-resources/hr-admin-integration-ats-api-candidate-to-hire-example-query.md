@@ -1,6 +1,6 @@
 ---
 title: Пример запроса кандидата для приема на работу
-description: В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.
+description: В этой статье представлен пример запроса для сущности "Кандидат для приема на работу" в Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848353"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Пример запроса кандидата для приема на работу
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069229"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме представлен пример запроса для сущности кандидата на прием на работу в Dynamics 365 Human Resources.
+В этой статье представлен пример запроса для сущности "Кандидат для приема на работу" в Dynamics 365 Human Resources.
 
-В этой теме представлен пример, демонстрирующий способы использования *глубокой вставки* для создания всех сведений о новой записи кандидата в одной операции API. Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+В этой статье представлен пример, демонстрирующий, как можно использовать *глубокие вставки* для создания всех сведений новой записи кандидата с помощью одной операции API. Дополнительные сведения о глубокой вставке см. в разделе [Создание записей связанной сущности в одной операции](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 Сущность **mshr_hcmcandidatetohireentity** является уникальной, поскольку связана с сущностью **mshr_dirpersonentity**. Многие свойства сущности **mshr_hcmcandidatetohireentity** (например, **mshr_firstname**, **mshr_lastname** и **mshr_birthdate**) наследуются из записи **mshr_dirpersonentity**. При разноске новой записи кандидата в **mshr_hcmcandidatetohireentity** без использования операций глубокой вставки можно определить значения для этих свойств непосредственно в записи **mshr_hcmcandidatetohireentity**. Соответствующая запись **mshr_dirpersonentity** создается неявно с определенными значениями для свойств. Затем можно создать любые другие записи сущности (такие как навыки или образование) как отдельные вызовы API.
 

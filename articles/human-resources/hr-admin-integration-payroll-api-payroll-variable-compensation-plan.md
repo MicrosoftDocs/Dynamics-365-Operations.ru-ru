@@ -1,6 +1,6 @@
 ---
-title: План переменной компенсации зарплаты
-description: В этой теме представлены сведения и пример запроса для сущности плана переменной компенсации заработной платы в Dynamics 365 Human Resources.
+title: План переменных компенсационных выплат для зарплаты
+description: В этой статье представлены сведения и пример запроса для сущности "План переменных компенсационных выплат для зарплаты" в Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868140"
 ---
-# <a name="payroll-variable-compensation-plan"></a>План переменной компенсации зарплаты
+# <a name="payroll-variable-compensation-plan"></a>План переменных компенсационных выплат для зарплаты
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность плана переменной компенсации зарплаты для Dynamics 365 Human Resources.
+В этой статье описывается сущность "План переменных компенсационных выплат для зарплаты" для Dynamics 365 Human Resources.
 
 ### <a name="description"></a>описание
 
@@ -50,7 +50,7 @@ ms.locfileid: "8533657"
 | **Код плана переменной компенсации**</br>Строка</br>*mshr_planid* | Только для чтения | Код плана переменной компенсации. |
 | **Число единиц**</br>Десятичное</br>*mshr_numberofunits* | Только для чтения | Количество единиц типа вознаграждения. |
 | **Основное поле**</br>mshr_primaryfield</br>*GUID* | Только для чтения</br>Создано системой. | |
-| **Сущность плана переменной компенсации зарплаты**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
+| **Сущность "План переменных компенсационных выплат для зарплаты"**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Создано системой | Создаваемое системой значение GUID для однозначной идентификации плана компенсации. |
 
 ## <a name="relations"></a>Связи 
 
