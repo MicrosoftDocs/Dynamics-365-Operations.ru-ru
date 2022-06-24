@@ -1,6 +1,6 @@
 ---
 title: Ограничение способов оплаты для возвратов без чека
-description: В этой теме описывается, как определенные типы платежа могут быть ограничены для возмещения, если возврат производится без чека.
+description: В этой статье описывается, как определенные типы платежа могут быть ограничены для возмещения, если возврат производится без чека.
 author: rapraj
 ms.date: 03/05/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 091d39ea9fe41d78b7f34f85ecd1894047e022d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896961"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Ограничение способов оплаты для возвратов без чека
 
 
 [!include [banner](includes/banner.md)]
 
-Каждый тип платежа, принимаемый розничным магазином, нужно настроить в процессе настройки системы. В этой теме описывается, как определенные типы платежа могут быть ограничены для возмещения, если возврат производится без чека.
+Каждый тип платежа, принимаемый розничным магазином, нужно настроить в процессе настройки системы. В этой статье описывается, как определенные типы платежа могут быть ограничены для возмещения, если возврат производится без чека.
 
 ## <a name="set-up-payment-methods"></a>Настройка способов оплаты
 

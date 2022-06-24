@@ -1,6 +1,6 @@
 ---
 title: Модули оценок и отзывов
-description: В этом разделе рассматриваются модули оценок и отзывов, используемые на страницах сведений о продукте в Microsoft Dynamics 365 Commerce.
+description: В этой статье рассматриваются модули оценок и отзывов, используемые на страницах сведений о продукте в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5829ccf9fad78e8669f5109d6c15e71af2ca768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894418"
 ---
 # <a name="ratings-and-reviews-modules"></a>Модули оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе рассматриваются модули оценок и отзывов, используемые на страницах сведений о продукте (PDP) в Microsoft Dynamics 365 Commerce.
+В этой статье рассматриваются модули оценок и отзывов, используемые на страницах сведений о продукте (PDP) в Microsoft Dynamics 365 Commerce.
 
 Оценки и отзывы на веб-сайтах электронной коммерции помогают пользователям изучить продукты перед принятием решения о покупке, а также являются механизмом сбора отзывов клиентов о продуктах. 
 

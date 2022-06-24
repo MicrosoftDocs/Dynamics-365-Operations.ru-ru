@@ -1,6 +1,6 @@
 ---
 title: Включить поиск заказов для гостевых оформлений
-description: В этом разделе описывается, как включить поиск заказов для гостевых оформлений в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как включить поиск заказов для гостевых оформлений в Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891995"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Включить поиск заказов для гостевых оформлений
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как включить поиск заказов для гостевых оформлений в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как включить поиск заказов для гостевых оформлений в Microsoft Dynamics 365 Commerce.
 
 Функция поиска заказа для гостевых оформлений позволяет клиентам, которые делают покупки как гости, выполнять поиск по их заказам. Возможность поиска по заказам полезна, когда клиенты хотят выполнять такие действия, как проверка статуса выполнения продуктов в заказе, проверка адреса, по которому был отгружен заказ, изменение порядка поставки продукта или подтверждение магазина, из которого клиент заберет заказ.
 

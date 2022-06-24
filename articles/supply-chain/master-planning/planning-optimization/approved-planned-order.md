@@ -1,6 +1,6 @@
 ---
 title: Просмотр, управление и утверждение спланированных заказов
-description: В этой теме приводятся сведения о том, как просматривать, управлять и утверждать спланированные заказы при оптимизации планирования.
+description: В этой статье приводятся сведения о том, как просматривать, управлять и утверждать спланированные заказы при оптимизации планирования.
 author: t-benebo
 ms.date: 04/07/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b8c17ab3934ec7bfaed710c33515243290bb8e2a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 22c690222cdb72e2113ea137a05da21f315e5a33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887438"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Просмотр, управление и утверждение спланированных заказов
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме приводятся сведения о том, как просматривать, управлять и утверждать спланированные заказы при оптимизации планирования.
+В этой статье приводятся сведения о том, как просматривать, управлять и утверждать спланированные заказы при оптимизации планирования.
 
 ## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Просмотр и управление спланированными заказами
 

@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
-description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.19.
+description: В этой статье описываются новые и измененные компоненты в Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1ea0f2dae2f558f1ee5c0d2b94a4b926263b7de7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893420"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.19 (июнь 2021 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.19. Эта версия имеет номер сборки 10.0.837 и доступна следующим образом:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.19. Эта версия имеет номер сборки 10.0.837 и доступна следующим образом:
 
 - **Выпуск предварительной версии:** апрель 2021 г.
 - **Общая доступность выпуска (самостоятельное обновление):** июнь 2021 г.
@@ -57,9 +57,9 @@ ms.locfileid: "8570335"
 
 ## <a name="new-and-updated-documentation-resources"></a>Новые и обновленные ресурсы документации
 
-Недавно были добавлены или существенно обновлены следующие разделы справки. Они не обязательно связаны с новыми функциями, добавленными для данного выпуска, как это перечислено в предыдущем разделе, но они могут помочь эффективнее использовать существующие функции.
+Недавно были добавлены или существенно обновлены следующие статьи справки. Они не обязательно связаны с новыми функциями, добавленными для данного выпуска, как это перечислено в предыдущем разделе, но они могут помочь эффективнее использовать существующие функции.
 
-| Область компонентов | Новые или обновленные темы |
+| Область компонентов | Новые или обновленные статьи |
 |---|---|
 | Управление изменениями разработки | [Вопросы и ответы по управлению изменениями разработки](../engineering-change-management/change-management-faq.md) |
 | Закупки и источники | [Управление запросами на категорию от поставщиков](../procurement/category-requests-from-vendors.md) |
@@ -86,12 +86,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.19 включает обно
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
-В теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
+В статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
+Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 

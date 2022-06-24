@@ -1,6 +1,6 @@
 ---
-title: Обработка учета продуктов в двух единицах измерения с помощью управления складом
-description: В этой теме рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
+title: Обработка продуктов с учетом в двух единицах измерения в процессах управления складом
+description: В этой статье рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
 author: perlynne
 ms.date: 08/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900690"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Обработка учета продуктов в двух единицах измерения с помощью управления складом
 

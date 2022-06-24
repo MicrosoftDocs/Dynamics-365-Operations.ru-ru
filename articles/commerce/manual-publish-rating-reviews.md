@@ -1,6 +1,6 @@
 ---
 title: Включение модератором публикации оценок и отзывов вручную
-description: В этом разделе описывается, как включить публикацию оценок и отзывов вручную модератором в Microsoft Dynamics 365 Commerce и как публиковать оценки и отзывы вручную.
+description: В этой статье описывается, как включить публикацию оценок и отзывов вручную модератором в Microsoft Dynamics 365 Commerce и как публиковать оценки и отзывы вручную.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892631"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Включение модератором публикации оценок и отзывов вручную
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как включить публикацию оценок и отзывов вручную модератором в Microsoft Dynamics 365 Commerce и как публиковать оценки и отзывы вручную.
+В этой статье описывается, как включить публикацию оценок и отзывов вручную модератором в Microsoft Dynamics 365 Commerce и как публиковать оценки и отзывы вручную.
 
 Решение оценок и отзывов Dynamics 365 Commerce использует Azure Cognitive Services, чтобы автоматически исправить ненормативную лексику в заголовках и содержимом отзыва и опубликовать оценки и отзывы. Поэтому вмешательство вручную не требуется для просмотра и публикации оценок и отзывов на сайте электронной коммерции.
 

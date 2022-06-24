@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.20 (август 2021 г.)
-description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.20.
+description: В этой статье описываются новые и измененные компоненты в Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888653"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.20 (август 2021 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.20. Эта версия имеет номер сборки 10.0.886 и доступна следующим образом:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management версии 10.0.20. Эта версия имеет номер сборки 10.0.886 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** май 2021 г.
 - **Общая доступность выпуска (самостоятельное обновление):** июль 2021 года
@@ -59,21 +59,21 @@ ms.locfileid: "7647322"
 
 ## <a name="new-and-updated-documentation-resources"></a>Новые и обновленные ресурсы документации
 
-Недавно были добавлены или существенно обновлены следующие разделы справки. Они не обязательно связаны с новыми функциями, добавленными для данного выпуска, как это перечислено в предыдущем разделе, но они могут помочь эффективнее использовать существующие функции.
+Недавно были добавлены или существенно обновлены следующие статьи справки. Они не обязательно связаны с новыми функциями, добавленными для данного выпуска, как это перечислено в предыдущем разделе, но они могут помочь эффективнее использовать существующие функции.
 
-| Область компонентов | Новые или обновленные темы |
+| Область компонентов | Новые или обновленные статьи |
 |---|---|
 | Управление изменениями разработки | [Состояния и проводки жизненного цикла продукта](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Управление запасами | [Надстройка видимости запасов](../inventory/inventory-visibility.md)<br><br>[Обзор управления качеством и несоответствием](../inventory/quality-management-processes.md) (плюс все связанные темы по управлению качеством) |
+| Управление запасами | [Надстройка видимости запасов](../inventory/inventory-visibility.md)<br><br>[Обзор управления качеством и несоответствием](../inventory/quality-management-processes.md) (плюс все связанные статьи по управлению качеством) |
 | Закупки и источники | [Управление сертификацией поставщиков](../../finance/public-sector/manage-vendor-certification.md) |
 | Управление производством | [Стиль интерфейса выполнения производственного цеха](../production-control/production-floor-execution-styles.md) |
 | Управление складом | [Назначение значков и названий шагов для мобильного приложения Warehouse Management](../warehousing/step-icons-titles.md)<br><br>[Отложенная обработка перемещения запасов вручную](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.20 приложений Finance and Operations (июль 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.20 приложений для финансов и операций (июль 2021 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -87,12 +87,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 включает обно
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
-В теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
+В статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
+Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 

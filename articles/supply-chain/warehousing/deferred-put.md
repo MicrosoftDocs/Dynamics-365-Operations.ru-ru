@@ -1,6 +1,6 @@
 ---
 title: Отложенная обработка работы склада
-description: Эта тема описывает функциональность, которая делает отложенную обработку складских работ размещения доступной в Dynamics 365 Supply Chain Management.
+description: Эта статья описывает функциональность, которая делает отложенную обработку складских работ размещения доступной в Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899305"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Отложенная обработка работы склада
 
 [!include [banner](../includes/banner.md)]
 
-Эта тема описывает функциональность, которая делает отложенную обработку операций размещения для работы склада доступной в Dynamics 365 Supply Chain Management.
+Эта статья описывает функциональность, которая делает отложенную обработку операций размещения для работы склада доступной в Dynamics 365 Supply Chain Management.
 
 Функциональность отложенной обработки позволяет работникам склада продолжать выполнять другую работу, пока операция размещения обрабатывается в фоновом режиме. Отложенная обработка полезна, когда многие строки работ должны быть обработаны, и работник может позволить, чтобы эта работа обрабатывалась асинхронно. Это также полезно, когда сервер может иметь специальное или незапланированное увеличение времени обработки, и увеличение времени обработки может повлиять на производительность пользователя.
 

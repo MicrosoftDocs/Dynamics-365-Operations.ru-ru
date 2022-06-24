@@ -1,6 +1,6 @@
 ---
 title: Возмещаемые расходы неправильно рассчитываются на основе возвращенного количества
-description: В этой теме содержатся указания по устранению неполадок, которые могут помочь, когда кассиры видят неправильные возмещаемые расходы в POS-терминале для количества возвращенных номенклатур.
+description: В этой статье содержатся указания по устранению неполадок, которые могут помочь, когда кассиры видят неправильные возмещаемые расходы в POS-терминале для количества возвращенных номенклатур.
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8490219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890251"
 ---
 # <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Возмещаемые расходы неправильно рассчитываются на основе возвращенного количества
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме содержатся указания по устранению неполадок, которые могут помочь, когда кассиры видят неправильные возмещаемые расходы в POS-терминале для количества возвращенных номенклатур.
+В этой статье содержатся указания по устранению неполадок, которые могут помочь, когда кассиры видят неправильные возмещаемые расходы в POS-терминале для количества возвращенных номенклатур.
 
 ## <a name="description"></a>Описание
 

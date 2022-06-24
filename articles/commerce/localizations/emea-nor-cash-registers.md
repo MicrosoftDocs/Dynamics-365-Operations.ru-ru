@@ -1,6 +1,6 @@
 ---
 title: Функциональность контрольно-кассовой машины для Норвегии
-description: В этой теме представлен обзор функций ККМ, доступных для Норвегии в Microsoft Dynamics 365 Commerce, а также приводятся указания по настройке функций.
+description: В этой статье представлен обзор функций ККМ, доступных для Норвегии в Microsoft Dynamics 365 Commerce, а также приводятся указания по настройке функций.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906707"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Функциональность контрольно-кассовой машины для Норвегии
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме представлен обзор функций ККМ, доступных для Норвегии в Dynamics 365 Commerce. Кроме того, в ней приводятся указания по настройке функций. Функции состоят из следующих частей:
+В этой статье представлен обзор функций ККМ, доступных для Норвегии в Dynamics 365 Commerce. Кроме того, в ней приводятся указания по настройке функций. Функции состоят из следующих частей:
 
 - Общие возможности POS, доступные для клиентов во всех странах или регионах. Примеры включают в себя параметр, позволяющий предотвратить печать копии чека более одного раза.
 - Специфичные для Норвегии функции, такие как цифровые подписи для проводок по продажам.

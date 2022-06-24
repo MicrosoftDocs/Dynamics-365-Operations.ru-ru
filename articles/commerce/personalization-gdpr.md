@@ -1,6 +1,6 @@
 ---
 title: Отказ от персонализированных рекомендаций
-description: В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
+description: В этой статье объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47de876a6f304ed5cb35bf075eadaafa4bf0fc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896935"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Отказ от персонализированных рекомендаций
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
 
 Во время создания учетной записи новые клиенты автоматически настраиваются для получения персонализированных рекомендаций. Однако предоставляет Dynamics 365 Commerce различные способы, позволяющие пользователям отказаться от получения этих рекомендаций и ограничить обработку личных данных. Прошедшие аутентификацию пользователи, которые отказываются от получения персонализированных рекомендаций, сразу перестанут видеть персонализированные списки. Кроме того, все личные данные, собранные для персонализации, будут удалены из персонализированных моделей рекомендаций.
 

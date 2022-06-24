@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.13 (октябрь 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.13.
+description: В этой статье описываются новые и измененные компоненты в Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
 ms.date: 07/31/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3916e70e4c9e3bc4ceae3a82e58bc4b0697ddb9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888682"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.13 (октябрь 2020 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.13. Эта версия имеет номер сборки 10.0.569 и доступна следующим образом:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management версии 10.0.13. Эта версия имеет номер сборки 10.0.569 и доступна следующим образом:
 
 - **Выпуск предварительной версии:** август 2020 г.
 - **Общая доступность (самостоятельное обновление):** сентябрь 2020 г.
@@ -53,9 +53,9 @@ ms.locfileid: "6766130"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.13 приложений Finance and Operations (октябрь 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.13 приложений для финансов и операций (октябрь 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -69,12 +69,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 включает обно
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
-В теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
+В статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
+Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 

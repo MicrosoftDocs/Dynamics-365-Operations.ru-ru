@@ -1,6 +1,6 @@
 ---
 title: Применение параметров дисплея для аналитик продукта
-description: В этой теме описываются параметры отображения для аналитик продукта и описывается, как применять их в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются параметры отображения для аналитик продукта и описывается, как применять их в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899183"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Применение параметров дисплея для аналитик продукта
 
 [!include [banner](includes/banner.md)]
 
 
-В этой теме описываются параметры отображения для аналитик продукта и описывается, как применять их в Microsoft Dynamics 365 Commerce.
+В этой статье описываются параметры отображения для аналитик продукта и описывается, как применять их в Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce поддерживает аналитики размера, стиля и цвета для различения вариантов продукта. Аналитики обычно отображаются как текстовые значения, такие как "Маленький", "Средний" и "Большой" для размеров, "Черный" и "Коричневый" для цветов. Однако если продукт поддерживает множество вариантов, может быть сложно просматривать варианты продукта, поскольку для просмотра изображения каждого варианта требуется выбрать несколько параметров. Для облегчения просмотра вариантов продуктов в выпуске версии 10.0.20 Commerce могут использоваться изображения и шестнадцатеричные коды (HEX), позволяющие отображать аналитики как образцы.
 

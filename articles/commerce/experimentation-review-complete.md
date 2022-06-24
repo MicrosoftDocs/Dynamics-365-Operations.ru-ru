@@ -1,30 +1,24 @@
 ---
 title: Повышение вариации и завершение эксперимента
-description: В этом разделе описывается, как повысить успешную вариацию и завершить эксперимент в Dynamics 365 Commerce.
+description: В этой статье описывается, как повысить успешную вариацию и завершить эксперимент в Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738754"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942751"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Повышение вариации и завершение эксперимента
 
-В этом разделе описывается, как повысить вариацию, которая дает наилучший результат в эксперименте, и как завершить эксперимент. На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах.
+В этой статье описывается, как повысить вариацию, которая дает наилучший результат в эксперименте, и как завершить эксперимент. На следующей схеме показаны все шаги настройки и запуска эксперимента на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных статьях.
 
 [ ![Путь взаимодействия пользователя с экспериментами — проверка и завершение.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ ms.locfileid: "6738754"
 ## <a name="delete-your-experiment"></a>Удаление эксперимента
 Хотя не требуется удалять завершенный эксперимент в Commerce, можно удалить его, чтобы сэкономить место или очистить рабочую область. 
 
-Чтобы удалить эксперимент в конфигураторе сайта Commerce, выполните следующие шаги.
+Чтобы удалить завершенный эксперимент в конфигураторе сайта Commerce, выполните следующие шаги.
 
 1. Выберите **Эксперименты** в левой области переходов, затем выберите эксперимент. 
     > [!NOTE]

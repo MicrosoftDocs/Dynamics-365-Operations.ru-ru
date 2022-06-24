@@ -1,6 +1,6 @@
 ---
 title: Модуль параметров доставки
-description: В этом разделе описываются модули параметров поставки, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются модули параметров поставки, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894566"
 ---
 # <a name="delivery-options-module"></a>Модуль параметров доставки
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются модули параметров поставки, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули параметров поставки, а также описывается, как настраивать их в Microsoft Dynamics 365 Commerce.
 
 Модули параметров поставки позволяют клиентам выбирать способ поставки, например, отгрузку или отправку для заказа в Интернете. Адрес доставки требуется для определения режима доставки. Если адрес доставки изменяется, необходимо снова извлечь варианты доставки. Если заказ включает только номенклатуры, которые клиент заберет из магазина, этот модуль автоматически скрывается.
 

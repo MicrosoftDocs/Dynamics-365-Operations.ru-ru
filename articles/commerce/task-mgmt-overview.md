@@ -1,6 +1,6 @@
 ---
 title: Обзор управления задачами
-description: В этом разделе представлен обзор управления задачами для руководителей и работников в Microsoft Dynamics 365 Commerce.
+description: В этой статье представлен обзор управления задачами для руководителей и работников в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900342"
 ---
 # <a name="task-management-overview"></a>Обзор управления задачами
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе представлен обзор управления задачами для руководителей и работников в Microsoft Dynamics 365 Commerce.
+В этой статье представлен обзор управления задачами для руководителей и работников в Microsoft Dynamics 365 Commerce.
 
 В розничной среде всегда сложно обеспечить выполнение задач требуемым лицом в нужное время. Продавцы должны иметь возможность уведомлять работников о предстоящих задачах и обеспечивать связанный контекст, чтобы задачи могли выполняться правильно и вовремя.
 

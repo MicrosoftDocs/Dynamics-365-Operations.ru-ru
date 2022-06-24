@@ -1,6 +1,6 @@
 ---
 title: Установка надстройки аналитики Интернета вещей в LCS
-description: В этом разделе объясняется, как установить надстройки аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS).
+description: В этой статье объясняется, как установить надстройки аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887496"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Установка надстройки аналитики Интернета вещей в LCS
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе объясняется, как установить надстройки аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS). Обратите внимание, что надстройки невозможно установить в демонстрационной или пробной среде. Прежде чем можно будет установить надстройку, необходимо [создать ресурсы Azure](iot-azure-setup.md).
+В этой статье объясняется, как установить надстройки аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS). Обратите внимание, что надстройки невозможно установить в демонстрационной или пробной среде. Прежде чем можно будет установить надстройку, необходимо [создать ресурсы Azure](iot-azure-setup.md).
 
 Можно настроить бизнес-аналитику Интернета вещей без написания какого-либо кода. Имеются основные шаги.
 
 1. [Настройка ресурсов Azure](iot-azure-setup.md) — создание центра Интернета вещей, кэша Redis и хранилища ключей, к которым можно получить доступ из Supply Chain Management.
 2. [Форматы схем сообщений для центра Интернета вещей](iot-schema-format.md) — настройка устройств на отправку сообщений в центр Интернета вещей и определение формата сообщений нотации объектов JavaScript (JSON).
 3. В управлении функциями установите флажок бизнес-аналитики Интернета вещей.
-4. Установите надстройку бизнес-аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS) — установите надстройку в LCS и настройте секреты Azure (как описано в этой теме).
+4. Установите надстройку бизнес-аналитики Интернета вещей в Microsoft Dynamics Lifecycle Services (LCS) — установите надстройку в LCS и настройте секреты Azure (как описано в этой статье).
 5. [Настройка метрик](iot-metrics-setup.md) — настройте метрики в Supply Chain Management.
 6. [Настройка сценария](iot-scenario-setup.md) — настройте сценарии в Supply Chain Management.
 

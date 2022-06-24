@@ -1,6 +1,6 @@
 ---
 title: Соглашение на использование оценок и отзывов
-description: В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
+description: В этой статье объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/16/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: b591799bd5bf00e74e782040bfdc1b678c4c87d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906920"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 
 Решение оценок и отзывов — это омниканальное решение, которое можно сделать доступным в Dynamics 365 Commerce с помощью Microsoft Dynamics Lifecycle Services (LCS). LCS — это портал администрирования, который используется в розничных магазинах для управления средами от подготовки до выведения из эксплуатации.
 

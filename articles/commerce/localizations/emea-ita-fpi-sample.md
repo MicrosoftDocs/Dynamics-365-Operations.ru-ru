@@ -1,6 +1,6 @@
 ---
 title: Пример интеграции фискальных принтеров для Италии
-description: В этой теме представлен обзор примера финансовой интеграции для Италии в Microsoft Dynamics 365 Commerce.
+description: В этой статье представлен обзор примера финансовой интеграции для Италии в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909398"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Пример интеграции фискальных принтеров для Италии
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме представлен обзор примера финансовой интеграции для Италии в Microsoft Dynamics 365 Commerce.
+В этой статье представлен обзор примера финансовой интеграции для Италии в Microsoft Dynamics 365 Commerce.
 
 Функции Commerce для Италии включают в себя пример интеграции POS с финансовым принтером. Пример расширяет [возможности финансовой интеграции](fiscal-integration-for-retail-channel.md), чтобы они работали с принтерами [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) компании Epson, и обеспечивает связь с финансовым принтером в режиме веб-сервера через веб-службу EpsonFPMate с помощью API-интерфейса Fiscal ePOS-Print. Пример поддерживает только режим Registratore Telematico (RT). Пример представлен в форме исходного кода и является частью пакета SDK Retail.
 

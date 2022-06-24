@@ -1,6 +1,6 @@
 ---
-title: Глоссарий модели страниц
-description: В этой теме описываются различные элементы, которые используются на страницах сайта Microsoft Dynamics 365 Commerce.
+title: Глоссарий по модели страниц
+description: В этой статье описываются различные элементы, которые используются на страницах сайта Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c5ec6dfd9147fd5e054303b4fd612caef78b7467d7f6f4850e46fcc9fb1346f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91a5cd47ea900b8b3b94368676031fd57bc58f47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891966"
 ---
 # <a name="page-model-glossary"></a>Глоссарий по модели страниц
 
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются различные элементы, которые используются на страницах сайта Microsoft Dynamics 365 Commerce.
+В этой статье описываются различные элементы, которые используются на страницах сайта Microsoft Dynamics 365 Commerce.
 
 ## <a name="page-element-definitions"></a>Определения элементов страницы
 
