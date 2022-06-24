@@ -1,6 +1,6 @@
 ---
 title: Интеграция с системами управления производством независимых разработчиков
-description: В этой теме объясняется, как интегрировать Microsoft Dynamics 365 Supply Chain Management с системой управления производством (MES) сторонних разработчиков.
+description: В этой статье объясняется, как интегрировать Microsoft Dynamics 365 Supply Chain Management с системой управления производством (MES) сторонних разработчиков.
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860648"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Интеграция с системами управления производством независимых разработчиков
 
@@ -238,7 +238,7 @@ ms.locfileid: "8678697"
 
 ## <a name="other-production-information"></a>Другая производственная информация
 
-Сообщения поддерживают действия или события, происходящие в цехе. Они обрабатываются с помощью платформы интеграции MES, которая описывается в этой теме. Дизайн подразумевает, что другие справочные сведения для совместного использования с MES (например, сведения о продукте или спецификация либо маршрут (с определенной настройкой и временем конфигурации), используемые в конкретном производственном заказе) извлекаются из системы с использованием [информационных объектов](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) с помощью переноса файлов или OData.
+Сообщения поддерживают действия или события, происходящие в цехе. Они обрабатываются с помощью платформы интеграции MES, которая описывается в этой статье. Дизайн подразумевает, что другие справочные сведения для совместного использования с MES (например, сведения о продукте или спецификация либо маршрут (с определенной настройкой и временем конфигурации), используемые в конкретном производственном заказе) извлекаются из системы с использованием [информационных объектов](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) с помощью переноса файлов или OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Получение обратной связи о состоянии сообщения
 
@@ -251,7 +251,7 @@ ms.locfileid: "8678697"
 
 В этих случаях можно воспользоваться преимуществом стандартной функции оповещения в модуле Supply Chain Management. Для получения сведений о том, как работают стандартные оповещения, см. в следующих ресурсах:
 
-- Раздел справки: [Обзор оповещений](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Статья справки: [Обзор оповещений](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Видео: [Параметры правила оповещения в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Например, можно настроить следующие оповещения, чтобы отправить отзыв о состоянии сообщения:

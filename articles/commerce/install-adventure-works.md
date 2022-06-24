@@ -1,6 +1,6 @@
 ---
 title: Установка темы Adventure Works
-description: В этой теме описывается, как установить тему Adventure Works в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как установить тему Adventure Works в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 18c2612b8b6b4ed8195ff8e71d6e0495f7e80950
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854908"
 ---
 # <a name="install-the-adventure-works-theme"></a>Установка темы Adventure Works
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как установить тему Adventure Works в Microsoft Dynamics 365 Commerce. 
+В этой статье описывается, как установить тему Adventure Works в Microsoft Dynamics 365 Commerce. 
 
 > [!IMPORTANT]
 > Тема Adventure Works и модули доступны в выпуске Dynamics 365 Commerce версии 10.0.20. Они доступны из Microsoft AppSource.

@@ -1,6 +1,6 @@
 ---
 title: Применение параметров добавления продукта в корзину
-description: В этой теме описываются параметры добавления продукта в корзину, а также описывается, как их применять в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются параметры добавления продукта в корзину, а также описывается, как их применять в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866038"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Применение параметров добавления продукта в корзину
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются параметры **добавления продукта в корзину**, а также описывается, как их применять в Microsoft Dynamics 365 Commerce.
+В этой статье описываются параметры **Добавление продукта в корзину**, а также описывается, как их применять в Microsoft Dynamics 365 Commerce.
 
 При добавлении продукта в корзину на сайте электронной коммерции Dynamics 365 Commerce поддерживаются разные бизнес-правила. Например, пользователь сайта может быть перенаправлен на страницу корзины. Или же, пользователь может остаться на текущей странице, но получить уведомление о том, что продукт был добавлен в корзину.
 

@@ -1,6 +1,6 @@
 ---
 title: Модуль нижнего колонтитула
-description: В этом разделе описываются модули нижнего колонтитула, а также описывается, как разрабатывать их в Dynamics 365 Commerce.
+description: В этой статье описываются модули нижнего колонтитула, а также описывается, как разрабатывать их в Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4e7796d9700eabc923f2bb45187832d5993ae56e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876620"
 ---
 # <a name="footer-module"></a>Модуль нижнего колонтитула  
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описываются модули нижнего колонтитула, а также описывается, как создавать их в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули нижнего колонтитула, а также описывается, как создавать их в Microsoft Dynamics 365 Commerce.
 
 Модуль нижнего колонтитула — это специальный контейнер, который используется для размещения модулей, появляющихся в нижнем колонтитуле страницы. Например, он может содержать ссылки на различные страницы сайта, такие как , такие как страницы **Свяжитесь с нами** и **Политики магазина**.
 

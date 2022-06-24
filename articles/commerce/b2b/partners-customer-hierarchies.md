@@ -1,6 +1,6 @@
 ---
 title: Управление деловыми партнерами B2B с помощью иерархий клиентов
-description: В этом разделе описывается, как использовать иерархии клиентов для управления деловыми партнерами для веб-сайтов электронной коммерции "бизнес-бизнес" (B2B) Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как использовать иерархии клиентов для управления деловыми партнерами для веб-сайтов электронной коммерции "бизнес-бизнес" (B2B) Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864989"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Управление деловыми партнерами B2B с помощью иерархий клиентов
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе описывается, как использовать иерархии клиентов для управления деловыми партнерами для веб-сайтов электронной коммерции "бизнес-бизнес" (B2B) Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как использовать иерархии клиентов для управления деловыми партнерами для веб-сайтов электронной коммерции "бизнес-бизнес" (B2B) Microsoft Dynamics 365 Commerce.
 
 В Commerce Headquarters сущность *иерархия клиентов* используется для представления организаций деловых партнеров, которые будут использовать сайт электронной коммерции B2B. Перед тем как начать использовать иерархии клиентов для управления деловыми партнерами, необходимо включить возможности электронной коммерции B2B в Commerce Headquarters, а затем определить номерную серию для иерархии клиентов.
 

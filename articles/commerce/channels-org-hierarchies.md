@@ -1,6 +1,6 @@
 ---
 title: Настройка организационных иерархий
-description: В этом разделе описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847688"
 ---
 # <a name="set-up-organization-hierarchies"></a>Настройка организационных иерархий
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как настроить организационные иерархии в Microsoft Dynamics 365 Commerce.
 
 Перед созданием каналов необходимо подтвердить настройку организационных иерархий.
 
@@ -34,7 +34,7 @@ ms.locfileid: "6746024"
 Перед созданием организационной иерархии необходимо создать организации. Дополнительные сведения см. в задачах [Создание юридических лиц](channels-legal-entities.md) или [Создание операционных единиц](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Дополнительные сведения см. в следующих разделах.
+Дополнительные сведения см. в следующих статьях.
 - [Обзор организаций и организационных иерархий](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Планирование организационной иерархии](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Создание организационной иерархии](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

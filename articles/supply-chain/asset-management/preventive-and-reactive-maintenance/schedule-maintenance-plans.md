@@ -1,6 +1,6 @@
 ---
 title: Составление графика планов обслуживания
-description: В этом разделе описывается составление графика планов обслуживания в управлении активами.
+description: В этой статье описывается составление графика планов обслуживания в управлении активами.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc9212d0945c05af9dbc054a5a1d2bf7b996b93f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857992"
 ---
 # <a name="schedule-maintenance-plans"></a>Составление графика планов обслуживания
 

@@ -1,6 +1,6 @@
 ---
 title: Создание нового продукта
-description: В этой теме описывается создание нового общего продукта.
+description: В этой статье описывается создание нового общего продукта.
 author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 75490661bf6f1e3dc0655cf9bd79316194c63820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887351"
 ---
 # <a name="create-a-new-product"></a>Создание нового продукта
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме описывается создание нового общего продукта. Она обычно выполняется конструктором продуктов. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
+В этой статье описывается создание нового общего продукта. Она обычно выполняется конструктором продуктов. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 
 
 ## <a name="create-a-product"></a>Создание продукта

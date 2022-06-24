@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851894"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Каталог обучения функционального консультанта Dynamics 365 Supply Chain Management
 
@@ -68,7 +68,7 @@ ms.locfileid: "8672104"
 | [Курс MB-300T01-A: основные общие возможности Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | В этом курсе обсуждаются основные общие функции Microsoft Dynamics 365 for Finance and Operations. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 1 день |
 | [Курс MB-300T02-A: основная конфигурация в Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | В этом курсе обсуждаются основные задачи по настройке конфигурации для Microsoft Dynamics 365 for Finance and Operations. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 1 день |
 | [Курс MB-300T03-A: перенос данных и подготовка к вводу в эксплуатацию с Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | В этом курсе обсуждаются миграция данных и подготовка к вводу в эксплуатацию для Microsoft Dynamics 365 for Finance and Operations. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 1 день |
-| [Домашняя страница модуля реализации жизненного цикла](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | В этих разделах описываются доступные программы, инструменты и процессы, связанные с жизненным циклом реализации проекта Microsoft Dynamics 365 for Finance and Operations. | Документация | |
+| [Домашняя страница модуля реализации жизненного цикла](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | В этих статях описываются доступные программы, инструменты и процессы, связанные с жизненным циклом реализации проекта Microsoft Dynamics 365 for Finance and Operations. | Документация | |
 
 ## <a name="migration-and-upgrade"></a>Миграция и обновление<a name="migration"></a>
 
@@ -105,7 +105,7 @@ ms.locfileid: "8672104"
 | [Мобильное приложение управления запасами (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | В ходе этого технического обсуждения рассматривается расширенная система складского хозяйства в Dynamics 365 for Operations, а также будущее расширенного складского интерфейса для мобильных устройств. Будет рассмотрено новое мобильное приложение, которое было выпущено, и проведено его сравнение с прежним приложением WMDP. Будет рассмотрено, что требуется для установки, настройки и работы с этим мобильным приложением, а также порядок его использования с выгодой для ваших реализаций. | Бесплатная запись веб-конференции | 54 минут |
 | [Совместная работа с поставщиками (DYN327PAL)](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | Это техническое обсуждение содержит пошаговое ознакомление с функцией сотрудничества с поставщиками, включая функцию потребления отклика от поставщика, которая включена в июльский выпуск (весна). | Бесплатная запись веб-конференции | 58 минут |
 | [Процесс миграции номенклатуры и склада для использования расширенного управления складом (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | В ходе этого технического обсуждения вы научитесь переносить существующие настройки склада и номенклатур с открытыми проводками в расширенное управление запасами, используя новые возможности по изменению группы аналитик хранения для номенклатур и разрешения складам использовать процессы расширенного управления складом. | Бесплатная запись веб-конференции | 54 минут |
-| [Домашняя страница модуля "Управление цепочкой поставок"](/dynamics365/unified-operations/supply-chain/) | В этой теме представлен список тем справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. | Документация | |
+| [Домашняя страница модуля "Управление цепочкой поставок"](/dynamics365/unified-operations/supply-chain/) | В этой статье представлен список статей справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. | Документация | |
 | [Пополнение на основании спроса для комплектации сырья (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | Это техническое обсуждение будет охватывать комплектацию сырья и пополнение спроса для комплектации сырья. | Бесплатная запись веб-конференции | 38 минут |
 | [Курс MB-330T01-A: настройка и использование Supply Chain Management в Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | В этом курсе обсуждается настройка и использование Supply Chain Management в Dynamics 365 for Finance and Operations. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 2 дня |
 | [Курс MB-330T02-A: использование управления качеством, внутрихолдинговой торговли и сводного планирования в Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | В этом курсе обсуждается использование управления качеством, внутрихолдинговой торговли и сводного планирования в Dynamics 365 for Finance and Operations. | Очные курсы с преподавателем или обучение по Интернету, стоимость зависит от региона и партнера | 1 день |

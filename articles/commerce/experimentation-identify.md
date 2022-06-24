@@ -1,6 +1,6 @@
 ---
 title: Определение гипотезы и определение метрик для эксперимента
-description: В этом разделе описывается, как определить гипотезу и метрики успешности для эксперимента, который будет выполняться на веб-сайте электронной коммерции в Dynamics 365 Commerce.
+description: В этой статье описывается, как определить гипотезу и метрики успешности для эксперимента, который будет выполняться на веб-сайте электронной коммерции в Dynamics 365 Commerce.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b6bdf160522fc93e841ec2f8a4542ff80d8f67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852794"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Определение гипотезы и определение метрики успеха для эксперимента
-Первый этап жизненного цикла эксперимента включает в себя определение гипотезы для эксперимента и определение метрик, которые вы будете отслеживать для оценки успеха. На следующей схеме показаны все шаги [настройки и запуска эксперимента](experimentation-overview.md) на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных разделах. 
+Первый этап жизненного цикла эксперимента включает в себя определение гипотезы для эксперимента и определение метрик, которые вы будете отслеживать для оценки успеха. На следующей схеме показаны все шаги [настройки и запуска эксперимента](experimentation-overview.md) на веб-сайте электронной коммерции в Dynamics 365 Commerce. Дополнительные шаги описаны в отдельных статьях. 
 
 [ ![Путь взаимодействия пользователя с экспериментами — определение.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 

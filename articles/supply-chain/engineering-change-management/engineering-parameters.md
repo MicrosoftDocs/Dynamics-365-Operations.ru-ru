@@ -1,6 +1,6 @@
 ---
 title: Параметры управления изменениями разработки
-description: В этой теме объясняется, как настроить функции управления техническими изменениями для Microsoft Dynamics 365 Supply Chain Management.
+description: В этой статье объясняется, как настроить функции управления техническими изменениями для Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875520"
 ---
 # <a name="engineering-change-management-parameters"></a>Параметры управления изменениями разработки
 
@@ -27,7 +27,7 @@ ms.locfileid: "7581016"
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>Открытие страницы параметров управления техническими изменениями
 
-Чтобы открыть страницу **Параметры управления техническими изменениями**, перейдите к разделу **Управление техническими изменениями \> Настройка \> Параметры управления техническими изменениями**. Затем можно настроить поля, как описано в оставшихся разделах данной темы.
+Чтобы открыть страницу **Параметры управления техническими изменениями**, перейдите к разделу **Управление техническими изменениями \> Настройка \> Параметры управления техническими изменениями**. Затем можно настроить поля, как описано в оставшихся разделах данной статьи.
 
 ## <a name="release-control-tab"></a>Вкладка управления выпуском
 

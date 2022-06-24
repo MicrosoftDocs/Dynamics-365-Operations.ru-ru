@@ -1,6 +1,6 @@
 ---
-title: Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce
-description: В этой теме объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
+title: Настройка дополнительных функций среды оценки Dynamics 365 Commerce
+description: В этой статье объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861922"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций среды оценки Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Необходимые условия
 
@@ -108,7 +108,7 @@ ms.locfileid: "6728299"
     - Шаблон заказа на упаковку
     - Шаблон заказа на комплектацию
 
-1. Настройте шаблоны с помощью текстового редактора или текста HTML. См. список [поддерживаемых токенов](#supported-tokens-in-the-email-template) позже в этой теме.
+1. Настройте шаблоны с помощью текстового редактора или текста HTML. См. список [поддерживаемых токенов](#supported-tokens-in-the-email-template) позже в этой статье.
 1. Вход в Commerce.
 1. Используя меню в левой части, перейдите к пункту **Модули \> Администрирование организации \> Настройка \> Шаблоны сообщений электронной почты организации**.
 1. Разверните список слева, чтобы просмотреть все шаблоны.

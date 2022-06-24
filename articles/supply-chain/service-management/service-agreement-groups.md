@@ -1,6 +1,6 @@
 ---
 title: Обзор соглашений о сервисном обслуживании
-description: В этой теме представлен обзор работы соглашений о сервисном обслуживании.
+description: В этой статье представлен обзор работы соглашений о сервисном обслуживании.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862463"
 ---
 # <a name="service-agreements-overview"></a>Обзор соглашений о сервисном обслуживании
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670842"
 - Три группы соглашений, настроенные в вашей компании, — "Золотая", "Серебряная" и "Бронзовая".
 - В вашу компанию наняли нового менеджера по обслуживанию клиентов. Менеджер по обслуживанию отвечает за взаимодействие со всеми клиентами в группе соглашений "Золотая". Вы можете отфильтровать записи соглашений в группе соглашений "Золотая", чтобы найти все соглашения, для которых необходимо указать как ответственное лицо нового менеджера по обслуживанию.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Создание групп соглашений на обслуживание](create-service-agreement-groups.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка навигации по сайту
-description: В этом разделе описывается создание настраиваемой иерархии переходов в Интернете для организации продуктов для просмотра на веб-сайте Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается создание настраиваемой иерархии переходов в Интернете для организации продуктов для просмотра на веб-сайте Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863469"
 ---
 # <a name="customize-site-navigation"></a>Настройка навигации по сайту
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается создание настраиваемой иерархии переходов в Интернете для организации продуктов для просмотра на веб-сайте Microsoft Dynamics 365 Commerce.
+В этой статье описывается создание настраиваемой иерархии переходов в Интернете для организации продуктов для просмотра на веб-сайте Microsoft Dynamics 365 Commerce.
 
 Интернет-магазины обычно позволяют пользователям находить и просматривать продукты путем перехода по категориям продуктов. Эта возможность обычно предоставляется на вкладках в верхней части страницы или в левой области переходов. В Dynamics 365 Commerce можно создавать и управлять иерархической структурой навигации по категориям и продуктам, включенным в различные категории.
 

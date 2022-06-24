@@ -1,6 +1,6 @@
 ---
 title: Скидки на основе платежных средств
-description: В этом разделе представлен обзор функциональных возможностей, которые позволяют предприятиям розничной торговли настраивать скидки для определенных типов платежных средств.
+description: В этой статье представлен обзор функциональных возможностей, которые позволяют предприятиям розничной торговли настраивать скидки для определенных типов платежных средств.
 author: bebeale
 ms.date: 10/30/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d67819fce0fb0002ffd85324cb24aea2d2abdabb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871589"
 ---
 # <a name="tender-based-discounts"></a>Скидки на основе платежных средств
 

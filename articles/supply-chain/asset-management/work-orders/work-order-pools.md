@@ -1,6 +1,6 @@
 ---
-title: Пулы заказа на работу
-description: В этом разделе описывается, как работать с пулами заказов на работу в управлении активами.
+title: Пулы заказов на работу
+description: В этой статье описывается, как работать с пулами заказов на работу в управлении активами.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dd474451569e123fab811cc3625862d599a07963f3714c72d5a724ffd052983e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849571"
 ---
 # <a name="work-order-pools"></a>Пулы заказа на работу
 

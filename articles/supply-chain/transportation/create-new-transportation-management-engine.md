@@ -1,6 +1,6 @@
 ---
 title: Создание нового механизма управления транспортировкой
-description: В этом разделе описывается, как создать новый механизм управления транспортировкой в Dynamics 365 Supply Chain Management.
+description: В этой статье описывается, как создать новый механизм управления транспортировкой в Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857267"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Создание нового механизма управления транспортировкой
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается, как создать новый механизм управления транспортировкой в Dynamics 365 Supply Chain Management. 
+В этой статье описывается, как создать новый механизм управления транспортировкой в Dynamics 365 Supply Chain Management. 
 
 Механизмы управления транспортировкой (TMS) определяют логику, которая используется для создания и обработки ставок транспортировки в модуле "Управление транспортировкой". Supply Chain Management содержит несколько различных типов механизмов, которые рассчитывают различные параметры, такие как ставки, время транспортировки и число зон, которые будут пересечены при транспортировке. В этой статье объясняется, как использовать среду разработки Microsoft Visual Studio вместе со средствами разработки Supply Chain Management для создания и развертывания нового механизма TMS, а затем для настройки механизма в Operations. Дополнительные сведения об этих механизмах см. в разделе [Механизмы управления транспортировкой](transportation-management-engines.md).
 

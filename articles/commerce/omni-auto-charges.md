@@ -1,6 +1,6 @@
 ---
 title: Омниканальные расширенные автоматические накладные расходы
-description: В этом разделе описываются возможности для управления прочими расходами заказа по заказам канала Commerce с помощью функций расширенных автоматических накладных расходов.
+description: В этой статье описываются возможности для управления прочими расходами заказа по заказам канала Commerce с помощью функций расширенных автоматических накладных расходов.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851139"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Омниканальные расширенные автоматические накладные расходы
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе приводятся сведения о конфигурации и развертывания функций расширенных автоматических накладных расходов, которые доступны в Dynamics 365 for Retail версии 10.0.
+В этой статье приводятся сведения о конфигурации и развертывания функций расширенных автоматических накладных расходов, которые доступны в Dynamics 365 for Retail версии 10.0.
 
 При включении функции расширенных автоматических накладных расходов заказы, созданные в любом поддерживаемом канале Commerce (POS, центр обработки вызовов и интернет-магазин), могут использовать конфигурации [автоматических расходов](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services), определенные в приложении электронной отчетности для накладных расходов уровня заголовка и уровня строк.
 

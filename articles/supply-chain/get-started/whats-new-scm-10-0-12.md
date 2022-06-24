@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Dynamics 365 Supply Chain Management 10.0.12.
+description: В этой статье описываются новые и измененные компоненты в Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
 ms.date: 05/29/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44b56a59c3b6bb123151988c403382d7c57efd29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845035"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.12. Эта версия имеет номер сборки 10.0.507 и доступна следующим образом:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management версии 10.0.12. Эта версия имеет номер сборки 10.0.507 и доступна следующим образом:
 
 - **Выпуск предварительной версии:** май 2020 г.
 - **Общая доступность (самостоятельное обновление):** июль 2020 г.
@@ -47,7 +47,7 @@ ms.locfileid: "6728611"
 
 - [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение управления складом](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Массовое развертывание для Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Дополнительные сведения см. в разделе [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md).
+- [Массовое развертывание для Warehouse mobile app](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Дополнительные сведения см. в разделе [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Максимальное время выполнения для задания очистки записей запасов в наличии для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
 
@@ -55,9 +55,9 @@ ms.locfileid: "6728611"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.12 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.12 приложений Finance and Operations (август 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.12 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.12 приложений для финансов и операций (август 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -71,12 +71,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.12 включает обно
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
-В теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
+В статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
+Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 

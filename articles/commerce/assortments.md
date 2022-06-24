@@ -1,6 +1,6 @@
 ---
-title: Управление ассортиментом
-description: В этом разделе описываются основные понятия управления ассортиментом в Dynamics 365 Commerce и обсуждаются вопросы реализации для вашего проекта.
+title: Управление ассортиментами
+description: В этой статье описываются основные понятия управления ассортиментом в Dynamics 365 Commerce и обсуждаются вопросы реализации для вашего проекта.
 author: jblucher
 ms.date: 03/12/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 038e6fb37e8781222920c572bacf682239bbeffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880374"
 ---
 # <a name="assortment-management"></a>Управление ассортиментом
 

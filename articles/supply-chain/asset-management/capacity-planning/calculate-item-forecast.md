@@ -1,6 +1,6 @@
 ---
-title: Рассчитать прогноз номенклатуры
-description: В этом разделе описывается, как рассчитать прогноз по номенклатуре в модуле "Управление активами".
+title: Расчет прогноза номенклатуры
+description: В этой статье описывается, как рассчитать прогноз по номенклатуре в модуле "Управление активами".
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5773149760ecb2a26f4916036fe36c9cc04f654039dee4eab9bfac86eb02e1fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870910"
 ---
 # <a name="calculate-item-forecast"></a>Рассчитать прогноз номенклатуры
 

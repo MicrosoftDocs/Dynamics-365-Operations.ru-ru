@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863660"
 ---
 # <a name="putaway-clusters"></a>Кластеры размещения
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103671"
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Включение или отключение функции кластеров размещения
 
-Для использования описанных в этой теме функций в системе должна быть включена функция *Функция кластеров размещения*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Функция кластеров размещения* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Для использования описанных в этой статье функций в системе должна быть включена функция *Функция кластеров размещения*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Функция кластеров размещения* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Настройка примера сценария
 

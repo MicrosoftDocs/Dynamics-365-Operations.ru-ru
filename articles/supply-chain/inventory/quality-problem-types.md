@@ -1,6 +1,6 @@
 ---
 title: Типы проблем для несоответствий
-description: В этой теме описывается, как создавать и использовать типы проблем для несоответствий.
+description: В этой статье описывается, как создавать и использовать типы проблем для несоответствий.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857760"
 ---
 # <a name="problem-types-for-nonconformances"></a>Типы проблем для несоответствий
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как создавать и использовать типы проблем для несоответствий.
+В этой статье описывается, как создавать и использовать типы проблем для несоответствий.
 
 Используйте страницу **Типы проблем**, чтобы определить классификацию проблем качества, которые могут возникнуть для различных типов несоответствий. Для каждого создаваемого типа проблемы необходимо указать типы несоответствий, с которыми может использоваться тип проблемы. Можно настроить следующие типы несоответствий:
 

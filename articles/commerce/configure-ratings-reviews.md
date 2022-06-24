@@ -1,6 +1,6 @@
 ---
 title: Настройка оценок и отзывов
-description: В этом разделе описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862263"
 ---
 # <a name="configure-ratings-and-reviews"></a>Настройка оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как настроить сайт электронной коммерции, чтобы показать оценки и обзоры клиентов в Microsoft Dynamics 365 Commerce.
 
 Оценки и обзоры на веб-сайтах электронной коммерции помогают пользователям изучить продукты перед принятием решения о покупке, показывая им, что другие клиенты думают об этих продуктах. Для веб-сайтов электронной коммерции оценки и обзоры также являются механизмом сбора отзывов клиентов о продуктах. 
 

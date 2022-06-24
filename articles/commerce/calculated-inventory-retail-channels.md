@@ -1,6 +1,6 @@
 ---
 title: Расчет наличия запасов для розничных каналов
-description: В этой теме описывается, как компания может использовать Microsoft Dynamics 365 Commerce для просмотра оценки доступности продуктов в наличии в интерактивном режиме и в каналах магазина.
+description: В этой статье описывается, как компания может использовать Microsoft Dynamics 365 Commerce для просмотра оценки доступности продуктов в наличии в интерактивном режиме и в каналах магазина.
 author: hhainesms
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 952acf4cc26815822436bb7a5117775a5f12200c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884119"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Расчет наличия запасов для розничных каналов
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как компания может использовать Microsoft Dynamics 365 Commerce для просмотра оценки доступности продуктов в наличии в интерактивном режиме и в каналах магазина.
+В этой статье описывается, как компания может использовать Microsoft Dynamics 365 Commerce для просмотра оценки доступности продуктов в наличии в интерактивном режиме и в каналах магазина.
 
 ## <a name="accuracy-of-inventory-availability"></a>Точность наличия запасов
 

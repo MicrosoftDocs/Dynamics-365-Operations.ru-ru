@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26.
+description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850767"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.26. Эта версия имеет номер сборки 10.0.1192 и доступна следующим образом:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management версии 10.0.26. Эта версия имеет номер сборки 10.0.1192 и доступна следующим образом:
 
 - **Предварительная версия выпуска:** март 2022 г.
 - **Общая доступность выпуска (самостоятельное обновление):** апрель 2022 года
@@ -29,7 +29,7 @@ ms.locfileid: "8625261"
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 
-В этой таблице перечислены функции в выпуске. Можно обновить этот раздел для включения функций, которые были сделаны в сборке после первоначальной публикации этого раздела.
+В этой таблице перечислены функции в выпуске. Мы можем обновить эту статью для включения функций, которые попали в сборку после первоначальной публикации этой статьи.
 
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
@@ -56,11 +56,11 @@ ms.locfileid: "8625261"
 
 ## <a name="new-and-updated-documentation-resources"></a>Новые и обновленные ресурсы документации
 
-Недавно были добавлены или существенно обновлены следующие разделы справки. Эти разделы необязательно связаны с новыми функциями, которые были добавлены в данный выпуск, как это показано в предыдущих разделах. Однако они могут повысить эффективность существующих функций.
+Недавно были добавлены или существенно обновлены следующие статьи справки. Эти статьи необязательно связаны с новыми функциями, которые были добавлены в данный выпуск, как это показано в предыдущих разделах. Однако они могут повысить эффективность существующих функций.
 
-| Область компонентов | Новые или обновленные темы |
+| Область компонентов | Новые или обновленные статьи |
 |---|---|
-| Управление затратами | Обновленные примеры и схемы были добавлены в каждый из следующих разделов:<ul><li>[Модель ФИФО с физической стоимостью и маркировкой](../cost-management/fifo-physical-value-marking.md)</li><li>[Модель ЛИФО с физической стоимостью и маркировкой](../cost-management/lifo-physical-value-marking.md)</li><li>[Дата LIFO с физической стоимостью и маркировкой](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Скользящая средняя себестоимость](../cost-management/running-average-cost-price.md)</li><li>[Взвешенное среднее с физической стоимостью и маркировкой](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Управление затратами | Обновленные примеры и схемы были добавлены в каждый из следующих статей:<ul><li>[Модель ФИФО с физической стоимостью и маркировкой](../cost-management/fifo-physical-value-marking.md)</li><li>[Модель ЛИФО с физической стоимостью и маркировкой](../cost-management/lifo-physical-value-marking.md)</li><li>[Дата LIFO с физической стоимостью и маркировкой](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Скользящая средняя себестоимость](../cost-management/running-average-cost-price.md)</li><li>[Взвешенное среднее с физической стоимостью и маркировкой](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Закупки и источники | [Несоответствия данных строк заказа на покупку](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
@@ -81,12 +81,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.26 включает обно
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Удаленные и устаревшие функции Supply Chain Management
 
-В теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
+В статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) описываются функции, которые запланированы к удалению или которые планируется удалить или объявить устаревшими для Supply Chain Management.
 
 - *Удаленная* функция больше недоступна в продукте.
 - *Устаревшая* функция не находится в активной разработке и может быть удалена в следующем обновлении.
 
-Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в теме [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
+Перед удалением каких-либо функций из продукта уведомление об устаревании будет объявлено в статье [Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) за 12 месяцев до удаления.
 
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 

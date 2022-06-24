@@ -1,6 +1,6 @@
 ---
 title: Обзор исходящих процессов
-description: В этой теме приведен обзор исходящего процесса в модуле "Управление запасами".
+description: В этой статье приведен обзор исходящего процесса в модуле "Управление запасами".
 author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 85012ada693a98652325a142ba4649a9a826b22b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4e3c97862858e219d98b4ef9a81b52c6ab1623ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852486"
 ---
 # <a name="outbound-process-overview"></a>Обзор исходящих процессов
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме приведен обзор исходящего процесса в модуле "Управление запасами".
+В этой статье приведен обзор исходящего процесса в модуле "Управление запасами".
 
 ## <a name="output-orders"></a>Заказы на выпуск
 

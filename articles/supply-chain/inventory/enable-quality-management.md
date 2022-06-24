@@ -1,6 +1,6 @@
 ---
 title: Включение управления качеством и несоответствием
-description: В этом разделе представлен обзор процесса настройки и конфигурирования контроля качества и функций управления несоответствиями в Microsoft Dynamics 365 Supply Chain Management.
+description: В этой статье представлен обзор процесса настройки и конфигурирования контроля качества и функций управления несоответствиями в Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2c8b7e9a1a8d7692e1d2215e38de1b0f4d2d82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66229e3692e87f774c553eae955794330602598c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874053"
 ---
 # <a name="enable-quality-and-nonconformance-management"></a>Включение управления качеством и несоответствием
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе представлен обзор процесса настройки и конфигурирования контроля качества и функций управления несоответствиями в Microsoft Dynamics 365 Supply Chain Management.
+В этой статье представлен обзор процесса настройки и конфигурирования контроля качества и функций управления несоответствиями в Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a>Включение управления качеством и несоответствием
 

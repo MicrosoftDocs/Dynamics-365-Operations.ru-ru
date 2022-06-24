@@ -1,6 +1,6 @@
 ---
-title: Применение настроек единицы измерения
-description: В этой теме описываются настройки единицы измерения и описывается порядок их применения в Microsoft Dynamics 365 Commerce.
+title: Применение параметров единиц измерения
+description: В этой статье описываются настройки единицы измерения и описывается порядок их применения в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884823"
 ---
-# <a name="apply-unit-of-measure-settings"></a>Применение настроек единицы измерения
+# <a name="apply-unit-of-measure-settings"></a>Применение параметров единиц измерения
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются настройки единицы измерения и описывается порядок их применения в Microsoft Dynamics 365 Commerce.
+В этой статье описываются настройки единицы измерения и описывается порядок их применения в Microsoft Dynamics 365 Commerce.
 
 Продукт может продаваться в различных единицах измерения, таких как "штука", "пара", "десяток". В Commerce Headquarters единица измерения продажи может быть определена для продукта и показана на сайте электронной коммерции. Например, если розничный продавец продает продукт как отдельно, так и десятками, доступные единицы измерения могут отображаться вместе с другими сведениями о продукте.
 

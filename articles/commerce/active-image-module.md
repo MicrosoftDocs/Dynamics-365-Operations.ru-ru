@@ -1,6 +1,6 @@
 ---
 title: Модуль активного изображения
-description: В этой теме описываются модули активного изображения, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются модули активного изображения, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 06b9162029de3f5f3fede9583fa8a4a96fefb2f3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853858"
 ---
 # <a name="active-image-module"></a>Модуль активного изображения
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются модули активного изображения, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описываются модули активного изображения, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 
 Модуль активного изображения может использоваться для встраивания тегов продукта в изображение. После этого пользователи сайта электронной коммерции могут навести на них указатель, чтобы просмотреть продукты, которые отображаются в изображении. Предварительные обзоры отображаются во всплывающих окнах. При выборе всплывающего окна предварительного просмотра пользователи могут перейти непосредственно на страницу сведений о продукте (PDP) для соответствующего продукта.
 

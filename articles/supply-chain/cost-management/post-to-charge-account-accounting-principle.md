@@ -1,6 +1,6 @@
 ---
 title: Принцип бухгалтерского учета "Выполнить разноску на счет"
-description: В этой теме представлен обзор принципа бухгалтерского учета "Выполнить разноску на счет".
+description: В этой статье представлен обзор принципа бухгалтерского учета "Выполнить разноску на счет".
 author: rachel-profitt
 ms.date: 05/02/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45dc1775c0db83faa89a7a1fa799bdd070d1b09a
-ms.sourcegitcommit: 283e237d7bd2a76dd3a8ff64685b0a5f146edd25
+ms.openlocfilehash: 998a30786b3f457b24b6e3c755b2c00967adbd4b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879173"
 ---
 # <a name="post-to-charge-account-accounting-principle"></a>Принцип бухгалтерского учета "Выполнить разноску на счет"
 

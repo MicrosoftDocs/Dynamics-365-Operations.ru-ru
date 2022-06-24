@@ -1,6 +1,6 @@
 ---
 title: Создание юридических лиц
-description: В этом разделе описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
+description: В этой статье описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 160dd82298705eab9edecb9d30d051382b6b4471
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847714"
 ---
 # <a name="create-legal-entities"></a>Создание юридических лиц
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
+В этой статье описывается создание юридических лиц в Microsoft Dynamics 365 Commerce, которые должны быть созданы и настроены перед созданием каналов.
 
 Юридическое лицо — это организация, имеющая зарегистрированную или узаконенную правовую структуру. Юридические лица могут заключать юридические соглашения и обязаны подготавливать отчетность по результатам своей деятельности.
 

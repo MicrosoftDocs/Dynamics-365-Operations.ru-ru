@@ -1,6 +1,6 @@
 ---
 title: Асинхронный режим создания клиента
-description: В этой теме описывается асинхронный режим создания клиентов в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается асинхронный режим создания клиентов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880148"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Асинхронный режим создания клиента
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается асинхронный режим создания клиентов в Microsoft Dynamics 365 Commerce.
+В этой статье описывается асинхронный режим создания клиентов в Microsoft Dynamics 365 Commerce.
 
 в Commerce имеется два режима создания клиентов: синхронный (или sync) и асинхронный (или async). По умолчанию клиенты создаются синхронно. Другими словами, они создаются в Commerce headquarters в реальном времени. Синхронный режим создания клиентов является полезным, поскольку новые клиенты сразу же могут осуществлять поиск по каналам. Однако у него также есть недостаток. Поскольку он генерирует вызовы [Commerce Data Exchange: служба реального времени](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) в Commerce headquarters, производительность может быть нарушена, если будет выполнено много звонков для создания клиентов одновременно.
 

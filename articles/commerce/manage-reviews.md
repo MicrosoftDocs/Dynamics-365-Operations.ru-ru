@@ -1,6 +1,6 @@
 ---
 title: Управление оценками и отзывами
-description: В этой теме объясняется, как управлять оценками и отзывами в конструкторе веб-сайтов Microsoft Dynamics 365 Commerce.
+description: В этой статье объясняется, как управлять оценками и отзывами в конструкторе веб-сайтов Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881331"
 ---
 # <a name="manage-ratings-and-reviews"></a>Управление оценками и отзывами
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как управлять оценками и отзывами в конструкторе веб-сайтов Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как управлять оценками и отзывами в конструкторе веб-сайтов Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce использует Microsoft Azure Cognitive Service для автоматической модерации текста отзыва с помощью редактирования нецензурных слов. Кроме того, модераторы могут использовать конструктор веб-сайтов Dynamics 365 Commerce для выполнения следующих ручных задач:
 

@@ -1,6 +1,6 @@
 ---
-title: Добавление поддержки сети доставки контента (CDN)
-description: В этом разделе описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
+title: Добавление поддержки сети доставки содержимого (CDN)
+description: В этой статье описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855884"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки содержимого (CDN)
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
 
 При настройке среды электронной коммерции в Dynamics 365 Commerce можно настроить ее для работы со службой CDN. 
 
@@ -60,7 +60,7 @@ ms.locfileid: "6722062"
 
 ### <a name="add-a-front-end-host"></a>Добавление узла переднего плана
 
-Можно использовать любую службу CDN, но для примера в этом разделе используется служба Azure Front Door Service. 
+Можно использовать любую службу CDN, но для примера в этой статье используется служба Azure Front Door Service. 
 
 Сведения о настройке службы Azure Front Door Service см. в разделе [Краткое руководство: Создание службы Front Door для глобального веб-приложения с высокой доступностью](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ ms.locfileid: "6722062"
 
 
 > [!WARNING]
-> Если используемый домен уже активен и используется, создайте запрос в службу поддержки на плитке **Поддержка** в [Lifecycle Services Microsoft Dynamics](https://lcs.dynamics.com/), чтобы получить помощь для последующих шагов. Дополнительные сведения см. в разделе [Получение поддержки для приложений Finance and Operations или Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Если используемый домен уже активен и используется, создайте запрос в службу поддержки на плитке **Поддержка** в [Lifecycle Services Microsoft Dynamics](https://lcs.dynamics.com/), чтобы получить помощь для последующих шагов. Дополнительные сведения см. в разделе [Получение поддержки по приложениям для управления финансами и операциями или Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Если домен является новым и не существовал раньше как активный домен, можно добавить личный домен в конфигурацию Azure Front Door Service. Это позволяет веб-трафику направляться на ваш сайт через экземпляр Azure Front Door. Чтобы добавить пользовательский домен (например, `www.fabrikam.com`), необходимо настроить каноническое имя (CNAME) для домена.
 

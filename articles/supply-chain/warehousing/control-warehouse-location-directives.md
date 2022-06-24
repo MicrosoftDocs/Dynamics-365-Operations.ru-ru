@@ -1,6 +1,6 @@
 ---
 title: Контроль работы склада с шаблонами работы и директивами для мест хранения
-description: В этой теме рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
+description: В этой статье рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877431"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Контроль работы склада с шаблонами работы и директивами для мест хранения
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
+В этой статье рассматривается, как использовать шаблоны работы и директивы для мест хранения для определения того, как и где выполняется работа на складе.
 
 Инструкции, которые работники склада получают на мобильное устройство, определяются рабочими шаблонами Dynamics 365 Supply Chain Management, которые вы настраиваете, чтобы определить разные процессы и задачи склад. Шаблоны работы определяют, как работа выполнена для каждого процесса склада. Связывая директиву для места хранения с шаблонами работы, можно гарантировать, что работа выполняется в определенных физических областях склада.
 
@@ -73,7 +73,7 @@ ms.locfileid: "6770152"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - Видео: [Подробные сведения о конфигурации управления складом](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Тема справки: [Работа с директивами местонахождения](create-location-directive.md)
+- Статья справки: [Работа с директивами местонахождения](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

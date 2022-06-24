@@ -1,6 +1,6 @@
 ---
-title: Группы проверки контроля качества
-description: В этой теме описывается, как создавать группы проверки, чтобы можно было использовать несколько проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
+title: Группы тестирования управления качеством
+description: В этой статье описывается, как создавать группы проверки, чтобы можно было использовать несколько проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857716"
 ---
-# <a name="quality-management-test-groups"></a>Группы проверки контроля качества
+# <a name="quality-management-test-groups"></a>Группы тестирования управления качеством
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как создавать группы проверки, чтобы можно было использовать несколько проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
+В этой статье описывается, как создавать группы проверки, чтобы можно было использовать несколько проверок с заказами контроля качества в Microsoft Dynamics 365 Supply Chain Management.
 
 Используйте страницу **Группы проверки** для настройки, изменения и просмотра групп проверки и отдельных проверок, назначенных им. В верхней области странице отображаются группы проверки, а в нижней области отображаются проверки, включенные в выбранную группу проверки.
 

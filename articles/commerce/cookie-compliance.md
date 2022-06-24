@@ -1,6 +1,6 @@
 ---
-title: Соответствие cookie
-description: В этой теме описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
+title: Соответствие файлов cookie
+description: В этой статье описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 03/10/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
-ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.openlocfilehash: 6a96ba21f1872b41156768fb7277933e68a16d90
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "8403155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863573"
 ---
 # <a name="cookie-compliance"></a>Соответствие файлов cookie
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
+В этой статье описаны соображения соответствия требованиям файлов cookie и политики по умолчанию, включенные в Microsoft Dynamics 365 Commerce.
 
 Конфиденциальность является важным фактором, когда используются технологии отслеживания, влияющие на клиентов электронной коммерции. Из-за стандартов конфиденциальности, таких как Общий регламент по защите данных (GDPR) в Европейском союзе (ЕС), электронные руководящие принципы конфиденциальности должны быть учтены для любого сайта, который активен сегодня. Поскольку многие сайты электронной коммерции доступны глобально по умолчанию, важно пересмотреть стандарты соответствия для вашего сайта электронной коммерции.
 

@@ -1,6 +1,6 @@
 ---
 title: Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Sales
-description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Dynamics 365 Supply Chain Management в Dynamics 365 Sales.
+description: В этой статье рассматриваются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Dynamics 365 Supply Chain Management в Dynamics 365 Sales.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856000"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062471"
 > [!NOTE]
 > Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Microsoft Dataverse для приложений](/powerapps/administrator/data-integrator).
 
-В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации продуктов непосредственно из Dynamics 365 Supply Chain Management в Dynamics 365 Sales.
+В этой статье рассматриваются шаблоны и базовые задачи, которые используются для синхронизации продуктов непосредственно из Dynamics 365 Supply Chain Management в Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
@@ -107,7 +107,7 @@ ms.locfileid: "8062471"
 ![Сопоставление шаблона в интеграторе данных.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Продажа перспективному клиенту](prospect-to-cash.md)
 

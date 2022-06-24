@@ -1,6 +1,6 @@
 ---
 title: Рекомендации по развертыванию образца интеграции финансового принтера для Польши (устаревшая версия)
-description: В этой теме приводятся указания по развертыванию примера интеграции финансового принтера для Польши, относящегося к пакету разработки программного обеспечения Retail SDK Microsoft Dynamics 365 Commerce.
+description: В этой статье приводятся указания по развертыванию примера интеграции финансового принтера для Польши, относящегося к пакету разработки программного обеспечения Retail SDK Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851165"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Рекомендации по развертыванию образца интеграции финансового принтера для Польши (устаревшая версия)
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме приводятся рекомендации по развертыванию образца интеграции финансового принтера для Польши из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции финансового принтера для Польши](emea-pol-fpi-sample.md). 
+В этой статье приводятся рекомендации по развертыванию образца интеграции финансового принтера для Польши из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции финансового принтера для Польши](emea-pol-fpi-sample.md). 
 
-Пример финансовой интеграции для Польши является частью пакета Retail SDK. Сведения о том, как установить и использовать этот пакет SDK см. в разделе [Архитектура комплекта средств разработки программного обеспечения (SDK) для Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Этот пример состоит из расширений Commerce Runtime (CRT) и Hardware Station. Для работы с этим примером необходимо изменить и построить проекты CRT и Hardware Station. Для внесения изменений, описанных в этой теме, рекомендуется использовать немодифицированный пакет Retail SDK. Кроме того, рекомендуется использовать систему управления версиями, такую как Azure DevOps, в которой никакие файлы еще не были изменены.
+Пример финансовой интеграции для Польши является частью пакета Retail SDK. Сведения о том, как установить и использовать этот пакет SDK см. в разделе [Архитектура комплекта средств разработки программного обеспечения (SDK) для Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Этот пример состоит из расширений Commerce Runtime (CRT) и Hardware Station. Для работы с этим примером необходимо изменить и построить проекты CRT и Hardware Station. Для внесения изменений, описанных в этой статье, рекомендуется использовать немодифицированный пакет Retail SDK. Кроме того, рекомендуется использовать систему управления версиями, такую как Azure DevOps, в которой никакие файлы еще не были изменены.
 
 ## <a name="development-environment"></a>Среда разработки
 

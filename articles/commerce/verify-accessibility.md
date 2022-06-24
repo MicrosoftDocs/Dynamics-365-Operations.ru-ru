@@ -1,6 +1,6 @@
 ---
 title: Проверка доступности контента страницы
-description: В этой теме описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caccb6085947193e4a5f8a8555722dd073f0c275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884768"
 ---
 # <a name="verify-page-content-accessibility"></a>Проверка доступности контента страницы
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как проверить специальные возможности конвента страницы в Microsoft Dynamics 365 Commerce.
 
 После того, как вы закончите менять страницу, вы должны убедиться, что контент доступен для всех в Интернете. В инструментах разработки Commerce вы можете легко проверить специальные возможности контента страницы с помощью интегрированной службы [Microsoft Accessibility Insights](https://accessibilityinsights.io/). Эта служба проверяет содержимое страницы в соответствии с последними руководящими принципами [Специальные возможности World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility).
 

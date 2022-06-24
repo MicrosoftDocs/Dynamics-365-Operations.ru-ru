@@ -1,6 +1,6 @@
 ---
 title: Пример интеграции фискальных принтеров для Польши
-description: В этой теме представлен обзор примера финансовой интеграции для Польши в Microsoft Dynamics 365 Commerce.
+description: В этой статье представлен обзор примера финансовой интеграции для Польши в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876957"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Пример интеграции фискальных принтеров для Польши
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме представлен обзор примера финансовой интеграции для Польши в Microsoft Dynamics 365 Commerce.
+В этой статье представлен обзор примера финансовой интеграции для Польши в Microsoft Dynamics 365 Commerce.
 
 Функции Dynamics 365 Commerce для Польши включают в себя пример интеграции POS с финансовым принтером. Образец расширяет [возможности финансовой интеграции](fiscal-integration-for-retail-channel.md) и поддерживает протокол POSNET THERMAL HD 2.02 для финансовых принтеров от [Posnet Polska S.A.](https://www.posnet.com.pl) Пример обеспечивает связь с принтером финансовых данных, подключенным через COM-порт, с помощью собственного программного драйвера. Он было реализовано и проверен с помощью программного эмулятора, который Posnet предоставила для финансового принтера Posnet Thermal HD FV EJ. Пример представлен в форме исходного кода и является частью пакета SDK Retail.
 

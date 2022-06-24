@@ -1,6 +1,6 @@
 ---
 title: Отмена задания сводного планирования
-description: В этой теме объясняется, как отменить активное задание планирования, в котором используются встроенные функции планирования.
+description: В этой статье объясняется, как отменить активное задание планирования, в котором используются встроенные функции планирования.
 author: t-benebo
 ms.date: 05/14/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d96f946c0c87db44ac5fe1adda68e47838dcc0d7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6a9667be9921fdde7e1ca5de68c7f51d48905ac8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860793"
 ---
 # <a name="cancel-a-master-planning-job"></a>Отмена задания сводного планирования
 

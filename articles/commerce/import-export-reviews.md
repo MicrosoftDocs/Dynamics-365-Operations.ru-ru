@@ -1,6 +1,6 @@
 ---
 title: Импорт и экспорт оценок и отзывов
-description: В этой теме описывается, как импортировать и экспортировать оценки и отзывы продуктов в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как импортировать и экспортировать оценки и отзывы продуктов в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863409"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Импорт и экспорт оценок и отзывов
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как импортировать и экспортировать оценки и отзывы продуктов в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как импортировать и экспортировать оценки и отзывы продуктов в Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce предлагает [оценки и отзывы](ratings-reviews-overview.md) как многоканальное решение. При переходе к решению оценок и отзывов в Dynamics 365 Commerce может возникнуть необходимость переместить существующие данные оценок и отзывов на платформу Commerce. Кроме того, можно также экспортировать данные оценок и отзывов из Commerce в зависимости от требований бизнеса. Соединитель Power Automate позволяет импортировать оценки и отзывы в Commerce и экспортировать их из Commerce.
 

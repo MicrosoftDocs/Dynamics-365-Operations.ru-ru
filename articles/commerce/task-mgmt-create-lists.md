@@ -1,6 +1,6 @@
 ---
 title: Создание списков задач и добавление задач
-description: В этом разделе описывается, как создавать списки задач и добавлять задачи в них в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как создавать списки задач и добавлять задачи в них в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a299be239d911e4605ed26625a313c93bd3020b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881639"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Создание списков задач и добавление задач
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как создавать списки задач и добавлять задачи в них в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как создавать списки задач и добавлять задачи в них в Microsoft Dynamics 365 Commerce.
 
 *Задача* определяет конкретный объем работ или действие, которое должно быть выполнено на указанную дату или до ее наступления. В Dynamics 365 Commerce задача может включать подробные инструкции и сведения о контактном лице. Она также может включать в себя ссылки на операции бэк-офис, операции POS-терминала или на страницы сайта, чтобы повысить производительность и предоставить контекст, необходимый владельцу задачи для эффективного выполнения задачи.
 

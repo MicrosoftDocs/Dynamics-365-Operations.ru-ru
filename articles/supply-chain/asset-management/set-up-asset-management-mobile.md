@@ -1,6 +1,6 @@
 ---
 title: Настройка мобильной рабочей области управления активами
-description: В этой теме описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение Finance and Operations (Dynamics 365) для запуска мобильной рабочей области "Управление активами", которую работники могут использовать для выполнения задач управления активами.
+description: В этой статье описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение финансов и операций (Dynamics 365) для запуска мобильной рабочей области "Управление активами", которую работники могут использовать для выполнения задач управления активами.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870852"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Настройка мобильной рабочей области управления активами
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение Finance and Operations (Dynamics 365) для запуска мобильной рабочей области **Управление активами**, которую работники могут использовать для выполнения задач управления активами.
+В этой статье описывается, как настроить Microsoft Dynamics 365 Supply Chain Management и мобильное приложение финансов и операций (Dynamics 365) для запуска мобильной рабочей области **Управление активами**, которую работники могут использовать для выполнения задач управления активами.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Настройка пользователей-специалистов по обслуживанию в Supply Chain Management
 

@@ -1,6 +1,6 @@
 ---
-title: Добавление рекомендаций на экран проводки
-description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
+title: Добавление рекомендаций на экран проводок
+description: В этой статье описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4748ade8d6693666b58cbded2123d3449d191509
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862080"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводок
 
 [!include [banner](includes/banner.md)]
 
 
-В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce. Дополнительные сведения о рекомендациях продуктов см. в разделе [Документация по рекомендациям продуктов в POS-терминалах](product.md).
+В этой статье описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce. Дополнительные сведения о рекомендациях продуктов см. в разделе [Документация по рекомендациям продуктов в POS-терминалах](product.md).
 
 
 При использовании Commerce можно отображать рекомендации по продукту на устройстве POS. Чтобы отобразить рекомендации по продуктам необходимо добавить элемент управления на экран проводки, используя конструктор макета экрана. 

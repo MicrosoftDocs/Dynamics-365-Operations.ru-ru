@@ -1,6 +1,6 @@
 ---
 title: Журналы запасов
-description: Этот раздел описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов.
+description: Эта статья описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов.
 author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c0ac9146c44b08698f8f9d15a3610bf0b7cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849426"
 ---
 # <a name="inventory-journals"></a>Журналы запасов
 
 [!include [banner](../includes/banner.md)]
 
-Этот раздел описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов.
+Эта статья описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов.
 
 Журналы запасов в Supply Chain Management используются для разноски проводок по физическим запасам различных типов, таких как разноска расходов и приходов, перемещения запасов, создания спецификаций (BOM) и выверка физических запасов. Все эти журналы запасов используются аналогичным образом, но они подразделяются на разные типы.
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка ресурсов Azure для аналитики Интернета вещей
-description: В этом разделе объясняется, как создать и настроить ресурсы Microsoft Azure, необходимые для работы с аналитики Интернета вещей.
+description: В этой статье объясняется, как создать и настроить ресурсы Microsoft Azure, необходимые для работы с аналитики Интернета вещей.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7099604caa33b2a74252b48ac4eec6bc4c28ef51
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6a0d97004963e04530a2f0e5a407c04642dfd8cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859295"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Настройка ресурсов Azure для аналитики Интернета вещей
 
 [!include [banner](../../includes/banner.md)]
 
-В этом разделе объясняется, как создать и настроить ресурсы Microsoft Azure, необходимые для работы с аналитики Интернета вещей.
+В этой статье объясняется, как создать и настроить ресурсы Microsoft Azure, необходимые для работы с аналитики Интернета вещей.
 
 ## <a name="create-azure-resources"></a>Создание ресурсов Azure
 

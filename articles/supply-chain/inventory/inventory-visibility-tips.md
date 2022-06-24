@@ -1,6 +1,6 @@
 ---
-title: Рекомендации по видимости запасов
-description: В этой теме представлено несколько советов, которые следует учитывать при настройке и использовании надстройки видимости запасов.
+title: Советы по Inventory Visibility
+description: В этой статье представлено несколько советов, которые следует учитывать при настройке и использовании надстройки видимости запасов.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885967"
 ---
 # <a name="inventory-visibility-tips"></a>Рекомендации по видимости запасов
 
@@ -34,5 +34,6 @@ ms.locfileid: "7952423"
 - При добавлении одной или нескольких новых мер в среду Supply Chain Management следует также добавить их в надстройку видимости запасов. Однако все изменения количества для новых мер должны поступать из среды Supply Chain Management.
 - [Конфигурация разделов](inventory-visibility-configuration.md#partition-configuration) в настоящее время состоит из двух базовых аналитик (`SiteId` и `LocationId`), которые показывают, как распределяются данные. Операции в рамках одного раздела могут повысить производительность при меньших затратах. Решение включает эту конфигурацию разделов по умолчанию. Следовательно, *определять ее самостоятельно не требуется*. На настраивайте конфигурацию разделов по умолчанию. Если удалить или изменить ее, то, вероятно, произойдет неожиданная ошибка.
 - Базовые аналитики, которые определены в конфигурации разделов, не должны определяться в [конфигурации иерархии индекса продуктов](inventory-visibility-configuration.md#index-configuration).
+- Ваша [конфигурация иерархии индекса продуктов](inventory-visibility-configuration.md#index-configuration) должна включать по крайней мере одну иерархию индексов (например, содержащую базовую аналитику `Empty`), иначе запросы не будут заданы с ошибкой "Не задана иерархия индексов".
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

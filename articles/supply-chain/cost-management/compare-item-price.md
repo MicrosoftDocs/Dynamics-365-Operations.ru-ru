@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846223"
 ---
 # <a name="compare-item-prices-storage-report"></a>Отчет «Сравнение хранилища цен номенклатур»
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе объясняется, как выполнить отчет **Сравнение хранилища цен номенклатур** и сделать результат доступным в цифровом виде либо как интерактивную страницу в Dynamics 365 Supply Chain Management, либо в виде экспортированного документа в любом из нескольких форматов.
+В этой статье объясняется, как выполнить отчет **Сравнение хранилища цен номенклатур** и сделать результат доступным в цифровом виде либо как интерактивную страницу в Dynamics 365 Supply Chain Management, либо в виде экспортированного документа в любом из нескольких форматов.
 
 При просмотре отчета в браузере столбцы и агрегированные балансы динамически корректируются в зависимости от настроенного макета. Можно сортировать результаты, фильтровать их, детализировать данные и т. д.
 

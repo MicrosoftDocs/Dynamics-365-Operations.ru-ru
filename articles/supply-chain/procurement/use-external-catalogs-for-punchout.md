@@ -1,6 +1,6 @@
 ---
 title: Использование внешних каталогов для электронных закупок с внешними заказами
-description: В этой теме поясняется, как использовать внешние каталоги для создания и отправки заявок.
+description: В этой статье поясняется, как использовать внешние каталоги для создания и отправки заявок.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17c473a93b7451879f1478a8c0c46fe9d8351fc4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b3ef0a144cd1a893f08c73c3b00fa3cf6ae8f7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851691"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Использование внешних каталогов для электронных закупок с внешними заказами
 

@@ -1,6 +1,6 @@
 ---
 title: Добавление новой страницы сайта
-description: В этом разделе описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871736"
 ---
 # <a name="add-a-new-site-page"></a>Добавление новой страницы сайта
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как добавить новую страницу сайта в Microsoft Dynamics 365 Commerce.
 
 Следующим шагом после создания шаблонов и фрагментов для сайта является начало создания страниц, использующих их. Чтобы приступить к работе, необходимо выбрать шаблон или макет, имя страницы и URL-адрес страницы.
 

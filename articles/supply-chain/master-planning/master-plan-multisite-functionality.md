@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844919"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Обзор сводного планирования и функции работы с несколькими узлами
 
@@ -37,7 +37,7 @@ ms.locfileid: "8470173"
 
 Если склад не настроен как обязательный, он может быть неизвестен для начального спроса. Механизм планирования должен определить, какой склад использовать, на основе настроек, которые определяются для номенклатуры, отдельных складов и сведений строки заказа.
 
-Следующие разделы описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.
+Следующие статьи описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.
 
 [Сводное планирование для покрытия сайта и склада, склад обязателен](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

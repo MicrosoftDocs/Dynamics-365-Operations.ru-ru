@@ -1,6 +1,6 @@
 ---
 title: Обзор каналов
-description: Этот раздел содержит обзор каналов в Microsoft Dynamics 365 Commerce.
+description: Эта статья содержит обзор каналов в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cc7f00d69a6fd57efcd9b6eece56ddc0702c6935
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: af5089f0065610873360b2e2883928a43600caa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884645"
 ---
 # <a name="channels-overview"></a>Обзор каналов
 
 
 [!include [banner](includes/banner.md)]
 
-Этот раздел содержит обзор каналов в Microsoft Dynamics 365 Commerce. Она содержит сведения о задачах, которую следует выполнить как до, так и после настройки каждого канала.
+Эта статья содержит обзор каналов в Microsoft Dynamics 365 Commerce. Она содержит сведения о задачах, которую следует выполнить как до, так и после настройки каждого канала.
 
 ## <a name="types-of-channels"></a>Типы каналов
 

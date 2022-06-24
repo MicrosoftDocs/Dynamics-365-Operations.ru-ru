@@ -1,6 +1,6 @@
 ---
 title: Открытие URL-адреса в POS
-description: В этой теме приведен обзор усовершенствований, внесенных в функциональность поиска продукта и клиента в Dynamics 365 Commerce.
+description: В этой статье приведен обзор усовершенствований, внесенных в функциональность поиска продукта и клиента в Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 01/28/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 529908df866c71ea84d90bbb5d46b23311ed74d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853970"
 ---
 # <a name="open-url-in-pos"></a>Открытие URL-адреса в POS
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как можно настроить кнопку в POS-терминале Dynamics 365 Commerce, чтобы открыть URL-адрес. Эта функция не требует настройки кода, и ее может настроить пользователь, не имеющий роли разработчика. 
+В этой статье описывается, как можно настроить кнопку в POS-терминале Dynamics 365 Commerce, чтобы открыть URL-адрес. Эта функция не требует настройки кода, и ее может настроить пользователь, не имеющий роли разработчика. 
 
 Эта функция позволяет настроить кнопку в POS-терминале, используя конструктор сетки кнопок, для открытия URL-адреса. В настоящее время это поддерживается в следующих конфигурациях:
 

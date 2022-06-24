@@ -1,6 +1,6 @@
 ---
 title: Настройка клиента B2C в Commerce
-description: В этом разделе описывается, как настроить клиенты "бизнес-потребитель" (B2C) Azure Active Directory (Azure AD) для проверки подлинности сайта пользователя в Dynamics 365 Commerce.
+description: В этой статье описывается, как настроить клиенты "бизнес-потребитель" (B2C) Azure Active Directory (Azure AD) для проверки подлинности сайта пользователя в Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853749"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Настройка клиента B2C в Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как настроить клиенты "бизнес-потребитель" (B2C) Azure Active Directory (Azure AD) для проверки подлинности сайта пользователя в Dynamics 365 Commerce.
+В этой статье описывается, как настроить клиенты "бизнес-потребитель" (B2C) Azure Active Directory (Azure AD) для проверки подлинности сайта пользователя в Dynamics 365 Commerce.
 
 Dynamics 365 Commerce использует Azure AD B2C для поддержки учетных данных пользователей и потоков проверки подлинности. Пользователь может регистрировать, выполнять вход и сбрасывать свои пароли в этих потоках. Azure AD B2C хранит конфиденциальные сведения о проверке подлинности пользователя, такие как имя пользователя и пароль. Запись пользователя в клиенте B2C хранит либо запись локальной учетной записи B2C, либо запись поставщика удостоверений социальных сетей B2C. Эти записи B2C будут связываться обратно с записью клиента в среде Commerce.
 

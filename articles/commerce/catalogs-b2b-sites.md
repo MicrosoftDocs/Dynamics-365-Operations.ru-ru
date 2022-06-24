@@ -1,6 +1,6 @@
 ---
 title: Создание каталогов Commerce для сайтов B2B
-description: В этом разделе описывается, как создавать каталоги Commerce для сайтов бизнес-бизнес (B2B) Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как создавать каталоги Commerce для сайтов бизнес-бизнес (B2B) Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848997"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Создание каталогов Commerce для сайтов B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-В этом разделе описывается, как создавать каталоги продуктов Commerce для сайтов бизнес-бизнес (B2B) Microsoft Dynamics 365 Commerce. Ответы на часто задаваемые вопросы о каталогах Commerce для сайтов B2B см. в разделе [Вопросы и ответы по каталогам Commerce для B2B](catalogs-b2b-sites-FAQ.md).
+В этой статье описывается, как создавать каталоги продуктов Commerce для сайтов бизнес-бизнес (B2B) Microsoft Dynamics 365 Commerce. Ответы на часто задаваемые вопросы о каталогах Commerce для сайтов B2B см. в разделе [Вопросы и ответы по каталогам Commerce для B2B](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Эта тема применима в Dynamics 365 Commerce версии 10.0.27 и более поздних версий.
+> Эта статья применима в Dynamics 365 Commerce версии 10.0.27 и более поздних версий.
 
 Каталоги Commerce используются для определения продуктов, которые вы хотите предложить в ваших интернет-магазинах B2B. При создании каталога указывается интернет-магазины, в которых продукты предлагаются, добавляются продукты, которые нужно включить, и улучшаются предложения продукта путем добавления сбытовых сведений. Можно создать несколько каталогов для каждого интернета-магазина B2B.
 

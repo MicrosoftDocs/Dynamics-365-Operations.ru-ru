@@ -1,6 +1,6 @@
 ---
 title: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management
-description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management.
+description: В этой статье описываются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860532"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061317"
 
 
 
-В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Dynamics 365 Field Service с заказами на продажу в Dynamics 365 Supply Chain Management.
+В этой статье обсуждаются шаблоны и базовые задачи, которые используются для синхронизации заказов на выполнение работ в Dynamics 365 Field Service с заказами на продажу в Dynamics 365 Supply Chain Management.
 
 [![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ ms.locfileid: "8061317"
 
 По умолчанию сопоставление выбирает происхождения продажи для типа происхождения продаж **Интеграция заказов на выполнение работ** для всех заказов на продажу, созданных из заказов на выполнение работ. Это поведение может быть полезно при работе с заказом на продажу в Supply Chain Management. Необходимо убедиться, что заказы на продажу, созданные на основе заказов на выполнение работ, не синхронизируются обратно в Field Service как заказы на выполнение работ.
 
-Сведения о том, как создать правильную настройку происхождения продаж в Supply Chain Management, см. в пункте "Предварительные условия и настройка сопоставления" этого раздела.
+Сведения о том, как создать правильную настройку происхождения продаж в Supply Chain Management, см. в разделе "Предварительные условия и настройка сопоставления" этой статьи.
 
 ### <a name="status"></a>Состояние
 

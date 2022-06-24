@@ -1,6 +1,6 @@
 ---
 title: Создание динамических страниц электронной коммерции на основе параметров URL-адреса
-description: В этом разделе описывается, как настроить страницу электронной коммерции Microsoft Dynamics 365 Commerce, которая может отображать динамическое содержимое на основе параметров URL-адреса.
+description: В этой статье описывается, как настроить страницу электронной коммерции Microsoft Dynamics 365 Commerce, которая может отображать динамическое содержимое на основе параметров URL-адреса.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884671"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Создание динамических страниц электронной коммерции на основе параметров URL-адреса
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-В этом разделе описывается, как настроить страницу электронной коммерции Microsoft Dynamics 365 Commerce, которая может отображать динамическое содержимое на основе параметров URL-адреса.
+В этой статье описывается, как настроить страницу электронной коммерции Microsoft Dynamics 365 Commerce, которая может отображать динамическое содержимое на основе параметров URL-адреса.
 
 Страница электронной коммерции может быть настроена для обслуживания различного содержимого на основе сегмента в пути URL-адреса. Таким образом, страница называется динамической страницей. Сегмент используется в качестве параметра для извлечения содержимого страницы. Например, страница, созданная в конструкторе сайтов и получившая имя **blog\_viewer**, сопоставляется с URL-адресом `https://fabrikam.com/blog`. Затем эту страницу можно использовать для отображения различного содержимого на основе последнего сегмента URL-пути. Например, последним сегментом в URL-адресе `https://fabrikam.com/blog/article-1` является **article-1**.
 

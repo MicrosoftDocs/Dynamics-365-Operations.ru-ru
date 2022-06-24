@@ -1,6 +1,6 @@
 ---
 title: Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования
-description: В этой теме объясняется, как настроить мобильные приложения Warehouse Management для складов, обслуживаемых облачной или пограничной единицей масштабирования.
+description: В этой статье объясняется, как настроить мобильные приложения Warehouse Management для складов, обслуживаемых облачной или пограничной единицей масштабирования.
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865248"
 ---
 # <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Настройка мобильного приложения Warehouse Management для облачных и пограничных единиц масштабирования
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить мобильные приложения Warehouse Management, чтобы их можно было использовать на складах, обслуживаемых облачной или пограничной единицей масштабирования.
+В этой статье объясняется, как настроить мобильные приложения Warehouse Management, чтобы их можно было использовать на складах, обслуживаемых облачной или пограничной единицей масштабирования.
 
 ## <a name="prerequisites"></a>Необходимые условия
 

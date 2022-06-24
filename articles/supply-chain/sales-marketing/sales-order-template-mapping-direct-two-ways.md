@@ -1,6 +1,6 @@
 ---
 title: Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
-description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
+description: В этой статье рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854162"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061526"
 
 
 
-В этой теме рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
+В этой статье рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Dynamics 365 Sales и Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
@@ -203,7 +203,7 @@ Sales не поддерживает налог на уровне заголов�
 
 [![Сопоставление шаблона в интеграции данных, Заказы на продажу (из Sales в Supply Chain Management) - напрямую: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-articles"></a>Связанные статьи
 
 [Продажа перспективному клиенту](prospect-to-cash.md)
 

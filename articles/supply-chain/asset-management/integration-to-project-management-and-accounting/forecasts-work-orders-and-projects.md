@@ -1,6 +1,6 @@
 ---
 title: Прогнозы, заказы на работу и проекты
-description: В этом разделе рассматривается интеграция прогнозов и заказов на работу с модулем "Управление и учет по проектам" в управлении активами.
+description: В этой статье рассматривается интеграция прогнозов и заказов на работу с модулем "Управление и учет по проектам" в управлении активами.
 author: johanhoffmann
 ms.date: 08/29/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880461"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Прогнозы, заказы на работу и проекты
 

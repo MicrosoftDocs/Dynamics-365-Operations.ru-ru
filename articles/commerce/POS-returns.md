@@ -1,6 +1,6 @@
 ---
 title: Создание возвратов в POS-терминале
-description: В этой теме описывается, как инициировать возвраты для кассовых проводок или заказов клиентов в приложении Microsoft Dynamics 365 Commerce POS-терминала.
+description: В этой статье описывается, как инициировать возвраты для кассовых проводок или заказов клиентов в приложении Microsoft Dynamics 365 Commerce POS-терминала.
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857006"
 ---
 # <a name="create-returns-in-pos"></a>Создание возвратов в POS-терминале
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описывается, как инициировать возвраты для кассовых проводок или заказов клиентов в приложении Microsoft Dynamics 365 Commerce POS-терминала.
+В этой статье описывается, как инициировать возвраты для кассовых проводок или заказов клиентов в приложении Microsoft Dynamics 365 Commerce POS-терминала.
 
 > [!NOTE]
 > В выпуске Commerce версии 10.0.20 и позднее доступна новая функция, которая называется **Унифицированная обработка возвратов в POS-терминале**. Эта функция обеспечивает более согласованную и универсальную процедуру возврата в POS-терминале, независимо от типа проводки (кассовая проводка или заказ клиента) или исходного канала, в котором был создан заказ. Мы рекомендуем всем организациям включить эту новую функцию, чтобы улучшить общую надежность обработки возвратов через POS-терминал.

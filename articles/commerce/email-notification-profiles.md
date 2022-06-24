@@ -1,6 +1,6 @@
 ---
 title: Настройка профиля уведомлений по электронной почте
-description: В этом разделе описывается, как создать профиль уведомления по электронной почте в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как создать профиль уведомления по электронной почте в Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878494"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Настройка профиля уведомлений по электронной почте
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как создать профиль уведомления по электронной почте в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как создать профиль уведомления по электронной почте в Microsoft Dynamics 365 Commerce.
 
 При создании каналов можно настроить профиль уведомлений по электронной почте. Профиль уведомлений по электронной почте определяет события проводки по продажам (такие как создание заказа, упаковка заказа и события выставления накладных по заказу), для которых будут отправляться уведомления вашим клиентам. 
 

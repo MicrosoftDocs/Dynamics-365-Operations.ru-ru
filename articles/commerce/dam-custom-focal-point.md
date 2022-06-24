@@ -1,6 +1,6 @@
 ---
-title: Настройка фокальных точек изображения
-description: В этом разделе описывается, как настраивать фокальные точки изображения в конструкторе сайта Microsoft Dynamics 365 Commerce.
+title: Настройка точек фокуса изображения
+description: В этой статье описывается, как настраивать фокальные точки изображения в конструкторе сайта Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852823"
 ---
 # <a name="customize-image-focal-points"></a>Настройка точек фокуса изображения
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе описывается, как настраивать фокальные точки изображения в конструкторе сайта Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как настраивать фокальные точки изображения в конструкторе сайта Microsoft Dynamics 365 Commerce.
 
 При отправке изображения в библиотеку мультимедиа конфигуратора сайта Commerce система пытается определить фокальную точку изображения. Например, если на изображении имеется человек, система по умолчанию устанавливает фокальную точку на лицо данного человека. В большинстве случаев автоматически задается фокальная точка хорошо подходит для всех окон просмотра, но иногда может потребоваться скорректировать фокальную точку, чтобы гарантировать, что конкретная часть изображения всегда видна.
 

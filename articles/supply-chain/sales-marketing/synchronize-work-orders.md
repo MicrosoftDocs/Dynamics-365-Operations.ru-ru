@@ -1,6 +1,6 @@
 ---
 title: Синхронизация заказов на выполнение работ с проектом из Field Service в Supply Chain Management
-description: В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Dynamics 365 Field Service в Dynamics 365 Supply Chain Management.
+description: В этой статье обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Dynamics 365 Field Service в Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860503"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Синхронизация заказов на выполнение работ с проектом из Field Service в Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Dynamics 365 Field Service в Dynamics 365 Supply Chain Management.
+В этой статье обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Dynamics 365 Field Service в Dynamics 365 Supply Chain Management.
 
 [![Синхронизация бизнес-процессов между Supply Chain Management и Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Используемый шаблон **Заказы на выполнение работ с проектом (из Field Service в Supply Chain Management)** основан на шаблоне **Заказы на выполнение работ (из Field Service в Supply Chain Management)**. Дополнительные сведения см. в разделе [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-В этом разделе описываются только различия между двумя шаблонами:
+В этой статье описываются только различия между двумя шаблонами:
 - **Заказы на выполнение работ с проектом (из Field Service в Supply Chain Management)**
 - **Заказы на выполнение работ (из Field Service в Supply Chain Management)**
 
