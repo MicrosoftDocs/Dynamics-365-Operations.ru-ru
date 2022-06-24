@@ -1,6 +1,6 @@
 ---
 title: Разработка конфигурации для создания документов в формате Excel
-description: В этой теме описывается, как создавать формат электронной отчетности (ER) для заполнения шаблона Excel, а затем создание исходящих документов в формате Excel.
+description: В этой статье описывается, как разработать формат электронной отчетности (ER) для заполнения шаблона Excel, а затем создавать исходящие документы в формате Excel.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854824"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Разработка конфигурации для создания документов в формате Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811430"
 
 Можно разработать конфигурацию формата [электронной отчетности (ER)](general-electronic-reporting.md), имеющую компонент формата ER, который можно настроить для создания исходящего документа в формате книги Microsoft Excel. Для этой цели необходимо использовать специальный компонент формата ER.
 
-Для получения дополнительных сведений об этой возможности следуйте указаниям в разделе [Создание конфигурации для создания отчетов в формате OPENXML](tasks/er-design-reports-openxml-2016-11.md).
+Чтобы узнать больше об этой функции, выполните шаги в статье [Разработка конфигурации для создания отчетов в формате OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Добавление нового формата ER
 
@@ -263,7 +263,7 @@ ms.locfileid: "8811430"
 
 В добавленный компонент **нижнего колонтитула** добавьте необходимые вложенные компоненты **Текст\\Строка**, **Текст\\DateTime** или другого типа. Настройте привязки для этих компонентов, чтобы указать, как заполняются нижние колонтитулы страницы.
 
-Можно также использовать специальные [коды форматирования](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers), чтобы правильно отформатировать содержимое созданного нижнего колонтитула. Чтобы узнать, как использовать этот подход, выполните шаги, указанные в [примере 1](#example-1) далее в этом разделе.
+Можно также использовать специальные [коды форматирования](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers), чтобы правильно отформатировать содержимое созданного нижнего колонтитула. Чтобы узнать, как использовать этот подход, выполните шаги, указанные в [примере 1](#example-1) далее в этой статье.
 
 > [!NOTE]
 > При настройке форматов ER убедитесь, что установлен [предел](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel и максимальное число символов для одного верхнего или нижнего колонтитула.

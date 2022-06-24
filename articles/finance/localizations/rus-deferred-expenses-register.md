@@ -1,6 +1,6 @@
 ---
 title: Регистр отсроченных расходов
-description: Этот раздел обеспечивает информацию, как создать и настроить расходы будущих периодов.
+description: В этой статье содержится информация о том, как создавать и настраивать расходы будущих периодов.
 author: Akroshkina
 ms.date: 08/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-09-11
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 03c0d2b101143d00bf1fa1556fe7f8704437b312
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 1ccb2cf3f22adb97ebfb4fec4199805769e85918
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902334"
 ---
 # <a name="deferrals-register"></a>Регистр расходов будущих периодов
 
@@ -89,7 +89,7 @@ ms.locfileid: "7386601"
 
 ### <a name="set-up-the-deferrals-register"></a>Настройка регистра для расходов будущих периодов
 
-Настройте регистр РБП, следуя указаниям в теме [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md#create-a-tax-register). В поле **Тип регистра** выберите **Расходы будущих периодов**.
+Настройте регистр РБП, следуя инструкциям в статье [Создание налоговых регистров и журнала налоговых регистров](rus-profit-tax-registers.md#create-a-tax-register). В поле **Тип регистра** выберите **Расходы будущих периодов**.
 
 ### <a name="examples"></a>Примеры
 

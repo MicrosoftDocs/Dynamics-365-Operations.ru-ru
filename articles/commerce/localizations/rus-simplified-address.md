@@ -1,6 +1,6 @@
 ---
 title: Упрощенный формат адреса клиента в Commerce POS для России
-description: В этой теме описывается упрощенный российский формат адреса и объясняется, как включить его в POS Microsoft Dynamics 365 Commerce для России.
+description: В этой статье описывается упрощенный российский формат адреса и объясняется, как его включить в POS-терминале Microsoft Dynamics 365 Commerce для России.
 author: akviklis
 ms.date: 08/11/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: akviklis
 ms.search.validFrom: 2021-8-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 31fd751903ba79aab3818e04ca130a73000a075d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee0b036be308ba6ff6b4cc58c3eb2b3934245da5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865945"
 ---
 # <a name="simplified-customer-address-format-in-commerce-pos-for-russia"></a>Упрощенный формат адреса клиента в Commerce POS для России
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме описывается упрощенный российский формат адреса и объясняется, как включить его в POS Microsoft Dynamics 365 Commerce для России.
+В этой статье описывается упрощенный российский формат адреса и объясняется, как его включить в POS-терминале Microsoft Dynamics 365 Commerce для России.
 
 В Dynamics 365 Commerce POS для России можно указать адрес клиента при добавлении именованного клиента в корзину. Этот адрес вместе с другими сведениями о клиенте можно затем использовать для выставления накладных.
 

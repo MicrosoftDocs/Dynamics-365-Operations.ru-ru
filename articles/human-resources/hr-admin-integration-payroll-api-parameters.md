@@ -1,6 +1,6 @@
 ---
 title: Параметры интеграции зарплаты
-description: В этой теме описываются параметры интеграции заработной платы Dynamics 365 Human Resources.
+description: В этой статье описываются параметры интеграции модуля "Заработная плата" Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896115"
 ---
 # <a name="payroll-integration-parameters"></a>Параметры интеграции зарплаты
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069865"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Перед использованием интеграции зарплаты Dynamics 365 Human Resources необходимо настроить параметры, описанные в этой теме.
+Перед использованием интеграции модуля "Заработная плата" Dynamics 365 Human Resources необходимо настроить параметры, описанные в этой статье.
 
 ## <a name="enable-payroll-address"></a>Включить адрес заработной платы
 
@@ -35,15 +35,15 @@ ms.locfileid: "8069865"
 
 ## <a name="define-the-identification-type"></a>Определение типа идентификации
 
-Чтобы предоставить код типа идентификации в [сущности зарплаты сотрудника](hr-admin-integration-payroll-api-payroll-employee.md), необходимо [настроить параметры управления персоналом](hr-setup-shared-parameters.md) для каждой компании.
+Чтобы предоставить идентификатор типа идентификации в [сущности "Сотрудник с заработной платой"](hr-admin-integration-payroll-api-payroll-employee.md), необходимо [настроить параметры управления персоналом](hr-setup-shared-parameters.md) для каждой компании.
 
 1. В рабочей области **Управление компенсациями** по ссылкам выберите **Параметры Human Resources**. 
 2. На вкладке **Интеграция зарплаты** укажите значение следующих полей.
 
 | Поле | описание |
 | --- | --- |
-| Использование типов идентификации при обработке зарплаты | Когда выбран этот параметр, выбранный код типа будет показан в сущности зарплаты сотрудника. |
-| Тип документа | Тип идентификации, который должен быть представлен в поле **mshr_payrollemployeeentityid** [сущности зарплаты сотрудника](hr-admin-integration-payroll-api-payroll-employee.md). |
+| Использование типов идентификации при обработке зарплаты | Когда выбран этот параметр, выбранный идентификатор типа будет показан в сущности "Сотрудник с заработной платой". |
+| Тип документа | Тип идентификации, который должен быть представлен в поле **mshr_payrollemployeeentityid** [сущности "Сотрудник с заработной платой"](hr-admin-integration-payroll-api-payroll-employee.md). |
 
 ## <a name="see-also"></a>См. также
 

@@ -1,6 +1,6 @@
 ---
 title: Выбытие основного средства с использованием накладной с произвольным текстом
-description: В этой теме объясняется, как приобрести основное средство с помощью предложения по приобретению в журнале основных средств.
+description: В этой статье объясняется, как приобрести основное средство с помощью предложения по приобретению в журнале основных средств.
 author: moaamer
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711ab4b4798127ca54d7138b0aae02d71fe8bec3
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: bb930bd35aa86c6bc3b2e7a5577ff16e3feb151a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896444"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Выбытие основного средства с использованием накладной с произвольным текстом
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме объясняется порядок списания основного средства с использованием накладной с произвольным текстом.
+В этой статье объясняется порядок списания основного средства с использованием накладной с произвольным текстом.
 
 1. В области переходов выберите **Модули > Расчеты с клиентами > Накладные > Все накладные с произвольным текстом**.
 2. Выберите **Создать**.

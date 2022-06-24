@@ -1,6 +1,6 @@
 ---
 title: Частота компенсационных выплат
-description: В этом разделе представлены сведения и пример запроса для сущности частоты компенсационных выплат в Dynamics 365 Human Resources.
+description: В этой статье представлены сведения и пример запроса для сущности "Частота компенсационных выплат" в Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9afe27776797b2355a32226bbd7fa514b5c5d962
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894624"
 ---
 # <a name="compensation-pay-frequency"></a>Частота компенсационных выплат
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066151"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается сущность частоты компенсационных выплат в Dynamics 365 Human Resources.
+В этой статье описывается сущность "Частота компенсационных выплат" в Dynamics 365 Human Resources.
 
 Физическое имя: mshr_hcmpayrateconversionentity.
 
@@ -49,7 +49,7 @@ ms.locfileid: "8066151"
 | **ИД области данных**</br>mshr_dataareaid</br>*Строка* | Только для чтения | Юридическое лицо (компания). |
 | **ИД сущности частоты компенсационных выплат**</br>mshr_dirpersonnamehistoricalentityid</br>*GUID* | Создано системой | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее запись. |
 
-## <a name="example-query-for-payroll-employee"></a>Пример запроса для заработной платы сотрудника
+## <a name="example-query-for-payroll-employee"></a>Пример запроса для "Сотрудник с заработной платой"
 
 **Запрос**
 

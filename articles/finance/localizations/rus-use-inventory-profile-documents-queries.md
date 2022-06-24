@@ -1,6 +1,6 @@
 ---
 title: Использование профиля учета в документах и запросах
-description: В данном разделе содержится общая информация об использовании профиля учета.
+description: В этой статье содержится информация об использовании профиля учета.
 author: v-nadyuz
 ms.date: 05/11/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 963d742f2e7cca3373b0093d1ee56a50e423b3464f409c997544eea7f239198b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d07fddcd9c80215306e7cbd21606687534aaca2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864132"
 ---
 # <a name="use-an-inventory-profile-in-documents-and-queries"></a>Использование профиля учета в документах и запросах
 [!include [banner](../includes/banner.md)]

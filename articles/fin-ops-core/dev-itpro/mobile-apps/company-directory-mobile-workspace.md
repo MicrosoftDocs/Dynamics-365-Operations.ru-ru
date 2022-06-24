@@ -1,6 +1,6 @@
 ---
-title: Мобильная рабочая область каталога компании
-description: Эта тема содержит сведения о мобильной рабочей области каталога компании, которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
+title: Мобильная рабочая область каталога организации
+description: Эта статья содержит сведения о мобильной рабочей области "Каталог компании", которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 author: jcart1106
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b754e46f194f60cc70d02367d4cca2a382821191
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868737"
 ---
-# <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога компании
+# <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога организации
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-В этом разделе приводятся сведения о мобильной рабочей области **Каталог компании**. Эта рабочая область позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
+В этой статье приводятся сведения о мобильной рабочей области **Каталог компании**. Эта рабочая область позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 
 Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
 

@@ -1,6 +1,6 @@
 ---
 title: Указание кросс-курса
-description: В этой теме представлены сведения о кросс-курсах в Microsoft Dynamics 365 Finance.
+description: В этой статье представлены сведения о кросс-курсах в Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889971"
 ---
 # <a name="specify-the-cross-rate"></a>Указание кросс-курса
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается цель кросс-курса и процедура задания кросс-курса при сопоставлении платежа с накладной. Используйте кросс-курс, когда соблюдаются следующие условия. 
+В этой статье описывается предназначение кросс-курса и то, как указать кросс-курс при сопоставлении платежа с накладной. Используйте кросс-курс, когда соблюдаются следующие условия. 
 -   Платеж сопоставляется с накладной. 
 -   В строке платежа и строке накладной используются разные валюты. 
 -   Ни одна из валют не является валютой учета. 

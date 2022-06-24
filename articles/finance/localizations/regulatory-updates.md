@@ -1,6 +1,6 @@
 ---
 title: Нормативные обновления
-description: В этом разделе представлен список запланированных и выпущенных нормативных обновлений для Microsoft Dynamics 365 Finance.
+description: В этой статье представлен список запланированных и выпущенных нормативных обновлений для Microsoft Dynamics 365 Finance.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904291"
 ---
 # <a name="regulatory-updates"></a>Нормативные обновления
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе перечислены нормативные обновления, которые запланированы и выпущены в поддерживаемых локализациях Dynamics 365 Finance. График поставки может измениться, и планируемые функции могут отличаться или не выпущены. Дополнительные сведения см. в [политике корпорации Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+В этой статье перечислены нормативные обновления, которые запланированы и выпущены в поддерживаемых локализациях Dynamics 365 Finance. График поставки может измениться, и планируемые функции могут отличаться или не выпущены. Дополнительные сведения см. в [политике корпорации Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Нормативные обновления — это компоненты, которые реализуются для поддержки новых или измененных законодательных положений конкретной страны. Дополнительные сведения о планируемых или выпущенных специальных функциях для страны см. в разделе [Планы выпуска Dynamics 365 и Power Platform](/business-applications-release-notes/index).
 

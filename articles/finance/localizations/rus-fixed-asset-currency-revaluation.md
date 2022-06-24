@@ -1,6 +1,6 @@
 ---
 title: Переоценка ОС в иностранной валюте
-description: В этой теме содержится информация о переоценке основных средств в иностранной валюте для России.
+description: В этой статье содержится информация о переоценке основных средств в иностранной валюте для России.
 author: Anasyash
 ms.date: 10/31/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9358da1de105210c8aa5f09bd2586ca47e3b9065b66b30a4aebec2619101f0df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dae1fe63a2ff05b9f1d11b73cf5477e421f70c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896205"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 

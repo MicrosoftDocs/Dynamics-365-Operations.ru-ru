@@ -1,6 +1,6 @@
 ---
 title: Разноска расчетов с клиентами
-description: В этой теме объясняется, как разноски настраиваются в модуле расчетов с клиентами, и представлены примеры конфигураций разноски.
+description: В этой статье объясняется, как настраиваются разноски в модуле "Расчеты с клиентами", и представлены примеры конфигураций разноски.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e664c42461e4f2995cac9a747d85d0f2a0fdf85
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8021608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874584"
 ---
 # <a name="accounts-receivable-posting"></a>Разноска расчетов с клиентами
 

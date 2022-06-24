@@ -1,6 +1,6 @@
 ---
 title: Функция ER ORDERBY
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности ORDERBY.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) ORDERBY.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 963d55bcf98a9109c8b6ceb57edf5b55f15a2b0f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883769"
 ---
 # <a name="orderby-er-function"></a>Функция ER ORDERBY
 
@@ -40,7 +40,7 @@ ORDERBY (location, list, expression 1[, expression 2, …, expression N])
 ```
 
 > [!NOTE]
-> Этот синтаксис поддерживается в Microsoft Dynamics 365 Finance версии 10.0.25 и новее.
+> Этот синтаксис поддерживается в Microsoft Dynamics 365 Finance версии не ниже 10.0.25.
 
 ## <a name="arguments"></a>Аргументы
 

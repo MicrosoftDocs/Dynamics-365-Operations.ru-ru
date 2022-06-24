@@ -1,6 +1,6 @@
 ---
-title: Проверка пользовательского сертификата NF-e
-description: В этой теме приводятся сведения о включении и использовании пользовательского сертификата NF-e.
+title: Проверка настраиваемого сертификата NF-e
+description: В этой статье приводятся сведения о включении и использовании пользовательского сертификата NF-e.
 author: gionoder
 ms.date: 07/29/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8144e16b127bdbe954ef44f52c5ac71689a2036e6085e9a4ccc8bb17f91ae9b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d69aa9d6d0ce33fbed9ba1c7a7af441e14d0d07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875914"
 ---
 # <a name="nf-e-custom-certificate-validation"></a>Проверка настраиваемого сертификата NF-e
 

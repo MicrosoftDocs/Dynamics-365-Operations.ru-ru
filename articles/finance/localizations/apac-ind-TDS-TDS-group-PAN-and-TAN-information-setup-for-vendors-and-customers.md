@@ -1,6 +1,6 @@
 ---
 title: Настройка информации о группе TDS, PAN и TAN для поставщиков и клиентов
-description: В этой теме объясняется, как настроить сведения о группе налога, удержанного в источнике (TDS), номере постоянного счета (PAN) и номере налогового счета (TAN) для поставщиков и клиентов.
+description: В этой статье объясняется, как настроить сведения о группе налога, удерживаемого у источника (TDS), номере постоянного счета (PAN) и номере налогового счета (TAN) для поставщиков и клиентов.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859776"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Настройка информации о группе TDS, PAN и TAN для поставщиков и клиентов
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить сведения о группе налога, удержанного в источнике (TDS), номере постоянного счета (PAN) и номере налогового счета (TAN) для поставщиков и клиентов.
+В этой статье объясняется, как настроить сведения о группе налога, удерживаемого у источника (TDS), номере постоянного счета (PAN) и номере налогового счета (TAN) для поставщиков и клиентов.
 
 1. Перейдите **Расчеты с поставщиками \> Поставщики \> Все поставщики** или **Расчеты с клиентами \> Клиенты \> Все клиенты**.
 

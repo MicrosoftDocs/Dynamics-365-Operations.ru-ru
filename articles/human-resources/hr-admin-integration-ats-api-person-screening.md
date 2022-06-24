@@ -1,6 +1,6 @@
 ---
 title: Отбор для лица
-description: В этом разделе описывается сущность отбора физического лица для Dynamics 365 Human Resources.
+description: В этой статье описывается сущность "Отбор для лица" для Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5129348f928fd709a5fabe73917522799a2d47e0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907650"
 ---
 # <a name="person-screening"></a>Отбор для лица
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066301"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается сущность отбора физического лица для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Отбор для лица" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_hcmpersonscreeningentity
 

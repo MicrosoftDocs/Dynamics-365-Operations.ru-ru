@@ -1,6 +1,6 @@
 ---
 title: Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
-description: В этом разделе описан порядок загрузки конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service.
+description: В этой статье описан порядок загрузки конфигураций электронной отчетности (ER) из глобального репозитория службы Configuration Service.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891914"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Загрузка конфигураций электронной отчетности (ER) из глобального репозитория Configuration Service
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описан порядок загрузки [конфигураций электронной отчетности (ER)](general-electronic-reporting.md#Configuration) из глобального репозитория Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+В этой статье описан порядок загрузки [конфигураций электронной отчетности (ER)](general-electronic-reporting.md#Configuration) из глобального репозитория службы Configuration Service. Дополнительные сведения см. в разделе [Microsoft Dynamics 365 for Finance and Operations — Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Откройте репозиторий конфигураций
 
-1. Войдите в приложение Dynamics 365 Finance с помощью одной из следующих ролей:
+1. Войдите в приложение Dynamics 365 Finance, используя одну из следующих ролей:
 
     - Разработчик электронной отчетности
     - Консультант по функциональным возможностям электронной отчетности
@@ -80,7 +80,7 @@ ms.locfileid: "7605339"
     ![Страница репозитория конфигураций, экспресс-вкладка версий, кнопка импорта.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> В зависимости от параметров электронной отчетности конфигурации проверяются после импорта. Возможно, вы получите уведомление об обнаруженных проблемах несоответствия. Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации. Дополнительные сведения см. в списке связанных ресурсов для этой темы.
+> В зависимости от параметров электронной отчетности конфигурации проверяются после импорта. Возможно, вы получите уведомление об обнаруженных проблемах несоответствия. Необходимо устранить эти проблемы перед использованием импортированной версии конфигурации. Дополнительные сведения см. в списке связанных ресурсов для этой статьи.
 
 > [!NOTE]
 > Конфигурации электронной отчетности могут быть настроены как зависимые от других конфигураций. Таким образом, наряду с выбранной конфигурацией другие конфигурации могут быть импортированы автоматически. Дополнительные сведения о зависимостях конфигураций см. в разделе [Определение зависимости конфигураций электронной отчетности от других компонентов](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

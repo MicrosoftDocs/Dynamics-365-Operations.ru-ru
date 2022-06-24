@@ -1,6 +1,6 @@
 ---
 title: Настройка расходов будущих периодов (Россия)
-description: В этом разделе описывается, как настроить расходы будущих периодов.
+description: В этой статье объясняется, как настроить расходы будущих периодов (РБП).
 author: anasyash
 ms.date: 06/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c797acd6f9625b2e33920329ed6732c704db6f9cbf97e3835a527c6c5ad9e3c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a8cfd8daf167767c6ba4da6e226d1230c2bfbbe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886242"
 ---
 # <a name="set-up-deferrals-russia"></a>Настройка расходов будущих периодов (Россия)
 

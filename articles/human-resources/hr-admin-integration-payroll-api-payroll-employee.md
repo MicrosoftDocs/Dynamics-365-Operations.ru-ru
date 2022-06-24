@@ -1,6 +1,6 @@
 ---
-title: Сотрудник зарплаты
-description: В этом разделе представлены сведения и пример запроса для сущности заработной платы сотрудника в Dynamics 365 Human Resources.
+title: Сотрудник с заработной платой
+description: В этой статье представлены сведения и пример запроса для сущности "Сотрудник с заработной платой" в Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e853a8a5730d397f253c8ce3a330794594dfd907
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b07fbc76b997600b2c076c00a63d1f6d865326d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872220"
 ---
-# <a name="payroll-employee"></a>Сотрудник зарплаты
+# <a name="payroll-employee"></a>Сотрудник с заработной платой
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается сущность сотрудника зарплаты для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Сотрудник с заработной платой" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_payrollemployeeentity.
 
@@ -53,7 +53,7 @@ ms.locfileid: "8068492"
 | **ИД типа идентификации**</br>mshr_identificationtypeid</br>*Строка* |Только для чтения | Тип идентификации, определенный для сотрудника. |
 | **Идентификационный номер для**</br>mshr_identificationnumber</br>*Строка* | Только для чтения |Идентификационный номер, определенный для сотрудника. |
 | **Готовы платить**</br>mshr_readytopay</br>[набор параметров mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | Только для чтения | Указывает, отмечен ли сотрудник как готовый к оплате. |
-| **Код сущности заработной платы сотрудника**</br>mshr_payrollemployeeentityid</br>*GUID* | Создано системой | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее сотрудника. |
+| **Идентификатор сущности "Сотрудник с заработной платой"**</br>mshr_payrollemployeeentityid</br>*GUID* | Создано системой | Созданное системой значение глобального уникального идентификатора (GUID), уникально идентифицирующее сотрудника. |
 
 ## <a name="relations"></a>Связи
 
@@ -67,7 +67,7 @@ ms.locfileid: "8068492"
 | _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
 | _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
-## <a name="example-query-for-payroll-employee"></a>Пример запроса для заработной платы сотрудника
+## <a name="example-query-for-payroll-employee"></a>Пример запроса для "Сотрудник с заработной платой"
 
 **Запрос**
 

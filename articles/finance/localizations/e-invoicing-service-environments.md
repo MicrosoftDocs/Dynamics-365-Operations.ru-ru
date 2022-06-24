@@ -1,6 +1,6 @@
 ---
 title: Среды службы
-description: В этой теме предоставляются сведения о средах служб для электронного выставления накладных и объясняется, как настраивать их.
+description: В этой статье предоставляются сведения о средах служб для электронного выставления накладных и объясняется, как их настраивать.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901257"
 ---
 # <a name="service-environments"></a>Среды службы
 
@@ -37,7 +37,7 @@ ms.locfileid: "8371794"
 
 Среды служб должны создаваться и поддерживаться в службе Regulatory Configuration Service (RCS). Затем, когда они готовы, они должны быть опубликованы в службе электронного выставления накладных. Процесс публикации посылает параметры среды службы из экземпляра RCS в службу электронного выставления накладных.
 
-Если после создания новой среды службы или корректировки существующей среды службы (например, добавления или удаления пользователей или секретов Microsoft Azure Key Vault) процесс публикации не завершен, изменения не вступят в силу. Доступ возможен только к опубликованным средам Dynamics 365 Finance или Dynamics 365 Supply Chain Management.
+Если после создания новой среды службы или корректировки существующей среды службы (например, добавления или удаления пользователей или секретов Microsoft Azure Key Vault) процесс публикации не завершен, изменения не вступят в силу. Dynamics 365 Finance или Dynamics 365 Supply Chain Management может получить доступ только к опубликованным средам.
 
 ## <a name="service-environment-statuses"></a>Состояния среды службы
 

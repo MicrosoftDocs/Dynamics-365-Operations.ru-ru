@@ -1,6 +1,6 @@
 ---
 title: Обработка общего журнала
-description: Этот раздел описывает возможности в Microsoft Dynamics 365 Finance, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.
+description: Эта статья описывает возможности в Microsoft Dynamics 365 Finance, которые могут облегчить обработку общего журнала, а также обеспечить получение правильных данных и гарантировать, что внутреннее управление не скомпрометировано.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896386"
 ---
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
 [!include [banner](../includes/banner.md)]
 
-Этот раздел описывает возможности, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.  
+Эта статья описывает возможности, которые могут облегчить обработку общего журнала, а также обеспечить получение правильных данных и гарантировать, что внутреннее управление не скомпрометировано.  
 
 ## <a name="journal-names"></a>Наименования журналов
 

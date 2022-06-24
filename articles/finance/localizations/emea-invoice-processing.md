@@ -1,6 +1,6 @@
 ---
 title: Обработка накладных
-description: В этой теме приведена информация об обработке накладных для Восточной Европы.
+description: В этой статье приведена информация об обработке счетов для Восточной Европы.
 author: EvgenyPopovMBS
 ms.date: 02/02/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: edb50ddebeca18653a318596e9c291a3f3df6d9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848463"
 ---
 # <a name="invoice-processing"></a>Обработка накладных
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме кратко описаны некоторые сценарии, характерные для конкретных стран, такие как внутренний налог на добавленную стоимость (НДС) и отложенный налог. Требования законодательства в некоторых странах Европы влияют на процесс обработки накладных. В этой теме также приводятся сведения о том, как в этих странах происходит обработка накладных клиента и накладных поставщика. 
+В этой статье кратко описаны некоторые сценарии, характерные для конкретных стран, такие как внутренний налог на добавленную стоимость (НДС) и отложенный налог. Требования законодательства в некоторых странах Европы влияют на процесс обработки накладных. В этой статье также приводятся сведения о том, как в этих странах происходит обработка накладных клиента и накладных поставщика. 
 <table>
 <thead>
 <tr>

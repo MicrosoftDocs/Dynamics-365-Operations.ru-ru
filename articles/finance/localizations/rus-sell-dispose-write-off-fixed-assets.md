@@ -1,6 +1,6 @@
 ---
 title: Продажа, выбытие и списание ОС (Россия)
-description: В этой теме поясняется, как обрабатывать продажу, выбытии и списание основных средств в Microsoft Dynamics 365 Finance в России.
+description: В этой статье поясняется, как обрабатывать продажу, выбытие и списание активов в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
 ms.date: 07/28/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2202b2f62fee458469998193aff817debe733e64b24bd582fb2cf970b6b12535
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd2b763aaa34bc7fd3f1d9aa1fe7df7ed229b5a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872353"
 ---
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]

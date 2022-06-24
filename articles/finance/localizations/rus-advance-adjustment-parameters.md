@@ -1,6 +1,6 @@
 ---
 title: Переоценка в иностранной валюте для подотчетных лиц (Россия)
-description: В этой теме содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
+description: В этой статье содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Russia
 ms.author: ilyako
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 0e2520d19bf5ad88aa430a3b963d5c04d4eb2de1
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: b9e48641888730a0aa95161e037d27969caefd48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896211"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
+В этой статье содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
 
 При сопоставлении авансовых платежей и авансовых отчетов, которые включают проводки, выполненные в иностранных валютах, создаются проводки корректировки как продолжение авансового отчета на основе настроек на странице **Параметры авансовой разницы**.
 

@@ -1,6 +1,6 @@
 ---
 title: Ежедневные операции по подотчетным лицам в России
-description: В этой теме содержится информация о ежедневных операциях, таких как обработка денежных средств и исходящих сальдо по подотчетным лицам для России.
+description: В этой статье содержится информация о ежедневных операциях, таких как обработка денежных средств и закрытие сальдо, по подотчетным лицам для России.
 author: ShylaThompson
 ms.date: 10/25/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1d92d48c9eac05b961f36205692242016a7df324
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: da359d2fec39e8c055cb0934bb90b047d920458c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893943"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме содержится информация о ежедневных операциях по подотчетным лицам для России. К этим операциям относится обработка денежных средств и исходящих сальдо.
+В этой статье содержится информация о ежедневных операциях по подотчетным лицам для России. К этим операциям относится обработка денежных средств и исходящих сальдо.
 
 ## <a name="create-and-post-disbursement-slips-for-advance-holders"></a>Создание и разноска расходных кассовых ордеров для подотчетных лиц
 

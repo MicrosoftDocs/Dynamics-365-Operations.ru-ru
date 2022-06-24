@@ -1,6 +1,6 @@
 ---
 title: Использование службы электронных накладных для импорта накладных поставщиков
-description: В этой теме приводятся сведения об импорте накладных поставщиков с использованием службы электронных накладных.
+description: В этой статье содержится информация о том, как импортировать накладные поставщиков с использованием службы электронного выставления накладных.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865594"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Использование службы электронных накладных для импорта накладных поставщиков
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983831"
 
 [!include [banner](../includes/preview-banner.md)]
 
-В этой теме приводятся сведения, которые помогут приступить к импорту накладных поставщиков с помощью службы электронного выставления накладных. Это поможет вам выполнить этапы настройки в Regulatory Configuration Services (RCS), Dynamics 365 Finance и Dynamics 365 Supply Chain Management, которым необходимо следовать для получения электронных накладных поставщиков от поставщиков.
+В этой статье приводятся сведения, которые помогут вам приступить к импорту накладных поставщиков с помощью службы электронного выставления накладных. Будет пошагово рассмотрена процедура настройки в Regulatory Configuration Services (RCS), Dynamics 365 Finance и Dynamics 365 Supply Chain Management, которой необходимо следовать для получения электронных накладных от поставщиков.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Настройка импорта накладных поставщиков в RCS
 Чтобы настроить импорт накладных поставщиков в RCS, выполните следующие действия:

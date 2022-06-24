@@ -1,6 +1,6 @@
 ---
 title: Контакт субъекта
-description: В этом разделе описывается сущность контакта субъекта для Dynamics 365 Human Resources.
+description: В этой статье описывается сущность "Контакт субъекта" для Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fca72cb73ef46a4eeee27d43e22254373a425a36
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: f10bb89757419bcb29bfa5a4f44d30a38f41dfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909885"
 ---
 # <a name="party-contact"></a>Контакт субъекта
 
@@ -27,7 +27,7 @@ ms.locfileid: "8067184"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этом разделе описывается сущность контакта субъекта для Dynamics 365 Human Resources.
+В этой статье описывается сущность "Контакт субъекта" для Dynamics 365 Human Resources.
 
 Физическое имя: mshr_dirpartycontactentities
 

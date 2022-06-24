@@ -1,6 +1,6 @@
 ---
 title: Введение API интеграции заработной платы
-description: В этом разделе описывается API интеграции заработной платы Dynamics 365 Human Resources.
+description: В этой статье описывается API интеграции модуля "Заработная плата" Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 02/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3743561e3ea3c798c37d71d851eb6b197c8d1c41
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 33c17dd25477b2c34470fe16ce2927c1781ae147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846404"
 ---
 # <a name="payroll-integration-api-introduction"></a>Введение API интеграции заработной платы
 
@@ -65,15 +65,15 @@ ms.locfileid: "8533836"
 
 [![Модель данных API интеграции заработной платы.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
-## <a name="payroll-employee-and-related-entities"></a>Сотрудник заработной платы и связанные сущности
+## <a name="payroll-employee-and-related-entities"></a>"Сотрудник с заработной платой" и связанные сущности
 
 Объекты:
 
-- [Сотрудник зарплаты](hr-admin-integration-payroll-api-payroll-employee.md)
-- [Адрес работника зарплаты](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [План фиксированной компенсации зарплаты](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
-- [План переменной компенсации зарплаты.](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
-- [Задание позиции зарплаты](hr-admin-integration-payroll-api-payroll-position-job.md)
+- [Сотрудник с заработной платой](hr-admin-integration-payroll-api-payroll-employee.md)
+- [Адрес работника для зарплаты](hr-admin-integration-payroll-api-payroll-worker-address.md)
+- [План фиксированных компенсационных выплат для зарплаты](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [План переменных компенсационных выплат для зарплаты](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
+- [Должность по позиции для зарплаты](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Позиция зарплаты](hr-admin-integration-payroll-api-payroll-position.md)
 
 ## <a name="see-also"></a>См. также

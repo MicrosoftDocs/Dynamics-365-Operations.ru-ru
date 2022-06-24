@@ -1,6 +1,6 @@
 ---
 title: Настройка типов расходов
-description: В этом разделе объясняется, как настраивать типы расходов в аренде активов.
+description: В этой статье объясняется, как настраивать типы расходов в аренде активов.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 349ba0f5fa040b7c9a957defe1140c4016d6fded
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9978041059437d5d3556236c7ac02c00db93f933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908048"
 ---
 # <a name="set-up-expense-types"></a>Настройка типов расходов
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе объясняется, как настраивать типы расходов в аренде активов. Затраты, не представленные графиком оплаты, называются *расходными затратами*. Примерами таких затрат являются налоги на собственность, затраты на общее мест общего пользования и страховые расходы.
+В этой статье объясняется, как настраивать типы расходов в аренде активов. Затраты, не представленные графиком оплаты, называются *расходными затратами*. Примерами таких затрат являются налоги на собственность, затраты на общее мест общего пользования и страховые расходы.
 
 ## <a name="add-an-administrative-expense-type"></a>Добавление типа административных расходов
 

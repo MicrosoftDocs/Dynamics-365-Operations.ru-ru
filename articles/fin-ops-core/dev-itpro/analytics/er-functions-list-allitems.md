@@ -1,6 +1,6 @@
 ---
 title: Функция ER ALLITEMS
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности ALLITEMS.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) ALLITEMS.
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf1e05e9377ba18ad0269a48b13bd242a8e5356f4a52ea3723e347dcf5e138e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d126f83c8bf5115917b676a57cf6527279ade462
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864727"
 ---
 # <a name="allitems-er-function"></a>Функция ER ALLITEMS
 

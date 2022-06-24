@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877695"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Ограничение редактирования личных данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695882"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-В этом разделе описывается, как запретить сотрудникам изменять сведения о контактах в Dynamics 365 Human Resources. Может возникнуть необходимость запретить внесение сотрудниками каких-либо дополнительных сведений о контакте, таких как местоположение компании или адрес электронной почты.
+В этой статье описывается, как запретить сотрудникам изменять сведения о контактах в Dynamics 365 Human Resources. Может возникнуть необходимость запретить внесение сотрудниками каких-либо дополнительных сведений о контакте, таких как местоположение компании или адрес электронной почты.
 
 > [!NOTE]
 > Чтобы использовать эту функцию, необходимо сначала включить **(Предварительная версия) Запретить сотрудникам добавлять или редактировать адрес и контактную информацию для целей выбора** в управлении функциями. Дополнительные сведения о включении предварительных версий функций см. в разделе [Управление функциями](hr-admin-manage-features.md).<br><br>![Включить предварительную версию функции.](./media/hr-employee-self-service-restrict-enable.png)

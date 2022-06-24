@@ -1,6 +1,6 @@
 ---
 title: Настройка распределения выручки по нескольким элементам
-description: В этой теме описывается, как настроить параметры для распределения выручки нескольких элементов при выставлении счетов по подпискам.
+description: В этой статье описывается, как настроить параметры для распределения выручки нескольких элементов при выставлении счетов по подпискам.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: bb5b220dd941cbb9f1fda5d0eb821a86a9135309
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 23dae125e256e3e567e200024ee61a6c97cb1143
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903315"
 ---
 # <a name="set-up-multiple-element-revenue-allocation"></a>Настройка распределения выручки по нескольким элементам
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка интеграции с Dayforce
-description: В этой теме описываются требуемые шаги настройки, необходимые для интеграции между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce.
+description: В этой статье описываются требуемые шаги настройки, необходимые для интеграции Microsoft Dynamics 365 Human Resources с Ceridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896144"
 ---
 # <a name="configure-integration-with-dayforce"></a>Настройка интеграции с Dayforce
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691342"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этом разделе. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
+Интеграция между Microsoft Dynamics 365 Human Resources и Ceridian Dayforce зависит от ряда действий настройки, описанных в этой статье. Необходимо настроить интеграцию в Human Resources и Dayforce перед обработкой периода оплаты.
 
 При использовании службы, например Dayforce, для выполнения оплаты, необходимо включить интеграцию в Human Resources. Интеграция требует определенных данных из Human Resources. Таким образом необходимо убедиться, что данные, отображаемые в Dayforce, настроены в Human Resources таким образом, чтобы поддерживать интеграцию. Интеграция использует следующие широкие категории данных:
 
@@ -37,7 +37,7 @@ ms.locfileid: "8691342"
 - Данные о заработной плате, например циклы оплаты, периоды оплаты и коды начисления зарплаты
 - Данные о работнике
 
-В этой теме описываются шаги, которые необходимо выполнить, чтобы включить интеграцию и объясняются типы данных и сведения о конфигурации, необходимые для интеграции.
+В этой статье описываются шаги, которые необходимо выполнить, чтобы сделать возможной интеграцию, и объясняются типы данных и сведения о конфигурации, необходимые для интеграции.
 
 ## <a name="enable-the-integration"></a>Включение интеграции
 

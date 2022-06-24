@@ -1,6 +1,6 @@
 ---
 title: Настройка управления кредитом
-description: В этом разделе описывается настройка, которая необходима для управления кредитами.
+description: В этой статье описывается настройка, которая необходима для управления кредитом.
 author: JodiChristiansen
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: cc46faa3c5da590fe5ec574fabe452e547044eac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886497"
 ---
 # <a name="credit-management-setup"></a>Настройка управления кредитом 
 

@@ -1,6 +1,6 @@
 ---
 title: Настройка счетов ГК TDS
-description: В этой теме объясняется, как настроить счета ГК для функции налогов, которые удерживаются в источнике (TDS).
+description: В этой статье объясняется, как настроить счета книги учета для функции налога, удерживаемого у источника (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 329c950f31cd12faa335a2ab1c220d24f66919f4
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 227ed304c23f96cdbf4dbb4a07d028cd1e2758a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904480"
 ---
 # <a name="set-up-tds-ledger-accounts"></a>Настройка счетов ГК TDS
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме объясняется, как настроить счета ГК для функции налогов, которые удерживаются в источнике (TDS). Страница **План счетов** используется для настройки счетов главной книги для TDS.
+В этой статье объясняется, как настроить счета книги учета для функции налога, удерживаемого у источника (TDS). Страница **План счетов** используется для настройки счетов главной книги для TDS.
 
 1. Перейдите в раздел **Главная книга \> План счетов \> Счета \> Счета ГК**.
 2. На вкладке **Обзор** нажмите сочетание клавиш **ALT+N**, чтобы создать счет ГК для TDS, а затем введите необходимые сведения.

@@ -1,6 +1,6 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 Human Resources (25 июня 2020 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Human Resources от 23 июня 2020 года.
+description: В этой статье описываются новые или измененные функции в Microsoft Dynamics 365 Human Resources от 23 июня 2020 года.
 author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1a5be61325a919762d690f2483c37b9eec020d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7fe8b685a2b492fe5ad23b410f6a99d81991e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904111"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (23 июня 2020 г.)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8689841"
 
 
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3347. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
+В этой статье описываются новые и измененные компоненты в Dynamics 365 Human Resources. Изменения применяются для номера сборки 8.1.3347. Числа в скобках в некоторых заголовках относятся к номерам LCS для справки.
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>Когда истекает срок регистрации для уволенного сотрудника, в форме регистрация отпуска (444867) удаляются тип отпуска, сальдо и сумма.
 

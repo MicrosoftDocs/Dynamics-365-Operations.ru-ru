@@ -1,6 +1,6 @@
 ---
 title: Функция LISTDISTINCT ER
-description: Этот раздел содержит общие сведения об использовании функции электронной отчетности LISTDISTINCT.
+description: В этой статье представлена информация о том, как используется функция электронной отчетности (ER) LISTDISTINCT.
 author: NickSelin
 ms.date: 7/30/2020
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 7cc51695d261a63521ae88e2a9362b6f30b9618ed89300bcaeb606b050c81350
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d2f8e3a9d077493df3c3b7628608d31834f43f8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876815"
 ---
 # <a name="listdistinct-er-function"></a>Функция LISTDISTINCT ER
 

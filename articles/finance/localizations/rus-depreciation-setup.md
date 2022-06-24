@@ -1,6 +1,6 @@
 ---
 title: Настройка амортизации (Россия)
-description: В этом разделе описывается настройка амортизации для основных средств в России.
+description: В этой статье объясняется, как настроить амортизацию для основных средств в России.
 author: anasyash
 ms.date: 05/25/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a0ccf9b618b3aa98598503d8287be907abb243c0
-ms.sourcegitcommit: 3ba217f237f77c6b979e7152c35aa86cd1bb5e9d
+ms.openlocfilehash: 8ad17fc354b4fedbba1cb948191f747bf4975c8e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8807042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846492"
 ---
 # <a name="set-up-depreciation-russia"></a>Настройка амортизации (Россия)
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается настройка амортизации для основных средств в России.
+В этой статье объясняется, как настроить амортизацию для основных средств в России.
 
 ## <a name="set-up-depreciation-methods"></a>Настройка способов амортизации
 

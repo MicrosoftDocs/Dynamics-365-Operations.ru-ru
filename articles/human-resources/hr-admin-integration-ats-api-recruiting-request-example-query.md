@@ -1,6 +1,6 @@
 ---
 title: Пример запроса для запроса на набор персонала
-description: В этой теме представлен пример запроса для сущности запроса на набор персонала в Dynamics 365 Human Resources.
+description: В этой статье представлен пример запроса для сущности "Запрос на набор сотрудников" в Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 55dae805cf9bd1fc641cf6d0e8eb2cc4b6af5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858224"
 ---
 # <a name="example-query-for-recruiting-request"></a>Пример запроса для запроса на набор персонала
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066251"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме представлен пример запроса для сущности запроса на набор персонала в Dynamics 365 Human Resources.
+В этой статье представлен пример запроса для сущности "Запрос на набор сотрудников" в Dynamics 365 Human Resources.
 
 Следующий запрос показывает, как можно использовать параметр запроса $expand в операции GET, чтобы извлечь указанную запись запроса на набор персонала и все связанные должности, необходимые навыки и требования к образованию для указанного запроса. Пример отклика показывает запрос на набор персонала для двух должностей, а также необходимые навыки и образование для запрошенных должностей.
 

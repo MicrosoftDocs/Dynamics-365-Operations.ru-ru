@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881972"
 ---
 # <a name="finance-insights-home-page"></a>Главная страница Finance Insights
 
@@ -43,7 +43,7 @@ Finance Insights предоставляет настраиваемые и рас
 
 ### <a name="version-requirements"></a>Требования к версии
 
-Эта тема применима в Microsoft Dynamics 365 Finance версии 10.0.21 и более поздних версий.
+Эта статья применима к Microsoft Dynamics 365 Finance версии не ниже10.0.21.
 
 ### <a name="license-requirements"></a>Требования к лицензированию
 
@@ -88,7 +88,7 @@ Finance Insights предоставляет настраиваемые и рас
 
 ### <a name="using-cash-flow-forecasts"></a>Использование прогнозов движения денежных средств
 
-Функция прогнозирования движения денежных средств может помочь более точно оценить состояние денежной наличности. Интеллектуальное прогнозирование движения денежных средств строится поверх существующих функций прогнозирования движения денежных средств в Dynamics 365 Finance. Чтобы просмотреть существующую возможность, см. раздел [Прогнозирование движения денежных средств](../cash-bank-management/cash-flow-forecasting.md).
+Функция прогнозирования движения денежных средств может помочь более точно оценить состояние денежной наличности. Интеллектуальное прогнозирование движения денежных средств построено на основе существующих функций прогнозирования движения денежных средств в Dynamics 365 Finance. Чтобы просмотреть существующую возможность, см. раздел [Прогнозирование движения денежных средств](../cash-bank-management/cash-flow-forecasting.md).
 
 - Сведения о новых возможностях прогнозов движения денежных средств см. в разделе [Прогноз движения денежных средств](cash-flow-forecast-intro.md).
 - Сведения об импорте внешних данных для включения в прогноз движения денежных средств см. в разделе [Использование внешних данных в прогнозах движения наличных средств](external-data-in-cash-flow.md). 

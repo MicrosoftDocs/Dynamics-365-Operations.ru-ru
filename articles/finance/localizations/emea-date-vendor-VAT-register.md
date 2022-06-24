@@ -1,6 +1,6 @@
 ---
 title: Дата регистрации НДС поставщика
-description: В этой теме приводятся сведения о функциях для включения даты регистрации НДС поставщика
+description: В этой статье приводятся сведения о функции для включения даты регистрации НДС поставщика
 author: anasyash
 ms.date: 01/15/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: global
 ms.author: anasyash
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 882d5a8718d819cff80bfa5b86e054a39e9db159
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7992067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849786"
 ---
 # <a name="date-of-vendor-vat-register"></a>Дата регистрации НДС поставщика
 
-В Microsoft Dynamics 365 Finance версии 10.0.24 новое поле **Дата регистрации НДС поставщика** доступно для накладных поставщика. В этом поле указывается дата налогооблагаемой поставки для покупки.
+В Microsoft Dynamics 365 Finance версии 10.0.24 доступно новое поле **Дата регистрации НДС поставщика** для накладных поставщика. В этом поле указывается дата налогооблагаемой поставки для покупки.
 
 Чтобы включить новое поле, перейдите в рабочую область **Управление функциями**, найдите и выберите функцию **Включить дату регистрации НДС поставщика в накладных поставщика**, затем выберите **Включить**.
 

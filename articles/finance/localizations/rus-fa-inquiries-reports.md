@@ -1,6 +1,6 @@
 ---
 title: Запросы и отчеты по основным средствам
-description: В этой теме приводятся сведения о запросах и отчетах по приобретению основных средств для России.
+description: В этой статье приводятся сведения о запросах и отчетах по приобретению основных средств для России.
 author: v-oloski
 ms.date: 08/17/2021
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42937a657063581041cc49f40b61f87c9476cfef
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 6359ab3e9e2c4b9892f6cbf2c6e892af8acd60f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886245"
 ---
 # <a name="fixed-asset-inquiries-and-reports"></a>Запросы и отчеты по основным средствам
 
-В этой теме приводятся сведения о запросах и отчетах по приобретению основных средств для России.
+В этой статье приводятся сведения о запросах и отчетах по приобретению основных средств для России.
 
 ## <a name="inquiries"></a>Запросы
 

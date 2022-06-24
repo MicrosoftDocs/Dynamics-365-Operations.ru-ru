@@ -1,6 +1,6 @@
 ---
 title: Разработка структуры компенсации
-description: В этой теме объясняется, как создать план фиксированной компенсации и зарегистрировать сотрудников в плане с помощью правил приемлемости.
+description: В этой статье объясняется, как создать план фиксированных компесационных выплат и зарегистрировать сотрудников в плане с помощью правил приемлемости.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902986"
 ---
 # <a name="develop-a-compensation-structure"></a>Разработка структуры компенсации
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693097"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-В этой теме описывается создание плана фиксированной компенсации и регистрация сотрудников в плане с помощью правил приемлемости. В этой теме используются демонстрационные данные USMF, которые применяются к менеджерам по компенсациям и льготам.
+В этой статье описывается создание плана фиксированных компесационных выплат и регистрация сотрудников в плане с помощью правил приемлемости. В этой статье используются демонстрационные данные USMF, и статья применима к менеджерам по компенсациям и льготам.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Создание плана фиксированных компенсаций.
 

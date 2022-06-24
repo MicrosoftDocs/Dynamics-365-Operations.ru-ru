@@ -1,6 +1,6 @@
 ---
 title: Настройка должностных лиц (Россия)
-description: В этой теме поясняется, как производится настройка должностных лиц в Microsoft Dynamics 365 Finance в России.
+description: В этой статье поясняется, как производится настройка должностных лиц в Microsoft Dynamics 365 Finance в России.
 author: ShylaThompson
 ms.date: 07/11/2018
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4672c270c3f8cd374fa2784ee9f8493a97ff75c79453d21f330bc7b115a9fd06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c596ad090a5e2b6a9ae71e06e02481c4f140be40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888873"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается порядок настройки должностных лиц в России, которые занимаются созданием транспортных накладных и заказ-нарядов, а также фигурирующих в различных отчетах.
+В этой статье описывается порядок настройки должностных лиц в России, которые занимаются созданием транспортных накладных и заказ-нарядов, а также фигурирующих в различных отчетах.
 
 ## <a name="set-up-officials-who-generate-transportation-invoices-and-job-tickets"></a>Настройка должностных лиц, которые занимаются созданием транспортных накладных и заказ-нарядов
 

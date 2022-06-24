@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)
-description: В этой теме приводятся сведения об устаревании хранилища Microsoft Dynamics Lifecycle Services (LCS), которое планируется как часть развертывания глобального репозитория Regulatory Configuration Service (RCS).
+description: В этой статье приводятся сведения об устаревании хранилища Microsoft Dynamics Lifecycle Services (LCS), которое планируется в рамках развертывания глобального репозитория Regulatory Configuration Service (RCS).
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849741"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) — устаревание хранилища Lifecycle Services (LCS)
 
@@ -85,7 +85,7 @@ RCS использует концепцию *подключенного прил
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Есть ли какие-то примеры, демонстрирующие настройку и управление?
 
-Примеры отсутствуют, но можно выполнить шаги, приведенные ранее в этом разделе, для переноса конфигураций в глобальный репозиторий RCS.
+Примеры отсутствуют, но вы можете выполнить шаги, приведенные ранее в этой статье, для переноса ваших конфигураций в глобальный репозиторий RCS.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Является ли RCS необходимым условием для настройки электронной отчетности?
 

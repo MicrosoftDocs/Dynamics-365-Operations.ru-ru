@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908237"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Домашняя страница «Что нового и что изменилось в приложениях Финансы и операции»
 
@@ -41,18 +41,18 @@ ms.locfileid: "8457406"
 
 ## <a name="stand-alone-applications"></a>Автономные приложения
 
-Чтобы просмотреть новые или измененные функции в отдельном Dynamics 365 Human Resources, см. следующий раздел:
+Сведения о новинках и изменениях в отдельном приложении Dynamics 365 Human Resources см. в следующей статье:
 
 - **Управление персоналом:** [Что нового и что изменилось в Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Обновления платформы
 
-Сведения о новинках и изменениях в обновлениях платформы для приложений Финансы и операции см. в следующих разделах:
+Сведения о новинках и изменениях в обновлениях платформы для приложений для управления финансами и операциями см. в следующей статье:
 
 - [Что нового и что изменилось в выпусках Platform update](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Выпуски Lifecycle Services
-Чтобы просмотреть новые или измененные функции в Lifecycle Services, см. следующий раздел:
+Сведения о новинках и изменениях в Lifecycle Services см. в следующей статье:
 
 - [Что нового и что изменилось в Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

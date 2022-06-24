@@ -1,6 +1,6 @@
 ---
 title: Планы компенсационных выплат
-description: В этой теме описывается, как использовать управление компенсациями для управления планами компенсаций и их обработки.
+description: В этой статье описывается, как использовать управление компенсациями для управления планами компесационных выплат и их обработки.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 61ef87127a89e9f23358d060ae6f8de513dedfa7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 39bb4419f18f2cc0da28b5527d261112b2ae74c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859556"
 ---
 # <a name="compensation-plans"></a>Планы компенсационных выплат
 

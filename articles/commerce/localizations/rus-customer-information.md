@@ -1,6 +1,6 @@
 ---
 title: Управление информацией по клиентам для России
-description: В этой теме описываются сценарии обработки информации о клиентах в POS-терминале Microsoft Dynamics 365 Commerce для России.
+description: В этой статье описываются сценарии обработки информации по клиентам в POS-терминале Microsoft Dynamics 365 Commerce для России.
 author: EvgenyPopovMBS
 ms.date: 09/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2021-8-2
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b266ad814aa283c648f72242b8abf47d809b5af
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: 33d37c0a53f0d8a7b87eb762c7cf641da4d97ae7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845820"
 ---
 # <a name="customer-information-management-for-russia"></a>Управление информацией по клиентам для России
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описываются сценарии обработки информации о клиентах в POS-терминале Microsoft Dynamics 365 Commerce для России.
+В этой статье описываются сценарии обработки информации по клиентам в POS-терминале Microsoft Dynamics 365 Commerce для России.
 
 Dynamics 365 Commerce позволяет указать сведения о клиенте, такие как номер телефона или адрес электронной почты, при создании или редактировании основной записи клиента в POS-терминале. Можно также указать сведения о клиенте для проводки по продажам, скопировав сведения из клиента, указанного в проводке, или введя их вручную. Затем в финансовый чек могут быть включены сведения о клиенте. Сведения о создании и печати финансовых чеков см. в разделе [Пример интеграции финансового принтера для России](rus-fpi-sample.md).
 

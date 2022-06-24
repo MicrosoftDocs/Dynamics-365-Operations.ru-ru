@@ -1,6 +1,6 @@
 ---
 title: Основные формы для МОС, спецодежды и спецоснастки (Россия)
-description: Этот раздел содержит сведения об основных формах для МОС, спецодежды и спецоснастки для России.
+description: Эта статья содержит сведения об основных формах для МОС, спецодежды и спецоснастки для России.
 author: ShylaThompson
 ms.date: 04/12/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cf6fc2973e42a2ced954c4f62f1232b5c11ca87662ceca573dcb668803146dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d44d7890c49ec563f71ec36646cffd711b71b106
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846480"
 ---
 # <a name="primary-forms-for-nvfa-working-clothes-and-special-riggings-russia"></a>Основные формы для МОС, спецодежды и спецоснастки (Россия)
 

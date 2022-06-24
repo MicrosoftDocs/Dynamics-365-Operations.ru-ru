@@ -1,6 +1,6 @@
 ---
-title: Разбивка ОС
-description: В этой теме показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.
+title: Разбиение основного средства
+description: В этой статье объясняется, как разделить процент одного журнала активов с переносом в новый журнал активов.
 author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1073f262d29e19fbbdc2257f5cdc18c4fa629196
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0d7fe30702717f960a42fb2a118e0d12587024f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880798"
 ---
-# <a name="split-a-fixed-asset"></a>Разбивка ОС
+# <a name="split-a-fixed-asset"></a>Разбиение основного средства
 
 [!include [banner](../../includes/banner.md)]
 
-В этой теме показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства. 
+В этой статье объясняется, как разделить процент одного журнала активов с переносом в новый журнал активов. 
 
 ## <a name="create-a-new-fixed-asset"></a>Создание нового основного средства
 
