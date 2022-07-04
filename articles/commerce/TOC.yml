@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (май 2022 г.)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: "Commerce 10.0.25 (апрель 2022\_г.)"
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка среды оценки Dynamics 365 Commerce
+            - name: Настройка среды песочницы Dynamics 365 Commerce
               items:
-                - name: Обзор среды оценки Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Обеспечение среды оценки Dynamics 365 Commerce
+                - name: Подготовка среды песочницы Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Настройка среды оценки Dynamics 365 Commerce
+                - name: Конфигурация среды песочницы Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: 'Настройка сценария BOPIS (купить в Интернете, забрать в магазине) в среде оценки Dynamics 365 Commerce'
+                - name: Настройка BOPIS в среде песочницы Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Настройка дополнительных функций среды оценки Dynamics 365 Commerce
+                - name: Настройка дополнительных функций среды песочницы Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Вопросы и ответы по среде оценки Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: 'Вопросы, связанные с развертыванием'
               items:
                 - name: Варианты развертывания
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: Поддержка сетевых периферийных устройств
                           href: dev-itpro/network-peripherals.md
+                        - name: Совместимость периферийных устройств
+                          href: Compatible-peripherals.md
                     - name: Макеты экрана
                       items:
                         - name: Макеты экрана демонстрационных данных в MPOS/CPOS
@@ -1402,6 +1398,8 @@
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
                   href: localizations/emea-aut-fi-sample.md
+                - name: Рекомендации по развертыванию контрольно-кассовых машин для Австрии
+                  href: localizations/emea-aut-deployment.md
                 - name: Пример рекомендаций по развертыванию для финансовой интеграции для Австрии (устарело)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Бразилия
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Конвейер сборки Retail SDK
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: Настройка агента сборки Visual Studio 2017 для создания MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: Запуск примеров POS
                       href: dev-itpro/pos-run-samples.md
                 - name: Справка

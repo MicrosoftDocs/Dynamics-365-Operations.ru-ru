@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: "Обновления платформы для версии 10.0.26 (май 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: "Обновления платформы для версии 10.0.25 (апрель 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -376,11 +374,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Планирование локальных развертываний и подготовка к ним
                       href: deployment/plan-onprem-deployment.md
-                    - name: Поддерживаемое программное обеспечение Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: Локальное поддерживаемое программное обеспечение
                       href: deployment/onprem-compatibility.md
                     - name: Требования к определению параметров оборудования
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Проверка подлинности в Dynamics 365 Finance + Operations (on-premises)
+                    - name: Проверка подлинности в локальных средах
                       href: deployment/authentication-onprem.md
                 - name: Настройка и развертывание локальных сред
                   items:
@@ -402,15 +400,15 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Подключение к Интернету клиента
                       href: user-interface/client-disconnected.md
-                    - name: Настройка в локальных развертываниях только для пакетных и интерактивных узлов AOS
+                    - name: Настройка только пакетных и интерактивных узлов AOS в локальных развертываниях
                       href: deployment/onprem-batchonly.md
                     - name: Настройка высокой доступности для узлов SQL Server Reporting Services (SSRS)
                       href: deployment/onprem-SSRSHA.md
                     - name: Настройка прокси-серверов для локальных сред
                       href: deployment/onprem-reverseproxy.md
-                    - name: Настройка приложения склада для локальных развертываний
+                    - name: Настройка приложения Warehousing для локальных развертываний
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: Включение RSAT в средах Finance + Operations (on-premises)
+                    - name: Включение RSAT в локальных средах
                       href: deployment/onprem-rsat-configuration.md
                     - name: Установка сетевых принтеров в локальных средах
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Повторное использование одного и того же экземпляра AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
-                    - name: Обновление Windows Server в средах Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: Обновление Windows Server в локальных средах
                       href: deployment/onprem-upgrade-os.md
-                    - name: Обновление экземпляра SQL Server в средах Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: Обновление или замена экземпляра SQL Server локальных сред
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Локальный агент
                   items:
@@ -980,8 +978,10 @@
               items:
                 - name: Обзор диспетчера конфигураций
                   href: lifecycle-services/configuration-manager-lcs.md
-                - name: Настройка диспетчера конфигураций
+                - name: Настроить диспетчер конфигураций
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: Копировать конфигурации
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: Настройка службы обновления кода
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Создание или обновление методологий
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Учебник по расширению Azure DevOps (общедоступная предварительная версия)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Расширение Dynamics 365 Translation Service Visual Studio Code (общедоступная предварительная версия)
+                - name: Расширение Visual Studio (закрытая предварительная версия)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: Расширение Visual Studio Code (общедоступная предварительная версия)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Интеграция Microsoft Power Platform
           items:
@@ -1600,8 +1602,10 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Экспорт пользователей B2B в Azure AD
               href: sysadmin/implement-b2b.md
-            - name: Ведение данных
+            - name: Обслуживание данных
               href: sysadmin/DataMaintenancePortal.md
+            - name: Управление доступом к сетевым принтерам в юридических лицах
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Безопасность
               items:
                 - name: Безопасность на основе ролей

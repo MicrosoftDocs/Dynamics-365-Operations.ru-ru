@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (май)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (апрель)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -458,11 +456,13 @@
                       href: accounts-receivable/sb-revenue-split.md
                     - name: Периодические задачи
                       href: accounts-receivable/sb-periodic-tasks.md
-                - name: Отсрочки выручки и расхода
+                - name: Выручка и расход для РБП
                   items:
-                    - name: Настройка отсрочек выручки и расхода
+                    - name: Настройка выручки и расхода для РБП
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Создание графиков отсрочки
+                    - name: Метод разноски РБП
+                      href: accounts-receivable/Deferral-posting-methods.md
+                    - name: Создание графиков РБП
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Проводки по умолчанию для РБП
                       href: accounts-receivable/sb-deferral-transactions.md
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Компоненты финансового отчета
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Просмотр и разработка финансовых отчетов
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Валюта в финансовой отчетности
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Расчет нераспределенной прибыли в финансовой отчетности
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Настройка номеров банковских счетов для Бразилии
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Заказы на перемещение
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Налоги
                   items:
                     - name: Обзор налогов Бразилии
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Закрытие года
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Дания
               items:
                 - name: Обзор по Дании
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: Импорт конфигураций электронного выставления накладных OIOUBL
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Электронные накладные клиентов в Дании
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Разноска накладной с произвольным текстом с платежной квитанцией
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Разноска накладной по проекту с платежной квитанцией
@@ -2220,9 +2226,11 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: Импорт конфигурации безакцептного списания ISO20022
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Необходимые условия для формата кредитового перевода ISO 20022
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: Импорт конфигурации кредитового перевода ISO20022
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
-                    - name: Настройка банковских счетов компании для кредитных переводов ISO20022
+                    - name: Настройка банковских счетов компании для кредитовых переводов ISO20022
                       href: localizations/tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md
                     - name: Настройка банковских счетов компании для безакцептного списания ISO20022
                       href: localizations/tasks/set-up-company-bank-accounts-iso20022-direct-debits.md
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Расчеты отложенных налогов
                   href: localizations/emea-hun-deferred-vat.md
+                - name: Отчет ЕС по НДС
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Исландия
               items:
                 - name: Обзор по Исландии
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Настройка регистрационных номеров TDS для юридических лиц
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Настройка групп компонентов подоходного налога для типа налога TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Настройка органов подоходного налога для типа налога TDS
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Настройка компонентов налога для типа налога TDS
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Настройка счетов ГК для разноски обязательств по выбытию активов и рыночных ставок скидок
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Отчет о налоге на потребление
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Консолидированные накладные
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Создание основных средств с дополнительной амортизацией
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Приобретение ОС и их ввод в эксплуатацию
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Транспортные средства и недвижимость как основные средства
+                          href: localizations/rus-vehicles-realty.md
                         - name: Расчет амортизации
                           href: localizations/rus-depreciation-calculation.md
                         - name: Частичная разборка ОС (ликвидация)
@@ -3442,8 +3458,10 @@
                           href: localizations/rus-fa-inquiries-reports.md
                     - name: Малоценные основные средства и спецодежда
                       items:
-                        - name: Малоценные основные средства (NVFA) (Россия)
+                        - name: Малоценные основные средства (МОС) (Россия)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'Основные формы для МОС, спецодежды и спецоснастки (Россия)'
+                          href: localizations/rus-nvfa.md
                         - name: Учет рабочей одежды и специальной оснастки (Россия)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Интеграция основных средств с модулем "Управление активами"
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Декларация по налогу на прибыль
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Отчет по операциям с отслеживаемыми товарами
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Администрирование организации
                   items:
                     - name: 'Сведения о налоговой регистрации, связанные с адресом'

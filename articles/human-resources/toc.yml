@@ -496,6 +496,8 @@
                   items:
                     - name: Управление процессом проекта по набору сотрудников
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Настройка проектов по набору сотрудников
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Ввод кандидата и данных заявления вручную
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Разработка и открытие заявок на должность
@@ -626,6 +628,10 @@
                   items:
                     - name: Настройка планов льгот
                       href: hr-benefits-plans-setup.md
+                    - name: Создание планов льгот работников
+                      href: hr-benefits-plans-worker.md
+                    - name: Настройка событий будущего
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Настройка гибких программ кредитования
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Обработка планов льгот
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Объекты
               items:
+                - name: Сведения о должности
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Параметр типа занятости
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: Обзор MyLeaveRequests
