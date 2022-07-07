@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 669534a6611860ac73439460afedce341310cc7d
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881798"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027343"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>Скрытие сведений о разбиении налогов в сводках заказов
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 В этой статье описывается, как скрыть сведения о разбиении налогов в сводках заказов на страницах корзины, оформления, подтверждения заказа и сведений о заказе в Microsoft Dynamics 365 Commerce.
 

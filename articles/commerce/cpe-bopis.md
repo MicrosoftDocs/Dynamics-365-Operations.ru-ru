@@ -1,8 +1,8 @@
 ---
-title: Настройка сценария BOPIS (купить в Интернете, забрать в магазине) в среде оценки Dynamics 365 Commerce
-description: В этой статье объясняется, как настроить сценарий "купить в интернете, забрать в магазине" (BOPIS) в среде оценки Microsoft Dynamics 365 Commerce после ее подготовки.
+title: Настройка BOPIS в среде песочницы Dynamics 365 Commerce
+description: В этой статье объясняется, как настроить сценарий "купить в интернете, забрать в магазине" (BOPIS) в среде песочницы Microsoft Dynamics 365 Commerce после ее подготовки.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861974"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013183"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Настройка сценария BOPIS (купить в Интернете, забрать в магазине) в среде оценки Dynamics 365 Commerce
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Настройка BOPIS в среде песочницы Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этой статье объясняется, как настроить сценарий "купить в интернете, забрать в магазине" (BOPIS) в среде оценки Microsoft Dynamics 365 Commerce после подготовки этой среды.
+В этой статье объясняется, как настроить сценарий "купить в интернете, забрать в магазине" (BOPIS) в среде песочницы Microsoft Dynamics 365 Commerce после подготовки этой среды.
 
 ## <a name="prerequisite"></a>Необходимые условия
 
-Выполните процедуры в этой статье только после того, как ваша ознакомительная среда Commerce была создана и настроена. Для получения информации о том, как подготовить и настроить среду, см. разделы [Подготовка ознакомительной среды Dynamics 365 Commerce](provisioning-guide.md) и [Настройка ознакомительной среды Dynamics 365 Commerce](./cpe-post-provisioning.md).
+Выполните процедуры в этой статье только после того, как ваша среда песочницы Commerce была создана и настроена. Для получения информации о том, как подготовить и настроить среду, см. разделы [Подготовка среды песочницы Dynamics 365 Commerce](provisioning-guide.md) и [Настройка среды песочницы Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 После того как ваша среда Commerce подготовлена и полностью настроена, эту статью можно использовать для включения сценариев BOPIS.
 
@@ -67,7 +67,7 @@ ms.locfileid: "8861974"
 5. Появляется диалоговое окно проверки подлинности. Выберите счет, который использует адрес электронной почты, который ранее был связан с сотрудником **000713 — Эндрю Коллетт**.
 
     > [!NOTE]
-    > Если сотрудник еще не сопоставлен с вашим удостоверением, активация будет неудачной. В этом случае выполните действия, указанные в разделе "Связывание работника с вашим удостоверением" в статье [Настройка ознакомительной среды Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Если сотрудник еще не сопоставлен с вашим удостоверением, активация будет неудачной. В этом случае выполните действия, указанные в разделе "Связывание работника с вашим удостоверением" в статье [Настройка среды песочницы Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Когда появится приглашение, предлагающее разрешить вашей организации управление устройством, выберите **Только это приложение**.
 7. После завершения активации выберите **Начать работу**.
@@ -140,13 +140,9 @@ ms.locfileid: "8861974"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор ознакомительной среды Dynamics 365 Commerce](cpe-overview.md)
+[Подготовка среды песочницы Dynamics 365 Commerce](provisioning-guide.md)
 
-[Подготовка ознакомительной среды Dynamics 365 Commerce](provisioning-guide.md)
-
-[Настройка дополнительных функций ознакомительной среды Dynamics 365 Commerce](cpe-optional-features.md)
-
-[Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
+[Настройка дополнительных функций среды песочницы Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

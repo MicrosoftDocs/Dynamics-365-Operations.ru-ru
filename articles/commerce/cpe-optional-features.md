@@ -1,8 +1,8 @@
 ---
-title: Настройка дополнительных функций среды оценки Dynamics 365 Commerce
-description: В этой статье объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
+title: Настройка дополнительных функций среды песочницы Dynamics 365 Commerce
+description: В этой статье объясняется, как настроить дополнительные функции для среды песочницы Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861922"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013246"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Настройка дополнительных функций среды оценки Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Настройка дополнительных функций среды песочницы Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-В этой статье объясняется, как настроить дополнительные функции для ознакомительной среды Microsoft Dynamics 365 Commerce.
+В этой статье объясняется, как настроить дополнительные функции для среды песочницы Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Необходимые условия
 
-Если необходимо оценить возможности обработки электронной почты по проводкам, необходимо обеспечить соблюдение следующих условий:
+Если необходимо продемонстрировать возможности обработки электронной почты по проводкам, необходимо обеспечить соблюдение следующих условий:
 
-- Имеется доступный сервер электронной почты (Simple Mail Transfer Protocol, \[SMTP\]-сервер), который может использоваться в подписке Microsoft Azure, в которой пользователь подготовил ознакомительную среду.
+- Имеется доступный сервер электронной почты (Simple Mail Transfer Protocol, \[SMTP\]-сервер), который может использоваться в подписке Microsoft Azure, в которой пользователь подготовил среду песочницы.
 - Имеется полное доменное имя (FQDN)/IP-адрес сервера, номер порта SMTP и сведения об аутентификации.
 
 ## <a name="configure-the-image-back-end"></a>Настройка серверной части изображений
@@ -39,10 +39,10 @@ ms.locfileid: "8861922"
 ### <a name="find-your-media-base-url"></a>Поиск базового URL-адреса мультимедиа
 
 > [!NOTE]
-> Прежде чем вы сможете завершить эту процедуру, вы должны завершить шаги в разделе [Настройка сайта в Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Прежде чем вы сможете завершить эту процедуру, вы должны завершить шаги в разделе [Настройка сайта в Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Войдите в конструктор сайтов Commerce, используя URL-адрес, который вы записали при инициализации электронной коммерции во время подготовки (см. [Инициализация электронной коммерции](provisioning-guide.md#initialize-e-commerce)).
-1. Откройте сайт **Fabrikam**.
+1. Откройте сайт компании **Fabrikam**, **Adventure Works** или **Adventure Works Business**, с которым требуется работать.
 1. Выберите **Библиотека мультимедиа** в меню слева.
 1. Выберите любой один актив изображения.
 1. В инспекторе свойств справа найдите свойство **Общедоступный URL-адрес**. Значение — это URL-адрес. Рассмотрим пример:
@@ -98,9 +98,9 @@ ms.locfileid: "8861922"
 
 ## <a name="customize-email-templates"></a>Настройка шаблонов электронной почты
 
-Возможно, вы захотите настроить шаблоны электронной почты таким образом, чтобы они использовали различные изображения. Или вы можете обновить ссылки в шаблонах, чтобы они переходили к вашей ознакомительной среде. В этой процедуре объясняется, как загрузить шаблоны по умолчанию, настроить их и обновить шаблоны в системе.
+Возможно, вы захотите настроить шаблоны электронной почты таким образом, чтобы они использовали различные изображения. Или вы можете обновить ссылки в шаблонах, чтобы они переходили к вашей среде песочницы. В этой процедуре объясняется, как загрузить шаблоны по умолчанию, настроить их и обновить шаблоны в системе.
 
-1. В веб-браузере загрузите [ZIP-файл шаблонов электронной почты по умолчанию для ознакомительной версии Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) на локальный компьютер. Этот файл содержит следующие HTML-документы:
+1. В веб-браузере загрузите [ZIP-файл демонстрационных шаблонов электронной почты по умолчанию Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) на локальный компьютер. Этот файл содержит следующие HTML-документы:
 
     - Шаблон подтверждения заказа
     - Шаблон выдачи подарочной карты
@@ -167,15 +167,11 @@ ms.locfileid: "8861922"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор ознакомительной среды Dynamics 365 Commerce](cpe-overview.md)
+[Подготовка среды песочницы Dynamics 365 Commerce](provisioning-guide.md)
 
-[Подготовка ознакомительной среды Dynamics 365 Commerce](provisioning-guide.md)
+[Настройка среды песочницы Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Настройка ознакомительной среды Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[Настройка BOPIS в ознакомительной среде Dynamics 365 Commerce](cpe-bopis.md)
-
-[Вопросы и ответы по ознакомительной среде Dynamics 365 Commerce](cpe-faq.md)
+[Настройка BOPIS в среде песочницы Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

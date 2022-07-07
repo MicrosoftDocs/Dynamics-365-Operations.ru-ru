@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fe5726203ffc7fef12c02196f511bc4c3c9be2a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 370722d5c2f66e316d7c37f711cdd086bc53f6a8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674851"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014832"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Уменьшение дней в сборах по подписке 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8674851"
 
 ## <a name="reduce-the-days-on-a-subscription-fee"></a>Уменьшение дней в платеже по подписке
 
-1.  Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**. Выберите подписку на обслуживание и на панели операций щелкните **Взносы по подписке**.
+1.  Щелкните **Управление сервисным обслуживанием** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**. Выберите подписку на обслуживание и на панели операций щелкните **Взносы по подписке**.
 
 2.  В поле **Тип подписки** выберите **Дни сокращения**.
 

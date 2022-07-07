@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872046"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014919"
 ---
 # <a name="set-up-consignment"></a>Настройка коносамента
 
@@ -84,7 +84,7 @@ USMF выполняет дополнительные периодические 
 - **Продукты, полученные из консигнационных запасов** — отображаются сведения о номенклатурах и количествах, для которых обновились поступления продуктов в процессе изменения владельца.
 - **Консигнационные запасы в наличии** — отображаются сведения о номенклатурах коносамента, для которых ожидается поставка, и номенклатуры, которые физически уже доступны на сайте клиента.
 
-Дополнительные сведения о настройке поставщиков для использования совместной работы с поставщиками см. в разделе [Безопасность пользователя портала поставщика](../procurement/configure-security-vendor-portal-users.md).
+Дополнительные сведения о настройке поставщиков для использования совместной работы с поставщиками см. в разделе [Управление пользователями совместной работы с поставщиками](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>Владельцы запасов
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899421"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022575"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Настройка интерфейса выполнения производственного цеха
 
@@ -113,9 +113,6 @@ ms.locfileid: "8899421"
 
 ### <a name="enable-the-my-day-dialog"></a>Включение диалогового окна "Мой день"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Диалоговое окно **Мой день** предоставляет сотрудникам обзор ежедневных регистраций и текущих балансов для оплачиваемого времени, оплачиваемых сверхурочных, отсутствия и оплачиваемого отсутствия.
 
 Чтобы эта функциональность была доступна, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ ms.locfileid: "8899421"
 
 ### <a name="enable-teams"></a>Включение рабочих групп
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Если несколько сотрудников назначены одному производственному заданию, они могут сформировать рабочую группу. Рабочая группа может назначить одного работника в качестве руководителя. Остальные работники затем автоматически становятся помощниками для этого руководителя. Для получившейся рабочей группы только руководитель должен зарегистрировать статус задания. Записи времени применяются ко всем участникам рабочей группы.
 
 Чтобы эта функциональность была доступна, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ ms.locfileid: "8899421"
 - *Производственные группы в интерфейсе выполнения производственного цеха*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Включение дополнительной конфигурации в интерфейсе выполнения производственного цеха
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Эта функция добавляет параметры для следующей функциональной возможности на странице **Настроить управление производственным участком**:
 

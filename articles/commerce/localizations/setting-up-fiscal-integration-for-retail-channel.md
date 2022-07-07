@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 695f3c1e704f2712f392d0d7179da63f47731f46
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889407"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027066"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Настройка финансовой интеграции для каналов Commerce
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 В этой статье приводятся инструкции по настройке функции финансовой интеграции для каналов Commerce. Дополнительные сведения о финансовой интеграции см. в разделе [Обзор финансовой интеграции для каналов Commerce](fiscal-integration-for-retail-channel.md).
 

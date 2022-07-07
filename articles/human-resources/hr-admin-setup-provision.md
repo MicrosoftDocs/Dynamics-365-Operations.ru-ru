@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858253"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015356"
 ---
 # <a name="provision-human-resources"></a>Подготовка Human Resources к работе
 
@@ -143,7 +143,9 @@ ms.locfileid: "8858253"
 6. Возможности двойной записи для интеграции данных Human Resources со средой Power Apps могут использоваться только в том случае, если для среды выбран параметр **Включить приложения Dynamics 365**. Дополнительные сведения о двойной записи см. на [главной странице двойной записи](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
-    > Параметр **Включить приложения Dynamics 365** должен быть выбран во время создания среды Power Apps. Если этот параметр не выбран во время подготовки, вы не сможете использовать двойную запись для интеграции данных между Dynamics 365 Human Resources и средой Power Apps или установки приложений Dynamics 365, таких как Dynamics 365 Sales и Field Service в среде. Этот параметр не является обратимым. Дополнительные сведения см. в разделе [Важные соображения при создании новой среды](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) на сайте документации Power Platform.
+    > Параметр **Включить приложения Dynamics 365** должен быть выбран во время создания среды Power Apps. Если этот параметр не выбран во время подготовки, вы не сможете использовать двойную запись для интеграции данных между Dynamics 365 Human Resources и средой Power Apps или установки приложений Dynamics 365, таких как Dynamics 365 Sales и Field Service в среде. Этот параметр не является обратимым. 
+    > -  Модуль Human Resources не поддерживает изменение связанного экземпляра Dataverse после развертывания в нем модуля Human Resources. </br></br>
+    > Дополнительные сведения см. в разделе [Важные соображения при создании новой среды](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) на сайте документации Power Platform.  
 
 7. После определения правильной среды для использования можно продолжить процесс подготовки. 
 

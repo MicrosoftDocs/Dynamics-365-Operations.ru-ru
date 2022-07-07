@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850796"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954506"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022 г.)
 
@@ -155,7 +155,7 @@ ms.locfileid: "8850796"
 | Управление складом | [Отложенная обработка операции перемещения запасов вручную](../warehousing/deferred-processing-manual-inventory-movement.md) | Обязательная аналитика |
 | Управление складом | Запретить создание загрузок, которые не отвечают требованиям шаблона формирования загрузки волны | Обязательная аналитика |
 | Управление складом | [Расширенные форматы этикеток грузомест](../warehousing/document-routing-layout-for-license-plates.md) | Обязательная аналитика |
-| Управление складом | [Оценка всех действий для директив мест хранения с несколькими SKU](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Обязательная аналитика |
+| Управление складом | [Оценка всех действий для директив мест хранения с несколькими SKU](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Обязательная аналитика |
 | Управление складом | Скрыть поле "Итоговое значение" на страницах "Все загрузки" и "Сведения о загрузке" | Обязательная аналитика |
 | Управление складом | Конфигурация построения этикетки номерного знака | Обязательная аналитика |
 | Управление складом | Ручная корректировка строк загрузки для администратора или подобных доверенных пользователей | Обязательная аналитика |
