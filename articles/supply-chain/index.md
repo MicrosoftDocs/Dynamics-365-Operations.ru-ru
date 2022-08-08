@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879086"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066068"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -56,16 +56,16 @@ ms.locfileid: "8879086"
 
 ## <a name="videos"></a>Видео
 
-В этом кратком видеоролике представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018 г.).
+В этом коротком видеоролике представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 Finance версии 8.0 (апрель 2018 г.).
 
-- [Синхронизация заказа на работу между Field Service и Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Синхронизация заказа на работу между Field Service и приложения для управления финансами и операциями](https://youtu.be/hAB4TDVMjxU)
 
-В этих кратких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.).
+В этих коротких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 (декабрь 2017 г.).
 
 - [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-В этих кратких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).
+В этих коротких видеороликах представлены новые функции управления цепочкой поставок, добавленные в Microsoft Dynamics 365 Finance, Enterprise Edition (июль 2017 г.).
 
 - [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 - [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ ms.locfileid: "8879086"
 - [Утверждение заказов на покупку на мобильном устройстве](https://youtu.be/gZ-gOlJe7H8)
 - [Визуальное планирование заказов на производство и заказов партий с помощью диаграммы Ганта](https://youtu.be/BtbuShkGj4I)
 
-В следующих записях с технической конференции обсуждаются функции управления цепочкой поставок из предыдущих версий Finance and Operations. Эта функция теперь входит в Dynamics 365 Supply Chain Management; эти же понятия по-прежнему применяются, а процедуры в текущей версии аналогичны.
+В следующих записях с технической конференции обсуждаются функции управления цепочкой поставок из предыдущих версий приложений для управления финансами и операциями. Эта функциональность теперь входит в Dynamics 365 Supply Chain Management; ее концепция остается неизменной, и процедуры в текущей версии аналогичны процедурам в предыдущих версиях.
 
 - **Управление затратами:**
   - [Обзор управления затратами](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ ms.locfileid: "8879086"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef08d7880a0695527cbfb4ba4e11aae05aec7fc8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711864"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065376"
 ---
 # <a name="accounts-receivable-home-page"></a>Домашняя страница расчетов с клиентами
 
@@ -83,7 +83,7 @@ ms.locfileid: "8711864"
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения о расчетах с клиентами и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Мнения, новости и другую информацию о расчетах с клиентами и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в приложениях для управления финансами и операциями Microsoft Dynamics 365](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) — это единый источник информации о новых возможностях и тенденциях в Dynamics 365, ориентированный на партнеров Microsoft Dynamics.
 
@@ -103,3 +103,4 @@ ms.locfileid: "8711864"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

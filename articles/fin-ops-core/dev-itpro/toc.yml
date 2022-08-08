@@ -2,7 +2,7 @@
   items:
     - name: Разработка и администрирование приложений для управления финансами и операциями
       items:
-        - name: Документация по приложению Finance and Operations
+        - name: Документация по приложениям для управления финансами и операциями
           href: ../fin-ops/index.md
         - name: Разработка и администрирование приложений для управления финансами и операциями
           href: index.md
@@ -12,14 +12,12 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Что нового и что изменилось в обновлениях платформы
               items:
-                - name: Что нового и что изменилось на домашней странице обновлений платформы
+                - name: Что нового и что изменилось на домашней странице обновления платформы
                   href: get-started/whats-new-home-page.md
                 - name: "Обновления платформы для версии 10.0.28 (август 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Обновления платформы для версии 10.0.27 (июль 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: "Обновления платформы для версии 10.0.26 (май 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: Максимизация пропускной способности API
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: Соединитель для управления финансами и операциями
+            - name: Соединитель для приложений для управления финансами и операциями
               href: data-entities/fin-ops-connector.md
             - name: Разработка механизмов интеграции
               items:
@@ -104,43 +102,43 @@
                   items:
                     - name: Настройка сценария продажи перспективному клиенту
                       items:
-                        - name: Продажа перспективному клиенту
+                        - name: Перспективный клиент в наличные деньги
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
+                        - name: Синхронизация организаций непосредственно из Sales с клиентами в приложениях для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales
+                        - name: Синхронизация продуктов непосредственно из приложений для управления финансами и операциями с продуктами в Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations
+                        - name: Синхронизация контактов непосредственно из Sales с контактами или клиентами в приложениях для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations
+                        - name: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с приложениями для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
+                        - name: Синхронизация заказов на продажу напрямую между Sales и приложениями для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
+                        - name: Синхронизация заголовков и строк накладных по продаже непосредственно из приложений для управления финансами и операциями с Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Настройка интеграции с Field Service
                       items:
                         - name: Обзор настройки интеграции с Field Service
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
+                        - name: Синхронизация продуктов в приложениях для управления финансами и операциями с продуктами в Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
+                        - name: Синхронизация заказов на работу в Field Service с заказами на продажу в приложениях для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
+                        - name: Синхронизация накладных по договорам в Field Service с накладными с произвольным текстом в приложениях для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Синхронизация перемещений и корректировок запасов Field Service с Finance and Operations
+                        - name: Синхронизация перемещений и корректировок запасов в Field Service с приложениями для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Синхронизация сведений об уровне запасов Finance and Operations с Field Service
+                        - name: Синхронизация информации об уровне запасов в приложениях для управления финансами и операциями с Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Синхронизация продуктов с единицами измерения складского учета Finance and Operations с Field Service
+                        - name: Синхронизация продуктов с единицами измерения складского учета в приложениях для управления финансами и операциями с Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Синхронизация списка проектов Finance and Operations с Field Service
+                        - name: Синхронизация списка проектов в приложениях для управления финансами и операциями с Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Синхронизация складов Finance and Operations с Field Service
+                        - name: Синхронизация складов в приложениях для управления финансами и операциями с Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Синхронизация заказов на выполнение работ с проектом из Field Service в Finance and Operations
+                        - name: Синхронизация заказов на работу с проектом в Field Service с приложениями для управления финансами и операциями
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Настройка интеграции Project Service Automation
+                    - name: Настройка интеграции с Project Service Automation
                       items:
                         - name: Обзор Project Service Automation
                           href: /dynamics365/project-operations/prod-pma/PSA-integration
@@ -344,13 +342,13 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Непрерывность бизнес-процессов и аварийное восстановление
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Завершение процесса адаптации Azure Resource Manager
+                - name: Процесс подключения к Azure Resource Manager
                   href: deployment/arm-onboarding.md
-                - name: Завершение процесса адаптации Azure Resource Manager для проектов LCS для государственных организаций США
+                - name: Процесс подключения к Azure Resource Manager для проектов LCS для государственных организаций США
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute и Finance and Operations
+                - name: Azure ExpressRoute и приложения для управления финансами и операциями
                   href: deployment/expressroute.md
-                - name: Архитектура Finance and Operations
+                - name: Архитектура приложений для управления финансами и операциями
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Применение обновлений к облачным средам
                   href: deployment/apply-deployable-package-system.md
@@ -482,7 +480,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Дескрипторы языков и языковых стандартов в продуктах и справке
                   href: help/language-locale.md
-                - name: Расширение и настройка справки и совместная работа над ней
+                - name: 'Расширение и настройка справки, а также совместная работа над ней'
                   href: help/contributor-guide.md
             - name: Региональные службы приложений для управления финансами и операциями
               items:
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Модели и пакеты
                   href: dev-tools/models.md
-                - name: Тип проекта Finance and Operations
+                - name: Тип проекта приложений для управления финансами и операциями
                   href: dev-tools/projects.md
                 - name: Надстройки с инструментами для Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,11 +1048,11 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Учебник по расширению Azure DevOps (общедоступная предварительная версия)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Расширение Visual Studio (закрытая предварительная версия)
+                - name: Расширение Visual Studio (общедоступная предварительная версия)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Расширение Visual Studio Code (общедоступная предварительная версия)
                   href: lifecycle-services/dts-vscode-doc.md
-        - name: Интеграция Microsoft Power Platform
+        - name: Интеграция с Microsoft Power Platform
           items:
             - name: Обзор
               href: power-platform/overview.md
@@ -1086,9 +1084,9 @@
                       items:
                         - name: Включение двойной записи для существующих приложений для управления финансами и операциями
                           href: data-entities/dual-write/enable-dual-write.md
-                        - name: Системные требования и необходимые условия
+                        - name: Требования к системе и необходимые условия
                           href: data-entities/dual-write/requirements-and-prerequisites.md
-                        - name: Порядок использования мастера двойной записи для связи между средами
+                        - name: Порядок использования мастера двойной записи для связывания сред
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Включение сопоставления объектов для двойной записи
                           href: data-entities/dual-write/enable-entity-map.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: Включение виртуальных объектов Dataverse
                   href: power-platform/enable-virtual-entities.md
-                - name: Порталы Power Apps с Finance and Operations
+                - name: Порталы Power Apps с приложениями для управления финансами и операциями
                   href: power-platform/power-portal-reference.md
-                - name: Вопросы и ответы по виртуальным объектам Finance and Operations
+                - name: Вопросы и ответы по виртуальным объектам приложений для управления финансами и операциями
                   href: power-platform/faq.md
             - name: Бизнес-события
               items:
@@ -1574,17 +1572,17 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Поддержка
           items:
-            - name: Получение поддержки по Finance and Operations и Lifecycle Services
+            - name: Получение поддержки по приложениям для управления финансами и операциями и Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Обзор вариантов поддержки Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: 'Получение поддержки по Finance and Operations, предоставляемому компанией 21Vianet в Китае'
+            - name: 'Получение поддержки по приложениям для управления финансами и операциями, предоставляемыми компанией 21Vianet в Китае'
               href: lifecycle-services/21vianet-support.md
             - name: Настройка технической поддержки приложений для управления финансами и операциями
               href: lifecycle-services/support-experience.md
             - name: Управление поддержкой приложений для управления финансами и операциями
               href: lifecycle-services/cloud-powered-support-lcs.md
-            - name: Поддержка и мониторинг производства
+            - name: Поддержка и мониторинг рабочей среды
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Администрирование системы
           items:
@@ -1616,7 +1614,7 @@
                   href: sysadmin/encryption.md
                 - name: Настройка времени ожидания неактивности сеанса
                   href: sysadmin/session-idle-timeout.md
-                - name: Готовые отчеты безопасности
+                - name: Готовые отчеты по безопасности
                   href: sysadmin/security-reports.md
                 - name: Создание новых пользователей
                   href: sysadmin/tasks/create-new-users.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Обновление AX 2012
               items:
-                - name: Обновление AX 2012 до Finance and Operations
+                - name: Обновление AX 2012 до приложений для управления финансами и операциями
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: Обновление AX 2012 — планирование использования средства анализа обновления
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: Перенос данных из AX 2009
               items:
-                - name: Перенос данных из AX 2009 в Finance and Operations
+                - name: Перенос данных из AX 2009 в приложения для управления финансами и операциями
                   href: migration-upgrade/data-migration-tool.md
                 - name: "Миграция с AX 2009\_— установка средства переноса данных"
                   href: migration-upgrade/install-dmt.md

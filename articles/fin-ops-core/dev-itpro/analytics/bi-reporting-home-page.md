@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906643"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206486"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Домашняя страница отчетности и аналитики с Power BI
 
@@ -30,9 +30,9 @@ ms.locfileid: "8906643"
 В этой статье описаны ресурсы, которые можно использовать для получения дополнительных сведений о доступных бизнес-аналитике (BI) и средствах отчетности.
 
 ## <a name="get-started"></a>Начало работы
-- [Доступ к данным и отчетность](information-access-reporting.md)
+- [Доступ к информации и отчетность](information-access-reporting.md)
 - [Технические вопросы: варианты отчетности](https://www.youtube.com/watch?v=NzZONjKs5xA) (видео)
-- [Finance and Operations: блог по Power BI Analytics & Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (блог)
+- [Приложения для управления финансами и операциями: блог по аналитике и службам отчетности Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (блог)
 
 ## <a name="analytical-workspaces"></a>Рабочие области для аналитики
 В рабочих областях можно использовать инфографику и другие визуальные элементы, поддерживаемые Microsoft Power BI. Эти визуальные элементы содержат множество элементов управления, предоставляемых сторонними разработчиками. Поэтому рабочие области представляют собой очень наглядный интерактивный инструмент для пользователей.
