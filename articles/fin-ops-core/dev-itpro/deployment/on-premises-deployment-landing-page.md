@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867422"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103983"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -53,8 +53,8 @@ ms.locfileid: "8867422"
 - [Импорт конфигураций электронной отчетности (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Создание, публикация и печать документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
 - [Настройка прокси-серверов для локальных сред](onprem-reverseproxy.md)
-- [Настройка технической поддержки для приложений Finance and Operations](../lifecycle-services/support-experience.md)
-- [Подключение к Интернету клиента](../user-interface/client-disconnected.md)
+- [Настройка технической поддержки приложений для управления финансами и операциями](../lifecycle-services/support-experience.md)
+- [Подключение к Интернету у клиента](../user-interface/client-disconnected.md)
 - [Применение обновлений к локальным развертываниям](apply-updates-on-premises.md)
 - [Повторное развертывание локальных сред](redeploy-on-prem.md)
 - [Повторное использование одного экземпляра AD FS для нескольких сред](onprem-reuseadfs.md)
@@ -73,9 +73,10 @@ ms.locfileid: "8867422"
 - [Сценарии устранения неполадок в локальных средах](onprem-tsg-implementations.md)
 - [Ротация сертификатов](certificate-rotation-on-prem.md)
 - [Локальная диагностика](on-premises-diagnostics.md)
-- [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Удаленные или устаревшие функции для управления финансами и операциями](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и локальные выпуски](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42d00f570403af6e7a6a39a6643eec1f59ccdc20
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ec7d8dbc73dce57d3968c4d239a51d27673a2493
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687934"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066294"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (18 февраля 2020 г.)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8687934"
 
 ## <a name="platform-update-32"></a>Обновление платформы update 32 
 
-Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для Финансы и операции (февраль 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+Доступно обновление платформы 32. Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 32 для финансов и операций (февраль 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Значения поиска запоминаются при изменении параметров просмотра в упрощенной форме сотрудника (383833)
 

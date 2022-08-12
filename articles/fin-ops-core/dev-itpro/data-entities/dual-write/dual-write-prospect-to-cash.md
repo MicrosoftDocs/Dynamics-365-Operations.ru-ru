@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860119"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112123"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Продажа перспективному клиенту в случае двойной записи
 
@@ -135,3 +135,4 @@ ms.locfileid: "8860119"
 - Финансовые аналитики должны быть настроены для справочника, например клиента и поставщика. Когда клиент добавляется в предложение с расценками или заказ на продажу, финансовые аналитики, связанные с записью клиента, автоматически перетекают в заказ. В настоящее время двойная запись не включает данные финансовых аналитик для справочника.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879814"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111981"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Настройка двойной записи из Lifecycle Services
 
@@ -53,7 +53,7 @@ ms.locfileid: "8879814"
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Связать со средой Power Platform.":::
 
-8. После завершения связывания отображается гиперссылка. Используйте ссылку для входа в область администрирования двойной записи в среде Финансы и операции. Отсюда можно настроить сопоставления сущностей.
+8. После завершения связывания отображается гиперссылка. Используйте ссылку для входа в область администрирования двойной записи в среде управления финансами и операциями. Отсюда можно настроить сопоставления сущностей.
 
 ## <a name="linking-mismatch"></a>Несоответствие ссылок
 
@@ -71,3 +71,4 @@ ms.locfileid: "8879814"
 В прошлом был доступен ручной параметр "запрос в службу поддержки", но он был до появления параметра 1 выше.  Корпорация Microsoft больше не поддерживает повторную компоновку запросов вручную через билеты поддержки.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308dd4fc75ab656359e80b518cec00fc74d42ea6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a139134fe5122e29b7087bca5ff2ee998fd4669
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852966"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (14 мая 2020 г.)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8852966"
 
 ## <a name="platform-changes"></a>Изменения платформы
 
-Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений для Финансы и операции (май 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
+Изменения платформы включены в выпуск данной недели. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.10 приложений для управления финансами и операциями (май 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). В состав данного выпуска входят исправления ошибок и изменения в сохраненных представлениях.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Убедитесь, что списки выбора Dataverse соответствуют перечислениям Отпуск (436343)
 

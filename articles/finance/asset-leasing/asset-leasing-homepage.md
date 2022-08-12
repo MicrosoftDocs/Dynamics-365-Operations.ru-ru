@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa27e20bc0c0ff5c639dfb2d079adef8926f535f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889159"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069358"
 ---
 # <a name="asset-leasing-home-page"></a>Домашняя страница аренды активов
 
@@ -90,7 +90,7 @@ ms.locfileid: "8889159"
 
 ### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+Мнения, новости и другую информацию см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в приложениях для управления финансами и операциями Microsoft Dynamics 365](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в Dynamics 365.
 
@@ -100,3 +100,4 @@ ms.locfileid: "8889159"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

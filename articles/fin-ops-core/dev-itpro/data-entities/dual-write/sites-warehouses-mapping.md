@@ -1,6 +1,6 @@
 ---
 title: Интегрированные объекты и склады
-description: Эта статья описывает интеграцию данных сайтов и складов между Finance and Operations и Dataverse.
+description: Эта статья описывает интеграцию данных сайтов и складов между приложениями для управления финансами и операциями и Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e9940000f53119d9eb5a877005ab7a8abac1577
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852608"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111641"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Интегрированные объекты и склады
 
@@ -22,7 +22,7 @@ ms.locfileid: "8852608"
 
 
 
-Эта статья описывает интеграцию данных сайтов и складов между Finance and Operations и Dataverse. Операционные сайты и склады являются общими концепциями в приложении Supply Chain Management. Они используются для моделирования цепочки поставок компании.
+Эта статья описывает интеграцию данных сайтов и складов между приложениями для управления финансами и операциями и Dataverse. Операционные сайты и склады являются общими концепциями в приложении Supply Chain Management. Они используются для моделирования цепочки поставок компании.
 
 ## <a name="templates"></a>Шаблоны
 
@@ -34,3 +34,4 @@ ms.locfileid: "8852608"
 [Склады](mapping-reference.md#204) | msdyn_warehouses | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

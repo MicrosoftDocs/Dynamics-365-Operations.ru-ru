@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907126"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065879"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Импорт входящих ASN с помощью информационного объекта V3
 
@@ -29,7 +29,7 @@ ASN могут помочь работникам склада узнать, чт
 В этой статье представлена коллекция сценариев, демонстрирующих примеры работы с файлами ASN.
 
 > [!IMPORTANT]
-> Импорт *Входящий ASN* применяется только к товарам, которые включены для расширенного управления складом (WMS). Перед получением ASN, заказ на покупку должен быть зарегистрирован в системе для поставщика, который отправляет этот ASN.
+> Импорт *Входящий ASN* применяется только к товарам, которые включены для процессов управления складом (WMS). Перед получением ASN, заказ на покупку должен быть зарегистрирован в системе для поставщика, который отправляет этот ASN.
 
 ## <a name="inbound-asn-v3-entity"></a>Сущность входящего ASN V3
 

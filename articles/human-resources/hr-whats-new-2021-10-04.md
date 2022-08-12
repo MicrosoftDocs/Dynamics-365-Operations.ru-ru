@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc8cd8616f1b82258fccbb2b41d5e72a90aaed63
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba24afd16a471abb36a6f7bc9a8610acec374190
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067982"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Что нового и что изменилось в Dynamics 365 Human Resources 5 октября 2021 г.
 
@@ -98,3 +98,4 @@ ms.locfileid: "8845122"
 [Управление функциями](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

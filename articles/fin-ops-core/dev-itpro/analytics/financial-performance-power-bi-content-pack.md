@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910425"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109561"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Решение PowerBI.com "Результаты финансовой деятельности"
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Это решение PowerBI.com является устаревшим, как описано в разделе [Удаленные или устаревшие функции для Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Это решение PowerBI.com является устаревшим, как описано в разделе [Удаленные или устаревшие функции для приложений для управления финансами и операциями](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 В этой статье описывается решение PowerBI.com **Результаты финансовой деятельности**. В нем описываются включенные панель мониторинга и отчеты и предоставляется информация о модели данных и объектах, которые использовались для построения решения.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846664"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068933"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции в Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ ms.locfileid: "8846664"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании. 
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Финансы и операции можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Финансы и операции.
+> Подробные сведения об объектах в приложениях для управления финансами и операциями можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений для управления финансами и операциями.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.26
 
@@ -218,3 +218,4 @@ ms.locfileid: "8846664"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

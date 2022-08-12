@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856928"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123959"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенный синтаксис фильтрации и запросов
 
@@ -122,9 +122,9 @@ ms.locfileid: "8856928"
 <td>Две последовательные двойные кавычки (<strong>""</strong>) ищут строки без значения для текущего столбца.</td>
 </tr>
 <tr>
-<td>(<span class="code">Запрос Финансы и операции</span>) (Запрос Финансы и операции между скобками)</td>
+<td>(<span class="code">Запрос для управления финансами и операциями</span>) (Запрос для управления финансами и операциями между скобками)</td>
 <td>Поиск согласно введенному запросу</td>
-<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Финансы и операции.</td>
+<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов для управления финансами и операциями.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        как пример синтаксиса для условия фильтра по полю из корневого источника данных, а также по полю из другого источника данных (для страницы "Все клиенты")</td>
 </tr>

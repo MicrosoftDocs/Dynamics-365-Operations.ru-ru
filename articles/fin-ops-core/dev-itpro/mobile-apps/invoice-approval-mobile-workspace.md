@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868679"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066401"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Мобильная рабочая область "Утверждения накладных"
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868679"
 
 В этой статье содержится информация о мобильной рабочей области **Утверждения накладных**. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика. 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением для управления финансами и операциями.
 
 ## <a name="overview"></a>Обзор
 
@@ -61,7 +61,7 @@ ms.locfileid: "8868679"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Finance and Operations:
+Загрузите и установите мобильное приложение для управления финансами и операциями:
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ ms.locfileid: "8868679"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

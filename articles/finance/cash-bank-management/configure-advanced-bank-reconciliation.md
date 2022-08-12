@@ -1,7 +1,7 @@
 ---
 title: Процесс настройки расширенной банковской выверки
 description: Расширенная банковская выверка позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 Finance. В этой статье объясняется, как настроить процессы выверки.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f000b689f55b8155a7c7372c780800122f762b40
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 0a155174ad3bb815b4f0e6f7ffd893ebf7792bd8
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712519"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151891"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Процесс настройки расширенной банковской выверки
 

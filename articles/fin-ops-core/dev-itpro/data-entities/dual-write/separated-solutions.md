@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874822"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111671"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Разделенный пакет оркестрации приложений с двойной записью
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874822"
 Ранее в составе единого пакета оркестрации приложений с двойной записью был один пакет, содержащий следующие решения:
 
 - Заметки Dynamics 365
-- Общая привязка Dynamics 365 Finance and Operations
-- Сопоставления сущностей с двойной записью Dynamics 365 Finance and Operations
+- Общая привязка Dynamics 365 для управления финансами и операциями
+- Сопоставления сущностей с двойной записью Dynamics 365 для управления финансами и операциями
 - Приложение управления активами Dynamics 365
 - Управление активами Dynamics 365
 - Общие HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Общие функции Dynamics 365 для управления финансами и операциями
 - Компания Dynamics 365
 - Валютные курсы
 - Field Service Common
@@ -247,7 +247,7 @@ ms.locfileid: "8874822"
 
 Следующие сопоставления доступны в этом пакете.
 
-| Finance and Operations                     | Customer Engagement |
+| Финансы и операции                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Вложения документа заголовка заказа на продажу    | аннотации         |
 | Вложения клиента                       | аннотации         |
@@ -344,3 +344,4 @@ Project Operations зависит от следующих пакетов. Поэ
 - Пакет базовых приложений с двойной записью
 - Пакет Finance с двойной записью
 - Пакет Supply Chain с двойной записью
+

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849513"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124801"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.22 (ноябрь 2021 г.)
 
@@ -58,9 +58,9 @@ ms.locfileid: "8849513"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для управления финансами и операциями
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.22 приложений для финансов и операций (ноябрь 2021 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.22 приложений для управления финансами и операциями (ноябрь 2021 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -84,3 +84,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.22 включает обно
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

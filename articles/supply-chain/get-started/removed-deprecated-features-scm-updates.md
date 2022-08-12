@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865276"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171526"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "8865276"
 Этот список поможет вам учитывать эти удаления и устаревания при своем собственном планировании.
 
 > [!NOTE]
-> Подробные сведения об объектах в приложениях Финансы и операции можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Финансы и операции.
+> Подробные сведения об объектах в приложениях для управления финансами и операциями можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений для управления финансами и операциями.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.19
@@ -48,11 +48,11 @@ ms.locfileid: "8865276"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.18
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Warehousing (приложение для склада)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a>Supply Chain Management - Warehousing (складское приложение)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Причина устаревания/удаления** | Начиная с апреля 2021 года *Dynamics 365 for Finance and Operations - Warehousing* (приложение для склада) устарело и не будет поддерживаться после апреля 2022 года. Теперь оно заменено *мобильным приложением управления складом*, которое было выпущено с версией 10.0.17 Supply Chain Management. Новое приложение является полной заменой, но использует ту же самую базовую платформу, что делает миграцию простой. Если необходимо, два приложения могут использоваться параллельно, чтобы пользователи постепенно привыкали в процессе обучения использованию нового приложения.<br><br>Дополнительные сведения о том, как настроить новое мобильное приложение управления складом, см. в темах [Мобильное приложение управления складом](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) и [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md). |
+| **Причина устаревания/удаления** | Начиная с апреля 2021 года приложение *Supply Chain Management - Warehousing* (приложение для склада) устарело и не будет поддерживаться после апреля 2022 года. Теперь оно заменено *мобильным приложением управления складом*, которое было выпущено с версией 10.0.17 Supply Chain Management. Новое приложение является полной заменой, но использует ту же самую базовую платформу, что делает миграцию простой. Если необходимо, два приложения могут использоваться параллельно, чтобы пользователи постепенно привыкали в процессе обучения использованию нового приложения.<br><br>Дополнительные сведения о том, как настроить новое мобильное приложение управления складом, см. в темах [Мобильное приложение управления складом](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) и [Установка и подключение мобильного приложения управления складом](../warehousing/install-configure-warehouse-management-app.md). |
 | **Заменена другой функцией?**   | Да, заменено новым мобильным приложением управления складом. |
 | **Затрагиваемые области продукта**         | Приложение Supply Chain Management - warehouse |
 | **Вариант развертывания**              | Облачное и локальное |
@@ -98,3 +98,4 @@ ms.locfileid: "8865276"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

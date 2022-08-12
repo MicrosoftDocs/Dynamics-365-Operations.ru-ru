@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852370"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065535"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Стратегия поиска решения для конфигурации продукта
 
@@ -29,7 +29,7 @@ ms.locfileid: "8852370"
 
 В этой статье описывается, как можно использовать стратегию поиска решения для повышения производительности конфигурации продукта.
 
-Понятие стратегий поиска решения была введена в накопительном обновлении 7 (CU7) для Microsoft Dynamics AX 2012 R2. Она была расширена в накопительном обновлении 8 (CU8) для Microsoft Dynamics AX 2012 R3 и Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
+Понятие стратегий поиска решения была введена в накопительном обновлении 7 (CU7) для Microsoft Dynamics AX 2012 R2. Она была расширена в накопительном обновлении 8 (CU8) для Microsoft Dynamics AX 2012 R3 и приложений для управления финансами и операциями, Enterprise Edition 7.3.
 
 Понятие стратегии поиска решения теперь состоит из следующих стратегий:
 

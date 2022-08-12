@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851662"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112161"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Мобильная рабочая область совместной работы с поставщиками
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851662"
 
 В этой статье содержится информация о мобильной рабочей области **Совместная работа с поставщиками**. Эта рабочая область помогает вашим поставщикам быть в курсе заказов на покупку, отправленных им на утверждение. Они также могут просмотреть сведения о новых и обновленных заказах на покупку и контактах.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением "Финансы и операции" (Dynamics 365).
+Эту мобильную рабочую область можно использовать с мобильным приложением для управления финансами и операциями (Dynamics 365).
 
 ## <a name="overview"></a>Обзор 
 Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли видеть заказы на покупку в веб-клиенте и реагировать на эти заказы. 
@@ -110,7 +110,7 @@ ms.locfileid: "8851662"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Finance and Operations (Dynamics 365):
+Загрузите и установите мобильное приложение для управления финансами и операциями (Dynamics 365):
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ ms.locfileid: "8851662"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

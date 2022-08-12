@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868708"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068210"
 ---
 # <a name="my-team-mobile-workspace"></a>Мобильная рабочая область «Моя группа»
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868708"
 
 В этой статье содержится информация о мобильной рабочей области **Моя группа**. Эта рабочая область позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Они могут также отсылать благодарности лицам в рамках цепи их отчетности.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением для управления финансами и операциями.
 
 ## <a name="overview"></a>Обзор 
 Мобильная рабочая область **Моя группа** позволяет менеджерам выполнять следующие задачи:
@@ -50,12 +50,12 @@ ms.locfileid: "8868708"
 <tbody>
 <tr class="odd">
 <td>Один из следующих продуктов должен быть развернут в вашей организации:
-<ul><li>Приложение Finance and Operations</li>
+<ul><li>Приложение для управления финансами и операциями</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
+<td>Если в вашей организации еще не развернуто приложение для управления финансами и операциями, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ ms.locfileid: "8868708"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Finance and Operations:
+Загрузите и установите мобильное приложение для управления финансами и операциями:
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ ms.locfileid: "8868708"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Удаление экземпляра
-description: В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
+description: В этой статье описывается процесс удаления тестовой или рабочей среды для Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859643"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178483"
 ---
 # <a name="remove-an-instance"></a>Удаление экземпляра
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Применимо к:** Human Resources в изолированной инфраструктуре_ 
+
+> [!NOTE]
+> Начиная с июля 2022 года новые среды Human Resources не могут быть подготовлены для автономной инфраструктуры Human Resources и в ней не могут быть созданы новые проекты Microsoft Dynamics Lifecycle Services (LCS). Клиенты могут развертывать среды Human Resources в инфраструктуре для управления финансами и операциями. Дополнительные сведения см. в разделе [Подготовка Human Resources к работе в инфраструктуре приложений для управления финансами и операциями](/hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Инфраструктура приложений для управления финансами и операциями поддерживают удаление среды. Дополнительные сведения о порядке удаления среды см. в разделе [Удаление среды](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 В этой статье содержится описание процесса удаления тестовой или рабочей среды для Microsoft Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ ms.locfileid: "8859643"
 
 В этой статье предполагается, что вы приобрели Human Resources в соответствии с соглашением поставщика облачных решений (CSP) или архитектуры предприятия (EA). 
 
-Так как в одна среда Human Resources содержится в одной среде Power Apps, существуют две возможности. Первый вариант включает в себя удаление всей среды Power Apps; второй вариант включает в себя удаление только Human Resources. Первый вариант предпочтителен, если среда Power Apps была создана специально в целях подготовки Human Resources, и вы только начали реализацию или не имеете никаких установленных интеграций. Второй вариант подходит при наличии установившейся среды Power Apps, заполненной богатыми данными, которое используются в Power Apps и Power Automate.
+Поскольку одна среда Human Resources содержится в одной среде Power Apps, существуют две возможности, которые требуется учитывать при удалении среды: 
+- **Удаление всей среды Power Apps.** Этот вариант предпочтителен, если среда Power Apps была создана в целях подготовки Human Resources, реализация только начата или вы не имеете никаких установленных интеграций.  
+- **Удаление только Human Resources.** Этот вариант подходит при наличии установившейся среды Power Apps, заполненной данными, которое используются в Microsoft Power Apps и Power Automate.
+
 
 > [!Important]
-> Перед удалением среды Power Apps убедитесь, что она не используется для интеграции богатых данных вне Human Resources. Также обратите внимание, что удаление сред Power Apps по умолчанию невозможно. 
+> Перед удалением среды Power Apps убедитесь, что она не используется для интеграции данных вне Human Resources. Также обратите внимание, что удаление сред Power Apps по умолчанию невозможно. 
 
 Чтобы удалить всю среду Power Apps, включая Human Resources и связанные приложения и потоки:
 
@@ -73,7 +82,7 @@ ms.locfileid: "8859643"
 
 ## <a name="recover-a-soft-deleted-environment"></a>Восстановление среды с мягким удалением
 
-При удалении среды Power Apps, к которой подключена среда Human Resources, статус среды Human Resources в Lifecycle Services будет **мягко удален**. В этом случае пользователи не смогут подключаться к Human Resources.
+При удалении среды Power Apps, к которой подключена среда Human Resources, статус среды Human Resources в LCS будет **мягко удален**. В этом случае пользователи не смогут подключаться к Human Resources.
 
 Чтобы восстановить среду:
 

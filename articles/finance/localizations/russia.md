@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7e85dd693680b36f2f67d9de59c9992dfb497a73
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1123533e1f20cd90df8ca4d8622ccf41db6ddd2d
+ms.sourcegitcommit: ccaeb71c49cd15be472a3fb1c55fc655e133dc29
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886239"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "9127712"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -55,6 +55,7 @@ ms.locfileid: "8886239"
 - [Продажа, покупка и переводы иностранной валюты](rus-currency-sale-purchase.md)
 - [Кассовые операции](emea-petty-cash.md)
 - [Касса — местные первичные формы и унифицированные отчеты](rus-local-primary-forms-and-unified-reports.md)
+- [Интерфейс "клиент-банк" и процедура выверки](rus-client-bank-export.md)
 
 ## <a name="vat"></a>НДС
 

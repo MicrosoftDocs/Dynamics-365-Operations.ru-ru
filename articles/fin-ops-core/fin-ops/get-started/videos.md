@@ -1,6 +1,6 @@
 ---
 title: Видео
-description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями Finance and Operations, которые доступны на YouTube и других сайтах.
+description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями для управления финансами и операциями, которые доступны на YouTube и других сайтах.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958148"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124965"
 ---
 # <a name="videos"></a>Видео 
 
 [!include [banner](../includes/banner.md)]
 
-На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданные корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами по приложениям Finance and Operations, которые размещены на канале.
+На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданные корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами по приложениям для управления финансами и операциями, которые размещены на канале.
 
 > [!Note]
 > Некоторые из перечисленных видео были опубликованы под названием предыдущего продукта, но они все еще применимы.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Видео по разработке и администрированию Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Видео по разработке и администрированию приложений для управления финансами и операциями
 
 ### <a name="data-integration"></a>Интеграция данных
 
-- [Синхронизация заказа на выполнение работ между Dynamics 365 for Field Service и приложениями Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Синхронизация заказа на работу между Dynamics 365 for Field Service и приложениями для управления финансами и операциями](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Управление данными
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958148"
 ### <a name="intelligence"></a>Бизнес-аналитика
 
 - [Как изменить внедренный отчет в аналитической рабочей области](https://youtu.be/_8WlwmSggcQ)
-- [Как внедрить отчеты PowerBI.com в приложения Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Использование своей собственной базы данных (BYOD) в приложениях Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Как внедрить отчеты PowerBI.com в приложения для управления финансами и операциями](https://youtu.be/gGWuNJDoi-M)
+- [Использование своей собственной базы данных (BYOD) в приложениях для управления финансами и операциями](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Как использовать содержимое Power BI для управления затратами в Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958148"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

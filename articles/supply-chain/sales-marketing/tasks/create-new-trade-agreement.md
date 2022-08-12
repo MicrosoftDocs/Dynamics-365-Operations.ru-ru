@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 24290ec873da9e871c001bcdc97e14dcad0e3d1e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573425"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111118"
 ---
 # <a name="create-a-new-trade-agreement"></a>Создание нового коммерческого соглашения
 
@@ -78,7 +78,7 @@ ms.locfileid: "7573425"
 
 ### <a name="community-blogs"></a>Блоги сообщества
 
-- [Цены продажи в Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+- [Цены продажи в приложениях для управления финансами и операциями](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

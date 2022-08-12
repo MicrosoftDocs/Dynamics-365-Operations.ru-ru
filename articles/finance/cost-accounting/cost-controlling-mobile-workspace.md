@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874677"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069574"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Мобильная рабочая область управления затратами
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874677"
 
 В этой статье содержится информация о мобильной рабочей области **Управление затратами**. Эта рабочая область позволяет менеджерам центра затрат просматривать сведения о производительности центра затрат в любое время и в любом месте.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением "Финансы и операции" (Dynamics 365).
+Эту мобильную рабочую область можно использовать с мобильным приложением для управления финансами и операциями (Dynamics 365).
 
 ## <a name="overview"></a>Обзор
 Мобильная рабочая область **Управление затратами** обеспечивает мгновенное отображение текущей производительности центров затрат путем сравнения фактических затрат с бюджетными затратами. Можно выполнить детализацию до статуса отдельных элементов затрат.
@@ -114,7 +114,7 @@ ms.locfileid: "8874677"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
-Загрузите и установите мобильное приложение Finance and Operations (Dynamics 365):
+Загрузите и установите мобильное приложение для управления финансами и операциями (Dynamics 365):
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -146,3 +146,4 @@ ms.locfileid: "8874677"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

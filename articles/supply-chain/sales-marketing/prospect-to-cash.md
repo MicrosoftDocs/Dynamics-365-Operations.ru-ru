@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857238"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103605"
 ---
 # <a name="prospect-to-cash"></a>Продажа перспективному клиенту
 
@@ -43,13 +43,13 @@ ms.locfileid: "8857238"
 ## <a name="system-requirements-for-supply-chain-management"></a>Требования к системе для Supply Chain Management
 Интеграция решения "Перспективный клиент в наличные деньги" поддерживается в следующих версиях:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (декабрь 2017 г.)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 для управления финансами и операциями, Enterprise Edition 7.3 (декабрь 2017 г.)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (декабрь 2017 г.) — сборка приложения 7.3.11971.56116 с обновлением платформы 12 (7.0.4709.41129)
+- Dynamics 365 для управления финансами и операциями, Enterprise Edition (декабрь 2017 г.) — сборка приложения 7.3.11971.56116 с обновлением платформы 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (июль 2017 г.)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise edition (июль 2017 г.)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (июль 2017 г.) — с обновлением платформы 8 (сборка приложения 7.2.11792.56024 со сборкой платформы 7.0.4565.16212).
+- Dynamics 365 для управления финансами и операциями, Enterprise Edition (июль 2017 г.) — с обновлением платформы 8 (сборка приложения 7.2.11792.56024 со сборкой платформы 7.0.4565.16212).
 - Следующие исправления являются обязательными:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** — это исправление делает возможным синхронизацию заказов на продажу из Sales в Supply Chain Management с помощью компонента интеграции данных. Оно также предоставляет несколько других улучшений.
@@ -59,9 +59,9 @@ ms.locfileid: "8857238"
     > [!NOTE]
     > Достаточно установить только KB4045570, потому что в пакет установки входят изменения из других исправлений. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations версии 1611 (ноябрь 2016 г.)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 для управления финансами и операциями версии 1611 (ноябрь 2016 г.)
 
-- Dynamics 365 for Finance and Operations версии 1611 (ноябрь 2016 г.) с обновлением платформы 8 или выше
+- Dynamics 365 для управления финансами и операциями, версия 1611 (ноябрь 2016 г.) с обновлением платформы 8 или выше
 
 - Следующие исправления являются обязательными:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872509"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070675"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Шаблоны бюджетного планирования для Excel
 
@@ -79,7 +79,7 @@ ms.locfileid: "8872509"
 [![Добавление и вставка столбца.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Чтобы определить формулу, создайте формулу в электронной таблице и скопируйте ее в окно **Дизайн**. Связанная таблица Finance and Operations обычно называется "AXTable1". Например, чтобы просуммировать столбцы "Запрос Q1": "Запрос Q4" в электронной таблице, формула = AxTable1\[Запрос Q1\]+AxTable1\[Запрос Q2\]+AxTable1\[Запрос Q3\]+AxTable1\[Запрос Q4\].
+> Чтобы определить формулу, создайте формулу в электронной таблице и скопируйте ее в окно **Дизайн**. Связанная таблица для управления финансами и операциями обычно называется "AXTable1". Например, чтобы просуммировать столбцы "Запрос Q1": "Запрос Q4" в электронной таблице, формула = AxTable1\[Запрос Q1\]+AxTable1\[Запрос Q2\]+AxTable1\[Запрос Q3\]+AxTable1\[Запрос Q4\].
 
 Повторите эти шаги, чтобы вставить столбец **Корректировка**. Для этого столбца используйте формулу = AxTable1\[Общий запрос\]\*$I$1. Эта формула берет значение из ячейки "I1" и умножает значения в столбце **Общий запрос** для расчета величин корректировки.
 
@@ -129,3 +129,4 @@ ms.locfileid: "8872509"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

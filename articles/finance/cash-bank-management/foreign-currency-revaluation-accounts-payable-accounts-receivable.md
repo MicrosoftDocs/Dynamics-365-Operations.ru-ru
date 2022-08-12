@@ -1,7 +1,7 @@
 ---
 title: Переоценка в валюте для расчетов с поставщиками и расчетов с клиентами
 description: В этой статье приводятся сведения о процессе переоценки в иностранной валюте, который можно использовать для обновления значения открытых проводок в расчетах с поставщиками и расчетах с клиентами.
-author: kweekley
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ffa4e1a02c84eda5f6710cb9049eab06955fac0
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906394"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151831"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Переоценка в валюте для расчетов с поставщиками и расчетов с клиентами
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713286"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123993"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -26,7 +26,7 @@ ms.locfileid: "8713286"
 
 Новые для Dynamics 365 Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce? Мы представляем пошаговое руководство для тех, кто оценивает покупку, и тех, кто уже готов совершить покупку.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Шаг один. Попробуйте Finance and Operations бесплатно в течение 30 дней
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Шаг один. Попробуйте приложения для управления финансами и операциями бесплатно в течение 30 дней
 
 Вы можете попробовать Dynamics 365 for Finance, Dynamics 365 Supply Chain Management или Dynamics 365 Commerce в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия приложений для управления финансами и операциями включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Сведения см. в разделе [Регистрация на подписки на предварительные версии](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
@@ -62,7 +62,7 @@ ms.locfileid: "8713286"
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Покупка у партнера Dynamics (локально)
 
-Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Покупка Finance + Operations (on-premises)](purchase-on-premises.md).
+Необходимо работать с партнером для покупки Finance + Operations (on-premises). Дополнительные сведения см. в разделе [Покупка Finance + Operations (on-premises)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Можно приобрести подписку через корпоративное лицензирование (в облаке или локально)
 
@@ -94,3 +94,4 @@ Microsoft FastTrack for Dynamics 365 — это служба успеха кли
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

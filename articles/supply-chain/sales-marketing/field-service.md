@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b0427d33ac39d34bccc302e58bb84e1ad4c3598c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12a9c57e2587150914c6087c041d63af9783c1f3
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888451"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103712"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Обзор интеграции с Microsoft Dynamics 365 Field Service
 
@@ -73,7 +73,7 @@ Supply Chain Management обеспечивает синхронизацию би
 ### <a name="system-requirements-for-supply-chain-management"></a>Требования к системе для Supply Chain Management
 Интеграция Field Service поддерживает следующие версии:
 
-- Версия 8.1.2 Dynamics 365 for Finance and Operations (декабрь 2018) была выпущена в декабре 2018 г. и имеет номер сборки приложения 8.1.195 с Platform update 22 (7.0.5095). 
+- Dynamics 365 для управления финансами и операциями версии 8.1.2 (декабрь 2018) выпущена в декабре 2018 и имеет номер сборки приложения 8.1.195 с обновлением платформы 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Системные требования для Field Service
 Чтобы использовать решение интеграции Field Service, вы должны установить следующие компоненты:

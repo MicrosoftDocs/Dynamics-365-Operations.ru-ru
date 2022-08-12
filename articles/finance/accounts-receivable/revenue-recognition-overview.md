@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888045"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067723"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор процедуры признания выручки
 
@@ -35,7 +35,7 @@ ms.locfileid: "8888045"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-Видео [Порядок признания выручки в Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (см. выше) можно найти в [плейлисте Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) доступном на YouTube.
+Видео [Порядок признания выручки в Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (см. выше) можно найти в [плейлисте по приложениям для управления финансами и операциями](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) доступном на YouTube.
 
 Функция признания выручки предоставляет гибкие возможности для определения правил определения цен и графиков для признания выручки, действующих на уровне компании.
 
@@ -53,3 +53,4 @@ ms.locfileid: "8888045"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

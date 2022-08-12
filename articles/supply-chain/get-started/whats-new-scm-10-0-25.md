@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954506"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167742"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022 г.)
 
@@ -36,8 +36,7 @@ ms.locfileid: "8954506"
 | Запасы&nbsp;и&nbsp;логистика | [Усовершенствования в работе с опасными материалами](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Скоро | Управление функциями:<br>*Усовершенствования в работе с опасными материалами* |
 | Запасы&nbsp;и&nbsp;логистика | [Работа упаковки для упаковочных станций](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Скоро | Управление функциями:<br>*Работа упаковки для упаковочных станций* |
 | Запасы&nbsp;и&nbsp;логистика | [Проверять штрих-коды на складе с помощью стандартов формата GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Штрих-коды и QR-коды GS1](../warehousing/gs1-barcodes.md) | Управление функциями:<br>*Сканирование штрих-кодов GS1* |
-| Производство | [Потребление материалов и резервирования в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*(Предварительная версия) Регистрация потребления материалов в интерфейсе выполнения производственного цеха (без службы управления рабочими процессами)*<br><br>И/или:<br><br>Управление функциями:<br>*(Предварительная версия) Зарегистрировать потребление материалов в интерфейсе выполнения производственного цеха (с поддержкой службы управления рабочими процессами)* |
-| Производство | [Регистрация потребления материалов в единицах масштабирования](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Производственные рабочие нагрузки для облачных и пограничных единиц масштабирования](../cloud-edge/cloud-edge-workload-manufacturing.md) | Управление функциями:<br>*Зарегистрировать потребление материалов в мобильном приложении в единице масштабирования* |
+| Производство | [Потребление материалов и резервирования в интерфейсе выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*Регистрация потребления материалов в интерфейсе выполнения производственного цеха (без службы управления рабочими процессами)*<br><br>И/или:<br><br>Управление функциями:<br>*(Предварительная версия) Зарегистрировать потребление материалов в интерфейсе выполнения производственного цеха (с поддержкой службы управления рабочими процессами)* |
 | Планирование | [Оптимизация планирования для централизованного ведения календаря](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Календари и сводное планирование](../master-planning/supply-chain-calendars-master-planning.md) | Включено по умолчанию |
 | Планирование | [Предложения оптимизации планирования для оптимизации существующих поставок](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Сообщения по действию](../master-planning/action-messages.md) | Включено по умолчанию |
 | Планирование | Упрощенные спланированные заказы | [Упрощенные спланированные заказы](../master-planning/planning-optimization/planned-orders-simplified.md ) | Управление функциями:<br>*Упрощенные спланированные заказы* |
@@ -183,9 +182,9 @@ ms.locfileid: "8954506"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для управления финансами и операциями
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.25 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.25 приложений для финансов и операций (апрель 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.25 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.25 приложений для управления финансами и операциями (апрель 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -209,3 +208,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.25 включает обно
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

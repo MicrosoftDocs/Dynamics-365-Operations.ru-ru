@@ -1,6 +1,6 @@
 ---
 title: Обзор помощника по оптимизации
-description: В этой статье описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации Finance and Operations.
+description: В этой статье описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации управления финансами и операциями.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865871"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109051"
 ---
 # <a name="optimization-advisor-overview"></a>Обзор помощника по оптимизации
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации Finance and Operations.
+В этой статье описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации управления финансами и операциями.
 
 ## <a name="overview"></a>Обзор
 
@@ -44,7 +44,7 @@ ms.locfileid: "8865871"
 
 При выполнении действия по некоторой возможности оптимизации система рассчитывает влияние возможности с точки зрения сокращения времени выполнения бизнес-процессов. К сожалению эта функция доступна не для всех возможностей оптимизации.
 
-Для получения дополнительных сведений о помощнике по оптимизации посмотрите короткое видео [Помощник по оптимизации в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Для получения дополнительных сведений о помощнике по оптимизации посмотрите короткое видео [Помощник по оптимизации в Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Правила оптимизации
 
@@ -90,7 +90,7 @@ ms.locfileid: "8865871"
 
 [Создание правил для помощника по оптимизации](./create-rules-optimization-advisor.md)
 
-[Помощник по оптимизации в Dynamics 365 for Finance and Operations (видео)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Помощник по оптимизации в Dynamics 365 Finance (видео)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

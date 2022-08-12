@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867283"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103949"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management и Commerce в облаке сообщества для государственных организаций (GCC) США
 
@@ -38,9 +38,9 @@ ms.locfileid: "8867283"
 
 ## <a name="environment-deployment"></a>Развертывание среды
 
-После выполнения проекта адаптации можно просмотреть дополнительные возможности LCS, описанные в разделе [Lifecycle Services (LCS) для клиентов приложений Финансы и операции](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Затем перейдите к развертыванию среды.
+После выполнения проекта адаптации можно просмотреть дополнительные возможности LCS, описанные в разделе [Lifecycle Services (LCS) для клиентов приложений для управления финансами и операциями](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Затем перейдите к развертыванию среды.
 
-- Чтобы развернуть управляемые корпорацией Майкрософт среды через службу LCS, следуйте указаниям в разделе [Lifecycle Services (LCS) для клиентов приложений Финансы и операции](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Чтобы развернуть управляемые корпорацией Майкрософт среды через службу LCS, следуйте указаниям в разделе [Lifecycle Services (LCS) для клиентов приложений для управления финансами и операциями](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Для сред, размещенных в облаке, см. раздел [Развертывание сред разработки и доступ к ним](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Также необходимо выполнить процесс адаптации Resource Manager для ваших соединителей, как описано в разделе [Завершение процесса адаптации Azure Resource Manager для проектов Lifecycle Services для государственных организаций США](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ ms.locfileid: "8867283"
 - [Обзор облачного развертывания](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870143"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068791"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Отчет о движении основных средств
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870143"
 
 Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Этот отчет доступен в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, или в качестве исправления для Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.). Три исправления должно применяться для сред, в которых установлена версия от июля 2017 г.:
+Этот отчет доступен в Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, или в качестве исправления для Microsoft Dynamics 365 Finance, Enterprise Edition (июль 2017 г.). Три исправления должно применяться для сред, в которых установлена версия от июля 2017 г.:
 
 - **KB 4041754:** конфигурацию электронной отчетности (ER) не удается загрузить из LCS как неприменимую для текущей версии после применения пакета обновления платформы
 - **KB 4056107:** накопительное обновление электронной отчетности (GER) номер 5
@@ -67,3 +67,4 @@ ms.locfileid: "8870143"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

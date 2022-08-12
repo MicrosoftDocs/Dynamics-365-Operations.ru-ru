@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879289"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067627"
 ---
 # <a name="integration-with-finance-faq"></a>Вопросы и ответы интеграции с Finance
 
@@ -88,7 +88,7 @@ ms.locfileid: "8879289"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Как можно настроить двунаправленную интеграцию?
 
-Нет, в настоящее время интеграция работает в одну сторону (из Human Resources в Финансы и операции). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
+Нет, в настоящее время интеграция работает в одну сторону (из Human Resources в управление финансами и операциями). Тем не менее, существует шаблон по умолчанию для отправки данных из Human Resources в Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Можно ли разрешить удаление записи как часть моей интеграции?
 
@@ -118,7 +118,7 @@ ms.locfileid: "8879289"
 
 - Передача данных привела к извлечению дублирующихся записей в источнике (Dataverse).
 
-- Перемещение данных содержит значения NULL для полей, которые необходимы в Finance and Operations. Проверьте данные в Dataverse и обеспечьте соответствие требованиям Finance and Operations.
+- Перемещение данных содержит значения NULL для полей, которые необходимы в управлении финансами и операциями. Проверьте данные в Dataverse и обеспечьте соответствие требованиям Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Если имеются ошибки выполнения и код сотрудника не синхронизируется, как найти старое задание, которое содержит сбойную запись сотрудника?
 
@@ -150,7 +150,7 @@ ms.locfileid: "8879289"
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Адреса моих сотрудников неправильные после импорта в Finance. Что делать?
 
-Номерная серия для параметра **Код местоположения** использует одинаковый шаблон в Human Resources и Finance. Номерная серия должна быть уникальной на обеих сторонах, поэтому нет конфликтов адресов при интеграции данных из Dataverse в Finance and Operations.
+Номерная серия для параметра **Код местоположения** использует одинаковый шаблон в Human Resources и Finance. Номерная серия должна быть уникальной на обеих сторонах, поэтому нет конфликтов адресов при интеграции данных из Dataverse в управление финансами и операциями.
 
 Во время реализации Human Resources убедитесь, что номерные серии не одинаковы в Human Resources и Finance. Проверьте, что все номерные серии не идентичны там, где данные могут поддерживаться в обеих системах.
 
@@ -184,3 +184,4 @@ ms.locfileid: "8879289"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

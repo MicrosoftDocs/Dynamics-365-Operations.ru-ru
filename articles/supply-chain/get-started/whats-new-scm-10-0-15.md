@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3141cea22b6ab80f36f5562fd450b0cd547d235d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b9f372cfd36dc0a764c1fa01be5fe59e088e4728
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879144"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124599"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.15 (январь 2021 г.)
 
@@ -57,9 +57,9 @@ ms.locfileid: "8879144"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для управления финансами и операциями
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.15 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.15 приложений для финансов и операций (октябрь 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.15 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.15 приложений для управления финансами и операциями (октябрь 2020 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-15.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 

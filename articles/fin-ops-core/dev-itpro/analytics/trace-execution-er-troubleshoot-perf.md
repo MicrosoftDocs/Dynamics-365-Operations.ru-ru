@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851961"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108867"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Трассировка выполнения форматов электронной отчетности для устранения проблем с производительностью
 
@@ -98,7 +98,7 @@ ms.locfileid: "8851961"
 
 Предположим, что вы завершили разработку первой версии решения ER. Теперь необходимо проверить его в своем экземпляре и проанализировать производительность выполнения.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Импорт конфигурации ER из службы RCS в Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Импорт конфигурации ER из службы RCS в финансы и операции
 
 1. Выполните вход в экземпляр приложения.
 2. В этом учебнике будут импортированы конфигурации из экземпляра RCS (где вы разрабатываете компоненты электронной отчетности) в ваш экземпляр (где они проверяются и затем используются). Поэтому необходимо убедиться, что все необходимые артефакты подготовлены. Инструкции см. в процедуре [Импорт конфигураций электронной отчетности из служб Regulatory Configuration Service (RCS)](rcs-download-configurations.md)
@@ -305,7 +305,7 @@ ms.locfileid: "8851961"
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Импорт измененной конфигурации сопоставления модели ER из RCS в приложение
 
-Повторите шаги из раздела [Импорт конфигурации ER из службы RCS в Finance and Operations](#import-configuration) выше в этой статье, чтобы импортировать версию 1.2 конфигурации **Сопоставление трассировки производительности**.
+Повторите шаги из раздела [Импорт конфигурации ER из службы RCS в финансы и операции](#import-configuration) выше в этой статье, чтобы импортировать версию 1.2 конфигурации **Сопоставление трассировки производительности**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Запуск измененного решения электронной отчетности для трассировки выполнения
 
@@ -363,7 +363,7 @@ ms.locfileid: "8851961"
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Использование внешних инструментов для просмотра трассировки выполнения, в которой имеются запросы базы данных
 
-Вследствие улучшений, сделанных в среде электронной отчетности, трассировка производительности, созданная в формате PerfView, сейчас предоставляет более подробные сведения о выполнении формата ER. В Microsoft Dynamics 365 for Finance and Operations версии 10.0.4 (июль 2019 г.) эта трассировка также может включать сведения о выполненных запросах SQL в базу данных приложения.
+Вследствие улучшений, сделанных в среде электронной отчетности, трассировка производительности, созданная в формате PerfView, сейчас предоставляет более подробные сведения о выполнении формата ER. В Microsoft Dynamics 365 Finance версии 10.0.4 (июль 2019 г.) эта трассировка также может включать сведения о выполненных запросах SQL в базу данных приложения.
 
 ### <a name="configure-user-parameters"></a>Настройка параметров пользователя
 
@@ -392,3 +392,4 @@ ms.locfileid: "8851961"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

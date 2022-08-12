@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860648"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068042"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Интеграция с системами управления производством независимых разработчиков
 
@@ -252,9 +252,10 @@ ms.locfileid: "8860648"
 В этих случаях можно воспользоваться преимуществом стандартной функции оповещения в модуле Supply Chain Management. Для получения сведений о том, как работают стандартные оповещения, см. в следующих ресурсах:
 
 - Статья справки: [Обзор оповещений](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- Видео: [Параметры правила оповещения в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- Видео: [Параметры правила генерации оповещений в приложениях для управления финансами и операциями](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Например, можно настроить следующие оповещения, чтобы отправить отзыв о состоянии сообщения:
 
 - Создание бизнес-события ("Послать извне"), которое используется, если сообщение находится в состоянии *Сбой*.
 - Отправьте уведомление и сообщение электронной почты ИТ-администратору или руководителю производственного цеха.
+

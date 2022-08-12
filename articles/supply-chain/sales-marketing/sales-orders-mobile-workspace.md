@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844774"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103191"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Мобильная рабочая область заказов на продажу
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844774"
 
 В этой статье содержится информация о мобильной рабочей области **Заказы на продажу**. Эта рабочая область помогает отслеживать заказы на продажу в любом месте и в любое время. 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением "Финансы и операции" (Dynamics 365).
+Эту мобильную рабочую область можно использовать с мобильным приложением для управления финансами и операциями (Dynamics 365).
 
 ## <a name="overview"></a>Обзор
 Мобильная рабочая область **Заказы на продажу** позволяет просмотреть подробные сведения по каждому заказу на продажу. Эти сведения включают статус заказа, контактную информацию для клиента и контактную информацию для приемщика заказа. Мобильная рабочая область **Заказы на продажу** обеспечивает мгновенный просмотр заказов на продажу. Можно просматривать все заказы на продажу, заказы на продажу по клиентам или сведения о конкретном заказе на продажу. 
@@ -118,7 +118,7 @@ ms.locfileid: "8844774"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
-Загрузите и установите мобильное приложение Finance and Operations (Dynamics 365):
+Загрузите и установите мобильное приложение для управления финансами и операциями (Dynamics 365):
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -143,3 +143,4 @@ ms.locfileid: "8844774"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

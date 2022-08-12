@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894753"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070611"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Создание конфигураций ER в Regulatory Configuration Service (RCS) и их загрузка в глобальный репозиторий
 
@@ -37,7 +37,7 @@ ms.locfileid: "8894753"
 
 Необходимо убедиться, что среда RCS подготовлена для вашей организации. Если не существует экземпляра RCS, подготовленного для вашей организации, можно сделать это, выполнив следующие действия:
 
-1. В приложении для финансов и операций перейдите к **Администрирование организации** \> **Рабочие области** \> **Электронная отчетность**.
+1. В приложении для управления финансами и операциями перейдите к **Администрирование организации** \> **Рабочие области** \> **Электронная отчетность**.
 2. В области **Связанные ссылки/внешние ссылки** выберите **Regulatory Services — конфигурация**, затем следуйте инструкциям, чтобы **Зарегистрироваться** для его подготовки.
 
 Если среда RCS уже подготовлена для вашей организации, воспользуйтесь URL-адресом страницы для доступа к ней и выберите параметр **вход**.
@@ -105,3 +105,4 @@ ms.locfileid: "8894753"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

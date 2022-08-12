@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1ea8f12102cc2fac1948027f7c15d45bf5d1b15d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e98b9d772c3b42162566fe666c3eeba5d1fb2392
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881561"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108997"
 ---
 # <a name="cfo-overview-power-bi-content"></a>Содержимое Power BI "Обзор финансового директора"
 
 [!include [banner](../includes/banner.md)] 
 
-В этой статье описывается содержимое Microsoft Power BI **Обзор финансового директора**. Это содержимое Power BI предназначено для пользователей Microsoft Dynamics 365 for Finance and Operations версии 7.2. Если используется версия 7.3 или новее, см. раздел [Финансовый анализ](financial-insights.md).
+В этой статье описывается содержимое Microsoft Power BI **Обзор финансового директора**. Это содержимое Power BI предназначено для пользователей Microsoft Dynamics 365 Finance версии 7.2. Если используется версия 7.3 или новее, см. раздел [Финансовый анализ](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 
@@ -44,3 +44,4 @@ ms.locfileid: "8881561"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

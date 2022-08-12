@@ -1,7 +1,7 @@
 ---
 title: Содержимое Power BI "Обзор кассы"
 description: В этой статье описывается содержимое Power BI "Обзор кассы". В ней описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
-author: panolte
+author: angelad116
 ms.date: 07/16/2020
 ms.topic: overview
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4f841ec5b17c2271010a95f45188832ee5917556
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a255afac3aa68f3a48b21e4d2fbfb046a9de603c
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910239"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9152010"
 ---
 # <a name="cash-overview-power-bi-content"></a>Содержимое Power BI "Обзор кассы"
 

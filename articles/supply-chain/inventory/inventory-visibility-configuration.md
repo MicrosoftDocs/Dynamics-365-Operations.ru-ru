@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895825"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066681"
 ---
 # <a name="configure-inventory-visibility"></a>Настройка Inventory Visibility
 
@@ -55,7 +55,7 @@ ms.locfileid: "8895825"
 | *OnHandMostSpecificBackgroundService* | Эта функция предоставляет сводку запасов для продуктов вместе со всеми аналитиками. Итоговые данные по запасам будут периодически синхронизироваться с видимость запасов. Для получения дополнительной информации см. раздел [Сводка запасов](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Эта необязательная функция позволяет использовать функции графика изменения запасов в наличии и доступности для заказа (ATP). Дополнительные сведения см. в разделе [График изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md). |
 | *Распределение* | Эта дополнительная функция позволяет видимости запасов иметь возможность защиты запасов (выделение на самостоятельный баланс) и управления избыточной продажей. Дополнительные сведения см. в разделе [Распределение запасов видимости запасов](inventory-visibility-allocation.md). |
-| *Включить складские номенклатуры в видимости запасов* | Эта необязательная функция обеспечивает возможность просмотра запасов для поддержки номенклатур, включенных в расширенные складские процессы (номенклатур WHS). Дополнительные сведения см. в разделе [Поддержка видимости запасов для номенклатур WHS](inventory-visibility-whs-support.md). |
+| *Включить складские номенклатуры в видимости запасов* | Эта необязательная функция обеспечивает возможность просмотра запасов для поддержки номенклатур, включенных в процессы управления складом (WMS). Дополнительные сведения см. в разделе [Поддержка видимости запасов для номенклатур WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Поиск конечной точки службы
 
@@ -809,3 +809,4 @@ ms.locfileid: "8895825"
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

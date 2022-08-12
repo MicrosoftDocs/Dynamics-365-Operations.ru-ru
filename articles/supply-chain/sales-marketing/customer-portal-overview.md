@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901918"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103841"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ ms.locfileid: "8901918"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения для финансов и операций](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
+Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения для управления финансами и операциями](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
 
 ## <a name="who-should-use-it"></a>Кто должен его использовать?
 
@@ -62,7 +62,7 @@ ms.locfileid: "8901918"
 
 [Порталы Power Apps](/powerapps/maker/portals/overview) — это функция, позволяющая пользователям создавать внешние веб-сайты, на которое могут входить пользователи, находящиеся за пределами организации. Для создания порталов практически не требуется программирования. Клиентский портал — это один из многих [шаблонов портала Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) от корпорации Майкрософт.
 
-[Двойная запись](/powerapps/maker/portals/overview) — это готовый инфраструктурный продукт, обеспечивающий взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями для финансов и операций. Двойная запись обеспечивает двунаправленную интеграцию между приложениями для финансов и операций и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
+[Двойная запись](/powerapps/maker/portals/overview) — это готовый инфраструктурный продукт, обеспечивающий взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями для управления финансами и операциями. Двойная запись обеспечивает двунаправленную интеграцию между приложениями для управления финансами и операциями и Microsoft Dataverse. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от таблиц, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих таблиц должна быть включена двойная запись.
 
 ![Зависимости клиентского портала.](media/customer-portal-elements.png "Зависимости клиентского портала")
 

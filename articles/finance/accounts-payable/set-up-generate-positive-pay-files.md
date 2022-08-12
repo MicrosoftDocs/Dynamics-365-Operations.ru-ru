@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d54e246b175c81b5d161ea35f141fc7dea9c6f1f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871430"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070735"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Настройка и создание файлов положительных платежей
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> Эта функция станет устаревшей в сентябре 2022 года, новые пользователи должны использовать электронную отчетность. Дополнительные сведения см. в разделе [Настройка файлов положительных платежей с помощью электронной отчетности](set-up-positive-pay-er.md).
 
 В этой статье описывается, как настроить положительный платеж и создавать файлы положительных платежей. 
 

@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954673"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9189002"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового и что изменилось в мобильном приложении Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 В этой статье перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Версия 2.0.30.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+
+- Улучшенная стабильность.
+
+## <a name="version-20280"></a>Версия 2.0.28.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+
+- Улучшенная стабильность.
+- Введена возможность продолжения сканирования даже в том случае, когда на экране отображается диалоговое окно сообщения об ошибке.
+- Добавлена поддержка ASCII 10 в штрихкодах.
+- Улучшены возможности использования диалогов инструкций к шагам.
+- Исправлена проблема, из-за которой иногда может отображаться пустой экран.
+- Исправлена проблема, из-за которой списки работ неправильно прокручиваются при работе в Microsoft Windows.
 
 ## <a name="version-20250"></a>Версия 2.0.25.0
 

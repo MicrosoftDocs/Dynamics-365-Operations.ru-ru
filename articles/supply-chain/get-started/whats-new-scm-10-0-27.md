@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: a50fcbe313901beab610400d8c59dd375f1af93e
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: ff92e6904b8042232159a0aea095d7a91c17d4b7
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022631"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124111"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.27 (июль 2022 г.)
 
@@ -66,9 +66,9 @@ ms.locfileid: "9022631"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для управления финансами и операциями
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.27 приложений для финансов и операций (июнь 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.27 приложений для управления финансами и операциями (июнь 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 
@@ -92,3 +92,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.27 включает обно
 Для критических изменений, которые влияют только на время компиляции, но являются двоично совместимыми с песочницей и производственными средами, время устаревания будет меньше 12 месяцев. Обычно это функциональные обновления, которые должны быть выполнены для компилятора.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905325"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112213"
 ---
 # <a name="integrated-vendor-master"></a>Интегрированный справочник поставщиков
 
@@ -37,7 +37,7 @@ ms.locfileid: "8905325"
 ![Поток расширенных данных поставщика.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Если порталы Power Apps используются для самообслуживания поставщиков, сведения о поставщике могут непосредственно поступать в приложения Финансы и операции.
+> Если порталы Power Apps используются для самообслуживания поставщиков, сведения о поставщике могут непосредственно поступать в приложения для управления финансами и операциями.
 
 ## <a name="templates"></a>Шаблоны
 
@@ -52,8 +52,9 @@ ms.locfileid: "8905325"
 [Строки графика платежей](mapping-reference.md#159) | msdyn_paymentschedulelines | Синхронизирует ссылочные данные строк графиков оплаты как для клиентов, так и для поставщиков.
 [График оплаты](mapping-reference.md#160) | msdyn_paymentschedules | Этот шаблон синхронизирует ссылочные данные графиков оплаты как для клиентов, так и для поставщиков.
 [Условия оплаты](mapping-reference.md#161) | msdyn_paymentterms | Этот шаблон синхронизирует ссылочные данные условий оплаты (условия оплаты) как для клиентов, так и для поставщиков.
-[Поставщики V2](mapping-reference.md#202) | msdyn_vendors | Компании, которые используют пользовательское решение для поставщиков, могут воспользоваться готовой концепцией поставщиков, которая вводится в Dataverse из-за интеграции с приложениями Finance and Operations.
+[Поставщики V2](mapping-reference.md#202) | msdyn_vendors | Компании, которые используют пользовательское решение для поставщиков, могут воспользоваться готовой концепцией поставщиков, которая вводится в Dataverse из-за интеграции с приложениями для управления финансами и операциями.
 [Группы поставщиков](mapping-reference.md#200) | msdyn_vendorgroups | Этот шаблон синхронизирует информацию о группах поставщиков.
 [Метод платежа поставщикам](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Этот шаблон синхронизирует информацию о способах оплаты поставщикам.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

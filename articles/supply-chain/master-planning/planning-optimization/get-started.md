@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900980"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112221"
 ---
 # <a name="get-started-with-planning-optimization"></a>Начало работы с оптимизацией планирования
 
@@ -40,7 +40,7 @@ ms.locfileid: "8900980"
 
 ## <a name="availability"></a>Доступность
 
-Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Бразилия", "Европа", "Соединенное Королевство", "Австралия", "Азиатско-Тихоокеанский регион", "Япония" и "Индия". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается. Дополнительные сведения о географических регионах Azure и соответствующих регионах см. в разделе [Географические регионы Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Оптимизация планирования в настоящее время доступна в следующих регионах Azure: "США", "Канада", "Бразилия", "Европа", "Франция", "Соединенное Королевство", "Австралия", "Азиатско-Тихоокеанский регион", "Япония" и "Индия". При попытке установить надстройку из другого региона LCS отобразит сообщение о том, что данный регион не поддерживается. Дополнительные сведения о географических регионах Azure и соответствующих регионах см. в разделе [Географические регионы Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Обратите внимание, что оптимизация планирования не поддерживает локальное развертывание Dynamics 365 Supply Chain Management.
 
@@ -135,3 +135,4 @@ ms.locfileid: "8900980"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
