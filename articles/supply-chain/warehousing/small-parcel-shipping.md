@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855913"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219729"
 ---
 # <a name="small-parcel-shipping"></a>Отгрузка небольших посылок
 
@@ -81,7 +81,7 @@ Supply Chain Management не включает какие-либо механиз
 
 ### <a name="make-demo-data-available"></a>Сделать демонстрационные данные доступными
 
-Для работы с этим сценарием с помощью демонстрационных записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
+Для работы с этим сценарием с помощью демонстрационных записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/fin-ops/get-started/demo-data.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
 
 ### <a name="set-up-the-scenario"></a>Настройка сценария
 

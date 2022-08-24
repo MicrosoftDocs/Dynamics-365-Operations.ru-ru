@@ -1,24 +1,24 @@
 ---
 title: Обработка и печать счетов-фактур
 description: В этой статье приводятся сведения о работе со счетами-фактурами.
-author: anasyash
+author: AdamTrukawka
 ms.date: 08/12/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 9889546601dbf58304f14fff68b7bbb209b731d3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: d9dae7132483e6a6f15a00e99a6867c3bd5c2252
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909982"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280640"
 ---
 # <a name="invoice-factures-processing-and-printing"></a>Обработка и печать счетов-фактур
 

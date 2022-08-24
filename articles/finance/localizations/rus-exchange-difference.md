@@ -1,7 +1,7 @@
 ---
 title: Настройка валютных курсов для проводок в валюте
 description: В этой статье объясняется, как настроить валютные курсы для проводок в валюте в России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6ee9bd470ead4f072e607f1f96bbc9320d9776c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d412f33059b5c4666a1be76a9e7206601de4f6ac
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906211"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267669"
 ---
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 

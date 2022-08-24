@@ -1,24 +1,24 @@
 ---
 title: Создание или генерация РБП (Россия)
 description: В этой статье объясняется, как вручную создавать расходы будущих периодов (РБП) и как их генерировать с помощью периодической задачи.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 129518f2891c33cf609300b068d0984223c70bfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 70089cc94e1e9261a7993e04f6b24472d364191c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868243"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284797"
 ---
 # <a name="create-or-generate-deferrals-russia"></a>Создание или генерация РБП (Россия)
 

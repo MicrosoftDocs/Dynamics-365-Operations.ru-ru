@@ -1,24 +1,24 @@
 ---
 title: Приход РБП
 description: В этой статье объясняется, как создавать и разносить проводки поступления для РБП, которые были созданы вручную. В нем также объясняется, как реверсировать проводки поступления.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 124f5a729ec3167f16c23d228e9223a2ae9fd41d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: c4cb1e9d75e688daf790c28d7baa8b9780e1c0fd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877879"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277162"
 ---
 # <a name="receipt-of-deferrals"></a>Поступление РБП
 

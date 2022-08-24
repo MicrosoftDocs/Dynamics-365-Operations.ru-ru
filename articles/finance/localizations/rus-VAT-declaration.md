@@ -1,24 +1,24 @@
 ---
 title: Декларация НДС (Россия)
 description: В этой статье содержится информация о декларации по НДС для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e3651d03617f26e782bbdee15e954e5db202e3d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: e85b7e68a02693c6a69f72f03e1aede97a1ca75f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896214"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274489"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 

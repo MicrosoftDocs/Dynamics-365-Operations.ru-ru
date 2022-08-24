@@ -1,25 +1,25 @@
 ---
 title: Применение параметров добавления продукта в корзину
-description: В этой статье описываются параметры добавления продукта в корзину, а также описывается, как их применять в Microsoft Dynamics 365 Commerce.
+description: В этой статье описываются параметры действия "Добавление продукта в корзину", а также рассказывается, как их применять в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 16644e6746d182cd86a40861c4e30a85a9d3d478
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866038"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277036"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Применение параметров добавления продукта в корзину
 

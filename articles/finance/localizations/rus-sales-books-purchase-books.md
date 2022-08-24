@@ -1,7 +1,7 @@
 ---
 title: Книги продаж, книги покупок и журналы счетов-фактур
 description: В этой статье представлена информация о книгах продаж, книгах покупок и журналах счетов-фактур для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e19155b3621b1093679cf474547f70a6edc237c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 31f00a31c7858ef7f09bf73bdb4ceeee60b6a5d1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848428"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283401"
 ---
 # <a name="sales-books-purchase-books-and-invoice-factures-journals"></a>Книги продаж, книги покупок и журналы счетов-фактур
 

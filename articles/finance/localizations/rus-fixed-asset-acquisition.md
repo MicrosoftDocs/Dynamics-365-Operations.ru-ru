@@ -1,24 +1,24 @@
 ---
 title: Приобретение ОС и их ввод в эксплуатацию (Россия)
 description: В этой статье содержится информация о приобретении основных средств для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 09/25/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RAssetTable, LedgerJournalTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e5c6d76d23cfd33bc2361ed8d5ae3d153819af82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: RAssetTable, LedgerJournalTable
+ms.openlocfilehash: bc693312851e493fcb0fe1bccc72ad48dc966a0d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874327"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268520"
 ---
 # <a name="acquiring-fixed-assets-and-putting-them-into-operation-russia"></a>Приобретение ОС и их ввод в эксплуатацию (Россия)
 

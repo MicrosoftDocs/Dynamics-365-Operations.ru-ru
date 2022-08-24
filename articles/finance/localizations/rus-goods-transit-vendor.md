@@ -1,24 +1,24 @@
 ---
 title: Товары в пути от поставщика
 description: В этой статье приводятся сведения о параметрах и действиях, которые необходимы для отчета "Акт инвентаризации товаров в пути (ИНВ-6)".
-author: anasyash
+author: AdamTrukawka
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 8.1.2
-ms.openlocfilehash: f19f6c69198ae8fbc957fb1173766e240950a1ac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: cdcaf1c20ed54c26f6a46e1c9c14cd6738bb9008
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883052"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292194"
 ---
 # <a name="goods-in-transit-from-vendor-russia"></a>Товары в пути от поставщика (Россия)
 

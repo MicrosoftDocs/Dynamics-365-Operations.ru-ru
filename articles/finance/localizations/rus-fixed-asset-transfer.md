@@ -1,7 +1,7 @@
 ---
 title: Перенос основных средств (Россия)
 description: В этой статье объясняется, как переместить основное средство в Microsoft Dynamics 365 Finance в России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d625daaa95a0072d2e691673379b9abec0824af7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 73fb79e4dd83cc77bd8a8058fda49a67c569df62
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893940"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270597"
 ---
 # <a name="transfer-fixed-assets-russia"></a>Перенос основных средств (Россия)
 

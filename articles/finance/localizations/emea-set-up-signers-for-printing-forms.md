@@ -1,24 +1,24 @@
 ---
 title: Настройка подписывающих лиц для печатных форм
 description: Для юридических лиц в Чехии, Эстонии, Венгрии, Литве, Латвии, Польше и России можно настроить подписывающих лиц и должности для клиентов и поставщиков, которые печатают документы, такие как накладные и кассовые ордера.
-author: ShylaThompson
+author: kfend
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 263464
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5e80699f3ac2faaf947e0ce93e9408e3d0811265ec70d41c2a8b93e0f0d358a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 263464
+ms.openlocfilehash: 343ae26a64c2058648af66c88bb6070fa0e35a05
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717457"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274536"
 ---
 # <a name="set-up-signers-for-print-forms"></a>Настройка подписывающих лиц для печатных форм
 

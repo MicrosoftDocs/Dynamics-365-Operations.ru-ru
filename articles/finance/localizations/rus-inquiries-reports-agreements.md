@@ -1,7 +1,7 @@
 ---
 title: Запросы и отчеты с договорами
 description: В этой статье представлены сведения о восстановлении ранее удержанных сумм НДС для основных средств.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5843588c933afcdc71ae42b307b897c8bb7abe67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cfba2e0cc68b34bd115165e9050a7661c002fad9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855251"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277151"
 ---
 # <a name="inquiries-and-reports-with-agreements"></a>Запросы и отчеты с договорами
 [!include [banner](../includes/banner.md)]

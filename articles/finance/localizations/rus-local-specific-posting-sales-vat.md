@@ -1,24 +1,24 @@
 ---
 title: Специфическая локальная разноска исходящего НДС
 description: В этой статье объясняются особые параметры для разноски проводок расчетов по налогу на добавленную стоимость (НДС) в соответствии с российским законодательством.
-author: anasyash
+author: AdamTrukawka
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0398a471a9f15a10bafa3eb078a21b3a1379aa00
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 735d9571ffd4d33f3abd53042fe35cf55141138d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899784"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286629"
 ---
 # <a name="local-specific-posting-of-sales-vat"></a>Специфическая локальная разноска исходящего НДС 
 

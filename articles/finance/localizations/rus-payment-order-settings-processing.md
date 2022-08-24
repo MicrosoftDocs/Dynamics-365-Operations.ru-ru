@@ -1,7 +1,7 @@
 ---
 title: Настройка и обработка платежных поручений для России
 description: В этой статье объясняется, как настраивать и обрабатывать платежные поручения для России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dcfcc5d0dbf847f2608ee40fb022c65fef7db06c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a3de9f5b6159e26577726a9f7ddfb2306a487afb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893928"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280628"
 ---
 # <a name="set-up-and-process-payment-orders-for-russia"></a>Настройка и обработка платежных поручений для России
 

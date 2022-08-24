@@ -1,26 +1,26 @@
 ---
 title: Авансовые отчеты с бюджетным контролем (Россия)
 description: В этой статье показано, как создавать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков.
-author: ShylaThompson
+author: mrolecki
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.region: Russia
+ms.author: mrolecki
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.0999999999999996
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Russia
-ms.author: roschlom
-ms.dyn365.ops.version: 8.0999999999999996
-ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: a4f05a0225376c4434dd86e80444d174790c1ca2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: f5fcc79e15f082f9bfb60960493e3cfaea3e7b8f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893937"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269329"
 ---
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 

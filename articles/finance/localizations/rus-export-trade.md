@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.search.industry: ''
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 690da40a06e576c6575ae342bc0ffb809562238f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.openlocfilehash: a7bf8682d066f47b1312bc78122bafe66a17bf97
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887831"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280643"
 ---
 # <a name="process-invoice-factures-for-export-trade"></a>Обработка счетов-фактур для экспортной торговли
 

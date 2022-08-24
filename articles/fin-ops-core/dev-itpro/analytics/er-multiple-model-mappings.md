@@ -1,24 +1,24 @@
 ---
 title: Управление несколькими производными сопоставлениями для одного корня модели
 description: В этой статье объясняется, как управлять несколькими производными сопоставлениями, которые были настроены для одного корня модели.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892489"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277519"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Управление несколькими производными сопоставлениями для одного корня модели
 
@@ -106,7 +106,7 @@ ms.locfileid: "8892489"
 3. В раскрывающемся диалоговом окне **Создание конфигурации** в поле **Создать** выберите **Производное от имени: сопоставление моделей накладных, Microsoft**.
 4. В поле **Имя** введите **Сопоставление моделей накладных Litware**.
 5. Выберите **Создать конфигурацию**.
-6. [Пометьте](er-quick-start2-customize-report.md#MarkFormatRunnable) [черновую](general-electronic-reporting.md#component-versioning) версию производного сопоставления как доступную для использования во время выполнения:
+6. [Пометьте](er-quick-start2-customize-report.md#MarkFormatRunnable) [черновую](general-electronic-reporting.md) версию производного сопоставления как доступную для использования во время выполнения:
 
     1. В области действий на вкладке **Конфигурации** в группе **Дополнительные параметры** выберите **Параметры пользователя**.
     2. В диалоговом окне **Параметры пользователя** установите для параметра **Параметры выполнения** значение **Да**, затем выберите **ОК**.

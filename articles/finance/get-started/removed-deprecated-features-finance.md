@@ -2,7 +2,7 @@
 title: Удаленные или устаревшие функции в Dynamics 365 Finance
 description: В этой статье описываются функции, которые были удалены или которые планируется удалить из Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068933"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219579"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции в Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ ms.locfileid: "9068933"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях для управления финансами и операциями можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений для управления финансами и операциями.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Заказы на перемещение запасов, включающие налог в трансферной цене
+
+[Заказы на перемещение запасов, включающие налог в трансферной цене](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Причина устаревания/удаления** | Замена на улучшенные функции; [Заказы на перемещение запасов для Индии](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта** | Приложение |
+| **Вариант развертывания** | Все |
+| **Состояние** | Устареет: после апреля 2023 года функция **Заказы на перемещение запасов, включающие налог в трансферной цене** больше не будет получать техническую поддержку с исправлениями ошибок и исправлениями системы безопасности. Клиентам будет предложено использовать улучшенные функции; [Заказы на перемещение запасов для Индии](../../finance/localizations/apac-ind-stock-transfer.md). После октября 2023 года функция **Заказы на перемещение запасов, включающие налог в трансферной цене** станет недоступна и клиентам будет предложено перейти к улучшенным функциям. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.26
 

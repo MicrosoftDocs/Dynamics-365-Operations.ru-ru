@@ -1,20 +1,20 @@
 ---
 title: Особенности оптимизации для поисковых систем (SEO) для сайта
 description: В этой статье рассматриваются вопросы оптимизации поисковых систем (SEO) для вашего сайта от его разработки до ввода в эксплуатацию.
-author: psimolin
+author: josaw1
 ms.date: 05/25/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 6747df3c56fb05248210f78ebf2176a56ce78329
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 77bbc04e849cf1cdeb7ce19226f43354635ddbe0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896909"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275628"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Особенности оптимизации для поисковых систем (SEO) для сайта
 

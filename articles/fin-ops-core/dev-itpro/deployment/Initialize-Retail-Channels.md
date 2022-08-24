@@ -2,21 +2,21 @@
 title: Инициализация Commerce Scale Unit (облако)
 description: В этой статье объясняется, как инициализировать Commerce Scale Unit (облако) в Microsoft Dynamics 365 Commerce.
 author: jashanno
-ms.date: 07/21/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
-ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
-ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
+ms.search.validFrom: 2018-04-30
+ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183374"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271526"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Инициализация Commerce Scale Unit (облако)
 

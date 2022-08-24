@@ -1,24 +1,24 @@
 ---
 title: Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 4. Выполнение формата)
 description: В этой статье описывается, как настроить формат электронной отчетности (ER) для выполнения инвентаризации и суммирования на основе уже созданных текстовых выходных данных. (Часть 4)
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 665f51b3c0b7dd4fac1ca26f6918ee1e6c9fa85a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
+ms.openlocfilehash: 7610e71346b57a7e624424418b22b40e51f9bb95
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848761"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290615"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 4. Выполнение формата)
 

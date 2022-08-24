@@ -1,24 +1,24 @@
 ---
 title: Электронная отчетность — Настройка мест назначений
 description: В этой процедуре показано, как настроить и использовать различные назначения для выходных компонентов электронной отчетности, например папки или файла.
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
+ms.openlocfilehash: 3c8d03e9783013183fbe76cb36014fa9e1e1cbed
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743271"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291065"
 ---
 # <a name="er-configure-destinations"></a>Электронная отчетность — Настройка мест назначений
 
@@ -26,7 +26,7 @@ ms.locfileid: "6743271"
 
 В этой процедуре показано, как настроить и использовать различные назначения для выходных компонентов электронной отчетности, например папки или файла. В качестве компании с демонстрационными данными для создания этой процедуры используется DEMF. Германия — это страна/регион основного адреса юридического лица, однако можно использовать любое юридическое лицо для этой процедуры. 
 
-Формат, используемый в этом примере, — перемещение кредита ISO20022, но можно использовать любой формат, который уже импортирован. Обратите внимание, что эта процедура является примером настройки одного файла и одного назначения. Дополнительные сведения об управлении назначением электронной отчетности см. на в справке Dynamics 365 Finance.
+Формат, используемый в этом примере, — перемещение кредита ISO20022, но можно использовать любой формат, который уже импортирован. Обратите внимание, что эта процедура является примером настройки одного файла и одного назначения. Дополнительные сведения об управлении назначением электронной отчетности см. в справке по Dynamics 365 Finance.
 
 1. Перейдите в раздел "Управление организацией" > "Электронная отчетность" > "Место назначения электронной отчетности".
 2. Нажмите кнопку "Создать", чтобы создать новый набор назначений для формата.

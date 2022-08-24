@@ -1,26 +1,26 @@
 ---
 title: Поддержка параметризованных вызовов моделей данных электронной отчетности
 description: В этой статье объясняется, как реализовать параметризованные вызовы моделей данных электронной отчетности (ER).
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884267"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275999"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Поддержка параметризованных вызовов моделей данных электронной отчетности
 
@@ -278,7 +278,7 @@ ms.locfileid: "8884267"
 
 1. Перейдите в раздел **Администрирование организации** \> **Электронная отчетность** \> **Конфигурации**.
 2. На странице **Конфигурации** в дереве конфигураций на левой панели выберите **Пример модели аудита**.
-3. На экспресс-вкладке **Версии** выберите версию **2** со статусом **[Черновик](general-electronic-reporting.md#component-versioning)**.
+3. На экспресс-вкладке **Версии** выберите версию **2** со статусом **Черновик**.
 4. Выберите экспресс-вкладку **Компоненты конфигурации**.
 5. Выберите **Конструктор**, чтобы открыть модель данных для редактирования.
 6. На странице **Модель данных** убедитесь, что выбрано поле `Root`, затем выберите **Создать**.

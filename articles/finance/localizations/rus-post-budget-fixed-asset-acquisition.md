@@ -1,24 +1,24 @@
 ---
 title: Создание и разноска журналов бюджета для приобретений ОС (Россия)
 description: В этой статье поясняется, как создать и разнести журнал бюджета для приобретения основных средств для России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BudgetModel
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 21abbebdfc38092f0a0842191b4a4d85aa050532
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: BudgetModel
+ms.openlocfilehash: fe35639cd4f31cbadcff899b5ff9265244de36bb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880584"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282973"
 ---
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 

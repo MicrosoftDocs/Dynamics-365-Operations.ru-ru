@@ -4,19 +4,19 @@ description: В этой статье описывается создание и
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895506"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220160"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Настройка названий шагов и инструкций для мобильного приложения Warehouse Management
 
@@ -30,10 +30,7 @@ ms.locfileid: "8895506"
 
 ## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Включите функцию указания шага приложения склада
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [Управление компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
-
-- **Модуль:** *Управление складом*
-- **Название функции:** *Инструкции шага приложения склада*
+Прежде чем использовать эту функцию, ее необходимо включить в системе. В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Инструкции для шагов приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Заголовки шагов и инструкции шагов в приложении
 

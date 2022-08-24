@@ -1,7 +1,7 @@
 ---
 title: Коды расходов и доходов
 description: В данной статье содержится информация о кодах расходов и доходов, доступных для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a6e59ebbd41ef1a5eaa07d136b63b2375c9fff5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 52ce6bf7045efb5b6c1ff2be31e1b9e3c3ae43f7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864135"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280646"
 ---
 # <a name="expense-and-income-codes"></a>Коды расходов и доходов
 [!include [banner](../includes/banner.md)]

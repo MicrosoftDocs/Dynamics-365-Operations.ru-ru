@@ -2,7 +2,7 @@
 title: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
 description: В этой статье описываются возможности, который удалены или которые планируется удалить в Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171526"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218817"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171526"
 > [!NOTE]
 > Подробные сведения об объектах в приложениях для управления финансами и операциями можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений для управления финансами и операциями.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Заказы на перемещение запасов, включающие налог в трансферной цене
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Причина устаревания/удаления** | Функция [Заказы на перемещение запасов, включающие налог в трансферной цене](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) будете заменена функцией [Заказы на перемещение запасов для Индии](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Заменена другой функцией?**   | Да, функция [Заказы на перемещение запасов, включающие налог в трансферной цене](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) будете заменена функцией [Заказы на перемещение запасов для Индии](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Затрагиваемые области продукта** | Supply Chain Management — запасы |
+| **Вариант развертывания** | Облачное и локальное |
+| **Состояние** | <p>Будет исключено. Функция *Заказы на перемещение запасов, включающие налог в трансферной цене* не будет получать техническую поддержку с исправлениями ошибок и исправлениями системы безопасности.</p><p>После апреля 2023 года клиентам будет предложено использовать улучшенную функцию *Заказы на перемещение запасов для Индии* по умолчанию. После октября 2023 года функция *Заказы на перемещение запасов, включающие налог в трансферной цене* станет недоступна и клиентам будет предложено перейти к улучшенной функции *Заказы на перемещение запасов для Индии*.</p><p>Дополнительные сведения см. в разделе [Заказы на перемещение запасов для Индии](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.19
 

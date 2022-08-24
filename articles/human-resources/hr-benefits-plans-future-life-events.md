@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888864"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227996"
 ---
 # <a name="configure-future-life-events"></a>Настройка событий будущего
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Можно планировать будущие жизненные события в Dynamics 365 Human Resources.
 
@@ -41,9 +42,10 @@ ms.locfileid: "8888864"
    | Идентификатор типа жизненного события | Уникальный код типа жизненного события. |
    | Тип жизненного события | Катализатор для обновления регистрации льгот сотрудника. Дополнительные сведения см. в разделе триггеров жизненных событий. |
    | Состояние | Обработано ли жизненное событие или нет. |
-   | Линейная | Номер строки будущего жизненного события. |
+   | Строка | Номер строки будущего жизненного события. |
 
 4. Нажмите **Сохранить**. 
 
+Будущие жизненные события можно удалять. Если удаляется обработанное будущее жизненное событие, будущая запись также удаляется. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

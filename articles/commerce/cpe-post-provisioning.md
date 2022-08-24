@@ -1,25 +1,25 @@
 ---
 title: Настройка среды песочницы Dynamics 365 Commerce
 description: В этой статье объясняется, как настроить среду песочницы Microsoft Dynamics 365 Commerce после ее предоставления.
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ae6a8c63721ac32f525e1846a10c0b2caeb08f9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013117"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270381"
 ---
 # <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Настройка среды песочницы Dynamics 365 Commerce
 

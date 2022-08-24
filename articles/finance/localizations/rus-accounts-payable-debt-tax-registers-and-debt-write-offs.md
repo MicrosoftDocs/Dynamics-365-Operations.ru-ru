@@ -1,7 +1,7 @@
 ---
 title: Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей
 description: В этой статье приводятся сведения о налоговых регистрах для задолженности по расчетам с поставщиками и о списании задолженностей.
-author: anasyash
+author: AdamTrukawka
 ms.date: 04/08/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d40e7e3694d6e1f0fdb34c4e7617bff259ae9cc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b8f696b73bcb85c00d0356d7391300473ea05725
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877882"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292209"
 ---
 # <a name="accounts-payable-debt-tax-registers-and-debt-write-offs"></a>Налоговые регистры для задолженности расчетов с поставщиками и списание задолженностей
 

@@ -1,27 +1,25 @@
 ---
 title: Обзор подотчетных лиц
 description: В этой статье представлены сведения о функциональности, относящейся к подотчетным лицам.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 09/15/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "262574"
-- intro-internal
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b514b7332a7ef73136c2f534c64db7c889f76f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 262574,  ""intro-internal
+ms.search.form: HcmWorkerAdvHolderTableListPage_RU
+ms.openlocfilehash: 4b4c28c342f82ecd265bc70a51b3aa88dc0d7038
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902370"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285768"
 ---
 # <a name="advance-holders-overview"></a>Обзор подотчетных лиц
 

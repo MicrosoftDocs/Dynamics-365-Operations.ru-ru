@@ -1,24 +1,24 @@
 ---
 title: Инвентаризация РБП (Россия)
 description: В этой статье описывается, как проводится инвентаризация расходов будущих периодов (РБП).
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 715e0a0d80f14a27e7487d509fb4f623756d50b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: f8226022ad0307b200c303a3b8b7ebeb96cad6ea
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864138"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274486"
 ---
 # <a name="deferrals-counting-russia"></a>Инвентаризация РБП (Россия)
 

@@ -1,24 +1,24 @@
 ---
 title: Создание отчета по операциям с отслеживаемыми товарами (Россия)
 description: В этой статье объясняется, как настроить и сформировать отчет об операциях, связанных с отслеживаемыми товарами.
-author: v-oskinaolga
+author: AdamTrukawka
 ms.date: 06/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventTrans, RAssettrans
 audience: Application User
 ms.reviewer: ''
 ms.search.region: Russia
-ms.author: v-olgaoskina
+ms.author: atrukawk
 ms.search.validFrom: 2022-06-04
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: d237925c2f9a83cbff1301e2db0e8ec4b683bd42
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.search.form: InventTrans, RAssettrans
+ms.openlocfilehash: a2ed0914ba26431c498c84a2a972ff7553f24286
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954737"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286979"
 ---
 # <a name="generate-a-traceable-goods-operation-report-russia"></a>Создание отчета по операциям с отслеживаемыми товарами (Россия)
 

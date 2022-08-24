@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 17e336fb059880e54a1cba7c0079e7452925c24d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893130"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220008"
 ---
 # <a name="zone-threshold-replenishment"></a>Пополнение порога зоны
 
@@ -262,7 +262,7 @@ ms.locfileid: "8893130"
 
 #### <a name="use-the-usmf-legal-entity"></a>Использование юридического лица USMF
 
-Для работы с этим сценарием с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
+Для работы с этим сценарием с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/fin-ops/get-started/demo-data.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
 
 #### <a name="prepare-additional-sample-data"></a>Подготовка дополнительных демонстрационных данных
 

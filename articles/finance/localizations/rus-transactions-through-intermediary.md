@@ -1,7 +1,7 @@
 ---
 title: Проводки через посредников
 description: В этой статье приводятся сведения о функциях для учета сделок через посредника, выполненных агентом.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 810c2140b8d1746ee9a53a72878c51ef97072a63
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cf9e42c704bba162163c085b91d2af38e191e5cb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891462"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286976"
 ---
 # <a name="transactions-through-intermediary"></a>Проводки через посредников
 [!include [banner](../includes/banner.md)]

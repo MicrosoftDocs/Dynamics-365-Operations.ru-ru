@@ -1,33 +1,33 @@
 ---
 title: Включение рекомендаций "Выбрать похожие по виду"
-description: В этой статье описывается, как включить рекомендации по продуктам «покупать похожие образы» в Microsoft Dynamics 365 Commerce.
+description: В этой статье описывается, как включить рекомендации по продуктам "Выбрать похожие по виду" в Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, eCommerce
+ms.search.form: ''
+ms.openlocfilehash: 26eb436d889ac81cde730daca9b44d1deeda6c74
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884585"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282059"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Включение рекомендаций "Выбрать похожие по виду"
 
 [!include [banner](includes/banner.md)]
 
-В этой статье описывается, как включить рекомендации по продуктам «покупать похожие образы» в Microsoft Dynamics 365 Commerce.
+В этой статье описывается, как включить рекомендации по продуктам "Выбрать похожие по виду" в Microsoft Dynamics 365 Commerce.
 
 Функция рекомендаций "покупать похожие образы" в Dynamics 365 Commerce использует возможности искусственного интеллекта и машинного обучения (ИИ-ML) для предоставления пользователям рекомендаций по визуально похожим продуктам для клиентов. Благодаря созданию рекомендаций "покупать похожие образы" для всех каналов розничной Commerce предприятия розничной торговли могут повысить уровень удовлетворенности клиентов, помогая клиентам легко находить то, что им нужно.
 

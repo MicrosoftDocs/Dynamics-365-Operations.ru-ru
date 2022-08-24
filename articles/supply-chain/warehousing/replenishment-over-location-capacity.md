@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 543afe2e689fa787158551bec64e2458141be71c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899247"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220098"
 ---
 # <a name="replenishment-over-location-capacity"></a>Пополнение сверх объема местонахождения
 
@@ -41,7 +41,7 @@ ms.locfileid: "8899247"
 
 ### <a name="enable-sample-data"></a>Включение демонстрационных данных
 
-Для работы с этими [примером сценария](#example-scenario) с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
+Для работы с этими [примером сценария](#example-scenario) с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/fin-ops/get-started/demo-data.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
 
 ### <a name="location-profile"></a>Профиль местонахождения
 

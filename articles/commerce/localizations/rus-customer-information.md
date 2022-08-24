@@ -6,20 +6,20 @@ ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailParameters
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Russia
-ms.search.industry: Retail
-ms.author: epopov
-ms.search.validFrom: 2021-8-2
+ms.author: josaw
+ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 33d37c0a53f0d8a7b87eb762c7cf641da4d97ae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailFunctionalityProfile, RetailParameters
+ms.openlocfilehash: 1dc8628a599676ca10bd64a95c1f61bf17ce78fe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845820"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277976"
 ---
 # <a name="customer-information-management-for-russia"></a>Управление информацией по клиентам для России
 

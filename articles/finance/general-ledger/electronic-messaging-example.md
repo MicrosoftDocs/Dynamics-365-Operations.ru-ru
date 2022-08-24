@@ -1,25 +1,25 @@
 ---
 title: Настройка и выполнение обработки для вызова простого формата экспорта электронной отчетности для создания отчета в формате Excel
 description: В этой статье представлен пример настройки и использования электронных сообщений.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 07/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
 ms.search.region: Global
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9894aabde854189e6fc1b6bb62051747f190e3ec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.form: ''
+ms.openlocfilehash: 6090c45a98b672f718f89fc1d2e1c060498bb8a0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904596"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279347"
 ---
 # <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>Настройка и выполнение обработки для вызова простого формата экспорта электронной отчетности для создания отчета в формате Excel
 

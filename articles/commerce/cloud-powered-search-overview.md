@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850364"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273675"
 ---
 # <a name="cloud-powered-search-overview"></a>Обзор поиска на облачной платформе
 
@@ -64,11 +64,14 @@ Commerce также поддерживает функциональность д
 
 ## <a name="sort"></a>Сортировать
 
-Улучшенная сортировка Commerce позволяет клиентам сортировать, искать и просматривать результаты поиска и уточнять их по критериям, таким как цена, название продукта и номер продукта. Клиенты также могут сортировать результаты в зависимости от того, является ли продукт новым, лидером продаж или недавно добавленным.
+Функция сортировки позволяет клиентам сортировать, выполнять поиск и просматривать категории, а также уточнять результаты поиска с учетом критериев, таких как цена, название продукта и номер продукта. Если в вашей среде включена функция [Рекомендации по продуктам](product-recommendations.md), клиенты также могут сортировать результаты с использованием расширенных критериев сортировки (новые продукты, лидеры продаж, набирающие популярность).
+
 
 > [!NOTE]
 > Такие возможности поиска на основе облака доступны, начиная с версии 10.0.8. Убедитесь в наличии записи "ProductSearch.UseAzureSearch" со значением "true" в пункте **Параметры Commerce > Параметры конфигурации**. 
 ![Параметры конфигурации для поиска на основе облака.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Дополнительные параметры сортировки, такие как "новые", "лидеры продаж" и "набирающие популярность", доступны в Commerce SSK версии 9.35 и выше и Dynamics 365 Commerce 10.0.20.  
+
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -1,24 +1,24 @@
 ---
 title: Выбытие РБП (Россия)
 description: В этой статье описывается, как проводится списание расходов будущих периодов (РБП).
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 63650981b7d7d61d5e81cb428a3e3973c040aeb2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: fe4ab024b774de72cb7ce16ee4848cd1c339f6fa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846489"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277157"
 ---
 # <a name="dispose-of-deferrals-russia"></a>Выбытие РБП (Россия)
 

@@ -1,24 +1,24 @@
 ---
 title: Учет с использованием сторно
 description: Учет с использованием сторно — практика использования отрицательных чисел для изменения записей учета в журналах на противоположные.
-author: ShylaThompson
+author: kfend
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 1219713
 ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8bea5d5ec8069e78f3ed5e7d1d6a74ee28ce2dea1891ad71e410d4c309a79c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 1219713
+ms.openlocfilehash: 22958ba21cd04cf19a7c05f78781ac6c5662b9ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764216"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283878"
 ---
 # <a name="storno-accounting"></a>Учет с использованием сторно
 
@@ -90,7 +90,7 @@ ms.locfileid: "6764216"
 | Счет покупки  | 102   | 0      | 102     |
 | Счет поставщика | 0     | 102    | -102    |
 
-Частичное сторно может создать проблему в форме печати оригинала. Если существует различие между датой исходного документа и датой сторно, может быть сложно получить точную сумму валюты. В результате частичное сторно разрешено только для некоторых документов. Dynamics 365 Finance предоставляет функцию частичного сторно для документов и стран/регионов, где это разрешено.
+Частичное сторно может создать проблему в форме печати оригинала. Если существует различие между датой исходного документа и датой сторно, может быть сложно получить точную сумму валюты. В результате частичное сторно разрешено только для некоторых документов. Dynamics 365 Finance предоставляет часть функций сторно для документов и стран или регионов, где это разрешено.
 
 ## <a name="how-to-enter-storno-on-journal-lines"></a>Порядок ввода сторно в строках журнала
 Введите сумму дебета или кредита с отрицательным знаком в строке журнала для записи сторно. Значение в поле **Корректировка** задается в процессе разноски. 

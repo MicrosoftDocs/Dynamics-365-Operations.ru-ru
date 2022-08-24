@@ -1,7 +1,7 @@
 ---
 title: Управление Предоплатами
 description: В этой статье представлены сведения об уплате налога на добавленную стоимость (НДС) при получении предоплаты от клиентов.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6939ee9f16e55beb450fcbb51224750dfa495046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8008880754bdfa3546cb0d0595679514a013eb15
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906208"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270605"
 ---
 # <a name="prepayments-management"></a>Управление Предоплатами
 [!include [banner](../includes/banner.md)]

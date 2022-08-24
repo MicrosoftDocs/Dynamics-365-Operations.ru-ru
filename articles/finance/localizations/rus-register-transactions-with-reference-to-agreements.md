@@ -1,7 +1,7 @@
 ---
 title: Регистрация проводок со ссылками на договоры
 description: В этой статье представлены сведения о регистрации проводок договоров.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2d748828760c19f0f1b3d8d3ca8bde47ae4bce75
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 82756803b9b5c0084cf5fb60e9d84e8e0da79d35
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875886"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277136"
 ---
 # <a name="register-transactions-with-reference-to-agreements"></a>Регистрация проводок со ссылками на договоры
 [!include [banner](../includes/banner.md)]

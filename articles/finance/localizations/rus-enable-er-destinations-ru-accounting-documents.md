@@ -1,7 +1,7 @@
 ---
 title: Включение назначений электронной отчетности (ER) для хранения российских документов учета
 description: В этой статье объясняется, как настроить места назначения электронной отчетности (ER) для последующей обработки документов бухгалтерской отчетности, создаваемых в Microsoft Excel и Word, для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 02/02/2022
 ms.topic: overview
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2022-01-27
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 92d4b34d44105df07131ad72e72f65c5646a6fed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34a9d7eb845076108d8c302e5af0690bbcbba8d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879457"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292197"
 ---
 # <a name="enable-electronic-reporting-er-destinations-to-store-russian-accounting-documents"></a>Включение назначений электронной отчетности (ER) для хранения российских документов учета
 

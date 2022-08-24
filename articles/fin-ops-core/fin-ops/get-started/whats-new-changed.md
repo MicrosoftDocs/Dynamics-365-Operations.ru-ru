@@ -1,28 +1,26 @@
 ---
 title: Домашняя страница «Что нового и что изменилось в приложениях для управления финансами и операциями»
 description: Эта страница указывает на темы с дополнительными сведениями о новых функциональных возможностях в последних приложениях для управления финансами и операциями.
-author: josaw1
+author: sericks007
 ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
-ms.custom:
-- "27141"
-- intro-internal
-ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
+ms.reviewer: sericks
 ms.search.region: Global
-ms.author: josaw
+ms.author: sericks
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 27141,  ""intro-internal
+ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
+ms.search.form: DefaultDashboard
+ms.openlocfilehash: ff6091c563dc39f81dd8ce911812c6ef594b0861
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125127"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280769"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Домашняя страница «Что нового и что изменилось в приложениях для управления финансами и операциями»
 

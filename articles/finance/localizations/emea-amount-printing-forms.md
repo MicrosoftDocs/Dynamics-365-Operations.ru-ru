@@ -1,25 +1,25 @@
 ---
 title: Обновление способа отображения сумм в отчетах и документах
 description: В этой статье представлена информация о том, как обновить способ отображения сумм в отчетах и других документах для Эстонии, Латвии, Литвы, Польши, Чешской Республики, Венгрии и России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 01/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: Currency
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264254
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e985ffc156caa86da3a3e8c36122e4f73278ca7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 264254
+ms.search.form: Currency
+ms.openlocfilehash: f9ddb4e2616c858bf8d68e485b88bf4fb7d9d5c3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907714"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273819"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Обновление способа отображения сумм в отчетах и документах
 

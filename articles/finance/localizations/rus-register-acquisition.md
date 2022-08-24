@@ -1,7 +1,7 @@
 ---
 title: Регистрация приобретений основных средств (Россия)
 description: В этой статье рассматривается регистрация приобретения основных средств для Microsoft Dynamics 365 Finance в России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 10/12/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4dbb9b20beb64410a90f7fcf73cb63400f46b710
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1e3a9b6ba6348e7617e47486e3be312ac4186d45
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906202"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272926"
 ---
 # <a name="register-fixed-assets-acquisitions-russia"></a>Регистрация приобретений основных средств (Россия)
 

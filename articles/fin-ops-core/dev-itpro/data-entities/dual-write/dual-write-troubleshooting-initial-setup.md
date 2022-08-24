@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111211"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289525"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Устранение неполадок при начальной настройке
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Эта статья предоставляет информацию по устранению неполадок для интеграции двойной записи между приложениями для управления финансами и операциями и Dataverse. Конкретно, в этом разделе содержатся сведения об устранении неполадок, которые могут возникнуть в процессе начальной настройки интеграции двойной записи.
 
@@ -51,7 +49,7 @@ ms.locfileid: "9111211"
 
 *Ошибка при сохранении набора соединений! Элемент с таким же ключом уже добавлен.*
 
-Двойная запись не поддерживает несколько юридических лиц/компаний с одинаковым именем. Например, если имеется две компании с именем "DAT" в Dataverse, будет получено сообщение об ошибке.
+Двойная запись не поддерживает несколько юридических лиц/компаний с одинаковым именем. Например, если в Dataverse имеется две компании с именем DAT, будет получено сообщение об ошибке.
 
 Чтобы разблокировать клиента, удалите повторяющиеся записи из таблицы **cdm_company** в Dataverse. Кроме того, если таблица **cdm_company** имеет записи с пустым именем, удалите или исправьте эти записи.
 
@@ -87,6 +85,19 @@ ms.locfileid: "9111211"
 
 + Пользователь, используемый для входа, не является тем же клиентом, что и экземпляр среды для управления финансами и операциями.
 + Существуют устаревшие экземпляры среды для управления финансами и операциями, которые были размещены корпорацией Microsoft и которые столкнулись с проблемой обнаружения. Чтобы исправить это, обновите экземпляр среды для управления финансами и операциями. Среда становится видимой с любым обновлением.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>Ошибка 403 (запрещено) во время создания подключений
+
+В процессе создания связи с двойной записью два подключения Power Apps (называемые также подключениями *Apihub*) создаются от имени пользователя в связанной среде Dataverse. Если у клиента нет лицензии для среды Power Apps, создание подключений ApiHub завершается сбоем и отображается сообщение об ошибке 403 (запрещено). Ниже приведен пример сообщения об ошибке.
+
+> MSG=\[Не удалось настроить среду для двойной записи. Сведения об ошибке: код статуса отклика не указывает на успешное выполнение: 403 (запрещено). - Код состояния ответа не указывает на успешное выполнение: 403 (запрещено).\] STACKTRACE=\[   в Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:строка 297 --- Конец трассировки стека из предыдущего местоположения, где было вызвано исключение --- в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) в Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:строка 265\]
+
+Эта ошибка происходит из-за отсутствия лицензии Power Apps. Назначьте пользователю соответствующую лицензию (например, пробный план 2 Power Apps), чтобы у него было разрешение на создание подключений. Для проверки лицензии клиент может перейти на сайт [Моя учетная запись](https://portal.office.com/account/?ref=MeControl#subscriptions), чтобы посмотреть лицензии, которые в настоящее время назначены пользователю.
+
+Дополнительные сведения о лицензии Power Apps см. в следующих статьях:
+
+- [Назначение лицензий пользователям](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Приобретение Power Apps для организации](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

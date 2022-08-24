@@ -1,7 +1,7 @@
 ---
 title: Расчет амортизации для России
 description: В этой статье объясняется, как рассчитать амортизацию для основных средств в России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 10/28/2018
 ms.topic: article
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.search.industry: ''
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6380e0e62804b89e4853018927bed0bcce2bf6cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.openlocfilehash: 2a9f6c8f5dbd6d725a07bf091720a63bc6130be1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896208"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284346"
 ---
 # <a name="calculate-depreciation-for-russia"></a>Расчет амортизации для России
 

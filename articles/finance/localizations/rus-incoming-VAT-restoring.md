@@ -1,7 +1,7 @@
 ---
 title: Восстановление входящего НДС
 description: В этой статье объясняется, как возместить ранее удержанные суммы НДС для основных средств.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 11/12/2019
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f542f2278d72937616a69b6143958a3d63582580
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 691418e161290f1e836798fb92f5961b8d9ed8bc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896199"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284785"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]

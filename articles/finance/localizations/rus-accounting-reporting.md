@@ -1,7 +1,7 @@
 ---
 title: Бухгалтерская отчетность в электронном формате (Россия)
 description: В этой статье объясняется, как настроить бухгалтерскую отчетность для России.
-author: Anasyash
+author: AdamTrukawka
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
-ms.search.validFrom: 2019-4-30
+ms.author: atrukawk
+ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82389699c7979c927785bcec5879ea8442780409
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e486aeca6fd660b0123c38ed6216c8a37f94e153
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888876"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288524"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 

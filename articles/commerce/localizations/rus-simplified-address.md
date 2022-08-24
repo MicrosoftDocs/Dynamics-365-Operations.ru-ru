@@ -1,24 +1,24 @@
 ---
 title: Упрощенный формат адреса клиента в Commerce POS для России
 description: В этой статье описывается упрощенный российский формат адреса и объясняется, как его включить в POS-терминале Microsoft Dynamics 365 Commerce для России.
-author: akviklis
+author: EvgenyPopovMBS
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Russia
-ms.search.industry: Retail
-ms.author: akviklis
-ms.search.validFrom: 2021-8-02
+ms.author: josaw
+ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ee0b036be308ba6ff6b4cc58c3eb2b3934245da5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.openlocfilehash: 6546d6279e2f70837a430c964e24b87e725d739a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865945"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273474"
 ---
 # <a name="simplified-customer-address-format-in-commerce-pos-for-russia"></a>Упрощенный формат адреса клиента в Commerce POS для России
 

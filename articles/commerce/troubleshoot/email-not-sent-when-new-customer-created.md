@@ -2,21 +2,21 @@
 title: При создании новых клиентов приветственное сообщение электронной почты не отправляется
 description: В этой статье содержатся указания по устранению неполадок, которые могут помочь в том случае, если приветственное уведомление по электронной почте не отправлено при создании нового клиента в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/24/2022
+ms.date: 08/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5aa7d864555f96194500989e2d7ad200d8892121
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853691"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219413"
 ---
-# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>При создании новых клиентов приветственное сообщение электронной почты не отправляется
+# <a name="welcome-email-isnt-sent-when-new-customers-are-created"></a>При создании новых клиентов приветственное сообщение электронной почты не отправляется
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,13 +28,15 @@ ms.locfileid: "8853691"
 
 ## <a name="resolution"></a>Решение
 
-### <a name="set-the-correct-email-id-value-for-the-customer-created-email-notification-type"></a>Задание правильного значения кода электронной почты для типа созданного клиентом уведомления по электронной почте
+### <a name="associate-an-email-notification-profile-under-commerce-parameters"></a>Свяжите профиль уведомления по электронной почте с параметрами Commerce
 
-Чтобы задать правильное значение параметра **Код электронной почты** для типа уведомления по электронной почте **Создано клиентом**, в Headquarters выполните следующие действия.
+1. В headquarters перейдите в раздел **Retail и Commerce \> Настройка Headquarters \> Параметры \> Параметры Commerce \> Общие**.
+2. В раскрывающемся списке **Профиль уведомлений по электронной почте** выберите профиль уведомлений по электронной почте, который содержит сопоставление типа уведомления "клиент создан" и шаблоном сообщения электронной почты о создании клиента.  
 
-1. Перейдите к **Retail и Commerce \> Настройка Headquarters \> Профиль уведомления по электронной почте Commerce**.
-1. В области переходов слева выберите профиль уведомления по электронной почте.
-1. В разделе **Параметры уведомлений о событии Retail** для типа уведомлений по электронной почте **Создано клиентом** задайте для поля **Код электронной почты** значение **NewCust**.
+> [!NOTE] 
+> При включении уведомлений "клиент создан" клиенты, создаваемые во всех каналах данного юридического лица, будут получать сообщение электронной почты о создании клиента. В настоящее время уведомления о создании клиента нельзя ограничить одним каналом.
+
+Дополнительные сведения см. в разделе [Создание шаблонов сообщений электронной почты для событий проводок](../email-templates-transactions.md). 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070330"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219513"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Складская обработка входящих загрузок для заказов на покупку
 
@@ -279,7 +279,7 @@ Microsoft Dynamics 365 Supply Chain Management поддерживает неск
 
 #### <a name="enable-sample-data"></a>Включение демонстрационных данных
 
-Для работы с этими сценариями с помощью указанных образцов записей и значений необходимо использовать систему, в которой установлены стандартные демонстрационные данные. Перед началом необходимо также выбрать юридическое лицо **USMF**.
+Для работы с этими сценариями с использованием указанных образцов записей и значений необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/fin-ops/get-started/demo-data.md). Перед началом необходимо также выбрать юридическое лицо **USMF**.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Добавление пункта меню для получения номенклатур загрузки при использовании мобильного устройства
 

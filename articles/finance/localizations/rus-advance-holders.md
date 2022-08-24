@@ -1,25 +1,25 @@
 ---
 title: Обзор подотчетных лиц России
 description: В этой статье рассказывается о том, как регистрировать и настраивать подотчетных лиц для России.
-author: ShylaThompson
+author: mrolecki
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: mrolecki
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c5208146fbc0e0042324c9939d3f8e2418910fe5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
+ms.openlocfilehash: a1f4173e48a6b03de96f50c3eee1ef0e2839f6e3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848431"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284800"
 ---
 # <a name="russia-advance-holders-overview"></a>Обзор подотчетных лиц России
 [!include [banner](../includes/banner.md)]

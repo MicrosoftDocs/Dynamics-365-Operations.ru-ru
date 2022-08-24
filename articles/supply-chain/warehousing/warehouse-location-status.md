@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065475"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220068"
 ---
 # <a name="warehouse-location-status"></a>Статус места хранения на складе
 
@@ -42,10 +42,7 @@ Microsoft Dynamics 365 Supply Chain Management включает нескольк
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Включение функции статуса места хранения на складе
 
-Прежде чем использовать функцию *Статус места хранения на складе*, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
-
-- **Модуль:** *Управление складом*
-- **Имя функции:** *Статус места хранения на складе*
+Прежде чем использовать эту функцию, ее необходимо включить в системе. В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Статус местонахождения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Настройка статуса места хранения на складе
 
@@ -55,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management включает нескольк
 
 #### <a name="use-the-usmf-legal-entity"></a>Использование юридического лица USMF
 
-Для работы с этими примером сценария с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
+Для работы с этими примером сценария с помощью образцов записей и значений, указанных здесь, необходимо использовать систему, в которой установлены стандартные [демонстрационные данные](../../fin-ops-core/fin-ops/get-started/demo-data.md). Дополнительно перед началом необходимо выбрать юридическое лицо **USMF**.
 
 #### <a name="set-up-location-profiles"></a>Настройка профилей местонахождений
 

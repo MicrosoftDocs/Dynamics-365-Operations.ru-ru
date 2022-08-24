@@ -1,24 +1,24 @@
 ---
 title: Локализация Commerce для России
 description: В этой статье представлен обзор локализации Microsoft Dynamics 365 Commerce для России.
-author: akviklis@microsoft.com
+author: EvgenyPopovMBS
 ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Russia
-ms.search.industry: Retail
-ms.author: akviklis
-ms.search.validFrom: 2021-6-23
+ms.author: josaw
+ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 13913c9e0abb16d4ffeaf77cd4c67151b9abf934
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.openlocfilehash: 00c94c8f95ae02c678afe4d46514db5d058db987
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877232"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279525"
 ---
 # <a name="commerce-localization-for-russia"></a>Локализация Commerce для России
 

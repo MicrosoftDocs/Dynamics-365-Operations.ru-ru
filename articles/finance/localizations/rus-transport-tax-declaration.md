@@ -1,24 +1,24 @@
 ---
 title: Декларация по транспортному налогу (Россия)
 description: В этой статье содержится информация о декларации по транспортному налогу для России.
-author: anasyash
+author: AdamTrukawka
 ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b9477896c08e41d6a9995d48ba142ccb7542a11b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: fcd060b433f04395eb97fb7392c677937e5d6df7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909979"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283395"
 ---
 # <a name="transport-tax-declaration-russia"></a>Декларация по транспортному налогу (Россия)
 

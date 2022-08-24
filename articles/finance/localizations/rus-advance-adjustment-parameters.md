@@ -1,26 +1,26 @@
 ---
 title: Переоценка в иностранной валюте для подотчетных лиц (Россия)
 description: В этой статье содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
-author: ilkond
+author: mrolecki
 ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.region: Russia
+ms.author: mrolecki
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.0999999999999996
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Russia
-ms.author: ilyako
-ms.dyn365.ops.version: 8.0999999999999996
-ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: b9e48641888730a0aa95161e037d27969caefd48
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 25e2835516b27a6cd8dd29b1a4c5a8cd5002e7d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896211"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292206"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 

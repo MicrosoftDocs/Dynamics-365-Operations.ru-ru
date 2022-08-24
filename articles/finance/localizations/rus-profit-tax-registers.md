@@ -1,26 +1,26 @@
 ---
 title: Создание налоговых регистров и журнала налоговых регистров
 description: В этой статье приводятся сведения о создании налоговых регистров и журнала налоговых регистров.
-author: akroshkina
+author: AdamTrukawka
 ms.date: 08/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.region: Russia
+ms.author: atrukawk
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Russia
-ms.author: anasyash
-ms.dyn365.ops.version: ''
-ms.search.validFrom: ''
-ms.openlocfilehash: f3129a227fd27a8ef1585535491eae0b646b0f44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: fc88029123e86f24386aee51f7d931a9818193f4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902331"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272937"
 ---
 # <a name="create-tax-registers-and-the-tax-register-journal"></a>Создание налоговых регистров и журнала налоговых регистров
 

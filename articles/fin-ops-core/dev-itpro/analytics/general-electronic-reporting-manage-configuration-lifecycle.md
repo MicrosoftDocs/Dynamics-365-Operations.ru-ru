@@ -1,32 +1,32 @@
 ---
 title: Управление жизненным циклом конфигураций электронной отчетности (ER)
 description: В этой статье описывается, как управлять жизненным циклом конфигураций электронной отчетности (ER) для Dynamics 365 Finance.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109093"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271594"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности (ER)
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье описывается, как управлять жизненным циклом конфигураций электронной отчетности (ER) для Dynamics 365 Finance.
+В этой статье описывается, как управлять жизненным циклом [конфигураций](general-electronic-reporting.md#Configuration) [электронной отчетности](general-electronic-reporting.md) (ER) для Dynamics 365 Finance.
 
 ## <a name="overview"></a>Обзор
 
@@ -105,6 +105,41 @@ ms.locfileid: "9109093"
 
     > [!NOTE]
     > Этот параметр используется отдельно для пользователя и для компании.
+
+## <a name="dependencies-on-other-components"></a>Зависимости от других компонентов
+
+Конфигурации электронной отчетности могут быть настроены как [зависимые](er-download-configurations-global-repo.md#import-filtered-configurations) от других конфигураций. Например, можно [импортировать](er-download-configurations-global-repo.md) конфигурацию [модели данных](er-overview-components.md#data-model-component) ER из глобального репозитория в ваш экземпляр [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) или Dynamics 365 Finance, а затем создать новую конфигурацию [формата](er-overview-components.md#format-component) ER, являющуюся [производной](er-quick-start2-customize-report.md#DeriveProvidedFormat) от импортированной конфигурации модели данных ER. Производная конфигурация формата ER будет зависеть от основной конфигурации модели данных ER.
+
+![Производная конфигурация формата ER на странице конфигураций.](./media/ger-configuration-lifecycle-img1.png)
+
+После завершения создания формата можно изменить статус первоначальной [версии](general-electronic-reporting.md#component-versioning) формата ER с **Черновик** на **Завершено**. Затем можно использовать завершенную версию конфигурации формата ER, [опубликовав](../../../finance/localizations/rcs-global-repo-upload.md) ее в глобальном репозитории. Затем можно получить доступ к глобальному репозиторию из любого облачного экземпляра Finance или RCS. Затем можно импортировать любую версию конфигурации ER, применимую к приложению из глобального репозитория, в это приложение.
+
+![Опубликованная конфигурация формата платежей ER на странице репозитория конфигураций.](./media/ger-configuration-lifecycle-img2.png)
+
+При выборе конфигурации формата ER в глобальном репозитории для импорта в только что развернутый экземпляр RCS или Finance, основная конфигурация модели данных ER автоматически настраивается в глобальном репозитории и импортируется вместе с выбранной конфигурацией формата ER в качестве основной конфигурации (с учетом зависимости конфигурации).
+
+Можно также экспортировать версию конфигурации формата ER из текущего экземпляра RCS или Finance и сохранить ее локально в виде XML-файла.
+
+![Экспорт конфигурации формата ER в виде XML на странице конфигурации.](./media/ger-configuration-lifecycle-img3.png)
+
+В версиях **Finance** до 10.0.29 при попытке импортировать версию конфигурации формата ER из этого XML-файла или из любого другого репозитория, отличного от глобального, во вновь развернутый экземпляр RCS или Finance, который еще не содержит никаких конфигураций ER, будет создано следующее исключение, сообщающее о том, что невозможно получить основную конфигурацию:
+
+> Остались неразрешенные ссылки<br>
+Не удается установить ссылку объекта "\<imported configuration name\>" на объект "Основная" (\<globally unique identifier of the missed base configuration\>, \<version of the missed base configuration\>).
+
+![Импорт версии конфигурации формата ER на странице репозитория конфигураций.](./media/ger-configuration-lifecycle-img4.gif)
+
+В версии **10.0.29 и более поздних** при попытке выполнить один и тот же импорт конфигурации, если базовая конфигурация не найдена в текущем экземпляре приложения или в исходном репозитории, используемом в данный момент (если применимо), среда ER будет автоматически пытаться найти имя отсутствующей базовой конфигурации в кэше глобального репозитория. После этого будет представлено имя и глобальный уникальный идентификатор (GUID) отсутствующей базовой конфигурации в тексте создаваемого исключения.
+
+> Остались неразрешенные ссылки<br>
+Не удается установить ссылку объекта "\<imported configuration name\>" на объект "Основная" (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Исключение на странице репозитория конфигураций, если базовая конфигурация не найдена.](./media/ger-configuration-lifecycle-img5.png)
+
+Можно использовать предоставляемое имя для поиска основной конфигурации, а затем импортировать ее вручную.
+
+> [!NOTE]
+> Этот новый параметр работает только в том случае, если хотя бы один пользователь уже выполнил вход в глобальный репозиторий с помощью страницы [репозиториев конфигурации](er-download-configurations-global-repo.md#open-configurations-repository) или одного из полей [поиска](er-extended-format-lookup.md) в глобальном репозитории в текущем экземпляре Finance, а также при кэшировании содержимого глобального репозитория.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -1,7 +1,7 @@
 ---
 title: Мастер корректировки запасов
 description: В этой статье приводятся сведения о мастере корректировки запасов, который используется для корректировки запасов в наличии и проводок.
-author: v-nadyuz
+author: AdamTrukawka
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 59d41cd4a739f4ca82910a6332c7dbf66b900e80
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a07990c7ba66c97052395eb9ef5060123357e78d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880590"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279204"
 ---
 # <a name="inventory-adjustment-wizard"></a>Мастер корректировки запасов
 

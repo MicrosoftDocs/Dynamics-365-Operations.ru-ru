@@ -1,7 +1,7 @@
 ---
 title: Налоговые регистры перемещения товаров
 description: В этой статье приводятся сведения о налоговых регистрах для перемещения товаров.
-author: akroshkina
+author: AdamTrukawka
 ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b56657f821762b4de6b6f04be4d1057456ba8e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9fa594e5a8342dfce22e9c7300b7318b0a1bf7d0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893931"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288513"
 ---
 # <a name="goods-movement-tax-registers"></a>Налоговые регистры перемещения товаров
 

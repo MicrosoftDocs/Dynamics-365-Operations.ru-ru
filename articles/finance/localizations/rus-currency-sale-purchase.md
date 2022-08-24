@@ -1,7 +1,7 @@
 ---
 title: Продажа, покупка и переводы иностранной валюты
 description: Эта статья описывает функциональные возможности для регистрации проводок для продажи, покупки и перевода валюты.
-author: anasyash
+author: AdamTrukawka
 ms.date: 02/20/2019
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7bf84b2213430e61cb59a6edf7cdaf6a4e975ff4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4a14b140b6d267213fc1f6489daa12d5341ad98
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846495"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275876"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажа, покупка и переводы иностранной валюты
 

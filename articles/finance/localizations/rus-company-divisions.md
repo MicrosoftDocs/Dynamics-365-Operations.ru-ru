@@ -1,7 +1,7 @@
 ---
 title: Подразделения компании (Россия)
 description: В этой статье рассматривается процедура настройки подразделений компании в Microsoft Dynamics 365 Finance в России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 10/08/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f40d9a2ad8c6d41c4611556636f7886c6d2a3c89
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8814fc2c3688e86e771f30d498bb218a0f5792f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849713"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272952"
 ---
 # <a name="company-divisions-russia"></a>Подразделения компании (Россия)
 

@@ -1,24 +1,24 @@
 ---
 title: Инвентаризация ОС (Россия)
 description: В этой статье содержится информация об инвентаризации основных средств для России.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 09/18/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RAssetTable, RAssetComponents
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 34089f583c79c2513a7b0ac156660816e1fe73e7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: RAssetTable, RAssetComponents
+ms.openlocfilehash: 24b7a7230f039e077e538001e378377d6eaee02b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856501"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277154"
 ---
 # <a name="fixed-asset-counting-russia"></a>Инвентаризация ОС (Россия)
 

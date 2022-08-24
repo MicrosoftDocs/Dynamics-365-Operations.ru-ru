@@ -1,7 +1,7 @@
 ---
 title: Авансовые счета для Commerce для Восточной Европы
 description: В этой статье объясняется, как настроить предварительные уведомления для Commerce для Восточной Европы.
-author: epopov
+author: EvgenyPopovMBS
 ms.date: 10/23/2018
 ms.topic: article
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
-ms.search.industry: Retail
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c71f0ddb0a040202a486e63b4812ac4f84ad36aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.openlocfilehash: 9f82d5316c4b3d6ce5fd34b94f71689be77a6e4b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883924"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286560"
 ---
 # <a name="advance-invoices-for-commerce-for-eastern-europe"></a>Авансовые счета для Commerce для Восточной Европы
 

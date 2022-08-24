@@ -1,26 +1,26 @@
 ---
 title: Повышение производительности решений электронной отчетности путем уменьшения количества полей таблицы, выбираемых во время выполнения
 description: В этой статье описывается, как можно повысить производительность путем уменьшения количества полей таблицы, получаемых во время выполнения.
-author: NickSelin
+author: kfend
 ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 5c9481f1021a5dba6e1d4020bbf85a10bd551ac0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847461"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278837"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Повышение производительности решений электронной отчетности путем уменьшения количества полей таблицы, выбираемых во время выполнения
 

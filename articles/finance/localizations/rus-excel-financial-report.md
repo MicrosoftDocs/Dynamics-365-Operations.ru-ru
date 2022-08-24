@@ -1,7 +1,7 @@
 ---
 title: Настройка финансовых отчетов в Excel (Россия)
 description: В этой статье приводится пошаговое описание процесса создания конфигурации электронной отчетности (ER), которая содержит шаблон для создания финансового отчета в формате Excel.
-author: Anasyash
+author: AdamTrukawka
 ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Russia
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 8caf76c4dd3a1fd7b92be907abead438783a5037
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc670fcb369399c2cfd2d77db0faf3023ff0fad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874330"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282976"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 
