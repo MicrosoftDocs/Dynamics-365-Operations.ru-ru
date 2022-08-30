@@ -2,7 +2,7 @@
 title: Интеграция с системами управления производством независимых разработчиков
 description: В этой статье объясняется, как интегрировать Microsoft Dynamics 365 Supply Chain Management с системой управления производством (MES) сторонних разработчиков.
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068042"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336226"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Интеграция с системами управления производством независимых разработчиков
 
@@ -45,9 +45,7 @@ ms.locfileid: "9068042"
     1. На странице **Конфигурация лицензии** выберите флажок **Время и посещаемость**.
     1. Выключите режим обслуживания, как описано в разделе [Режим обслуживания](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Перейдите в раздел **Администрирование системы \> Рабочие области \> Управление функциями**.
-1. Включите функцию, которая указана, следующим способом (см. также раздел [Обзор управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Модуль:** *Управление производством*
-    - **Название функции:** *Интеграция системы управления производством*
+1. Используйте рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), чтобы включить функцию *Интеграция системы управления производством*. (В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию.)
 
 ## <a name="processes-available-for-mes-integration"></a>Процессы, доступные для интеграции MES
 

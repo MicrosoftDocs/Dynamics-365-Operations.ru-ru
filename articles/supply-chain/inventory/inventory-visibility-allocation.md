@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852515"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306125"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Функция распределения запасов "Видимость запасов"
 
@@ -63,12 +63,11 @@ ms.locfileid: "8852515"
 - Предопределенные источник данных, физические меры и рассчитываемые меры, связанные с распределением.
 - Настраиваемые группы распределения, которые имеют максимум 8 уровней.
 - Набор интерфейсов прикладного программирования (API) распределения:
-
-    - распределить
-    - перераспределить
-    - не распределять
-    - использовать
-    - запросить
+  - распределить
+  - перераспределить
+  - не распределять
+  - использовать
+  - запросить
 
 Процесс настройки функции распределения состоит из двух этапов:
 
@@ -84,23 +83,26 @@ ms.locfileid: "8852515"
 Ниже приведены исходные физические меры:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Ниже приведены исходные вычисляемые меры:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Добавьте другие физические меры в вычисляемую меру "Доступно для распределения"
 
 Для использования распределения необходимо настроить вычисляемую меру "Доступно для распределения" (`@iv.@available_to_allocate`). Например, у вас есть источник данных `fno` и мера`onordered`, источник данных `pos` и мера`inbound`, и необходимо выполнить распределение имеющихся в наличии запасов для суммы `fno.onordered` и `pos.inbound`. В этом случае `@iv.@available_to_allocate` должно содержать `pos.inbound` и `fno.onordered` в формуле. Рассмотрим пример:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> Источник данных `@iv` является заранее определенным источником данных, а физические меры, определенные в поле `@iv` с префиксом `@`, являются предопределенными мерами. Эти меры представляют собой предварительно определенную конфигурацию для функции распределения, поэтому не изменяйте и не удаляйте их, иначе вы можете столкнуться в непредвиденными ошибками при использовании функции распределения.
+>
+> Можно добавлять новые физические меры к заранее определенной вычисляемой мере `@iv.@available_to_allocate`, но изменять ее имя нельзя.
 
 ### <a name="change-the-allocation-group-name"></a>Изменение имени группы распределения
 
@@ -136,7 +138,7 @@ ms.locfileid: "8852515"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ ms.locfileid: "8852515"
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ ms.locfileid: "8852515"
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ ms.locfileid: "8852515"
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ ms.locfileid: "8852515"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ ms.locfileid: "8852515"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ API-интерфейс `Consume` может также потреблять ра
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

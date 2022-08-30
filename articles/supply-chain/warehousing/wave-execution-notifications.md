@@ -2,7 +2,7 @@
 title: Уведомления о выполнении волны
 description: В этой статье описываются уведомления о выполнении волны и объясняется, как их настроить.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069039"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336586"
 ---
 # <a name="wave-execution-notifications"></a>Уведомления о выполнении волны
 
@@ -32,7 +32,7 @@ ms.locfileid: "9069039"
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Включение или отключение функции уведомлений о выполнении волны
 
-В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Уведомления о выполнении волны* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Уведомления о выполнении волны* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Сценарий: отправка уведомлений о пакетном выполнении волн в центр уведомлений
 

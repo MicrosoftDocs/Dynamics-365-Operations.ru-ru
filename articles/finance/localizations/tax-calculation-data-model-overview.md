@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b47ec3922621a15ee1fb1aa8ab1559d9a57418e3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fc90964a5b0bd31b28a8c8d9b7474c063da34205
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220313"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295971"
 ---
 # <a name="tax-calculation-data-model"></a>Модель данных для расчета налога
 
@@ -64,6 +64,7 @@ ms.locfileid: "9220313"
     *Ограничение:* [Один ваучер](../general-ledger/one-voucher.md#issues-with-one-voucher) и сбор по платежам не поддерживаются.
 
 - **Журнал накладных поставщиков:** поддерживается в версии 40.54.234 и в версии Finance 10.0.26.
+- **Периодические журналы:** поддерживается в версии 40.55.236 и в версии Finance 10.0.29.
 
 ## <a name="field-mapping"></a>Сопоставление полей
 

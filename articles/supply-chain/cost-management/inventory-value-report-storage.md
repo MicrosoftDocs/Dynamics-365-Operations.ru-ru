@@ -2,7 +2,7 @@
 title: Отчеты о стоимости запасов
 description: В этой статье описывается, как настраивать, создавать и использовать отчеты о стоимости запасов. В этих отчетах приводятся подробные сведения о физических и финансовых количествах запасов и суммах.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854568"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334936"
 ---
 # <a name="inventory-value-reports"></a>Отчеты о стоимости запасов
 
@@ -55,7 +55,7 @@ ms.locfileid: "8854568"
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Включение или отключение функции сохраненного отчета о стоимости запасов
 
-В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Сохраненные отчеты о стоимости запасов* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Сохраненные отчеты о стоимости запасов* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Определение конфигураций отчета о стоимости запасов
 

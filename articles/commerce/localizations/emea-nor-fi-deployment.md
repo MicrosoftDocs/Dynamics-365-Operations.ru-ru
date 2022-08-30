@@ -2,34 +2,32 @@
 title: Рекомендации по развертыванию контрольно-кассовых машин для Норвегии
 description: В этой статье представлено руководство по включению функциональности контрольно-кассовой машины для локализации Microsoft Dynamics 365 Commerce для Норвегии.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281026"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346000"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Рекомендации по развертыванию контрольно-кассовых машин для Норвегии
 
 [!include[banner](../includes/banner.md)]
 
-В этой статье представлено руководство по включению функциональности контрольно-кассовой машины для локализации Microsoft Dynamics 365 Commerce для Норвегии. Локализация состоит из нескольких расширений компонентов. Эти расширения позволяют выполнять такие действия, как печать настраиваемых полей в чеках, регистрация дополнительных событий аудита, проводок по продажам и платежных проводок в POS-терминале, использование цифровой подписи для проводок по продажам и печать X и Z отчетов в локальных форматах. Дополнительные сведения о локализации для Норвегии см. в разделе [Функциональность контрольно-кассовой машины для Норвегии](./emea-nor-cash-registers.md). Дополнительные сведения о порядке настройки Commerce для Норвегии см. в разделе [Настройка Commerce для Норвегии](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+> [!IMPORTANT]
+> Шаги, описанные в этой статье, следует использовать только в том случае, если используется Microsoft Dynamics 365 Commerce версии 10.0.29 или более поздней. В Commerce версии 10.0.28 и ранее необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [Инструкции по развертыванию контрольно-кассовых машин для Норвегии (устарело)](./emea-nor-loc-deployment-guidelines.md). Если используется Commerce версии 10.0.28 или более ранней и выполняется миграция в Commerce версии 10.0.29 или более поздней, необходимо выполнить шаги из раздела [Переход со старой функциональности Commerce для Норвегии](./emea-nor-fi-migration.md).
 
-> [!WARNING]
-> Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этой функциональности локализации. Необходимо использовать версию образца цифровой подписи для Норвегии в предыдущей версии пакета Retail SDK на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [Инструкции по развертыванию контрольно-кассовых машин для Норвегии (устарело)](./emea-nor-loc-deployment-guidelines.md).
->
-> Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.
+В этой статье представлено руководство по включению функциональности контрольно-кассовой машины для локализации Commerce для Норвегии. Локализация состоит из нескольких расширений компонентов, которые позволяют выполнять такие действия, как печать настраиваемых полей в чеках, регистрация дополнительных событий аудита, проводок по продажам и платежных проводок в POS-терминале, использование цифровой подписи для проводок по продажам и печать X и Z отчетов в локальных форматах. Дополнительные сведения о локализации для Норвегии см. в разделе [Функциональность контрольно-кассовой машины для Норвегии](./emea-nor-cash-registers.md). Дополнительные сведения о порядке настройки Commerce для Норвегии см. в разделе [Настройка Commerce для Норвегии](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Настройка финансовой регистрации для Норвегии
 
-Образец финансовой регистрации для Норвегии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\SequentialSignatureNorway** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа и финансового соединителя, которые являются расширениями среды выполнения Commerce Runtime (CRT). Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец финансовой регистрации для Норвегии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Commerce SDK. Образец находится в папке **src\\FiscalIntegration\\SequentialSignatureNorway** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). [Пример](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) состоит из поставщика финансового документа и финансового соединителя, которые являются расширениями среды выполнения Commerce Runtime (CRT). Дополнительные сведения об использовании Commerce SDK см. в разделе [Загрузка примеров Commerce SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
 Выполните шаги настройки финансовой регистрации, которые описаны в разделе [Настройка финансовой интеграции для каналов Commerce](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ ms.locfileid: "9281026"
 1. Загрузите файлы конфигурации для поставщика фискальных документов и финансового соединителя из пакета Commerce SDK:
 
     1. Откройте репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Откройте последнюю доступную ветвь выпуска (например, **[release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Откройте последнюю доступную ветвь выпуска.
     1. Откройте **src \> FiscalIntegration \> SequentialSignatureNorway \> CommerceRuntime**.
-    1. Загрузите файл конфигурации поставщика финансовых документов по пути **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml** (например, [файл для release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. Загрузите файл конфигурации финансового соединителя по пути **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml** (например, [файл для release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
+    1. Загрузите файл конфигурации поставщика финансовых документов по пути **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml**.
+    1. Загрузите файл конфигурации финансового соединителя по пути **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml**.
 
 1. Перейдите в раздел **Retail и Commerce \> Настройка центрального офиса \> Параметры \> Общие параметры**. На вкладке **Общие** задайте для параметра **Включить финансовую интеграцию** значение **Да**.
 1. Перейдите в раздел **Retail и Commerce \> Настройка канала \> Финансовая интеграция \> Финансовые соединители** и загрузите ранее скаченный файл конфигурации финансового соединителя.
@@ -99,11 +97,11 @@ ms.locfileid: "9281026"
 
 ### <a name="configure-channel-components"></a>Настройка компонентов канала
 
-### <a name="development-environment"></a>Среда разработки
+#### <a name="development-environment"></a>Среда разработки
 
 Выполните эти шаги для настройки среды разработки, чтобы можно было проверить и расширить пример.
 
-1. Создайте точную копию или загрузите репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения. Дополнительные сведения см. в разделе [Загрузка примеров Retail SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Создайте точную копию или загрузите репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения. Дополнительные сведения см. в разделе [Загрузка примеров Commerce SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Откройте решение **SequentialSignatureNorway.sln** по пути **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway** и постройте его.
 1. Установите расширения CRT:
 
@@ -126,7 +124,7 @@ ms.locfileid: "9281026"
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>Рабочая среда
+#### <a name="production-environment"></a>Рабочая среда
 
 Выполните шаги, описанные в разделе [Настройка конвейера построения для образца финансовой интеграции](fiscal-integration-sample-build-pipeline.md), чтобы создать и выпустить облачную единицу масштабирования и развертываемые пакеты самообслуживания для образца финансовой интеграции. Файл шаблона YAML **SequentialSignatureNorway build-pipeline.yaml** можно найти в папке **Pipeline\\YAML_Files** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 

@@ -2,7 +2,7 @@
 title: Уровень расчета затрат
 description: В этой статье описывается уровень спецификации (BOM), который называется уровнем расчета затрат. Этот уровень спецификации исключает производственные и партионные заказы из их расчетов.
 author: JennySong-SH
-ms.date: 04/23/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 647ef4b13b864cfdbb7905fe7a0d340e85f6c1e6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e63a868696e36c1d4f5d19ea87bdf4d682c39f8c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850883"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334966"
 ---
 # <a name="cost-calculation-level"></a>Уровень расчета затрат
 
 [!include [banner](../includes/banner.md)]
 
 Уровень спецификации (BOM) с именем **Уровень расчета затрат** исключает производственные заказы и партионные заказы из их расчетов. Этот уровень используется системой при выполнении расчетов затрат в версиях учета затрат. В процессах, таких как пересчет и закрытие запасов, вместо этого система использует уровень спецификации **Уровень расчета себестоимости**.
+
+## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>Включение или отключение функции уровня расчета затрат
+
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Уровень расчета затрат* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+## <a name="example-scenario"></a>Пример сценария
 
 В следующем простом сценарии показаны различия между уровнем спецификации **Уровень расчета затрат** и уровнем спецификации **Уровень расчета себестоимости**.
 

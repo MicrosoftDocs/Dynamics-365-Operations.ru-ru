@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171466"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335656"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Установка и подключение мобильного приложения Warehouse Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "9171466"
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Включение или отключение функций мобильного приложения Warehouse Management в Supply Chain Management
 
-Чтобы использовать мобильное приложение Warehouse Management, в системе должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать мобильное приложение Warehouse Management, для системы должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Получение мобильного приложения управления складом
 

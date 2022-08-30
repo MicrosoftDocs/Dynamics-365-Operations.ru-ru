@@ -2,27 +2,28 @@
 title: Пример интеграции службы финансовой регистрации для Австрии
 description: В этой статье представлен обзор примера финансовой интеграции для Австрии в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287574"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313810"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Пример интеграции службы финансовой регистрации для Австрии
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 В этой статье представлен обзор примера финансовой интеграции для Австрии в Microsoft Dynamics 365 Commerce.
 
-Для соблюдения локальных финансовых требований для кассовых ККМ в Австрии функции Dynamics 365 Retail для Австрии включают образец интеграции POS-терминалов с внешней службой финансовой регистрации. Образец расширяет [функциональность финансовой интеграции](fiscal-integration-for-retail-channel.md). Он основан на решении [EFR (Electronic Fiscal Register)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) от [EFSTA](https://www.efsta.eu/at/) и обеспечивает связь с службой EFR через протокол HTTPS. Служба EFR должна располагаться на станции Retail Hardware Station или на отдельном компьютере, к которому можно подключиться с помощью Hardware Station. Пример представлен в форме исходного кода и является частью пакета SDK Retail.
+Для соблюдения локальных финансовых требований для кассовых ККМ в Австрии функции Dynamics 365 Retail для Австрии включают образец интеграции POS-терминалов с внешней службой финансовой регистрации. Образец расширяет [функциональность финансовой интеграции](fiscal-integration-for-retail-channel.md). Он основан на решении [EFR (Electronic Fiscal Register)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) от [EFSTA](https://www.efsta.eu/at/) и обеспечивает связь с службой EFR через протокол HTTPS. Служба EFR должна располагаться на станции Retail Hardware Station или на отдельном компьютере, к которому можно подключиться с помощью Hardware Station. Пример представлен в форме исходного кода и является частью пакета Commerce SDK.
 
 Корпорация Майкрософт не выпускает никакое оборудование, программное обеспечение или документацию из EFSTA. Для получения сведений о получении решения EFR и работе с ним обратитесь в [EFSTA](https://www.efsta.eu/at/kontakt).
 
@@ -102,6 +103,13 @@ ms.locfileid: "9287574"
 - В профиле функциональности POS каждого магазина, расположенного в Австрии, установите для поля **Код ISO** значение **DE** (Австрия).
 
 Также необходимо указать следующие параметры для Австрии. Обратите внимание, что после завершения настройки необходимо выполнить соответствующие задания распределения.
+
+### <a name="enable-features-for-austria"></a>Включение функций для Австрии
+
+Необходимо включить следующие функции в рабочей области **Управление функциями**:
+
+- (Австрия) Включить дополнительные события аудита в POS
+- (Австрия) Включать дополнительную информацию в выписки по окончании дня в POS
 
 ### <a name="set-up-vat-per-austrian-requirements"></a>Настройка НДС по требованиям Австрии
 
@@ -204,10 +212,10 @@ ms.locfileid: "9287574"
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Настройка финансовой интеграции для Австрия
 
-Образец интеграции службы финансовой регистрации для Австрии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции службы финансовой регистрации для Австрии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Commerce SDK. Образец находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). [Пример](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) состоит из поставщика финансового документа, который является расширением среды выполнения Commerce Runtime (CRT), и финансового соединителя, который является расширением Commerce Hardware Station. Дополнительные сведения об использовании Commerce SDK см. в разделе [Загрузка примеров Commerce SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md). Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.
+> [!NOTE]
+> Пример интеграции службы финансовой регистрации для Австрии доступен в Commerce SDK в Commerce версии 10.0.29. В Commerce версии 10.0.28 и ранее необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md).
 
 Выполните шаги настройки финансовой интеграции, как описано в разделе [Настройка финансовой интеграции для каналов Commerce](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -223,18 +231,20 @@ ms.locfileid: "9287574"
 1. Загрузите файлы конфигурации для поставщика фискальных документов и финансового соединителя:
 
     1. Откройте репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения (например, **[release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения.
     1. Откройте **src \> FiscalIntegration \> Efr**.
-    1. Откройте **Конфигурации \> DocumentProviders** и загрузите файлы конфигурации поставщика финансовых документов: **DocumentProviderFiscalEFRSampleAustria.xml** и **DocumentProviderNonFiscalEFRSampleAustria.xml** (например, [местоположение файлов для выпуска release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders)).
-    1. Загрузите файл конфигурации финансового соединителя по пути **Конфигурации \> Соединители \> ConnectorEFRSample.xml** (например, [файл для release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Откройте **Конфигурации \> DocumentProviders** и загрузите файлы конфигурации поставщика финансовых документов: 
 
-    > [!WARNING]
-    > Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине разработчика в LCS. Файлы конфигурации для данного образца финансовой интеграции находятся в следующих папках пакета Retail SDK на виртуальной машине для разработчиков в LCS:
+        - DocumentProviderFiscalEFRSampleAustria.xml
+        - DocumentProviderNonFiscalEFRSampleAustria.xml
+
+    1. Загрузите файл конфигурации финансового соединителя по пути **Конфигурации \> Соединители \> ConnectorEFRSample.xml**.
+
+    > [!NOTE]
+    > В Commerce версии 10.0.28 и ранее необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в LCS. Файлы конфигурации для данного образца финансовой интеграции находятся в следующих папках пакета Retail SDK на виртуальной машине для разработчиков в LCS:
     >
     > - **Файлы конфигурации поставщика финансовых документов:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration
     > - **Файл конфигурации финансового соединителя:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration
-    > 
-    > Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.
 
 1. Перейдите в раздел **Retail и Commerce \> Настройка Headquarters \> Параметры \> Общие параметры Commerce**. На вкладке **Общие** задайте для параметра **Включить финансовую интеграцию** значение **Да**.
 1. Перейдите в раздел **Retail и Commerce \> Настройка канала \> Финансовая интеграция \> Поставщики финансовых документов** и загрузите ранее скаченные файлы конфигурации поставщика финансовых документов.
@@ -244,7 +254,7 @@ ms.locfileid: "9287574"
 1. Перейдите в раздел **Retail и Commerce \> Настройка канала \> Финансовая интеграция \> Группы финансовых соединителей**. Создайте две новые группы финансовых соединителей, по одному для каждого функционального профиля соединителя, созданного ранее.
 1. Перейдите в раздел **Retail и Commerce \> Настройка канала \> Финансовая интеграция \> Процессы финансовой регистрации**. Создайте новый процесс финансовой регистрации и два шага процесса финансовой регистрации и выберите созданные ранее группы фискальных соединителей.
 1. Перейдите в раздел **Retail и Commerce \> Настройка канала \> Настройка POS \> Профили POS \> Профили функциональности**. Выберите профиль функциональности, связанный с магазином, в котором должен быть активирован процесс регистрации. На экспресс-вкладке **Процесс финансовой регистрации** выберите ранее созданный процесс финансовой регистрации. Чтобы включить регистрацию нефинансовых событий в POS, на экспресс-вкладке **Функции** в группе **POS** установите для параметра **Аудит** значение **Да**.
-1. Перейдите **Retail и Commerce \> Настройка канала \> Настройка POS \> Профили POS \> Профили оборудования**. Выберите профиль оборудования, который связан с Hardware Station, с которой будет связан фискальный принтер. На экспресс-вкладке **Фискальная периферия** выберите ранее созданный технический профиль соединителя.
+1. Перейдите **Retail и Commerce \> Настройка канала \> Настройка POS \> Профили POS \> Профили оборудования**. Выберите профиль оборудования, который связан с Hardware Station, с которой будет связана служба финансовой регистрации. На экспресс-вкладке **Фискальная периферия** выберите ранее созданный технический профиль соединителя.
 1. Откройте график распределения (**Retail и Commerce \> ИТ Retail и Commerce \> График распределения**) и выберите задания **1070** и **1090** для передачи данных в базу данных канала.
 
 #### <a name="default-data-mapping"></a>Сопоставление данных по умолчанию
@@ -269,16 +279,15 @@ ms.locfileid: "9287574"
 
 ### <a name="configure-channel-components"></a>Настройка компонентов канала
 
-> [!WARNING]
-> Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md).
->
-> Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.
+> [!NOTE]
+> - Пример интеграции службы финансовой регистрации для Австрии доступен в Commerce SDK в Commerce версии 10.0.29. В Commerce версии 10.0.28 и ранее необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md).
+> - Образцы Commerce, развернутые в вашей среде, не обновляются автоматически при применении сервисных обновлений или обновлений качества к компонентам Commerce. Необходимо вручную обновить требуемые примеры.
 
 #### <a name="set-up-the-development-environment"></a>Настройка среды разработки
 
 Чтобы настроить среду разработки для проверки и расширения образца, выполните следующие действия.
 
-1. Создайте точную копию или загрузите репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения. Дополнительные сведения см. в разделе [Загрузка примеров Retail SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Создайте точную копию или загрузите репозиторий [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Выберите правильную версию ветви выпуска в соответствии с версией пакета SDK/приложения. Дополнительные сведения см. в разделе [Загрузка примеров Commerce SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Откройте решение EFR в **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln** и создайте его.
 1. Установите расширения CRT:
 
@@ -330,10 +339,10 @@ ms.locfileid: "9287574"
 
 ## <a name="design-of-extensions"></a>Разработка расширений
 
-Образец интеграции службы финансовой регистрации для Австрии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Retail SDK. Пример находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (например, [пример в выпуске release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Для получения дополнительных сведений о способах использования пакета Retail SDK см. разделы [Архитектура пакета Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
+Образец интеграции службы финансовой регистрации для Австрии базируется на [функции финансовой интеграции](fiscal-integration-for-retail-channel.md) и входит в состав пакета Commerce SDK. Образец находится в папке **src\\FiscalIntegration\\Efr** репозитория [Решения Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Пример [состоит](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) из поставщика финансового документа, который является расширением CRT, и финансового соединителя, который является расширением Commerce Hardware Station. Дополнительные сведения об использовании Commerce SDK см. в разделе [Загрузка примеров Commerce SDK и справочных пакетов из GitHub и NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md) и [Настройка конвейера сборки для пакета SDK независимой упаковки](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Вследствие ограничений [новой модели независимой упаковки и расширения](../dev-itpro/build-pipeline.md), она не может использоваться для этого образца финансовой интеграции. Необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md). Поддержка новой независимой модели упаковки и расширения для образцов финансовой интеграции запланирована для последующих версий.
+> [!NOTE]
+> Пример интеграции службы финансовой регистрации для Австрии доступен в Commerce SDK в Commerce версии 10.0.29. В Commerce версии 10.0.28 и ранее необходимо использовать предыдущую версию пакета Retail SDK на виртуальной машине (ВМ) разработчика в LCS. Дополнительные сведения см. в разделе [рекомендации по развертыванию образца интеграции финансового принтера для Австрии (устаревшая версия)](emea-aut-fi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Разработка расширения Commerce Runtime 
 

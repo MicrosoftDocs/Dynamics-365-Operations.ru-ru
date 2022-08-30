@@ -2,7 +2,7 @@
 title: Резервное время
 description: В этой статье описывается, как резервное время можно использовать с надстройкой оптимизации планирования для Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854249"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335206"
 ---
 # <a name="safety-margins"></a>Резервное время
 
@@ -79,12 +79,9 @@ ms.locfileid: "8854249"
 
 ## <a name="set-up-safety-margins"></a>Настройка значений резервного времени
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Включение резервного времени в управлении функциями
+### <a name="turn-safety-margins-on-or-off"></a>Включение или отключение резервного времени
 
-Прежде чем использовать эту функцию с оптимизацией планирования, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
-
-- **Модуль:** _Сводное планирование_
-- **Имя компонента:** _Резервное время для оптимизации планирования_
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Поля для оптимизации планирования* в рабочей области [Управление функциями](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Определение значений резервного времени
 

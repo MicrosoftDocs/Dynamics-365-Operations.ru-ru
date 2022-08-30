@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220253"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334456"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Настройка различных аналитик для упаковки и хранения
 
@@ -37,7 +37,7 @@ ms.locfileid: "9220253"
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Включение функции аналитик упаковки продуктов
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
+Прежде чем использовать эту функцию, ее необходимо включить для системы. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *Аналитики упаковки продуктов*

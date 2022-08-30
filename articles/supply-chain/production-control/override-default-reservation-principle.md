@@ -2,7 +2,7 @@
 title: Переопределение принципа резервирования по умолчанию для материалов в производстве
 description: В этой статье описывается, как задать принцип резервирования по умолчанию для каждой группы моделей номенклатуры, чтобы для каждой номенклатуры, которая является частью формулы производственной спецификации или заказа партии, можно было автоматически применять разные принципы резервирования.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907242"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334606"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Переопределение принципа резервирования по умолчанию для материалов в производстве
 
@@ -32,7 +32,7 @@ ms.locfileid: "8907242"
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Включение или отключение функции переопределения резервирования производства по умолчанию
 
-В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Переопределить резервирование производства по умолчанию* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Переопределить резервирование производства по умолчанию* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Назначение политики резервирования производства группе моделей номенклатуры
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 62530c8ffc8be8d3bae562708872ba8eb00fa9cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b0102bde3548ccf976234e1938114289b80fbba
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847798"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335850"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Настройка номерных серий для складских потоков
 
@@ -39,7 +39,7 @@ ms.locfileid: "8847798"
 
 ## <a name="turn-on-the-number-sequence-extensions-feature"></a>Включение функции расширений номерных серий
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
+Прежде чем использовать эту функцию, она должна быть включена для системы. Администраторы могут использовать рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *Расширения номерной серии*

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228492"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334786"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.28 (август 2022 г.)
 
@@ -36,7 +36,7 @@ ms.locfileid: "9228492"
 | Запасы и логистика | [Объекты интеграции стоимости на складе для сторонних экспедиторов груза](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Обзор объектов стоимости на складе](../landed-cost/landed-cost-entities-overview.md) | Включено по умолчанию |
 | Планирование | [Планирование потребностей в материальных ресурсах на основе спроса (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Обзор планирования потребностей в материальных ресурсах на основе спроса](../master-planning/planning-optimization/ddmrp-overview.md) | Управление функциями:<br>*(Предварительная версия) DDMRP для оптимизации планирования* |
 | Планирование | [Поддержка оптимизации планирования для доступности для заказа с учетом производства (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Расчет дат поставки для заказа на продажу с использованием CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Управление функциями:<br>*(Предварительная версия) CTP для оптимизации планирования* |
-| Планирование | [Поддержка оптимизации планирования для сроков хранения](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Скоро | Включено по умолчанию |
+| Планирование | [Поддержка оптимизации планирования для сроков хранения](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Сводное планирование для продуктов с ограничением срока годности](../master-planning/planning-optimization/shelf-life.md) | Включено по умолчанию |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Улучшения функций, включенные в данный выпуск
 

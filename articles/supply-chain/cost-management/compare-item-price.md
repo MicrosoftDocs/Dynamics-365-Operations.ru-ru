@@ -2,7 +2,7 @@
 title: Отчет «Сравнение хранилища цен номенклатур»
 description: Узнайте, как создать отчет «Сравнение хранилища цен номенклатур» и затем просмотреть и/или экспортировать результат.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846223"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334996"
 ---
 # <a name="compare-item-prices-storage-report"></a>Отчет «Сравнение хранилища цен номенклатур»
 
@@ -35,12 +35,9 @@ ms.locfileid: "8846223"
 
 Отчет **Сравнение хранилища цен номенклатур** полезен в тех случаях, когда результат содержит много строк. Например, результат будет содержать много строк, если в версии учета затрат имеется более 40000 номенклатур, содержащих ожидающие цены номенклатуры.
 
-## <a name="enable-compare-item-prices-storage"></a>Включить Сравнение хранилища цен номенклатур
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Включение или отключение функции "Хранилище сравнения цен номенклатур"
 
-Прежде чем использовать эту функцию, необходимо включить ее в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения их при необходимости. В этой статье функция указана следующим образом:
-
-- **Модуль** — Управление затратами
-- **Имя функции** — Сравнение хранилища цен номенклатур
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Хранилище сравнения цен номенклатур* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Создать отчет «Сравнение хранилища цен номенклатур»
 

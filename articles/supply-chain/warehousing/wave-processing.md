@@ -2,7 +2,7 @@
 title: Создание и обработка волны
 description: В этой статье описывается, как создать, обработать и выпустить волну, чтобы создать работу комплектации для загрузки, отгрузки, производственного заказа или заказа канбана.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014629"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336016"
 ---
 # <a name="wave-creation-and-processing"></a>Создание и обработка волны
 
@@ -191,7 +191,7 @@ ms.locfileid: "9014629"
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Включение или отключение страницы сведений о пакетных заданиях волны
 
-В Supply Chain Management версии 10.0.25 страница **Сведения о пакетных заданиях волны** включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Сведения о пакетных заданиях волны* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Сведения о пакетных заданиях волны* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Использование страницы сведений о пакетных заданиях волны
 

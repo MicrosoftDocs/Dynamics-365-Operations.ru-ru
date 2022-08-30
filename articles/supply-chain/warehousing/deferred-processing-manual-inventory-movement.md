@@ -2,7 +2,7 @@
 title: Отложенная обработка перемещения запасов вручную
 description: В этой статье описывается, как использовать отложенную обработку перемещения запасов вручную в Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219819"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336406"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Отложенная обработка перемещения запасов вручную
 
@@ -32,10 +32,10 @@ ms.locfileid: "9219819"
 
 Чтобы эти функции были доступны, включите следующую функцию в [управлении функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Необходимо включить их в следующем порядке:
 
-1. *Блокировка работы для всей организации*<br>(В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
-1. *Обработка событий приложения склада*<br>(В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция является обязательной. Поэтому она включена по умолчанию и не может быть отключена.)
-1. *Отложенные операции складирования*
-1. *Отложенная обработка операции перемещения запасов вручную*<br>(В Supply Chain Management версии 10.0.25 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
+1. *Блокировка работы для всей организации*<br>(В Supply Chain Management версии 10.0.21 эта функция обязательна и не может быть отключена.)
+1. *Обработка событий приложения склада*<br>(В Supply Chain Management версии 10.0.25 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена.)
+1. *Отложенные операции складирования*<br>(В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена.)
+1. *Отложенная обработка операции перемещения запасов вручную*<br>(В Supply Chain Management версии 10.0.25 эта функция обязательна и не может быть отключена.)
 
 ## <a name="configure-the-work-processing-policies"></a>Настройка политик обработки работ
 

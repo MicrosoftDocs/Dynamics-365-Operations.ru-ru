@@ -2,7 +2,7 @@
 title: Настройка названий шагов и инструкций для мобильного приложения Warehouse Management
 description: В этой статье описывается создание и отображение пользовательских инструкций для каждого шага потока задач, настроенного для мобильного приложения Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220160"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334487"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Настройка названий шагов и инструкций для мобильного приложения Warehouse Management
 
@@ -28,9 +28,9 @@ ms.locfileid: "9220160"
 - **Быстро вводи в курс дела сотрудников, дав им простые инструкции для каждого шага задачи.** Каждый шаг потока предоставляет инструкции, которые позволяют сотрудникам, работающим на передней линии, понять задачу.
 - **Предоставьте инструкции, соответствующие вашим собственным процессам.** Написание собственных инструкций в соответствии с бизнес-процессами и складскими процессами. Например, можно обеспечить соответствие терминологии физическому пространству и местным аббревиатурам.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Включите функцию указания шага приложения склада
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Включение или выключение функции указания шага приложения склада
 
-Прежде чем использовать эту функцию, ее необходимо включить в системе. В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию. Администраторы могут включать и выключать эту функцию, выполнив поиск функции *Инструкции для шагов приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Прежде чем использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При использовании версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Инструкции для шагов приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Заголовки шагов и инструкции шагов в приложении
 

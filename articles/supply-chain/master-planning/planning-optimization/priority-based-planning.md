@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186494"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335296"
 ---
 # <a name="priority-based-planning"></a>Планирование на основе приоритетов
 
@@ -30,7 +30,7 @@ ms.locfileid: "9186494"
 
 ## <a name="turn-on-priority-based-planning-in-your-system"></a>Включение планирования на основе приоритетов в вашей системе
 
-Прежде чем использовать эту функцию, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+Прежде чем использовать эту функцию, ее необходимо включить для системы. Администраторы могут использовать параметры [управления компонентами](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Сводное планирование*
 - **Название функции:** *Поддержка MRP на базе приоритетов для оптимизации планирования*

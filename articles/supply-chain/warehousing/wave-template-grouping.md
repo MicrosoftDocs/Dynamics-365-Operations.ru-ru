@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0f0419f1a109f043cb1af6a575704c24420639f1
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: a48e6a81299badf4b811e1cf905beb06099e5a24
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218925"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335986"
 ---
 # <a name="wave-template-grouping"></a>Группировка шаблонов волны
 
@@ -31,7 +31,7 @@ ms.locfileid: "9218925"
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Включение функции группировки шаблонов волн
 
-Прежде чем использовать функцию *Группировка шаблонов волн*, она должна быть включена в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
+Прежде чем использовать функцию *Группировка шаблонов волн*, она должна быть включена для системы. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса функции и ее включения, если это требуется. В рабочей области **Управление функциями** эта функция перечисляется следующими способами:
 
 - **Модуль:** *Управление складом*
 - **Имя функции:** *Группировка шаблонов волн*

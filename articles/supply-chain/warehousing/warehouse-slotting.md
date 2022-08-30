@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218955"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336046"
 ---
 # <a name="warehouse-slotting"></a>Слоттинг на складе
 
@@ -34,7 +34,7 @@ ms.locfileid: "9218955"
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Включение функций слоттинга на складе
 
-Прежде чем использовать эти функции, они должны быть включены в системе. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса этих функций и их включения, если это требуется. Включите следующие функции по мере необходимости:
+Прежде чем использовать эти функции, они должны быть включены для системы. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса этих функций и их включения, если это требуется. Включите следующие функции по мере необходимости:
 
 - Функция слоттинга на складе
 - Слоттинг на складе для заказов на перемещение

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218859"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335866"
 ---
 # <a name="advanced-load-building-during-wave"></a>Расширенное формирование загрузки во время волны
 
@@ -36,7 +36,7 @@ ms.locfileid: "9218859"
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Включение в системе расширенного формирования загрузки волны
 
-Прежде чем можно будет использовать расширенное формирование загрузки волны, в системе должны быть включены две функции. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса этих функций и их включения, если это требуется. В рабочей области **Управление функциями** эти функции перечисляется следующими способами:
+Прежде чем можно будет использовать расширенное формирование загрузки волны, для системы должны быть включены две функции. Администраторы могут использовать параметры [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса этих функций и их включения, если это требуется. В рабочей области **Управление функциями** эти функции перечисляется следующими способами:
 
 - Функция формирования загрузки волны:
 

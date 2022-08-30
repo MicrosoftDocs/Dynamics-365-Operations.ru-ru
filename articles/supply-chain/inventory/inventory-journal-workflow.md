@@ -2,7 +2,7 @@
 title: Рабочие процессы утверждения журнала запасов
 description: Эта статья описывает, как настроить и использовать рабочие процессы утверждения журнала запасов для разноски различных типов проводок для физических запасов. Рабочие процессы утверждения журнала запасов гарантируют, что в проводки могут быть разнесены только утвержденные журналы запасов.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873995"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334666"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Рабочие процессы утверждения журнала запасов
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873995"
 > [!NOTE]
 > Рабочие процессы утверждения журнала запасов применяются только к проводкам, записанным с использованием модуля "Управление запасами". Они не работают с журналами запасов, запущенными в модуле "Управление складом".
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Включение функции рабочих процессов утверждения журнала запасов
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Включение или выключение функции рабочих процессов утверждения журнала запасов
 
-В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. Администраторы могут использовать страницу [управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса компонента и включения или выключения их при необходимости. В этой статье функция указана следующим образом:
-
-- **Модуль:** *Управление запасами и складами*
-- **Название компонента:** *Рабочий процесс утверждения журнала запасов*
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.21 эта функция включена по умолчанию. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Рабочий процесс утверждения журнала запасов* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Создание своих рабочих процессов утверждения журнала запасов
 

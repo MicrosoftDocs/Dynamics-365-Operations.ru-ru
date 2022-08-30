@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867937"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335146"
 ---
 # <a name="product-dimensions"></a>Аналитики продуктов
 
@@ -108,7 +108,7 @@ ms.locfileid: "8867937"
 
 #### <a name="turn-on-the-version-dimension"></a>Включение аналитики версии
 
-Прежде чем использовать аналитику версии, она должна быть включена в системе. Для выполнения этой задачи требуются разрешения администратора.
+Прежде чем использовать аналитику версии, она должна быть включена для системы. Для выполнения этой задачи требуются разрешения администратора.
 
 1. Перейдите в раздел **Администрирование системы \> Рабочие области \> Управление функциями**.
 1. Включите функцию с именем *версия аналитики продукта*. (Дополнительные сведения см. в разделе [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)

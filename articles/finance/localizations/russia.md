@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1123533e1f20cd90df8ca4d8622ccf41db6ddd2d
-ms.sourcegitcommit: ccaeb71c49cd15be472a3fb1c55fc655e133dc29
+ms.openlocfilehash: b1fb779575409792ccba0998a2d2d0f7a6dbcc5a
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9127712"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305204"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -127,6 +127,8 @@ ms.locfileid: "9127712"
 - [Профиль учета](rus-inventory-profile-overview.md)
   - [Настройка профиля учета](rus-set-up-inventory-profile.md)
   - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
+- Растаможивание  
+  - [Работа с растаможиванием](rus-work-with-customs-clearance.md)
 
 ## <a name="reporting"></a>Отчетность
 

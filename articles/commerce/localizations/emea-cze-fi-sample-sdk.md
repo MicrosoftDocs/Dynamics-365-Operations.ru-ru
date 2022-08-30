@@ -2,25 +2,29 @@
 title: Рекомендации по развертыванию для примера интеграции службы финансовой регистрации для Чешской Республики (устаревшая версия)
 description: В этой статье приводятся указания по развертыванию примера финансовой интеграции для Чешской Республики, относящегося к пакету разработки программного обеспечения Retail SDK Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: d689e5b48fb8274a58d0c3a18e70b598aca2c310
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287547"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313838"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Рекомендации по развертыванию для примера интеграции службы финансовой регистрации для Чешской Республики (устаревшая версия)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-В этой статье приводятся рекомендации по развертыванию примера интеграции службы финансовой регистрации для Чешской Республики из пакета Retail SDK Microsoft Dynamics 365 Commerce на виртуальной машине разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции службы финансовой регистрации для Чешской Республики](emea-cze-fi-sample.md). 
+> [!IMPORTANT]
+> Необходимо следовать указаниям, изложенным в этой статье, только если используется Microsoft Dynamics 365 Commerce версии 10.0.28 или более ранней. В Commerce версии 10.0.29 пример интеграции службы финансовой регистрации для Чешской Республики доступен в Commerce SDK. Дополнительные сведения см. в разделе [Настройка компонентов каналов](./emea-cze-fi-sample.md#configure-channel-components).
+
+В этой статье приводятся рекомендации по развертыванию примера интеграции службы финансовой регистрации для Чешской Республики из пакета Retail SDK Dynamics 365 Commerce на виртуальной машине (ВМ) разработчика в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения об этом примере финансовой интеграции см. в разделе [Пример интеграции службы финансовой регистрации для Чешской Республики](emea-cze-fi-sample.md). 
 
 Пример финансовой интеграции для Чешской Республики является частью пакета Retail SDK. Сведения о том, как установить и использовать этот пакет SDK см. в разделе [Архитектура комплекта средств разработки программного обеспечения (SDK) для Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). Этот пример состоит из расширений Commerce Runtime (CRT) и Hardware Station. Для работы с этим примером необходимо изменить и построить проекты CRT и Hardware Station. Для внесения изменений, описанных в этой статье, рекомендуется использовать немодифицированный пакет Retail SDK. Кроме того, рекомендуется использовать систему управления версиями, такую как Azure DevOps, в которой никакие файлы еще не были изменены.
 

@@ -2,7 +2,7 @@
 title: Настройка переключений для шагов в пунктах меню мобильного устройства
 description: В этой статье описывается, как настроить переключения для пунктов меню, чтобы работники могли приостановить выполнение текущей задачи, выполнить другую задачу и вернуться к исходной задаче без потери информации.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219015"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336136"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Настройка переключений для шагов в пунктах меню мобильного устройства
 
@@ -35,9 +35,8 @@ ms.locfileid: "9219015"
 
 1. Перейдите в раздел **Администрирование системы \> Рабочие области \> Управление функциями**.
 1. Убедитесь, что функция *Инструкции для шагов приложения склада* включена в системе. В Supply Chain Management версии 10.0.29 эта функция включена по умолчанию. Дополнительные сведения о функции *Инструкции для шагов приложения склада* см. в разделе [Настройка названий шагов и инструкций для мобильного приложения Warehouse Management](mobile-app-titles-instructions.md). Эта функция является обязательным условием для функции *Переключения приложения Warehouse Management*.
-1. Включите функцию *Переключения приложения Warehouse Management*. Эта функция описана в данной статье.
-1. Обновите имена полей в мобильном приложении Warehouse Management, перейдя **Управление складом \> Настройка \> Мобильное устройство \> Названия полей приложения склада** и выбрав **Создать настройку по умолчанию**. Дополнительные сведения см. в разделе [Настройка полей мобильного приложения управления складом](configure-app-field-names-priorities-warehouse.md).
-1. Повторите предыдущий шаг для каждого юридического лица (компании), где используется мобильное приложение Warehouse Management.
+1. Включите функцию *Переключения приложения Warehouse Management*. Эта функция описана в данной статье. В Supply Chain Management версии 10.0.29 она включена по умолчанию.
+1. Если функция *Переключения приложения Warehouse Management* еще не включена, обновите имена полей в мобильном приложении Warehouse Management, перейдя в раздел **Управление складом \> Настройка \> Мобильное устройство \> Названия полей приложения склада** и выбрав пункт **Создать настройку по умолчанию**. Повторите этот шаг для каждого юридического лица (компании), где используется мобильное приложение Warehouse Management. Дополнительные сведения см. в разделе [Настройка полей мобильного приложения управления складом](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Настройка переключения из переопределения конкретного меню
 

@@ -2,7 +2,7 @@
 title: Отгрузка небольших посылок
 description: В этой статье содержится информация о функции отгрузки небольших посылок (SPS). Эта функция позволяет Microsoft Dynamics 365 Supply Chain Management отправлять сведения о упакованном контейнере перевозчику, а затем получать этикетку отгрузки, ставку отгрузки и номер отслеживания от этого перевозчика.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219729"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336166"
 ---
 # <a name="small-parcel-shipping"></a>Отгрузка небольших посылок
 
@@ -34,12 +34,9 @@ ms.locfileid: "9219729"
 
 Прежде чем приступить к использованию функций SPS, необходимо включить функцию SPS в управлении функциями, добавить механизм ставок и настроить модули **Управление транспортировкой** и **Управление складом** для ее поддержки.
 
-### <a name="turn-on-the-sps-feature"></a>Включение функции SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>Включение или отключение функции SPS
 
-Прежде чем использовать функцию SPS, она должна быть включена в системе. Администраторы могут использовать рабочую область [управления компонентами](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) для проверки статуса этой функции и ее включения, если это требуется. В этом случае функция указана следующим образом:
-
-- **Модуль:** *Управление транспортировкой*
-- **Название компонента:** *Отгрузка небольших посылок*
+Чтобы использовать эту функцию, ее необходимо включить для системы. В Supply Chain Management версии 10.0.29 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.29, администраторы могут включать или выключать эту функцию путем поиска функции *Отгрузка небольших посылок* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Развертывание и настройка механизмов ставок
 

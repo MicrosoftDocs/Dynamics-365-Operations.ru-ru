@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 91a18b6deade6d67fce6b90308671910a4196104
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068607"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335746"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Примеры сценариев подсчета циклов
 
@@ -32,7 +32,7 @@ ms.locfileid: "9068607"
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Включение поддержки для мобильного приложения Warehouse Management
 
-Чтобы использовать мобильное приложение Warehouse Management, в системе должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Чтобы использовать мобильное приложение Warehouse Management, для системы должна быть включена функция *Параметры пользователя, значки и названия шагов для нового приложения склада*. В Supply Chain Management 10.0.25 эта функция обязательна и не может быть отключена. При запуске версии, более старой, чем 10.0.25, администраторы могут включать или выключать эту функцию путем поиска функции *Параметры пользователя, значки и названия шагов для нового приложения склада* в рабочей области [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Подготовка демонстрационных данных для сценариев
 

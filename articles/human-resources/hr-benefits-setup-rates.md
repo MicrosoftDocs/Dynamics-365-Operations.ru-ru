@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aae3d53c1005f096551b107c46ddafb37357f03c
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 37fb24bdda1d49291b88c6728e11aecf9863cc66
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219849"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324828"
 ---
 # <a name="configure-rates"></a>Настройка ставок
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Ставки определяют, сколько работодатели и сотрудники вкладывают для льготы. Значением может быть сумма или количество гибких кредитов в зависимости от конфигурации.
 

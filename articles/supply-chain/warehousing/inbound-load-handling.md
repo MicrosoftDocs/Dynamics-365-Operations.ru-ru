@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219513"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335686"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Складская обработка входящих загрузок для заказов на покупку
 
@@ -259,7 +259,7 @@ Microsoft Dynamics 365 Supply Chain Management поддерживает неск
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Подготовьте систему, чтобы выполнить образцы сценариев
 
-Для работы с примерами сценариев, описанными в этом разделе, необходимо сначала убедиться, что в системе включены все необходимые функции. Требуемые демонстрационные данные должны быть также доступны в системе.
+Для работы с примерами сценариев, описанными в этом разделе, необходимо сначала убедиться, что для системы включены все необходимые функции. Требуемые демонстрационные данные должны быть также доступны в системе.
 
 #### <a name="turn-on-the-required-features"></a>Включение требуемых функций
 

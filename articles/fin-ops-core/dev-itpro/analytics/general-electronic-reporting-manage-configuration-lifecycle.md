@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271594"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337202"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности (ER)
 
@@ -84,7 +84,7 @@ ms.locfileid: "9271594"
 
 ## <a name="data-persistence-consideration"></a>Вопрос сохранения данных
 
-Вы можете индивидуально [импортировать](tasks/er-import-configuration-lifecycle-services.md) разные [версии](general-electronic-reporting.md#component-versioning) [конфигурации](general-electronic-reporting.md#Configuration) электронной отчетности в ваш экземпляр Финансы. Когда импортируется новая версия конфигурации электронной отчетности, система управляет содержимым черновой версии данной конфигурации:
+Вы можете индивидуально [импортировать](tasks/er-import-configuration-lifecycle-services.md) разные версии [конфигурации](general-electronic-reporting.md#Configuration) электронной отчетности в ваш экземпляр Finance. Когда импортируется новая версия конфигурации электронной отчетности, система управляет содержимым черновой версии данной конфигурации:
 
 - Когда импортируемая версия ниже самой верхней версии данной конфигурации в текущем экземпляре Финансов, содержимое черновой версии этой конфигурации остается неизменным.
 - Если импортируемая версия выше какой-либо другой версии данной конфигурации в текущем экземпляре Финансов, содержимое импортируемой версии копируется в черновую версию этой конфигурации, чтобы продолжить редактирование последней выполненной версии.
@@ -112,7 +112,7 @@ ms.locfileid: "9271594"
 
 ![Производная конфигурация формата ER на странице конфигураций.](./media/ger-configuration-lifecycle-img1.png)
 
-После завершения создания формата можно изменить статус первоначальной [версии](general-electronic-reporting.md#component-versioning) формата ER с **Черновик** на **Завершено**. Затем можно использовать завершенную версию конфигурации формата ER, [опубликовав](../../../finance/localizations/rcs-global-repo-upload.md) ее в глобальном репозитории. Затем можно получить доступ к глобальному репозиторию из любого облачного экземпляра Finance или RCS. Затем можно импортировать любую версию конфигурации ER, применимую к приложению из глобального репозитория, в это приложение.
+После завершения создания формата можно изменить статус первоначальной версии формата ER с **Черновик** на **Завершено**. Затем можно использовать завершенную версию конфигурации формата ER, [опубликовав](../../../finance/localizations/rcs-global-repo-upload.md) ее в глобальном репозитории. Затем можно получить доступ к глобальному репозиторию из любого облачного экземпляра Finance или RCS. Затем можно импортировать любую версию конфигурации ER, применимую к приложению из глобального репозитория, в это приложение.
 
 ![Опубликованная конфигурация формата платежей ER на странице репозитория конфигураций.](./media/ger-configuration-lifecycle-img2.png)
 
