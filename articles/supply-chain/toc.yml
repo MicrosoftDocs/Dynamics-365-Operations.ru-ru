@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.29 (октябрь 2022\_г.)"
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: "Supply Chain Management 10.0.28 (август 2022\_г.)"
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: "Supply Chain Management 10.0.27 (июль 2022\_г.)"
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: Получение уведомлений об обновлениях службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: Проактивное обновление качества
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: Автоматизация задач данных
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
-                - name: Поставка решений независимых поставщиков программного обеспечения с помощью One Version
+                - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/supply-chain
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/supply-chain
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Начало работы с электронным выставлением накладных для Египта
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: Начало работы с электронным выставлением накладных для Франции
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Начало работы с электронным выставлением накладных для Мексики
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: Начало работы с электронным выставлением накладных для Саудовской Аравии
@@ -1053,6 +1059,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
                         - name: Split
@@ -1763,7 +1771,9 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Планирование производства
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Планирование без ограничений по мощности
+                - name: Сводное планирование для продуктов с ограничением срока хранения
+                  href: master-planning/planning-optimization/shelf-life.md
+                - name: Планирование без ограничений по емкости
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Планирование с выбором ресурсов на основе емкости
                   href: master-planning/planning-optimization/capability-based-scheduling.md
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: Сообщения по действию
                   href: master-planning/action-messages.md
+                - name: Расчет дат поставки для заказа на продажу с использованием CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Устранение неполадок оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Расширяемость оптимизации планирования
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Чистые потребности и информация об источниках потребности во встроенном сводном планировании
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Автоматизация поставок по индивидуальным заказам
+                  href: master-planning/make-to-order-supply-automation.md
             - name: Прогнозирование
               items:
                 - name: Прогнозирование спроса и поставок
@@ -2467,6 +2481,8 @@
               href: production-control/mixed-mode-plan.md
             - name: Управление работой по субподряду в производстве
               href: production-control/manage-subcontract-work-production.md
+            - name: Как делать готовую продукцию физически доступной до разноски по журналам
+              href: production-control/deferred-posting.md
             - name: Единая номерная серия для кодов заданий
               href: production-control/unified-job-ids.md
             - name: Вызов потоков автоматизации процесса для создания заказов для контроля качества
@@ -2809,6 +2825,8 @@
               items:
                 - name: Резервирование по заказам
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
+                - name: Расчет дат поставки для заказа на продажу с использованием CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: Крайние сроки ввода заказа
                   href: sales-marketing/order-entry-deadlines.md
                 - name: Альтернативные режимы доставки
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Создание нового коммерческого соглашения
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Перерасчет чистой суммы по строке для импорта
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: Очистка данных истории планирования продаж
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Управление сервисным обслуживанием
@@ -3387,8 +3407,10 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: Упаковочные материалы и сборы
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: Настойка упаковки вручную (только версии от февраля и мая 2016 г.)
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Упаковка контейнеров для отгрузки
+                      href: warehousing/packing-containers.md
+                    - name: Работа по упаковке для упаковки исходящих контейнеров и обработки отгрузок
+                      href: warehousing/packing-work.md
                     - name: Настройка перераспределения номенклатур для недоукомплектованности
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Отмена работы склада для обработки исключений
@@ -3545,6 +3567,8 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Настройка переключений для шагов в пунктах меню мобильного устройства
                       href: warehousing/warehouse-app-detours.md
+                    - name: Запрос данных с помощью переключений в мобильном приложении Warehouse Management
+                      href: warehousing/warehouse-app-data-inquiry.md
                     - name: Получение грузомест с помощью мобильного приложения Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку

@@ -1,24 +1,24 @@
 ---
 title: Перераспределение признания выручки
 description: В этой статье приводятся сведения о перераспределении, которое позволяет организациям пересчитывать цены в выручке при изменении условий продажи по договору. В нем содержатся ссылки на другие разделы, в которых описывается признание выручки в нескольких сценариях.
-author: kweekley
+author: bking
 ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c7e2149058ebbff85cbc2ac86dac3231fbcc41d
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903430"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348164"
 ---
 # <a name="revenue-recognition-reallocation"></a>Перераспределение признания выручки
 

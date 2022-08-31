@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Что нового и что изменилось в Human Resources
               items:
+                - name: Human Resources 10.0.29 (объединенная инфраструктура)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (объединенная инфраструктура)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: Настройка параметров управления льготами и самообслуживания сотрудников для всех компаний
                   href: hr-benefits-setup-parameters.md
+                - name: Настройка прав администратора для жизненных событий
+                  href: admin-life-events.md
+                - name: Настройка уведомлений по электронной почте для льгот
+                  href: hr-email-notifications.md
                 - name: Настройка правил и параметров приемлемости
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: Настройка параметров приемлемости личных контактов

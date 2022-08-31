@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (октябрь)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (август)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (июль)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Получение уведомлений об обновлениях службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Проактивное обновление качества
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Автоматизация задач данных
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: Поставка решений независимых поставщиков программного обеспечения с помощью One Version
+                - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Просмотр записей или проводок в журнале
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Разрешить изменение внутренних данных по ваучерам главной книги
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Просмотр связанных внутрихолдинговых ваучеров из журнала
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Публикация строк журнала и документов из Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Начало работы с электронным выставлением накладных для Египта
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Начало работы с электронным выставлением накладных для Франции
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Начало работы с электронным выставлением накладных для Мексики
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Начало работы с электронным выставлением накладных для Польши
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Начало работы с электронным выставлением накладных для Саудовской Аравии
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Внедрение электронного выставления накладных в Саудовской Аравии
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Настройка прямой интеграции итальянской FatturaPA с SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Использование службы электронных накладных для импорта накладных поставщиков
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Вопросы и ответы по электронному выставлению накладных
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Расчет налогов
@@ -1648,6 +1660,10 @@
                           items:
                             - name: Декларация по НДС
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Отчетность Польши
+                          items:
+                            - name: Декларация по НДС
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Отчетность Испании
                           items:
                             - name: 'Немедленное предоставление информации по НДС (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Расчет и корректировка налога по накладной поставщика
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Корректировка налога через общие журналы
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Включение отложенного расчета налогов в журнале
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Создание налогового платежа
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Настройка глобального подоходного налога
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Включение настройки типа даты и типа валютного курса глобального подоходного налога
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Подоходный налог в проводках по покупкам
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Подоходный налог в проводках по продажам
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: Перемещение XML-файлов NF-e как вложений
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 — обновления макета и проверки в электронном финансовом документе (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 — обновления макета и проверки в электронном финансовом документе (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — цифровая платформа промежуточных продаж для NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Аудиторский след и журналы изменений для программного обеспечения учета
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Электронные накладные в Индии
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Косвенные налоги
                   items:
                     - name: GST Индии
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Использование профиля учета в документах и запросах
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Растаможивание
+                      items:
+                        - name: Работа с растаможиванием
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Отчетность
                   items:
                     - name: Финансовая отчетность
@@ -3576,7 +3604,9 @@
                       href: localizations/rus-company-divisions.md
                     - name: Российские форматы адресов и импорт из ФИАС
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
-                - name: РБП
+                    - name: Импорт из Государственного адресного реестра (ГАР)
+                      href: localizations/rus-russian-address-format-import-gar.md
+                - name: Отсрочки
                   items:
                     - name: Настройка РБП
                       href: localizations/rus-set-up-deferrals.md
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

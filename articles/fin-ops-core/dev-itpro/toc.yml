@@ -14,6 +14,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновления платформы
                   href: get-started/whats-new-home-page.md
+                - name: "Обновления платформы для версии 10.0.29 (октябрь 2022\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Обновления платформы для версии 10.0.28 (август 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: "Обновления платформы для версии 10.0.27 (июль 2022\_г.)"
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Включение сопоставления объектов для двойной записи
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Включение пятиминутного окна истечения для сеансов двойной записи
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Разделенный пакет оркестрации приложений с двойной записью
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Миграция типа данных валюты для двойной записи

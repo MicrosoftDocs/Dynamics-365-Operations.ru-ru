@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Commerce
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.29 (октябрь 2022\_г.)"
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (июль 2022 г.)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (июль 2022 г.)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Получение уведомлений об обновлениях службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Проактивное обновление качества
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Автоматизация задач данных
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: Поставка решений независимых поставщиков программного обеспечения с помощью One Version
+                - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Регистратор задач и справка для MPOS и Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: Настройка CPOS для использования пользовательского приложения Azure AD
+                      href: cpos-custom-aad.md
                     - name: Периферийное оборудование
                       items:
                         - name: Периферийные устройства
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Скидки на основе платежных средств
                   href: tender_based_discounts.md
-                - name: Обзор скидок на доставку
-                  href: retail-shipping-discount.md
+                - name: Скидки при отгрузке
+                  href: shipping-discount.md
                 - name: Настройка подарков с акциями по покупке
                   href: gift-with-purchase.md
                 - name: Настройка купонов
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Отсрочка точного расчета цены и скидки
                   href: delayed-price-calculation.md
+                - name: Функции ценообразования в POS
+                  href: pos-pricing-functions.md
+                - name: API ценообразования для Commerce
+                  href: pricing-apis.md
             - name: Рекомендации
               items:
                 - name: Обзор рекомендаций по продуктам
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: Преобразование асинхронных клиентов в синхронных клиентов
               href: convert-async-to-sync.md
+            - name: Вопросы и ответы по режиму создания асинхронных клиентов
+              href: async-customer-mode-faq.md
             - name: Отношения с клиентами
               items:
                 - name: Обзор отношений с клиентами
@@ -1252,9 +1264,13 @@
                       href: product-collection-module-overview.md
                     - name: Модуль быстрого просмотра
                       href: quick-view-module.md
+                - name: Модули сравнения продуктов
+                  items:
+                    - name: Модули сравнения продуктов
+                      href: product-comparison-modules.md
                 - name: Модули навигации
                   items:
-                    - name: Модуль иерархической навигации
+                    - name: Модуль навигации
                       href: add-breadcrumb.md
                     - name: Модуль меню навигации
                       href: nav-menu-module.md
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Модуль согласия на получение файлов cookie
                       href: cookie-consent-module.md
+                - name: Модули чата
+                  items:
+                    - name: Модуль чата Commerce
+                      href: commerce-chat-module.md
             - name: Поиск
               items:
                 - name: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
@@ -1404,8 +1424,6 @@
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
                   href: localizations/emea-aut-fi-sample.md
-                - name: Рекомендации по развертыванию контрольно-кассовых машин для Австрии
-                  href: localizations/emea-aut-deployment.md
                 - name: Пример рекомендаций по развертыванию для финансовой интеграции для Австрии (устарело)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Бразилия
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Переход с устаревших функциональных возможностей для Норвегии
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин (устарело)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Россия
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: Обзор Commerce SDK
                   items:
-                    - name: Образцы и справочные пакеты
+                    - name: Загрузка примеров и демонстрационных пакетов Commerce SDK
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Миграция устаревшего Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
