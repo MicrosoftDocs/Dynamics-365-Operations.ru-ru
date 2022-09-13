@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357650"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423604"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API Inventory Visibility
 
@@ -41,6 +41,8 @@ ms.locfileid: "9357650"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Разнести | [Реверсирование одного события резервирования](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Разнести | [Реверсирование нескольких событий резервирования](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Разнести | [Создание одного запланированного изменения запасов в наличии](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Разнести | [Создание нескольких запланированных изменений запасов в наличии](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Разнести | [Запрос с использованием метода POST](#query-with-post-method) |
@@ -56,7 +58,7 @@ ms.locfileid: "9357650"
 > 
 > Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
 
-Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
@@ -146,7 +148,7 @@ ms.locfileid: "9357650"
    - **Заголовок HTTP:** включите версию API. (Ключ — `Api-Version`, и значение — `1.0`.)
    - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
 
-   В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример:
+   В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример.
 
    ```json
    {
@@ -168,9 +170,9 @@ ms.locfileid: "9357650"
 
 В следующей таблице дана сводка значение каждого поля в тексте JSON.
 
-| FieldID | описание |
+| FieldID | Описание |
 |---|---|
-| `id` | Уникальный код для конкретного события изменения. Этот код используется, чтобы гарантировать, что при возникновении ошибки при обмене данными со службой во время разноски то же событие не будет дважды учитываться в системе при повторной отправке. |
+| `id` | Уникальный код для конкретного события изменения. Если из-за сбои системы происходит повторная отправка, этот код используется, чтобы гарантировать, что одно и то же событие не будет дважды учитываться в системе. |
 | `organizationId` | Идентификатор организации, связанной с событием. Это значение сопоставляется с организацией или идентификатором области данных в Supply Chain Management. |
 | `productId` | Идентификатор продукта. |
 | `quantities` | Это количество, на которое должно быть уменьшено количество в наличии. Например, если на полку добавлено 10 новых книг, это значение будет равно `quantities:{ shelf:{ received: 10 }}`. Если с полки убраны или проданы три книги, это значение будет равно `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ ms.locfileid: "9357650"
 | `dimensions` | Динамическая пара "ключ-значение". Значения сопоставляются с некоторыми аналитиками в Supply Chain Management. Однако можно также добавить пользовательские аналитики (например, _Источник_), чтобы указать, поступает ли событие из модуля Supply Chain Management или из внешней системы. |
 
 > [!NOTE]
-> Параметры `SiteId` и `LocationId` создают [конфигурацию раздела](inventory-visibility-configuration.md#partition-configuration). Поэтому при создании событий изменения запасов в наличии необходимо задать их в аналитиках, установить или переопределить количества в наличии или создать события резервирования.
+> Параметры `siteId` и `locationId` создают [конфигурацию раздела](inventory-visibility-configuration.md#partition-configuration). Поэтому при создании событий изменения запасов в наличии необходимо задать их в аналитиках, установить или переопределить количества в наличии или создать события резервирования.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Создание одного события изменения в наличии
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId&quot;: &quot;Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId&quot;: &quot;red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>Создание событий резервирования
 
-Для использования API *Резервирование* необходимо открыть функцию резервирование и выполнить настройку резервирования. Дополнительные сведения см. в [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
+Для использования API *Резервирование* необходимо включить функцию резервирования и выполнить настройку резервирования. Дополнительные сведения см. в [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Создание одного события резервирования
 
@@ -389,7 +391,7 @@ Body:
 
 При вызове API резервирования можно контролировать проверку резервирования путем указания логического параметра `ifCheckAvailForReserv` в тексте запроса. Значение `True` означает, что проверка является обязательной, а значение `False` означает, что проверка не является обязательной. Значение по умолчанию — `True`.
 
-Если необходимо отменить резервирование или отказаться от указанного количества запасов, установите отрицательное значение количества и задайте для параметра `ifCheckAvailForReserv` значение `False` для пропуска проверки.
+Если необходимо реверсировать резервирование или отказаться от указанного количества запасов, установите отрицательное значение количества и задайте для параметра `ifCheckAvailForReserv` значение `False` для пропуска проверки. Также имеется выделенный API-интерфейс отмены резервирования для выполнения той же задачи. Разница заключается только в способе вызова двух интерфейсов API. Конкретное событие резервирования проще реверсировать, используя `reservationId` с API-интерфейсом *отмены резервирования*. Дополнительные сведения см. в разделе [_Отмена резервирования одного события резервирования_](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+В следующем примере показан успешный ответ.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Создание нескольких событий резервирования
 
-Этот интерфейс API представляет собой массовую версию [API одного события](#create-one-reservation-event).
+Этот интерфейс API представляет собой массовую версию [API одного события](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Реверсирование событий резервирования
+
+API-интерфейс *Отмена резервирования* выступает в качестве обратной операции для событий [*Резервирование*](#create-reservation-events). Он предоставляет способ сторнирования события резервирования, указанного по `reservationId`, или для уменьшения количества резервирования.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>Реверсирование одного события резервирования
+
+Когда создается резервирование, `reservationId` будет включен в тело ответа. Для отмены резервирования необходимо указать то же самое значение `reservationId`, и включить те же значения `organizationId` и `dimensions`, которые использовались для вызова API-интерфейса резервирования. Наконец, укажите значение `OffsetQty`, представляющее число номенклатур, которое должно быть освобождено из предыдущего резервирования. Резервирование может быть полностью или частично отменено в зависимости от указанного значения `OffsetQty`. Например, если *100* единиц номенклатуры было зарезервировано, можно указать `OffsetQty: 10`, чтобы отменить резервирование *10* из первоначально зарезервированной суммы.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+В следующем коде показан пример содержимого текста.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+В следующем коде показан пример текста успешного ответа.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Когда в тексте ответа значение `OffsetQty` меньше или равно количеству резервирования, `processingStatus` будет "*success*" и `totalInvalidOffsetQtyByReservId` будет равно *0*.
+>
+> Если `OffsetQty` больше зарезервированной суммы, `processingStatus` будет "*partialSuccess*" и `totalInvalidOffsetQtyByReservId` будет разницей между `OffsetQty` и зарезервированным количеством.
+>
+>Например, если резервирование имеет количество *10*, а `OffsetQty` равно *12*, `totalInvalidOffsetQtyByReservId` будет *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>Реверсирование нескольких событий резервирования
+
+Этот интерфейс API представляет собой массовую версию [API одного события](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Запрос в наличии
 
-Используйте API _Запрос в наличии_ для получения текущих данных запасов в наличии для вашей продукции. В настоящее время API поддерживает запросы до 100 отдельных номенклатур по значению `ProductID`. В каждом запросе также может быть указано несколько значений `SiteID` и `LocationID`. Максимальное ограничение определяется как `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Используйте API *Запрос в наличии* для получения текущих данных запасов в наличии для вашей продукции. В настоящее время API поддерживает запросы до 5000 отдельных номенклатур по значению `productID`. В каждом запросе также может быть указано несколько значений `siteID` и `locationID`. Максимальное ограничение определяется следующим уравнением:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Запрос с использованием метода POST
 
@@ -517,7 +629,7 @@ Body:
 - `productId` может содержать одно или несколько значений. Если оно является пустым массивом, будут возвращаться все продукты.
 - `siteId` и `locationId` используются для секционирования в видимости запасов. Вы можете указать более одного значения `siteId` и `locationId` в запросе *Запрос в наличии*. В текущем выпуске необходимо указать оба значения `siteId` и `locationId`.
 
-Параметр `groupByValues` должен соответствовать вашей конфигурации для индексирования. Дополнительные сведения см. в [Конфигурация иерархии индекса продуктов](./inventory-visibility-configuration.md#index-configuration).
+Мы рекомендуем использовать параметр `groupByValues`, чтобы соответствовать вашей конфигурации для индексирования. Дополнительные сведения см. в [Конфигурация иерархии индекса продуктов](./inventory-visibility-configuration.md#index-configuration).
 
 Этот параметр `returnNegative` определяет, содержат ли результаты отрицательные значения.
 
@@ -530,13 +642,13 @@ Body:
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 Пример URL-адреса GET. Этот запрос GET в точности совпадает с приведенным ранее примером POST.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Доступно для резервирования

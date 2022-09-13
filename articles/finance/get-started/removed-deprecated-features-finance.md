@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313894"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410459"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции в Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ ms.locfileid: "9313894"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях для управления финансами и операциями можно найти в документе [Технический справочник по отчетам](/dynamics/s-e/global/axtechrefrep_61). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений для управления финансами и операциями.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.30
+
+### <a name="revenue-recognition"></a>Признание выручки
+
+[Признание выручки](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Причина устаревания/удаления** |Заменяется улучшенной функциональностью [Выставление счетов по подпискам](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта** | Приложение |
+| **Вариант развертывания** | Все |
+| **Состояние** | Устарело: после апреля 2023 функция признания выручки в Dynamics 365 Finance больше не будет получать поддержку с исправлением ошибок. Клиентам будет предложено использовать улучшенную функцию [Выставление счетов по подпискам](../../finance/accounts-receivable/subscription-billing-summary.md). В октябре 2023 функция признания выручки больше не будет доступна. Клиентам будет предложено перейти на улучшенную функцию выставления счетов по подпискам.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.29
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219105"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403712"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.25 (апрель 2022 г.)
 
@@ -161,7 +161,7 @@ ms.locfileid: "9219105"
 | Управление складом | [Позиционирование грузоместа в местонахождении](../warehousing/location-license-plate-positioning.md) | Обязательная аналитика |
 | Управление складом | [Смешивание аналитик продуктов в местонахождении](../warehousing/location-product-dimension-mixing.md) | Обязательная аналитика |
 | Управление складом | Редактируемое поле статуса запасов при перемещении запасов с мобильного устройства | Обязательная аналитика |
-| Управление складом | Служба комплектации строк продажи вручную для администратора или подобных доверенных пользователей | Обязательная аналитика |
+| Управление складом | [Служба комплектации строк продажи вручную для администратора или подобных доверенных пользователей](../warehousing/manual-order-line-picking-exception-handling.md) | Обязательная аналитика |
 | Управление складом | [Запретить использование грузомест отгруженных заказов на перемещение на других складах, отличных от склада назначения](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Обязательная аналитика |
 | Управление складом | Запрос на разрешение неоднозначных имен "местонахождение / грузоместо" | Обязательная аналитика |
 | Управление складом | [Проверка качества](../warehousing/quality-check.md) | Обязательная аналитика |

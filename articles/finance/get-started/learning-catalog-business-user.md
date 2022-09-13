@@ -1,23 +1,23 @@
 ---
 title: Каталог обучения для пользователей Dynamics 365 Finance
 description: Найдите все варианты обучения для пользователей Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 99a672e4fd0bfe270f0cd1bfa421b7bd6feca9e1
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069295"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424569"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Каталог обучения для пользователей Dynamics 365 Finance
 
@@ -25,11 +25,10 @@ ms.locfileid: "9069295"
 
 Следующий каталог систематизирован от базовых знаний до конкретных доменов, а также от базовых до более сложных. Если содержимое существует в нескольких форматах, мы вам сообщим, чтобы можно было выбрать формат обучения, который наилучшим образом соответствует вашим потребностям.
 
-## <a name="get-started"></a>Начало работы<a name="get-started"></a>
+## <a name="get-started"></a>Начать<a name="get-started"></a>
 
-| Содержание | описание | Формат | Длина |
+| Содержимое | Описание | Формат | Длина |
 |---------|-------------|--------|--------|
-| [Значение Microsoft Dynamics 365 и Power Platform для бизнеса](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Вы заинтересованы в изучении бизнес-приложений? Возможно, вы не знаете, как начать работать с приложениями Microsoft Dynamics 365 и Power Platform? Узнайте, как мощь бизнес-приложений может способствовать преобразованию бизнеса. | Бесплатный путь онлайн-обучения в произвольном темпе | 8 часов |
 | [Основы Dynamics 365 и Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Вы заинтересованы в изучении бизнес-приложений? Начните с этого учебного пути, чтобы узнать, как используются приложения Dynamics 365. Узнайте о концепциях облака, Power Platform и о том, как начать работу с приложениями Dynamics 365. | Бесплатный путь онлайн-обучения в произвольном темпе | 5.5 часов   |
 | [Начните работать с приложениями для управления финансами и операциями](/learn/paths/get-started-finance-operations/) | Узнайте, как приложения для управления финансами и операциями помогают предприятиям управлять глобальными финансовыми системами, рабочими бизнес-процессами и оптимизированными цепочками поставок, предоставляя сотрудникам возможность быстро принимать обоснованные решения.   В качестве первого шага по работе с приложениями для управления финансами и операциями необходимо ознакомиться с их возможностями и функциями, какую бы роль вы ни хотели исполнять. | Бесплатный путь онлайн-обучения в произвольном темпе | 2 часов |
 | [Начало работы с Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | С помощью Dynamics 365 Intelligent Order Management клиенты могут управлять оркестрацией заказов посредством выполнения. Эти возможности позволяют организациям оркестрировать потоки заказов между различными платформами и приложениями. | Бесплатный модуль онлайн-обучения в произвольном темпе | 30 минут |
