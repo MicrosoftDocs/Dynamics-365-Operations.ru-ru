@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (ноябрь)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (октябрь)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (август)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Анализатор источника учета
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: 'Документы, ожидающие учета'
+                      href: general-ledger/documents-pending-accounting.md
             - name: Отчеты и запросы
               items:
                 - name: Просмотр записей в журнале и проводок

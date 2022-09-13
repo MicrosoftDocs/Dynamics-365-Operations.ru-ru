@@ -14,6 +14,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновления платформы
                   href: get-started/whats-new-home-page.md
+                - name: "Обновления платформы для версии 10.0.30 (ноябрь 2022\_г.)"
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: "Обновления платформы для версии 10.0.29 (октябрь 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: "Обновления платформы для версии 10.0.28 (август 2022\_г.)"

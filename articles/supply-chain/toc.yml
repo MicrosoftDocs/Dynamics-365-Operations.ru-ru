@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Настройка перераспределения номенклатур для недоукомплектованности
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Отмена работы склада для обработки исключений
-                      href: warehousing/cancel-warehouse-work.md
                     - name: 'Последовательность работ, управляемая системой'
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Группировка строк комплектации
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Визуализация исходящей рабочей нагрузки
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Обработка исключений комплектации в строках продажи и перемещения вручную
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Отмена работы склада для обработки исключений
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Пополнение
                   items:
                     - name: Обзор пополнения

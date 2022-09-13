@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Commerce
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.30 (ноябрь 2022\_г.)"
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: "Commerce 10.0.29 (октябрь 2022\_г.)"
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (июль 2022 г.)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Определение скидок на уровне каналов
                   href: define-channel-specific-discounts.md
-                - name: Параметры отмены скидок по розничным продуктам
-                  href: prevent-discounts.md
                 - name: Скидки на основе платежных средств
                   href: tender_based_discounts.md
                 - name: Скидки при отгрузке
                   href: shipping-discount.md
                 - name: Настройка подарков с акциями по покупке
                   href: gift-with-purchase.md
-                - name: Настройка купонов
-                  href: retail-coupons.md
-                - name: Отображение скидок в POS
-                  href: discounts-pos.md
+                - name: Купоны
+                  href: coupons.md
+                - name: Параметры ценообразования
+                  href: price-settings.md
                 - name: Отчеты по ценам
                   href: price-report.md
                 - name: Создание коммерческих соглашений для определенных каналов
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Операция поиска запасов в POS
                       href: pos-inventory-lookup-operation.md
+                    - name: Список продуктов с учетом запасов
+                      href: inventory-aware-product-listing.md
                 - name: Заказы на покупку
                   items:
                     - name: Обзор заказов на покупку
