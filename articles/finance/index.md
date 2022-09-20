@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887900"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475593"
 ---
 # <a name="finance-home-page"></a>Домашняя страница Finance
 
@@ -41,7 +41,7 @@ ms.locfileid: "8887900"
         - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Финансовая отчетность](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ ms.locfileid: "8887900"
 
 ### <a name="countryregion-functionality"></a>Функциональность страны/региона
 
-Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
@@ -80,6 +80,6 @@ ms.locfileid: "8887900"
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень интерактивных курсов и обучения см. в разделе [Dynamics 365 Finance на сайте Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Перечень онлайн-курсов и других учебных материалов см. в [схемах обучения Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

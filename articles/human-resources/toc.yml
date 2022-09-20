@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Что нового и что изменилось в Human Resources
               items:
+                - name: Human Resources 10.0.30 (объединенная инфраструктура)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (объединенная инфраструктура)
@@ -474,10 +476,12 @@
               href: hr-workflow-manage-employee-information.md
             - name: Просмотр изменений адресов и управление ими
               href: hr-personnel-view-address-changes.md
-            - name: Изменение отношений подотчетности для должности
+            - name: Изменение отношений подотчетности для позиции
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Упрощенный ввод данных о сотрудниках
               href: stream-employee-entry.md
+            - name: Персонализация элемента управления "заголовок"
+              href: hr-worker-header-control.md
             - name: Ввод сведений о работнике
               href: hr-personnel-enter-worker-information.md
             - name: Работники без трудоустройства

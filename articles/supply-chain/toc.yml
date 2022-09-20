@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: "Supply Chain Management 10.0.30 (ноябрь 2022\_г.)"
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: "Supply Chain Management 10.0.29 (октябрь 2022\_г.)"
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: "Supply Chain Management 10.0.28 (август 2022\_г.)"
@@ -1715,13 +1717,35 @@
                   href: inventory/inventory-visibility-allocation.md
                 - name: График изменения запасов в наличии и доступных для заказа в Inventory Visibility
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Общедоступные интерфейсы API Inventory Visibility
+                - name: Общедоступные API Inventory Visibility
                   href: inventory/inventory-visibility-api.md
                 - name: Советы по Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
-        - name: Бизнес-аналитика IoT
+        - name: Sensor Data Intelligence
           items:
-            - name: Домашняя страница бизнес-аналитики Интернета вещей
+            - name: Домашняя страница Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Включение Sensor Data Intelligence для вашей системы
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Развертывание IoT-решения в Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Параметры Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Настройка модели датчика для тестирования
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Сценарий "простой активов"
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Сценарий "обслуживание активов"
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Сценарий "состояние оборудования"
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Сценарий "качество продукции"
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Сценарий "задержки производства"
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
+        - name: Бизнес-аналитика Интернета вещей
+          items:
+            - name: Домашняя страница Бизнес-аналитики Интернета вещей
               href: iot/iot-intelligence-home-page.md
             - name: Настройка ресурсов Azure
               href: iot/iot-azure-setup.md
@@ -1940,7 +1964,7 @@
                 - name: Управление затратами
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Управление расходами
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Запасы в наличии
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Утверждения накладных
@@ -1948,11 +1972,11 @@
                 - name: Моя группа
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Обзор мобильных приложений Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Регистрация времени проекта
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Утверждение заказа на покупку
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Заказы на продажу
@@ -3463,11 +3487,11 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Политики консолидации отгрузок
                   items:
-                    - name: Политики консолидации отгрузок
+                    - name: Обзор политик консолидации отгрузок
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Настройка политик консолидации отгрузок
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
+                    - name: 'Сценарий 1: отгрузки консолидируются при выпуске на склад с помощью автоматического выпуска заказов на продажу'
                       href: warehousing/consolidate-shipments-automatic.md
                     - name: 'Случай 2: отгрузки консолидируются при переопределении политики консолидации отгрузок'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md

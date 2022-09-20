@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 18cbcf3ddcfab1f26b0006676f1da8b395e876f4
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066068"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475546"
 ---
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля Supply Chain Management
 
@@ -40,7 +40,7 @@ ms.locfileid: "9066068"
 - [Учет затрат](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Управление затратами](cost-management/cost-management-home-page.md)  
 - [Управление запасами](inventory/inventory-home-page.md)
-- [Бизнес-аналитика IoT](iot/iot-intelligence-home-page.md)
+- [Бизнес-аналитика Интернета вещей](iot/iot-intelligence-home-page.md)
 - [Сводное планирование](master-planning/master-planning-home-page.md)
 - [Закупки и источники](procurement/procurement-sourcing-overview.md)
 - [Управление сведениями о продукте](pim/product-information.md)
@@ -102,8 +102,6 @@ ms.locfileid: "9066068"
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Supply Chain Management на сайте Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
-
+Перечень онлайн-курсов и других учебных материалов см. на сайте [Dynamics 365 Supply Chain Management](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
