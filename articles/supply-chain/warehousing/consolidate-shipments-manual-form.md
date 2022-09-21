@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05f094b82b3d9bf9c095bc43f404aa7159bcafba
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897352"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427913"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Консолидируйте отгрузки вручную, используя страницу Консолидация отгрузок
 
@@ -93,7 +93,7 @@ ms.locfileid: "8897352"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Политики консолидации отгрузок](about-shipment-consolidation-policies.md)
+- [Обзор политик консолидации отгрузок](about-shipment-consolidation-policies.md)
 - [Настройка политик консолидации отгрузок](configure-shipment-consolidation-policies.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

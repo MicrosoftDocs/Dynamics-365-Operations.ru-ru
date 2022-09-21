@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280935"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476836"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Разработка конфигурации для создания документов в формате Excel
 
@@ -186,6 +186,9 @@ ms.locfileid: "9280935"
 
 > [!NOTE]
 > Все изображения и формы Excel перекрепляются по верхнему левому углу в конкретную ячейку или диапазон Excel. Если требуется копировать изображение или форму Excel, необходимо настроить ячейку или диапазон, для которых она была привязана, в качестве копируемой ячейки или диапазона.
+
+> [!TIP]
+> Если планируется использовать изображение с пользовательским масштабом и пропорциями во время выполнения, рекомендуется задать параметру **Сохранять масштаб изображений** родительского [компонента файла Excel](#excel-file-component) значение **Да**, чтобы применять масштаб и пропорции в качестве заполнителя для этого изображения в используемом шаблоне Excel.
 
 Дополнительные сведения о внедрении изображений и форм см. в разделе [Внедрение изображений и фигур в документы, создаваемые с помощью электронной отчетности](electronic-reporting-embed-images-shapes.md).
 

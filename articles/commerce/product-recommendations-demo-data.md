@@ -2,7 +2,7 @@
 title: Создание рекомендаций с помощью демонстрационных данных
 description: В этой статье приводятся инструкции по использованию омниканальных рекомендаций по продуктам в среде уровня 1 с одним блоком, используя готовые настраиваемые демонстрационные данные.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e3df414b3c16c28b6f5ca04f765d91c1312ada4
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874903"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459977"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Создание рекомендаций с помощью демонстрационных данных
 
@@ -45,7 +45,7 @@ ms.locfileid: "8874903"
 
 | Наименование столбца         | Обязательно          | описание                                                                                                                                 | Возможные значения                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| RecoList            | :heavy_check_mark: | Особый тип списка рекомендованных продуктов, который будет создаваться на этапе демонстрационных данных.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
+| RecoList            | :heavy_check_mark: | Особый тип списка рекомендованных продуктов, который будет создаваться на этапе демонстрационных данных.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li><li>RecoPicks</li><li>RecoSimilarVisual</li><li>RecoSimilarTextual</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Конкретный номер операционной единицы, в которой предполагается, что отображаются рекомендации продуктов.                                        |                                                                              |
 | Категория            |                    |    Категория, для которой должен возвращаться определенный список. Если категория не указана, список будет только для вершины иерархии переходов.    |                                                                              |
 | SeedItemId          |                    |    Для списков, требующих начального значения (RecoPeopleAlsoBuy и RecoCart), продукт, для которого эти списки должны отображать дополнительные продукты.            |                                                                              |

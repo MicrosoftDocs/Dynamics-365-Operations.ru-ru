@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: db8799aba8095c8144d878c96590e8d90276726b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334726"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428209"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.26 (май 2022 г.)
 
@@ -36,7 +36,7 @@ ms.locfileid: "9334726"
 | Запасы и логистика | [Запрос видимости запасов в наличии для поддержки расширенных номенклатур управления складом](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Поддержка видимости запасов для номенклатур WMS](../inventory/inventory-visibility-whs-support.md) | Управление функциями:<br>*Включить складские номенклатуры в видимости запасов* |
 | Запасы и логистика | [Доступное для заказа для надстройки видимости запасов](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Графики изменения запасов в наличии и доступность для заказа](../inventory/inventory-visibility-available-to-promise.md) | Включено конфигурацией службы |
 | Производство | [Номенклатуры с учетом в двух единицах измерения для интерфейса выполнения производственного цеха](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*Отчеты по номенклатурам, учитываемым в двух единицах измерения, из интерфейса выполнения производственного цеха* |
-| Производство | Вкладка "Мои задания" в интерфейсе выполнения производственного цеха <!-- KFM: Add link to release plan when available --> | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*Вкладка "Мои задания" в интерфейсе выполнения производственного цеха* |
+| Производство | Вкладка "Мои задания" в интерфейсе выполнения производственного цеха | [Как работники используют интерфейс выполнения производственного цеха](../production-control/production-floor-execution-use.md) | Управление функциями:<br>*Вкладка "Мои задания" в интерфейсе выполнения производственного цеха* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Улучшения функций, включенные в данный выпуск
 

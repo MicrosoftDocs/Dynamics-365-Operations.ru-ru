@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336948"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472722"
 ---
 # <a name="benefits-management-workspace"></a>Рабочая область управления льготами
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 В этой статье описывается рабочее пространство **Управление льготами** в Dynamics 365 Human Resources.
-
-> [!NOTE]
-> Для просмотра рабочей области **Управление льготами** необходимо сначала включить **(Предварительная версия) Рабочая область управления льготами** в управлении функциями. Дополнительные сведения о включении предварительных версий функций см. в разделе [Управление функциями](hr-admin-manage-features.md).<br><br>![Включение рабочей области управления льготами.](./media/hr-benefits-management-workspace-enable.png)
 
 Рабочая область **Управление льготами** позволяет быстро просматривать льготы, требующие вашего внимания. На этой странице показано:
 

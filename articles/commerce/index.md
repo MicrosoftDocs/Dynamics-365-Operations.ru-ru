@@ -18,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f111ccf8b41ad420d38945b44c323d66f8f778fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: f752e93331be8efa40b0daf4bfb95f9ce5f39cb9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219256"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462233"
 ---
 # <a name="commerce-home-page"></a>Домашняя страница Commerce
 
@@ -58,4 +58,4 @@ Dynamics 365 Commerce— основана на проверенных возмо
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Commerce на сайте Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Commerce](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).

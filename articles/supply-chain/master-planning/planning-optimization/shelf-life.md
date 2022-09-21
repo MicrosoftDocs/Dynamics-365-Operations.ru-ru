@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337160"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428230"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Сводное планирование для продуктов с ограничением срока годности
 
@@ -298,8 +298,6 @@ SO1 невозможно обеспечить запасами в наличии
 ![Пример 4. Простой FEFO, период, время упреждения зависит от количества.](media/fefo-example-4.png "Пример 4. Простой FEFO, период, время упреждения зависит от количества")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Пример 5. Простой FEFO, потребность, 10 отрицательных дней
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 В этом примере показано, как работать со сроком годности при добавлении для номенклатуры большого количества отрицательных дней. Отрицательные дни — это число дней, в течение которых вы готовы ожидать, прежде чем заказать пополнение номенклатуры в случае отрицательных запасов. Система не создает поставки, если количество отрицательных дней не превышает допустимое значение.
 

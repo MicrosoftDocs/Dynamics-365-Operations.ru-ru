@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405558"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473749"
 ---
 # <a name="inventory-aware-product-listing"></a>Список продуктов, поддерживающий запасы
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 В этой статье описывается, как организации могут настроить страницы списка продуктов на веб-сайте электронной коммерции Microsoft Dynamics 365 Commerce так, чтобы они были осведомлены о запасах. Страницы списка продуктов включают целевые страницы категории и страницы результатов поиска.
 

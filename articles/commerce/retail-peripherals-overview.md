@@ -2,7 +2,7 @@
 title: Периферийные устройства
 description: В этой статье объясняются понятия, связанные с периферийными устройствами Commerce.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880089"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460003"
 ---
 # <a name="peripherals"></a>Периферийные устройства
 
@@ -141,6 +141,9 @@ Modern POS для Android является версией программы Mod
 Modern POS поддерживает считыватели магнитных карт и сканеры UWP. Таким образом, когда Modern POS готов для ввода данных из одного из этих устройств и подключено устройство, которое относится к одному из этих классов, можно использовать это устройство. Например, если самонастраивающийся сканер штрихкодов подключен к компьютеру с Windows 10 и настроен вход по штрихкоду для Modern POS, сканер штрихкодов станет активным на странице входа. Дополнительная настройка не требуется.
 
 В Windows добавляются дополнительные классы периферийных устройств для POS, такие как классы для денежные ящики и принтеры чеков. Поддержка этих новых классов устройств в Modern POS ожидается.
+
+> [!NOTE] 
+> Некоторые USB-устройства могут перестать отвечать на запросы или стать менее надежными, если управление электропитанием осуществляется функцией Windows 10 под названием [Выборочное временное отключение USB-портов](/windows-hardware/drivers/usbcon/usb-selective-suspend). Если периферийное USB-устройство перестает отвечать, может потребоваться отключить функцию выборочного отключения для этого устройства. Дополнительные сведения см. в разделе [Включение выборочного отключения](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Электронный соединитель клавиатуры
 

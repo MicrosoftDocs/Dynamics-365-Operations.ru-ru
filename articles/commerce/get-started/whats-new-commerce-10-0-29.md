@@ -1,5 +1,5 @@
 ---
-title: Предварительная версия Dynamics 365 Commerce выпуска 10.0.29 (октябрь 2022 г.)
+title: Что нового и что изменилось в Dynamics 365 Commerce 10.0.29 (октябрь 2022 г.)
 description: В этой статье описываются новые и измененные компоненты в Microsoft Dynamics 365 Commerce 10.0.29.
 author: josaw1
 ms.date: 08/17/2022
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
+ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306241"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9475912"
 ---
-# <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Предварительная версия Dynamics 365 Commerce выпуска 10.0.29 (октябрь 2022 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Что нового и что изменилось в Dynamics 365 Commerce 10.0.29 (октябрь 2022 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой статье перечислены новые и измененные компоненты предварительной версии Microsoft Dynamics 365 Commerce (10.0.29). Эта версия имеет номер сборки 10.0.1326 и доступна по следующему графику:
+
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Commerce версии 10.0.29. Эта версия имеет номер сборки 10.0.1326 и доступна по следующему графику:
 
 - **Выпуск предварительной версии:** август 2022 г.
 - **Общая доступность выпуска (самостоятельное обновление):** сентябрь 2022 г.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410459"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462310"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции в Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ ms.locfileid: "9410459"
 | **Заменена другой функцией?**   | Да |
 | **Затрагиваемые области продукта** | Приложение |
 | **Вариант развертывания** | Все |
-| **Состояние** | Устарело: после апреля 2023 функция признания выручки в Dynamics 365 Finance больше не будет получать поддержку с исправлением ошибок. Клиентам будет предложено использовать улучшенную функцию [Выставление счетов по подпискам](../../finance/accounts-receivable/subscription-billing-summary.md). В октябре 2023 функция признания выручки больше не будет доступна. Клиентам будет предложено перейти на улучшенную функцию выставления счетов по подпискам.|
+| **Состояние** | Устарело: после апреля 2023 функция признания выручки в Dynamics 365 Finance больше не будет получать поддержку с исправлением ошибок. Клиентам будет предложено использовать улучшенную функцию [Выставление счетов по подпискам](../../finance/accounts-receivable/subscription-billing-summary.md). В октябре 2023 функция признания выручки больше не будет доступна. Клиентам будет предложено перейти на улучшенную функцию выставления счетов по подпискам. Для функции объединения в качестве признания выручки сейчас не планируется никакой функции на замену.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.29
 

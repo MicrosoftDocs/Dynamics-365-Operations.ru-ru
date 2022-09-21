@@ -2,7 +2,7 @@
 title: Обзор по России
 description: В этой статье представлен обзор функциональности, относящейся к России.
 author: kfend
-ms.date: 02/02/2022
+ms.date: 09/12/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b1fb779575409792ccba0998a2d2d0f7a6dbcc5a
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 49786077fbd9b8e786c235b2b36978997591fdd9
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305204"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472667"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -129,6 +129,10 @@ ms.locfileid: "9305204"
   - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
 - Растаможивание  
   - [Работа с растаможиванием](rus-work-with-customs-clearance.md)
+
+## <a name="customs"></a>Таможня
+- [Настройка растаможивания](rus-set-up-customs-clearance.md)
+- [Работа с растаможиванием](rus-work-with-customs-clearance.md)
 
 ## <a name="reporting"></a>Отчетность
 

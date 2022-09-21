@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027149"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475647"
 ---
 # <a name="administration-overview"></a>Обзор администрирования
 
@@ -46,10 +46,10 @@ ms.locfileid: "9027149"
   - [Настройка интеграции с Dayforce](hr-admin-integration-dayforce.md)
   - [Создание приложения для повторяющегося экспорта данных](hr-admin-integration-recurring-data-export.md)
   - Интеграция с Office
-    - [Учебник по интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Обновление данных объекта в Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Создание функции открытия в Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [Устранение неполадок интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Учебник по интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Обновление данных объекта в Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Создание функции открытия в Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Устранение неполадок интеграции с Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Управление функциями](hr-admin-manage-features.md)
 
@@ -100,7 +100,7 @@ ms.locfileid: "9027149"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 ### <a name="elearning-courses"></a>Курсы eLearning
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Human Resources на сайте Microsoft Learn](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Видео
 
