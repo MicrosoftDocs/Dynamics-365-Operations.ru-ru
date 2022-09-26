@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277342"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524698"
 ---
 # <a name="connected-applications"></a>Подключенные приложения
 
@@ -35,7 +35,7 @@ ms.locfileid: "9277342"
 ## <a name="create-a-connected-application"></a>Создание подключенного приложения
 
 1. Войдите в учетную запись RCS.
-2. В рабочей области **Функция глобализации** в разделе **Среда** выберите плитку **Электронное выставление накладных**.
+2. В рабочей области **Функция глобализации** в разделе **Связанные ссылки** выберите **Настройка среды**.
 3. На странице **Настройка среды** на панели действий выберите **Подключенные приложения**.
 4. Выберите **Создать** для создания подключенного приложения.
 5. В поле **Имя** введите имя подключаемого приложения.

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (август)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (июль)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -1448,15 +1446,17 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Добавление типа сертификации к поставщику в государственном секторе
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-            - name: Расчет канадского HST-налога
+            - name: Расчет канадского гармонизированного налога с продаж
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Глобализация
+        - name: Globalization Studio
           items:
+            - name: Обзор Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Ресурсы по глобализации
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
-            - name: Службы глобализации
+            - name: Сервисы глобализации
               items:
-                - name: Обзор служб глобализации
+                - name: Обзор сервисов глобализации
                   href: localizations/globalization-services-overview.md?context=/dynamics365/context/finance
                 - name: Regulatory Configuration Service (RCS)
                   items:
@@ -1730,13 +1730,15 @@
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
                     - name: Расчет и округление налога
                       href: general-ledger/sales-tax-calculation-rounding.md
-                    - name: Расчет налога для строк общих журналов
+                    - name: Расчет налога с продаж для строк финансовых журналов
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
-                    - name: Расчет и корректировка налога по накладной поставщика
+                    - name: Расчет и корректировка налога с продаж для накладной поставщика
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                    - name: Корректировка налога через общие журналы
+                    - name: Расчет разницы по налогам с продаж
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
+                    - name: Корректировка налога с продаж через финансовые журналы
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
-                    - name: Включение отложенного расчета налогов в журнале
+                    - name: Включить отложенный расчет налогов в журнале
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Создание налогового платежа
                       href: general-ledger/tasks/create-sales-tax-payment.md
@@ -2512,13 +2514,15 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: Закрытие года
                   href: localizations/emea-cze-hun-year-end.md
-                - name: Интерактивная система выставления накладных
+                - name: Онлайн-система выставления накладных
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Декларация по НДС (Венгрия)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: Налоговые отчеты для Венгрии
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Венгерский Интрастат
                   href: localizations/emea-hun-intrastat.md
-                - name: Расчеты отложенных налогов
+                - name: Расчеты отложенного налога с продаж
                   href: localizations/emea-hun-deferred-vat.md
                 - name: Отчет ЕС по НДС
                   href: localizations/emea-hun-eu-sales-list.md
@@ -3434,7 +3438,7 @@
                       href: localizations/rus-exchange-adjustment.md
                     - name: 'Продажа, покупка и переводы иностранной валюты'
                       href: localizations/rus-currency-sale-purchase.md
-                    - name: Мелкая касса
+                    - name: Кассовые операции
                       href: localizations/emea-petty-cash.md
                     - name: Касса — местные первичные формы и унифицированные отчеты
                       href: localizations/rus-local-primary-forms-and-unified-reports.md

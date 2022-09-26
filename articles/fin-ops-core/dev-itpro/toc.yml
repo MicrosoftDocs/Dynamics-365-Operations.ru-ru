@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: "Обновления платформы для версии 10.0.30 (ноябрь 2022\_г.)"
                   href: get-started/whats-new-platform-updates-10-0-30.md
-                - name: "Обновления платформы для версии 10.0.29 (октябрь 2022\_г.)"
+                - name: Обновления платформы для версии 10.0.29 (октябрь 2022 г.)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: "Обновления платформы для версии 10.0.28 (август 2022\_г.)"
+                - name: Обновления платформы для версии 10.0.28 (август 2022 г.)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: "Обновления платформы для версии 10.0.27 (июль 2022\_г.)"
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -508,9 +506,11 @@
               items:
                 - name: Среды разработки
                   href: dev-tools/access-instances.md
-                - name: Настройка односерверных сред разработки
+                - name: Настройка единых сред разработки
                   href: dev-tools/configure-developer-vm.md
-                - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
+                - name: Обеспечение безопасности единых сред разработки
+                  href: dev-tools/secure-developer-vm.md
+                - name: 'Разработка и создание ВМ, которые не предоставляют доступ с правами администратора (раздел "Вопросы и ответы")'
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Настройка загружаемого VHD для первого использования
                   href: dev-tools/vhd-setup.md

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427883"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520759"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management выпуска 10.0.29 (октябрь 2022 г.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9427883"
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
 | Запасы и логистика | [Распределение и резервирование по номенклатурам WMS в Inventory Visibility](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Скоро | Включено по умолчанию |
-| Запасы и логистика | [Оптимизация предварительной загрузки в списках запасов в наличии](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Скоро | Включено по умолчанию |
+| Запасы и логистика | [Оптимизация предварительной загрузки в списках запасов в наличии](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Использование приложения "Видимость запасов"](../inventory/inventory-visibility-power-platform.md) | Включено конфигурацией службы |
 | Автоматизация поставок по индивидуальным заказам | [Автоматизация поставок по индивидуальным заказам](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Автоматизация поставок по индивидуальным заказам](../master-planning/make-to-order-supply-automation.md) | Управление функциями:<br>*Автоматизация поставок по индивидуальным заказам* |
 | Планирование | [Просмотр и применение подробных аналитических сведений для DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Обзор планирования потребностей в материальных ресурсах на основе спроса](../master-planning/planning-optimization/ddmrp-overview.md) | Управление функциями:<br>*(Предварительная версия) DDMRP для оптимизации планирования* |
 | Управление производством | [Сделать готовую продукцию физически доступной до разноски по журналам](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Сделать готовую продукцию физически доступной до разноски по журналам](../production-control/deferred-posting.md) | Управление функциями:<br>*(Предварительная версия) Делать готовую продукцию физически доступной до разноски по журналам* |

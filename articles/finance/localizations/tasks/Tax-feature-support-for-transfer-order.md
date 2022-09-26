@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203120"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542253"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Поддержка функций налогов для заказов на перемещение
 
@@ -63,7 +63,7 @@ ms.locfileid: "9203120"
         7. Нажмите **Сохранить**.
         
         Создайте налоговый код **BE-RC+21**.
-        1. Выберите **Добавить**, введите **BE-RC-21** в поле **Налоговый код**.
+        1. Выберите **Добавить**, введите **BE-RC+21** в поле **Налоговый код**.
         2. Выберите **По чистой сумме** в поле **Налоговый компонент**.
         3. Нажмите **Сохранить**.
         4. Выберите **Добавить** в таблице **Ставка**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: d2484b601a645694b988ac038a460a376ec912b0
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475647"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538714"
 ---
 # <a name="administration-overview"></a>Обзор администрирования
 
@@ -100,7 +100,8 @@ ms.locfileid: "9475647"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 ### <a name="elearning-courses"></a>Курсы eLearning
-Перечень онлайн-курсов и других учебных материалов см. в разделе [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+Перечень интерактивных курсов и обучения см. в разделе [Схемы обучения Dynamics 365 Human Resources](/training/browse/?products=dynamics-human-resources&resource_type=learning%20path).
 
 ### <a name="videos"></a>Видео
 

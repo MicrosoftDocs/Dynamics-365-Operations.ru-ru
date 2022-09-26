@@ -204,15 +204,17 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?context=/dynamics365/context/supply-chain
                 - name: Несколько проектов LCS и рабочих сред в одном арендаторе Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
-        - name: Устранение неполадок и ответы на вопросы
+        - name: Вопросы и ответы и устранение неполадок
           href: supply-chain-management-troubleshooting.md
-        - name: Глобализация
+        - name: Globalization Studio
           items:
+            - name: Обзор Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Ресурсы по глобализации
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
-            - name: Службы глобализации
+            - name: Сервисы глобализации
               items:
-                - name: Обзор служб глобализации
+                - name: Обзор сервисов глобализации
                   href: ../finance/localizations/globalization-services-overview.md?context=/dynamics365/context/supply-chain
                 - name: Regulatory Configuration Service (RCS)
                   items:
@@ -1631,12 +1633,14 @@
               items:
                 - name: Журналы запасов
                   href: inventory/inventory-journals.md
-                - name: Рабочие процессы утверждения журнала запасов
+                - name: Бизнес-процессы утверждения журнала запасов
                   href: inventory/inventory-journal-workflow.md
-                - name: Места хранения
+                - name: Местоположения запасов
                   href: inventory/inventory-locations.md
                 - name: Статусы запасов
                   href: inventory/inventory-statuses.md
+                - name: 'Использование кодов обработки партии, чтобы присваивать партиям статус "доступно" или "недоступно"'
+                  href: inventory/batch-disposition-codes.md
                 - name: Создание нового макета склада
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Ведение типов штрих-кодов

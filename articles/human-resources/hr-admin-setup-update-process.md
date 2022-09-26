@@ -2,7 +2,7 @@
 title: Процесс обновления
 description: Microsoft Dynamics 365 Human Resources — это действительное программное обеспечение как услуга (SaaS), которое обеспечивает непрерывное обновление служб для изменений приложения и платформы.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178454"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520819"
 ---
 # <a name="update-process"></a>Процесс обновления
 
 _**Применимо к:** Human Resources в изолированной инфраструктуре_ 
 
 > [!NOTE]
-> Начиная с июля 2022 года новые среды Human Resources не могут быть подготовлены для автономной инфраструктуры Human Resources и в ней не могут быть созданы новые проекты Microsoft Dynamics Lifecycle Services (LCS). Клиенты могут развертывать среды Human Resources в инфраструктуре для управления финансами и операциями. Дополнительные сведения см. в разделе [Подготовка Human Resources к работе в инфраструктуре приложений для управления финансами и операциями](/hr-admin-setup-provision-fo.md).
+> Начиная с июля 2022 года новые среды Human Resources не могут быть подготовлены для автономной инфраструктуры Human Resources и в ней не могут быть созданы новые проекты Microsoft Dynamics Lifecycle Services (LCS). Клиенты могут развертывать среды Human Resources в инфраструктуре для управления финансами и операциями. Дополнительные сведения см. в разделе [Подготовка Human Resources к работе в инфраструктуре приложений для управления финансами и операциями](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Процесс обновления и исправления в инфраструктуре приложений для управления финансами и операциями отличается процесса обновления и исправления для отдельного модуля Human Resources. Дополнительные сведения о процессе обновления см. в разделе [Процесс перехода на последнее обновление приложений для управления финансами и операциями](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Дополнительные сведения об исправлениях см. в разделе [Загрузка обновлений из Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
