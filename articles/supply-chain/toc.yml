@@ -1801,9 +1801,11 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Сводное планирование для продуктов с ограничением срока хранения
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Планирование без ограничений по емкости
+                - name: Планирование без ограничений по мощности
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Планирование с выбором ресурсов на основе емкости
+                - name: Планирование с ограничением по мощности
+                  href: master-planning/planning-optimization/finite-capacity.md
+                - name: Планирование с выбором ресурсов на основе мощности
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Планирование на основе приоритетов
                   href: master-planning/planning-optimization/priority-based-planning.md
