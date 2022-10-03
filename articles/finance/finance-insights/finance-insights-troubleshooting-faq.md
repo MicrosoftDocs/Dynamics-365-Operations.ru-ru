@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846925"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573181"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Устранение проблем настройки Finance Insights
 
@@ -88,10 +88,14 @@ ms.locfileid: "8846925"
 - Убедитесь, что Dynamics 365 Finance или эквивалентная лицензия применяется к пользователю, устанавливающему надстройку.
 - Убедитесь, что следующее приложение Azure AD зарегистрировано в Azure AD: 
 
-  | Заявление                  | Код приложения           |
-  | ---------------------------- | ---------------- |
-  | Микрослужбы Microsoft Dynamics ERP CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | Приложение                  | Код приложения           |
+    | ---------------------------- | ---------------- |
+    | Микрослужбы Microsoft Dynamics ERP CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    Чтобы убедиться, что приложение зарегистрировано в Azure AD, проверьте список **Все приложения**. Дополнительные сведения см. в разделе [Просмотр корпоративных приложений](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    Если приложение не зарегистрировано в Azure AD, обратитесь в службу поддержки.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Признак: ошибка, "Не удалось найти никаких данных для выбранного диапазона фильтров. Выберите другие диапазоны фильтрации и повторите попытку". 
 
 ### <a name="resolution"></a>Решение

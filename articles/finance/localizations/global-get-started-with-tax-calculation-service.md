@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279821"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573314"
 ---
 # <a name="get-started-with-tax-calculation"></a>Начало работы с расчетом налогов
 
@@ -186,9 +186,9 @@ ms.locfileid: "9279821"
 
     | Налоговая группа    | Налоговые коды           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19; DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. На вкладке **Налоговая группа номенклатуры** выберите столбец **Налоговая группа номенклатуры**, добавьте его в матрицу в качестве входного условия, а затем добавьте строки для ведения справочника налоговой группы номенклатуры.
@@ -206,9 +206,9 @@ ms.locfileid: "9279821"
 
     | Бизнес-процесс | Отправитель | Получатель | Налоговая группа    |
     | ---------------- | --------- | ------- | ------------ |
-    | Прод.            | DEU       | DEU     | DEU_Domestic |
-    | Прод.            | DEU       | FRA     | DEU_EU       |
-    | Продажи            | BEL       | BEL     | BEL_Domestic |
+    | Продажи            | DEU       | DEU     | DEU_Dom |
+    | Продажи            | DEU       | FRA     | DEU_EU       |
+    | Продажи            | BEL       | BEL     | BEL_Dom |
     | Продажи            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

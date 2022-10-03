@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287091"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593996"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Что нового и что изменилось в Dynamics AX 7.0 (февраль 2016 г.)
 
@@ -319,7 +319,7 @@ ms.locfileid: "9287091"
 <tr>
 <td>Получить доступ к управляемой процедурной справке (руководствам по задачам) и концептуальным разделам, нажав кнопку <strong>Справка</strong>.</td>
 <td>Система справки AX 2012 указывает на темы HTML, которые хранятся на локальном интернет-сервере. Клиенты и партнеры могут создавать собственную справку.</td>
-<td>Система справки в текущей версии Dynamics AX показывает руководства по задачам, которые хранятся в Microsoft Dynamics Lifecycle Services (LCS) BPM. Система справки также показывает темы с сайта документов Microsoft. Дополнительные сведения см. в разделах <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Система справки</a> и <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Новые руководства по задачам (февраль 2016 г.)</a>.</td>
+<td>Система справки в текущей версии Dynamics AX показывает руководства по задачам, которые хранятся в Microsoft Dynamics Lifecycle Services (LCS) BPM. В справочной системе также отображаются темы из Microsoft Learn. Дополнительные сведения см. в разделах <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Система справки</a> и <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Новые руководства по задачам (февраль 2016 г.)</a>.</td>
 <td>Руководства по задачам — это контролируемое, управляемое и интерактивное взаимодействие с пользователем, при котором пользователь выполняет пошаговую процедуру выполнения задачи или бизнес-процесса. Можно загрузить и настроить руководства по задачам, предоставляемые корпорацией Майкрософт. Эта статья предоставляет более быстрый и гибкий способ создания, доставки и обновления документации по продукту. Поэтому она помогает гарантировать, что вы имеете доступ к самой последней технической информации.</td>
 </tr>
 </tbody>

@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220669"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573287"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Начало работы с дополнительным компонентом электронных накладных для Франции
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 В этой статье приводятся сведения, которые помогут начать работать с функцией электронного выставления накладных для Франции. Она поможет выполнить этапы настройки, зависящие от страны, в службе Regulatory Configuration Service (RCS). Эти действия дополняют шаги, описанные в теме [Начало работы с надстройкой "Электронное выставление накладных"](e-invoicing-get-started.md).
 
