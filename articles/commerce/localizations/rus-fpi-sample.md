@@ -2,7 +2,7 @@
 title: Пример интеграции фискальных принтеров для России
 description: В этой статье представлен обзор примера финансовой интеграции для России в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 09/21/2021
+ms.date: 10/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.21
 ms.search.industry: Retail
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 manager: annbe
-ms.openlocfilehash: 7bb7c727c814fceaa39b660a6be423dc7af16270
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c818006692ecf8c6bfd1d100dacb54656e95ee88
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279522"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631439"
 ---
 # <a name="fiscal-printer-integration-sample-for-russia"></a>Пример интеграции фискальных принтеров для России
 
@@ -112,7 +112,7 @@ ms.locfileid: "9279522"
 1. [Настройте процесс финансовой регистрации](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Обязательно запишите настройки процесса финансовой регистрации, которые [относятся к России](#configure-the-fiscal-registration-process).
 1. [Задайте параметры обработки ошибок](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Настройте финансовые отчеты X/Z на POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Включите выполнение вручную отложенной финансовой регистрации](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Включите выполнение вручную отложенной финансовой регистрации](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Настройте функции для управления сведениями о клиентах в POS-терминале](rus-customer-information.md#setup).
 1. [Настройте компоненты каналов](#configure-channel-components).
 

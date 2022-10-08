@@ -2,19 +2,19 @@
 title: Пример интеграции фискальных принтеров для Польши
 description: В этой статье представлен обзор примера финансовой интеграции для Польши в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-02-01.
-ms.openlocfilehash: d4e99854f5e3ab9a6ae802f4f6bcde7918f72e6d
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 2f27e5fdcd2b26a0a1651f21436cb4caad501cf8
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473790"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631380"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Пример интеграции фискальных принтеров для Польши
 
@@ -64,7 +64,7 @@ ms.locfileid: "9473790"
 - Обработка ошибок, например, следующие параметры:
 
     - Повторите попытку выполнения финансовой регистрации, если это возможно, например, когда финансовый принтер не подключен, не готов или не отвечает, в принтере нет бумаги или в нем застряла бумага.
-    - Откладывание финансовой регистрации.
+    - Отложить финансовую регистрацию.
     - Пропустите финансовую регистрацию или пометьте проводку как зарегистрированную и включите коды сведений для фиксации причины сбоя и дополнительной информации.
     - Проверка доступности финансового принтера до открытия новой проводки по продажам или завершения проводки по продажам.
 
@@ -107,7 +107,7 @@ ms.locfileid: "9473790"
 1. [Настройте процесс финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Кроме того, запишите настройки для процесса финансовой регистрации, которые [относятся к данному образцу интеграции финансового принтера](#set-up-the-registration-process).
 1. [Задайте параметры обработки ошибок](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Настройте финансовые отчеты X/Z на POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Настройте компоненты каналов](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Настройка процесса регистрации

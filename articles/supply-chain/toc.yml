@@ -1745,22 +1745,12 @@
               href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
             - name: Сценарий "качество продукции"
               href: sensor-data-intelligence/sdi-scenario-product-quality.md
-            - name: Сценарий "задержки производства"
+            - name: Сценарий задержек производства
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: Бизнес-аналитика Интернета вещей
           items:
-            - name: Домашняя страница Бизнес-аналитики Интернета вещей
+            - name: Бизнес-аналитика Интернета вещей была заменена на Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Настройка ресурсов Azure
-              href: iot/iot-azure-setup.md
-            - name: Форматы схем сообщений для центра Интернета вещей
-              href: iot/iot-schema-format.md
-            - name: Настройка метрик
-              href: iot/iot-metrics-setup.md
-            - name: Настройка сценария
-              href: iot/iot-scenario-setup.md
-            - name: Мониторинг и управление
-              href: iot/iot-management.md
         - name: Сводное планирование
           items:
             - name: Домашняя страница сводного планирования

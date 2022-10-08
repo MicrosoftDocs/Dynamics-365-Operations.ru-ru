@@ -1,8 +1,8 @@
 ---
-title: Домашняя страница бизнес-аналитики Интернета вещей
-description: В этой статье содержатся ссылки на сведения о бизнес-аналитике Интернета вещей.
+title: Бизнес-аналитика Интернета вещей заменена на Sensor Data Intelligence
+description: В этой статье объясняется, что бизнес-аналитика Интернета вещей была заменена на Sensor Data Intelligence
 author: johanhoffmann
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,60 +13,21 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d8b2be25abaeff7404d7f4ef3cd825a50147fef
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: a754fc44fa780a4645b9ad457f5a1e3f0bdd6365
+ms.sourcegitcommit: 073604c07116e0a87f78ab2c76cb89ae83ebba3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228368"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9608070"
 ---
-# <a name="iot-intelligence-home-page"></a>Домашняя страница бизнес-аналитики Интернета вещей
+# <a name="iot-intelligence-now-replaced-by-sensor-data-intelligence"></a>Бизнес-аналитика Интернета вещей заменена на Sensor Data Intelligence
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
-> [!IMPORTANT]
-> Эта функция сейчас доступна только для следующих стран/регионов:
->
-> - US (Соединенные Штаты Америки)
-> - EU (Европейский союз)
-> - AU (Австралия)
-> - CA (Канада)
-> - UK (Соединенное Королевство)
+Функция "Бизнес-аналитика Интернета вещей" была обновлена до версии 2.0 и одновременно переименована в *Sensor Data Intelligence*. Новая версия в настоящее время доступна в качестве предварительной версии функции для Supply Chain Management версии 10.0.30 или более поздней.
 
-Бизнес-аналитика Интернета вещей — надстройка для Microsoft Dynamics 365 Supply Chain Management. Он интегрирует сигналы Интернета вещей (IoT) с данными в Supply Chain Management для создания практической аналитики.
+В Sensor Data Intelligence предусмотрена новая модель развертывания, согласно которой необходимые компоненты Azure развертываются в вашей собственной подписке Azure, а не находятся под управлением Майкрософт. Эта новая модель расширяет ваши возможности в плане настройки функции и ее интеграции со сторонними системами. В новой версии также предусмотрена поддержка двух новых IoT-сценариев для управления активами.
 
-Бизнес-аналитика Интернета вещей поддерживает следующие сценарии:
-
-- **Задержки производства** — этот сценарий сравнивает фактическое время цикла с плановым временем цикла. Supply Chain Management уведомляет вас, когда производство не было по плану, чтобы можно было повысить эффективность работы и избежать задержек заказов.
-- **Простой оборудования** — этот сценарий сравнивает измеренное время доступности с параметрами, заданными пользователем. Supply Chain Management уведомляет вас при превышении порога простоя, чтобы можно было выполнить такие действия, как перепланирование производственного заказа на работу или создание заказа на работу для обслуживания.
-- **Качество продукта** — этот сценарий сравнивает показания датчика, такие как влажность и температура, с определенной пользователем метрикой качества. Supply Chain Management уведомляет пользователя при возникновении отклонения, чтобы можно было обрабатывать стандарты качества и минимизировать отходы.
-
-На следующем рисунке показано взаимодействие центра Интернета вещей Azure, бизнес-аналитики Интернета вещей и Supply Chain Management.
-
-![Центр Интернета вещей, бизнес-аналитика Интернета вещей и Supply Chain Management.](media/iot_intelligence.png)
-
-<!-- KFM: hide setup info for now
-
-## Setup
-
-You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
-
-1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
-2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
-3. In Feature Management, enable the IoT Intelligence feature flag. 
-4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
-5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
-6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
-
--->
-
-## <a name="tracking-and-maintenance"></a>Отслеживание и обслуживание
-
-- [Мониторинг сценариев в Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-- [Отключение сценария](iot-scenario-setup.md#disable-a-scenario)
-- [Изменение запущенного сценария аналитики Интернета вещей](iot-management.md#modify-a-running-iot-intelligence-scenario)
-- [Параметры моделирования](iot-management.md#simulation-options)
-
+В связи с этими изменениями Майкрософт не рекомендует начинать какие-либо новые проекты на базе существующей функции "Бизнес-аналитика Интернета вещей". Если вас интересует добавление возможностей IoT в вашу систему, мы рекомендуем начинать работать уже с предварительной версией Sensor Data Intelligence. Подробнее узнать о Sensor Data Intelligence и о том, как работать с этой функцией, можно на [домашней странице Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

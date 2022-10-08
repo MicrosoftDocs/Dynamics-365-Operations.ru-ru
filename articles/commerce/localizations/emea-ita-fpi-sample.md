@@ -2,19 +2,19 @@
 title: Пример интеграции фискальных принтеров для Италии
 description: В этой статье представлен обзор примера финансовой интеграции для Италии в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6ad97e87e4114a8f2250d0ba4880b7a466b3689e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336742"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631405"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Пример интеграции фискальных принтеров для Италии
 
@@ -67,7 +67,7 @@ ms.locfileid: "9336742"
 - Обработка ошибок, например, следующие параметры:
 
     - Повторите попытку выполнения финансовой регистрации, если это возможно, например, когда финансовый принтер не подключен, не готов или не отвечает, в принтере нет бумаги или в нем застряла бумага.
-    - Откладывание финансовой регистрации.
+    - Отложить финансовую регистрацию.
     - Пропустите финансовую регистрацию или пометьте проводку как зарегистрированную и включите коды сведений для фиксации причины сбоя и дополнительной информации.
     - Проверка доступности финансового принтера до открытия новой проводки по продажам или завершения проводки по продажам.
 
@@ -111,7 +111,7 @@ ms.locfileid: "9336742"
 1. [Настройка финансовых текстов для скидок](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
 1. [Задайте параметры обработки ошибок](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Настройте финансовые отчеты X/Z на POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Настройте функции для управления сведениями о клиентах в POS-терминале](emea-ita-customer-information.md#setup).
 1. [Настройте компоненты каналов](#configure-channel-components).
 

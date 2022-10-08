@@ -2,19 +2,19 @@
 title: Пример интеграции службы финансовой регистрации для Германии
 description: В этой статье представлен обзор примера финансовой интеграции для Германии в Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313950"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631462"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Пример интеграции службы финансовой регистрации для Германии
 
@@ -265,7 +265,7 @@ ms.locfileid: "9313950"
     > - Рекомендуется оставить параметр **Продолжить при ошибке** на странице **Процесс финансовой регистрации** отключенным, так как все проводки должны быть правильно зарегистрированы, даже если первая попытка в финансовой регистрации не удалась.
     > - Перед включением параметра **Пропустить** или **Пометить как зарегистрированный** на странице **Процесс финансовой регистрации** следует обсудить эти изменения в процессе финансовой регистрации с налоговым консультантом или в местном отделении налоговой службы.
 
-1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Включите выполнение вручную отложенной финансовой регистрации](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Настройте компоненты каналов](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Настройка процесса регистрации

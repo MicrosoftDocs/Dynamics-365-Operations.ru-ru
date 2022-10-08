@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286846"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627505"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Создание и обновление политик возврата и возмещения для канала
 
@@ -36,12 +36,8 @@ ms.locfileid: "9286846"
 
 ## <a name="enable-return-policy"></a>Включить политику возврата
 
-Чтобы включить функцию политики возврата для канала в Commerce headquarters, выполните следующие действия.
+По умолчанию эта функция включена. Его можно найти в рабочей области **Управление функциями**, выполнив поиск по запросу **Включить политики возврата для канала** в списке имен функций.
 
-1. Откройте рабочую область **Управление функциями** в Dynamics 365 Commerce.
-1. В списке имен найдите функцию **Включить политики возврата канала**.
-1. Выберите **Включить**.
-1. На странице **График распределения** выполните задание **1110** (Глобальная конфигурация), чтобы распределить изменение функции.
 
 ## <a name="configure-return-policy"></a>Настройка политики возврата
 
