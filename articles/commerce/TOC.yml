@@ -394,6 +394,8 @@
                   items:
                     - name: Приложение Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Приложение Store Commerce для мобильных платформ
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Миграция Modern POS в Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Руководство по внедрению системы управления устройствами
