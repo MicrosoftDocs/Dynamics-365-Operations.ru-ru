@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428473"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643732"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>Развертывание решения Интернета вещей в Azure
 
@@ -26,6 +26,14 @@ ms.locfileid: "9428473"
 Аналитика данных датчиков использует данные датчиков, подключенных к Microsoft Azure. Чтобы обеспечить для Azure возможность получать данные от датчиков и использовать их совместно с системой Dynamics 365 Supply Chain Management, необходимо выполнить развертывание решения Интернета вещей в вашей подписке Azure. На следующей архитектурной схеме представлен обзор решения и его компонентов.
 
 ![Архитектурная схема Аналитики данных датчиков.](media/sdi-architecture.png "Архитектурная схема Аналитики данных датчиков")
+
+## <a name="video-instructions"></a>Видеоинструкции
+
+В следующем видео показано, как [включить функцию Аналитики данных датчиков](sdi-enable-feature.md) и развернуть нужные ресурсы Azure. В другом разделе этой статьи приводятся те же инструкции в текстовом формате.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>Процедура
 
 Выполните следующие действия, чтобы развернуть необходимые ресурсы в Azure.
 

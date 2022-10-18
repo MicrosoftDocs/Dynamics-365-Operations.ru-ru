@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428407"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644066"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Сценарий обслуживания активов
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428407"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Сценарий *обслуживания активов* позволяет использовать данные датчиков для создания записей счетчиков. Записи счетчиков отслеживают использование оборудования-актива и используются в качестве входных данных для создания графика обслуживания таких активов.
+
+## <a name="video-instructions"></a>Видеоинструкции
+
+В следующем видео показано, как настроить и использовать сценарии обслуживания активов с помощью стандартных [демонстрационных данных](../../fin-ops-core/fin-ops/get-started/demo-data.md). В других разделах этой статьи приводятся те же инструкции в текстовом формате.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Подготовка демонстрационных данных для сценария обслуживания актива
 

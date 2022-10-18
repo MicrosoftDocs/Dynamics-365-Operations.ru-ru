@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f04ef1a0de815596f629fede25a247c58e026f4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881972"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643886"
 ---
 # <a name="finance-insights-home-page"></a>Главная страница Finance Insights
 
@@ -98,9 +98,5 @@ Finance Insights предоставляет настраиваемые и рас
 ### <a name="using-budget-proposal"></a>Использование предложения по бюджету
 
 Сведения об ускорении создания бюджета см. в разделе [Предложения бюджета](budget-proposals.md). 
-
-## <a name="feedback-and-support"></a>Отзывы и поддержка
-
-Если вы хотите предоставить отзыв или вам нужна поддержка, отправьте сообщение электронной почты по адресу [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

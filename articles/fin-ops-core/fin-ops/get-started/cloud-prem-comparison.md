@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5ef6a1574f55ad8a4222658887249db4a5490042
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: e3b200186096a49f800d5b650ac81a45fe5e9e30
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183846"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644150"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Сравнение характеристик облачной и локальной версий
 
@@ -119,6 +119,7 @@ ms.locfileid: "9183846"
 | Производство                        |                                                                                           | Да       | Да             |
 | Сводное планирование и прогнозирование      |                                                                                           | Да       | Да             |
 |                                      | Оптимизация планирования                                                                     | Да       | Нет              |
+|                                      | Прогнозирование спроса                                                                        | Да       | Нет              |
 | Мобильное приложение, рабочие области и платформа |                                                                                           | Да       | Да             |
 | Интеграция в Office                   |                                                                                           | Да       | Да             |
 | Администрирование организации          |                                                                                           | Да       | Да             |

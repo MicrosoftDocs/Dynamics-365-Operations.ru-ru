@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348363"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644039"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор процедуры признания выручки
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Прекращение поддержки этих функций произойдет в октябре 2023 г. Новые пользователи должны выбирать выставление счетов по подпискам.
 
 Компаниям, продажи которых состоят из нескольких элементов, например из товаров, услуг и подписок, нужна возможность делить составные заказы и признавать выручку на основе определенных зависящих от конкретной компании или отрасли правил.
 
