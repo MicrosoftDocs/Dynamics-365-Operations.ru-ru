@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (январь)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (ноябрь)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (октябрь)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Настройка проверки сопоставления накладных по расчетам с поставщиками
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Решение Invoice Capture
+              items:
+                - name: Обзор Invoice Capture
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Установка Invoice Capture
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Настройка Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Конфигурационные группы Invoice Capture
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Правила сопоставления Invoice Capture
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Рабочая область Invoice Capture
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Расширенные параметры Invoice Capture
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Панель мониторинга Invoice Capture
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Полученные файлы Invoice Capture
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Автоматизация накладных поставщиков
               items:
                 - name: Обзор автоматизированных процессов выставления накладных поставщиков
