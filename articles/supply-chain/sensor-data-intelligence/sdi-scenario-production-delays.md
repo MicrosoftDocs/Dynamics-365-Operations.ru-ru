@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428421"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690030"
 ---
 # <a name="the-production-delays-scenario"></a>Сценарий задержек производства
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Сценарий *задержки производства* создает уведомление, если пропускная способность производства падает ниже заданного порогового значения. В этом сценарии сигнал *деталь выпущена* для каждой произведенной единицы номенклатуры направляется в Центр Интернета вещей Microsoft Azure. В Dynamics 365 Supply Chain Management задержка заказа рассчитывается на основе количества времени, в течение которого запланировано выполнение производственного заказа, количество номенклатур, которые должны быть произведены, количество времени, в течение которого было запущено задание, а также количества полученных сигналов *деталь выпущена*. Уведомление о задержке создается, если число сигналов *деталь выпущена* для задания оказывается ниже порогового значения.
 

@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429132"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689201"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Предварительная версия Dynamics 365 Supply Chain Management 10.0.30 (ноябрь 2022 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.30 (ноябрь 2022 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.30, предварительная версия. Эта версия имеет номер сборки 10.0.1362 и доступна по следующему графику:
+В этой статье перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management версии 10.0.30. Эта версия имеет номер сборки 10.0.1362 и доступна по следующему графику:
 
 - **Предварительная версия выпуска:** сентябрь 2022
 - **Общая доступность выпуска (самостоятельное обновление):** октябрь 2022 г.
@@ -35,7 +34,7 @@ ms.locfileid: "9429132"
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
 | Производство | [Мониторинг оборудования с Аналитики данных датчиков](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Домашняя страница Аналитики данных датчиков](../sensor-data-intelligence/sdi-home-page.md) | Управление функциями:<br>*(Предварительная версия) Аналитика данных датчиков* |
-| Управление складом | Многоуровневые переключения для мобильного приложения Warehouse Management <!-- KFM: Add link when RP updates --> | [Настройка переключений для шагов в пунктах меню мобильного устройства](../warehousing/warehouse-app-detours.md) | Управление функциями:<br>*Многоуровневые переключения для мобильного приложения Warehouse Management* |
+| Управление складом | [Многоуровневые переключения для мобильного приложения Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Настройка переключений для шагов в пунктах меню мобильного устройства](../warehousing/warehouse-app-detours.md) | Управление функциями:<br>*Многоуровневые переключения для мобильного приложения Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Улучшения функций, включенные в данный выпуск
 
@@ -52,7 +51,7 @@ ms.locfileid: "9429132"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Обновления платформы для приложений для финансов и операций
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.30 приложений для финансов и операций (ноябрь 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 включает обновления платформы. Дополнительные сведения см. в разделе [Обновления платформы для версии 10.0.30 приложений для финансов и операций (ноябрь 2022 г.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Исправления ошибок
 

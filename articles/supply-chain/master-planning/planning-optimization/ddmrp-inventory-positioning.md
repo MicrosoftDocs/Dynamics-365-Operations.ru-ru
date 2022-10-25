@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186741"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689547"
 ---
 # <a name="inventory-positioning"></a>Позиционирование запасов
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Стратегическое позиционирование запасов включает определение точек рассоединения в цепи поставок, где можно создавать запасы в наличии. Этот подход в основном используется для того, чтобы помочь в уменьшении значений времени упреждения и компенсации шоковых событий в цепочке поставок. Это позволяет уменьшить "эффект хлыста", так как изменчивость спроса не передается вниз по всей цепочке поставок. (*Эффект хлыста* описывает ситуацию, когда небольшие колебания спроса на уровне розничной торговли могут привести к лавинообразному возрастанию флуктуаций спроса на уровнях оптовой торговли, дистрибутора, производителя и поставщика сырья.)
 

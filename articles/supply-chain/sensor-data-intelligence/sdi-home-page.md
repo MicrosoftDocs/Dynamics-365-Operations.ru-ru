@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2e4cd8d4d4ffcd10d02fbf26615f12cdd6ccca9e
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: ba030364056db8b0524de22aacbc6528ef77813b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428441"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689866"
 ---
 # <a name="sensor-data-intelligence-home-page"></a>Домашняя страница Аналитики данных датчиков
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Аналитика данных датчиков для Microsoft Dynamics 365 Supply Chain Management позволяет организациям выполнять бизнес-процессы в Supply Chain Management на основе сигналов Интернета вещей, поступающих от станков и оборудования в производственном цеху. Это обновленная переименованная версия функции *Бизнес-аналитика Интернета вещей*, которая ранее была доступна для Supply Chain Management.
 

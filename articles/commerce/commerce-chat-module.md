@@ -2,19 +2,19 @@
 title: Модуль чата Commerce с многоканальным взаимодействием для Customer Service
 description: В этой статье описывается модуль чата Commerce с многоканальным взаимодействием для Customer Service в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473818"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690325"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Модуль чата Commerce с многоканальным взаимодействием для Customer Service
 
@@ -82,6 +82,9 @@ ms.locfileid: "9473818"
 1. В диалоговом окне **Выбор модулей** выберите созданный ранее фрагмент чата и нажмите **ОК**.
 1. Выберите **Сохранить**, выберите **Завершить редактирование** для возврата фрагмента, затем нажмите кнопку **Опубликовать**, чтобы опубликовать его.
 
+> [!NOTE]
+> Чтобы получить полный список параметров настройки, см. раздел [Параметры упреждающего чата модуля чата Commerce](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Добавьте Commerce headquarters в качестве вкладки приложения для Многоканального взаимодействия для Customer Service
 
 Вы можете добавить вкладку приложения для Commerce headquarters в Многоканальное взаимодействие для Customer Service. Агенты могут затем использовать интерфейс пользователя для интерфейса агента Многоканального взаимодействия для Customer Service, чтобы легко получить доступ к модулю Dynamics 365 Commerce Customer Service, содержащему контекстные сведения о клиенте вместе со сведениями о его заказах на продажу. Кроме того, агенты обслуживания клиентов могут размещать новые заказы, запускать возвраты и проверять сведения о статусе заказа.
@@ -115,6 +118,9 @@ ms.locfileid: "9473818"
 1. Откройте рабочий поток, созданный для агентов, затем в разделе **Дополнительные параметры** выберите **По умолчанию для сеансов**.
 1. В разделе **Вкладки приложений** выберите **Добавить существующую вкладку приложения**, затем добавьте созданную ранее вкладку приложения. Этот шаг гарантирует, что вкладка приложения, которая загружает Commerce headquarters в модуль iFrame, появится, когда агент получит входящий вызов чата с веб-сайта электронной коммерции.
 
+> [!NOTE]
+> Невозможно изменить шаблон сеанса чата по умолчанию в рабочем потоке. Таким образом, может потребоваться создание нового шаблона или дублирование существующего шаблона для его обновления. Дополнительные сведения см. в разделе [Связывание шаблонов с рабочим потоком](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Добавление контекстных переменных в Многоканальное взаимодействие для Dynamics 365 Customer Service
 
 Чтобы добавить контекстные переменные в Многоканальное взаимодействие для Dynamics 365 Customer Service, выполните следующие шаги.
@@ -128,3 +134,11 @@ ms.locfileid: "9473818"
 
 > [!NOTE]
 > Если необходимо прочитать адреса электронной почты и имена вошедших пользователей из канала электронной коммерции, можно добавить **Адрес электронной почты** и **Имя** в качестве переменных контекста типа **текст**, в дополнение к переменной контекста **AccountNumber**.
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+[Обзор функций чата Commerce](commerce-chat-overview.md)
+
+[Модуль чата Commerce с Power Virtual Agents](chat-module-pva.md)
+
+[Параметры упреждающего чата модуля чата Commerce](chat-proactive-chat-parameters.md)

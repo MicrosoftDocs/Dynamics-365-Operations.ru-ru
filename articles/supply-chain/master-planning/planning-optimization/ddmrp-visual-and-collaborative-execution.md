@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: e3afdd10860494b3cfe73a113a0e4e8fb07682a1
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186705"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689785"
 ---
 # <a name="visual-and-collaborative-execution"></a>Визуальное и совместное выполнение
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 В этой статье описывается, как отслеживать точки рассоединения, буферные зоны, спланированные заказы и историю планирования потребностей в материальных ресурсах на основе спроса (DDMRP).
 

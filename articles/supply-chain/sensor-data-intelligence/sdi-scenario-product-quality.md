@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428426"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690057"
 ---
 # <a name="the-product-quality-scenario"></a>Сценарий качества продукта
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 В сценарии *качества продукта* датчик настроен для измерения качества партии продукта в цехе. Если измерение выходит за пределы заданных пороговых значений для продукта, на панели мониторинга руководителя отображается уведомление. Например, датчик измеряет влажность пищевой продукции, которая выходит с производственной линии. Если измерение находится за пределами допустимых минимального или максимального значений влажности для продукта, создается уведомление.
 
