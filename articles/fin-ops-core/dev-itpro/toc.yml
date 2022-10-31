@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Обновления платформы для версии 10.0.29 (октябрь 2022 г.)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Обновления платформы для версии 10.0.28 (август 2022 г.)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Домашняя страница удаленных или устаревших функций
@@ -1605,7 +1603,11 @@
             - name: Отчет о лицензионных кодах и ключах конфигурации
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Совместное использование данных между компаниями
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: 'Таблицы, поддерживаемые для совместного использования данных'
+              href: sysadmin/drs-srs-tables.md
+            - name: Совместное использование данных для разработчиков
+              href: sysadmin/drs-srs-dev.md
             - name: Режим обслуживания
               href: sysadmin/maintenance-mode.md
             - name: Предварительно настроенные системные счета

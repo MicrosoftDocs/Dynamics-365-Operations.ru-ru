@@ -12,6 +12,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Commerce
                   href: get-started/whats-new-home-page.md
+                - name: "Commerce 10.0.31 (февраль 2023\_г.)"
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: "Commerce 10.0.30 (ноябрь 2022\_г.)"
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: "Commerce 10.0.29 (октябрь 2022\_г.)"
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Настройка, авторизация и проверка данных кредитной карты'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Использование токена лимитов платежей
+                      href: dev-itpro/limit-token-usage.md
                     - name: Настройка номиналов валюты для POS
                       href: cash-denominations.md
                     - name: Настройка обработки кредитных карт
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: Модуль оформления заказа
                       href: add-checkout-module.md
+                    - name: Коды ссылок ошибок модуля оформления покупки
+                      href: checkout-module-error-codes.md
                     - name: Модуль платежа
                       href: payment-module.md
                     - name: Модуль адреса доставки

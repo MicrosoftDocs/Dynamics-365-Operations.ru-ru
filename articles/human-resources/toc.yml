@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Что нового и что изменилось в Human Resources
               items:
+                - name: Human Resources 10.0.31 (объединенная инфраструктура)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (объединенная инфраструктура)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (объединенная инфраструктура)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (объединенная инфраструктура)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Что нового в Dynamics 365 Human Resources (отдельная версия)
                   items:
                     - name: 'Что нового в Dynamics 365 Human Resources (отдельная версия), архивы 2021'
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: Обучение
           items:
+            - name: Обзор курса
+              href: hr-course-overview.md
             - name: Настройка учебных курсов
               href: hr-learning-courses.md
             - name: Обзор анкет

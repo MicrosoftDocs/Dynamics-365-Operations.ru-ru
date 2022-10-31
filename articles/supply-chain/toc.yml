@@ -12,7 +12,7 @@
               items:
                 - name: Что нового и что изменилось на домашней странице Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (февраль 2022 г.)
+                - name: Supply Chain Management 10.0.31 (февраль 2023 г.)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: "Supply Chain Management 10.0.30 (ноябрь 2022\_г.)"
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: Сертификация происхождения USMCA
               href: transportation/usmca-certification-of-origin.md
+            - name: Торговые накладные
+              href: transportation/commercial-invoice.md
             - name: Создание транспортной накладной
               href: transportation/create-bill-of-lading.md
             - name: Планирование маршрутов транспортировки
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Упаковка контейнеров для отгрузки
                       href: warehousing/packing-containers.md
+                    - name: Печать этикеток контейнеров
+                      href: warehousing/print-container-labels.md
                     - name: Работа по упаковке для упаковки исходящих контейнеров и обработки отгрузок
                       href: warehousing/packing-work.md
+                    - name: Упаковка контейнеров с помощью мобильного приложения Warehouse Management
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: Пример сценария — упаковка контейнеров с помощью мобильного приложения Warehouse Management
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Настройка перераспределения номенклатур для недоукомплектованности
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: 'Последовательность работ, управляемая системой'
@@ -3691,9 +3699,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Системная группировка в списке открытых работ
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Макет маршрутизации документов для наклеек грузомест
+                    - name: Макеты наклеек маршрутизации документов
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Штрих-коды и QR-коды GS1
+                    - name: Штрихкоды и QR-коды GS1
                       href: warehousing/gs1-barcodes.md
                     - name: Настройка склада для заказов на перемещение
                       href: warehousing/transfer-orders-warehouse.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Обновление процессов управления складом Microsoft Dynamics AX 2012 до приложений для управления финансами и операциями
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Складская телеметрия
+              items:
+                - name: Включение складской телеметрии в Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: Контроль использования и производительности мобильных устройств
+                  href: warehousing/application-insights-wma.md
         - name: Разработка для Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта
