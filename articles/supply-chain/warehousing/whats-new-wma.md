@@ -10,18 +10,23 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682623"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702204"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Что нового и что изменилось в мобильном приложении Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 В этой статье перечислены новые функции, исправления, улучшения и известные проблемы для каждой выпущенной версии мобильного приложения Warehouse Management для Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20350"></a>Версия 2.0.35.0
+
+Эта версия вводит следующие новые функции, исправления и улучшения:
+- Исправлена проблема в Android, когда приложение аварийно завершается, если страница **Список работ** была открыта, когда не должны быть отображены карточки.
 
 ## <a name="version-20340"></a>Версия 2.0.34.0
 

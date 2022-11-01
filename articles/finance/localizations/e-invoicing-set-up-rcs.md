@@ -2,7 +2,7 @@
 title: Настройка Regulatory Configuration Service (RCS)
 description: В этой статье описывается, как настроить службу Regulatory Configuration Service (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285798"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710790"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Настройка Regulatory Configuration Service (RCS)
 
@@ -39,7 +39,16 @@ ms.locfileid: "9285798"
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Настройка параметров для интеграции RCS с модулем электронного выставления накладных
 
 1. В рабочей области **Функции глобализации** в разделе **Связанные параметры** выберите **Параметры электронной отчетности**.
-2. На вкладке **Электронное выставление накладных** в поле **Универсальный код ресурса (URI) конечной точки службы** введите соответствующую конечную точку службы для своего географического расположения Microsoft Azure, как показано в следующей таблице.
+2. При первой настройке параметров вам будет предложено подключиться к службам Life Cycle Services (LCS). Выберите **Щелкните здесь, чтобы подключиться к Lifecycle Services** и, после установления подключения, выберите **ОК**.
+
+    > [!IMPORTANT]
+    > В странах или регионах, где используется принудительное размещение данных, если ваш RCS был настроен в регионе, отличном от того, в котором настроены службы LCS, в RCS можно получить следующее сообщение об ошибке подключения: "Не найден ресурс HTTP, соответствующий URI запроса". Нажмите **ОК**. Вы можете получить другое сообщение об ошибке в RCS: "Не удалось создать маркер пользователя для Dynamics Lifecycle Services от имени пользователя (). Обратитесь к системному администратору."
+    >  
+    > Это происходит, потому что LCS является глобальной службой и подготовлена в регионе США. Из-за политики размещения данных RCS из вашего текущего региона не удается подключиться к службам LCS. В этих обстоятельствах есть 2 возможных решения:
+    > - Удалите RCS из текущего региона и повторно создайте его в регионе США.
+    > - Игнорируйте ошибки и продолжите настройку выставления электронных накладных. Эти ошибки не влияют на функцию электронного выставления накладных.
+
+3. На вкладке **Электронное выставление накладных** в поле **Универсальный код ресурса (URI) конечной точки службы** введите соответствующую конечную точку службы для своего географического расположения Microsoft Azure, как показано в следующей таблице.
 
     | География центра обработки данных Azure | Универсальный код ресурса (URI) конечной точки службы |
     |----------------------------|----------------------|
@@ -50,13 +59,15 @@ ms.locfileid: "9285798"
     | Япония                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Швейцария                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Бразилия                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
-    | Объединенные Арабские Эмираты       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ОАЭ       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Австралия                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Канада                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Франция                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Индия                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Норвегия                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ЮАР               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Убедитесь, что в поле **Код приложения** установлено значение **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Это значение является фиксированным значением. Убедитесь, что введен только глобальный уникальный идентификатор (GUID), и что значение не содержит никаких других символов, таких как пробелы, запятые, точки или кавычки.
+3. Просмотрите и введите в поле **Код приложения** фиксированное значение **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Убедитесь, что введен только глобальный уникальный идентификатор (GUID), и что значение не содержит никаких других символов, таких как пробелы, запятые, точки или кавычки.
 4. В поле **Код среды LCS** введите идентификатор вашей среды Microsoft Dynamics Lifecycle Services (LCS). Это значение представляет собой ссылку на среду Finance или Supply Chain Management, которая будет использоваться со службой электронного выставления накладных. Чтобы получить идентификатор, войдите в [LCS](https://lcs.dynamics.com/), откройте проект, затем на вкладке **Управление средой** в разделе **Сведения о среде** найдите поле **Код среды**.
 
     > [!IMPORTANT]

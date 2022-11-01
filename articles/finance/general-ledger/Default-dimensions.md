@@ -1,8 +1,8 @@
 ---
 title: Финансовые аналитики и разноска
-description: При планировании и настройке плана счетов необходимо учитывать, как различные компоненты будут взаимодействовать при разноске документа или журнала. К этим компонентам относятся структуры счетов, расширенные правила, балансирование и фиксированные аналитики. В этой статье объясняется, что представляет собой каждый из компонентов и как эти компоненты взаимодействуют.
+description: В этой статье объясняются компоненты, из которых состоит план счетов, и как эти компоненты взаимодействуют друг с другом.
 author: aprilolson
-ms.date: 08/04/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89696f08755a7ff2b01ec7e0cf8550a3b5914bc0
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910123"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715479"
 ---
 # <a name="financial-dimensions-and-posting"></a>Финансовые аналитики и разноска 
 

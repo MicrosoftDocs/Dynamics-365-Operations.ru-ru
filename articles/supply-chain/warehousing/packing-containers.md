@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220616"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708792"
 ---
 # <a name="pack-containers-for-shipment"></a>Упаковка контейнеров для отгрузки
 
@@ -34,7 +34,9 @@ ms.locfileid: "9220616"
 - [Подтвердить и перенести](confirm-and-transfer.md)
 - [Настройка различных аналитик для упаковки и хранения](packing-vs-storage-dimensions.md)
 - [Работа по упаковке для упаковки исходящих контейнеров и обработки отгрузок](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [Упаковка контейнеров с помощью мобильного приложения Warehouse Management](warehouse-app-packing-containers.md)
+- [Пример сценария — упаковка контейнеров с помощью мобильного приложения Warehouse Management](warehouse-app-pack-containers-scenario.md)
+- [Печать этикеток контейнеров](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Настройка склада для использования операций упаковки вручную
 

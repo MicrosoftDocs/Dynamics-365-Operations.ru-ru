@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336556"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714708"
 ---
 # <a name="usmca-certification-of-origin"></a>Сертификация происхождения USMCA
 
@@ -57,7 +58,7 @@ ms.locfileid: "9336556"
 Чтобы распечатать документ сертификации происхождения USMCA для отгрузки, выполните следующие действия:
 
 1. Выполните одно из следующих действий.
-    - Перейдите в раздел **Управление транспортировкой > Отгрузки > Все отгрузки** и выберите отгрузку, для которой требуется напечатать документ.
+    - Перейдите в раздел **Управление транспортировкой \> Планирование \> Отгрузки \> Все отгрузки** и выберите отгрузку, для которой требуется напечатать документ.
     - Откройте страницу **Сведения об отгрузке** для отгрузки, для которой необходимо напечатать документ (для этого существует несколько способов, включая страницу **Все отгрузки**).
 1. На панели операций откройте вкладку **Отгрузки** и в группе **Печать** выберите **Сертификат происхождения USMCA**.
 1. Откроется диалоговое окно **Сертификат о происхождении**. Выполните настройки, описанные в следующих подразделах, затем выберите **ОК**, чтобы создать документ.

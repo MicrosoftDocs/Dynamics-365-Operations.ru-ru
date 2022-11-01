@@ -2,7 +2,7 @@
 title: Настройка процесса расширенного импорта банковских выверок
 description: Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 Finance. В этой статье объясняется, как настроить функцию импорта для банковских выписок.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 60195962e50817b4d85840a2464848db6e666f46
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151536"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716027"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Настройка процесса расширенного импорта банковских выверок
 

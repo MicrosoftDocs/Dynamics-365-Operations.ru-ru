@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123541"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708703"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.10 (май 2020 г.)
 
@@ -39,7 +39,7 @@ ms.locfileid: "9123541"
 
 - [Улучшения управления входящими загрузками для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
 
-- [Усовершенствования печати этикеток для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Дополнительные сведения см. в разделе [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
+- [Усовершенствования печати этикеток для управления складом](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Дополнительные сведения см. в разделе [Макеты этикеток маршрутизации документов](../warehousing/document-routing-layout-for-license-plates.md).
 
 - [Сводное планирование включает номенклатуры с запасами в наличии, когда включены фильтры предварительной обработки](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 

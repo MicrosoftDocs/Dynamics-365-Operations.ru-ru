@@ -1,7 +1,7 @@
 ---
 title: Обзор кредитных переводов SEPA
 description: В этой статье приводятся общие сведения о кредитных переводах ISO 20022, которые включают единую зону платежей в евро (SEPA) и любые другие электронные платежи для поставщиков.
-author: sunfzam
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 671594b1ac6f10fae7c95ed9210e16f168e8dea1
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871459"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716083"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Обзор кредитных переводов SEPA
 

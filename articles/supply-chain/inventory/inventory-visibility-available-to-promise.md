@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856203"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719300"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Графики изменения запасов в наличии и доступность для заказа
 
@@ -205,6 +205,7 @@ ms.locfileid: "8856203"
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Создание нескольких событий изменения. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Запрос с использованием метода `POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Запрос с использованием метода `GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Извлечение запроса с использованием метода `POST`. |
 
 Дополнительные сведения см. в разделе [Открытые API-интерфейсы видимости запасов](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Body:
 > [!NOTE]
 > Независимо от того, задано ли для параметра `returnNegative` в теле запроса значение *true* или *false*, результат будет включать отрицательные значения при запросе запланированных изменений запасов в наличии и результатов ATP. Будут включены такие отрицательные значения, потому что если только заказы на спрос планируются или если количества поставок меньше количества спроса, то запланированные изменения количества запасов в наличии будут отрицательными. Если отрицательные значения не были бы включены, результаты был бы запутанным. Дополнительные сведения об этом параметре и его работе для других типов запросов см. в разделе [Общедоступные интерфейсы API видимости запасов](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Запрос с использованием метода POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-В следующем примере показано, как создать тело запроса, который может быть отправлен в видимость запасов с помощью метода `POST`.
+В следующем примере показано, как создать тело запроса индекса, который может быть отправлен в видимость запасов с помощью метода `POST`.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Body:
 }
 ```
 
-### <a name="get-method-example"></a>Пример метода GET
+### <a name="query-by-using-the-get-method"></a>Запрос с использованием метода GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-В следующем примере показано, как создать URL-адрес запроса в качестве запроса `GET`.
+В следующем примере показано, как создать URL-адрес запроса индекса в качестве запроса `GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Результат этого запроса `GET` совпадает с результатом запроса `POST` в предыдущем примере.
 
+### <a name="exact-query-by-using-the-post-method"></a>Извлечение запроса с использованием метода POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+В следующем примере показано, как создать тело точного запроса, который может быть отправлен в видимость запасов с помощью метода `POST`.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Пример результата запроса
 
-Оба предыдущих примера запросов могут создать следующий ответ. В этом примере для системы настроены следующие параметры:
+Любой из предыдущих примеров запросов может создать следующий ответ. В этом примере для системы настроены следующие параметры:
 
 - **Вычисляемая мера ATP:** *iv.onhand = pos.inbound – pos.outbound*
 - **Период расписания:** *7*
