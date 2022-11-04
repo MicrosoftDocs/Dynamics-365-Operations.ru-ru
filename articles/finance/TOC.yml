@@ -692,20 +692,14 @@
               items:
                 - name: Процесс настройки расширенной банковской выверки
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Настройка процесса импорта расширенной банковской выверки
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Настройка процесса импорта расширенной банковской выверки с помощью электронной отчетности
                   href: accounts-payable/import-bai2-er.md
                 - name: Настройка правил сопоставления банковской выверки
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Выверка банковских выписок с помощью расширенной банковской выверки
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Импорт расширенной банковской выверки MT940 — обновление составного информационного объекта
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Обзор расширенной банковской выверки
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Устранение неполадок с импортом файлов банковской выписки
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Обновление составного объекта журнала банка
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Учет затрат

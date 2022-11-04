@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Модернизация технологического стека в магазине Commerce (технический документ)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Автономная реализация и устранение неполадок Commerce
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Публикация каталога интернет-магазина
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Содержимое Retail Channel Performance Power BI
@@ -396,12 +394,16 @@
                   items:
                     - name: Приложение Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: Возможности приложения Store Commerce
+                      href: store-commerce-capabilities.md
                     - name: Приложение Store Commerce для мобильных платформ
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Миграция Modern POS в Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Руководство по внедрению системы управления устройствами
                       href: implementation-considerations-devices.md
+                    - name: Автономная реализация и устранение неполадок Commerce
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Выбор между Store Commerce и Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Выполнение операций POS в интерактивном и автономном режимах

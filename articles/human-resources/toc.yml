@@ -4,6 +4,18 @@
       items:
         - name: Домашняя страница Dynamics 365 Human Resources
           href: index.md
+        - name: Объединение инфраструктуры Human Resources
+          items:
+            - name: Обзор объединения инфраструктуры Human Resources
+              href: hr-infrastructure-merge.md
+            - name: Миграция для клиентов инфраструктуры Human Resources
+              href: hr-cust-migration.md
+            - name: Вопросы и ответы по объединению инфраструктуры Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: Вопросы и ответы по миграции для клиентов Human Resources
+              href: customer-migration.md
+            - name: Известные проблемы объединения инфраструктуры Human Resources
+              href: hr-migration-issues.md
         - name: Что нового и что изменилось
           items:
             - name: Что нового и что изменилось в приложениях для управления финансами и операциями
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Вопросы и ответы по вводу в эксплуатацию
                   href: hr-admin-go-live-faq.md
-                - name: Вопросы и ответы по объединению инфраструктуры Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: Вопросы и ответы по миграции для клиентов Human Resources
-                  href: customer-migration.md
                 - name: Ресурсы документации
                   items:
                     - name: Система справки

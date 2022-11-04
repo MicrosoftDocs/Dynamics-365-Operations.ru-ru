@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Вопросы и ответы по развертыванию
                       href: deployment/deploymentFAQ.md
+                    - name: Миграция среды
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Известные проблемы с дистанционным развертыванием
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Операции обслуживания для развертываний
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Обновление среды
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Миграция среды
+                      href: deployment/geo-to-geo-migrations.md
                     - name: 'Устранение неполадок сред, развернутых с помощью дистанционного развертывания'
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Вопросы и ответы по плановому обслуживанию в средах самообслуживания
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Адаптация проекта
               href: lifecycle-services/project-onboarding.md
+            - name: Диспетчер миграции проектов
+              href: lifecycle-services/project-migration-manager.md
             - name: Средство оценки подписки
               href: lifecycle-services/subscription-estimator.md
             - name: Настройка безопасности

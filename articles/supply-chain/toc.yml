@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Настройка политик для иерархий категорий закупаемой продукции
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Оценка рисков поставок
+              items:
+                - name: Обзор оценки рисков поставок
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Настройка оценки рисков поставок
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Эффективная рабочая область для обнаружения и обработки рисков поставок
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Отчеты Power BI для анализа рисков и ранжирования производительности
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Поступление продуктов и выставление накладных
               items:
                 - name: Поступление продуктов по заказам на покупку
