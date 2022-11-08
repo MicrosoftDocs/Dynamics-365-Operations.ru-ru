@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286900"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734276"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Включить поиск заказов для гостевых оформлений
 
@@ -73,6 +73,11 @@ ms.locfileid: "9286900"
 В сообщениях электронной почты, связанных с заказами, можно создать ссылку или кнопку, которая позволяет клиентам перейти на страницу сведений о заказе для их заказа. Чтобы добавить эту ссылку или кнопку, создайте HTML-гиперссылку, которая указывает на страницу сведений о заказе на сайте электронной коммерции, и передайте код подтверждения заказа и адрес электронной почты клиента в качестве параметров URL-адреса, как показано в следующем примере.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> Чтобы включить функцию подстановки заказов, убедитесь, что ключ **Предложения** включен в пункте **Конфигурация лицензии** > **Конфигурационные ключи**.
+>
+>![Конфигурация лицензионного ключа предложений должна быть включена](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
