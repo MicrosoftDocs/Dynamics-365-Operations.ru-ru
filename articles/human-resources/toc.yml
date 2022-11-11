@@ -541,7 +541,11 @@
                     - name: Найм кандидатов на должность
                       href: hr-personnel-recruit.md
         - name: Управление задачами
-          href: hr-task-mgmt.md
+          items:
+            - name: Обзор
+              href: hr-task-mgmt.md
+            - name: Обновление управления задачами
+              href: hr-task-update.md
         - name: Отпуск и отсутствие
           items:
             - name: Обзор
@@ -830,8 +834,12 @@
           href: hr-developer-power-apps.md
         - name: Таблицы Dataverse
           href: hr-developer-entities.md
-        - name: Настраиваемые поля
+        - name: Пользовательские поля
           href: hr-developer-custom-fields.md
+        - name: Разработка и настройка
+          items:
+            - name: Перечисление полов
+              href: enum-exten.md
         - name: Настройка интеграции данных
           items:
             - name: Выбор технологии интеграции данных

@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Копирование графика выставления счетов
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Разбиение клиента по графику выставления счетов
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Функции графиков выставления счетов
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Выставление счетов по этапам
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Рабочая область закрытия финансового периода
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Оптимизация закрытия года
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Закрытие года
                   href: general-ledger/year-end-close.md
                 - name: Закрытие финансового года

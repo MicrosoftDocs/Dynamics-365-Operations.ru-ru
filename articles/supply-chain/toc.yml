@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Распределенная гибридная топология
           items:
-            - name: Возможность использования единиц масштабирования для новых клиентов в настоящее время приостановлена
+            - name: Возможность использования единиц масштабирования для Supply Chain Management в настоящее время приостановлена
               href: cloud-edge/cloud-edge-landing-page.md
         - name: Управление активами
           items:
@@ -1753,36 +1753,54 @@
           items:
             - name: Домашняя страница сводного планирования
               href: master-planning/master-planning-home-page.md
-            - name: Миграция на оптимизацию планирования для сводного планирования
-              href: master-planning/new-master-planning-engine.md
-            - name: Оптимизация планирования
+            - name: Начало работы со сводным планированием
+              href: master-planning/planning-optimization/get-started.md
+            - name: Архитектура систем сводного планирования
+              href: master-planning/master-planning-architecture.md
+            - name: Администрирование сводного планирования
               items:
-                - name: Обзор оптимизации планирования
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Начало работы с оптимизацией планирования
-                  href: master-planning/planning-optimization/get-started.md
                 - name: Процедура выпуска и история выпусков оптимизации планирования
                   href: master-planning/planning-optimization/release-process.md
-                - name: Анализ соответствия оптимизации планирования
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Различия между встроенным сводным планированием и оптимизацией планирования
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: 'Параметры, не используемые в оптимизации планирования'
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: График поставок
-                  href: master-planning/supply-schedule.md
-                - name: Применение фильтров к плану
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Устранение неполадок оптимизации планирования
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Устранение ошибки подсистемы планирования "Не удалось найти достаточную емкость"
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Отмена задания планирования
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Расширяемость оптимизации планирования
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Просмотр истории плана и журналов планирования
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: 'Параметры даты и времени, используемые при оптимизации планирования'
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Настройка сводного планирования
+              items:
+                - name: Задержки
+                  href: master-planning/delays.md
+                - name: Использование трассировки для развертывания
+                  href: master-planning/trace-explosion.md
+                - name: Автоматизация поставок по индивидуальным заказам
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Отрицательные дни и динамические отрицательные дни
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Календари и сводное планирование
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Создание графика для сайта
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Создание плана для сайта
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Сводное планирование с прогнозами спроса
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Сводное планирование с прогнозами поставки
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: График поставок
+                  href: master-planning/supply-schedule.md
+                - name: Планирование для подмножества номенклатур
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Сводное планирование с коммерческими соглашениями о покупке
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Планирование на основе предложений и запросов предложений
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: 'Параметры даты и времени, используемые при оптимизации планирования'
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Допуск задержки (отрицательные дни)
@@ -1799,55 +1817,21 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: Планирование с выбором ресурсов на основе мощности
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Планирование на основе приоритетов
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Планирование потребностей в материальных ресурсах на основе спроса (DDMRP)
-                  items:
-                    - name: Обзор DDMRP
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: Включение функции DDMRP в системе
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Позиционирование запасов
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Профиль буфера и уровни
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Планирование на основе спроса
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Визуальное и совместное выполнение
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Маркировка запасов с использованием оптимизации планирования
+                - name: Маркировка запасов
                   href: master-planning/planning-optimization/marking.md
                 - name: Внутрихолдинговое планирование
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Исключение продуктов с определенными состояниями жизненного цикла продукта
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Методы пополнения и изменение количества
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Временные границы покрытия
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Чистые потребности и информация об источниках потребности в оптимизации планирования
+                - name: Чистые потребности и информация об источниках потребности
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Утверждение спланированных заказов
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Утвержденные спланированные заказы
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Упрощенные спланированные заказы
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Планирование с отрицательными количествами в наличии
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Просмотр истории плана и журналов планирования
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Отмена задания планирования
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Сообщения по действию
-                  href: master-planning/action-messages.md
                 - name: Расчет дат поставки для заказа на продажу с использованием CTP
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Устранение неполадок оптимизации планирования
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Расширяемость оптимизации планирования
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Сводные планы
+            - name: Настройка сводных планов
               items:
                 - name: Обзор сводных планов
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: Мастер настройки сводного планирования
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Создание плана с ограничениями
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Настройка стратегий пополнения
+              items:
                 - name: Параметры покрытия
                   href: master-planning/coverage-settings.md
                 - name: Определение правил покрытия для номенклатур
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Создание плана с ограничениями
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Создание плана материалов для сопутствующих продуктов
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Ведение спланированных заказов
-                  href: master-planning/maintain-planned-orders.md
+                - name: Закупка продуктов и материалов у нескольких поставщиков
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Планирование на основе приоритетов
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Методы пополнения и изменение количества
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Сводные планы и функциональность Мультисайт
+              items:
+                - name: Обзор сводного планирования и функциональности Мультисайт
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Сводное планирование для покрытия сайта, обязательный склад'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Сводное планирование для покрытия объекта, склад не обязателен'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Сводное планирование для покрытия сайта и склада, склад обязателен'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Сводное планирование для покрытия сайта и склада, склад не обязателен'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: Определение версии спецификации
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Развертывание версии спецификации
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Резервный запас
+              items:
                 - name: Выполнение резервного запаса для номенклатур
                   href: master-planning/safety-stock-replenishment.md
                 - name: Использование журнала резервного запаса для обновления минимального покрытия номенклатур
                   href: master-planning/safety-stock-journal.md
-                - name: Задержки
-                  href: master-planning/delays.md
-                - name: Отмена задания сводного планирования
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Использование трассировки для развертывания
-                  href: master-planning/trace-explosion.md
-                - name: Мониторинг выполнения сводного планирования
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Создание графика для сайта
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Создание плана для сайта
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Календари и сводное планирование
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Устранение ошибки подсистемы планирования "Не удалось найти достаточную емкость"
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Повышение производительности сводного планирования
-                  href: master-planning/master-planning-performance.md
-                - name: Повышение производительности подсистемы планирования
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Сводные планы и функциональность Мультисайт
-                  items:
-                    - name: Обзор сводного планирования и функции работы с несколькими узлами
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Сводное планирование для покрытия сайта, обязательный склад'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Сводное планирование для покрытия объекта, склад не обязателен'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Сводное планирование для покрытия сайта и склада, склад обязателен'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Сводное планирование для покрытия сайта и склада, склад не обязателен'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: Определение версии спецификации
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Развертывание версии спецификации
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Отрицательные дни и динамические отрицательные дни
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Создание внутрихолдингового плана
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Просмотр исходящего запланированного внутрихолдингового спроса
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Чистые потребности и информация об источниках потребности во встроенном сводном планировании
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Автоматизация поставок по индивидуальным заказам
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: Управление спланированными заказами
+              items:
+                - name: Ведение спланированных заказов
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Просмотр, управление и утверждение спланированных заказов'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Утвержденные спланированные заказы
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Упрощенные спланированные заказы
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Сообщения по действию
+                  href: master-planning/action-messages.md
             - name: Прогнозирование
               items:
-                - name: Прогнозирование спроса и поставок
-                  items:
-                    - name: Прогнозы запасов
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Руководство: изменение прогноза спроса вручную'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Прогнозы запасов
+                  href: master-planning/inventory-forecast.md
+                - name: 'Руководство: изменение прогноза спроса вручную'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Прогнозирование спроса
                   items:
                     - name: Обзор прогнозирования спроса
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Руководство: создание базового прогноза'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Сводное планирование с прогнозом
-                  items:
-                    - name: Ключи сокращения прогноза
-                      href: master-planning/reduction-keys.md
+                - name: Ключи сокращения прогноза
+                  href: master-planning/reduction-keys.md
+            - name: Планирование потребностей в материальных ресурсах на основе спроса (DDMRP)
+              items:
+                - name: Обзор DDMRP
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: Включение функции DDMRP в системе
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Позиционирование запасов
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Профиль буфера и уровни
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Планирование на основе спроса
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Визуальное и совместное выполнение
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Устаревшая подсистема планирования
+              items:
+                - name: Обзор устаревшей подсистемы планирования
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Миграция на оптимизацию планирования для сводного планирования
+                  href: master-planning/new-master-planning-engine.md
+                - name: 'Параметры, не используемые в оптимизации планирования'
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Различия между оптимизацией планирования и устаревшей подсистемой сводного планирования
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Анализ соответствия оптимизации планирования
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Повышение производительности сводного планирования
+                  href: master-planning/master-planning-performance.md
+                - name: Повышение производительности подсистемы планирования
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Создание внутрихолдингового плана
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Просмотр исходящего запланированного внутрихолдингового спроса
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Мониторинг выполнения сводного планирования
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Чистые потребности и информация об источниках потребности в устаревшей подсистеме планирования
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Создание плана материалов для сопутствующих продуктов
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: 'Отмена задания, которое было создано с использованием устаревшей подсистемы сводного планирования'
+                  href: master-planning/cancel-master-planning-job.md
         - name: Мобильное приложение
           items:
             - name: Домашняя страница мобильного приложения

@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Дескрипторы языков и языковых стандартов в продуктах и справке
                   href: help/language-locale.md
-                - name: 'Расширение и настройка справки, а также совместная работа над ней'
+                - name: 'Расширение справки, а также совместная работа над ней'
                   href: help/contributor-guide.md
             - name: Региональные службы приложений для управления финансами и операциями
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Управление доступом к сетевым принтерам в юридических лицах
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Мониторинг и телеметрия с использованием Application Insights
+              items:
+                - name: Обзор
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Безопасность
               items:
                 - name: Безопасность на основе ролей
