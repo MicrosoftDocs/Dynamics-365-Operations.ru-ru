@@ -1,6 +1,6 @@
 ---
-title: Настройка сводного планирования
-description: В этой статье описываются различные важные стратегии и параметры, используемые для настройки сводного планирования.
+title: Настройка сводных планов
+description: В этой статье описываются различные важные стратегии и параметры, используемые для настройки сводных планов.
 author: t-benebo
 ms.date: 07/01/2019
 ms.topic: article
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: effdefcf8326babaa89d7de4b28a86bbef7280f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 150e02916e056946016155d1b4969e99fbd47af5
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888567"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740666"
 ---
-# <a name="set-up-master-planning"></a>Настройка сводного планирования
+# <a name="set-up-master-plans"></a>Настройка сводных планов
 
 [!include [banner](../includes/banner.md)]
 
