@@ -2,23 +2,23 @@
 title: Настройка управления задачами
 description: В этой статье описывается, как настроить функции управления задачами в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282770"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746071"
 ---
 # <a name="configure-task-management"></a>Настройка управления задачами
 
@@ -80,7 +80,11 @@ ms.locfileid: "9282770"
 
 ![Операция управления задачами на странице Операций POS.](media/HQ-POS-Tasks-Notifications.png)
 
-Дополнительные сведения о настройке уведомлений POS см. в [Отображение уведомлений о заказах в POS-терминале](notifications-pos.md).
+Дополнительные сведения о настройке уведомлений POS см. в статье [Отображение уведомлений о заказах в POS-терминале](notifications-pos.md).
+
+> [!NOTE]
+> При сохранении изменений отображается следующее сообщение с предупреждением: **Параметр операции не будет активирован в конструкторе сетки кнопок, если код операции равен или меньше 4000. Если вы создаете пользовательскую операцию и хотите передать параметр из конструктора сетки кнопок, используйте код операции больше 4000.** Выберите **Закрыть**, чтобы закрыть диалоговое окно.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Настройка плитки «задачи» на домашней странице приложения POS
 

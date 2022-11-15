@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124801"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740419"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.22 (ноябрь 2021 г.)
 
@@ -53,7 +53,7 @@ ms.locfileid: "9124801"
 |---|---|
 | Управление изменениями разработки | [Общие сведения об изменениях разработки](../engineering-change-management/product-engineering-overview.md) содержат все связанные, дополнительные возможности, доступные в управлении функциями |
 | Сводное планирование | [Настройка прогнозирования спроса](../master-planning/demand-forecasting-setup.md) |
-| Сводное планирование | [Чистые потребности и информация об источниках потребности в оптимизации планирования](../master-planning/planning-optimization/net-requirements.md) |
+| Сводное планирование | [Чистые потребности и информация об источниках потребности](../master-planning/planning-optimization/net-requirements.md) |
 | Управление складом | [Выпуск на склад](../warehousing/release-to-warehouse-process.md) содержит подробный обзор полного выпуска для складского процесса |
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

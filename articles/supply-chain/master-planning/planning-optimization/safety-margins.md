@@ -1,6 +1,6 @@
 ---
 title: Резервное время
-description: В этой статье описывается, как резервное время можно использовать с надстройкой оптимизации планирования для Microsoft Dynamics 365 Supply Chain Management.
+description: В этой статье описывается функционирование резервного времени при сводном планировании.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335206"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740450"
 ---
 # <a name="safety-margins"></a>Резервное время
 
 [!include [banner](../../includes/banner.md)]
 
-В этой статье описывается, как резервное время можно использовать с надстройкой оптимизации планирования для Microsoft Dynamics 365 Supply Chain Management.
+В этой статье описывается функционирование резервного времени при сводном планировании.
 
 ## <a name="safety-margins-overview"></a>Общие сведения о резервном времени
 
@@ -165,12 +165,5 @@ ms.locfileid: "9335206"
 Например, номенклатура имеет время упреждения, равное одному дню, и резервное время для поступления составляет три дня. Заказ на продажу для этой номенклатуры устанавливается как требуемый сегодня. В этом случае задержка рассчитывается как *время упреждения* + *резервное время для поступления* = четыре дня. Таким образом, если сегодня 14 августа, то четыре дня задержки приводят к доставке на 18 августа. Следующая иллюстрация показывает этот пример.
 
 ![Пример расчета задержки.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Дополнительные ресурсы
-
-[Начало работы с оптимизацией планирования](get-started.md)
-
-[Анализ соответствия оптимизации планирования](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

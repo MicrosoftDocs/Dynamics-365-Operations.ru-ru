@@ -2,24 +2,24 @@
 title: Создание списков задач и добавление задач
 description: В этой статье описывается, как создавать списки задач и добавлять задачи в них в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: f754ee78547e785fa2386dee6c3d89371bc0de41
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b81f27f79362516f8a25766c1f663a7691ebb42a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268928"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746168"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Создание списков задач и добавление задач
 
@@ -35,7 +35,7 @@ ms.locfileid: "9268928"
 
 ## <a name="create-a-task-list"></a>Создать список задач
 
-Выполните следующие действия, чтобы создать список задач.
+Перед началом процесса создания списка задач убедитесь, что выполнены настройки из статьи [Настройка управления задачами](task-mgmt-configure.md). Выполните следующие действия, чтобы создать список задач.
 
 1. Перейдите в **Retail и Commerce \> Управление задачами \> Администрирование управления задачами**.
 1. Выберите **Создать**, а затем введите значения в поля **Имя**, **Описание** и **Владелец**.

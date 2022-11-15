@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689497"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740859"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Обзор планирования потребностей в материальных ресурсах на основе спроса (DDMRP)
 
@@ -44,6 +44,6 @@ DDMRP обычно используется производителями, ко
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP в Dynamics 365 Supply Chain Management
 
-DDMRP входит в состав Microsoft Dynamics 365 Supply Chain Management и не требует дополнительной платы за лицензии. В Supply Chain Management функции DDMRP добавлены к существующему модулю **Сводное планирование**. Однако для него требуется использовать надстройку оптимизации планирования. 
+DDMRP входит в состав Microsoft Dynamics 365 Supply Chain Management и не требует дополнительной платы за лицензии. В Supply Chain Management функции DDMRP добавлены к существующему модулю **Сводное планирование**. Однако для него требуется использовать надстройку оптимизации планирования.
 
 DDMRP интегрировано с существующими настройками планирования в Supply Chain Management и используется вместе с этими настройками, чтобы получить правильную конфигурацию планирования для бизнеса. ОНо управляется новым кодом покрытия, который полностью отличен от периода, мин./макс., потребностей и т. д. Оно не является новым модулем и не заменяет существующие функции планирования. Однако оно дает больше возможностей для использования.

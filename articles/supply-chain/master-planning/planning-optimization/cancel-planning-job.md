@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900951"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741185"
 ---
 # <a name="cancel-a-planning-job"></a>Отмена задания планирования
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900951"
 
 В Microsoft Dynamics 365 Supply Chain Management можно отменить активное задание планирования, в котором используются функции оптимизации планирования. Если в диалоговом окне выбрать **Отмена**, когда задание оптимизации планирования запускается непосредственно из интерфейса пользователя (не в фоновом режиме), это не отменит задания оптимизации планирования. Даже если вы получаете предупреждение, например "операция отменена", вам все равно придется выполнить следующие шаги для отмены задания планирования с оптимизацией планирования.
 
-
-Чтобы отменить активное задание планирования, выполните следующие действия. 
+Чтобы отменить активное задание планирования, выполните следующие действия.
 
 > [!NOTE]
 > Только активные задания могут быть отменены.
@@ -45,18 +44,6 @@ ms.locfileid: "8900951"
 
 > [!NOTE]
 > Чтобы просмотреть изменения статуса, необходимо обновить страницу, нажав кнопку **Обновить**.
-
-## <a name="additional-resources"></a>Дополнительные ресурсы
-
-[Обзор оптимизации планирования](planning-optimization-overview.md)
-
-[Начало работы с оптимизацией планирования](get-started.md)
-
-[Анализ пригодности оптимизации планирования](planning-optimization-fit-analysis.md)
-
-[Просмотр журнала плана и журналов планирования](plan-history-logs.md)
-
-[Применение фильтров к плану](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Заявки на закупку
-description: В этой статье описывается, как заявки на закупку поддерживаются при оптимизации планирования.
+description: В этой статье описываются заявки на закупку.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867908"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740693"
 ---
 # <a name="purchase-requisitions"></a>Заявки на закупку
 
@@ -59,7 +59,7 @@ ms.locfileid: "8867908"
 1. Повторите шаги 2 и 3 для каждого дополнительного сводного плана, в котором необходимо настроить временную границу утвержденных заявок.
 
 > [!IMPORTANT]
-> **Скоро появится:** временные границы утвержденных заявок еще не поддерживаются для оптимизации планирования. Пока они не будут поддерживаемыми, все значения, введенные в поле **Временная граница утвержденных заявок (дни)**, будут пропущены.
+> Временные границы утвержденных заявок не поддерживаются для оптимизации планирования. Пока они не будут поддерживаемыми, все значения, введенные в поле **Временная граница утвержденных заявок (дни)**, будут пропущены.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Независимые поставки, независимо от кода покрытия
 
