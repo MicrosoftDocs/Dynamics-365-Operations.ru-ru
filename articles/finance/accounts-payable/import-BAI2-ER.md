@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337578"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752729"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Настройка расширенного импорта банковской выверки с помощью электронной отчетности
 
@@ -34,7 +34,7 @@ ms.locfileid: "9337578"
 2. На плитке поставщика конфигурации **Microsoft** выберите **Репозитории**.
 3. Выберите **Глобальный**, затем выберите **Открыть**.
 4. Если необходимо установить соединение с репозиторием, выберите синюю ссылку в диалоговом окне.
-5. В списке конфигураций найдите **Модель банковской выписки \> Модель банковской выписки BAI2**.
+5. В списке конфигураций найдите **Усовершенствованная модель выписок банковской выверки \> Формат ABR BAI2**.
 6. Выберите формат **BAI2**.
 7. На экспресс-вкладке **Версии** выберите последнюю версию, затем выберите **Импорт**.
 

@@ -2,7 +2,7 @@
 title: Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.30 (ноябрь 2022 г.)
 description: В этой статье описываются новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714807"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748473"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.30 (ноябрь 2022 г.)
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714807"
 
 | Область компонентов | Функция | Дополнительные сведения | Включено пользователем   |
 |---|---|---|---|
+| Запасы и логистика | [Отслеживание предварительно зарезервированных количеств в распределениях](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Функция распределения запасов «Видимость запасов»](../inventory/inventory-visibility-allocation.md) |  Включено [конфигурацией службы](../inventory/inventory-visibility-configuration.md) |
 | Производство | [Мониторинг оборудования с Аналитики данных датчиков](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Домашняя страница Аналитики данных датчиков](../sensor-data-intelligence/sdi-home-page.md) | Управление функциями:<br>*(Предварительная версия) Аналитика данных датчиков* |
 | Управление складом | [Многоуровневые переключения для мобильного приложения Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Настройка переключений для шагов в пунктах меню мобильного устройства](../warehousing/warehouse-app-detours.md) | Управление функциями:<br>*Многоуровневые переключения для мобильного приложения Warehouse Management* |
 
