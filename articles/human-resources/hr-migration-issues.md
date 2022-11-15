@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733480"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752699"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Известные проблемы объединение инфраструктуры Dynamics 365 Human Resources
 
@@ -44,10 +44,3 @@ ms.locfileid: "9733480"
 
 Существующее приложение Human Resources в Teams в данный момент переводится в решение Microsoft Power Platform. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Лицензирование
-
-Нет изменений лицензирования для Dynamics 365 Human Resources в следующих областях: 
-
-- **Требования к минимальному количеству приобретенных лицензий**
-- **Лицензии для производственной среды и среды песочницы** — если имеются автономные лицензии Human Resources, которые включают одну производственную среду и одну среду песочницы, то такое же число лицензий будет доступно в инфраструктуре приложений для управления финансами и операциями без дополнительных затрат.
-- **Дополнительные лицензии на "песочницу"** — если вы приобрели дополнительные лицензии "песочницы" для автономного приложения Human Resources, такое же число лицензий будет доступно для сред песочницы в инфраструктуре приложений для управления финансами и операциями. 

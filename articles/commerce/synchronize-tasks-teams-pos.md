@@ -2,22 +2,22 @@
 title: Синхронизация управления задачами между Microsoft Teams и Dynamics 365 Commerce POS
 description: В этой статье описывается, как синхронизировать управление задачами между Microsoft Teams и POS-терминалом Dynamics 365 Commerce (POS).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268283"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746106"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Синхронизация управления задачами между Microsoft Teams и Dynamics 365 Commerce POS
 
@@ -30,6 +30,21 @@ ms.locfileid: "9268283"
 Поскольку планировщик используется в качестве репозитория для задач в Teams, должна быть связь между Teams и Dynamics 365 Commerce. Эта связь устанавливается с помощью определенного кода плана для заданной рабочей группы магазина.
 
 В следующих процедурах показано, как настроить синхронизацию управления задачами между приложениями POS и Teams.
+
+## <a name="link-pos-and-teams-for-task-management"></a>Связь POS и Teams для управления задачами
+
+Чтобы связать POS-терминалы и приложения Microsoft Teams для управления задачами в Commerce Headquarters, выполните следующие действия.
+
+> [!NOTE]
+> Прежде чем пытаться интегрировать управление задачами с Teams, убедитесь, что вы включили интеграцию [Dynamics 365 Commerce и Microsoft Teams](enable-teams-integration.md). 
+
+1. Перейдите в раздел **Retail и Commerce \> Управление задачами \> Интеграция задач с Microsoft Teams**.
+1. На панели операций выберите **Правка**.
+1. Установите для параметра **Включить интеграцию управления задачами** значение **Да**.
+1. На панели операций выберите **Сохранить**.
+1. В панели операций выберите **Настройка управления задачами**. Вы должны получить уведомление о том, что создается пакетное задание с именем **Подготовка Teams**.
+1. Перейдите в раздел **Администрирование системы \> Запросы \> Пакетные задания** и найдите самое последнее задание, которое имеет описание **Подготовка Teams**. Дождитесь завершения выполнения этого задания.
+1. Выполните **Задание CDX 1070**, чтобы опубликовать ИД плана и сохранить ссылки на сервере Retail Server.
 
 ## <a name="publish-a-test-task-list-in-teams"></a>Публикация тестового списка задач в Teams
 
@@ -50,20 +65,8 @@ ms.locfileid: "9268283"
 
 Дополнительные сведения см. в разделе [Публикация списков задач для создания и отслеживания работы в организации](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df).
 
-## <a name="link-pos-and-teams-for-task-management"></a>Связь POS и Teams для управления задачами
-
-Чтобы связать POS-терминалы и приложения Microsoft Teams для управления задачами в Commerce Headquarters, выполните следующие действия.
-
 > [!NOTE]
-> Прежде чем пытаться интегрировать управление задачами с Microsoft Teams, убедитесь, что вы включили [интеграцию Dynamics 365 Commerce и Microsoft Teams](enable-teams-integration.md). 
-
-1. Перейдите в раздел **Retail и Commerce \> Управление задачами \> Интеграция задач с Microsoft Teams**.
-1. На панели операций выберите **Правка**.
-1. Установите для параметра **Включить интеграцию управления задачами** значение **Да**.
-1. На панели операций выберите **Сохранить**.
-1. В панели операций выберите **Настройка управления задачами**. Вы должны получить уведомление о том, что создается пакетное задание с именем **Подготовка Teams**.
-1. Перейдите в раздел **Администрирование системы \> Запросы \> Пакетные задания** и найдите самое последнее задание, которое имеет описание **Подготовка Teams**. Дождитесь завершения выполнения этого задания.
-1. Выполните **Задание CDX 1070**, чтобы опубликовать ИД плана и сохранить ссылки на сервере Retail Server.
+> После успешного опубликования списка задач в Teams задачи будут отображаться в POS-терминале. Затем менеджерам POS и кассирам необходимо включить вход Azure AD в POS. Дополнительные сведения см. в статье [Включение проверки подлинности Azure Active Directory для входа в POS-терминал](aad-pos-logon.md). 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
