@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Настройка Google Pay с использованием Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Настройка Apple Pay с Adyen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Устранение неполадок с Dynamics 365 Payment Connector для Adyen
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Настройка сценариев оплаты накладных
                       href: payinvoice.md
+                    - name: Предоплаты в Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Предотвращение дублирования платежей
                       href: duplicate-payment-protection.md
                     - name: Обзор платежей многоканального взаимодействия

@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Назначение пользователей для ролей безопасности
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Группы безопасности Active Directory
+                  href: sysadmin/active-directory-security-group.md
                 - name: Импорт или экспорт настроенной конфигурации безопасности с помощью модуля управления данными
                   href: sysadmin/import-export-customized-security.md
                 - name: Диагностика безопасности для записей задач

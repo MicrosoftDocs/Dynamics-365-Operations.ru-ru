@@ -302,10 +302,12 @@
                       href: hr-admin-troubleshooting-integration.md
             - name: Настройка Human Resources
               items:
-                - name: Настройка параметров Human Resources
+                - name: Настройка параметров управления персоналом
                   href: hr-setup-parameters.md
-                - name: Настройка общих параметров Human Resources
+                - name: Настройка общих параметров управления персоналом
                   href: hr-setup-shared-parameters.md
+                - name: Ограничение доступа работникам по юридическому лицу
+                  href: hr-advanced-security.md
                 - name: Настройка workflow-процессов управления персоналом
                   href: hr-workflow-manage-employee-information.md
                 - name: Сведения о полях даты и времени
@@ -848,6 +850,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: Настройка виртуальных таблиц Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Безопасность для интеграции виртуальных таблиц
+              href: hr-security-config.md
             - name: Настройка интеграции с Finance
               href: hr-admin-integration-finance.md
             - name: Создание ссылок из Human Resources на другую среду

@@ -3395,6 +3395,8 @@
           items:
             - name: Обзор управления складом
               href: warehousing/warehouse-management-overview.md
+            - name: Начало настройки модуля "Управление складом"
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Входящие складские операции
               items:
                 - name: Складская обработка входящих загрузок для заказов на покупку

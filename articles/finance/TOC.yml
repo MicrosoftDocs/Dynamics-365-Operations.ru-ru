@@ -430,7 +430,7 @@
                   href: accounts-receivable/rev-rec-bundles.md
                 - name: Перераспределение признания выручки
                   href: accounts-receivable/rev-rec-reallocation.md
-                - name: Перераспределение признания выручки — сценарий 1
+                - name: 'Сценарий 1: перераспределение признания выручки'
                   href: accounts-receivable/rev-rec-reallocation-scenario-1.md
                 - name: 'Сценарий 2: перераспределение признания выручки'
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Зависимость между сопоставлением ГК и закрытием года
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Автоматизация сопоставлений ГК
+                  href: general-ledger/auto-settle.md
                 - name: Переоценка в иностранной валюте для главной книги
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Сальдо счетов главной книги
