@@ -2,7 +2,7 @@
 title: Общедоступные интерфейсы API Inventory Visibility
 description: В этой статье описываются открытые API, предоставляемые видимостью запасов.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
-ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
+ms.openlocfilehash: 8b0b8ca261237fbb2190f2a94cc11b816ae05af5
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9719357"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762843"
 ---
 # <a name="inventory-visibility-public-apis"></a>Общедоступные интерфейсы API Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 В этой статье описываются открытые API, предоставляемые видимостью запасов.
 
@@ -36,38 +35,38 @@ ms.locfileid: "9719357"
 
 | Путь | Метод | описание |
 |---|---|---|
-| /api/environment/{environmentId}/onhand | Должность | [Создание одного события изменения в наличии](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand | Должность | [Создание одного события изменения в наличии](#create-one-onhand-change-event)|
 | /api/environment/{environmentId}/onhand/bulk | Должность | [Создание нескольких событий изменения](#create-multiple-onhand-change-events) |
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Должность | [Настройка/переопределение количеств в наличии](#set-onhand-quantities) |
-| /api/environment/{environmentId}/onhand/reserve | Должность | [Создание одного события резервирования](#create-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/reserve/bulk | Должность | [Создание нескольких событий резервирования](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/unreserve | Разнести | [Реверсирование одного события резервирования](#reverse-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/unreserve/bulk | Разнести | [Реверсирование нескольких событий резервирования](#reverse-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/reserve | Разнести | [Создание одного события предварительного резервирования](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Разнести | [Создание нескольких событий предварительного резервирования](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Разнести | [Реверсирование одного события предварительного резервирования](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Разнести | [Реверсирование нескольких событий предварительного резервирования](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Разнести | [Создание одного запланированного изменения запасов в наличии](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/changeschedule/bulk | Разнести | [Создание нескольких запланированных изменений запасов в наличии](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/indexquery | Разнести | [Запрос с использованием метода POST](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Разнести | [Создание нескольких изменений запасов в наличии с датами](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Разнести | [Запрос с использованием метода POST](#query-with-post-method) (рекомендуется) |
 | /api/environment/{environmentId}/onhand | Получить | [Запрос с использованием метода GET](#query-with-get-method) |
 | /api/environment/{environmentId}/onhand/exactquery | Разнести | [Извлечение запроса с использованием метода POST](#exact-query-with-post-method) |
-| /api/environment/{environmentId}/allocation/allocate | Разнести | [Создание одного события распределения](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/unallocate | Разнести | [Создание одного события нераспределения](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/reallocate | Разнести | [Создание одного события перераспределения](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/consume | Разнести | [Создание одного события потребления](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/query | Разнести | [Запрос результата распределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/allocate | Разнести | [Создание одного события распределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/unallocate | Разнести | [Создание одного события нераспределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/reallocate | Разнести | [Создание одного события перераспределения](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/consume | Разнести | [Создание одного события потребления](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/query | Разнести | [Запрос результата распределения](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
-> Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services (LCS).
+> Частью пути {environmentId} является идентификатор среды в Microsoft Dynamics Lifecycle Services.
 > 
 > Массовый API-интерфейс может возвращать максимум 512 записей для каждого запроса.
 
 Корпорация Майкрософт представила готовую коллекцию запросов *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
-## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a><a name = "endpoint-lcs"></a>Найдите конечную точку в соответствии с используемой средой Lifecycle Services
 
 Микрослужба видимости запасов развернута в Microsoft Azure Service Fabric, в нескольких географических регионах и в нескольких странах/регионах. В настоящее время отсутствует центральная конечная точка, которая может автоматически перенаправлять запрос в соответствующие географический регион и страну/регион. Поэтому необходимо вставить фрагменты данных в URL-адрес, используя следующий шаблон:
 
 `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
-Краткое наименование географического региона можно найти в среде Microsoft Dynamics Lifecycle Services (LCS). В следующей таблице перечислены географические регионы, которые сейчас доступны.
+Краткое наименование географического региона можно найти в среде Lifecycle Services. В следующей таблице перечислены географические регионы, которые сейчас доступны.
 
 | Регион Azure        | Краткое название региона |
 | ------------------- | ----------------- |
@@ -83,16 +82,26 @@ ms.locfileid: "9719357"
 | Западная часть Соединенного Королевства             | wuk               |
 | Восточная Япония          | ejp               |
 | Западная Япония          | wjp               |
-| Южная Бразилия        | sbr               |
-| Юго-центральный регион США    | scus              |
+| Центральная Индия       | cin               |
+| Южная Индия         | sin               |
+| Северная Швейцария   | nch               |
+| Западная Швейцария    | wch               |
+| Южная Франция        | sfr               |
+| Восточная Азия           | eas               |
+| Юго-Восточная Азия     | seas              |
+| Северная часть ОАЭ           | nae               |
+| Восточная Норвегия         | eno               |
+| Западная Норвегия         | wno               |
+| Западная часть ЮАР   | wza               |
+| Северная часть ЮАР  | nza               |
 
-Номер остров — это место развертывания среды LCS в Service Fabric. В настоящее время невозможно получить эту информацию со стороны пользователя.
+Номер остров — это место развертывания среды Lifecycle Services в Service Fabric. В настоящее время невозможно получить эту информацию со стороны пользователя.
 
 Корпорация Майкрософт создала интерфейс пользователя Power Apps, чтобы можно было получить полную конечную точку микрослужбы. Дополнительные сведения см. в [Поиск конечной точки службы](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Аутентификация
 
-Маркер безопасности платформы используется для вызова открытых API видимости запасов. Таким образом, необходимо создать маркер _Azure Active Directory (Azure AD)_ с помощью приложения Azure AD. Затем необходимо использовать маркер Azure AD, чтобы получить _маркер доступа_ из службы безопасности.
+Маркер безопасности платформы используется для вызова открытых API видимости запасов. Таким образом, необходимо создать *Маркер Azure Active Directory (Azure AD)* с помощью приложения Azure AD. Затем необходимо использовать маркер Azure AD, чтобы получить *маркер доступа* из службы безопасности.
 
 Корпорация Майкрософт представила готовую коллекцию токенов получения *Postman*. Эту коллекцию можно импортировать в программное обеспечение *Postman*, используя следующую общую ссылку: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -101,63 +110,63 @@ ms.locfileid: "9719357"
 1. Выполните вход на портал Azure и используйте его, чтобы найти значения `clientId` и `clientSecret` для вашего приложения Dynamics 365 Supply Chain Management.
 1. Получите токен Azure AD (`aadToken`), отправив HTTP-запрос со следующими свойствами:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
-   - **Метод:** `GET`
-   - **Содержимое основной части (данные формы):**
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
+    - **Метод:** `GET`
+    - **Содержимое основной части (данные формы):**
 
-     | Ключ           | значение                                            |
-     | ------------- | -------------------------------------------------|
-     | client_id     | ${aadAppId}                                      |
-     | client_secret | ${aadAppSecret}                                  |
-     | grant_type    | client_credentials                               |
-     | область         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+        | Ключ           | значение                                            |
+        | ------------- | -------------------------------------------------|
+        | client_id     | ${aadAppId}                                      |
+        | client_secret | ${aadAppSecret}                                  |
+        | grant_type    | client_credentials                               |
+        | область         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
-   В ответе должен быть получен маркер Azure AD (`aadToken`). Она должна быть похожа на следующий пример.
+    В ответе должен быть получен маркер Azure AD (`aadToken`). Она должна быть похожа на следующий пример.
 
-   ```json
-   {
-       "token_type": "Bearer",
-       "expires_in": "3599",
-       "ext_expires_in": "3599",
-       "access_token": "eyJ0eX...8WQ"
-   }
-   ```
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
 
 1. Сформулируйте запрос в формате JavaScript (JSON), который напоминает следующий пример.
 
-   ```json
-   {
-       "grant_type": "client_credentials",
-       "client_assertion_type": "aad_app",
-       "client_assertion": "{Your_AADToken}",
-       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "{$LCS_environment_id}",
-       "context_type": "finops-env"
-   }
-   ```
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "{$LCS_environment_id}",
+        "context_type": "finops-env"
+    }
+    ```
 
-   Обратите внимание на следующие аспекты:
+    Обратите внимание на следующие аспекты:
 
-   - Значение `client_assertion` должно быть токеном Azure AD (`aadToken`), полученным на предыдущем шаге.
-   - Значение `context` должно быть идентификатором среды LCS, в которой требуется развернуть надстройку.
-   - Установите все остальные значения, как показано в примере.
+    - Значение `client_assertion` должно быть токеном Azure AD (`aadToken`), полученным на предыдущем шаге.
+    - Значение `context` должно быть идентификатором среды Lifecycle Services, в которой требуется развернуть надстройку.
+    - Установите все остальные значения, как показано в примере.
 
 1. Получите токен доступа (`access_token`), отправив HTTP-запрос со следующими свойствами:
 
-   - **URL:** `https://securityservice.operations365.dynamics.com/token`
-   - **Метод:** `POST`
-   - **Заголовок HTTP:** включите версию API. (Ключ — `Api-Version`, и значение — `1.0`.)
-   - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **Метод:** `POST`
+    - **Заголовок HTTP:** включите версию API. (Ключ — `Api-Version`, и значение — `1.0`.)
+    - **Основное содержимое** — включает запрос JSON, созданный на предыдущем шаге.
 
-   В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример.
+    В ответе должен быть получен маркер доступа (`access_token`). Следует использовать этот маркер в качестве маркера носителя для вызова API видимости запасов. Рассмотрим пример.
 
-   ```json
-   {
-       "access_token": "{Returned_Token}",
-       "token_type": "bearer",
-       "expires_in": 3600
-   }
-   ```
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
 
 > [!IMPORTANT]
 > При использовании коллекции запросов *Postman* для вызова общедоступных интерфейсов API видимости запасов необходимо добавить маркер носителя для каждого запроса. Чтобы найти маркер носителя, выберите вкладку **Авторизация** в URL-адресе запроса, выберите тип **Маркер носителя** и скопируйте токен доступа, который был извлечен на последнем шаге. В последующих разделах этой статьи токен `$access_token` будет использоваться для представления токена, который был выбран на последнем шаге.
@@ -178,10 +187,12 @@ ms.locfileid: "9719357"
 | `productId` | Идентификатор продукта. |
 | `quantities` | Это количество, на которое должно быть уменьшено количество в наличии. Например, если на полку добавлено 10 новых книг, это значение будет равно `quantities:{ shelf:{ received: 10 }}`. Если с полки убраны или проданы три книги, это значение будет равно `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Источник данных для аналитик, используемых в разноске события изменения и запроса. Если указан источник данных, можно использовать настраиваемые аналитики из указанного источника данных. С помощью конфигурации аналитик видимость запасов может сопоставлять пользовательские аналитики с общими аналитиками по умолчанию. Если значение `dimensionDataSource` не указано, в запросах могут использоваться только универсальные [базовые аналитики](inventory-visibility-configuration.md#data-source-configuration-dimension). |
-| `dimensions` | Динамическая пара "ключ-значение". Значения сопоставляются с некоторыми аналитиками в Supply Chain Management. Однако можно также добавить пользовательские аналитики (например, _Источник_), чтобы указать, поступает ли событие из модуля Supply Chain Management или из внешней системы. |
+| `dimensions` | Динамическая пара "ключ-значение". Значения сопоставляются с некоторыми аналитиками в Supply Chain Management. Однако можно также добавить пользовательские аналитики (например, *Источник*), чтобы указать, поступает ли событие из модуля Supply Chain Management или из внешней системы. |
 
 > [!NOTE]
 > Параметры `siteId` и `locationId` создают [конфигурацию раздела](inventory-visibility-configuration.md#partition-configuration). Поэтому при создании событий изменения запасов в наличии необходимо задать их в аналитиках, установить или переопределить количества в наличии или создать события резервирования.
+
+В следующих подразделах приводятся примеры, демонстрирующие использование этих интерфейсов API.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Создание одного события изменения в наличии
 
@@ -214,17 +225,17 @@ Body:
     }
 ```
 
-В следующем примере показано содержимое текста примера. В этом примере разносится событие изменения для продукта *Футболка*. Это событие берется из системы POS, и клиент вернул красную футболку в магазин. Это событие увеличит количество продукта *Футболка* на 1.
+В следующем примере показано содержимое текста примера. В этом примере компания имеет систему POS-терминалов, которая обрабатывает проводки в магазине и, соответственно, изменения запасов. Клиент вернул в магазин красную футболку. Чтобы отразить это изменение, вы разносите одно событие изменения для продукта *Футболка*. Это событие увеличит количество продукта *Футболка* на 1.
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
+    "id": "Test201",
+    "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "posMachineId": "0001",
         "colorId&quot;: &quot;red"
     },
@@ -240,12 +251,12 @@ Body:
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
-    "productId": "iv_postman_product",
+    "id": "Test202",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "colorId": "red"
     },
     "quantities": {
@@ -258,7 +269,14 @@ Body:
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Создание нескольких событий изменения
 
-Этот API может создавать несколько записей одновременно. Единственным различием между этим API и [API одного события](#create-one-onhand-change-event) являются значения `Path` и `Body`. Для этого API `Body` предоставляет массив записей. Максимальное число записей — 512, что означает, что API-интерфейс массовой обработки изменений запасов в наличии может поддерживать до 512 событий изменения за раз.
+Этот интерфейс API может создавать события изменения, подобно тому, как может [API одного события](#create-one-onhand-change-event). Единственное различие состоит в том, что этот API может создавать несколько записей одновременно. Таким образом, значения `Path` и `Body` различаются. Для этого API `Body` предоставляет массив записей. Максимальное число записей: 512. Таким образом, API массового изменения запасов в наличии может поддерживать до 512 событий изменения за раз. 
+
+Например, компьютер POS-терминала в розничном магазине обработал следующие две проводки:
+
+- Один заказ на возврат одной красной футболки
+- Одна проводка на продажу трех черных футболок
+
+В этом случае можно включить оба обновления запасов в один вызов API.
 
 ```txt
 Path:
@@ -295,26 +313,27 @@ Body:
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_1",
+        "id": "Test203",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "posSite1",
-            "posLocationId": "posLocation1",
+            "SiteId": "Site1",
+            "LocationId": "11",
             "posMachineId&quot;: &quot;0001"
+            "colorId&quot;: &quot;red"
         },
         "quantities": {
             "pos": { "inbound": 1 }
         }
     },
     {
-        "id": "654321",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_2",
+        "id": "Test204",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensions": {
-            "siteId": "iv_postman_site",
-            "locationId": "iv_postman_location",
+            "siteId": "1",
+            "locationId": "11",
             "colorId&quot;: &quot;black"
         },
         "quantities": {
@@ -326,7 +345,7 @@ Body:
 
 ## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Настройка/переопределение количеств в наличии
 
-API _Задано в наличии_ переопределяет текущие данные для указанного продукта.
+API *Задано в наличии* переопределяет текущие данные для указанного продукта. Эта функция обычно используется для обновления инвентаризации запасов. Например, в ходе ежедневной инвентаризации запасов магазин может обнаружить фактическое количество запасов в наличии для красной футболки равно 100. Таким образом, входящее количество в POS-терминале должно быть обновлено до 100, независимо от того, какое было предыдущее количество. Этот API можно использовать для переопределения существующего значения.
 
 ```txt
 Path:
@@ -364,18 +383,19 @@ Body:
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
+        "id": "Test204",
+        "organizationId": "usmf",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "iv_postman_site",
-            "posLocationId": "iv_postman_location",
+            "SiteId": "1",
+            "LocationId": "11",
             "posMachineId": "0001"
+            "colorId": "red"
         },
         "quantities": {
             "pos": {
-                "inbound": 1
+                "inbound": 100
             }
         }
     }
@@ -384,7 +404,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>Создание событий резервирования
 
-Для использования API *Резервирование* необходимо включить функцию резервирования и выполнить настройку резервирования. Дополнительные сведения см. в [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
+Для использования API *Резервирование* необходимо включить функцию резервирования и выполнить настройку резервирования. Дополнительные сведения (включая поток данных и образец сценария) см. в разделе [Конфигурация резервирования (необязательно)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Создание одного события резервирования
 
@@ -392,7 +412,7 @@ Body:
 
 При вызове API резервирования можно контролировать проверку резервирования путем указания логического параметра `ifCheckAvailForReserv` в тексте запроса. Значение `True` означает, что проверка является обязательной, а значение `False` означает, что проверка не является обязательной. Значение по умолчанию — `True`.
 
-Если необходимо реверсировать резервирование или отказаться от указанного количества запасов, установите отрицательное значение количества и задайте для параметра `ifCheckAvailForReserv` значение `False` для пропуска проверки. Также имеется выделенный API-интерфейс отмены резервирования для выполнения той же задачи. Разница заключается только в способе вызова двух интерфейсов API. Конкретное событие резервирования проще реверсировать, используя `reservationId` с API-интерфейсом *отмены резервирования*. Дополнительные сведения см. в разделе [_Отмена резервирования одного события резервирования_](#reverse-reservation-events).
+Если необходимо реверсировать резервирование или отказаться от указанного количества запасов, установите отрицательное значение количества и задайте для параметра `ifCheckAvailForReserv` значение `False` для пропуска проверки. Также имеется выделенный API-интерфейс отмены резервирования для выполнения той же задачи. Разница заключается только в способе вызова двух интерфейсов API. Конкретное событие резервирования проще реверсировать, используя `reservationId` с API-интерфейсом *отмены резервирования*. Дополнительные сведения см. в разделе [Отмена резервирования одного события резервирования](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -593,7 +613,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Запрос в наличии
 
-Используйте API *Запрос в наличии* для получения текущих данных запасов в наличии для вашей продукции. В настоящее время API поддерживает запросы до 5000 отдельных номенклатур по значению `productID`. В каждом запросе также может быть указано несколько значений `siteID` и `locationID`. Максимальное ограничение определяется следующим уравнением:
+Используйте API *Запрос в наличии* для получения текущих данных запасов в наличии для вашей продукции. Этот интерфейс API можно использовать, если необходимо знать запасы на складе, например, когда необходимо просмотреть уровни складских запасов продукта на веб-сайте электронной коммерции или если требуется проверить доступность продукта по регионам или в ближайших магазинах и на ближайших складах. В настоящее время API поддерживает запросы до 5000 отдельных номенклатур по значению `productID`. В каждом запросе также может быть указано несколько значений `siteID` и `locationID`. Максимальное ограничение определяется следующим уравнением:
 
 *NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
@@ -637,16 +657,16 @@ Body:
 > [!NOTE]
 > Если вы включили функции графика изменения запасов в наличии и количеств, доступных для заказа (ATP), запрос также может включать логический параметр `QueryATP`, который управляет тем, содержат ли результаты запроса сведения ATP. Дополнительные сведения и примеры см. в разделе [Графики изменения запасов в наличии и доступность для заказа](inventory-visibility-available-to-promise.md).
 
-В следующем примере показано содержимое текста примера.
+В следующем примере показано содержимое текста примера. Он показывает, что можно запросить запасы в наличии из нескольких местоположений (складов).
 
 ```json
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["SCM_IV"],
-        "productId": ["iv_postman_product"],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "locationId": ["11","12","13"],
         "colorId": ["red"]
     },
     "groupByValues": ["colorId", "sizeId"],
@@ -659,10 +679,10 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["SCM_IV"],
+        "organizationId": ["usmf"],
         "productId": [],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "siteId": ["1"],
+        "locationId": ["11"],
     },
     "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
@@ -692,6 +712,22 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
+
+## <a name="on-hand-exact-query"></a><a name="exact-query-with-post-method"></a>Точный запрос запасов в наличии
+
+Точные запросы запасов в наличии напоминают обычные запросы в наличии, но они позволяют указать иерархию сопоставлений между сайтом и местоположением. Например, есть следующие два сайта:
+
+- Сайт 1, который сопоставлен с расположением A
+- Сайт 2, который сопоставлен с расположением B
+
+Для обычного запроса запасов в наличии, если указано `"siteId": ["1","2"]` и `"locationId": ["A","B"]`, видимость запасов автоматически запрашивает результат для следующих узлов и ячеек:
+
+- Сайт 1, местоположение A
+- Сайт 1, местоположение B
+- Сайт 2, местоположение A
+- Сайт 2, местоположение B
+
+Как вы видите, обычный запрос запасов в наличии не распознает, что местоположение A существует только на сайте 1, а местоположение B существует только на сайте 2. Таким образом, он выполняет избыточные запросы. Чтобы учесть эту иерархию сопоставления, можно использовать точный запрос запасов в наличии и указать сопоставления местоположений в теле запроса. В этом случае вы запрашиваете и получаете результаты только для сайта 1, местоположения A, и сайта 2, местоположение B.
 
 ### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Извлечение запроса с использованием метода POST
 

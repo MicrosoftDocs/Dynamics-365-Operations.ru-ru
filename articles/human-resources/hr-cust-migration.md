@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733462"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760371"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Миграция клиентов Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ ms.locfileid: "9733462"
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Резервная среда Dataverse (песочница)
 
-1. Необязательно, но рекомендуется: обновите существующую среду "песочницы" Human Resources, используя копию производственной среды Human Resources.
-2. [Создайте новую среду Dataverse](/power-platform/admin/create-environment#create-an-environment-with-a-database) с помощью центра администрирования Power Platform.
+ - Необязательно, но рекомендуется: обновите существующую среду "песочницы" Human Resources, используя копию производственной среды Human Resources.
+ - Создайте новую среду Dataverse с помощью центра администрирования Power Platform.
+ - Скопируйте существующую среду Dataverse, связанную с автономным приложением Human Resources, в среду, созданную на предыдущем шаге.
 
-    > [!NOTE]
-    > При добавлении базы данных убедитесь, что для параметра **Включить приложения Dynamics 365** установлено значение **Да**.
-
-3. [Скопируйте существующую среду Dataverse](/power-platform/admin/copy-environment), связанную с автономным приложением Human Resources, в среду, созданную на предыдущем шаге.
+> [!NOTE]
+> При добавлении базы данных убедитесь, что для параметра **Включить приложения Dynamics 365** установлено значение **Да**. Подробные сведения см. в разделе [Подготовка среды Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Емкость Dataverse
 
@@ -89,9 +88,9 @@ ms.locfileid: "9733462"
 #### <a name="prepare-a-power-platform-environment"></a>Подготовка среды Power Platform
 
 > [!NOTE]
-> Этот шаг применяется только к миграции среды "песочницы". При миграции производственной среды существующая среда центра администрирования Power Platform, прикрепленная к производственной среде, будет перенесена первой.
+> Этот шаг применяется только к миграции среды "песочницы". При миграции производственной среды существующая среда центра администрирования Power Platform, прикрепленная к производственной среде, будет перенесена первой. При добавлении базы данных убедитесь, что для кнопки **Включить приложения Dynamics 365** установлено значение **Да**. 
 
-- В центре администрирования Power Platform [создайте среду Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center), которая будет использоваться для миграции "песочницы", или выберите существующую среду.
+- В центре администрирования Power Platform [создайте среду с базой данных](/power-platform/admin/create-environment#create-an-environment-with-a-database), которая будет использоваться для миграции "песочницы", или выберите существующую среду.
 - [Скопируйте среду](/power-platform/admin/copy-environment) для обновления среды Power Platform, используемой для сопоставления.
 
 #### <a name="migrate-the-sandbox-environment"></a>Миграция среды песочницы

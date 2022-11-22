@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ba11a561f320a7f4e787e4fe3f4e6f4fb88bbfb
+ms.sourcegitcommit: ca73177dedf40df16860eaf88b1c701c61992028
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982935"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9754119"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Обзор конфигураций продуктов на основе аналитик
 
@@ -74,7 +74,7 @@ ms.locfileid: "7982935"
 
 Технология конфигурация на основе аналитик рекомендуется использовать для продуктов с ограниченной изменчивостью, и когда сочетание стандартного размера, цвета, стиля и конфигурации аналитик продукта не подходит для определения конкретного варианта продукта. Примером может служить велосипед с высотой рамы, размером колес, типами тормозов и различными передачами.
 
-### <a name="next-step"></a>Далее 
+### <a name="next-step"></a><a name="sequence"></a>Далее
 
 Следующие восемь проводников по задачам указаны в том в порядке, в каком их следует выполнять. 
 

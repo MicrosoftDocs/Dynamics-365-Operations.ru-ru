@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752729"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759609"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Настройка расширенного импорта банковской выверки с помощью электронной отчетности
 
@@ -37,6 +37,9 @@ ms.locfileid: "9752729"
 5. В списке конфигураций найдите **Усовершенствованная модель выписок банковской выверки \> Формат ABR BAI2**.
 6. Выберите формат **BAI2**.
 7. На экспресс-вкладке **Версии** выберите последнюю версию, затем выберите **Импорт**.
+
+>[!NOTE]
+>**Модель банковской выписки BAI2** станет устаревшей в более позднюю дату. 
 
 ## <a name="set-up-the-bank-statement-format"></a>Настройка формата банковской выписки
 

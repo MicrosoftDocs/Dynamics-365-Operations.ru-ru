@@ -2,24 +2,19 @@
 title: Обзор оценок и отзывов
 description: В этой статье рассматриваются оценки и отзывы в Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269009"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785158"
 ---
 # <a name="ratings-and-reviews-overview"></a>Обзор оценок и отзывов
 
@@ -42,6 +37,11 @@ ms.locfileid: "9269009"
 Решение оценок и отзывов предоставляет виджеты, отображающие сводку рейтинга в списках продуктов, в результатах поиска, на странице сведений о продукте и в других местах. Графические элементы показывают полный список отзывов, а также предоставляют параметры сортировки и фильтрации.
 
 Решение оценок и отзывов также предоставляет шаблон бизнес-аналитики (BI), который включает набор показателей, обеспечивающих анализ оценок и отзывов. Данные оценок и отзывов можно экспортировать для дальнейшего анализа.
+
+Следующий видеоролик содержит обзор возможностей оценки и отзывов в Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

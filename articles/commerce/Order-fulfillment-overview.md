@@ -1,35 +1,37 @@
 ---
 title: Выполнение заказов магазином
-description: В этой статье представлен обзор исполнения заказов магазинами.
+description: В этой статье представлен обзор исполнения заказов магазинами в Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854986"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785081"
 ---
 # <a name="store-order-fulfillment"></a>Выполнение заказов магазином
 
 [!include [banner](includes/banner.md)]
+
+В этой статье представлен обзор исполнения заказов магазинами в Microsoft Dynamics 365 Commerce.
 
 Многим компании розничной торговли хотели бы оптимизировать выполнение заказов, разрешив магазинам выполнять заказы. Выполнение заказов на уровне магазинов может помочь упростить ослабить сценарии избыточных запасов для конкретного магазина или может требоваться с точки зрения логистики в случаях, когда магазин имеет дополнительную емкость или находится ближе к клиенту для доставки. Для удовлетворения этой потребности единая операция выполнения заказа доступна на POS-терминале.
 
 Заказы для выполнения в конкретном магазине имеют склад магазина, указанный в заголовке или строках заказа.
 
 Операция исполнения заказа в POS-терминале обеспечивает единую рабочую область в POS-терминале, которая может использоваться для обработки заказов. Это включает все, от приема заказа до пометки его как отгруженного или инициализации самовывоза из магазина.
+
+Следующий видеоролик содержит обзор и демонстрацию возможностей выполнения в магазине в Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Доступ к единому выполнению заказа в POS-терминале
 

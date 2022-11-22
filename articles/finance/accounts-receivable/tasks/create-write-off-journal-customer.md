@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713681"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775308"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Создание журнала списания для клиента
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713681"
 7. Выберите **Область переходов > Модули > Главная книга > Записи журнала > Общие журналы**.
 8. Выберите номер партии журнала, который содержит списание. Одна строка создается для реверсирования сальдо клиента. Одна или несколько строк создаются для разноски списания на счет списания.  
 9. Закройте страницу.
-10. Закройте страницу.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Спишите проводки в форме сборов.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Списание проводок на странице сборов
 1. Перейдите в раздел **Кредит и сборы > Сборы > Сальдо по срокам**.
 2. Выберите имя клиента, имеющего проводки, которые необходимо списать. Например, выберите Cave Wholesales (US-004).
 3. Пометьте строку для первой проводки.
@@ -63,7 +63,7 @@ ms.locfileid: "8713681"
 10. Перейдите в раздел **Главная книга > Записи в журнале > Общие журналы**.
 11. Выберите номер партии журнала, который содержит списание. Одна строка создается для реверсирования сальдо клиента. Одна или несколько строк создаются для разноски списания на счет списания.  
 12. Закройте страницу.
-13. Закройте страницу.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Списание накладной на странице "Открытые накладные клиентов"
 1. Выберите **Область переходов > Модули > Расчеты с клиентами > Накладные > Открытые накладные клиента**.

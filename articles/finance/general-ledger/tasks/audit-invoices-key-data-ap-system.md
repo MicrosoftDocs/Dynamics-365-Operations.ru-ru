@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868368"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775224"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Аудит накладных и ключевых данных в модуле расчетов с поставщиками
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868368"
 
 При получении накладной от поставщика за товары или услуги по заказу на покупку для бизнес-процессов может потребоваться, чтобы товары или услуги были получены, прежде чем накладная может утверждена для платежа. Перед началом работы убедитесь, что выбран конфигурационный ключ "Сопоставление накладных". 
 
-На странице **Параметры расчетов с поставщиками** убедитесь, что установлен флажок "Включить проверку сопоставления накладных", в поле **Разнести накладную с несоответствиями** задано значение **Требуется утверждение** и в поле **Политика проверки соответствия строк** задано значение **Трехстороннее сопоставление**.
+На странице **Параметры расчетов с поставщиками** убедитесь, что выбран параметр **Включить проверку сопоставления накладных**, в поле **Разнести накладную с несоответствиями** задано значение **Требуется утверждение** и в поле **Политика проверки соответствия строк** задано значение **Трехстороннее сопоставление**.
 
 В данной процедуре используется демонстрационная компания USMF. Эти шаги выполняются ролями менеджера по расчету с поставщиками или главного бухгалтера.
 
