@@ -190,7 +190,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/supply-chain
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/supply-chain
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/supply-chain
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/supply-chain
@@ -1929,6 +1929,8 @@
                   href: master-planning/planning-optimization/ddmrp-planning.md
                 - name: Визуальное и совместное выполнение
                   href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+                - name: Вопросы и ответы об DDMRP
+                  href: master-planning/planning-optimization/ddmrp-faqs.md
             - name: Устаревшая подсистема планирования
               items:
                 - name: Обзор устаревшей подсистемы планирования

@@ -188,7 +188,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/finance
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/finance
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/finance
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/finance
@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Начало работы с электронным выставлением накладных для Польши
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Начало работы с электронным выставлением накладных для Саудовской Аравии
+                        - name: Начало работы с электронным выставлением накладных для Саудовской Аравии — стадия I
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Начало работы с электронным выставлением накладных для Саудовской Аравии — стадия II
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Внедрение электронного выставления накладных в Саудовской Аравии
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779889"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804110"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Настройка банковских услуг и профилей разноски для гарантийного письма
 
@@ -56,7 +56,7 @@ ms.locfileid: "9779889"
 8. В поле **Тип ссуды** введите имя типа банковской услуги, которая связана с договором о банковских услугах.
 9. В поле **Описание** введите значение.
 10. В поле **Группа ссуды** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-11. В списке найдите и выберите требуемую запись.
+11. Поиск и выбор требуемой записи в списке.
 12. В списке перейдите по ссылке в выбранной строке.
 13. В поле **Характер ссуды** выберите один из вариантов.
 14. Нажмите кнопку **Сохранить**.

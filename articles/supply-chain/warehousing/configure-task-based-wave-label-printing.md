@@ -2,7 +2,7 @@
 title: График печати этикеток волны во время волны
 description: Эта статья описывает, как настроить и использовать функции для печати меток волны на основе задач.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889467"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822371"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>График печати этикеток волны во время волны
 
@@ -32,7 +32,6 @@ ms.locfileid: "8889467"
 
 Для использования описанных в этой статье функций они должны быть включены в системе. Используйте рабочую область [Управление функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), чтобы включить следующие функции в следующем порядке:
 
-1. *Печать этикеток волны* — эта функция необходима для включения метода процесса волны для печати этикеток волны.
 1. *Блокировка работы для всей организации* — эта функция необходима для ручной и автоматической настройки создания запланированной работы. (В Supply Chain Management версии 10.0.21 эта функция является обязательной, поэтому она включается по умолчанию и не может быть отключена снова.)
 1. *Печать этикеток волны на основе задач* — эта функция необходима для разделения печати этикеток волны в отдельную область проводок.
 

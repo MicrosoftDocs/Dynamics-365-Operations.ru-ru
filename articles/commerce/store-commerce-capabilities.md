@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725642"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788522"
 ---
 # <a name="store-commerce-app-capabilities"></a>Возможности приложения Store Commerce
 
@@ -41,7 +41,7 @@ ms.locfileid: "9725642"
 
 | Способность | Описание | Документация | Дополнительное содержимое |
 |---|---|---|---|
-| Несколько форм-факторов | Приложение Store Commerce поддерживается на устройствах нескольких форм-факторов, таких как ПК, планшеты и мобильные устройства. Отзывчивый пользовательский интерфейс обеспечивает автоматическое изменение размеров и настраивается под размер экрана. | [Визуальные конфигурации](pos-screen-layouts.md) | |
+| Несколько форм-факторов | Приложение Store Commerce поддерживается на устройствах нескольких форм-факторов, таких как ПК, планшеты и мобильные устройства. Отзывчивый пользовательский интерфейс обеспечивает автоматическое изменение размеров и настраивается под размер экрана. | [Визуальные конфигурации](pos-screen-layouts.md) |  |
 | Кросс-платформенность | Приложение Store Commerce поддерживается на платформах веб-приложений, Windows, iOS и Android. | [Платформы](dev-itpro/hybridapp.md) | |
 | Фирменная символика | Конструктор экранов позволяет настраивать макеты экрана в соответствие с деловыми требованиями пользователя. Кроме того, темы, макеты, цвета и изображения могут быть созданы на основе ролей сотрудников, а затем могут совместно использоваться пользователями для обеспечения согласованности торговой марки и простоты использования. | [Визуальные конфигурации](pos-screen-layouts.md) | [Видео](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Топология | Поддерживаются различные топологии в магазине, в зависимости от доступности сети. | <p>[Топология](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Инфографика](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ ms.locfileid: "9725642"
 | Поиск продукта | Можно искать продукты по имени и уточнять результаты поиска с использованием атрибутов продукта, таких как марка, цена и материал. Эта возможность обеспечивается с помощью когнитивного поиска Azure. | [Поиск на облачной платформе](cloud-powered-search-overview.md) | |
 | Страница Сведения о продукте | Страницы с подробными сведениями о продуктах могут содержать изображения, описание, атрибуты продукта и рекомендованные продукты. Рекомендации предоставляются службой рекомендаций. | | |
 | Сравнение продуктов | Сравните несколько продуктов, и помогите клиентам выбрать один из них и добавить его в проводку. | | |
-| Бесконечный проход | Простой поиск запасов в других магазинах и создание заказов. | [Поиск запасов](pos-inventory-lookup-operation.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Бесконечный проход | Простой поиск запасов в других магазинах и создание заказов. | [Поиск запасов](pos-inventory-lookup-operation.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Рекомендации | Расширенная и перекрестная продажа продуктов при помощи службы рекомендаций. Эта служба использует запатентованную технологию для предложения рекомендаций, основанных на тенденциях покупок, и таких характеристик, как новые поступления, аналогичный вид и бестселлеры. Эти рекомендации доступны на страницах сведений о продукте, на странице **Сведения о клиенте** и на странице **Проводки**. | [Рекомендации](product-recommendations.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Взаимоотношения с клиентами
@@ -88,8 +88,8 @@ ms.locfileid: "9725642"
 | Атрибуты клиента | Платформа атрибутов клиентов позволяет регистрировать дополнительные данные, связанные с клиентами, в зависимости от бизнес-требований. | [Атрибуты](dev-itpro/customer-attributes.md) | |
 | Страница сведений о клиенте | Страница подробных сведений о клиенте предоставляет многоканальное представление взаимодействий с клиентом по всем каналам. Эти взаимодействия включают в себя покупки, списки желаемых покупок и баллы по программе лояльности. | | |
 | Поиск клиента на облачной платформе | Поиск клиентов по имени, номеру телефона, адресу электронной почты, карточке постоянного клиента, адресу и т. д. | [Поиск на облачной платформе](pos-search-improvements.md#customer-search) | |
-| Программа постоянного клиента и вознаграждения | Клиенты могут присоединяться к программам лояльности и получать и использовать баллы по программе лояльности по всем каналам. | [Лояльность](set-up-customer-loyalty-program.md) | |
-| Отношения с клиентами | Управление основными клиентами с помощью книги клиентов и отслеживание действий и примечаний по профилю клиента. Интеграция Dynamics 365 Customer Insights позволяет сотрудникам получать советы по следующему оптимальному действию для каждого клиента. | [Отношения с клиентами](clienteling-overview.md#activities-and-notes) | |
+| Программа постоянного клиента и вознаграждения | Клиенты могут присоединяться к программам лояльности и получать и использовать баллы по программе лояльности по всем каналам. | [Лояльность](set-up-customer-loyalty-program.md) | [Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Отношения с клиентами | Управление основными клиентами с помощью книги клиентов и отслеживание действий и примечаний по профилю клиента. Интеграция Dynamics 365 Customer Insights позволяет сотрудникам получать советы по следующему оптимальному действию для каждого клиента. | [Отношения с клиентами](clienteling-overview.md#activities-and-notes) | [Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Цены и скидки
 
@@ -132,8 +132,8 @@ ms.locfileid: "9725642"
 | Атрибуты заказа | Платформа атрибутов заказов позволяет регистрировать дополнительные сведения, связанные с заказами, в зависимости от бизнес-требований. | [Атрибуты](dev-itpro/order-attributes.md) | |
 | Прямая поставка | Номенклатуры могут быть помечены для прямой поставки поставщиком по адресу клиента. Прямую поставку называют также поставкой без посредника. | [Прямая поставка](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Предложение | Сотрудники магазина могут создавать предложения для клиентов, а также задавать специальную цену, скидки вручную и дату действия предложения. | [Предложение](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Выполнение | Магазины могут комплектовать, упаковывать и отгружать заказы. Отборочная накладная может быть добавлена в пакеты, готовые для отгрузки. | [Выполнение](order-fulfillment-overview.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Распределенное управление заказами | Приложение Store Commerce поддерживает интеллектуальную оптимизацию выполнения заказов, где бизнес-стратегии могут настраиваться на основе характера бизнеса, типа клиента, источника заказа и метода поставки для заказа. | [DOM](dom.md) | |
+| Выполнение | Магазины могут комплектовать, упаковывать и отгружать заказы. Отборочная накладная может быть добавлена в пакеты, готовые для отгрузки. | [Выполнение](order-fulfillment-overview.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Видео](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Распределенное управление заказами | Приложение Store Commerce поддерживает интеллектуальную оптимизацию выполнения заказов, где бизнес-стратегии могут настраиваться на основе характера бизнеса, типа клиента, источника заказа и метода поставки для заказа. | [DOM](dom.md) | [Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Управление запасами
 
@@ -141,12 +141,12 @@ ms.locfileid: "9725642"
 |---|---|---|---|
 | Централизованное распределение | Оптимизация распределения доступных запасов из центра распределения на несколько магазинов или складов. | [Централизованное распределение](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Кросс-докинг | Оптимизируйте распределение складских запасов по входящим заказам на покупку по нескольким магазинам или складам. | [Кросс-докинг](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Входящие запасы | Получение запасов от поставщика с помощью заказа на покупку или с другого склада с помощью заказа на перемещение. Создание запроса входящего заказа на покупку или заказа на перемещение. | [Входящая](pos-inbound-inventory-operation.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Исходящие запасы | Отгрузка запасов на другой склад по заказу на перемещение и создание запрос на исходящий заказ на перемещение. | [Исходящая](pos-outbound-inventory-operation.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Поиск запасов | Проверка запасов в наличии для продуктов по магазинам и складам, и проверка доступных для резервирования (ATP) запасов в наличии на будущие даты. | [Поиск запасов](pos-inventory-lookup-operation.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Корректировка запасов | Корректировка входящих или исходящих запасов на складе магазина в соответствие с конкретными деловыми требованиями без использования продаж, прихода или переучета. | [Корректировка запасов](work-with-store-inventory.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Инвентаризация запасов | Инвентаризация физических запасов и корректировка запасов в системе учета, чтобы они совпадали. | [Инвентаризация](work-with-store-inventory.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Перемещение запасов | Перемещение запасов между местами хранения в магазине. | [Перемещение](work-with-store-inventory.md) | [Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Входящие запасы | Получение запасов от поставщика с помощью заказа на покупку или с другого склада с помощью заказа на перемещение. Создание запроса входящего заказа на покупку или заказа на перемещение. | [Входящая](pos-inbound-inventory-operation.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Исходящие запасы | Отгрузка запасов на другой склад по заказу на перемещение и создание запрос на исходящий заказ на перемещение. | [Исходящая](pos-outbound-inventory-operation.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Поиск запасов | Проверка запасов в наличии для продуктов по магазинам и складам, и проверка доступных для резервирования (ATP) запасов в наличии на будущие даты. | [Поиск запасов](pos-inventory-lookup-operation.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Корректировка запасов | Корректировка входящих или исходящих запасов на складе магазина в соответствие с конкретными деловыми требованиями без использования продаж, прихода или переучета. | [Корректировка запасов](work-with-store-inventory.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Инвентаризация запасов | Инвентаризация физических запасов и корректировка запасов в системе учета, чтобы они совпадали. | [Инвентаризация](work-with-store-inventory.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Перемещение запасов | Перемещение запасов между местами хранения в магазине. | [Перемещение](work-with-store-inventory.md) | <p>[Технические вопросы](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Видео](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Финансы
 

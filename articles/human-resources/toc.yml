@@ -564,15 +564,17 @@
               href: hr-leave-and-absence-plans.md
             - name: Назначение работников плану отпусков
               href: hr-leave-and-absence-enroll.md
-            - name: Начисление планов отпусков и отсутствия
+            - name: Начисление планов отпусков и отсутствий
               href: hr-leave-and-absence-accrue.md
             - name: Приостановка отпуска
               href: hr-leave-and-absence-suspend-leave.md
             - name: Запрос на отпуск
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Создание отпуска с открытой датой
+              href: hr-create-open-leave-absence.md
             - name: Управление отпусками сотрудников
               href: hr-leave-and-absence-manage-employee-leave.md
-            - name: Просмотр аналитики по отпускам и отсутствию
+            - name: Просмотр аналитики по отпускам и отсутствиям
               href: hr-leave-and-absence-analytics.md
             - name: Управление запросами на отпуска и отсутствие
               href: hr-employee-self-service-manage-requests.md

@@ -210,7 +210,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/commerce
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/commerce
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/commerce
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/commerce
@@ -1010,13 +1010,29 @@
                   href: manage-robots-txt-files.md
                 - name: Пакетная отправка перенаправлений URL-адресов
                   href: upload-bulk-redirects.md
-                - name: Настройка клиента B2C в модуле Commerce
-                  href: set-up-B2C-tenant.md
+                - name: Настройка арендатора B2C в Commerce
+                  items:
+                    - name: Настройка арендатора B2C
+                      href: set-up-B2C-tenant.md
+                    - name: Создание арендатора B2C в Azure AD или подключение к существующему
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Создание приложения B2C
+                      href: create-b2c-app.md
+                    - name: Создание политик потоков пользователей
+                      href: create-user-flow-policies.md
+                    - name: Добавление поставщиков удостоверений в социальных сетях
+                      href: add-social-identity-providers.md
+                    - name: Перенос информации B2C из Azure AD в Commerce Headquarters
+                      href: update-hq-aad-b2c-info.md
+                    - name: Настройка арендатора B2C в конструкторе сайтов
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Дополнительная информация B2C
+                      href: additional-b2c-info.md
                 - name: Настройка пользовательских страниц для входа пользователей
                   href: custom-pages-user-logins.md
                 - name: Включение автоматического связывания записей идентификации и счетов клиентов
                   href: identity-record-linking.md
-                - name: Настройка нескольких клиентов B2C в среде Commerce
+                - name: Настройка нескольких арендаторов B2C в среде Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Домены в Dynamics 365 Commerce
                   href: domains-commerce.md
@@ -1570,6 +1586,8 @@
               items:
                 - name: Создание QR-кодов и их печать в чеках для Саудовской Аравии
                   href: localizations/emea-sau-qr-code.md
+                - name: Создание и отправка упрощенных электронных накладных для Саудовской Аравии
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Швеция
               items:
                 - name: Функциональность контрольно-кассовой машины
@@ -2984,17 +3002,17 @@
                   href: troubleshoot/store-commerce-extensions.md
             - name: Обработка заказа
               items:
-                - name: Ошибка "Тип платежа должен быть кредитной картой"
+                - name: Ошибка "В качестве типа платежа должна быть указана кредитная карта"
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Налоги по интернет-заказам рассчитываются неправильно
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: 'Ошибка синхронизации заказа, связанная со службой платежей по умолчанию'
+                - name: Проблемы при асинхронной синхронизации заказов
                   href: troubleshoot/synchronization-error.md
             - name: Обработка платежей
               items:
-                - name: Возмещение расходов по заказу на возврат отклонено
+                - name: Возврат денежных средств по заказу на возврат отклоняется
                   href: troubleshoot/refund-declined.md
-                - name: Возмещаемые накладные расходы рассчитаны неверно на основе возвращенного количества
+                - name: Возмещаемые накладные расходы рассчитываются неправильно по возвращенному количеству
                   href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector для Adyen
                   items:

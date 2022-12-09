@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872278"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806384"
 ---
 # <a name="recruiting-request"></a>Запрос на набор сотрудников
 
@@ -68,7 +68,7 @@ ms.locfileid: "8872278"
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ ms.locfileid: "8872278"
 | **Состояние**<br>mshr_status<br>Набор параметров *RecruitingRequestStatus* | Чтение/запись<br>Требуется<br> | Указывает статус запроса на набор сотрудников. |
 | **Описание**<br>mshr_description<br>*Строка* | Чтение/запись<br>Требуется | Описывает запрос. |
 | **ИД местонахождения запроса на набор сотрудников**<br>mshr_recruitingrequestlocationid<br>*Строка* | Чтение/запись<br>Необязательный | Понятный пользователю уникальный идентификатор местоположения должности, связанного с данным запросом. |
-| **Значение ИД местонахождения набора сотрудников**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Только для чтения<br>Необязательный<br>Внешний ключ: mshr_hcmrecruitingrequestlocationentityid сущности mshr_hcmrecruitingrequestlocationentity | Созданное системой значение GUID для идентификации местоположения запроса набора сотрудников, выбранного для запроса. |
+| **Значение ИД местонахождения набора сотрудников**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Только для чтения<br>Необязательно<br>Внешний ключ: mshr_hcmrecruitingrequestlocationentityid сущности mshr_hcmrecruitingrequestlocationentity | Созданное системой значение GUID для идентификации местоположения запроса набора сотрудников, выбранного для запроса. |
 | **Комментарии**<br>mshr_comments<br>*Строка* | Чтение/запись<br>Необязательный | Комментарии о запросе для использования менеджерами и специалистами по найму. |
 | **Код задания**<br>mshr_jobid<br>*Строка* | Однократная запись<br>Требуется |   Понятный пользователю уникальный идентификатор должности, общих для всех позиций, связанных с данным запросом. |
 | **Значение ИД должности**<br>_mshr_fk_job_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_hcmjobentityid сущности mshr_hcmjobentity | Созданный системой уникальный идентификатор должности, общих для всех позиций, связанных с запросом на набор сотрудников. |

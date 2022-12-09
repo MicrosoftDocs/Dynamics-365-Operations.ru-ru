@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276725"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819278"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Настройка налога для интернет-заказов
 
@@ -33,6 +33,8 @@ ms.locfileid: "9276725"
 ## <a name="destination-based-taxes-for-online-orders"></a>Налоги по месту назначения для интернет-заказов
 
 В общем случае налоги для интернет-заказов, доставляемых по адресу клиентов, определяются пунктом назначения. Каждая налоговая группа имеет конфигурацию налога на основе места назначения розничной доставки, в которой предприятие может определить сведения о месте назначения, такие как страна или регион, область, район и город в иерархической форме.
+
+Конфигурация для **Налога на основе розничной торговли** находится в разделе **Налоговый модуль > Косвенные налоги > Налог > Налоговые группы**.
 
 ### <a name="orders-delivered-to-customer-address"></a>Заказы доставлены на адрес покупателя
 

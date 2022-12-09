@@ -1,26 +1,21 @@
 ---
 title: Распределенное управление заказами (DOM)
-description: В этой статье описывается функция распределенного управления заказами (DOM) в Dynamics 365 Commerce.
+description: В этой статье описывается функция распределенного управления заказами (DOM) в Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 02/08/2022
+ms.date: 11/16/2022
 ms.topic: index-page
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: cfb89544580141ed397d27886f51fd0f1ac138d2
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764190"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785191"
 ---
 # <a name="distributed-order-management-dom"></a>Распределенное управление заказами (DOM)
 
@@ -36,7 +31,12 @@ DOM использует частично-целочисленное прогр�
 
 ![Жизненный цикл заказа на продажу в контексте DOM.](./media/flow.png "Жизненный цикл заказа на продажу в контексте DOM")
 
-## <a name="set-up-dom"></a>Настроить DOM
+В следующем видеоролике представлен обзор возможностей DOM в Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRYl]
+
+## <a name="set-up-dom"></a>Настройка DOM
 
 1. Перейдите в раздел **Администрирование системы \> Настройка \> Конфигурация лицензии**.
 2. На вкладке **Конфигурационные ключи** разверните узел **Commerce** узел, а затем установите флажок **Распределенное управление заказами**.
