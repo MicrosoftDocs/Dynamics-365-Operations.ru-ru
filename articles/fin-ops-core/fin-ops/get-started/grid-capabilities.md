@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405474"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852393"
 ---
 # <a name="grid-capabilities"></a>Возможности сетки
 
@@ -225,6 +225,7 @@ ms.locfileid: "9405474"
 ### <a name="open-issues"></a>Открытые проблемы
 - После включения функции **Новый элемент управления сетки** для некоторых страниц будет использоваться существующий элемент управления "сетка". Это произойдет в следующих ситуациях:
  
+    - [Устранена] Проблема 762533: непредвиденная ошибка клиента при выборе строки в списке карточек.
     - [Разрешено] На странице есть список карточек, отображаемый в нескольких столбцах.
         - Этот тип списка карт поддерживается **новым элементом управления grid**, начиная с версии 10.0.30. Любое использование forceLegacyGrid() для этой цели может быть удалено. 
     - [Разрешено] На странице есть сгруппированный список карточек.

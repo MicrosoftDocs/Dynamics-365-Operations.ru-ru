@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 3fe21df8be010ace3070ad08ed95f3d3efc7b01d
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752699"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838564"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Известные проблемы объединение инфраструктуры Dynamics 365 Human Resources
 
@@ -43,4 +43,8 @@ ms.locfileid: "9752699"
 ## <a name="teams-integration"></a>Интеграция с Teams
 
 Существующее приложение Human Resources в Teams в данный момент переводится в решение Microsoft Power Platform. Дополнительные сведения см. в разделе [Приложение Human Resources в Teams](hr-admin-teams-leave-app.md).
+
+## <a name="dual-write-integration"></a>Интеграция двойной записи
+
+Двойная запись — это готовая инфраструктура, обеспечивающая взаимодействие практически в режиме реального времени между приложениями для взаимодействия с клиентами и приложениями для управления финансами и операциями. Если ваша организация использует двойную запись для интеграции, это может повлиять на некоторые обнаруженные проблемы. Дополнительные сведения о таблицах Dataverse и проблемах см. в разделе [Таблицы Dataverse](hr-developer-entities.md).
 

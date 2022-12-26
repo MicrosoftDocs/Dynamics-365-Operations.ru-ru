@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780367"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838238"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>Настройка Apple Pay с Adyen в Dynamics 365 Commerce
 
@@ -102,13 +102,6 @@ Apple Pay — это метод платежа цифровым бумажник
 
 1. После ввода информации о продавце выполните задание по графику распределения конфигурации канала **1070**.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>Настройка POS-терминала Commerce для Apple Pay
-
-В конфигурации POS-терминала используется настройка поля **Служба EFT** в профиле оборудования для соединителя Dynamics 365 Payment Connector для Adyen. В Commerce headquarters настройте сервис EFT для соединителя Dynamics 365 Payment Connector для Adyen, как описано в разделе [Настройка раздела профиля оборудования POS-терминала Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Убедитесь, что вы добавили **ApplePay** в список типов платежных средств в поле **Поддерживаемые типы платежных средств**. Используйте точку с запятой (;) для разделения типов платежных средств в списке.
-
-При сопоставлении процессоров для соединителя Adyen будут зафиксированы типы карт бумажников, используемые Apple Pay на POS-терминале.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>Настройка политик безопасности содержимого в конструкторе сайтов
 
@@ -138,6 +131,14 @@ Apple Pay — это метод платежа цифровым бумажник
 Кнопка оплаты **Apple Pay** отображается только на поддерживаемых устройствах Apple Pay (iPhone, iPads и браузеры Safari, поддерживающие Apple Pay). Если пользователь не использует одно из этих устройств, кнопка оплаты **Apple Pay** не отображается.
 
 Когда пользователь выбирает кнопку оплаты **Apple Pay**, отображается диалоговое окно **Apple Pay**. В нем пользователь может выполнить проверку подлинности с помощью своего устройства Apple Pay или браузера. В диалоговом окне **Apple Pay** отображается сводка по сумме заказа и методу оплаты, которые пользователь настроил для своего бумажника Apple. Пользователь может просмотреть эти сведения, затем выбрать **Оплатить** для завершения платежа. После завершения платежа пользователь направляется на страницу сайта **Заказ завершен**, на которой показана подробная сводка заказа для завершенной проводки.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>Настройка POS-терминала Commerce для Apple Pay
+
+В конфигурации POS-терминала используется настройка поля **Служба EFT** в профиле оборудования для соединителя Dynamics 365 Payment Connector для Adyen. В Commerce headquarters настройте сервис EFT для соединителя Dynamics 365 Payment Connector для Adyen, как описано в разделе [Настройка профиля оборудования POS-терминала Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Убедитесь, что вы добавили **ApplePay** в список типов платежных средств в поле **Поддерживаемые типы платежных средств**. Используйте точку с запятой (;) для разделения типов платежных средств в списке.
+
+При сопоставлении процессоров для соединителя Adyen будут зафиксированы типы карт бумажников, используемые Apple Pay на POS-терминале.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

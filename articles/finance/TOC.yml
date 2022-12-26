@@ -188,7 +188,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/finance
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/finance
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/finance
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/finance
@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: Электронный отчет "Стандартный файл налогового аудита (SAF-T)"
                   href: general-ledger/standard-audit-file.md
+                - name: Запрос сопоставления ГК
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Закрытие периода
               items:
                 - name: Закрытие ГК в конце периода
@@ -1186,8 +1188,20 @@
                   href: general-ledger/faq-year-end-activities.md
                 - name: Сопоставления ГК
                   href: general-ledger/ledger-settlements.md
-                - name: Зависимость между сопоставлением ГК и закрытием года
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Зависимость между сопоставлением книги учета и закрытием года
+                  items:
+                    - name: Зависимость между сопоставлением книги учета и закрытием года
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Подготовка к использованию функции "Зависимость между сопоставлением книги учета и закрытием года" перед закрытием года
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Подготовка к использованию функции "Зависимость между сопоставлением книги учета и закрытием года" после закрытия года
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Функция "Зависимость между сопоставлением книги учета и закрытием года" и несбалансированность по валюте отчетности
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Использование функции "Зависимость между сопоставлением книги учета и закрытием года" перед закрытием года с помощью окна запроса
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Использование функции "Зависимость между сопоставлением книги учета и закрытием года" после закрытия года с помощью окна запроса
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Автоматизация сопоставлений ГК
                   href: general-ledger/auto-settle.md
                 - name: Переоценка в иностранной валюте для главной книги

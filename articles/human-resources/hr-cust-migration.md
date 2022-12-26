@@ -2,7 +2,7 @@
 title: Миграция клиентов Dynamics 365 Human Resources в инфраструктуру для управления финансами и операциями
 description: В этой статье описывается миграция клиентов Microsoft Dynamics 365 Human Resources в инфраструктуру приложений для управления финансами и операциями.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760371"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831729"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Миграция клиентов Dynamics 365 Human Resources
 
@@ -43,7 +43,7 @@ ms.locfileid: "9760371"
  - Скопируйте существующую среду Dataverse, связанную с автономным приложением Human Resources, в среду, созданную на предыдущем шаге.
 
 > [!NOTE]
-> При добавлении базы данных убедитесь, что для параметра **Включить приложения Dynamics 365** установлено значение **Да**. Подробные сведения см. в разделе [Подготовка среды Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
+> При добавлении базы данных убедитесь, что для параметра **Включить приложения Dynamics 365** установлено значение **Да**. Подробные сведения см. в разделе [Подготовка среды Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment).
 
 ### <a name="dataverse-capacity"></a>Емкость Dataverse
 
@@ -67,7 +67,7 @@ ms.locfileid: "9760371"
 7. Выберите флажок, чтобы принять условия.
 8. Выберите **Создать**.
 
-После создания нового проекта Lifecycle Services выполните следующие действия, чтобы настроить и сконфигурировать его.
+После создания нового проекта Lifecycle Services выполните следующие действия, чтобы настроить и сконфигурировать проект.
 
 1. Выберите **Адаптация проекта**, чтобы завершить адаптацию проекта. Дополнительные сведения см. в разделе [Адаптация проекта](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md).
 
@@ -158,6 +158,7 @@ ms.locfileid: "9760371"
 
 - Должно быть выполнено средство оценки подписки.
 - Оценка [готовности к вводу в эксплуатацию](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) должна быть завершена.
+- Пользователь, инициирующий производственную миграцию в Lifecycle Services, должен иметь роль системного администратора на Power Platform. 
 
 #### <a name="migrate-the-production-environment"></a>Миграция производственной среды
 

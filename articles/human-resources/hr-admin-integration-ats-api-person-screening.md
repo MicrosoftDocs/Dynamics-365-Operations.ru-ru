@@ -2,7 +2,7 @@
 title: Отбор для лица
 description: В этой статье описывается сущность "Отбор для лица" для Dynamics 365 Human Resources.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c316e0381f4d407ed7c4c39b5949717b71477bd
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907650"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831899"
 ---
 # <a name="person-screening"></a>Отбор для лица
 
@@ -44,6 +44,7 @@ ms.locfileid: "8907650"
     "mshr_status": Int,
     "mshr_partynumber": "String",
     "mshr_screeningtypeid": "String",
+    "_mshr_fk_screeningtype_id_value": "Guid",
     "mshr_primaryfield": "String",
     "_mshr_fk_person_id_value": "Guid",
     "mshr_hcmpersonscreeningentityid": "Guid",
@@ -53,17 +54,19 @@ ms.locfileid: "8907650"
 
 ## <a name="properties"></a>Свойства
 
-| Свойство<br>**Физическое имя**<br>**_Вид_** | Использование | описание |
+| Свойство<br>**Физическое имя**<br>**_Тип_** | Использование | Наименование |
 | --- | --- | --- |
-| **Код сущности отбора для физического лица**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | Только для чтения<br>Требуется<br>Создано системой | Уникальный первичный идентификатор записи отбора физического лица. |
-| **Номер субъекта**<br>mshr_partynumber<br>*Строка* | Чтение/запись<br>Требуется | Номер субъекта (лица), связанный с кандидатом. |
-| **Значение ИД физического лица**<br>_mshr_fk_person_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_dirpersonentityid сущности mshr_dirpersonentity | Созданный системой уникальный идентификатор записи сущности субъекта (физического лица). |
+| **Основание**<br>mshr_note<br>*Строка* | Чтение/запись<br>Необязательный | Примечания для использования сотрудниками или менеджерами по найму персонала. |
+| **Требуется к**<br>mshr_requiredby<br>*Дата и время* | Чтение/запись<br>Необязательный | Дата, к которой требуется завершить отбор. |
+| **Состояние**<br>mshr_status<br>*Набор параметров mshr_hcmcompletionstatus*|Чтение/запись<br>Обязательное поле | Предоставляет статус кандидата для отбора. |
+| **Номер субъекта**<br>mshr_partynumber<br>*Строка* | Чтение/запись<br>Обязательное поле | Номер субъекта (лица), связанный с кандидатом. |
 | **ИД типа отбора**<br>mshr_screeningtypeid<br>*Строка* | Чтение/запись<br>Требуется<br>Внешний ключ: ScreeningType | Идентификатор типа отбора, определенный в модуле Human Resources. |
 | **Значение ИД типа отбора**<br>_mshr_fk_screeningtype_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_hcmscreeningtypeentityid сущности mshr_hcmscreeningtypeentity | Созданный системой идентификатор для записи типа отбора в связанной сущности. |
-| **Требуется к**<br>mshr_requiredby<br>*Дата и время* | Чтение/запись<br>Необязательный | Дата, к которой требуется завершить отбор. |
-| **Состояние**<br>mshr_status<br>*Набор параметров mshr_hcmcompletionstatus*<br>Чтение/запись<br>Требуется | Предоставляет статус кандидата для отбора. |
+| **Основное поле**<br>mshr_primaryfield<br>*Строка* |  Только для чтения<br>Обязательное поле | Поле для, использования в качестве идентификатора записи сущности. |
+| **Значение ИД физического лица**<br>_mshr_fk_person_id_value<br>*GUID* | Только для чтения<br>Требуется<br>Внешний ключ: mshr_dirpersonentityid сущности mshr_dirpersonentity | Созданный системой уникальный идентификатор записи сущности субъекта (физического лица). |
+| **Код сущности отбора для физического лица**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | Только для чтения<br>Требуется<br>Создано системой| Уникальный первичный идентификатор записи отбора физического лица. |
 | **Дата завершения**<br>mshr_completeddate<br>*Дата и время* | Чтение/запись<br>Необязательный | Дата завершения отбора. |
-| **Основание**<br>mshr_note<br>*Строка* | Чтение/запись<br>Необязательный | Примечания для использования сотрудниками или менеджерами по найму персонала. |
+
 
 ## <a name="see-also"></a>См. также
 

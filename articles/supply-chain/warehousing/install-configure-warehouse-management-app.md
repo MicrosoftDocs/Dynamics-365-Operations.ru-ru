@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714771"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838481"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Установка и подключение мобильного приложения Warehouse Management
 
@@ -58,10 +58,10 @@ ms.locfileid: "9714771"
 
 В качестве альтернативы установке из магазина приложений вместо этого можно загрузить приложение из центра приложений Microsoft. Центр приложений предоставляет устанавливаемые пакеты, для которых можно загрузить неопубликованные приложения. В дополнение к текущей версии центр приложений также позволяет загрузить предыдущие версии и может предоставить предварительные версии с предстоящими функциями, которые можно попробовать. Для загрузки текущих, предыдущих или предварительных версий мобильного приложения управления складом из центра приложения Майкрософт используйте одну из следующих ссылок:
 
-- **Windows (UWP):** [Управление складом (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Управление складом (Windows)](https://aka.ms/wma-windows-official-release)  
     Инструкции по установке загруженного пакета на устройстве с Windows и последующей настройке необходимых сертификатов см. в разделе [Установка сборки из центра приложений](/appcenter/distribution/installation).
 
-- **Android:** [Управление складом (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Управление складом (Android)](https://aka.ms/wma-android-official-release)  
     Если загрузить предварительную версию, для ее установки требуется несколько дополнительных шагов. Подробности см. в разделе [Тестирование приложений Android](/appcenter/distribution/testers/testing-android).
 
 Сведения о том, как установить сборку, загруженную из центра приложений, см. в разделе [Установка сборки](/appcenter/distribution/installation).

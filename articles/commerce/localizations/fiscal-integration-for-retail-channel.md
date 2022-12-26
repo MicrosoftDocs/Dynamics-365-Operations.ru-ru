@@ -2,19 +2,19 @@
 title: Обзор финансовой интеграции для каналов Commerce
 description: В этой статье представлен обзор возможностей финансовой интеграции, доступных в Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631249"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831868"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Обзор финансовой интеграции для каналов Commerce
 
@@ -172,19 +172,17 @@ POS выполняет проверку состояния при возникн
 - [Пример интеграции с блоком управления для Швеции](./emea-swe-fi-sample.md)
 - [Пример интеграции службы финансовой регистрации для Германии](./emea-deu-fi-sample.md)
 - [Пример интеграции фискальных принтеров для России](./rus-fpi-sample.md)
+- [Образец цифровой подписи для Норвегии](./emea-nor-cash-registers.md)
 
 Следующие функции финансовой интеграции также реализуются с помощью инфраструктуры финансовой интеграции, но она доступна в готовом виде и не включается в Commerce SDK:
 
 - [Финансовая регистрация для Бразилии](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Цифровая подпись для Франции](./emea-fra-cash-registers.md)
 
-Следующие функциональные возможности финансовой интеграции также доступны в пакете Commerce SDK, но в данный момент не используют преимущества платформы финансовой интеграции. Перенос этих финансовых возможностей в платформу финансовой интеграции планируется в последующих обновлениях.
-
-- [Цифровая подпись для Норвегии](./emea-nor-cash-registers.md)
-
 Следующие устаревшие функции финансовой интеграции, доступные в Commerce SDK, не используют структуру финансовой интеграции и будут удалены в последующих обновлениях:
 
 - [Пример интеграции с блоком управления для Швеции (устар.)](./retail-sdk-control-unit-sample.md)
 - [Цифровая подпись для Франции (устарело)](./emea-fra-deployment.md)
+- [Цифровая подпись для Норвегии (устарела)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

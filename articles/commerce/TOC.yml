@@ -210,7 +210,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/commerce
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/commerce
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/commerce
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/commerce
@@ -1032,7 +1032,7 @@
                   href: custom-pages-user-logins.md
                 - name: Включение автоматического связывания записей идентификации и счетов клиентов
                   href: identity-record-linking.md
-                - name: Настройка нескольких арендаторов B2C в среде Commerce
+                - name: Настройка нескольких клиентов B2C в среде Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Домены в Dynamics 365 Commerce
                   href: domains-commerce.md
@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: Настройка Microsoft Clarity в Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Настройка оперативной аналитики
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Обзор Globalization Studio
@@ -3056,6 +3058,12 @@
               items:
                 - name: Настройка среды разработки электронной коммерции для отладки на виртуальной машине Retail Server уровня 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Финансы магазина
+              items:
+                - name: Проблемы с выверкой данных Z-отчета
+                  href: troubleshoot/z-report-issues.md
+                - name: Отчет о ошибках разноски вследствие отсутствия запасов или конфликтов обновления
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Разработка и администрирование приложений для управления финансами и операциями
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

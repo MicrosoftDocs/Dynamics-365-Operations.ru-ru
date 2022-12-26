@@ -190,7 +190,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?context=/dynamics365/context/supply-chain
                 - name: Отправка запроса на обслуживание
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?context=/dynamics365/context/supply-chain
-                - name: 'Вопросы и ответы по подпискам, проектам LCS и арендаторам Azure AD'
+                - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?context=/dynamics365/context/supply-chain
                 - name: Перемещение сред между центрами обработки данных
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?context=/dynamics365/context/supply-chain
@@ -1803,12 +1803,14 @@
                   href: master-planning/planning-optimization/quotation-planning.md
                 - name: Резервное время
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Допуск задержки (отрицательные дни)
+                - name: Допустимая задержка (отрицательные дни)
                   href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Заявки на покупку
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Планирование производства
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Настройка отходов для расчета потребностей в сырье
+                  href: master-planning/scrap-calculations.md
                 - name: Сводное планирование для продуктов с ограничением срока хранения
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Планирование без ограничений по мощности
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Создание выпущенного продукта для одной компании
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Использование информационных объектов
+                - name: Объекты данных продукта
                   href: pim/data-entities.md
                 - name: Состояние жизненного цикла продукта
                   items:

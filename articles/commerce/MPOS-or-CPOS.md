@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276463"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831566"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Выбор между Store Commerce и Cloud POS
 
@@ -71,7 +71,7 @@ Store Commerce — это классическое приложение, кот�
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce для Windows | Облако или RSSU       | Да               | Да               |
 | Store Commerce для Android | Облако или RSSU       | Нет                | Да               |
-| Store Commerce для iOS     | Облако или RSSU       | Нет                | Нет                |
+| Store Commerce для iOS     | Облако или RSSU       | Нет                | Да               |
 | Cloud POS                  | Облако или RSSU       | Нет                | Нет                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ Store Commerce для Windows поддерживает автономный ре
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce для Windows | Да            | Да                 | Да                |
 | Store Commerce для Android | Нет             | Да                 | Да                |
-| Store Commerce для iOS     | Нет             | Нет                  | Да                |
+| Store Commerce для iOS     | Нет             | Да                 | Да                |
 | Cloud POS                  | Нет             | Нет                  | Да                |
 
 Дополнительные сведения о том, как установить станцию оборудования, см. в разделе [Конфигурация и установка станции оборудования Retail](retail-hardware-station-configuration-installation.md).

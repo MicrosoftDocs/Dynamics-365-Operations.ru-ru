@@ -30,9 +30,11 @@
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (объединенная инфраструктура)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Что нового в Dynamics 365 Human Resources (отдельная версия)
+                - name: Что нового в Dynamics 365 Human Resources (отдельное приложение)
                   items:
-                    - name: 'Что нового в Dynamics 365 Human Resources (отдельная версия), архивы 2021'
+                    - name: "Что нового в Dynamics 365 Human Resources (отдельное приложение), декабрь 2022\_г."
+                      href: hr-whats-new-2022-12-12.md
+                    - name: "Что нового в Dynamics 365 Human Resources (отдельное приложение), архивы 2021\_г."
                       href: hr-admin-whats-new.md
                     - name: "29 ноября 2021\_г."
                       href: hr-whats-new-2021-11-29.md
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Вопросы и ответы по виртуальным таблицам Human Resources
                   href: hr-admin-virtual-entity-faq.md
+                - name: Настройка интеграции с Dataverse
+                  href: hr-dataverse-integration.md
                 - name: Настройка интеграции с Finance
                   href: hr-admin-integration-finance.md
                 - name: Настройка интеграции с Dayforce

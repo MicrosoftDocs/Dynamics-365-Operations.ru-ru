@@ -12,12 +12,12 @@ ms.search.region: Russia
 ms.author: atrukawk
 ms.search.validFrom: 2022-01-27
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34a9d7eb845076108d8c302e5af0690bbcbba8d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b7e7a983668f3ba7327e39558ba86060f479722
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292197"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843696"
 ---
 # <a name="enable-electronic-reporting-er-destinations-to-store-russian-accounting-documents"></a>Включение назначений электронной отчетности (ER) для хранения российских документов учета
 
@@ -79,8 +79,10 @@ ms.locfileid: "9292197"
 | KO-4                | Кассовая книга KO-4                               | KO-4           | Кассовая книга                                               | КО-4           | Excel     | Нет               |
 | CashDueAnnouncement | Передача денежных средств в банк — форма 0402001 | 402001         | Объявление на взнос наличными                                | 402001         | Excel     | Нет               |
 | CashCountStatement  | Акт инвентаризации денежных средств ИНВ-15                    | ИНВ-15         | Акт инвентаризации наличных денежных средств                 | ИНВ-15         | Excel     | Нет               |
+|CashCountStatementSupplement|Приложение к Акту инвентаризации наличных денежных средств ИНВ-15|               | Приложение к Акту инвентаризации наличных денежных средств   |                 | Excel     | Нет               |
+|RetailCashCollection | Отчеты по инкассированию                      |                | Отчеты по инкассированию                                     |                 | Excel     | Нет               |
 
-### <a name="bank"></a>Денежные средства
+### <a name="bank"></a>Банк
 
 Сведения о том, как печатать эти документы, см. в разделе [Настройка и обработка платежных поручений для России](rus-payment-order-settings-processing.md) и [Продажа, покупка и переводы иностранной валюты](rus-currency-sale-purchase.md).
 
@@ -89,6 +91,7 @@ ms.locfileid: "9292197"
 | PaymentOrder        | Платежное поручение — форма 0401060 | 401060         |                             | 401060         | Excel     | Нет               |
 | CurrencyTransfer    | Поручение на продажу валюты          |                | Поручение на продажу валюты |                | Word      | Нет               |
 | CurrencyTransfer    | Заказ на покупку валюты      |                | Поручение по покупку валюты |                | Word      | Нет               |
+| InvoiceForPayment   | Счет на оплату          |                | Счет на оплату              |                | Excel     | Да               |
 
 ### <a name="fixed-assets"></a>Основные средства
 
@@ -178,6 +181,11 @@ ms.locfileid: "9292197"
 | МХ-3                | Акт возврата с хранения МХ-3          | МХ-3           | Акт о возврате товарно-материальных ценностей, сданных на хранение                                   | МХ-3           | Excel     | Да              |
 | ИНВ-5               | Инвентаризационная опись ИНВ-5                      | ИНВ-5          | Инвентаризационная опись товарно-материальных ценностей, принятых на ответственное хранение          | ИНВ-5          | Excel     | Нет               |
 | ИНВ-6               | Акт инвентаризации товарно-материальных ценностей находящихся в пути ИНВ-6 | ИНВ-6          | Акт инвентаризации товарно-материальных ценностей находящихся в пути                                 | ИНВ-6          | Excel     | Нет               |
+| CorrFacture         | Корректирующий счет-фактура                       |                | Корректирующий счет-фактура                                                                         |                | Excel     | Нет               |
+|FactureAccountingJournal| Журнал учета счетов-фактур               |      | Журнал учета счетов-фактур                                                                           |                | Excel     | Нет               |
+|ActAdjust             | Акт сверки взаимных расчетов                 |          | Акт сверки взаиморасчетов                                                                             |                | Excel     | Нет               |
+|PurchBook             | Книга покупок                |          | Книга покупок                                                                            |                | Excel     | Нет               |
+|SalesBook             | Книга продаж                |          | Книга продаж                                                                            |                | Excel     | Нет               |
 
 ### <a name="general-ledger"></a>Главная книга
 
@@ -189,6 +197,8 @@ ms.locfileid: "9292197"
 | AccountReview                 | Анализ счета                  | Анализ счета                           | Excel     | Нет               |
 | JournalOrder                  | Журнал ордер/ведомость     | Журнал ордер/ведомость                 | Excel     | Нет               |
 | AccountActivityGeneralLedger  | Главная книга                     | Главная книга                          | Excel     | Нет               |
+| FactureAccountingJournal      | Журнал учета счетов-фактур         | Журнал учета счетов-фактур             | Excel     | Нет               |
+| RTax25RegTrans                | Строки регистра                     | Строки регистра                        | Excel     | Нет               |
 
 ### <a name="inventory-reports"></a>Отчеты о запасах
 
